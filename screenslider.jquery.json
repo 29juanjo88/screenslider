@@ -1,6 +1,6 @@
 {
     "name": "screenslider",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "title": "jQuery ScreenSlider",
     "description": "This plugin allows you to make a slideshow in the background of your website",
     "keyworkds": [
@@ -31,7 +31,7 @@
     "bugs": "https://github.com/juanjo2988/jquery_screenslider/issues",
     "docs": "https://github.com/juanjo2988/jquery_screenslider",
     "homepage": "http://juanjose.tk/screenslider/",
-    "download": "http://juanjose.tk/screenslider/screenslider.zip",
+    "download": "https://github.com/juanjo2988/screenslider/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.10"
  }
