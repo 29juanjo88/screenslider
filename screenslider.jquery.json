@@ -1,0 +1,38 @@
+{
+    "name": "ScreenSlider",
+    "version": "1.0.0",
+    "title": "jQuery ScreenSlider",
+    "description": "This plugin allows you to make a slideshow in the background of your website",
+    "keyworkds": [
+        "slideshow",
+        "slider",
+        "full screen",
+        "background slideshow",
+        "background slider",
+        "fullscreen"
+    ],
+    "author": {
+        "name": "Juan Jose Sanchez",
+        "url": "http://juanjose.tk/screenslider"
+    },
+    "maintainers": [
+        {
+            "name": "Juan Jose Sanchez",
+            "email": "juanjo2988@gmail.com",
+            "url": "http://juanjose.tk/screenslider"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "GPL v3",
+            "url": "https://github.com/juanjo2988/jquery_screenslider/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/juanjo2988/jquery_screenslider/issues",
+    "docs": "https://github.com/juanjo2988/jquery_screenslider",
+    "homepage": "http://juanjose.tk/screenslider/",
+    "download": "http://juanjose.tk/screenslider/screenslider.zip",
+    "dependencies": {
+        "jquery": ">=1.10"
+ }
+}
