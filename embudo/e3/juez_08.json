@@ -1,0 +1,152 @@
+[
+ {
+  "id": "G18-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "SimplyPrint Print Farm cuesta 39.99 USD/mes y existen opciones gratis (OctoPrint, Bambu Farm Manager, AutoFarm3D gratis hasta 3 impresoras).",
+  "competidores_verificados": [
+   {
+    "nombre": "SimplyPrint Print Farm",
+    "precio": "39.99 USD/mes",
+    "url": "https://simplyprint.io/pricing/print-farm.md"
+   },
+   {
+    "nombre": "AutoFarm3D",
+    "precio": "gratis hasta 3 impresoras; Lite 9.99 USD/mes (segun pagina de competidor)",
+    "url": "https://infinityflow3d.com/blogs/3d-print-farm-help/3dque-autofarm3d-alternative-flowq"
+   }
+  ],
+  "razon": "Hay gestores de granja gratis y de pago ya establecidos; a 29 USD sin angulo verificado falla F1. Descartada.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G01-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "Busqueda no halla app Shopify con cola de produccion real; EDD apps cuestan 0-20 USD y Orderkraft 69 USD/mes+uso es lo mas cercano.",
+  "competidores_verificados": [
+   {
+    "nombre": "Orderkraft: made to order",
+    "precio": "69 USD/mes + uso",
+    "url": "https://apps.shopify.com/orderkraft"
+   },
+   {
+    "nombre": "EDD Availability App",
+    "precio": "5.99 USD/mes",
+    "url": "https://apps.shopify.com/edd-availability-app"
+   },
+   {
+    "nombre": "ArrivesBy",
+    "precio": "gratis a 19.99 USD/mes",
+    "url": "https://apps.shopify.com/arrives-by"
+   }
+  ],
+  "razon": "Canal Shopify nombrado y hueco en modelado por cola, pero las apps gratis de fecha de entrega cubren la mayor parte y cada taller modela distinto. No falla F1/F5 con evidencia suficiente; riesgo de plataforma.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G08-18",
+  "filtro_fallado": "F2",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Sin comprador concreto ni demanda verificada; librerias open source gratis (moonbitTolerance, StackCore) cubren peor caso/RSS/Monte Carlo.",
+  "competidores_verificados": [
+   {
+    "nombre": "StackCore (PyPI)",
+    "precio": "gratis",
+    "url": "https://pypi.org/project/stackcore/"
+   }
+  ],
+  "razon": "No se identifica un comprador que pague y hay alternativas open source; sin verificar CETOL/VSA ni demanda de SEO. Falla F2.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G19-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Hay disposicion de pago verificada en el segmento (Werk24 490 EUR/mes, OpenDrawing Pro 399 USD/mes) pero la precision OCR es el producto y compiten LLM con vision y extensiones Chrome.",
+  "competidores_verificados": [
+   {
+    "nombre": "Werk24",
+    "precio": "490 EUR/mes (500 paginas)",
+    "url": "https://it.werk24.io/pricing"
+   },
+   {
+    "nombre": "OpenDrawing",
+    "precio": "gratis 3 tokens; Pro 399 USD/mes",
+    "url": "https://www.capterra.com/p/10037692/OpenDrawing/"
+   },
+   {
+    "nombre": "instaBOM",
+    "precio": "desde 49 GBP/mes",
+    "url": "https://www.capterra.com/p/10048954/instaBOM/"
+   }
+  ],
+  "razon": "Dolor real y precios de mercado altos, pero diferenciacion debil frente a LLM genericos y canal SEO sin verificar. Banda media-baja.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G18-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "No se hallo herramienta dedicada Studio 5000 a TIA (lo mas cercano: Siemens WinCC TagConverter, solo tags HMI); hilo MrPLC indica proceso manual. Demanda y pago sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Siemens WinCC TagConverter",
+    "precio": "sin verificar",
+    "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+   }
+  ],
+  "razon": "Hueco real y ventaja maxima de Juan, pero uso puntual, baja retencion y pago incierto; canal r/PLC/PLCTalk/SEO sin verificar el volumen.",
+  "busquedas_usadas": 0
+ }
+]

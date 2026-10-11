@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G30-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "hecho_decisivo": "SolidWorks PDM Standard viene incluido sin costo en SolidWorks Professional/Premium y TriMech lo considera suficiente para equipos de 3-5.",
+  "competidores_verificados": [
+   {
+    "nombre": "SolidWorks PDM Standard",
+    "precio": "incluido en Pro/Premium",
+    "url": "https://trimech.com/solidworks-pdm-vs-manage/"
+   },
+   {
+    "nombre": "Sibe",
+    "precio": "desde US$50/usuario",
+    "url": "https://www.capterra.co.uk/software/1061637/sibe"
+   }
+  ],
+  "razon": "El nicho objetivo (equipos de 3-15) ya tiene un incumbente gratis y suficientemente bueno, además de un competidor cloud directo. Falla F1; el MVP del add-in también excede 6 semanas.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G16-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "Hay validadores web gratis (ecosio, Lappa) y un actor de Apify a US$4 por 1,000 validaciones; no se confirmó un REST API gratis dedicado.",
+  "competidores_verificados": [
+   {
+    "nombre": "Apify Peppol BIS Preflight Validator",
+    "precio": "US$4 por 1,000 validaciones",
+    "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+   },
+   {
+    "nombre": "ecosio validator",
+    "precio": "gratis (web)",
+    "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+   }
+  ],
+  "razon": "Hay intención de búsqueda por los mandatos, pero las reglas son gratis y el precio de referencia es pago por uso, muy por debajo de US$79/mes. No falla F1 con claridad, pero la diferenciación es estrecha y el riesgo de que los proveedores Peppol lo regalen es real.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G16-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 33,
+  "hecho_decisivo": "Nutrient ofrece una API de autoetiquetado PDF/UA de pago por uso y Acrobat incluye autoetiquetado; la demanda de búsqueda quedó sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Nutrient Accessibility API",
+    "precio": "pago por uso (precio sin verificar)",
+    "url": "https://nutrient.io/api/accessibility-api/"
+   }
+  ],
+  "razon": "El EAA crea demanda real, pero el mercado ya está cubierto por Acrobat, Nutrient y servicios por página. El autoetiquetado fiable es difícil, así que el MVP en 6 semanas es dudoso y la ventaja de Juan es baja.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G09-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "En la Shopify App Store ya existen apps de HS code de autoservicio: DutyCode (gratis con 25 clasificaciones, luego US$19-99/mes) y HClassify (US$49-399).",
+  "competidores_verificados": [
+   {
+    "nombre": "DutyCode",
+    "precio": "gratis 25; US$19/49/99 al mes (listados contradictorios: también paquetes de créditos)",
+    "url": "https://apps.shopify.com/dutycode"
+   },
+   {
+    "nombre": "HClassify",
+    "precio": "US$49/149/399 al mes",
+    "url": "https://apps.shopify.com/hclassify"
+   }
+  ],
+  "razon": "El canal del marketplace existe y hay disposición de pago comprobada, pero el espacio ya está poblado de apps baratas y la diferenciación vía SEO programático no está probada. Quedan riesgos de responsabilidad por clasificación errónea y de dependencia de Shopify.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G28-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "hecho_decisivo": "versionDog es comercial, exige TIA Portal con licencia y no publica precio; Siemens ofrece VCI (XML a Git desde V16) y comparación nativa.",
+  "competidores_verificados": [
+   {
+    "nombre": "versionDog",
+    "precio": "no publicado (sin verificar)",
+    "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+   },
+   {
+    "nombre": "Siemens VCI / compare",
+    "precio": "incluido en TIA",
+    "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+   }
+  ],
+  "razon": "La ventaja de Juan es máxima y los incumbentes son empresariales, lo que deja espacio para un diff autoservicio orientado a git/CI. El mercado es pequeño, el volumen de búsqueda y la demanda en PLCTalk/r/PLC siguen sin verificar, y Siemens puede mejorar su diff nativo.",
+  "busquedas_usadas": 1
+ }
+]

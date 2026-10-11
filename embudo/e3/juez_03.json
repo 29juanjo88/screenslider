@@ -1,0 +1,152 @@
+[
+ {
+  "id": "G08-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 30,
+  "hecho_decisivo": "Quote & Cut y CutQuote ya cubren nesting/cálculo desde DXF; demanda de 'dxf nesting api' sin verificar y no se halló API pública de cut-length.",
+  "competidores_verificados": [
+   {
+    "nombre": "Quote & Cut",
+    "precio": "sin verificar",
+    "url": "https://ja.wordpress.org/plugins/quoteandcut/"
+   },
+   {
+    "nombre": "Xometry instant quoting",
+    "precio": "sin verificar",
+    "url": "https://xometry.com/resources/sheet/nesting-files-for-sheet-cutting"
+   }
+  ],
+  "razon": "Comprador muy acotado, OSS (Deepnest/SVGnest, ezdxf) y quoters con nesting alojado; el canal es nombrado pero sin demanda verificada. Ventaja de Juan alta y MVP rápido, pero dolor y pago bajos.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G08-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 41,
+  "hecho_decisivo": "Hay disposición de pago verificada por APIs CAD en nube (Convert3D desde $899/año, CAD Exchanger $590+), pero Convert3D es competidor directo y la demanda de 'step to gltf api' no está verificada.",
+  "competidores_verificados": [
+   {
+    "nombre": "Convert3D API",
+    "precio": "$899/año (5,000 conv.), $1,799/año, $4,899/año",
+    "url": "https://convert3d.org/developer-api"
+   },
+   {
+    "nombre": "CAD Exchanger",
+    "precio": "desde $590 (G2: $590-$2,690)",
+    "url": "https://g2.com/products/cad-exchanger/pricing"
+   }
+  ],
+  "razon": "Ancla similar pero con competidor directo verificado y canal SEO disputado, por lo que queda por debajo del ancla (46). Ventaja de Juan fuerte y precio mensual bajo como ángulo.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G01-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "ReturnRadar (gratis hasta 100 pedidos, $9/mes) y ReturnsIntel (nivel gratis) ya cubren analítica de devoluciones por SKU.",
+  "competidores_verificados": [
+   {
+    "nombre": "ReturnRadar",
+    "precio": "gratis / $9 mes",
+    "url": "https://apps.shopify.com/returnradar"
+   },
+   {
+    "nombre": "ReturnsIntel",
+    "precio": "nivel gratis",
+    "url": "https://apps.shopify.com/returns-intelligence-1"
+   }
+  ],
+  "razon": "Falla F1 por incumbentes gratis suficientes, concedido por la defensa. Total 0.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G01-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Options Price Calculator, Custom Price Calculator y SU Calculator tienen plan gratis con fórmulas por dimensiones y vista 3D.",
+  "competidores_verificados": [
+   {
+    "nombre": "Options Price Calculator",
+    "precio": "plan gratis",
+    "url": "https://apps.shopify.com/options-price-calculator?locale=tr"
+   },
+   {
+    "nombre": "SU Calculator & Configurator",
+    "precio": "plan gratis",
+    "url": "https://open.store/shopify-apps/configure-measure-quotes"
+   }
+  ],
+  "razon": "Falla F1 por apps gratis suficientes en Shopify; el ángulo BOM no tiene demanda verificada. Total 0.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G10-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Propiedades calculadas nativas de HubSpot más CPQ ya listados (Quotivity, quote-hapily, ConvertCalculator) cubren fórmulas de precio; el defensor concedió.",
+  "competidores_verificados": [
+   {
+    "nombre": "Quotivity CPQ",
+    "precio": "sin verificar",
+    "url": "https://ecosystem.hubspot.com/marketplace/listing/quotivity-cpq"
+   },
+   {
+    "nombre": "DoPricer CPQ",
+    "precio": "$59-89/mes (fuentes en conflicto)",
+    "url": "https://ecosystem.hubspot.com/marketplace/listing/dopricer-cpq-1487466"
+   }
+  ],
+  "razon": "Funciones nativas de la plataforma más CPQ existentes; sin diferenciador. Se descarta por F1, total 0.",
+  "busquedas_usadas": 1
+ }
+]

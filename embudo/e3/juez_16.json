@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G06-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "hecho_decisivo": "PrintPrice (WordPress.org) ya da precio instantaneo de STL en carrito con plan gratis de 5 pedidos/mes; SlicePress es GPL.",
+  "competidores_verificados": [
+   {
+    "nombre": "PrintPrice",
+    "precio": "gratis 5 pedidos/mes; planes de pago 50/100/300 pedidos (precio sin verificar)",
+    "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+   },
+   {
+    "nombre": "SlicePress",
+    "precio": "GPL gratis",
+    "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+   }
+  ],
+  "razon": "Dolor real pero canal WordPress.org ocupado por un rival con plan gratis y uno open source; diferenciacion debil y disposicion de pago baja a $29. Ventaja de slicing y MVP corto lo sostienen en banda MEDIA baja.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G16-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "Existen herramientas de pago desde ~EUR 500-600/anio (Copla Registry) y validador/plantilla gratis; $149/mes (~$1,800/anio) triplica al rival y el uso es anual.",
+  "competidores_verificados": [
+   {
+    "nombre": "Copla Registry",
+    "precio": "desde EUR 500-600/anio (segun su sitio)",
+    "url": "https://copla.com/dora-registry-tool"
+   },
+   {
+    "nombre": "Formalize ROI validator",
+    "precio": "gratis",
+    "url": "https://formalize.com/en/roi-validator"
+   }
+  ],
+  "razon": "Hay presupuesto regulatorio pero el precio mensual no encaja con uso anual y el rival cobra mucho menos; canal SEO compite con plantillas gratis y compradores lentos. Sin ventaja real de Juan.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G21-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Hera, NexCAD, CoLab AutoReview y Leo AI ya revisan GD&T con IA; precios sin verificar; CoLab advierte que la IA no valida datums completos.",
+  "competidores_verificados": [
+   {
+    "nombre": "CoLab AutoReview / Hera / NexCAD / Leo AI",
+    "precio": "sin verificar",
+    "url": "https://www.colabsoftware.com/post/best-ai-tools-for-manufacturing-drawing-checks"
+   }
+  ],
+  "razon": "Nicho con competidores financiados y riesgo de precision/responsabilidad; MVP fiable en 6 semanas es dudoso. Ventaja CAD de Juan es real pero el canal SEO/Reddit no esta demostrado.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G27-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Apps de rastreo de competidores en Shopify App Store desde $1.99/mes y con plan gratis (Pricify) cubren la funcion a $19.",
+  "competidores_verificados": [
+   {
+    "nombre": "Competitor Price Tracker Pro",
+    "precio": "desde $1.99/mes",
+    "url": "https://apps.shopify.com/competitor-price-tracker-pro"
+   },
+   {
+    "nombre": "Pricify",
+    "precio": "gratis (5 productos)",
+    "url": "https://apps.shopify.com/pricify-1"
+   }
+  ],
+  "razon": "Existen incumbentes gratis o casi gratis suficientemente buenos en el mismo canal; falla F1 y el precio de $19 no se defiende.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G10-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "AWS Cost Anomaly Detection nativo ofrece causa raiz y alertas (gratis segun fuentes secundarias, sin confirmar en pagina oficial) y Vantage incluye anomalias desde plan gratis.",
+  "competidores_verificados": [
+   {
+    "nombre": "Vantage",
+    "precio": "Starter gratis, Pro $30/mes, Business $200/mes",
+    "url": "https://www.vantage.sh/pricing"
+   },
+   {
+    "nombre": "AWS Cost Anomaly Detection",
+    "precio": "gratis segun fuente secundaria (sin verificar oficial)",
+    "url": "https://aws.amazon.com/es/aws-cost-management/aws-cost-anomaly-detection/"
+   }
+  ],
+  "razon": "La funcion nativa de AWS y Vantage (con plan gratis) cubren deteccion y atribucion; el diferencial de enlazar deploys es estrecho. Se considera F1 por funcion nativa gratis suficiente.",
+  "busquedas_usadas": 1
+ }
+]

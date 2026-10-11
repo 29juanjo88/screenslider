@@ -1,0 +1,132 @@
+[
+ {
+  "id": "G20-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "PrintQuote (Shopify) tiene plan Community gratis con 50 cotizaciones/mes por geometria STL y PrintPrice (WooCommerce) tiene plan gratis, ambos en el canal nombrado.",
+  "competidores_verificados": [
+   {
+    "nombre": "PrintQuote",
+    "precio": "gratis 50 cotizaciones/mes; Hobby $9 o Maker $15 segun listado; Business $49 en listado aleman",
+    "url": "https://apps.shopify.com/3d-print-quote"
+   },
+   {
+    "nombre": "PrintPrice",
+    "precio": "gratis (5 pedidos pagados, cotizaciones ilimitadas); desde $6.99/mes",
+    "url": "https://es-ar.wordpress.org/plugins/printprice-3d-calculator/"
+   }
+  ],
+  "razon": "Falla F1: existe incumbente gratis suficientemente bueno en el mismo canal y el precio de $49 no tiene diferenciador. Total 0.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G16-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Plantillas de expediente tecnico a EUR 75 (Euronorm) y un gap-checker en Apify ya existen; sin verificar intencion de compra por SEO.",
+  "competidores_verificados": [
+   {
+    "nombre": "Euronorm technical file template",
+    "precio": "EUR 75",
+    "url": "https://www.euronorm.net/en/products/ce-technical-file-machinery"
+   }
+  ],
+  "razon": "Obligacion real desde 2027 y buena ventaja de Juan, pero el canal es solo SEO/LinkedIn sin intencion probada, hay plantillas baratas y riesgo de responsabilidad. Producto complejo para 6 semanas.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G04-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "No se confirmo ninguna app ECR/ECN de manufactura en Atlassian Marketplace; solo flujos IT gratis y un hilo comunitario donde un experto cuestiona la necesidad (sin verificar competidores ni demanda).",
+  "competidores_verificados": [
+   {
+    "nombre": "Intellect ECN software (QMS)",
+    "precio": "sin verificar",
+    "url": "https://intellect.com/products/engineering-change-notice-software"
+   }
+  ],
+  "razon": "Canal Atlassian Marketplace nombrado y ticket alto, con hueco aparente pero demanda no probada; PLM/QMS dedicados cubren regulados. Puntaje moderado por falta de evidencia.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G28-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 35,
+  "hecho_decisivo": "weldXpert (desde EUR 60, prueba gratis) y TWI Welding Qualifier ya cubren WPS/PQR con ASME IX, ISO y AWS D1.1; plantillas gratis sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "weldXpert",
+    "precio": "desde EUR 60",
+    "url": "https://www.capterra.com/p/10047360/weldXpert/"
+   }
+  ],
+  "razon": "Dolor real en auditorias y SEO plausible, pero herramientas de pago establecidas y responsabilidad por cumplimiento de codigo limitan la diferenciacion y el riesgo.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G14-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "LangSmith y Langfuse (OSS) cubren trazas; replay determinista estricto en incumbentes sin verificar, y hay herramientas OSS anecdoticas.",
+  "competidores_verificados": [
+   {
+    "nombre": "Langfuse",
+    "precio": "OSS gratis (precio cloud sin verificar)",
+    "url": "https://www.braintrust.dev/articles/best-llm-tracing-tools-2026"
+   }
+  ],
+  "razon": "No se probo que un incumbente gratis cubra el replay, asi que no falla F1, pero el espacio es muy competido y los frameworks pueden absorberlo. Ventaja de Juan debil y riesgo de plataforma/IA alto.",
+  "busquedas_usadas": 0
+ }
+]

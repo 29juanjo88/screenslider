@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G16-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Shopify tiene escaneres EAA/WCAG con plan gratis (AccessKit, HewnScan, Accessify AI, Clearpath, Kokua) y Pro de $4.99-$29/mes; a $39 no hay hueco.",
+  "competidores_verificados": [
+   {
+    "nombre": "AccessKit",
+    "precio": "gratis; Pro $4.99/mes",
+    "url": "https://apps.shopify.com/accesskit"
+   },
+   {
+    "nombre": "HewnScan",
+    "precio": "gratis; Pro $29/mes",
+    "url": "https://apps.shopify.com/hewnscan"
+   },
+   {
+    "nombre": "Accessify AI",
+    "precio": "gratis; Basic $9.99/mes",
+    "url": "https://apps.shopify.com/accessifyai"
+   }
+  ],
+  "razon": "Falla F1 (y F5 a $39): escaneres gratis suficientes ya ocupan el canal nombrado. Total 0.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G12-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "No se hallo app Zapier/Make para STEP a PNG/glTF; solo APIs HTTP de conversion (convert3d, Adom); demanda y disposicion de pago sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "convert3d.org STEP to GLB (API)",
+    "precio": "sin verificar",
+    "url": "https://convert3d.org/step-to-glb"
+   }
+  ],
+  "razon": "Hueco real en directorios y ventaja maxima de Juan, pero demanda hipotetica, APIs HTTP sustituyen el conector y riesgo de aprobacion de plataforma. Canal nombrado pero sin demanda verificada.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G18-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "CAM (Mastercam/CloudNC) incluye estimacion de ciclo y CAMotics gratis simula tiempos; CAM232 cobra $1 por G-code.",
+  "competidores_verificados": [
+   {
+    "nombre": "CloudNC Cycle Time Estimator",
+    "precio": "sin verificar",
+    "url": "https://cloudnc.atlassian.net/wiki/spaces/CAMMCUG/pages/162693158"
+   },
+   {
+    "nombre": "CAM232",
+    "precio": "$1 por G-code tras 2 gratis",
+    "url": "https://forum.linuxcnc.org/show-your-stuff/58676-cam232-2-5-axis-cam-software-first-2-code-free-than-1-for-each"
+   }
+  ],
+  "razon": "Falla F1: estimacion nativa en CAM y simulador gratis suficientemente bueno; sin evidencia de pago. Total 0.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G19-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 33,
+  "hecho_decisivo": "Integradores migran tags con scripts/CSV propios; no se hallo herramienta comercial WinCC a Ignition; volumen de busqueda sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Herramientas propias de integradores (Overbridge)",
+    "precio": "n/a",
+    "url": "https://inductiveautomation.com/casestudy/moving-legacy-system-over-ignition"
+   }
+  ],
+  "razon": "Hueco y ventaja SCADA reales, pero compra puntual (churn alto), nicho minusculo y suscripcion de $79 mal alineada. Canal SEO/foro no verificado como fuente de compradores.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G04-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Marketplace de Atlassian ya tiene varias apps de optimizacion de licencias, una con tier gratis y ~280 instalaciones, ademas de export nativo de last seen.",
+  "competidores_verificados": [
+   {
+    "nombre": "Riada Labs User Management & License Optimizer",
+    "precio": "~280 instalaciones; precio sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/1211109/user-management-license-user-deactivator-for-jira"
+   },
+   {
+    "nombre": "License Cost Optimizer for Jira",
+    "precio": "version gratis y de pago",
+    "url": "https://marketplace.atlassian.com/apps/184784481/license-cost-optimizer-for-jira"
+   }
+  ],
+  "razon": "Falla F1: incumbentes gratis (app con tier gratis y vistas nativas parciales) cubren la funcion; sin diferenciador claro. Total 0.",
+  "busquedas_usadas": 0
+ }
+]

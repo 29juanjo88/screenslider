@@ -1,0 +1,127 @@
+[
+ {
+  "id": "G28-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 34,
+  "hecho_decisivo": "No existe base multi-vendor con API (busqueda propia: solo mapas por vendor y PDFs), pero la disposicion de pago y el volumen SEO no estan verificados.",
+  "competidores_verificados": [
+   {
+    "nombre": "LabJack Modbus Map (gratis, solo LabJack)",
+    "precio": "gratis",
+    "url": "https://support.labjack.com/docs/register-matrix"
+   }
+  ],
+  "razon": "Nicho de integradores chico a $29/mes (~350 pagadores) y captura masiva de datos; sin filtro duro pero puntaje medio-bajo.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G14-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existe MCP open source gratis (cad-mcp-server) que inspecciona STEP localmente; no re-verificado por busqueda propia (limite agotado), pero defensa lo concede.",
+  "competidores_verificados": [
+   {
+    "nombre": "cad-mcp-server (open source)",
+    "precio": "gratis",
+    "url": "https://mcpservers.org/servers/mattmohandiss/cad-mcp-server"
+   }
+  ],
+  "razon": "Incumbente gratis suficiente para desarrolladores (F1) y demanda especulativa. Total 0.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G10-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "RenderDraw ya ofrece 3D/CAD y visual work instructions para field service en Salesforce (Visual CPQ desde US$25/usuario en Capterra); cobertura de Work Orders y listing AppExchange sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "RenderDraw",
+    "precio": "desde US$25/usuario (Capterra, Visual CPQ)",
+    "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+   }
+  ],
+  "razon": "Canal AppExchange nombrado y ventaja CAD fuerte, pero nicho diminuto, dependencia de Salesforce y competidor existente.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G06-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Agencias y conectores empaquetados cubren WooCommerce-ERP (Ecosire Woo-Odoo desde US$499 licencia unica); el canal es generico y un conector por ERP.",
+  "competidores_verificados": [
+   {
+    "nombre": "Ecosire Woo-Odoo Connector",
+    "precio": "desde US$499 licencia unica",
+    "url": "https://ecosire.com/apps/woocommerce/woo-odoo-connector"
+   }
+  ],
+  "razon": "Dolor real pero sin ventaja ni diferenciacion y canal dominado por agencias; MVP crece con cada ERP.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G13-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existe un Datadog Bill Analyzer gratis de OpenObserve (marzo 2026) ademas de funciones nativas de Datadog y Grafana; no re-verificado por busqueda propia.",
+  "competidores_verificados": [
+   {
+    "nombre": "OpenObserve Datadog Bill Analyzer",
+    "precio": "gratis",
+    "url": "https://openobserve.ai/whats-new/2026-03-15-datadog-bill-analyzer.md"
+   }
+  ],
+  "razon": "Incumbentes gratis y nativos hacen fallar F1. Total 0.",
+  "busquedas_usadas": 0
+ }
+]

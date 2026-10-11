@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G15-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Existe PLC Copilot (asistente IA para Studio 5000/TIA, listado en Capterra) y verificadores por reglas de Schneider; demanda de pago y aceptacion de promocion en PLCTalk/r/PLC sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "PLC Copilot",
+    "precio": "sin verificar (listado GetApp muestra US$0 como inicio)",
+    "url": "https://www.capterra.com.au/software/1100467/PLC-Copilot"
+   }
+  ],
+  "razon": "Ventaja de Juan real y nicho poco cubierto en revision, pero canal debil/no verificado y riesgo de confidencialidad del codigo.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G10-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "Convertidores STEP a glTF gratis y SDK comerciales (CAD Exchanger) ya existen; precio de $300 y demanda en AWS Marketplace sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "CAD Exchanger",
+    "precio": "sin verificar",
+    "url": "https://cadexchanger.com/step-to-gltf"
+   },
+   {
+    "nombre": "Convert3D (gratis, dice tener API)",
+    "precio": "gratis",
+    "url": "https://convert3d.org/step-to-glb"
+   }
+  ],
+  "razon": "Misma familia que el ancla ALTA pero sin evidencia de pago ni de canal; diferenciacion baja ante gratis y DIY con OpenCascade. No se premia por parecerse al ancla.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G04-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 35,
+  "hecho_decisivo": "Busqueda no halla app de BOM en Atlassian Marketplace (no confirma ausencia); Atlassian cobra por usuarios del sitio, lo que complica el precio plano de $130.",
+  "competidores_verificados": [
+   {
+    "nombre": "Atlassian Marketplace billing",
+    "precio": "por usuarios maximos del sitio",
+    "url": "https://support.atlassian.com/subscriptions-and-billing/docs/understand-billing-for-cloud-apps/"
+   }
+  ],
+  "razon": "Posible hueco con ventaja BOM/CAD genuina y canal nombrado, pero nicho acotado, disposicion de pago no probada y dependencia de Atlassian.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G04-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 29,
+  "hecho_decisivo": "Al menos cuatro apps de Marketplace ya cubren costo por worklog con tarifas por rol (Project Cost & Budget, Worklog360, WorklogPRO, TimeEase).",
+  "competidores_verificados": [
+   {
+    "nombre": "Project Cost & Budget for Jira",
+    "precio": "sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/2913078390/project-cost-budget-for-jira"
+   },
+   {
+    "nombre": "Worklog360",
+    "precio": "sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/1222428/timesheets-by-worklog360-time-tracking-billing-for-jira"
+   },
+   {
+    "nombre": "WorklogPRO",
+    "precio": "sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/1212626/worklogpro-timesheets-and-cost-tracker-for-jira"
+   }
+  ],
+  "razon": "Mercado saturado, sin diferenciacion ni ventaja de Juan; las apps son de pago, por lo que no se aplica F1 estricto, pero el canal esta dominado por incumbentes.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G21-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Herramientas SPC web gratis con X-bar/R y Cp/Cpk desde datos cargados ya existen (MetricGate), mas plantillas Excel de $29.",
+  "competidores_verificados": [
+   {
+    "nombre": "MetricGate",
+    "precio": "gratis",
+    "url": "https://metricgate.com/blogs/statistics-for-quality-control/"
+   },
+   {
+    "nombre": "Plantilla Excel SPC",
+    "precio": "$29",
+    "url": "https://payhip.com/b/cKpiv"
+   }
+  ],
+  "razon": "Falla F1: incumbente gratis suficientemente bueno verificado con URL; total 0.",
+  "busquedas_usadas": 0
+ }
+]

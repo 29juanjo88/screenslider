@@ -1,0 +1,142 @@
+[
+ {
+  "id": "G12-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen escáneres gratis workflow-aware de n8n (FlowSentry con SARIF/CI, escáner gratis de credenciales).",
+  "competidores_verificados": [
+   {
+    "nombre": "FlowSentry",
+    "precio": "gratis",
+    "url": "https://pypi.org/project/flowsentry/"
+   },
+   {
+    "nombre": "n8n credential scanner",
+    "precio": "gratis",
+    "url": "https://logicworkflow.com/tools/free-n8n-credential-scanner/"
+   }
+  ],
+  "razon": "Falla F1: incumbente gratis y suficiente (FlowSentry, escáneres gratis); sin evidencia de pago a $49. Descartada.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G30-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Filaquote ya soporta STEP en Shopify con plan gratis y paid $15/$49; MakeQuote solo STL/DXF.",
+  "competidores_verificados": [
+   {
+    "nombre": "Filaquote",
+    "precio": "gratis; $15/mes; $49/mes",
+    "url": "https://index.dodopayments.com/filaquote"
+   },
+   {
+    "nombre": "MakeQuote",
+    "precio": "sin verificar",
+    "url": "https://apps.shopify.com/makequote"
+   }
+  ],
+  "razon": "Canal Shopify App Store nombrado pero ya hay competidores con STEP y precio igual o menor. El hueco CNC existe pero el costeo por geometría es difícil y la demanda de pago no está verificada.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G12-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen plugins y API de cotización STL (SeekMake, PrintPrice, Zylalabs); volumen trivial.",
+  "competidores_verificados": [
+   {
+    "nombre": "SeekMake",
+    "precio": "sin verificar",
+    "url": "https://ja.wordpress.org/plugins/seekmake/"
+   },
+   {
+    "nombre": "PrintPrice",
+    "precio": "sin verificar",
+    "url": "https://es-ar.wordpress.org/plugins/printprice-3d-calculator/"
+   }
+  ],
+  "razon": "Falla F1: el cálculo de volumen es trivial y ya está cubierto por plugins y APIs; el defensor no la defiende. Descartada.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G30-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Remeshy ofrece reparación STL con API y nivel gratis; trimesh/MeshFix open source.",
+  "competidores_verificados": [
+   {
+    "nombre": "Remeshy STL Fix",
+    "precio": "créditos, prueba gratis",
+    "url": "https://remeshy.com/stl-fix"
+   }
+  ],
+  "razon": "Falla F1: existen alternativas gratis o baratas y librerías open source; no hay evidencia de pago a $79. Descartada.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G25-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "VersionDog/MDT AutoSave/AssetCentre existen (precios sin verificar) y TIA/Studio 5000 traen comparación nativa; dolor documentado en foros.",
+  "competidores_verificados": [
+   {
+    "nombre": "VersionDog (AUVESY)",
+    "precio": "sin verificar",
+    "url": "https://www.getapp.co.uk/software/2042851/versiondog"
+   }
+  ],
+  "razon": "Máxima ventaja de Juan y hueco en diff semántico multi-vendor con auditoría, pero hay competidores establecidos y herramientas nativas, y la reticencia a subir proyectos OT es real. Canal (SEO, PLCTalk) plausible sin demanda verificada.",
+  "busquedas_usadas": 1
+ }
+]

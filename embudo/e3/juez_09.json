@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G30-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 32,
+  "hecho_decisivo": "Hueco de producto sin API de DFM para DXF hallado, pero sin demanda ni búsquedas verificadas",
+  "competidores_verificados": [
+   {
+    "nombre": "goCAD sheet metal quoting",
+    "precio": "desde EUR 250/mes",
+    "url": "https://gocad.de/en/sheet-metal-quoting-software"
+   },
+   {
+    "nombre": "Xometry instant quote DXF",
+    "precio": "sin verificar",
+    "url": "https://www.xometry.com/blog/product-update-instant-quote-dxf-files"
+   }
+  ],
+  "razon": "Canal nombrado (SEO/directorios) pero demanda sin verificar y pool chico de desarrolladores de cotizadores; la validación viene incluida en los cotizadores. Ventaja DXF fuerte; no falla filtro porque el canal está nombrado.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G15-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen apps de importación PDF-a-producto gratis o desde ~$10/mes en Shopify App Store",
+  "competidores_verificados": [
+   {
+    "nombre": "StockDraft",
+    "precio": "desde $9.99/mes",
+    "url": "https://apps.shopify.com/stockdraft?locale=nb"
+   },
+   {
+    "nombre": "Textify AI Product Import",
+    "precio": "gratis",
+    "url": "https://apps.shopify.com/textify-1"
+   },
+   {
+    "nombre": "Apport AI",
+    "precio": "gratis; Basic $9.80/mes",
+    "url": "https://apps.shopify.com/apport"
+   }
+  ],
+  "razon": "Incumbentes gratis o baratos con URL cubren la función base; diferenciación técnica no verificada y a $29 la meta exige ~350 pagadores. Falla F1.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G29-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "No se halló generador dedicado de IO list desde TIA Portal (no prueba inexistencia); demanda en PLCTalk sin verificar",
+  "competidores_verificados": [
+   {
+    "nombre": "Litmus S7 Browse Agent",
+    "precio": "sin verificar",
+    "url": "https://litmus.io/solutions/siemens-s7-browse-agent"
+   }
+  ],
+  "razon": "Dolor real y ventaja máxima de Juan; sin competidor dedicado hallado. Pero parsear proyectos propietarios es frágil (Openness), nicho chico y demanda sin verificar.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G10-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Pool mínimo de talleres con Salesforce; AppExchange con CPQ establecidos y revisión ISV",
+  "competidores_verificados": [
+   {
+    "nombre": "Experlogix CPQ",
+    "precio": "sin verificar",
+    "url": "https://www.experlogix.com/?p=1548"
+   }
+  ],
+  "razon": "Canal nombrado (AppExchange) pero mercado muy pequeño y esfuerzo de revisión ISV que retrasa el MVP de 6 semanas. Ventaja DXF alta, no verificada la demanda.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G12-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 37,
+  "hecho_decisivo": "Whalesync cubre Airtable-Postgres desde ~$5-49/mes según fuente (oficial sin confirmar) y Stacksync $1,000+/mes",
+  "competidores_verificados": [
+   {
+    "nombre": "Whalesync",
+    "precio": "Personal $5, Starter $20, Plus $40, Pro $200 (PricingSaaS; fuentes discrepan)",
+    "url": "https://pricingsaas.com/companies/whalesync"
+   },
+   {
+    "nombre": "Stacksync",
+    "precio": "Starter $1,000/mes",
+    "url": "https://www.stacksync.com/pricing.md"
+   }
+  ],
+  "razon": "Presupuesto validado y mercado amplio, pero Whalesync ya ocupa el rango barato y el canal SEO, sin ángulo diferenciador. Riesgo de plataforma Airtable y guerra de precios.",
+  "busquedas_usadas": 1
+ }
+]

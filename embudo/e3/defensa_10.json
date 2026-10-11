@@ -1,0 +1,78 @@
+[
+ {
+  "id": "G12-06",
+  "rescatar": true,
+  "respuesta": "Hay demanda verificable de reducir operaciones de Make: existe un hilo en la comunidad oficial donde alguien busca un experto senior para reducir operaciones, y otro caso publicado de ahorro de 720K operaciones/año. Los resultados son solo consultoras con guías manuales, no una herramienta automatizada: el hueco es analizar blueprints exportados y estimar ahorro. El historial nativo muestra operaciones por módulo pero no propone arreglos.",
+  "concesiones": "No se verificó competidor ni herramienta, ni disposición de pago por software (solo por consultoría). Riesgo de plataforma alto; canal (foro Make, SEO) no confirmado con volumen. Mercado acotado a usuarios grandes de Make.",
+  "hechos": [
+   {
+    "afirmacion": "Hilo en la comunidad Make buscando un experto senior para reducir operaciones (gasto de operaciones alto)",
+    "url": "https://community.make.com/t/looking-for-a-senior-make-com-expert-to-reduce-operations-1m-300-500k-mo-stabilize-scenarios-apify-clay-close-crm/102173"
+   },
+   {
+    "afirmacion": "Caso en comunidad Make: reducción de 720K+ operaciones anuales con variables personalizadas",
+    "url": "https://community.make.com/t/how-we-reduced-720k-operations-annually-using-makes-custom-variables/96548"
+   },
+   {
+    "afirmacion": "Consultoras publican guías manuales de optimización (indica búsquedas SEO, no herramienta); ahorros 30-50% son afirmación de vendedor, sin verificar",
+    "url": "https://consultevo.com/restructuring-make-scenario-cut-operations-bill/"
+   }
+  ],
+  "ajuste_sugerido": "Enfocarse en agencias/equipos con facturas altas de Make (plan Teams, >100k ops/mes), cobrar $49-99 o por auditoría; validar con 10 usuarios del foro antes de construir.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G08-04",
+  "rescatar": false,
+  "respuesta": "No se encontró evidencia de demanda de pago. La búsqueda no halló hilos de PLCTalk.",
+  "concesiones": "Existen parsers gratuitos L5X (paquete Python l5x en PyPI, crate Rust, L5Sharp) y XML es parseable con librerías estándar; mercado diminuto; demanda de pago sin verificar.",
+  "hechos": [
+   {
+    "afirmacion": "Existe paquete Python l5x en PyPI para manipular L5X",
+    "url": "https://pypi.python.org/pypi/l5x/1.1"
+   },
+   {
+    "afirmacion": "Un hilo de Inductive Automation describe el parseo XML de L5X como no trivial (dolor leve, pero hay alternativas)",
+    "url": "https://forum.inductiveautomation.com/t/studio5000-tag-description/70565"
+   }
+  ],
+  "ajuste_sugerido": "",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G29-19",
+  "rescatar": false,
+  "respuesta": "No se defiende: no se buscó evidencia a favor.",
+  "concesiones": "Calculadoras gratuitas con worst-case/RSS (y Monte Carlo) ya existen; licencia única contradice precio mensual; F1 y F5 válidos.",
+  "hechos": [],
+  "ajuste_sugerido": "",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G06-04",
+  "rescatar": false,
+  "respuesta": "Hay disposición de pago para dunning (Subscriptions Recovery cobra $79/mes, Sublium $99-199/mes según AlternativeTo), pero eso confirma que el hueco ya está ocupado y compite con reintentos nativos y plugins gratis (Recurio).",
+  "concesiones": "Incumbentes de pago y gratis existen; diferenciación débil; reseñas independientes sin verificar.",
+  "hechos": [
+   {
+    "afirmacion": "Subscriptions Recovery for WooCommerce: $79/mes más versión gratis limitada",
+    "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+   },
+   {
+    "afirmacion": "Sublium listado entre $99 y $199/mes e incluye recuperación de pagos",
+    "url": "https://alternativeto.net/software/sublium/about"
+   }
+  ],
+  "ajuste_sugerido": "",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G13-03",
+  "rescatar": false,
+  "respuesta": "No se defiende: BuildPulse y Trunk cubren exactamente la idea.",
+  "concesiones": "Todo el ataque es cierto; diferenciación nula y plan gratis de BuildPulse.",
+  "hechos": [],
+  "ajuste_sugerido": "",
+  "busquedas_usadas": 0
+ }
+]

@@ -1,0 +1,136 @@
+[
+ {
+  "id": "G28-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "TIA Portal ya exporta/importa textos HMI en XLIFF/Excel (fuente de terceros, URL del atacante); demanda y pago sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "TIA Portal export XLIFF/Excel (nativo)",
+    "precio": "incluido",
+    "url": "https://industrialmonitordirect.com/es/blogs/knowledgebase/translating-chinese-tia-portal-tags-to-english-step-by-step"
+   }
+  ],
+  "razon": "El flujo exportar-traducir-reimportar con LLM gratis deja poco valor residual (glosario), uso episodico y canal de nicho sin demanda verificada. No falla F1 de forma clara pero queda debil.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G01-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "hecho_decisivo": "Dolor respaldado por quejas de merchants, pero no se verifico demanda de busqueda 'shipping audit' ni competidores; requiere subir facturas del carrier.",
+  "competidores_verificados": [],
+  "razon": "Canal nombrado (Shopify App Store) pero sin validar y con friccion de onboarding. Ventaja de Juan baja. Sin evidencia fuerte, puntaje medio-bajo.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G14-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "Vault (dynamic secrets) y Doppler cubren el patron; precios de Doppler discrepantes entre agregadores (Developer 3 usuarios gratis vs sin plan gratis); demanda en directorios MCP sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Doppler",
+    "precio": "Team ~$21/usuario/mes segun agregador (sin confirmar en sitio oficial)",
+    "url": "https://toolradar.com/tools/doppler/pricing"
+   }
+  ],
+  "razon": "Mercado emergente pero incumbentes fuertes, una boveda segura es dificil en 6 semanas y un producto de seguridad nuevo tiene baja confianza. Canal MCP sin evidencia.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G01-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Al menos 10 apps de fitment en Shopify con planes gratis: AutoFit Pro (gratis, Pro $9.99), Fynq (gratis hasta 100 filas, $9), GoFitment (gratis hasta 500 variantes, $19), MPH $4.95.",
+  "competidores_verificados": [
+   {
+    "nombre": "AutoFit Pro",
+    "precio": "gratis / $9.99",
+    "url": "https://apps.shopify.com/autofit-pro"
+   },
+   {
+    "nombre": "GoFitment",
+    "precio": "gratis / $19",
+    "url": "https://apps.shopify.com/gofitment"
+   },
+   {
+    "nombre": "Fynq Fitment",
+    "precio": "gratis / $9",
+    "url": "https://apps.shopify.com/fynq-year-make-model"
+   }
+  ],
+  "razon": "Incumbentes gratis suficientes y precios de $5-19 por debajo de los $29 propuestos (tambien presiona F5). Descartada por F1.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G18-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "Competidores IA existen (Copia, Software Defined Automation) pero sin precios verificados; la busqueda de Copia no confirmo precio ni documentacion.",
+  "competidores_verificados": [
+   {
+    "nombre": "Software Defined Automation (docs IA)",
+    "precio": "sin verificar",
+    "url": "https://docs.softwaredefinedautomation.io/console/ai-generated-code-documentation/overview"
+   },
+   {
+    "nombre": "Copia Automation",
+    "precio": "sin verificar",
+    "url": "https://copia.io/?p=731"
+   }
+  ],
+  "razon": "Dolor y canal comunitario reales (PLCTalk, r/PLC) con ventaja maxima de Juan, pero parsers por marca, confidencialidad del codigo y competidores con IA. Sin filtro fallado.",
+  "busquedas_usadas": 1
+ }
+]

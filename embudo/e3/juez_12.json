@@ -1,0 +1,152 @@
+[
+ {
+  "id": "G08-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "hecho_decisivo": "Slicer CLI gratis (PrusaSlicer/Orca) y plugins empaquetados; sin API standalone con precio verificado; demanda sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "PrintPrice (WooCommerce, freemium 5 pedidos gratis)",
+    "precio": "sin verificar",
+    "url": "https://tt.wordpress.org/plugins/?p=319241"
+   },
+   {
+    "nombre": "Kiln slice_and_estimate",
+    "precio": "sin verificar",
+    "url": "https://glama.ai/mcp/servers/codeofaxel/kiln/tools/slice_and_estimate"
+   }
+  ],
+  "razon": "Hay wrappers de slicer y el CLI es gratis, pero hospedarlo como API conserva valor para devs; no se verifica demanda ni pago. Ventaja de Juan alta, mercado chico.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G12-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "Existen al menos 4 monitores multi-plataforma (OpsVeritas, RootBrief, Flowlert, FlowPulse) con tiers gratis y Pro desde $19.",
+  "competidores_verificados": [
+   {
+    "nombre": "OpsVeritas",
+    "precio": "gratis 10 workflows; pago sin verificar",
+    "url": "https://www.producthunt.com/products/opsveritas"
+   },
+   {
+    "nombre": "RootBrief",
+    "precio": "Pro desde $19/mes (lanzamiento)",
+    "url": "https://www.producthunt.com/p/rootbrief"
+   },
+   {
+    "nombre": "Flowlert",
+    "precio": "gratis hasta 5 workflows",
+    "url": "https://hunted.space/product/flowlert"
+   }
+  ],
+  "razon": "Dolor documentado y canales de comunidad nombrados, pero el hueco ya esta ocupado y $49 supera a los incumbentes. Diferenciacion casi nula; no cae en F1 porque los tiers gratis son limitados.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G18-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Werk24 cobra EUR 0.15/pagina title block; Apryse, AMFG e Infrrd tambien cubren; demanda self-serve sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Werk24",
+    "precio": "EUR 0.15/pagina title block",
+    "url": "https://es.werk24.io/product"
+   },
+   {
+    "nombre": "AMFG Sentinel AI",
+    "precio": "sin verificar",
+    "url": "https://help.amfg.ai/en/articles/699793-sentinel-ai-automatic-pdf-data-extraction"
+   }
+  ],
+  "razon": "Incumbentes con modelos entrenados y precio por pagina; la ventaja de Juan no esta en vision IA. Canal SEO/Reddit sin intencion de compra verificada.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G18-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "LightBurn, DXFix gratis, extension Inkscape y Aspire cubren el problema; $15/mes exige ~670 pagadores (F5).",
+  "competidores_verificados": [
+   {
+    "nombre": "DXFix / LightBurn auto-join",
+    "precio": "gratis / sin verificar",
+    "url": "https://forum.lightburnsoftware.com/t/quick-pre-check-for-broken-dxfs-that-cause-open-shapes-warnings/192355"
+   }
+  ],
+  "razon": "Incumbentes gratis suficientes (F1) y precio bajo (F5). Descartada.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G06-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "hecho_decisivo": "Staggs $59-$199/ano, Simplio3D open source, Fancy Product Designer $69/ano ya cubren el nicho; $39/mes muy sobre mercado.",
+  "competidores_verificados": [
+   {
+    "nombre": "Staggs Product Configurator",
+    "precio": "$59-$199/ano",
+    "url": "https://plugins.bloggingtips.com/plugin/staggs-product-configurator-for-woocommerce/"
+   },
+   {
+    "nombre": "Simplio3D",
+    "precio": "gratis/open source",
+    "url": "https://en-gb.wordpress.org/plugins/simplio3d-product-configurator/"
+   }
+  ],
+  "razon": "Canal WordPress.org real pero competidores baratos y uno gratis; 'ligero' no diferencia. Soporte alto.",
+  "busquedas_usadas": 0
+ }
+]

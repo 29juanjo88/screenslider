@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G15-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "SolidWorks trae BOM nativa y OpenBOM/SmartBom/STEPhen cubren la extraccion; cobertura de catalogos sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "OpenBOM for SOLIDWORKS",
+    "precio": "sin verificar",
+    "url": "https://www.openbom.com/openbom-for-solidworks"
+   },
+   {
+    "nombre": "SmartBom",
+    "precio": "sin verificar",
+    "url": "https://help.visiativ.com/mycadtools/en/SmartBom.html"
+   }
+  ],
+  "razon": "Falla F1: BOM nativa en CAD y herramientas existentes; nada que justifique pago por encima de ellas.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G18-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "CIMCO File Compare, Notepad++ Compare y Git gratis resuelven el diff de G-code; sin evidencia de pago.",
+  "competidores_verificados": [
+   {
+    "nombre": "CIMCO Edit File Compare",
+    "precio": "sin verificar",
+    "url": "https://www.emastercam.com/forums/topic/103344-cimco-file-compare/"
+   },
+   {
+    "nombre": "Notepad++ plugin Compare",
+    "precio": "gratis",
+    "url": "https://forum.cgtech.com/viewtopic.php?id=3439"
+   }
+  ],
+  "razon": "Falla F1: alternativas gratis suficientes para el diff; el flujo por pieza no tiene demanda de pago demostrada.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G12-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 34,
+  "hecho_decisivo": "CutQuote calcula pierces/tiempo desde DXF y tiene REST API en plan Business (~$900/usuario/mes segun Capterra); no se confirmo conector Zapier/Make ni demanda en esos directorios.",
+  "competidores_verificados": [
+   {
+    "nombre": "CutQuote",
+    "precio": "~$900/usuario/mes (Capterra, puede estar desactualizado)",
+    "url": "https://www.capterra.com/p/10040294/CutQuote/"
+   }
+  ],
+  "razon": "Calculo trivial con ezdxf y cotizadores completos existentes bajan el pago; canal Make/Zapier sin demanda verificada. Ventaja CAD y MVP rapido lo sostienen en banda media-baja.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G19-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 39,
+  "hecho_decisivo": "No se hallo linter comercial dominante de ST; solo Schneider (por creditos, atado a fabricante) y herramientas open source/academicas; demanda de pago sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Schneider EcoStruxure Control Engineering Verification",
+    "precio": "bajo cotizacion",
+    "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+   },
+   {
+    "nombre": "iec-checker",
+    "precio": "gratis (open source)",
+    "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+   }
+  ],
+  "razon": "Diferenciacion y ventaja unicas de Juan, pero nicho pequeno, formatos cerrados, canal GitHub debil y pago sin evidencia. Banda media.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G10-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Cloudingo ~$83/mes (TrustRadius) o $2,500/anio (Software Advice/Capterra), DemandTools y DupeCatcher existen; alcance de duplicados nativos de Salesforce sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Cloudingo",
+    "precio": "~$83/mes o $2,500/anio (fuentes dispares)",
+    "url": "https://www.capterra.com/p/178704/Cloudingo/"
+   },
+   {
+    "nombre": "DemandTools",
+    "precio": "sin verificar",
+    "url": "https://www.trustradius.com/products/demandtools"
+   }
+  ],
+  "razon": "Hay presupuesto existente y busqueda en AppExchange, pero mercado maduro sin angulo claro, revision de seguridad y poca ventaja de Juan. Media-baja.",
+  "busquedas_usadas": 2
+ }
+]

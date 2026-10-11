@@ -1,0 +1,79 @@
+[
+ {
+  "id": "G12-14",
+  "rescatar": false,
+  "respuesta": "Hay dolor real (borrado fuera de 30 días de papelera, relaciones que el export plano no conserva), pero el atacante tiene razón en que el canal y la categoría ya están ocupados por servicios de respaldo con S3/Drive y por ProBackup en la galería oficial.",
+  "concesiones": "Existen competidores con destinos S3/Drive/Dropbox y restauración, a precio menor que $29; sin diferenciación probada.",
+  "hechos": [
+   {
+    "afirmacion": "Papelera de Notion purga a ~30 días; hilo en r/Notion de usuario que perdió una base de datos tras ese plazo sin ayuda de soporte (vía búsqueda, URL espejo)",
+    "url": "https://lr.us.psf.lt/r/Notion/comments/1k8761k/help_with_notion_deleted_database"
+   },
+   {
+    "afirmacion": "Un export plano deja relaciones/fórmulas como texto; solo restauración vía API puede relinkear relaciones (fuente de contenido de terceros)",
+    "url": "https://simplebackups.com/learn/notion-backup"
+   }
+  ],
+  "ajuste_sugerido": "Solo viable si se diferencia en restauración fiel de relaciones de bases de datos a precio ≤$15; aun así sin verificar disposición de pago.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G01-14",
+  "rescatar": false,
+  "respuesta": "Sin evidencia nueva a favor; no se gastó búsqueda adicional para refutar.",
+  "concesiones": "Apps de precio por m2 baratas ya existen (SimPrice $9.99); nicho estrecho; el diferencial de nesting no está validado.",
+  "hechos": [],
+  "ajuste_sugerido": "",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G21-11",
+  "rescatar": true,
+  "respuesta": "Hay presupuesto existente (SKM ArcCalc $995, ETAP por cotización, ARCAD) y las alternativas gratis son limitadas o desactualizadas (demo a 208 V, Excel viejo), lo cual indica dolor en consultoras pequeñas. SaaS por suscripción es otro modelo que licencias de escritorio caras.",
+  "concesiones": "Riesgo de responsabilidad alto; requiere validación del cálculo; el ancla de $995 único compite con $89/mes; mercado acotado; sin evidencia propia de demanda en foros.",
+  "hechos": [
+   {
+    "afirmacion": "SKM ArcCalc cuesta $995 según el vendor (confirma presupuesto existente)",
+    "url": "https://www.skm.com/arccalc.html"
+   },
+   {
+    "afirmacion": "Calculadoras gratis limitadas y Excel desactualizado",
+    "url": "https://arcflashforum.brainfiller.com/viewtopic.php?p=23075"
+   }
+  ],
+  "ajuste_sugerido": "Bajar a $39-49/mes o plan anual, enfocarse en etiquetas+reporte PDF para consultores pequeños, publicar validación contra casos de IEEE 1584-2018 y descargo de responsabilidad; canal SEO 'arc flash calculator'.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G27-05",
+  "rescatar": false,
+  "respuesta": "La búsqueda no encontró Siemens/Rockwell lifecycle APIs ni servicios de alertas BOM específicos de PLC; sí existen servicios análogos para electrónica (CalcuQuote PCN, Accuris BOM Intelligence), lo que muestra que el modelo de pago existe en otro segmento, pero no para PLC. Demanda sin verificar.",
+  "concesiones": "Avisos de fabricante gratis (F1 posible); canal r/PLC y SEO sin validar; datos de ciclo de vida posiblemente sin API pública.",
+  "hechos": [
+   {
+    "afirmacion": "Existen servicios de pago de alertas EOL por BOM para electrónica (modelo análogo, no PLC)",
+    "url": "https://www.elisaindustriq.com/calcuquote/features/product-change-notifications"
+   }
+  ],
+  "ajuste_sugerido": "",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G01-02",
+  "rescatar": false,
+  "respuesta": "Hilo de comunidad Shopify muestra demanda de un fabricante que pidió esta función, pero MakeQuote ya cubre DXF con cotización instantánea, plan gratis y Pro a $19/mes; su lógica de precio por perímetro/espesor sin verificar.",
+  "concesiones": "Incumbente con plan gratis y precio menor que $49; mercado de talleres con Shopify limitado.",
+  "hechos": [
+   {
+    "afirmacion": "MakeQuote: DXF, cotización instantánea, plan gratis 10 pedidos/mes, Pro $19/mes (listados de terceros), sin reseñas",
+    "url": "https://apps.shopify.com/makequote"
+   },
+   {
+    "afirmacion": "Hilo de fabricante que pidió la función",
+    "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+   }
+  ],
+  "ajuste_sugerido": "",
+  "busquedas_usadas": 1
+ }
+]

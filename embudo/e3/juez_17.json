@@ -1,0 +1,131 @@
+[
+ {
+  "id": "G01-01",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "PrintQuote y 3D Print Quote Calculator ya ofrecen en Shopify cotización STL instantánea con plan gratis de 50 cotizaciones/mes.",
+  "competidores_verificados": [
+   {
+    "nombre": "PrintQuote",
+    "precio": "gratis 50 cotizaciones/mes; Hobby $9/mes",
+    "url": "https://apps.shopify.com/3d-print-quote"
+   },
+   {
+    "nombre": "3D Print Quote Calculator",
+    "precio": "plan gratis 50 cotizaciones/mes",
+    "url": "https://apps.shopify.com/3d-print-quote-calculator"
+   }
+  ],
+  "razon": "Incumbentes gratis suficientemente buenos en el mismo canal nombrado: falla F1 y el canal está saturado.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G10-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "Entflow Workflow Mapper ya mapea workflows en el HubSpot Marketplace (plan gratis aparente, sin confirmar); sin evidencia de pago por documentación.",
+  "competidores_verificados": [
+   {
+    "nombre": "Entflow Workflow Mapper",
+    "precio": "plan gratis aparente, sin confirmar",
+    "url": "https://ecosystem.hubspot.com/marketplace/listing/entflow-workflow-mapper"
+   }
+  ],
+  "razon": "Dolor real pero competidor directo en el canal y plataforma única; la diferenciación es débil y la disposición de pago no está probada.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G29-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "Existen alternativas self-hosted abiertas (Online 3D Viewer Docker, step2glb) y Tech Soft 3D vende Docker; demanda de búsqueda sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Tech Soft 3D Communicator",
+    "precio": "sin verificar",
+    "url": "https://docs.techsoft3d.com/communicator/latest/prog_guide/docker-support.html"
+   },
+   {
+    "nombre": "step2glb (OCCT)",
+    "precio": "gratis/abierto",
+    "url": "https://wiki.adom.inc/kyle/step2glb"
+   }
+  ],
+  "razon": "Ángulo de IP/self-hosted con ventaja fuerte de Juan y canal técnico nombrado, pero mercado estrecho y OSS cubre lo básico; sin evidencia de demanda.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G16-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "SBOM CycloneDX es commodity gratis (Dependency-Track, Anchore con guía CRA) y el reporte ENISA irá por plataforma oficial gratuita.",
+  "competidores_verificados": [
+   {
+    "nombre": "Anchore",
+    "precio": "sin verificar",
+    "url": "https://docs.anchore.com/current/docs/quickstarts/eucra/"
+   }
+  ],
+  "razon": "Urgencia regulatoria real, pero la capa de pago es delgada, el canal es débil y el SBOM de firmware binario es difícil para un MVP en 6 semanas.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G04-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 30,
+  "hecho_decisivo": "No se halló app Confluence para PLC, pero sin evidencia de que ingenieros PLC usen Confluence o busquen en Atlassian Marketplace.",
+  "competidores_verificados": [],
+  "razon": "Nicho vacío con ventaja máxima de Juan, pero mercado diminuto, canal sin verificar y poca disposición de pago demostrada.",
+  "busquedas_usadas": 0
+ }
+]

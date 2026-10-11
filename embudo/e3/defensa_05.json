@@ -1,0 +1,72 @@
+[
+ {
+  "id": "G16-03",
+  "rescatar": false,
+  "respuesta": "El ataque es en lo esencial cierto: la categoria esta saturada con planes gratis y precios de $3.99 a $19, con un unico diferenciador (escaner que atribuye a tema/app) ya cubierto por HewnScan y Perceivable.",
+  "concesiones": "F1 y F5 en $39; competidores gratis con funciones equivalentes; sin evidencia de instalaciones ni de pago.",
+  "hechos": [
+   {
+    "afirmacion": "Existen multiples apps de accesibilidad en Shopify: SEA Accessibility con plan gratis y 268 resenas, Accsible gratis, Perceivable (auditor de codigo del tema) gratis, CartCoders desde $3.99; Accessibility Spark a $99.99/mes muestra que algunos pagan precios altos (widgets overlay)",
+    "url": "https://easysellapp.com/blogs/wiki/best-shopify-accessibility-apps-ada-eaa-2026"
+   }
+  ],
+  "ajuste_sugerido": "Ninguno viable; el hueco de auditoria de codigo ya lo ocupa Perceivable.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G12-01",
+  "rescatar": true,
+  "respuesta": "El hueco persiste: la busqueda no hallo app nativa de Zapier/Make para STEP a imagen; solo ConvertAPI generico (sin confirmar STEP) y scripts DIY. El ataque tiene razon en que hay APIs HTTP, pero el segmento no-code compra conectores precisamente para evitar HTTP y hosting propio.",
+  "concesiones": "Demanda de busqueda en directorios y disposicion de pago a $49 sin verificar; riesgo de aprobacion de plataforma; existen APIs de conversion invocables por webhook.",
+  "hechos": [
+   {
+    "afirmacion": "No se hallo app Zapier/Make dedicada a STEP a PNG/glTF; Make tiene ConvertAPI generico (soporte STEP sin verificar) y la ruta practica es webhook a script FreeCAD/CadQuery",
+    "url": "https://www.make.com/en/integrations/convertapi/zapier"
+   }
+  ],
+  "ajuste_sugerido": "Lanzar primero como API REST con SEO 'step to png api' y n8n community node (sin aprobacion), y el conector Zapier/Make como canal secundario; cobrar por uso/plan $29-49.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G18-05",
+  "rescatar": false,
+  "respuesta": "El ataque se sostiene: CloudNC ya ofrece estimador de tiempo de ciclo dentro de Mastercam/Fusion/NX, los CAM traen estimacion y no hallamos hilos de demanda de pago.",
+  "concesiones": "F1 parcial (CAM integrado y CAMotics gratis); comprador dispuesto a pagar sin verificar; no se hallaron hilos de Reddit.",
+  "hechos": [
+   {
+    "afirmacion": "CloudNC Cycle Time Estimator opera como funcion de CAM Assist en Mastercam, Fusion y NX; testimonio de un taller sobre no sub-cotizar (fuente vendor)",
+    "url": "https://cloudnc.com/news-room/new-ai-solution-launched-to-accelerate-the-cnc-machining-estimating-process-and-eliminate-quoting-bottlenecks"
+   }
+  ],
+  "ajuste_sugerido": "Ninguno claro; nicho posible solo como API de estimacion para SaaS de cotizacion, que ya se solapa con otras ideas CAD.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G19-04",
+  "rescatar": false,
+  "respuesta": "No se hallo herramienta comercial WinCC a Ignition (hueco), pero la evidencia muestra que la practica comun es reformatear CSV en Excel o herramientas internas del integrador; compra puntual y nicho pequeno hacen inviable una suscripcion de $79.",
+  "concesiones": "Churn alto por uso puntual; sin demanda de busqueda verificada; F4 sin canal comprobado.",
+  "hechos": [
+   {
+    "afirmacion": "Foro de Ignition: la migracion de tags se resuelve reformateando CSV/Excel; Designer importa CSV; sin herramienta WinCC a Ignition en resultados",
+    "url": "https://forum.inductiveautomation.com/t/moving-from-rsview32/5563"
+   }
+  ],
+  "ajuste_sugerido": "Solo como pago unico o herramienta gratuita de captacion para otro producto; no como SaaS mensual.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G04-18",
+  "rescatar": false,
+  "respuesta": "Hay hueco parcial: la exportacion nativa de 'last seen' es manual y la actividad en Jira no siempre se refleja, pero el Marketplace ya tiene al menos 4-5 apps de optimizacion (una con tier gratis y ~280 instalaciones), asi que el techo es bajo y el diferenciador no esta claro.",
+  "concesiones": "Categoria ocupada; vistas nativas parciales (export CSV y API de last-active); dependencia total de Atlassian.",
+  "hechos": [
+   {
+    "afirmacion": "Atlassian ofrece export CSV con 'Last seen in Jira' y API de last-active-dates; no hay reporte automatico nativo segun la comunidad; ya existen apps como Inactive User Hygiene",
+    "url": "https://community.atlassian.com/forums/Jira-questions/How-to-track-inactive-users-from-jira/qaa-p/3248477"
+   }
+  ],
+  "ajuste_sugerido": "Ninguno solido; competir exigiria un angulo (ahorro por bandas de precio) ya anticipado por Licenaro.",
+  "busquedas_usadas": 1
+ }
+]

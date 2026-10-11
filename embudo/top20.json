@@ -1,0 +1,851 @@
+[
+ {
+  "id": "G08-01",
+  "nombre": "StepView API",
+  "cliente_que_paga": "Desarrollador de SaaS de manufactura/marketplaces de piezas",
+  "problema": "Mostrar archivos STEP/IGES en la web exige compilar OpenCascade y mantener servidores.",
+  "solucion": "API REST que convierte STEP/IGES/DXF a glTF/PNG/SVG con visor embebible, cobro por conversión.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO de 'step to gltf api' y 'convert step to glb online', listados en RapidAPI y directorios de APIs, docs indexables.",
+  "competidores": [
+   "CAD Exchanger (sin verificar precios)",
+   "Autodesk Platform Services (Forge)",
+   "Open CASCADE (librería, DIY)"
+  ],
+  "por_que_ahora": "Auge de marketplaces de manufactura bajo demanda y visores 3D en navegador.",
+  "ventaja_juan": "Conoce SolidWorks/AutoCAD y formatos CAD; software casi gratis.",
+  "riesgo_principal": "Autodesk APS u OSS (occt-import-js) cubren parte del caso.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "conversión CAD API",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null,
+  "e2_total": 45,
+  "e2_razon": "Equivale al ancla ALTA; SEO 'step to gltf api' y ventaja CAD fuertes, con APS/occt-import-js como cobertura parcial y demanda sin verificar.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 41,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Ancla similar pero con competidor directo verificado y canal SEO disputado, por lo que queda por debajo del ancla (46). Ventaja de Juan fuerte y precio mensual bajo como ángulo.",
+  "e3_hecho": "Hay disposición de pago verificada por APIs CAD en nube (Convert3D desde $899/año, CAD Exchanger $590+), pero Convert3D es competidor directo y la demanda de 'step to gltf api' no está verificada.",
+  "e3_competidores": [
+   {
+    "nombre": "Convert3D API",
+    "precio": "$899/año (5,000 conv.), $1,799/año, $4,899/año",
+    "url": "https://convert3d.org/developer-api"
+   },
+   {
+    "nombre": "CAD Exchanger",
+    "precio": "desde $590 (G2: $590-$2,690)",
+    "url": "https://g2.com/products/cad-exchanger/pricing"
+   }
+  ]
+ },
+ {
+  "id": "G19-01",
+  "nombre": "Linter de PLC Structured Text",
+  "cliente_que_paga": "Ingenieros de control e integradores",
+  "problema": "El código ST/SCL se revisa a mano y los errores aparecen en puesta en marcha.",
+  "solucion": "Linter y reglas de estilo (IEC 61131-3) para ST/SCL en CI, con reporte en pull requests.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'structured text linter' y GitHub Marketplace; foros PLCtalk y r/PLC",
+  "competidores": [
+   "Productos de análisis estático de los fabricantes (sin verificar)"
+  ],
+  "por_que_ahora": "Los PLC pasan a Git y CI (PLCopen XML, TIA Openness).",
+  "ventaja_juan": "Conozco ST/SCL y TIA Portal.",
+  "riesgo_principal": "Formatos propietarios cerrados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "lint PLC ST",
+  "tema_norm": "revisión de código PLC",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Linter ST/SCL con ventaja unica de Juan y canal GitHub/foros, pero formatos cerrados y adopcion CI temprana.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 39,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Diferenciacion y ventaja unicas de Juan, pero nicho pequeno, formatos cerrados, canal GitHub debil y pago sin evidencia. Banda media.",
+  "e3_hecho": "No se hallo linter comercial dominante de ST; solo Schneider (por creditos, atado a fabricante) y herramientas open source/academicas; demanda de pago sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "Schneider EcoStruxure Control Engineering Verification",
+    "precio": "bajo cotizacion",
+    "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+   },
+   {
+    "nombre": "iec-checker",
+    "precio": "gratis (open source)",
+    "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+   }
+  ]
+ },
+ {
+  "id": "G28-01",
+  "nombre": "PLC Diff for Git",
+  "cliente_que_paga": "Controls engineers / integrators with TIA Portal and Studio 5000",
+  "problema": "Siemens SCL/ladder sources cannot be diffed natively; code review of PLC changes is manual.",
+  "solucion": "Web app that ingests exported XML/L5X and shows readable diffs and change reports, with a git-friendly CLI.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Search 'compare TIA Portal projects' / 'L5X diff' plus PLCTalk and r/PLC posts",
+  "competidores": [
+   "versionDog",
+   "Siemens Automation Compare Tool",
+   "MDT AutoSave"
+  ],
+  "por_que_ahora": "IEC 61131 teams adopting git/CI; Siemens VCI exports XML since V16.",
+  "ventaja_juan": "Knows TIA Portal and Studio 5000 export formats.",
+  "riesgo_principal": "Vendors may ship better native diffs.",
+  "evidencia_url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing",
+  "angulo": "28",
+  "tema": "PLC code diff",
+  "tema_norm": "diff y versionado PLC",
+  "duplicado_de": null,
+  "e2_total": 40,
+  "e2_razon": "Necesidad respaldada por una fuente, comparadores existentes son de pago/empresa y la ventaja de Juan es máxima; mercado reducido y riesgo de diff nativo.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 38,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "La ventaja de Juan es máxima y los incumbentes son empresariales, lo que deja espacio para un diff autoservicio orientado a git/CI. El mercado es pequeño, el volumen de búsqueda y la demanda en PLCTalk/r/PLC siguen sin verificar, y Siemens puede mejorar su diff nativo.",
+  "e3_hecho": "versionDog es comercial, exige TIA Portal con licencia y no publica precio; Siemens ofrece VCI (XML a Git desde V16) y comparación nativa.",
+  "e3_competidores": [
+   {
+    "nombre": "versionDog",
+    "precio": "no publicado (sin verificar)",
+    "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+   },
+   {
+    "nombre": "Siemens VCI / compare",
+    "precio": "incluido en TIA",
+    "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+   }
+  ]
+ },
+ {
+  "id": "G10-19",
+  "nombre": "AppExchange Field Service CAD Viewer",
+  "cliente_que_paga": "Field service manager at equipment maker using Salesforce",
+  "problema": "Technicians lack drawing and part views inside work orders.",
+  "solucion": "Lightning component showing 2D/3D CAD of assets on Work Orders from uploaded files.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "AppExchange search 'Field Service' and 'CAD'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Servitization drives field service on Salesforce.",
+  "ventaja_juan": "CAD viewer/conversion knowledge.",
+  "riesgo_principal": "Niche and Salesforce dependency.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "CAD viewer salesforce",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null,
+  "e2_total": 40,
+  "e2_razon": "Ventaja CAD fuerte y canal AppExchange con intención, pero nicho diminuto y security review de Salesforce; competidores sin verificar.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 38,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Canal AppExchange nombrado y ventaja CAD fuerte, pero nicho diminuto, dependencia de Salesforce y competidor existente.",
+  "e3_hecho": "RenderDraw ya ofrece 3D/CAD y visual work instructions para field service en Salesforce (Visual CPQ desde US$25/usuario en Capterra); cobertura de Work Orders y listing AppExchange sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "RenderDraw",
+    "precio": "desde US$25/usuario (Capterra, Visual CPQ)",
+    "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+   }
+  ]
+ },
+ {
+  "id": "G15-01",
+  "nombre": "Agente de RFQ para talleres CNC",
+  "cliente_que_paga": "Dueños/estimadores de talleres de maquinado CNC (EE.UU./UE)",
+  "problema": "Leer RFQs por email con planos y armar cotizaciones lleva horas por pieza.",
+  "solucion": "Agente que lee el email, extrae planos STEP/PDF, estima tiempo de máquina y redacta la cotización para aprobar.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Foros r/machinists y r/CNC, Practical Machinist, videos de YouTube de talleres, SEO 'CNC quoting software'.",
+  "competidores": [
+   "Paperless Parts",
+   "Xometry (marketplace)"
+  ],
+  "por_que_ahora": "LLM + geometría 3D permiten estimar sin ingeniero de cotización.",
+  "ventaja_juan": "Conoce CAD/CAM y tiempos de maquinado reales.",
+  "riesgo_principal": "Competidores con fondos y ciclos de venta; precisión de estimación.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "cotización CNC",
+  "tema_norm": "cotización y costeo de taller",
+  "duplicado_de": null,
+  "e2_total": 40,
+  "e2_razon": "Dolor semanal real en talleres CNC y canal SEO/foros, pero MVP de estimación fiable en 6 semanas es difícil y Paperless Parts compite.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 38,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Dolor y pago reales (competidores cobran), pero mercado saturado con fondos y estimacion fiable no cabe en 6 semanas. No falla filtro; puntaje MEDIA. Busqueda web no disponible (cupo agotado); se uso evidencia de ataque/defensa.",
+  "e3_hecho": "Paperless Parts (US$30M), SpeedQuoteAI (desde US$750) y CloudNC (plan gratis limitado) cubren el mismo caso; no hay incumbente gratis completo.",
+  "e3_competidores": [
+   {
+    "nombre": "SpeedQuoteAI",
+    "precio": "desde US$750",
+    "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+   },
+   {
+    "nombre": "CloudNC Quote Agent",
+    "precio": "plan gratis 3 cotizaciones/mes",
+    "url": "https://www.cloudnc.com/quote-agent"
+   },
+   {
+    "nombre": "Paperless Parts",
+    "precio": "sin verificar",
+    "url": "https://www.paperlessparts.com/facts/"
+   }
+  ]
+ },
+ {
+  "id": "G06-04",
+  "nombre": "Subscription Churn Saver",
+  "cliente_que_paga": "Dueños de tiendas WooCommerce Subscriptions",
+  "problema": "Pagos fallidos y cancelaciones reducen MRR sin que el dueño lo note.",
+  "solucion": "Plugin de dunning inteligente, ofertas de pausa y alertas de cancelación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'woocommerce subscription retention' en WordPress.org y grupos de Facebook de WooCommerce.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crecen los modelos de suscripción en e-commerce.",
+  "ventaja_juan": "Backend PHP/Laravel y pagos.",
+  "riesgo_principal": "Posible incumbente nativo de WooCommerce.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "retención suscripciones Woo",
+  "tema_norm": "cobros y retención de suscripciones",
+  "duplicado_de": null,
+  "e2_total": 37,
+  "e2_razon": "Pagos fallidos duelen en dolares y WordPress.org es canal, pero ya existen plugins de dunning y Woo trae reintentos.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 38,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Hay pago demostrado y WordPress.org como canal, pero el espacio ya esta ocupado y el reintento nativo cubre parte; el nativo es basico, por lo que no se considera F1 firme. Diferenciacion debil.",
+  "e3_hecho": "Competidores de pago existen (Subscriptions Recovery $79/mes, Sublium $99-199/mes) y WooCommerce trae reintentos nativos limitados y apagados por defecto",
+  "e3_competidores": [
+   {
+    "nombre": "Subscriptions Recovery for WooCommerce",
+    "precio": "$79/mes + version gratis limitada",
+    "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+   },
+   {
+    "nombre": "Sublium",
+    "precio": "$99-199/mes",
+    "url": "https://alternativeto.net/software/sublium/about"
+   },
+   {
+    "nombre": "WooCommerce Subscriptions retry nativo",
+    "precio": "incluido",
+    "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+   }
+  ]
+ },
+ {
+  "id": "G01-17",
+  "nombre": "Lead Time Estimator",
+  "cliente_que_paga": "Tiendas de productos hechos bajo pedido o fabricados",
+  "problema": "Los clientes preguntan cuándo llegará y la tienda no puede prometer fechas.",
+  "solucion": "Estima fecha de entrega según cola de producción, capacidad y transporte, mostrada en producto y carrito.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'delivery date' / 'estimated delivery' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Expectativas de entrega transparentes reducen tickets.",
+  "ventaja_juan": "Conocimiento de cola de producción en máquinas.",
+  "riesgo_principal": "Cada taller modela capacidad distinto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "fecha de entrega fabricación",
+  "tema_norm": "producción y reservas",
+  "duplicado_de": null,
+  "e2_total": 36,
+  "e2_razon": "Canal Shopify nombrado y ángulo de cola de producción, pero cada taller modela capacidad distinto y el mercado es chico.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 38,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Canal Shopify nombrado y hueco en modelado por cola, pero las apps gratis de fecha de entrega cubren la mayor parte y cada taller modela distinto. No falla F1/F5 con evidencia suficiente; riesgo de plataforma.",
+  "e3_hecho": "Busqueda no halla app Shopify con cola de produccion real; EDD apps cuestan 0-20 USD y Orderkraft 69 USD/mes+uso es lo mas cercano.",
+  "e3_competidores": [
+   {
+    "nombre": "Orderkraft: made to order",
+    "precio": "69 USD/mes + uso",
+    "url": "https://apps.shopify.com/orderkraft"
+   },
+   {
+    "nombre": "EDD Availability App",
+    "precio": "5.99 USD/mes",
+    "url": "https://apps.shopify.com/edd-availability-app"
+   },
+   {
+    "nombre": "ArrivesBy",
+    "precio": "gratis a 19.99 USD/mes",
+    "url": "https://apps.shopify.com/arrives-by"
+   }
+  ]
+ },
+ {
+  "id": "G25-02",
+  "nombre": "Monitor de cambios en PLC",
+  "cliente_que_paga": "Ingeniero de planta / gerente de OT de planta mediana",
+  "problema": "Nadie sabe qué cambió en los programas de PLC entre respaldos.",
+  "solucion": "Servicio que compara proyectos PLC (L5X, TIA Openness exports) subidos y alerta diferencias con historial versionado.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Foros PLCTalk, r/PLC y SEO 'PLC program version control'",
+  "competidores": [
+   "FactoryTalk AssetCentre",
+   "Copia de Git manual",
+   "Industrial Defender (seguridad OT)"
+  ],
+  "por_que_ahora": "NIS2/IEC 62443 empujan control de cambios en OT.",
+  "ventaja_juan": "PLC Siemens/Rockwell: conoce los formatos de archivo.",
+  "riesgo_principal": "Los formatos propietarios cambian y los fabricantes pueden lanzar lo suyo.",
+  "evidencia_url": "https://industrialmonitordirect.com/tr/blogs/knowledgebase/plc-change-management-versioning-plc-and-hmi-project-files",
+  "angulo": "25",
+  "tema": "control cambios PLC",
+  "tema_norm": "diff y versionado PLC",
+  "duplicado_de": null,
+  "e2_total": 43,
+  "e2_razon": "Dolor concreto y presupuesto ($199) con ventaja máxima de Juan y canal PLCTalk/r/PLC con alguna evidencia; reticencia a subir proyectos OT y formatos propietarios frenan.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 37,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Máxima ventaja de Juan y hueco en diff semántico multi-vendor con auditoría, pero hay competidores establecidos y herramientas nativas, y la reticencia a subir proyectos OT es real. Canal (SEO, PLCTalk) plausible sin demanda verificada.",
+  "e3_hecho": "VersionDog/MDT AutoSave/AssetCentre existen (precios sin verificar) y TIA/Studio 5000 traen comparación nativa; dolor documentado en foros.",
+  "e3_competidores": [
+   {
+    "nombre": "VersionDog (AUVESY)",
+    "precio": "sin verificar",
+    "url": "https://www.getapp.co.uk/software/2042851/versiondog"
+   }
+  ]
+ },
+ {
+  "id": "G12-01",
+  "nombre": "CAD Preview for Zapier/Make",
+  "cliente_que_paga": "Ops or product engineers at manufacturing e-commerce and quoting SaaS",
+  "problema": "Automations cannot read STEP/DXF/IGES files, so teams preview and quote parts by hand.",
+  "solucion": "Zapier/Make/n8n app that converts CAD files to PNG/SVG/glTF plus metadata (bbox, volume) in one step.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Zapier App Directory and Make app listing for searches like 'STEP file', plus n8n community nodes and SEO 'step to png api'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "No-code automation is mainstream while CAD tooling stays closed to it.",
+  "ventaja_juan": "Knows CAD formats and can build converters nearly free.",
+  "riesgo_principal": "Depends on Zapier/Make approval and on open-source CAD kernels for parsing.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "CAD file automation",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null,
+  "e2_total": 42,
+  "e2_razon": "Hueco real de CAD en no-code con canal de directorios Zapier/Make y ventaja alta, pero demanda hipotetica y dependencia de plataformas.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 37,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Hueco real en directorios y ventaja maxima de Juan, pero demanda hipotetica, APIs HTTP sustituyen el conector y riesgo de aprobacion de plataforma. Canal nombrado pero sin demanda verificada.",
+  "e3_hecho": "No se hallo app Zapier/Make para STEP a PNG/glTF; solo APIs HTTP de conversion (convert3d, Adom); demanda y disposicion de pago sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "convert3d.org STEP to GLB (API)",
+    "precio": "sin verificar",
+    "url": "https://convert3d.org/step-to-glb"
+   }
+  ]
+ },
+ {
+  "id": "G18-11",
+  "nombre": "PLC tag list converter between vendors",
+  "cliente_que_paga": "Controls engineers migrating PLC projects",
+  "problema": "Migrating tag databases between Siemens and Rockwell is manual.",
+  "solucion": "Web tool mapping tag exports (CSV/XML) across TIA Portal and Studio 5000 formats.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'convert tag list Studio 5000 TIA', PLCTalk and r/PLC",
+  "competidores": [
+   "Vendor migration tools (sin verificar)"
+  ],
+  "por_que_ahora": "Brownfield migrations increase.",
+  "ventaja_juan": "Hands-on TIA Portal and Studio 5000.",
+  "riesgo_principal": "Niche volume may stay small.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "migración PLC",
+  "tema_norm": "conversión de tags PLC/SCADA",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Ventaja PLC real y búsqueda concreta, pero migración puntual (baja retención) y conversión parcial; sin evidencia.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 37,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Hueco real y ventaja maxima de Juan, pero uso puntual, baja retencion y pago incierto; canal r/PLC/PLCTalk/SEO sin verificar el volumen.",
+  "e3_hecho": "No se hallo herramienta dedicada Studio 5000 a TIA (lo mas cercano: Siemens WinCC TagConverter, solo tags HMI); hilo MrPLC indica proceso manual. Demanda y pago sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "Siemens WinCC TagConverter",
+    "precio": "sin verificar",
+    "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+   }
+  ]
+ },
+ {
+  "id": "G12-15",
+  "nombre": "Airtable to Postgres Sync",
+  "cliente_que_paga": "Developers and ops teams outgrowing Airtable",
+  "problema": "Airtable rate limits and size caps hurt apps built on it.",
+  "solucion": "Continuous two-way sync of Airtable bases to Postgres/Supabase with schema mapping.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Airtable Marketplace, SEO 'Airtable to Postgres sync', developer forums.",
+  "competidores": [
+   "Whalesync",
+   "Stacksync"
+  ],
+  "por_que_ahora": "Many Airtable prototypes become production apps.",
+  "ventaja_juan": "Strong backend and database skills.",
+  "riesgo_principal": "Established competitors; price competition.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "Airtable database sync",
+  "tema_norm": "automatización no-code",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Whalesync y Stacksync validan presupuesto pero ocupan el canal SEO; poca diferenciacion y presion de precio.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 37,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Presupuesto validado y mercado amplio, pero Whalesync ya ocupa el rango barato y el canal SEO, sin ángulo diferenciador. Riesgo de plataforma Airtable y guerra de precios.",
+  "e3_hecho": "Whalesync cubre Airtable-Postgres desde ~$5-49/mes según fuente (oficial sin confirmar) y Stacksync $1,000+/mes",
+  "e3_competidores": [
+   {
+    "nombre": "Whalesync",
+    "precio": "Personal $5, Starter $20, Plus $40, Pro $200 (PricingSaaS; fuentes discrepan)",
+    "url": "https://pricingsaas.com/companies/whalesync"
+   },
+   {
+    "nombre": "Stacksync",
+    "precio": "Starter $1,000/mes",
+    "url": "https://www.stacksync.com/pricing.md"
+   }
+  ]
+ },
+ {
+  "id": "G04-03",
+  "nombre": "Change Control for Engineering",
+  "cliente_que_paga": "Gerentes de calidad/ingeniería en fabricantes que usan Jira",
+  "problema": "Gestionar ECR/ECN con aprobaciones y trazabilidad en Jira exige configuración compleja.",
+  "solucion": "App con flujo ECR/ECN preconfigurado, aprobaciones por rol, registro de auditoría y export PDF.",
+  "precio_usd_mes": 200,
+  "canal_primeros_100": "Búsqueda 'ECO' 'change control' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fabricantes migran de PLM pesado a herramientas ligeras en la nube.",
+  "ventaja_juan": "Conocimiento de procesos industriales y documentación técnica.",
+  "riesgo_principal": "Compradores regulados pueden exigir validación formal.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "control de cambios ECN",
+  "tema_norm": "control de cambios de ingeniería",
+  "duplicado_de": null,
+  "e2_total": 37,
+  "e2_razon": "ECR/ECN en Atlassian Marketplace con canal nombrado y ticket 200, pero competencia de apps de cambios sin verificar y riesgo de segmento regulado.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 37,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Canal Atlassian Marketplace nombrado y ticket alto, con hueco aparente pero demanda no probada; PLM/QMS dedicados cubren regulados. Puntaje moderado por falta de evidencia.",
+  "e3_hecho": "No se confirmo ninguna app ECR/ECN de manufactura en Atlassian Marketplace; solo flujos IT gratis y un hilo comunitario donde un experto cuestiona la necesidad (sin verificar competidores ni demanda).",
+  "e3_competidores": [
+   {
+    "nombre": "Intellect ECN software (QMS)",
+    "precio": "sin verificar",
+    "url": "https://intellect.com/products/engineering-change-notice-software"
+   }
+  ]
+ },
+ {
+  "id": "G01-02",
+  "nombre": "DXF Laser Cut Pricer",
+  "cliente_que_paga": "Talleres de corte láser/CNC con tienda Shopify",
+  "problema": "Cotizar archivos DXF/SVG a mano consume horas.",
+  "solucion": "Widget que lee DXF/SVG, calcula perímetro, área y precio por material/espesor, y crea el producto en el carrito.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'custom laser cut quote' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Talleres venden online piezas a medida y quieren autoservicio.",
+  "ventaja_juan": "Conocimiento CAD/CAM de nesting y tiempos de corte.",
+  "riesgo_principal": "Mercado de talleres con Shopify limitado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "cotización corte láser",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null,
+  "e2_total": 41,
+  "e2_razon": "Canal nombrado en Shopify App Store con intención de compra y ventaja CAD/CAM de Juan; mercado de talleres con Shopify limitado.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 36,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Canal Shopify con intención y ventaja CAD, pero incumbente nuevo con plan gratis y más barato. Plan gratis limitado, no falla F1.",
+  "e3_hecho": "MakeQuote (mayo 2026) ya cubre DXF con plan gratis de 10 pedidos y Pro $19/mes; su lógica de perímetro/espesor sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "MakeQuote",
+    "precio": "gratis 10 pedidos/mes; Pro $19/mes (terceros)",
+    "url": "https://apps.shopify.com/makequote"
+   }
+  ],
+  "variantes": [
+   "G18-01"
+  ]
+ },
+ {
+  "id": "G16-01",
+  "nombre": "Peppol Invoice Validator API",
+  "cliente_que_paga": "Developers de SaaS/ERP que emiten e-facturas UE",
+  "problema": "Deben emitir facturas Peppol BIS/EN16931 válidas y los errores de validación son crípticos.",
+  "solucion": "API y CLI que valida y repara UBL/CII contra EN16931 y reglas nacionales, con mensajes legibles.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'peppol validator api', GitHub, directorios de APIs, posts en dev.to",
+  "competidores": [
+   "Storecove",
+   "Billit",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Mandatos e-invoicing B2B en Bélgica (2026), Polonia, Francia y la ley ViDA con fechas límite.",
+  "ventaja_juan": "Backend senior en Node/TS y XML/validación de esquemas.",
+  "riesgo_principal": "Los proveedores de acceso Peppol pueden incluir validación gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "e-invoicing UE validación",
+  "tema_norm": "facturación, impuestos y conciliación",
+  "duplicado_de": null,
+  "e2_total": 41,
+  "e2_razon": "Mandato e-invoicing da intención de búsqueda, pero reglas Schematron oficiales son gratis y el valor es solo mensajes legibles/reparación.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 36,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Hay intención de búsqueda por los mandatos, pero las reglas son gratis y el precio de referencia es pago por uso, muy por debajo de US$79/mes. No falla F1 con claridad, pero la diferenciación es estrecha y el riesgo de que los proveedores Peppol lo regalen es real.",
+  "e3_hecho": "Hay validadores web gratis (ecosio, Lappa) y un actor de Apify a US$4 por 1,000 validaciones; no se confirmó un REST API gratis dedicado.",
+  "e3_competidores": [
+   {
+    "nombre": "Apify Peppol BIS Preflight Validator",
+    "precio": "US$4 por 1,000 validaciones",
+    "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+   },
+   {
+    "nombre": "ecosio validator",
+    "precio": "gratis (web)",
+    "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+   }
+  ]
+ },
+ {
+  "id": "G29-09",
+  "nombre": "PLC Documentation Generator",
+  "cliente_que_paga": "Integrators handing over projects",
+  "problema": "Writing IO lists and handover docs by hand takes days.",
+  "solucion": "Offline tool parsing exported PLC projects into IO lists, tag sheets and PDF docs.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "PLCTalk, Reddit r/PLC, search 'generate IO list from TIA Portal'",
+  "competidores": [
+   "Manual Excel",
+   "Copia"
+  ],
+  "por_que_ahora": "Customers demand documentation but integrators cannot upload code.",
+  "ventaja_juan": "PLC naming and structure knowledge.",
+  "riesgo_principal": "Small niche.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "PLC documentation",
+  "tema_norm": "documentación de PLC",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Dolor concreto de días en documentación de entrega y ventaja de Juan alta, pero parsear proyectos propietarios es costoso y el nicho es chico.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 36,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Dolor real y ventaja máxima de Juan; sin competidor dedicado hallado. Pero parsear proyectos propietarios es frágil (Openness), nicho chico y demanda sin verificar.",
+  "e3_hecho": "No se halló generador dedicado de IO list desde TIA Portal (no prueba inexistencia); demanda en PLCTalk sin verificar",
+  "e3_competidores": [
+   {
+    "nombre": "Litmus S7 Browse Agent",
+    "precio": "sin verificar",
+    "url": "https://litmus.io/solutions/siemens-s7-browse-agent"
+   }
+  ],
+  "variantes": [
+   "G18-12"
+  ]
+ },
+ {
+  "id": "G12-05",
+  "nombre": "Cross-Platform Automation Monitor",
+  "cliente_que_paga": "Automation agencies and freelancers managing client Zaps, Make scenarios and n8n workflows",
+  "problema": "Failures are scattered across three platforms and clients notice before the agency does.",
+  "solucion": "One dashboard and alert feed for failed runs across Zapier, Make and n8n with retry links.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Agency communities such as Make and n8n forums, Zapier Experts directory posts, YouTube automation creators, SEO 'monitor Make scenarios'.",
+  "competidores": [
+   "Native run history in each platform (partial)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Agencies now run multi-platform stacks for clients.",
+  "ventaja_juan": "Backend engineer, strong with APIs and webhooks.",
+  "riesgo_principal": "Platforms could expose better native monitoring; API limits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "automation failure monitoring",
+  "tema_norm": "automatización no-code",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Vista unificada Zapier/Make/n8n que ninguna plataforma ofrece, comunidades nombradas; riesgo de APIs nativas y tamaño sin verificar.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 36,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Dolor documentado y canales de comunidad nombrados, pero el hueco ya esta ocupado y $49 supera a los incumbentes. Diferenciacion casi nula; no cae en F1 porque los tiers gratis son limitados.",
+  "e3_hecho": "Existen al menos 4 monitores multi-plataforma (OpsVeritas, RootBrief, Flowlert, FlowPulse) con tiers gratis y Pro desde $19.",
+  "e3_competidores": [
+   {
+    "nombre": "OpsVeritas",
+    "precio": "gratis 10 workflows; pago sin verificar",
+    "url": "https://www.producthunt.com/products/opsveritas"
+   },
+   {
+    "nombre": "RootBrief",
+    "precio": "Pro desde $19/mes (lanzamiento)",
+    "url": "https://www.producthunt.com/p/rootbrief"
+   },
+   {
+    "nombre": "Flowlert",
+    "precio": "gratis hasta 5 workflows",
+    "url": "https://hunted.space/product/flowlert"
+   }
+  ]
+ },
+ {
+  "id": "G18-03",
+  "nombre": "Automated DFM checker for sheet metal",
+  "cliente_que_paga": "Mechanical design engineers and startups ordering sheet-metal parts",
+  "problema": "Parts get rejected by shops for min-flange, hole-to-edge or bend-relief errors.",
+  "solucion": "Upload DXF/STEP and get a DFM report with highlighted violations by process.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'sheet metal DFM checklist', r/engineering, Fusion/SolidWorks forums",
+  "competidores": [
+   "Xometry and Protolabs built-in DFM (only on their quotes)"
+  ],
+  "por_que_ahora": "Engineers want pre-checks before ordering.",
+  "ventaja_juan": "DFM and sheet-metal design experience.",
+  "riesgo_principal": "Quote platforms offer free DFM feedback (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "DFM chapa",
+  "tema_norm": "DFM, reparación y validación DXF",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Pre-chequeo DFM neutral multi-proveedor con ventaja clara de Juan; Xometry/Protolabs dan DFM gratis solo dentro de su cotizacion, pago sin verificar.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 36,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Hueco neutral con ventaja de Juan y SEO plausible, pero disposicion de pago y F1 por DFM gratis son riesgo real. MEDIA-baja.",
+  "e3_hecho": "No se hallo verificador DFM de chapa autoservicio neutral; Xometry/Protolabs/QDJ dan DFM gratis solo atado a cotizacion; pago por DFM independiente sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "QDJ Prototype DFM",
+    "precio": "gratis con cotizacion",
+    "url": "https://qdj-prototype.com/dfm-engineering-review/"
+   },
+   {
+    "nombre": "Hypertherm Design2Fab",
+    "precio": "US$79.99/usuario/mes",
+    "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+   }
+  ]
+ },
+ {
+  "id": "G09-08",
+  "nombre": "Shopify HS Code Pages",
+  "cliente_que_paga": "Tiendas Shopify que envían internacionalmente",
+  "problema": "Clasificar productos con HS code y aranceles causa retenciones aduanales.",
+  "solucion": "App que sugiere HS codes y genera documentos, con páginas SEO por producto/país.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'HS code' en Shopify App Store y SEO 'hs code for [product]'.",
+  "competidores": [
+   "Zonos (precios sin verificar)"
+  ],
+  "por_que_ahora": "Cambios arancelarios elevan la necesidad.",
+  "ventaja_juan": "Backend e integraciones Shopify.",
+  "riesgo_principal": "Dependencia de Shopify y datos arancelarios de calidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "HS code Shopify",
+  "tema_norm": "etiquetas y aduanas",
+  "duplicado_de": null,
+  "e2_total": 36,
+  "e2_razon": "Búsqueda 'HS code' en Shopify App Store más SEO programático dan buen canal, pero hay jugadores como Zonos, riesgo de responsabilidad y datos arancelarios costosos.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 36,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "El canal del marketplace existe y hay disposición de pago comprobada, pero el espacio ya está poblado de apps baratas y la diferenciación vía SEO programático no está probada. Quedan riesgos de responsabilidad por clasificación errónea y de dependencia de Shopify.",
+  "e3_hecho": "En la Shopify App Store ya existen apps de HS code de autoservicio: DutyCode (gratis con 25 clasificaciones, luego US$19-99/mes) y HClassify (US$49-399).",
+  "e3_competidores": [
+   {
+    "nombre": "DutyCode",
+    "precio": "gratis 25; US$19/49/99 al mes (listados contradictorios: también paquetes de créditos)",
+    "url": "https://apps.shopify.com/dutycode"
+   },
+   {
+    "nombre": "HClassify",
+    "precio": "US$49/149/399 al mes",
+    "url": "https://apps.shopify.com/hclassify"
+   }
+  ]
+ },
+ {
+  "id": "G20-17",
+  "nombre": "CNC Job Costing Tool",
+  "cliente_que_paga": "Talleres de maquinado pequeños",
+  "problema": "Estiman a ojo y pierden margen.",
+  "solucion": "Importa CAM y estima tiempo de máquina, herramental y costo.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "Búsqueda 'cnc job costing software' y foros Practical Machinist.",
+  "competidores": [
+   "Paperless Parts (sin verificar)",
+   "ProShop (sin verificar)"
+  ],
+  "por_que_ahora": "Inflación de costos y demanda de cotizaciones rápidas.",
+  "ventaja_juan": "Conoce CAM y manufactura.",
+  "riesgo_principal": "Incumbentes con más funciones.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "costeo CNC",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null,
+  "e2_total": 35,
+  "e2_razon": "Canal SEO de intención alta, pero incumbentes con más funciones y la importación de CAM es difícil.",
+  "e2_filtro": null,
+  "e2_desempate": 38,
+  "top100": true,
+  "e3_total": 36,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Pasa los filtros: hay pago en autoservicio en la categoria y canal SEO nombrado, aunque el volumen de busqueda esta sin verificar. Estimar tiempos desde CAM en 6 semanas es dificil y los incumbentes son mas profundos; media-baja.",
+  "e3_hecho": "Competidores con precio publico en autoservicio existen (Machestra desde gratis/$19/$79, QuoteForge desde $99), pero ninguno verificado como estimador CAM a $69; Paperless Parts/ProShop sin precio publicado.",
+  "e3_competidores": [
+   {
+    "nombre": "QuoteForge",
+    "precio": "desde $99/mes (moneda sin verificar)",
+    "url": "https://www.softwaresuggest.com/quoteforge"
+   },
+   {
+    "nombre": "Machestra",
+    "precio": "gratis / $19 / $79 mes",
+    "url": "https://www.capterra.com/software/1108556/Machestra"
+   },
+   {
+    "nombre": "Paperless Parts",
+    "precio": "sin verificar",
+    "url": "https://www.paperlessparts.com/cnc-machining-quoting-software-ppc/"
+   }
+  ]
+ },
+ {
+  "id": "G06-01",
+  "nombre": "STL Quote for WooCommerce",
+  "cliente_que_paga": "Tiendas WooCommerce que venden impresión 3D bajo pedido",
+  "problema": "Los clientes suben un STL y el dueño cotiza a mano cada pedido.",
+  "solucion": "Plugin que analiza el STL (volumen, tiempo, material) y muestra precio instantáneo en el carrito.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda '3D printing quote WooCommerce' en WordPress.org y foros de r/3Dprinting y print farms.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de print farms y servicios de impresión locales.",
+  "ventaja_juan": "Conocimiento de firmware de impresoras 3D y slicing para estimar tiempo/material.",
+  "riesgo_principal": "Dependencia de WooCommerce; estimaciones imprecisas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cotización impresión 3D",
+  "tema_norm": "cotización impresión 3D",
+  "duplicado_de": null,
+  "e2_total": 39,
+  "e2_razon": "Cotizacion de STL en WooCommerce elimina trabajo manual semanal, canal WordPress.org nombrado y ventaja de slicing; competidores sin verificar y nicho acotado.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "top100": true,
+  "e3_total": 35,
+  "top20": true,
+  "e3_filtro": null,
+  "e3_razon": "Dolor real pero canal WordPress.org ocupado por un rival con plan gratis y uno open source; diferenciacion debil y disposicion de pago baja a $29. Ventaja de slicing y MVP corto lo sostienen en banda MEDIA baja.",
+  "e3_hecho": "PrintPrice (WordPress.org) ya da precio instantaneo de STL en carrito con plan gratis de 5 pedidos/mes; SlicePress es GPL.",
+  "e3_competidores": [
+   {
+    "nombre": "PrintPrice",
+    "precio": "gratis 5 pedidos/mes; planes de pago 50/100/300 pedidos (precio sin verificar)",
+    "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+   },
+   {
+    "nombre": "SlicePress",
+    "precio": "GPL gratis",
+    "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+   }
+  ]
+ }
+]

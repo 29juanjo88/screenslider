@@ -1,0 +1,3080 @@
+[
+ {
+  "id": "G08-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 41,
+  "hecho_decisivo": "Hay disposición de pago verificada por APIs CAD en nube (Convert3D desde $899/año, CAD Exchanger $590+), pero Convert3D es competidor directo y la demanda de 'step to gltf api' no está verificada.",
+  "competidores_verificados": [
+   {
+    "nombre": "Convert3D API",
+    "precio": "$899/año (5,000 conv.), $1,799/año, $4,899/año",
+    "url": "https://convert3d.org/developer-api"
+   },
+   {
+    "nombre": "CAD Exchanger",
+    "precio": "desde $590 (G2: $590-$2,690)",
+    "url": "https://g2.com/products/cad-exchanger/pricing"
+   }
+  ],
+  "razon": "Ancla similar pero con competidor directo verificado y canal SEO disputado, por lo que queda por debajo del ancla (46). Ventaja de Juan fuerte y precio mensual bajo como ángulo.",
+  "busquedas_usadas": 2,
+  "lote": "03",
+  "tema": "visor y conversión CAD"
+ },
+ {
+  "id": "G19-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 39,
+  "hecho_decisivo": "No se hallo linter comercial dominante de ST; solo Schneider (por creditos, atado a fabricante) y herramientas open source/academicas; demanda de pago sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Schneider EcoStruxure Control Engineering Verification",
+    "precio": "bajo cotizacion",
+    "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+   },
+   {
+    "nombre": "iec-checker",
+    "precio": "gratis (open source)",
+    "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+   }
+  ],
+  "razon": "Diferenciacion y ventaja unicas de Juan, pero nicho pequeno, formatos cerrados, canal GitHub debil y pago sin evidencia. Banda media.",
+  "busquedas_usadas": 0,
+  "lote": "13",
+  "tema": "revisión de código PLC"
+ },
+ {
+  "id": "G28-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "hecho_decisivo": "versionDog es comercial, exige TIA Portal con licencia y no publica precio; Siemens ofrece VCI (XML a Git desde V16) y comparación nativa.",
+  "competidores_verificados": [
+   {
+    "nombre": "versionDog",
+    "precio": "no publicado (sin verificar)",
+    "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+   },
+   {
+    "nombre": "Siemens VCI / compare",
+    "precio": "incluido en TIA",
+    "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+   }
+  ],
+  "razon": "La ventaja de Juan es máxima y los incumbentes son empresariales, lo que deja espacio para un diff autoservicio orientado a git/CI. El mercado es pequeño, el volumen de búsqueda y la demanda en PLCTalk/r/PLC siguen sin verificar, y Siemens puede mejorar su diff nativo.",
+  "busquedas_usadas": 1,
+  "lote": "18",
+  "tema": "diff y versionado PLC"
+ },
+ {
+  "id": "G10-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "RenderDraw ya ofrece 3D/CAD y visual work instructions para field service en Salesforce (Visual CPQ desde US$25/usuario en Capterra); cobertura de Work Orders y listing AppExchange sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "RenderDraw",
+    "precio": "desde US$25/usuario (Capterra, Visual CPQ)",
+    "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+   }
+  ],
+  "razon": "Canal AppExchange nombrado y ventaja CAD fuerte, pero nicho diminuto, dependencia de Salesforce y competidor existente.",
+  "busquedas_usadas": 1,
+  "lote": "19",
+  "tema": "visor y conversión CAD"
+ },
+ {
+  "id": "G15-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "Paperless Parts (US$30M), SpeedQuoteAI (desde US$750) y CloudNC (plan gratis limitado) cubren el mismo caso; no hay incumbente gratis completo.",
+  "competidores_verificados": [
+   {
+    "nombre": "SpeedQuoteAI",
+    "precio": "desde US$750",
+    "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+   },
+   {
+    "nombre": "CloudNC Quote Agent",
+    "precio": "plan gratis 3 cotizaciones/mes",
+    "url": "https://www.cloudnc.com/quote-agent"
+   },
+   {
+    "nombre": "Paperless Parts",
+    "precio": "sin verificar",
+    "url": "https://www.paperlessparts.com/facts/"
+   }
+  ],
+  "razon": "Dolor y pago reales (competidores cobran), pero mercado saturado con fondos y estimacion fiable no cabe en 6 semanas. No falla filtro; puntaje MEDIA. Busqueda web no disponible (cupo agotado); se uso evidencia de ataque/defensa.",
+  "busquedas_usadas": 0,
+  "lote": "20",
+  "tema": "cotización y costeo de taller"
+ },
+ {
+  "id": "G06-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "hecho_decisivo": "Competidores de pago existen (Subscriptions Recovery $79/mes, Sublium $99-199/mes) y WooCommerce trae reintentos nativos limitados y apagados por defecto",
+  "competidores_verificados": [
+   {
+    "nombre": "Subscriptions Recovery for WooCommerce",
+    "precio": "$79/mes + version gratis limitada",
+    "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+   },
+   {
+    "nombre": "Sublium",
+    "precio": "$99-199/mes",
+    "url": "https://alternativeto.net/software/sublium/about"
+   },
+   {
+    "nombre": "WooCommerce Subscriptions retry nativo",
+    "precio": "incluido",
+    "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+   }
+  ],
+  "razon": "Hay pago demostrado y WordPress.org como canal, pero el espacio ya esta ocupado y el reintento nativo cubre parte; el nativo es basico, por lo que no se considera F1 firme. Diferenciacion debil.",
+  "busquedas_usadas": 1,
+  "lote": "10",
+  "tema": "cobros y retención de suscripciones"
+ },
+ {
+  "id": "G01-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "Busqueda no halla app Shopify con cola de produccion real; EDD apps cuestan 0-20 USD y Orderkraft 69 USD/mes+uso es lo mas cercano.",
+  "competidores_verificados": [
+   {
+    "nombre": "Orderkraft: made to order",
+    "precio": "69 USD/mes + uso",
+    "url": "https://apps.shopify.com/orderkraft"
+   },
+   {
+    "nombre": "EDD Availability App",
+    "precio": "5.99 USD/mes",
+    "url": "https://apps.shopify.com/edd-availability-app"
+   },
+   {
+    "nombre": "ArrivesBy",
+    "precio": "gratis a 19.99 USD/mes",
+    "url": "https://apps.shopify.com/arrives-by"
+   }
+  ],
+  "razon": "Canal Shopify nombrado y hueco en modelado por cola, pero las apps gratis de fecha de entrega cubren la mayor parte y cada taller modela distinto. No falla F1/F5 con evidencia suficiente; riesgo de plataforma.",
+  "busquedas_usadas": 2,
+  "lote": "08",
+  "tema": "producción y reservas"
+ },
+ {
+  "id": "G25-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "VersionDog/MDT AutoSave/AssetCentre existen (precios sin verificar) y TIA/Studio 5000 traen comparación nativa; dolor documentado en foros.",
+  "competidores_verificados": [
+   {
+    "nombre": "VersionDog (AUVESY)",
+    "precio": "sin verificar",
+    "url": "https://www.getapp.co.uk/software/2042851/versiondog"
+   }
+  ],
+  "razon": "Máxima ventaja de Juan y hueco en diff semántico multi-vendor con auditoría, pero hay competidores establecidos y herramientas nativas, y la reticencia a subir proyectos OT es real. Canal (SEO, PLCTalk) plausible sin demanda verificada.",
+  "busquedas_usadas": 1,
+  "lote": "02",
+  "tema": "diff y versionado PLC"
+ },
+ {
+  "id": "G12-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "No se hallo app Zapier/Make para STEP a PNG/glTF; solo APIs HTTP de conversion (convert3d, Adom); demanda y disposicion de pago sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "convert3d.org STEP to GLB (API)",
+    "precio": "sin verificar",
+    "url": "https://convert3d.org/step-to-glb"
+   }
+  ],
+  "razon": "Hueco real en directorios y ventaja maxima de Juan, pero demanda hipotetica, APIs HTTP sustituyen el conector y riesgo de aprobacion de plataforma. Canal nombrado pero sin demanda verificada.",
+  "busquedas_usadas": 2,
+  "lote": "05",
+  "tema": "visor y conversión CAD"
+ },
+ {
+  "id": "G10-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "Convertidores STEP a glTF gratis y SDK comerciales (CAD Exchanger) ya existen; precio de $300 y demanda en AWS Marketplace sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "CAD Exchanger",
+    "precio": "sin verificar",
+    "url": "https://cadexchanger.com/step-to-gltf"
+   },
+   {
+    "nombre": "Convert3D (gratis, dice tener API)",
+    "precio": "gratis",
+    "url": "https://convert3d.org/step-to-glb"
+   }
+  ],
+  "razon": "Misma familia que el ancla ALTA pero sin evidencia de pago ni de canal; diferenciacion baja ante gratis y DIY con OpenCascade. No se premia por parecerse al ancla.",
+  "busquedas_usadas": 0,
+  "lote": "06",
+  "tema": "visor y conversión CAD"
+ },
+ {
+  "id": "G29-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "Existen alternativas self-hosted abiertas (Online 3D Viewer Docker, step2glb) y Tech Soft 3D vende Docker; demanda de búsqueda sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Tech Soft 3D Communicator",
+    "precio": "sin verificar",
+    "url": "https://docs.techsoft3d.com/communicator/latest/prog_guide/docker-support.html"
+   },
+   {
+    "nombre": "step2glb (OCCT)",
+    "precio": "gratis/abierto",
+    "url": "https://wiki.adom.inc/kyle/step2glb"
+   }
+  ],
+  "razon": "Ángulo de IP/self-hosted con ventaja fuerte de Juan y canal técnico nombrado, pero mercado estrecho y OSS cubre lo básico; sin evidencia de demanda.",
+  "busquedas_usadas": 0,
+  "lote": "17",
+  "tema": "visor y conversión CAD"
+ },
+ {
+  "id": "G18-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "No se hallo herramienta dedicada Studio 5000 a TIA (lo mas cercano: Siemens WinCC TagConverter, solo tags HMI); hilo MrPLC indica proceso manual. Demanda y pago sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Siemens WinCC TagConverter",
+    "precio": "sin verificar",
+    "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+   }
+  ],
+  "razon": "Hueco real y ventaja maxima de Juan, pero uso puntual, baja retencion y pago incierto; canal r/PLC/PLCTalk/SEO sin verificar el volumen.",
+  "busquedas_usadas": 0,
+  "lote": "08",
+  "tema": "conversión de tags PLC/SCADA"
+ },
+ {
+  "id": "G12-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 37,
+  "hecho_decisivo": "Whalesync cubre Airtable-Postgres desde ~$5-49/mes según fuente (oficial sin confirmar) y Stacksync $1,000+/mes",
+  "competidores_verificados": [
+   {
+    "nombre": "Whalesync",
+    "precio": "Personal $5, Starter $20, Plus $40, Pro $200 (PricingSaaS; fuentes discrepan)",
+    "url": "https://pricingsaas.com/companies/whalesync"
+   },
+   {
+    "nombre": "Stacksync",
+    "precio": "Starter $1,000/mes",
+    "url": "https://www.stacksync.com/pricing.md"
+   }
+  ],
+  "razon": "Presupuesto validado y mercado amplio, pero Whalesync ya ocupa el rango barato y el canal SEO, sin ángulo diferenciador. Riesgo de plataforma Airtable y guerra de precios.",
+  "busquedas_usadas": 1,
+  "lote": "09",
+  "tema": "automatización no-code"
+ },
+ {
+  "id": "G04-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "No se confirmo ninguna app ECR/ECN de manufactura en Atlassian Marketplace; solo flujos IT gratis y un hilo comunitario donde un experto cuestiona la necesidad (sin verificar competidores ni demanda).",
+  "competidores_verificados": [
+   {
+    "nombre": "Intellect ECN software (QMS)",
+    "precio": "sin verificar",
+    "url": "https://intellect.com/products/engineering-change-notice-software"
+   }
+  ],
+  "razon": "Canal Atlassian Marketplace nombrado y ticket alto, con hueco aparente pero demanda no probada; PLM/QMS dedicados cubren regulados. Puntaje moderado por falta de evidencia.",
+  "busquedas_usadas": 0,
+  "lote": "04",
+  "tema": "control de cambios de ingeniería"
+ },
+ {
+  "id": "G01-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "MakeQuote (mayo 2026) ya cubre DXF con plan gratis de 10 pedidos y Pro $19/mes; su lógica de perímetro/espesor sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "MakeQuote",
+    "precio": "gratis 10 pedidos/mes; Pro $19/mes (terceros)",
+    "url": "https://apps.shopify.com/makequote"
+   }
+  ],
+  "razon": "Canal Shopify con intención y ventaja CAD, pero incumbente nuevo con plan gratis y más barato. Plan gratis limitado, no falla F1.",
+  "busquedas_usadas": 1,
+  "lote": "14",
+  "tema": "cotización corte láser/DXF"
+ },
+ {
+  "id": "G16-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "Hay validadores web gratis (ecosio, Lappa) y un actor de Apify a US$4 por 1,000 validaciones; no se confirmó un REST API gratis dedicado.",
+  "competidores_verificados": [
+   {
+    "nombre": "Apify Peppol BIS Preflight Validator",
+    "precio": "US$4 por 1,000 validaciones",
+    "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+   },
+   {
+    "nombre": "ecosio validator",
+    "precio": "gratis (web)",
+    "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+   }
+  ],
+  "razon": "Hay intención de búsqueda por los mandatos, pero las reglas son gratis y el precio de referencia es pago por uso, muy por debajo de US$79/mes. No falla F1 con claridad, pero la diferenciación es estrecha y el riesgo de que los proveedores Peppol lo regalen es real.",
+  "busquedas_usadas": 1,
+  "lote": "18",
+  "tema": "facturación, impuestos y conciliación"
+ },
+ {
+  "id": "G29-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "No se halló generador dedicado de IO list desde TIA Portal (no prueba inexistencia); demanda en PLCTalk sin verificar",
+  "competidores_verificados": [
+   {
+    "nombre": "Litmus S7 Browse Agent",
+    "precio": "sin verificar",
+    "url": "https://litmus.io/solutions/siemens-s7-browse-agent"
+   }
+  ],
+  "razon": "Dolor real y ventaja máxima de Juan; sin competidor dedicado hallado. Pero parsear proyectos propietarios es frágil (Openness), nicho chico y demanda sin verificar.",
+  "busquedas_usadas": 2,
+  "lote": "09",
+  "tema": "documentación de PLC"
+ },
+ {
+  "id": "G12-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "Existen al menos 4 monitores multi-plataforma (OpsVeritas, RootBrief, Flowlert, FlowPulse) con tiers gratis y Pro desde $19.",
+  "competidores_verificados": [
+   {
+    "nombre": "OpsVeritas",
+    "precio": "gratis 10 workflows; pago sin verificar",
+    "url": "https://www.producthunt.com/products/opsveritas"
+   },
+   {
+    "nombre": "RootBrief",
+    "precio": "Pro desde $19/mes (lanzamiento)",
+    "url": "https://www.producthunt.com/p/rootbrief"
+   },
+   {
+    "nombre": "Flowlert",
+    "precio": "gratis hasta 5 workflows",
+    "url": "https://hunted.space/product/flowlert"
+   }
+  ],
+  "razon": "Dolor documentado y canales de comunidad nombrados, pero el hueco ya esta ocupado y $49 supera a los incumbentes. Diferenciacion casi nula; no cae en F1 porque los tiers gratis son limitados.",
+  "busquedas_usadas": 1,
+  "lote": "12",
+  "tema": "automatización no-code"
+ },
+ {
+  "id": "G18-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "Competidores IA existen (Copia, Software Defined Automation) pero sin precios verificados; la busqueda de Copia no confirmo precio ni documentacion.",
+  "competidores_verificados": [
+   {
+    "nombre": "Software Defined Automation (docs IA)",
+    "precio": "sin verificar",
+    "url": "https://docs.softwaredefinedautomation.io/console/ai-generated-code-documentation/overview"
+   },
+   {
+    "nombre": "Copia Automation",
+    "precio": "sin verificar",
+    "url": "https://copia.io/?p=731"
+   }
+  ],
+  "razon": "Dolor y canal comunitario reales (PLCTalk, r/PLC) con ventaja maxima de Juan, pero parsers por marca, confidencialidad del codigo y competidores con IA. Sin filtro fallado.",
+  "busquedas_usadas": 1,
+  "lote": "15",
+  "tema": "documentación de PLC"
+ },
+ {
+  "id": "G18-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "No se hallo verificador DFM de chapa autoservicio neutral; Xometry/Protolabs/QDJ dan DFM gratis solo atado a cotizacion; pago por DFM independiente sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "QDJ Prototype DFM",
+    "precio": "gratis con cotizacion",
+    "url": "https://qdj-prototype.com/dfm-engineering-review/"
+   },
+   {
+    "nombre": "Hypertherm Design2Fab",
+    "precio": "US$79.99/usuario/mes",
+    "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+   }
+  ],
+  "razon": "Hueco neutral con ventaja de Juan y SEO plausible, pero disposicion de pago y F1 por DFM gratis son riesgo real. MEDIA-baja.",
+  "busquedas_usadas": 0,
+  "lote": "20",
+  "tema": "DFM, reparación y validación DXF"
+ },
+ {
+  "id": "G18-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "CutQuote (desde $95/usuario/mes) y MakeQuote (Shopify, plan gratis 10 pedidos/mes) ya cotizan DXF al instante; el canal sigue exigiendo outreach a talleres.",
+  "competidores_verificados": [
+   {
+    "nombre": "CutQuote",
+    "precio": "$95/usuario/mes Starter, $410 Pro",
+    "url": "https://www.capterra.com/p/10040294/CutQuote/"
+   },
+   {
+    "nombre": "MakeQuote",
+    "precio": "gratis hasta 10 pedidos/mes",
+    "url": "https://apps.shopify.com/makequote"
+   }
+  ],
+  "razon": "Dolor real y ventaja máxima de Juan, y CutQuote prueba disposición de pago. Pero hay competidores establecidos, la diferenciación es débil y el canal nombrado es poco probado; no falla F1 porque el plan gratis es limitado.",
+  "busquedas_usadas": 1,
+  "lote": "11",
+  "tema": "cotización corte láser/DXF"
+ },
+ {
+  "id": "G09-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "En la Shopify App Store ya existen apps de HS code de autoservicio: DutyCode (gratis con 25 clasificaciones, luego US$19-99/mes) y HClassify (US$49-399).",
+  "competidores_verificados": [
+   {
+    "nombre": "DutyCode",
+    "precio": "gratis 25; US$19/49/99 al mes (listados contradictorios: también paquetes de créditos)",
+    "url": "https://apps.shopify.com/dutycode"
+   },
+   {
+    "nombre": "HClassify",
+    "precio": "US$49/149/399 al mes",
+    "url": "https://apps.shopify.com/hclassify"
+   }
+  ],
+  "razon": "El canal del marketplace existe y hay disposición de pago comprobada, pero el espacio ya está poblado de apps baratas y la diferenciación vía SEO programático no está probada. Quedan riesgos de responsabilidad por clasificación errónea y de dependencia de Shopify.",
+  "busquedas_usadas": 1,
+  "lote": "18",
+  "tema": "etiquetas y aduanas"
+ },
+ {
+  "id": "G20-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "Competidores con precio publico en autoservicio existen (Machestra desde gratis/$19/$79, QuoteForge desde $99), pero ninguno verificado como estimador CAM a $69; Paperless Parts/ProShop sin precio publicado.",
+  "competidores_verificados": [
+   {
+    "nombre": "QuoteForge",
+    "precio": "desde $99/mes (moneda sin verificar)",
+    "url": "https://www.softwaresuggest.com/quoteforge"
+   },
+   {
+    "nombre": "Machestra",
+    "precio": "gratis / $19 / $79 mes",
+    "url": "https://www.capterra.com/software/1108556/Machestra"
+   },
+   {
+    "nombre": "Paperless Parts",
+    "precio": "sin verificar",
+    "url": "https://www.paperlessparts.com/cnc-machining-quoting-software-ppc/"
+   }
+  ],
+  "razon": "Pasa los filtros: hay pago en autoservicio en la categoria y canal SEO nombrado, aunque el volumen de busqueda esta sin verificar. Estimar tiempos desde CAM en 6 semanas es dificil y los incumbentes son mas profundos; media-baja.",
+  "busquedas_usadas": 2,
+  "lote": "01",
+  "tema": "maquinado CNC y despiece"
+ },
+ {
+  "id": "G06-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "hecho_decisivo": "PrintPrice (WordPress.org) ya da precio instantaneo de STL en carrito con plan gratis de 5 pedidos/mes; SlicePress es GPL.",
+  "competidores_verificados": [
+   {
+    "nombre": "PrintPrice",
+    "precio": "gratis 5 pedidos/mes; planes de pago 50/100/300 pedidos (precio sin verificar)",
+    "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+   },
+   {
+    "nombre": "SlicePress",
+    "precio": "GPL gratis",
+    "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+   }
+  ],
+  "razon": "Dolor real pero canal WordPress.org ocupado por un rival con plan gratis y uno open source; diferenciacion debil y disposicion de pago baja a $29. Ventaja de slicing y MVP corto lo sostienen en banda MEDIA baja.",
+  "busquedas_usadas": 0,
+  "lote": "16",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G04-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 35,
+  "hecho_decisivo": "Busqueda no halla app de BOM en Atlassian Marketplace (no confirma ausencia); Atlassian cobra por usuarios del sitio, lo que complica el precio plano de $130.",
+  "competidores_verificados": [
+   {
+    "nombre": "Atlassian Marketplace billing",
+    "precio": "por usuarios maximos del sitio",
+    "url": "https://support.atlassian.com/subscriptions-and-billing/docs/understand-billing-for-cloud-apps/"
+   }
+  ],
+  "razon": "Posible hueco con ventaja BOM/CAD genuina y canal nombrado, pero nicho acotado, disposicion de pago no probada y dependencia de Atlassian.",
+  "busquedas_usadas": 1,
+  "lote": "06",
+  "tema": "BOM y compras de ingeniería"
+ },
+ {
+  "id": "G08-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "hecho_decisivo": "Slicer CLI gratis (PrusaSlicer/Orca) y plugins empaquetados; sin API standalone con precio verificado; demanda sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "PrintPrice (WooCommerce, freemium 5 pedidos gratis)",
+    "precio": "sin verificar",
+    "url": "https://tt.wordpress.org/plugins/?p=319241"
+   },
+   {
+    "nombre": "Kiln slice_and_estimate",
+    "precio": "sin verificar",
+    "url": "https://glama.ai/mcp/servers/codeofaxel/kiln/tools/slice_and_estimate"
+   }
+  ],
+  "razon": "Hay wrappers de slicer y el CLI es gratis, pero hospedarlo como API conserva valor para devs; no se verifica demanda ni pago. Ventaja de Juan alta, mercado chico.",
+  "busquedas_usadas": 1,
+  "lote": "12",
+  "tema": "validación y herramientas G-code"
+ },
+ {
+  "id": "G28-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 35,
+  "hecho_decisivo": "weldXpert (desde EUR 60, prueba gratis) y TWI Welding Qualifier ya cubren WPS/PQR con ASME IX, ISO y AWS D1.1; plantillas gratis sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "weldXpert",
+    "precio": "desde EUR 60",
+    "url": "https://www.capterra.com/p/10047360/weldXpert/"
+   }
+  ],
+  "razon": "Dolor real en auditorias y SEO plausible, pero herramientas de pago establecidas y responsabilidad por cumplimiento de codigo limitan la diferenciacion y el riesgo.",
+  "busquedas_usadas": 0,
+  "lote": "04",
+  "tema": "calidad y soldadura"
+ },
+ {
+  "id": "G01-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "hecho_decisivo": "Dolor respaldado por quejas de merchants, pero no se verifico demanda de busqueda 'shipping audit' ni competidores; requiere subir facturas del carrier.",
+  "competidores_verificados": [],
+  "razon": "Canal nombrado (Shopify App Store) pero sin validar y con friccion de onboarding. Ventaja de Juan baja. Sin evidencia fuerte, puntaje medio-bajo.",
+  "busquedas_usadas": 0,
+  "lote": "15",
+  "tema": "operaciones de tienda online"
+ },
+ {
+  "id": "G30-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Filaquote ya soporta STEP en Shopify con plan gratis y paid $15/$49; MakeQuote solo STL/DXF.",
+  "competidores_verificados": [
+   {
+    "nombre": "Filaquote",
+    "precio": "gratis; $15/mes; $49/mes",
+    "url": "https://index.dodopayments.com/filaquote"
+   },
+   {
+    "nombre": "MakeQuote",
+    "precio": "sin verificar",
+    "url": "https://apps.shopify.com/makequote"
+   }
+  ],
+  "razon": "Canal Shopify App Store nombrado pero ya hay competidores con STEP y precio igual o menor. El hueco CNC existe pero el costeo por geometría es difícil y la demanda de pago no está verificada.",
+  "busquedas_usadas": 2,
+  "lote": "02",
+  "tema": "cotización corte láser/DXF"
+ },
+ {
+  "id": "G13-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "GitHub exporta CSV por repo/workflow y cost centers solo en Enterprise Cloud (máx 250); Blacksmith publica contenido de costo por workflow; no hay incumbente gratis completo.",
+  "competidores_verificados": [
+   {
+    "nombre": "GitHub cost centers",
+    "precio": "incluido en Enterprise Cloud",
+    "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/reference/cost-center-allocation"
+   },
+   {
+    "nombre": "Blacksmith",
+    "precio": "sin verificar",
+    "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+   }
+  ],
+  "razon": "Hay hueco para orgs no Enterprise con atribución por equipo, y GitHub Marketplace/SEO son canales nombrados. Aun así, lo nativo y los scripts caseros cubren parte, el pago es dudoso a $39 y GitHub puede lanzar la vista.",
+  "busquedas_usadas": 1,
+  "lote": "11",
+  "tema": "CI/CD y GitHub Actions"
+ },
+ {
+  "id": "G12-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Ya hay respaldos de Notion a S3/Drive con restauración, uno en la galería oficial, a precio menor que $29.",
+  "competidores_verificados": [
+   {
+    "nombre": "Notion Backups",
+    "precio": "$10-24/mes (AlternativeTo, no oficial)",
+    "url": "https://alternativeto.net/software/notion-backups/about"
+   },
+   {
+    "nombre": "ProBackup",
+    "precio": "sin verificar",
+    "url": "https://www.notion.com/es/connections/probackup"
+   }
+  ],
+  "razon": "Dolor real pero categoría ocupada por servicios más baratos y canal oficial ya tomado. Sin diferenciación probada; no es gratis, así que no falla F1.",
+  "busquedas_usadas": 1,
+  "lote": "14",
+  "tema": "datos: extracción y respaldo"
+ },
+ {
+  "id": "G12-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 34,
+  "hecho_decisivo": "CutQuote calcula pierces/tiempo desde DXF y tiene REST API en plan Business (~$900/usuario/mes segun Capterra); no se confirmo conector Zapier/Make ni demanda en esos directorios.",
+  "competidores_verificados": [
+   {
+    "nombre": "CutQuote",
+    "precio": "~$900/usuario/mes (Capterra, puede estar desactualizado)",
+    "url": "https://www.capterra.com/p/10040294/CutQuote/"
+   }
+  ],
+  "razon": "Calculo trivial con ezdxf y cotizadores completos existentes bajan el pago; canal Make/Zapier sin demanda verificada. Ventaja CAD y MVP rapido lo sostienen en banda media-baja.",
+  "busquedas_usadas": 2,
+  "lote": "13",
+  "tema": "cotización corte láser/DXF"
+ },
+ {
+  "id": "G15-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Existe PLC Copilot (asistente IA para Studio 5000/TIA, listado en Capterra) y verificadores por reglas de Schneider; demanda de pago y aceptacion de promocion en PLCTalk/r/PLC sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "PLC Copilot",
+    "precio": "sin verificar (listado GetApp muestra US$0 como inicio)",
+    "url": "https://www.capterra.com.au/software/1100467/PLC-Copilot"
+   }
+  ],
+  "razon": "Ventaja de Juan real y nicho poco cubierto en revision, pero canal debil/no verificado y riesgo de confidencialidad del codigo.",
+  "busquedas_usadas": 1,
+  "lote": "06",
+  "tema": "revisión de código PLC"
+ },
+ {
+  "id": "G19-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Hay disposicion de pago verificada en el segmento (Werk24 490 EUR/mes, OpenDrawing Pro 399 USD/mes) pero la precision OCR es el producto y compiten LLM con vision y extensiones Chrome.",
+  "competidores_verificados": [
+   {
+    "nombre": "Werk24",
+    "precio": "490 EUR/mes (500 paginas)",
+    "url": "https://it.werk24.io/pricing"
+   },
+   {
+    "nombre": "OpenDrawing",
+    "precio": "gratis 3 tokens; Pro 399 USD/mes",
+    "url": "https://www.capterra.com/p/10037692/OpenDrawing/"
+   },
+   {
+    "nombre": "instaBOM",
+    "precio": "desde 49 GBP/mes",
+    "url": "https://www.capterra.com/p/10048954/instaBOM/"
+   }
+  ],
+  "razon": "Dolor real y precios de mercado altos, pero diferenciacion debil frente a LLM genericos y canal SEO sin verificar. Banda media-baja.",
+  "busquedas_usadas": 0,
+  "lote": "08",
+  "tema": "lectura de planos y metrados"
+ },
+ {
+  "id": "G14-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "LangSmith y Langfuse (OSS) cubren trazas; replay determinista estricto en incumbentes sin verificar, y hay herramientas OSS anecdoticas.",
+  "competidores_verificados": [
+   {
+    "nombre": "Langfuse",
+    "precio": "OSS gratis (precio cloud sin verificar)",
+    "url": "https://www.braintrust.dev/articles/best-llm-tracing-tools-2026"
+   }
+  ],
+  "razon": "No se probo que un incumbente gratis cubra el replay, asi que no falla F1, pero el espacio es muy competido y los frameworks pueden absorberlo. Ventaja de Juan debil y riesgo de plataforma/IA alto.",
+  "busquedas_usadas": 0,
+  "lote": "04",
+  "tema": "costos y observabilidad de agentes IA"
+ },
+ {
+  "id": "G08-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Werk24 ya ofrece API de tolerancias/GD&T/BOM a €0.15-0.85 por página; LLMs de visión erosionan el valor.",
+  "competidores_verificados": [
+   {
+    "nombre": "Werk24",
+    "precio": "€0.15-0.85/página",
+    "url": "https://es.werk24.io/product"
+   }
+  ],
+  "razon": "Competidor especializado de pago y LLMs generalistas reducen la diferenciación y suben el riesgo. Ventaja de Juan alta, canal SEO/API plausible pero sin verificar demanda; no hay incumbente gratis confirmado.",
+  "busquedas_usadas": 0,
+  "lote": "11",
+  "tema": "lectura de planos y metrados"
+ },
+ {
+  "id": "G10-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Cloudingo ~$83/mes (TrustRadius) o $2,500/anio (Software Advice/Capterra), DemandTools y DupeCatcher existen; alcance de duplicados nativos de Salesforce sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Cloudingo",
+    "precio": "~$83/mes o $2,500/anio (fuentes dispares)",
+    "url": "https://www.capterra.com/p/178704/Cloudingo/"
+   },
+   {
+    "nombre": "DemandTools",
+    "precio": "sin verificar",
+    "url": "https://www.trustradius.com/products/demandtools"
+   }
+  ],
+  "razon": "Hay presupuesto existente y busqueda en AppExchange, pero mercado maduro sin angulo claro, revision de seguridad y poca ventaja de Juan. Media-baja.",
+  "busquedas_usadas": 2,
+  "lote": "13",
+  "tema": "apps CRM HubSpot/Salesforce"
+ },
+ {
+  "id": "G28-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 34,
+  "hecho_decisivo": "No existe base multi-vendor con API (busqueda propia: solo mapas por vendor y PDFs), pero la disposicion de pago y el volumen SEO no estan verificados.",
+  "competidores_verificados": [
+   {
+    "nombre": "LabJack Modbus Map (gratis, solo LabJack)",
+    "precio": "gratis",
+    "url": "https://support.labjack.com/docs/register-matrix"
+   }
+  ],
+  "razon": "Nicho de integradores chico a $29/mes (~350 pagadores) y captura masiva de datos; sin filtro duro pero puntaje medio-bajo.",
+  "busquedas_usadas": 1,
+  "lote": "19",
+  "tema": "datos industriales OPC UA/Modbus"
+ },
+ {
+  "id": "G10-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "No se halló app HubSpot que convierta STEP/DXF en line items (hueco, no prueba de demanda); QuoteForge y Digifabster cotizan desde CAD fuera de HubSpot.",
+  "competidores_verificados": [
+   {
+    "nombre": "QuoteForge",
+    "precio": "sin verificar",
+    "url": "https://www.goodfirms.co/software/quoteforge"
+   },
+   {
+    "nombre": "Digifabster",
+    "precio": "sin verificar",
+    "url": "https://digifabster.com/product/?p=367"
+   }
+  ],
+  "razon": "El canal HubSpot Marketplace está nombrado (no falla F4) pero sin demanda demostrada y con mercado estrecho. El ángulo CAD es único y encaja con la ventaja de Juan, con dependencia total de una plataforma.",
+  "busquedas_usadas": 0,
+  "lote": "07",
+  "tema": "apps CRM HubSpot/Salesforce"
+ },
+ {
+  "id": "G19-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 33,
+  "hecho_decisivo": "Integradores migran tags con scripts/CSV propios; no se hallo herramienta comercial WinCC a Ignition; volumen de busqueda sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Herramientas propias de integradores (Overbridge)",
+    "precio": "n/a",
+    "url": "https://inductiveautomation.com/casestudy/moving-legacy-system-over-ignition"
+   }
+  ],
+  "razon": "Hueco y ventaja SCADA reales, pero compra puntual (churn alto), nicho minusculo y suscripcion de $79 mal alineada. Canal SEO/foro no verificado como fuente de compradores.",
+  "busquedas_usadas": 0,
+  "lote": "05",
+  "tema": "conversión de tags PLC/SCADA"
+ },
+ {
+  "id": "G21-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 33,
+  "hecho_decisivo": "SKM ArcCalc $995 único confirma presupuesto; demos gratis limitadas; riesgo de responsabilidad alto.",
+  "competidores_verificados": [
+   {
+    "nombre": "SKM ArcCalc",
+    "precio": "$995 único (vendor)",
+    "url": "https://www.skm.com/arccalc.html"
+   },
+   {
+    "nombre": "ARCAD",
+    "precio": "demo gratis, precio sin verificar",
+    "url": "https://www.electricityforum.com/iep/buyers-guide/arcad-inc"
+   }
+  ],
+  "razon": "Hay presupuesto y SEO con intención, pero mercado acotado y responsabilidad por resultados. Calculadoras gratis son limitadas, no falla F1.",
+  "busquedas_usadas": 0,
+  "lote": "14",
+  "tema": "ingeniería eléctrica y seguridad de máquinas"
+ },
+ {
+  "id": "G16-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 33,
+  "hecho_decisivo": "Nutrient ofrece una API de autoetiquetado PDF/UA de pago por uso y Acrobat incluye autoetiquetado; la demanda de búsqueda quedó sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Nutrient Accessibility API",
+    "precio": "pago por uso (precio sin verificar)",
+    "url": "https://nutrient.io/api/accessibility-api/"
+   }
+  ],
+  "razon": "El EAA crea demanda real, pero el mercado ya está cubierto por Acrobat, Nutrient y servicios por página. El autoetiquetado fiable es difícil, así que el MVP en 6 semanas es dudoso y la ventaja de Juan es baja.",
+  "busquedas_usadas": 0,
+  "lote": "18",
+  "tema": "cumplimiento accesibilidad web"
+ },
+ {
+  "id": "G25-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 33,
+  "hecho_decisivo": "OpenBOM compara BOMs entre revisiones y SolidWorks PDM tiene BOM Compare nativo; demanda de validación y precios sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "OpenBOM",
+    "precio": "sin verificar",
+    "url": "https://help.openbom.com/my-openbom/bom-compare/"
+   }
+  ],
+  "razon": "Incumbentes y Excel cubren buena parte de la función, y no hay evidencia de demanda de búsqueda. Ventaja de Juan real y MVP rápido, pero canal y diferenciación débiles.",
+  "busquedas_usadas": 0,
+  "lote": "11",
+  "tema": "BOM y compras de ingeniería"
+ },
+ {
+  "id": "G30-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 32,
+  "hecho_decisivo": "Hueco de producto sin API de DFM para DXF hallado, pero sin demanda ni búsquedas verificadas",
+  "competidores_verificados": [
+   {
+    "nombre": "goCAD sheet metal quoting",
+    "precio": "desde EUR 250/mes",
+    "url": "https://gocad.de/en/sheet-metal-quoting-software"
+   },
+   {
+    "nombre": "Xometry instant quote DXF",
+    "precio": "sin verificar",
+    "url": "https://www.xometry.com/blog/product-update-instant-quote-dxf-files"
+   }
+  ],
+  "razon": "Canal nombrado (SEO/directorios) pero demanda sin verificar y pool chico de desarrolladores de cotizadores; la validación viene incluida en los cotizadores. Ventaja DXF fuerte; no falla filtro porque el canal está nombrado.",
+  "busquedas_usadas": 0,
+  "lote": "09",
+  "tema": "DFM, reparación y validación DXF"
+ },
+ {
+  "id": "G12-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "Existe demanda en la comunidad Make (hilo buscando experto para reducir operaciones) pero ningun analizador de blueprints verificado y pago solo evidenciado por consultoria",
+  "competidores_verificados": [
+   {
+    "nombre": "4Spot Consulting (guias/consultoria gratuita)",
+    "precio": "sin verificar",
+    "url": "https://4spotconsulting.com/make-com-cost-optimization-scale-smart-save-big/"
+   }
+  ],
+  "razon": "Dolor monetario real y canal nombrado (foro Make, SEO), pero canal sin volumen verificado, disposicion de pago por software sin verificar y alto riesgo de plataforma. No falla filtro de verdad: el canal esta nombrado.",
+  "busquedas_usadas": 2,
+  "lote": "10",
+  "tema": "automatización no-code"
+ },
+ {
+  "id": "G10-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "Entflow Workflow Mapper ya mapea workflows en el HubSpot Marketplace (plan gratis aparente, sin confirmar); sin evidencia de pago por documentación.",
+  "competidores_verificados": [
+   {
+    "nombre": "Entflow Workflow Mapper",
+    "precio": "plan gratis aparente, sin confirmar",
+    "url": "https://ecosystem.hubspot.com/marketplace/listing/entflow-workflow-mapper"
+   }
+  ],
+  "razon": "Dolor real pero competidor directo en el canal y plataforma única; la diferenciación es débil y la disposición de pago no está probada.",
+  "busquedas_usadas": 0,
+  "lote": "17",
+  "tema": "apps CRM HubSpot/Salesforce"
+ },
+ {
+  "id": "G16-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "SBOM CycloneDX es commodity gratis (Dependency-Track, Anchore con guía CRA) y el reporte ENISA irá por plataforma oficial gratuita.",
+  "competidores_verificados": [
+   {
+    "nombre": "Anchore",
+    "precio": "sin verificar",
+    "url": "https://docs.anchore.com/current/docs/quickstarts/eucra/"
+   }
+  ],
+  "razon": "Urgencia regulatoria real, pero la capa de pago es delgada, el canal es débil y el SBOM de firmware binario es difícil para un MVP en 6 semanas.",
+  "busquedas_usadas": 0,
+  "lote": "17",
+  "tema": "regulación IA y ciberseguridad UE"
+ },
+ {
+  "id": "G16-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Plantillas de expediente tecnico a EUR 75 (Euronorm) y un gap-checker en Apify ya existen; sin verificar intencion de compra por SEO.",
+  "competidores_verificados": [
+   {
+    "nombre": "Euronorm technical file template",
+    "precio": "EUR 75",
+    "url": "https://www.euronorm.net/en/products/ce-technical-file-machinery"
+   }
+  ],
+  "razon": "Obligacion real desde 2027 y buena ventaja de Juan, pero el canal es solo SEO/LinkedIn sin intencion probada, hay plantillas baratas y riesgo de responsabilidad. Producto complejo para 6 semanas.",
+  "busquedas_usadas": 0,
+  "lote": "04",
+  "tema": "cumplimiento de producto y sostenibilidad"
+ },
+ {
+  "id": "G10-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Pool mínimo de talleres con Salesforce; AppExchange con CPQ establecidos y revisión ISV",
+  "competidores_verificados": [
+   {
+    "nombre": "Experlogix CPQ",
+    "precio": "sin verificar",
+    "url": "https://www.experlogix.com/?p=1548"
+   }
+  ],
+  "razon": "Canal nombrado (AppExchange) pero mercado muy pequeño y esfuerzo de revisión ISV que retrasa el MVP de 6 semanas. Ventaja DXF alta, no verificada la demanda.",
+  "busquedas_usadas": 0,
+  "lote": "09",
+  "tema": "apps CRM HubSpot/Salesforce"
+ },
+ {
+  "id": "G18-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Werk24 cobra EUR 0.15/pagina title block; Apryse, AMFG e Infrrd tambien cubren; demanda self-serve sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Werk24",
+    "precio": "EUR 0.15/pagina title block",
+    "url": "https://es.werk24.io/product"
+   },
+   {
+    "nombre": "AMFG Sentinel AI",
+    "precio": "sin verificar",
+    "url": "https://help.amfg.ai/en/articles/699793-sentinel-ai-automatic-pdf-data-extraction"
+   }
+  ],
+  "razon": "Incumbentes con modelos entrenados y precio por pagina; la ventaja de Juan no esta en vision IA. Canal SEO/Reddit sin intencion de compra verificada.",
+  "busquedas_usadas": 0,
+  "lote": "12",
+  "tema": "lectura de planos y metrados"
+ },
+ {
+  "id": "G06-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Agencias y conectores empaquetados cubren WooCommerce-ERP (Ecosire Woo-Odoo desde US$499 licencia unica); el canal es generico y un conector por ERP.",
+  "competidores_verificados": [
+   {
+    "nombre": "Ecosire Woo-Odoo Connector",
+    "precio": "desde US$499 licencia unica",
+    "url": "https://ecosire.com/apps/woocommerce/woo-odoo-connector"
+   }
+  ],
+  "razon": "Dolor real pero sin ventaja ni diferenciacion y canal dominado por agencias; MVP crece con cada ERP.",
+  "busquedas_usadas": 0,
+  "lote": "19",
+  "tema": "sincronización ERP e inventario"
+ },
+ {
+  "id": "G01-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "hecho_decisivo": "Apps de precio por m2 en Shopify desde $9.99/mes ya existen; nicho estrecho.",
+  "competidores_verificados": [
+   {
+    "nombre": "SimPrice",
+    "precio": "$9.99/mes",
+    "url": "https://pickyourapp.com/de/products/simprice"
+   },
+   {
+    "nombre": "Custom Price Calculator (Apippa)",
+    "precio": "sin verificar",
+    "url": "https://custompricecalculator.com/blog/shopify-sign-pricing-calculator/"
+   }
+  ],
+  "razon": "Canal nombrado pero competencia barata y diferencial de nesting no validado. Pago bajo a $35 frente a $9.99.",
+  "busquedas_usadas": 0,
+  "lote": "14",
+  "tema": "cotización y costeo de taller"
+ },
+ {
+  "id": "G21-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "Hera, NexCAD, CoLab AutoReview y Leo AI ya revisan GD&T con IA; precios sin verificar; CoLab advierte que la IA no valida datums completos.",
+  "competidores_verificados": [
+   {
+    "nombre": "CoLab AutoReview / Hera / NexCAD / Leo AI",
+    "precio": "sin verificar",
+    "url": "https://www.colabsoftware.com/post/best-ai-tools-for-manufacturing-drawing-checks"
+   }
+  ],
+  "razon": "Nicho con competidores financiados y riesgo de precision/responsabilidad; MVP fiable en 6 semanas es dudoso. Ventaja CAD de Juan es real pero el canal SEO/Reddit no esta demostrado.",
+  "busquedas_usadas": 0,
+  "lote": "16",
+  "tema": "tolerancias mecánicas"
+ },
+ {
+  "id": "G13-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "hecho_decisivo": "Hueco de diff legible en PR plausible, pero Rockwell da herramientas VCS gratis, Copia/versiondog existen y demanda en GitHub Marketplace sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Copia",
+    "precio": "sin verificar",
+    "url": "https://copia.io/?p=1213"
+   },
+   {
+    "nombre": "Rockwell VCS Custom Tools",
+    "precio": "gratis (fuente secundaria)",
+    "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rockwell-plc-source-control-library-management-tools"
+   }
+  ],
+  "razon": "Ventaja maxima de Juan y diferenciacion, pero comprador pequeno, precio $29 y canal sin intencion verificada. BAJA.",
+  "busquedas_usadas": 0,
+  "lote": "20",
+  "tema": "diff y versionado PLC"
+ },
+ {
+  "id": "G08-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 30,
+  "hecho_decisivo": "Quote & Cut y CutQuote ya cubren nesting/cálculo desde DXF; demanda de 'dxf nesting api' sin verificar y no se halló API pública de cut-length.",
+  "competidores_verificados": [
+   {
+    "nombre": "Quote & Cut",
+    "precio": "sin verificar",
+    "url": "https://ja.wordpress.org/plugins/quoteandcut/"
+   },
+   {
+    "nombre": "Xometry instant quoting",
+    "precio": "sin verificar",
+    "url": "https://xometry.com/resources/sheet/nesting-files-for-sheet-cutting"
+   }
+  ],
+  "razon": "Comprador muy acotado, OSS (Deepnest/SVGnest, ezdxf) y quoters con nesting alojado; el canal es nombrado pero sin demanda verificada. Ventaja de Juan alta y MVP rápido, pero dolor y pago bajos.",
+  "busquedas_usadas": 1,
+  "lote": "03",
+  "tema": "cotización corte láser/DXF"
+ },
+ {
+  "id": "G16-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "La declaración CBAM pasó a anual (primera 30-sep-2027), reduciendo urgencia y recurrencia; hay competidores con precio publicado (Dubrink desde EUR 1,990/año) y plan gratis limitado (CbamTrack). Demanda SEO sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Dubrink",
+    "precio": "desde EUR 1,990/año (importadores), con nivel gratis",
+    "url": "https://cbamguide.com/software/dubrink/"
+   },
+   {
+    "nombre": "CbamTrack",
+    "precio": "plan gratis para una categoría de producto",
+    "url": "https://hunted.space/product/cbamtrack"
+   }
+  ],
+  "razon": "El dolor es real pero estacional y anual, con competidores ya establecidos y riesgo regulatorio alto. El plan gratis es limitado, así que no se considera falla de F1.",
+  "busquedas_usadas": 0,
+  "lote": "07",
+  "tema": "cumplimiento de producto y sostenibilidad"
+ },
+ {
+  "id": "G04-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 30,
+  "hecho_decisivo": "No se halló app Confluence para PLC, pero sin evidencia de que ingenieros PLC usen Confluence o busquen en Atlassian Marketplace.",
+  "competidores_verificados": [],
+  "razon": "Nicho vacío con ventaja máxima de Juan, pero mercado diminuto, canal sin verificar y poca disposición de pago demostrada.",
+  "busquedas_usadas": 0,
+  "lote": "17",
+  "tema": "documentación de PLC"
+ },
+ {
+  "id": "G16-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "Existen herramientas de pago desde ~EUR 500-600/anio (Copla Registry) y validador/plantilla gratis; $149/mes (~$1,800/anio) triplica al rival y el uso es anual.",
+  "competidores_verificados": [
+   {
+    "nombre": "Copla Registry",
+    "precio": "desde EUR 500-600/anio (segun su sitio)",
+    "url": "https://copla.com/dora-registry-tool"
+   },
+   {
+    "nombre": "Formalize ROI validator",
+    "precio": "gratis",
+    "url": "https://formalize.com/en/roi-validator"
+   }
+  ],
+  "razon": "Hay presupuesto regulatorio pero el precio mensual no encaja con uso anual y el rival cobra mucho menos; canal SEO compite con plantillas gratis y compradores lentos. Sin ventaja real de Juan.",
+  "busquedas_usadas": 1,
+  "lote": "16",
+  "tema": "regulación IA y ciberseguridad UE"
+ },
+ {
+  "id": "G28-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "TIA Portal ya exporta/importa textos HMI en XLIFF/Excel (fuente de terceros, URL del atacante); demanda y pago sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "TIA Portal export XLIFF/Excel (nativo)",
+    "precio": "incluido",
+    "url": "https://industrialmonitordirect.com/es/blogs/knowledgebase/translating-chinese-tia-portal-tags-to-english-step-by-step"
+   }
+  ],
+  "razon": "El flujo exportar-traducir-reimportar con LLM gratis deja poco valor residual (glosario), uso episodico y canal de nicho sin demanda verificada. No falla F1 de forma clara pero queda debil.",
+  "busquedas_usadas": 0,
+  "lote": "15",
+  "tema": "traducción técnica"
+ },
+ {
+  "id": "G14-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "Vault (dynamic secrets) y Doppler cubren el patron; precios de Doppler discrepantes entre agregadores (Developer 3 usuarios gratis vs sin plan gratis); demanda en directorios MCP sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Doppler",
+    "precio": "Team ~$21/usuario/mes segun agregador (sin confirmar en sitio oficial)",
+    "url": "https://toolradar.com/tools/doppler/pricing"
+   }
+  ],
+  "razon": "Mercado emergente pero incumbentes fuertes, una boveda segura es dificil en 6 semanas y un producto de seguridad nuevo tiene baja confianza. Canal MCP sin evidencia.",
+  "busquedas_usadas": 1,
+  "lote": "15",
+  "tema": "seguridad y permisos de agentes IA"
+ },
+ {
+  "id": "G04-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 29,
+  "hecho_decisivo": "Al menos cuatro apps de Marketplace ya cubren costo por worklog con tarifas por rol (Project Cost & Budget, Worklog360, WorklogPRO, TimeEase).",
+  "competidores_verificados": [
+   {
+    "nombre": "Project Cost & Budget for Jira",
+    "precio": "sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/2913078390/project-cost-budget-for-jira"
+   },
+   {
+    "nombre": "Worklog360",
+    "precio": "sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/1222428/timesheets-by-worklog360-time-tracking-billing-for-jira"
+   },
+   {
+    "nombre": "WorklogPRO",
+    "precio": "sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/1212626/worklogpro-timesheets-and-cost-tracker-for-jira"
+   }
+  ],
+  "razon": "Mercado saturado, sin diferenciacion ni ventaja de Juan; las apps son de pago, por lo que no se aplica F1 estricto, pero el canal esta dominado por incumbentes.",
+  "busquedas_usadas": 0,
+  "lote": "06",
+  "tema": "gestión de proyectos y costos"
+ },
+ {
+  "id": "G27-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 29,
+  "hecho_decisivo": "No se confirmó demanda de pago, competidor específico ni API de ciclo de vida de Siemens/Rockwell.",
+  "competidores_verificados": [
+   {
+    "nombre": "CalcuQuote PCN (análogo electrónica)",
+    "precio": "sin verificar",
+    "url": "https://www.elisaindustriq.com/calcuquote/features/product-change-notifications"
+   }
+  ],
+  "razon": "Ventaja PLC clara pero avisos gratis de fabricantes, datos posiblemente sin API y canal sin validar. MVP incierto.",
+  "busquedas_usadas": 0,
+  "lote": "14",
+  "tema": "mantenimiento y seguridad industrial"
+ },
+ {
+  "id": "G08-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 29,
+  "hecho_decisivo": "Varias APIs de reparacion ya existen (3D AI Studio, Remeshy, Meshy) mas OSS mesh-repair/trimesh; precios en USD sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "3D AI Studio repair",
+    "precio": "60 creditos (USD sin verificar)",
+    "url": "https://www.3daistudio.com/Platform/API/Documentation/tools/repair"
+   },
+   {
+    "nombre": "Remeshy STL Fix API",
+    "precio": "creditos, prueba gratis",
+    "url": "https://remeshy.com/stl-fix"
+   },
+   {
+    "nombre": "Meshy",
+    "precio": "analisis gratis, reparacion 10 creditos",
+    "url": "https://www.meshy.ai/tutorials/auto-repair-3d-models"
+   }
+  ],
+  "razon": "Clon sin angulo, comprador integra OSS por su cuenta. No cae en F1 estricto (hay pago por creditos) pero puntaje BAJA.",
+  "busquedas_usadas": 0,
+  "lote": "20",
+  "tema": "DFM, reparación y validación DXF"
+ },
+ {
+  "id": "G06-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "hecho_decisivo": "Staggs $59-$199/ano, Simplio3D open source, Fancy Product Designer $69/ano ya cubren el nicho; $39/mes muy sobre mercado.",
+  "competidores_verificados": [
+   {
+    "nombre": "Staggs Product Configurator",
+    "precio": "$59-$199/ano",
+    "url": "https://plugins.bloggingtips.com/plugin/staggs-product-configurator-for-woocommerce/"
+   },
+   {
+    "nombre": "Simplio3D",
+    "precio": "gratis/open source",
+    "url": "https://en-gb.wordpress.org/plugins/simplio3d-product-configurator/"
+   }
+  ],
+  "razon": "Canal WordPress.org real pero competidores baratos y uno gratis; 'ligero' no diferencia. Soporte alto.",
+  "busquedas_usadas": 0,
+  "lote": "12",
+  "tema": "configuradores e instrucciones"
+ },
+ {
+  "id": "G29-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "Calculadoras gratuitas con worst-case/RSS (Firgelli, Drafter) y stackupcalc.com gratis con Monte Carlo segun su creador",
+  "competidores_verificados": [
+   {
+    "nombre": "Firgelli calculadora",
+    "precio": "0",
+    "url": "https://www.firgelliauto.com/blogs/engineering-calculators/tolerance-stack-up-calculator-worst-case-and-rss"
+   },
+   {
+    "nombre": "Drafter Inc tool",
+    "precio": "0",
+    "url": "https://drafterinc.beehiiv.com/p/the-tolerance-stack-up-tool-you-asked-for-is-here"
+   },
+   {
+    "nombre": "stackupcalc.com (anuncio en r/SolidWorks)",
+    "precio": "0 segun creador, sin verificar en el sitio",
+    "url": "https://redlib.groet-infra.nl/r/SolidWorks/duplicates/1vjnxsn"
+   }
+  ],
+  "razon": "Incumbentes gratis cubren worst-case, RSS y Monte Carlo, y la licencia unica contradice el precio mensual. Falla F1 (y F5 plausible).",
+  "busquedas_usadas": 0,
+  "lote": "10",
+  "tema": "tolerancias mecánicas"
+ },
+ {
+  "id": "G30-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "hecho_decisivo": "SolidWorks PDM Standard viene incluido sin costo en SolidWorks Professional/Premium y TriMech lo considera suficiente para equipos de 3-5.",
+  "competidores_verificados": [
+   {
+    "nombre": "SolidWorks PDM Standard",
+    "precio": "incluido en Pro/Premium",
+    "url": "https://trimech.com/solidworks-pdm-vs-manage/"
+   },
+   {
+    "nombre": "Sibe",
+    "precio": "desde US$50/usuario",
+    "url": "https://www.capterra.co.uk/software/1061637/sibe"
+   }
+  ],
+  "razon": "El nicho objetivo (equipos de 3-15) ya tiene un incumbente gratis y suficientemente bueno, además de un competidor cloud directo. Falla F1; el MVP del add-in también excede 6 semanas.",
+  "busquedas_usadas": 0,
+  "lote": "18",
+  "tema": "control de cambios de ingeniería"
+ },
+ {
+  "id": "G13-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existe un Datadog Bill Analyzer gratis de OpenObserve (marzo 2026) ademas de funciones nativas de Datadog y Grafana; no re-verificado por busqueda propia.",
+  "competidores_verificados": [
+   {
+    "nombre": "OpenObserve Datadog Bill Analyzer",
+    "precio": "gratis",
+    "url": "https://openobserve.ai/whats-new/2026-03-15-datadog-bill-analyzer.md"
+   }
+  ],
+  "razon": "Incumbentes gratis y nativos hacen fallar F1. Total 0.",
+  "busquedas_usadas": 0,
+  "lote": "19",
+  "tema": "FinOps y cloud marketplace"
+ },
+ {
+  "id": "G11-02",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "TIA Portal y Studio 5000 importan/exportan tags a xlsx/csv de forma nativa; busqueda no hallo precio de herramienta de pago ni demanda en AppSource (sin verificar).",
+  "competidores_verificados": [
+   {
+    "nombre": "Siemens WinCC TagConverter",
+    "precio": "sin verificar",
+    "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+   }
+  ],
+  "razon": "La funcion nativa de las plataformas cubre gran parte del dolor (F1) y a $20/mes el nicho es pequeno. Sin senal de pago ni canal verificado; la ventaja de Juan es maxima pero no basta.",
+  "busquedas_usadas": 1,
+  "lote": "01",
+  "tema": "conversión de tags PLC/SCADA"
+ },
+ {
+  "id": "G10-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Propiedades calculadas nativas de HubSpot más CPQ ya listados (Quotivity, quote-hapily, ConvertCalculator) cubren fórmulas de precio; el defensor concedió.",
+  "competidores_verificados": [
+   {
+    "nombre": "Quotivity CPQ",
+    "precio": "sin verificar",
+    "url": "https://ecosystem.hubspot.com/marketplace/listing/quotivity-cpq"
+   },
+   {
+    "nombre": "DoPricer CPQ",
+    "precio": "$59-89/mes (fuentes en conflicto)",
+    "url": "https://ecosystem.hubspot.com/marketplace/listing/dopricer-cpq-1487466"
+   }
+  ],
+  "razon": "Funciones nativas de la plataforma más CPQ existentes; sin diferenciador. Se descarta por F1, total 0.",
+  "busquedas_usadas": 1,
+  "lote": "03",
+  "tema": "apps CRM HubSpot/Salesforce"
+ },
+ {
+  "id": "G04-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Marketplace de Atlassian ya tiene varias apps de optimizacion de licencias, una con tier gratis y ~280 instalaciones, ademas de export nativo de last seen.",
+  "competidores_verificados": [
+   {
+    "nombre": "Riada Labs User Management & License Optimizer",
+    "precio": "~280 instalaciones; precio sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/1211109/user-management-license-user-deactivator-for-jira"
+   },
+   {
+    "nombre": "License Cost Optimizer for Jira",
+    "precio": "version gratis y de pago",
+    "url": "https://marketplace.atlassian.com/apps/184784481/license-cost-optimizer-for-jira"
+   }
+  ],
+  "razon": "Falla F1: incumbentes gratis (app con tier gratis y vistas nativas parciales) cubren la funcion; sin diferenciador claro. Total 0.",
+  "busquedas_usadas": 0,
+  "lote": "05",
+  "tema": "optimización de licencias SaaS"
+ },
+ {
+  "id": "G23-01",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Threecolts ofrece reembolsos FBA gratis; Sellerboard desde $15/mes y servicios por comision 0-25% saturan el nicho.",
+  "competidores_verificados": [
+   {
+    "nombre": "Threecolts free reimbursements",
+    "precio": "gratis",
+    "url": "https://www.threecolts.com/free-reimbursements"
+   },
+   {
+    "nombre": "Sellerboard/Sellerise",
+    "precio": "$15 / $39.99 al mes",
+    "url": "https://revenuegeeks.com/amazon/fba-reimbursement-tools"
+   }
+  ],
+  "razon": "Existe incumbente gratis y alternativas mas baratas que $49; falla F1, total 0.",
+  "busquedas_usadas": 0,
+  "lote": "20",
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "G01-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Propel tiene plan gratis y Pro a $9.95; varias apps de garantia/RMA gratis o desde $15-19 (fuente del atacante, no reverificada).",
+  "competidores_verificados": [
+   {
+    "nombre": "Propel",
+    "precio": "gratis / $9.95 mes",
+    "url": "https://apps.shopify.com/propel-product-registration"
+   }
+  ],
+  "razon": "Canal Shopify saturado con opciones gratis o baratas que cubren registro y RMA; no hay evidencia de dolor especifico en marcas de impresoras 3D. Falla F1.",
+  "busquedas_usadas": 0,
+  "lote": "01",
+  "tema": "garantías y RMA"
+ },
+ {
+  "id": "G15-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "SolidWorks trae BOM nativa y OpenBOM/SmartBom/STEPhen cubren la extraccion; cobertura de catalogos sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "OpenBOM for SOLIDWORKS",
+    "precio": "sin verificar",
+    "url": "https://www.openbom.com/openbom-for-solidworks"
+   },
+   {
+    "nombre": "SmartBom",
+    "precio": "sin verificar",
+    "url": "https://help.visiativ.com/mycadtools/en/SmartBom.html"
+   }
+  ],
+  "razon": "Falla F1: BOM nativa en CAD y herramientas existentes; nada que justifique pago por encima de ellas.",
+  "busquedas_usadas": 0,
+  "lote": "13",
+  "tema": "BOM y compras de ingeniería"
+ },
+ {
+  "id": "G20-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "PrintQuote (Shopify) tiene plan Community gratis con 50 cotizaciones/mes por geometria STL y PrintPrice (WooCommerce) tiene plan gratis, ambos en el canal nombrado.",
+  "competidores_verificados": [
+   {
+    "nombre": "PrintQuote",
+    "precio": "gratis 50 cotizaciones/mes; Hobby $9 o Maker $15 segun listado; Business $49 en listado aleman",
+    "url": "https://apps.shopify.com/3d-print-quote"
+   },
+   {
+    "nombre": "PrintPrice",
+    "precio": "gratis (5 pedidos pagados, cotizaciones ilimitadas); desde $6.99/mes",
+    "url": "https://es-ar.wordpress.org/plugins/printprice-3d-calculator/"
+   }
+  ],
+  "razon": "Falla F1: existe incumbente gratis suficientemente bueno en el mismo canal y el precio de $49 no tiene diferenciador. Total 0.",
+  "busquedas_usadas": 1,
+  "lote": "04",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G16-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Shopify tiene escaneres EAA/WCAG con plan gratis (AccessKit, HewnScan, Accessify AI, Clearpath, Kokua) y Pro de $4.99-$29/mes; a $39 no hay hueco.",
+  "competidores_verificados": [
+   {
+    "nombre": "AccessKit",
+    "precio": "gratis; Pro $4.99/mes",
+    "url": "https://apps.shopify.com/accesskit"
+   },
+   {
+    "nombre": "HewnScan",
+    "precio": "gratis; Pro $29/mes",
+    "url": "https://apps.shopify.com/hewnscan"
+   },
+   {
+    "nombre": "Accessify AI",
+    "precio": "gratis; Basic $9.99/mes",
+    "url": "https://apps.shopify.com/accessifyai"
+   }
+  ],
+  "razon": "Falla F1 (y F5 a $39): escaneres gratis suficientes ya ocupan el canal nombrado. Total 0.",
+  "busquedas_usadas": 2,
+  "lote": "05",
+  "tema": "cumplimiento accesibilidad web"
+ },
+ {
+  "id": "G18-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "CAM (Mastercam/CloudNC) incluye estimacion de ciclo y CAMotics gratis simula tiempos; CAM232 cobra $1 por G-code.",
+  "competidores_verificados": [
+   {
+    "nombre": "CloudNC Cycle Time Estimator",
+    "precio": "sin verificar",
+    "url": "https://cloudnc.atlassian.net/wiki/spaces/CAMMCUG/pages/162693158"
+   },
+   {
+    "nombre": "CAM232",
+    "precio": "$1 por G-code tras 2 gratis",
+    "url": "https://forum.linuxcnc.org/show-your-stuff/58676-cam232-2-5-axis-cam-software-first-2-code-free-than-1-for-each"
+   }
+  ],
+  "razon": "Falla F1: estimacion nativa en CAM y simulador gratis suficientemente bueno; sin evidencia de pago. Total 0.",
+  "busquedas_usadas": 0,
+  "lote": "05",
+  "tema": "maquinado CNC y despiece"
+ },
+ {
+  "id": "G25-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "SolidWorks ofrece SNL_Log_Scanner gratis y OpenLM tiene versión light gratis; el comprador es IT corporativo.",
+  "competidores_verificados": [
+   {
+    "nombre": "SolidWorks SNL_Log_Scanner",
+    "precio": "gratis",
+    "url": "https://blogs.solidworks.com/tech/2018/03/solidworks-support-monthly-news-march-2018.html"
+   },
+   {
+    "nombre": "OpenLM (light)",
+    "precio": "gratis (versión light)",
+    "url": "https://support.hawkridgesys.com/hc/en-us/articles/360012676631-SolidNetWork-License-SNL-Usage-Monitoring"
+   }
+  ],
+  "razon": "Hay herramientas gratis suficientes para el caso: falla F1. El nicho es pequeño y el disposición de pago a US$199 sin verificar.",
+  "busquedas_usadas": 0,
+  "lote": "07",
+  "tema": "optimización de licencias SaaS"
+ },
+ {
+  "id": "G01-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Stockroom (MyWorks) es gratis, con POs ilimitados, envío por email en PDF y recepción parcial, y migra desde Stocky.",
+  "competidores_verificados": [
+   {
+    "nombre": "Stockroom",
+    "precio": "gratis",
+    "url": "https://apps.shopify.com/stockroom-1"
+   },
+   {
+    "nombre": "Restockly",
+    "precio": "$29/mes",
+    "url": "https://apps.shopify.com/restockly-4"
+   },
+   {
+    "nombre": "StockKit",
+    "precio": "desde $14/mes",
+    "url": "https://apps.shopify.com/stockkit"
+   }
+  ],
+  "razon": "Un incumbente gratis cubre el núcleo de la propuesta (POs por email y recepción) en el mismo canal, por lo que falla F1. Además hay reemplazos de pago saturando la búsqueda.",
+  "busquedas_usadas": 1,
+  "lote": "11",
+  "tema": "sincronización ERP e inventario"
+ },
+ {
+  "id": "G18-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "CIMCO File Compare, Notepad++ Compare y Git gratis resuelven el diff de G-code; sin evidencia de pago.",
+  "competidores_verificados": [
+   {
+    "nombre": "CIMCO Edit File Compare",
+    "precio": "sin verificar",
+    "url": "https://www.emastercam.com/forums/topic/103344-cimco-file-compare/"
+   },
+   {
+    "nombre": "Notepad++ plugin Compare",
+    "precio": "gratis",
+    "url": "https://forum.cgtech.com/viewtopic.php?id=3439"
+   }
+  ],
+  "razon": "Falla F1: alternativas gratis suficientes para el diff; el flujo por pieza no tiene demanda de pago demostrada.",
+  "busquedas_usadas": 0,
+  "lote": "13",
+  "tema": "validación y herramientas G-code"
+ },
+ {
+  "id": "G27-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Apps de rastreo de competidores en Shopify App Store desde $1.99/mes y con plan gratis (Pricify) cubren la funcion a $19.",
+  "competidores_verificados": [
+   {
+    "nombre": "Competitor Price Tracker Pro",
+    "precio": "desde $1.99/mes",
+    "url": "https://apps.shopify.com/competitor-price-tracker-pro"
+   },
+   {
+    "nombre": "Pricify",
+    "precio": "gratis (5 productos)",
+    "url": "https://apps.shopify.com/pricify-1"
+   }
+  ],
+  "razon": "Existen incumbentes gratis o casi gratis suficientemente buenos en el mismo canal; falla F1 y el precio de $19 no se defiende.",
+  "busquedas_usadas": 0,
+  "lote": "16",
+  "tema": "monitoreo de precios y mercados"
+ },
+ {
+  "id": "G14-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existe MCP open source gratis (cad-mcp-server) que inspecciona STEP localmente; no re-verificado por busqueda propia (limite agotado), pero defensa lo concede.",
+  "competidores_verificados": [
+   {
+    "nombre": "cad-mcp-server (open source)",
+    "precio": "gratis",
+    "url": "https://mcpservers.org/servers/mattmohandiss/cad-mcp-server"
+   }
+  ],
+  "razon": "Incumbente gratis suficiente para desarrolladores (F1) y demanda especulativa. Total 0.",
+  "busquedas_usadas": 0,
+  "lote": "19",
+  "tema": "servidores MCP"
+ },
+ {
+  "id": "G18-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "Existe calculadora web gratis (stackupcalc.com, autoreportada) con worst-case/RSS/Monte Carlo y plantillas Excel; la unica herramienta de pago verificada es Autodesk Inventor Tolerance Analysis dentro de una coleccion (~$3,265/ano, sin confirmar).",
+  "competidores_verificados": [
+   {
+    "nombre": "Autodesk Inventor Tolerance Analysis",
+    "precio": "solo en coleccion, ~$3,265/ano sin confirmar",
+    "url": "https://www.autodesk.com/products/inventor-tolerance-analysis/overview"
+   }
+  ],
+  "razon": "Calculadoras gratis suficientes y sin evidencia de disposicion de pago individual a $29/mes. Falla F1.",
+  "busquedas_usadas": 1,
+  "lote": "01",
+  "tema": "tolerancias mecánicas"
+ },
+ {
+  "id": "G12-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen escáneres gratis workflow-aware de n8n (FlowSentry con SARIF/CI, escáner gratis de credenciales).",
+  "competidores_verificados": [
+   {
+    "nombre": "FlowSentry",
+    "precio": "gratis",
+    "url": "https://pypi.org/project/flowsentry/"
+   },
+   {
+    "nombre": "n8n credential scanner",
+    "precio": "gratis",
+    "url": "https://logicworkflow.com/tools/free-n8n-credential-scanner/"
+   }
+  ],
+  "razon": "Falla F1: incumbente gratis y suficiente (FlowSentry, escáneres gratis); sin evidencia de pago a $49. Descartada.",
+  "busquedas_usadas": 1,
+  "lote": "02",
+  "tema": "secretos, PII y privacidad"
+ },
+ {
+  "id": "G30-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Remeshy ofrece reparación STL con API y nivel gratis; trimesh/MeshFix open source.",
+  "competidores_verificados": [
+   {
+    "nombre": "Remeshy STL Fix",
+    "precio": "créditos, prueba gratis",
+    "url": "https://remeshy.com/stl-fix"
+   }
+  ],
+  "razon": "Falla F1: existen alternativas gratis o baratas y librerías open source; no hay evidencia de pago a $79. Descartada.",
+  "busquedas_usadas": 0,
+  "lote": "02",
+  "tema": "DFM, reparación y validación DXF"
+ },
+ {
+  "id": "G01-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "ReturnRadar (gratis hasta 100 pedidos, $9/mes) y ReturnsIntel (nivel gratis) ya cubren analítica de devoluciones por SKU.",
+  "competidores_verificados": [
+   {
+    "nombre": "ReturnRadar",
+    "precio": "gratis / $9 mes",
+    "url": "https://apps.shopify.com/returnradar"
+   },
+   {
+    "nombre": "ReturnsIntel",
+    "precio": "nivel gratis",
+    "url": "https://apps.shopify.com/returns-intelligence-1"
+   }
+  ],
+  "razon": "Falla F1 por incumbentes gratis suficientes, concedido por la defensa. Total 0.",
+  "busquedas_usadas": 0,
+  "lote": "03",
+  "tema": "operaciones de tienda online"
+ },
+ {
+  "id": "G01-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Options Price Calculator, Custom Price Calculator y SU Calculator tienen plan gratis con fórmulas por dimensiones y vista 3D.",
+  "competidores_verificados": [
+   {
+    "nombre": "Options Price Calculator",
+    "precio": "plan gratis",
+    "url": "https://apps.shopify.com/options-price-calculator?locale=tr"
+   },
+   {
+    "nombre": "SU Calculator & Configurator",
+    "precio": "plan gratis",
+    "url": "https://open.store/shopify-apps/configure-measure-quotes"
+   }
+  ],
+  "razon": "Falla F1 por apps gratis suficientes en Shopify; el ángulo BOM no tiene demanda verificada. Total 0.",
+  "busquedas_usadas": 0,
+  "lote": "03",
+  "tema": "configuradores e instrucciones"
+ },
+ {
+  "id": "G04-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen apps gratis en Atlassian Marketplace (Stale Content Auditor, gratis, asigna dueños y archiva) que cubren el núcleo; atacante y defensor lo coinciden. Búsqueda propia no disponible (presupuesto agotado); URL citada por otros roles.",
+  "competidores_verificados": [
+   {
+    "nombre": "Stale Content Auditor for Confluence",
+    "precio": "gratis",
+    "url": "https://marketplace.atlassian.com/apps/1223013"
+   },
+   {
+    "nombre": "Automatic Archiving for Confluence Cloud",
+    "precio": "sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/1223013/automatic-archiving-for-confluence-cloud"
+   }
+  ],
+  "razon": "Incumbente gratis suficientemente bueno para el núcleo de la idea: falla F1. Además Atlassian puede hacerlo nativo.",
+  "busquedas_usadas": 0,
+  "lote": "07",
+  "tema": "gestión en Jira/Confluence"
+ },
+ {
+  "id": "G29-01",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Rockwell incluye Compare Tool nativo gratis en Studio 5000 y TIA tiene comparación nativa; US$19/mes además exige volumen irreal (F5).",
+  "competidores_verificados": [
+   {
+    "nombre": "Rockwell Logix Designer Compare Tool",
+    "precio": "incluido en Studio 5000",
+    "url": "https://www.rockwellautomation.com/en-gb/docs/studio-5000-logix-designer/38-01/contents-ditamap/studio-5000-logix-designer/compare-tool-command.html"
+   },
+   {
+    "nombre": "Copia",
+    "precio": "sin verificar",
+    "url": "https://help.copia.io/knowledge/how-to-perform-a-manual-studio-5000-project-merge-if-the-copia-advanced-merge-tool-fails"
+   }
+  ],
+  "razon": "Existe comparación nativa gratuita en ambas plataformas y el precio mensual es incoherente con una licencia única. Falla F1 (y F5).",
+  "busquedas_usadas": 0,
+  "lote": "07",
+  "tema": "diff y versionado PLC"
+ },
+ {
+  "id": "G08-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen parsers L5X gratuitos (paquete Python l5x en PyPI, crate Rust l5x, L5Sharp en NuGet)",
+  "competidores_verificados": [
+   {
+    "nombre": "l5x (crate Rust, gratis)",
+    "precio": "0",
+    "url": "https://docs.rs/l5x"
+   },
+   {
+    "nombre": "L5Sharp (NuGet, gratis)",
+    "precio": "0",
+    "url": "https://www.nuget.org/packages/l5sharp"
+   },
+   {
+    "nombre": "l5x (PyPI, gratis)",
+    "precio": "0",
+    "url": "https://pypi.python.org/pypi/l5x/1.1"
+   }
+  ],
+  "razon": "Parsers gratuitos de codigo abierto cubren el caso principal y XML es parseable con librerias estandar; mercado diminuto y sin demanda de pago verificada. Falla F1.",
+  "busquedas_usadas": 0,
+  "lote": "10",
+  "tema": "conversión de tags PLC/SCADA"
+ },
+ {
+  "id": "G18-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "LightBurn, DXFix gratis, extension Inkscape y Aspire cubren el problema; $15/mes exige ~670 pagadores (F5).",
+  "competidores_verificados": [
+   {
+    "nombre": "DXFix / LightBurn auto-join",
+    "precio": "gratis / sin verificar",
+    "url": "https://forum.lightburnsoftware.com/t/quick-pre-check-for-broken-dxfs-that-cause-open-shapes-warnings/192355"
+   }
+  ],
+  "razon": "Incumbentes gratis suficientes (F1) y precio bajo (F5). Descartada.",
+  "busquedas_usadas": 0,
+  "lote": "12",
+  "tema": "DFM, reparación y validación DXF"
+ },
+ {
+  "id": "G01-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Al menos 10 apps de fitment en Shopify con planes gratis: AutoFit Pro (gratis, Pro $9.99), Fynq (gratis hasta 100 filas, $9), GoFitment (gratis hasta 500 variantes, $19), MPH $4.95.",
+  "competidores_verificados": [
+   {
+    "nombre": "AutoFit Pro",
+    "precio": "gratis / $9.99",
+    "url": "https://apps.shopify.com/autofit-pro"
+   },
+   {
+    "nombre": "GoFitment",
+    "precio": "gratis / $19",
+    "url": "https://apps.shopify.com/gofitment"
+   },
+   {
+    "nombre": "Fynq Fitment",
+    "precio": "gratis / $9",
+    "url": "https://apps.shopify.com/fynq-year-make-model"
+   }
+  ],
+  "razon": "Incumbentes gratis suficientes y precios de $5-19 por debajo de los $29 propuestos (tambien presiona F5). Descartada por F1.",
+  "busquedas_usadas": 0,
+  "lote": "15",
+  "tema": "compatibilidad y repuestos"
+ },
+ {
+  "id": "G10-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "AWS Cost Anomaly Detection nativo ofrece causa raiz y alertas (gratis segun fuentes secundarias, sin confirmar en pagina oficial) y Vantage incluye anomalias desde plan gratis.",
+  "competidores_verificados": [
+   {
+    "nombre": "Vantage",
+    "precio": "Starter gratis, Pro $30/mes, Business $200/mes",
+    "url": "https://www.vantage.sh/pricing"
+   },
+   {
+    "nombre": "AWS Cost Anomaly Detection",
+    "precio": "gratis segun fuente secundaria (sin verificar oficial)",
+    "url": "https://aws.amazon.com/es/aws-cost-management/aws-cost-anomaly-detection/"
+   }
+  ],
+  "razon": "La funcion nativa de AWS y Vantage (con plan gratis) cubren deteccion y atribucion; el diferencial de enlazar deploys es estrecho. Se considera F1 por funcion nativa gratis suficiente.",
+  "busquedas_usadas": 1,
+  "lote": "16",
+  "tema": "FinOps y cloud marketplace"
+ },
+ {
+  "id": "G01-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "MarginBundle gratis, Easy Margin $5/mes y Smart Bundles & Margin Guard desde $49 hacen exactamente la funcion (el defensor concede todo).",
+  "competidores_verificados": [
+   {
+    "nombre": "MarginBundle",
+    "precio": "gratis",
+    "url": "https://apps.shopify.com/marginbundle"
+   },
+   {
+    "nombre": "Easy Margin",
+    "precio": "$5/mes",
+    "url": "https://apps.shopify.com/easy-margin"
+   },
+   {
+    "nombre": "Smart Bundles & Margin Guard",
+    "precio": "desde $49/mes",
+    "url": "https://apps.shopify.com/smart-bundles-margin-guard"
+   }
+  ],
+  "razon": "Existen incumbentes gratis y baratos con la misma funcion; falla F1 y presion de precio. Sin ventaja de Juan real.",
+  "busquedas_usadas": 0,
+  "lote": "01",
+  "tema": "operaciones de tienda online"
+ },
+ {
+  "id": "G12-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen plugins y API de cotización STL (SeekMake, PrintPrice, Zylalabs); volumen trivial.",
+  "competidores_verificados": [
+   {
+    "nombre": "SeekMake",
+    "precio": "sin verificar",
+    "url": "https://ja.wordpress.org/plugins/seekmake/"
+   },
+   {
+    "nombre": "PrintPrice",
+    "precio": "sin verificar",
+    "url": "https://es-ar.wordpress.org/plugins/printprice-3d-calculator/"
+   }
+  ],
+  "razon": "Falla F1: el cálculo de volumen es trivial y ya está cubierto por plugins y APIs; el defensor no la defiende. Descartada.",
+  "busquedas_usadas": 0,
+  "lote": "02",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G21-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Herramientas SPC web gratis con X-bar/R y Cp/Cpk desde datos cargados ya existen (MetricGate), mas plantillas Excel de $29.",
+  "competidores_verificados": [
+   {
+    "nombre": "MetricGate",
+    "precio": "gratis",
+    "url": "https://metricgate.com/blogs/statistics-for-quality-control/"
+   },
+   {
+    "nombre": "Plantilla Excel SPC",
+    "precio": "$29",
+    "url": "https://payhip.com/b/cKpiv"
+   }
+  ],
+  "razon": "Falla F1: incumbente gratis suficientemente bueno verificado con URL; total 0.",
+  "busquedas_usadas": 0,
+  "lote": "06",
+  "tema": "calidad y soldadura"
+ },
+ {
+  "id": "G18-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "SimplyPrint Print Farm cuesta 39.99 USD/mes y existen opciones gratis (OctoPrint, Bambu Farm Manager, AutoFarm3D gratis hasta 3 impresoras).",
+  "competidores_verificados": [
+   {
+    "nombre": "SimplyPrint Print Farm",
+    "precio": "39.99 USD/mes",
+    "url": "https://simplyprint.io/pricing/print-farm.md"
+   },
+   {
+    "nombre": "AutoFarm3D",
+    "precio": "gratis hasta 3 impresoras; Lite 9.99 USD/mes (segun pagina de competidor)",
+    "url": "https://infinityflow3d.com/blogs/3d-print-farm-help/3dque-autofarm3d-alternative-flowq"
+   }
+  ],
+  "razon": "Hay gestores de granja gratis y de pago ya establecidos; a 29 USD sin angulo verificado falla F1. Descartada.",
+  "busquedas_usadas": 2,
+  "lote": "08",
+  "tema": "cola y órdenes de granja 3D"
+ },
+ {
+  "id": "G08-18",
+  "filtro_fallado": "F2",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Sin comprador concreto ni demanda verificada; librerias open source gratis (moonbitTolerance, StackCore) cubren peor caso/RSS/Monte Carlo.",
+  "competidores_verificados": [
+   {
+    "nombre": "StackCore (PyPI)",
+    "precio": "gratis",
+    "url": "https://pypi.org/project/stackcore/"
+   }
+  ],
+  "razon": "No se identifica un comprador que pague y hay alternativas open source; sin verificar CETOL/VSA ni demanda de SEO. Falla F2.",
+  "busquedas_usadas": 0,
+  "lote": "08",
+  "tema": "tolerancias mecánicas"
+ },
+ {
+  "id": "G15-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen apps de importación PDF-a-producto gratis o desde ~$10/mes en Shopify App Store",
+  "competidores_verificados": [
+   {
+    "nombre": "StockDraft",
+    "precio": "desde $9.99/mes",
+    "url": "https://apps.shopify.com/stockdraft?locale=nb"
+   },
+   {
+    "nombre": "Textify AI Product Import",
+    "precio": "gratis",
+    "url": "https://apps.shopify.com/textify-1"
+   },
+   {
+    "nombre": "Apport AI",
+    "precio": "gratis; Basic $9.80/mes",
+    "url": "https://apps.shopify.com/apport"
+   }
+  ],
+  "razon": "Incumbentes gratis o baratos con URL cubren la función base; diferenciación técnica no verificada y a $29 la meta exige ~350 pagadores. Falla F1.",
+  "busquedas_usadas": 0,
+  "lote": "09",
+  "tema": "fichas técnicas B2B"
+ },
+ {
+  "id": "G13-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "BuildPulse esta en GitHub Marketplace con plan gratis (10,000 resultados/dia) y cuarentena; Trunk Flaky Tests ofrece deteccion y cuarentena",
+  "competidores_verificados": [
+   {
+    "nombre": "BuildPulse",
+    "precio": "plan gratis 10,000 resultados/dia",
+    "url": "https://github.com/marketplace/buildpulse/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW40NzM5"
+   },
+   {
+    "nombre": "Trunk Flaky Tests",
+    "precio": "gratis para open source; pago sin verificar",
+    "url": "https://docs.trunk.io/flaky-tests/overview"
+   }
+  ],
+  "razon": "Incumbentes con plan gratis y la misma funcion exacta en el mismo canal. Falla F1.",
+  "busquedas_usadas": 0,
+  "lote": "10",
+  "tema": "CI/CD y GitHub Actions"
+ },
+ {
+  "id": "G01-01",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "PrintQuote y 3D Print Quote Calculator ya ofrecen en Shopify cotización STL instantánea con plan gratis de 50 cotizaciones/mes.",
+  "competidores_verificados": [
+   {
+    "nombre": "PrintQuote",
+    "precio": "gratis 50 cotizaciones/mes; Hobby $9/mes",
+    "url": "https://apps.shopify.com/3d-print-quote"
+   },
+   {
+    "nombre": "3D Print Quote Calculator",
+    "precio": "plan gratis 50 cotizaciones/mes",
+    "url": "https://apps.shopify.com/3d-print-quote-calculator"
+   }
+  ],
+  "razon": "Incumbentes gratis suficientemente buenos en el mismo canal nombrado: falla F1 y el canal está saturado.",
+  "busquedas_usadas": 1,
+  "lote": "17",
+  "tema": "cotización impresión 3D"
+ }
+]

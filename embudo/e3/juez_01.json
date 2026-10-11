@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G01-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Propel tiene plan gratis y Pro a $9.95; varias apps de garantia/RMA gratis o desde $15-19 (fuente del atacante, no reverificada).",
+  "competidores_verificados": [
+   {
+    "nombre": "Propel",
+    "precio": "gratis / $9.95 mes",
+    "url": "https://apps.shopify.com/propel-product-registration"
+   }
+  ],
+  "razon": "Canal Shopify saturado con opciones gratis o baratas que cubren registro y RMA; no hay evidencia de dolor especifico en marcas de impresoras 3D. Falla F1.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G11-02",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "TIA Portal y Studio 5000 importan/exportan tags a xlsx/csv de forma nativa; busqueda no hallo precio de herramienta de pago ni demanda en AppSource (sin verificar).",
+  "competidores_verificados": [
+   {
+    "nombre": "Siemens WinCC TagConverter",
+    "precio": "sin verificar",
+    "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+   }
+  ],
+  "razon": "La funcion nativa de las plataformas cubre gran parte del dolor (F1) y a $20/mes el nicho es pequeno. Sin senal de pago ni canal verificado; la ventaja de Juan es maxima pero no basta.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G01-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "MarginBundle gratis, Easy Margin $5/mes y Smart Bundles & Margin Guard desde $49 hacen exactamente la funcion (el defensor concede todo).",
+  "competidores_verificados": [
+   {
+    "nombre": "MarginBundle",
+    "precio": "gratis",
+    "url": "https://apps.shopify.com/marginbundle"
+   },
+   {
+    "nombre": "Easy Margin",
+    "precio": "$5/mes",
+    "url": "https://apps.shopify.com/easy-margin"
+   },
+   {
+    "nombre": "Smart Bundles & Margin Guard",
+    "precio": "desde $49/mes",
+    "url": "https://apps.shopify.com/smart-bundles-margin-guard"
+   }
+  ],
+  "razon": "Existen incumbentes gratis y baratos con la misma funcion; falla F1 y presion de precio. Sin ventaja de Juan real.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G20-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "Competidores con precio publico en autoservicio existen (Machestra desde gratis/$19/$79, QuoteForge desde $99), pero ninguno verificado como estimador CAM a $69; Paperless Parts/ProShop sin precio publicado.",
+  "competidores_verificados": [
+   {
+    "nombre": "QuoteForge",
+    "precio": "desde $99/mes (moneda sin verificar)",
+    "url": "https://www.softwaresuggest.com/quoteforge"
+   },
+   {
+    "nombre": "Machestra",
+    "precio": "gratis / $19 / $79 mes",
+    "url": "https://www.capterra.com/software/1108556/Machestra"
+   },
+   {
+    "nombre": "Paperless Parts",
+    "precio": "sin verificar",
+    "url": "https://www.paperlessparts.com/cnc-machining-quoting-software-ppc/"
+   }
+  ],
+  "razon": "Pasa los filtros: hay pago en autoservicio en la categoria y canal SEO nombrado, aunque el volumen de busqueda esta sin verificar. Estimar tiempos desde CAM en 6 semanas es dificil y los incumbentes son mas profundos; media-baja.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G18-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "Existe calculadora web gratis (stackupcalc.com, autoreportada) con worst-case/RSS/Monte Carlo y plantillas Excel; la unica herramienta de pago verificada es Autodesk Inventor Tolerance Analysis dentro de una coleccion (~$3,265/ano, sin confirmar).",
+  "competidores_verificados": [
+   {
+    "nombre": "Autodesk Inventor Tolerance Analysis",
+    "precio": "solo en coleccion, ~$3,265/ano sin confirmar",
+    "url": "https://www.autodesk.com/products/inventor-tolerance-analysis/overview"
+   }
+  ],
+  "razon": "Calculadoras gratis suficientes y sin evidencia de disposicion de pago individual a $29/mes. Falla F1.",
+  "busquedas_usadas": 1
+ }
+]

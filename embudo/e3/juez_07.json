@@ -1,0 +1,152 @@
+[
+ {
+  "id": "G04-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen apps gratis en Atlassian Marketplace (Stale Content Auditor, gratis, asigna dueños y archiva) que cubren el núcleo; atacante y defensor lo coinciden. Búsqueda propia no disponible (presupuesto agotado); URL citada por otros roles.",
+  "competidores_verificados": [
+   {
+    "nombre": "Stale Content Auditor for Confluence",
+    "precio": "gratis",
+    "url": "https://marketplace.atlassian.com/apps/1223013"
+   },
+   {
+    "nombre": "Automatic Archiving for Confluence Cloud",
+    "precio": "sin verificar",
+    "url": "https://marketplace.atlassian.com/apps/1223013/automatic-archiving-for-confluence-cloud"
+   }
+  ],
+  "razon": "Incumbente gratis suficientemente bueno para el núcleo de la idea: falla F1. Además Atlassian puede hacerlo nativo.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G29-01",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Rockwell incluye Compare Tool nativo gratis en Studio 5000 y TIA tiene comparación nativa; US$19/mes además exige volumen irreal (F5).",
+  "competidores_verificados": [
+   {
+    "nombre": "Rockwell Logix Designer Compare Tool",
+    "precio": "incluido en Studio 5000",
+    "url": "https://www.rockwellautomation.com/en-gb/docs/studio-5000-logix-designer/38-01/contents-ditamap/studio-5000-logix-designer/compare-tool-command.html"
+   },
+   {
+    "nombre": "Copia",
+    "precio": "sin verificar",
+    "url": "https://help.copia.io/knowledge/how-to-perform-a-manual-studio-5000-project-merge-if-the-copia-advanced-merge-tool-fails"
+   }
+  ],
+  "razon": "Existe comparación nativa gratuita en ambas plataformas y el precio mensual es incoherente con una licencia única. Falla F1 (y F5).",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G16-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "La declaración CBAM pasó a anual (primera 30-sep-2027), reduciendo urgencia y recurrencia; hay competidores con precio publicado (Dubrink desde EUR 1,990/año) y plan gratis limitado (CbamTrack). Demanda SEO sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Dubrink",
+    "precio": "desde EUR 1,990/año (importadores), con nivel gratis",
+    "url": "https://cbamguide.com/software/dubrink/"
+   },
+   {
+    "nombre": "CbamTrack",
+    "precio": "plan gratis para una categoría de producto",
+    "url": "https://hunted.space/product/cbamtrack"
+   }
+  ],
+  "razon": "El dolor es real pero estacional y anual, con competidores ya establecidos y riesgo regulatorio alto. El plan gratis es limitado, así que no se considera falla de F1.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G25-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "SolidWorks ofrece SNL_Log_Scanner gratis y OpenLM tiene versión light gratis; el comprador es IT corporativo.",
+  "competidores_verificados": [
+   {
+    "nombre": "SolidWorks SNL_Log_Scanner",
+    "precio": "gratis",
+    "url": "https://blogs.solidworks.com/tech/2018/03/solidworks-support-monthly-news-march-2018.html"
+   },
+   {
+    "nombre": "OpenLM (light)",
+    "precio": "gratis (versión light)",
+    "url": "https://support.hawkridgesys.com/hc/en-us/articles/360012676631-SolidNetWork-License-SNL-Usage-Monitoring"
+   }
+  ],
+  "razon": "Hay herramientas gratis suficientes para el caso: falla F1. El nicho es pequeño y el disposición de pago a US$199 sin verificar.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G10-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "No se halló app HubSpot que convierta STEP/DXF en line items (hueco, no prueba de demanda); QuoteForge y Digifabster cotizan desde CAD fuera de HubSpot.",
+  "competidores_verificados": [
+   {
+    "nombre": "QuoteForge",
+    "precio": "sin verificar",
+    "url": "https://www.goodfirms.co/software/quoteforge"
+   },
+   {
+    "nombre": "Digifabster",
+    "precio": "sin verificar",
+    "url": "https://digifabster.com/product/?p=367"
+   }
+  ],
+  "razon": "El canal HubSpot Marketplace está nombrado (no falla F4) pero sin demanda demostrada y con mercado estrecho. El ángulo CAD es único y encaja con la ventaja de Juan, con dependencia total de una plataforma.",
+  "busquedas_usadas": 0
+ }
+]

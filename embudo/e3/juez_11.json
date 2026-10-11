@@ -1,0 +1,147 @@
+[
+ {
+  "id": "G18-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "CutQuote (desde $95/usuario/mes) y MakeQuote (Shopify, plan gratis 10 pedidos/mes) ya cotizan DXF al instante; el canal sigue exigiendo outreach a talleres.",
+  "competidores_verificados": [
+   {
+    "nombre": "CutQuote",
+    "precio": "$95/usuario/mes Starter, $410 Pro",
+    "url": "https://www.capterra.com/p/10040294/CutQuote/"
+   },
+   {
+    "nombre": "MakeQuote",
+    "precio": "gratis hasta 10 pedidos/mes",
+    "url": "https://apps.shopify.com/makequote"
+   }
+  ],
+  "razon": "Dolor real y ventaja máxima de Juan, y CutQuote prueba disposición de pago. Pero hay competidores establecidos, la diferenciación es débil y el canal nombrado es poco probado; no falla F1 porque el plan gratis es limitado.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G08-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Werk24 ya ofrece API de tolerancias/GD&T/BOM a €0.15-0.85 por página; LLMs de visión erosionan el valor.",
+  "competidores_verificados": [
+   {
+    "nombre": "Werk24",
+    "precio": "€0.15-0.85/página",
+    "url": "https://es.werk24.io/product"
+   }
+  ],
+  "razon": "Competidor especializado de pago y LLMs generalistas reducen la diferenciación y suben el riesgo. Ventaja de Juan alta, canal SEO/API plausible pero sin verificar demanda; no hay incumbente gratis confirmado.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G01-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Stockroom (MyWorks) es gratis, con POs ilimitados, envío por email en PDF y recepción parcial, y migra desde Stocky.",
+  "competidores_verificados": [
+   {
+    "nombre": "Stockroom",
+    "precio": "gratis",
+    "url": "https://apps.shopify.com/stockroom-1"
+   },
+   {
+    "nombre": "Restockly",
+    "precio": "$29/mes",
+    "url": "https://apps.shopify.com/restockly-4"
+   },
+   {
+    "nombre": "StockKit",
+    "precio": "desde $14/mes",
+    "url": "https://apps.shopify.com/stockkit"
+   }
+  ],
+  "razon": "Un incumbente gratis cubre el núcleo de la propuesta (POs por email y recepción) en el mismo canal, por lo que falla F1. Además hay reemplazos de pago saturando la búsqueda.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G13-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "GitHub exporta CSV por repo/workflow y cost centers solo en Enterprise Cloud (máx 250); Blacksmith publica contenido de costo por workflow; no hay incumbente gratis completo.",
+  "competidores_verificados": [
+   {
+    "nombre": "GitHub cost centers",
+    "precio": "incluido en Enterprise Cloud",
+    "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/reference/cost-center-allocation"
+   },
+   {
+    "nombre": "Blacksmith",
+    "precio": "sin verificar",
+    "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+   }
+  ],
+  "razon": "Hay hueco para orgs no Enterprise con atribución por equipo, y GitHub Marketplace/SEO son canales nombrados. Aun así, lo nativo y los scripts caseros cubren parte, el pago es dudoso a $39 y GitHub puede lanzar la vista.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G25-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 33,
+  "hecho_decisivo": "OpenBOM compara BOMs entre revisiones y SolidWorks PDM tiene BOM Compare nativo; demanda de validación y precios sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "OpenBOM",
+    "precio": "sin verificar",
+    "url": "https://help.openbom.com/my-openbom/bom-compare/"
+   }
+  ],
+  "razon": "Incumbentes y Excel cubren buena parte de la función, y no hay evidencia de demanda de búsqueda. Ventaja de Juan real y MVP rápido, pero canal y diferenciación débiles.",
+  "busquedas_usadas": 0
+ }
+]

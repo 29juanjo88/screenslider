@@ -1,0 +1,162 @@
+[
+ {
+  "id": "G15-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "Paperless Parts (US$30M), SpeedQuoteAI (desde US$750) y CloudNC (plan gratis limitado) cubren el mismo caso; no hay incumbente gratis completo.",
+  "competidores_verificados": [
+   {
+    "nombre": "SpeedQuoteAI",
+    "precio": "desde US$750",
+    "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+   },
+   {
+    "nombre": "CloudNC Quote Agent",
+    "precio": "plan gratis 3 cotizaciones/mes",
+    "url": "https://www.cloudnc.com/quote-agent"
+   },
+   {
+    "nombre": "Paperless Parts",
+    "precio": "sin verificar",
+    "url": "https://www.paperlessparts.com/facts/"
+   }
+  ],
+  "razon": "Dolor y pago reales (competidores cobran), pero mercado saturado con fondos y estimacion fiable no cabe en 6 semanas. No falla filtro; puntaje MEDIA. Busqueda web no disponible (cupo agotado); se uso evidencia de ataque/defensa.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G13-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "hecho_decisivo": "Hueco de diff legible en PR plausible, pero Rockwell da herramientas VCS gratis, Copia/versiondog existen y demanda en GitHub Marketplace sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Copia",
+    "precio": "sin verificar",
+    "url": "https://copia.io/?p=1213"
+   },
+   {
+    "nombre": "Rockwell VCS Custom Tools",
+    "precio": "gratis (fuente secundaria)",
+    "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rockwell-plc-source-control-library-management-tools"
+   }
+  ],
+  "razon": "Ventaja maxima de Juan y diferenciacion, pero comprador pequeno, precio $29 y canal sin intencion verificada. BAJA.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G08-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 29,
+  "hecho_decisivo": "Varias APIs de reparacion ya existen (3D AI Studio, Remeshy, Meshy) mas OSS mesh-repair/trimesh; precios en USD sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "3D AI Studio repair",
+    "precio": "60 creditos (USD sin verificar)",
+    "url": "https://www.3daistudio.com/Platform/API/Documentation/tools/repair"
+   },
+   {
+    "nombre": "Remeshy STL Fix API",
+    "precio": "creditos, prueba gratis",
+    "url": "https://remeshy.com/stl-fix"
+   },
+   {
+    "nombre": "Meshy",
+    "precio": "analisis gratis, reparacion 10 creditos",
+    "url": "https://www.meshy.ai/tutorials/auto-repair-3d-models"
+   }
+  ],
+  "razon": "Clon sin angulo, comprador integra OSS por su cuenta. No cae en F1 estricto (hay pago por creditos) pero puntaje BAJA.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G23-01",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Threecolts ofrece reembolsos FBA gratis; Sellerboard desde $15/mes y servicios por comision 0-25% saturan el nicho.",
+  "competidores_verificados": [
+   {
+    "nombre": "Threecolts free reimbursements",
+    "precio": "gratis",
+    "url": "https://www.threecolts.com/free-reimbursements"
+   },
+   {
+    "nombre": "Sellerboard/Sellerise",
+    "precio": "$15 / $39.99 al mes",
+    "url": "https://revenuegeeks.com/amazon/fba-reimbursement-tools"
+   }
+  ],
+  "razon": "Existe incumbente gratis y alternativas mas baratas que $49; falla F1, total 0.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G18-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "No se hallo verificador DFM de chapa autoservicio neutral; Xometry/Protolabs/QDJ dan DFM gratis solo atado a cotizacion; pago por DFM independiente sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "QDJ Prototype DFM",
+    "precio": "gratis con cotizacion",
+    "url": "https://qdj-prototype.com/dfm-engineering-review/"
+   },
+   {
+    "nombre": "Hypertherm Design2Fab",
+    "precio": "US$79.99/usuario/mes",
+    "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+   }
+  ],
+  "razon": "Hueco neutral con ventaja de Juan y SEO plausible, pero disposicion de pago y F1 por DFM gratis son riesgo real. MEDIA-baja.",
+  "busquedas_usadas": 0
+ }
+]

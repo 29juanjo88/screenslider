@@ -1,0 +1,142 @@
+[
+ {
+  "id": "G12-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Ya hay respaldos de Notion a S3/Drive con restauración, uno en la galería oficial, a precio menor que $29.",
+  "competidores_verificados": [
+   {
+    "nombre": "Notion Backups",
+    "precio": "$10-24/mes (AlternativeTo, no oficial)",
+    "url": "https://alternativeto.net/software/notion-backups/about"
+   },
+   {
+    "nombre": "ProBackup",
+    "precio": "sin verificar",
+    "url": "https://www.notion.com/es/connections/probackup"
+   }
+  ],
+  "razon": "Dolor real pero categoría ocupada por servicios más baratos y canal oficial ya tomado. Sin diferenciación probada; no es gratis, así que no falla F1.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G01-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "hecho_decisivo": "Apps de precio por m2 en Shopify desde $9.99/mes ya existen; nicho estrecho.",
+  "competidores_verificados": [
+   {
+    "nombre": "SimPrice",
+    "precio": "$9.99/mes",
+    "url": "https://pickyourapp.com/de/products/simprice"
+   },
+   {
+    "nombre": "Custom Price Calculator (Apippa)",
+    "precio": "sin verificar",
+    "url": "https://custompricecalculator.com/blog/shopify-sign-pricing-calculator/"
+   }
+  ],
+  "razon": "Canal nombrado pero competencia barata y diferencial de nesting no validado. Pago bajo a $35 frente a $9.99.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G21-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 33,
+  "hecho_decisivo": "SKM ArcCalc $995 único confirma presupuesto; demos gratis limitadas; riesgo de responsabilidad alto.",
+  "competidores_verificados": [
+   {
+    "nombre": "SKM ArcCalc",
+    "precio": "$995 único (vendor)",
+    "url": "https://www.skm.com/arccalc.html"
+   },
+   {
+    "nombre": "ARCAD",
+    "precio": "demo gratis, precio sin verificar",
+    "url": "https://www.electricityforum.com/iep/buyers-guide/arcad-inc"
+   }
+  ],
+  "razon": "Hay presupuesto y SEO con intención, pero mercado acotado y responsabilidad por resultados. Calculadoras gratis son limitadas, no falla F1.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G27-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 29,
+  "hecho_decisivo": "No se confirmó demanda de pago, competidor específico ni API de ciclo de vida de Siemens/Rockwell.",
+  "competidores_verificados": [
+   {
+    "nombre": "CalcuQuote PCN (análogo electrónica)",
+    "precio": "sin verificar",
+    "url": "https://www.elisaindustriq.com/calcuquote/features/product-change-notifications"
+   }
+  ],
+  "razon": "Ventaja PLC clara pero avisos gratis de fabricantes, datos posiblemente sin API y canal sin validar. MVP incierto.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G01-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "MakeQuote (mayo 2026) ya cubre DXF con plan gratis de 10 pedidos y Pro $19/mes; su lógica de perímetro/espesor sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "MakeQuote",
+    "precio": "gratis 10 pedidos/mes; Pro $19/mes (terceros)",
+    "url": "https://apps.shopify.com/makequote"
+   }
+  ],
+  "razon": "Canal Shopify con intención y ventaja CAD, pero incumbente nuevo con plan gratis y más barato. Plan gratis limitado, no falla F1.",
+  "busquedas_usadas": 1
+ }
+]

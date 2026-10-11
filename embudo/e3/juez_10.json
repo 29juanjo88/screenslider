@@ -1,0 +1,162 @@
+[
+ {
+  "id": "G12-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "Existe demanda en la comunidad Make (hilo buscando experto para reducir operaciones) pero ningun analizador de blueprints verificado y pago solo evidenciado por consultoria",
+  "competidores_verificados": [
+   {
+    "nombre": "4Spot Consulting (guias/consultoria gratuita)",
+    "precio": "sin verificar",
+    "url": "https://4spotconsulting.com/make-com-cost-optimization-scale-smart-save-big/"
+   }
+  ],
+  "razon": "Dolor monetario real y canal nombrado (foro Make, SEO), pero canal sin volumen verificado, disposicion de pago por software sin verificar y alto riesgo de plataforma. No falla filtro de verdad: el canal esta nombrado.",
+  "busquedas_usadas": 2
+ },
+ {
+  "id": "G08-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen parsers L5X gratuitos (paquete Python l5x en PyPI, crate Rust l5x, L5Sharp en NuGet)",
+  "competidores_verificados": [
+   {
+    "nombre": "l5x (crate Rust, gratis)",
+    "precio": "0",
+    "url": "https://docs.rs/l5x"
+   },
+   {
+    "nombre": "L5Sharp (NuGet, gratis)",
+    "precio": "0",
+    "url": "https://www.nuget.org/packages/l5sharp"
+   },
+   {
+    "nombre": "l5x (PyPI, gratis)",
+    "precio": "0",
+    "url": "https://pypi.python.org/pypi/l5x/1.1"
+   }
+  ],
+  "razon": "Parsers gratuitos de codigo abierto cubren el caso principal y XML es parseable con librerias estandar; mercado diminuto y sin demanda de pago verificada. Falla F1.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G29-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "Calculadoras gratuitas con worst-case/RSS (Firgelli, Drafter) y stackupcalc.com gratis con Monte Carlo segun su creador",
+  "competidores_verificados": [
+   {
+    "nombre": "Firgelli calculadora",
+    "precio": "0",
+    "url": "https://www.firgelliauto.com/blogs/engineering-calculators/tolerance-stack-up-calculator-worst-case-and-rss"
+   },
+   {
+    "nombre": "Drafter Inc tool",
+    "precio": "0",
+    "url": "https://drafterinc.beehiiv.com/p/the-tolerance-stack-up-tool-you-asked-for-is-here"
+   },
+   {
+    "nombre": "stackupcalc.com (anuncio en r/SolidWorks)",
+    "precio": "0 segun creador, sin verificar en el sitio",
+    "url": "https://redlib.groet-infra.nl/r/SolidWorks/duplicates/1vjnxsn"
+   }
+  ],
+  "razon": "Incumbentes gratis cubren worst-case, RSS y Monte Carlo, y la licencia unica contradice el precio mensual. Falla F1 (y F5 plausible).",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G06-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "hecho_decisivo": "Competidores de pago existen (Subscriptions Recovery $79/mes, Sublium $99-199/mes) y WooCommerce trae reintentos nativos limitados y apagados por defecto",
+  "competidores_verificados": [
+   {
+    "nombre": "Subscriptions Recovery for WooCommerce",
+    "precio": "$79/mes + version gratis limitada",
+    "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+   },
+   {
+    "nombre": "Sublium",
+    "precio": "$99-199/mes",
+    "url": "https://alternativeto.net/software/sublium/about"
+   },
+   {
+    "nombre": "WooCommerce Subscriptions retry nativo",
+    "precio": "incluido",
+    "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+   }
+  ],
+  "razon": "Hay pago demostrado y WordPress.org como canal, pero el espacio ya esta ocupado y el reintento nativo cubre parte; el nativo es basico, por lo que no se considera F1 firme. Diferenciacion debil.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "G13-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "BuildPulse esta en GitHub Marketplace con plan gratis (10,000 resultados/dia) y cuarentena; Trunk Flaky Tests ofrece deteccion y cuarentena",
+  "competidores_verificados": [
+   {
+    "nombre": "BuildPulse",
+    "precio": "plan gratis 10,000 resultados/dia",
+    "url": "https://github.com/marketplace/buildpulse/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW40NzM5"
+   },
+   {
+    "nombre": "Trunk Flaky Tests",
+    "precio": "gratis para open source; pago sin verificar",
+    "url": "https://docs.trunk.io/flaky-tests/overview"
+   }
+  ],
+  "razon": "Incumbentes con plan gratis y la misma funcion exacta en el mismo canal. Falla F1.",
+  "busquedas_usadas": 0
+ }
+]
