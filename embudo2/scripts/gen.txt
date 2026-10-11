@@ -1,0 +1,7 @@
+Rol: GENERADOR de ideas (embudo v2, agente {N} de 10). Responde en español.
+1) Lee /home/user/screenslider/embudo2/brief2.md completo (es el brief vigente; ignora embudo/brief.md).
+2) Tu ángulo: {ANGULO}
+3) Genera exactamente 20 ideas de SaaS DISTINTAS para MERCADO GRANDE (≥100,000 compradores posibles, global en inglés), que se vendan solas, con meta US$10–50k MRR, construibles y operables por un solo ingeniero de software a tiempo parcial. Cada idea DEBE tener una cuña concreta frente a los incumbentes que nombres. Evita nichos chicos (ese fue el error del embudo anterior) y evita clones sin ángulo. No orientes a PLC/CAD/manufactura salvo que el mercado sea realmente grande.
+4) Carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 3 búsquedas (úsalas para ver huecos, quejas sobre incumbentes o tamaño de mercado). NUNCA inventes URLs, cifras ni competidores; usa "sin verificar".
+5) Escribe /home/user/screenslider/embudo2/a_ideas/gen_{N}.json: lista JSON de 20 objetos con exactamente las claves del esquema del brief2: id ("N{N}-01".."N{N}-20"), nombre, cliente_que_paga, problema, solucion, precio_usd_mes (número), canal_primeros_100, competidores (lista), cuña, tamaño_mercado, por_que_ahora, riesgo_principal, evidencia_url, angulo ("{N}"), tema. Textos breves. Valida: python3 -c "import json;d=json.load(open('/home/user/screenslider/embudo2/a_ideas/gen_{N}.json'));assert len(d)==20"
+6) Respuesta final: solo "OK" y 1 línea con búsquedas usadas.

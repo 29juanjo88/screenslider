@@ -1,0 +1,422 @@
+[
+ {
+  "id": "N08-01",
+  "nombre": "Monitor de posiciones de IA (citas en ChatGPT/Perplexity)",
+  "cliente_que_paga": "Dueños de sitios, SEOs freelance y agencias pequeñas",
+  "problema": "No saben si ChatGPT, Perplexity o Google AI Overviews citan su marca o contenido",
+  "solucion": "Consulta semanalmente prompts definidos y reporta citas, posición y competidores citados",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Profound",
+   "Semrush AI Toolkit",
+   "Ahrefs Brand Radar"
+  ],
+  "cuña": "Precio plano bajo y sin planes enterprise; foco en sitios pequeños con alertas por email",
+  "tamaño_mercado": "Millones de sitios con SEO; >500k pagan herramientas SEO (sin verificar)",
+  "por_que_ahora": "Búsqueda con IA cambia el tráfico orgánico",
+  "riesgo_principal": "Los LLM cambian y bloquean scraping; costo de API",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "GEO AI Search"
+ },
+ {
+  "id": "N08-02",
+  "nombre": "Auditor de SEO programático",
+  "cliente_que_paga": "SEOs y fundadores que publican cientos de páginas",
+  "problema": "Las páginas generadas en masa se canibalizan, duplican o quedan sin indexar",
+  "solucion": "Importa sitemap + Search Console y detecta canibalización, thin content e indexación por plantilla",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Screaming Frog",
+   "Sitebulb",
+   "Ahrefs Site Audit"
+  ],
+  "cuña": "Análisis por plantilla (no por URL) con acciones priorizadas; los incumbentes listan miles de errores sueltos",
+  "tamaño_mercado": "Cientos de miles de sitios con SEO programático o ecommerce grande (sin verificar)",
+  "por_que_ahora": "Auge de contenido generado por IA y penalizaciones de Google",
+  "riesgo_principal": "Google Search Console API limita datos",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "SEO programático auditoría"
+ },
+ {
+  "id": "N08-03",
+  "nombre": "Rastreador de enlaces rotos y backlinks perdidos",
+  "cliente_que_paga": "Bloggers y equipos de contenido",
+  "problema": "Pierden backlinks cuando páginas ajenas o propias se rompen y no se enteran",
+  "solucion": "Alerta de enlaces entrantes perdidos o redirecciones rotas con plantilla de email de recuperación",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Ahrefs",
+   "Semrush",
+   "Monitor Backlinks"
+  ],
+  "cuña": "Solo hace una cosa, a una fracción del precio de suites SEO",
+  "tamaño_mercado": "Más de 1M de sitios con blog comercial (sin verificar)",
+  "por_que_ahora": "Muchos sitios se reestructuran por IA",
+  "riesgo_principal": "Ahrefs Webmaster Tools es gratis para sitios propios (posible F1)",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Backlinks perdidos alerta"
+ },
+ {
+  "id": "N08-04",
+  "nombre": "Reutilizador de video largo a posts de LinkedIn/X por texto",
+  "cliente_que_paga": "Fundadores, consultores y creadores B2B",
+  "problema": "Tienen podcasts o webinars pero no tiempo para convertirlos en posts",
+  "solucion": "Sube transcripción o URL de YouTube y genera hilos, posts y newsletter con la voz del autor",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Castmagic",
+   "Opus Clip",
+   "Taplio"
+  ],
+  "cuña": "Salida en texto con aprendizaje de estilo del autor; los otros se centran en clips de video",
+  "tamaño_mercado": "Millones de creadores y profesionales con presencia en LinkedIn (sin verificar)",
+  "por_que_ahora": "Contenido de voz y video crece",
+  "riesgo_principal": "LLM genéricos hacen lo mismo con un prompt",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Reciclaje de contenido"
+ },
+ {
+  "id": "N08-05",
+  "nombre": "Planificador de newsletters con revisión de entregabilidad",
+  "cliente_que_paga": "Autores de newsletters y marketers de email",
+  "problema": "Sus emails caen en spam sin enterarse por SPF/DKIM/DMARC mal configurados",
+  "solucion": "Verifica DNS, simula bandeja y vigila reputación de dominio con alertas",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "GlockApps",
+   "Mail-Tester",
+   "Postmaster Tools de Google"
+  ],
+  "cuña": "Monitoreo continuo con diagnóstico guiado en lenguaje sencillo, no un chequeo único",
+  "tamaño_mercado": "Cientos de miles de dominios que envían email masivo (sin verificar)",
+  "por_que_ahora": "Gmail y Yahoo exigen autenticación y bajo spam",
+  "riesgo_principal": "Mail-Tester y Postmaster Tools gratis cubren parte (F1 parcial)",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Entregabilidad email monitor"
+ },
+ {
+  "id": "N08-06",
+  "nombre": "Calculadora de CAC/LTV conectada a Stripe y anuncios",
+  "cliente_que_paga": "Fundadores SaaS y ecommerce pequeños",
+  "problema": "No saben su ROI real por canal; las hojas de cálculo quedan obsoletas",
+  "solucion": "Conecta Stripe, Meta y Google Ads y muestra CAC, payback y LTV por canal",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Baremetrics",
+   "ProfitWell",
+   "Triple Whale"
+  ],
+  "cuña": "Cubre SaaS y ecommerce pequeño a precio bajo; sin plan por ingresos",
+  "tamaño_mercado": "Cientos de miles de SaaS y tiendas con anuncios (sin verificar)",
+  "por_que_ahora": "Costos de anuncios altos",
+  "riesgo_principal": "Dependencia de APIs de anuncios",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "CAC LTV analítica"
+ },
+ {
+  "id": "N08-07",
+  "nombre": "Atribución sin cookies para tiendas Shopify",
+  "cliente_que_paga": "Dueños de tiendas Shopify que anuncian",
+  "problema": "iOS y bloqueo de cookies rompen el reporte de Meta",
+  "solucion": "Pixel propio de primer lado y UTM server-side con reporte de pedidos por anuncio",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (Shopify App Store)",
+  "competidores": [
+   "Triple Whale",
+   "Northbeam",
+   "Lifetimely"
+  ],
+  "cuña": "Precio fijo bajo para tiendas pequeñas; incumbentes cobran por ingresos desde cientos de dólares",
+  "tamaño_mercado": "Más de 500k tiendas Shopify activas con anuncios (sin verificar)",
+  "por_que_ahora": "Pérdida de señal tras cambios de privacidad",
+  "riesgo_principal": "Dependencia de Shopify App Store",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Atribución ecommerce Shopify"
+ },
+ {
+  "id": "N08-08",
+  "nombre": "Generador de informes de marketing para freelancers",
+  "cliente_que_paga": "Freelancers y agencias de 1-10 personas",
+  "problema": "Pierden horas armando informes mensuales para clientes",
+  "solucion": "Conecta GA4, Search Console y Ads y entrega un PDF/enlace con marca blanca y resumen en lenguaje claro",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "AgencyAnalytics",
+   "Looker Studio",
+   "DashThis"
+  ],
+  "cuña": "Precio por informe y no por cliente; los incumbentes cobran desde cientos al mes; Looker Studio es gratis pero técnico",
+  "tamaño_mercado": "Cientos de miles de freelancers y agencias pequeñas (sin verificar)",
+  "por_que_ahora": "IA para resúmenes narrativos",
+  "riesgo_principal": "Looker Studio es gratis (F1 parcial)",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Informes marketing marca blanca"
+ },
+ {
+  "id": "N08-09",
+  "nombre": "Mapas de calor y grabaciones ligeros",
+  "cliente_que_paga": "Sitios pequeños y medianos de contenido y ecommerce",
+  "problema": "Hotjar y Clarity cuestan o pesan; no saben por qué no convierten",
+  "solucion": "Script de menos de 5 KB con grabaciones y heatmaps con límite de sesiones barato",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Hotjar",
+   "Microsoft Clarity",
+   "Smartlook"
+  ],
+  "cuña": "Cumple con privacidad por defecto sin banner de cookies; Clarity es gratis, así que la cuña es privacidad",
+  "tamaño_mercado": "Millones de sitios con analítica (sin verificar)",
+  "por_que_ahora": "Regulación de privacidad en alza",
+  "riesgo_principal": "Clarity es gratis (riesgo F1 fuerte)",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Heatmaps privacidad"
+ },
+ {
+  "id": "N08-10",
+  "nombre": "Programador de redes con vista previa de Open Graph",
+  "cliente_que_paga": "Marketers de contenido y SaaS",
+  "problema": "Los enlaces compartidos salen con imágenes rotas",
+  "solucion": "Genera y valida tarjetas OG y las publica por API en plantillas",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Bannerbear",
+   "Canva",
+   "Cloudinary"
+  ],
+  "cuña": "API simple con plantillas para imágenes OG automáticas por URL",
+  "tamaño_mercado": "Cientos de miles de desarrolladores y blogs (sin verificar)",
+  "por_que_ahora": "Más publicación automatizada",
+  "riesgo_principal": "Canva y OG de frameworks son gratis",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Imágenes OG API"
+ },
+ {
+  "id": "N08-11",
+  "nombre": "Seguimiento de reseñas y menciones de marca con resumen semanal",
+  "cliente_que_paga": "Fundadores y marketers de marca",
+  "problema": "Se enteran tarde de quejas en Reddit, X, HN y reseñas",
+  "solucion": "Monitorea menciones y envía resumen semanal con sentimiento y enlaces",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Brand24",
+   "Mention",
+   "F5Bot"
+  ],
+  "cuña": "Foco en Reddit, HN y reseñas de apps con resumen IA; F5Bot es gratis pero básico",
+  "tamaño_mercado": "Cientos de miles de marcas en línea (sin verificar)",
+  "por_que_ahora": "Reddit influye en resultados de IA y Google",
+  "riesgo_principal": "F5Bot gratis y acceso a API de Reddit",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Monitoreo de menciones"
+ },
+ {
+  "id": "N08-12",
+  "nombre": "Gestor de cold email con validación de listas",
+  "cliente_que_paga": "Equipos de SDR pequeños y fundadores",
+  "problema": "Rebotes arruinan dominios; herramientas caras",
+  "solucion": "Verificación de emails, calentamiento y rotación de buzones con tarifa baja",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Instantly",
+   "Smartlead",
+   "ZeroBounce"
+  ],
+  "cuña": "Precio plano sin límites por buzón; foco en entregabilidad",
+  "tamaño_mercado": "Cientos de miles de equipos de ventas pequeños (sin verificar)",
+  "por_que_ahora": "Cold email sigue creciendo pese a reglas de Gmail",
+  "riesgo_principal": "Outbound es riesgo de spam y reputación",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Cold email entregabilidad"
+ },
+ {
+  "id": "N08-13",
+  "nombre": "Encuestas post-compra con IA para tiendas",
+  "cliente_que_paga": "Dueños de tiendas Shopify y WooCommerce",
+  "problema": "No saben de dónde vinieron los clientes",
+  "solucion": "Encuesta '¿cómo nos conociste?' tras la compra con resumen de canales",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (Shopify App Store)",
+  "competidores": [
+   "KnoCommerce",
+   "Fairing",
+   "Grapevine"
+  ],
+  "cuña": "Precio fijo bajo; incumbentes cobran por pedidos y son caros",
+  "tamaño_mercado": "Más de 1M de tiendas Shopify y Woo (sin verificar)",
+  "por_que_ahora": "Atribución digital rota",
+  "riesgo_principal": "Shopify podría hacerlo nativo",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Encuesta atribución post-compra"
+ },
+ {
+  "id": "N08-14",
+  "nombre": "Comparador de landing pages con pruebas A/B para sitios estáticos",
+  "cliente_que_paga": "Marketers y desarrolladores",
+  "problema": "Pruebas A/B son caras o lentas",
+  "solucion": "A/B server-side en edge con SDK de 2 líneas y estadística bayesiana",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "VWO",
+   "Optimizely",
+   "Google Optimize (cerrado)"
+  ],
+  "cuña": "Edge sin parpadeo y precio plano; Google Optimize ya no existe",
+  "tamaño_mercado": "Cientos de miles de sitios con landing pages (sin verificar)",
+  "por_que_ahora": "Hueco dejado por Google Optimize",
+  "riesgo_principal": "Ya hay varias alternativas",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "A/B testing edge"
+ },
+ {
+  "id": "N08-15",
+  "nombre": "Alertas de cambios de precios de competidores",
+  "cliente_que_paga": "Marketers de ecommerce y SaaS",
+  "problema": "No saben cuándo cambian el precio o la página de la competencia",
+  "solucion": "Vigila páginas y envía diffs con alertas por Slack/email",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Visualping",
+   "Competitors App",
+   "Prisync"
+  ],
+  "cuña": "Plantillas por tipo de página (precios, features, changelog) y resúmenes",
+  "tamaño_mercado": "Cientos de miles de empresas con competidores directos (sin verificar)",
+  "por_que_ahora": "Más cambios rápidos con IA",
+  "riesgo_principal": "Visualping cubre lo básico",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Monitoreo de competidores"
+ },
+ {
+  "id": "N08-16",
+  "nombre": "Creador de landing pages para anuncios",
+  "cliente_que_paga": "Media buyers y freelancers",
+  "problema": "Necesitan páginas por anuncio rápido",
+  "solucion": "Generador de variantes de landing con texto por palabra clave y hosting",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Unbounce",
+   "Instapage",
+   "Leadpages"
+  ],
+  "cuña": "Precio plano por páginas ilimitadas frente a precios altos de incumbentes",
+  "tamaño_mercado": "Cientos de miles de anunciantes (sin verificar)",
+  "por_que_ahora": "IA para variantes de copy",
+  "riesgo_principal": "Mercado muy competido",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Landing pages anuncios"
+ },
+ {
+  "id": "N08-17",
+  "nombre": "Widget de prueba social y reseñas verificadas",
+  "cliente_que_paga": "Tiendas y SaaS pequeños",
+  "problema": "Falta de confianza en la web",
+  "solucion": "Widget que muestra reseñas, ventas recientes y logos con importación desde G2/Trustpilot",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Trustpilot",
+   "Judge.me",
+   "Proof"
+  ],
+  "cuña": "Importación multi-fuente y precio plano",
+  "tamaño_mercado": "Millones de tiendas y sitios (sin verificar)",
+  "por_que_ahora": "Confianza online escasa",
+  "riesgo_principal": "Judge.me es gratis en su plan básico",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Prueba social widget"
+ },
+ {
+  "id": "N08-18",
+  "nombre": "Planificador de calendario editorial con IA para blogs",
+  "cliente_que_paga": "Bloggers y equipos de contenido pequeños",
+  "problema": "No saben qué escribir ni cuándo",
+  "solucion": "Calcula huecos de keywords desde Search Console y arma el calendario",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Clearscope",
+   "Surfer",
+   "MarketMuse"
+  ],
+  "cuña": "Parte de datos propios de Search Console, no de estimaciones; precio bajo",
+  "tamaño_mercado": "Millones de blogs (sin verificar)",
+  "por_que_ahora": "IA satura contenido y exige estrategia",
+  "riesgo_principal": "Surfer y Semrush ya lo cubren",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Calendario editorial SEO"
+ },
+ {
+  "id": "N08-19",
+  "nombre": "Rastreador de afiliados para creadores",
+  "cliente_que_paga": "Creadores con enlaces de afiliado",
+  "problema": "No saben qué enlaces generan ingresos",
+  "solucion": "Acorta enlaces, rastrea clics y conciliación de comisiones de Amazon y otras redes",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Pretty Links",
+   "ThirstyAffiliates",
+   "Geniuslink"
+  ],
+  "cuña": "Reporte unificado de comisiones entre redes",
+  "tamaño_mercado": "Cientos de miles de creadores afiliados (sin verificar)",
+  "por_que_ahora": "Más monetización de creadores",
+  "riesgo_principal": "Plugins WordPress gratis o baratos",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Enlaces afiliado creadores"
+ },
+ {
+  "id": "N08-20",
+  "nombre": "Generador de anuncios de Google Ads con auditoría de desperdicio",
+  "cliente_que_paga": "Anunciantes pequeños",
+  "problema": "Pierden presupuesto en términos irrelevantes",
+  "solucion": "Detecta términos negativos y recomendaciones con cambios aplicables",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda en SEO long-tail, Product Hunt, Reddit y directorios de herramientas (r/SEO, r/marketing)",
+  "competidores": [
+   "Optmyzr",
+   "Adalysis",
+   "Google Ads Editor"
+  ],
+  "cuña": "Auditoría de desperdicio por cuenta con precio bajo; Optmyzr empieza más caro (sin verificar)",
+  "tamaño_mercado": "Cientos de miles de anunciantes de Google Ads (sin verificar)",
+  "por_que_ahora": "Performance Max reduce el control",
+  "riesgo_principal": "Google podría ofrecer lo mismo",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "Auditoría Google Ads"
+ }
+]

@@ -1,0 +1,7 @@
+Rol: DEFENSOR (embudo v2, etapa C, lote 02: 5 ideas). Responde en español.
+1) Lee /home/user/screenslider/embudo2/brief2.md.
+2) Lee /home/user/screenslider/embudo2/c/lote_02.json y /home/user/screenslider/embudo2/c/ataque_02.json.
+3) Carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 4 búsquedas: evidencia de demanda (quejas sobre incumbentes, hilos pidiendo la solución), disposición de pago, tamaño de mercado, o refutar hechos del atacante. NUNCA inventes.
+4) Defiende solo las que lo merecen; concede lo cierto; propone ajuste de cuña/precio si ayuda.
+5) Escribe /home/user/screenslider/embudo2/c/defensa_02.json: lista con las 5 {"id","rescatar","respuesta","concesiones","hechos":[{"afirmacion","url"}],"ajuste_sugerido","busquedas_usadas"}. Valida.
+6) Respuesta final: solo "OK" y 1 línea.

@@ -1,0 +1,3810 @@
+[
+ {
+  "id": "N10-01",
+  "lote": "01",
+  "total": 43,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Fecha regulatoria EAA da urgencia y canal nombrado; competidores fuertes y escáner limitado.",
+  "tema": "cumplimiento accesibilidad eaa"
+ },
+ {
+  "id": "N01-09",
+  "lote": "02",
+  "total": 43,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Mercado Woo grande con evidencia, canal WordPress.org con intención, cuña Woo vs Shopify-first plausible; mantenimiento y carriers.",
+  "tema": "devoluciones woocommerce"
+ },
+ {
+  "id": "N06-07",
+  "lote": "05",
+  "total": 43,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor real y busqueda activa 'pdf to excel'; ya se paga por Docparser/Nanonets; marketplaces nombrados; cuña de precio plano copiable y Copilot/Acrobat/ChatGPT cubren parte; margen de inferencia.",
+  "tema": "pdf a excel"
+ },
+ {
+  "id": "N05-11",
+  "lote": "01",
+  "total": 42,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Comprador admin y Workspace Marketplace claros; riesgo Google y verificación OAuth (CASA).",
+  "tema": "drive permissions cleanup"
+ },
+ {
+  "id": "G23-01",
+  "lote": "01",
+  "total": 42,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Dolor monetario directo, comunidad nombrada, tarifa fija vs % de recobro; mercado cercano al límite.",
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "N01-01",
+  "lote": "05",
+  "total": 42,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Dolor monetario medible (comision 20-25% vs cuota fija), comprador y canal nombrado (App Store 'chargeback'); riesgo Shopify Payments y plataforma unica; mercado >100k plausible sin verificar.",
+  "tema": "chargebacks"
+ },
+ {
+  "id": "N10-09",
+  "lote": "08",
+  "total": 42,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "razon": "Dolor real por reglas de remitentes masivos; SEO programatico por proveedor DNS; hay niveles gratis parciales pero no cubren la guia; retencion media.",
+  "tema": "dmarc para no expertos"
+ },
+ {
+  "id": "N10-02",
+  "lote": "01",
+  "total": 41,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "CMP con planes gratis; cuña de dominios ilimitados para agencias es de precio y copiable; canal WordPress/Shopify real.",
+  "tema": "banner cookies precio plano"
+ },
+ {
+  "id": "N01-07",
+  "lote": "03",
+  "total": 41,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "razon": "Dolor monetario concreto, canal con intención (SEO Etsy profit calculator, r/EtsySellers), MVP por CSV; Craftybase y churn de vendedores chicos.",
+  "tema": "ganancia real etsy"
+ },
+ {
+  "id": "N08-01",
+  "lote": "04",
+  "total": 41,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Demanda creciente y búsqueda con intención; muchos competidores baratos, scraping/costo frágil.",
+  "tema": "geo ai search"
+ },
+ {
+  "id": "N08-07",
+  "lote": "07",
+  "total": 41,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor monetario directo y compradores que ya pagan; Shopify App Store como canal; saturado (Triple Whale, Northbeam), cuña de precio copiable y precisión difícil.",
+  "tema": "atribución ecommerce shopify"
+ },
+ {
+  "id": "N02-01",
+  "lote": "03",
+  "total": 40,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Dolor semanal medible, GitHub Marketplace/HN/SEO concretos; BuildPulse y Trunk compiten y GitHub puede hacerlo nativo.",
+  "tema": "testing ci"
+ },
+ {
+  "id": "N02-02",
+  "lote": "03",
+  "total": 40,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Dolor monetario con evidencia de cambio de precios de Actions y canal GitHub Marketplace/SEO; reporte nativo de GitHub y churn tras optimizar.",
+  "tema": "costos ci"
+ },
+ {
+  "id": "N09-13",
+  "lote": "06",
+  "total": 40,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Backup de CRM: presupuesto existente (Own, Spanning), AppExchange/HubSpot marketplace; export nativo manual; restauracion compleja; mercado 250-700k sin verificar.",
+  "tema": "backup de crm"
+ },
+ {
+  "id": "N01-15",
+  "lote": "08",
+  "total": 40,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Dinero directo perdido, ya pagan comisiones; cuota fija es cuna clara; F3 no aplica; riesgo SP-API mitigable con carga manual.",
+  "tema": "reembolsos fba"
+ },
+ {
+  "id": "N02-03",
+  "lote": "08",
+  "total": 40,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Cuna de tope duro de gasto es dolor real; Sentry tiene plan gratis; compatibilidad SDK e ingesta costosas para 1 persona.",
+  "tema": "error tracking"
+ },
+ {
+  "id": "N04-01",
+  "lote": "01",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Mercado grande y MVP simple, pero cuña de precio débil y pago bajo de freelancers.",
+  "tema": "propuestas freelance"
+ },
+ {
+  "id": "N03-10",
+  "lote": "01",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Cuña real (YouTube/newsletters) y dolor monetario; pagadores una fracción de creadores.",
+  "tema": "auditoría afiliados"
+ },
+ {
+  "id": "N10-04",
+  "lote": "02",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Dolor recurrente real y canal con intención; cuña vs MoR concreta; exactitud fiscal costosa y Stripe Tax cubre en parte.",
+  "tema": "iva digital vendedores indie"
+ },
+ {
+  "id": "N10-18",
+  "lote": "04",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Ya pagan Supermetrics/Coupler; precio plano es cuña real; Looker Studio gratis y mantenimiento de conectores.",
+  "tema": "conector ga4 a hojas"
+ },
+ {
+  "id": "N10-08",
+  "lote": "05",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Dolor creciente, mercado enorme y hueco self-serve frente a DLP enterprise; riesgo Chrome/DOM, confianza, y proveedores de IA con redaccion nativa.",
+  "tema": "redacción pii en ia"
+ },
+ {
+  "id": "N01-05",
+  "lote": "06",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Precio plano vs Prisync/Price2Spy; pagan por algo caro; apps baratas en Shopify (sin verificar); scraping fragil.",
+  "tema": "monitoreo de precios"
+ },
+ {
+  "id": "N05-04",
+  "lote": "06",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Similar al ancla Notion backup (38) con cuna de diff y restauracion por pagina; Notion puede ampliar historial.",
+  "tema": "notion backup"
+ },
+ {
+  "id": "N10-05",
+  "lote": "07",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Mercado enorme y dolor de privacidad real, pero Granola, MacWhisper y funciones nativas de Apple/Microsoft cubren la cuña; app de escritorio multiplataforma pesada para una persona.",
+  "tema": "notas reuniones locales"
+ },
+ {
+  "id": "N02-20",
+  "lote": "07",
+  "total": 39,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Obligación regulatoria (EAA/WCAG) da dolor y pago; cuña en reportes de cumplimiento y parches; detección gratis (axe, Lighthouse) no cubre el entregable; canal GitHub Marketplace/SEO.",
+  "tema": "accesibilidad ci"
+ },
+ {
+  "id": "N08-20",
+  "lote": "01",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Dolor de dinero real pero Optmyzr/Adalysis y token de desarrollador de Google Ads.",
+  "tema": "auditoría google ads"
+ },
+ {
+  "id": "N10-20",
+  "lote": "02",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Canal claro (Shopify/WordPress) pero función que plataformas incorporan; AltText.ai existe; uso puntual.",
+  "tema": "alt text masivo accesibilidad"
+ },
+ {
+  "id": "N03-18",
+  "lote": "03",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Cuña real (evidencia de acceso a contenido digital) y comprador claro con dolor monetario; Stripe nativo y Chargeflow pueden cubrir; mercado sin verificar.",
+  "tema": "disputas digitales"
+ },
+ {
+  "id": "N07-05",
+  "lote": "04",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Dolor/pago reales pero SEO dominado por Koinly/CoinTracker y mantenimiento fiscal multi-país; cuña de precio copiable.",
+  "tema": "impuestos cripto plano"
+ },
+ {
+  "id": "N09-05",
+  "lote": "04",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Dolor de precio de Mailchimp real, 'Mailchimp alternative' con intención; muy saturado y entregabilidad difícil.",
+  "tema": "newsletter precio justo"
+ },
+ {
+  "id": "N09-14",
+  "lote": "05",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Gerentes pagan Databox/Geckoboard; marketplaces HubSpot/AppExchange con intencion; CRMs agregan IA nativa; fiabilidad NL-to-query.",
+  "tema": "reportes crm con ia"
+ },
+ {
+  "id": "N02-12",
+  "lote": "06",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Equipos ya pagan Percy/Chromatic por snapshot; plan plano y capa de aprobacion en PR con difusion via comentarios; nativo gratis cubre lo basico; mercado 250-700k sin verificar.",
+  "tema": "regresión visual"
+ },
+ {
+  "id": "G12-14",
+  "lote": "08",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Equivalente al ancla media de respaldo Notion; sin cuna clara y Notion puede mejorar export nativo.",
+  "tema": "datos: extracción y respaldo"
+ },
+ {
+  "id": "N01-04",
+  "lote": "08",
+  "total": 38,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Intencion de busqueda alta y urgencia; Merchant Center y apps de feed cubren parte; cuna copiable.",
+  "tema": "salud de feeds"
+ },
+ {
+  "id": "G17-04",
+  "lote": "01",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Dolor monetario claro pero Smart Retries nativo e incumbentes; cuña no explicitada.",
+  "tema": "cobros y retención de suscripciones"
+ },
+ {
+  "id": "N05-05",
+  "lote": "02",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Sheets ya tiene historial por celda nativo; cuña de alertas/reversión es modesta; riesgo de plataforma; canal Marketplace con intención.",
+  "tema": "sheets audit trail"
+ },
+ {
+  "id": "N10-15",
+  "lote": "02",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Dolor monetario real y presupuesto existente, pero Stape/Elevar ya cubren; infra y soporte pesados para 1 persona.",
+  "tema": "medición servidor primera parte"
+ },
+ {
+  "id": "N06-03",
+  "lote": "03",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Cuña local por usuario y mercado amplio; $9 exige ~1,100 pagadores, individuos esperan gratis, Chrome/Purview pueden integrarlo.",
+  "tema": "pii antes de llm"
+ },
+ {
+  "id": "N09-10",
+  "lote": "04",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "'Frame.io alternative' tiene intención y viralidad en enlaces; infraestructura de video y varios alternativos baratos.",
+  "tema": "revisión de video barata"
+ },
+ {
+  "id": "N10-14",
+  "lote": "05",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "EAA da urgencia y hay presupuesto, pero captions automaticos gratis y Rev/Verbit/Descript; cuña de precio plano copiable; sin garantia legal.",
+  "tema": "subtítulos accesibilidad eaa"
+ },
+ {
+  "id": "N07-09",
+  "lote": "07",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Mercado gigante pero saturado con Duolingo/Speak; costo de voz en tiempo real a $8 comprime margen; canal SEO/Reddit débil.",
+  "tema": "práctica de idiomas"
+ },
+ {
+  "id": "N02-19",
+  "lote": "07",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Dolor y presupuesto reales (PII en dev), cuña de autoservicio frente a Tonic/Delphix; pero barrera de confianza y ejecución difícil para una persona; pagadores ~250-700k.",
+  "tema": "datos de prueba"
+ },
+ {
+  "id": "N03-04",
+  "lote": "08",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "razon": "Cuna multi-procesador razonable pero copiable; mercado de comunidades de pago probablemente 250-700k; dependencia de APIs Discord.",
+  "tema": "paywall de comunidades"
+ },
+ {
+  "id": "N05-19",
+  "lote": "08",
+  "total": 37,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Dolor y pago reales pero requiere permisos admin/confianza y canal SEO debil; integraciones costosas.",
+  "tema": "saas seat optimization"
+ },
+ {
+  "id": "N06-06",
+  "lote": "01",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Un LLM con búsqueda verifica gratis; cuña de informe exportable débil; pago incierto.",
+  "tema": "verificar citas ia"
+ },
+ {
+  "id": "N10-19",
+  "lote": "02",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Cuña razonable (equipos pequeños vs enterprise); riesgo de confianza/OAuth mitigable con CSV/reenvío; retención incierta.",
+  "tema": "seguimiento renovaciones saas"
+ },
+ {
+  "id": "N02-14",
+  "lote": "02",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Herramientas gratis (Telescope, Bullet) cubren dev; producción es el hueco pero ejecución multi-ORM es pesada; cuña de precio débil.",
+  "tema": "consultas lentas"
+ },
+ {
+  "id": "N03-01",
+  "lote": "02",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Cuña real (CPM, usage rights) frente a CRMs genéricos; canal en Reddit/plantillas; parte del segmento se conforma con Notion.",
+  "tema": "sponsor crm"
+ },
+ {
+  "id": "G25-01",
+  "lote": "04",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 1
+  },
+  "razon": "Dolor y pago reales, pero Vanta/Drata/Sprinto cubren 'barato'; sin cuña; ejecución y confianza difíciles para una persona.",
+  "tema": "evidencia soc2/iso y compliance ti"
+ },
+ {
+  "id": "G16-02",
+  "lote": "04",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor regulatorio EAA real, canal GitHub Marketplace; axe/Lighthouse gratis cubren detección, cuña fina.",
+  "tema": "cumplimiento accesibilidad web"
+ },
+ {
+  "id": "N02-08",
+  "lote": "04",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "GitHub Marketplace es canal nombrado y análisis de uso es cuña; Copilot/Renovate pueden cubrirlo; poco pago por devs.",
+  "tema": "revisión dependencias"
+ },
+ {
+  "id": "N09-18",
+  "lote": "04",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Agencias ya pagan; AgencyAnalytics/DashThis cubren; Looker Studio gratis; cuña débil.",
+  "tema": "informes seo marca blanca"
+ },
+ {
+  "id": "G01-09",
+  "lote": "05",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor monetario con canal Shopify App Store nombrado; apps de devoluciones (Loop etc.) ya incluyen analitica; cuña no explicitada.",
+  "tema": "operaciones de tienda online"
+ },
+ {
+  "id": "N02-18",
+  "lote": "06",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Paginas de estado gratis y IsDown/StatusGator; autodeteccion desde repo es cuna moderada; SEO dominado.",
+  "tema": "estado de proveedores"
+ },
+ {
+  "id": "N01-06",
+  "lote": "06",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Canal Shopify App Store claro; Sellbrite/Codisto y apps existentes; subconjunto de vendedores Etsy con Shopify; riesgo API Etsy.",
+  "tema": "sincronía etsy-shopify"
+ },
+ {
+  "id": "N05-06",
+  "lote": "06",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Geekbot/Standuply/Range y Slack nativo; precio plano por workspace es cuna menor; mercado saturado.",
+  "tema": "async standups"
+ },
+ {
+  "id": "N08-02",
+  "lote": "06",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Analisis por plantilla es cuna razonable; Screaming Frog/Ahrefs cubren parte; compradores reales posiblemente cerca de 100k; limites de GSC API.",
+  "tema": "seo programático auditoría"
+ },
+ {
+  "id": "N01-17",
+  "lote": "06",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor monetario real; auditores por comision son atractivos; datos de carriers variables; mercado de tiendas con volumen sin verificar.",
+  "tema": "auditoría de envíos"
+ },
+ {
+  "id": "N01-03",
+  "lote": "07",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Canal Shopify App Store con intención de compra y ejecución fácil, pero redirects nativos gratis, problema ocasional y cuña pequeña.",
+  "tema": "redirecciones 404"
+ },
+ {
+  "id": "N06-19",
+  "lote": "07",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Mercado enorme y pagadores existentes (Chatbase), pero muy saturado y commoditizado; BYOK y tope de gasto copiables.",
+  "tema": "chatbot embebible"
+ },
+ {
+  "id": "G25-10",
+  "lote": "07",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor y presupuesto altos ($199), pero incumbentes financiados con ventas, canal SEO único dudoso, cuña no explicitada y confianza con datos de seguridad.",
+  "tema": "licitaciones, rfp y cuestionarios"
+ },
+ {
+  "id": "N02-04",
+  "lote": "07",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 5
+  },
+  "razon": "MVP muy simple y canal nombrado (Laravel News, npm/composer), pero Healthchecks gratis, Cronitor y Sentry compiten; precio bajo.",
+  "tema": "monitoreo cron"
+ },
+ {
+  "id": "N07-11",
+  "lote": "07",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Intención de compra alta y mercado grande, pero uso en picos, contenido costoso de curar, riesgo de copyright y Tutorials Dojo dominante.",
+  "tema": "simulacros certificación ti"
+ },
+ {
+  "id": "N10-03",
+  "lote": "08",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Monitoreo continuo white-label es cuna plausible; escaneres gratis puntuales; mercado de agencias moderado.",
+  "tema": "auditoría consentimiento cookies"
+ },
+ {
+  "id": "N02-17",
+  "lote": "08",
+  "total": 36,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Canal GitHub Marketplace concreto; incumbentes numerosos y cuna de precio copiable.",
+  "tema": "métricas ingeniería"
+ },
+ {
+  "id": "N04-04",
+  "lote": "01",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Portal ligero con competidores y plantillas Notion; cuña de precio copiable.",
+  "tema": "portal de clientes"
+ },
+ {
+  "id": "N06-20",
+  "lote": "01",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Dictado nativo y Wispr/Superwhisper; cuña de plantillas débil.",
+  "tema": "dictado estructurado"
+ },
+ {
+  "id": "G16-20",
+  "lote": "02",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Dolor con fecha legal y comprador que paga caro (CommonLook), pero remediación PDF/UA fiable es difícil y cuña no definida.",
+  "tema": "cumplimiento accesibilidad web"
+ },
+ {
+  "id": "N10-11",
+  "lote": "03",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Cuña de precio por envío real pero conocida (Sendy, Buttondown); entregabilidad y abuso SES difíciles para 1 persona.",
+  "tema": "newsletter precio por envío"
+ },
+ {
+  "id": "N10-13",
+  "lote": "04",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Dolor agudo pero puntual (sin recurrencia), scripts OSS gratis; buen SEO de intención.",
+  "tema": "migrar fotos google"
+ },
+ {
+  "id": "N05-10",
+  "lote": "04",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Cuña de precio fijo para 50-500 plausible; permisos admin, confianza e integraciones múltiples frenan ejecución.",
+  "tema": "offboarding automation"
+ },
+ {
+  "id": "N10-16",
+  "lote": "04",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Función que CMPs añaden; $9 exige mucho volumen; canal WP.org plausible.",
+  "tema": "embeds compatibles gdpr"
+ },
+ {
+  "id": "N05-15",
+  "lote": "06",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Coupler, Zapier y Make cubren; precio plano copiable; API de Notion limitada.",
+  "tema": "notion sheets sync"
+ },
+ {
+  "id": "N06-01",
+  "lote": "06",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Extensiones gratis y busqueda nativa; 8 USD con baja disposicion de pago; Chrome Web Store como canal y riesgo.",
+  "tema": "historial multi-llm"
+ },
+ {
+  "id": "G23-17",
+  "lote": "06",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "eRank y Marmalead ya pagados por vendedores; sin cuna; mercado grande.",
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "N02-16",
+  "lote": "07",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "razon": "Cuña concreta (vive en el repo), canal GitHub Marketplace; pero dolor moderado, OSS cubre parte y pagadores quizá ~250-700k.",
+  "tema": "diagramas de infra"
+ },
+ {
+  "id": "N04-20",
+  "lote": "07",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Agencias pueden revender el informe, pero WAVE/Lighthouse gratis y Deque/Siteimprove cubren; cuña mínima; solapa con N02-20.",
+  "tema": "auditoría accesibilidad"
+ },
+ {
+  "id": "N01-20",
+  "lote": "08",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Dolor real por aranceles; cuna CSV copiable; riesgo de exactitud HS y herramientas gratis de Zonos (sin verificar).",
+  "tema": "códigos hs y aranceles"
+ },
+ {
+  "id": "N07-02",
+  "lote": "08",
+  "total": 35,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "razon": "Cuna de privacidad sin banco es real pero nicho, $5 de precio bajo y Actual Budget gratis.",
+  "tema": "presupuesto privado csv"
+ },
+ {
+  "id": "N07-06",
+  "lote": "01",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Mercado enorme pero saturado, sin cuña real y adquisición cara; F5 no del todo.",
+  "tema": "macros por foto"
+ },
+ {
+  "id": "G22-14",
+  "lote": "01",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Opus Clip domina; sin cuña y costo de video alto para una persona.",
+  "tema": "herramientas de creadores youtube"
+ },
+ {
+  "id": "N08-13",
+  "lote": "01",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Encuestas post-compra con rivales de plan bajo; cuña de precio débil.",
+  "tema": "encuesta atribución post-compra"
+ },
+ {
+  "id": "N03-07",
+  "lote": "02",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor recurrente real pero editor paga poco; Mail-Tester/Postmaster cubren lo puntual; cuña de lenguaje copiable.",
+  "tema": "entregabilidad newsletters"
+ },
+ {
+  "id": "N05-20",
+  "lote": "03",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Slack App Directory es canal real, pero Statuspage/Instatus/incident.io saturan y precio plano es copiable.",
+  "tema": "incident status page"
+ },
+ {
+  "id": "N08-15",
+  "lote": "03",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Visualping cubre lo básico con plan gratis; plantillas por página copiables; scraping anti-bot costoso.",
+  "tema": "monitoreo de competidores"
+ },
+ {
+  "id": "N10-07",
+  "lote": "03",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Competencia con suites baratas (Termly, Osano) y plantillas gratis; compra esporádica; percibido como asesoría legal.",
+  "tema": "solicitudes privacidad dsar"
+ },
+ {
+  "id": "G23-13",
+  "lote": "03",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor real de suspensiones pero competidores existen, canal de foros/FB vago y apelaciones las redacta ChatGPT.",
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "N09-03",
+  "lote": "03",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Mercado grande pero saturado (Help Scout, Front, Zendesk); cuña de precio plano copiable; entregabilidad de email.",
+  "tema": "helpdesk plano pequeño"
+ },
+ {
+  "id": "N02-09",
+  "lote": "04",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Cuña parcial: TruffleHog OSS escanea imágenes; valor gestionado/continuo, canal GitHub Marketplace/SEO plausible.",
+  "tema": "escaneo de secretos"
+ },
+ {
+  "id": "N09-09",
+  "lote": "04",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "Mercado saturado (Photoroom, remove.bg, Canva) y modelos abiertos; cuña de precio por plan débil.",
+  "tema": "fotos de producto en lote"
+ },
+ {
+  "id": "N04-17",
+  "lote": "04",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 5
+  },
+  "razon": "Gumroad/Pixieset/Stripe links cubren gran parte; pago bajo.",
+  "tema": "entregas con pago"
+ },
+ {
+  "id": "N01-10",
+  "lote": "04",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Setup puntual, herramientas DMARC gratis; mercado grande pero poca recurrencia.",
+  "tema": "entregabilidad email tienda"
+ },
+ {
+  "id": "N08-04",
+  "lote": "04",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "ChatGPT con prompt y Castmagic/Taplio cubren; sin cuña defendible.",
+  "tema": "reciclaje de contenido"
+ },
+ {
+  "id": "N05-08",
+  "lote": "05",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Canal Marketplace nombrado pero pagadores de Confluence para esta funcion probablemente cerca/bajo 100k; Rovo/Atlassian pueden integrar.",
+  "tema": "doc freshness"
+ },
+ {
+  "id": "N08-08",
+  "lote": "05",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor real de informes mensuales; Looker Studio gratis pero tecnico; AgencyAnalytics/DashThis/Whatagraph saturan; cuña precio debil.",
+  "tema": "informes marketing marca blanca"
+ },
+ {
+  "id": "G25-12",
+  "lote": "05",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Perder renovaciones cuesta dinero y hay presupuesto, pero CLM/hojas de calculo cubren y confiar contratos a un producto de una persona frena la compra.",
+  "tema": "servicios profesionales independientes"
+ },
+ {
+  "id": "N01-19",
+  "lote": "05",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Activity Log nativo y Rewind cubren parte; Shopify puede agregar rollback; canal App Store nombrado.",
+  "tema": "historial y rollback"
+ },
+ {
+  "id": "N08-05",
+  "lote": "05",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Mail-Tester/Postmaster gratis cubren lo basico y ESPs ofrecen monitoreo; urgencia por reglas Gmail/Yahoo; canal vago.",
+  "tema": "entregabilidad email monitor"
+ },
+ {
+  "id": "N01-02",
+  "lote": "05",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "razon": "Dolor real en comunidad Shopify pero uso puntual (baja retencion) y datos de facturacion no disponibles por API.",
+  "tema": "auditoría de apps"
+ },
+ {
+  "id": "G01-11",
+  "lote": "06",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Canal Shopify App Store real pero apps de profit tracking abundantes; bloqueo limitado por Functions; sin cuna explicita.",
+  "tema": "operaciones de tienda online"
+ },
+ {
+  "id": "N02-10",
+  "lote": "06",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Syft/Trivy gratis generan SBOM; cuna es entregable PDF; compra esporadica; mercado sin verificar.",
+  "tema": "sbom y licencias"
+ },
+ {
+  "id": "N06-08",
+  "lote": "06",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Gemini en Sheets y add-ons con BYOK; cuna de cache/estimador copiable.",
+  "tema": "llm en hojas"
+ },
+ {
+  "id": "N04-05",
+  "lote": "07",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Agencias pagan por feedback visual (BugHerd, Markup), pero Figma gratis cubre diseños y precio plano es cuña débil.",
+  "tema": "feedback visual"
+ },
+ {
+  "id": "N06-14",
+  "lote": "07",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor real en equipos con LLM en producción, pero promptfoo OSS y Langfuse/LangSmith cubren evals; cuña de un clic copiable.",
+  "tema": "regresión de prompts"
+ },
+ {
+  "id": "N07-07",
+  "lote": "07",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Mercado enorme pero apps gratuitas/freemium (Migraine Buddy, Bearable) cubren el registro; poca disposición de pago y datos de salud sensibles.",
+  "tema": "diario de síntomas"
+ },
+ {
+  "id": "N09-06",
+  "lote": "07",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Intención de búsqueda alta pero ingreso episódico (mal para MRR), migraciones frágiles dependientes de APIs, Import2/Trujay existen.",
+  "tema": "migración entre saas"
+ },
+ {
+  "id": "N06-05",
+  "lote": "07",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor de costos de agentes de código, pero ccusage OSS y dashboards de proveedores; el rollup de equipo es copiable y puede desaparecer.",
+  "tema": "costo agentes código"
+ },
+ {
+  "id": "G16-03",
+  "lote": "08",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Canal concreto en Shopify App Store y urgencia EAA, pero cuna no explicitada, compra puntual y overlays/escaneres gratis.",
+  "tema": "cumplimiento accesibilidad web"
+ },
+ {
+  "id": "N04-03",
+  "lote": "08",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Cuna de auto-borrador existe pero requiere agente de escritorio para rastreo real; Clockify/Toggl gratis cubren lo basico.",
+  "tema": "horas automáticas"
+ },
+ {
+  "id": "N01-08",
+  "lote": "08",
+  "total": 34,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Monitoreo barato de nexus; alertas nativas parciales y riesgo de percepcion de asesoria fiscal.",
+  "tema": "alertas nexus fiscal"
+ },
+ {
+  "id": "G08-14",
+  "lote": "01",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Monitores de estado de pago existen; cuña no explicitada; dolor moderado.",
+  "tema": "webhooks y estado de apis"
+ },
+ {
+  "id": "N07-01",
+  "lote": "01",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Consumidor masivo pero precio $4, churn alto y OAuth de Gmail costoso.",
+  "tema": "suscripciones personales"
+ },
+ {
+  "id": "N03-20",
+  "lote": "01",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "YouTube ofrece traducción nativa y rivales fuertes; cuña de glosario copiable.",
+  "tema": "traducción creadores"
+ },
+ {
+  "id": "N04-07",
+  "lote": "02",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Looker Studio gratis con plantillas cubre buena parte; resumen narrativo con LLM es copiable; no filtro duro porque AgencyAnalytics cobra.",
+  "tema": "informes de marketing"
+ },
+ {
+  "id": "N01-12",
+  "lote": "02",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Atribución por app es cuña real pero técnicamente incierta y PageSpeed gratis cubre medición; baja disposición de pago.",
+  "tema": "velocidad tienda"
+ },
+ {
+  "id": "N06-18",
+  "lote": "02",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Hueco autoservicio vs enterprise, pero datos sensibles y canal débil; mercado sin verificar.",
+  "tema": "auditoría gasto ia"
+ },
+ {
+  "id": "N02-11",
+  "lote": "03",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Muy competido (Vanta, Loopio, Conveyor, IA); precisión crítica; comprador founder con pocos cuestionarios.",
+  "tema": "cuestionarios seguridad"
+ },
+ {
+  "id": "N03-05",
+  "lote": "04",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Hojas de cálculo/contadores cubren; APIs frágiles; baja disposición de pago y canal vago.",
+  "tema": "ingresos creadores"
+ },
+ {
+  "id": "G23-20",
+  "lote": "04",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 5
+  },
+  "razon": "Sin cuña, herramientas gratis de fondo blanco; uso esporádico; fácil de construir.",
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "N06-04",
+  "lote": "04",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "OpenAI/Anthropic ya ofrecen proyectos con límites; LiteLLM/Helicone; confianza en proxy de claves.",
+  "tema": "topes de gasto llm"
+ },
+ {
+  "id": "N04-06",
+  "lote": "04",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "UptimeRobot gratis y ManageWP/MainWP ya reportan; cuña es plantilla de informe.",
+  "tema": "informes de mantenimiento"
+ },
+ {
+  "id": "N08-12",
+  "lote": "04",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Instantly/Smartlead ya baratos; sin cuña; riesgo de reputación/spam.",
+  "tema": "cold email entregabilidad"
+ },
+ {
+  "id": "G02-17",
+  "lote": "05",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "axe/WAVE gratis cubren deteccion; cuña (grabar flujos y exportar tickets) no explicitada; Chrome Web Store como canal y empuje EAA.",
+  "tema": "cumplimiento accesibilidad web"
+ },
+ {
+  "id": "N02-07",
+  "lote": "05",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "oasdiff gratis cubre el nucleo en CI; Bump.sh/Optic ya ofrecen avisos; cuña de hosting/aviso estrecha.",
+  "tema": "api breaking changes"
+ },
+ {
+  "id": "N06-13",
+  "lote": "05",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Chat BYOK saturado (TypingMind, LibreChat, Open WebUI); $8 por equipo exige >1,250 equipos; confianza con claves API.",
+  "tema": "chat equipo byok"
+ },
+ {
+  "id": "N01-16",
+  "lote": "05",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Dolor de suspension real pero TESS gratis, eRank/Marmalead parciales, reglas cambiantes y riesgo de falsos negativos.",
+  "tema": "cumplimiento de listados"
+ },
+ {
+  "id": "N08-18",
+  "lote": "06",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Surfer/Clearscope/Semrush cubren; bloggers pagan poco; datos de GSC como cuna debil.",
+  "tema": "calendario editorial seo"
+ },
+ {
+  "id": "G13-20",
+  "lote": "07",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Release Drafter y notas autogeneradas de GitHub cubren lo básico; la cuña (página pública y notas para clientes) es débil y copiable; ejecución simple.",
+  "tema": "incidentes y notas de versión"
+ },
+ {
+  "id": "N07-04",
+  "lote": "07",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Mercado grande pero Empower gratis, Ghostfolio OSS y hojas propias; precio $6 exige muchos pagadores; cuña de privacidad modesta.",
+  "tema": "patrimonio neto privado"
+ },
+ {
+  "id": "N07-16",
+  "lote": "07",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Mercado grande pero Garmin Coach/Runna/TrainingPeaks, cuña solo precio, dependencia de APIs Strava/Garmin y ciencia de entrenamiento difícil de ejecutar.",
+  "tema": "plan running adaptativo"
+ },
+ {
+  "id": "N09-02",
+  "lote": "07",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Cal.com OSS/gratis cubre en gran parte reservas de equipo y puede copiar el precio; SEO 'Calendly alternative' saturado.",
+  "tema": "agenda de equipo barata"
+ },
+ {
+  "id": "N02-13",
+  "lote": "08",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "GitHub Copilot y CI nativos absorben; devs esperan gratis; cuna debil.",
+  "tema": "fallos ci"
+ },
+ {
+  "id": "N09-20",
+  "lote": "08",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Cuna difusa; Notion exporta PDF nativo y hay herramientas baratas.",
+  "tema": "notion a clientes"
+ },
+ {
+  "id": "N09-01",
+  "lote": "08",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Mercado enorme pero firma gratis en Adobe/Google/Dropbox, canal 'DocuSign alternative' saturado, validez legal por pais.",
+  "tema": "firma electrónica barata"
+ },
+ {
+  "id": "N02-06",
+  "lote": "08",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "GitHub Releases gratis y changelog tools con planes gratis; cuna copiable.",
+  "tema": "changelog automático"
+ },
+ {
+  "id": "N04-12",
+  "lote": "08",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Facturadores incluyen recordatorios; cuna de integrar cualquier facturador poco clara.",
+  "tema": "cobranza automática"
+ },
+ {
+  "id": "G30-18",
+  "lote": "08",
+  "total": 33,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Bluebeam fuerte, cuna no explicitada, medicion en navegador compleja.",
+  "tema": "lectura de planos y metrados"
+ },
+ {
+  "id": "N04-18",
+  "lote": "01",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "Plan gratis de Testimonial.to y Senja; sin cuña defendible.",
+  "tema": "testimonios clientes"
+ },
+ {
+  "id": "N01-14",
+  "lote": "02",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Shopify Fraud nativo y apps establecidas; 'precio fijo bajo' no es cuña.",
+  "tema": "riesgo de pedidos"
+ },
+ {
+  "id": "N03-06",
+  "lote": "03",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "YouTube Studio y vidIQ/TubeBuddy cubren parte; depende de API de YouTube; creadores esperan gratis.",
+  "tema": "comentarios youtube"
+ },
+ {
+  "id": "N02-05",
+  "lote": "03",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Copilot/IA nativa pueden cubrirlo; mantainers esperan gratis; Swimm/Mintlify cubren parte.",
+  "tema": "docs actualizadas"
+ },
+ {
+  "id": "N03-15",
+  "lote": "04",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 5
+  },
+  "razon": "Stripe/Invoice Ninja recordatorios gratis; uso episódico, $12 y mercado acotado.",
+  "tema": "cobro de patrocinios"
+ },
+ {
+  "id": "N05-18",
+  "lote": "05",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Release Notes for Jira existe, Rovo/LLM generan notas; mercado de Jira Marketplace acotado; cuña copiable.",
+  "tema": "release notes automation"
+ },
+ {
+  "id": "G21-13",
+  "lote": "05",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Nicho de ingenieros de calidad, mercado cerca del umbral de 100k; Minitab de pago existe pero hay plantillas gratis; cuña no explicitada.",
+  "tema": "calidad y soldadura"
+ },
+ {
+  "id": "N01-18",
+  "lote": "06",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Categoria GEO naciente y llena (Otterly, Peec); demanda incierta; mercado sin verificar.",
+  "tema": "visibilidad en ia"
+ },
+ {
+  "id": "N05-17",
+  "lote": "08",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Valor percibido bajo, disposicion de pago minima, calculadoras gratis.",
+  "tema": "meeting cost"
+ },
+ {
+  "id": "N06-02",
+  "lote": "08",
+  "total": 32,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Proveedores de IA anadiran prompts compartidos nativos; extension fragil.",
+  "tema": "biblioteca prompts equipo"
+ },
+ {
+  "id": "G23-04",
+  "lote": "01",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Sellerboard cubre el caso; sin cuña; 4 integraciones de marketplace.",
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "N09-16",
+  "lote": "02",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Infra de video con asistentes ilimitados a precio plano destruye margen; cuña copiable; incumbentes establecidos.",
+  "tema": "webinars precio fijo"
+ },
+ {
+  "id": "N05-03",
+  "lote": "02",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Dolor de baja urgencia y uso puntual (churn tras limpieza); Atlassian puede cubrir.",
+  "tema": "jira backlog cleanup"
+ },
+ {
+  "id": "N07-13",
+  "lote": "02",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Motion/Reclaim/Sunsama cubren; cuña de precio erosionable; churn alto.",
+  "tema": "time-blocking automático"
+ },
+ {
+  "id": "G20-13",
+  "lote": "03",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Guías de cumplimiento: compra puntual vs suscripción, riesgo legal, contenido estático copiable; cuña no explicitada.",
+  "tema": "cumplimiento de producto y sostenibilidad"
+ },
+ {
+  "id": "G27-08",
+  "lote": "03",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Proveedores envían avisos propios y hay watchers gratis; mantener ~500 APIs es carga operativa; cuña no explicitada.",
+  "tema": "cambios de apis y librerías"
+ },
+ {
+  "id": "N05-12",
+  "lote": "03",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Función fácil de copiar con Workflow Builder; poca disposición de pago; canal Slack Directory existe.",
+  "tema": "slack follow-ups"
+ },
+ {
+  "id": "N03-02",
+  "lote": "04",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "ChatGPT con prompt hace lo mismo; cuña copiable; mercado de podcasters con newsletter que pagan es medio.",
+  "tema": "podcast a newsletter"
+ },
+ {
+  "id": "N04-11",
+  "lote": "05",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Scope creep es dolor real pero freelancer paga poco, retencion baja y un LLM/Bonsai lo cubre; canal Reddit sin intencion de compra.",
+  "tema": "scope creep"
+ },
+ {
+  "id": "G26-07",
+  "lote": "05",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Mercado saturado (Dubsado, HoneyBook, Notion), sin cuña, canal SEO competido.",
+  "tema": "servicios profesionales independientes"
+ },
+ {
+  "id": "N07-08",
+  "lote": "06",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Apple/Garmin/Oura dan insights; 6 USD consumidor; riesgo nativo.",
+  "tema": "panel de wearables"
+ },
+ {
+  "id": "N09-08",
+  "lote": "06",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Mercado enorme pero muchos editores gratis (PDFgear, Preview); OCR/edicion en WASM dificil; sin cuna defendible.",
+  "tema": "pdf privado local"
+ },
+ {
+  "id": "G17-17",
+  "lote": "06",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Stripe Radar nativo y Chargeflow; segmento de bienes digitales pequeno; falsos positivos.",
+  "tema": "operaciones de tienda online"
+ },
+ {
+  "id": "N05-02",
+  "lote": "07",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Copilot en Teams cubre resumen y acciones; Otter/Fireflies ya enrutan; comprador sin presupuesto propio; sin cuña clara.",
+  "tema": "teams actions"
+ },
+ {
+  "id": "N01-13",
+  "lote": "07",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Gmail/Outlook con IA nativa y Gorgias/Help Scout cubren el espacio; integrar datos de pedido por tienda es costoso; canal débil.",
+  "tema": "soporte por correo"
+ },
+ {
+  "id": "G06-05",
+  "lote": "08",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Sin cuna ni competidores; saturado de plugins WooCommerce.",
+  "tema": "cotización y costeo de taller"
+ },
+ {
+  "id": "N04-19",
+  "lote": "08",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "razon": "Planes gratis de Formspree/Basin; segmento white-label chico.",
+  "tema": "formularios multicliente"
+ },
+ {
+  "id": "N04-14",
+  "lote": "08",
+  "total": 31,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Calculadoras gratis, retencion baja, Bonsai/Harvest incluyen reportes.",
+  "tema": "rentabilidad freelance"
+ },
+ {
+  "id": "N09-11",
+  "lote": "02",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Clon de Bonsai/PandaDoc sin cuña distintiva.",
+  "tema": "propuestas con firma"
+ },
+ {
+  "id": "N06-11",
+  "lote": "02",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "LLM con prompt y Grammarly/Writer cubren; cuña copiable; churn alto.",
+  "tema": "voz de marca ia"
+ },
+ {
+  "id": "N06-15",
+  "lote": "02",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor esporádico; plataformas de evals y comparadores gratis cubren; costo de tokens.",
+  "tema": "migración de modelos"
+ },
+ {
+  "id": "G06-13",
+  "lote": "02",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "Sin cuña; plugins IA y LLM generales cubren a bajo costo.",
+  "tema": "marketing digital y seo"
+ },
+ {
+  "id": "N08-19",
+  "lote": "03",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Plugins WordPress gratis/baratos; reporte unificado depende de APIs cerradas; creadores pequeños pagan poco.",
+  "tema": "enlaces afiliado creadores"
+ },
+ {
+  "id": "G29-05",
+  "lote": "04",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "MacWhisper/Whisper/nativo del SO; contradicción entre $79/mes y pago único.",
+  "tema": "apps locales offline"
+ },
+ {
+  "id": "N03-09",
+  "lote": "04",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "razon": "Dolor real pero mercado acotado, resultados de takedown inciertos y riesgo legal.",
+  "tema": "piratería de cursos"
+ },
+ {
+  "id": "N03-16",
+  "lote": "05",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Disposicion de pago dudosa admitida; Ahrefs/Surfer/Clearscope cubren refresh; deteccion factual poco fiable.",
+  "tema": "refresco evergreen"
+ },
+ {
+  "id": "G10-16",
+  "lote": "05",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "Coefficient domina y exportes nativos; sin cuña explicitada; nicho de sales ops en AppExchange acotado.",
+  "tema": "apps crm hubspot/salesforce"
+ },
+ {
+  "id": "N10-10",
+  "lote": "05",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Clon BYOK a $5 (≈2,000 pagadores para $10k) frente a OSS gratis; clave API a terceros genera desconfianza.",
+  "tema": "chat ia equipos byok"
+ },
+ {
+  "id": "G09-10",
+  "lote": "05",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Readme/Redocly/Stoplight y OSS/GitHub Pages; sin cuña explicitada.",
+  "tema": "desarrollo y mocks de apis"
+ },
+ {
+  "id": "N08-11",
+  "lote": "05",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "F5Bot gratis, Brand24/Mention establecidos, API Reddit restringida; cuña de resumen IA copiable.",
+  "tema": "monitoreo de menciones"
+ },
+ {
+  "id": "N03-12",
+  "lote": "06",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Creadores pagan poco, Gmail/Superhuman cubren, OAuth restringido costoso; cuna copiable.",
+  "tema": "bandeja creadores"
+ },
+ {
+  "id": "N05-14",
+  "lote": "06",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Copilot/Viva nativos; permisos Graph con admin; AppSource con poca demanda de busqueda.",
+  "tema": "teams digest"
+ },
+ {
+  "id": "N04-09",
+  "lote": "07",
+  "total": 30,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "CRM para freelancers sin cuña real frente a HoneyBook/Bonsai/Notion; canal SEO dominado por incumbentes.",
+  "tema": "crm para freelancers"
+ },
+ {
+  "id": "N08-06",
+  "lote": "01",
+  "total": 29,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Clon de analítica CAC/LTV sin cuña; integrar Meta/Google Ads es pesado.",
+  "tema": "cac ltv analítica"
+ },
+ {
+  "id": "N02-15",
+  "lote": "02",
+  "total": 29,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Mercado maduro con planes gratis; cuña débil; infra multi-región.",
+  "tema": "monitoreo api"
+ },
+ {
+  "id": "N05-09",
+  "lote": "05",
+  "total": 29,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "Integracion nativa Slack-Notion y Workflow Builder gratis cubren lo basico; doble dependencia de plataformas; cuña casi nula.",
+  "tema": "slack knowledge capture"
+ },
+ {
+  "id": "G03-19",
+  "lote": "05",
+  "total": 29,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Moveworks/Freshservice/Copilot cubren; helpdesk empresarial exige SSO y seguridad, empuja a ventas; sin cuña.",
+  "tema": "productividad en slack/teams"
+ },
+ {
+  "id": "N06-12",
+  "lote": "06",
+  "total": 29,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Memoria nativa y archivo de texto como sustituto gratis; baja disposicion de pago.",
+  "tema": "memoria portátil llm"
+ },
+ {
+  "id": "N06-10",
+  "lote": "01",
+  "total": 28,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Incumbentes con MCP hospedado y riesgo de integración nativa; comprador no técnico escaso.",
+  "tema": "conectores mcp"
+ },
+ {
+  "id": "N04-15",
+  "lote": "01",
+  "total": 28,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Dolor ocasional, cuña difusa, hoja de cálculo es el rival.",
+  "tema": "estimaciones proyecto"
+ },
+ {
+  "id": "N08-16",
+  "lote": "02",
+  "total": 28,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "razon": "Mercado saturado, precio plano no es cuña defendible.",
+  "tema": "landing pages anuncios"
+ },
+ {
+  "id": "N04-08",
+  "lote": "03",
+  "total": 28,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "razon": "Xbench/Verifika baratos y QA incluido en CAT tools; cuña de web sin instalación débil; pagadores limitados.",
+  "tema": "control de calidad traducciones"
+ },
+ {
+  "id": "G14-11",
+  "lote": "03",
+  "total": 28,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Competidores financiados (E2B, Modal); cuña no explicitada; pagadores aún limitados.",
+  "tema": "seguridad y permisos de agentes ia"
+ },
+ {
+  "id": "G23-10",
+  "lote": "04",
+  "total": 28,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Amazon restringe automatización y respuestas; canal vago; sin cuña.",
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "N08-14",
+  "lote": "01",
+  "total": 27,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Alternativas A/B abundantes; sin cuña; pocos sitios con tráfico suficiente.",
+  "tema": "a/b testing edge"
+ },
+ {
+  "id": "N03-19",
+  "lote": "02",
+  "total": 27,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "razon": "Función que Descript y plataformas incorporan; costo de procesamiento.",
+  "tema": "archivo de clips"
+ },
+ {
+  "id": "N03-08",
+  "lote": "03",
+  "total": 27,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "razon": "Pocos podcasters pagan por tracking; datos de Apple/Spotify frágiles; Podchaser/Rephonic existen; hueco sin verificar.",
+  "tema": "ranking podcasts"
+ },
+ {
+  "id": "G14-02",
+  "lote": "07",
+  "total": 26,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Mercado joven y pequeño, competidores financiados, proveedores LLM integran MCP remoto; cuña no explicitada y barrera de confianza con credenciales.",
+  "tema": "servidores mcp"
+ },
+ {
+  "id": "N03-14",
+  "lote": "03",
+  "total": 25,
+  "filtro": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "razon": "Efecto de red con cold start; SparkLoop y beehiiv Boosts ya existen; canal depende de terceros.",
+  "tema": "referidos newsletters"
+ },
+ {
+  "id": "N10-06",
+  "lote": "01",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Stirling-PDF y PDFgear gratis y locales cubren la cuña de cero subida.",
+  "tema": "pdf privado en navegador"
+ },
+ {
+  "id": "N08-10",
+  "lote": "01",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Imágenes OG gratis vía frameworks (@vercel/og) y Canva.",
+  "tema": "imágenes og api"
+ },
+ {
+  "id": "N08-03",
+  "lote": "01",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Ahrefs Webmaster Tools gratis cubre backlinks perdidos de sitios propios.",
+  "tema": "backlinks perdidos alerta"
+ },
+ {
+  "id": "N06-09",
+  "lote": "01",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Exportación nativa y extensiones gratis cubren la mayor parte; cuña de plantillas es nicho.",
+  "tema": "chat a word"
+ },
+ {
+  "id": "G13-17",
+  "lote": "01",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Copilot/GitHub y cualquier LLM gratis explican logs; sin cuña.",
+  "tema": "ci/cd y github actions"
+ },
+ {
+  "id": "N05-07",
+  "lote": "01",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Microsoft Approvals incluida en Teams cubre la cuña.",
+  "tema": "teams approvals"
+ },
+ {
+  "id": "N07-12",
+  "lote": "01",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Granola y Fathom ya son sin bot y con planes gratis; cuña cubierta.",
+  "tema": "notas sin bot"
+ },
+ {
+  "id": "N07-17",
+  "lote": "02",
+  "total": 0,
+  "filtro": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "F5: $4/mes exige miles de pagadores; BGG y apps gratis cubren la cuña (F1).",
+  "tema": "hobby juegos de mesa"
+ },
+ {
+  "id": "N05-13",
+  "lote": "02",
+  "total": 0,
+  "filtro": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "F5: $3/mes en marketplace saturado exige >3,300 pagadores.",
+  "tema": "jira time tracking"
+ },
+ {
+  "id": "N07-20",
+  "lote": "02",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "F1: StoryGraph/Goodreads gratis cubren la cuña; $4/mes (F5).",
+  "tema": "tracker de lectura"
+ },
+ {
+  "id": "N04-10",
+  "lote": "02",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "F1: plantillas gratis de contratos y Bonsai gratis suficientes para la cuña; uso puntual.",
+  "tema": "contratos freelance"
+ },
+ {
+  "id": "N04-02",
+  "lote": "02",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "F1: Wave e Invoice Ninja gratis cubren facturación; cuña fiscal es riesgo de responsabilidad; $9.",
+  "tema": "facturas transfronterizas"
+ },
+ {
+  "id": "N01-11",
+  "lote": "02",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "F1: Shopify Magic gratis y Photoroom cubren la cuña de fotos por lote.",
+  "tema": "fotos de producto por lote"
+ },
+ {
+  "id": "N04-13",
+  "lote": "03",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "ChatGPT gratis redacta propuestas igual de bien; cuña de tasa de respuesta depende de datos que Upwork no expone.",
+  "tema": "propuestas en upwork"
+ },
+ {
+  "id": "N03-13",
+  "lote": "03",
+  "total": 0,
+  "filtro": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Creadores con catálogo grande: la propia idea estima decenas de miles a cientos de miles, sin verificar; probable <100k pagadores.",
+  "tema": "chat del catálogo"
+ },
+ {
+  "id": "N09-12",
+  "lote": "03",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Google Forms y Tally gratis cubren la cuña de respuestas ilimitadas; la idea lo admite.",
+  "tema": "encuestas ilimitadas con ia"
+ },
+ {
+  "id": "N03-17",
+  "lote": "03",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Canva y Beacons gratis cubren media kits; cuña de métricas verificadas es débil.",
+  "tema": "media kit vivo"
+ },
+ {
+  "id": "N05-01",
+  "lote": "03",
+  "total": 0,
+  "filtro": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Organizaciones Slack de pago declaradas como decenas de miles (sin verificar); Slack puede hacerlo nativo.",
+  "tema": "slack lifecycle"
+ },
+ {
+  "id": "N03-11",
+  "lote": "03",
+  "total": 0,
+  "filtro": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "La idea admite mercado de decenas de miles a cientos de miles; Supercast/Memberful/Patreon ya sirven.",
+  "tema": "podcast privado"
+ },
+ {
+  "id": "N09-07",
+  "lote": "03",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "HubSpot Free cubre la necesidad de freelancers; cuña de setup rápido no defendible.",
+  "tema": "crm mínimo freelancer"
+ },
+ {
+  "id": "G19-14",
+  "lote": "03",
+  "total": 0,
+  "filtro": "F4",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Comprador industrial de plantas exige ventas/outbound (LinkedIn); sin canal de autoservicio nombrado y CMMS ya incluyen inventario.",
+  "tema": "mantenimiento y seguridad industrial"
+ },
+ {
+  "id": "N06-17",
+  "lote": "04",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Repomix/gitingest OSS gratis cubren la cuña; F1.",
+  "tema": "contexto para llm"
+ },
+ {
+  "id": "N08-17",
+  "lote": "04",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Judge.me y widgets de reseñas gratis cubren la cuña; importación G2/Trustpilot limitada por ToS; F1.",
+  "tema": "prueba social widget"
+ },
+ {
+  "id": "N09-15",
+  "lote": "04",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Tally gratis con pagos Stripe cubre la cuña; F1.",
+  "tema": "formularios con cobro"
+ },
+ {
+  "id": "N08-09",
+  "lote": "05",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Microsoft Clarity es gratis y suficientemente bueno; la cuña de privacidad no justifica pago de la mayoria.",
+  "tema": "heatmaps privacidad"
+ },
+ {
+  "id": "N09-19",
+  "lote": "05",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Canva tiene capa gratis suficiente y $9 exige volumen enorme; editor grande para MVP.",
+  "tema": "diseño social barato"
+ },
+ {
+  "id": "G21-09",
+  "lote": "05",
+  "total": 0,
+  "filtro": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Nicho de ingenieros HVAC con muchas calculadoras gratis; compradores de pago probablemente <100k.",
+  "tema": "calculadoras de ingeniería"
+ },
+ {
+  "id": "G27-14",
+  "lote": "06",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Anuncios de politicas y tarifas son gratis en blogs, emails y foros; monitor copiable y sin cuna.",
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "N07-14",
+  "lote": "06",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Raindrop gratis es suficiente; ventana Pocket pasada; a 5 USD exige volumen irreal.",
+  "tema": "marcadores con búsqueda ia"
+ },
+ {
+  "id": "N07-15",
+  "lote": "06",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Bitwarden y Apple Passwords gratis cubren a familias; 4 USD/mes y riesgo de seguridad.",
+  "tema": "contraseñas familiares"
+ },
+ {
+  "id": "N07-03",
+  "lote": "06",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Calculadoras de deuda gratis cubren el caso; 4 USD/mes exige volumen irreal.",
+  "tema": "planificador de deudas"
+ },
+ {
+  "id": "N10-17",
+  "lote": "06",
+  "total": 0,
+  "filtro": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Precio realista de read-later 3-8 USD exige volumen irreal; Raindrop gratis/barato.",
+  "tema": "leer-luego local-first"
+ },
+ {
+  "id": "N07-18",
+  "lote": "06",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Collectr y apps de coleccionistas gratis; datos de precios con licencias.",
+  "tema": "valor de colecciones"
+ },
+ {
+  "id": "N06-16",
+  "lote": "06",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Un prompt/custom GPT y Fathom gratis cubren la cuna de plantillas.",
+  "tema": "reunión a propuesta"
+ },
+ {
+  "id": "N05-16",
+  "lote": "07",
+  "total": 0,
+  "filtro": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Pagadores reales (Slack sin Enterprise Grid con necesidad de retención) casi seguro <100k y limitados por la API de Slack; roza F3 por compliance.",
+  "tema": "slack compliance export"
+ },
+ {
+  "id": "N03-03",
+  "lote": "07",
+  "total": 0,
+  "filtro": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Newsletters con anuncios directos son decenas de miles según la propia idea; bajo 100k compradores.",
+  "tema": "reporte patrocinio newsletter"
+ },
+ {
+  "id": "N10-12",
+  "lote": "07",
+  "total": 0,
+  "filtro": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Desarrolladores indie que venden licencias perpetuas son muy probablemente <100k; Keygen/Paddle/Lemon Squeezy cubren.",
+  "tema": "licencias perpetuas desarrolladores"
+ },
+ {
+  "id": "N04-16",
+  "lote": "07",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Cal.com (OSS gratis) y Calendly gratis con Stripe cubren reservas con pago anticipado; la cuña no supera el incumbente gratis.",
+  "tema": "reservas con pago"
+ },
+ {
+  "id": "N07-19",
+  "lote": "08",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Precio $5 con B2C caro (F5) y apps gratis cubren la cuna: falla F1/F5.",
+  "tema": "meal planner económico"
+ },
+ {
+  "id": "N09-17",
+  "lote": "08",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "ChatGPT/Claude gratis cubren la cuna y riesgo legal: falla F1.",
+  "tema": "revisión de contratos ia"
+ },
+ {
+  "id": "N07-10",
+  "lote": "08",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Quizlet/Knowt/Anki gratis y $6 exige volumen irreal: falla F1/F5.",
+  "tema": "flashcards con ia"
+ },
+ {
+  "id": "N09-04",
+  "lote": "08",
+  "total": 0,
+  "filtro": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "razon": "Crisp/Tidio con planes gratis y IA integrada cubren la cuna: falla F1.",
+  "tema": "chat de leads barato"
+ }
+]

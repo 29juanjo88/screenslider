@@ -1,0 +1,223 @@
+[
+ {
+  "id": "N10-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Granola, MacWhisper y el resumen nativo de Apple/Microsoft ya cubren notas locales o sin bot; la cuña 'local' es copiable y las funciones nativas del SO tienden a gratis. Además, app de escritorio multiplataforma con Whisper local es pesada para una persona. Competidores de pago con precio similar (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Release Drafter es gratis y GitHub tiene notas de versión autogeneradas; la cuña no está explicitada y reescribir PRs con LLM es trivial de copiar. Comprador (PM) rara vez es quien instala la app de GitHub.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Figma comments es gratis y Markup.io/BugHerd/Pastel ya cubren feedback sobre sitios; precio plano sin límite de revisores es una cuña débil y copiable. Comprador agencia sí existe y SEO 'website feedback tool' es competido.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-09",
+  "filtros_fallados": [],
+  "objecion": "Mercado enorme pero saturado y con presupuestos grandes (Duolingo, Speak); la cuña 'repaso de tus errores' es una función copiable en semanas. Costo de voz en tiempo real por usuario con $8/mes puede comprimir el margen (sin verificar). Canal SEO/Reddit débil frente a ads de incumbentes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-16",
+  "filtros_fallados": [],
+  "objecion": "Cuña razonable (vive en el repo) pero mercado de pagadores real posiblemente cercano a 100k (sin verificar) y herramientas OSS (Inframap, Terraform graph) cubren parte; el equipo suele aceptar diagramas gratis. Disposición de pago incierta.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N04-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Notion y hojas de cálculo gratis, más HoneyBook/Bonsai/Dubsado establecidos; 'plantillas por oficio' es cuña copiable y canal SEO 'CRM for freelancers' dominado por incumbentes. Freelancers pagan poco y rotan.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-16",
+  "filtros_fallados": [
+   "F6",
+   "F3"
+  ],
+  "objecion": "Pagadores reales (empresas reguladas medianas en Slack sin Enterprise Grid) probablemente muy < 100k (sin verificar); exportar mensajes depende de planes/API de Slack que lo limitan, y compliance/legal exige confianza y a menudo ventas. Cuña de 'autoservicio' no resuelve el límite de API.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "promptfoo es OSS gratis y los proveedores (y Langfuse/LangSmith con capas gratuitas) cubren evals; la cuña 'un clic' es copiable. Mercado de devs con LLM en prod de >300k es estimación sin verificar y quienes pagan son equipos que ya tienen evals.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "axe, Pa11y y Lighthouse gratis cubren detección en CI; la cuña (reportes de cumplimiento) es valiosa pero copiable por axe/Deque. Dependencia de EAA sin verificar. Mercado grande y comprador agencia identificable; demanda regulatoria real.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N07-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Empower es gratis y Ghostfolio es OSS; hojas de cálculo propias también. Quien no quiere ceder credenciales suele usar hoja gratuita. Precio $6 exige >1,600 pagadores para $10k. Cuña de privacidad es copiable (Kubera, Monarch).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Copilot en Teams cubre resumen y acciones, incluido en licencias de Microsoft; Otter/Fireflies ya enrutan a Jira/Notion. Canal AppSource es lento y una sola plataforma. El comprador (líder de equipo) no tiene presupuesto propio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-03",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Newsletters con anuncios directos son decenas de miles (según la propia idea, sin verificar), bajo 100k; los ESP lo incorporan nativamente y Google Sheets es un sustituto gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N01-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Gmail/Outlook con IA nativa gratis (Gemini, Copilot) ya redactan respuestas; Gorgias y Help Scout con IA cubren la categoría. Cuña 'sin mesa de ayuda' compite con herramientas que el comprador ya usa. Add-on Chrome/Shopify exige integrar datos de pedido por tienda.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-19",
+  "filtros_fallados": [],
+  "objecion": "Cuña existe (un comando, plan plano), pero requiere custodiar o tocar datos de producción con PII, barrera de confianza alta para un solo fundador; pg_anonymizer OSS y Neon branching cubren parte. Pagadores reales probablemente < algunos cientos de miles (sin verificar). Estado de Snaplet sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N08-07",
+  "filtros_fallados": [],
+  "objecion": "Atribución con anuncios es dolor real y hay precio dispuesto, pero el mercado está saturado (Triple Whale, Northbeam) y Shopify/Meta pueden mejorar nativamente; precisión de atribución sin cookies es difícil de demostrar y la cuña de precio es copiable. Dependencia total de Shopify App Store.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N07-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Garmin Coach, Strava y apps gratuitas dan planes; Runna y TrainingPeaks establecidos con marca fuerte; cuña 'más barato' es débil. Dependencia de APIs de Strava/Garmin que han restringido acceso (sin verificar). Canal Reddit prohíbe autopromoción.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Migraine Buddy, Bearable y Symple son gratuitos o freemium y cubren el registro; PDF para médico es copiable. Disposición de pago baja a $6 (>1,600 pagadores para $10k) y datos de salud elevan riesgo legal. Canal Reddit restringido.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Redirects nativos de Shopify son gratis y hay apps de redirect existentes (sin verificar); automatizar el destino sugerido es cuña pequeña y copiable. Aplicar redirecciones automáticas arriesga errores SEO. Precio $15 bajo para un problema ocasional.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "WAVE y Lighthouse son gratis y la categoría tiene Siteimprove/Deque; informe con marca es cuña mínima y copiable. Cliente agencia pequeña pagaría poco; SEO 'accessibility audit report' competido.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-02",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Smithery y Composio financiados (sin verificar) y los proveedores de LLM integran MCP remoto; cuña no explicitada. Canal 'directorios MCP' y r/mcp es vago y el mercado es joven e inestable. Confiar credenciales OAuth a un gateway de una persona es barrera.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-06",
+  "filtros_fallados": [
+   "F2"
+  ],
+  "objecion": "Ingreso episódico por proyecto, no recurrente: el comprador usa la herramienta una vez y cancela, lo que impide llegar a MRR de $10k sin captación constante. Import2/Trujay ya existen; migrar automatizaciones entre ESPs es técnicamente frágil y depende de APIs.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-12",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Devs indie que venden licencias perpetuas son probablemente < 100k (la propia idea lo admite, sin verificar); Keygen, Paddle y Lemon Squeezy cubren licencias y los MoR las añaden. Mercado de pagadores chico.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "ccusage es OSS y los proveedores (Anthropic, Cursor) publican dashboards de equipo y costos; la cuña de rollup multi-herramienta es copiable y desaparece cuando el proveedor la lanza. Instalar un agente CLI en máquinas de devs exige confianza. Estimación de 300k equipos sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cal.com es gratis y OSS, Calendly tiene plan gratis y Stripe cubre cobro; 'pago + intake a precio fijo' ya existe en Acuity y similares. Cuña débil y SEO 'booking page with payments' saturado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-19",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Mercado muy saturado (Chatbase, CustomGPT, Botpress) y los chatbots de documentos se están commoditizando; BYOK y tope de gasto son copiables en días. Canal SEO 'add AI chatbot to website' disputado por incumbentes con presupuestos de ads.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-10",
+  "filtros_fallados": [],
+  "objecion": "Incumbentes financiados (Vanta, Loopio, SafeBase) con ventas; cuña no explicitada. Precio $199 compensa el volumen, pero los primeros 100 clientes solo por SEO 'security questionnaire automation' es dudoso y el comprador exige confianza con datos de seguridad. Riesgo de que los compradores usen LLM generales con sus propios documentos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Healthchecks.io tiene plan gratis y es OSS, Sentry Crons e integraciones de Better Stack existentes; la cuña de integraciones por framework es copiable. Precio muy barato exige muchos pagadores. Canal Laravel News y paquetes npm/composer es nombrado y concreto, lo que lo salva de F4.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cal.com es OSS con capa gratuita para equipos y SavvyCal compite en precio; la cuña 'por equipo, no por asiento' la puede copiar Cal.com con un cambio de precios. SEO 'Calendly alternative' está saturado por incumbentes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-11",
+  "filtros_fallados": [],
+  "objecion": "Cuña de 'adaptativo y actualizado' es copiable por Tutorials Dojo y Udemy; la curación de contenido original es costosa para una persona y el riesgo de copyright/dumps es real. Compradores pagan en picos (usan 1-2 meses, alta rotación). El canal SEO '<cert> practice exam' es competido pero la intención de compra es alta.",
+  "severidad": "moderada"
+ }
+]

@@ -1,0 +1,422 @@
+[
+ {
+  "id": "G27-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Anuncios de politicas y tarifas son gratis en blogs, emails y foros; monitor copiable y sin cuna."
+ },
+ {
+  "id": "N09-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 40,
+  "razon": "Backup de CRM: presupuesto existente (Own, Spanning), AppExchange/HubSpot marketplace; export nativo manual; restauracion compleja; mercado 250-700k sin verificar."
+ },
+ {
+  "id": "N03-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "razon": "Creadores pagan poco, Gmail/Superhuman cubren, OAuth restringido costoso; cuna copiable."
+ },
+ {
+  "id": "G01-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Canal Shopify App Store real pero apps de profit tracking abundantes; bloqueo limitado por Functions; sin cuna explicita."
+ },
+ {
+  "id": "N05-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 35,
+  "razon": "Coupler, Zapier y Make cubren; precio plano copiable; API de Notion limitada."
+ },
+ {
+  "id": "N06-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 35,
+  "razon": "Extensiones gratis y busqueda nativa; 8 USD con baja disposicion de pago; Chrome Web Store como canal y riesgo."
+ },
+ {
+  "id": "N07-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Raindrop gratis es suficiente; ventana Pocket pasada; a 5 USD exige volumen irreal."
+ },
+ {
+  "id": "G23-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 35,
+  "razon": "eRank y Marmalead ya pagados por vendedores; sin cuna; mercado grande."
+ },
+ {
+  "id": "N02-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Syft/Trivy gratis generan SBOM; cuna es entregable PDF; compra esporadica; mercado sin verificar."
+ },
+ {
+  "id": "N06-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 29,
+  "razon": "Memoria nativa y archivo de texto como sustituto gratis; baja disposicion de pago."
+ },
+ {
+  "id": "N02-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 38,
+  "razon": "Equipos ya pagan Percy/Chromatic por snapshot; plan plano y capa de aprobacion en PR con difusion via comentarios; nativo gratis cubre lo basico; mercado 250-700k sin verificar."
+ },
+ {
+  "id": "N02-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 36,
+  "razon": "Paginas de estado gratis y IsDown/StatusGator; autodeteccion desde repo es cuna moderada; SEO dominado."
+ },
+ {
+  "id": "N01-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Canal Shopify App Store claro; Sellbrite/Codisto y apps existentes; subconjunto de vendedores Etsy con Shopify; riesgo API Etsy."
+ },
+ {
+  "id": "N07-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Bitwarden y Apple Passwords gratis cubren a familias; 4 USD/mes y riesgo de seguridad."
+ },
+ {
+  "id": "N07-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Calculadoras de deuda gratis cubren el caso; 4 USD/mes exige volumen irreal."
+ },
+ {
+  "id": "N05-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "razon": "Copilot/Viva nativos; permisos Graph con admin; AppSource con poca demanda de busqueda."
+ },
+ {
+  "id": "N10-17",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Precio realista de read-later 3-8 USD exige volumen irreal; Raindrop gratis/barato."
+ },
+ {
+  "id": "N05-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 36,
+  "razon": "Geekbot/Standuply/Range y Slack nativo; precio plano por workspace es cuna menor; mercado saturado."
+ },
+ {
+  "id": "N06-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 34,
+  "razon": "Gemini en Sheets y add-ons con BYOK; cuna de cache/estimador copiable."
+ },
+ {
+  "id": "N01-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "razon": "Precio plano vs Prisync/Price2Spy; pagan por algo caro; apps baratas en Shopify (sin verificar); scraping fragil."
+ },
+ {
+  "id": "N01-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 32,
+  "razon": "Categoria GEO naciente y llena (Otterly, Peec); demanda incierta; mercado sin verificar."
+ },
+ {
+  "id": "N08-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Analisis por plantilla es cuna razonable; Screaming Frog/Ahrefs cubren parte; compradores reales posiblemente cerca de 100k; limites de GSC API."
+ },
+ {
+  "id": "N07-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 31,
+  "razon": "Apple/Garmin/Oura dan insights; 6 USD consumidor; riesgo nativo."
+ },
+ {
+  "id": "N05-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "razon": "Similar al ancla Notion backup (38) con cuna de diff y restauracion por pagina; Notion puede ampliar historial."
+ },
+ {
+  "id": "N01-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Dolor monetario real; auditores por comision son atractivos; datos de carriers variables; mercado de tiendas con volumen sin verificar."
+ },
+ {
+  "id": "N09-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 31,
+  "razon": "Mercado enorme pero muchos editores gratis (PDFgear, Preview); OCR/edicion en WASM dificil; sin cuna defendible."
+ },
+ {
+  "id": "N07-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Collectr y apps de coleccionistas gratis; datos de precios con licencias."
+ },
+ {
+  "id": "N08-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "Surfer/Clearscope/Semrush cubren; bloggers pagan poco; datos de GSC como cuna debil."
+ },
+ {
+  "id": "G17-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 31,
+  "razon": "Stripe Radar nativo y Chargeflow; segmento de bienes digitales pequeno; falsos positivos."
+ },
+ {
+  "id": "N06-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Un prompt/custom GPT y Fathom gratis cubren la cuna de plantillas."
+ }
+]

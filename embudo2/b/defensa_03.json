@@ -1,0 +1,182 @@
+[
+ {
+  "id": "N03-18",
+  "rescatar": true,
+  "respuesta": "Concedo que Stripe tiene evidencia nativa y que ganar disputas esta sin verificar. Pero el comprador es concreto (creador/vendedor de infoproductos en Stripe), el dolor es recurrente (perder disputa = perder monto + fee) y la cuña de prueba de acceso (logs de login/descarga/consumo) es algo que Stripe no genera por si solo. Canal nombrado: Stripe App Marketplace y SEO 'digital product chargeback'. El precio $29 es razonable frente a la perdida por disputa; 350 clientes dan ~$10k.",
+  "ajuste_sugerido": "Ofrecer integracion con plataformas de cursos/membresias para capturar la evidencia automaticamente; considerar tarifa base baja mas opcion de comision por disputa ganada; verificar tamano de mercado."
+ },
+ {
+  "id": "N04-08",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-07",
+  "rescatar": true,
+  "respuesta": "Concedo churn y precio sensible en vendedores chicos y dependencia de Etsy. Defiendo: calculo exacto de utilidad real (tarifas, ads, envio) es dolor monetario concreto, la importacion CSV evita depender de la API, y hay canal de intencion (SEO 'Etsy profit calculator', r/EtsySellers, YouTube). Mercado de vendedores activos es grande. Hojas de calculo gratis existen pero cuesta mantenerlas.",
+  "ajuste_sugerido": "Basar el MVP en CSV (sin API), con plantillas SEO gratuitas como gancho y suscripcion anual con descuento para reducir churn."
+ },
+ {
+  "id": "N02-01",
+  "rescatar": true,
+  "respuesta": "Concedo competidores (BuildPulse, Trunk) y riesgo de GitHub nativo. Defiendo: dolor semanal y medible (CI roto, tiempo perdido), compradores tecnicos que Juan conoce, canal nombrado (GitHub Marketplace, HN, SEO 'fix flaky tests Jest/Playwright') y mercado de orgs con CI claramente >100k. Precio fijo por org es cuña real frente a esquemas enterprise; MVP viable en 6 semanas para un backend senior.",
+  "ajuste_sugerido": "Empezar con Jest/Playwright en GitHub Actions, plan fijo por org, y contenido SEO por framework; validar el precio de competidores."
+ },
+ {
+  "id": "N08-19",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-08",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-11",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-11",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-15",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-11",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-07",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-03",
+  "rescatar": true,
+  "respuesta": "Concedo que empresas con politica estricta compran DLP central y que Chrome/OpenAI pueden integrarlo. Pero el mercado es enorme (profesionales que usan chatbots con datos sensibles, muchos sin DLP corporativo), el procesamiento local es una cuña clara y verificable, el producto es de bajo costo para 1 persona y el canal es Chrome Web Store + SEO 'redact PII before ChatGPT'. Precio $9 exige ~1,100 pagadores para $10k: es el punto debil que concedo.",
+  "ajuste_sugerido": "Subir a $12-15 o plan por equipo autoservicio; apuntar a freelancers/consultores, que pagan de su bolsillo; medir demanda via Chrome Web Store antes de invertir."
+ },
+ {
+  "id": "N05-01",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-02",
+  "rescatar": true,
+  "respuesta": "Concedo dependencia de GitHub y uso puntual. Defiendo: el cambio de precios de Actions crea dolor monetario directo y busqueda activa; el ahorro mensual demuestra ROI; no exige migrar runners, a diferencia de Depot/Blacksmith. Mercado de orgs pagando Actions es grande y el canal (GitHub Marketplace, SEO 'reduce GitHub Actions cost', r/devops) es concreto.",
+  "ajuste_sugerido": "Hacerlo monitoreo continuo (alertas de regresion de costos, presupuesto por repo) para evitar el churn tras una optimizacion unica; cobrar por org."
+ },
+ {
+  "id": "N03-11",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-07",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-03",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-05",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-08",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G19-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objecion del atacante; no encuentro argumento suficiente para rescatarla (cuña debil, incumbente gratis, mercado chico o canal vago).",
+  "ajuste_sugerido": ""
+ }
+]

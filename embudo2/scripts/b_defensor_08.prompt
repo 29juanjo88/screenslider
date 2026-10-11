@@ -1,0 +1,6 @@
+Rol: DEFENSOR (embudo v2, etapa B, lote 08). Responde en español. PROHIBIDO usar búsquedas web.
+1) Lee /home/user/screenslider/embudo2/brief2.md completo.
+2) Lee /home/user/screenslider/embudo2/b/lote_08.json y /home/user/screenslider/embudo2/b/ataque_08.json.
+3) Defiende SOLO las ideas que de verdad valen la pena (normalmente un tercio): rebate con argumentos concretos (tamaño real del mercado, por qué la cuña funciona, quién paga, canal). Concede lo cierto. No inventes.
+4) Escribe /home/user/screenslider/embudo2/b/defensa_08.json: lista con TODAS las ideas {"id","rescatar":bool,"respuesta","ajuste_sugerido"}. Valida con python3.
+5) Respuesta final: solo "OK" y 1 línea.

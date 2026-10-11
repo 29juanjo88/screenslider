@@ -1,0 +1,6 @@
+Rol: ATACANTE (embudo v2, etapa B, lote 02). Responde en español. PROHIBIDO usar búsquedas web.
+1) Lee /home/user/screenslider/embudo2/brief2.md completo (brief vigente: mercado grande, filtros F1–F6, rúbrica v2, anclas).
+2) Lee /home/user/screenslider/embudo2/b/lote_02.json.
+3) Para CADA idea: filtros F1–F6 que falla (o ninguno; atención a F6 mercado <100k y a F1 respecto de la CUÑA), y la objeción más fuerte y concreta (incumbente gratis para esa cuña, cuña inexistente o copiable, comprador que no paga, canal vago, volumen irreal, mercado inflado). No inventes cifras ni competidores ("sin verificar"). Severidad: "fatal"/"fuerte"/"moderada"/"débil"; usar "débil" cuando la idea es sólida es correcto y esperado.
+4) Escribe /home/user/screenslider/embudo2/b/ataque_02.json: lista de {"id","filtros_fallados":[],"objecion","severidad"} con todas las ideas. Valida con python3.
+5) Respuesta final: solo "OK" y 1 línea.

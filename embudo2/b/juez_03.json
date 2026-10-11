@@ -1,0 +1,422 @@
+[
+ {
+  "id": "N03-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 38,
+  "razon": "Cuña real (evidencia de acceso a contenido digital) y comprador claro con dolor monetario; Stripe nativo y Chargeflow pueden cubrir; mercado sin verificar."
+ },
+ {
+  "id": "N04-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 28,
+  "razon": "Xbench/Verifika baratos y QA incluido en CAT tools; cuña de web sin instalación débil; pagadores limitados."
+ },
+ {
+  "id": "N04-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "ChatGPT gratis redacta propuestas igual de bien; cuña de tasa de respuesta depende de datos que Upwork no expone."
+ },
+ {
+  "id": "N05-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Slack App Directory es canal real, pero Statuspage/Instatus/incident.io saturan y precio plano es copiable."
+ },
+ {
+  "id": "N03-13",
+  "filtro_fallado": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Creadores con catálogo grande: la propia idea estima decenas de miles a cientos de miles, sin verificar; probable <100k pagadores."
+ },
+ {
+  "id": "G20-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 31,
+  "razon": "Guías de cumplimiento: compra puntual vs suscripción, riesgo legal, contenido estático copiable; cuña no explicitada."
+ },
+ {
+  "id": "N09-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Google Forms y Tally gratis cubren la cuña de respuestas ilimitadas; la idea lo admite."
+ },
+ {
+  "id": "N01-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "total": 41,
+  "razon": "Dolor monetario concreto, canal con intención (SEO Etsy profit calculator, r/EtsySellers), MVP por CSV; Craftybase y churn de vendedores chicos."
+ },
+ {
+  "id": "N02-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 40,
+  "razon": "Dolor semanal medible, GitHub Marketplace/HN/SEO concretos; BuildPulse y Trunk compiten y GitHub puede hacerlo nativo."
+ },
+ {
+  "id": "N08-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "razon": "Plugins WordPress gratis/baratos; reporte unificado depende de APIs cerradas; creadores pequeños pagan poco."
+ },
+ {
+  "id": "G27-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 31,
+  "razon": "Proveedores envían avisos propios y hay watchers gratis; mantener ~500 APIs es carga operativa; cuña no explicitada."
+ },
+ {
+  "id": "N05-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 31,
+  "razon": "Función fácil de copiar con Workflow Builder; poca disposición de pago; canal Slack Directory existe."
+ },
+ {
+  "id": "N03-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Canva y Beacons gratis cubren media kits; cuña de métricas verificadas es débil."
+ },
+ {
+  "id": "N10-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "total": 35,
+  "razon": "Cuña de precio por envío real pero conocida (Sendy, Buttondown); entregabilidad y abuso SES difíciles para 1 persona."
+ },
+ {
+  "id": "G14-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 28,
+  "razon": "Competidores financiados (E2B, Modal); cuña no explicitada; pagadores aún limitados."
+ },
+ {
+  "id": "N08-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Visualping cubre lo básico con plan gratis; plantillas por página copiables; scraping anti-bot costoso."
+ },
+ {
+  "id": "N03-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 32,
+  "razon": "YouTube Studio y vidIQ/TubeBuddy cubren parte; depende de API de YouTube; creadores esperan gratis."
+ },
+ {
+  "id": "N02-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 33,
+  "razon": "Muy competido (Vanta, Loopio, Conveyor, IA); precisión crítica; comprador founder con pocos cuestionarios."
+ },
+ {
+  "id": "N10-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Competencia con suites baratas (Termly, Osano) y plantillas gratis; compra esporádica; percibido como asesoría legal."
+ },
+ {
+  "id": "N03-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 25,
+  "razon": "Efecto de red con cold start; SparkLoop y beehiiv Boosts ya existen; canal depende de terceros."
+ },
+ {
+  "id": "N06-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 37,
+  "razon": "Cuña local por usuario y mercado amplio; $9 exige ~1,100 pagadores, individuos esperan gratis, Chrome/Purview pueden integrarlo."
+ },
+ {
+  "id": "N05-01",
+  "filtro_fallado": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Organizaciones Slack de pago declaradas como decenas de miles (sin verificar); Slack puede hacerlo nativo."
+ },
+ {
+  "id": "N02-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 40,
+  "razon": "Dolor monetario con evidencia de cambio de precios de Actions y canal GitHub Marketplace/SEO; reporte nativo de GitHub y churn tras optimizar."
+ },
+ {
+  "id": "N03-11",
+  "filtro_fallado": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "La idea admite mercado de decenas de miles a cientos de miles; Supercast/Memberful/Patreon ya sirven."
+ },
+ {
+  "id": "G23-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Dolor real de suspensiones pero competidores existen, canal de foros/FB vago y apelaciones las redacta ChatGPT."
+ },
+ {
+  "id": "N09-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "HubSpot Free cubre la necesidad de freelancers; cuña de setup rápido no defendible."
+ },
+ {
+  "id": "N09-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 34,
+  "razon": "Mercado grande pero saturado (Help Scout, Front, Zendesk); cuña de precio plano copiable; entregabilidad de email."
+ },
+ {
+  "id": "N02-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 32,
+  "razon": "Copilot/IA nativa pueden cubrirlo; mantainers esperan gratis; Swimm/Mintlify cubren parte."
+ },
+ {
+  "id": "N03-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 27,
+  "razon": "Pocos podcasters pagan por tracking; datos de Apple/Spotify frágiles; Podchaser/Rephonic existen; hueco sin verificar."
+ },
+ {
+  "id": "G19-14",
+  "filtro_fallado": "F4",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Comprador industrial de plantas exige ventas/outbound (LinkedIn); sin canal de autoservicio nombrado y CMMS ya incluyen inventario."
+ }
+]

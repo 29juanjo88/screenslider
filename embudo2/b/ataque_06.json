@@ -1,0 +1,246 @@
+[
+ {
+  "id": "G27-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; páginas de políticas/tarifas de Etsy y Amazon se anuncian en blogs/emails oficiales y foros gratis, y un monitor de cambios de página es copiable por cualquiera; sin competidores verificados.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-13",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Respaldar datos de CRM de clientes (credenciales OAuth, restauración selectiva) exige confianza/seguridad alta y la restauración a Salesforce es técnicamente compleja; Salesforce Data Export nativo es gratis; mercado de pago real probablemente decenas de miles de orgs (sin verificar), cerca de F6; comprador mediano suele querer contrato.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Superhuman/HEY/SaneBox y filtros de Gmail cubren; Google puede integrar clasificación IA gratis; comprador (creador) paga poco y la cuña 'rate card' es copiable con un prompt; requiere permisos de lectura de Gmail (verificación de seguridad OAuth costosa).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; hay muchas apps de profit tracking en Shopify (sin verificar) y bloquear descuentos requiere Shopify Functions limitadas a Plus en parte; mercado de tiendas con bundles agresivos menor.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Coupler.io, Zapier, Make ya cubren; la sincronización bidireccional con Notion es frágil por límites de API; cuña de precio plano es copiable; usuario puede usar conectores gratis o scripts de Apps Script.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-01",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Muchas extensiones gratis de búsqueda/export de chats y los proveedores mejoran búsqueda nativa; $8 con baja disposición de pago; extensión que lee chats es frágil ante cambios de DOM; Chrome Web Store es canal real pero saturado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Raindrop gratis competente y Readwise Reader consolidado; la ventana de Pocket ya pasó (cerró en 2025, sin verificar) y a $5 se necesitan más de 2,000 pagadores para $10k; consumidor con baja disposición de pago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; eRank tiene versión gratis y Marmalead existe (competidores verificados solo por nombre); sin cuña frente a incumbentes arraigados; depende de scraping o API de Etsy.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Syft/Trivy gratis generan SBOM, y la cuña es solo el PDF empaquetado, fácilmente copiable por plantilla; comprador esporádico (se necesita una vez por cuestionario) lo que daña retención; mercado de founders con cuestionarios enterprise probablemente <100k de compradores recurrentes (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Memoria nativa de ChatGPT/Claude y proveedores añadiendo importación; inyectar contexto en cualquier LLM es una extensión frágil; disposición de pago baja a $7; un archivo de texto con instrucciones es sustituto gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "toHaveScreenshot de Playwright es gratis y suficiente para muchos; cuña es solo la UI de aprobación, y Percy/Chromatic/Applitools ya la ofrecen (cobran por snapshot según la idea, sin verificar); equipos que pagan por regresión visual son un subconjunto pequeño, quizá cerca de F6.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Páginas de estado oficiales gratis, IsDown/StatusGator/Better Stack ya cubren; cuña de autoconfiguración desde package.json es copiable en una semana; SEO 'is stripe down' lo dominan Downdetector y similares.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Apps oficiales/establecidas de sync Etsy-Shopify (sin verificar) y Sellbrite, Codisto cubren; riesgo de API de Etsy; cuña es solo foco y precio, copiable; vendedores Etsy con tienda Shopify son subconjunto menor que 2.4M (cifra EE.UU. sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-15",
+  "filtros_fallados": [
+   "F1",
+   "F6"
+  ],
+  "objecion": "Bitwarden gratis y Apple Passwords gratis cubren a familias; seguridad es riesgo existencial para un solo dev; $4/mes exige >2,500 pagadores para $10k (F5 cercana); herencia digital es el único ángulo y 1Password ya tiene planes familiares.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N07-03",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Calculadoras de deuda gratis cubren lo básico y Undebt.it existe; $4/mes exige >2,500 pagadores para $10k; consumidores con deuda tienen baja disposición de pago; SEO 'debt snowball calculator' dominado por contenidos gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N05-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Copilot en Teams y Viva cubren, Microsoft lo integra nativo; acceso a mensajes de canales exige permisos Graph que requieren aprobación de admin del tenant (fricción en autoservicio); AppSource tiene poca demanda por búsqueda; $49 con comprador interno que pocas veces tiene presupuesto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-17",
+  "filtros_fallados": [
+   "F5",
+   "F1"
+  ],
+  "objecion": "Raindrop y Instapaper gratis/baratos, y local-first con sync cifrado es costoso de construir; el precio de $30/mes por un read-later es irreal (usuarios esperan ~$3-8); a precio realista falla F5; consumidor con baja disposición de pago.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N05-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Geekbot, Standuply, Range y Slack nativo (Workflow Builder, gratis) cubren; mercado saturado de bots de standup; cuña de precio plano es copiable; Slack App Directory sin intención de compra verificada.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Gemini en Sheets gratis/incluido y GPT for Work, SheetAI, Numerous.ai ya con BYOK en parte (sin verificar); cuña de caché y estimador de costo es copiable; clave API de usuario añade fricción de configuración.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Prisync, Price2Spy, Competera ya cubren pero por precio alto; cuña de precio plano real, pero scraping frágil y bloqueos anti-bot mantienen costos y soporte; existen herramientas más baratas en Shopify App Store (sin verificar); mercado >500k no verificado.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N01-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Otterly, Peec y otros ya existen y la categoría GEO es nueva y se llena rápido; demanda incierta (propio riesgo declarado); resultados de LLM no deterministas, valor del reporte discutible; cuña 'específico de producto' copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-02",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Screaming Frog, Sitebulb y Ahrefs ya hacen análisis de plantillas/agrupación; compradores reales (SEOs con sitios programáticos) probablemente <100k (sin verificar); cuña de análisis por plantilla es copiable; Search Console API limita datos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Apple Health/Garmin/Oura ya dan insights gratis y Bevel, Athlytic, Gyroscope compiten; consumidores con $6 de baja disposición de pago; Apple/Google lanzan funciones nativas; app de salud con exports implica privacidad y requiere app móvil nativa (más trabajo).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Notion amplía historial y tiene exportación nativa; Rewind/Backupify ya cubren (sin verificar); cuña de restauración por página con diff exige reescribir páginas por API con límites de tasa; cuña moderada pero el ancla de calibración de Notion backup ya es MEDIA 38.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N01-17",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Mercado de tiendas con 200+ envíos/mes puede ser <100k (propio riesgo, sin verificar); auditores por comisión ('sin costo hasta que recuperen') son atractivos para el comprador frente a un fee fijo de $49; acceso a datos de facturación de transportistas varía por carrier.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Muchos editores gratis (Smallpdf, iLovePDF con límites) y navegadores/macOS Preview editan PDFs gratis; edición local con WASM y OCR es difícil de igualar en calidad; Acrobat tiene mercado enorme, pero cuña de privacidad es copiable; SEO 'edit PDF online' dominado por incumbentes fuertes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-18",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Collectr, TCGplayer app, Brickset, Numista gratis; datos de precios requieren licencias o scraping frágil; $8/mes de coleccionistas es dudoso; escaneo por imagen es costoso de construir; cuña multi-categoría diluye.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Surfer, Clearscope, MarketMuse y Semrush ya lo cubren, y Search Console da huecos gratis; cuña de 'datos propios' es copiable; bloggers pagan poco por planificación; el propio riesgo declarado es que Surfer/Semrush ya lo cubren.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; Stripe Radar nativo y Chargeflow/Signifyd existentes; bienes digitales en Shopify son segmento pequeño; detectar fraude con pocos datos de una sola tienda rinde mal; falsos positivos bloquean clientes legítimos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "ChatGPT/Claude y Fathom gratis resumen reuniones y generan propuestas con un prompt; plantillas propias se replican como custom GPT; cuña débil ante la propia nota del F1; consultores >1M sin verificar.",
+  "severidad": "fuerte"
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id": "G27-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Cuña no explicitada; páginas de políticas/tarifas de Etsy y Amazon se anuncian en blogs/emails oficiales y foros gratis, y un monitor de cambios de página es copiable por cualquiera; sin competidores verificados.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-13",
+  "rescatar": true,
+  "respuesta": "Concedo que Salesforce Data Export es gratis y que la restauración selectiva es compleja. Pero el export nativo es manual/semanal y no restaura relaciones; ese es el dolor que justifica pagar 49. Hay presupuesto existente (Own, Spanning, Gearset cobran), comprador concreto (admin de CRM) y canales nombrados (AppExchange, HubSpot Marketplace, SEO 'backup HubSpot data'). HubSpot tiene cientos de miles de cuentas (sin verificar); con HubSpot solo se puede llegar a F6 sí o no, pero 1,000 clientes a 49 bastan.",
+  "ajuste_sugerido": "Empezar solo con HubSpot (menos competencia de pago, API más simple) y respaldo+exportación a CSV/S3 antes de restauración; marcar F6 como pregunta a verificar."
+ },
+ {
+  "id": "N03-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Superhuman/HEY/SaneBox y filtros de Gmail cubren; Google puede integrar clasificación IA gratis; comprador (creador) paga poco y la cuña 'rate card' es copiable con un prompt; requiere permisos de lectura de Gmail (verificación de seguridad OAuth costosa).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-11",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Cuña no explicitada; hay muchas apps de profit tracking en Shopify (sin verificar) y bloquear descuentos requiere Shopify Functions limitadas a Plus en parte; mercado de tiendas con bundles agresivos menor.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-15",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Coupler.io, Zapier, Make ya cubren; la sincronización bidireccional con Notion es frágil por límites de API; cuña de precio plano es copiable; usuario puede usar conectores gratis o scripts de Apps Script.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-01",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Muchas extensiones gratis de búsqueda/export de chats y los proveedores mejoran búsqueda nativa; $8 con baja disposición de pago; extensión que lee chats es frágil ante cambios de DOM; Chrome Web Store es canal real pero saturado.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Raindrop gratis competente y Readwise Reader consolidado; la ventana de Pocket ya pasó (cerró en 2025, sin verificar) y a $5 se necesitan más de 2,000 pagadores para $10k; consumidor con baja disposición de pago.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Cuña no explicitada; eRank tiene versión gratis y Marmalead existe (competidores verificados solo por nombre); sin cuña frente a incumbentes arraigados; depende de scraping o API de Etsy.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-10",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Syft/Trivy gratis generan SBOM, y la cuña es solo el PDF empaquetado, fácilmente copiable por plantilla; comprador esporádico (se necesita una vez por cuestionario) lo que daña retención; mercado de founders con cuestionarios enterprise probablemente <100k de compradores recurrentes (sin verificar).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Memoria nativa de ChatGPT/Claude y proveedores añadiendo importación; inyectar contexto en cualquier LLM es una extensión frágil; disposición de pago baja a $7; un archivo de texto con instrucciones es sustituto gratis.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-12",
+  "rescatar": true,
+  "respuesta": "Concedo que toHaveScreenshot es gratis. Pero ese gratis carece justo de lo que se vende: UI de aprobación en PR, historial y baseline gestionado, que es el dolor real de equipos en CI. Percy/Chromatic cobran por snapshot, lo que deja la cuña de plan plano por repo. Compradores son equipos técnicos que ya pagan, descubrimiento por SEO y comunidad Playwright, producto se difunde en cada PR (comentarios en PR). Mercado de equipos con Playwright en CI es grande (sin verificar), probablemente >100k repos.",
+  "ajuste_sugerido": "Integración GitHub Action + comentario en PR como viralidad; plan por repo; posicionarse como 'review layer' que usa los snapshots nativos."
+ },
+ {
+  "id": "N02-18",
+  "rescatar": true,
+  "respuesta": "Concedo que existen IsDown, StatusGator, Better Stack y que 'is stripe down' lo dominan otros. Pero la cuña no es SEO de esa query sino auto-detección desde package.json/env y alertas solo relevantes, que reduce el ruido que sufren los equipos que hoy se suscriben a 20 páginas de estado. Buyers técnicos con presupuesto de monitoreo; canal de directorios e indie. Mercado de decenas de millones de desarrolladores (SlashData, sin verificar en esta lista) y millones de equipos.",
+  "ajuste_sugerido": "Probar herramienta gratuita CLI/GitHub App de detección que genere leads, cobrar por alertas Slack/PagerDuty; verificar que el precio de 15 no choque con planes de IsDown."
+ },
+ {
+  "id": "N01-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Apps oficiales/establecidas de sync Etsy-Shopify (sin verificar) y Sellbrite, Codisto cubren; riesgo de API de Etsy; cuña es solo foco y precio, copiable; vendedores Etsy con tienda Shopify son subconjunto menor que 2.4M (cifra EE.UU. sin verificar).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-15",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Bitwarden gratis y Apple Passwords gratis cubren a familias; seguridad es riesgo existencial para un solo dev; $4/mes exige >2,500 pagadores para $10k (F5 cercana); herencia digital es el único ángulo y 1Password ya tiene planes familiares.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-03",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Calculadoras de deuda gratis cubren lo básico y Undebt.it existe; $4/mes exige >2,500 pagadores para $10k; consumidores con deuda tienen baja disposición de pago; SEO 'debt snowball calculator' dominado por contenidos gratis.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Copilot en Teams y Viva cubren, Microsoft lo integra nativo; acceso a mensajes de canales exige permisos Graph que requieren aprobación de admin del tenant (fricción en autoservicio); AppSource tiene poca demanda por búsqueda; $49 con comprador interno que pocas veces tiene presupuesto.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Raindrop y Instapaper gratis/baratos, y local-first con sync cifrado es costoso de construir; el precio de $30/mes por un read-later es irreal (usuarios esperan ~$3-8); a precio realista falla F5; consumidor con baja disposición de pago.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Geekbot, Standuply, Range y Slack nativo (Workflow Builder, gratis) cubren; mercado saturado de bots de standup; cuña de precio plano es copiable; Slack App Directory sin intención de compra verificada.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-08",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Gemini en Sheets gratis/incluido y GPT for Work, SheetAI, Numerous.ai ya con BYOK en parte (sin verificar); cuña de caché y estimador de costo es copiable; clave API de usuario añade fricción de configuración.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-05",
+  "rescatar": true,
+  "respuesta": "Concedo scraping frágil y que hay apps baratas en Shopify (sin verificar). Pero la cuña de precio es real: Prisync/Price2Spy/Competera apuntan a planes de 100+ USD, y una tienda pequeña paga 29 por algo que le evita perder ventas cada semana. Canal con intención de compra (SEO 'competitor price tracker', Shopify App Store). Mercado de millones de tiendas; solo se necesitan ~1,000 pagadores a 29 para ~29k MRR. Quién paga: dueño de tienda.",
+  "ajuste_sugerido": "Limitar a 100 URLs con páginas de producto estándar (JSON-LD/Shopify), evitar sitios con anti-bot; empezar solo por Shopify App Store; validar con 10 tiendas antes de construir."
+ },
+ {
+  "id": "N01-18",
+  "rescatar": true,
+  "respuesta": "Concedo demanda incierta y competidores existentes (Otterly, Peec, Profound, sin verificar). Pero la categoría crece con presupuesto real en marcas y la cuña (enfocada en tiendas/productos con arreglo de datos estructurados) es distinta de las herramientas de marca. Canal: Shopify App Store y SEO, con producto que entrega acción (schema) y no solo reporte.",
+  "ajuste_sugerido": "Validar con un reporte gratis de visibilidad por tienda como gancho; priorizar la parte accionable (JSON-LD/feeds) sobre el tracking; marcar riesgo de no determinismo."
+ },
+ {
+  "id": "N08-02",
+  "rescatar": true,
+  "respuesta": "Concedo que Screaming Frog/Sitebulb/Ahrefs cubren auditoría técnica y que el mercado puede acercarse a F6 (sin verificar). Pero la cuña es concreta: análisis por plantilla con Search Console, que ninguno prioriza; el dolor es de tráfico (pierde dinero cada semana) y el comprador paga 39 con presupuesto SEO. Canal: SEO long-tail, Reddit r/SEO. Hay millones de sitios con plantillas (ecommerce, directorios, marketplaces).",
+  "ajuste_sugerido": "Limitar a ecommerce/directorios con GSC conectado; validar tamaño real antes de construir; generar informe gratis de una plantilla como gancho."
+ },
+ {
+  "id": "N07-08",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Apple Health/Garmin/Oura ya dan insights gratis y Bevel, Athlytic, Gyroscope compiten; consumidores con $6 de baja disposición de pago; Apple/Google lanzan funciones nativas; app de salud con exports implica privacidad y requiere app móvil nativa (más trabajo).",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-04",
+  "rescatar": true,
+  "respuesta": "Concedo que Notion puede ampliar historial y que el ancla equivalente es MEDIA 38. Aun así el dolor es de pérdida de datos (alto), el canal es SEO 'notion backup' con intención de compra y la galería de integraciones, y el mercado de equipos Notion es grande. Cuña de diff y restauración por página es ejecutable en 6 semanas por una persona.",
+  "ajuste_sugerido": "Priorizar respaldo a Markdown/S3 propio del cliente más diff legible; la restauración vía API como fase 2; precio por workspace plano."
+ },
+ {
+  "id": "N01-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Mercado de tiendas con 200+ envíos/mes puede ser <100k (propio riesgo, sin verificar); auditores por comisión ('sin costo hasta que recuperen') son atractivos para el comprador frente a un fee fijo de $49; acceso a datos de facturación de transportistas varía por carrier.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-08",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Muchos editores gratis (Smallpdf, iLovePDF con límites) y navegadores/macOS Preview editan PDFs gratis; edición local con WASM y OCR es difícil de igualar en calidad; Acrobat tiene mercado enorme, pero cuña de privacidad es copiable; SEO 'edit PDF online' dominado por incumbentes fuertes.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-18",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Collectr, TCGplayer app, Brickset, Numista gratis; datos de precios requieren licencias o scraping frágil; $8/mes de coleccionistas es dudoso; escaneo por imagen es costoso de construir; cuña multi-categoría diluye.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-18",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Surfer, Clearscope, MarketMuse y Semrush ya lo cubren, y Search Console da huecos gratis; cuña de 'datos propios' es copiable; bloggers pagan poco por planificación; el propio riesgo declarado es que Surfer/Semrush ya lo cubren.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: Cuña no explicitada; Stripe Radar nativo y Chargeflow/Signifyd existentes; bienes digitales en Shopify son segmento pequeño; detectar fraude con pocos datos de una sola tienda rinde mal; falsos positivos bloquean clientes legítimos.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-16",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: ChatGPT/Claude y Fathom gratis resumen reuniones y generan propuestas con un prompt; plantillas propias se replican como custom GPT; cuña débil ante la propia nota del F1; consultores >1M sin verificar.",
+  "ajuste_sugerido": ""
+ }
+]

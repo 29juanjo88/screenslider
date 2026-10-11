@@ -1,0 +1,222 @@
+[
+ {
+  "id": "N10-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los CMP baratos o gratis (CookieYes, Termly, iubenda tienen planes gratis, sin verificar precios) ya cubren sitios chicos; la cuña 'dominios ilimitados a precio fijo' es un modelo de precio copiable en un día. Mercado saturado y Google CMP certificado es requisito para Consent Mode v2.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; StatusGator e IsDown ya hacen exactamente esto y las páginas de estado/feeds RSS son gratis. Sin diferenciador claro, precio $25 con competidores establecidos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Baremetrics y ProfitWell (gratis, sin verificar vigencia) ya dan LTV/CAC; Triple Whale cubre ecommerce. Cuña de 'precio bajo' es copiable y el costo de integrar Meta/Google Ads (revisión de apps) es alto para una persona.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-11",
+  "filtros_fallados": [],
+  "objecion": "Comprador claro (admin Workspace) y canal nombrado (Workspace Marketplace), pero la consola de Google ya tiene reglas de uso compartido y Google puede ampliarlas; BetterCloud y similares compiten. Riesgo de plataforma y que el scope OAuth de Drive requiera verificación de seguridad costosa (CASA). Admins pagarían $79 solo si el dolor es de auditoría, no de higiene.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N07-06",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $5/mes se necesitan ~2,000+ pagadores para $10k MRR en el segmento más saturado (MyFitnessPal, Cal AI, Lose It!, Cronometer); adquisición vía TikTok es cara y la cuña 'sin paywall agresivo' no es defendible. Costo de inferencia de visión por usuario erosiona margen.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N10-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Stirling-PDF y PDFgear son gratis y locales, y cubren exactamente la cuña 'sin subida de archivos'; el profesional que valora privacidad puede autoalojarlo. Una persona no puede competir en OCR/firma/redacción en WASM con calidad. Garantía verificable es copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-01",
+  "filtros_fallados": [],
+  "objecion": "Cuña solo de precio plano; PandaDoc/Proposify/Bonsai/HoneyBook tienen alternativas baratas o gratis (sin verificar) y muchos freelancers usan Google Docs con aviso de lectura. Mercado grande pero disposición de pago de freelancers baja.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N06-10",
+  "filtros_fallados": [],
+  "objecion": "Zapier MCP, Composio y Pipedream ya ofrecen MCP hospedado con OAuth; Anthropic/OpenAI integran conectores nativos (riesgo de plataforma alto). El comprador 'no técnico' que configura MCP es un grupo diminuto hoy; mercado 500k es estimación sin verificar y probablemente inflado en pagadores. Custodia de tokens OAuth de terceros es riesgo de seguridad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Un LLM con búsqueda web (ChatGPT, Perplexity, Claude) verifica citas gratis; la cuña 'informe exportable' es una función copiable. Mercado de pago inflado: 'más de 1M' es solo razonamiento, sin verificar. Disposición de pago incierta.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Imágenes OG gratis vía frameworks (Next.js OG, @vercel/og) y Canva; devs construyen esto en horas. Mercado de compradores reales muy inferior al 'cientos de miles' de blogs. Cuña no defendible.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N08-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Ahrefs Webmaster Tools es gratis para sitios propios y Google Search Console avisa de enlaces rotos internos; el propio riesgo declarado lo confirma. Cuña de 'una sola cosa más barata' no supera lo gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Extensiones gratis de exportación y funciones nativas (ChatGPT exporta a Word/PDF; Copilot en Word) cubren la mayor parte; la cuña de plantillas de marca es nicho dentro de nicho. $9/mes con tráfico dependiente de una sola plataforma (Chrome) y de cambios de UI de ChatGPT.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-01",
+  "filtros_fallados": [],
+  "objecion": "Dolor con fecha regulatoria y canal nombrado (Shopify App Store/WordPress.org, SEO). Riesgo: accessiBe/UserWay dominan búsquedas, enforcement desigual y escáneres WCAG automáticos detectan solo ~30-40% de problemas (sin verificar), lo que limita el valor del producto; las agencias ya usan herramientas gratis (axe, Lighthouse, WAVE). Solución sólida, objeción moderada.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G22-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; Opus Clip domina y hay muchos clones (sin verificar), además YouTube y TikTok incluyen herramientas nativas de recorte. Costo de procesamiento de video por usuario alto para $29 y una persona; guerra de clones de IA.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Copilot/GitHub puede integrarlo nativamente (propio riesgo declarado) y cualquier dev pega el log en un LLM gratis. Cuña no explicitada. Mercado de pago real mucho menor al de devs de GitHub.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-10",
+  "filtros_fallados": [],
+  "objecion": "Cuña (YouTube y newsletters) real pero la API de YouTube limita el acceso y los afiliados chicos pagan poco; Lasso/Geniuslink ya cobran por esto y hay checkers de enlaces gratis (sin verificar). Pagadores reales son una fracción pequeña de 'millones de creadores'.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G17-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Stripe Smart Retries y emails de recuperación son nativos y gratis; Churnkey y Baremetrics Recover ya venden esto. Cuña no explicitada, y el cliente (SaaS pequeño) tiene churn involuntario bajo en términos absolutos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Notion y Google Drive con plantillas gratis cubren a agencias de 1-10 personas, como admite el riesgo; SuiteDash y Dubsado ya compiten con precio plano (sin verificar). Cuña de configuración rápida es copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Microsoft Approvals viene incluida en Teams (riesgo F1 declarado); la cuña 'más fácil que Power Automate' se reduce a UX de lo gratis. Dependencia total de una plataforma, y compras a $29 vía AppSource sin ventas es incierto.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N07-01",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $4/mes se necesitan ~2,500 pagadores para $10k MRR; Rocket Money y apps gratis ya listan suscripciones y el usuario puede buscar 'receipt' en su correo. Gmail restringe scopes sensibles y la verificación OAuth con auditoría de seguridad es costosa; consumidor cancela rápido (churn alto).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-15",
+  "filtros_fallados": [],
+  "objecion": "Cuña difusa: 'aprende del historial' exige datos que el cliente no tiene en volumen y hojas de cálculo son el incumbente real. Estimar proyectos es dolor ocasional, no semanal; canal es SEO genérico sin demanda con intención de compra clara.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-01",
+  "filtros_fallados": [],
+  "objecion": "Comprador claro y dolor monetario (reembolsos), pero el mercado de servicios de recobro FBA está poblado (Helium 10, Threecolts y otros, sin verificar) y muchos cobran % del recobro; Amazon puede cambiar reportes/SP-API. Cuña no explicitada. Compradores con $20k+/mes: decenas de miles, posiblemente bajo 100k (sin verificar).",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G23-04",
+  "filtros_fallados": [],
+  "objecion": "Sellerboard cubre exactamente el caso a precio bajo y Amazon da reportes de rentabilidad; mercado de analítica de rentabilidad saturado. Cuña no explicitada ('multi-canal' ya es parte de la oferta de competidores). Integrar 4 marketplaces es mucho trabajo para una persona.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "YouTube ofrece subtítulos automáticos, traducción y doblaje nativos gratis (riesgo F1 declarado), y Rask/HeyGen/Happy Scribe son fuertes. Cuña de glosario de marca es copiable; creadores pagan poco.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-14",
+  "filtros_fallados": [],
+  "objecion": "Google Optimize cerrado fue en 2023, hueco ya cubierto por VWO, Optimizely, PostHog, GrowthBook y otros (sin verificar planes gratis). Un SDK de A/B en edge sin parpadeo exige tráfico y confianza estadística; sitios con tráfico suficiente son pocos. Cuña débil y no es un hueco abierto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-20",
+  "filtros_fallados": [],
+  "objecion": "Google Ads Editor es gratis y los scripts de términos negativos son abundantes; Optmyzr y Adalysis ya cubren; Google puede automatizarlo con recomendaciones nativas. Acceso a API de Google Ads exige token de desarrollador con revisión. Anunciantes pequeños pagan poco y churnean.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Shopify ofrece encuestas post-compra nativas (checkout, sin verificar alcance actual) y KnoCommerce/Fairing tienen planes bajos o gratis; una encuesta es trivial de reproducir con un formulario. Cuña de precio fijo débil.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Testimonial.to tiene plan gratis (riesgo declarado) y Google Forms hace lo básico; la cuña (redacción de casos por IA) es copiable por Senja. Freelancers pagan muy poco.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Granola y Fathom (gratis, sin verificar) y la grabación nativa de Zoom/Teams/Meet cubren la cuña 'sin bot'; Granola ya es sin bot. Cuña no defendible. Captura de audio del sistema multiplataforma es trabajo duro para una persona.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Dictado nativo de macOS/Windows gratis, Superwhisper y Wispr Flow ya cubren la cuña de plantillas por destino; mercado saturado como indica el propio riesgo. Cuña de precio bajo no alcanza.",
+  "severidad": "fuerte"
+ }
+]

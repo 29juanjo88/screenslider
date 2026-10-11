@@ -1,0 +1,422 @@
+[
+ {
+  "id": "N06-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 43,
+  "razon": "Dolor real y busqueda activa 'pdf to excel'; ya se paga por Docparser/Nanonets; marketplaces nombrados; cuña de precio plano copiable y Copilot/Acrobat/ChatGPT cubren parte; margen de inferencia."
+ },
+ {
+  "id": "N04-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 31,
+  "razon": "Scope creep es dolor real pero freelancer paga poco, retencion baja y un LLM/Bonsai lo cubre; canal Reddit sin intencion de compra."
+ },
+ {
+  "id": "N03-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "razon": "Disposicion de pago dudosa admitida; Ahrefs/Surfer/Clearscope cubren refresh; deteccion factual poco fiable."
+ },
+ {
+  "id": "G02-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "razon": "axe/WAVE gratis cubren deteccion; cuña (grabar flujos y exportar tickets) no explicitada; Chrome Web Store como canal y empuje EAA."
+ },
+ {
+  "id": "N05-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 34,
+  "razon": "Canal Marketplace nombrado pero pagadores de Confluence para esta funcion probablemente cerca/bajo 100k; Rovo/Atlassian pueden integrar."
+ },
+ {
+  "id": "N05-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 32,
+  "razon": "Release Notes for Jira existe, Rovo/LLM generan notas; mercado de Jira Marketplace acotado; cuña copiable."
+ },
+ {
+  "id": "N08-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Dolor real de informes mensuales; Looker Studio gratis pero tecnico; AgencyAnalytics/DashThis/Whatagraph saturan; cuña precio debil."
+ },
+ {
+  "id": "N05-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 29,
+  "razon": "Integracion nativa Slack-Notion y Workflow Builder gratis cubren lo basico; doble dependencia de plataformas; cuña casi nula."
+ },
+ {
+  "id": "N09-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 38,
+  "razon": "Gerentes pagan Databox/Geckoboard; marketplaces HubSpot/AppExchange con intencion; CRMs agregan IA nativa; fiabilidad NL-to-query."
+ },
+ {
+  "id": "N10-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 37,
+  "razon": "EAA da urgencia y hay presupuesto, pero captions automaticos gratis y Rev/Verbit/Descript; cuña de precio plano copiable; sin garantia legal."
+ },
+ {
+  "id": "N10-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "razon": "Dolor creciente, mercado enorme y hueco self-serve frente a DLP enterprise; riesgo Chrome/DOM, confianza, y proveedores de IA con redaccion nativa."
+ },
+ {
+  "id": "G10-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 30,
+  "razon": "Coefficient domina y exportes nativos; sin cuña explicitada; nicho de sales ops en AppExchange acotado."
+ },
+ {
+  "id": "N08-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Microsoft Clarity es gratis y suficientemente bueno; la cuña de privacidad no justifica pago de la mayoria."
+ },
+ {
+  "id": "N02-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "razon": "oasdiff gratis cubre el nucleo en CI; Bump.sh/Optic ya ofrecen avisos; cuña de hosting/aviso estrecha."
+ },
+ {
+  "id": "G21-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 32,
+  "razon": "Nicho de ingenieros de calidad, mercado cerca del umbral de 100k; Minitab de pago existe pero hay plantillas gratis; cuña no explicitada."
+ },
+ {
+  "id": "G01-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Dolor monetario con canal Shopify App Store nombrado; apps de devoluciones (Loop etc.) ya incluyen analitica; cuña no explicitada."
+ },
+ {
+  "id": "G25-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Perder renovaciones cuesta dinero y hay presupuesto, pero CLM/hojas de calculo cubren y confiar contratos a un producto de una persona frena la compra."
+ },
+ {
+  "id": "G26-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 31,
+  "razon": "Mercado saturado (Dubsado, HoneyBook, Notion), sin cuña, canal SEO competido."
+ },
+ {
+  "id": "N01-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Activity Log nativo y Rewind cubren parte; Shopify puede agregar rollback; canal App Store nombrado."
+ },
+ {
+  "id": "N01-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 42,
+  "razon": "Dolor monetario medible (comision 20-25% vs cuota fija), comprador y canal nombrado (App Store 'chargeback'); riesgo Shopify Payments y plataforma unica; mercado >100k plausible sin verificar."
+ },
+ {
+  "id": "N08-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Mail-Tester/Postmaster gratis cubren lo basico y ESPs ofrecen monitoreo; urgencia por reglas Gmail/Yahoo; canal vago."
+ },
+ {
+  "id": "N09-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Canva tiene capa gratis suficiente y $9 exige volumen enorme; editor grande para MVP."
+ },
+ {
+  "id": "N01-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Dolor real en comunidad Shopify pero uso puntual (baja retencion) y datos de facturacion no disponibles por API."
+ },
+ {
+  "id": "N06-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "Chat BYOK saturado (TypingMind, LibreChat, Open WebUI); $8 por equipo exige >1,250 equipos; confianza con claves API."
+ },
+ {
+  "id": "N01-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 33,
+  "razon": "Dolor de suspension real pero TESS gratis, eRank/Marmalead parciales, reglas cambiantes y riesgo de falsos negativos."
+ },
+ {
+  "id": "N10-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "razon": "Clon BYOK a $5 (≈2,000 pagadores para $10k) frente a OSS gratis; clave API a terceros genera desconfianza."
+ },
+ {
+  "id": "G09-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "razon": "Readme/Redocly/Stoplight y OSS/GitHub Pages; sin cuña explicitada."
+ },
+ {
+  "id": "G03-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 29,
+  "razon": "Moveworks/Freshservice/Copilot cubren; helpdesk empresarial exige SSO y seguridad, empuja a ventas; sin cuña."
+ },
+ {
+  "id": "N08-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "razon": "F5Bot gratis, Brand24/Mention establecidos, API Reddit restringida; cuña de resumen IA copiable."
+ },
+ {
+  "id": "G21-09",
+  "filtro_fallado": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Nicho de ingenieros HVAC con muchas calculadoras gratis; compradores de pago probablemente <100k."
+ }
+]

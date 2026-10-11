@@ -1,0 +1,213 @@
+[
+ {
+  "id": "N03-07",
+  "filtros_fallados": [],
+  "objecion": "Cuña de 'lenguaje de creador y precio plano' es copiable (GlockApps/Mailreach pueden reempaquetar); Mail-Tester y Postmaster Tools cubren el chequeo básico gratis; cuentas semilla requieren mantenimiento y reputación de envío. Canal SEO concreto, pero el creador paga poco por algo que revisa de vez en cuando.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N09-16",
+  "filtros_fallados": [],
+  "objecion": "Video en vivo con asistentes ilimitados a $39 plano: el costo de ancho de banda crece con la audiencia y destruye el margen o fuerza límites; 4 incumbentes establecidos (Demio, Livestorm, WebinarJam) y 'ilimitado' es copiable. Infra de video pesada para 1 persona.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Looker Studio es gratis y tiene plantillas de informes para Search Console; la cuña (precio bajo + resumen narrativo) es copiable con un LLM por cualquier incumbente. El comprador (freelance SEO) ya resuelve con plantillas gratis. Dependencia de APIs de Google.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-17",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "$4/mes exige >2,500 pagadores para $10k; BGG, BG Stats y apps gratis cubren colección y partidas; sincronización con BGG depende de su API y es copiable. Afición con baja disposición de pago.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N05-05",
+  "filtros_fallados": [],
+  "objecion": "Cuña real (historial por celda vs por versión) pero Google puede cerrarla con una actualización nativa; dependencia total del Workspace Marketplace; hay add-ons de audit log de terceros (sin verificar). Compradores de finanzas pagan por control, canal con intención de búsqueda.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N01-09",
+  "filtros_fallados": [],
+  "objecion": "Cuña de WooCommerce desatendido es plausible y el mercado es grande (evidencia citada), pero hay plugins RMA de Woo (sin verificar) y los incumbentes pueden lanzar integración Woo; mantenimiento por versiones WP/Woo y soporte. Etiquetas de envío requieren integraciones con carriers.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N08-16",
+  "filtros_fallados": [],
+  "objecion": "Mercado muy competido (Unbounce, Instapage, Leadpages, además de constructores IA y Webflow/Framer); 'precio plano' no es cuña defendible; los media buyers eligen por conversión probada, no por precio. Cuña copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-11",
+  "filtros_fallados": [],
+  "objecion": "Bonsai, Qwilr, PandaDoc ya cubren propuesta+firma+cobro; el propio riesgo lo admite. Precio plano copiable; hay plantillas y firma gratis (sin verificar). Sin cuña distintiva.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-19",
+  "filtros_fallados": [],
+  "objecion": "Requiere acceso al correo (confianza, seguridad, verificación OAuth de Google con auditoría costosa para scopes sensibles) para un MVP de una persona; compradores de gestión de SaaS pueden dar retención baja; cuña 'autoservicio' es copiable (Bobby/hojas). Disposición de pago incierta para equipos pequeños.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-13",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "$3/mes: para $10k MRR hacen falta >3,300 pagadores en un marketplace saturado (Tempo y muchas apps de tiempo); la propia idea reconoce riesgo F5. Si sube el precio, pierde la cuña.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N07-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "StoryGraph y Goodreads gratis cubren seguimiento y metas; la cuña de importar subrayados de Kindle es una función y no un producto de pago; $4/mes requiere miles de pagadores. Consumidor que espera gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N01-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "PageSpeed gratis cubre la medición; la atribución por app es la única cuña y Shopify mismo puede exponerla; su viabilidad técnica (identificar qué app causa la regresión) es incierta y variable. Dueños de tienda pagan poco por diagnóstico ocasional.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Telescope, pg_stat_statements, Bullet/Laravel Debugbar gratis detectan N+1 y consultas lentas en desarrollo; la cuña de 'precio bajo' contra pganalyze/Datadog no importa si el dev usa herramientas gratis. Agente en producción exige confianza y soporte multi-ORM.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Acrobat incluye autoetiquetado y verificador de accesibilidad; cuña no explicitada. Remediar PDFs a PDF/UA fiable es técnicamente difícil sin revisión manual, y los compradores reales de cumplimiento suelen comprar servicio o herramientas empresariales (CommonLook). $59 y calidad difícil de garantizar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-11",
+  "filtros_fallados": [],
+  "objecion": "Grammarly y Writer ya ofrecen voz/guía de estilo y bajan a equipos pequeños; cualquier LLM con un prompt de guía de estilo lo hace gratis; la cuña 'reglas auditables' es copiable. Extensiones Chrome con churn alto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-03",
+  "filtros_fallados": [],
+  "objecion": "Atlassian puede cerrar la cuña con Rovo/automatización nativa; el dolor (backlog sucio) es de baja urgencia y se resuelve una vez (poco recurrente: churn tras la limpieza). Dependencia total del Atlassian Marketplace.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-15",
+  "filtros_fallados": [],
+  "objecion": "Stape, Elevar y GTM server ya cubren el nicho con setup guiado; requiere infraestructura de proxy y cumplimiento de consentimiento (riesgo legal); dependencia de APIs de Meta/Google. Cuña 'setup en 10 min' copiable y alta carga de soporte.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Checkly, Better Stack, Postman Monitors ya ofrecen planes gratuitos y checks desde OpenAPI; mercado maduro y la cuña ('cero configuración, precio plano') no es defendible. Monitoreo multi-región exige infraestructura distribuida y fiabilidad propia.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Plantillas gratis de contratos freelance abundan y SEO lo domina; Bonsai ya agrupa contrato+firma; riesgo de ser considerado asesoría legal. Cuña 'por país' difícil de mantener sin abogados; $9/mes con retención baja (uso puntual).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Shopify Fraud analysis nativo cubre el caso base y Shopify Payments lo incluye; apps de fraude asentadas existen. 'Precio fijo bajo' no es cuña; confianza necesaria para falsos positivos que cuestan ventas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-04",
+  "filtros_fallados": [],
+  "objecion": "Percibido como asesoría fiscal; errores en declaraciones generan responsabilidad; Stripe Tax y Quaderno cubren en parte; cuña (sin comisión de MoR) razonable y dolor real recurrente, pero exactitud por jurisdicción es costosa de mantener. Canal con intención de búsqueda concreto.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N03-19",
+  "filtros_fallados": [],
+  "objecion": "Descript, Riverside y editores incorporan búsqueda en transcripciones; YouTube y podcast apps ya tienen búsqueda de transcripciones; el procesamiento de video/audio tiene costo variable. Cuña 'buscar archivo propio' es una función, no un producto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-18",
+  "filtros_fallados": [],
+  "objecion": "Zylo, Vendr y Tropic añaden módulos de IA; requiere acceso a facturas y SSO (seguridad y confianza) para un comprador de empresa mediana sin ventas; el mercado >100k es estimación sin verificar. Autoservicio en TI difícil de conseguir sin ciclo de compra.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-13",
+  "filtros_fallados": [],
+  "objecion": "Motion, Reclaim, Sunsama y Akiflow ya cubren y Google Calendar integra funciones; cuña de precio (mitad de Motion) es copiable y erosionable; $8/mes necesita ~1,250+ pagadores para $10k, con churn alto en consumidores de productividad. Depende del API de Google Calendar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Wave e Invoice Ninja son gratis o de código abierto y el facturador cubre lo básico; la cuña (reverse charge UE) es un conjunto de reglas fiscales con riesgo de responsabilidad si se equivoca; $9/mes exige ~1,100 pagadores para $10k. Comprador con alternativa gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-01",
+  "filtros_fallados": [],
+  "objecion": "Muchos creadores usan Notion/Sheets gratis; HoneyBook/Dubsado ya son CRMs para independientes; leer Gmail exige verificación OAuth con scopes restringidos (costo de seguridad). Cuña real (CPM, usage rights) pero el segmento que paga son creadores medianos, quizá menos de lo que se supone (sin verificar).",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N01-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Shopify Magic (gratis), Photoroom, Pixelcut y remove.bg dominan; los modelos de imagen baratos hacen de esto una función sin barrera; cuña de presets por marketplace copiable en una semana. Costo de cómputo de imagen por lote.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N06-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "OpenRouter, Artificial Analysis y herramientas de evals gratis; la comparación con tus propios prompts es una función que ofrecen plataformas de evaluación y los proveedores mismos. Dolor esporádico (migraciones ocasionales) y costos de tokens para correr pruebas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Sin cuña; los LLM generales y plugins de IA de WooCommerce/Yoast hacen descripciones a bajo costo o gratis, y los propios editores de WordPress ya integran IA. Competidores sin verificar y mercado saturado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Alt text masivo es una función que Shopify, Wix y plugins de WordPress ya ofrecen o incorporarán; AltText.ai ya cubre generación masiva; revisión humana y reglas de marca es cuña copiable. Dolor intermitente (se hace una vez por catálogo), churn alto.",
+  "severidad": "fuerte"
+ }
+]

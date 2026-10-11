@@ -1,0 +1,7 @@
+Rol: ATACANTE (embudo v2, etapa C, lote 08: 5 ideas). Responde en español.
+1) Lee /home/user/screenslider/embudo2/brief2.md completo (brief vigente).
+2) Lee /home/user/screenslider/embudo2/c/lote_08.json.
+3) Carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 4 búsquedas para las 5 ideas: verifica competidores y precios, alternativas gratis para la CUÑA, y tamaño de mercado. "sin verificar" si no confirmas. NUNCA inventes.
+4) Por idea: filtros F1–F6 que falla, objeción más fuerte, hechos [{"afirmacion","url"}], severidad (fatal/fuerte/moderada/débil).
+5) Escribe /home/user/screenslider/embudo2/c/ataque_08.json: lista de {"id","filtros_fallados","objecion","hechos","severidad","busquedas_usadas"}. Valida con python3.
+6) Respuesta final: solo "OK" y 1 línea.

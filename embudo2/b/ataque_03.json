@@ -1,0 +1,229 @@
+[
+ {
+  "id": "N03-18",
+  "filtros_fallados": [],
+  "objecion": "Cuña real (evidencia de acceso a contenido digital) y comprador claro; riesgo: Stripe ya ofrece evidencia/respuesta a disputas nativa y Chargeflow puede añadir vertical digital; efectividad de ganar disputas sin verificar y comisión por éxito podría ser lo que el mercado espera, no $29 fijos.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N04-08",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Traductores freelance pagadores probablemente <100k (sin verificar); Xbench/Verifika baratos y conocidos, y las CAT tools ya incluyen QA; cuña 'web sin instalación' es débil y copiable; precio $15 exige ~700+ clientes para $10k.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-13",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "ChatGPT gratis redacta propuestas; la cuña (tasa de respuesta por plantilla) requiere datos que Upwork no expone, scraping viola términos y expone a baneo; extensión sin canal más allá de Chrome Web Store saturada.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-20",
+  "filtros_fallados": [],
+  "objecion": "Mercado competido (Statuspage, Instatus, incident.io con planes gratis sin verificar); cuña 'precio plano' débil y copiable; depende de Slack Directory; páginas de estado gratis/baratas ya existen, F1 posible para equipos pequeños.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-13",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Mercado de creadores con catálogo grande declarado como 'decenas de miles a cientos de miles' (sin verificar), probablemente bajo 100k pagadores; Chatbase/CustomGPT cubren lo genérico y la ingesta YT es trivial de copiar; creadores esperan gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-13",
+  "filtros_fallados": [
+   "F3",
+   "F2"
+  ],
+  "objecion": "Cuña no explicitada; contenido regulatorio equivale a asesoría de cumplimiento con riesgo legal por errores; contenido estático de guías se copia/gratis (webs gubernamentales de la UE) y suscripción mensual no encaja con compra puntual; confianza difícil sin credenciales.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Google Forms y Tally gratis son suficientes para la mayoría; la propia idea admite F1; 'respuestas ilimitadas' no es defendible y el análisis IA lo da cualquier chatbot.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N01-07",
+  "filtros_fallados": [],
+  "objecion": "Cuña específica y razonable, pero Etsy puede ofrecer analítica o hay hojas de cálculo gratis; vendedores pequeños son sensibles al precio y con alta rotación (churn); depende de la API de Etsy; Craftybase ya cubre costos de materiales.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N02-01",
+  "filtros_fallados": [],
+  "objecion": "Competidores establecidos (BuildPulse, Trunk) y GitHub puede añadir detección nativa; cuña de precio fijo es copiable pero canal (GitHub Marketplace, HN) es concreto y mercado grande; incertidumbre de disposición de pago de equipos pequeños.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N08-19",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Plugins WordPress gratis o baratos y las redes de afiliados ya dan reportes; cuña 'reporte unificado' requiere integrar APIs de redes cerradas (Amazon Associates sin API simple, sin verificar); creadores pequeños pagan poco a $15.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; competidores 'sin verificar'; proveedores envían changelogs/emails propios y existen RSS/watchers gratis; mantener cobertura de ~500 APIs es trabajo operativo continuo para 1 persona; disposición de pago débil.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Workflow Builder de Slack y bots de recordatorio pueden replicar escalamiento; funcionalidad trivial de copiar, Slack puede incluirla; pagador (líder de proyecto) con poca disposición de pago a $19.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Canva y Beacons gratis cubren media kits; métricas verificadas por API es cuña débil y requiere aprobar OAuth de múltiples plataformas; marcas no exigen ese nivel; creadores pequeños esperan gratis y usan el kit de forma esporádica (churn).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-11",
+  "filtros_fallados": [],
+  "objecion": "Cuña de precio por envío sobre SES es conocida (Sendy, Buttondown); entregabilidad y abuso exigen moderación y reputación de IP, lo cual no es operable fácilmente solo; creadores prefieren features/monetización de Beehiiv; riesgo de cuentas SES suspendidas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-11",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Cuña no explicitada; E2B, Modal y otros financiados compiten en precio; infraestructura de sandboxing implica costos de cómputo y riesgo de seguridad (escape) sin capital; mercado de pagadores pequeño aún; cobro mínimo $99 fácil de igualar.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N08-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Visualping cubre lo básico con plan gratis (sin verificar planes); cuña de plantillas por tipo de página es copiable con un prompt; scraping de sitios con anti-bot es costoso de mantener; marketers pagan poco por alertas ocasionales.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "YouTube Studio mejora gratis y vidIQ/TubeBuddy ya incluyen funciones; depende de la API de YouTube (cuotas y políticas); cuña de ideas de contenido es copiable por LLM genéricos; Chrome Web Store saturada.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-11",
+  "filtros_fallados": [],
+  "objecion": "Muy competido: Vanta/Drata/SafeBase y herramientas IA para cuestionarios de seguridad; comprador founder pequeño tiene pocos cuestionarios; $79 requiere confianza y precisión de respuestas (riesgo si hay errores); la cuña 'solo cuestionarios' ya la ocupan Loopio/Conveyor, sin verificar precios.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-07",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Percibido como asesoría legal/cumplimiento; las suites (Termly, Osano) ya incluyen DSAR a precio bajo y existen plantillas gratis; cuña de precio plano débil; comprador pyme sin urgencia hasta recibir una solicitud (compra esporádica, churn alto).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-14",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Efecto de red/arranque en frío: sin red no tiene valor; SparkLoop y beehiiv Boosts ya la tienen y los ESP la incorporan; cuña de precio plano no resuelve el cold start; canal vago (directorios de ESP dependen de terceros).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-03",
+  "filtros_fallados": [],
+  "objecion": "Extensión barata con cuña clara (local, por usuario) y demanda creciente, pero Chrome/OpenAI/Microsoft Purview pueden integrarlo; empresas con política de datos compran DLP centralizado, no $9 individual; $9 exige muchos pagadores y confianza en una extensión que ve todos los prompts; falsos positivos.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N05-01",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Mercado propio declarado como 'decenas de miles' de organizaciones de pago (sin verificar), bajo 100k; Slack puede añadir la función nativa; compra esporádica de limpieza.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N02-02",
+  "filtros_fallados": [],
+  "objecion": "Cuña concreta y momento oportuno (cambio de precios de Actions, con evidencia), pero GitHub puede mejorar su reporte nativo y es dependencia fuerte; el ahorro puede ser puntual (se usa una vez y se cancela, churn); Depot/Blacksmith/Datadog cubren parte.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N03-11",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "La idea reconoce mercado 'decenas de miles a cientos de miles' (sin verificar) y riesgo F6; Supercast/Memberful/Patreon ya sirven este caso; pagadores reales de audio privado de pago son pocos.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G23-13",
+  "filtros_fallados": [
+   "F4",
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; Seller 365/Threecolts ya cubren; depende de Amazon SP-API; canal 'foros y grupos de Facebook' es vago y con moderación hostil; borradores de apelación los hace ChatGPT gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "HubSpot Free y alternativas gratuitas cubren la necesidad; la propia idea marca F1; mercado muy saturado de CRM y freelancers esperan gratis o usan Notion/Sheets; cuña de velocidad de setup no es defendible.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N09-03",
+  "filtros_fallados": [],
+  "objecion": "Mercado saturado (Help Scout, Front, Zendesk, muchos clones baratos); cuña de precio plano copiable; soporte exige confiabilidad de entrega de email y integraciones; SEO 'Zendesk alternative' muy disputado sin verificar dificultad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-05",
+  "filtros_fallados": [],
+  "objecion": "Copilot/IA nativa de GitHub u otros agentes pueden cubrirlo; la salida (parches de docs) es de calidad variable y la disposición de pago de maintainers es baja (OSS espera gratis); Swimm/Mintlify ya ofrecen partes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-08",
+  "filtros_fallados": [
+   "F6",
+   "F5"
+  ],
+  "objecion": "Mercado de podcasters que pagan por ranking tracking probablemente <100k (sin verificar); datos de Apple/Spotify frágiles/scraping; $12 con uso esporádico y churn alto; Podchaser y Rephonic ya existen; hueco por cierre sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-14",
+  "filtros_fallados": [
+   "F3",
+   "F4",
+   "F6"
+  ],
+  "objecion": "Cuña no explicitada; CMMS (UpKeep, Fiix) incluyen inventario de repuestos; comprador industrial exige ventas/demos y LinkedIn outbound no es canal de autoservicio; mercado de plantas medianas con CMMS reducido; sin conocimiento industrial como ventaja según brief v2.",
+  "severidad": "fatal"
+ }
+]

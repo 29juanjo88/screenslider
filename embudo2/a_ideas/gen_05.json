@@ -1,0 +1,413 @@
+[
+ {
+  "id": "N05-01",
+  "nombre": "Slack Channel Archiver",
+  "cliente_que_paga": "Admin de workspace Slack / líder de operaciones",
+  "problema": "Canales muertos y datos que se pierden por límites de retención; limpieza manual",
+  "solucion": "App Slack que detecta canales inactivos, los archiva con resumen y exporta historial buscable a S3/Drive",
+  "precio_usd_mes": 49.0,
+  "canal_primeros_100": "Slack App Directory: búsqueda 'archive channels', 'cleanup'; r/slack",
+  "competidores": [
+   "Slack nativo (archivado manual)",
+   "Slack Export"
+  ],
+  "cuña": "Automatiza política de ciclo de vida por canal con reglas y exportación legible; lo nativo es manual",
+  "tamaño_mercado": "Slack: decenas de miles de organizaciones de pago (sin verificar)",
+  "por_que_ahora": "Equipos pasan a planes con retención costosa",
+  "riesgo_principal": "Slack puede añadir la función nativa",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Slack lifecycle"
+ },
+ {
+  "id": "N05-02",
+  "nombre": "Teams Meeting Notes Router",
+  "cliente_que_paga": "Líder de equipo en Microsoft 365",
+  "problema": "Notas y acciones de reuniones de Teams no llegan a Jira/Planner/Notion",
+  "solucion": "App de Teams que toma transcripción y publica acciones en la herramienta del equipo con plantillas",
+  "precio_usd_mes": 15.0,
+  "canal_primeros_100": "Microsoft AppSource: búsqueda 'meeting action items'",
+  "competidores": [
+   "Microsoft Copilot en Teams",
+   "Otter.ai",
+   "Fireflies.ai"
+  ],
+  "cuña": "Enrutamiento a Jira/Notion/Asana configurable por canal y precio plano por equipo, no por usuario",
+  "tamaño_mercado": "Teams: cientos de millones de usuarios; equipos pagadores en millones (sin verificar)",
+  "por_que_ahora": "Transcripción en Teams ya disponible vía API",
+  "riesgo_principal": "Copilot es gratis/incluido para algunos y cubre parte",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Teams actions"
+ },
+ {
+  "id": "N05-03",
+  "nombre": "Jira Stale Ticket Sweeper",
+  "cliente_que_paga": "Scrum master / engineering manager",
+  "problema": "Backlogs con miles de tickets obsoletos",
+  "solucion": "App Jira Cloud que propone cerrar/fusionar tickets viejos o duplicados con revisión en lote",
+  "precio_usd_mes": 29.0,
+  "canal_primeros_100": "Atlassian Marketplace: 'backlog cleanup', 'stale issues'",
+  "competidores": [
+   "Automation for Jira (nativo)",
+   "Atlassian Rovo"
+  ],
+  "cuña": "UI de revisión por lotes con puntuación de obsolescencia; la automatización nativa solo usa reglas simples",
+  "tamaño_mercado": "Jira Cloud: cientos de miles de sitios (sin verificar)",
+  "por_que_ahora": "Backlogs inflados tras años de uso",
+  "riesgo_principal": "Atlassian puede cubrirlo con IA nativa",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Jira backlog cleanup"
+ },
+ {
+  "id": "N05-04",
+  "nombre": "Notion Backup & Restore",
+  "cliente_que_paga": "Admin de equipo Notion",
+  "problema": "Páginas borradas o corrompidas sin restauración granular",
+  "solucion": "Respaldo diario de workspace con diffs y restauración por página a Notion o Markdown",
+  "precio_usd_mes": 19.0,
+  "canal_primeros_100": "SEO 'notion backup', Notion integrations gallery",
+  "competidores": [
+   "Notion (historial 30-90 días)",
+   "Backupify",
+   "Rewind"
+  ],
+  "cuña": "Restauración por página con diff y precio plano; competidores son genéricos o caros",
+  "tamaño_mercado": "Notion: decenas de millones de usuarios (sin verificar)",
+  "por_que_ahora": "Notion es base de conocimiento crítica",
+  "riesgo_principal": "Notion puede ampliar historial de versiones",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Notion backup"
+ },
+ {
+  "id": "N05-05",
+  "nombre": "Google Sheets Change Auditor",
+  "cliente_que_paga": "Finanzas/RevOps en empresas con Google Workspace",
+  "problema": "Nadie sabe quién cambió qué celda crítica",
+  "solucion": "Add-on de Sheets con registro de cambios por celda, alertas y reversión",
+  "precio_usd_mes": 12.0,
+  "canal_primeros_100": "Google Workspace Marketplace: 'sheet audit', 'change log'",
+  "competidores": [
+   "Historial de versiones de Google Sheets",
+   "Sheetgo"
+  ],
+  "cuña": "Alertas por rango y reporte exportable; el historial nativo es por versión, no por celda",
+  "tamaño_mercado": "Workspace: miles de millones de usuarios, hojas críticas en millones de equipos (sin verificar)",
+  "por_que_ahora": "Hojas como bases de datos operativas",
+  "riesgo_principal": "Google puede mejorar historial",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Sheets audit trail"
+ },
+ {
+  "id": "N05-06",
+  "nombre": "Slack Standup Async",
+  "cliente_que_paga": "Engineering manager",
+  "problema": "Standups por reunión consumen tiempo",
+  "solucion": "Bot Slack con check-ins asíncronos y resumen semanal por IA con precio plano",
+  "precio_usd_mes": 29.0,
+  "canal_primeros_100": "Slack App Directory: 'standup'",
+  "competidores": [
+   "Geekbot",
+   "Standuply",
+   "Range"
+  ],
+  "cuña": "Precio plano por workspace en vez de por usuario y resumen listo para stakeholders",
+  "tamaño_mercado": "Equipos remotos/híbridos: millones (sin verificar)",
+  "por_que_ahora": "Trabajo remoto estable",
+  "riesgo_principal": "Mercado saturado de bots de standup",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Async standups"
+ },
+ {
+  "id": "N05-07",
+  "nombre": "Teams Approval Flows Lite",
+  "cliente_que_paga": "Gerentes de operaciones/compras",
+  "problema": "Aprobaciones por chat se pierden",
+  "solucion": "App de Teams para solicitudes de aprobación con auditoría y recordatorios, sin Power Automate",
+  "precio_usd_mes": 29.0,
+  "canal_primeros_100": "AppSource: 'approvals'",
+  "competidores": [
+   "Microsoft Approvals",
+   "Power Automate"
+  ],
+  "cuña": "Configuración en 2 minutos, sin licencias Power Platform; lo nativo exige construir flujos",
+  "tamaño_mercado": "Usuarios Teams con necesidad de aprobaciones: millones (sin verificar)",
+  "por_que_ahora": "Aprobaciones informales por chat",
+  "riesgo_principal": "Microsoft Approvals es incluida (riesgo F1)",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Teams approvals"
+ },
+ {
+  "id": "N05-08",
+  "nombre": "Confluence Doc Freshness",
+  "cliente_que_paga": "Líder de documentación / ingeniería",
+  "problema": "Documentación desactualizada sin dueño",
+  "solucion": "App Confluence que marca páginas obsoletas, asigna dueños y envía recordatorios",
+  "precio_usd_mes": 39.0,
+  "canal_primeros_100": "Atlassian Marketplace: 'stale pages'",
+  "competidores": [
+   "Better Content Archiving",
+   "Atlassian Rovo"
+  ],
+  "cuña": "Puntuación de frescura y recordatorios al dueño; los archivadores solo archivan por fecha",
+  "tamaño_mercado": "Confluence Cloud: cientos de miles de sitios (sin verificar)",
+  "por_que_ahora": "Adopción de IA exige docs precisos",
+  "riesgo_principal": "Atlassian puede integrar",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Doc freshness"
+ },
+ {
+  "id": "N05-09",
+  "nombre": "Slack to Notion Knowledge Saver",
+  "cliente_que_paga": "Equipos de soporte y producto",
+  "problema": "Respuestas valiosas se pierden en hilos de Slack",
+  "solucion": "Reacción emoji guarda el hilo como página estructurada en Notion/Confluence con resumen",
+  "precio_usd_mes": 19.0,
+  "canal_primeros_100": "Slack App Directory: 'save to Notion'",
+  "competidores": [
+   "Notion Slack integration",
+   "Slack Workflow Builder",
+   "Question Base"
+  ],
+  "cuña": "Estructura y etiquetas automáticas con una reacción; integraciones nativas son básicas",
+  "tamaño_mercado": "Workspaces Slack con Notion: sin verificar",
+  "por_que_ahora": "Búsqueda de conocimiento impulsada por IA",
+  "riesgo_principal": "Notion/Slack pueden mejorar integración",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Slack knowledge capture"
+ },
+ {
+  "id": "N05-10",
+  "nombre": "Workspace Offboarding Checklist",
+  "cliente_que_paga": "Gerente de TI / People Ops",
+  "problema": "Desvinculaciones dejan accesos abiertos en Slack, Google, Notion",
+  "solucion": "Panel que ejecuta checklist de baja entre Slack/Google/Notion/Jira con evidencia",
+  "precio_usd_mes": 99.0,
+  "canal_primeros_100": "SEO 'employee offboarding checklist template', Google Workspace Marketplace",
+  "competidores": [
+   "BetterCloud",
+   "Zluri",
+   "Okta Workflows"
+  ],
+  "cuña": "Autoservicio y precio fijo para empresas de 50-500 sin presupuesto de SaaS-management",
+  "tamaño_mercado": "Empresas de 50-1000 empleados: cientos de miles (sin verificar)",
+  "por_que_ahora": "Auditorías SOC2 más frecuentes",
+  "riesgo_principal": "Requiere permisos admin amplios; confianza",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Offboarding automation"
+ },
+ {
+  "id": "N05-11",
+  "nombre": "Google Drive Orphan Cleaner",
+  "cliente_que_paga": "Admin de Google Workspace",
+  "problema": "Archivos huérfanos de ex-empleados y compartidos públicos",
+  "solucion": "App que detecta archivos huérfanos/compartidos de más y los reasigna o cierra",
+  "precio_usd_mes": 79.0,
+  "canal_primeros_100": "Google Workspace Marketplace: 'drive audit'",
+  "competidores": [
+   "Google Admin Console",
+   "Cloudfuse",
+   "BetterCloud"
+  ],
+  "cuña": "Reporte de riesgo con acción en lote; la consola nativa no ofrece remediación fácil",
+  "tamaño_mercado": "Workspace de pago: millones de organizaciones (sin verificar)",
+  "por_que_ahora": "Sobreexposición de datos y costos de almacenamiento",
+  "riesgo_principal": "Google puede mejorar admin console",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Drive permissions cleanup"
+ },
+ {
+  "id": "N05-12",
+  "nombre": "Slack Reminder Escalation",
+  "cliente_que_paga": "Líder de proyecto",
+  "problema": "Recordatorios de Slack se ignoran",
+  "solucion": "Bot que escala tareas vencidas a gerente con reglas y resumen",
+  "precio_usd_mes": 19.0,
+  "canal_primeros_100": "Slack App Directory: 'reminders', 'follow-ups'",
+  "competidores": [
+   "Slack Reminders",
+   "Workflow Builder",
+   "Follow-up bots"
+  ],
+  "cuña": "Escalamiento escalonado y reporte semanal; Slack nativo no escala",
+  "tamaño_mercado": "Workspaces de pago: sin verificar",
+  "por_que_ahora": "Equipos distribuidos",
+  "riesgo_principal": "Funcionalidad fácilmente replicable",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Slack follow-ups"
+ },
+ {
+  "id": "N05-13",
+  "nombre": "Jira Time Tracking Lite",
+  "cliente_que_paga": "Freelancers y agencias que usan Jira",
+  "problema": "Seguimiento de tiempo pesado en Jira",
+  "solucion": "App Jira con cronómetro por ticket y exportación a facturación",
+  "precio_usd_mes": 3.0,
+  "canal_primeros_100": "Atlassian Marketplace: 'time tracking'",
+  "competidores": [
+   "Tempo Timesheets",
+   "Clockwise"
+  ],
+  "cuña": "Setup en un clic y precio por equipo vs. Tempo por usuario",
+  "tamaño_mercado": "Jira Cloud: cientos de miles de sitios (sin verificar)",
+  "por_que_ahora": "Más agencias remotas",
+  "riesgo_principal": "Mercado saturado, precio bajo (riesgo F5)",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Jira time tracking"
+ },
+ {
+  "id": "N05-14",
+  "nombre": "Teams Channel Digest",
+  "cliente_que_paga": "Gerente de comunicaciones interna",
+  "problema": "Canales de Teams ruidosos",
+  "solucion": "App que envía resumen diario/semanal por canal con IA",
+  "precio_usd_mes": 49.0,
+  "canal_primeros_100": "AppSource: 'digest'",
+  "competidores": [
+   "Copilot en Teams",
+   "Viva Engage"
+  ],
+  "cuña": "Resumen por rol y correo opcional; Copilot cuesta más y es general",
+  "tamaño_mercado": "Usuarios de Teams: cientos de millones (sin verificar)",
+  "por_que_ahora": "IA barata para resumir",
+  "riesgo_principal": "Copilot puede cubrir",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Teams digest"
+ },
+ {
+  "id": "N05-15",
+  "nombre": "Notion Database Sync to Sheets",
+  "cliente_que_paga": "Operaciones y analistas",
+  "problema": "Datos de Notion no se pueden analizar en Sheets/BI",
+  "solucion": "Sincronización bidireccional programada de bases Notion a Google Sheets/Excel",
+  "precio_usd_mes": 19.0,
+  "canal_primeros_100": "Notion integrations gallery, SEO 'notion to google sheets'",
+  "competidores": [
+   "Zapier",
+   "Make",
+   "Coupler.io"
+  ],
+  "cuña": "Sync bidireccional simple a precio plano; Zapier cobra por tarea",
+  "tamaño_mercado": "Usuarios de Notion de equipos: sin verificar",
+  "por_que_ahora": "Notion como base operativa",
+  "riesgo_principal": "Dependencia de API de Notion",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Notion sheets sync"
+ },
+ {
+  "id": "N05-16",
+  "nombre": "Slack Retention Policy Exporter",
+  "cliente_que_paga": "Compliance/Legal ops en empresas pequeñas y medianas",
+  "problema": "Cumplir retención sin plan Enterprise Grid",
+  "solucion": "Exportación programada y cifrada de mensajes a almacenamiento propio con búsqueda",
+  "precio_usd_mes": 79.0,
+  "canal_primeros_100": "SEO 'slack data retention export', Slack App Directory",
+  "competidores": [
+   "Slack Discovery API",
+   "Smarsh",
+   "Pagefreezer"
+  ],
+  "cuña": "Autoservicio sin ciclos de venta; competidores son enterprise",
+  "tamaño_mercado": "Empresas reguladas medianas: sin verificar",
+  "por_que_ahora": "Reglas de retención crecientes",
+  "riesgo_principal": "API de exportación depende de plan de Slack",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Slack compliance export"
+ },
+ {
+  "id": "N05-17",
+  "nombre": "Google Calendar Meeting Cost",
+  "cliente_que_paga": "Gerentes y finanzas",
+  "problema": "Reuniones cuestan tiempo sin visibilidad",
+  "solucion": "Extensión que estima costo de reuniones y sugiere eliminar recurrentes innecesarias",
+  "precio_usd_mes": 8.0,
+  "canal_primeros_100": "Chrome Web Store: 'meeting cost calculator'; Google Workspace Marketplace",
+  "competidores": [
+   "Clockwise",
+   "Reclaim.ai"
+  ],
+  "cuña": "Foco en costo y auditoría de recurrentes; los otros son planificadores",
+  "tamaño_mercado": "Workspace con calendario: millones (sin verificar)",
+  "por_que_ahora": "Cultura de reducir reuniones",
+  "riesgo_principal": "Valor percibido bajo, canal Chrome",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Meeting cost"
+ },
+ {
+  "id": "N05-18",
+  "nombre": "Jira Release Notes Generator",
+  "cliente_que_paga": "Product managers y desarrolladores",
+  "problema": "Redactar notas de versión manualmente",
+  "solucion": "App Jira/Confluence que genera notas de versión de tickets y las publica",
+  "precio_usd_mes": 29.0,
+  "canal_primeros_100": "Atlassian Marketplace: 'release notes'",
+  "competidores": [
+   "Release Notes for Jira",
+   "Atlassian Rovo"
+  ],
+  "cuña": "Plantillas para cliente final y publicación a changelog; precio plano",
+  "tamaño_mercado": "Equipos que publican software: cientos de miles (sin verificar)",
+  "por_que_ahora": "LLMs facilitan resumen",
+  "riesgo_principal": "Atlassian puede integrar IA",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Release notes automation"
+ },
+ {
+  "id": "N05-19",
+  "nombre": "SaaS License Waste Finder",
+  "cliente_que_paga": "Gerentes de TI en empresas medianas",
+  "problema": "Licencias de Slack/Notion/Atlassian sin usar",
+  "solucion": "Panel que cruza actividad por usuario y sugiere reducir asientos",
+  "precio_usd_mes": 69.0,
+  "canal_primeros_100": "SEO 'reduce saas costs', 'unused licenses'",
+  "competidores": [
+   "Zylo",
+   "Vendr",
+   "Zluri"
+  ],
+  "cuña": "Precio fijo autoservicio para 50-500 asientos; rivales venden por contrato",
+  "tamaño_mercado": "Empresas medianas con >10 SaaS: cientos de miles (sin verificar)",
+  "por_que_ahora": "Presión de costos SaaS",
+  "riesgo_principal": "Requiere permisos admin; ciclo de confianza",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "SaaS seat optimization"
+ },
+ {
+  "id": "N05-20",
+  "nombre": "Slack Status Page Bot",
+  "cliente_que_paga": "Equipos de soporte e ingeniería on-call",
+  "problema": "Comunicar incidentes a clientes y equipo internamente es manual",
+  "solucion": "Bot Slack que publica página de estado y actualizaciones desde un canal de incidentes",
+  "precio_usd_mes": 29.0,
+  "canal_primeros_100": "Slack App Directory: 'incident', 'status page'",
+  "competidores": [
+   "Statuspage (Atlassian)",
+   "Incident.io",
+   "Instatus"
+  ],
+  "cuña": "Un solo comando en Slack publica la página; precio plano vs. Statuspage por suscriptores",
+  "tamaño_mercado": "Equipos SaaS y TI: cientos de miles (sin verificar)",
+  "por_que_ahora": "Más empresas con SLAs públicos",
+  "riesgo_principal": "Mercado competido",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Incident status page"
+ }
+]

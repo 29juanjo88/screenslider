@@ -1,0 +1,422 @@
+[
+ {
+  "id": "N02-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Cuña parcial: TruffleHog OSS escanea imágenes; valor gestionado/continuo, canal GitHub Marketplace/SEO plausible."
+ },
+ {
+  "id": "N03-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 31,
+  "razon": "ChatGPT con prompt hace lo mismo; cuña copiable; mercado de podcasters con newsletter que pagan es medio."
+ },
+ {
+  "id": "N09-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 34,
+  "razon": "Mercado saturado (Photoroom, remove.bg, Canva) y modelos abiertos; cuña de precio por plan débil."
+ },
+ {
+  "id": "N03-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "Hojas de cálculo/contadores cubren; APIs frágiles; baja disposición de pago y canal vago."
+ },
+ {
+  "id": "N10-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 35,
+  "razon": "Dolor agudo pero puntual (sin recurrencia), scripts OSS gratis; buen SEO de intención."
+ },
+ {
+  "id": "N05-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "total": 35,
+  "razon": "Cuña de precio fijo para 50-500 plausible; permisos admin, confianza e integraciones múltiples frenan ejecución."
+ },
+ {
+  "id": "G25-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 1
+  },
+  "total": 36,
+  "razon": "Dolor y pago reales, pero Vanta/Drata/Sprinto cubren 'barato'; sin cuña; ejecución y confianza difíciles para una persona."
+ },
+ {
+  "id": "N08-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 41,
+  "razon": "Demanda creciente y búsqueda con intención; muchos competidores baratos, scraping/costo frágil."
+ },
+ {
+  "id": "G23-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 5
+  },
+  "total": 33,
+  "razon": "Sin cuña, herramientas gratis de fondo blanco; uso esporádico; fácil de construir."
+ },
+ {
+  "id": "N06-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "razon": "OpenAI/Anthropic ya ofrecen proyectos con límites; LiteLLM/Helicone; confianza en proxy de claves."
+ },
+ {
+  "id": "N04-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 5
+  },
+  "total": 34,
+  "razon": "Gumroad/Pixieset/Stripe links cubren gran parte; pago bajo."
+ },
+ {
+  "id": "N10-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 35,
+  "razon": "Función que CMPs añaden; $9 exige mucho volumen; canal WP.org plausible."
+ },
+ {
+  "id": "N06-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Repomix/gitingest OSS gratis cubren la cuña; F1."
+ },
+ {
+  "id": "G16-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Dolor regulatorio EAA real, canal GitHub Marketplace; axe/Lighthouse gratis cubren detección, cuña fina."
+ },
+ {
+  "id": "N08-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Judge.me y widgets de reseñas gratis cubren la cuña; importación G2/Trustpilot limitada por ToS; F1."
+ },
+ {
+  "id": "N10-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "total": 39,
+  "razon": "Ya pagan Supermetrics/Coupler; precio plano es cuña real; Looker Studio gratis y mantenimiento de conectores."
+ },
+ {
+  "id": "N07-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 38,
+  "razon": "Dolor/pago reales pero SEO dominado por Koinly/CoinTracker y mantenimiento fiscal multi-país; cuña de precio copiable."
+ },
+ {
+  "id": "N09-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Tally gratis con pagos Stripe cubre la cuña; F1."
+ },
+ {
+  "id": "N09-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 38,
+  "razon": "Dolor de precio de Mailchimp real, 'Mailchimp alternative' con intención; muy saturado y entregabilidad difícil."
+ },
+ {
+  "id": "N03-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 5
+  },
+  "total": 32,
+  "razon": "Stripe/Invoice Ninja recordatorios gratis; uso episódico, $12 y mercado acotado."
+ },
+ {
+  "id": "N02-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "GitHub Marketplace es canal nombrado y análisis de uso es cuña; Copilot/Renovate pueden cubrirlo; poco pago por devs."
+ },
+ {
+  "id": "N04-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "razon": "UptimeRobot gratis y ManageWP/MainWP ya reportan; cuña es plantilla de informe."
+ },
+ {
+  "id": "N09-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 37,
+  "razon": "'Frame.io alternative' tiene intención y viralidad en enlaces; infraestructura de video y varios alternativos baratos."
+ },
+ {
+  "id": "N08-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 33,
+  "razon": "Instantly/Smartlead ya baratos; sin cuña; riesgo de reputación/spam."
+ },
+ {
+  "id": "N01-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 34,
+  "razon": "Setup puntual, herramientas DMARC gratis; mercado grande pero poca recurrencia."
+ },
+ {
+  "id": "G29-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "razon": "MacWhisper/Whisper/nativo del SO; contradicción entre $79/mes y pago único."
+ },
+ {
+  "id": "N09-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Agencias ya pagan; AgencyAnalytics/DashThis cubren; Looker Studio gratis; cuña débil."
+ },
+ {
+  "id": "G23-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 28,
+  "razon": "Amazon restringe automatización y respuestas; canal vago; sin cuña."
+ },
+ {
+  "id": "N03-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "total": 30,
+  "razon": "Dolor real pero mercado acotado, resultados de takedown inciertos y riesgo legal."
+ },
+ {
+  "id": "N08-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 34,
+  "razon": "ChatGPT con prompt y Castmagic/Taplio cubren; sin cuña defendible."
+ }
+]

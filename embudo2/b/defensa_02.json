@@ -1,0 +1,182 @@
+[
+ {
+  "id": "N03-07",
+  "rescatar": true,
+  "respuesta": "Concedo que Mail-Tester y Postmaster son gratis para chequeos puntuales. Pero el valor es el monitoreo continuo con alerta (no puntual), y el editor que monetiza su lista pierde ingresos cada vez que cae en Promociones, así que el dolor es recurrente. Canal nombrado: SEO 'newsletter deliverability test' y comunidades beehiiv/Substack, con empuje de los requisitos de Gmail/Yahoo.",
+  "ajuste_sugerido": "Vender como alerta continua para editores con lista de pago; límite de dominios por plan; cuidar el costo de las cuentas semilla con un pool compartido."
+ },
+ {
+  "id": "N09-16",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-07",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fatal, filtros F1,F5): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-05",
+  "rescatar": true,
+  "respuesta": "Concedo el riesgo de plataforma (Google). Pero el historial nativo es por versión, no por celda, y el comprador (finanzas/RevOps) paga por control y auditoría con presupuesto existente. El Workspace Marketplace es un canal nombrado con búsquedas de intención ('change log', 'audit'). Tamaño real: millones de equipos con hojas críticas.",
+  "ajuste_sugerido": "Posicionar como auditoría y cumplimiento (SOX/controles internos) con alertas por rango; cobrar por hoja/equipo, no por usuario; validar con el listado del Marketplace antes de construir reversión."
+ },
+ {
+  "id": "N01-09",
+  "rescatar": true,
+  "respuesta": "Concedo plugins RMA de Woo y mantenimiento por versiones. Pero el comprador es claro (tienda Woo con volumen de devoluciones), el mercado es de millones de tiendas (evidencia citada) y el canal es de intención de compra: WordPress.org y búsqueda 'woocommerce returns plugin'. Las apps fuertes son Shopify-first, y a $39 bastan ~260 clientes para $10k.",
+  "ajuste_sugerido": "Empezar solo con portal + crédito/reembolso y etiquetas vía un carrier; precio por volumen de pedidos; medir en WordPress.org antes de integrar más carriers."
+ },
+ {
+  "id": "N08-16",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-11",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-19",
+  "rescatar": true,
+  "respuesta": "Concedo el peso de acceso al correo y OAuth. Pero se puede arrancar sin scopes restringidos (reenvío de facturas a un buzón dedicado, carga de CSV/PDF), y el incumbente es enterprise con ventas, así que el equipo pequeño con decenas de SaaS queda sin servir. El dolor (renovaciones y subidas de precio descubiertas tarde) cuesta dinero real. Canal: SEO 'SaaS subscription tracker', Product Hunt.",
+  "ajuste_sugerido": "MVP con reenvío de correos/CSV, sin OAuth; el valor central son las alertas de renovación; subir a lectura de correo luego."
+ },
+ {
+  "id": "N05-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fatal, filtros F5): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fatal, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-11",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-03",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-15",
+  "rescatar": true,
+  "respuesta": "Concedo que Stape y Elevar son fuertes y que depende de APIs de Meta/Google. Aun así, hay presupuesto existente (tiendas que gastan en ads pierden señal de conversión), el comprador es concreto y el canal es nombrado: Shopify App Store y búsquedas 'server-side tracking Shopify'. Cuña de setup simple y precio fijo es defendible frente a una herramienta técnica.",
+  "ajuste_sugerido": "Limitarse a Shopify + Meta CAPI + GA4 con plantillas; usar infraestructura serverless barata; evitar soporte pesado con onboarding guiado."
+ },
+ {
+  "id": "N02-15",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-10",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-04",
+  "rescatar": true,
+  "respuesta": "Concedo el riesgo de percibirse como asesoría fiscal y que Stripe Tax cubre parte. Pero el dolor es recurrente (declaraciones periódicas), el vendedor indie ya paga a Quaderno/TaxJar, y la cuña (sin comisión de MoR, sin migrar) es concreta. Canal con intención: SEO 'EU VAT OSS digital products', Indie Hackers, directorio de Stripe.",
+  "ajuste_sugerido": "Entregar solo borradores y reportes de obligaciones con descargo claro; empezar por UE OSS/UK y luego sales tax por estado; precio por volumen de ingresos."
+ },
+ {
+  "id": "N03-19",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-18",
+  "rescatar": true,
+  "respuesta": "Concedo que los incumbentes añaden IA y que la confianza con datos de facturación pesa. Pero hay presupuesto existente (gasto en IA crece, FinOps lo busca), el comprador es concreto (Ops/TI) y hay hueco para autoservicio a $49. Mercado de empresas medianas con muchas licencias de IA es grande aunque sin verificar.",
+  "ajuste_sugerido": "Entrar con carga de CSV/facturas sin SSO, y añadir integraciones SSO después; mensajes de ahorro cuantificado por empresa como gancho de SEO y contenido."
+ },
+ {
+  "id": "N07-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-02",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-01",
+  "rescatar": true,
+  "respuesta": "Concedo que muchos usan Notion/Sheets y que leer Gmail exige verificación OAuth. Pero el creador con patrocinios directos pierde dinero por seguimientos perdidos, la cuña (CPM, usage rights, entregables) no la cubren HoneyBook/Dubsado, y hay canal nombrado (r/NewTubers, r/podcasting, plantillas Notion con enlace). Aun con 'cientos de miles' alcanza para 500-700 clientes a $15.",
+  "ajuste_sugerido": "Lanzar sin lectura de Gmail (reenvío a un buzón o captura manual) y añadir OAuth cuando haya tracción; arrancar con un template de Notion como gancho."
+ },
+ {
+  "id": "N01-11",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fatal, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-15",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante (fuerte, filtros F1): la cuña es copiable, hay incumbente gratis o nativo suficiente, o el precio/retención no sostiene la meta. No se defiende.",
+  "ajuste_sugerido": ""
+ }
+]

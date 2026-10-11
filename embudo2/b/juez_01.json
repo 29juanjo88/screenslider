@@ -1,0 +1,422 @@
+[
+ {
+  "id": "N10-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 41,
+  "razon": "CMP con planes gratis; cuña de dominios ilimitados para agencias es de precio y copiable; canal WordPress/Shopify real."
+ },
+ {
+  "id": "G08-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "razon": "Monitores de estado de pago existen; cuña no explicitada; dolor moderado."
+ },
+ {
+  "id": "N08-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 29,
+  "razon": "Clon de analítica CAC/LTV sin cuña; integrar Meta/Google Ads es pesado."
+ },
+ {
+  "id": "N05-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "total": 42,
+  "razon": "Comprador admin y Workspace Marketplace claros; riesgo Google y verificación OAuth (CASA)."
+ },
+ {
+  "id": "N07-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Mercado enorme pero saturado, sin cuña real y adquisición cara; F5 no del todo."
+ },
+ {
+  "id": "N10-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Stirling-PDF y PDFgear gratis y locales cubren la cuña de cero subida."
+ },
+ {
+  "id": "N04-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 39,
+  "razon": "Mercado grande y MVP simple, pero cuña de precio débil y pago bajo de freelancers."
+ },
+ {
+  "id": "N06-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 28,
+  "razon": "Incumbentes con MCP hospedado y riesgo de integración nativa; comprador no técnico escaso."
+ },
+ {
+  "id": "N06-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 36,
+  "razon": "Un LLM con búsqueda verifica gratis; cuña de informe exportable débil; pago incierto."
+ },
+ {
+  "id": "N08-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Imágenes OG gratis vía frameworks (@vercel/og) y Canva."
+ },
+ {
+  "id": "N08-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Ahrefs Webmaster Tools gratis cubre backlinks perdidos de sitios propios."
+ },
+ {
+  "id": "N06-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Exportación nativa y extensiones gratis cubren la mayor parte; cuña de plantillas es nicho."
+ },
+ {
+  "id": "N10-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 43,
+  "razon": "Fecha regulatoria EAA da urgencia y canal nombrado; competidores fuertes y escáner limitado."
+ },
+ {
+  "id": "G22-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 34,
+  "razon": "Opus Clip domina; sin cuña y costo de video alto para una persona."
+ },
+ {
+  "id": "G13-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Copilot/GitHub y cualquier LLM gratis explican logs; sin cuña."
+ },
+ {
+  "id": "N03-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "razon": "Cuña real (YouTube/newsletters) y dolor monetario; pagadores una fracción de creadores."
+ },
+ {
+  "id": "G17-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 37,
+  "razon": "Dolor monetario claro pero Smart Retries nativo e incumbentes; cuña no explicitada."
+ },
+ {
+  "id": "N04-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 35,
+  "razon": "Portal ligero con competidores y plantillas Notion; cuña de precio copiable."
+ },
+ {
+  "id": "N05-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Microsoft Approvals incluida en Teams cubre la cuña."
+ },
+ {
+  "id": "N07-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 33,
+  "razon": "Consumidor masivo pero precio $4, churn alto y OAuth de Gmail costoso."
+ },
+ {
+  "id": "N04-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 28,
+  "razon": "Dolor ocasional, cuña difusa, hoja de cálculo es el rival."
+ },
+ {
+  "id": "G23-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 42,
+  "razon": "Dolor monetario directo, comunidad nombrada, tarifa fija vs % de recobro; mercado cercano al límite."
+ },
+ {
+  "id": "G23-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 31,
+  "razon": "Sellerboard cubre el caso; sin cuña; 4 integraciones de marketplace."
+ },
+ {
+  "id": "N03-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "YouTube ofrece traducción nativa y rivales fuertes; cuña de glosario copiable."
+ },
+ {
+  "id": "N08-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 27,
+  "razon": "Alternativas A/B abundantes; sin cuña; pocos sitios con tráfico suficiente."
+ },
+ {
+  "id": "N08-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 38,
+  "razon": "Dolor de dinero real pero Optmyzr/Adalysis y token de desarrollador de Google Ads."
+ },
+ {
+  "id": "N08-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 34,
+  "razon": "Encuestas post-compra con rivales de plan bajo; cuña de precio débil."
+ },
+ {
+  "id": "N04-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 32,
+  "razon": "Plan gratis de Testimonial.to y Senja; sin cuña defendible."
+ },
+ {
+  "id": "N07-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Granola y Fathom ya son sin bot y con planes gratis; cuña cubierta."
+ },
+ {
+  "id": "N06-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 35,
+  "razon": "Dictado nativo y Wispr/Superwhisper; cuña de plantillas débil."
+ }
+]

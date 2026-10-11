@@ -1,0 +1,176 @@
+[
+ {
+  "id": "N10-09",
+  "rescatar": true,
+  "respuesta": "Se concede que hay niveles gratis (Postmark digests) y que la cuña es contenido copiable. Pero el monitoreo DMARC es recurrente por naturaleza (reportes continuos, cambios de DNS, alertas), no compra puntual; dmarcian/EasyDMARC/Valimail apuntan a seguridad IT y MSPs. La demanda de SEO 'gmail bulk sender requirements' es de intención alta y el universo de dominios emisores es de millones, muy por encima de 100k. Quién paga: dueño de dominio/ecommerce con miedo a spam. Canal nombrado y concreto.",
+  "ajuste_sugerido": "Fijar la cuña en 'solución guiada por proveedor DNS' + alertas de regresión; precio plano $12-19; vender plantillas por proveedor (GoDaddy, Cloudflare, Namecheap) como páginas SEO programáticas."
+ },
+ {
+  "id": "G12-14",
+  "rescatar": true,
+  "respuesta": "Se concede que no hay cuña explicitada y que Notion puede mejorar su export. Aun así, el respaldo es un gasto que se justifica por miedo a pérdida y cumplimiento, y el cobro mensual se sostiene mientras el backup corre programado (no es compra puntual: el valor es el historial de diffs y la restauración). Notion integrations gallery y la búsqueda 'Notion backup' son canales nombrados con intención. Es el ancla MEDIA del brief (38); con cuña de restauración de bases con relaciones y destino propio sube.",
+  "ajuste_sugerido": "Cuña: restauración de páginas y bases con relaciones/diff, backups a bucket propio del cliente, plan por workspace; posicionar como cumplimiento/ retención para equipos."
+ },
+ {
+  "id": "N03-04",
+  "rescatar": true,
+  "respuesta": "Se concede la dependencia de APIs de Discord y que Collab.Land cubre parte. Pero la cuña es concreta: Patreon y Memberful atan al procesador propio y los creadores que venden por Gumroad/Lemon Squeezy/Stripe necesitan sincronizar roles; Zapier no gestiona expulsión/roles de forma confiable. El pago es recurrente (la comunidad vive de ello, acceso mal asignado = pérdida directa de ingreso), con canales de intención ('gumroad discord role'). El mercado de creadores con comunidad de pago supera 100k según el orden de magnitud de creadores en Gumroad/Patreon/Stripe, aunque sin verificar.",
+  "ajuste_sugerido": "Posicionar como 'una sola integración para Gumroad, Lemon Squeezy y Stripe'; precio plano $19; empezar con Discord y añadir Telegram/Slack después."
+ },
+ {
+  "id": "G16-03",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-19",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: F5 real a $5/mes y B2C caro.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-03",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: Clockify/Toggl gratis cubren la cuña.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: Copilot lo absorbe.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-05",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: sin cuña ni competidores.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: responsabilidad de exactitud y herramientas gratis de HS.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: cuña difusa.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-01",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: firma gratis integrada en Adobe/Google; canal saturado.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-19",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: planes gratis y segmento chico.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: ChatGPT gratis y riesgo legal.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-03",
+  "rescatar": true,
+  "respuesta": "Se concede que hay escáneres gratis puntuales y que los CMP pueden añadir monitoreo. Pero la objeción es 'moderada' incluso del atacante: lo que se vende es monitoreo continuo multi-sitio con informe white-label para agencias, algo que Blacklight/Webbkoll (puntuales) no ofrecen y que el CMP del cliente no audita de forma independiente. Dolor real (multas por GDPR/CCPA, quejas) y comprador concreto: agencia que factura el informe a sus clientes, lo que justifica $39 recurrente. Canal: SEO 'cookie audit' y directorio WordPress. El universo de agencias/sitios gestionados es probablemente >100k (sin verificar).",
+  "ajuste_sugerido": "Vender como 'informe mensual de cumplimiento revendible' (white-label), con alertas de regresión tras cambios del sitio; evitar lenguaje de asesoría legal."
+ },
+ {
+  "id": "N01-15",
+  "rescatar": true,
+  "respuesta": "Se concede la dependencia de Amazon SP-API y que los servicios por comisión dominan. Pero ahí está la cuña: vendedores FBA resienten la comisión de 20-25% sobre lo recuperado (sin verificar) y una cuota fija de $39 es atractiva a partir de volumen medio; el dolor es dinero directo y el comprador ya paga por algo peor/caro. Canal nombrado: SEO 'FBA reimbursement', r/FulfillmentByAmazon. Los vendedores FBA activos se cuentan en cientos de miles (sin verificar). El filtro F3 señalado no aplica: no es regulado ni requiere capital.",
+  "ajuste_sugerido": "Cuña explícita: cuota fija, sin comisión, con generación de reclamos lista para enviar; empezar solo con reportes subidos manualmente (sin SP-API) para reducir riesgo de plataforma."
+ },
+ {
+  "id": "N07-10",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: F5 y gratis fuerte.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: GitHub Releases gratis y cuña copiable.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-03",
+  "rescatar": true,
+  "respuesta": "Se concede el costo de mantener compatibilidad con el SDK de Sentry y que hay planes gratis. Pero la cuña es específica y dolorosa: facturas sorpresa por volumen de eventos y tope de gasto duro; GlitchTip/Bugsink son self-host, y quien no quiere operar infraestructura paga. Dolor claro, comprador concreto (CTO/dev de startup), canal con intención ('Sentry alternative', HN, README) y evidencia URL citada de quejas de precio. Mercado: millones de apps en producción (sin verificar). La ingesta es el riesgo de costo: se mitiga con muestreo y tope por plan.",
+  "ajuste_sugerido": "Acotar a ingesta de errores del protocolo Sentry (sin performance/replay), tope duro como característica principal, precio por volumen con límite; validar costo de infraestructura antes de lanzar."
+ },
+ {
+  "id": "N05-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: valor percibido bajo, F5.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-19",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: confianza/permisos admin, canal débil.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: calculadoras gratis, retención baja.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: facturadores incluyen recordatorios.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-04",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: planes gratis y saturado.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-08",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: riesgo de asesoría fiscal y alertas nativas.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-04",
+  "rescatar": true,
+  "respuesta": "Se concede que Merchant Center muestra diagnósticos y que las apps de feed incluyen funciones. Pero los diagnósticos nativos son crípticos; la intención de búsqueda 'Google Merchant Center disapproved' es alta y urgente (productos fuera de anuncios = ventas perdidas cada semana). El comprador paga por arreglos masivos por CSV/API, no por gestionar anuncios, y Feedonomics/DataFeedWatch son más caros. Mercado: cientos de miles de tiendas con Merchant Center (sin verificar). Canal doble: SEO y Shopify App Store.",
+  "ajuste_sugerido": "Cuña: 'arreglo masivo' con explicación en lenguaje claro y alertas de nuevos rechazos; plan plano $29; cubrir además WooCommerce/BigCommerce para no depender solo de Shopify."
+ },
+ {
+  "id": "N06-02",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: proveedores de IA añadirán prompts compartidos.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-17",
+  "rescatar": true,
+  "respuesta": "Se concede que hay muchos incumbentes y que algunos pivotan a autoservicio. Pero la objeción es moderada y sin filtro fallado: el atacante reconoce que el canal GitHub Marketplace es concreto. Equipos pequeños de 5-50 no son atendidos por LinearB/Jellyfish (venden con demos); un precio plano por equipo con instalación de 1 clic encaja en el modelo de autoservicio. Pagador: eng manager con presupuesto; $49 requiere ~200-1000 equipos para la meta, realista. Riesgo: diferenciación pequeña y GitHub puede añadir métricas.",
+  "ajuste_sugerido": "Elegir una métrica única de alto dolor (PR cycle time + revisión atascada) con alertas en Slack; precio $49 por equipo, y SEO de DORA por lenguaje/stack."
+ },
+ {
+  "id": "N07-02",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: F5 y Actual Budget gratis.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-18",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante. No rescatar: Bluebeam fuerte y posible mercado <100k.",
+  "ajuste_sugerido": ""
+ }
+]

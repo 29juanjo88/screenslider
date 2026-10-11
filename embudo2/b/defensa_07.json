@@ -1,0 +1,176 @@
+[
+ {
+  "id": "N10-05",
+  "rescatar": true,
+  "respuesta": "Concedo Granola y MacWhisper como competencia directa, y el riesgo de funciones nativas del SO. Aun así, el miedo a bots de reunión y a subir audio es un dolor real en consultores, abogados y terapeutas, que pagan $15 sin dudar. Mercado de profesionales es enorme (sin verificar) y la cuña (100% local, precio fijo) es precisamente lo que un SaaS en la nube no puede copiar sin cambiar su modelo. Canal: SEO 'meeting notes without bot', Product Hunt, r/macapps.",
+  "ajuste_sugerido": "Empezar solo en macOS; posicionar en privacidad para profesiones con confidencialidad (consultores, legal, salud); reconocer el riesgo Apple/Granola en el plan."
+ },
+ {
+  "id": "G13-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-05",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-09",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-16",
+  "rescatar": true,
+  "respuesta": "Concedo OSS parcial (Inframap) y pagadores quizá cercanos a 100k. Pero la cuña es concreta: la Action vive en el repo y commitea el diagrama, sin importación manual como Cloudcraft/Brainboard. Comprador: tech lead/DevOps, con presupuesto por auditorías y documentación. Canal nombrado: GitHub Marketplace y SEO 'terraform to diagram'. Ejecución por una persona viable en pocas semanas.",
+  "ajuste_sugerido": "Acotar primero a Terraform (luego K8s); medir con SEO y Marketplace antes de ampliar; resaltar salida para auditorías (SOC2/ISO) para subir disposición de pago."
+ },
+ {
+  "id": "N04-09",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-16",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-20",
+  "rescatar": true,
+  "respuesta": "Concedo que axe/Pa11y/Lighthouse gratis cubren la detección (F1 parcial). Pero la cuña no es detectar sino el entregable: reporte de cumplimiento y comentarios con parche en el PR. Compradores concretos: agencias y equipos front-end que deben demostrar cumplimiento a clientes, con presupuesto existente. Mercado de sitios comerciales y devs web es grande (sin verificar la cifra). Canal nombrado: GitHub Marketplace y SEO 'wcag ci check'. La EAA como motor es plausible pero sin verificar.",
+  "ajuste_sugerido": "Vender el reporte exportable (PDF/evidencia para auditoría) como producto central, no la detección; precio por repo/equipo; verificar fecha de la EAA antes de usarla en el mensaje."
+ },
+ {
+  "id": "N07-04",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-02",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-03",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-19",
+  "rescatar": true,
+  "respuesta": "Concedo la barrera de confianza con PII y OSS parcial. Pero el diseño CLI que corre en la infraestructura del cliente (los datos no pasan por el SaaS) mitiga la custodia; el dolor es real (cumplimiento + pruebas), el comprador existe con presupuesto y $49 reduce el volumen necesario (~200-400 clientes). Competidores enterprise (Tonic/Delphix) con ventas dejan abierto el autoservicio. Canal: SEO 'anonymize postgres production data', Hacker News.",
+  "ajuste_sugerido": "Arquitectura local-first: el CLI procesa en la máquina del cliente, el SaaS solo gestiona reglas y licencias; empezar solo con Postgres."
+ },
+ {
+  "id": "N08-07",
+  "rescatar": true,
+  "respuesta": "Concedo saturación (Triple Whale, Northbeam) y dependencia de Shopify. Pero el dolor es de dinero directo (gasto publicitario mal atribuido), el comprador es concreto y ya paga por herramientas más caras; la cuña de precio fijo para tiendas pequeñas ataca justo a quienes los incumbentes (cobro por ingresos) atienden mal. Canal nombrado: Shopify App Store, con intención de compra. Mercado >500k tiendas es plausible, sin verificar.",
+  "ajuste_sugerido": "Validar con una prueba de precisión simple antes de construir; posicionar en tiendas con gasto publicitario bajo-medio; plan de salida a Woo/Stripe para reducir riesgo de plataforma."
+ },
+ {
+  "id": "N07-07",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-03",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-20",
+  "rescatar": true,
+  "respuesta": "Concedo WAVE/Lighthouse gratis y la competencia de Siteimprove/Deque. La cuña es el informe con marca vendible por la agencia a su cliente: la agencia paga porque revende el entregable, lo que sostiene $29. Comprador concreto (agencia/freelance), canal nombrado (directorios de WordPress/Shopify, SEO 'accessibility audit report'). Se solapa con N02-20: conviene tratarla como la variante hacia agencias.",
+  "ajuste_sugerido": "Fusionar con N02-20 como una sola línea; white-label (informe con marca, escaneo programado) como núcleo y precio por número de sitios."
+ },
+ {
+  "id": "G14-02",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-05",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-16",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-19",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-16",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-10",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-04",
+  "rescatar": true,
+  "respuesta": "Concedo plan gratis de Healthchecks.io y competencia. Pero la cuña es DX por framework (Laravel, Node, GitHub Actions, k8s) y el perfil de Juan encaja con Laravel/Node; el canal es nombrado (Laravel News, paquetes npm/composer, SEO 'cron monitoring laravel'). Pagan por monitores/alertas al superar el plan gratis; el mercado de equipos con cron en producción excede 100k (estimación sin verificar). Riesgo de precio bajo: subir el ARPU con planes de equipo.",
+  "ajuste_sugerido": "Precio mínimo $12 con planes por equipo (no solo por monitor); empezar por Laravel como beachhead; evitar competir en el plan gratis."
+ },
+ {
+  "id": "N09-02",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción principal del atacante: cuña débil o copiable, incumbente gratis o mercado/canal insuficiente; no hay argumento concreto para rescatarla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-11",
+  "rescatar": true,
+  "respuesta": "Concedo copiabilidad y costo de curar contenido, y que hay rotación por picos. Pero el dolor y la intención de compra son altos (SEO '<cert> practice exam', r/AWSCertifications), el mercado de aspirantes es de millones (sin verificar) y los competidores tienen bancos 'desactualizados', lo que valida la cuña de actualización. La rotación se compensa con precio de $15 y renovación por nuevas certificaciones; contenido generado con LLM y revisión reduce el costo.",
+  "ajuste_sugerido": "Contenido original generado y revisado (evitar dumps); empezar con 1-2 certificaciones cloud; ofrecer plan trimestral para alinear con el ciclo de estudio."
+ }
+]

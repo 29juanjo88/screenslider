@@ -1,0 +1,235 @@
+[
+ {
+  "id": "N02-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "TruffleHog OSS y GitHub secret scanning cubren la base; escanear imágenes Docker/npm es posible gratis con CLI. Cuña de 'superficies' parcialmente cubierta; comprador (dev/seguridad en equipos pequeños) con poca urgencia de pago; integrar Slack/Notion exige permisos delicados.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña copiable: ChatGPT/Claude con prompt y cualquier competidor (Castmagic, Podsqueeze) pueden añadir 'enviar borrador al ESP' en semanas. Mercado de podcasters que además tienen newsletter y pagan es dudoso (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Mercado saturado: Remove.bg/Photoroom/Canva ya ofrecen lote y API; cuña 'precio por plan' es copiable y modelos abiertos gratis bajan el precio a cero. Costo de GPU/inferencia come margen a $19.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña de 'fuentes de creadores' débil: hojas de cálculo y contadores cubren; impuestos varían por país y rozan asesoría. Disposición de pago baja a $12 y conectar AdSense/Patreon por API es frágil; canal SEO vago para comprador que gestiona ingresos 1 vez al trimestre.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-13",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Uso puntual sin recurrencia (se migra una vez): el plan 'anual' a $8/mes equivalente no sostiene MRR. Scripts gratis (gphotos-sync, herramientas OSS) cubren el caso; churn casi total tras la migración.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-10",
+  "filtros_fallados": [],
+  "objecion": "Bajo presión por incumbentes (BetterCloud, Zluri) y permisos admin amplios en Slack/Google/Notion que exigen confianza/seguridad y revisiones de Marketplace; a $99 sin ventas el comprador exige SOC2 propio. Cuña de precio fijo plausible y SEO de 'offboarding checklist' tiene intención, pero la conversión de plantilla a pagador es incierta.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G25-01",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "Cuña inexistente: Vanta/Drata/Sprinto y otros ya cubren 'barato para pequeños'. Vender compliance sin ventas ni confianza/certificaciones propias es poco creíble; el auditor y el comprador exigen reputación. Mercado saturado con gran gasto en marketing (según su propio riesgo).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-01",
+  "filtros_fallados": [],
+  "objecion": "Categoría con incumbentes financiados (Profound, Semrush, Ahrefs) que bajan precio; cuña de precio plano copiable. Scraping de ChatGPT/Perplexity frágil, costo de API por prompt come margen a $29, y la medición es ruidosa (respuestas no deterministas). Demanda real y creciente, canal SEO/Reddit plausible.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G23-20",
+  "filtros_fallados": [
+   "F1",
+   "F6"
+  ],
+  "objecion": "Amazon puede añadir verificación nativa y Photoroom/otros ya recortan a fondo blanco; el problema se resuelve una vez por imagen (herramientas gratis de fondo blanco). Cuña no explicitada. Un solo competidor listado indica análisis pobre; precio $15 con uso esporádico.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "LiteLLM OSS y proveedores ya ofrecen claves por proyecto con topes (OpenAI/Anthropic proyectos/workspaces con límites, sin verificar); la cuña 'sin autoalojar' la cubren Helicone/Portkey/OpenRouter. Pedir a equipos pasar claves por un proxy de terceros choca con confianza.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Gumroad, Pixieset, Stripe payment links, y funciones nativas de entrega con pago cubren la cuña. Comprador freelancer paga poco y poca recurrencia ($12); la vista previa marcada ya existe en galerías de fotógrafos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-16",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Borlabs/Complianz/Real Cookie Banner ya bloquean embeds hasta consentimiento, y WordPress mismo permite alojar fuentes localmente gratis. A $9 el volumen requerido (>1,500 clientes para $10k+) es alto; cuña es una función, no un producto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Repomix, gitingest, Jina Reader y Firecrawl cubren gratis o a bajo costo la tarea base; el valor de 'presupuesto de tokens' es un feature fácil de copiar. Dev paga poco por algo que resuelve con CLI gratis; $12 exige muchos clientes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Lighthouse/axe-core/Pa11y gratis cubren la auditoría automatizada en CI; la cuña (declaración de accesibilidad, reporte exportable) es una capa fina y la automatización solo detecta una parte de WCAG. Dolor regulatorio real (EAA) con canal en GitHub Marketplace, pero cuña no explicitada y copiable por Deque/Accessibe.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Judge.me es gratis en su plan básico; muchos widgets y apps de reseñas en Shopify gratis, y Trustpilot/G2 no permiten importar libremente (restricciones de API/ToS). Cuña de importación multi-fuente poco diferenciada y comprador de bajo valor.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Looker Studio con conector gratis de GA4/Search Console y BigQuery export nativo gratuito para GA4 cubren gran parte; Supermetrics/Coupler.io ya compiten en Sheets. Dependencia de APIs de Google y precio plano copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-05",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Koinly/CoinTracker/TokenTax dominan SEO 'crypto tax calculator' con grandes presupuestos; la cuña de precio plano es copiable y el cálculo fiscal por país exige mantenimiento continuo y genera responsabilidad. Uso estacional (una vez al año) y churn alto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Tally (gratis, con pagos Stripe) y Google Forms cubren la cuña; idea auto-reconoce F1. Sin diferenciación frente a Tally/Fillout/Jotform; comprador que no paga.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N09-05",
+  "filtros_fallados": [],
+  "objecion": "Beehiiv/Kit/Buttondown/MailerLite ya compiten por precio; entregabilidad y reputación de IP son difíciles y el cumplimiento anti-spam recae en el proveedor. Cuña de 'contactos activos' es copiable por cualquier ESP con un cambio de pricing. Dolor de precios de Mailchimp real y SEO 'Mailchimp alternative' tiene intención clara.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N03-15",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Precio de $12 con uso episódico; el creador solo necesita cobrar pocas facturas al mes. Invoice Ninja y Stripe invoices ya envían recordatorios gratis. Mercado de creadores con patrocinios directos sin verificar y probable churn.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-08",
+  "filtros_fallados": [],
+  "objecion": "GitHub/Dependabot (y Renovate) pueden añadir resúmenes con IA gratis; Copilot ya resume PRs (sin verificar). El análisis de uso real en el código es técnicamente difícil por lenguaje, y la app debe leer código privado (confianza). Cuña concreta y GitHub Marketplace es canal nombrado.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N04-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "UptimeRobot gratis cubre monitoreo básico y ManageWP/MainWP ya generan informes con marca; la cuña es solo plantilla de informe. Agencias pagan poco por monitoreo; precio $19 competitivo con alternativas más baratas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-10",
+  "filtros_fallados": [],
+  "objecion": "Frame.io (Adobe), Wipster y otros ya competen; muchos alternativas baratas (Vimeo Review, Dropbox, Google Drive con comentarios). Costos de almacenamiento y ancho de banda de video a precio fijo pueden dar márgenes negativos. Cuña de precio y sin registro es copiable, pero 'Frame.io alternative' tiene intención de compra.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Instantly/Smartlead ya ofrecen buzones ilimitados y calentamiento barato; la cuña 'precio plano' está cubierta. Riesgo de spam, bloqueos de proveedores de email y reputación; el canal principal del comprador es outbound pero vender es SEO. Mercado saturado y cuña inexistente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Herramientas DMARC gratis (incluye Postmark DMARC) y guías de Shopify/Klaviyo cubren la configuración, que se hace una vez; el comprador (dueño de tienda) no paga recurrente por revisar SPF/DKIM. Alta churn tras configuración.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "MacWhisper, Granola y funciones nativas de OS (Apple, Windows) transcriben localmente; modelos Whisper gratis. El precio '$79/mes' contradice 'one-time fee' (cobro único, sin MRR). Cuña no explicitada; compradores de profesión sensible exigen confianza y distribución en app stores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-18",
+  "filtros_fallados": [],
+  "objecion": "AgencyAnalytics ya vende informes de marca blanca para agencias y Looker Studio es gratis; dependencia de APIs de datos SEO caras (Semrush/Ahrefs) comprime margen. Cuña de 'sin suite completa' es copiable. Comprador (agencia) claro y SEO 'white label SEO report' con intención.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G23-10",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Amazon restringe automatización de respuestas y reseñas; el aviso de manipulación es poco fiable. Jungle Scout/Helium 10 cubren parte y no hay canal claro (subreddits y SEO). Cuña no explicitada; riesgo de baneo de la cuenta del seller.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-09",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Tasa de éxito de takedowns baja (Telegram/torrents) y el producto promete resultados difíciles de verificar; DMCA.com y plantillas gratis de DMCA cubren la acción. Mercado de creadores de cursos que sufren fugas y pagan es difícil de dimensionar (sin verificar); riesgo legal.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "ChatGPT/Claude con un prompt hacen lo mismo gratis, y Castmagic/Taplio ya cubren texto; la cuña de 'aprendizaje de estilo' es copiable. Mercado con muchos clones de IA y churn alto.",
+  "severidad": "fuerte"
+ }
+]

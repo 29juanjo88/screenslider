@@ -1,0 +1,234 @@
+[
+ {
+  "id": "N10-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Postmark/Google/dmarcian ofrecen niveles gratis o baratos de reportes DMARC (sin verificar); el comprador (dueño de dominio) a menudo configura una vez y cancela, retención baja. Cuña de 'instrucciones sin jerga' es contenido copiable por EasyDMARC.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Sin cuña explicitada; Notion puede mejorar export/historial nativo y existen respaldos de terceros (sin verificar). Compra puntual con alta rotación: se instala una vez y se olvida; riesgo de plataforma alto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-04",
+  "filtros_fallados": [],
+  "objecion": "Collab.Land, Zapier y bots de Discord cubren parte; la cuña multi-procesador es copiable y el creador de comunidad paga poco. Mercado de comunidades de pago podría ser <100k reales (sin verificar) y depende de APIs de Discord.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cuña no explicitada; escáneres WCAG gratis (extensiones, Lighthouse) y overlays establecidos compiten; comerciante compra una vez para auditar y se va. Dependencia de Shopify y de que la EAA genere demanda (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N07-19",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Precio $5/mes exige >2,000 pagadores para $10k y adquisición B2C cara; Mealime/Eat This Much y apps gratis cubren la cuña de costo; cuña copiable y baja retención.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N04-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Clockify gratis ya incluye tracking y Toggl tiene plan gratis; rastreo automático existe (RescueTime y similares). Rastreo de actividad en Chrome exige permisos y privacidad; cuña copiable por Toggl.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "GitHub Copilot, y CI nativos con resúmenes de IA lo absorben; el comprador dev espera gratis. Cuña de precio por repo es débil; riesgo de plataforma alto, aunque el canal GitHub Marketplace es concreto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-05",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Sin competidores listados ni cuña; mercado de plugins WooCommerce mayoristas saturado (sin verificar) con opciones gratis en WordPress.org. Tema de la idea no corresponde al contenido.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-20",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Exactitud legal/aduanera de códigos HS es riesgo de responsabilidad; Zonos/Easyship ofrecen herramientas gratis de HS y landed cost (sin verificar). Cuña de CSV copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-20",
+  "filtros_fallados": [],
+  "objecion": "Cuña difusa (PDF + firma + portal en una); Notion exporta PDF nativo y Super.so/Fillout cubren partes. Compradores pagan por herramientas sueltas baratas; depende de la API de Notion.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-01",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Firma gratis en Adobe, Google, Dropbox y planes gratuitos de varios e-sign; validez legal por país. Cuña de precio plano copiable; DocuSign alternativas abundantes y canal SEO 'DocuSign alternative' saturado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-19",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Formspree y Basin con plan gratis, Google Sheets y Zapier cubren el caso; la cuña white-label multi-cliente para agencias es un segmento chico y fácil de copiar. Mercado posiblemente <100k de agencias que paguen.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "ChatGPT/Claude gratis hacen casi lo mismo; el freelancer no paga por ello. Riesgo legal (parece asesoría). Cuña de listas de verificación no es defendible.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N10-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Escáneres gratis (Blacklight, Webbkoll) y CMP como Cookiebot/CookieYes añaden monitoreo; el comprador agencia usa el CMP del cliente. Cuña de monitoreo white-label es plausible pero copiable; mercado de agencias sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N01-15",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Servicios de reembolso FBA dominan con modelo de comisión y Helium 10/Sellerboard incluyen la función; depende de Amazon SP-API y puede ser revocado. Cuña de cuota fija sin comisión clara pero competidores grandes pueden igualarla.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N07-10",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Quizlet, Knowt y Anki gratis; $6/mes con adquisición B2C estudiante requiere >1,700 pagadores y alta estacionalidad. Muchas apps de IA ya generan flashcards desde PDF.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "GitHub Releases gratis y herramientas como Headway con planes gratis; el comprador dev ya improvisa con scripts. Cuña (borrador IA + página) copiable por Beamer/LaunchNotes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Sentry tiene plan gratuito y es de código abierto; GlitchTip/Bugsink/PostHog cubren la cuña de bajo costo. Compatibilidad con SDK de Sentry es costosa de mantener para una persona y hospedar ingesta requiere costos de infraestructura.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-17",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen calculadoras gratuitas de costo de reuniones y extensiones Chrome gratis; valor percibido bajo, uso esporádico y $8/mes con poca retención. Cuña facilmente copiable por Clockwise/Google.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-19",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Requiere permisos admin/SSO y confianza; Zylo/Zluri venden con ventas, y gestores de IT pagan por contrato. Canal SEO para una herramienta de seguridad sensible es débil; integraciones por API con cada SaaS son costosas de mantener.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-14",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Calculadoras de tarifas gratis abundan; $8/mes con retención baja (se usa una vez). Bonsai y Harvest incluyen reportes de rentabilidad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N04-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Stripe Invoicing, FreshBooks, QuickBooks y Xero incluyen recordatorios gratis; el comprador ya los tiene nativos. La cuña de integrar cualquier facturador es poco clara.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Crisp y Tidio con planes gratis y chatbots de IA integrados en plataformas; $19/mes sin diferencia clara, saturado en Shopify/WordPress. Cuña copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-08",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Shopify, Amazon y TaxJar ya alertan de nexus nativamente (sin verificar); riesgo de ser tomado como asesoría fiscal. Cuña de 'solo monitoreo' es chica y canal Shopify depende de plataforma.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Merchant Center muestra diagnósticos nativos y las apps de feed (Simprosys, DataFeedWatch) incluyen la función; comprador usa Merchant Center gratis. Cuña es explicación en lenguaje claro, copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Proveedores de IA (ChatGPT Team, Claude Projects, Gemini) añaden prompts compartidos nativos; extensión Chrome frágil ante cambios de DOM. Disposición de pago de equipos baja frente a Notion/Docs gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N02-17",
+  "filtros_fallados": [],
+  "objecion": "Competidores (LinearB, Swarmia) ya pivotan a autoservicio y algunos tienen plan gratis; cuña de precio plano es copiable. Canal GitHub Marketplace es concreto; el ángulo no es fatal pero hay demasiados incumbentes.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N07-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Actual Budget gratis y hojas de cálculo; $5/mes B2C exige >2,000 pagadores y el público que rechaza enlazar banco es chico. Cuña de importar CSV es copiable por YNAB/Monarch.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-18",
+  "filtros_fallados": [
+   "F1",
+   "F6"
+  ],
+  "objecion": "Cuña no explicitada; Bluebeam es incumbente fuerte y PDF.js/visores gratuitos cubren medición básica. Estimadores de subcontratistas pueden ser <100k compradores (sin verificar); medición precisa en navegador es compleja.",
+  "severidad": "fuerte"
+ }
+]

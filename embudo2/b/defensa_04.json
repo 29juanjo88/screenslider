@@ -1,0 +1,182 @@
+[
+ {
+  "id": "N02-09",
+  "rescatar": true,
+  "respuesta": "Concedo F1 parcial: TruffleHog OSS cubre escaneo local. Pero lo que se paga es el servicio gestionado: escaneo continuo de imágenes en registries, paquetes npm publicados, y alertas, sin operar CLI ni CI. GitHub secret scanning no cubre imágenes ni paquetes publicados. Canal: GitHub Marketplace, HN, SEO con intención. Base de 47M de desarrolladores y equipos con contenedores en cientos de miles (sin verificar).",
+  "ajuste_sugerido": "Acotar a un solo vector fuerte (imágenes Docker en registry + npm publicado) y dejar Slack/Notion fuera para evitar permisos delicados."
+ },
+ {
+  "id": "N03-02",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-09",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-05",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-10",
+  "rescatar": true,
+  "respuesta": "Concedo la fricción de permisos admin y confianza. Pero 'employee offboarding checklist' es búsqueda con intención, Google Workspace Marketplace es canal nombrado, y SOC2/ISO obligan a evidencia de baja (dolor recurrente en cada baja). BetterCloud/Zluri venden con ventas a empresas grandes; 50-500 empleados sin presupuesto queda mal atendido. $99 x 150-300 clientes = $15-30k MRR. Mercado: cientos de miles de empresas de ese tamaño (sin verificar).",
+  "ajuste_sugerido": "Empezar con checklist guiado y permisos mínimos de solo lectura, luego acciones; publicar plantillas SEO gratis como entrada."
+ },
+ {
+  "id": "G25-01",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-01",
+  "rescatar": true,
+  "respuesta": "Concedo que scraping de LLM es frágil y la medición ruidosa. Pero la demanda es real y creciente, el comprador es concreto (SEO freelance, agencias pequeñas, dueños de sitios que ya pagan herramientas SEO) y existe canal con intención (SEO long-tail, r/SEO, Product Hunt). Los incumbentes (Profound, Semrush, Ahrefs) apuntan a enterprise o a suites caras; el precio plano bajo para sitios pequeños es un hueco real. Ningún incumbente gratis cubre la cuña. Mercado: cientos de miles de pagadores de herramientas SEO (sin verificar).",
+  "ajuste_sugerido": "Usar APIs oficiales y muestreo múltiple por prompt para atenuar no determinismo; subir precio a 39-49 con límite de prompts; vender reporte semanal para agencias."
+ },
+ {
+  "id": "G23-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-04",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-16",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-02",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-18",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-05",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-15",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-05",
+  "rescatar": true,
+  "respuesta": "Concedo que entregabilidad y copiabilidad del pricing son riesgos. Pero el dolor de facturación por contactos inactivos es concreto y recurrente, la búsqueda 'Mailchimp alternative' tiene intención de compra directa, y el ticket de $25 con listas de 5k-100k escala: 400-800 clientes llegan a $10-20k MRR. Mercado enorme (millones de usuarios de Mailchimp, sin verificar). El importador con un clic es una cuña operativa, no solo de precio. Se puede construir sobre SES/Postmark sin reputación propia desde cero.",
+  "ajuste_sugerido": "Lanzar sobre proveedor de envío existente (SES) y enfocar creadores 5k-50k; el importador Mailchimp como lead magnet SEO."
+ },
+ {
+  "id": "N03-15",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-08",
+  "rescatar": true,
+  "respuesta": "Concedo que Dependabot/Copilot podrían añadir resúmenes. Pero el análisis de uso real en el repo (¿se usa la API que cambió?) es distinto de resumir changelog, y GitHub Marketplace es canal nombrado con instalación en un clic y cobro integrado. Dolor semanal real: PRs acumulados de dependencias. Compradores: cientos de miles de orgs con bots (sin verificar). MVP acotado a JS/TS, que es el stack de Juan.",
+  "ajuste_sugerido": "Empezar solo con npm/TypeScript, cobro vía GitHub Marketplace, y tratar al análisis de breaking-change por uso como la cuña central."
+ },
+ {
+  "id": "N04-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-10",
+  "rescatar": true,
+  "respuesta": "Concedo el riesgo de costo de almacenamiento/ancho de banda y que hay alternativas baratas. Pero 'Frame.io alternative' es búsqueda con intención, el dolor de precio es notorio entre editores freelance, y el cliente sin registro es un gancho viral (cada revisión expone el producto a un cliente de agencia). Con almacenamiento en R2/B2 sin egress el margen es viable si hay tope de GB.",
+  "ajuste_sugerido": "Topes de almacenamiento por plan, storage con egress gratis, y enlace de revisión con marca discreta como difusión."
+ },
+ {
+  "id": "N08-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-10",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-05",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-18",
+  "rescatar": true,
+  "respuesta": "Concedo que AgencyAnalytics existe y que las APIs SEO cuestan. Pero la agencia pequeña/freelance ya paga Semrush/Ahrefs/AgencyAnalytics (presupuesto existente), el comprador es claro y 'white label SEO report' tiene intención de compra. Cuña: informes sin suite completa a precio plano para freelancers que AgencyAnalytics (planes por cliente) atiende mal. Mercado: cientos de miles de agencias y consultores (sin verificar).",
+  "ajuste_sugerido": "Evitar depender de Ahrefs/Semrush API: usar Search Console/GA4 del cliente (gratis, OAuth) y auditoría propia; precio por número de sitios."
+ },
+ {
+  "id": "G23-10",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-09",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-04",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña es débil, copiable o cubierta por un incumbente gratis, o el uso es puntual y no sostiene MRR.",
+  "ajuste_sugerido": ""
+ }
+]

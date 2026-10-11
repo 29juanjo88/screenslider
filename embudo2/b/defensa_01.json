@@ -1,0 +1,182 @@
+[
+ {
+  "id": "N10-02",
+  "rescatar": true,
+  "respuesta": "Concedo que CookieYes/Termly/iubenda tienen planes gratis y que el precio es copiable. Defiendo porque el segmento agencias/freelancers con muchos dominios sí paga por CMP y los incumbentes escalan por dominio/subpágina; el mercado (sitios con tráfico UE/UK/US) es de millones y WordPress.org/Shopify App Store dan canal con intención de compra. Un precio plano con dominios ilimitados es una cuña real para agencias, no para sitios chicos. Certificación Google CMP es riesgo a verificar.",
+  "ajuste_sugerido": "Enfocar solo agencias (panel multi-sitio, white-label) y no sitios únicos; confirmar requisitos de Google CMP Partner antes de construir."
+ },
+ {
+  "id": "G08-14",
+  "rescatar": true,
+  "respuesta": "Concedo que la cuña no estaba explicitada y que StatusGator/IsDown existen; pero eso demuestra que hay disposición de pago (son productos de pago, no gratis; los feeds RSS no dan panel unificado ni alertas). Comprador concreto: ingeniería/DevOps de equipos que dependen de decenas de APIs; canal SEO 'api status monitor' con intención. Mercado de equipos de desarrollo es de cientos de miles (sin verificar).",
+  "ajuste_sugerido": "Cuña: precio plano por equipo con latencia medida activamente desde el stack del cliente (sondas propias), webhooks/Slack; competir con precio frente a IsDown/StatusGator."
+ },
+ {
+  "id": "N08-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-11",
+  "rescatar": true,
+  "respuesta": "Concedo riesgo de plataforma (Google puede ampliar la consola) y el costo de verificación OAuth (CASA) para scopes de Drive. Pero el comprador es claro (admin de Workspace), el canal es nombrado (Workspace Marketplace, búsqueda 'drive audit') y hay presupuesto existente para auditoría/seguridad; a $79 bastan ~130-600 clientes para la meta. La consola nativa detecta pero la remediación en lote es débil, esa es la cuña. Número de organizaciones de pago sin verificar.",
+  "ajuste_sugerido": "Vender como evidencia de auditoría/cumplimiento (SOC2/ISO) y no higiene; cotizar el costo CASA antes de construir; MVP solo-lectura con reporte primero."
+ },
+ {
+  "id": "N07-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-01",
+  "rescatar": true,
+  "respuesta": "Concedo que la disposición de pago de freelancers es baja y que Google Docs avisa de lecturas. Defiendo porque el mercado es enorme (millones de freelancers), el producto es muy simple para una persona, y el canal SEO 'freelance proposal template' tiene intención de compra; el dolor (saber si leyeron y hacer seguimiento) se vincula directo a cerrar ingresos. Cuña de precio plano sin cupos es débil sola.",
+  "ajuste_sugerido": "Añadir cuña de seguimiento automático con recordatorios y analítica de cierre; plan anual; validar pago con prelanzamiento."
+ },
+ {
+  "id": "N06-10",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-06",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-10",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-03",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-09",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-01",
+  "rescatar": true,
+  "respuesta": "Concedo que los escáneres automáticos cubren solo parte de WCAG y que accessiBe/UserWay dominan búsquedas. Pero la fecha regulatoria (EAA) crea urgencia real y comprador concreto (dueño de tienda/agencia con clientes UE). Canal nombrado (Shopify App Store, WordPress.org, SEO 'EAA compliance'). Mercado en millones de sitios. La cuña (arreglos en código del tema, precio plano, no overlay) es distinta de lo gratis (axe/Lighthouse diagnostican pero no arreglan ni dan seguimiento). Cifras sin verificar.",
+  "ajuste_sugerido": "Posicionar como 'diagnóstico + parches de tema + monitoreo continuo con evidencia para auditoría'; empezar solo en Shopify; no prometer cumplimiento total."
+ },
+ {
+  "id": "G22-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-17",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-10",
+  "rescatar": true,
+  "respuesta": "Concedo que la API de YouTube limita acceso y que muchos afiliados pagan poco. La cuña (cubrir descripciones de YouTube y newsletters, no solo WordPress) es real y el dolor es dinero perdido por enlaces rotos o sin tag. Canal con intención (SEO 'affiliate link checker', r/juststart). Afiliados que ganan por enlace sí pagan $15 si recupera comisiones.",
+  "ajuste_sugerido": "Apuntar a afiliados con ingresos medibles (nicho reviews/Amazon Associates); empezar con pegar URL/listado y escaneo programado, sin depender de la API de YouTube."
+ },
+ {
+  "id": "G17-04",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-04",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-07",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-01",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-15",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-01",
+  "rescatar": true,
+  "respuesta": "Concedo que la cuña no estaba explicitada y que los compradores con $20k+/mes podrían ser decenas de miles (posible falla F6; sin verificar). Aun así: dolor monetario directo y recurrente, comprador claro, canal nombrado (r/FulfillmentByAmazon, SEO 'FBA lost inventory claim') y precio $49 con modelo de cobro fijo vs competidores que cobran % del recobro. Bajando el umbral a vendedores de $5k+/mes el universo supera plausiblemente 100k (sin verificar).",
+  "ajuste_sugerido": "Explicitar cuña: tarifa fija, sin % del recobro; bajar el umbral de ingresos; verificar tamaño de vendedores activos en Amazon antes de continuar."
+ },
+ {
+  "id": "G23-04",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-14",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-13",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N04-18",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N07-12",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N06-20",
+  "rescatar": false,
+  "respuesta": "Concedo la objeción del atacante: la cuña no supera lo gratis/nativo o los incumbentes, o el precio/mercado de pago no sostiene la meta. No vale la pena defenderla.",
+  "ajuste_sugerido": ""
+ }
+]

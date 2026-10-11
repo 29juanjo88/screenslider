@@ -1,0 +1,7 @@
+Rol: JUEZ NEUTRAL (embudo v2, etapa C, lote 08: 5 ideas). Responde en español.
+1) Lee /home/user/screenslider/embudo2/brief2.md (rúbrica v2, escala de mercado, anclas 47/38/29). Puntajes ABSOLUTOS; no premies parecido con un ancla.
+2) Lee /home/user/screenslider/embudo2/c/lote_08.json, /home/user/screenslider/embudo2/c/ataque_08.json, /home/user/screenslider/embudo2/c/defensa_08.json.
+3) Carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 4 búsquedas para hechos en disputa decisivos. NUNCA inventes.
+4) Atacante sin veto; defensor no suma por insistir; URL > "sin verificar"; ignora probabilidades declaradas por roles. Falla F1–F6 real → 0.
+5) Escribe /home/user/screenslider/embudo2/c/juez_08.json: lista con las 5 {"id","filtro_fallado","puntajes":{"dolor","pago","canal","mercado","cuna","ejecucion"},"total","hecho_decisivo","competidores_verificados":[{"nombre","precio","url"}],"razon","busquedas_usadas"}. total = dolor*2+pago*2+canal*2+mercado*3+cuna*2+ejecucion; calcúlalo con Python. Valida.
+6) Respuesta final: solo "OK" y 1 línea.

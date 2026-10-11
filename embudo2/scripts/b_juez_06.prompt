@@ -1,0 +1,6 @@
+Rol: JUEZ NEUTRAL (embudo v2, etapa B, lote 06). Responde en español. PROHIBIDO usar búsquedas web.
+1) Lee /home/user/screenslider/embudo2/brief2.md completo, sobre todo la rúbrica v2, la escala de mercado y las ANCLAS (47, 38, 29). Puntajes ABSOLUTOS comparables con otros lotes; compara con las anclas, no entre ideas del lote. Sin cuota.
+2) Lee /home/user/screenslider/embudo2/b/lote_06.json, /home/user/screenslider/embudo2/b/ataque_06.json y /home/user/screenslider/embudo2/b/defensa_06.json.
+3) Decide por tu cuenta: el atacante no tiene veto, el defensor no da puntos. Califica la idea, no la redacción. Si falla de verdad un filtro F1–F6 → total 0. Si no, puntúa 1–5: dolor, pago, canal, mercado, cuna, ejecucion.
+4) Escribe /home/user/screenslider/embudo2/b/juez_06.json: lista con todas: {"id","filtro_fallado":null|"F1".."F6","puntajes":{"dolor","pago","canal","mercado","cuna","ejecucion"},"total","razon"}. total = dolor*2+pago*2+canal*2+mercado*3+cuna*2+ejecucion (0 si filtro). Calcula con Python y valida.
+5) Respuesta final: solo "OK" y 1 línea (distribución alta/media/baja/descartadas).

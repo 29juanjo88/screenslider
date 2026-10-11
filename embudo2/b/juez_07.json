@@ -1,0 +1,408 @@
+[
+ {
+  "id": "N10-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 39,
+  "razon": "Mercado enorme y dolor de privacidad real, pero Granola, MacWhisper y funciones nativas de Apple/Microsoft cubren la cuña; app de escritorio multiplataforma pesada para una persona."
+ },
+ {
+  "id": "G13-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "razon": "Release Drafter y notas autogeneradas de GitHub cubren lo básico; la cuña (página pública y notas para clientes) es débil y copiable; ejecución simple."
+ },
+ {
+  "id": "N04-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Agencias pagan por feedback visual (BugHerd, Markup), pero Figma gratis cubre diseños y precio plano es cuña débil."
+ },
+ {
+  "id": "N07-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 37,
+  "razon": "Mercado gigante pero saturado con Duolingo/Speak; costo de voz en tiempo real a $8 comprime margen; canal SEO/Reddit débil."
+ },
+ {
+  "id": "N02-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "total": 35,
+  "razon": "Cuña concreta (vive en el repo), canal GitHub Marketplace; pero dolor moderado, OSS cubre parte y pagadores quizá ~250-700k."
+ },
+ {
+  "id": "N04-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 30,
+  "razon": "CRM para freelancers sin cuña real frente a HoneyBook/Bonsai/Notion; canal SEO dominado por incumbentes."
+ },
+ {
+  "id": "N05-16",
+  "filtro_fallado": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Pagadores reales (Slack sin Enterprise Grid con necesidad de retención) casi seguro <100k y limitados por la API de Slack; roza F3 por compliance."
+ },
+ {
+  "id": "N06-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Dolor real en equipos con LLM en producción, pero promptfoo OSS y Langfuse/LangSmith cubren evals; cuña de un clic copiable."
+ },
+ {
+  "id": "N02-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "razon": "Obligación regulatoria (EAA/WCAG) da dolor y pago; cuña en reportes de cumplimiento y parches; detección gratis (axe, Lighthouse) no cubre el entregable; canal GitHub Marketplace/SEO."
+ },
+ {
+  "id": "N07-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "Mercado grande pero Empower gratis, Ghostfolio OSS y hojas propias; precio $6 exige muchos pagadores; cuña de privacidad modesta."
+ },
+ {
+  "id": "N05-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 31,
+  "razon": "Copilot en Teams cubre resumen y acciones; Otter/Fireflies ya enrutan; comprador sin presupuesto propio; sin cuña clara."
+ },
+ {
+  "id": "N03-03",
+  "filtro_fallado": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Newsletters con anuncios directos son decenas de miles según la propia idea; bajo 100k compradores."
+ },
+ {
+  "id": "N01-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 31,
+  "razon": "Gmail/Outlook con IA nativa y Gorgias/Help Scout cubren el espacio; integrar datos de pedido por tienda es costoso; canal débil."
+ },
+ {
+  "id": "N02-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "total": 37,
+  "razon": "Dolor y presupuesto reales (PII en dev), cuña de autoservicio frente a Tonic/Delphix; pero barrera de confianza y ejecución difícil para una persona; pagadores ~250-700k."
+ },
+ {
+  "id": "N08-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 41,
+  "razon": "Dolor monetario directo y compradores que ya pagan; Shopify App Store como canal; saturado (Triple Whale, Northbeam), cuña de precio copiable y precisión difícil."
+ },
+ {
+  "id": "N07-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Mercado enorme pero apps gratuitas/freemium (Migraine Buddy, Bearable) cubren el registro; poca disposición de pago y datos de salud sensibles."
+ },
+ {
+  "id": "N01-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 36,
+  "razon": "Canal Shopify App Store con intención de compra y ejecución fácil, pero redirects nativos gratis, problema ocasional y cuña pequeña."
+ },
+ {
+  "id": "N04-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 35,
+  "razon": "Agencias pueden revender el informe, pero WAVE/Lighthouse gratis y Deque/Siteimprove cubren; cuña mínima; solapa con N02-20."
+ },
+ {
+  "id": "G14-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 26,
+  "razon": "Mercado joven y pequeño, competidores financiados, proveedores LLM integran MCP remoto; cuña no explicitada y barrera de confianza con credenciales."
+ },
+ {
+  "id": "N09-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 34,
+  "razon": "Intención de búsqueda alta pero ingreso episódico (mal para MRR), migraciones frágiles dependientes de APIs, Import2/Trujay existen."
+ },
+ {
+  "id": "N10-12",
+  "filtro_fallado": "F6",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Desarrolladores indie que venden licencias perpetuas son muy probablemente <100k; Keygen/Paddle/Lemon Squeezy cubren."
+ },
+ {
+  "id": "N06-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Dolor de costos de agentes de código, pero ccusage OSS y dashboards de proveedores; el rollup de equipo es copiable y puede desaparecer."
+ },
+ {
+  "id": "N04-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Cal.com (OSS gratis) y Calendly gratis con Stripe cubren reservas con pago anticipado; la cuña no supera el incumbente gratis."
+ },
+ {
+  "id": "N06-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Mercado enorme y pagadores existentes (Chatbase), pero muy saturado y commoditizado; BYOK y tope de gasto copiables."
+ },
+ {
+  "id": "N07-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 33,
+  "razon": "Mercado grande pero Garmin Coach/Runna/TrainingPeaks, cuña solo precio, dependencia de APIs Strava/Garmin y ciencia de entrenamiento difícil de ejecutar."
+ },
+ {
+  "id": "G25-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Dolor y presupuesto altos ($199), pero incumbentes financiados con ventas, canal SEO único dudoso, cuña no explicitada y confianza con datos de seguridad."
+ },
+ {
+  "id": "N02-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 5
+  },
+  "total": 36,
+  "razon": "MVP muy simple y canal nombrado (Laravel News, npm/composer), pero Healthchecks gratis, Cronitor y Sentry compiten; precio bajo."
+ },
+ {
+  "id": "N09-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "Cal.com OSS/gratis cubre en gran parte reservas de equipo y puede copiar el precio; SEO 'Calendly alternative' saturado."
+ },
+ {
+  "id": "N07-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 36,
+  "razon": "Intención de compra alta y mercado grande, pero uso en picos, contenido costoso de curar, riesgo de copyright y Tutorials Dojo dominante."
+ }
+]

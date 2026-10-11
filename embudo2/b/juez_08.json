@@ -1,0 +1,408 @@
+[
+ {
+  "id": "N10-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "total": 42,
+  "razon": "Dolor real por reglas de remitentes masivos; SEO programatico por proveedor DNS; hay niveles gratis parciales pero no cubren la guia; retencion media."
+ },
+ {
+  "id": "G12-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 38,
+  "razon": "Equivalente al ancla media de respaldo Notion; sin cuna clara y Notion puede mejorar export nativo."
+ },
+ {
+  "id": "N03-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "total": 37,
+  "razon": "Cuna multi-procesador razonable pero copiable; mercado de comunidades de pago probablemente 250-700k; dependencia de APIs Discord."
+ },
+ {
+  "id": "G16-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Canal concreto en Shopify App Store y urgencia EAA, pero cuna no explicitada, compra puntual y overlays/escaneres gratis."
+ },
+ {
+  "id": "N07-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Precio $5 con B2C caro (F5) y apps gratis cubren la cuna: falla F1/F5."
+ },
+ {
+  "id": "N04-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 34,
+  "razon": "Cuna de auto-borrador existe pero requiere agente de escritorio para rastreo real; Clockify/Toggl gratis cubren lo basico."
+ },
+ {
+  "id": "N02-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "GitHub Copilot y CI nativos absorben; devs esperan gratis; cuna debil."
+ },
+ {
+  "id": "G06-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 31,
+  "razon": "Sin cuna ni competidores; saturado de plugins WooCommerce."
+ },
+ {
+  "id": "N01-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 35,
+  "razon": "Dolor real por aranceles; cuna CSV copiable; riesgo de exactitud HS y herramientas gratis de Zonos (sin verificar)."
+ },
+ {
+  "id": "N09-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "Cuna difusa; Notion exporta PDF nativo y hay herramientas baratas."
+ },
+ {
+  "id": "N09-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 33,
+  "razon": "Mercado enorme pero firma gratis en Adobe/Google/Dropbox, canal 'DocuSign alternative' saturado, validez legal por pais."
+ },
+ {
+  "id": "N04-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 31,
+  "razon": "Planes gratis de Formspree/Basin; segmento white-label chico."
+ },
+ {
+  "id": "N09-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "ChatGPT/Claude gratis cubren la cuna y riesgo legal: falla F1."
+ },
+ {
+  "id": "N10-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Monitoreo continuo white-label es cuna plausible; escaneres gratis puntuales; mercado de agencias moderado."
+ },
+ {
+  "id": "N01-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 40,
+  "razon": "Dinero directo perdido, ya pagan comisiones; cuota fija es cuna clara; F3 no aplica; riesgo SP-API mitigable con carga manual."
+ },
+ {
+  "id": "N07-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Quizlet/Knowt/Anki gratis y $6 exige volumen irreal: falla F1/F5."
+ },
+ {
+  "id": "N02-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "razon": "GitHub Releases gratis y changelog tools con planes gratis; cuna copiable."
+ },
+ {
+  "id": "N02-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "total": 40,
+  "razon": "Cuna de tope duro de gasto es dolor real; Sentry tiene plan gratis; compatibilidad SDK e ingesta costosas para 1 persona."
+ },
+ {
+  "id": "N05-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 32,
+  "razon": "Valor percibido bajo, disposicion de pago minima, calculadoras gratis."
+ },
+ {
+  "id": "N05-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 2
+  },
+  "total": 37,
+  "razon": "Dolor y pago reales pero requiere permisos admin/confianza y canal SEO debil; integraciones costosas."
+ },
+ {
+  "id": "N04-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 31,
+  "razon": "Calculadoras gratis, retencion baja, Bonsai/Harvest incluyen reportes."
+ },
+ {
+  "id": "N04-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 33,
+  "razon": "Facturadores incluyen recordatorios; cuna de integrar cualquier facturador poco clara."
+ },
+ {
+  "id": "N09-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "razon": "Crisp/Tidio con planes gratis y IA integrada cubren la cuna: falla F1."
+ },
+ {
+  "id": "N01-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 34,
+  "razon": "Monitoreo barato de nexus; alertas nativas parciales y riesgo de percepcion de asesoria fiscal."
+ },
+ {
+  "id": "N01-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 38,
+  "razon": "Intencion de busqueda alta y urgencia; Merchant Center y apps de feed cubren parte; cuna copiable."
+ },
+ {
+  "id": "N06-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 32,
+  "razon": "Proveedores de IA anadiran prompts compartidos nativos; extension fragil."
+ },
+ {
+  "id": "N02-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "razon": "Canal GitHub Marketplace concreto; incumbentes numerosos y cuna de precio copiable."
+ },
+ {
+  "id": "N07-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "total": 35,
+  "razon": "Cuna de privacidad sin banco es real pero nicho, $5 de precio bajo y Actual Budget gratis."
+ },
+ {
+  "id": "G30-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 33,
+  "razon": "Bluebeam fuerte, cuna no explicitada, medicion en navegador compleja."
+ }
+]

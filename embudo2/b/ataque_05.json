@@ -1,0 +1,237 @@
+[
+ {
+  "id": "N06-07",
+  "filtros_fallados": [],
+  "objecion": "Cuña de precio plano suena copiable; LLM de visión con extracción de tablas ya está en Excel/Copilot, Acrobat y ChatGPT; costo de inferencia con precio plano erosiona margen con usuarios intensivos. Copiable por incumbentes (sin verificar).",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N04-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Función de suites freelance (Bonsai) y de cualquier LLM con el contrato pegado; el dolor es real pero el 'detector' es un prompt; comprador freelance con baja retención y canal r/freelance con poca intención de compra.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N03-16",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Disposición de pago dudosa (el propio riesgo lo admite); 'datos obsoletos' factuales requieren verificar hechos web, difícil de hacer fiable; Ahrefs/Surfer ya cubren content refresh; pagadores reales sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "axe DevTools y WAVE/Lighthouse gratis cubren la detección WCAG; la cuña (grabar flujos y exportar tickets) no está explicitada y es copiable; dependencia de Chrome Web Store.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-08",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Atlassian puede integrar con Rovo; mercado de apps Confluence pagadoras de pago probablemente <100k y precio de Marketplace con comisión; dependencia única de plataforma. Tamaño sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cualquier LLM o Rovo genera notas desde tickets; ya existe 'Release Notes for Jira'; la cuña de plantillas y precio plano es copiable; dependencia de Atlassian.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Looker Studio es gratis con plantillas de informes y los freelancers lo usan; AgencyAnalytics y similares ya compiten; precio por informe es modelo copiable. Cuña débil frente a gratis para el cliente de bajo presupuesto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N05-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Integración nativa Slack-Notion y Workflow Builder ya gratis cubren lo básico; cualquiera de los dos puede mejorarla; dependencia doble de plataformas; mercado de pago acotado (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-14",
+  "filtros_fallados": [],
+  "objecion": "Salesforce y HubSpot están añadiendo IA nativa en reportes (sin verificar el alcance); acceso a datos CRM por OAuth y seguridad exigen confianza; fiabilidad de NL-to-query es el reto. Canal marketplace real pero la cuña es copiable por el propio CRM.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N10-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Captions automáticos gratis de YouTube y plataformas; EAA exige calidad que pocos validan; Whisper es de bajo costo para cualquiera, cuña de precio plano copiable; compradores con cumplimiento suelen querer garantías legales que no puedes dar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Proveedores de IA y Purview/Nightfall añadirán redacción nativa; extensión de Chrome que lee prompts genera desconfianza y revisión de seguridad; comprador individual a $12 con baja urgencia; riesgo de dependencia de Chrome y de cambios en DOM de ChatGPT.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-16",
+  "filtros_fallados": [
+   "F1",
+   "F6"
+  ],
+  "objecion": "Coefficient domina y Salesforce/Sheets tienen exportes programados gratis o nativos; cuña no explicitada; mercado de sales ops pagadores en AppExchange probablemente chico (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Microsoft Clarity es gratis, sin límite de sesiones (sin verificar) y suficientemente bueno; la cuña de privacidad es copiable por Clarity/Hotjar y pesa poco para el comprador medio; sin canal con intención.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N02-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "oasdiff gratis cubre el núcleo y es CLI integrable a CI en minutos; la cuña (aviso a consumidores y changelog) exige que el equipo conozca a sus consumidores, raro; Bump.sh y Optic ya lo ofrecen (sin verificar precios).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-13",
+  "filtros_fallados": [
+   "F6"
+  ],
+  "objecion": "Nicho de calidad en manufactura mediana: compradores posibles probablemente <100k; Minitab es entrenamiento estándar y existen gratis (R, Python, plantillas Excel) para cartas X-bar; cuña no explicitada. Sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Apps de devoluciones (Loop, AfterShip, etc., sin verificar) añaden analítica; cuña no explicitada; Shopify analytics nativo y exportes a Sheets; dependencia de Shopify.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-12",
+  "filtros_fallados": [],
+  "objecion": "CLM y seguimiento de renovaciones es campo saturado; sin cuña explicitada; hojas de cálculo con alertas son gratis y suficientes para muchos; confianza para subir contratos PDF sensibles a un producto de una sola persona frena la compra.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Dubsado y HoneyBook más Notion/Google Drive gratis; el propio riesgo dice 'mercado saturado'; cuña no explicitada; sin canal con intención más que SEO competido.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-19",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Shopify Activity Log nativo, Rewind y cada vez más historial de versiones del tema nativo cubren esto; Shopify puede añadir rollback de precios; dependencia única; tamaño de comprador real (tiendas con equipo) sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-01",
+  "filtros_fallados": [],
+  "objecion": "Shopify Payments genera evidencia automática y Chargeflow gana por % por lo que el comerciante prefiere no pagar si no gana; cuota fija sin % implica que el dueño asume el riesgo de perder disputas sin garantía; plataforma única. Aun así hay cuña clara, canal nombrado (Shopify App Store) y comprador con dolor monetario.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "N08-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Mail-Tester, Postmaster Tools y chequeos DMARC gratis cubren lo básico; monitoreo continuo lo ofrecen proveedores de email (ESP) en su panel; simulación de bandeja es costosa y poco fiable de hacer a escala; canal 'SEO long-tail' vago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N09-19",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Canva tiene capa gratis suficiente para la mayoría; $9/mes exige >1,000 pagadores para $10k y ~5,000 para $45k contra un incumbente enorme; editor gráfico requiere gran esfuerzo de producto, no MVP en 6 semanas; cuña copiable.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "N01-02",
+  "filtros_fallados": [],
+  "objecion": "Datos de facturación de apps no accesibles por API (reconocido en el riesgo); el producto depende de entrada manual o scraping frágil; Shopify puede mostrar costos en admin; uso puntual (se audita una vez y se cancela) implica baja retención. Evidencia de dolor existe en la comunidad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N06-13",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "A $8/mes por equipo hay que ganar >1,250 equipos para $10k; competidores OSS gratuitos y TypingMind existen; el propio riesgo prevé guerra de precios; el cliente ya tiene BYOK en herramientas gratis; hostear chat con claves de terceros añade responsabilidad de seguridad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N01-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "USPTO TESS gratis y verificación de marca disponible; falsos negativos pueden provocar suspensión y culpa al producto; eRank/Marmalead ya incluyen checks parciales (sin verificar); cuenta de reglas por marketplace cambia seguido, mantenimiento alto y TAM de pagadores incierto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N10-10",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Mismas objeciones que otros chats BYOK: OSS gratuito (Open WebUI, LibreChat) y TypingMind; $5/mes exige >2,000 pagadores para $10k; el comprador (admin de equipo) prefiere no confiar claves API a un tercero; riesgo de bajar precio por asiento.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Readme, Redocly y Stoplight ya compiten; herramientas OSS (Redoc, Swagger UI) y GitHub Pages gratis alojan docs; cuña no explicitada, el propio riesgo dice saturado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-19",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Moveworks, Freshservice y los copilotos de Microsoft cubren la función; helpdesk empresarial exige seguridad, SSO y evaluaciones que alargan la venta, empujando hacia ventas; $79 con compradores de mediana empresa difícil de autoservir; cuña no explicitada.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "N08-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "F5Bot es gratis y suficiente para muchos; Brand24 y Mention establecidos; acceso a la API de Reddit restringido y de pago (sin verificar); costo de datos pesa contra margen; cuña de 'resumen IA' copiable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-09",
+  "filtros_fallados": [
+   "F1",
+   "F6"
+  ],
+  "objecion": "Muchas calculadoras gratis y Excel; ingenieros HVAC de consultoras son un nicho que probablemente no llega a 100k compradores de pago; precio de $29 con ingeniero que compra con licencia de empresa; cuña no explicitada.",
+  "severidad": "fuerte"
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id": "N06-07",
+  "rescatar": true,
+  "respuesta": "Se concede que Copilot/Acrobat/ChatGPT extraen tablas y que el precio plano con uso intensivo presiona el margen. Pero el comprador (finanzas/contadores) trabaja dentro de Excel y busca 'pdf to excel' de forma activa; el mercado de profesionales que procesan PDFs es el más grande de la lista y hay presupuesto existente (Docparser, Nanonets cobran por documento). La cuña de plantilla reutilizable dentro de Excel con canal nombrado (AppSource, Workspace Marketplace, SEO) es operable por una persona. Tamaño y precios de competidores sin verificar.",
+  "ajuste_sugerido": "Poner tope justo de páginas/mes por plan para proteger margen de inferencia; empezar con facturas/estados de cuenta de un formato vertical."
+ },
+ {
+  "id": "N04-11",
+  "rescatar": false,
+  "respuesta": "Se concede F1 parcial: Bonsai lo incluye y un LLM con el contrato hace algo similar; retención freelance baja.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N03-16",
+  "rescatar": false,
+  "respuesta": "Se concede disposición de pago débil y fiabilidad dudosa en datos factuales; Ahrefs/Surfer cubren refresh.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-17",
+  "rescatar": false,
+  "respuesta": "Se concede: axe y WAVE gratis cubren detección, cuña no explicitada y dependencia de Chrome.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-08",
+  "rescatar": false,
+  "respuesta": "Se concede: mercado pagador de Confluence probablemente cerca o bajo el umbral, Rovo puede integrarlo.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N05-18",
+  "rescatar": false,
+  "respuesta": "Se concede: Rovo y LLMs generan notas, ya existe Release Notes for Jira; cuña copiable.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-08",
+  "rescatar": true,
+  "respuesta": "Se concede que Looker Studio es gratis. Pero ese gratis es justo el dolor: horas armando informes cada mes; la cuña es entrega con resumen narrativo y marca blanca sin configurar, que el freelancer paga porque factura ese tiempo. AgencyAnalytics cobra desde cientos, hay un hueco de precio. Mercado de freelancers y mini agencias >100k plausible (sin verificar). Canal SEO long-tail y Product Hunt es genérico pero hay búsquedas concretas tipo 'client reporting template'.",
+  "ajuste_sugerido": "Reducir a un caso: informe mensual SEO (GA4+Search Console) con resumen IA, para validar disposición de pago antes de ampliar."
+ },
+ {
+  "id": "N05-09",
+  "rescatar": false,
+  "respuesta": "Se concede: integración nativa Slack-Notion gratis cubre lo básico y hay doble dependencia de plataformas.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-14",
+  "rescatar": true,
+  "respuesta": "Se concede que los CRM añaden IA nativa. Pero la cuña de usuarios no analistas con entrega semanal por correo ataca la brecha de configuración; HubSpot y AppExchange son marketplaces con intención de compra y el comprador (gerente de ventas) ya paga Databox/Geckoboard. Mercado de equipos con CRM claramente >100k. Fiabilidad NL-to-query es el reto, acotable con métricas predefinidas.",
+  "ajuste_sugerido": "Empezar solo con HubSpot y un catálogo cerrado de métricas/preguntas; correo semanal como producto central."
+ },
+ {
+  "id": "N10-14",
+  "rescatar": true,
+  "respuesta": "Se concede que YouTube da captions gratis y que cumplimiento legal exige cuidado. Pero el comprador no es el creador de YouTube sino sitios, e-commerce y cursos con video alojado propio que deben cumplir EAA/WCAG, con captions humanos caros por minuto. Hay evidencia de fecha de ley (URL CCPC), búsqueda activa y canal en apps de Shopify/WordPress. Mercado amplio. No prometer garantía legal.",
+  "ajuste_sugerido": "Posicionar como 'captions listos para publicar con revisión' sin garantía legal; empezar con plugin WordPress/Shopify."
+ },
+ {
+  "id": "N10-08",
+  "rescatar": true,
+  "respuesta": "Se concede riesgo de Chrome, de DOM de ChatGPT y de desconfianza. Pero el procesamiento es local (argumento de confianza), el mercado de usuarios de IA en trabajo es enorme, el dolor de política corporativa es creciente y los DLP enterprise (Nightfall, Purview) requieren ventas: hay un hueco self-serve para profesionales y equipos pequeños de abogados, consultores y salud no certificada. Canal Chrome Web Store con búsqueda activa. Pago de $12 es viable en plan de equipo.",
+  "ajuste_sugerido": "Vender plan de equipo con política centralizada y reporte para cumplimiento; código abierto del motor local para ganar confianza."
+ },
+ {
+  "id": "G10-16",
+  "rescatar": false,
+  "respuesta": "Se concede: Coefficient domina, cuña ausente y mercado de sales ops en AppExchange pequeño.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-09",
+  "rescatar": false,
+  "respuesta": "Se concede: Clarity es gratis y suficiente; la cuña de privacidad pesa poco. F1 fuerte.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N02-07",
+  "rescatar": false,
+  "respuesta": "Se concede: oasdiff gratis cubre el núcleo y la cuña de avisos requiere conocer consumidores; ya hay Bump.sh y Optic.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-13",
+  "rescatar": false,
+  "respuesta": "Se concede: nicho de calidad manufacturera bajo 100k compradores y alternativas gratis.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-09",
+  "rescatar": false,
+  "respuesta": "Se concede: cuña no explicitada, apps de devoluciones y Shopify pueden añadir analítica; competidores sin verificar.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-12",
+  "rescatar": true,
+  "respuesta": "Se concede que el campo CLM está saturado, que las hojas de cálculo funcionan y que subir contratos exige confianza. Aun así perder una renovación automática cuesta dinero concreto y recurrente y el comprador tiene presupuesto; a $69 se necesitan menos clientes que en otras ideas. La cuña es claramente más simple y barata que Ironclad/Juro (enterprise). Canal SEO y Workspace Marketplace nombrado. Cuña debe explicitarse.",
+  "ajuste_sugerido": "Cuña explícita: rastreador de renovaciones solo para pymes y equipos de compras sin CLM, con extracción de fechas y avisos; plan por volumen de contratos."
+ },
+ {
+  "id": "G26-07",
+  "rescatar": false,
+  "respuesta": "Se concede: mercado saturado, cuña ausente y suites ya cubren el caso.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-19",
+  "rescatar": false,
+  "respuesta": "Se concede: Shopify Activity Log y Rewind cubren parte y la plataforma puede añadir rollback.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-01",
+  "rescatar": true,
+  "respuesta": "Se concede que Shopify Payments genera evidencia parcial y que la cuota fija traslada el riesgo al comerciante. Aun así el dolor es monetario y medible: comisión de 20-25% sobre lo recuperado frente a $39 fijos; el comerciante con 5-100 disputas/mes ahorra con claridad. Canal nombrado y con intención de compra (búsqueda 'chargeback' en Shopify App Store/WooCommerce, r/shopify), comprador concreto, MVP viable en 6 semanas con APIs de Shopify/Stripe. Mercado de tiendas con volumen de disputas >100k plausible pero sin verificar.",
+  "ajuste_sugerido": "Posicionar por reason code y ahorro versus comisión con calculadora; extender a Stripe/WooCommerce para reducir dependencia de una plataforma."
+ },
+ {
+  "id": "N08-05",
+  "rescatar": false,
+  "respuesta": "Se concede: herramientas gratis cubren lo básico, los ESP ofrecen monitoreo y la simulación de bandeja es cara.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N09-19",
+  "rescatar": false,
+  "respuesta": "Se concede: Canva gratis y precio de $9 exigen volumen irreal (F5), además de un editor demasiado grande para un MVP.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-02",
+  "rescatar": true,
+  "respuesta": "Se concede que la facturación de apps no está en API y que el uso es puntual. Pero hay evidencia de dolor real en la comunidad Shopify (URL) y el ahorro es medible: el escaneo de código huérfano en el tema y apps instaladas es posible sin facturación; la entrada manual de costos es aceptable en MVP. Canal Shopify App Store con búsquedas 'theme cleanup'. Mercado de tiendas con 10+ apps grande (sin verificar).",
+  "ajuste_sugerido": "Cobrar como monitoreo continuo (alertas de nuevas apps/cargos y código residual) para mejorar retención; MVP centrado en limpieza de tema."
+ },
+ {
+  "id": "N06-13",
+  "rescatar": false,
+  "respuesta": "Se concede: $8 exige más de 1,250 equipos, OSS gratis y guerra de precios.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N01-16",
+  "rescatar": false,
+  "respuesta": "Se concede: TESS gratis, riesgo de falsos negativos y mantenimiento alto de reglas.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N10-10",
+  "rescatar": false,
+  "respuesta": "Se concede: $5 exige volumen irreal, OSS gratis y desconfianza de entregar claves API.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-10",
+  "rescatar": false,
+  "respuesta": "Se concede: saturado (Readme, Redocly) y alternativas OSS gratis, sin cuña.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-19",
+  "rescatar": false,
+  "respuesta": "Se concede: helpdesk empresarial exige seguridad/SSO y tiende a ventas; competidores fuertes.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "N08-11",
+  "rescatar": false,
+  "respuesta": "Se concede: F5Bot gratis, API de Reddit restringida y cuña copiable.",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-09",
+  "rescatar": false,
+  "respuesta": "Se concede: calculadoras gratis y nicho de ingenieros HVAC pequeño.",
+  "ajuste_sugerido": ""
+ }
+]
