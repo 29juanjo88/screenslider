@@ -1,0 +1,121 @@
+{
+ "id": "N09-05",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es real pero moderado y de facturación, no de pérdida semanal: es una queja al renovar o crecer la lista. La evidencia de que Mailchimp cuenta contactos no suscritos viene de blogs de competidores, no de fuentes independientes. Además, el dolor se resuelve limpiando la lista (una acción gratuita de una vez), lo que reduce la urgencia recurrente.",
+   "evidencia": [
+    {
+     "afirmacion": "Mailchimp cuenta contactos suscritos, no suscritos y dados de baja para facturar; fuente de competidor, no independiente",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    },
+    {
+     "afirmacion": "Los precios actuales por contacto de Mailchimp y su plan gratis (250 vs 500 contactos) no coinciden entre fuentes",
+     "url": "https://dreamlit.ai/blog/mailchimp-review"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Honestidad: la disposición de pago existe (los creadores de 5k-100k ya pagan a Mailchimp/Kit/Beehiiv), pero el pago es de intercambio: el comprador ya paga y solo busca pagar menos. Eso comprime el precio objetivo y deja poco margen sobre costos de envío, y el cliente que más sufre por contactos inactivos es el que menos gasta. A $25/mes se necesitan ~400 clientes para $10k MRR.",
+   "evidencia": [
+    {
+     "afirmacion": "Kit de pago desde ~$32.50/mes y Buttondown ~$29 por 5k: el precio de $25 no es un descuento llamativo frente a alternativas",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Brevo cobra por emails enviados, desde $9/mes por 5,000 emails (blogs de comparación, sin verificar en sitio oficial)",
+     "url": "https://maileroo.com/blog/mailchimp-alternatives"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "La cuña ya está cubierta por varios incumbentes, incluidos gratuitos. Kit gratis hasta 10k suscriptores y Beehiiv gratis hasta 2,500 cubren gran parte del segmento de entrada. Brevo y Resend cobran por envío, no por contacto. MailerLite ofrece envíos ilimitados con tarifa por suscriptores. Los importadores desde Mailchimp ya los ofrecen Kit, Beehiiv y otros (sin verificar el detalle de cada uno). Esto toca F1 de forma parcial para el tramo 5k-10k.",
+   "evidencia": [
+    {
+     "afirmacion": "Kit gratis hasta 10k suscriptores",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Beehiiv gratis hasta 2,500 con envíos ilimitados",
+     "url": "https://skillscouter.com/beehiiv-review/"
+    },
+    {
+     "afirmacion": "Brevo cobra por emails enviados desde $9/mes por 5,000 emails; Resend tiene plan gratis de 3,000 emails/mes y Pro $20 por 50,000 (blogs de comparación)",
+     "url": "https://maileroo.com/blog/mailchimp-alternatives"
+    },
+    {
+     "afirmacion": "MailerLite: gratis hasta 1,000 suscriptores, de pago desde ~$10/mes, envíos ilimitados en planes de pago (blogs de comparación)",
+     "url": "https://thefrontkit.com/blogs/mailchimp-alternatives-2026"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (SEO 'Mailchimp alternative', r/Emailmarketing) existe pero es el más disputado del software: los resultados de búsqueda están ocupados por los propios competidores y agregadores que escriben listas de 'mejores alternativas a Mailchimp'. Un dominio nuevo difícilmente entra al top en meses. Reddit penaliza la autopromoción. No hay viralidad de producto (a diferencia de Beehiiv/Substack, cuyos boletines llevan marca y referidos). Es probable depender de pagar por afiliados o anuncios, con CAC alto frente a un ARPU de $25. Sin dato verificado de CAC.",
+   "evidencia": [
+    {
+     "afirmacion": "La búsqueda 'Mailchimp alternatives' devuelve sobre todo listas de blogs de comparación y de competidores (Maileroo, thefrontkit, tinycommand, etc.)",
+     "url": "https://maileroo.com/blog/mailchimp-alternatives"
+    },
+    {
+     "afirmacion": "CAC real para este canal",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un ESP tiene alto coste de cambio una vez migrado, lo cual favorece, pero la retención de este producto es frágil: el cliente llega huyendo del precio y se irá si otro cobra menos o regala más (Kit gratis hasta 10k). Un solo incidente de entregabilidad o de suspensión de cuenta (SES/Postmark) provoca churn masivo. Los creadores que crecen migran a Kit/Beehiiv por monetización (recomendaciones, anuncios, pagos), que este producto no tiene. Sin dato verificado de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Kit y Beehiiv ofrecen planes gratis que capturan al creador al inicio y compiten por retenerlo al crecer",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Churn de ESP de nicho",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El mercado total es grande (cientos de miles de pagadores de Mailchimp), pero el segmento objetivo (creadores con 5k-100k suscriptores que paguen por listas inactivas) es una fracción incierta. Mailchimp tenía ~800k clientes de pago y ~2.4M usuarios activos según la cobertura de la adquisición por Intuit (dato antiguo, de 2021, no actual); los que tienen 5k-100k contactos son una minoría, y de ellos solo algunos tienen exceso de inactivos y cambiarían. El tamaño del segmento específico es sin verificar, y un 100k alcanzable no está demostrado. Honestidad: el techo del mercado direccionable total probablemente supera 100k, así que F6 no es la falla principal; la falla es la conversión del segmento.",
+   "evidencia": [
+    {
+     "afirmacion": "Mailchimp: más de 13M de usuarios, 2.4M activos y ~800k clientes de pago al momento de la adquisición por Intuit (dato antiguo)",
+     "url": "https://www.decisionmarketing.co.uk/news/us-giant-behind-quickbooks-buys-mailchimp-for-12bn"
+    },
+    {
+     "afirmacion": "Número de creadores/listas con 5k-100k suscriptores que paguen",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula. Cobrar por contactos activos o por envío es un cambio de modelo de precios que cualquier incumbente puede copiar en un día (Brevo y Resend ya lo hacen en parte), y un importador de Mailchimp es una función de semanas. No hay efecto de red, datos propietarios ni marca. Si el dolor se vuelve visible, Kit o MailerLite pueden mover su plan gratis o su umbral de contactos activos. Mailchimp mismo puede dejar de contar inactivos.",
+   "evidencia": [
+    {
+     "afirmacion": "Brevo y otros ya cobran por envíos y no por contactos (agregador, sin verificar en sitio oficial)",
+     "url": "https://www.emailtooltester.com/en/?p=2338"
+    },
+    {
+     "afirmacion": "Mailchimp recortó su plan gratis; la política de facturación puede cambiar y las fuentes difieren",
+     "url": "https://www.itechguides.com/directory/newsletter-platforms/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "El MVP de editor + importador + cola de envío puede hacerse en 6 semanas, y eso favorece a Juan; pero operarlo es otra cosa: entregabilidad (reputación de IP, SPF/DKIM/DMARC, manejo de rebotes y quejas, cumplimiento CAN-SPAM/GDPR), soporte de migraciones de listas grandes y riesgo de que SES retire la cuenta por quejas. Una sola persona a tiempo parcial no cubre incidentes de entregabilidad. El ajuste BYO-SES reduce el riesgo de IP pero exige que el creador configure AWS, lo que choca con el autoservicio simple. Honestidad: el desarrollo técnico es el punto más favorable para Juan.",
+   "evidencia": [
+    {
+     "afirmacion": "La entregabilidad y la reputación de IP fueron identificadas como riesgo principal en la etapa C",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Complejidad operativa de BYO-SES para usuarios no técnicos",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Es un ESP más en un mercado saturado cuya única cuña (cobrar por contactos activos + importador de Mailchimp) es copiable en días y ya está cubierta en parte por Kit (gratis hasta 10k), Beehiiv, Brevo, MailerLite y Resend. El canal SEO 'Mailchimp alternative' está dominado por los propios competidores, no hay viralidad, y la operación de entregabilidad excede a una persona a tiempo parcial. El dolor y la disposición de pago son reales, pero el segmento 5k-100k que cambiaría es una fracción no verificada del mercado.",
+ "busquedas_usadas": 2
+}

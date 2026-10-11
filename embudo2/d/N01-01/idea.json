@@ -1,0 +1,111 @@
+{
+ "idea": {
+  "id": "N01-01",
+  "nombre": "Dispute Desk Flat",
+  "cliente_que_paga": "Dueño de tienda Shopify/Woo/Stripe con 5-100 chargebacks/mes",
+  "problema": "Las herramientas cobran 20-25% de lo recuperado; evidencia equivocada por reason code pierde la disputa",
+  "solucion": "Armador de evidencia por reason code (pedido, tracking, logs) con precio fijo mensual, sin comisión",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'chargeback' en Shopify App Store y WooCommerce.org; threads de r/shopify y Shopify Community",
+  "competidores": [
+   "Chargeflow",
+   "Disputifier",
+   "Chargebacks911"
+  ],
+  "cuña": "Cuota fija en vez de % de lo recuperado; cliente que gana mucho paga menos; autoservicio en 10 min",
+  "tamaño_mercado": "Cada tienda con Stripe/PayPal/Shopify Payments (millones de tiendas); compradores plausibles >500k (sin verificar)",
+  "por_que_ahora": "Fraude y disputas crecen con el comercio online; hartazgo con comisiones",
+  "riesgo_principal": "Shopify Payments ya genera evidencia automática en parte; plataforma única",
+  "evidencia_url": "https://redo.com/resources/articles/comparisons/best-chargeback-management-software",
+  "angulo": "01",
+  "tema": "Chargebacks",
+  "origen": "nueva",
+  "b_total": 42,
+  "b_razon": "Dolor monetario medible (comision 20-25% vs cuota fija), comprador y canal nombrado (App Store 'chargeback'); riesgo Shopify Payments y plataforma unica; mercado >100k plausible sin verificar.",
+  "c_total": 40,
+  "c_razon": "Dolor monetario claro, presupuesto existente y canal nombrado, pero la cuña está parcialmente ocupada, hay nativos de plataforma y la integración exige trabajo; mercado 250-700k sin verificar.",
+  "c_hecho": "ChargePay ya vende cuota fija sin comisión en Shopify ($19.99-$99.99), la cuña de precio no es exclusiva; mercado >500k sin verificar."
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "N01-01",
+   "filtros_fallados": [],
+   "objecion": "La cuña de cuota fija existe, pero ya hay competidores con tope (Disputifier 20% con tope $250) y Stripe/Shopify Payments hacen parte de la evidencia nativamente; un armador manual de evidencia a $39/mes compite contra servicios 'success-based' donde el comerciante no paga si no gana. Riesgo de plataforma única y de que el comerciante prefiera delegar todo en vez de armar evidencia.",
+   "hechos": [
+    {
+     "afirmacion": "Chargeflow cobra 25% de lo recuperado (modelo por éxito, garantía 4x ROI); otros productos por transacción/alerta.",
+     "url": "https://redo.com/resources/articles/comparisons/chargeflow-pricing"
+    },
+    {
+     "afirmacion": "Disputifier lista 20% de lo recuperado con tope de $250 por disputa ganada; Redo (competidor, no neutral) lista Reclaim a 0%, cifra dudosa.",
+     "url": "https://redo.com/resources/articles/chargebacks/chargeback-recovery"
+    },
+    {
+     "afirmacion": "Chargeflow compara contra Stripe Smart Disputes (automatización nativa de la plataforma de pagos).",
+     "url": "https://chargeflow.io/chargeflow-vs-stripe-smart-disputes"
+    },
+    {
+     "afirmacion": "Ninguno de los resultados identificó una app Shopify de cuota fija con precio publicado (la cuña parece libre, pero no se verificó exhaustivamente).",
+     "url": "https://redo.com/resources/articles/comparisons/best-chargeback-management-software"
+    },
+    {
+     "afirmacion": "Mercado >500k compradores: sin verificar.",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "N01-01",
+   "rescatar": true,
+   "respuesta": "Es la más defendible del lote: dolor monetario claro, comprador concreto, presupuesto existente y mercado muy grande. La cuña de cuota fija no está libre: una búsqueda mostró ChargePay en la Shopify App Store con precio plano sin comisión por éxito (Basic $19.99/mes, Grow $39.99, Advanced $79.99, Plus $99.99), lo que valida que el modelo se vende y que hay disposición de pago, pero reduce la exclusividad. El precio publicado de Chargeflow es contradictorio entre fuentes (comisión del 25% según unas, sin cuota mensual según otra).",
+   "concesiones": [
+    "La cuña de cuota fija ya la ocupa al menos ChargePay (precio de la ficha de Shopify, no verificado de forma independiente)",
+    "Stripe Smart Disputes y Shopify Payments cubren parte de la evidencia",
+    "Plataforma única (Shopify)",
+    "Tamaño >500k compradores: sin verificar"
+   ],
+   "hechos": [
+    {
+     "afirmacion": "ChargePay se anuncia con precio plano sin comisión por éxito, en cuatro niveles ligados al plan de Shopify ($19.99 a $99.99/mes).",
+     "url": "https://apps.shopify.com/chargepay"
+    },
+    {
+     "afirmacion": "Shopify cobra $15 por disputa en cuentas de EE. UU. con Shopify Payments (se devuelve si se gana); esto es dolor directo.",
+     "url": "https://www.chargeback.io/es/blog/whats-the-shopify-chargeback-fee"
+    }
+   ],
+   "ajuste_sugerido": "Diferenciarse de ChargePay con un ángulo distinto al precio: cubrir Stripe/WooCommerce/PayPal (no solo Shopify) y evidencia por reason code, con plan escalonado por volumen de disputas, no por plan de Shopify.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "N01-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 4,
+    "pago": 4,
+    "canal": 4,
+    "mercado": 3,
+    "cuna": 2,
+    "ejecucion": 3
+   },
+   "total": 40,
+   "hecho_decisivo": "ChargePay ya vende cuota fija sin comisión en Shopify ($19.99-$99.99), la cuña de precio no es exclusiva; mercado >500k sin verificar.",
+   "competidores_verificados": [
+    {
+     "nombre": "ChargePay",
+     "precio": "$19.99-$99.99/mes",
+     "url": "https://apps.shopify.com/chargepay"
+    },
+    {
+     "nombre": "Chargeflow",
+     "precio": "25% de lo recuperado (fuentes contradictorias)",
+     "url": "https://redo.com/resources/articles/comparisons/chargeflow-pricing"
+    }
+   ],
+   "razon": "Dolor monetario claro, presupuesto existente y canal nombrado, pero la cuña está parcialmente ocupada, hay nativos de plataforma y la integración exige trabajo; mercado 250-700k sin verificar.",
+   "busquedas_usadas": 0
+  }
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "id": "G23-01",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Dolor monetario directo y recurrente: inventario perdido o dañado en recepción FBA no reclamado y ventanas de reclamo que caducan. El vendedor pierde dinero cada semana, y existe una industria de pago por comisión (20-25%) que prueba que el dolor se paga. Amazon cambió la política de reembolsos desde 2025-03-10, lo que obliga a revisar reclamos. Honestidad: la magnitud (1-3% de ingresos sin reclamar) es afirmación comercial no verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "Amazon actualizó la política de reembolsos FBA desde 2025-03-10 (costo de abastecimiento)",
+     "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"
+    },
+    {
+     "afirmacion": "Un proveedor afirma que Threecolts analizó 200,000+ cuentas y Amazon debe 1-3% de ingresos anuales en reembolsos no reclamados (afirmación comercial)",
+     "url": "https://www.amplisell.com/blog-post/best-amazon-reimbursement-services-for-fba-brands"
+    },
+    {
+     "afirmacion": "Hilos del subreddit r/FulfillmentByAmazon y artículo sobre problemas FBA como evidencia de búsqueda activa",
+     "url": "https://painonsocial.com/blog/amazon-fba-issues-reddit"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los vendedores ya pagan por recuperar reembolsos: Getida 25% de comisión, Jungle Scout gestionado 20%, Carbon6 ~25%, y Helium 10 en planes caros. Una tarifa fija de $49 es más barata que la comisión para quien recupera más de ~$200-250/mes. Debilidad: el modelo 'solo pago si recuperas' reduce el riesgo percibido, y $49 fijos sin garantía exige probar valor.",
+   "evidencia": [
+    {
+     "afirmacion": "Getida cobra 25% de comisión sobre fondos recuperados; Jungle Scout gestionado 20% (sitio de reseñas con afiliados)",
+     "url": "https://revenuegeeks.com/getida-pricing/"
+    },
+    {
+     "afirmacion": "Reseñas citan Seller Investigators, GETIDA y Carbon6; Carbon6 ~25%",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    },
+    {
+     "afirmacion": "Helium 10 Diamond listado en $279/mes anual o $359 mensual; inclusión de Refund Genie en ese plan no confirmada con la página oficial de precios",
+     "url": "https://toolradar.com/tools/helium-10-refund-genie"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Tres grupos: (1) DIY incluido en suscripciones (Helium 10 Refund Genie, sin comisión, pero genera reportes que el vendedor debe revisar, presentar y seguir manualmente), (2) servicios gestionados por comisión 20-25%, (3) hoja de cálculo manual. Honestidad: Refund Genie sin comisión es un incumbente casi gratis para quien ya paga Helium 10; esto golpea F1 parcialmente. La brecha es para quien no paga Helium 10 y no quiere ceder 20-25%.",
+   "evidencia": [
+    {
+     "afirmacion": "Helium 10 dice que Refund Genie no cobra comisión y es DIY",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "afirmacion": "Refund Genie genera reportes descargables; el vendedor revisa manualmente, presenta en Seller Central y da seguimiento",
+     "url": "https://toolradar.com/tools/helium-10-refund-genie"
+    },
+    {
+     "afirmacion": "Helium 10 ofrece además un Managed Refund Service de pago",
+     "url": "https://revenuegeeks.com/helium-10-managed-refund-service/"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado con intención: búsqueda 'FBA reimbursement' en r/FulfillmentByAmazon y SEO de cola larga ('FBA lost inventory claim', 'how to file FBA claim', plantillas de reclamo). Herramienta gratuita de auditoría de un reporte subido (lead magnet) como producto-led. CAC bajo si el contenido posiciona; no hay evidencia de volumen de búsqueda (sin verificar). Riesgo: reglas de autopromoción en Reddit y SEO dominado por los incumbentes con presupuesto.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilos sobre problemas FBA en Reddit indican demanda discutida en comunidad",
+     "url": "https://painonsocial.com/blog/amazon-fba-issues-reddit"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'FBA reimbursement' y dificultad SEO",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Los reclamos tienen ventanas de caducidad y nuevos envíos generan nuevas discrepancias cada semana, de modo que el valor es continuo y el seguimiento de plazos es un hábito de suscripción. Honestidad: si el vendedor limpia su backlog en 2-3 meses, el valor marginal baja y hay churn; sin datos de retención de la categoría (sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "Retención de herramientas de reembolso FBA",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Cifras agregadas: ~1.65M vendedores activos de Amazon según un agregador, o ~1.9M activos de 9.7M registrados a nivel mundial según otro; más de 75,000 vendedores independientes superaron $1M en 2025 (cifra de agregador). Con el 40% generando $1k-25k mensuales, el segmento FBA con ingresos que justifiquen $49 plausiblemente supera 100k, pero la proporción de $20k+/mes y de FBA sobre FBM NO está verificada. Si se baja el umbral a vendedores de ~$5k-10k+/mes, el mercado probable es mayor, aunque la cifra exacta es sin verificar. Es el punto más débil: podría quedar en la banda 2-3.",
+   "evidencia": [
+    {
+     "afirmacion": "Agregadores de estadísticas de vendedores Amazon: ~1.65M activos, ~1.9M activos / 9.7M registrados, 75,000+ con más de $1M en 2025, 40% entre $1k y $25k/mes (fuentes secundarias no verificadas con Amazon)",
+     "url": "https://novadata.io/resources/amazon-seller-statistics"
+    },
+    {
+     "afirmacion": "Número de vendedores FBA con $20k+/mes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Débil, y lo reconozco. Un incumbente como Helium 10, Jungle Scout o Threecolts puede copiar o mejorar la función; no hay efecto de red fuerte. La defensa posible: enfoque único (solo auditoría/reclamos, texto listo de reclamo por tipo de caso, seguimiento de plazos), precio fijo bajo que los suites no atienden por su modelo, y datos acumulados de patrones de rechazo de Amazon por tipo de reclamo. Riesgo adicional: dependencia de SP-API y políticas de Amazon.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores Helium 10, Jungle Scout y Threecolts ya tienen funciones de reembolso",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "afirmacion": "Amazon cambia políticas de reembolso (2025-03-10), lo que favorece a quien se adapta rápido y mantiene reglas actualizadas",
+     "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Encaja con el perfil de Juan: backend Node/TypeScript/Python, parseo de reportes FBA (carga de CSV como MVP sin SP-API, SP-API en una segunda fase), reglas de discrepancias, generación de texto de reclamo y alertas de plazos. MVP en ≤6 semanas plausible con carga de CSV. Costo de infraestructura bajo. Riesgos: aprobación de la app SP-API, soporte a vendedores, y mantener reglas de reclamos vigentes.",
+   "evidencia": [
+    {
+     "afirmacion": "Reportes de Seller Central (inventario/reembolsos/ajustes) exportables para MVP con CSV; detalle sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor monetario real y recurrente en un mercado grande de vendedores Amazon, con canal nombrado (r/FulfillmentByAmazon, SEO de reclamos) y demanda de pago demostrada por servicios que cobran 20-25%. La cuña plausible: precio fijo de $49 con texto de reclamo listo y control de plazos para vendedores que ceden 20-25% o no pagan Helium 10 Diamond (~$279-359/mes). Debilidades honestas: Refund Genie sin comisión (F1 parcial), segmento $20k+/mes sin dimensionar, defensa débil frente a copias y dependencia de SP-API; recomiendo bajar el umbral de ingresos para asegurar >=100k compradores.",
+ "busquedas_usadas": 2
+}

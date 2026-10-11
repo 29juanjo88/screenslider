@@ -1,0 +1,137 @@
+{
+ "id": "G23-01",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Dolor monetario directo y recurrente: inventario perdido o dañado en recepción y reclamos que caducan se traducen en dinero no recuperado cada semana. Existe una comunidad nombrada donde el dolor se discute. Amazon cambió su política de reembolsos en 2025, lo que reabre la necesidad de auditar. Honesto: la cifra de 1-3% de ingresos sin reclamar viene de un proveedor, no es independiente.",
+   "evidencia": [
+    {
+     "afirmacion": "Quejas de vendedores FBA sobre inventario perdido y reembolsos en Reddit (compilación de dolores)",
+     "url": "https://painonsocial.com/blog/amazon-fba-issues-reddit"
+    },
+    {
+     "afirmacion": "Amazon actualizó la política de reembolsos FBA desde 2025-03-10",
+     "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"
+    },
+    {
+     "afirmacion": "Proveedor afirma que Amazon debe en promedio 1-3% de ingresos anuales en reembolsos no reclamados (afirmación comercial)",
+     "url": "https://www.amplisell.com/blog-post/best-amazon-reimbursement-services-for-fba-brands"
+    },
+    {
+     "afirmacion": "Seller 365 afirma que la auditoría manual suele captar menos de la mitad de lo adeudado (vendor claim)",
+     "url": "https://www.threecolts.com/seller-365-reimbursements-pro-sellers"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los vendedores ya pagan por recuperar esto: servicios de comisión 15-25% y suites con módulo de reembolsos. Una tarifa fija de $49 es retorno claro para quien recupera cientos de dólares al mes, y evita ceder 20-25% de lo recuperado. Honesto: la disposición a pagar fijo se enfrenta al 'solo pago si recuperas' y a herramientas de $19.",
+   "evidencia": [
+    {
+     "afirmacion": "Servicios gestionados cobran ~25% (Carbon6 según reseña); GETIDA y Seller Investigators citados como establecidos",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    },
+    {
+     "afirmacion": "Comparativa 2026: servicios gestionados principales cobran 25%; Refully 18%; Helium 10 MRS 15-18% y requiere suscripción de $79-$229/mes (resultado de búsqueda, no verificado en la página)",
+     "url": "https://sellerfuse.com/amazon-fba-reimbursements-software/"
+    },
+    {
+     "afirmacion": "Seller 365 Pro cuesta $199/mes plano, bundle (según resultado de búsqueda)",
+     "url": "https://www.threecolts.com/seller-365-reimbursements-pro-sellers"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: Refund Genie de Helium 10 (DIY, sin comisión, dentro de suscripción), servicios de comisión (Carbon6, GETIDA, Seller Investigators), Threecolts/Seller 365, y hojas de cálculo manuales. Ninguna es gratis y completa para el vendedor que quiere control sin comisión y texto de reclamo listo, pero la competencia es fuerte y hay herramientas baratas. Honesto: aquí la evidencia NO favorece; ReimburseOps (CSV, $19/mes, sin comisión) y Sellerboard ($19/mes) ya ocupan el hueco de pago fijo bajo según resultados de búsqueda sin verificar en origen. Helium 10 afirma que Refund Genie no incluye discrepancias de envíos entrantes, lo cual sería un hueco funcional.",
+   "evidencia": [
+    {
+     "afirmacion": "Refund Genie: sin comisión, DIY, sin discrepancias de envíos entrantes (afirmación de Helium 10 según etapa C)",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "afirmacion": "ReimburseOps: auditoría por CSV, sin comisión, Pro $19/mes (resultado de búsqueda)",
+     "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+    },
+    {
+     "afirmacion": "Threecolts ofrece reembolsos gratuitos/comisión-free en su suite",
+     "url": "https://www.threecolts.com/free-reimbursements"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado con intención de compra: búsquedas 'FBA reimbursement' en r/FulfillmentByAmazon y SEO de cola larga ('FBA lost inventory claim'), más directorios de herramientas y calculadora gratuita de dinero perdido como gancho product-led (sube CSV, ve cuánto te deben). CAC esperado bajo si el gancho convierte, pero sin cifras verificadas. Honesto: SEO de 'FBA reimbursement' está saturado por los propios competidores y blogs de afiliados; Reddit prohíbe autopromoción agresiva.",
+   "evidencia": [
+    {
+     "afirmacion": "Hay discusión activa de problemas FBA en Reddit (canal de los primeros 100)",
+     "url": "https://painonsocial.com/blog/amazon-fba-issues-reddit"
+    },
+    {
+     "afirmacion": "Competidores y blogs de afiliados dominan comparativas de 'reimbursement services' (saturación SEO)",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    },
+    {
+     "afirmacion": "CAC real del canal",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Los reclamos son un flujo continuo: cada envío entrante genera nuevas discrepancias y plazos de reclamo, así que la herramienta sigue entregando valor mientras el vendedor use FBA. Seguimiento de plazos y alertas crean hábito. Riesgo: el vendedor puede auditar una vez, recuperar el atraso y cancelar (churn tras el 'backlog'). Sin datos de retención.",
+   "evidencia": [
+    {
+     "afirmacion": "Plazos de reclamo caducan, lo que exige monitoreo continuo",
+     "url": "https://painonsocial.com/blog/amazon-fba-issues-reddit"
+    },
+    {
+     "afirmacion": "Retención de herramientas similares",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Jungle Scout 2023: 86% de los vendedores de Amazon usan FBA (64% exclusivamente). Cifras de 3M vendedores activos/10M registrados vienen de fuentes no verificadas. El segmento de $20k+/mes es una fracción sin cifra verificable; la segunda búsqueda y la etapa C no lo dimensionaron. Si el universo FBA es de cientos de miles de vendedores activos y una parte relevante supera $20k/mes, ≥100k es plausible pero NO demostrado; bajar el umbral a vendedores de $5-10k/mes ampliaría el mercado. El juez de etapa C dio mercado 3.",
+   "evidencia": [
+    {
+     "afirmacion": "86% de los vendedores de Amazon usan FBA; 64% exclusivamente (2023, vía Jungle Scout, resumido en búsqueda)",
+     "url": "https://www.junglescout.com/wp-content/uploads/2023/02/The-State-of-the-Amazon-Seller-2023-Jungle-Scout.pdf"
+    },
+    {
+     "afirmacion": "Número de vendedores FBA de $20k+/mes",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "3M vendedores activos / 10M registrados (fuente no verificada, etapa C)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa débil. No hay foso técnico: parsear reportes y generar texto es copiable por Helium 10, Threecolts o ReimburseOps. Defensas posibles: plantillas de reclamo afinadas con tasa de éxito propia (datos acumulados), marca y comunidad en Reddit, y precio fijo bajo que los incumbentes con modelo de comisión no quieren canibalizar. Honesto: el valor de los datos es hipotético.",
+   "evidencia": [
+    {
+     "afirmacion": "Incumbentes con modelo de comisión (15-25%) tienen incentivo contrario a una tarifa fija baja",
+     "url": "https://sellerfuse.com/amazon-fba-reimbursements-software/"
+    },
+    {
+     "afirmacion": "Existen ya herramientas de bajo precio fijo copiando el mismo concepto",
+     "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "MVP viable en ≤6 semanas por una persona: subir CSV/reportes de FBA (sin SP-API al inicio), detectar discrepancias, generar texto de reclamo y calendario de plazos. Stack de Juan (Node/TS, Next.js, Python) encaja; costo de infraestructura bajo. Empezar con CSV evita la dependencia de SP-API (ReimburseOps demuestra que funciona así). Riesgo: la fidelidad de los formatos de reportes de Amazon y los cambios de política requieren mantenimiento, y soporte a vendedores.",
+   "evidencia": [
+    {
+     "afirmacion": "Producto basado en CSV sin conexión a Seller Central existe (ReimburseOps), por lo que el enfoque es factible",
+     "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+    },
+    {
+     "afirmacion": "Cambios de política de Amazon obligan a mantenimiento",
+     "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor monetario directo y recurrente con un canal con intención (r/FulfillmentByAmazon, SEO) y un MVP por CSV de 6 semanas sin SP-API. La cuña defendible es tarifa fija baja con texto de reclamo listo y seguimiento de plazos para vendedores que no justifican ceder 15-25% de comisión, apoyada en que Refund Genie, según Helium 10, no cubre discrepancias de envíos entrantes. Debilidades honestas: ya existen herramientas fijas de ~$19/mes (ReimburseOps, Sellerboard), el mercado de $20k+/mes no está verificado y la defensa frente a copias es débil; la cuña probablemente exige bajar el segmento a vendedores más pequeños.",
+ "busquedas_usadas": 2
+}

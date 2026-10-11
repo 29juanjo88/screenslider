@@ -1,0 +1,41 @@
+[
+{"id":"N02-02","rescatar":true,
+ "respuesta":"El dolor de visibilidad por workflow esta respaldado: las fuentes (todas de vendors) coinciden en que el reporte nativo de GitHub no da costo por workflow/job y que hace falta tooling externo; ademas hay cargo de plataforma desde marzo 2026 (sin verificar contra GitHub) que pone el costo en la conversacion. La cuña 'sin migrar runners' es distinta de Depot/Blacksmith, que usan la guia gratis como lead-gen para vender runners; un analizador neutral no tiene conflicto de interes. Las herramientas OSS/CLI no ofrecen dashboard continuo ni alertas para un eng manager.",
+ "concesiones":"El churn tras optimizar es real (valor puntual); el tamaño de pagadores con factura relevante es mucho menor que 'cientos de miles' y esta sin verificar; GitHub puede mejorar el reporte nativo; no se hallaron hilos de Reddit pidiendo la solucion.",
+ "hechos":[
+  {"afirmacion":"Fuentes de vendors afirman que el billing nativo de GitHub da metricas basicas y que el costo granular por job requiere herramientas externas (fuente interesada)","url":"https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"},
+  {"afirmacion":"Cargo de plataforma de US$0.002/min desde marzo 2026 segun varios blogs de vendors; sin verificar contra GitHub","url":"https://info.blacksmith.sh/task/blog/github-actions-cost-breakdowns"},
+  {"afirmacion":"Busqueda no encontro hilos de Reddit/foros con quejas directas: demanda organica sin verificar","url":"sin verificar"}],
+ "ajuste_sugerido":"Vender monitoreo continuo con alertas de regresion de costo (no auditoria unica) y plan por org $29-49; probar con un informe gratuito de un repo como gancho en Marketplace/SEO.",
+ "busquedas_usadas":1},
+{"id":"N10-14","rescatar":false,
+ "respuesta":"No hay evidencia nueva que supere la objecion: la urgencia EAA es real pero no se demostro disposicion de pago por captions de un producto de una persona.",
+ "concesiones":"F1 vigente (captions automaticos gratis en plataformas y Whisper OSS); cuña de precio plano copiable; sin garantia de cumplimiento legal; precios de Rev/Descript/Otter y exenciones de microempresas sin verificar.",
+ "hechos":[
+  {"afirmacion":"EAA es ley en Irlanda desde 28-jun-2025 (urgencia, no prueba de pago)","url":"https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"}],
+ "ajuste_sugerido":"Ninguno convincente.",
+ "busquedas_usadas":0},
+{"id":"N10-02","rescatar":true,
+ "respuesta":"Hay evidencia de demanda: Cookiebot duplico su precio base de ~EUR15 a ~EUR30 por dominio en agosto 2025 con reseñas Trustpilot quejandose, y los comparadores indican que otras alternativas siguen siendo por dominio (CookieYes, Termly), asi que el dolor de agencias con muchos sitios persiste. Mercado de agencias/freelancers con multiples dominios es grande y ya paga por dominio.",
+ "concesiones":"La cuña de precio plano es copiable y ya existen bundles (Enzuzo 10 dominios $79/mes, ConsentStack, Secure Privacy Agency Pool, Complianz); CookieYes tiene plan gratis 1 dominio; certificacion Google CMP y mantenimiento legal continuo son carga para una persona; las cifras vienen de blogs de competidores.",
+ "hechos":[
+  {"afirmacion":"Cookiebot habria duplicado precio base de ~EUR15 a ~EUR30/mes por dominio (ago 2025); reseña Trustpilot de 1 estrella lo menciona (fuentes de competidores y reseñas)","url":"https://uk.trustpilot.com/review/cookiebot.com"},
+  {"afirmacion":"Competidores con multi-dominio: Enzuzo Pro 10 dominios a $79/mes; ConsentStack $29/mes por 2 dominios (fuentes de vendors)","url":"https://enzuzo.com/blog/cookiebot-pricing"}],
+ "ajuste_sugerido":"Estrechar la cuña a agencias con 20+ dominios, precio plano ($49-99/mes) con panel multi-cliente y white-label, no a freelancers con 1-3 sitios; distribuir via WordPress.org y SEO 'cookiebot alternative for agencies'.",
+ "busquedas_usadas":1},
+{"id":"N07-05","rescatar":false,
+ "respuesta":"No se buscó evidencia para rescatarla; la objecion sobre mantenimiento multi-pais, responsabilidad y estacionalidad es solida.",
+ "concesiones":"Koinly tiene plan gratis y cobra por año fiscal; la cuña de precio plano es debil; mantener integraciones y reglas fiscales excede a una persona a tiempo parcial; riesgo de responsabilidad; precio mensual no encaja con compra anual.",
+ "hechos":[
+  {"afirmacion":"Koinly cobra por tramos de transacciones y año fiscal (segun la objecion del atacante, no reverificado)","url":"https://support.koinly.io/en/articles/9489958-how-pricing-works-in-koinly"}],
+ "ajuste_sugerido":"Ninguno convincente.",
+ "busquedas_usadas":0},
+{"id":"N02-01","rescatar":true,
+ "respuesta":"Los docs oficiales de Trunk muestran que su tier gratis es muy acotado (≤5 committers activos en repos privados y <5M test spans) y que el plan Team es por asiento (por committer), con tope de 50 committers antes de Enterprise. Hay hueco para un precio fijo por org para equipos de 6-50 devs, justo donde el precio por asiento escala; BuildPulse cobra por volumen de resultados. El dolor semanal de flakiness es medible y el canal Marketplace/HN/SEO es concreto.",
+ "concesiones":"BuildPulse y Trunk ya ocupan Marketplace 'flaky tests'; la cuña es solo de precio y copiable; reintentos y plugins gratis de los runners cubren parte del problema; precios de BuildPulse en conflicto entre fuentes; no se hallo evidencia directa de disposicion de pago de equipos pequeños.",
+ "hechos":[
+  {"afirmacion":"Trunk Flaky Tests: gratis hasta 5 committers activos en repos privados y <5M test spans/mes; Team por asiento con 1M spans incluidos y $3 por millon extra; Team hasta 50 committers (docs oficiales)","url":"https://docs.trunk.io/setup-and-administration/billing"},
+  {"afirmacion":"Listados de terceros dan precio Team de Trunk de $18/committer/mes, en conflicto con docs; tratar como sin verificar","url":"https://aicoolies.com/tools/trunk-io"}],
+ "ajuste_sugerido":"Posicionar como precio plano por org para equipos de 6-50 devs frente al modelo por asiento, incluyendo costo en CI de los flaky (ranking en dolares); considerar combinar con N02-02 en un solo producto 'CI cost + flaky' para reducir churn.",
+ "busquedas_usadas":1}
+]

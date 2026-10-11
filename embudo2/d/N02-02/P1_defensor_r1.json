@@ -1,0 +1,121 @@
+{
+ "id": "N02-02",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "La factura de Actions es un gasto recurrente que crece con el uso y GitHub cambió precios de Actions (anuncio de dic-2025, con cargo de plataforma reportado desde mar-2026), lo que pone el costo en la conversación de eng managers. Dolor monetario real, pero episódico: se siente al llegar la factura, no semanalmente. Honestidad: no hallé hilos de Reddit/foros pidiendo la solución, así que la búsqueda activa no está verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "GitHub anunció precios más simples y cambios en Actions (changelog oficial dic-2025)",
+     "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"
+    },
+    {
+     "afirmacion": "Cargo de plataforma US$0.002/min desde 1-mar-2026 según vendor; sin verificar contra GitHub",
+     "url": "https://info.blacksmith.sh/task/blog/github-actions-cost-breakdowns"
+    },
+    {
+     "afirmacion": "Demanda orgánica en Reddit/foros: no encontrada en etapa C",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El comprador ya paga por Actions (y en muchos casos por runners alternativos como Depot/Blacksmith), así que existe presupuesto y una métrica de ROI directa: ahorro en dólares frente a US$29/mes. Un solo hallazgo de caché o jobs duplicados suele pagar el plan. Debilidad: precio de competidores y volumen de orgs con factura relevante sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen vendors de pago (Blacksmith, Depot) que monetizan el costo de CI, lo que indica presupuesto",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "Precios de Depot/Blacksmith/Datadog CI Visibility",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: (1) reporte de uso nativo de GitHub; (2) guías gratis y tooling de Blacksmith; (3) CLI OSS como App::GHGen; (4) Datadog CI Visibility (caro, pensado para grandes); (5) migrar a runners de Depot/Blacksmith. Honestidad importante: la documentación de GitHub indica que el reporte de uso detallado incluye workflow_path, repositorio y centro de costo, por lo que un desglose por workflow existe de forma nativa y gratis, aunque como export por correo/CSV, sin dashboard continuo, alertas ni recomendaciones. Esto debilita la cuña (F1 parcial): el valor está en dashboard, alertas de regresión y recomendaciones accionables, no en el dato crudo.",
+   "evidencia": [
+    {
+     "afirmacion": "El reporte de uso de GitHub incluye workflow_path, repository, sku y cost_center; se entrega por correo",
+     "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"
+    },
+    {
+     "afirmacion": "Blacksmith afirma que el billing nativo exige exportar logs mensuales y da poca depuración en tiempo real (fuente interesada)",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "App::GHGen: CLI OSS que estima costo por workflow",
+     "url": "https://metacpan.org/pod/App::GHGen"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canales nombrados: GitHub Marketplace (búsqueda 'Actions cost'), SEO 'reduce GitHub Actions cost' / 'GitHub Actions cost per workflow' (los vendors ya prueban que esas búsquedas existen al publicar guías), y r/devops. Producto-led: informe gratis de un repo como gancho y una GitHub App con instalación de 1 clic, CAC cercano a cero en contenido. Riesgo: SEO competido por vendors con más contenido; Marketplace requiere volumen de instalaciones.",
+   "evidencia": [
+    {
+     "afirmacion": "Vendors compiten con contenido SEO sobre costo por workflow, evidenciando intención de búsqueda",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda y conversión en GitHub Marketplace",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Este es el punto más débil. Riesgo de churn tras optimizar una vez. Mitigación: posicionarlo como monitoreo continuo con alertas de regresión de costo, presupuestos por equipo y reportes mensuales para finanzas; los repos nuevos y cambios de precios regeneran el problema. Sin datos de retención de herramientas comparables.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención de herramientas de FinOps/CI cost similares",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Base amplia: GitHub reporta más de 180M de desarrolladores y 630M de repositorios (Octoverse 2025), y SlashData estima ~47-48M de desarrolladores globales (estimación modelada). Orgs con factura de Actions de pago relevante: no hallé cifra; mi estimación razonada es que decenas de miles a cientos de miles de equipos pagan más de unos cientos de dólares al mes, pero está sin verificar. La búsqueda no devolvió número de organizaciones ni minutos de Actions. Con la barra de ≥100k compradores pagadores potenciales, el cumplimiento es plausible pero no demostrado; escala probable 2-3.",
+   "evidencia": [
+    {
+     "afirmacion": "GitHub: más de 180M de desarrolladores, 630M repositorios (Octoverse 2025)",
+     "url": "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/"
+    },
+    {
+     "afirmacion": "SlashData ~47-48M desarrolladores globales (estimación modelada, cita de etapa A/B)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Número de orgs que pagan Actions",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa débil en tecnología: cualquier vendor de runners o GitHub mismo puede copiarlo. Defensas posibles: neutralidad (sin conflicto de interés al no vender runners), datos históricos acumulados por cliente, benchmarks anónimos entre orgs, y ser multi-CI a futuro. Riesgo principal: GitHub mejore su reporte nativo, y Blacksmith/Depot lo regalen como lead-gen. Honestamente, el foso es bajo.",
+   "evidencia": [
+    {
+     "afirmacion": "Vendors usan guías gratis de costo por workflow como lead-gen (riesgo de regalo)",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "GitHub ya incluye workflow_path en su reporte detallado, por lo que la mejora nativa es factible",
+     "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy favorable: GitHub App/OAuth de solo lectura, ingesta de API de billing/usage y runs de Actions, y dashboard en Node/TypeScript + Next.js, que es el stack de Juan. MVP de 4-6 semanas a tiempo parcial, costo de infraestructura bajo, soporte mínimo. Sin hardware, sin regulación ni ventas. Dependencia de una plataforma (GitHub) marcada como riesgo.",
+   "evidencia": [
+    {
+     "afirmacion": "El reporte de uso y los datos de runs de Actions son accesibles por la plataforma de GitHub (docs de usage reports)",
+     "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"
+    },
+    {
+     "afirmacion": "Stack de Juan: Node.js, TypeScript, React/Next.js (brief2)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor monetario con evidencia de cambio de precios de Actions, comprador claro (eng manager/DevOps), ROI medible, canal nombrado (Marketplace, SEO, r/devops) y ejecución ideal para un dev solo. Concesiones honestas: el reporte nativo ya trae workflow_path (F1 parcial), el churn tras optimizar es real y el número de pagadores es sin verificar. La cuña viable es monitoreo continuo con alertas y recomendaciones, neutral frente a vendors de runners.",
+ "busquedas_usadas": 2
+}

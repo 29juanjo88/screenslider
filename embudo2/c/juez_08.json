@@ -1,0 +1,137 @@
+[
+ {
+  "id": "N01-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "hecho_decisivo": "Plugins Woo gratis (ReturnDesk) y RMA de pago único (ECOSIRE desde US$149) existen, pero ningún SaaS mensual Woo con etiquetas hallado por defensa.",
+  "competidores_verificados": [
+   {
+    "nombre": "ECOSIRE Woo RMA (licencia única desde US$149)",
+    "precio": "149 único",
+    "url": "https://ecosire.com/de/apps/woocommerce/woo-returns-rma-manager"
+   },
+   {
+    "nombre": "ReturnDesk (gratis)",
+    "precio": "0",
+    "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+   }
+  ],
+  "razon": "No hay incumbente gratis que cubra etiquetas y crédito, así que no cae en F1. Canal WordPress.org con intención y mercado Woo grande. Cuña modesta, pago recurrente choca con licencias únicas, mantenimiento y carriers pesan en ejecución.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N05-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 0,
+  "hecho_decisivo": "AuditMySheet ya da log por celda con plan gratis y Pro US$9/mes; Sheets tiene historial nativo.",
+  "competidores_verificados": [
+   {
+    "nombre": "AuditMySheet",
+    "precio": "gratis; Pro 9/mes",
+    "url": "https://workspace.google.com/marketplace/app/auditmysheet/875603373768"
+   }
+  ],
+  "razon": "Incumbente gratis/barato cubre la cuña de alertas y reversión; la defensa lo concede.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N10-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen alternativas locales sin bot gratis u open source (Meetily, Hyprnote, BB Recorder) y Granola sin bot.",
+  "competidores_verificados": [
+   {
+    "nombre": "Monologue",
+    "precio": "15/mes",
+    "url": "https://www.monologue.to/compare/granola"
+   },
+   {
+    "nombre": "Meetily (open source)",
+    "precio": "0",
+    "url": "https://dev.to/sujiths/meetily-a-privacy-first-ai-for-taking-meeting-notes-and-meeting-minutes-26ed"
+   }
+  ],
+  "razon": "La cuña local/sin bot está ocupada por opciones gratis; app de escritorio multiplataforma pesada para una persona.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N03-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "AffiliScan (gratis) y Channel Workbench (freemium) escanean descripciones de YouTube; cubren la cuña principal.",
+  "competidores_verificados": [
+   {
+    "nombre": "AffiliScan",
+    "precio": "gratis para empezar",
+    "url": "https://alternativeto.net/software/affiliscan/"
+   },
+   {
+    "nombre": "Channel Workbench",
+    "precio": "freemium",
+    "url": "https://alternativeto.net/software/channel-workbench/about/"
+   }
+  ],
+  "razon": "Cuña YouTube cubierta por herramientas gratis; newsletters sin verificar; pagadores una fracción.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N03-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 35,
+  "hecho_decisivo": "Gumroad nativo, Subscord y Collab.Land (Starter gratis, Basic 17.99) cubren gran parte; hueco menor multi-procesador.",
+  "competidores_verificados": [
+   {
+    "nombre": "Collab.Land",
+    "precio": "Starter 0; Basic 17.99/mes",
+    "url": "https://developer.collab.land/help-docs/key-features/bot-subscription"
+   },
+   {
+    "nombre": "Subscord",
+    "precio": "sin verificar",
+    "url": "https://top.gg/bot/1230951682352087081"
+   }
+  ],
+  "razon": "No cae claramente en F1 pero la cuña es copiable y estrecha; mercado de comunidades de pago estimado 250-700k sin verificar; dependencia de API de Discord.",
+  "busquedas_usadas": 0
+ }
+]

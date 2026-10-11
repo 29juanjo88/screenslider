@@ -1,0 +1,132 @@
+[
+ {
+  "id": "G17-04",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 40,
+  "hecho_decisivo": "Stripe reporta 25% de suscripciones caducadas por fallo de pago (dolor real), pero Recoupt (~$25, nivel gratis) ocupa el precio y la cuña no está explicitada.",
+  "competidores_verificados": [
+   {
+    "nombre": "Recoupt",
+    "precio": "$25/mes, gratis hasta $1K MRR (blog tercero)",
+    "url": "https://fungies.io/best-dunning-management-software-saas-2026/"
+   },
+   {
+    "nombre": "Stripe Smart Retries",
+    "precio": "gratis (nativo)",
+    "url": "https://stripe.com/blog/how-we-built-it-smart-retries"
+   }
+  ],
+  "razon": "Dolor monetario y pago demostrado, pero cuña débil frente a Recoupt y reintentos nativos; mercado y canal Stripe sin verificar. MEDIA.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N08-07",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 43,
+  "hecho_decisivo": "Triple Whale y Attribuly tienen plan gratis; alternativa barata ThoughtMetric ~$99; el hueco de precio existe pero la precisión de atribución es difícil.",
+  "competidores_verificados": [
+   {
+    "nombre": "Triple Whale",
+    "precio": "plan gratis; de pago ~$129-$300/mes según fuente no oficial",
+    "url": "https://attribuly.com/blogs/triple-whale-pricing-review/"
+   },
+   {
+    "nombre": "ThoughtMetric",
+    "precio": "~$99/mes (fuente afiliada)",
+    "url": "https://www.ringly.io/blog/triple-whale-alternatives"
+   }
+  ],
+  "razon": "Compradores que ya pagan y Shopify App Store con intención; cuña solo de precio, copiable, con planes gratis de incumbentes (F1 parcial, no total). Dependencia de plataforma. MEDIA.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N05-11",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "Google ofrece transferencia masiva gratis, existen GAT+ y Overdrive Tools en el Marketplace, y los scopes restringidos de Drive exigen verificación de seguridad (costo sin verificar).",
+  "competidores_verificados": [
+   {
+    "nombre": "Overdrive Tools",
+    "precio": "sin verificar (prueba gratuita)",
+    "url": "https://workspace.google.com/marketplace/app/overdrive_tools/1033413684620?pann=b"
+   },
+   {
+    "nombre": "GAT+",
+    "precio": "sin verificar",
+    "url": "https://gatlabs.com/knowledge/tech-tips/change-ownership-of-a-google-drive-file/"
+   }
+  ],
+  "razon": "Cuña frágil, competidores en el mismo canal y fricción de verificación OAuth para una persona; sin evidencia de demanda a $79. MEDIA-BAJA.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N04-01",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 5
+  },
+  "total": 34,
+  "hecho_decisivo": "$12/mes exige ~834 pagadores para $10k MRR; alertas de lectura son estándar en suites; SEO de plantillas tiene intención gratuita.",
+  "competidores_verificados": [
+   {
+    "nombre": "Bonsai",
+    "precio": "sin plan gratis permanente; ~$9-59 por usuario según fuente (conflictiva)",
+    "url": "https://capterra.com/p/238825/Bonsai/pricing/"
+   }
+  ],
+  "razon": "Mercado enorme y MVP simple, pero clon sin cuña real, pago bajo y canal débil. F5 no falla del todo. BAJA.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N09-14",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 31,
+  "hecho_decisivo": "HubSpot Breeze y Salesforce ya ofrecen consultas en lenguaje natural dentro del CRM, erosionando la cuña en el propio canal.",
+  "competidores_verificados": [
+   {
+    "nombre": "HubSpot Breeze",
+    "precio": "incluido con créditos/asientos (sin verificar monto)",
+    "url": "https://knowledge.hubspot.com/ai/understand-breeze?facet1=crm"
+   }
+  ],
+  "razon": "Cuña erosionada por IA nativa, NL-to-query poco fiable con datos sucios y revisión OAuth de marketplaces; sin evidencia de demanda. BAJA.",
+  "busquedas_usadas": 0
+ }
+]

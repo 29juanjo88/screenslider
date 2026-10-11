@@ -1,0 +1,142 @@
+[
+ {
+  "id": "N02-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "EAA exigible desde 2025-06-28 y alcanza a e-commerce con clientes UE (fuente secundaria)",
+  "competidores_verificados": [
+   {
+    "nombre": "Pa11y/axe-core/Lighthouse (gratis)",
+    "precio": "0",
+    "url": "sin verificar"
+   }
+  ],
+  "razon": "Dolor regulatorio real y mercado grande, pero la deteccion es gratis y la cuna (reportes y parches) es debil y sin precios verificados de Deque/axe; no cae en F1 porque el entregable de cumplimiento no es gratis.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N08-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "Informe de terminos de busqueda nativo y gratis en Google Ads; Optmyzr ~208/mes y Adalysis ~126-149/mes (fuentes terceras en conflicto)",
+  "competidores_verificados": [
+   {
+    "nombre": "Optmyzr",
+    "precio": "~208-209 USD/mes (fuentes en conflicto)",
+    "url": "https://www.capterra.com/p/156308/Optmyzr/pricing/"
+   },
+   {
+    "nombre": "Adalysis",
+    "precio": "~126-149 USD/mes (no confirmado)",
+    "url": "https://www.capterra.com.sg/software/173311/adalysis"
+   }
+  ],
+  "razon": "Hueco de precio real pero anunciantes pequenos pagan poco y rotan, la funcion es nativa, hay barrera de token de API y Google puede absorberla; defensor no la rescata.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "G23-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 39,
+  "hecho_decisivo": "Helium 10 Refund Genie sin comision sobre recobros; servicios de recobro cobran ~20-25% (marketing/resenas)",
+  "competidores_verificados": [
+   {
+    "nombre": "Helium 10 Refund Genie",
+    "precio": "incluido en suscripcion, sin comision (segun el vendedor)",
+    "url": "https://www.helium10.com/tools/refund-genie/"
+   },
+   {
+    "nombre": "Carbon6/GETIDA/Seller Investigators",
+    "precio": "comision ~25% (solo Carbon6, resena)",
+    "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+   }
+  ],
+  "razon": "Dolor monetario directo y canal con intencion (r/FulfillmentByAmazon, SEO), pero cuna no definida, competencia por comision y tamano del segmento 20k+/mes sin verificar; riesgo SP-API.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N10-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "Blankit y Purify gratis y Caviard 0/4/19 USD hacen lo mismo en local",
+  "competidores_verificados": [
+   {
+    "nombre": "Caviard",
+    "precio": "Free / 4 USD mes / 19 USD lifetime",
+    "url": "https://trustmrr.com/startup/caviard-ai"
+   },
+   {
+    "nombre": "Blankit",
+    "precio": "gratis",
+    "url": "https://www.producthunt.com/p/crossout/blankit"
+   },
+   {
+    "nombre": "Purify",
+    "precio": "gratis",
+    "url": "https://chromeboard.com/extension/purify-cjnfmpcndaacdhbgnchldoodmoelcmme"
+   }
+  ],
+  "razon": "Falla F1: la cuna de redaccion local self-serve ya esta cubierta por opciones gratis verificadas; ademas F5 a 12 USD; defensor concede.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N02-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "Existen Anonyx (autoservicio, plan gratis) y OSS (PostgreSQL Anonymizer, pynonymizer); pagadores reales probablemente cerca o bajo 100k",
+  "competidores_verificados": [
+   {
+    "nombre": "Anonyx",
+    "precio": "plan gratuito (ficha del vendedor)",
+    "url": "https://peerpush.com/p/anonyx"
+   },
+   {
+    "nombre": "pynonymizer (OSS)",
+    "precio": "gratis",
+    "url": "https://pypi.org/project/pynonymizer"
+   }
+  ],
+  "razon": "Dolor real pero la cuna de autoservicio ya tiene al menos un competidor y OSS, confianza con datos de produccion y ejecucion dificil para una persona; mercado de pago en el umbral, sin verificar.",
+  "busquedas_usadas": 0
+ }
+]

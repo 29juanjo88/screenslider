@@ -1,0 +1,133 @@
+{
+ "id": "N02-02",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episódico: la factura se optimiza una vez (caché, matrices, runners Linux en vez de macOS/Windows) y el problema desaparece. No hay evidencia de que el comprador busque activamente la solución: la etapa C no halló hilos de Reddit/foros pidiendo esto. Dolor 'estaría bien' para la mayoría; urgente solo para orgs con facturas altas, que son pocas.",
+   "evidencia": [
+    {
+     "afirmacion": "La etapa C no encontró hilos de Reddit/foros con quejas directas; demanda orgánica sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Los multiplicadores (Windows 2x, macOS 10x) y el caché se corrigen con cambios de configuración puntuales, según la doc de GitHub",
+     "url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions"
+    },
+    {
+     "afirmacion": "GitHub anunció precios más simples para Actions, lo que pone el costo en conversación (dato a favor del dolor)",
+     "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los repos públicos y muchos equipos pequeños caen en minutos incluidos o gratis; solo orgs con gasto notable pagarían. A $29/mes el comprador debe ahorrar claramente más que eso y además puede obtener el desglose gratis con el CSV nativo y scripts OSS. No hay precios verificados de competidores que muestren presupuesto existente para una herramienta solo de análisis.",
+   "evidencia": [
+    {
+     "afirmacion": "GitHub ofrece un informe de uso en CSV con entradas por workflow (hilo de comunidad de 2021; la ruta puede haber cambiado)",
+     "url": "https://github.community/t/how-do-i-see-an-itemized-actions-charges/186791"
+    },
+    {
+     "afirmacion": "Existen scripts/herramientas OSS que estiman costo por workflow (App::GHGen, gha-budget), aunque requieren ejecución manual",
+     "url": "https://metacpan.org/pod/App::GHGen"
+    },
+    {
+     "afirmacion": "Precios de Depot, Datadog CI Visibility y Blacksmith: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Cuatro frentes: (1) el dashboard/CSV nativo de GitHub con gasto en dólares; (2) guías gratis y analítica por job de Blacksmith y otros proveedores de runners que usan el desglose como gancho; (3) scripts OSS/CLI; (4) Datadog CI Visibility para quien ya lo paga. Honesto: las fuentes que dicen que lo nativo no da costo por workflow son de vendors interesados, así que el hueco real es dudoso. Para la cuña 'sin migrar runners', el filtro F1 es parcial: lo gratis cubre una auditoría puntual.",
+   "evidencia": [
+    {
+     "afirmacion": "Blacksmith afirma que lo nativo no da costo en dólares por workflow, pero vende runners (fuente interesada)",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "La doc de GitHub indica que el panel de facturación puede mostrar el uso de Actions como gasto en dólares",
+     "url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions"
+    },
+    {
+     "afirmacion": "Otro post de Blacksmith lista Namespace, AgentPing y las métricas nativas de GitHub como opciones de analítica por job (no verificado de forma independiente)",
+     "url": "https://info.blacksmith.sh/task/blog/services-per-job-cost-analytics-github-actions"
+    },
+    {
+     "afirmacion": "Existe un MCP server 'ActionsPulse' y una página de gestión de costos en gh-aw: más alternativas gratis o integradas en el ecosistema",
+     "url": "https://github.github.com/gh-aw/reference/cost-management/"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (GitHub Marketplace, SEO 'reduce GitHub Actions cost', r/devops) es plausible pero no demostrado. El SEO está dominado por contenido de Blacksmith y otros vendors de runners con presupuesto de contenido. En Marketplace no verifiqué cuántas apps de costos existen ni su tráfico. Reddit prohíbe en la práctica la autopromoción y la etapa C no halló demanda ahí. Además la herramienta requiere dar acceso (OAuth/app) a repos o facturación de una org, lo que alarga la compra por seguridad aunque sea 'solo lectura'.",
+   "evidencia": [
+    {
+     "afirmacion": "El contenido de SEO sobre desglose de costos por workflow lo publican vendors de runners (Blacksmith publica varias guías)",
+     "url": "https://info.blacksmith.sh/task/blog/github-actions-cost-breakdowns"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda, tráfico de Marketplace y CAC: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Es la dimensión más débil. Producto de auditoría: el cliente optimiza, ahorra, y cancela (churn tras ahorrar), reconocido incluso por la defensa de la etapa C. La mitigación sugerida (alertas de regresión) convierte el producto en monitoreo, pero entonces se acerca a Datadog y a las alertas de presupuesto nativas. Con $29/mes, 500 clientes dan ~$14.5k MRR y con churn alto exige reponer cientos al año.",
+   "evidencia": [
+    {
+     "afirmacion": "La defensa de la etapa C concede que el churn tras optimizar es real (valor puntual)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Cálculo propio: 500 clientes × $29 = $14,500 MRR; llegar a $50k exigiría ~1,700 clientes (aritmética, no dato externo)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El requisito duro es ≥100k compradores posibles. La cifra de desarrolladores (~47-48M, SlashData) no es el mercado: el comprador es el eng manager/DevOps de una org con gasto relevante en Actions. 'Cientos de miles de orgs' sigue sin verificar y, filtrando por gasto significativo (que pague >$29/mes de herramienta), probablemente quede por debajo de 100k. Riesgo real de F6, y la banda sería 2 como mucho en la escala. Mi búsqueda tampoco halló cifras de orgs pagadoras de Actions.",
+   "evidencia": [
+    {
+     "afirmacion": "Desarrolladores globales ~47-48M según SlashData (modelado, cita de la etapa C); es base de personas, no de compradores",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Número de orgs con gasto relevante en GitHub Actions: sin verificar (la etapa C y mi búsqueda no lo hallaron)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Prácticamente nula. El análisis de logs/uso vía API es trivial de replicar; un vendor de runners puede ofrecer el mismo dashboard gratis (ya lo hace con guías y analítica por job) y GitHub puede mejorar su informe nativo (riesgo principal reconocido en la idea). Dependencia total de una plataforma (GitHub API y Marketplace) que además es el competidor. No hay datos propietarios ni efectos de red.",
+   "evidencia": [
+    {
+     "afirmacion": "Blacksmith ya incluye analítica de costo por job en sus runners gestionados (fuente de vendor)",
+     "url": "https://info.blacksmith.sh/task/blog/services-per-job-cost-analytics-github-actions"
+    },
+    {
+     "afirmacion": "GitHub está rediseñando precios y experiencia de Actions, con capacidad de mejorar reportes",
+     "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"
+    },
+    {
+     "afirmacion": "El riesgo de mejora nativa está declarado en la propia idea (F1 parcial)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Aquí la evidencia no me favorece: un dashboard solo lectura con la API de GitHub es viable en ~6 semanas para el stack de Juan (Node/TS/React). El riesgo está en lo posterior: soporte de seguridad/permisos de orgs, cambios de precios de GitHub que obligan a recalcular el modelo (el cargo de $0.002/min se cita solo en blogs de vendors, sin verificar) y precisión del 'ahorro estimado', que si falla destruye la confianza.",
+   "evidencia": [
+    {
+     "afirmacion": "Cargo de plataforma $0.002/min desde 1-mar-2026: citado por vendors, no confirmado contra GitHub",
+     "url": "https://info.blacksmith.sh/task/blog/github-actions-cost-breakdowns"
+    },
+    {
+     "afirmacion": "La construcción del MVP es factible para el stack de Juan (juicio propio, a favor de la idea)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor real pero puntual, con alternativas gratis (CSV y dashboard nativos, scripts OSS, guías de vendors de runners) que cubren una auditoría única. La cuña 'sin migrar runners' es débil: quien optimiza una vez cancela, no hay defensa contra copia o mejora nativa de GitHub, y el mercado de orgs con gasto relevante en Actions es probablemente <100k (sin verificar, riesgo F6). Mi mejor punto a favor de la idea, que reconozco, es la ejecución rápida por una persona y el contexto de cambio de precios de 2026.",
+ "busquedas_usadas": 2
+}

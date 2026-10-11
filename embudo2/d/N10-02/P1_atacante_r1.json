@@ -1,0 +1,125 @@
+{
+ "id": "N10-02",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es de precio, no de funcionalidad: un banner de cookies es una obligación que se quiere resolver una vez y olvidar. No hay pérdida semanal ni búsqueda activa más allá de 'alternativa a X' tras un alza. La queja por Cookiebot (duplicó precio, ago 2025) es real pero viene de reseñas y blogs de rivales, y el costo para una agencia con muchos sitios se cuantifica en decenas de dólares/mes por sitio, tolerable. Evidencia a favor del dolor existe, pero es moderada.",
+   "evidencia": [
+    {
+     "afirmacion": "Cookiebot habría duplicado precio base de ~EUR15 a ~EUR30/mes por dominio (ago 2025), según reseña Trustpilot y fuentes de competidores; sin verificar en sitio oficial",
+     "url": "https://uk.trustpilot.com/review/cookiebot.com"
+    },
+    {
+     "afirmacion": "No hay datos de frecuencia de búsqueda ni de churn por precio de CMP",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay disposición de pago demostrada (CookieYes, Cookiebot, Termly cobran), pero el comprador ancla su precio en una opción gratis: CookieYes gratis 1 dominio/5,000 pageviews y plugins WordPress freemium. Para freelancers con 1-3 sitios el gratis basta; la cuña de 'ilimitados' solo monetiza a agencias con muchos dominios, un subsegmento pequeño. A $19/mes la meta de $10k MRR exige ~526 pagadores; a $49-99 (ajuste de la defensa) bastan 100-200 agencias, pero ese precio choca con Complianz Agency a ~$399/año por 25 sitios (~$33/mes).",
+   "evidencia": [
+    {
+     "afirmacion": "CookieYes: gratis 1 dominio/5,000 pageviews; Basic $10, Pro $25, Ultimate $55/mes por dominio",
+     "url": "https://www.cookieyes.com/pricing/"
+    },
+    {
+     "afirmacion": "Complianz Agency ~$399/año por 25 sitios (otro snippet indica $359; verificar), sin límite de pageviews ni de registros de consentimiento en planes de pago",
+     "url": "https://complianz.io/pricing/"
+    },
+    {
+     "afirmacion": "Cálculo propio: $10k MRR / $19 = ~526 clientes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Saturación fuerte, incluida la cuña misma. Gratis: CookieYes (1 dominio), plugins WP. Bundles multi-dominio ya existentes: Complianz (25 sitios por licencia Agency, no ilimitado, pero muy cercano), Enzuzo Pro 10 dominios $79/mes, Consently $199/año por 5 dominios, Cookie Script desde EUR8/mes por 2 sitios, ConsentStack, Secure Privacy Agency Pool. Además el ChatGPT/IA nativa no es sustituto directo del CMP, así que ahí la IA no mata la idea; el peligro es la plataforma: Shopify y WordPress ya traen o integran banners de consentimiento (sin verificar). Esto cumple F1 para la cuña: hay opciones gratis y planes planos suficientemente buenos.",
+   "evidencia": [
+    {
+     "afirmacion": "Complianz Agency cubre 25 sitios; Personal $59/año 1 sitio, Professional $179/año 5 sitios",
+     "url": "https://complianz.io/pricing/"
+    },
+    {
+     "afirmacion": "Enzuzo Pro 10 dominios $79/mes y ConsentStack $29/mes por 2 dominios (blog de vendor, sin verificar)",
+     "url": "https://enzuzo.com/blog/cookiebot-pricing"
+    },
+    {
+     "afirmacion": "Consently $199/año por 5 dominios; Cookie Script desde EUR8/mes por 2 sitios (blogs de competidores, sin verificar en sitios oficiales)",
+     "url": "https://consently.net/blog/termly-alternatives"
+    },
+    {
+     "afirmacion": "CookieYes gratis 1 dominio",
+     "url": "https://www.cookieyes.com/pricing/"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Los tres canales nombrados están disputados. SEO 'cookiebot alternative' está lleno de blogs de rivales (CookieYes, Enzuzo, Consently, ConsentStack, Cookie Script escriben comparativas), con dominios de mucha autoridad que un recién llegado difícilmente supera. WordPress.org tiene Complianz, CookieYes y otros plugins con miles de instalaciones y reseñas acumuladas; ranking depende de instalaciones activas, ventaja de incumbentes. Shopify App Store igual, con apps de consentimiento establecidas (sin verificar). Convertir tráfico gratis de plugin a pago a $19 es lento; no tengo cifras de CAC ni de conversión, sin verificar. Honestamente, el canal existe y tiene intención de compra, pero no es una ventaja para el recién llegado.",
+   "evidencia": [
+    {
+     "afirmacion": "Blogs de rivales ocupan el SEO de alternativas: consentpixel, consently, enzuzo",
+     "url": "https://consentpixel.com/blogs/onetrust-alternatives/"
+    },
+    {
+     "afirmacion": "CAC y tasa de conversión freemium->pago en plugins CMP: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Mixta. A favor del producto: un CMP instalado en un sitio tiene alto costo de cambio bajo (pegar un script) pero baja motivación para cambiar, retención natural decente. En contra: el cliente objetivo (agencias) es justo el que cambia cuando aparece un plan más barato o cuando el cliente final cierra el sitio; el churn de agencias por proyectos terminados es sin verificar. Además la retención depende de que el CMP siga cumpliendo cambios regulatorios (TCF, Consent Mode, leyes estatales US); si una persona no mantiene el ritmo, el cliente se va tras un incidente. Evidencia: ninguna medida; sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de CMP SaaS para agencias: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Cambio de TCF a v2.3 exigido por Google desde 1 mar 2026 según Cookiebot (vendor, sin verificar en Google)",
+     "url": "https://www.cookiebot.com/en/google-certified-cmp-requirement-cookiebot/"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El mercado total de sitios con obligación de consentimiento es muy grande (probablemente millones), pero el mercado de la CUÑA (agencias/freelancers con muchos dominios dispuestos a pagar ~$19-99/mes) es una fracción sin cuantificar. La idea trae la cifra 'millones de sitios... sin verificar'; no encontré fuente para el número de agencias con 20+ dominios. Si se acepta el ajuste de la defensa (20+ dominios), el conteo de compradores posibles puede caer cerca o por debajo de 100k (F6), sin verificar. Reconozco que contando todos los dueños de sitios el umbral de 100k probablemente se supera, así que este es un punto parcial a favor de la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Cifra de sitios/agencias compradores: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Los tiers de CookieYes y Complianz muestran que el pago se segmenta por 1, 5, 25 sitios, es decir, la demanda de multi-sitio ya está servida",
+     "url": "https://complianz.io/pricing/"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula. La cuña es de precio y empaquetado: cualquier incumbente (CookieYes, Termly, Enzuzo) puede lanzar un plan agencia plano en semanas, y de hecho Complianz, Enzuzo y otros ya lo tienen. No hay efecto de red, datos propietarios ni integración difícil. La única barrera, la certificación Google CMP, protege a los incumbentes ya certificados, no al nuevo. Un precio plano de $19 con dominios ilimitados además es sensible a abuso (revender a muchos clientes) y a guerra de precios.",
+   "evidencia": [
+    {
+     "afirmacion": "Bundles multi-dominio ya existen: Enzuzo 10 dominios $79/mes",
+     "url": "https://enzuzo.com/blog/cookiebot-pricing"
+    },
+    {
+     "afirmacion": "CookieYes ya certificado como Google CMP Partner para TCF",
+     "url": "https://www.cookieyes.com/blog/google-certified-cmp-for-tcf/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Un banner básico es construible en 6 semanas (a favor: es software puro, stack de Juan). Pero un producto competitivo exige: bloqueo automático de scripts fiable en miles de sitios y temas, Consent Mode v2, y para vender a publishers con AdSense/Ad Manager en EEA/UK, certificación Google CMP y TCF (actualmente v2.3 según un vendor), más registro de consentimientos, geolocalización, traducciones y actualización legal continua (GDPR, CCPA y leyes de estados US). Soporte a agencias con sitios rotos por el bloqueo de scripts recae en una persona a tiempo parcial. Reconozco que sin AdSense no se necesita la certificación, lo que reduce la carga en el segmento de agencias, parcial a favor.",
+   "evidencia": [
+    {
+     "afirmacion": "Google exige CMP certificado con TCF para AdSense, Ad Manager y AdMob en EEA/UK desde 16 ene 2024 y Suiza desde 31 jul 2024 (fuentes de vendors; verificar con Google)",
+     "url": "https://flexyconsent.com/blog/google-certified-cmp-list-requirements/"
+    },
+    {
+     "afirmacion": "Tiempo de certificación Google y costo de mantenimiento legal para una persona: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "La cuña de dominios ilimitados a precio fijo ya está ocupada (Complianz 25 sitios por ~$399/año, Enzuzo 10 dominios $79/mes, más CookieYes gratis para 1 dominio) y es puramente de precio, por tanto copiable en semanas. Los tres canales nombrados (SEO 'alternativa', WordPress.org, Shopify) están dominados por incumbentes con reseñas e instalaciones, y a $19/mes se necesitan ~526 pagadores para $10k MRR. Estrechar la cuña a agencias de 20+ dominios sube el precio pero reduce el mercado hacia el umbral de 100k, y suma carga de cumplimiento legal y certificación Google que una persona a tiempo parcial difícilmente sostiene. A favor de la idea: el dolor de alza de precios de Cookiebot y la disposición a pagar son reales, y el mercado total de sitios es grande.",
+ "busquedas_usadas": 2
+}

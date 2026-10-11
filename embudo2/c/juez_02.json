@@ -1,0 +1,157 @@
+[
+ {
+  "id": "N01-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "hecho_decisivo": "Prisync parte de 99 USD pero existen apps de 19-29 USD con plan gratis (citadas por rol, no re-verificadas por el juez)",
+  "competidores_verificados": [
+   {
+    "nombre": "Prisync",
+    "precio": "99 USD/mes",
+    "url": "https://www.capterra.com/p/153451/Prisync/reviews/1309163"
+   },
+   {
+    "nombre": "CompeteTracker",
+    "precio": "gratis; 19.99 USD/mes",
+    "url": "https://apps.shopify.com/competetracker"
+   },
+   {
+    "nombre": "PriceKit",
+    "precio": "gratis; 19 USD/mes",
+    "url": "https://apps.shopify.com/pricekit"
+   },
+   {
+    "nombre": "Snoopie",
+    "precio": "gratis; 19-29 USD/mes",
+    "url": "https://apps.shopify.com/snoopie"
+   }
+  ],
+  "razon": "Prisync desde 99 USD/mes deja un hueco intermedio, pero apps de Shopify con plan gratis o 19-29 USD cubren parte de la cuña; scraping anti-bot es costo central.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N10-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 35,
+  "hecho_decisivo": "Cuña de setup fácil ya ocupada (Stape gratis/barato, Aimerce)",
+  "competidores_verificados": [
+   {
+    "nombre": "Stape",
+    "precio": "gratis 10k requests; Pro 17 USD/mes (anual)",
+    "url": "https://stape.io/price-server-google-tag-manager"
+   },
+   {
+    "nombre": "Aimerce",
+    "precio": "sin verificar",
+    "url": "https://www.aimerce.ai/blogs/aimerce-vs-stape-do-you-need-server-side-gtm"
+   }
+  ],
+  "razon": "Dolor monetario real, pero Stape tiene plan gratis y ~17 USD/mes, y hay varias alternativas de setup fácil; la cuña está ocupada y la infra pesa a 1 persona.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N01-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 0,
+  "hecho_decisivo": "Diagnóstico nativo gratis de Google cubre la cuña; sin evidencia de pago recurrente",
+  "competidores_verificados": [
+   {
+    "nombre": "GMC Scout",
+    "precio": "sin verificar",
+    "url": "https://www.gmcscout.com/merchant-center-product-disapprovals"
+   }
+  ],
+  "razon": "Merchant Center muestra nativamente los motivos de rechazo (concedido por la defensa) y hay GMC Scout; dolor puntual, sin evidencia de pago recurrente. Falla F1 para la cuña de solo diagnóstico.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N05-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "hecho_decisivo": "Competidores ya ofrecen restauración por página; cuña incremental",
+  "competidores_verificados": [
+   {
+    "nombre": "Rewind Backups for Notion",
+    "precio": "sin verificar",
+    "url": "https://platform.softwareone.com/product/backups-for-notion/PCP-0028-3087"
+   },
+   {
+    "nombre": "ProBackup",
+    "precio": "según volumen; prueba gratis",
+    "url": "https://www.notion.com/connections/probackup"
+   },
+   {
+    "nombre": "SimpleBackups",
+    "precio": "sin verificar",
+    "url": "https://simplebackups.com/learn/notion-backup"
+   }
+  ],
+  "razon": "Rewind (restauración por página, 365 días), ProBackup y SimpleBackups ya cubren la cuña; mercado de compradores de backup muy menor que usuarios de Notion.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N08-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 35,
+  "hecho_decisivo": "Cuña de precio bajo ocupada por planes gratis y de 29 USD",
+  "competidores_verificados": [
+   {
+    "nombre": "Otterly AI Lite",
+    "precio": "29 USD/mes (tercero)",
+    "url": "https://www.therankmasters.com/blog/best-tools-tracking-brand-visibility-ai-search"
+   },
+   {
+    "nombre": "Dageno AI",
+    "precio": "plan gratis",
+    "url": "https://www.dageno.ai/blog/best-online-perplexity-rank-tracker"
+   },
+   {
+    "nombre": "Apify AI Visibility Check",
+    "precio": "3 USD pago único",
+    "url": "https://apify.com/sorcerai/constellation-ai-visibility-check"
+   }
+  ],
+  "razon": "Categoría saturada: Dageno y Prompt Monitor con plan gratis, Otterly desde 29 USD, HubSpot AEO Grader gratis; margen frágil por costo de LLM. Demanda creciente y mercado amplio.",
+  "busquedas_usadas": 0
+ }
+]

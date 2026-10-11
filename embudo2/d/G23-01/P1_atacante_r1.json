@@ -1,0 +1,129 @@
+{
+ "id": "G23-01",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episodico y pasivo: el seller no lo 'busca' cada semana, es dinero que ni sabe que perdio. Amazon ya acredita automaticamente los casos mas claros, y desde 2025-03-10 cambio la politica de reembolso (base en costo de abastecimiento), lo que puede reducir el monto por reclamo. Honestidad: la perdida monetaria directa es real y la comunidad r/FulfillmentByAmazon la discute; eso favorece a la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Politica de reembolsos FBA actualizada desde 2025-03-10 (valor basado en costo de abastecimiento), cita de la etapa C",
+     "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"
+    },
+    {
+     "afirmacion": "Amazon solo auto-acredita los incidentes mas claros; el resto requiere reclamo manual (afirmacion de un vendedor de software, marketing)",
+     "url": "https://www.shulex.com/blog/amazon-reimbursement-software"
+    },
+    {
+     "afirmacion": "Que el 1-3% de ingresos quede sin reclamar es afirmacion comercial de un proveedor, no verificada",
+     "url": "https://www.amplisell.com/blog-post/best-amazon-reimbursement-services-for-fba-brands"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los sellers estan acostumbrados a pagar por recobro como porcentaje (~20-25%) o a recibirlo incluido en suscripciones que ya pagan (Helium 10). $49 fijos al mes obliga a pagar antes de saber si hay recobro; el seller con $20k+/mes puede recobrar poco por mes y la propuesta de valor 'pago solo si recuperas' vence al precio fijo. Honestidad: quien ya paga 20-25% tiene presupuesto demostrado, lo que ayuda a la disposicion de pago.",
+   "evidencia": [
+    {
+     "afirmacion": "Helium 10 dice que Refund Genie no cobra comision sobre fondos recuperados y que otros cobran 20% o mas (marketing)",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "afirmacion": "Resena cita ~25% de comision para Carbon6; GETIDA y Seller Investigators tambien son servicios establecidos",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Saturado: Helium 10 Refund Genie (DIY, incluido en suscripcion), Threecolts Seller 365 Reimbursements, Carbon6, GETIDA, Seller Investigators, y herramientas como Jarvio, SellerLabs, Shulex y ZonWizard que publican contenido SEO sobre reembolsos. La cuña (pago fijo bajo + texto de reclamo listo) es plausible pero no es exclusiva: Refund Genie ya cubre el DIY sin comision. Esto cae en F1 parcial para la cuña: incumbente gratis o incluido y suficientemente bueno para el seller pequeno que ya tiene Helium 10. Honestidad: Helium 10 segun la etapa C no cubre discrepancias de envios entrantes, que es un hueco potencial.",
+   "evidencia": [
+    {
+     "afirmacion": "Refund Genie de Helium 10 es DIY y sin comision; segun etapa C no incluye discrepancias de envios entrantes",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "afirmacion": "Carbon6, GETIDA y Seller Investigators son servicios establecidos",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    },
+    {
+     "afirmacion": "Threecolts ofrece Seller 365 Reimbursements",
+     "url": "https://www.threecolts.com/seller-365-reimbursements"
+    },
+    {
+     "afirmacion": "Multiples vendedores publican contenido de software de reembolso (SellerLabs, Shulex, ZonWizard), señal de SEO competido",
+     "url": "https://www.sellerlabs.com/?p=18611"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (r/FulfillmentByAmazon y SEO 'FBA lost inventory claim') es real, pero Reddit castiga la autopromocion y el SEO ya lo ocupan Helium 10, Threecolts, Jarvio y otros con dominios fuertes. La palabra clave tiene intencion alta pero la disputan competidores con presupuesto. No tengo datos de CAC ni de dificultad de palabra clave. Un producto que lee reportes FBA no se difunde solo (sin viralidad). Honestidad: la intencion de busqueda es alta y la comunidad existe, lo que favorece a la idea mas que a una herramienta generica.",
+   "evidencia": [
+    {
+     "afirmacion": "Contenido comparativo de reembolsos FBA dominado por vendedores establecidos",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    },
+    {
+     "afirmacion": "CAC y dificultad de palabras clave para 'FBA reimbursement'",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo alto de churn por naturaleza: la herramienta recupera lo acumulado en el primer escaneo (backlog) y luego el flujo mensual es pequeño; el seller puede cancelar tras recobrar. Ademas las ventanas de reclamo son limitadas, asi que el valor del historial se agota. Los que se quedan pueden migrar a una suite (Helium 10, Threecolts) que lo incluye. Sin datos de churn del sector.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de retencion/churn de herramientas de reembolso FBA",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Helium 10 incluye Refund Genie dentro de la suscripcion, lo que facilita consolidar en una suite",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "F6 en riesgo: no hay cifra verificable de sellers FBA con $20k+/mes. La unica pista es un desglose de Jungle Scout (no verificado directamente, segun el resumen de busqueda ~12% de sellers sobre $25k/mes en 2024, calculo propio por filas) y '~2 millones de pymes 3P en Amazon en el mundo' de un sitio secundario. Aun asi, si se aplicara 12% a ~2M daria ~240k, pero mezcla 3P y no-FBA, vendedores inactivos y regiones donde no opera, y el 'activo' real es menor; esa multiplicacion es mi estimacion y no una fuente. Un segmento realista de FBA activo que pague $49 podria quedar cerca o debajo de 100k. Honestidad: no puedo demostrar que sea <100k; podria rondar el limite (escala 2-3).",
+   "evidencia": [
+    {
+     "afirmacion": "Jungle Scout: ~12% de sellers sobre $25k/mes en 2024 (suma de filas por el buscador; poblacion no confirmada como solo EE.UU.)",
+     "url": "https://revenuegeeks.com/amazon-seller-statistics/"
+    },
+    {
+     "afirmacion": "Casi 2 millones de pymes 3P en Amazon en el mundo (fuente secundaria, no oficial)",
+     "url": "https://smallbiztrends.com/amazon-seller-statistics/"
+    },
+    {
+     "afirmacion": "Cifra verificable de sellers FBA con $20k+/mes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa casi nula: la logica (comparar reportes FBA y generar texto de reclamo) es replicable por cualquier incumbente o por un seller con ChatGPT mas el reporte exportado. Helium 10 y Threecolts ya tienen la base de clientes y la integracion SP-API; agregar deteccion de discrepancias entrantes es un sprint. Las IA nativas (ChatGPT/Claude con CSV) pueden redactar el texto de reclamo gratis. Sin datos propietarios ni efecto de red. Honestidad: no encontre evidencia de que Amazon automatice ya los reclamos de entrantes, asi que el riesgo nativo es de proveedor, no confirmado.",
+   "evidencia": [
+    {
+     "afirmacion": "No se encontro anuncio oficial de Amazon de reembolso automatico de entrantes perdidos (busqueda propia)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Otras herramientas ya usan SP-API y el reporte GET_FBA_REIMBURSEMENTS_DATA, es decir, la barrera tecnica es baja",
+     "url": "https://www.shulex.com/blog/amazon-reimbursement-software"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "El MVP es factible para Juan (parsear CSV es simple), a favor de la idea. Pero el producto real exige acceso SP-API: registro de desarrollador, revision de rol/datos restringidos de Amazon y cumplimiento de politicas, lo que puede tardar semanas y depender de aprobaciones; ademas hay soporte a seller que depende de la cuenta y reglas de reclamo que cambian (policy 2025). Un cambio de politica o el cierre de acceso mataria el producto. Juan no tiene conocimiento del dominio FBA.",
+   "evidencia": [
+    {
+     "afirmacion": "Las herramientas de la competencia recomiendan conectar por SP-API; el acceso requiere aprobacion de Amazon (tiempos sin verificar)",
+     "url": "https://www.sellerlabs.com/?p=18611"
+    },
+    {
+     "afirmacion": "Tiempo de aprobacion de SP-API para datos de reembolsos",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Pagar $49 fijos frente a Refund Genie (sin comision, incluido en la suscripcion de Helium 10) y servicios de comision establecidos deja una cuña debil (ahorro frente al 20-25% para sellers pequeños, pero sin ventaja defendible). Mercado de sellers FBA con $20k+/mes no verificado y cerca del limite de 100k, retencion pobre tras el primer recobro, SEO ya ocupado y dependencia de SP-API. Concedo dolor monetario real, comunidad nombrada y MVP viable.",
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,129 @@
+{
+ "id": "N02-02",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "La factura de Actions es gasto recurrente y creciente de un comprador concreto (eng manager/DevOps/finanzas) que hoy no ve costo en dolares por workflow/job. El dolor es de visibilidad y recurre cada mes al cerrar factura. Honestidad: es dolor medio (3), no critico; la mayoria de equipos pequenos paga poco y no lo busca activamente.",
+   "evidencia": [
+    {
+     "afirmacion": "Vendors (interesados) afirman que las metricas nativas no dan costo en dolares por workflow y que hace falta tooling externo",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "GitHub cambio precios de Actions: rebaja de hosted runners de hasta 39% desde 1-ene-2026 y pospuso el cargo a self-hosted para reevaluar; el costo de CI esta en la conversacion",
+     "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"
+    },
+    {
+     "afirmacion": "No se hallaron hilos de Reddit/foros con quejas directas: demanda organica sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El presupuesto ya existe (la factura de Actions) y la herramienta se justifica si ahorra mas que $29-49/mes; el ROI es medible en la propia factura. Otros ya pagan por observabilidad de CI (Datadog CI Visibility) y por runners mas baratos (Depot, Blacksmith). Debilidad: cobrar por 'ahorro' choca con que el pagador puede optimizar una vez y cancelar; y el pago real de orgs con factura relevante esta sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Existe mercado de pago adyacente: Depot, Blacksmith y Datadog CI Visibility venden mejoras/observabilidad de CI (precios sin verificar)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Churn tras optimizar reconocido en etapa C; mitigacion propuesta: monitoreo continuo con alertas de regresion",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hoy: reporte nativo de billing/uso de GitHub, scripts propios sobre la API, herramientas OSS/CLI (p. ej. App::GHGen), guias gratis de Blacksmith y paneles de Datadog. Ninguna es un dashboard continuo, neutral, con costo por workflow/rama, deteccion de cache ineficiente y alertas para un manager. Honestidad: la alternativa gratis mas fuerte (scripts + export de billing) es real y puede cubrir a equipos con ingenieria disponible; F1 es parcial, no descartado.",
+   "evidencia": [
+    {
+     "afirmacion": "Blacksmith describe opciones: plataformas de observabilidad, exportes nativos de billing o scripts OSS (fuente interesada)",
+     "url": "https://info.blacksmith.sh/task/blog/identify-github-actions-ci-spend"
+    },
+    {
+     "afirmacion": "Herramientas OSS/CLI que estiman costo por workflow existen",
+     "url": "https://metacpan.org/pod/App::GHGen"
+    },
+    {
+     "afirmacion": "Hay al menos una app en GitHub Marketplace de dashboard de Actions (octolense), lo que indica canal y competencia directa; su calidad/precio sin verificar",
+     "url": "https://github.com/apps/octolense-github-actions-dashboard"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: GitHub Marketplace (instalacion de app con permisos de solo lectura, fricción baja), SEO de cola larga ('reduce GitHub Actions cost', 'cost per workflow'), r/devops. Un informe gratis de un repo sirve de gancho product-led; el informe compartido en el equipo se difunde dentro de la org. CAC esperado cercano a cero en dinero pero lento en tiempo. Honestidad: los vendors de runners ya dominan el SEO de esas consultas (Blacksmith publica guias de ranking), y la evidencia de demanda de busqueda/volumen esta sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Blacksmith ya publica contenido SEO sobre costo por workflow, prueba de que la consulta tiene intencion comercial pero tambien competencia en SERP",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "Existe app de dashboard de Actions listada en GitHub Marketplace (canal viable)",
+     "url": "https://github.com/apps/octolense-github-actions-dashboard"
+    },
+    {
+     "afirmacion": "Volumen de busqueda de las consultas y CAC real: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Argumento a favor: si se vende como monitoreo continuo (alertas de regresion de costo al cambiar workflows, presupuestos por equipo, reportes mensuales para finanzas) el valor es recurrente porque los pipelines cambian constantemente y la factura es mensual. Honestidad: es la dimension mas debil; el uso de 'auditoria unica' implica churn alto y el valor recurrente no esta validado con ningun cliente.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn tras optimizar identificado como riesgo principal en etapa C (concesion de la defensa)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Retencion con alertas continuas: hipotesis, sin datos",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Base: ~180M+ desarrolladores en GitHub segun resumenes de Octoverse 2025 (fuente secundaria, hay discrepancias entre sitios: 150M vs 180M). Compradores posibles = orgs/equipos con factura de Actions en plan de pago; es plausible >100k a nivel global (GitHub tiene decenas de millones de repos privados y millones de orgs), pero no encontre cifra verificable de orgs que pagan Actions. Mi estimacion es 'cientos de miles', sin verificar; probable escala 2-3 de la rubrica. Honestidad: el mercado de pagadores con factura relevante puede ser bastante menor, y F6 es el riesgo principal.",
+   "evidencia": [
+    {
+     "afirmacion": "Resumenes de terceros de Octoverse 2025 citan 180M+ desarrolladores (otro sitio dice 150M+); fuente secundaria",
+     "url": "https://www.getpanto.ai/blog/github-statistics"
+    },
+    {
+     "afirmacion": "SlashData estima ~47-48M desarrolladores globales (estimacion modelada, citada en etapa B)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Numero de orgs que pagan minutos de Actions: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Debil en foso tecnico: cualquiera puede leer la API de billing/usage. Defensas parciales: neutralidad (sin conflicto de interes con vender runners), datos agregados de benchmarks entre orgs (que cuesta un workflow tipico) con el tiempo, y posicionamiento SEO/Marketplace. Riesgo real: GitHub mejora el reporte nativo o Blacksmith/Depot ofrecen analisis gratis como lead-gen, que ya hacen.",
+   "evidencia": [
+    {
+     "afirmacion": "Vendors usan el analisis gratis como lead-gen para vender runners (concesion de etapa C)",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "GitHub reevalua su estrategia de precios y experiencia de Actions; podria cubrir el hueco nativo",
+     "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Es la dimension mas fuerte: GitHub App de solo lectura, API REST de billing/usage y runs/jobs, backend Node/TS que Juan domina, base de datos pequena, sin hardware, sin ventas. MVP en ~4-6 semanas (OAuth/App, ingesta, agregacion de costos por workflow/job/rama, reglas de cache y jobs duplicados, dashboard). Operacion barata y mantenimiento ligero. Riesgo: la precision del costo por job depende de la API (runners, multiplicadores por OS) y de limites de rate; sin verificar contra docs.",
+   "evidencia": [
+    {
+     "afirmacion": "Documentacion oficial de metricas de uso de Actions por organizacion existe (insumo de datos)",
+     "url": "https://docs.github.com/en/actions/concepts/metrics"
+    },
+    {
+     "afirmacion": "Precision del calculo de costo por job via API: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor monetario recurrente, comprador concreto, MVP factible para una persona y canal nombrado (GitHub Marketplace/SEO/r/devops) con cuña de neutralidad y no migrar runners. Es una idea MEDIA con potencial: lo que la haria ALTA es validar mercado de pagadores >100k, retencion via monitoreo continuo y resistir el analisis gratis de los vendors. Concedo que la evidencia de mercado, demanda organica y retencion no me favorece y esta sin verificar; ademas el cargo de plataforma de $0.002/min fue pospuesto por GitHub para self-hosted, asi que el 'por que ahora' es mas debil de lo que la idea sugiere.",
+ "busquedas_usadas": 2
+}

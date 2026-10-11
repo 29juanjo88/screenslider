@@ -1,0 +1,115 @@
+[
+ {
+  "id": "N02-03",
+  "rescatar": false,
+  "respuesta": "La cuña de tope duro está cubierta en lo esencial: Sentry documenta presupuesto on-demand y spike protection que descarta eventos sin cobrarlos. Solo queda un hueco anecdótico: reportes de que spike protection no frenó un pico, de fuentes secundarias/foro. No basta para una cuña frente a plan gratis de Sentry, GlitchTip, Bugsink y PostHog.",
+  "concesiones": [
+   "Sentry ya ofrece tope de gasto on-demand y plan gratis",
+   "Canal 'Sentry alternative' saturado",
+   "Ingesta compatible con SDK a escala es costosa para 1 persona"
+  ],
+  "hechos": [
+   {
+    "afirmacion": "Sentry Spike Protection descarta eventos en picos y el exceso descartado no se cobra; reportes en foro de que no siempre actúa (anecdótico)",
+    "url": "https://docs.sentry.io/pricing/quotas/spike-protection"
+   },
+   {
+    "afirmacion": "Caso de foro: pico de ~9800 eventos/día que agotó la cuota mensual con spike protection casi sin actuar (un solo usuario)",
+    "url": "https://forum.sentry.io/t/spike-protection-dropped-2-out-of-10k-events/5602"
+   }
+  ],
+  "ajuste_sugerido": "Ninguno convincente; reformular como 'presupuesto por proyecto con alertas' no diferencia suficiente.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N09-10",
+  "rescatar": false,
+  "respuesta": "Frame.io tiene plan gratis (2 GB, 2 proyectos) y Pro a ~$15/usuario según Capterra, y Wipster con revisores gratis ya cubre 'precio bajo + clientes sin cuenta'. Con almacenamiento/ancho de banda de video a $19 plano el margen es frágil. No hallé evidencia nueva de demanda insatisfecha.",
+  "concesiones": [
+   "Wipster/Filestage/Ziflow/Dropbox Replay cubren la cuña",
+   "Frame.io tiene plan gratis y Pro ~$15 (agregadores, no verificado en sitio oficial)",
+   "Costo de video erosiona el margen"
+  ],
+  "hechos": [
+   {
+    "afirmacion": "Frame.io: Free $0 con 2 GB y 2 proyectos; Pro ~$15/usuario/mes, Team ~$25 (Capterra; sin verificar en sitio oficial)",
+    "url": "https://www.capterra.com/p/148214/Frame-io/pricing/"
+   },
+   {
+    "afirmacion": "No se encontró evidencia de alza de precios de Adobe/Frame.io",
+    "url": "sin verificar"
+   }
+  ],
+  "ajuste_sugerido": "Ninguno; la premisa 'Frame.io es caro' es débil con plan gratis y Pro ~$15.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N07-09",
+  "rescatar": false,
+  "respuesta": "Sin búsqueda propia ni evidencia nueva. El mercado es enorme pero la cuña (repaso de errores propios) es una función copiable por Speak/Duolingo y chatbots de voz, y el costo de voz a $8 es alto. No hay canal con intención de compra demostrado.",
+  "concesiones": [
+   "Saturación y presupuesto de incumbentes",
+   "Precio bajo exige ~1,250 pagadores para $10k",
+   "Cuña copiable",
+   "Voz en tiempo real comprime margen"
+  ],
+  "hechos": [
+   {
+    "afirmacion": "Sin búsqueda dedicada para esta idea",
+    "url": "sin verificar"
+   }
+  ],
+  "ajuste_sugerido": "Ninguno.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N09-05",
+  "rescatar": true,
+  "respuesta": "Es la demanda mejor documentada del lote: la queja de que Mailchimp cobra por contactos no suscritos/inactivos es recurrente (G2, Reddit, Capterra según fuentes secundarias) y Mailchimp lo confirma en su FAQ. Hay presupuesto existente y búsqueda 'Mailchimp alternative'. Pero Kit gratis hasta 10k, Beehiiv, Brevo (ilimitados contactos desde $9) y alternativas por envío ya existen, y la entregabilidad es riesgo real. Rescatable solo como wedge de migración/limpieza, no como ESP completo.",
+  "concesiones": [
+   "Kit gratis hasta 10k y Beehiiv gratis hasta 2,500",
+   "Brevo y otros ya cobran por envíos o sin límite de contactos (fuente agregadora)",
+   "Entregabilidad/reputación de IP es riesgo para 1 persona",
+   "Cobro por activos es copiable"
+  ],
+  "hechos": [
+   {
+    "afirmacion": "Mailchimp cuenta contactos suscritos, no suscritos y dados de baja para facturación; es una queja repetida (fuentes de competidores, no independientes)",
+    "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+   },
+   {
+    "afirmacion": "Brevo descrito con contactos ilimitados desde $9/mes (agregador, sin verificar en sitio oficial)",
+    "url": "https://www.emailtooltester.com/en/?p=2338"
+   },
+   {
+    "afirmacion": "Recorte del plan gratis de Mailchimp en 2026: fuentes discrepan",
+    "url": "https://dreamlit.ai/blog/mailchimp-review"
+   }
+  ],
+  "ajuste_sugerido": "Enviar vía Amazon SES/Postmark propio del cliente (BYO) para evitar reputación de IP; precio plano ~$15-25 por envíos; posicionar como importador + limpieza de inactivos para creadores 5k-100k.",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N06-07",
+  "rescatar": true,
+  "respuesta": "Es el caso más defendible: ya se paga por extracción de documentos (Docparser $39/100 créditos, $159/1000; Nanonets pago por página), con precios por documento caros para volumen medio, así que un plano por usuario dentro de Excel/Sheets tiene cuña de precio real y mercado >2M (sin verificar). AppSource y Workspace Marketplace son canales nombrados. Lo débil: IA general gratis y costo de inferencia.",
+  "concesiones": [
+   "ChatGPT/Copilot extraen tablas gratis en parte",
+   "ReadyData ya tiene gratis y $19",
+   "Usuarios intensivos destruyen un plano de $19",
+   "No confirmé complementos PDF-a-Excel con volumen en AppSource"
+  ],
+  "hechos": [
+   {
+    "afirmacion": "Docparser: Starter $39/mes por 100 créditos, Professional $74 por 250, Business $159 por 1000; 1 crédito = documento hasta 5 páginas",
+    "url": "https://mammoth.io/blog/docparser-pricing/"
+   },
+   {
+    "afirmacion": "Nanonets: precios contradictorios entre fuentes (500 páginas gratis y luego $0.3/página según G2; Pro $499/modelo según Docparser)",
+    "url": "https://g2.com/products/docparser/pricing"
+   }
+  ],
+  "ajuste_sugerido": "Precio con tope de páginas incluidas (p. ej. 300-500/mes a $19) más overage, para proteger margen; foco en contadores/AP con plantillas reutilizables; empezar en Google Workspace Marketplace.",
+  "busquedas_usadas": 1
+ }
+]

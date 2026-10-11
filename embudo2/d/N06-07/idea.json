@@ -1,0 +1,107 @@
+{
+ "idea": {
+  "id": "N06-07",
+  "nombre": "PDF2Sheet",
+  "cliente_que_paga": "Finanzas/operaciones/contadores que extraen tablas de PDFs y facturas",
+  "problema": "Copiar a mano de PDFs a Excel",
+  "solucion": "Complemento Excel/Sheets: PDF -> tabla estructurada con LLM, plantillas reutilizables",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Microsoft AppSource, Google Workspace Marketplace, SEO 'pdf to excel table'",
+  "competidores": [
+   "Nanonets",
+   "Docparser",
+   "Parsio",
+   "Adobe Acrobat"
+  ],
+  "cuña": "Precio plano por usuario con plantilla reusable dentro de Excel; incumbentes cobran por documento",
+  "tamaño_mercado": ">2M profesionales que procesan PDFs (estimación, sin verificar)",
+  "por_que_ahora": "LLM visión hace extracción barata y precisa",
+  "riesgo_principal": "Costos de inferencia y exactitud",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "PDF a Excel",
+  "origen": "nueva",
+  "b_total": 43,
+  "b_razon": "Dolor real y busqueda activa 'pdf to excel'; ya se paga por Docparser/Nanonets; marketplaces nombrados; cuña de precio plano copiable y Copilot/Acrobat/ChatGPT cubren parte; margen de inferencia.",
+  "c_total": 46,
+  "c_razon": "Dolor real, pago existente, mercado >2M (sin verificar), marketplaces nombrados; cuña de precio plano moderada y riesgo de inferencia.",
+  "c_hecho": "Docparser cobra $39/100 créditos y $159/1000 (por documento); ReadyData tiene gratis y $19; IA general extrae tablas gratis en parte."
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "N06-07",
+   "filtros_fallados": [
+    "F1 parcial: existen herramientas con plan gratis (p. ej. ReadyData con tier gratis) y funciones nativas de Excel/Sheets y asistentes de IA generales",
+    "F4 débil: demanda 'pdf to excel' dominada por herramientas web gratuitas; AppSource/Workspace Marketplace sin verificar como canal con volumen"
+   ],
+   "objecion": "'PDF a Excel' es una búsqueda saturada de herramientas gratuitas y freemium, y los asistentes de IA generales (ChatGPT, Copilot) extraen tablas gratis. La cuña de precio plano por usuario con costo de inferencia variable por documento es riesgo de margen: usuarios intensivos destruyen un plan plano de $19. Es el caso más defendible del lote por dolor real y marketplaces nombrados.",
+   "hechos": [
+    {
+     "afirmacion": "ReadyData lista plan gratis, Lite $9, Starter $19, Pro $59, hasta $229/mes; cubre PDFs escaneados con OCR",
+     "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+    },
+    {
+     "afirmacion": "PDF.it extrae tablas con Google Document AI a Excel (precio no visible)",
+     "url": "https://pdf.it.com/blog/table-extraction-excel"
+    },
+    {
+     "afirmacion": "Precios de Docparser/Nanonets y capacidad nativa de Excel Copilot con PDFs: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "N06-07",
+   "rescatar": true,
+   "respuesta": "Es el caso más defendible: ya se paga por extracción de documentos (Docparser $39/100 créditos, $159/1000; Nanonets pago por página), con precios por documento caros para volumen medio, así que un plano por usuario dentro de Excel/Sheets tiene cuña de precio real y mercado >2M (sin verificar). AppSource y Workspace Marketplace son canales nombrados. Lo débil: IA general gratis y costo de inferencia.",
+   "concesiones": [
+    "ChatGPT/Copilot extraen tablas gratis en parte",
+    "ReadyData ya tiene gratis y $19",
+    "Usuarios intensivos destruyen un plano de $19",
+    "No confirmé complementos PDF-a-Excel con volumen en AppSource"
+   ],
+   "hechos": [
+    {
+     "afirmacion": "Docparser: Starter $39/mes por 100 créditos, Professional $74 por 250, Business $159 por 1000; 1 crédito = documento hasta 5 páginas",
+     "url": "https://mammoth.io/blog/docparser-pricing/"
+    },
+    {
+     "afirmacion": "Nanonets: precios contradictorios entre fuentes (500 páginas gratis y luego $0.3/página según G2; Pro $499/modelo según Docparser)",
+     "url": "https://g2.com/products/docparser/pricing"
+    }
+   ],
+   "ajuste_sugerido": "Precio con tope de páginas incluidas (p. ej. 300-500/mes a $19) más overage, para proteger margen; foco en contadores/AP con plantillas reutilizables; empezar en Google Workspace Marketplace.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "N06-07",
+   "filtro_fallado": "",
+   "puntajes": {
+    "dolor": 4,
+    "pago": 4,
+    "canal": 3,
+    "mercado": 5,
+    "cuna": 3,
+    "ejecucion": 3
+   },
+   "total": 46,
+   "hecho_decisivo": "Docparser cobra $39/100 créditos y $159/1000 (por documento); ReadyData tiene gratis y $19; IA general extrae tablas gratis en parte.",
+   "competidores_verificados": [
+    {
+     "nombre": "Docparser",
+     "precio": "$39/mes 100 créditos; $159/mes 1000",
+     "url": "https://mammoth.io/blog/docparser-pricing/"
+    },
+    {
+     "nombre": "ReadyData",
+     "precio": "gratis; Lite $9; Starter $19; Pro $59",
+     "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+    }
+   ],
+   "razon": "Dolor real, pago existente, mercado >2M (sin verificar), marketplaces nombrados; cuña de precio plano moderada y riesgo de inferencia.",
+   "busquedas_usadas": 0
+  }
+ }
+}

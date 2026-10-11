@@ -1,0 +1,105 @@
+{
+ "idea": {
+  "id": "N01-09",
+  "nombre": "Woo Returns Portal",
+  "cliente_que_paga": "Tienda WooCommerce",
+  "problema": "Gestionar devoluciones por email; apps de devoluciones están enfocadas en Shopify",
+  "solucion": "Portal de devoluciones/etiquetas/crédito en plugin para WooCommerce",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "WordPress.org plugin directory; SEO 'woocommerce returns plugin'",
+  "competidores": [
+   "Loop Returns",
+   "Returnly",
+   "AfterShip Returns",
+   "plugins Woo de RMA (sin verificar)"
+  ],
+  "cuña": "WooCommerce está desatendido por apps Shopify-first; plugin autoservicio",
+  "tamaño_mercado": "WooCommerce ~4.5-6.2M tiendas (Store Leads/BuiltWith)",
+  "por_que_ahora": "Más devoluciones y expectativas",
+  "riesgo_principal": "Mantenimiento por versiones de WP/Woo",
+  "evidencia_url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/",
+  "angulo": "01",
+  "tema": "Devoluciones WooCommerce",
+  "origen": "nueva",
+  "b_total": 43,
+  "b_razon": "Mercado Woo grande con evidencia, canal WordPress.org con intención, cuña Woo vs Shopify-first plausible; mantenimiento y carriers.",
+  "c_total": 39,
+  "c_razon": "No hay incumbente gratis que cubra etiquetas y crédito, así que no cae en F1. Canal WordPress.org con intención y mercado Woo grande. Cuña modesta, pago recurrente choca con licencias únicas, mantenimiento y carriers pesan en ejecución.",
+  "c_hecho": "Plugins Woo gratis (ReturnDesk) y RMA de pago único (ECOSIRE desde US$149) existen, pero ningún SaaS mensual Woo con etiquetas hallado por defensa."
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "N01-09",
+   "filtros_fallados": [
+    "F1 parcial (cuña 'Woo desatendido' no se sostiene: existen plugins RMA gratis y de pago)"
+   ],
+   "objecion": "La cuña 'WooCommerce desatendido' es débil: hay plugins gratis en WordPress.org (p. ej. ReturnDesk) y varios RMA de pago (Webkul, WPSwings, Kaddora). Los dueños de tiendas Woo están acostumbrados a plugins gratis o de pago único; $39/mes recurrente choca con eso. Mantenimiento continuo por versiones WP/Woo y carriers.",
+   "hechos": [
+    {
+     "afirmacion": "Existe plugin gratis de devoluciones/reembolsos autoservicio para WooCommerce en WordPress.org, sin cuota mensual ni SaaS externo (según su listado)",
+     "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+    },
+    {
+     "afirmacion": "Existen varios plugins RMA de pago para Woo (Webkul, WPSwings, Kaddora); precios sin verificar",
+     "url": "https://webkul.com/blog/top-5-woocommerce-rma-plugins/amp/"
+    },
+    {
+     "afirmacion": "Tamaño de mercado Woo (millones de tiendas) viene del evidencia_url de la idea; no re-verificado por mí",
+     "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "N01-09",
+   "rescatar": true,
+   "respuesta": "Es la que mejor sobrevive. La búsqueda no halló ningún portal de devoluciones para Woo con suscripción mensual y etiquetas; lo que existe es licencia única (RMA de ECOSIRE desde US$149, a pedido) o plugins gratis básicos, mientras los portales con SaaS y etiquetas (ReturnGO desde $23/mes, Simply Returns $30/mes) son de Shopify/Wix. Eso respalda la cuña: portal con etiquetas, crédito y flujo moderno para Woo, que el plugin gratis de reembolsos no cubre. Mercado Woo de millones de tiendas, canal WordPress.org con intención.",
+   "concesiones": [
+    "Existen plugins RMA gratis y de pago único; el pago recurrente de $39 choca con la cultura de licencia única en Woo.",
+    "El mantenimiento por versiones de WP/Woo y carriers es real.",
+    "Cobertura de etiquetas por carrier no verificada; cifra de tiendas Woo no re-verificada."
+   ],
+   "hechos": [
+    {
+     "afirmacion": "RMA para WooCommerce de ECOSIRE: licencia única desde US$149, a pedido, con flujo autoservicio, reembolso y crédito",
+     "url": "https://ecosire.com/de/apps/woocommerce/woo-returns-rma-manager"
+    },
+    {
+     "afirmacion": "Portales de devoluciones SaaS con precio mensual hallados son de Shopify/Wix (ReturnGO desde $23/mes; Simply Returns $30/mes), no Woo",
+     "url": "https://apps.shopify.com/returngo"
+    }
+   ],
+   "ajuste_sugerido": "Bajar a $19-29/mes o plan por volumen de devoluciones; vender el valor de etiquetas prepagadas y crédito de tienda; incluir plan anual para acercarse a la lógica de licencia anual de Woo.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "N01-09",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 4,
+    "mercado": 4,
+    "cuna": 2,
+    "ejecucion": 3
+   },
+   "total": 39,
+   "hecho_decisivo": "Plugins Woo gratis (ReturnDesk) y RMA de pago único (ECOSIRE desde US$149) existen, pero ningún SaaS mensual Woo con etiquetas hallado por defensa.",
+   "competidores_verificados": [
+    {
+     "nombre": "ECOSIRE Woo RMA (licencia única desde US$149)",
+     "precio": "149 único",
+     "url": "https://ecosire.com/de/apps/woocommerce/woo-returns-rma-manager"
+    },
+    {
+     "nombre": "ReturnDesk (gratis)",
+     "precio": "0",
+     "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+    }
+   ],
+   "razon": "No hay incumbente gratis que cubra etiquetas y crédito, así que no cae en F1. Canal WordPress.org con intención y mercado Woo grande. Cuña modesta, pago recurrente choca con licencias únicas, mantenimiento y carriers pesan en ejecución.",
+   "busquedas_usadas": 0
+  }
+ }
+}

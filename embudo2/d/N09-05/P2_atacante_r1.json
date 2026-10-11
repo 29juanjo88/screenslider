@@ -1,0 +1,125 @@
+{
+ "id": "N09-05",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es de facturación (pagar por contactos inactivos), no de pérdida operativa semanal. Es molestia recurrente pero se resuelve gratis limpiando la lista o cambiando a Kit/Beehiiv. Honestidad: la queja contra Mailchimp sí es repetida, pero las fuentes son de competidores, no independientes. Urgencia media-baja.",
+   "evidencia": [
+    {
+     "afirmacion": "Mailchimp cuenta contactos suscritos, no suscritos y dados de baja para facturar; queja repetida (fuente de competidor, no independiente)",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    },
+    {
+     "afirmacion": "Precios por contacto actuales de Mailchimp",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay presupuesto existente (pagan Mailchimp), a favor de la idea. Pero el objetivo es el tramo 5k-100k, donde ya existen opciones baratas o gratis. Kit gratis hasta 10k recorta el segmento de pago. Quien está molesto por el precio tiene bajo umbral de gasto y compara por precio, con poca lealtad. A $25/mes hacen falta ~400-2,000 clientes para $10-50k MRR, y a $25 es difícil retener a quien busca el precio más bajo.",
+   "evidencia": [
+    {
+     "afirmacion": "Kit gratis hasta 10k suscriptores; de pago desde ~$32.50/mes (roundup tercero)",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Beehiiv gratis hasta 2,500 con envíos ilimitados; Scale ~$43/mes (fuentes difieren)",
+     "url": "https://skillscouter.com/beehiiv-review/"
+    },
+    {
+     "afirmacion": "Brevo con contactos ilimitados desde $9/mes (agregador, sin verificar en sitio oficial)",
+     "url": "https://www.emailtooltester.com/en/?p=2338"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Mercado saturado y con alternativas que cubren la cuña: Kit y Beehiiv (gratis), Buttondown (~$9/1k, $29/5k), Brevo (sin límite de contactos), y para el modelo BYO-SES (el ajuste propuesto) ya existen Listmonk (gratis, autoalojado), Sendy (pago único desde ~$69) y EmailOctopus (hosted, usa SES propio, gratis hasta 2.5k). La cuña de precio por envío y de BYO-SES ya está ocupada. Además Mailchimp puede reaccionar con facturación distinta. F1 parcial: gratis y suficiente para buena parte del segmento.",
+   "evidencia": [
+    {
+     "afirmacion": "Listmonk gratis y autoalojado, Sendy pago único (desde $69), EmailOctopus hosted con SES propio y gratis hasta 2.5k; precios de comparadores, sin verificar en sitios oficiales",
+     "url": "https://geekflare.com/guides/best-aws-ses-email-marketing-tools/"
+    },
+    {
+     "afirmacion": "Buttondown ~$9/mes por 1k, $29 por 5k (una sola fuente)",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Mailchimp recortó su plan gratis de 2,000 a 250 contactos (fuentes discrepan)",
+     "url": "https://www.itechguides.com/directory/newsletter-platforms/"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal 'Mailchimp alternative' tiene intención de compra, pero las primeras páginas de resultados están ocupadas por los propios competidores (Envoke, Kit, Beehiiv, Brevo, roundups de afiliados). Un dominio nuevo sin autoridad tarda meses en posicionar. Reddit r/Emailmarketing prohíbe o penaliza la autopromoción (sin verificar). Los roundups de afiliados cobran por aparecer. CAC orgánico incierto; no hay dato verificado de CAC ni de volumen de búsqueda. Honestidad: el término sí tiene demanda real, pero no pude cuantificarla.",
+   "evidencia": [
+    {
+     "afirmacion": "Páginas de 'Mailchimp alternative' dominadas por competidores y agregadores (p. ej. Envoke, roundups)",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'Mailchimp alternative' y CAC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Reglas de autopromoción en r/Emailmarketing",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un ESP es sticky una vez migrado, pero el cliente objetivo migró precisamente por precio y puede volver a migrar (el importador funciona en ambos sentidos). El segmento creador tiene churn alto cuando la newsletter se abandona. Si usas BYO-SES, el cliente ve que solo paga la capa de software y puede reemplazarla por Listmonk/Sendy gratis. Sin datos verificados de churn del sector. Honestidad: a favor, el costo de cambio de ESP es real para listas grandes activas.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de herramientas de newsletter para creadores",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Alternativas autoalojadas gratis (Listmonk) o pago único (Sendy) reducen la retención de usuarios sensibles al precio",
+     "url": "https://geekflare.com/guides/best-aws-ses-email-marketing-tools/"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Honestidad: el universo total de usuarios de email marketing es sin duda mayor que 100k. Pero el segmento comprable real es mucho menor: creadores con 5k-100k suscriptores que pagan Mailchimp, están molestos por inactivos y no caben en el plan gratis de Kit (hasta 10k). No hay cifra verificada de ese segmento; la idea misma dice 'millones de usuarios de Mailchimp; sin verificar'. Si se pasa de 'usuarios' a 'pagadores 5k-100k con inactivos relevantes', el número es incierto y puede acercarse al umbral de 100k-250k (puntaje 2) en vez de 4. Sin fuente no puedo afirmar que esté bajo 100k, pero la carga de la prueba es de la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño del segmento pagador de 5k-100k suscriptores en Mailchimp u otros ESP",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "La propia ficha de la idea declara 'Millones de usuarios de Mailchimp; sin verificar'",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula. Facturar por contactos activos o por envío es un cambio de pricing que cualquier incumbente puede copiar en un trimestre (Brevo ya cobra por envío; Kit ya tiene gratis hasta 10k). El importador de Mailchimp es técnicamente trivial y varios competidores ya lo ofrecen (sin verificar cuáles). No hay efecto de red, datos propios ni marca. Mailchimp (Intuit) tiene recursos para responder.",
+   "evidencia": [
+    {
+     "afirmacion": "Brevo ya ofrece contactos ilimitados con precio por envío desde $9/mes (agregador)",
+     "url": "https://www.emailtooltester.com/en/?p=2338"
+    },
+    {
+     "afirmacion": "Importadores de Mailchimp en competidores",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Un MVP de editor + envío + importador cabe en 6 semanas para Juan (a favor). Pero operar un ESP es otra cosa: entregabilidad, reputación de IP, warm-up, manejo de rebotes y quejas, cumplimiento CAN-SPAM/GDPR, bloqueos de cuentas por abuso/spam y soporte. Con SES propio, Amazon exige salir del sandbox y puede suspender la cuenta por tasa de quejas. Con BYO-SES el cliente debe configurar AWS, lo que baja la conversión de creadores no técnicos. Un fallo de entregabilidad destruye la confianza de una newsletter ajena. A tiempo parcial, el soporte y el abuso son un riesgo constante.",
+   "evidencia": [
+    {
+     "afirmacion": "Entregabilidad y reputación de IP son riesgo operativo clave para 1 persona (concedido también por la defensa en etapa C)",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    },
+    {
+     "afirmacion": "Políticas de SES sobre sandbox y tasas de quejas/rebotes",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "El dolor de precio de Mailchimp es real, pero la cuña (cobro por activos o por envío, BYO-SES, importador) ya está ocupada por planes gratis (Kit hasta 10k, Beehiiv hasta 2.5k), Brevo, Buttondown y herramientas SES (Listmonk, Sendy, EmailOctopus), es copiable en un trimestre, y el segmento comprable de 5k-100k sin cifra verificada es mucho menor que 'millones de usuarios'. A eso se suma que un ESP exige entregabilidad y manejo de abuso, un riesgo alto para una persona a tiempo parcial, y que el canal SEO está dominado por los propios competidores.",
+ "busquedas_usadas": 1
+}

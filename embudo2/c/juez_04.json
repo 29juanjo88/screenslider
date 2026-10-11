@@ -1,0 +1,132 @@
+[
+ {
+  "id": "N10-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 0,
+  "hecho_decisivo": "Apps de alt text en Shopify con plan gratis y pago desde $3-5/mes ya ofrecen generación masiva; la defensa no refuta.",
+  "competidores_verificados": [
+   {
+    "nombre": "StoreHQ (gratis; desde $5/mes)",
+    "precio": "0 / 5",
+    "url": "https://apps.shopify.com/storehq-alt-generator"
+   },
+   {
+    "nombre": "Alt Text Pro EcomBack",
+    "precio": "0 / 4.99",
+    "url": "https://apps.shopify.com/alttextpro"
+   }
+  ],
+  "razon": "Incumbentes gratis suficientes para la cuña; uso puntual; se descarta por F1 (y precio $19 muy por encima del mercado).",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N01-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 40,
+  "hecho_decisivo": "ChargePay ya vende cuota fija sin comisión en Shopify ($19.99-$99.99), la cuña de precio no es exclusiva; mercado >500k sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "ChargePay",
+    "precio": "$19.99-$99.99/mes",
+    "url": "https://apps.shopify.com/chargepay"
+   },
+   {
+    "nombre": "Chargeflow",
+    "precio": "25% de lo recuperado (fuentes contradictorias)",
+    "url": "https://redo.com/resources/articles/comparisons/chargeflow-pricing"
+   }
+  ],
+  "razon": "Dolor monetario claro, presupuesto existente y canal nombrado, pero la cuña está parcialmente ocupada, hay nativos de plataforma y la integración exige trabajo; mercado 250-700k sin verificar.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N01-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 36,
+  "hecho_decisivo": "Craftybase ofrece calculadora y hoja gratis y producto de pago; vendedores micro pagan poco; unos 5.6M vendedores Etsy según prensa secundaria.",
+  "competidores_verificados": [
+   {
+    "nombre": "Craftybase",
+    "precio": "sin verificar",
+    "url": "https://craftybase.com/etsy/pricing-calculator"
+   }
+  ],
+  "razon": "Mercado grande en bruto pero pocos pagan; cuña Etsy ya cubierta; F1 no cae del todo porque lo gratis es limitado.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N09-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "HubSpot 288,706 clientes (10-K) y Salesforce >150k sin verificar; los compradores de backup son una fracción, probablemente en el rango 100-250k o menos.",
+  "competidores_verificados": [
+   {
+    "nombre": "Own/Spanning/Gearset",
+    "precio": "sin verificar",
+    "url": "sin verificar"
+   }
+  ],
+  "razon": "Presupuesto existente y marketplaces, pero mercado en el límite de F6, confianza de acceso a datos y restauración compleja para una persona.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N10-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 34,
+  "hecho_decisivo": "Hay herramientas DMARC gratis o desde $2.99/mes; p=none cumple el mínimo; retención baja tras configurar.",
+  "competidores_verificados": [
+   {
+    "nombre": "DMARC Examiner",
+    "precio": "gratis / desde $2.99",
+    "url": "https://alternativeto.net/software/dmarc-examiner/about"
+   },
+   {
+    "nombre": "DMARCTrust",
+    "precio": "gratis / desde $19",
+    "url": "https://www.capterra.com/p/10036636/DMARCTrust/"
+   }
+  ],
+  "razon": "Mercado de dominios grande, pero baja disposición de pago, churn tras la configuración y cuña débil frente a gratis.",
+  "busquedas_usadas": 0
+ }
+]

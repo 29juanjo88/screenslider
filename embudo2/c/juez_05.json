@@ -1,0 +1,131 @@
+[
+ {
+  "id": "N10-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "EAA vigente desde 28-jun-2025 con exención de microempresas; overlays insuficientes; precios de competidores y escáneres gratis sin verificar.",
+  "competidores_verificados": [],
+  "razon": "Urgencia regulatoria real y mercado grande de tiendas con ventas UE, pero el escáner automático no da cumplimiento, hay apps de accesibilidad consolidadas y cuña débil. Sin falla F1-F6 comprobada.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N03-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "hecho_decisivo": "Stripe Smart Disputes cobra 30% solo si se gana (vista previa) y Chargeflow 25% por éxito; dolor episódico y suscripción fija de $29 compite contra pago por éxito.",
+  "competidores_verificados": [
+   {
+    "nombre": "Stripe Smart Disputes",
+    "precio": "30% de la disputa ganada (región GR/CA, vista previa)",
+    "url": "https://stripe.com/gr/pricing"
+   },
+   {
+    "nombre": "Chargeflow",
+    "precio": "25% por éxito (afirmación propia)",
+    "url": "https://www.chargeflow.io/chargeflow-vs-stripe-smart-disputes"
+   }
+  ],
+  "razon": "Cuña de evidencia de acceso digital plausible pero replicable, integración con logs frena autoservicio, dependencia total de Stripe.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N10-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Coupler.io tiene plan gratis y de pago desde ~$24/mes y Windsor.ai desde ~$19/mes; la cuña de precio plano ya está ocupada y Looker Studio es gratis.",
+  "competidores_verificados": [
+   {
+    "nombre": "Coupler.io",
+    "precio": "gratis (5 conectores); desde ~$24/mes (tercero)",
+    "url": "https://windsor.ai/supermetrics-vs-coupler-io/"
+   },
+   {
+    "nombre": "Windsor.ai",
+    "precio": "desde ~$19/mes (una sola fuente)",
+    "url": "https://metricnexus.ai/blog/supermetrics-alternatives"
+   }
+  ],
+  "razon": "Mercado grande y gente que ya paga, pero cuña ocupada, mantenimiento de APIs y verificación OAuth pesados para una persona.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N02-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "hecho_decisivo": "Argos ya ofrece SDK Playwright, UI de revisión en PR, tier gratis de 5,000 capturas/mes y Pro $100/mes plano; la cuña propuesta ya existe.",
+  "competidores_verificados": [
+   {
+    "nombre": "Argos",
+    "precio": "gratis 5,000 capturas/mes; Pro $100/mes",
+    "url": "https://argos-ci.com/blog/visual-testing-pricing"
+   },
+   {
+    "nombre": "Chromatic",
+    "precio": "Starter desde $179/mes",
+    "url": "https://argos-ci.com/blog/visual-testing-pricing"
+   }
+  ],
+  "razon": "Cuña inexistente frente a Argos y al nativo gratis; compradores de pago reales pero pocos que cambien.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N10-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "Quaderno desde $29/mes con importación de Stripe y Stripe Tax Basic 0.5% por transacción cubren buena parte; borradores sin presentar dejan sin resolver el registro y filing.",
+  "competidores_verificados": [
+   {
+    "nombre": "Quaderno",
+    "precio": "desde $29/mes (tercero)",
+    "url": "https://www.rfp.wiki/accounting-finance/tax-software/hellotax/quaderno"
+   },
+   {
+    "nombre": "Stripe Tax Basic",
+    "precio": "0.5% por transacción o $0.50 API",
+    "url": "https://dodopayments.com/blogs/stripe-tax-explained"
+   }
+  ],
+  "razon": "Dolor recurrente y SEO con intención, mercado grande, pero cuña débil, exactitud fiscal multijurisdicción costosa y riesgo de responsabilidad.",
+  "busquedas_usadas": 0
+ }
+]

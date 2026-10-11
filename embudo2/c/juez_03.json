@@ -1,0 +1,126 @@
+[
+ {
+  "id": "N02-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "Sentry documenta presupuesto on-demand y spike protection que rechaza eventos sin cobro; plan gratis Developer.",
+  "competidores_verificados": [
+   {
+    "nombre": "Sentry (presupuesto on-demand)",
+    "precio": "sin verificar",
+    "url": "https://intercom.help/sentryio/en/articles/13964878-how-does-pay-as-you-go-work"
+   }
+  ],
+  "razon": "La cuña de tope duro ya está cubierta por el incumbente y existe plan gratis; descartada por F1.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N09-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "Wipster con revisores gratis desde ~$9.95/mes y Frame.io con plan gratis; la cuña de precio fijo y clientes sin registro está cubierta.",
+  "competidores_verificados": [
+   {
+    "nombre": "Wipster",
+    "precio": "desde ~$9.95/mes anual (tercero)",
+    "url": "https://www.playbook.com/blog/best-frame-io-alternatives-for-video-teams-2026/"
+   },
+   {
+    "nombre": "Frame.io",
+    "precio": "Free; Pro ~$15/usuario (Capterra, sin verificar en sitio oficial)",
+    "url": "https://www.capterra.com/p/148214/Frame-io/pricing/"
+   }
+  ],
+  "razon": "Cuña cubierta por alternativas baratas y gratis; margen frágil por video. Descartada por F1.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N07-09",
+  "filtro_fallado": "",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 38,
+  "hecho_decisivo": "Sin evidencia verificada; la cuña de repaso de errores es copiable y los chatbots de voz generales compiten; sin canal con intención demostrada.",
+  "competidores_verificados": [],
+  "razon": "Mercado enorme pero saturado, cuña débil, costo de voz a $8 comprime margen; sin evidencia.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N09-05",
+  "filtro_fallado": "",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "Mailchimp cobra por contactos no suscritos/inactivos (queja repetida, fuentes de competidores); Kit gratis hasta 10k y Beehiiv gratis hasta 2,500.",
+  "competidores_verificados": [
+   {
+    "nombre": "Kit",
+    "precio": "gratis hasta 10k; de pago desde ~$32.50/mes (roundup tercero)",
+    "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+   },
+   {
+    "nombre": "Beehiiv",
+    "precio": "gratis hasta 2,500; Scale ~$43/mes (fuentes difieren)",
+    "url": "https://skillscouter.com/beehiiv-review/"
+   }
+  ],
+  "razon": "Dolor y presupuesto reales, pero saturado, cuña copiable y entregabilidad difícil para una persona; ajuste BYO-SES mejoraría ejecución.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N06-07",
+  "filtro_fallado": "",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 5,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 46,
+  "hecho_decisivo": "Docparser cobra $39/100 créditos y $159/1000 (por documento); ReadyData tiene gratis y $19; IA general extrae tablas gratis en parte.",
+  "competidores_verificados": [
+   {
+    "nombre": "Docparser",
+    "precio": "$39/mes 100 créditos; $159/mes 1000",
+    "url": "https://mammoth.io/blog/docparser-pricing/"
+   },
+   {
+    "nombre": "ReadyData",
+    "precio": "gratis; Lite $9; Starter $19; Pro $59",
+    "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+   }
+  ],
+  "razon": "Dolor real, pago existente, mercado >2M (sin verificar), marketplaces nombrados; cuña de precio plano moderada y riesgo de inferencia.",
+  "busquedas_usadas": 0
+ }
+]

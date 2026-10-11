@@ -1,0 +1,137 @@
+{
+ "id": "N02-02",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episodico: la factura molesta cuando sube y, tras una auditoria, el equipo arregla cache/jobs duplicados y el problema desaparece. No hay evidencia organica de gente buscandolo (la etapa C no hallo hilos de Reddit/foros pidiendo la solucion). Casi todas las fuentes del dolor son blogs de vendors de runners con interes comercial. Concedo: el cambio de precios de Actions 2026 pone el costo en la conversacion.",
+   "evidencia": [
+    {
+     "afirmacion": "Etapa C: busqueda no hallo hilos de Reddit/foros con quejas directas; demanda organica sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "La evidencia de dolor viene de vendors (Blacksmith) con interes en vender runners (fuente interesada)",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    },
+    {
+     "afirmacion": "GitHub anuncio precios mas simples para Actions (dato de contexto, favorece a la idea)",
+     "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Quien tiene una factura pequena no pagara $29/mes continuo; quien tiene factura grande optimiza una vez y cancela (churn tras ahorrar). Existen alternativas gratis (CSV nativo, scripts OSS) que cubren una auditoria puntual. Sin datos de cuantas orgs pagan una factura de Actions relevante. Ademas el precio de $29 hace dificil llegar a $10k MRR: requiere ~345 clientes retenidos.",
+   "evidencia": [
+    {
+     "afirmacion": "Etapa C: comprador puede optimizar una vez y churnear; pagadores con factura relevante sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Herramientas OSS/CLI que estiman costo por workflow (GHGen) como alternativa gratis",
+     "url": "https://metacpan.org/pod/App::GHGen"
+    },
+    {
+     "afirmacion": "Existe un competidor de pago ya a US$29/mes (CostOps, listado Capterra), lo que valida pago pero elimina el diferenciador de precio (precio de listado, sin verificar contra el vendor)",
+     "url": "https://www.capterra.com/p/10036601/CostOps/"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hay mas alternativas de las que dice la idea: (1) el reporte nativo de GitHub exporta un CSV de uso con columna por workflow y repositorio, asi que el costo por workflow es obtenible gratis (el argumento de que el nativo no lo da es de vendors); (2) scripts OSS (gha-budget, GHGen); (3) CostOps, analizador dedicado de Actions desde $29/mes, con alertas de presupuesto y analisis por job, solo lectura (la misma propuesta); (4) DoiT Cloud Intelligence con integracion GitHub, alertas y recomendaciones de tamano de runner; (5) Blacksmith/Depot con analitica integrada y guias gratis; (6) Datadog CI Visibility. La cuña 'no migrar runners' ya esta ocupada por CostOps. Esto toca F1 (parcial) y la cuña.",
+   "evidencia": [
+    {
+     "afirmacion": "El CSV de uso nativo de GitHub (org billing, Usage this month) trae columna Workflow, por repositorio",
+     "url": "https://github.community/t/how-do-i-see-an-itemized-actions-charges/186791"
+    },
+    {
+     "afirmacion": "CostOps: alertas de presupuesto, analisis a nivel job, acceso solo lectura a metadata de Actions, desde $29/mes (listado Capterra, sin verificar en el sitio del vendor)",
+     "url": "https://www.capterra.com/p/10036601/CostOps/"
+    },
+    {
+     "afirmacion": "DoiT ofrece integracion GitHub con alertas de picos de minutos y recomendaciones de runner (descripcion del buscador, sin verificar en sitio)",
+     "url": "https://www.doit.com/integrations/github"
+    },
+    {
+     "afirmacion": "gha-budget (OSS) estima costo por workflow desde duraciones; mencionado en blog de vendor",
+     "url": "https://info.blacksmith.sh/task/blog/tools-identify-github-actions-ci-spend"
+    },
+    {
+     "afirmacion": "Blacksmith publica guias gratis de desglose por workflow",
+     "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (GitHub Marketplace, SEO 'reduce GitHub Actions cost', r/devops) esta debilmente respaldado: no se verifico volumen de busqueda ni que el Marketplace tenga demanda para este tipo de app. El SEO de la keyword esta ocupado por los blogs de Blacksmith (muchos articulos programaticos sobre el tema) que dominan la intencion informativa y los usan de lead-gen. Reddit r/devops penaliza la autopromocion. El comprador es un eng manager/DevOps: compra por equipo, a veces con aprobacion, aunque sea autoservicio.",
+   "evidencia": [
+    {
+     "afirmacion": "Blacksmith publica multiples articulos sobre costo por workflow/job (ocupan el SEO del tema)",
+     "url": "https://info.blacksmith.sh/task/blog/identify-github-actions-ci-spend"
+    },
+    {
+     "afirmacion": "Volumen de busqueda, demanda en Marketplace y CAC: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Es la dimension mas debil. El valor es de auditoria: se encuentran los workflows caros, se arreglan y el dashboard deja de aportar. El monitoreo continuo con alertas (ajuste sugerido por la defensa) es retencion hipotetica, sin evidencia de que los equipos lo mantengan pagado. Solo lectura y barato de cancelar. Honestamente no tengo datos de churn de productos comparables: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Etapa C concedio que el churn tras optimizar es real (valor puntual)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Datos de churn de analizadores de costo de CI comparables: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El requisito duro es >=100k compradores. La idea solo da 'cientos de miles de orgs que usan Actions (sin verificar)' y como base 47-48M devs, que no es el mercado comprable. Los compradores reales son orgs con factura de Actions suficientemente alta para justificar $29/mes y que no usen ya runners de terceros; la mayoria de orgs queda en el tier gratis/incluido. Ese subconjunto es mucho menor y probablemente cerca o bajo el umbral de 100k; no hay fuente. Concedo que no puedo demostrar que este bajo 100k: la evidencia no cierra en ninguna direccion, y la carga de la prueba es de la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamano de orgs pagadoras de Actions con factura relevante: sin verificar (etapa C tambien lo marco sin verificar)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Los minutos incluidos/gratis y tarifas por minuto (Linux 2-core US$0.006) implican que muchas orgs pequenas gastan poco, segun docs de GitHub (tarifa verificada; conclusion sobre tamano es inferencia)",
+     "url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Un dashboard de solo lectura sobre la API/CSV de GitHub es trivial de copiar: CostOps ya lo hace, los vendors de runners pueden anadirlo gratis a sus productos, y GitHub puede lanzar costo por workflow nativo (riesgo principal reconocido por la propia idea). Sin datos propietarios, sin efectos de red ni lock-in. Un asistente de IA puede ademas generar un script que procese el CSV nativo. Plataforma unica: si GitHub cambia la API o el reporte, la idea muere.",
+   "evidencia": [
+    {
+     "afirmacion": "CostOps ya ofrece la misma propuesta (solo lectura, por job, alertas) desde $29/mes",
+     "url": "https://www.capterra.com/p/10036601/CostOps/"
+    },
+    {
+     "afirmacion": "GitHub ya exporta uso por workflow en CSV; ampliarlo en el panel es un paso corto (inferencia)",
+     "url": "https://github.community/t/how-do-i-see-an-itemized-actions-charges/186791"
+    },
+    {
+     "afirmacion": "Riesgo de mejora nativa reconocido en idea.json (riesgo_principal)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Tecnicamente es la dimension mas favorable: un MVP de lectura via API/CSV es factible en <=6 semanas por una persona con el stack de Juan; admito que aqui la evidencia no me favorece. El problema es lo que viene despues: soporte, confianza para dar acceso a org de GitHub (OAuth con scopes de billing), adquirir clientes sin ventas y mantener una cuña que otros ya cubren. Distribucion es el cuello de botella de Juan y es el punto mas debil de la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Complejidad tecnica baja: lectura de API/CSV (inferencia, concesion honesta)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Cuello de botella del fundador es distribucion y venta (brief2)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "La cuña de 'solo analiza, sin migrar runners' ya no es unica: CostOps ofrece un analizador de solo lectura por job con alertas desde $29/mes (el mismo precio), el CSV nativo de GitHub ya da uso por workflow gratis, y hay scripts OSS y DoiT. El valor es de auditoria puntual, asi que la retencion es baja; el SEO lo ocupan los blogs de Blacksmith; y los compradores con factura relevante, sin fuente, probablemente quedan cerca o bajo el umbral de 100k (F6). Lo unico fuerte es la ejecucion (MVP rapido), que tambien lo hace facil de copiar. Riesgo de F1 parcial y mercado sin verificar.",
+ "busquedas_usadas": 2
+}

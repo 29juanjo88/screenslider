@@ -1,0 +1,105 @@
+{
+ "id": "N01-05",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Para un vendedor de ecommerce el precio es palanca semanal: si un rival baja precio o se agota, pierde Buy Box/ventas o deja margen sobre la mesa. Es dolor recurrente y medible en dinero, no 'estaría bien'. Honestidad: no hay encuesta propia que cuantifique la urgencia; la evidencia es indirecta (reseñas de Prisync piden más flexibilidad y se quejan de retrasos de actualización).",
+   "evidencia": [
+    {
+     "afirmacion": "Reseñas de Prisync en Capterra/G2/GetApp mencionan precio alto, deseo de planes flexibles, retrasos de actualización y gestión de URLs (citado en etapa C).",
+     "url": "https://www.capterra.com/p/153451/Prisync/reviews/1309163"
+    },
+    {
+     "afirmacion": "Existencia de varias apps de seguimiento de precios de competidores en Shopify App Store (CompeteTracker, PriceKit, Snoopie, ShopiSync) indica demanda activa que busca la solución.",
+     "url": "https://apps.shopify.com/snoopie"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El comprador ya paga: Prisync desde 99 USD/mes y apps de 19-29 USD/mes con clientes de pago. 29 USD es gasto de herramienta operativa que se justifica con un solo ajuste de precio. Honestidad: el plan gratis de varias apps fija expectativa de gratis en el segmento más pequeño.",
+   "evidencia": [
+    {
+     "afirmacion": "Prisync arranca en 99 USD/mes plano.",
+     "url": "https://www.capterra.com/p/153451/Prisync/reviews/1309163"
+    },
+    {
+     "afirmacion": "CompeteTracker: gratis y 19.99 USD/mes; PriceKit: gratis y 19 USD/mes; Snoopie: gratis y 19-29 USD/mes; ShopiSync desde 29 USD/mes.",
+     "url": "https://apps.shopify.com/competetracker"
+    },
+    {
+     "afirmacion": "ShopiSync Price Monitoring desde 29 USD/mes (precio igual al propuesto, demuestra que se paga ese nivel).",
+     "url": "https://apps.shopify.com/shopisync"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: (a) revisión manual/hojas de cálculo, (b) apps baratas de Shopify con límites de competidores/variantes (3, 10, 2 por variante), (c) Prisync/Price2Spy/Competera/Minderest a 99+ USD. Queda un escalón intermedio: quien superó el plan gratis (3-10 competidores) y no paga 99. Honestidad: la cuña de precio plano NO es única; los 19-29 USD ya están ocupados y los límites reales de URLs de esas apps no están verificados. Ninguna función nativa de ChatGPT sustituye monitoreo continuo programado con alertas, aunque un agente de IA con navegación podría erosionarlo a futuro (sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "PriceKit gratis: 5 variantes y 2 competidores por variante; CompeteTracker gratis: 3 competidores, pago 10 competidores (límites bajos en entrada).",
+     "url": "https://apps.shopify.com/pricekit"
+    },
+    {
+     "afirmacion": "Límites de URLs de planes baratos más altos y nativa de IA que reemplace el monitoreo: sin verificar.",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: Shopify App Store (búsquedas 'competitor price tracker'), SEO de cola larga ('competitor price tracker shopify'), Product Hunt, y extensión a Woo/Amazon. Los competidores de nicho existen en el listado, lo que prueba que hay búsqueda con intención de compra. CAC bajo si orgánico. Honestidad: el App Store está saturado de apps baratas, así que posicionar cuesta reseñas y tiempo; no tengo cifras de CAC ni volumen de búsqueda.",
+   "evidencia": [
+    {
+     "afirmacion": "Múltiples apps de monitoreo de precio compiten en el Shopify App Store con listados activos.",
+     "url": "https://apps.shopify.com/competetracker"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda del keyword y CAC real: sin verificar.",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Monitoreo continuo es de uso recurrente: mientras el vendedor compita en precio, necesita las alertas; los datos históricos y reglas configuradas crean costo de cambio. Churn típico de apps Shopify pequeñas es alto (tiendas que cierran), lo cual es un riesgo. Sin cifras de retención verificadas.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención/churn de herramientas de price monitoring: sin verificar.",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Cumple ≥100k con holgura: fuentes secundarias citan ~4.82M tiendas Shopify activas (2025), aunque rastreos de dominios activos dan ~2.54M, y ~1.9M vendedores activos de terceros en Amazon (estimación secundaria, mal sustentada). Aun aplicando que solo una fracción compite en precio con rivales rastreables y paga 29 USD, >500k compradores plausibles es defendible, y 100k pasa cómodo (escala 4-5). Honestidad: todas las cifras son de blogs de terceros, no de Shopify/Amazon; el mercado direccionable pagador es mucho menor que el total de tiendas. Para 10k MRR bastan ~345 clientes a 29 USD.",
+   "evidencia": [
+    {
+     "afirmacion": "~4.82M tiendas Shopify activas en 2025 (blogs terceros); rastreo de dominios vivos ~2.54M.",
+     "url": "https://redstagfulfillment.com/how-many-shopify-stores-exist/"
+    },
+    {
+     "afirmacion": "~1.9M vendedores activos de terceros en Amazon a inicio de 2025 (estimación secundaria, poco sustentada); Amazon reportó 500k+ vendedores en EE.UU. en 2021.",
+     "url": "https://redstagfulfillment.com/how-many-third-party-sellers-are-on-amazon/"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Débil, y lo admito. Software replicable; los incumbentes podrían bajar precio. Defensas parciales: reseñas y posición en App Store, datos históricos de precios acumulados, cobertura multi-canal con URL libre y calidad de scraping como operación acumulada, y foco de precio que Prisync (modelo enterprise) difícilmente adopta sin canibalizar. Pero no hay foso tecnológico.",
+   "evidencia": [
+    {
+     "afirmacion": "Ya existen al menos 4 apps baratas en Shopify, lo que muestra que la copia es fácil.",
+     "url": "https://apps.shopify.com/pricekit"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "MVP en ≤6 semanas es factible con el stack de Juan (Node/TS, cron, email/Slack, Stripe): monitor de URLs, extracción de precio/stock, alertas. Acotar a sitios con baja protección anti-bot y a Shopify/Woo (JSON/estructurados) reduce el costo. Honestidad: el scraping anti-bot y mantenimiento de selectores es costo operativo continuo y el riesgo central; proxies cuestan dinero y escalar a Amazon es difícil.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo y tasa de bloqueo de scraping anti-bot, proxies y ToS de Amazon: sin verificar.",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado enorme (millones de tiendas Shopify/Amazon según fuentes secundarias) con compradores que ya pagan 19-99 USD/mes por la categoría; queda un escalón intermedio entre planes gratis limitados y Prisync a 99 USD, con 100 URLs a 29 USD y multi-canal. Debilidades reconocidas: cuña de precio no única, canal saturado, scraping frágil y foso bajo; el éxito depende de validar con 20 vendedores y de un posicionamiento por volumen/URL libre.",
+ "busquedas_usadas": 2
+}

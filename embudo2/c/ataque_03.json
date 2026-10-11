@@ -1,0 +1,123 @@
+[
+ {
+  "id": "N02-03",
+  "filtros_fallados": [
+   "F1 parcial: Sentry ya ofrece tope de gasto (on-demand/pay-as-you-go budget) y plan Developer gratis; la cuña 'tope duro' está cubierta por el incumbente",
+   "F4 débil: canal 'Sentry alternative' saturado de blogs de comparación"
+  ],
+  "objecion": "La cuña central (tope de gasto garantizado) ya existe en Sentry: los datos se rechazan al agotar prepago y presupuesto on-demand, sin cobro extra. Además hay plan gratis, y GlitchTip/Bugsink/PostHog cubren la alternativa barata. Ofrecer compatibilidad con SDK de Sentry e ingesta de eventos a escala es costoso y arriesgado para una sola persona.",
+  "hechos": [
+   {
+    "afirmacion": "Sentry documenta un presupuesto on-demand/pay-as-you-go que limita el gasto de excedentes; si se agota, los datos nuevos se rechazan sin cobro",
+    "url": "https://intercom.help/sentryio/en/articles/13964878-how-does-pay-as-you-go-work"
+   },
+   {
+    "afirmacion": "Sentry tiene plan Developer gratis y Team desde ~$26-29/mes (fuentes de terceros)",
+    "url": "https://signoz.io/guides/sentry-pricing/"
+   },
+   {
+    "afirmacion": "Precios hospedados de Bugsink/GlitchTip: sin verificar",
+    "url": "sin verificar"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N09-10",
+  "filtros_fallados": [
+   "F1 parcial: alternativas con plan gratis (Filestage, Ziflow, Dropbox Replay limitado) y Wipster con revisores gratis ilimitados desde ~$9.95/mes",
+   "F5 parcial: a $19 se necesitan ~530 pagadores para $10k MRR, con costo de almacenamiento/ancho de banda que comprime margen"
+  ],
+  "objecion": "La cuña 'precio fijo y clientes sin registro' ya está cubierta: Wipster permite revisores gratis ilimitados desde ~$9.95/mes y otros (Filestage, Ziflow) tienen revisores solo con correo y plan gratis. El costo de video por usuario erosiona el margen de un plan plano de $19.",
+  "hechos": [
+   {
+    "afirmacion": "Wipster: revisores gratis ilimitados; Light desde $9.95/mes anual con 50GB, Team $19.95 por usuario",
+    "url": "https://www.playbook.com/blog/best-frame-io-alternatives-for-video-teams-2026/"
+   },
+   {
+    "afirmacion": "Filestage y Ziflow ofrecen plan gratis limitado; revisores entran solo con email (fuentes de comparación de terceros)",
+    "url": "https://fast.io/resources/frame-io-alternative/"
+   },
+   {
+    "afirmacion": "Dropbox Replay: versión limitada gratis; completo $10/usuario/mes",
+    "url": "https://air.inc/resources/best-frame-io-alternatives"
+   },
+   {
+    "afirmacion": "Precio actual y plan gratis de Frame.io: sin verificar",
+    "url": "sin verificar"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N07-09",
+  "filtros_fallados": [
+   "F1 parcial: ChatGPT/Gemini en modo voz gratuito sirven para practicar conversación (sin verificar en esta ronda)",
+   "F5 parcial: $8/mes requiere ~1,250 pagadores para $10k MRR, con costo de voz en tiempo real por minuto",
+   "F4: canal SEO/Reddit débil frente a Duolingo/Speak con presupuesto grande"
+  ],
+  "objecion": "Mercado enorme pero saturado por incumbentes con presupuesto (Duolingo Max, Speak) y por chatbots de propósito general con voz; la cuña 'repaso de tus errores' es una función fácilmente copiable. A $8/mes el costo variable de voz en tiempo real comprime el margen, y la retención en apps de idiomas suele ser baja (sin verificar).",
+  "hechos": [
+   {
+    "afirmacion": "No se hizo búsqueda dedicada a esta idea (presupuesto de 4 búsquedas para 5 ideas); precios de Speak/Duolingo Max y tamaño de mercado: sin verificar",
+    "url": "sin verificar"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N09-05",
+  "filtros_fallados": [
+   "F1 parcial: Kit tiene plan gratis hasta 10k suscriptores y Beehiiv gratis hasta 2,500 con envíos ilimitados, justo el segmento 5k-100k parcialmente",
+   "F5/F3 parcial: entregabilidad exige reputación de IP y cumplimiento anti-spam; riesgo operativo alto para 1 persona"
+  ],
+  "objecion": "El dolor de precio por contactos es real pero ya atendido: Kit gratis hasta 10k suscriptores, Beehiiv gratis hasta 2,500 y Buttondown desde ~$9/mes por 1k. Un recién llegado sin reputación de envío tiene entregabilidad peor que incumbentes, y 'cobro por activos' lo puede copiar cualquiera. Mercado muy saturado.",
+  "hechos": [
+   {
+    "afirmacion": "Beehiiv: plan Launch gratis hasta 2,500 suscriptores con envíos ilimitados; Scale desde ~$43/mes anual (fuentes difieren)",
+    "url": "https://skillscouter.com/beehiiv-review/"
+   },
+   {
+    "afirmacion": "Kit: gratis hasta 10k suscriptores; de pago desde ~$32.50/mes (roundup de terceros)",
+    "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+   },
+   {
+    "afirmacion": "Buttondown: desde ~$9/mes por 1k suscriptores, $29 por 5k (una sola fuente, sin verificar en sitio oficial)",
+    "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+   },
+   {
+    "afirmacion": "Mailchimp recortó su plan gratis de 2,000 a 250 contactos; precios por contacto actuales: sin verificar",
+    "url": "https://www.itechguides.com/directory/newsletter-platforms/"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N06-07",
+  "filtros_fallados": [
+   "F1 parcial: existen herramientas con plan gratis (p. ej. ReadyData con tier gratis) y funciones nativas de Excel/Sheets y asistentes de IA generales",
+   "F4 débil: demanda 'pdf to excel' dominada por herramientas web gratuitas; AppSource/Workspace Marketplace sin verificar como canal con volumen"
+  ],
+  "objecion": "'PDF a Excel' es una búsqueda saturada de herramientas gratuitas y freemium, y los asistentes de IA generales (ChatGPT, Copilot) extraen tablas gratis. La cuña de precio plano por usuario con costo de inferencia variable por documento es riesgo de margen: usuarios intensivos destruyen un plan plano de $19. Es el caso más defendible del lote por dolor real y marketplaces nombrados.",
+  "hechos": [
+   {
+    "afirmacion": "ReadyData lista plan gratis, Lite $9, Starter $19, Pro $59, hasta $229/mes; cubre PDFs escaneados con OCR",
+    "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+   },
+   {
+    "afirmacion": "PDF.it extrae tablas con Google Document AI a Excel (precio no visible)",
+    "url": "https://pdf.it.com/blog/table-extraction-excel"
+   },
+   {
+    "afirmacion": "Precios de Docparser/Nanonets y capacidad nativa de Excel Copilot con PDFs: sin verificar",
+    "url": "sin verificar"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ }
+]

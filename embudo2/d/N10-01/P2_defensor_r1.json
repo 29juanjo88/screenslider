@@ -1,0 +1,125 @@
+{
+ "id": "N10-01",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Obligación legal con fecha (EAA vigente desde 28-jun-2025) para ecommerce que vende a consumidores UE, incluidas tiendas no-UE; los overlays no bastan y el dueño no sabe qué arreglar en el código del tema. Es dolor de riesgo (multas, quejas, pérdida de ventas UE), no 'estaría bien'. Honestidad: enforcement desigual por país y exención de microempresas reducen la urgencia para la cola de tiendas pequeñas; el dolor es agudo solo para tiendas sobre el umbral y agencias.",
+   "evidencia": [
+    {
+     "afirmacion": "EAA es ley en Irlanda desde 28-jun-2025",
+     "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"
+    },
+    {
+     "afirmacion": "EAA aplica a ecommerce con consumidores UE, incluidas tiendas no-UE; overlays no bastan (fuente de vendor, sesgada)",
+     "url": "https://www.fudge.ai/blog/european-accessibility-act-shopify/"
+    },
+    {
+     "afirmacion": "Exención microempresa (<10 personas y <=2M EUR) (fuente de vendor)",
+     "url": "https://accessible.org/does-eaa-apply-shopify-stores/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Ya existe gasto en accesibilidad: apps de Shopify cobran entre decenas y cientos de USD/mes, así que $29-49 está dentro de presupuesto existente y muy por debajo de auditorías/consultoría de agencias. Honestidad: los precios provienen de roundups de terceros/competidores, posiblemente desactualizados; y hay apps baratas ($3.99-12/mes) que ancoran a la baja a parte del mercado.",
+   "evidencia": [
+    {
+     "afirmacion": "UserWay en Shopify: $49/mes hasta 100k vistas, $149 hasta 1M, $349 hasta 10M, con widget gratis (blog de competidor, 2024)",
+     "url": "https://appifycommerce.com/blog/userway-alternative-shopify-accessibility/"
+    },
+    {
+     "afirmacion": "Accessibility Way ADA WCAG EAA desde $39/mes, Business $195/mes (roundup de terceros, puede estar desactualizado)",
+     "url": "https://apps.shopify.com/accessibilityway"
+    },
+    {
+     "afirmacion": "accessiBe entre $49 y $59/mes según la guía; datos conflictivos",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hoy el comprador elige entre overlays (accessiBe, UserWay), plataformas enterprise (Deque axe, Siteimprove) o agencias/consultores caros. La brecha: nadie vende en autoservicio, a precio plano, una lista priorizada de arreglos de código por plantilla (Dawn y temas populares) con reporte de evidencia. Honestidad: no verifiqué escáneres gratuitos (axe DevTools, Lighthouse, WAVE) ni funciones nativas de Shopify, que son el riesgo F1; tampoco que ChatGPT pueda sustituir el diagnóstico (un LLM no escanea de forma continua el sitio vivo, pero esto es argumento, no dato verificado).",
+   "evidencia": [
+    {
+     "afirmacion": "Dawn trae 30-100 violaciones WCAG detectables según un vendor (indicativo)",
+     "url": "https://testparty.ai/blog/european-accessibility-act-shopify"
+    },
+    {
+     "afirmacion": "Overlays insuficientes, se requieren arreglos nativos del tema (vendor)",
+     "url": "https://www.fudge.ai/blog/european-accessibility-act-shopify/"
+    },
+    {
+     "afirmacion": "Existencia y suficiencia de escáneres gratis (axe DevTools, WAVE, Lighthouse) y de IA generalista para este caso",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsquedas 'accessibility' y 'EAA' en Shopify App Store y WordPress.org, más SEO 'EAA compliance checklist'. Hay apps EAA ya listadas, lo que prueba demanda con intención de compra en el marketplace; CAC bajo si se gana ranking. Honestidad: el canal está saturado de competidores (la evidencia lo confirma: múltiples apps y roundups) y ganar ranking de reseñas toma tiempo; CAC no verificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen múltiples apps de accesibilidad con EAA en Shopify App Store (ej. Accessibility Way ADA WCAG EAA, Accessibility Enabler AW)",
+     "url": "https://apps.shopify.com/accessibilityway"
+    },
+    {
+     "afirmacion": "Roundups SEO 'best Shopify apps for accessibility' muestran demanda de búsqueda y saturación",
+     "url": "https://meetanshi.com/blog/best-shopify-apps-for-accessibility/"
+    },
+    {
+     "afirmacion": "CAC real en la App Store y conversión de listing",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "El monitoreo continuo es recurrente por naturaleza: cada cambio de tema, app o contenido puede introducir regresiones, y el reporte de evidencia sirve como registro de diligencia cada año. Agencias con varias tiendas tienen alta fricción para cambiar. Honestidad: el riesgo es churn tras arreglar lo prioritario ('arreglé y me voy'); sin datos de retención verificados.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn/retención de apps de monitoreo de accesibilidad",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Universo amplio: ~2.33M tiendas Shopify activas y ~4.15M WooCommerce en el mundo (estimaciones de trackers); aunque solo una fracción venda a la UE y supere el umbral de microempresa, 100k compradores posibles es plausible (hace falta solo ~4% de las tiendas Shopify, o ~2.4% de la suma). Para $10k MRR bastan ~350 clientes a $29. Honestidad: no hay cifra verificada de tiendas con ventas UE sobre umbral; el conteo de WooCommerce cae 8% anual; los conteos son globales, no EU.",
+   "evidencia": [
+    {
+     "afirmacion": "~2.33M tiendas Shopify activas (StoreCensus, ago-2026, estimación por detección)",
+     "url": "https://www.storecensus.com/stats/app/woocommerce-brands"
+    },
+    {
+     "afirmacion": "~4.15M tiendas WooCommerce vivas a mitad de 2026 (Store Leads), -8% interanual",
+     "url": "https://redstagfulfillment.com/what-is-woocommerces-market-share/"
+    },
+    {
+     "afirmacion": "Número de tiendas con ventas UE sobre umbral de microempresa",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada-baja y se admite. Lo defendible: base de conocimiento de arreglos por tema/plantilla mantenida al día, datos de reportes y ranking/reseñas en la App Store, más plan de agencia multi-tienda con costo de cambio. Cualquier incumbente (accessiBe, UserWay, Deque) podría añadir 'guía de arreglos'; no hay foso tecnológico fuerte y una IA podría generar parches.",
+   "evidencia": [
+    {
+     "afirmacion": "Ausencia de foso: múltiples competidores consolidados y apps EAA ya listadas",
+     "url": "https://apps.shopify.com/accessibilityway"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Encaja con el perfil de Juan: Node/TS/React, escáner basado en axe-core (de código abierto, sin verificar licencia/uso comercial aquí) en headless, app embebida de Shopify y reportes. MVP de 6 semanas plausible con escaneo + priorización + plantilla Dawn; operación de soporte baja. Honestidad: mantener la base de arreglos por tema y pasar la revisión de la Shopify App Store consume tiempo; el escáner no da 'cumplimiento' legal y hay que comunicarlo con cuidado.",
+   "evidencia": [
+    {
+     "afirmacion": "Viabilidad técnica de MVP en 6 semanas: estimación propia, no verificada",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Licencia de axe-core para uso comercial",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "EAA Watch ataca un dolor con fecha legal en un universo de millones de tiendas (Shopify ~2.33M, WooCommerce ~4.15M, estimaciones globales), con presupuesto existente (apps de $39-349/mes) y un canal nombrado de intención de compra. La cuña real es precio plano y lista de arreglos de código por plantilla frente a overlays y consultoría cara. Debilidades honestas: canal saturado, escáneres gratis y IA sin verificar (riesgo F1), exención de microempresas, enforcement desigual, foso débil.",
+ "busquedas_usadas": 2
+}

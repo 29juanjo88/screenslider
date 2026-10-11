@@ -1,0 +1,37 @@
+[
+{"id":"N02-02","filtros_fallados":["F1 parcial (reporte nativo de GitHub y herramientas gratis/OSS); no se confirma fallo duro"],
+ "objecion":"Dolor real pero el comprador optimiza una vez y se va (churn tras ahorrar); GitHub puede añadir costo por workflow nativo, y los vendors de runners (Blacksmith) ya publican guías gratis de desglose por workflow que sirven de lead-gen para su propio producto. Mercado de pagadores (orgs con factura de Actions relevante) mucho menor que 'cientos de miles' y sin verificar.",
+ "hechos":[
+  {"afirmacion":"Blacksmith (competidor) publica guías de desglose de costo por workflow en GitHub Actions y afirma que las métricas nativas de org no dan costo en dólares por workflow (fuente interesada)","url":"https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"},
+  {"afirmacion":"Existen herramientas OSS/CLI que estiman costo por workflow (p. ej. App::GHGen), alternativa gratis para la cuña","url":"https://metacpan.org/pod/App::GHGen"},
+  {"afirmacion":"Cargo de plataforma de US$0.002/min desde 1-mar-2026 según Blacksmith; sin verificar contra GitHub","url":"https://info.blacksmith.sh/task/blog/github-actions-cost-breakdowns"},
+  {"afirmacion":"Tamaño de pagadores reales de Actions y precio/competidores Depot, Datadog: sin verificar","url":"sin verificar"}],
+ "severidad":"fuerte","busquedas_usadas":1},
+{"id":"N10-14","filtros_fallados":["F1 (captions automáticos gratis en YouTube/plataformas y Whisper OSS)","F2 parcial (comprador difuso; sin garantía legal de cumplimiento EAA)"],
+ "objecion":"La cuña de precio plano es copiable y el transcribir con Whisper es commodity casi gratis; los clientes con EAA necesitan garantía de cumplimiento/precisión que una sola persona no puede ofrecer, y los incumbentes (Rev, Descript, Otter) ya tienen planes baratos. EAA aplica sobre todo a e-commerce/servicios UE, con micro-empresas exentas.",
+ "hechos":[
+  {"afirmacion":"EAA es ley en Irlanda desde 28-jun-2025 (urgencia real, pero no prueba demanda de captions de pago)","url":"https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"},
+  {"afirmacion":"Precios de Rev, Descript, Otter, 3Play, Verbit y exenciones de microempresas EAA: sin verificar (no se buscó)","url":"sin verificar"}],
+ "severidad":"fuerte","busquedas_usadas":0},
+{"id":"N10-02","filtros_fallados":["F1 (CookieYes tiene plan gratis; Complianz plugin WordPress en sitios ilimitados; alternativas flat existentes para la cuña)"],
+ "objecion":"La cuña 'dominios ilimitados a precio fijo' ya está ocupada: Cookie Script, Consently, Complianz y otros venden bundles planos; CookieYes ofrece gratis 1 dominio. Los CMP exigen certificación Google (Consent Mode/TCF) y mantenimiento legal continuo; SEO 'cookiebot alternative' ya está saturado de blogs de rivales.",
+ "hechos":[
+  {"afirmacion":"CookieYes: gratis 1 dominio/5,000 pageviews; Basic $10, Pro $25, Ultimate $55 al mes por dominio","url":"https://www.cookieyes.com/pricing/"},
+  {"afirmacion":"Existen alternativas con precio plano multi-dominio: Consently $199/año por 5 dominios, Cookie Script desde EUR 8/mes por 2 sitios, Complianz ilimitado en WordPress (fuentes de blogs de competidores, sin verificar en sitios oficiales)","url":"https://consently.net/blog/termly-alternatives"},
+  {"afirmacion":"OneTrust ~US$10k/año es solo cita de blog de vendor, sin verificar; no es el competidor relevante para freelancers","url":"https://consentpixel.com/blogs/onetrust-alternatives/"}],
+ "severidad":"fuerte","busquedas_usadas":1},
+{"id":"N07-05","filtros_fallados":["F3 (responsabilidad/cumplimiento fiscal multi-país; riesgo regulatorio cercano a licencia)","F4 parcial (SEO 'crypto tax calculator' dominado por incumbentes)"],
+ "objecion":"Koinly ya tiene plan gratis (importa hasta 10,000 tx y ve ganancias) y se cobra por año fiscal; la cuña 'precio plano sin límite' es débil porque el costo real está en mantener integraciones de exchanges/cadenas, reglas fiscales por país y formularios (1099-DA, DAC8) cada año. Producto de una persona a tiempo parcial no cubre eso y la responsabilidad por errores fiscales es alta. Además el precio $12/mes es bajo para estacional (usuarios compran una vez al año).",
+ "hechos":[
+  {"afirmacion":"Koinly: planes por tramos de transacciones (Newbie 100, Hodler 1,000, Trader 3,000, Pro 10,000), cobro por año fiscal; plan gratis permite importar hasta 10,000 tx sin generar reportes","url":"https://support.koinly.io/en/articles/9489958-how-pricing-works-in-koinly"},
+  {"afirmacion":"Precios exactos de Koinly difieren entre fuentes terceras; verificar en koinly.io/pricing","url":"https://koinly.io/pricing"},
+  {"afirmacion":"Precios de CoinTracker/TokenTax y tamaño de mercado cripto: sin verificar","url":"sin verificar"}],
+ "severidad":"fuerte","busquedas_usadas":1},
+{"id":"N02-01","filtros_fallados":["F1 parcial (Trunk Flaky Tests tiene plan gratis para equipos pequeños y OSS, según fuentes terceras)"],
+ "objecion":"La cuña de 'precio fijo y 2 min de instalación' es solo precio; Trunk ofrece capa gratis y BuildPulse ya está en GitHub Marketplace con tiers desde $1/mes, así que el posicionamiento Marketplace 'flaky tests' está ocupado. Los runners de test (Jest/Playwright/pytest) ya tienen reintentos y plugins gratis; quien sufre más flakiness son orgs grandes que compran Datadog/Trunk. Disposición de pago de equipos pequeños incierta.",
+ "hechos":[
+  {"afirmacion":"BuildPulse está listado en GitHub Marketplace con tiers por volumen de resultados diarios desde $1/mes hasta $499/mes; otras fuentes dicen $99-$999/mes (conflicto, sin verificar)","url":"https://github.com/marketplace/buildpulse/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW40NzM5"},
+  {"afirmacion":"Trunk Flaky Tests detecta, pone en cuarentena y abre tickets; tier gratis para equipos pequeños/OSS según fuentes terceras (sin verificar en sitio oficial)","url":"https://trunk.io/compare/trunk-vs-buildpulse"},
+  {"afirmacion":"No se encontró función nativa de GitHub para detectar tests flaky (búsqueda sin evidencia)","url":"sin verificar"}],
+ "severidad":"moderada","busquedas_usadas":1}
+]

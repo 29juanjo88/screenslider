@@ -1,0 +1,129 @@
+{
+ "id": "N01-09",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Las devoluciones son un proceso recurrente semanal para cualquier tienda con volumen: hoy se gestionan por email y a mano, y los portales con etiquetas existen sobre todo en Shopify/Wix. Dolor real pero moderado: no es urgencia crítica ni la tienda lo 'busca' siempre activamente; la evidencia directa de dolor en Woo es indirecta.",
+   "evidencia": [
+    {
+     "afirmacion": "Problema declarado: devoluciones por email; apps de devoluciones enfocadas en Shopify (hipótesis de la idea, no medida)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Existe demanda de flujo con etiquetas desde My Account en Woo (PluginHive vende etiquetas de retorno FedEx para Woo)",
+     "url": "https://www.pluginhive.com/woocommerce-returns-with-fedex/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay precedente de pago: RMA de pago único desde US$149 (ECOSIRE), varios plugins RMA de pago (Webkul, WPSwings, Kaddora) y SaaS de devoluciones de US$23-30/mes en Shopify/Wix. Punto débil honesto: la cultura Woo es licencia única/anual y gratis; US$39/mes choca. Mitigación: US$19-29/mes o plan anual.",
+   "evidencia": [
+    {
+     "afirmacion": "RMA Woo de ECOSIRE: licencia única desde US$149 con 12 meses de updates/soporte (página del propio vendedor)",
+     "url": "https://ecosire.com/de/apps/woocommerce/woo-returns-rma-manager"
+    },
+    {
+     "afirmacion": "ReturnGO (Shopify) desde US$23/mes: tiendas pagan mensual por portal de devoluciones",
+     "url": "https://apps.shopify.com/returngo"
+    },
+    {
+     "afirmacion": "Plugin gratis ReturnDesk limita la disposición de pago para el nivel básico",
+     "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Email manual; plugins Woo gratis básicos (ReturnDesk: reembolsos autoservicio); RMA de pago (Webkul, WPSwings, Kaddora, ECOSIRE); extensión oficial Returns and Warranty; etiquetas vía add-ons de carrier (PluginHive FedEx); SaaS off-site tipo ReturnGO que cobran creciente con el volumen y viven fuera de la tienda. Ningún SaaS mensual Woo-nativo con etiquetas multi-carrier + crédito hallado por la etapa C ni por mi búsqueda, pero sin cobertura exhaustiva: la competencia en plugins es amplia y es la cuña más débil. Funciones nativas de IA/ChatGPT no reemplazan un portal con etiquetas y crédito; riesgo bajo por ese lado, no verificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Plugin gratis de devoluciones/reembolsos autoservicio en WordPress.org",
+     "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+    },
+    {
+     "afirmacion": "Varios plugins RMA de pago para Woo",
+     "url": "https://webkul.com/blog/top-5-woocommerce-rma-plugins/"
+    },
+    {
+     "afirmacion": "Etiquetas de retorno FedEx descargables desde My Account en Woo vía PluginHive; tracking sincronizado",
+     "url": "https://www.pluginhive.com/woocommerce-returns-with-fedex/"
+    },
+    {
+     "afirmacion": "Los portales SaaS off-site cobran más con el volumen de devoluciones y la experiencia ocurre fuera del sitio (según comparativa de Webkul)",
+     "url": "https://webkul.com/blog/top-5-woocommerce-rma-plugins/"
+    },
+    {
+     "afirmacion": "Cobertura del extension oficial WooCommerce Returns and Warranty (crédito de tienda) no confirmada",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: directorio de plugins de WordPress.org (freemium con upsell) y SEO 'woocommerce returns plugin / RMA'. Es product-led, CAC cercano a cero en dinero, pero tiempo-intensivo y la conversión freemium a pago suele ser baja. Volúmenes de búsqueda y de instalaciones no verificados. Ya hay plugins gratis posicionados en el mismo directorio, así que ranking no está garantizado.",
+   "evidencia": [
+    {
+     "afirmacion": "El directorio WordPress.org alberga competidores gratis de devoluciones, lo que prueba que la categoría tiene demanda y listado",
+     "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'woocommerce returns plugin' y tasa de conversión freemium",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Una vez integrado con pedidos, etiquetas y reglas de crédito, el portal es infraestructura operativa con costo de cambio medio. Churn por estacionalidad o tiendas que cierran es probable (tiendas pequeñas). Sin datos de churn de la categoría.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps de devoluciones / plugins Woo",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Tiendas WooCommerce activas: 4.34M (Store Leads 2026), 4.47M (2025 Q4), BuiltWith 6.16M sitios con Woo. Muy por encima de 100k incluso si solo 5% venden suficientes productos físicos con devoluciones y aceptarían pagar: ~200k+ (supuesto mío, no verificado). Escala 4-5 según el brief si se aplica el 5%. Honestidad: la cifra de tiendas incluye muchas inactivas, digitales o diminutas; el comprador real es una fracción. Aun así >100k es muy plausible.",
+   "evidencia": [
+    {
+     "afirmacion": "Store Leads: 4,341,142 tiendas WooCommerce activas (2026) vs 2,844,435 Shopify; BuiltWith 6.16M sitios con Woo (resumen de búsqueda de fuentes secundarias)",
+     "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live-today/"
+    },
+    {
+     "afirmacion": "Evidencia original de la idea: ~4.5-6.2M tiendas",
+     "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"
+    },
+    {
+     "afirmacion": "Porcentaje de tiendas Woo con devoluciones físicas que pagarían",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa débil, lo admito. No hay efecto de red ni datos propietarios. La barrera sería ejecución: integraciones de carriers, UX y SEO/reseñas en WordPress.org (reseñas e instalaciones activas acumulan). Cualquier vendedor de plugins Woo (Webkul, PluginHive) puede copiar; ECOSIRE ya ofrece features similares como build-to-order. Un incumbente Shopify (Loop, AfterShip) podría llegar a Woo.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores con features similares ya existen (ECOSIRE crédito/wallet, etiquetas por carrier)",
+     "url": "https://ecosire.com/de/apps/woocommerce/woo-returns-rma-manager"
+    },
+    {
+     "afirmacion": "Intención de Loop/AfterShip de entrar en Woo",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Stack encaja con Juan: PHP/Laravel y Node/TS, plugin WordPress + backend ligero. MVP de 6 semanas viable si se limita a formulario de solicitud, aprobación, reembolso/crédito y 1-2 carriers vía agregador de etiquetas. Riesgos: mantenimiento por versiones WP/Woo, soporte a miles de configuraciones de hosting/temas, y complejidad de carriers (la etapa C marcó ejecución 3). Soporte sería carga continua para una persona.",
+   "evidencia": [
+    {
+     "afirmacion": "Stack del fundador en brief2 (PHP/Laravel, Node/TS)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Cobertura de carriers y costo de agregadores de etiquetas",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado Woo enorme (4.3M tiendas activas según Store Leads) con un hueco real, aunque modesto: no se halló un SaaS mensual Woo-nativo con etiquetas, crédito y portal moderno, mientras en Shopify ese modelo ya se paga (US$23-30/mes). Canal WordPress.org y SEO es nombrado y product-led, y el stack de Juan encaja. Debilidades admitidas: hay plugins gratis y de pago único, la cultura Woo resiste suscripciones, la defensa es floja y el mantenimiento pesa; conviene precio US$19-29 o anual.",
+ "busquedas_usadas": 2
+}

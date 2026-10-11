@@ -1,0 +1,120 @@
+{
+ "idea": {
+  "id": "N01-05",
+  "nombre": "Rival Price Radar",
+  "cliente_que_paga": "Vendedor Shopify/Woo/Amazon pequeño-mediano",
+  "problema": "No sabe cuándo la competencia baja precios o agota stock",
+  "solucion": "Monitor de URLs de competidores con alertas por email/Slack y sugerencia de regla",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'competitor price tracker shopify'; Shopify App Store; Product Hunt",
+  "competidores": [
+   "Prisync",
+   "Price2Spy",
+   "Competera",
+   "Minderest"
+  ],
+  "cuña": "Plan plano de 29 USD con 100 URLs vs planes de 100+ USD de los incumbentes",
+  "tamaño_mercado": "Millones de vendedores; compradores plausibles >500k (sin verificar)",
+  "por_que_ahora": "Presión de precios y marketplaces",
+  "riesgo_principal": "Scraping frágil y bloqueos anti-bot",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "Monitoreo de precios",
+  "origen": "nueva",
+  "b_total": 39,
+  "b_razon": "Precio plano vs Prisync/Price2Spy; pagan por algo caro; apps baratas en Shopify (sin verificar); scraping fragil.",
+  "c_total": 39,
+  "c_razon": "Prisync desde 99 USD/mes deja un hueco intermedio, pero apps de Shopify con plan gratis o 19-29 USD cubren parte de la cuña; scraping anti-bot es costo central.",
+  "c_hecho": "Prisync parte de 99 USD pero existen apps de 19-29 USD con plan gratis (citadas por rol, no re-verificadas por el juez)"
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "N01-05",
+   "filtros_fallados": [
+    "F1 (parcial): apps baratas o gratis en Shopify App Store cubren la cuña de precio plano bajo",
+    "F4 (débil): el canal Shopify App Store está saturado de apps baratas"
+   ],
+   "objecion": "La cuña 'plan plano de 29 USD vs 100+ USD' ya está superada por apps de Shopify con plan gratis o de 1.90 a 29 USD/mes (CompeteTracker, PriceKit, Snoopie, ShopiSync). Además el scraping frágil es el producto: quien paga espera datos fiables y el costo anti-bot recae en Juan.",
+   "hechos": [
+    {
+     "afirmacion": "CompeteTracker: plan gratis (3 competidores), pago 19.99 USD/mes (10 competidores).",
+     "url": "https://apps.shopify.com/competetracker"
+    },
+    {
+     "afirmacion": "PriceKit: plan gratis (5 variantes, 2 competidores por variante), Starter 19 USD/mes.",
+     "url": "https://apps.shopify.com/pricekit"
+    },
+    {
+     "afirmacion": "Snoopie: plan gratis con alertas de cambios de precio; planes de pago 19 y 29 USD/mes.",
+     "url": "https://apps.shopify.com/snoopie"
+    },
+    {
+     "afirmacion": "ShopiSync Price Monitoring desde 29 USD/mes; Competitor Price Tracker desde 6.99 USD/mes.",
+     "url": "https://apps.shopify.com/shopisync"
+    },
+    {
+     "afirmacion": "Tamaño de mercado (>500k compradores) y precios de Prisync/Price2Spy: sin verificar.",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "N01-05",
+   "rescatar": true,
+   "respuesta": "Prisync, el incumbente de referencia, parte de 99 USD/mes plano y sus reseñas citan precio alto y pedidos de planes más flexibles. Los competidores baratos que cita el atacante (19-29 USD) limitan competidores o variantes en sus planes de entrada. Queda hueco para un plan de 29 USD con volumen real (100 URLs) que cubra al vendedor que superó el plan gratis pero no paga 99 USD. Esto sigue siendo una cuña de volumen/precio, no de función.",
+   "concesiones": [
+    "La cuña de precio plano bajo no es única: hay apps de Shopify con plan gratis y planes de 19-29 USD, como el atacante documentó.",
+    "El scraping anti-bot es el costo y el riesgo operativo central y recae en el fundador.",
+    "No verifiqué el tamaño de mercado ni los límites de URLs de los planes baratos."
+   ],
+   "hechos": [
+    {
+     "afirmacion": "Prisync arranca en 99 USD/mes plano (Capterra); reseñas en G2/GetApp mencionan precio alto, deseo de planes más flexibles, retrasos de actualización y gestión de URLs.",
+     "url": "https://www.capterra.com/p/153451/Prisync/reviews/1309163"
+    }
+   ],
+   "ajuste_sugerido": "Posicionar como 'el paso intermedio entre el plan gratis y Prisync': 100-200 URLs a 29-39 USD, multi-canal (Shopify, Woo, Amazon, URL libre), con alertas en Slack/email. Validar con 20 vendedores antes de construir y limitar el scraping a sitios con baja protección anti-bot.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "N01-05",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 4,
+    "canal": 3,
+    "mercado": 4,
+    "cuna": 2,
+    "ejecucion": 3
+   },
+   "total": 39,
+   "hecho_decisivo": "Prisync parte de 99 USD pero existen apps de 19-29 USD con plan gratis (citadas por rol, no re-verificadas por el juez)",
+   "competidores_verificados": [
+    {
+     "nombre": "Prisync",
+     "precio": "99 USD/mes",
+     "url": "https://www.capterra.com/p/153451/Prisync/reviews/1309163"
+    },
+    {
+     "nombre": "CompeteTracker",
+     "precio": "gratis; 19.99 USD/mes",
+     "url": "https://apps.shopify.com/competetracker"
+    },
+    {
+     "nombre": "PriceKit",
+     "precio": "gratis; 19 USD/mes",
+     "url": "https://apps.shopify.com/pricekit"
+    },
+    {
+     "nombre": "Snoopie",
+     "precio": "gratis; 19-29 USD/mes",
+     "url": "https://apps.shopify.com/snoopie"
+    }
+   ],
+   "razon": "Prisync desde 99 USD/mes deja un hueco intermedio, pero apps de Shopify con plan gratis o 19-29 USD cubren parte de la cuña; scraping anti-bot es costo central.",
+   "busquedas_usadas": 0
+  }
+ }
+}

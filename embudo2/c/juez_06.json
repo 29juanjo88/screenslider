@@ -1,0 +1,121 @@
+[
+ {
+  "id": "N02-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "total": 37,
+  "hecho_decisivo": "Reporte nativo de GitHub sin costo por workflow (fuente de vendor); el comprador puede optimizar una vez y churnear; pagadores relevantes sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Blacksmith (guía gratis)",
+    "precio": "sin verificar",
+    "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+   }
+  ],
+  "razon": "Dolor monetario real y canal Marketplace/SEO nombrado; cuña de no migrar runners es válida pero limitada por churn, OSS gratis y mejora nativa posible.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N10-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "Ya existen bundles multi-dominio (Enzuzo 10 dominios $79/mes, Complianz) y CookieYes gratis 1 dominio; cuña de precio plano copiable.",
+  "competidores_verificados": [
+   {
+    "nombre": "CookieYes",
+    "precio": "gratis 1 dominio; Basic $10, Pro $25, Ultimate $55/mes por dominio (según página, sin reverificar)",
+    "url": "https://www.cookieyes.com/pricing/"
+   },
+   {
+    "nombre": "Enzuzo",
+    "precio": "Pro 10 dominios $79/mes (blog de vendor, sin verificar)",
+    "url": "https://enzuzo.com/blog/cookiebot-pricing"
+   }
+  ],
+  "razon": "Mercado grande y disposición de pago clara (Cookiebot subió precio), pero cuña ocupada, SEO saturado y carga de certificación Google CMP y mantenimiento legal para una persona.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N07-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Koinly tiene plan gratis de importación y cobra por año fiscal; mantener integraciones y reglas fiscales multi-país excede a una persona; compra estacional vs $12/mes.",
+  "competidores_verificados": [
+   {
+    "nombre": "Koinly",
+    "precio": "por tramos de transacciones y año fiscal; precios exactos sin verificar",
+    "url": "https://koinly.io/pricing"
+   }
+  ],
+  "razon": "Mercado grande pero SEO dominado por incumbentes, cuña de precio débil, responsabilidad fiscal y ejecución difícil; no cae a 0 por filtro duro.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N10-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 31,
+  "hecho_decisivo": "Captions automáticos gratis en plataformas y Whisper OSS; cuña de precio plano sin garantía de cumplimiento EAA.",
+  "competidores_verificados": [],
+  "razon": "Urgencia EAA real (URL) pero sin evidencia de pago, incumbentes baratos y cuña inexistente.",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N02-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "Trunk gratis hasta 5 committers y por asiento hasta 50 (docs oficiales); BuildPulse en Marketplace con tiers por volumen; hueco de precio fijo por org para 6-50 devs.",
+  "competidores_verificados": [
+   {
+    "nombre": "Trunk Flaky Tests",
+    "precio": "gratis hasta 5 committers activos; Team por asiento (docs)",
+    "url": "https://docs.trunk.io/setup-and-administration/billing"
+   },
+   {
+    "nombre": "BuildPulse",
+    "precio": "tiers desde $1/mes según listing; otras fuentes en conflicto",
+    "url": "https://github.com/marketplace/buildpulse/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW40NzM5"
+   }
+  ],
+  "razon": "Dolor semanal y canal concreto; cuña de precio por org frente a asiento real pero estrecha y copiable; Marketplace ya ocupado.",
+  "busquedas_usadas": 0
+ }
+]

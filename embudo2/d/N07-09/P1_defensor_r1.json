@@ -1,0 +1,117 @@
+{
+ "id": "N07-09",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Practicar hablar es el cuello de botella clásico del adulto autodidacta: sin interlocutor no hay práctica oral, y los tutores humanos son caros. El dolor es recurrente (semanal) y el usuario lo busca activamente. Honestidad: es dolor de 'mejora personal', con urgencia moderada salvo motivadores duros (migración, trabajo, examen); no hay evidencia verificada de intensidad de búsqueda.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen productos de pago cuya propuesta central es práctica conversacional con IA (Speak, Duolingo Max), lo que indica dolor monetizado",
+     "url": "https://dupple.com/learn/best-ai-language-learning-tools"
+    },
+    {
+     "afirmacion": "Intensidad de búsqueda/volumen de keywords por idioma",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El comprador ya paga por soluciones más caras: Speak ronda $17.99/mes u $83.99/año según una reseña de 2026, y Duolingo Max se citó en $30/mes en el lanzamiento y $26.98/mes en otra fuente. A $8/mes plano la propuesta es menos de la mitad del precio de Speak; hay presupuesto existente. Honestidad: los precios varían entre fuentes de SEO/terceros y no se verificaron en sitios oficiales.",
+   "evidencia": [
+    {
+     "afirmacion": "Speak listado a $17.99/mes u $83.99/año (reseña, chequeo 2026-09-15); otras fuentes citan $19.99/mes; precios conflictivos",
+     "url": "https://dupple.com/learn/best-ai-language-learning-tools"
+    },
+    {
+     "afirmacion": "Duolingo Max anunciado a $30/mes en lanzamiento",
+     "url": "https://autos.yahoo.com/duolingos-max-plan-offers-ai-tutoring-for-30-per-month-203625446.html"
+    },
+    {
+     "afirmacion": "eMarketer cita $26.98/mes para el nivel de IA de Duolingo y $19.99/mes para Speak",
+     "url": "https://www.emarketer.com/content/speak-reaches-unicorn-status-ai-language-tutoring--offering-lags-behind-duolingo"
+    },
+    {
+     "afirmacion": "Duolingo tiene unos 12.2M suscriptores de pago (conversión 9.2%) según fuentes secundarias, prueba de que los consumidores pagan por apps de idiomas",
+     "url": "https://dupple.com/learn/best-ai-language-learning-tools"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: Duolingo Max, Speak, Pimsleur, Langotalk, tutores humanos (italki-style, sin verificar) y modos de voz gratis de ChatGPT/Gemini. Los gratuitos son genéricos: no guardan un modelo persistente de TUS errores ni hacen repaso espaciado estructurado salvo que el usuario lo arme. Honestidad: ChatGPT voz es un incumbente gratis relevante y no pude verificar que no cubra la cuña; esto es la mayor amenaza F1.",
+   "evidencia": [
+    {
+     "afirmacion": "Speak alcanzó estatus unicornio pero su oferta se considera por detrás de Duolingo (eMarketer), es decir, el segmento no está cerrado",
+     "url": "https://www.emarketer.com/content/speak-reaches-unicorn-status-ai-language-tutoring--offering-lags-behind-duolingo"
+    },
+    {
+     "afirmacion": "Que ChatGPT/Gemini voz NO cubran repaso espaciado de errores propios",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal: SEO por idioma/par de idiomas (long tail grande: 'practice Spanish speaking online'), YouTube de polyglots (afiliados/patrocinios), r/languagelearning, y contenido programático. Se puede ofrecer práctica gratis limitada (product-led) con límite de minutos. Honestidad: el CAC en apps de idiomas es competitivo, no hay evidencia verificada de CAC ni de intención de compra en esos canales; es la dimensión más débil junto con la cuña.",
+   "evidencia": [
+    {
+     "afirmacion": "CAC y conversión en r/languagelearning/YouTube",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Duolingo con 9.2% de conversión pago sugiere que el funnel freemium convierte en el sector",
+     "url": "https://dupple.com/learn/best-ai-language-learning-tools"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Argumento a favor: el repaso espaciado de errores propios crea un activo acumulado (historial personal) que genera costo de cambio y razón para volver diariamente, mejor que práctica de chat sin memoria. Plan anual con descuento reduce churn. Honestidad: la retención en apps de idiomas suele ser baja y no tengo datos verificados.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de retención/churn de apps de idiomas",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado claramente supera 100k compradores y probablemente 2M: Duolingo tiene ~12M suscriptores de pago, y el mercado online de idiomas se estima en US$15.8B en 2025 (Meticulous Research). Para US$10k MRR a $8 se necesitan ~1,250 pagadores, una fracción diminuta (≈0.01%) de esa base. Honestidad: las cifras de tamaño de mercado son de firmas de investigación con estimaciones divergentes y el conteo de aprendices (1.5B de inglés) no tiene derivación fuente sólida.",
+   "evidencia": [
+    {
+     "afirmacion": "Mercado global de aprendizaje de idiomas online: US$15.8B en 2025, proyectado US$50.6B en 2036 (Meticulous Research; estimaciones divergentes entre informes)",
+     "url": "https://www.meticulousresearch.com/product/online-language-learning-market-5025"
+    },
+    {
+     "afirmacion": "Estimación de 1.5B+ aprendices de inglés (sin derivación clara)",
+     "url": "https://bridge.edu/tefl/blog/?p=24756"
+    },
+    {
+     "afirmacion": "~12.2M suscriptores de pago de Duolingo (fuente secundaria)",
+     "url": "https://dupple.com/learn/best-ai-language-learning-tools"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa débil en producto: Speak/Duolingo pueden copiar repaso de errores. Defensa posible: (1) datos personales acumulados del usuario (historial de errores) como costo de cambio, (2) precio plano e ilimitado que incumbentes con estructura de costos y tiers altos ($17-30/mes) no pueden igualar sin canibalizar, (3) enfoque en un segmento (p. ej. adultos con objetivo de pares de idiomas concretos) que los generalistas ignoran. Honestidad: no hay moat técnico real; la ventaja es de velocidad y foco.",
+   "evidencia": [
+    {
+     "afirmacion": "Incumbentes de IA cobran $17.99-$30/mes, lo que deja espacio a un precio plano bajo",
+     "url": "https://dupple.com/learn/best-ai-language-learning-tools"
+    },
+    {
+     "afirmacion": "Que incumbentes no vayan a copiar repaso de errores",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy viable para Juan: backend senior, Node/TS/Python/React. MVP = web app con STT + LLM + TTS (o API de voz en tiempo real), corrección estructurada y programador SRS (algoritmo conocido), más Stripe. 6 semanas a tiempo parcial es plausible para un par de idiomas. Soporte mínimo; operable por una persona. Honestidad: el costo variable de voz por minuto a $8/mes comprime margen y requiere topes de uso; el costo no fue verificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo por minuto de voz en tiempo real y margen a $8/mes",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado inmenso y ya pagador (Duolingo ~12M de pago; Speak $17.99-$30 en rivales de IA) con espacio para un tutor de voz de precio plano $8 y memoria de errores propios, ejecutable por Juan en 6 semanas; solo hacen falta ~1,250 pagadores. Debilidades honestas: cuña copiable, ChatGPT voz gratis (F1 posible, sin verificar), canal con CAC no demostrado, margen de voz y retención sin datos.",
+ "busquedas_usadas": 2
+}

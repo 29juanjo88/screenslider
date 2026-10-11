@@ -1,0 +1,102 @@
+{
+ "idea": {
+  "id": "N10-02",
+  "nombre": "FlatConsent",
+  "cliente_que_paga": "Freelancers, agencias y dueños de sitios con varios dominios",
+  "problema": "Banners de cookies suben de precio y escalan por subpáginas; OneTrust ~US$10k/año mínimo (según blogs de vendors)",
+  "solucion": "CMP ligero con dominios ilimitados a precio fijo, Consent Mode v2 y bloqueo automático de scripts",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "WordPress.org, Shopify App Store, SEO 'cookiebot alternative'",
+  "competidores": [
+   "Cookiebot",
+   "CookieYes",
+   "Termly",
+   "iubenda",
+   "OneTrust"
+  ],
+  "cuña": "Dominios ilimitados a precio fijo para agencias: los incumbentes cobran por dominio/subpáginas",
+  "tamaño_mercado": "Millones de sitios con tráfico UE/UK/US; cifra sin verificar",
+  "por_que_ahora": "OneTrust sin tier self-serve y quejas por alza de Cookiebot",
+  "riesgo_principal": "Mercado saturado de CMP baratos; Google CMP certificación",
+  "evidencia_url": "https://consentpixel.com/blogs/onetrust-alternatives/",
+  "angulo": "10",
+  "tema": "banner cookies precio plano",
+  "origen": "nueva",
+  "b_total": 41,
+  "b_razon": "CMP con planes gratis; cuña de dominios ilimitados para agencias es de precio y copiable; canal WordPress/Shopify real.",
+  "c_total": 38,
+  "c_razon": "Mercado grande y disposición de pago clara (Cookiebot subió precio), pero cuña ocupada, SEO saturado y carga de certificación Google CMP y mantenimiento legal para una persona.",
+  "c_hecho": "Ya existen bundles multi-dominio (Enzuzo 10 dominios $79/mes, Complianz) y CookieYes gratis 1 dominio; cuña de precio plano copiable."
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "N10-02",
+   "filtros_fallados": [
+    "F1 (CookieYes tiene plan gratis; Complianz plugin WordPress en sitios ilimitados; alternativas flat existentes para la cuña)"
+   ],
+   "objecion": "La cuña 'dominios ilimitados a precio fijo' ya está ocupada: Cookie Script, Consently, Complianz y otros venden bundles planos; CookieYes ofrece gratis 1 dominio. Los CMP exigen certificación Google (Consent Mode/TCF) y mantenimiento legal continuo; SEO 'cookiebot alternative' ya está saturado de blogs de rivales.",
+   "hechos": [
+    {
+     "afirmacion": "CookieYes: gratis 1 dominio/5,000 pageviews; Basic $10, Pro $25, Ultimate $55 al mes por dominio",
+     "url": "https://www.cookieyes.com/pricing/"
+    },
+    {
+     "afirmacion": "Existen alternativas con precio plano multi-dominio: Consently $199/año por 5 dominios, Cookie Script desde EUR 8/mes por 2 sitios, Complianz ilimitado en WordPress (fuentes de blogs de competidores, sin verificar en sitios oficiales)",
+     "url": "https://consently.net/blog/termly-alternatives"
+    },
+    {
+     "afirmacion": "OneTrust ~US$10k/año es solo cita de blog de vendor, sin verificar; no es el competidor relevante para freelancers",
+     "url": "https://consentpixel.com/blogs/onetrust-alternatives/"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "N10-02",
+   "rescatar": true,
+   "respuesta": "Hay evidencia de demanda: Cookiebot duplico su precio base de ~EUR15 a ~EUR30 por dominio en agosto 2025 con reseñas Trustpilot quejandose, y los comparadores indican que otras alternativas siguen siendo por dominio (CookieYes, Termly), asi que el dolor de agencias con muchos sitios persiste. Mercado de agencias/freelancers con multiples dominios es grande y ya paga por dominio.",
+   "concesiones": "La cuña de precio plano es copiable y ya existen bundles (Enzuzo 10 dominios $79/mes, ConsentStack, Secure Privacy Agency Pool, Complianz); CookieYes tiene plan gratis 1 dominio; certificacion Google CMP y mantenimiento legal continuo son carga para una persona; las cifras vienen de blogs de competidores.",
+   "hechos": [
+    {
+     "afirmacion": "Cookiebot habria duplicado precio base de ~EUR15 a ~EUR30/mes por dominio (ago 2025); reseña Trustpilot de 1 estrella lo menciona (fuentes de competidores y reseñas)",
+     "url": "https://uk.trustpilot.com/review/cookiebot.com"
+    },
+    {
+     "afirmacion": "Competidores con multi-dominio: Enzuzo Pro 10 dominios a $79/mes; ConsentStack $29/mes por 2 dominios (fuentes de vendors)",
+     "url": "https://enzuzo.com/blog/cookiebot-pricing"
+    }
+   ],
+   "ajuste_sugerido": "Estrechar la cuña a agencias con 20+ dominios, precio plano ($49-99/mes) con panel multi-cliente y white-label, no a freelancers con 1-3 sitios; distribuir via WordPress.org y SEO 'cookiebot alternative for agencies'.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "N10-02",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 4,
+    "canal": 3,
+    "mercado": 4,
+    "cuna": 2,
+    "ejecucion": 2
+   },
+   "total": 38,
+   "hecho_decisivo": "Ya existen bundles multi-dominio (Enzuzo 10 dominios $79/mes, Complianz) y CookieYes gratis 1 dominio; cuña de precio plano copiable.",
+   "competidores_verificados": [
+    {
+     "nombre": "CookieYes",
+     "precio": "gratis 1 dominio; Basic $10, Pro $25, Ultimate $55/mes por dominio (según página, sin reverificar)",
+     "url": "https://www.cookieyes.com/pricing/"
+    },
+    {
+     "nombre": "Enzuzo",
+     "precio": "Pro 10 dominios $79/mes (blog de vendor, sin verificar)",
+     "url": "https://enzuzo.com/blog/cookiebot-pricing"
+    }
+   ],
+   "razon": "Mercado grande y disposición de pago clara (Cookiebot subió precio), pero cuña ocupada, SEO saturado y carga de certificación Google CMP y mantenimiento legal para una persona.",
+   "busquedas_usadas": 0
+  }
+ }
+}

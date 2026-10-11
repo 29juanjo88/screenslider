@@ -1,0 +1,97 @@
+{
+ "idea": {
+  "id": "N10-01",
+  "nombre": "EAA Watch",
+  "cliente_que_paga": "Dueños de tiendas online y agencias que venden a la UE",
+  "problema": "La EAA exige accesibilidad en e-commerce desde 28-jun-2025 y los overlays no bastan; no saben qué arreglar",
+  "solucion": "Escaneo continuo WCAG con lista priorizada de arreglos por plantilla (Shopify/WooCommerce) y reporte de evidencia de cumplimiento",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Shopify App Store y WordPress.org (búsquedas 'accessibility', 'EAA'); SEO 'EAA compliance checklist'",
+  "competidores": [
+   "accessiBe",
+   "UserWay",
+   "Deque axe",
+   "Siteimprove"
+  ],
+  "cuña": "Precio plano y orientado a arreglos en código del tema, no overlay ni consultoría; las agencias cobran miles",
+  "tamaño_mercado": "Millones de tiendas/sitios con clientes UE; cifra exacta sin verificar",
+  "por_que_ahora": "EAA vigente y en auditorías nacionales (Austria, Irlanda)",
+  "riesgo_principal": "Competidores consolidados y enforcement desigual por país",
+  "evidencia_url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/",
+  "angulo": "10",
+  "tema": "cumplimiento accesibilidad EAA",
+  "origen": "nueva",
+  "b_total": 43,
+  "b_razon": "Fecha regulatoria EAA da urgencia y canal nombrado; competidores fuertes y escáner limitado.",
+  "c_total": 37,
+  "c_razon": "Urgencia regulatoria real y mercado grande de tiendas con ventas UE, pero el escáner automático no da cumplimiento, hay apps de accesibilidad consolidadas y cuña débil. Sin falla F1-F6 comprobada.",
+  "c_hecho": "EAA vigente desde 28-jun-2025 con exención de microempresas; overlays insuficientes; precios de competidores y escáneres gratis sin verificar."
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "N10-01",
+   "filtros_fallados": [
+    "F1 parcial (herramientas gratuitas de escaneo WCAG y funciones de plataforma: sin verificar)",
+    "F4 débil (canal nombrado pero saturado de apps de accesibilidad: sin verificar)"
+   ],
+   "objecion": "Los escaneos automáticos cubren solo una parte de WCAG y los incumbentes (accessiBe, UserWay, Deque axe, Siteimprove) ya dominan las búsquedas 'accessibility' y 'EAA'. Un escáner no entrega 'cumplimiento' y el comprador que busca eso quiere auditoría humana/legal; el enforcement desigual debilita la urgencia. Precios de competidores y del escáner gratis: sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "La EAA es ley en Irlanda desde 28-jun-2025 (fuente aportada en la idea, no re-verificada por mí)",
+     "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"
+    },
+    {
+     "afirmacion": "Precios de accessiBe/UserWay/Deque/Siteimprove y alternativas gratis: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 0
+  },
+  "defensa": {
+   "id": "N10-01",
+   "rescatar": true,
+   "respuesta": "La urgencia regulatoria es real: fuentes (sesgadas, de vendors) coinciden en que la EAA aplica desde 28-jun-2025 a ecommerce que vende a consumidores UE, incluidas tiendas no-UE, y en que los overlays no cumplen y lo que cuenta son arreglos en el código del tema. Eso respalda la cuña de lista priorizada de arreglos por plantilla frente a accessiBe/UserWay. El mercado de tiendas Shopify/WooCommerce con ventas a UE es grande aunque la cifra exacta es sin verificar.",
+   "concesiones": [
+    "Un escáner automático no da 'cumplimiento'; solo cubre parte de WCAG",
+    "Existe exención para microempresas (<10 empleados y <=2M EUR), lo que reduce el mercado de compradores obligados",
+    "Enforcement desigual por país y sanciones con cifras contradictorias entre fuentes",
+    "No encontré una lista de arreglos verificada ni precios de competidores (sin verificar)",
+    "Canal Shopify/WordPress saturado de apps de accesibilidad (sin verificar)"
+   ],
+   "hechos": [
+    {
+     "afirmacion": "EAA aplica desde 28-jun-2025 a ecommerce con consumidores UE, incluidas tiendas no-UE; overlays no bastan, se requieren arreglos nativos del tema (fuentes de vendors)",
+     "url": "https://www.fudge.ai/blog/european-accessibility-act-shopify/"
+    },
+    {
+     "afirmacion": "Exención microempresa (<10 personas y facturación/balance <=2M EUR) según fuente de vendor",
+     "url": "https://accessible.org/does-eaa-apply-shopify-stores/"
+    },
+    {
+     "afirmacion": "Dawn de Shopify trae 30-100 violaciones WCAG detectables según un vendor (indicativo)",
+     "url": "https://testparty.ai/blog/european-accessibility-act-shopify"
+    }
+   ],
+   "ajuste_sugerido": "Enfocar en arreglos de código por tema (Dawn y temas populares) para tiendas Shopify con ventas UE por encima del umbral de microempresa y agencias; precio por tienda $29-49 y plan agencia multi-tienda para subir ARPU.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "N10-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 4,
+    "cuna": 2,
+    "ejecucion": 3
+   },
+   "total": 37,
+   "hecho_decisivo": "EAA vigente desde 28-jun-2025 con exención de microempresas; overlays insuficientes; precios de competidores y escáneres gratis sin verificar.",
+   "competidores_verificados": [],
+   "razon": "Urgencia regulatoria real y mercado grande de tiendas con ventas UE, pero el escáner automático no da cumplimiento, hay apps de accesibilidad consolidadas y cuña débil. Sin falla F1-F6 comprobada.",
+   "busquedas_usadas": 0
+  }
+ }
+}

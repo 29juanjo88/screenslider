@@ -1,0 +1,121 @@
+{
+ "id": "N09-05",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Dolor recurrente y monetario: Mailchimp factura por contactos suscritos, no suscritos y dados de baja, de modo que el creador paga por audiencia que no recibe valor. Es un costo mensual que crece con la lista, lo ve en cada factura y lo lleva a buscar 'Mailchimp alternative'. Honestidad: la evidencia viene de blogs de competidores, no de fuentes independientes, y el dolor es de costo, no de pérdida de ingresos (urgencia media).",
+   "evidencia": [
+    {
+     "afirmacion": "Mailchimp cuenta contactos suscritos, no suscritos y dados de baja para facturación; queja repetida (fuente de competidor, no independiente)",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    },
+    {
+     "afirmacion": "Mailchimp recortó su plan gratis de 2,000 a 250 contactos (fuentes discrepan en detalles)",
+     "url": "https://www.itechguides.com/directory/newsletter-platforms/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Presupuesto existente: el cliente ya paga a Mailchimp u otro ESP cada mes, y los precios de referencia ($9 Buttondown 1k, ~$32.50 Kit, ~$43 Beehiiv Scale) sitúan $25/mes dentro de lo que ya se paga. No hay que crear categoría ni convencer de pagar. Honestidad: Kit gratis hasta 10k y Beehiiv gratis hasta 2,500 reducen la disposición de pago en la parte baja del segmento; el valor está en listas >10k.",
+   "evidencia": [
+    {
+     "afirmacion": "Kit gratis hasta 10k; de pago desde ~$32.50/mes (roundup de terceros)",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Beehiiv Launch gratis hasta 2,500; Scale ~$43/mes anual (fuentes difieren)",
+     "url": "https://skillscouter.com/beehiiv-review/"
+    },
+    {
+     "afirmacion": "Buttondown ~$9/mes por 1k y $29 por 5k (una sola fuente)",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hay muchas alternativas (Kit, Beehiiv, Buttondown, Brevo, EmailOctopus) y varias gratis en parte del rango; esto es la debilidad principal. Pero la mayoría cobra por tamaño de lista o por contactos totales; EmailOctopus mezcla planes por suscriptores con SES por envío, lo que valida el modelo pero también muestra que existe. Ninguna fuente verificada muestra un producto con 'cobro solo por contactos activos + importador Mailchimp + limpieza de inactivos' como posicionamiento central, aunque no pude confirmarlo de forma exhaustiva.",
+   "evidencia": [
+    {
+     "afirmacion": "EmailOctopus: planes por suscriptores; con Amazon SES se paga por email enviado (ayuda oficial)",
+     "url": "https://help.emailoctopus.com/article/114-aws-costs"
+    },
+    {
+     "afirmacion": "Brevo descrito con contactos ilimitados desde $9/mes (agregador, sin verificar en sitio oficial)",
+     "url": "https://www.emailtooltester.com/en/?p=2338"
+    },
+    {
+     "afirmacion": "Sendy: app autoalojada que envía vía Amazon SES (precio listado $69, sin aclarar si único o recurrente)",
+     "url": "https://inboxreads.co/tools/emailoctopus/vs/sendy"
+    },
+    {
+     "afirmacion": "Ninguna alternativa verificada posiciona 'cobro por contactos activos' como eje: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado con intención de compra: SEO 'Mailchimp alternative' / 'Mailchimp pricing', más r/Emailmarketing y comunidades de creadores. Un importador de Mailchimp y una calculadora gratuita de ahorro ('cuánto pagas por inactivos') son activos SEO/product-led que convierten. CAC potencial bajo si se gana SEO de cola larga. Honestidad: 'Mailchimp alternative' es una de las búsquedas más disputadas por competidores con más autoridad de dominio; no hay cifras de CAC ni volumen de búsqueda verificados.",
+   "evidencia": [
+    {
+     "afirmacion": "Múltiples blogs de competidores publican 'Mailchimp alternative pricing', lo que prueba demanda de búsqueda pero también competencia SEO",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    },
+    {
+     "afirmacion": "CAC y volumen de búsqueda de 'Mailchimp alternative': sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un ESP es infraestructura con costo de cambio alto (listas, automatizaciones, formularios, dominio remitente), por lo que quien migra tiende a quedarse y la facturación recurre mensual. Honestidad: la migración es un evento único y los creadores migran entre ESP con frecuencia; sin datos de churn verificados. El mismo costo de cambio que protege la retención dificulta la adquisición.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn de ESP para creadores: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mailchimp declaró en 2021 800,000 clientes de pago (13 millones de usuarios, 50% fuera de EE.UU.), cifra de hace años pero que sitúa el pool de pagadores del incumbente líder muy por encima de 100k; sumando Kit, Beehiiv, Brevo, etc. el mercado de creadores y negocios que envían newsletters supera con holgura los 100k compradores. El segmento específico (5k-100k suscriptores con inactivos relevantes) es una fracción, pero 100k de compradores posibles parece razonable (estimación mía, sin fuente directa para esa fracción). Mercado 4 plausible, 3 como mínimo prudente.",
+   "evidencia": [
+    {
+     "afirmacion": "Intuit (2021): Mailchimp con 13M de usuarios, 2.4M activos mensuales y 800,000 clientes de pago, 50% fuera de EE.UU. (dato de 2021; actual sin verificar)",
+     "url": "https://www.businesswire.com/news/home/20210913005806/en"
+    },
+    {
+     "afirmacion": "Tamaño del segmento 5k-100k suscriptores: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Honestamente débil: el precio por activos lo puede copiar cualquier ESP con un cambio de plan. La defensa realista no es el modelo sino la ejecución y el foco: ser la marca de 'migrar desde Mailchimp sin pagar por inactivos' (SEO, importador, calculadora, contenido), y el costo de cambio una vez migrado. Los incumbentes grandes tienen incentivo a no copiar porque cobrar por contactos totales es su ingreso (Mailchimp, Kit), lo que da una ventana asimétrica.",
+   "evidencia": [
+    {
+     "afirmacion": "Mailchimp cobra por contactos incluidos no suscritos, lo que sustenta su ingreso y desincentiva cambiar el modelo (inferencia mía a partir de la fuente de competidor)",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Con el ajuste BYO-SES/Postmark (el cliente conecta su propia cuenta de envío) se evita la reputación de IP compartida y el mayor riesgo operativo; EmailOctopus demuestra que el modelo SES por envío funciona y Sendy que un producto sobre SES puede ser pequeño. El stack de Juan (Node/TS, Next.js) cubre editor, importador (API de Mailchimp), segmentación y facturación; MVP de importador + limpieza + envío en ~6-10 semanas es plausible. Honestidad: soporte, cumplimiento anti-spam, rebotes/quejas y onboarding de SES (salir del sandbox) añaden carga operativa; el etapa-C juzgó ejecución 2.",
+   "evidencia": [
+    {
+     "afirmacion": "EmailOctopus permite conectar Amazon SES y pagar a Amazon por email enviado",
+     "url": "https://help.emailoctopus.com/article/114-aws-costs"
+    },
+    {
+     "afirmacion": "SES: $0.10 por 1,000 emails adicionales; cifras de capa gratis discrepan entre fuentes",
+     "url": "https://help.emailoctopus.com/article/114-aws-costs"
+    },
+    {
+     "afirmacion": "Tiempo real de MVP: estimación propia, sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor de facturación documentado y con presupuesto existente (800k clientes de pago de Mailchimp en 2021, mitad fuera de EE.UU.) en un mercado de sobra >100k; la cuña es un importador Mailchimp + limpieza de inactivos + precio por activos sobre BYO-SES, que evita la reputación de IP y ataca justo el ingreso que los incumbentes no quieren sacrificar. Debilidades honestas: Kit/Beehiiv gratis en parte del rango, cuña copiable, SEO muy disputado y evidencia del dolor proveniente de competidores.",
+ "busquedas_usadas": 2
+}

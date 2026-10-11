@@ -1,0 +1,141 @@
+{
+ "id": "N10-01",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "La EAA es obligatoria desde 28-jun-2025 para ecommerce que vende a consumidores UE (incluidas tiendas no-UE); hay un plazo legal y riesgo de sanción/auditoría, y los overlays no bastan, así que el dueño sabe que tiene un problema pero no qué arreglar. Es dolor episódico y de cumplimiento, no semanal; el enforcement es desigual y existe exención de microempresas, así que la urgencia es media.",
+   "evidencia": [
+    {
+     "afirmacion": "EAA es ley en Irlanda desde 28-jun-2025",
+     "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"
+    },
+    {
+     "afirmacion": "Aplica a ecommerce con consumidores UE, incluidas tiendas no-UE; overlays insuficientes (fuente de vendor, sesgada)",
+     "url": "https://www.fudge.ai/blog/european-accessibility-act-shopify/"
+    },
+    {
+     "afirmacion": "Exención microempresa (<10 personas y <=2M EUR) reduce los obligados",
+     "url": "https://accessible.org/does-eaa-apply-shopify-stores/"
+    },
+    {
+     "afirmacion": "Dawn de Shopify con 30-100 violaciones WCAG detectables según un vendor (indicativo)",
+     "url": "https://testparty.ai/blog/european-accessibility-act-shopify"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Ya existe gasto en el área: accessiBe cobra desde $59/mes y hasta $479/mes en Shopify, y las agencias cobran miles por auditorías. Un plan de $29-49 por tienda más plan agencia queda por debajo de los incumbentes grandes. En contra: varias apps pequeñas cobran $9.99-$29 o tienen plan gratis, lo que ancla el precio a la baja.",
+   "evidencia": [
+    {
+     "afirmacion": "accessiBe en Shopify App Store desde $59/mes, tope $479/mes (según resultado de búsqueda sobre el listing)",
+     "url": "https://apps.shopify.com/accesswidget"
+    },
+    {
+     "afirmacion": "Hewnscan: gratis, Pro $29/mes, Agency $79/mes",
+     "url": "https://apps.shopify.com/hewnscan"
+    },
+    {
+     "afirmacion": "Accessibility Manager Pro desde $9.99/mes",
+     "url": "https://apps.shopify.com/accessibilitypro"
+    },
+    {
+     "afirmacion": "Las agencias cobran miles (afirmación de la idea, no verificada)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Overlays (accessiBe, UserWay) que no arreglan el código; enterprise (Deque axe, Siteimprove) caros; consultoras/agencias por miles; y apps de escaneo baratas en Shopify. Honestidad: el espacio de apps EAA en Shopify ya está poblado y algunas con plan gratis (Hewnscan, Accessify AI, A11yPro), por lo que F1 parcial es un riesgo real; no verifiqué si herramientas gratis (Lighthouse, WAVE, axe DevTools) bastan para la cuña de arreglos por plantilla.",
+   "evidencia": [
+    {
+     "afirmacion": "Hewnscan se posiciona como guía de preparación EAA, no certificación legal, con plan gratis",
+     "url": "https://apps.shopify.com/hewnscan"
+    },
+    {
+     "afirmacion": "Accessify AI y A11yPro tienen plan gratis",
+     "url": "https://apps.shopify.com/accessifyai"
+    },
+    {
+     "afirmacion": "Precios de Deque/Siteimprove/UserWay y cobertura de herramientas gratuitas",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsquedas 'accessibility'/'EAA' en Shopify App Store y WordPress.org, más SEO 'EAA compliance checklist'. Hay demanda con intención de compra en el marketplace (existen varias apps con listings activos, lo que confirma búsqueda), CAC cercano a cero si se posiciona. Contra: canal saturado, nuevo listing sin reseñas compite con incumbentes; Shopify cobra revenue share (cifra sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "Múltiples apps de accesibilidad con foco EAA ya listadas en Shopify App Store (canal con demanda y competencia)",
+     "url": "https://apps.shopify.com/scanify-accessibility-scan"
+    },
+    {
+     "afirmacion": "Scanify tiene listing sin reseñas: se puede entrar con pocas reseñas",
+     "url": "https://apps.shopify.com/scanify-accessibility-scan"
+    },
+    {
+     "afirmacion": "CAC y ranking en App Store",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "El cumplimiento es continuo: los temas, apps y contenido cambian y generan regresiones, y la EAA exige mantener conformidad; un monitoreo continuo con reporte de evidencia justifica suscripción. Riesgo: una vez arreglado el tema, el cliente puede cancelar; el plan agencia multi-tienda mejora la retención. Churn real: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "La obligación EAA es continua para tiendas dentro del alcance",
+     "url": "https://www.fudge.ai/blog/european-accessibility-act-shopify/"
+    },
+    {
+     "afirmacion": "Tasas de churn de apps de accesibilidad",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Base de plataformas grande: Store Leads cuenta ~4.53M tiendas WooCommerce vivas (Q3 2025) y ~2.9M Shopify vivas (Q2 2026). Solo una fracción vende a UE y supera la exención de microempresas, pero con >=100k compradores posibles solo se necesita ~2-4% del total; es plausible pero la fracción exacta con ventas UE y fuera de la exención es sin verificar. Fuentes son blogs que citan a Store Leads, no primarias.",
+   "evidencia": [
+    {
+     "afirmacion": "~4.53M tiendas WooCommerce vivas (Store Leads, Q3 2025) y 6.16M según BuiltWith",
+     "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"
+    },
+    {
+     "afirmacion": "~2.9M tiendas Shopify vivas Q2 2026 (Store Leads, citado por blog)",
+     "url": "https://www.webtonic.io/blog/e-commerce-shopify-statistics"
+    },
+    {
+     "afirmacion": "Fracción con ventas UE por encima del umbral de microempresa",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Débil, hay que decirlo. Defensa posible: biblioteca propia de arreglos por tema (Dawn y temas populares) que se acumula, reportes de evidencia históricos del cliente (switching cost) y relación con agencias. Cualquier incumbente puede añadir 'lista de arreglos' y Shopify podría integrar chequeos nativos (sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "Incumbentes ya anuncian soporte EAA en sus listings",
+     "url": "https://apps.shopify.com/accesswidget"
+    },
+    {
+     "afirmacion": "Shopify añadiendo chequeos nativos de accesibilidad",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Juan es ingeniero de software con Node/TS/React: un escáner con axe-core (open source, sin verificar licencia aquí) sobre páginas clave, más reglas de arreglos por tema y app embebida de Shopify es viable en ~6 semanas para un MVP. Mantenimiento: seguir cambios de temas y WCAG, soporte; operable por una persona. Limitación: un escáner automático cubre solo parte de WCAG, y generar arreglos correctos por tema requiere conocimiento de accesibilidad que Juan debe adquirir.",
+   "evidencia": [
+    {
+     "afirmacion": "Perfil de Juan según brief2",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Escáneres automáticos cubren solo parte de WCAG (concedido en etapa C)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hay una fecha legal vigente, un canal nombrado con demanda visible, un mercado de plataformas de millones de tiendas y un hueco de producto (arreglos concretos por tema a precio plano frente a overlays caros y consultoras de miles). Es ejecutable por una persona. Concedo que el canal está saturado de apps baratas o gratis, la defensa es débil y la exención de microempresas recorta el mercado, por lo que la cuña depende de la calidad de los arreglos por tema.",
+ "busquedas_usadas": 2
+}

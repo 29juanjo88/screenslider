@@ -1,0 +1,121 @@
+{
+ "id": "N06-07",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Copiar tablas de PDFs/facturas a Excel es trabajo manual recurrente en AP, finanzas y contabilidad; la búsqueda 'pdf to excel' es activa y ya existen productos de pago (Docparser, Nanonets, ReadyData) que viven de ese dolor. Honestidad: la urgencia es de productividad, no de pérdida de dinero crítica, y muchos lo toleran con herramientas gratis.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen extractores de pago para PDFs/facturas con planes de $9 a $229/mes (ReadyData), lo que indica dolor monetizado",
+     "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+    },
+    {
+     "afirmacion": "Intensidad de búsqueda 'pdf to excel' (volumen exacto)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay disposición de pago demostrada: Docparser cobra $39/100 créditos, $74/250, $159/1000; ReadyData $9-$59. Un plano de $19 está en el rango de lo que ya se paga. Debilidad: existen tiers gratis y ChatGPT/Copilot extraen tablas gratis en parte.",
+   "evidencia": [
+    {
+     "afirmacion": "Docparser Starter $39/mes 100 créditos, Professional $74 por 250, Business $159 por 1000; 1 crédito = documento hasta 5 páginas",
+     "url": "https://mammoth.io/blog/docparser-pricing/"
+    },
+    {
+     "afirmacion": "ReadyData: gratis, Lite $9, Starter $19, Pro $59, hasta $229/mes",
+     "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: Docparser, Nanonets, Parsio, Adobe Acrobat, ReadyData, PDF.it, y asistentes de IA generales. Los de pago cobran por documento/crédito y viven fuera de la hoja de cálculo (flujo web/API). Hay add-ons de Google Sheets para PDF-a-tabla ya instalados (Table OCR, 57K+ instalaciones según su listing), lo que valida demanda pero también muestra competencia directa en el canal. En Excel (AppSource) no pude confirmar competidores con volumen. Los asistentes de IA gratis son la amenaza más seria para la cuña.",
+   "evidencia": [
+    {
+     "afirmacion": "Table OCR en Google Workspace Marketplace, ~57K+ instalaciones, actualizado marzo 2026 (dato del listing del vendedor)",
+     "url": "https://workspace.google.com/marketplace/app/table_ocr_poimi_taulukon_tiedot/959950861676"
+    },
+    {
+     "afirmacion": "Add-on 'PDF to Google Sheets converter' con OCR y multi-tabla, precio no visible",
+     "url": "https://workspace.google.com/marketplace/app/convert_pdf_to_google_sheets/687083288287?hl=de"
+    },
+    {
+     "afirmacion": "PDF.it extrae tablas con Google Document AI a Excel",
+     "url": "https://pdf.it.com/blog/table-extraction-excel"
+    },
+    {
+     "afirmacion": "Capacidad nativa de Excel Copilot/ChatGPT con PDFs y su calidad",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canales nombrados: Google Workspace Marketplace (con demanda probada: un add-on rival supera 57K instalaciones), Microsoft AppSource y SEO 'pdf to excel table'. Producto dentro de la hoja con búsqueda en marketplace implica CAC bajo si hay intención de compra. Debilidad: SEO 'pdf to excel' está saturado de herramientas gratis; AppSource sin confirmar como canal con volumen; CAC real sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Add-on competidor con ~57K+ instalaciones en Workspace Marketplace demuestra que el canal distribuye",
+     "url": "https://workspace.google.com/marketplace/app/table_ocr_poimi_taulukon_tiedot/959950861676"
+    },
+    {
+     "afirmacion": "Volumen de descubrimiento en AppSource para PDF-a-Excel",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC real por marketplace/SEO",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "El uso es recurrente (facturas y estados de cuenta mensuales) y las plantillas reutilizables crean costo de cambio: quien configura plantillas por proveedor no migra fácil. Honestidad: no hay datos de churn; usuarios ocasionales de PDF-a-Excel pueden cancelar tras una tarea puntual.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn/retención de herramientas similares",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Microsoft 365 tiene más de 450 millones de puestos comerciales de pago; Excel no se desglosa, pero una fracción mínima (finanzas/AP/contabilidad) supera ampliamente los 100k compradores posibles y plausiblemente 2M. La cifra de la idea (>2M) es estimación; la base de Microsoft la respalda como cota superior del universo, no como compradores reales.",
+   "evidencia": [
+    {
+     "afirmacion": "Microsoft 365 supera 450 millones de puestos comerciales de pago (enero 2026)",
+     "url": "https://office365itpros.com/tag/microsoft-365-user-number/"
+    },
+    {
+     "afirmacion": "Número de profesionales que procesan PDFs a Excel (>2M)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Honestamente débil: el precio plano es copiable, ReadyData ya tiene $19 y las plataformas/IA pueden absorber la función. Defensa posible: biblioteca de plantillas por proveedor/tipo de documento, datos de corrección que mejoran la exactitud, integración profunda en Excel/Sheets y foco en contadores/AP. Son fosos modestos.",
+   "evidencia": [
+    {
+     "afirmacion": "ReadyData ya ofrece tier de $19",
+     "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+    },
+    {
+     "afirmacion": "Fosos de plantillas/datos efectivos en este segmento",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Viable para un ingeniero backend: add-on Sheets (Apps Script) y Office add-in (TypeScript/React) más un API de LLM visión; MVP en Sheets en ~6 semanas es plausible. Riesgos: costo de inferencia con usuarios intensivos (mitigable con tope de páginas más overage, ajuste sugerido en etapa C), exactitud y revisión de marketplaces.",
+   "evidencia": [
+    {
+     "afirmacion": "Docparser define 1 crédito = documento hasta 5 páginas, modelo de límites replicable para proteger margen",
+     "url": "https://mammoth.io/blog/docparser-pricing/"
+    },
+    {
+     "afirmacion": "Costo real de inferencia por página",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado enorme con pago ya demostrado (Docparser $39-$159, ReadyData hasta $229) y canal nombrado probado (add-on rival con 57K+ instalaciones en Workspace Marketplace), ejecutable por una persona. La cuña (plano por usuario con tope de páginas, plantillas dentro de la hoja, foco en contadores/AP) es moderada: ReadyData ya cobra $19 y la IA general gratis cubre parte, por lo que el éxito depende de ejecución y exactitud, no de un foso fuerte.",
+ "busquedas_usadas": 2
+}

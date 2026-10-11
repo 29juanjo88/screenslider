@@ -1,0 +1,115 @@
+{
+ "idea": {
+  "id": "N09-05",
+  "nombre": "Email newsletter sin cobrar por lista",
+  "cliente_que_paga": "Creadores y newsletters de 5k-100k suscriptores",
+  "problema": "Mailchimp sube precio por contactos, incluidos inactivos",
+  "solucion": "Envío de newsletters con cobro solo por envíos activos y migración con un clic desde Mailchimp",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'Mailchimp alternative', Reddit r/Emailmarketing, comunidades de creadores",
+  "competidores": [
+   "Mailchimp",
+   "Kit/ConvertKit",
+   "Beehiiv",
+   "Buttondown"
+  ],
+  "cuña": "Modelo de precio por contactos activos y importador Mailchimp; ataca un dolor de facturación conocido",
+  "tamaño_mercado": "Millones de usuarios de Mailchimp; sin verificar",
+  "por_que_ahora": "Quejas sostenidas por precios de Mailchimp",
+  "riesgo_principal": "Entregabilidad requiere reputación de IP",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "Newsletter precio justo",
+  "origen": "nueva",
+  "b_total": 38,
+  "b_razon": "Dolor de precio de Mailchimp real, 'Mailchimp alternative' con intención; muy saturado y entregabilidad difícil.",
+  "c_total": 38,
+  "c_razon": "Dolor y presupuesto reales, pero saturado, cuña copiable y entregabilidad difícil para una persona; ajuste BYO-SES mejoraría ejecución.",
+  "c_hecho": "Mailchimp cobra por contactos no suscritos/inactivos (queja repetida, fuentes de competidores); Kit gratis hasta 10k y Beehiiv gratis hasta 2,500."
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "N09-05",
+   "filtros_fallados": [
+    "F1 parcial: Kit tiene plan gratis hasta 10k suscriptores y Beehiiv gratis hasta 2,500 con envíos ilimitados, justo el segmento 5k-100k parcialmente",
+    "F5/F3 parcial: entregabilidad exige reputación de IP y cumplimiento anti-spam; riesgo operativo alto para 1 persona"
+   ],
+   "objecion": "El dolor de precio por contactos es real pero ya atendido: Kit gratis hasta 10k suscriptores, Beehiiv gratis hasta 2,500 y Buttondown desde ~$9/mes por 1k. Un recién llegado sin reputación de envío tiene entregabilidad peor que incumbentes, y 'cobro por activos' lo puede copiar cualquiera. Mercado muy saturado.",
+   "hechos": [
+    {
+     "afirmacion": "Beehiiv: plan Launch gratis hasta 2,500 suscriptores con envíos ilimitados; Scale desde ~$43/mes anual (fuentes difieren)",
+     "url": "https://skillscouter.com/beehiiv-review/"
+    },
+    {
+     "afirmacion": "Kit: gratis hasta 10k suscriptores; de pago desde ~$32.50/mes (roundup de terceros)",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Buttondown: desde ~$9/mes por 1k suscriptores, $29 por 5k (una sola fuente, sin verificar en sitio oficial)",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "afirmacion": "Mailchimp recortó su plan gratis de 2,000 a 250 contactos; precios por contacto actuales: sin verificar",
+     "url": "https://www.itechguides.com/directory/newsletter-platforms/"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "N09-05",
+   "rescatar": true,
+   "respuesta": "Es la demanda mejor documentada del lote: la queja de que Mailchimp cobra por contactos no suscritos/inactivos es recurrente (G2, Reddit, Capterra según fuentes secundarias) y Mailchimp lo confirma en su FAQ. Hay presupuesto existente y búsqueda 'Mailchimp alternative'. Pero Kit gratis hasta 10k, Beehiiv, Brevo (ilimitados contactos desde $9) y alternativas por envío ya existen, y la entregabilidad es riesgo real. Rescatable solo como wedge de migración/limpieza, no como ESP completo.",
+   "concesiones": [
+    "Kit gratis hasta 10k y Beehiiv gratis hasta 2,500",
+    "Brevo y otros ya cobran por envíos o sin límite de contactos (fuente agregadora)",
+    "Entregabilidad/reputación de IP es riesgo para 1 persona",
+    "Cobro por activos es copiable"
+   ],
+   "hechos": [
+    {
+     "afirmacion": "Mailchimp cuenta contactos suscritos, no suscritos y dados de baja para facturación; es una queja repetida (fuentes de competidores, no independientes)",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    },
+    {
+     "afirmacion": "Brevo descrito con contactos ilimitados desde $9/mes (agregador, sin verificar en sitio oficial)",
+     "url": "https://www.emailtooltester.com/en/?p=2338"
+    },
+    {
+     "afirmacion": "Recorte del plan gratis de Mailchimp en 2026: fuentes discrepan",
+     "url": "https://dreamlit.ai/blog/mailchimp-review"
+    }
+   ],
+   "ajuste_sugerido": "Enviar vía Amazon SES/Postmark propio del cliente (BYO) para evitar reputación de IP; precio plano ~$15-25 por envíos; posicionar como importador + limpieza de inactivos para creadores 5k-100k.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "N09-05",
+   "filtro_fallado": "",
+   "puntajes": {
+    "dolor": 3,
+    "pago": 4,
+    "canal": 3,
+    "mercado": 4,
+    "cuna": 2,
+    "ejecucion": 2
+   },
+   "total": 38,
+   "hecho_decisivo": "Mailchimp cobra por contactos no suscritos/inactivos (queja repetida, fuentes de competidores); Kit gratis hasta 10k y Beehiiv gratis hasta 2,500.",
+   "competidores_verificados": [
+    {
+     "nombre": "Kit",
+     "precio": "gratis hasta 10k; de pago desde ~$32.50/mes (roundup tercero)",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    },
+    {
+     "nombre": "Beehiiv",
+     "precio": "gratis hasta 2,500; Scale ~$43/mes (fuentes difieren)",
+     "url": "https://skillscouter.com/beehiiv-review/"
+    }
+   ],
+   "razon": "Dolor y presupuesto reales, pero saturado, cuña copiable y entregabilidad difícil para una persona; ajuste BYO-SES mejoraría ejecución.",
+   "busquedas_usadas": 0
+  }
+ }
+}

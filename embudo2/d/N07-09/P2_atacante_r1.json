@@ -1,0 +1,117 @@
+{
+ "id": "N07-09",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe (falta de pareja de práctica) pero no es urgente ni semanal: aprender idiomas es hobby/meta aspiracional, con abandono fácil. Además el dolor ya lo cubren gratis: ChatGPT en modo voz sirve como compañero de conversación. Lo que queda sin cubrir (rastrear errores propios) es una molestia, no una pérdida de dinero.",
+   "evidencia": [
+    {
+     "afirmacion": "Una reseña de 2026 reconoce que ChatGPT voz es un buen compañero gratis de chat para nivel B2+, aunque no registra qué sonidos fallas",
+     "url": "https://speakshark.com/blog/chatgpt-voice-mode-english-practice"
+    },
+    {
+     "afirmacion": "Retención/urgencia de aprendices de idiomas: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El comprador de $8 compite con lo gratis (ChatGPT voz, Duolingo gratis) y con apps que ya cobran más. Hay disposición a pagar en el segmento (Speak cobra ~$18/mes), lo cual sí favorece la idea, pero el precio de $8 ya es una apuesta a margen estrecho por el costo de voz en tiempo real, y muchos pagan anual con descuento fuerte (Speak $83.99/año = ~$7/mes).",
+   "evidencia": [
+    {
+     "afirmacion": "Speak Premium en App Store EEUU: $17.99/mes y $83.99/año",
+     "url": "https://apps.apple.com/us/app/-/id1286609883"
+    },
+    {
+     "afirmacion": "Hay disposición de pago demostrada por Speak (favorece a la idea, a precio mayor que $8)",
+     "url": "https://apps.apple.com/us/app/-/id1286609883"
+    },
+    {
+     "afirmacion": "Costo por minuto de voz en tiempo real y margen a $8: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Saturado: Speak, Duolingo Max, Pimsleur, Langotalk, más ChatGPT/Gemini voz gratuitos y tutores humanos (italki, sin verificar). La cuña 'repaso espaciado de TUS errores' no lo hace ninguno de los pagos de forma central, según la etapa C, pero un prompt con memoria en ChatGPT lo aproxima gratis. La reseña dice que ChatGPT no registra errores de pronunciación, lo que deja un hueco parcial real.",
+   "evidencia": [
+    {
+     "afirmacion": "ChatGPT voz gratis permite práctica y juego de roles; recuerda dónde quedaste según una fuente",
+     "url": "https://wondertools.substack.com/p/chatgpt-avm"
+    },
+    {
+     "afirmacion": "ChatGPT carece de registro de errores recurrentes de pronunciación (hueco parcial a favor de la idea)",
+     "url": "https://speakshark.com/blog/chatgpt-voice-mode-english-practice"
+    },
+    {
+     "afirmacion": "Precio actual de Duolingo Max: sin verificar (fuentes contradictorias y de baja calidad)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Los canales nombrados (SEO por idioma, YouTube de polyglots, r/languagelearning) son competidos por Speak/Duolingo con presupuesto grande y reseñas afiliadas; las búsquedas 'best language app' están dominadas por blogs de afiliados. Reddit penaliza la autopromoción. YouTube requiere patrocinios pagados. CAC en apps de idiomas: sin verificar. Sin intención de compra demostrada para esta cuña.",
+   "evidencia": [
+    {
+     "afirmacion": "Los resultados de búsqueda de precios/comparativas de Speak los dominan blogs de competidores y reseñas (p. ej. speakshark.com, que promociona una alternativa de $10)",
+     "url": "https://speakshark.com/blog/speak-app-pricing-per-month-2026"
+    },
+    {
+     "afirmacion": "CAC y volumen de búsqueda por idioma: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Las apps de idiomas son notorias por churn alto: el usuario motivado en enero abandona en semanas. A $8/mes mensual, vida media corta exige adquirir constantemente. Sin dato propio verificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn/retención de suscripciones de idiomas: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Honestidad: el mercado total de aprendices es enorme y supera sin problema 2M de compradores posibles (F6 no aplica). Pero el mercado alcanzable para la cuña (adultos que pagan por práctica oral con IA y no se conforman con ChatGPT gratis) es una fracción pequeña y no cuantificada. La cifra de la idea es 'cientos de millones; sin verificar'.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de aprendices de idiomas: 'cientos de millones' según la idea, sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Fracción que pagaría por la cuña: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Baja. El repaso espaciado de errores propios es una función que Speak o Duolingo pueden lanzar en un sprint y que un usuario avanzado replica con un prompt y memoria en ChatGPT. Ni datos propietarios ni efecto de red; la voz depende de APIs de terceros (OpenAI, etc.) que también vende el competidor. La etapa C (ataque y defensa) coincidió en que es copiable.",
+   "evidencia": [
+    {
+     "afirmacion": "Etapa C: la defensa concedió que la cuña es copiable por Speak/Duolingo y chatbots de voz",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "ChatGPT ya ofrece memoria y voz gratis, base para replicar el flujo",
+     "url": "https://wondertools.substack.com/p/chatgpt-avm"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Un MVP de chat por voz con API en tiempo real es factible para Juan en ~6 semanas (favorece a la idea). Pero la operación no es trivial: costos variables por minuto de voz que escalan con el uso (los usuarios más activos son los más costosos), latencia, soporte multi-idioma con calidad de corrección en cada idioma, y aun así debe dedicar la mayor parte del tiempo a distribución, su cuello de botella declarado.",
+   "evidencia": [
+    {
+     "afirmacion": "Un MVP técnico es viable para un ingeniero de software senior (juicio propio, sin fuente)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Costo por minuto de API de voz en tiempo real: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado enorme pero la cuña (repaso de errores propios) es copiable en semanas por Speak/Duolingo y casi replicable gratis con ChatGPT voz con memoria; a $8/mes el costo variable de voz comprime margen, el churn típico del sector es alto y los canales nombrados están dominados por incumbentes y afiliados. A favor de la idea: Speak demuestra disposición de pago (~$18/mes) y ChatGPT no registra errores recurrentes, un hueco parcial; pero no hay evidencia de que ese hueco sostenga 500 clientes.",
+ "busquedas_usadas": 2
+}

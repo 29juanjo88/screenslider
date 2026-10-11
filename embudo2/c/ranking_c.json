@@ -1,0 +1,1104 @@
+[
+ {
+  "id": "N06-07",
+  "filtro_fallado": "",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 5,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 46,
+  "hecho_decisivo": "Docparser cobra $39/100 créditos y $159/1000 (por documento); ReadyData tiene gratis y $19; IA general extrae tablas gratis en parte.",
+  "competidores_verificados": [
+   {
+    "nombre": "Docparser",
+    "precio": "$39/mes 100 créditos; $159/mes 1000",
+    "url": "https://mammoth.io/blog/docparser-pricing/"
+   },
+   {
+    "nombre": "ReadyData",
+    "precio": "gratis; Lite $9; Starter $19; Pro $59",
+    "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+   }
+  ],
+  "razon": "Dolor real, pago existente, mercado >2M (sin verificar), marketplaces nombrados; cuña de precio plano moderada y riesgo de inferencia.",
+  "busquedas_usadas": 0,
+  "tema": "pdf a excel"
+ },
+ {
+  "id": "N01-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 40,
+  "hecho_decisivo": "ChargePay ya vende cuota fija sin comisión en Shopify ($19.99-$99.99), la cuña de precio no es exclusiva; mercado >500k sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "ChargePay",
+    "precio": "$19.99-$99.99/mes",
+    "url": "https://apps.shopify.com/chargepay"
+   },
+   {
+    "nombre": "Chargeflow",
+    "precio": "25% de lo recuperado (fuentes contradictorias)",
+    "url": "https://redo.com/resources/articles/comparisons/chargeflow-pricing"
+   }
+  ],
+  "razon": "Dolor monetario claro, presupuesto existente y canal nombrado, pero la cuña está parcialmente ocupada, hay nativos de plataforma y la integración exige trabajo; mercado 250-700k sin verificar.",
+  "busquedas_usadas": 0,
+  "tema": "chargebacks"
+ },
+ {
+  "id": "N01-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "hecho_decisivo": "Plugins Woo gratis (ReturnDesk) y RMA de pago único (ECOSIRE desde US$149) existen, pero ningún SaaS mensual Woo con etiquetas hallado por defensa.",
+  "competidores_verificados": [
+   {
+    "nombre": "ECOSIRE Woo RMA (licencia única desde US$149)",
+    "precio": "149 único",
+    "url": "https://ecosire.com/de/apps/woocommerce/woo-returns-rma-manager"
+   },
+   {
+    "nombre": "ReturnDesk (gratis)",
+    "precio": "0",
+    "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+   }
+  ],
+  "razon": "No hay incumbente gratis que cubra etiquetas y crédito, así que no cae en F1. Canal WordPress.org con intención y mercado Woo grande. Cuña modesta, pago recurrente choca con licencias únicas, mantenimiento y carriers pesan en ejecución.",
+  "busquedas_usadas": 0,
+  "tema": "devoluciones woocommerce"
+ },
+ {
+  "id": "G23-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 39,
+  "hecho_decisivo": "Helium 10 Refund Genie sin comision sobre recobros; servicios de recobro cobran ~20-25% (marketing/resenas)",
+  "competidores_verificados": [
+   {
+    "nombre": "Helium 10 Refund Genie",
+    "precio": "incluido en suscripcion, sin comision (segun el vendedor)",
+    "url": "https://www.helium10.com/tools/refund-genie/"
+   },
+   {
+    "nombre": "Carbon6/GETIDA/Seller Investigators",
+    "precio": "comision ~25% (solo Carbon6, resena)",
+    "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+   }
+  ],
+  "razon": "Dolor monetario directo y canal con intencion (r/FulfillmentByAmazon, SEO), pero cuna no definida, competencia por comision y tamano del segmento 20k+/mes sin verificar; riesgo SP-API.",
+  "busquedas_usadas": 0,
+  "tema": "vendedores de marketplaces"
+ },
+ {
+  "id": "N01-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 39,
+  "hecho_decisivo": "Prisync parte de 99 USD pero existen apps de 19-29 USD con plan gratis (citadas por rol, no re-verificadas por el juez)",
+  "competidores_verificados": [
+   {
+    "nombre": "Prisync",
+    "precio": "99 USD/mes",
+    "url": "https://www.capterra.com/p/153451/Prisync/reviews/1309163"
+   },
+   {
+    "nombre": "CompeteTracker",
+    "precio": "gratis; 19.99 USD/mes",
+    "url": "https://apps.shopify.com/competetracker"
+   },
+   {
+    "nombre": "PriceKit",
+    "precio": "gratis; 19 USD/mes",
+    "url": "https://apps.shopify.com/pricekit"
+   },
+   {
+    "nombre": "Snoopie",
+    "precio": "gratis; 19-29 USD/mes",
+    "url": "https://apps.shopify.com/snoopie"
+   }
+  ],
+  "razon": "Prisync desde 99 USD/mes deja un hueco intermedio, pero apps de Shopify con plan gratis o 19-29 USD cubren parte de la cuña; scraping anti-bot es costo central.",
+  "busquedas_usadas": 0,
+  "tema": "monitoreo de precios"
+ },
+ {
+  "id": "N10-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "Ya existen bundles multi-dominio (Enzuzo 10 dominios $79/mes, Complianz) y CookieYes gratis 1 dominio; cuña de precio plano copiable.",
+  "competidores_verificados": [
+   {
+    "nombre": "CookieYes",
+    "precio": "gratis 1 dominio; Basic $10, Pro $25, Ultimate $55/mes por dominio (según página, sin reverificar)",
+    "url": "https://www.cookieyes.com/pricing/"
+   },
+   {
+    "nombre": "Enzuzo",
+    "precio": "Pro 10 dominios $79/mes (blog de vendor, sin verificar)",
+    "url": "https://enzuzo.com/blog/cookiebot-pricing"
+   }
+  ],
+  "razon": "Mercado grande y disposición de pago clara (Cookiebot subió precio), pero cuña ocupada, SEO saturado y carga de certificación Google CMP y mantenimiento legal para una persona.",
+  "busquedas_usadas": 0,
+  "tema": "banner cookies precio plano"
+ },
+ {
+  "id": "N09-05",
+  "filtro_fallado": "",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 38,
+  "hecho_decisivo": "Mailchimp cobra por contactos no suscritos/inactivos (queja repetida, fuentes de competidores); Kit gratis hasta 10k y Beehiiv gratis hasta 2,500.",
+  "competidores_verificados": [
+   {
+    "nombre": "Kit",
+    "precio": "gratis hasta 10k; de pago desde ~$32.50/mes (roundup tercero)",
+    "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+   },
+   {
+    "nombre": "Beehiiv",
+    "precio": "gratis hasta 2,500; Scale ~$43/mes (fuentes difieren)",
+    "url": "https://skillscouter.com/beehiiv-review/"
+   }
+  ],
+  "razon": "Dolor y presupuesto reales, pero saturado, cuña copiable y entregabilidad difícil para una persona; ajuste BYO-SES mejoraría ejecución.",
+  "busquedas_usadas": 0,
+  "tema": "newsletter precio justo"
+ },
+ {
+  "id": "N07-09",
+  "filtro_fallado": "",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 38,
+  "hecho_decisivo": "Sin evidencia verificada; la cuña de repaso de errores es copiable y los chatbots de voz generales compiten; sin canal con intención demostrada.",
+  "competidores_verificados": [],
+  "razon": "Mercado enorme pero saturado, cuña débil, costo de voz a $8 comprime margen; sin evidencia.",
+  "busquedas_usadas": 0,
+  "tema": "práctica de idiomas"
+ },
+ {
+  "id": "N10-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "EAA vigente desde 28-jun-2025 con exención de microempresas; overlays insuficientes; precios de competidores y escáneres gratis sin verificar.",
+  "competidores_verificados": [],
+  "razon": "Urgencia regulatoria real y mercado grande de tiendas con ventas UE, pero el escáner automático no da cumplimiento, hay apps de accesibilidad consolidadas y cuña débil. Sin falla F1-F6 comprobada.",
+  "busquedas_usadas": 0,
+  "tema": "cumplimiento accesibilidad eaa"
+ },
+ {
+  "id": "N02-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 4
+  },
+  "total": 37,
+  "hecho_decisivo": "Reporte nativo de GitHub sin costo por workflow (fuente de vendor); el comprador puede optimizar una vez y churnear; pagadores relevantes sin verificar.",
+  "competidores_verificados": [
+   {
+    "nombre": "Blacksmith (guía gratis)",
+    "precio": "sin verificar",
+    "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"
+   }
+  ],
+  "razon": "Dolor monetario real y canal Marketplace/SEO nombrado; cuña de no migrar runners es válida pero limitada por churn, OSS gratis y mejora nativa posible.",
+  "busquedas_usadas": 0,
+  "tema": "costos ci"
+ },
+ {
+  "id": "N02-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 37,
+  "hecho_decisivo": "EAA exigible desde 2025-06-28 y alcanza a e-commerce con clientes UE (fuente secundaria)",
+  "competidores_verificados": [
+   {
+    "nombre": "Pa11y/axe-core/Lighthouse (gratis)",
+    "precio": "0",
+    "url": "sin verificar"
+   }
+  ],
+  "razon": "Dolor regulatorio real y mercado grande, pero la deteccion es gratis y la cuna (reportes y parches) es debil y sin precios verificados de Deque/axe; no cae en F1 porque el entregable de cumplimiento no es gratis.",
+  "busquedas_usadas": 0,
+  "tema": "accesibilidad ci"
+ },
+ {
+  "id": "N01-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 36,
+  "hecho_decisivo": "Craftybase ofrece calculadora y hoja gratis y producto de pago; vendedores micro pagan poco; unos 5.6M vendedores Etsy según prensa secundaria.",
+  "competidores_verificados": [
+   {
+    "nombre": "Craftybase",
+    "precio": "sin verificar",
+    "url": "https://craftybase.com/etsy/pricing-calculator"
+   }
+  ],
+  "razon": "Mercado grande en bruto pero pocos pagan; cuña Etsy ya cubierta; F1 no cae del todo porque lo gratis es limitado.",
+  "busquedas_usadas": 0,
+  "tema": "ganancia real etsy"
+ },
+ {
+  "id": "N02-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 3,
+   "ejecucion": 3
+  },
+  "total": 36,
+  "hecho_decisivo": "Trunk gratis hasta 5 committers y por asiento hasta 50 (docs oficiales); BuildPulse en Marketplace con tiers por volumen; hueco de precio fijo por org para 6-50 devs.",
+  "competidores_verificados": [
+   {
+    "nombre": "Trunk Flaky Tests",
+    "precio": "gratis hasta 5 committers activos; Team por asiento (docs)",
+    "url": "https://docs.trunk.io/setup-and-administration/billing"
+   },
+   {
+    "nombre": "BuildPulse",
+    "precio": "tiers desde $1/mes según listing; otras fuentes en conflicto",
+    "url": "https://github.com/marketplace/buildpulse/plan/MDIyOk1hcmtldHBsYWNlTGlzdGluZ1BsYW40NzM5"
+   }
+  ],
+  "razon": "Dolor semanal y canal concreto; cuña de precio por org frente a asiento real pero estrecha y copiable; Marketplace ya ocupado.",
+  "busquedas_usadas": 0,
+  "tema": "testing ci"
+ },
+ {
+  "id": "N10-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 36,
+  "hecho_decisivo": "Quaderno desde $29/mes con importación de Stripe y Stripe Tax Basic 0.5% por transacción cubren buena parte; borradores sin presentar dejan sin resolver el registro y filing.",
+  "competidores_verificados": [
+   {
+    "nombre": "Quaderno",
+    "precio": "desde $29/mes (tercero)",
+    "url": "https://www.rfp.wiki/accounting-finance/tax-software/hellotax/quaderno"
+   },
+   {
+    "nombre": "Stripe Tax Basic",
+    "precio": "0.5% por transacción o $0.50 API",
+    "url": "https://dodopayments.com/blogs/stripe-tax-explained"
+   }
+  ],
+  "razon": "Dolor recurrente y SEO con intención, mercado grande, pero cuña débil, exactitud fiscal multijurisdicción costosa y riesgo de responsabilidad.",
+  "busquedas_usadas": 0,
+  "tema": "iva digital vendedores indie"
+ },
+ {
+  "id": "N08-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 35,
+  "hecho_decisivo": "Cuña de precio bajo ocupada por planes gratis y de 29 USD",
+  "competidores_verificados": [
+   {
+    "nombre": "Otterly AI Lite",
+    "precio": "29 USD/mes (tercero)",
+    "url": "https://www.therankmasters.com/blog/best-tools-tracking-brand-visibility-ai-search"
+   },
+   {
+    "nombre": "Dageno AI",
+    "precio": "plan gratis",
+    "url": "https://www.dageno.ai/blog/best-online-perplexity-rank-tracker"
+   },
+   {
+    "nombre": "Apify AI Visibility Check",
+    "precio": "3 USD pago único",
+    "url": "https://apify.com/sorcerai/constellation-ai-visibility-check"
+   }
+  ],
+  "razon": "Categoría saturada: Dageno y Prompt Monitor con plan gratis, Otterly desde 29 USD, HubSpot AEO Grader gratis; margen frágil por costo de LLM. Demanda creciente y mercado amplio.",
+  "busquedas_usadas": 0,
+  "tema": "geo ai search"
+ },
+ {
+  "id": "N10-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 35,
+  "hecho_decisivo": "Cuña de setup fácil ya ocupada (Stape gratis/barato, Aimerce)",
+  "competidores_verificados": [
+   {
+    "nombre": "Stape",
+    "precio": "gratis 10k requests; Pro 17 USD/mes (anual)",
+    "url": "https://stape.io/price-server-google-tag-manager"
+   },
+   {
+    "nombre": "Aimerce",
+    "precio": "sin verificar",
+    "url": "https://www.aimerce.ai/blogs/aimerce-vs-stape-do-you-need-server-side-gtm"
+   }
+  ],
+  "razon": "Dolor monetario real, pero Stape tiene plan gratis y ~17 USD/mes, y hay varias alternativas de setup fácil; la cuña está ocupada y la infra pesa a 1 persona.",
+  "busquedas_usadas": 0,
+  "tema": "medición servidor primera parte"
+ },
+ {
+  "id": "N03-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 35,
+  "hecho_decisivo": "Gumroad nativo, Subscord y Collab.Land (Starter gratis, Basic 17.99) cubren gran parte; hueco menor multi-procesador.",
+  "competidores_verificados": [
+   {
+    "nombre": "Collab.Land",
+    "precio": "Starter 0; Basic 17.99/mes",
+    "url": "https://developer.collab.land/help-docs/key-features/bot-subscription"
+   },
+   {
+    "nombre": "Subscord",
+    "precio": "sin verificar",
+    "url": "https://top.gg/bot/1230951682352087081"
+   }
+  ],
+  "razon": "No cae claramente en F1 pero la cuña es copiable y estrecha; mercado de comunidades de pago estimado 250-700k sin verificar; dependencia de API de Discord.",
+  "busquedas_usadas": 0,
+  "tema": "paywall de comunidades"
+ },
+ {
+  "id": "N10-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 34,
+  "hecho_decisivo": "Hay herramientas DMARC gratis o desde $2.99/mes; p=none cumple el mínimo; retención baja tras configurar.",
+  "competidores_verificados": [
+   {
+    "nombre": "DMARC Examiner",
+    "precio": "gratis / desde $2.99",
+    "url": "https://alternativeto.net/software/dmarc-examiner/about"
+   },
+   {
+    "nombre": "DMARCTrust",
+    "precio": "gratis / desde $19",
+    "url": "https://www.capterra.com/p/10036636/DMARCTrust/"
+   }
+  ],
+  "razon": "Mercado de dominios grande, pero baja disposición de pago, churn tras la configuración y cuña débil frente a gratis.",
+  "busquedas_usadas": 0,
+  "tema": "dmarc para no expertos"
+ },
+ {
+  "id": "N10-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Coupler.io tiene plan gratis y de pago desde ~$24/mes y Windsor.ai desde ~$19/mes; la cuña de precio plano ya está ocupada y Looker Studio es gratis.",
+  "competidores_verificados": [
+   {
+    "nombre": "Coupler.io",
+    "precio": "gratis (5 conectores); desde ~$24/mes (tercero)",
+    "url": "https://windsor.ai/supermetrics-vs-coupler-io/"
+   },
+   {
+    "nombre": "Windsor.ai",
+    "precio": "desde ~$19/mes (una sola fuente)",
+    "url": "https://metricnexus.ai/blog/supermetrics-alternatives"
+   }
+  ],
+  "razon": "Mercado grande y gente que ya paga, pero cuña ocupada, mantenimiento de APIs y verificación OAuth pesados para una persona.",
+  "busquedas_usadas": 0,
+  "tema": "conector ga4 a hojas"
+ },
+ {
+  "id": "N07-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 34,
+  "hecho_decisivo": "Koinly tiene plan gratis de importación y cobra por año fiscal; mantener integraciones y reglas fiscales multi-país excede a una persona; compra estacional vs $12/mes.",
+  "competidores_verificados": [
+   {
+    "nombre": "Koinly",
+    "precio": "por tramos de transacciones y año fiscal; precios exactos sin verificar",
+    "url": "https://koinly.io/pricing"
+   }
+  ],
+  "razon": "Mercado grande pero SEO dominado por incumbentes, cuña de precio débil, responsabilidad fiscal y ejecución difícil; no cae a 0 por filtro duro.",
+  "busquedas_usadas": 0,
+  "tema": "impuestos cripto plano"
+ },
+ {
+  "id": "N05-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 33,
+  "hecho_decisivo": "Competidores ya ofrecen restauración por página; cuña incremental",
+  "competidores_verificados": [
+   {
+    "nombre": "Rewind Backups for Notion",
+    "precio": "sin verificar",
+    "url": "https://platform.softwareone.com/product/backups-for-notion/PCP-0028-3087"
+   },
+   {
+    "nombre": "ProBackup",
+    "precio": "según volumen; prueba gratis",
+    "url": "https://www.notion.com/connections/probackup"
+   },
+   {
+    "nombre": "SimpleBackups",
+    "precio": "sin verificar",
+    "url": "https://simplebackups.com/learn/notion-backup"
+   }
+  ],
+  "razon": "Rewind (restauración por página, 365 días), ProBackup y SimpleBackups ya cubren la cuña; mercado de compradores de backup muy menor que usuarios de Notion.",
+  "busquedas_usadas": 0,
+  "tema": "notion backup"
+ },
+ {
+  "id": "N09-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "HubSpot 288,706 clientes (10-K) y Salesforce >150k sin verificar; los compradores de backup son una fracción, probablemente en el rango 100-250k o menos.",
+  "competidores_verificados": [
+   {
+    "nombre": "Own/Spanning/Gearset",
+    "precio": "sin verificar",
+    "url": "sin verificar"
+   }
+  ],
+  "razon": "Presupuesto existente y marketplaces, pero mercado en el límite de F6, confianza de acceso a datos y restauración compleja para una persona.",
+  "busquedas_usadas": 0,
+  "tema": "backup de crm"
+ },
+ {
+  "id": "N08-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 32,
+  "hecho_decisivo": "Informe de terminos de busqueda nativo y gratis en Google Ads; Optmyzr ~208/mes y Adalysis ~126-149/mes (fuentes terceras en conflicto)",
+  "competidores_verificados": [
+   {
+    "nombre": "Optmyzr",
+    "precio": "~208-209 USD/mes (fuentes en conflicto)",
+    "url": "https://www.capterra.com/p/156308/Optmyzr/pricing/"
+   },
+   {
+    "nombre": "Adalysis",
+    "precio": "~126-149 USD/mes (no confirmado)",
+    "url": "https://www.capterra.com.sg/software/173311/adalysis"
+   }
+  ],
+  "razon": "Hueco de precio real pero anunciantes pequenos pagan poco y rotan, la funcion es nativa, hay barrera de token de API y Google puede absorberla; defensor no la rescata.",
+  "busquedas_usadas": 0,
+  "tema": "auditoría google ads"
+ },
+ {
+  "id": "N10-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 31,
+  "hecho_decisivo": "Captions automáticos gratis en plataformas y Whisper OSS; cuña de precio plano sin garantía de cumplimiento EAA.",
+  "competidores_verificados": [],
+  "razon": "Urgencia EAA real (URL) pero sin evidencia de pago, incumbentes baratos y cuña inexistente.",
+  "busquedas_usadas": 0,
+  "tema": "subtítulos accesibilidad eaa"
+ },
+ {
+  "id": "N03-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "hecho_decisivo": "Stripe Smart Disputes cobra 30% solo si se gana (vista previa) y Chargeflow 25% por éxito; dolor episódico y suscripción fija de $29 compite contra pago por éxito.",
+  "competidores_verificados": [
+   {
+    "nombre": "Stripe Smart Disputes",
+    "precio": "30% de la disputa ganada (región GR/CA, vista previa)",
+    "url": "https://stripe.com/gr/pricing"
+   },
+   {
+    "nombre": "Chargeflow",
+    "precio": "25% por éxito (afirmación propia)",
+    "url": "https://www.chargeflow.io/chargeflow-vs-stripe-smart-disputes"
+   }
+  ],
+  "razon": "Cuña de evidencia de acceso digital plausible pero replicable, integración con logs frena autoservicio, dependencia total de Stripe.",
+  "busquedas_usadas": 0,
+  "tema": "disputas digitales"
+ },
+ {
+  "id": "N02-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 30,
+  "hecho_decisivo": "Argos ya ofrece SDK Playwright, UI de revisión en PR, tier gratis de 5,000 capturas/mes y Pro $100/mes plano; la cuña propuesta ya existe.",
+  "competidores_verificados": [
+   {
+    "nombre": "Argos",
+    "precio": "gratis 5,000 capturas/mes; Pro $100/mes",
+    "url": "https://argos-ci.com/blog/visual-testing-pricing"
+   },
+   {
+    "nombre": "Chromatic",
+    "precio": "Starter desde $179/mes",
+    "url": "https://argos-ci.com/blog/visual-testing-pricing"
+   }
+  ],
+  "razon": "Cuña inexistente frente a Argos y al nativo gratis; compradores de pago reales pero pocos que cambien.",
+  "busquedas_usadas": 0,
+  "tema": "regresión visual"
+ },
+ {
+  "id": "N02-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 30,
+  "hecho_decisivo": "Existen Anonyx (autoservicio, plan gratis) y OSS (PostgreSQL Anonymizer, pynonymizer); pagadores reales probablemente cerca o bajo 100k",
+  "competidores_verificados": [
+   {
+    "nombre": "Anonyx",
+    "precio": "plan gratuito (ficha del vendedor)",
+    "url": "https://peerpush.com/p/anonyx"
+   },
+   {
+    "nombre": "pynonymizer (OSS)",
+    "precio": "gratis",
+    "url": "https://pypi.org/project/pynonymizer"
+   }
+  ],
+  "razon": "Dolor real pero la cuna de autoservicio ya tiene al menos un competidor y OSS, confianza con datos de produccion y ejecucion dificil para una persona; mercado de pago en el umbral, sin verificar.",
+  "busquedas_usadas": 0,
+  "tema": "datos de prueba"
+ },
+ {
+  "id": "N05-11",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Google ofrece transferencia masiva gratis, existen GAT+ y Overdrive Tools en el Marketplace, y los scopes restringidos de Drive exigen verificación de seguridad (costo sin verificar).",
+  "competidores_verificados": [
+   {
+    "nombre": "Overdrive Tools",
+    "precio": "sin verificar (prueba gratuita)",
+    "url": "https://workspace.google.com/marketplace/app/overdrive_tools/1033413684620?pann=b"
+   },
+   {
+    "nombre": "GAT+",
+    "precio": "sin verificar",
+    "url": "https://gatlabs.com/knowledge/tech-tips/change-ownership-of-a-google-drive-file/"
+   }
+  ],
+  "razon": "Cuña frágil, competidores en el mismo canal y fricción de verificación OAuth para una persona; sin evidencia de demanda a $79. MEDIA-BAJA.",
+  "busquedas_usadas": 0,
+  "tema": "drive permissions cleanup"
+ },
+ {
+  "id": "N08-07",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "Triple Whale y Attribuly tienen plan gratis; alternativa barata ThoughtMetric ~$99; el hueco de precio existe pero la precisión de atribución es difícil.",
+  "competidores_verificados": [
+   {
+    "nombre": "Triple Whale",
+    "precio": "plan gratis; de pago ~$129-$300/mes según fuente no oficial",
+    "url": "https://attribuly.com/blogs/triple-whale-pricing-review/"
+   },
+   {
+    "nombre": "ThoughtMetric",
+    "precio": "~$99/mes (fuente afiliada)",
+    "url": "https://www.ringly.io/blog/triple-whale-alternatives"
+   }
+  ],
+  "razon": "Compradores que ya pagan y Shopify App Store con intención; cuña solo de precio, copiable, con planes gratis de incumbentes (F1 parcial, no total). Dependencia de plataforma. MEDIA.",
+  "busquedas_usadas": 0,
+  "tema": "atribución ecommerce shopify"
+ },
+ {
+  "id": "N02-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "Sentry documenta presupuesto on-demand y spike protection que rechaza eventos sin cobro; plan gratis Developer.",
+  "competidores_verificados": [
+   {
+    "nombre": "Sentry (presupuesto on-demand)",
+    "precio": "sin verificar",
+    "url": "https://intercom.help/sentryio/en/articles/13964878-how-does-pay-as-you-go-work"
+   }
+  ],
+  "razon": "La cuña de tope duro ya está cubierta por el incumbente y existe plan gratis; descartada por F1.",
+  "busquedas_usadas": 0,
+  "tema": "error tracking"
+ },
+ {
+  "id": "N10-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "Blankit y Purify gratis y Caviard 0/4/19 USD hacen lo mismo en local",
+  "competidores_verificados": [
+   {
+    "nombre": "Caviard",
+    "precio": "Free / 4 USD mes / 19 USD lifetime",
+    "url": "https://trustmrr.com/startup/caviard-ai"
+   },
+   {
+    "nombre": "Blankit",
+    "precio": "gratis",
+    "url": "https://www.producthunt.com/p/crossout/blankit"
+   },
+   {
+    "nombre": "Purify",
+    "precio": "gratis",
+    "url": "https://chromeboard.com/extension/purify-cjnfmpcndaacdhbgnchldoodmoelcmme"
+   }
+  ],
+  "razon": "Falla F1: la cuna de redaccion local self-serve ya esta cubierta por opciones gratis verificadas; ademas F5 a 12 USD; defensor concede.",
+  "busquedas_usadas": 0,
+  "tema": "redacción pii en ia"
+ },
+ {
+  "id": "N04-01",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 5
+  },
+  "total": 0,
+  "hecho_decisivo": "$12/mes exige ~834 pagadores para $10k MRR; alertas de lectura son estándar en suites; SEO de plantillas tiene intención gratuita.",
+  "competidores_verificados": [
+   {
+    "nombre": "Bonsai",
+    "precio": "sin plan gratis permanente; ~$9-59 por usuario según fuente (conflictiva)",
+    "url": "https://capterra.com/p/238825/Bonsai/pricing/"
+   }
+  ],
+  "razon": "Mercado enorme y MVP simple, pero clon sin cuña real, pago bajo y canal débil. F5 no falla del todo. BAJA.",
+  "busquedas_usadas": 0,
+  "tema": "propuestas freelance"
+ },
+ {
+  "id": "N10-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 5,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "Existen alternativas locales sin bot gratis u open source (Meetily, Hyprnote, BB Recorder) y Granola sin bot.",
+  "competidores_verificados": [
+   {
+    "nombre": "Monologue",
+    "precio": "15/mes",
+    "url": "https://www.monologue.to/compare/granola"
+   },
+   {
+    "nombre": "Meetily (open source)",
+    "precio": "0",
+    "url": "https://dev.to/sujiths/meetily-a-privacy-first-ai-for-taking-meeting-notes-and-meeting-minutes-26ed"
+   }
+  ],
+  "razon": "La cuña local/sin bot está ocupada por opciones gratis; app de escritorio multiplataforma pesada para una persona.",
+  "busquedas_usadas": 0,
+  "tema": "notas reuniones locales"
+ },
+ {
+  "id": "N03-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 3
+  },
+  "total": 0,
+  "hecho_decisivo": "AffiliScan (gratis) y Channel Workbench (freemium) escanean descripciones de YouTube; cubren la cuña principal.",
+  "competidores_verificados": [
+   {
+    "nombre": "AffiliScan",
+    "precio": "gratis para empezar",
+    "url": "https://alternativeto.net/software/affiliscan/"
+   },
+   {
+    "nombre": "Channel Workbench",
+    "precio": "freemium",
+    "url": "https://alternativeto.net/software/channel-workbench/about/"
+   }
+  ],
+  "razon": "Cuña YouTube cubierta por herramientas gratis; newsletters sin verificar; pagadores una fracción.",
+  "busquedas_usadas": 0,
+  "tema": "auditoría afiliados"
+ },
+ {
+  "id": "N01-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 0,
+  "hecho_decisivo": "Diagnóstico nativo gratis de Google cubre la cuña; sin evidencia de pago recurrente",
+  "competidores_verificados": [
+   {
+    "nombre": "GMC Scout",
+    "precio": "sin verificar",
+    "url": "https://www.gmcscout.com/merchant-center-product-disapprovals"
+   }
+  ],
+  "razon": "Merchant Center muestra nativamente los motivos de rechazo (concedido por la defensa) y hay GMC Scout; dolor puntual, sin evidencia de pago recurrente. Falla F1 para la cuña de solo diagnóstico.",
+  "busquedas_usadas": 0,
+  "tema": "salud de feeds"
+ },
+ {
+  "id": "N10-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 0,
+  "hecho_decisivo": "Apps de alt text en Shopify con plan gratis y pago desde $3-5/mes ya ofrecen generación masiva; la defensa no refuta.",
+  "competidores_verificados": [
+   {
+    "nombre": "StoreHQ (gratis; desde $5/mes)",
+    "precio": "0 / 5",
+    "url": "https://apps.shopify.com/storehq-alt-generator"
+   },
+   {
+    "nombre": "Alt Text Pro EcomBack",
+    "precio": "0 / 4.99",
+    "url": "https://apps.shopify.com/alttextpro"
+   }
+  ],
+  "razon": "Incumbentes gratis suficientes para la cuña; uso puntual; se descarta por F1 (y precio $19 muy por encima del mercado).",
+  "busquedas_usadas": 0,
+  "tema": "alt text masivo accesibilidad"
+ },
+ {
+  "id": "N09-14",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "cuna": 1,
+   "ejecucion": 2
+  },
+  "total": 0,
+  "hecho_decisivo": "HubSpot Breeze y Salesforce ya ofrecen consultas en lenguaje natural dentro del CRM, erosionando la cuña en el propio canal.",
+  "competidores_verificados": [
+   {
+    "nombre": "HubSpot Breeze",
+    "precio": "incluido con créditos/asientos (sin verificar monto)",
+    "url": "https://knowledge.hubspot.com/ai/understand-breeze?facet1=crm"
+   }
+  ],
+  "razon": "Cuña erosionada por IA nativa, NL-to-query poco fiable con datos sucios y revisión OAuth de marketplaces; sin evidencia de demanda. BAJA.",
+  "busquedas_usadas": 0,
+  "tema": "reportes crm con ia"
+ },
+ {
+  "id": "N09-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "cuna": 0,
+   "ejecucion": 0
+  },
+  "total": 0,
+  "hecho_decisivo": "Wipster con revisores gratis desde ~$9.95/mes y Frame.io con plan gratis; la cuña de precio fijo y clientes sin registro está cubierta.",
+  "competidores_verificados": [
+   {
+    "nombre": "Wipster",
+    "precio": "desde ~$9.95/mes anual (tercero)",
+    "url": "https://www.playbook.com/blog/best-frame-io-alternatives-for-video-teams-2026/"
+   },
+   {
+    "nombre": "Frame.io",
+    "precio": "Free; Pro ~$15/usuario (Capterra, sin verificar en sitio oficial)",
+    "url": "https://www.capterra.com/p/148214/Frame-io/pricing/"
+   }
+  ],
+  "razon": "Cuña cubierta por alternativas baratas y gratis; margen frágil por video. Descartada por F1.",
+  "busquedas_usadas": 0,
+  "tema": "revisión de video barata"
+ },
+ {
+  "id": "G17-04",
+  "filtro_fallado": "ninguno",
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 2,
+   "ejecucion": 4
+  },
+  "total": 0,
+  "hecho_decisivo": "Stripe reporta 25% de suscripciones caducadas por fallo de pago (dolor real), pero Recoupt (~$25, nivel gratis) ocupa el precio y la cuña no está explicitada.",
+  "competidores_verificados": [
+   {
+    "nombre": "Recoupt",
+    "precio": "$25/mes, gratis hasta $1K MRR (blog tercero)",
+    "url": "https://fungies.io/best-dunning-management-software-saas-2026/"
+   },
+   {
+    "nombre": "Stripe Smart Retries",
+    "precio": "gratis (nativo)",
+    "url": "https://stripe.com/blog/how-we-built-it-smart-retries"
+   }
+  ],
+  "razon": "Dolor monetario y pago demostrado, pero cuña débil frente a Recoupt y reintentos nativos; mercado y canal Stripe sin verificar. MEDIA.",
+  "busquedas_usadas": 0,
+  "tema": "cobros y retención de suscripciones"
+ },
+ {
+  "id": "N05-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "cuna": 1,
+   "ejecucion": 4
+  },
+  "total": 0,
+  "hecho_decisivo": "AuditMySheet ya da log por celda con plan gratis y Pro US$9/mes; Sheets tiene historial nativo.",
+  "competidores_verificados": [
+   {
+    "nombre": "AuditMySheet",
+    "precio": "gratis; Pro 9/mes",
+    "url": "https://workspace.google.com/marketplace/app/auditmysheet/875603373768"
+   }
+  ],
+  "razon": "Incumbente gratis/barato cubre la cuña de alertas y reversión; la defensa lo concede.",
+  "busquedas_usadas": 0,
+  "tema": "sheets audit trail"
+ }
+]

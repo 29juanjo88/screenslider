@@ -1,0 +1,102 @@
+{
+ "idea": {
+  "id": "G23-01",
+  "nombre": "Amazon FBA Claims Auditor",
+  "cliente_que_paga": "Amazon FBA sellers with $20k+/mo revenue",
+  "problema": "Lost/damaged inbound inventory goes unclaimed and claim windows expire.",
+  "solucion": "Parse FBA reports, detect discrepancies, generate ready-to-file claim text and track deadlines.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Search 'FBA reimbursement' on r/FulfillmentByAmazon and SEO for 'FBA lost inventory claim'",
+  "competidores": [
+   "Helium 10",
+   "Jungle Scout",
+   "Threecolts"
+  ],
+  "cuña": "(idea del embudo 1; cuña no explicitada, evaluar)",
+  "tamaño_mercado": "sin verificar (juez del embudo 1 le dio mercado 4/5)",
+  "por_que_ahora": "Sellers lose money weekly to unreconciled shipments.",
+  "riesgo_principal": "Amazon SP-API access and policy changes.",
+  "evidencia_url": "https://painonsocial.com/blog/amazon-fba-issues-reddit",
+  "angulo": "embudo1",
+  "tema": "vendedores de marketplaces",
+  "origen": "embudo1",
+  "b_total": 42,
+  "b_razon": "Dolor monetario directo, comunidad nombrada, tarifa fija vs % de recobro; mercado cercano al límite.",
+  "c_total": 39,
+  "c_razon": "Dolor monetario directo y canal con intencion (r/FulfillmentByAmazon, SEO), pero cuna no definida, competencia por comision y tamano del segmento 20k+/mes sin verificar; riesgo SP-API.",
+  "c_hecho": "Helium 10 Refund Genie sin comision sobre recobros; servicios de recobro cobran ~20-25% (marketing/resenas)"
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "G23-01",
+   "filtros_fallados": [
+    "F1 (parcial: Helium 10 Refund Genie sin comisión sobre recobros)",
+    "F6 (probable: sellers FBA con $20k+/mes, mercado sin verificar, quizá <100k)",
+    "F3 (riesgo: acceso a SP-API de Amazon)"
+   ],
+   "objecion": "El segmento objetivo ($20k+/mes) es una fracción pequeña de los vendedores FBA y ya tiene servicios de recobro que cobran por comisión (sin costo fijo y con presentación del reclamo incluida), por lo que $49 fijos es difícil de justificar frente a 'solo pago si recuperas'. Refund Genie de Helium 10 es DIY e incluido o de bajo costo en una suscripción que muchos ya pagan. Además depende del acceso a SP-API y de políticas de Amazon.",
+   "hechos": [
+    {
+     "afirmacion": "Helium 10 afirma que Refund Genie no cobra comisión sobre fondos recuperados, y que otros servicios cobran 20% o más (afirmación de marketing de Helium 10); es DIY y no incluye discrepancias de envíos entrantes.",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "afirmacion": "Reseñas citan a Seller Investigators, GETIDA y Carbon6 como servicios establecidos; una reseña indica 25% de comisión para Carbon6 (no confirmado para otros).",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    },
+    {
+     "afirmacion": "No se encontró cifra verificable de número de vendedores FBA de $20k+/mes.",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G23-01",
+   "rescatar": false,
+   "respuesta": "Dolor monetario y comunidad nombrada (r/FulfillmentByAmazon) son reales, pero la cuña no está explicitada y compite contra servicios de comisión y Refund Genie. Las cifras de vendedores de Amazon son difusas y el segmento $20k+/mes no se pudo dimensionar.",
+   "concesiones": "Concedo F1 parcial (Helium 10 DIY), el modelo de comisión 'solo pago si recuperas' frente a $49 fijos, el riesgo de SP-API y que la cuña no está definida. Los números de vendedores (3M activos / 10M registrados) vienen de fuentes no verificadas; el 1-3% de ingresos sin reclamar es afirmación de un vendedor de servicios.",
+   "hechos": [
+    {
+     "afirmacion": "Amazon actualizó la política de reembolsos FBA desde 2025-03-10 (pérdidas/daños previos al pedido basados en costo de abastecimiento), lo que cambia el valor de los reclamos.",
+     "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"
+    },
+    {
+     "afirmacion": "Un proveedor afirma que Threecolts analizó 200,000+ cuentas y que Amazon debe en promedio 1-3% de ingresos anuales en reembolsos no reclamados (afirmación comercial, no verificada).",
+     "url": "https://www.amplisell.com/blog-post/best-amazon-reimbursement-services-for-fba-brands"
+    }
+   ],
+   "ajuste_sugerido": "Cuña posible: herramienta de pago fijo bajo para sellers pequeños que no justifican comisión del 20-25%, con texto de reclamo listo; requiere validar demanda antes.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G23-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 4,
+    "pago": 3,
+    "canal": 4,
+    "mercado": 3,
+    "cuna": 2,
+    "ejecucion": 4
+   },
+   "total": 39,
+   "hecho_decisivo": "Helium 10 Refund Genie sin comision sobre recobros; servicios de recobro cobran ~20-25% (marketing/resenas)",
+   "competidores_verificados": [
+    {
+     "nombre": "Helium 10 Refund Genie",
+     "precio": "incluido en suscripcion, sin comision (segun el vendedor)",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "nombre": "Carbon6/GETIDA/Seller Investigators",
+     "precio": "comision ~25% (solo Carbon6, resena)",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    }
+   ],
+   "razon": "Dolor monetario directo y canal con intencion (r/FulfillmentByAmazon, SEO), pero cuna no definida, competencia por comision y tamano del segmento 20k+/mes sin verificar; riesgo SP-API.",
+   "busquedas_usadas": 0
+  }
+ }
+}

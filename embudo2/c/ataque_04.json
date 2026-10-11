@@ -1,0 +1,42 @@
+[
+ {"id":"N10-20","filtros_fallados":["F1","F5"],
+  "objecion":"La cuña (revisión por lote con reglas de marca) se resuelve con apps de alt text en Shopify que ya ofrecen generación masiva a precios mucho menores y con planes gratis; incluso hay una app 100% gratis. A $19/mes se pelea contra $3-$25 y free tiers; el uso es puntual (una vez generado el catálogo, se cancela: churn alto).",
+  "hechos":[
+   {"afirmacion":"StoreHQ ofrece plan gratis (25 generaciones) y pago desde $5/mes con generación masiva y modo auto-aplicar.","url":"https://apps.shopify.com/storehq-alt-generator"},
+   {"afirmacion":"Alt Text Pro (EcomBack) tiene plan gratis y tier de $4.99/mes con 1,000 imágenes IA, en lote o programado.","url":"https://apps.shopify.com/alttextpro"},
+   {"afirmacion":"AltMaster aparece en Capterra como 100% gratis con generación masiva para productos, variantes y colecciones.","url":"https://www.capterra.ie/software/1102880/AltMaster"},
+   {"afirmacion":"Omaha Labs: plan gratis de 50 generaciones/mes; AltifyAI: Pro $3/mes.","url":"https://apps.shopify.com/alt-text-generator-ai"},
+   {"afirmacion":"Tamaño de mercado y función nativa de Shopify/AltText.ai: sin verificar (la búsqueda no devolvió AltText.ai ni función nativa).","url":"sin verificar"}],
+  "severidad":"fatal","busquedas_usadas":1},
+ {"id":"N01-01","filtros_fallados":[],
+  "objecion":"La cuña de cuota fija existe, pero ya hay competidores con tope (Disputifier 20% con tope $250) y Stripe/Shopify Payments hacen parte de la evidencia nativamente; un armador manual de evidencia a $39/mes compite contra servicios 'success-based' donde el comerciante no paga si no gana. Riesgo de plataforma única y de que el comerciante prefiera delegar todo en vez de armar evidencia.",
+  "hechos":[
+   {"afirmacion":"Chargeflow cobra 25% de lo recuperado (modelo por éxito, garantía 4x ROI); otros productos por transacción/alerta.","url":"https://redo.com/resources/articles/comparisons/chargeflow-pricing"},
+   {"afirmacion":"Disputifier lista 20% de lo recuperado con tope de $250 por disputa ganada; Redo (competidor, no neutral) lista Reclaim a 0%, cifra dudosa.","url":"https://redo.com/resources/articles/chargebacks/chargeback-recovery"},
+   {"afirmacion":"Chargeflow compara contra Stripe Smart Disputes (automatización nativa de la plataforma de pagos).","url":"https://chargeflow.io/chargeflow-vs-stripe-smart-disputes"},
+   {"afirmacion":"Ninguno de los resultados identificó una app Shopify de cuota fija con precio publicado (la cuña parece libre, pero no se verificó exhaustivamente).","url":"https://redo.com/resources/articles/comparisons/best-chargeback-management-software"},
+   {"afirmacion":"Mercado >500k compradores: sin verificar.","url":"sin verificar"}],
+  "severidad":"fuerte","busquedas_usadas":1},
+ {"id":"N01-07","filtros_fallados":["F1","F5"],
+  "objecion":"Craftybase ofrece calculadora Etsy gratis y hoja de cálculo gratis, y producto de pago con trial de 14 días que ya calcula tarifas Etsy y ganancia real por producto; la cuña 'específico Etsy' ya está cubierta y lo gratis sirve a vendedores de 1-5 personas. A $15/mes con vendedores micro, el churn es alto y llegar a $10k MRR exige ~670 pagadores.",
+  "hechos":[
+   {"afirmacion":"Craftybase ofrece calculadora de precios Etsy gratuita que estima tarifas, margen y ganancia, ajustada por país.","url":"https://craftybase.com/etsy/pricing-calculator"},
+   {"afirmacion":"Craftybase ofrece hoja de cálculo gratis (limitada: no incluye ads offsite ni envío).","url":"https://app.craftybase.com/etsy-pricing-calculator-spreadsheet"},
+   {"afirmacion":"El producto de pago de Craftybase calcula tarifas Etsy y ganancia real por producto, con prueba de 14 días; banner indica que pasa a llamarse Stocksmith.","url":"https://help.craftybase.com/article/720-about-the-etsy-pricing-calculator"},
+   {"afirmacion":"Precios de Craftybase y número de vendedores activos de Etsy: sin verificar.","url":"sin verificar"}],
+  "severidad":"fuerte","busquedas_usadas":1},
+ {"id":"N09-13","filtros_fallados":["F6"],
+  "objecion":"Comprador real pero mercado probablemente <100k: orgs de Salesforce de pago son decenas de miles según la propia idea, y el backup serio ya lo cubren Own/Spanning/Gearset y export nativo. Para HubSpot el universo es mayor pero la cuña (autoservicio barato) choca con la complejidad de restauración y la confianza requerida para dar acceso a datos del CRM. Mercado total sin verificar.",
+  "hechos":[
+   {"afirmacion":"No se verificaron precios de Own, Spanning, Gearset ni HubSpot backup; la búsqueda no devolvió resultados sobre ellos.","url":"sin verificar"},
+   {"afirmacion":"Número de orgs Salesforce/HubSpot de pago: sin verificar (la propia idea admite 'decenas de miles' en Salesforce).","url":"sin verificar"}],
+  "severidad":"fuerte","busquedas_usadas":1},
+ {"id":"N10-09","filtros_fallados":["F1"],
+  "objecion":"Existen herramientas DMARC con plan gratis o muy barato (DMARC Examiner free 1 dominio y desde $2.99/mes; DMARCTrust con toolkit gratis y pago desde $19) y el cliente objetivo (no experto con 1 dominio) suele configurar DMARC una vez y cancelar: poca retención. A $12/mes compite con gratis para la cuña de 'instrucciones sin jerga'.",
+  "hechos":[
+   {"afirmacion":"DMARC Examiner: tier gratis (1 dominio, 1,000 correos/mes) y planes desde $2.99/mes según AlternativeTo.","url":"https://alternativeto.net/software/dmarc-examiner/about"},
+   {"afirmacion":"DMARCTrust ofrece toolkit gratis (puntaje de dominio, generadores SPF/DMARC, decodificador XML) y planes de pago desde $19/mes.","url":"https://www.capterra.com/p/10036636/DMARCTrust/"},
+   {"afirmacion":"Existen listados de al menos 17 soluciones DMARC con opciones gratis (comparativa de un proveedor, sesgada).","url":"https://www.suped.com/compare/best-17-dmarc-solutions-for-completely-free-dmarc-tools"},
+   {"afirmacion":"Planes gratis de Postmark/EasyDMARC/dmarcian: sin verificar.","url":"sin verificar"}],
+  "severidad":"fuerte","busquedas_usadas":1}
+]

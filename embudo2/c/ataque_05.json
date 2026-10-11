@@ -1,0 +1,130 @@
+[
+ {
+  "id": "N10-01",
+  "filtros_fallados": [
+   "F1 parcial (herramientas gratuitas de escaneo WCAG y funciones de plataforma: sin verificar)",
+   "F4 débil (canal nombrado pero saturado de apps de accesibilidad: sin verificar)"
+  ],
+  "objecion": "Los escaneos automáticos cubren solo una parte de WCAG y los incumbentes (accessiBe, UserWay, Deque axe, Siteimprove) ya dominan las búsquedas 'accessibility' y 'EAA'. Un escáner no entrega 'cumplimiento' y el comprador que busca eso quiere auditoría humana/legal; el enforcement desigual debilita la urgencia. Precios de competidores y del escáner gratis: sin verificar.",
+  "hechos": [
+   {
+    "afirmacion": "La EAA es ley en Irlanda desde 28-jun-2025 (fuente aportada en la idea, no re-verificada por mí)",
+    "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"
+   },
+   {
+    "afirmacion": "Precios de accessiBe/UserWay/Deque/Siteimprove y alternativas gratis: sin verificar",
+    "url": "sin verificar"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N03-18",
+  "filtros_fallados": [
+   "F1 parcial (Stripe Smart Disputes nativo automatiza evidencia)",
+   "F4 débil (Stripe app marketplace no verificado como canal con intención)"
+  ],
+  "objecion": "Stripe ofrece Smart Disputes nativo (30% de lo disputado ganado, sin costo si pierde; en vista previa en la página consultada) y Chargeflow cobra éxito (25% según su propia página), así que el vendedor digital con pocas disputas paga solo si gana; una suscripción de $29/mes compite contra modelos sin riesgo. La cuña 'evidencia de acceso' es replicable por Stripe/Chargeflow y requiere integrarse con el producto del vendedor (logs de acceso), lo que frena el autoservicio. Un vendedor chico tiene pocas disputas: dolor episódico, no semanal. Atado a una sola plataforma (Stripe).",
+  "hechos": [
+   {
+    "afirmacion": "Smart Disputes de Stripe cobra 30% de la disputa ganada, sin cargo si se pierde (página de precios de Stripe, región GR/CA; precio US no encontrado); marcada como public preview",
+    "url": "https://stripe.com/gr/pricing"
+   },
+   {
+    "afirmacion": "Chargeflow afirma comisión de éxito del 25% frente al 30% de Smart Disputes (fuente de parte interesada)",
+    "url": "https://www.chargeflow.io/chargeflow-vs-stripe-smart-disputes"
+   },
+   {
+    "afirmacion": "Terceros señalan que Smart Disputes no integra datos externos/CRM; no hallé nada específico de productos digitales",
+    "url": "https://www.chargeflow.io/chargeflow-vs-stripe-smart-disputes"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N10-18",
+  "filtros_fallados": [
+   "F1 (Looker Studio gratis y tier gratis de Coupler.io cubren el caso básico)",
+   "F4 débil (Google Workspace Marketplace saturado de conectores: sin verificar)"
+  ],
+  "objecion": "La cuña de 'precio plano' ya está ocupada: Coupler.io tiene plan gratis y de pago desde ~$24/mes, Windsor.ai aparece desde ~$19/mes, y Looker Studio es gratis. Quien solo necesita GA4 a Sheets lo resuelve gratis; quien paga por Supermetrics lo hace por decenas de conectores (Ads, Meta, etc.) con mantenimiento de APIs que una persona no sostiene. Además las APIs de Google cambian y requieren verificación OAuth. A $19 se necesitan ~530 pagadores para $10k.",
+  "hechos": [
+   {
+    "afirmacion": "Coupler.io tiene plan gratis (5 conectores, refresco manual) y planes de pago desde $24/mes según comparativas de terceros",
+    "url": "https://windsor.ai/supermetrics-vs-coupler-io/"
+   },
+   {
+    "afirmacion": "Windsor.ai figura desde $19/mes en una comparativa de un blog (una sola fuente)",
+    "url": "https://metricnexus.ai/blog/supermetrics-alternatives"
+   },
+   {
+    "afirmacion": "Supermetrics Growth $177/mes según tercero; precio oficial sin verificar",
+    "url": "https://windsor.ai/supermetrics-vs-coupler-io/"
+   },
+   {
+    "afirmacion": "Looker Studio gratis: dado en la idea, sin verificar por mí",
+    "url": "sin verificar"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N02-12",
+  "filtros_fallados": [
+   "F1 parcial (toHaveScreenshot gratis y Argos con tier gratis)",
+   "F6 posible (compradores de pago con CI visual: sin verificar, rango 250-700k no respaldado)"
+  ],
+  "objecion": "La cuña 'plan plano' ya existe: Argos cobra $100/mes planos por 35,000 capturas, con 5,000 gratis al mes y centrado en Playwright, con UI de revisión en PR. Percy/Chromatic no son el referente real para Playwright. A $25/mes habría que bajar el precio de un incumbente que ya es plano y barato, y se necesitan ~400 pagadores para $10k. Los equipos pequeños se quedan en el tier gratis de Argos o en Git.",
+  "hechos": [
+   {
+    "afirmacion": "Argos: gratis 5,000 capturas/mes; Pro $100/mes plano con 35,000 capturas, $0.004 por extra (fuente del propio competidor)",
+    "url": "https://argos-ci.com/blog/visual-testing-pricing"
+   },
+   {
+    "afirmacion": "Chromatic Starter desde $179/mes por 35,000 snapshots; Percy $399-$599/mes según fuentes que discrepan",
+    "url": "https://argos-ci.com/blog/visual-testing-pricing"
+   },
+   {
+    "afirmacion": "Playwright toHaveScreenshot es gratis, guarda baselines en Git, sin UI de equipo",
+    "url": "https://argos-ci.com/blog/visual-testing-pricing"
+   },
+   {
+    "afirmacion": "Lost Pixel descrito como en cierre (equipo se unió a Figma, abr 2026), según Argos",
+    "url": "https://argos-ci.com/blog/lost-pixel-alternatives"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N10-04",
+  "filtros_fallados": [
+   "F1 parcial (Stripe Tax cubre cálculo; Quaderno ya vende a $29/mes)",
+   "F3 posible (generar borradores de declaración fiscal roza servicios regulados/responsabilidad; presentación excluida)"
+  ],
+  "objecion": "Stripe Tax Basic cobra 0.5% por transacción (o $0.50 API) y Quaderno parte de $29/mes con importación de Stripe; el vendedor indie con pocas ventas ya tiene opciones baratas. El valor real es la exactitud fiscal: un error en el borrador genera responsabilidad y desconfianza, y 'no presenta' deja sin resolver lo que más duele (registro y filing). Quien prefiere no pensar en impuestos migra a un Merchant of Record (Paddle/Lemon Squeezy). Atado a Stripe.",
+  "hechos": [
+   {
+    "afirmacion": "Stripe Tax Basic: 0.5% por transacción (no-code) o $0.50 por transacción vía API; no gestiona registro ni presentación",
+    "url": "https://dodopayments.com/blogs/stripe-tax-explained"
+   },
+   {
+    "afirmacion": "Quaderno: planes desde $29/mes (25 transacciones), $49/$99/$149 por más volumen según tercero; filing OSS como complemento de pago",
+    "url": "https://www.rfp.wiki/accounting-finance/tax-software/hellotax/quaderno"
+   },
+   {
+    "afirmacion": "Quaderno importa transacciones de Stripe; año completo solo en planes de pago",
+    "url": "https://quaderno.io/integrations/stripe/"
+   },
+   {
+    "afirmacion": "Stripe Tax Complete $430-$1,500/mes con registros y filings vía Taxually",
+    "url": "https://support.stripe.com/questions/understanding-stripe-tax-pay-as-you-go-pricing"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ }
+]

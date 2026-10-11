@@ -1,0 +1,85 @@
+{
+ "idea": {
+  "id": "N07-09",
+  "nombre": "Tutor de idiomas por conversación",
+  "cliente_que_paga": "Estudiante adulto de idiomas",
+  "problema": "No tiene con quién practicar hablar",
+  "solucion": "Chat por voz con corrección y repaso espaciado de errores propios",
+  "precio_usd_mes": 8.0,
+  "canal_primeros_100": "SEO por idioma, YouTube de polyglots, r/languagelearning",
+  "competidores": [
+   "Duolingo Max",
+   "Speak",
+   "Pimsleur",
+   "Langotalk"
+  ],
+  "cuña": "Cuña: repaso de TUS errores reales y precio plano",
+  "tamaño_mercado": "Cientos de millones aprenden idiomas; sin verificar",
+  "por_que_ahora": "Voz en tiempo real asequible",
+  "riesgo_principal": "Duolingo/Speak con presupuesto enorme",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "Práctica de idiomas",
+  "origen": "nueva",
+  "b_total": 37,
+  "b_razon": "Mercado gigante pero saturado con Duolingo/Speak; costo de voz en tiempo real a $8 comprime margen; canal SEO/Reddit débil.",
+  "c_total": 38,
+  "c_razon": "Mercado enorme pero saturado, cuña débil, costo de voz a $8 comprime margen; sin evidencia.",
+  "c_hecho": "Sin evidencia verificada; la cuña de repaso de errores es copiable y los chatbots de voz generales compiten; sin canal con intención demostrada."
+ },
+ "etapaC": {
+  "ataque": {
+   "id": "N07-09",
+   "filtros_fallados": [
+    "F1 parcial: ChatGPT/Gemini en modo voz gratuito sirven para practicar conversación (sin verificar en esta ronda)",
+    "F5 parcial: $8/mes requiere ~1,250 pagadores para $10k MRR, con costo de voz en tiempo real por minuto",
+    "F4: canal SEO/Reddit débil frente a Duolingo/Speak con presupuesto grande"
+   ],
+   "objecion": "Mercado enorme pero saturado por incumbentes con presupuesto (Duolingo Max, Speak) y por chatbots de propósito general con voz; la cuña 'repaso de tus errores' es una función fácilmente copiable. A $8/mes el costo variable de voz en tiempo real comprime el margen, y la retención en apps de idiomas suele ser baja (sin verificar).",
+   "hechos": [
+    {
+     "afirmacion": "No se hizo búsqueda dedicada a esta idea (presupuesto de 4 búsquedas para 5 ideas); precios de Speak/Duolingo Max y tamaño de mercado: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 0
+  },
+  "defensa": {
+   "id": "N07-09",
+   "rescatar": false,
+   "respuesta": "Sin búsqueda propia ni evidencia nueva. El mercado es enorme pero la cuña (repaso de errores propios) es una función copiable por Speak/Duolingo y chatbots de voz, y el costo de voz a $8 es alto. No hay canal con intención de compra demostrado.",
+   "concesiones": [
+    "Saturación y presupuesto de incumbentes",
+    "Precio bajo exige ~1,250 pagadores para $10k",
+    "Cuña copiable",
+    "Voz en tiempo real comprime margen"
+   ],
+   "hechos": [
+    {
+     "afirmacion": "Sin búsqueda dedicada para esta idea",
+     "url": "sin verificar"
+    }
+   ],
+   "ajuste_sugerido": "Ninguno.",
+   "busquedas_usadas": 0
+  },
+  "juez": {
+   "id": "N07-09",
+   "filtro_fallado": "",
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 2,
+    "mercado": 5,
+    "cuna": 2,
+    "ejecucion": 3
+   },
+   "total": 38,
+   "hecho_decisivo": "Sin evidencia verificada; la cuña de repaso de errores es copiable y los chatbots de voz generales compiten; sin canal con intención demostrada.",
+   "competidores_verificados": [],
+   "razon": "Mercado enorme pero saturado, cuña débil, costo de voz a $8 comprime margen; sin evidencia.",
+   "busquedas_usadas": 0
+  }
+ }
+}

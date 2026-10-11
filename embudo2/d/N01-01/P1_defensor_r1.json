@@ -1,0 +1,35 @@
+{
+"id":"N01-01","par":"P1","rol":"defensor",
+"dimensiones":{
+"dolor":{"argumento":"Cada disputa perdida cuesta el monto del pedido mas la tarifa (Shopify debita la tarifa y solo la devuelve si se gana); el comerciante con 5-100 disputas/mes lo sufre cada mes y paga a terceros 20-25% de lo recuperado, lo que prueba que lo busca. Un chargeback rate alto puede afectar el estado de la tienda en Shopify Payments (urgencia). Honesto: Shopify ya manda evidencia automatica en parte, lo que reduce el dolor del comerciante mas chico.",
+"evidencia":[
+{"afirmacion":"Shopify cobra $15 por disputa en cuentas de EE. UU. con Shopify Payments (se devuelve si se gana).","url":"https://www.chargeback.io/es/blog/whats-the-shopify-chargeback-fee"},
+{"afirmacion":"El centro de ayuda de Shopify indica que se debita la tarifa completa al abrirse la disputa, se devuelve si se gana, y que una tasa alta puede afectar el estado de Shopify Payments; Shopify recopila y envia evidencia automaticamente y permite anadir mas antes del envio.","url":"https://help.shopify.com/manual/payments/shopify-payments/managing-chargebacks"},
+{"afirmacion":"Chargeflow cobra 25% de lo recuperado; Disputifier 20% con tope $250 por disputa ganada.","url":"https://redo.com/resources/articles/comparisons/chargeflow-pricing"}]},
+"pago":{"argumento":"Ya existe presupuesto: los comerciantes pagan 20-25% de lo recuperado a Chargeflow/Disputifier. Para quien recupera mucho, $39 fijo es mucho menos. ChargePay, con precios planos de $19.99-$99.99, valida que el modelo de cuota fija se vende en Shopify. Honesto: son cifras de fichas y blogs de competidores, no verificadas de forma independiente.",
+"evidencia":[
+{"afirmacion":"ChargePay se anuncia con precio plano sin comision por exito ($19.99 a $99.99/mes).","url":"https://apps.shopify.com/chargepay"},
+{"afirmacion":"Disputifier 20% con tope $250; Chargeflow 25% (fuentes contradictorias en Chargeflow).","url":"https://redo.com/resources/articles/chargebacks/chargeback-recovery"}]},
+"alternativas_actuales":{"argumento":"Alternativas: (a) evidencia automatica nativa de Shopify Payments/Stripe Smart Disputes (gratis, pero generica y sin control por reason code); (b) servicios por exito 20-25% (Chargeflow, Disputifier); (c) ChargePay a cuota fija solo en Shopify; (d) armar la respuesta a mano. Honesto: F1 es el riesgo principal; lo nativo cubre parte del caso y ChargePay ocupa la cuña de precio. El espacio defendible es cubrir Stripe/WooCommerce/PayPal ademas de Shopify, evidencia por reason code y escalonado por volumen de disputas.",
+"evidencia":[
+{"afirmacion":"Chargeflow se compara explicitamente contra Stripe Smart Disputes (automatizacion nativa).","url":"https://chargeflow.io/chargeflow-vs-stripe-smart-disputes"},
+{"afirmacion":"Apps como ChargePay y Paidback automatizan evidencia en disputas de Shopify Payments; sus tasas de victoria son marketing no verificado.","url":"https://apps.shopify.com/paidback"},
+{"afirmacion":"Etapa C: ningun resultado mostro una app de cuota fija con precio publicado en WooCommerce/Stripe; no verificado exhaustivamente.","url":"https://redo.com/resources/articles/comparisons/best-chargeback-management-software"}]},
+"canal_y_cac":{"argumento":"Canal nombrado y con intencion de compra: busqueda 'chargeback' en Shopify App Store y WooCommerce.org, mas r/shopify y Shopify Community, donde el comerciante ya busca la solucion. CAC bajo si el listing convierte; ademas hay SEO de cola larga por reason code (ej. 'fraudulent 10.4 evidence'). Honesto: no tengo cifras de CAC ni de conversion de listings; los resultados de la app store dependen de resenas y ranking, y ChargePay/Paidback ya estan ahi.",
+"evidencia":[
+{"afirmacion":"Existen apps de chargeback con listing activo en la Shopify App Store (ChargePay, Paidback), lo que confirma que el canal existe y tiene demanda.","url":"https://apps.shopify.com/chargepay"},
+{"afirmacion":"CAC y conversion del listing: sin verificar.","url":"sin verificar"}]},
+"retencion":{"argumento":"Mientras la tienda reciba disputas, la herramienta se usa cada mes; el cambio de herramienta implica perder plantillas e historial. Con cuota fija, el cliente que gana mucho no tiene incentivo para irse (al reves que con comision creciente). Honesto: tiendas con pocas disputas o que cierran pueden rotar; churn tipico del segmento sin verificar.",
+"evidencia":[{"afirmacion":"Churn/retencion de apps de disputas: sin verificar.","url":"sin verificar"}]},
+"mercado":{"argumento":"Base total grande: Store Leads cuenta ~2.86M tiendas Shopify vivas (dic 2025) y ~4.53M WooCommerce vivas (Q3 2025), mas Stripe/PayPal sin plataforma. El comprador real es el subconjunto con volumen de disputas suficiente (5-100/mes), mucho menor; aun asi, si solo 5-10% de las tiendas cumple, serian ~150k-700k, pero ese porcentaje es mi supuesto, sin verificar. Honesto: el requisito duro (>=100k compradores) depende de ese supuesto no verificado.",
+"evidencia":[
+{"afirmacion":"2,862,608 tiendas Shopify vivas segun Store Leads (dic 2025); ~4.53M tiendas WooCommerce vivas en Q3 2025 (rastreador, no Shopify).","url":"https://storeleads.app/reports/shopify"},
+{"afirmacion":"Fraccion de tiendas con 5-100 disputas/mes: sin verificar.","url":"sin verificar"}]},
+"defensa_frente_a_copias":{"argumento":"Honesto: debil. El software es copiable; ChargePay ya compite en precio plano. Defensa posible: datos acumulados por reason code y emisor para mejorar plantillas, integraciones multiplataforma (Shopify+Woo+Stripe+PayPal) que los apps de una sola plataforma no cubren, resenas y ranking en las app stores, y precio escalonado por volumen. Ninguna es un foso fuerte.",
+"evidencia":[{"afirmacion":"Foso por datos/integraciones multiplataforma: hipotesis, sin verificar.","url":"sin verificar"}]},
+"ejecucion_una_persona_tiempo_parcial":{"argumento":"Encaja con el stack de Juan (Node/TS, GraphQL, Shopify/Woo APIs, Stripe): webhooks de disputa, extraer pedido/tracking/logs, plantilla de evidencia por reason code y envio via API. MVP de 6 semanas plausible solo para un conector (Shopify o Stripe); multiplataforma tomaria mas. Honesto: la API de disputas de Stripe y Shopify Payments tiene restricciones y la app de Shopify requiere revision; riesgo de integracion no menor.",
+"evidencia":[{"afirmacion":"Alcance y tiempo del MVP: estimacion propia, sin verificar.","url":"sin verificar"}]}
+},
+"argumento_principal":"Dolor monetario recurrente con presupuesto ya existente (20-25% de lo recuperado), canal nombrado con intencion de compra (App Store 'chargeback') y base enorme de tiendas (2.86M Shopify, 4.53M Woo segun Store Leads). La cuña de precio plano ya la toca ChargePay, asi que la apuesta real es multiplataforma (Stripe/Woo/PayPal) con evidencia por reason code y escalonado por volumen. Debilidades que concedo: lo nativo cubre parte del caso, defensa debil y comprador real (5-100 disputas/mes) sin cuantificar.",
+"busquedas_usadas":2
+}

@@ -1,0 +1,42 @@
+[
+{"id":"N01-05","filtros_fallados":["F1 (parcial): apps baratas o gratis en Shopify App Store cubren la cuña de precio plano bajo","F4 (débil): el canal Shopify App Store está saturado de apps baratas"],
+"objecion":"La cuña 'plan plano de 29 USD vs 100+ USD' ya está superada por apps de Shopify con plan gratis o de 1.90 a 29 USD/mes (CompeteTracker, PriceKit, Snoopie, ShopiSync). Además el scraping frágil es el producto: quien paga espera datos fiables y el costo anti-bot recae en Juan.",
+"hechos":[
+{"afirmacion":"CompeteTracker: plan gratis (3 competidores), pago 19.99 USD/mes (10 competidores).","url":"https://apps.shopify.com/competetracker"},
+{"afirmacion":"PriceKit: plan gratis (5 variantes, 2 competidores por variante), Starter 19 USD/mes.","url":"https://apps.shopify.com/pricekit"},
+{"afirmacion":"Snoopie: plan gratis con alertas de cambios de precio; planes de pago 19 y 29 USD/mes.","url":"https://apps.shopify.com/snoopie"},
+{"afirmacion":"ShopiSync Price Monitoring desde 29 USD/mes; Competitor Price Tracker desde 6.99 USD/mes.","url":"https://apps.shopify.com/shopisync"},
+{"afirmacion":"Tamaño de mercado (>500k compradores) y precios de Prisync/Price2Spy: sin verificar.","url":"sin verificar"}],
+"severidad":"fuerte","busquedas_usadas":1},
+{"id":"N10-15","filtros_fallados":["F4 (parcial): el canal Shopify App Store/SEO está dominado por Stape, Elevar y otros","F3 (parcial): infraestructura de proxy en producción, costos y soporte continuos"],
+"objecion":"Es un mercado con plan gratis y alternativas baratas: Stape tiene plan gratis de 10k requests y Pro desde ~17 USD/mes, con app de Shopify; varios competidores (Conversios, Aimerce, WeltPixel, TagFly) venden 'setup fácil'. La cuña de 10 minutos de setup no es única, y Juan carga con hosting, uptime, cumplimiento de consentimiento y cambios de APIs de Meta/Google, difícil de sostener a tiempo parcial.",
+"hechos":[
+{"afirmacion":"Stape: plan gratis hasta 10,000 requests; Pro 17 USD/mes (anual), Business 83, Enterprise 167 (según listado de terceros).","url":"https://stape.io/price-server-google-tag-manager"},
+{"afirmacion":"Existen múltiples alternativas a Stape enfocadas en e-commerce (Conversios, Aimerce, ThoughtMetric, TagFly, WeltPixel).","url":"https://thoughtmetric.io/blog/best-stape-io-alternatives-for-e-commerce-brands"},
+{"afirmacion":"Aimerce compara su app de Shopify contra Stape; la cuña 'fácil para no técnicos' ya está ocupada.","url":"https://www.aimerce.ai/blogs/aimerce-vs-stape-do-you-need-server-side-gtm"},
+{"afirmacion":"Tamaño de mercado ('cientos de miles de tiendas'): sin verificar.","url":"sin verificar"}],
+"severidad":"fuerte","busquedas_usadas":1},
+{"id":"N01-04","filtros_fallados":["F1: diagnóstico nativo de Google Merchant Center y apps de feed incluyen la función (sin verificar el alcance exacto)","F4 (parcial): sin validar la demanda de pago en el canal"],
+"objecion":"La cuña es 'solo diagnóstico', pero Merchant Center ya muestra los motivos de rechazo y las apps de feed (Simprosys, DataFeedWatch) incluyen corrección masiva. El dolor es puntual (se resuelve una vez) y favorece la baja retención: quien arregla el feed cancela. Es la idea con menos evidencia verificada.",
+"hechos":[
+{"afirmacion":"La búsqueda sobre rechazos de Merchant Center no halló una app gratis específica ni cifras de mercado; competidores y alcance del diagnóstico nativo: sin verificar.","url":"sin verificar"},
+{"afirmacion":"Stape lista integración con Google Merchant Center, pero eso no resuelve rechazos de feed (los resultados no abordan el tema).","url":"https://stape.io/price-server-google-tag-manager"},
+{"afirmacion":"Precios de Feedonomics, DataFeedWatch y Simprosys: sin verificar.","url":"sin verificar"}],
+"severidad":"fuerte","busquedas_usadas":1},
+{"id":"N05-04","filtros_fallados":["F1 (parcial): Notion ofrece historial de versiones nativo y existen conexiones de respaldo con restauración por ítem","F6 (riesgo): compradores reales (admins que pagan por backup) probablemente muy por debajo de los usuarios de Notion"],
+"objecion":"Ya existe lo que promete la cuña: Rewind (Backups for Notion) ofrece restauración a nivel de página o base con 365 días de retención, y Notion mismo lista ProBackup en su galería de conexiones, además de SimpleBackups. La cuña de 'diff y precio plano' es incremental, y Notion puede ampliar su historial. El mercado de 'decenas de millones de usuarios' no equivale a compradores de backup.",
+"hechos":[
+{"afirmacion":"Rewind (Backups for Notion): restauración por ítem (página/base), retención de 365 días, respaldos incrementales diarios.","url":"https://platform.softwareone.com/product/backups-for-notion/PCP-0028-3087"},
+{"afirmacion":"Notion lista ProBackup en su galería de conexiones; precio según volumen de datos, con prueba gratis.","url":"https://www.notion.com/connections/probackup"},
+{"afirmacion":"SimpleBackups hace respaldos programados de Notion y restaura como copia separada; limitaciones: filtros de vistas, comentarios y autoría pueden no restaurarse.","url":"https://simplebackups.com/learn/notion-backup"},
+{"afirmacion":"El límite de 30-90 días del historial nativo de Notion y el tamaño de mercado: sin verificar.","url":"sin verificar"}],
+"severidad":"fuerte","busquedas_usadas":1},
+{"id":"N08-01","filtros_fallados":["F1 (parcial): hay planes gratis y herramientas de pago único para la cuña de sitios pequeños","F5 (riesgo): pocos prompts a 29 USD; competidores desde ~29 USD con prompts limitados"],
+"objecion":"La cuña 'precio plano bajo para sitios pequeños' está ocupada: Dageno y Prompt Monitor tienen plan gratis, Otterly Lite y RankPrompt parten de 29 USD/mes, HubSpot AEO Grader es gratis y Apify cobra 3 USD por reporte. Es una categoría saturada con muchos entrantes, y los costos de consulta de LLM/scraping erosionan el margen a 29 USD. El dolor es discutible para sitios pequeños, que quizá solo necesitan unos pocos prompts gratis.",
+"hechos":[
+{"afirmacion":"Otterly AI: Lite desde 29 USD/mes por 15 prompts; RankPrompt desde 29 USD/mes; Prompt Monitor con plan gratis y Pro a 49 USD/mes (según listados de terceros).","url":"https://www.therankmasters.com/blog/best-tools-tracking-brand-visibility-ai-search"},
+{"afirmacion":"Dageno AI ofrece plan gratis y cubre ChatGPT, Perplexity, AI Overviews, Gemini y otros.","url":"https://www.dageno.ai/blog/best-online-perplexity-rank-tracker"},
+{"afirmacion":"HubSpot AEO Grader es gratis (chequeo único); Apify AI Visibility Check cuesta un pago único de 3 USD.","url":"https://apify.com/sorcerai/constellation-ai-visibility-check"},
+{"afirmacion":"Profound reportedly ~399 USD/mes en tier alto; los complementos de Semrush/Ahrefs ~99-199 USD/mes (precios reportados por terceros, no confirmados).","url":"https://insidea.com/blog/seo/aeo/perplexity-seo-rank-tracking-software/"}],
+"severidad":"fuerte","busquedas_usadas":1}
+]

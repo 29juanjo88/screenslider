@@ -1,0 +1,108 @@
+[
+ {
+  "id": "N01-09",
+  "filtros_fallados": [
+   "F1 parcial (cuña 'Woo desatendido' no se sostiene: existen plugins RMA gratis y de pago)"
+  ],
+  "objecion": "La cuña 'WooCommerce desatendido' es débil: hay plugins gratis en WordPress.org (p. ej. ReturnDesk) y varios RMA de pago (Webkul, WPSwings, Kaddora). Los dueños de tiendas Woo están acostumbrados a plugins gratis o de pago único; $39/mes recurrente choca con eso. Mantenimiento continuo por versiones WP/Woo y carriers.",
+  "hechos": [
+   {
+    "afirmacion": "Existe plugin gratis de devoluciones/reembolsos autoservicio para WooCommerce en WordPress.org, sin cuota mensual ni SaaS externo (según su listado)",
+    "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+   },
+   {
+    "afirmacion": "Existen varios plugins RMA de pago para Woo (Webkul, WPSwings, Kaddora); precios sin verificar",
+    "url": "https://webkul.com/blog/top-5-woocommerce-rma-plugins/amp/"
+   },
+   {
+    "afirmacion": "Tamaño de mercado Woo (millones de tiendas) viene del evidencia_url de la idea; no re-verificado por mí",
+    "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N05-05",
+  "filtros_fallados": [
+   "F1 (historial nativo y add-on barato ya cubren la cuña)"
+  ],
+  "objecion": "Ya existe en el Marketplace AuditMySheet con log por celda (valor viejo/nuevo, editor, timestamp), plan gratis y Pro a $9/mes, más que el precio propuesto ($12). Además Sheets tiene historial nativo y Google puede mejorarlo. La cuña de alertas/reversión es pequeña y copiable.",
+  "hechos": [
+   {
+    "afirmacion": "AuditMySheet registra ediciones por celda (editor, celda, valor anterior y nuevo), tiene nivel gratis y Pro a USD $9/mes (según el listado del vendor; sin reseñas visibles)",
+    "url": "https://workspace.google.com/marketplace/app/auditmysheet/875603373768"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N10-05",
+  "filtros_fallados": [
+   "F1 (alternativas locales gratis o más baratas)",
+   "F4 parcial"
+  ],
+  "objecion": "La cuña 'local, sin bot' ya está ocupada: Granola captura audio sin bot, y existen opciones locales/offline (Whisper Notes, BB Recorder gratis según su vendor, Monologue ~$15/mes, MacWhisper). Una app de escritorio multiplataforma con resumen local de calidad es pesada para una persona y el LLM local da resúmenes peores que los de la nube.",
+  "hechos": [
+   {
+    "afirmacion": "Granola funciona sin bot (captura audio del Mac) aunque procesa en la nube; precios reportados inconsistentes",
+    "url": "https://blog.buildbetter.ai/best-granola-alternatives-private-meeting-notes-2026/"
+   },
+   {
+    "afirmacion": "Existen alternativas locales/offline: Whisper Notes (Mac, 100% offline), BB Recorder (gratis y local según su vendor), Monologue (US$15/mes), Spokenly ($9.99/mes, dictado)",
+    "url": "https://www.monologue.to/compare/granola"
+   },
+   {
+    "afirmacion": "MacWhisper precio 'Free + desde $31.56' según agregador, sin verificar",
+    "url": "https://thedailyworkflow.com/compare/whisper-notes-vs-macwhisper"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ },
+ {
+  "id": "N03-10",
+  "filtros_fallados": [
+   "F4 parcial (canal 'SEO affiliate link checker' sin verificar)",
+   "F5/F2 riesgo (pagadores pocos, disposición de pago incierta)"
+  ],
+  "objecion": "Solo una fracción de creadores gana lo suficiente de afiliación para pagar $15/mes; muchos verifican enlaces con checkers gratis o con la herramienta de su propio programa. Escanear YouTube/newsletters requiere APIs y permisos cambiantes (Amazon Associates prohíbe scraping de precios/disponibilidad). No verifiqué competidores ni tamaño de pagadores (sin búsquedas dedicadas).",
+  "hechos": [
+   {
+    "afirmacion": "Competidores Lasso, ThirstyAffiliates, Geniuslink, Pretty Links: precios y cobertura sin verificar",
+    "url": "sin verificar"
+   },
+   {
+    "afirmacion": "Existencia de checkers gratis de enlaces rotos: sin verificar",
+    "url": "sin verificar"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 0
+ },
+ {
+  "id": "N03-04",
+  "filtros_fallados": [
+   "F1 parcial (Zapier/bots gratis y freelancers cubren sync Stripe-roles)",
+   "F6 riesgo (mercado 'cientos de miles' sin verificar, probablemente <250-700k pagadores reales)"
+  ],
+  "objecion": "Ya existen bots que venden acceso por roles de Discord vía Stripe (Subscord) y desarrolladores freelance en Fiverr lo hacen a medida; Collab.Land cubre token-gating con plan gratis Starter y Basic $17.99. Cuña de precio plano y multi-procesador es copiable, depende de APIs de Discord, y la evidencia_url es un artículo sobre dejar Gumroad, no sobre demanda de este bot. Mercado de comunidades de pago sin verificar.",
+  "hechos": [
+   {
+    "afirmacion": "Collab.Land: tiers Starter gratis, Basic $17.99/mes, Premium $35, Exclusive $149 (docs; versión vieja sin Basic); es token-gating, no se confirmó sync con Gumroad/Stripe",
+    "url": "https://developer.collab.land/help-docs/key-features/bot-subscription"
+   },
+   {
+    "afirmacion": "Subscord es un bot que vende roles de Discord con pagos por Stripe; no menciona Gumroad",
+    "url": "https://top.gg/bot/1230951682352087081"
+   },
+   {
+    "afirmacion": "Hay freelancers que construyen bot Stripe-roles a medida (competencia de bajo costo)",
+    "url": "https://br.fiverr.com/illest3/build-a-discord-bot-with-stripe-subscriptions-and-roles"
+   }
+  ],
+  "severidad": "fuerte",
+  "busquedas_usadas": 1
+ }
+]

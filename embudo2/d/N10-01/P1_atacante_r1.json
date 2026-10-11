@@ -1,0 +1,157 @@
+{
+ "id": "N10-01",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "La urgencia es real en papel (EAA vigente desde 28-jun-2025) pero es dolor de riesgo, no de pérdida semanal: el enforcement es mayormente por queja, sin escaneos proactivos, y las multas publicadas son contradictorias. Un dueño de tienda mediano no 'busca activamente' un escáner mensual; actúa una vez (arreglar el tema) y luego el dolor desaparece. La exención de microempresas (<10 personas y <=2M EUR) recorta justo a los dueños pequeños que pagarían $29.",
+   "evidencia": [
+    {
+     "afirmacion": "EAA es ley en Irlanda desde 28-jun-2025",
+     "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"
+    },
+    {
+     "afirmacion": "Exención microempresa (<10 personas y <=2M EUR), fuente de vendor",
+     "url": "https://accessible.org/does-eaa-apply-shopify-stores/"
+    },
+    {
+     "afirmacion": "Enforcement por queja, sin escaneos unilaterales; cifras de multas contradictorias entre fuentes (blogs de vendors)",
+     "url": "https://testparty.ai/blog/eaa-enforcement-examples-germany-france-2026"
+    },
+    {
+     "afirmacion": "Primeros casos judiciales franceses reportados por una sola fuente; Auchan ganó por motivo procesal",
+     "url": "https://www.pinmeto.com/news/eu-accessibility-act-enforcement-french-courts-2026/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El comprador ya tiene opciones baratas o gratis: varias apps de Shopify ofrecen escaneo WCAG/EAA gratis y planes de pago de $4.99-$10/mes, muy por debajo de $29. Quien necesita cumplimiento real paga auditoría humana/agencia, no un escáner. Para llegar a US$10k MRR a $29 se necesitan ~345 pagadores sostenidos; la retención baja agrava eso. Honestidad: no hay evidencia de que los dueños no paguen nada; HewnScan cobra $29 (Pro), lo que sugiere que ese precio existe, pero con app recién lanzada y sin demanda verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "AccessKit: escaneos ilimitados gratis; plan de pago listado en $4.99/mes",
+     "url": "https://apps.shopify.com/accesskit"
+    },
+    {
+     "afirmacion": "Accessify AI: plan gratis con escaneo WCAG 2.2 AA; Basic $9.99/mes",
+     "url": "https://apps.shopify.com/accessifyai"
+    },
+    {
+     "afirmacion": "shoplab Accessibility Check: $10/mes, auditorías WCAG 2.2 y PDF",
+     "url": "https://apps.shopify.com/shoplab-accessibility-check"
+    },
+    {
+     "afirmacion": "Accessibility Way desde $39/mes",
+     "url": "https://apps.shopify.com/accessibilityway"
+    },
+    {
+     "afirmacion": "HewnScan (lanzada 21-jul-2026): gratis home page, Pro $29/mes",
+     "url": "https://pickyourapp.com/collections/store-design-site-optimization/products/hewnscan"
+    },
+    {
+     "afirmacion": "$10k MRR / $29 = ~345 pagadores (cálculo propio)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "F1 parcial es fuerte para la cuña: escáneres WCAG/EAA gratis ya en Shopify App Store (AccessKit, Accessify AI, HewnScan free) y herramientas gratuitas generales (extensiones tipo axe/Lighthouse: sin verificar en esta ronda). Además overlays (accessiBe, UserWay, Accessibility Way) venden la promesa de 'cumplir ya' con widget, más fácil que arreglar código. Y la alternativa de fondo es agencia/consultoría puntual. La función de 'lista de arreglos por plantilla' no es exclusiva: AccessKit dice que ayuda a arreglar el markup real del tema.",
+   "evidencia": [
+    {
+     "afirmacion": "AccessKit se declara no-overlay y orientado a arreglar el markup del tema (misma cuña); tier gratis",
+     "url": "https://apps.shopify.com/accesskit"
+    },
+    {
+     "afirmacion": "Accessify AI: reportes de cumplimiento y escaneos semanales ya en plan de $9.99",
+     "url": "https://apps.shopify.com/accessifyai"
+    },
+    {
+     "afirmacion": "Shopify no trae accesibilidad nativa integrada según roundup de terceros (esto favorece a la idea)",
+     "url": "https://meetanshi.com/blog/best-shopify-apps-for-accessibility/"
+    },
+    {
+     "afirmacion": "Precios de accessiBe/UserWay/Deque/Siteimprove y gratuitos tipo axe DevTools/Lighthouse",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (Shopify App Store, búsqueda 'accessibility'/'EAA') está saturado: aparecen al menos 7-9 apps con 'EAA' en el nombre o descripción, muchas con 0 reseñas, lo que indica competencia de entrada fácil y ranking disputado. Un recién llegado sin reseñas queda enterrado; el CAC pasa a depender de ads o contenido SEO 'EAA compliance checklist' donde vendors con presupuesto (testparty, fudge, accessible.org) ya dominan. WordPress.org: sin verificar. Hay un riesgo adicional de plataforma (Shopify controla ranking y comisión).",
+   "evidencia": [
+    {
+     "afirmacion": "Búsqueda en App Store devuelve AccessKit, Accessibility Way, Accessify AI, shoplab, EA Accessibility, HewnScan, Accessibility Spark con claims EAA",
+     "url": "https://apps.shopify.com/accesskit"
+    },
+    {
+     "afirmacion": "SEO EAA dominado por blogs de vendors (testparty, fudge, accessible.org, clym)",
+     "url": "https://www.clym.io/blog/european-accessibility-act-fines-by-country"
+    },
+    {
+     "afirmacion": "CAC, volumen de búsquedas y ranking en WordPress.org",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Retención estructuralmente débil: el trabajo es arreglar el tema una vez y luego cancelar (churn post-remediación). El escaneo continuo aporta valor solo si el tema/contenido cambia seguido; los competidores de $5-10 hacen lo mismo. El valor de 'reporte de evidencia de cumplimiento' es un entregable de una vez. Sin datos de churn para el segmento: sin verificar. A favor: obligación legal continua y agencias multi-tienda podrían retener mejor, pero eso es una hipótesis sin evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps de accesibilidad de Shopify / retención del segmento",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Dawn trae 30-100 violaciones detectables según un vendor: sugiere arreglo inicial acotado, tras el cual el valor recurrente baja",
+     "url": "https://testparty.ai/blog/european-accessibility-act-shopify"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El techo teórico es grande (millones de tiendas), pero el mercado comprador real es mucho menor: se excluyen microempresas exentas, tiendas sin ventas UE, y quienes optan por gratis/overlay/agencia. La cifra de compradores obligados y dispuestos a pagar $29 no está verificada; ni la etapa C ni yo la hallamos. Honestidad: el F6 (>=100k) probablemente se cumple en sentido amplio, pero no hay fuente, y el puntaje 4 de la etapa C (700k-2M) carece de respaldo. Además la ventana regulatoria se concentra en 2025-2027, luego el mercado se normaliza.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de mercado: número de tiendas Shopify/WooCommerce con ventas UE no exentas",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Exención microempresa reduce compradores obligados",
+     "url": "https://accessible.org/does-eaa-apply-shopify-stores/"
+    },
+    {
+     "afirmacion": "Tamaño del mercado: estimación 'millones de tiendas' sin fuente en idea.json",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula. Un escáner WCAG con lista de arreglos es replicable en semanas, como lo prueba que HewnScan se lanzó en julio de 2026 con precio idéntico ($29) y que AccessKit ya ofrece lo mismo con tier gratis. Shopify podría integrar chequeos nativos, o incumbentes con presupuesto (Deque axe, Siteimprove) añadir una capa 'Shopify'. Un LLM puede generar parches de tema bajo pedido, y ChatGPT puede revisar HTML pegado y sugerir arreglos de accesibilidad (afirmación propia, sin verificar). Sin datos propietarios ni efectos de red.",
+   "evidencia": [
+    {
+     "afirmacion": "HewnScan lanzada 21-jul-2026 con Pro $29/mes",
+     "url": "https://pickyourapp.com/collections/store-design-site-optimization/products/hewnscan"
+    },
+    {
+     "afirmacion": "AccessKit y Accessify AI ya ofrecen escaneo WCAG/EAA con tier gratis",
+     "url": "https://apps.shopify.com/accesskit"
+    },
+    {
+     "afirmacion": "Capacidad de ChatGPT/LLMs para sugerir arreglos de accesibilidad en código del tema",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Construir un MVP técnico es factible para Juan (stack web), pero la ejecución real es más dura de lo que parece: un escáner fiable de WCAG 2.2 requiere motor de crawl/render, mantenimiento de reglas y mapeo por temas Shopify/WooCommerce (Dawn y muchos temas de terceros), más soporte. Debe aparecer 'cumplimiento' sin ser asesoría legal: riesgo de responsabilidad si el reporte se usa como evidencia. Juan no tiene experiencia en accesibilidad ni reputación en el nicho. La parte difícil (reseñas, confianza en el App Store) no es de código. A favor: costo de infraestructura bajo y MVP plausible en 6-8 semanas.",
+   "evidencia": [
+    {
+     "afirmacion": "Plazo de MVP, soporte, mantenimiento de reglas WCAG por tema",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Escáneres existentes no son certificación legal (HewnScan: 'not a legal certification')",
+     "url": "https://pickyourapp.com/collections/store-design-site-optimization/products/hewnscan"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "La cuña (arreglos de código por tema, no overlay, precio plano) ya está ocupada: AccessKit, Accessify AI y HewnScan ofrecen escaneo WCAG/EAA con tier gratis y planes de pago de $4.99-$29, el canal Shopify App Store está saturado, la retención es débil (arreglas una vez y cancelas) y no hay defensa ante copias ni ante LLMs. El mercado comprador pagador (excluyendo microempresas exentas) no está verificado. Honestidad: la urgencia regulatoria es real y Shopify no trae accesibilidad nativa, y el MVP es viable para Juan, pero eso no basta para ganar 500 clientes a $29.",
+ "busquedas_usadas": 2
+}

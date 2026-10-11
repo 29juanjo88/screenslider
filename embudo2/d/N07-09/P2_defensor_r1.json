@@ -1,0 +1,101 @@
+{
+ "id": "N07-09",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Adultos que quieren hablar un idioma no tienen con quién practicar; es un dolor recurrente (cada sesión) y quien lo siente busca activamente tutores o apps. Honestidad: urgencia moderada, mucha gente aprende por hobby y no pierde dinero semanal; solo el segmento con motivo (trabajo, migración, examen) tiene urgencia alta.",
+   "evidencia": [
+    {
+     "afirmacion": "Duolingo reportó más de 10 millones de suscriptores de pago en Q1 2025 (10.3M), lo que muestra que hay un gran grupo que ya paga por aprender idiomas",
+     "url": "https://investors.duolingo.com/news-releases/news-release-details/duolingo-adds-record-number-daus-surpasses-10-million-paid"
+    },
+    {
+     "afirmacion": "Urgencia por segmento (migrantes, examen, trabajo) sin cifras",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Existe disposición de pago demostrada y a escala: más de 10M suscriptores de Duolingo y precios de incumbentes de voz/IA claramente superiores a $8 (Speak ~ $17.99/mes o $83.99/año según una comparativa; Duolingo Max reportado ~ $29.99/mes en un explicador, con fuentes que discrepan). Un plano de ~$8/mes queda por debajo de ambos. Honestidad: fuentes de precios son blogs de calidad media; ChatGPT Voice (~$20/mes) también es referencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Speak ~$17.99/mes o $83.99/año; Duolingo Max ~$29.99/mes o $168/año (fuentes discrepantes, blog secundario); ChatGPT Voice ~$20/mes citado por un reseñador",
+     "url": "https://nibble-app.com/blog/is-duolingo-max-worth-it"
+    },
+    {
+     "afirmacion": "10.3M suscriptores de pago de Duolingo en Q1 2025",
+     "url": "https://investors.duolingo.com/news-releases/news-release-details/duolingo-adds-record-number-daus-surpasses-10-million-paid"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: Duolingo Max, Speak, Pimsleur, Langotalk, tutores humanos y ChatGPT/Gemini en modo voz. Debilidad de los incumbentes: sus conversaciones de IA son parte de un currículo propio, no un repaso persistente de tus propios errores; un reseñador señala que la calidad de conversación de Max no supera a ChatGPT Voice o Speak. Honestidad: esto también implica que la voz de chatbots generales es 'suficientemente buena' para muchos (riesgo F1 parcial real) y esas funciones de pago son baratas de replicar para ellos.",
+   "evidencia": [
+    {
+     "afirmacion": "Reseña: la calidad de conversación de Duolingo Max no es mejor que ChatGPT Voice o Speak; Max se diferencia por dos funciones de conversación",
+     "url": "https://nibble-app.com/blog/is-duolingo-max-worth-it"
+    },
+    {
+     "afirmacion": "Que Speak/Duolingo no ofrezcan hoy repaso espaciado de errores propios del usuario",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canales nombrados: SEO por idioma y par de idiomas ('practice Spanish speaking online'), YouTube de polyglots/afiliados, r/languagelearning, y ASO en App Store/Play. Producto con valor demostrable en sesión gratuita de 5 min (product-led). Honestidad: no hay evidencia verificada de CAC ni de intención de compra en esos canales; SEO de idiomas está dominado por incumbentes; el CAC de apps de idiomas es probablemente alto.",
+   "evidencia": [
+    {
+     "afirmacion": "CAC y conversión de SEO/Reddit/YouTube para apps de idiomas",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "El repaso espaciado de errores propios crea un historial personal acumulativo (costo de cambio) y hábito diario, lo que podría mejorar retención frente al chat genérico sin memoria. Honestidad: la retención de apps de idiomas suele ser baja y no hay dato verificado; el éxito de Duolingo se apoya en gamificación y rachas, que Juan no tendría.",
+   "evidencia": [
+    {
+     "afirmacion": "Duolingo mantiene ~9% de penetración de suscripción sobre usuarios, con 130.2M MAU en Q1 2025 (indica que la mayoría no paga; retención de pago por cohorte sin verificar)",
+     "url": "https://investors.duolingo.com/news-releases/news-release-details/duolingo-adds-record-number-daus-surpasses-10-million-paid"
+    },
+    {
+     "afirmacion": "Retención de apps de idiomas",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado el más grande posible de este embudo: Duolingo solo tiene 130.2M MAU y 10.3M suscriptores de pago (Q1 2025), muy por encima de 100k, incluso de 2M compradores (escala 5). Para US$10k MRR a $8 bastan ~1,250 pagadores, una fracción minúscula (~0.01% de los 10M de pago de un solo incumbente). El total mundial de aprendices: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Duolingo: 130.2M MAU, 46.6M DAU y 10.3M suscriptores de pago en Q1 2025",
+     "url": "https://investors.duolingo.com/news-releases/news-release-details/duolingo-adds-record-number-daus-surpasses-10-million-paid"
+    },
+    {
+     "afirmacion": "Total de aprendices de idiomas en el mundo",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Honestidad: la defensa es débil. La función es copiable por Speak/Duolingo y por ChatGPT con memoria. Lo único defendible es: datos acumulados del usuario (historial de errores), precio plano agresivo y foco de un indie en un segmento (por ejemplo, un par de idiomas o un examen). No se probó que los incumbentes no lo hagan.",
+   "evidencia": [
+    {
+     "afirmacion": "Ausencia de repaso de errores propios en incumbentes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Es el punto más fuerte: stack de Juan (Node/TS/React/Python) basta; voz en tiempo real con APIs de terceros, STT/LLM/TTS, y repaso espaciado (SM-2) es algoritmo simple. MVP en ~6 semanas verosímil. Honestidad: el costo variable de voz por minuto a $8/mes comprime el margen y exigiría límites de uso; costo exacto sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo por minuto de APIs de voz en tiempo real y margen a $8/mes",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado y pago enormes y demostrados (Duolingo >10M de pago; Speak/Max cobran bastante más que $8), y ejecución viable para una persona; solo se necesitan ~1,250 pagadores para US$10k MRR. Puntos débiles reconocidos: cuña copiable, canal sin evidencia, F1 parcial por voz de ChatGPT y margen por costo de voz; el éxito depende de un segmento concreto y de la memoria personal de errores.",
+ "busquedas_usadas": 2
+}

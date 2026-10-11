@@ -1,0 +1,113 @@
+{
+ "id": "N06-07",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episodico y se resuelve de forma 'suficientemente buena' con lo que ya hay: Excel 365 trae 'Obtener datos > Desde PDF' (Power Query) con tablas detectadas y refrescables, y ChatGPT/Copilot extraen tablas de PDFs. El dolor real queda en PDFs escaneados/desordenados, un subsegmento. La etapa C califico dolor 4 sin evidencia de frecuencia semanal.",
+   "evidencia": [
+    {
+     "afirmacion": "Excel 365 en Windows importa tablas de PDF de forma nativa via Power Query (Datos > Obtener datos > Desde archivo > Desde PDF), reutilizable y refrescable; limite: PDFs escaneados requieren OCR",
+     "url": "https://office-watch.com/2026/import-pdfs-into-excel/"
+    },
+    {
+     "afirmacion": "Frecuencia semanal del dolor en contadores/finanzas",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Si hay pago existente (Docparser $39/100 creditos, $159/1000), pero es para flujos automatizados por volumen, no para el usuario individual que copia de vez en cuando. El segmento que el plano de $19 atrae (usuario ocasional) es el que tiene alternativas gratis (nativo de Excel, IA general, ReadyData con plan gratis y $9). Disposicion a pagar $19 por ocasional: baja.",
+   "evidencia": [
+    {
+     "afirmacion": "Docparser: $39/mes 100 creditos, $74 por 250, $159 por 1000; 1 credito = documento hasta 5 paginas",
+     "url": "https://mammoth.io/blog/docparser-pricing/"
+    },
+    {
+     "afirmacion": "ReadyData: gratis, Lite $9, Starter $19, Pro $59 hasta $229/mes, con OCR",
+     "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Muy saturado: (1) Excel nativo Desde PDF gratis; (2) ChatGPT/Copilot gratis en parte; (3) ReadyData con plan gratis y Starter exactamente a $19; (4) PDF.it con Google Document AI; (5) ya hay un add-on 'Convert PDF to Google Sheets' con OCR/IA en Workspace Marketplace; (6) Docparser, Nanonets, Parsio, Adobe Acrobat. La cuña de 'precio plano' ya esta igualada en precio por ReadyData. Concedo: no verifique que exista un add-on equivalente con volumen en AppSource.",
+   "evidencia": [
+    {
+     "afirmacion": "Add-on 'Convert PDF to Google Sheets' en Google Workspace Marketplace extrae tablas de PDF/imagen con OCR/IA (afirmaciones del proveedor)",
+     "url": "https://workspace.google.com/marketplace/app/convert_pdf_to_google_sheets/687083288287?hl=es"
+    },
+    {
+     "afirmacion": "PDF.it extrae tablas con Google Document AI a Excel",
+     "url": "https://pdf.it.com/blog/table-extraction-excel"
+    },
+    {
+     "afirmacion": "ReadyData Starter $19 con tier gratis",
+     "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+    },
+    {
+     "afirmacion": "Capacidad de Excel Copilot/ChatGPT con tablas de PDF y precios de Nanonets",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Los canales nombrados no estan demostrados: no hay datos de volumen de instalaciones/busquedas en AppSource ni de que los compradores busquen alli; la busqueda 'pdf to excel' esta dominada por herramientas web gratis y freemium (intencion de gratis, CAC alto en SEO). Un add-on pago nuevo sin resenas compite contra listados ya existentes en Workspace Marketplace. Una busqueda adicional no hallo ningun add-on Excel en AppSource, lo que no confirma ni descarta demanda. CAC estimado: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Ya existen varios listados de un add-on PDF-a-Sheets con OCR en Google Workspace Marketplace (mismo producto, varias versiones de idioma)",
+     "url": "https://workspace.google.com/marketplace/app/convert_pdf_to_google_sheets/687083288287?hl=es"
+    },
+    {
+     "afirmacion": "Volumen de demanda/instalaciones en AppSource y CAC por SEO 'pdf to excel'",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Uso episodico (cierre mensual, temporada de facturas): riesgo alto de churn tras el pico, ya que el usuario puede cancelar entre ciclos. Las plantillas reutilizables ayudan solo a usuarios recurrentes de AP/contabilidad, que justamente son los que migran a Docparser/Nanonets por automatizacion. Sin datos de churn de la categoria.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn/retencion de herramientas de extraccion de documentos",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "La cifra '>2M profesionales' es la propia estimacion de la idea, sin fuente (verificada como sin verificar en etapa C). Ademas, 'personas que procesan PDFs' no es 'compradores de pago': el comprador real es quien tiene PDFs complejos, frecuentes y no resuelve con Excel nativo/IA gratis, mucho menor. Probablemente supera 100k, pero la puntuacion 5 (>2M) no esta respaldada. Honesto: no tengo evidencia de que sea <100k tampoco.",
+   "evidencia": [
+    {
+     "afirmacion": ">2M profesionales que procesan PDFs (estimacion de la idea)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Numero de compradores que pagarian por extraccion de PDF en vez de usar herramientas gratis",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula: es un envoltorio de LLM de vision/Document AI sobre APIs de terceros; cualquier competidor (ReadyData, PDF.it, el add-on de Sheets) o Microsoft/Google pueden anadir lo mismo. La 'plantilla reutilizable' es copiable (Docparser ya las tiene como nucleo). Microsoft ya tiene el conector nativo y Copilot en Excel; Google puede integrar Gemini en Sheets. El riesgo plataforma es doble: dependencia de marketplace y de proveedor LLM.",
+   "evidencia": [
+    {
+     "afirmacion": "Excel ya ofrece importacion nativa de tablas PDF con opciones reutilizables",
+     "url": "https://office-watch.com/2026/import-pdfs-into-excel/"
+    },
+    {
+     "afirmacion": "Roadmap de Copilot/Gemini para extraer tablas de PDF",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Un MVP simple es factible en 6 semanas, pero operar es mas duro: dos add-ons (Office.js y Apps Script) con revisiones de marketplace, soporte de precision de extraccion (facturas dispares, escaneados), costo variable de inferencia por pagina que erosiona un plano de $19 (usuarios intensivos), y seguridad/privacidad de documentos financieros de clientes (exigida por contadores). Soporte y calidad de OCR consumen tiempo parcial. Concedo: el stack de Juan encaja tecnicamente.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo de inferencia por pagina vs $19 plano y requisitos de revision de AppSource",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "La idea vende algo que ya viene gratis o casi gratis: Excel 365 importa tablas de PDF de forma nativa, ChatGPT/Copilot extraen tablas, y ReadyData ya ofrece gratis y Starter a $19, igualando la cuña de precio plano; ya hay un add-on PDF-a-Sheets con OCR en Workspace Marketplace. Los canales nombrados no tienen volumen verificado, el mercado de >2M es estimacion sin fuente, la retencion es episodica, no hay defensa contra copias y el costo variable de inferencia amenaza el margen del plano. Concedo dolor y pago existentes (Docparser $39-$159), pero en el segmento que la cuña atrae (usuario ocasional) hay alternativas gratis suficientes (F1 parcial).",
+ "busquedas_usadas": 2
+}
