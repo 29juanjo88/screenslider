@@ -1,0 +1,362 @@
+[
+ {
+  "id": "G05-01",
+  "nombre": "CADFrame for Figma",
+  "cliente_que_paga": "Diseñadores de producto/industrial en equipos de hardware",
+  "problema": "Insertar renders de piezas CAD en mockups exige exportar a mano desde SolidWorks y re-renderizar.",
+  "solucion": "Plugin que importa STEP/STL y coloca vistas renderizadas con ángulos y materiales editables en frames de Figma.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda 'CAD to Figma' / 'STL' en Figma Community y posts en r/industrialdesign y r/FigmaDesign.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Hardware startups documentan en Figma y la API de plugins soporta imágenes y vectores.",
+  "ventaja_juan": "Conoce formatos STEP/STL y pipelines CAD.",
+  "riesgo_principal": "Plataforma única (Figma): cambios de API, de política de plugins o funciones nativas pueden matarlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "CAD a Figma"
+ },
+ {
+  "id": "G05-02",
+  "nombre": "Design Token Sync Pro",
+  "cliente_que_paga": "Design systems leads y front-end leads en empresas medianas",
+  "problema": "Los tokens de Figma divergen del código; la sincronización manual genera bugs visuales.",
+  "solucion": "Plugin que exporta variables de Figma a CSS/Tailwind/TS y abre PR automático en GitHub con diff visual.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community (búsqueda 'design tokens export') y listados en awesome-design-systems.",
+  "competidores": [
+   "Tokens Studio (conozco, precios sin verificar)"
+  ],
+  "por_que_ahora": "Figma Variables están maduras y los equipos buscan automatizar handoff.",
+  "ventaja_juan": "Backend TS/GraphQL, integraciones GitHub.",
+  "riesgo_principal": "Tokens Studio ya domina; diferenciación en PR automático debe ser clara.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "tokens de diseño a código"
+ },
+ {
+  "id": "G05-03",
+  "nombre": "A11y Audit Reports",
+  "cliente_que_paga": "Diseñadores UX y agencias que deben entregar informes WCAG",
+  "problema": "Auditar contraste, foco y tamaños en Figma y documentarlo para cliente lleva horas.",
+  "solucion": "Plugin que audita frames contra WCAG 2.2 y genera PDF de informe con capturas y recomendaciones por pantalla.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Figma Community ('accessibility', 'WCAG') y SEO 'WCAG audit figma'.",
+  "competidores": [
+   "Stark (conozco, precios sin verificar)"
+  ],
+  "por_que_ahora": "Entran en vigor exigencias como el European Accessibility Act y crece la demanda de informes.",
+  "ventaja_juan": "Poca; es generación de informes.",
+  "riesgo_principal": "Stark y otros ya cubren contraste; hay que ganar en el informe entregable.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "auditoría accesibilidad WCAG"
+ },
+ {
+  "id": "G05-04",
+  "nombre": "Figma to Shopify Theme",
+  "cliente_que_paga": "Freelancers y agencias de temas Shopify",
+  "problema": "Convertir diseños Figma a secciones Liquid es manual y lento.",
+  "solucion": "Plugin que exporta frames a secciones Liquid con settings schema y CSS responsive.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Figma Community ('Shopify') y foros de Shopify Partners / r/shopifyDev.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más tiendas con Online Store 2.0 y secciones personalizables.",
+  "ventaja_juan": "Dev web, PHP/JS, plantillas.",
+  "riesgo_principal": "Calidad del código generado por IA genérica compite; Shopify podría lanzar algo nativo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Figma a Shopify"
+ },
+ {
+  "id": "G05-05",
+  "nombre": "Email Design Exporter",
+  "cliente_que_paga": "Diseñadores de email marketing y agencias",
+  "problema": "Los diseños de emails en Figma se reconstruyen a mano en HTML compatible con Outlook.",
+  "solucion": "Plugin que genera HTML de email con tablas y MSO fallbacks desde auto-layout, con envío de prueba.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Figma Community ('email html') y SEO 'figma to email html'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Email sigue siendo canal de ingresos y Outlook sigue siendo problemático.",
+  "ventaja_juan": "Dev backend/HTML.",
+  "riesgo_principal": "Herramientas de email builders integran importación de Figma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Figma a HTML email"
+ },
+ {
+  "id": "G05-06",
+  "nombre": "Copy Deck Localizer",
+  "cliente_que_paga": "Product designers y localization managers en SaaS",
+  "problema": "Sincronizar textos para traducción entre Figma y TMS genera retrasos y errores de longitud.",
+  "solucion": "Plugin que extrae strings, los envía a archivos i18n (JSON/XLIFF) y previsualiza textos traducidos con overflow en el diseño.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community ('localization', 'i18n') y comunidad Lokalise/Crowdin en Slack/blogs.",
+  "competidores": [
+   "Lokalise y Phrase tienen plugins (precios sin verificar)"
+  ],
+  "por_que_ahora": "Lanzamientos globales rápidos en SaaS.",
+  "ventaja_juan": "JSON/i18n, TS.",
+  "riesgo_principal": "Los TMS ya incluyen plugins gratuitos con su suscripción.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "localización de diseños"
+ },
+ {
+  "id": "G05-07",
+  "nombre": "Pitch Deck Data Fill",
+  "cliente_que_paga": "Fundadores y analistas que mantienen decks financieros",
+  "problema": "Los números de decks y dashboards en Figma se actualizan a mano desde Sheets.",
+  "solucion": "Plugin que vincula capas de texto y gráficos a Google Sheets/Airtable y actualiza en un clic.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Figma Community ('sheets sync') y templates en Product Hunt.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Decks de inversión se actualizan semanalmente en startups.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Funciones nativas o competidores gratis (F1 posible).",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "datos vivos en Figma"
+ },
+ {
+  "id": "G05-08",
+  "nombre": "Print-Ready Export",
+  "cliente_que_paga": "Diseñadores de packaging y merch que imprimen",
+  "problema": "Entregar archivos a imprenta requiere CMYK, sangrado, marcas de corte y troqueles que Figma no maneja.",
+  "solucion": "Plugin que exporta PDF/X con sangrado, marcas de corte y capas de troquel desde frames.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Figma Community ('print', 'CMYK', 'bleed') y r/graphic_design.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Figma se usa cada vez más para packaging y merch.",
+  "ventaja_juan": "Conocimiento de fabricación/impresión y DXF de troquel.",
+  "riesgo_principal": "Fidelidad de color CMYK limitada por Figma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "exportación a imprenta"
+ },
+ {
+  "id": "G05-09",
+  "nombre": "Laser Cut Export",
+  "cliente_que_paga": "Makers y diseñadores de productos de corte láser / CNC",
+  "problema": "Preparar SVG/DXF para láser con trazos correctos y kerf desde Figma es tedioso.",
+  "solucion": "Plugin que exporta capas a SVG/DXF con colores por operación (corte/grabado), kerf y nesting básico.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Figma Community ('laser cut', 'SVG') y foros r/lasercutting, Glowforge community.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crece el hardware maker y los diseñadores prototipan en Figma.",
+  "ventaja_juan": "Experiencia CAD/CAM, DXF.",
+  "riesgo_principal": "Mercado pequeño y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Figma a corte láser"
+ },
+ {
+  "id": "G05-10",
+  "nombre": "3D Mockup Studio",
+  "cliente_que_paga": "Marketers de apps y SaaS que hacen capturas de producto",
+  "problema": "Mockups 3D de dispositivos requieren herramientas externas y exportes repetitivos.",
+  "solucion": "Plugin que aplica frames de Figma a modelos 3D de dispositivos con escenas y exporta MP4/PNG.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Figma Community ('3D mockup') y SEO 'figma 3d mockup'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Video y capturas animadas son estándar en Product Hunt y stores.",
+  "ventaja_juan": "Gráficos 3D/CAD.",
+  "riesgo_principal": "Muchos mockups gratis (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "mockups 3D de producto"
+ },
+ {
+  "id": "G05-11",
+  "nombre": "Design QA Diff",
+  "cliente_que_paga": "QA y front-end leads que verifican implementación",
+  "problema": "Comparar el diseño con la UI implementada es visual y manual.",
+  "solucion": "Plugin + CLI que compara capturas de staging con frames de Figma y reporta diferencias en píxeles y espaciado.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Figma Community ('design QA') y dev.to/Hacker News 'visual regression'.",
+  "competidores": [
+   "Percy y Chromatic (conozco, precios sin verificar)"
+  ],
+  "por_que_ahora": "Más equipos automatizan CI visual.",
+  "ventaja_juan": "Backend, CI, TS.",
+  "riesgo_principal": "Chromatic y similares ya integran Figma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "QA visual de diseño"
+ },
+ {
+  "id": "G05-12",
+  "nombre": "Prototype to Playwright",
+  "cliente_que_paga": "QA engineers y SDETs",
+  "problema": "Convertir flujos de prototipo Figma en tests e2e se hace desde cero.",
+  "solucion": "Plugin que lee prototipos y genera tests de Playwright con selectores sugeridos.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community ('testing') y comunidad Playwright en GitHub/Discord.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "IA generativa permite scaffolding de tests, pero los flujos de diseño son nuevos como fuente.",
+  "ventaja_juan": "Node/TS.",
+  "riesgo_principal": "Los LLM genéricos hacen lo mismo sin plugin.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "tests desde prototipos"
+ },
+ {
+  "id": "G05-13",
+  "nombre": "Component Usage Analytics",
+  "cliente_que_paga": "Design system managers en empresas medianas",
+  "problema": "No saben qué componentes se usan, se desvían o se detachan en cientos de archivos.",
+  "solucion": "Plugin/servicio que escanea archivos y muestra uso y detaches por componente en dashboard.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Figma Community ('design system analytics') y comunidad Design Systems Slack.",
+  "competidores": [
+   "Figma Analytics nativo en planes Org/Enterprise (alcance sin verificar)"
+  ],
+  "por_que_ahora": "Design systems maduros requieren medir adopción.",
+  "ventaja_juan": "Backend y datos.",
+  "riesgo_principal": "Figma analytics nativo puede cubrirlo (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "analítica de design system"
+ },
+ {
+  "id": "G05-14",
+  "nombre": "Brand Compliance Checker",
+  "cliente_que_paga": "Brand managers y agencias con muchos clientes",
+  "problema": "Revisar que cada diseño respete color, tipografía y logo es manual.",
+  "solucion": "Plugin que valida frames contra reglas de marca y marca desviaciones con informe.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Figma Community ('brand guidelines') y LinkedIn/SEO 'brand compliance figma'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Contenido en volumen con IA aumenta desviaciones de marca.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Comprador difuso y funciones de librerías nativas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "cumplimiento de marca"
+ },
+ {
+  "id": "G05-15",
+  "nombre": "Data Table Generator",
+  "cliente_que_paga": "Product designers de dashboards B2B",
+  "problema": "Crear tablas realistas con datos coherentes en mockups consume horas.",
+  "solucion": "Plugin que genera tablas/gráficos con datos sintéticos por esquema (fintech, SaaS, logística) y variantes.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Figma Community ('dummy data') y SEO 'fake data figma'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Dashboards B2B son un nicho de diseño frecuente.",
+  "ventaja_juan": "Backend y datos.",
+  "riesgo_principal": "Existen plugins gratuitos de datos falsos (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "datos sintéticos de UI"
+ },
+ {
+  "id": "G05-16",
+  "nombre": "Figma to React Native",
+  "cliente_que_paga": "Devs móviles indie y agencias",
+  "problema": "Los diseños de apps móviles se reimplementan sin código de partida usable.",
+  "solucion": "Plugin que exporta frames auto-layout a componentes React Native/Expo con estilos y navegación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community ('React Native') y Expo Discord / r/reactnative.",
+  "competidores": [
+   "Locofy y Anima (conozco, precios sin verificar)"
+  ],
+  "por_que_ahora": "Expo y RN dominan el desarrollo cruzado.",
+  "ventaja_juan": "React/TS.",
+  "riesgo_principal": "Locofy y Anima ya compiten con más recursos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Figma a React Native"
+ },
+ {
+  "id": "G05-17",
+  "nombre": "Hardware UI Kit Builder",
+  "cliente_que_paga": "Diseñadores de HMI/panel (industrial) y UX de IoT",
+  "problema": "Diseñar interfaces HMI para PLC/panel exige símbolos ISA y plantillas inexistentes en Figma.",
+  "solucion": "Plugin con biblioteca de componentes HMI/P&ID y exportación a especificación para ingenieros de control.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Figma Community ('HMI', 'industrial') y foros LinkedIn/PLCtalk.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fábricas modernizan HMIs con diseño UX.",
+  "ventaja_juan": "Experiencia directa PLC/Siemens/Rockwell.",
+  "riesgo_principal": "Mercado pequeño y poco tráfico en Community.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "HMI industrial en Figma"
+ },
+ {
+  "id": "G05-18",
+  "nombre": "FigJam Roadmap Exporter",
+  "cliente_que_paga": "Product managers",
+  "problema": "Pasar tableros de FigJam a roadmaps en Jira/Linear es manual.",
+  "solucion": "Plugin que convierte stickies en issues con campos y relaciones en Jira/Linear/GitHub.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Figma Community (FigJam 'Jira') y SEO 'figjam to jira'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los workshops de producto ocurren en FigJam.",
+  "ventaja_juan": "Backend, APIs.",
+  "riesgo_principal": "Integraciones oficiales de Jira/Linear y precio bajo (F5).",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "FigJam a issues"
+ },
+ {
+  "id": "G05-19",
+  "nombre": "Font License Auditor",
+  "cliente_que_paga": "Agencias y equipos legales/ops que publican diseños",
+  "problema": "Es difícil saber si las fuentes en archivos tienen licencia para web/app/print.",
+  "solucion": "Plugin que lista fuentes usadas, su licencia conocida y costos pendientes por proyecto.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community ('fonts', 'license') y SEO 'font license check'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Demandas por licencias de fuentes han aumentado.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Datos de licencias difíciles de mantener sin verificar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "auditoría de licencias fuentes"
+ },
+ {
+  "id": "G05-20",
+  "nombre": "Spec Sheet Generator",
+  "cliente_que_paga": "Product designers que entregan a manufactura",
+  "problema": "Los specs de producto (dimensiones, materiales, BOM) viven en capas dispersas.",
+  "solucion": "Plugin que genera hojas de especificación PDF con cotas y BOM desde frames anotados.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Figma Community ('spec', 'handoff') y r/ProductDesign.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Startups de hardware manejan docs en Figma.",
+  "ventaja_juan": "BOM, CAD y manufactura.",
+  "riesgo_principal": "Funciones Dev Mode nativas cubren parte del handoff.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "specs de manufactura"
+ }
+]

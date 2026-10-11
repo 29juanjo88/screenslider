@@ -1,0 +1,363 @@
+[
+ {
+  "id": "G06-01",
+  "nombre": "STL Quote for WooCommerce",
+  "cliente_que_paga": "Tiendas WooCommerce que venden impresión 3D bajo pedido",
+  "problema": "Los clientes suben un STL y el dueño cotiza a mano cada pedido.",
+  "solucion": "Plugin que analiza el STL (volumen, tiempo, material) y muestra precio instantáneo en el carrito.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda '3D printing quote WooCommerce' en WordPress.org y foros de r/3Dprinting y print farms.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de print farms y servicios de impresión locales.",
+  "ventaja_juan": "Conocimiento de firmware de impresoras 3D y slicing para estimar tiempo/material.",
+  "riesgo_principal": "Dependencia de WooCommerce; estimaciones imprecisas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G06-02",
+  "nombre": "DXF Laser Cutting Quote",
+  "cliente_que_paga": "Talleres de corte láser/CNC con tienda WooCommerce",
+  "problema": "Cotizar piezas DXF por correo es lento y se pierden clientes.",
+  "solucion": "Plugin que lee DXF, calcula área de corte, perímetro y precio por material.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Listado en WordPress.org, foros de talleres láser y SEO 'laser cutting quote plugin'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Cada vez más talleres venden online.",
+  "ventaja_juan": "Experiencia CAD/CAM y DXF.",
+  "riesgo_principal": "Nicho pequeño; outreach necesario.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cotización DXF láser"
+ },
+ {
+  "id": "G06-03",
+  "nombre": "WooCommerce Product Configurator 3D",
+  "cliente_que_paga": "Tiendas de productos personalizables (muebles, piezas)",
+  "problema": "Configuradores existentes son pesados o caros.",
+  "solucion": "Visor 3D ligero con opciones que actualizan precio y variación.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Directorio WordPress.org y SEO 'woocommerce 3d product configurator'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Expectativa de personalización en e-commerce.",
+  "ventaja_juan": "Conocimiento CAD y formatos 3D (glTF).",
+  "riesgo_principal": "Soporte técnico alto; compatibilidad de temas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "configurador 3D Woo"
+ },
+ {
+  "id": "G06-04",
+  "nombre": "Subscription Churn Saver",
+  "cliente_que_paga": "Dueños de tiendas WooCommerce Subscriptions",
+  "problema": "Pagos fallidos y cancelaciones reducen MRR sin que el dueño lo note.",
+  "solucion": "Plugin de dunning inteligente, ofertas de pausa y alertas de cancelación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'woocommerce subscription retention' en WordPress.org y grupos de Facebook de WooCommerce.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crecen los modelos de suscripción en e-commerce.",
+  "ventaja_juan": "Backend PHP/Laravel y pagos.",
+  "riesgo_principal": "Posible incumbente nativo de WooCommerce.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "retención suscripciones Woo"
+ },
+ {
+  "id": "G06-05",
+  "nombre": "Wholesale Portal Pro",
+  "cliente_que_paga": "Marcas con venta B2B sobre WooCommerce",
+  "problema": "Gestionar precios mayoristas, cuentas y términos con plugins sueltos es frágil.",
+  "solucion": "Portal B2B con precios por nivel, aprobación de cuentas y reórdenes.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "WordPress.org, SEO 'woocommerce wholesale plugin' y reseñas en directorios.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Marcas DTC abren canal mayorista.",
+  "ventaja_juan": "Backend PHP.",
+  "riesgo_principal": "Mercado saturado de plugins.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "portal mayorista Woo"
+ },
+ {
+  "id": "G06-06",
+  "nombre": "Agency Maintenance Dashboard",
+  "cliente_que_paga": "Agencias WordPress con 20+ sitios de clientes",
+  "problema": "Actualizaciones, backups y reportes manuales consumen horas.",
+  "solucion": "Panel central que monitorea plugins, versiones y envía reportes al cliente.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Comunidades de agencias WordPress (Post Status, grupos de Facebook) y SEO 'manage multiple wordpress sites'.",
+  "competidores": [
+   "ManageWP",
+   "MainWP"
+  ],
+  "por_que_ahora": "Más sitios por agencia, márgenes bajos.",
+  "ventaja_juan": "Backend Node/PHP.",
+  "riesgo_principal": "Competidores establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "gestión multisitio WP"
+ },
+ {
+  "id": "G06-07",
+  "nombre": "Woo Order Sync to ERP",
+  "cliente_que_paga": "Tiendas WooCommerce medianas con ERP o inventario externo",
+  "problema": "Pedidos se reingresan manualmente en otros sistemas.",
+  "solucion": "Conector configurable que sincroniza pedidos e inventario vía webhooks.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Búsqueda 'woocommerce erp integration' y Upwork/foros de desarrolladores Woo.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Tiendas crecen y necesitan automatización.",
+  "ventaja_juan": "Integraciones backend y experiencia industrial.",
+  "riesgo_principal": "Cada ERP requiere conector propio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "sincronización ERP Woo"
+ },
+ {
+  "id": "G06-08",
+  "nombre": "Print Shop Order Tracker",
+  "cliente_que_paga": "Servicios de impresión 3D/CNC bajo pedido",
+  "problema": "Clientes preguntan el estado del pedido por correo.",
+  "solucion": "Plugin con estados de producción y portal de seguimiento para el cliente.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "WordPress.org y comunidades de print farms.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crecimiento de manufactura bajo demanda.",
+  "ventaja_juan": "Conocimiento de flujos de producción de impresión 3D.",
+  "riesgo_principal": "Mercado de nicho.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "seguimiento producción pedidos"
+ },
+ {
+  "id": "G06-09",
+  "nombre": "Product Data Sheet Generator",
+  "cliente_que_paga": "Tiendas B2B de componentes industriales en WooCommerce",
+  "problema": "Generar fichas técnicas PDF por producto es manual.",
+  "solucion": "Plugin que crea PDF de ficha técnica desde atributos del producto.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce datasheet pdf'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Compradores B2B esperan documentación en línea.",
+  "ventaja_juan": "Conocimiento de especificaciones industriales.",
+  "riesgo_principal": "Plantillas por industria.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "fichas técnicas PDF"
+ },
+ {
+  "id": "G06-10",
+  "nombre": "Digital Download Licenses Pro",
+  "cliente_que_paga": "Vendedores de software, CAD files y plugins en WooCommerce",
+  "problema": "Gestionar claves de licencia y activaciones es manual.",
+  "solucion": "Plugin de licencias con activaciones por sitio, expiración y renovaciones.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce license manager'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más creadores venden activos digitales.",
+  "ventaja_juan": "Backend PHP y modelo de licencias.",
+  "riesgo_principal": "Competidores conocidos como Easy Digital Downloads (sin verificar funciones).",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "licencias software Woo"
+ },
+ {
+  "id": "G06-11",
+  "nombre": "CAD File Marketplace Plugin",
+  "cliente_que_paga": "Creadores que venden modelos STL/STEP",
+  "problema": "Plataformas cobran comisiones altas; plugins genéricos no previsualizan 3D.",
+  "solucion": "Plugin con vista previa 3D, categorías y entrega segura de archivos.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Comunidades de makers (Reddit, Discord) y SEO 'sell stl files wordpress'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Boom de modelos 3D comerciales.",
+  "ventaja_juan": "Conocimiento de formatos CAD/3D.",
+  "riesgo_principal": "Plataformas existentes dominan.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "venta archivos CAD"
+ },
+ {
+  "id": "G06-12",
+  "nombre": "Multi-Currency Tax Compliance",
+  "cliente_que_paga": "Tiendas WooCommerce que venden globalmente",
+  "problema": "IVA/VAT y conversión de moneda generan errores y reclamos.",
+  "solucion": "Plugin que aplica reglas fiscales por país y muestra precios locales.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "WordPress.org y búsqueda 'woocommerce vat eu'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Normativas de IVA digital en cambio.",
+  "ventaja_juan": "Backend y reglas fiscales.",
+  "riesgo_principal": "Cambios regulatorios y soporte legal.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cumplimiento IVA Woo"
+ },
+ {
+  "id": "G06-13",
+  "nombre": "LLM Product Description Auditor",
+  "cliente_que_paga": "Tiendas WooCommerce con catálogos grandes",
+  "problema": "Descripciones duplicadas o pobres bajan SEO y conversión.",
+  "solucion": "Plugin que audita catálogo y propone mejoras con IA.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce ai product description'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "IA generativa accesible.",
+  "ventaja_juan": "Backend Node y APIs de IA.",
+  "riesgo_principal": "Saturación de herramientas IA.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "auditoría catálogo IA"
+ },
+ {
+  "id": "G06-14",
+  "nombre": "Technical Spec Search for Woo",
+  "cliente_que_paga": "Tiendas industriales con miles de SKUs",
+  "problema": "El buscador nativo no filtra por atributos técnicos.",
+  "solucion": "Buscador facetado por especificaciones (dimensiones, tolerancias, material).",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce faceted search technical'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Catálogos industriales migran a e-commerce.",
+  "ventaja_juan": "Conocimiento de especificaciones industriales.",
+  "riesgo_principal": "Competidores de búsqueda facetada.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "búsqueda atributos técnicos"
+ },
+ {
+  "id": "G06-15",
+  "nombre": "Maker Course Delivery Bundle",
+  "cliente_que_paga": "Creadores de cursos CAD/PLC/3D en WordPress",
+  "problema": "Plataformas LMS completas son excesivas para cursos pequeños.",
+  "solucion": "Plugin ligero de cursos con acceso por compra en Woo y progreso.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Comunidades de creadores y WordPress.org.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de educación técnica en línea.",
+  "ventaja_juan": "Conocimiento de PLC/CAD para contenido propio.",
+  "riesgo_principal": "LMS establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cursos técnicos Woo"
+ },
+ {
+  "id": "G06-16",
+  "nombre": "Booking for Print Services",
+  "cliente_que_paga": "Estudios de impresión 3D y makerspaces",
+  "problema": "Reservar máquinas por correo causa conflictos de horarios.",
+  "solucion": "Plugin de reservas por máquina y franja, con pago Woo.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Makerspaces y WordPress.org.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más makerspaces comerciales.",
+  "ventaja_juan": "Conocimiento de equipos de impresión.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "reservas makerspaces"
+ },
+ {
+  "id": "G06-17",
+  "nombre": "Shipping Rate Calculator by Dimensions",
+  "cliente_que_paga": "Tiendas con productos voluminosos o pesados",
+  "problema": "Las tarifas por peso no reflejan costos reales.",
+  "solucion": "Plugin que calcula envío por dimensiones y paquetes.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "WordPress.org y 'woocommerce shipping dimensions'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Costos de envío en alza.",
+  "ventaja_juan": "Backend y cálculo de empaque.",
+  "riesgo_principal": "Muchos plugins de envío.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cálculo envío dimensional"
+ },
+ {
+  "id": "G06-18",
+  "nombre": "Review Request Automation",
+  "cliente_que_paga": "Tiendas WooCommerce pequeñas y medianas",
+  "problema": "Pocas reseñas reducen la conversión.",
+  "solucion": "Plugin que envía solicitudes de reseña con incentivos y lo publica con schema.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce review reminder'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Reseñas influyen en búsqueda local y compras.",
+  "ventaja_juan": "Backend PHP.",
+  "riesgo_principal": "Funciones básicas ya existen (sin verificar).",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "automatización reseñas"
+ },
+ {
+  "id": "G06-19",
+  "nombre": "Warranty and RMA Manager",
+  "cliente_que_paga": "Tiendas de hardware/electrónica",
+  "problema": "Gestionar garantías y devoluciones es manual.",
+  "solucion": "Plugin con formularios de RMA, estados y etiquetas de devolución.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "WordPress.org y búsqueda 'woocommerce rma'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Mayor volumen de devoluciones online.",
+  "ventaja_juan": "Conocimiento de hardware industrial.",
+  "riesgo_principal": "Competencia de plugins RMA.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "gestión garantías RMA"
+ },
+ {
+  "id": "G06-20",
+  "nombre": "Spare Parts Finder by Model",
+  "cliente_que_paga": "Fabricantes y distribuidores de refacciones",
+  "problema": "Los clientes no saben qué pieza corresponde a su equipo.",
+  "solucion": "Plugin que filtra repuestos por modelo/serie con despiece.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "WordPress.org y foros de distribuidores industriales.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más venta industrial online.",
+  "ventaja_juan": "Conocimiento de equipos industriales y CAD.",
+  "riesgo_principal": "Requiere datos del cliente.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "buscador refacciones"
+ }
+]

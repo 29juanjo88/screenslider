@@ -1,0 +1,372 @@
+[
+ {
+  "id": "G15-01",
+  "nombre": "Agente de RFQ para talleres CNC",
+  "cliente_que_paga": "Dueños/estimadores de talleres de maquinado CNC (EE.UU./UE)",
+  "problema": "Leer RFQs por email con planos y armar cotizaciones lleva horas por pieza.",
+  "solucion": "Agente que lee el email, extrae planos STEP/PDF, estima tiempo de máquina y redacta la cotización para aprobar.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Foros r/machinists y r/CNC, Practical Machinist, videos de YouTube de talleres, SEO 'CNC quoting software'.",
+  "competidores": [
+   "Paperless Parts",
+   "Xometry (marketplace)"
+  ],
+  "por_que_ahora": "LLM + geometría 3D permiten estimar sin ingeniero de cotización.",
+  "ventaja_juan": "Conoce CAD/CAM y tiempos de maquinado reales.",
+  "riesgo_principal": "Competidores con fondos y ciclos de venta; precisión de estimación.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "cotización CNC"
+ },
+ {
+  "id": "G15-02",
+  "nombre": "Revisor de ladder PLC con IA",
+  "cliente_que_paga": "Ingenieros de controles e integradores de sistemas",
+  "problema": "Revisar código PLC antes de comisionar es manual y propenso a errores.",
+  "solucion": "Sube un export de TIA Portal/Studio 5000 y el agente detecta lógica riesgosa, nombres inconsistentes y falta de alarmas.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "PLCTalk, r/PLC, LinkedIn de controles, SEO 'PLC code review tool'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los LLM ya leen texto estructurado (SCL/ST, XML) de forma útil.",
+  "ventaja_juan": "Experiencia directa con Siemens y Rockwell.",
+  "riesgo_principal": "Formatos propietarios; confianza en seguridad industrial.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "revisión código PLC"
+ },
+ {
+  "id": "G15-03",
+  "nombre": "Agente de DFM para impresión 3D",
+  "cliente_que_paga": "Ingenieros de producto y makers que envían piezas a imprimir",
+  "problema": "Piezas fallan en impresión por paredes finas, voladizos y tolerancias.",
+  "solucion": "Agente que analiza STL/STEP, explica problemas de imprimibilidad y propone cambios de diseño.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Reddit r/3Dprinting, r/functionalprint, Printables/Thingiverse, SEO 'check STL for printability'.",
+  "competidores": [
+   "Netfabb (Autodesk)",
+   "slicers con comprobaciones básicas"
+  ],
+  "por_que_ahora": "Modelos multimodales y geometría en navegador son baratos.",
+  "ventaja_juan": "Firmware y conocimiento de impresoras 3D.",
+  "riesgo_principal": "Slicers gratuitos cubren parte (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "DFM impresión 3D"
+ },
+ {
+  "id": "G15-04",
+  "nombre": "Agente de conciliación para freight forwarders",
+  "cliente_que_paga": "Coordinadores de operaciones en agentes de carga",
+  "problema": "Cotejar facturas de navieras contra cotizaciones se hace a mano en hojas de cálculo.",
+  "solucion": "Agente que lee facturas PDF y cotizaciones, marca diferencias y prepara disputas.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Comunidades de LinkedIn de logística, SEO 'freight invoice audit', directorios de integraciones de TMS.",
+  "competidores": [
+   "Cargowise (suite amplia)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Extracción de documentos con LLM ya es fiable y barata.",
+  "ventaja_juan": "Backend e integraciones; no hay ventaja industrial específica.",
+  "riesgo_principal": "Compradores B2B conservadores; ciclo de confianza.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "auditoría facturas carga"
+ },
+ {
+  "id": "G15-05",
+  "nombre": "Agente de respuestas a RFP técnicos",
+  "cliente_que_paga": "Gerentes de ingeniería de ventas en proveedores de maquinaria",
+  "problema": "Responder cuestionarios técnicos de clientes consume días de ingenieros.",
+  "solucion": "Agente que responde cuestionarios usando fichas técnicas y respuestas previas, con citas a la fuente.",
+  "precio_usd_mes": 249,
+  "canal_primeros_100": "SEO 'RFP response software for manufacturers', AppExchange/Marketplace de HubSpot.",
+  "competidores": [
+   "Loopio",
+   "Responsive (RFPIO)"
+  ],
+  "por_que_ahora": "RAG con citas ya es práctico; nicho industrial desatendido.",
+  "ventaja_juan": "Entiende documentación técnica industrial.",
+  "riesgo_principal": "Incumbentes fuertes en RFP general; requiere ventas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "respuestas RFP técnicos"
+ },
+ {
+  "id": "G15-06",
+  "nombre": "Agente de cumplimiento de reseñas para Airbnb",
+  "cliente_que_paga": "Anfitriones profesionales con 5-50 propiedades",
+  "problema": "Responder reseñas y mensajes de huéspedes consume horas semanales.",
+  "solucion": "Agente que redacta respuestas personalizadas y detecta problemas recurrentes por propiedad.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Grupos de Facebook de anfitriones, r/airbnb_hosts, SEO 'airbnb review response'.",
+  "competidores": [
+   "Hospitable",
+   "Guesty"
+  ],
+  "por_que_ahora": "PMS actuales ofrecen plantillas, no agentes.",
+  "ventaja_juan": "Ninguna específica.",
+  "riesgo_principal": "Incumbentes pueden añadirlo fácilmente (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "reseñas anfitriones"
+ },
+ {
+  "id": "G15-07",
+  "nombre": "Agente de notas clínicas para fisioterapeutas",
+  "cliente_que_paga": "Fisioterapeutas autónomos en EE.UU./Reino Unido",
+  "problema": "Escribir notas SOAP después de cada sesión come horas no facturables.",
+  "solucion": "Dicta la sesión y el agente genera la nota SOAP lista para pegar en su EHR.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Grupos de Facebook y Reddit r/physicaltherapy, SEO 'SOAP note generator physical therapy'.",
+  "competidores": [
+   "Heidi Health",
+   "Freed"
+  ],
+  "por_que_ahora": "Los scribes de IA ya demuestran demanda en medicina.",
+  "ventaja_juan": "Ninguna.",
+  "riesgo_principal": "Privacidad de datos de salud; competidores bien financiados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "notas SOAP fisioterapia"
+ },
+ {
+  "id": "G15-08",
+  "nombre": "Agente de fichas técnicas para Shopify industrial",
+  "cliente_que_paga": "Dueños de tiendas Shopify que venden piezas y repuestos",
+  "problema": "Crear fichas con especificaciones técnicas para miles de SKUs es manual.",
+  "solucion": "App que lee PDFs del fabricante y llena atributos, metacampos y descripciones.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'product data import' en Shopify App Store.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los catálogos B2B se mueven a Shopify.",
+  "ventaja_juan": "Entiende nomenclatura técnica de piezas.",
+  "riesgo_principal": "Dependencia de Shopify.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "fichas técnicas catálogo"
+ },
+ {
+  "id": "G15-09",
+  "nombre": "Agente de diagnóstico de fallas de impresora 3D",
+  "cliente_que_paga": "Operadores de granjas de impresión 3D y Etsy sellers",
+  "problema": "Fallas de impresión causan desperdicio y horas de prueba y error.",
+  "solucion": "Agente que lee logs de Klipper/Marlin y fotos, y diagnostica la causa con pasos de corrección.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Foros de Klipper, Discord de Voron, r/FixMyPrint.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los logs de Klipper son texto estructurado y la comunidad es grande.",
+  "ventaja_juan": "Experiencia en firmware de impresoras 3D.",
+  "riesgo_principal": "Precio bajo; muchos usuarios esperan ayuda gratis (F5).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "diagnóstico impresora 3D"
+ },
+ {
+  "id": "G15-10",
+  "nombre": "Agente de entradas de Plaid a QuickBooks",
+  "cliente_que_paga": "Contadores independientes con clientes de e-commerce",
+  "problema": "Categorizar transacciones y conciliar ventas de marketplaces es repetitivo.",
+  "solucion": "Agente que categoriza y concilia pagos de Amazon, Shopify y Stripe en el libro.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "QuickBooks App Store, búsqueda 'Amazon reconciliation QuickBooks'.",
+  "competidores": [
+   "A2X",
+   "Link My Books"
+  ],
+  "por_que_ahora": "Hay incumbentes consolidados.",
+  "ventaja_juan": "Ninguna.",
+  "riesgo_principal": "Incumbentes fuertes (posible F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "conciliación e-commerce"
+ },
+ {
+  "id": "G15-11",
+  "nombre": "Agente de permisos de construcción",
+  "cliente_que_paga": "Contratistas residenciales y diseñadores",
+  "problema": "Preparar paquetes de permisos municipales consume semanas.",
+  "solucion": "Agente que revisa requisitos del municipio y arma la lista de documentos y formularios.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Grupos de contratistas en Facebook, SEO 'building permit checklist [city]'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Datos municipales dispersos que un agente puede unificar.",
+  "ventaja_juan": "Lectura de planos CAD.",
+  "riesgo_principal": "Cobertura por municipio es enorme.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "paquetes permisos obra"
+ },
+ {
+  "id": "G15-12",
+  "nombre": "Agente de inventario de repuestos de mantenimiento",
+  "cliente_que_paga": "Planificadores de mantenimiento en plantas medianas",
+  "problema": "Los repuestos críticos se agotan o se duplican entre almacenes.",
+  "solucion": "Agente que lee el CMMS y sugiere mínimos/máximos, duplicados y alternativas.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "SEO 'MRO inventory optimization', foros de reliability (Reliabilityweb).",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los CMMS tienen datos pero poca analítica.",
+  "ventaja_juan": "Conoce entornos de planta y PLC.",
+  "riesgo_principal": "Requiere integraciones con CMMS; ventas largas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "repuestos mantenimiento"
+ },
+ {
+  "id": "G15-13",
+  "nombre": "Agente de traducción de documentación técnica",
+  "cliente_que_paga": "Redactores técnicos en fabricantes pequeños",
+  "problema": "Traducir manuales manteniendo terminología y formato es lento.",
+  "solucion": "Agente con glosario por cliente que traduce manuales y conserva el formato.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'technical manual translation software', directorios de herramientas de redacción técnica.",
+  "competidores": [
+   "DeepL",
+   "memoQ"
+  ],
+  "por_que_ahora": "LLM manejan terminología con glosarios.",
+  "ventaja_juan": "Terminología industrial en español/inglés.",
+  "riesgo_principal": "DeepL cubre mucho (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "traducción manuales técnicos"
+ },
+ {
+  "id": "G15-14",
+  "nombre": "Agente de cotización de impresión bajo demanda",
+  "cliente_que_paga": "Operadores de servicios de impresión 3D",
+  "problema": "Cotizar archivos subidos por clientes consume tiempo y se hace a ojo.",
+  "solucion": "Widget que analiza STL, calcula material y tiempo, y devuelve precio automático.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Reddit r/3Dprinting, Shopify App Store 'custom 3D print quote'.",
+  "competidores": [
+   "Craftcloud",
+   "Treatstock"
+  ],
+  "por_que_ahora": "Hay widgets, pero pocos con agente y reglas propias.",
+  "ventaja_juan": "Firmware de 3D y geometría.",
+  "riesgo_principal": "Marketplaces con cotizador propio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "cotizador impresión 3D"
+ },
+ {
+  "id": "G15-15",
+  "nombre": "Agente de informes de inspección",
+  "cliente_que_paga": "Inspectores de edificios y de campo",
+  "problema": "Redactar informes con fotos lleva horas tras cada visita.",
+  "solucion": "Sube fotos y notas de voz; el agente genera el informe con hallazgos por sección.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Foros de inspectores (InterNACHI), SEO 'home inspection report software AI'.",
+  "competidores": [
+   "Spectora",
+   "ISN"
+  ],
+  "por_que_ahora": "Visión por computadora barata.",
+  "ventaja_juan": "Ninguna.",
+  "riesgo_principal": "Software de inspección incumbente integra IA.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "informes inspección"
+ },
+ {
+  "id": "G15-16",
+  "nombre": "Agente de reclamos de garantía",
+  "cliente_que_paga": "Gerentes de posventa de fabricantes pequeños",
+  "problema": "Procesar reclamos y validar números de serie es manual.",
+  "solucion": "Agente que valida el reclamo, pide evidencia y prepara la resolución.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Marketplace de Zendesk y Freshdesk, SEO 'warranty claim automation'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los tickets son texto con adjuntos que LLM resumen bien.",
+  "ventaja_juan": "Backend e integraciones.",
+  "riesgo_principal": "Venta B2B requiere confianza.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "reclamos garantía"
+ },
+ {
+  "id": "G15-17",
+  "nombre": "Agente de scripts G-code",
+  "cliente_que_paga": "Operadores de CNC y makers avanzados",
+  "problema": "Depurar G-code y postprocesadores es un cuello de botella.",
+  "solucion": "Agente que revisa G-code, detecta colisiones y errores comunes y explica el postprocesador.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "r/hobbycnc, r/CNC, foros de LinuxCNC, SEO 'G-code checker'.",
+  "competidores": [
+   "CAMotics (simulador gratis)"
+  ],
+  "por_que_ahora": "LLM leen G-code y explican; hay pocas herramientas.",
+  "ventaja_juan": "CAD/CAM y comprensión de G-code.",
+  "riesgo_principal": "Simuladores gratis cubren parte (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "revisión G-code"
+ },
+ {
+  "id": "G15-18",
+  "nombre": "Agente de cumplimiento de etiquetas",
+  "cliente_que_paga": "Vendedores de Amazon FBA con productos regulados",
+  "problema": "Verificar etiquetas y requisitos por país evita rechazos.",
+  "solucion": "Agente que revisa etiquetas e imágenes contra requisitos de cada marketplace.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Grupos de vendedores FBA, SEO 'Amazon compliance label check'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Rechazos de listados cuestan dinero cada semana.",
+  "ventaja_juan": "Ninguna.",
+  "riesgo_principal": "Requisitos legales cambian; responsabilidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "revisión etiquetas"
+ },
+ {
+  "id": "G15-19",
+  "nombre": "Agente de triage de issues para mantenedores",
+  "cliente_que_paga": "Mantenedores de open source con patrocinio",
+  "problema": "Clasificar issues y duplicados consume tiempo de voluntarios.",
+  "solucion": "GitHub App que etiqueta, detecta duplicados y pide datos faltantes.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace búsqueda 'issue triage'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los mantenedores sufren agotamiento.",
+  "ventaja_juan": "Stack de desarrollador.",
+  "riesgo_principal": "Precio bajo; GitHub puede lanzarlo nativo (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "triage issues GitHub"
+ },
+ {
+  "id": "G15-20",
+  "nombre": "Agente de BOM y compras desde CAD",
+  "cliente_que_paga": "Ingenieros de compras en fabricantes de equipo pequeño",
+  "problema": "Armar la lista de materiales y buscar proveedores desde ensamblajes CAD es manual.",
+  "solucion": "Sube un ensamblaje STEP; el agente extrae la BOM, normaliza piezas y sugiere proveedores y alternativas.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "Foros de SolidWorks y r/SolidWorks, SEO 'STEP to BOM'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los LLM normalizan descripciones de piezas.",
+  "ventaja_juan": "CAD y SolidWorks.",
+  "riesgo_principal": "Cobertura de catálogos de proveedores.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "BOM desde CAD"
+ }
+]

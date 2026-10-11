@@ -1,0 +1,362 @@
+[
+ {
+  "id": "G19-01",
+  "nombre": "Linter de PLC Structured Text",
+  "cliente_que_paga": "Ingenieros de control e integradores",
+  "problema": "El código ST/SCL se revisa a mano y los errores aparecen en puesta en marcha.",
+  "solucion": "Linter y reglas de estilo (IEC 61131-3) para ST/SCL en CI, con reporte en pull requests.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'structured text linter' y GitHub Marketplace; foros PLCtalk y r/PLC",
+  "competidores": [
+   "Productos de análisis estático de los fabricantes (sin verificar)"
+  ],
+  "por_que_ahora": "Los PLC pasan a Git y CI (PLCopen XML, TIA Openness).",
+  "ventaja_juan": "Conozco ST/SCL y TIA Portal.",
+  "riesgo_principal": "Formatos propietarios cerrados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "lint PLC ST"
+ },
+ {
+  "id": "G19-02",
+  "nombre": "Git diff para proyectos PLC",
+  "cliente_que_paga": "Integradores y OEMs con varios técnicos",
+  "problema": "Los proyectos PLC binarios no se comparan ni se revisan por cambios.",
+  "solucion": "Exporta proyectos a texto (PLCopen XML/AWL) y muestra diffs legibles en web.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'compare TIA Portal projects'; foros PLCtalk, r/PLC",
+  "competidores": [
+   "Siemens VCI (sin verificar)"
+  ],
+  "por_que_ahora": "Auditorías de cambios y control de versiones en OT.",
+  "ventaja_juan": "Uso TIA Portal y Studio 5000.",
+  "riesgo_principal": "El proveedor puede incluir la función nativa.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "diff proyectos PLC"
+ },
+ {
+  "id": "G19-03",
+  "nombre": "Documentador automático de PLC",
+  "cliente_que_paga": "Integradores de sistemas",
+  "problema": "Documentar la lógica del PLC para el cliente cuesta horas por proyecto.",
+  "solucion": "Genera manual de operación y lista de E/S a partir del export del proyecto.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'PLC documentation generator'; YouTube de tutoriales de automatización",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los clientes exigen documentación en entregas.",
+  "ventaja_juan": "Conozco la estructura de proyectos PLC.",
+  "riesgo_principal": "Cada marca exporta distinto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "documentación PLC"
+ },
+ {
+  "id": "G19-04",
+  "nombre": "Conversor de tags SCADA",
+  "cliente_que_paga": "Ingenieros SCADA",
+  "problema": "Migrar tags entre Ignition, WinCC y otros se hace con hojas de cálculo.",
+  "solucion": "Convierte y valida bases de tags entre plataformas SCADA.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'migrate WinCC to Ignition'; foro de Inductive Automation",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Migraciones de SCADA legados a plataformas modernas.",
+  "ventaja_juan": "Conozco SCADA y PLC.",
+  "riesgo_principal": "Mercado de nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "migración tags SCADA"
+ },
+ {
+  "id": "G19-05",
+  "nombre": "Calculadora de OEE por CSV",
+  "cliente_que_paga": "Gerentes de planta y mejora continua",
+  "problema": "Calcular OEE en Excel es manual y los sistemas MES son caros.",
+  "solucion": "Sube CSV de paros y producción y obtiene OEE y Pareto con enlaces compartibles.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'OEE calculator'; r/manufacturing y LinkedIn",
+  "competidores": [
+   "Vorne, Evocon (sin verificar precios)"
+  ],
+  "por_que_ahora": "Presión por productividad en plantas medianas.",
+  "ventaja_juan": "Conozco la operación industrial.",
+  "riesgo_principal": "Muchas hojas gratis existen (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "OEE autoservicio"
+ },
+ {
+  "id": "G19-06",
+  "nombre": "Alertas de OT por email",
+  "cliente_que_paga": "Técnicos de mantenimiento",
+  "problema": "Los paros se detectan tarde sin SCADA completo.",
+  "solucion": "Pasarela que lee Modbus/OPC UA y envía alertas por email o Telegram.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'Modbus alerts email'; GitHub y foros de Node-RED",
+  "competidores": [
+   "Node-RED (gratis, F1 posible)"
+  ],
+  "por_que_ahora": "Reutilizar equipos viejos con IoT barato.",
+  "ventaja_juan": "Conozco Modbus y PLC.",
+  "riesgo_principal": "Node-RED gratis cubre mucho.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "alertas Modbus OPC"
+ },
+ {
+  "id": "G19-07",
+  "nombre": "Pruebas simuladas de PLC",
+  "cliente_que_paga": "Programadores de PLC",
+  "problema": "Probar lógica sin planta es lento y requiere hardware.",
+  "solucion": "Corre pruebas unitarias en la nube sobre ST con simulación de E/S.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "Foros PLCtalk, r/PLC, SEO 'PLC unit testing'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Interés en DevOps industrial y pruebas virtuales.",
+  "ventaja_juan": "Programo PLC y backend.",
+  "riesgo_principal": "Cobertura limitada de lenguajes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "pruebas unitarias PLC"
+ },
+ {
+  "id": "G19-08",
+  "nombre": "Visor web de DXF y STEP",
+  "cliente_que_paga": "Desarrolladores de SaaS de manufactura",
+  "problema": "Mostrar vistas previas CAD en la web exige librerías complejas.",
+  "solucion": "API que convierte STEP/DXF a glTF/SVG/PNG para incrustar.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'step to gltf api'; directorios de APIs",
+  "competidores": [
+   "CAD Exchanger, Autodesk Platform Services (sin verificar precios)"
+  ],
+  "por_que_ahora": "Más SaaS de cotización de piezas.",
+  "ventaja_juan": "Conozco CAD y software casi gratis.",
+  "riesgo_principal": "Incumbentes con SDK grandes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "API de vista CAD"
+ },
+ {
+  "id": "G19-09",
+  "nombre": "Extractor de BOM desde planos",
+  "cliente_que_paga": "Compradores en manufactura",
+  "problema": "Pasar planos PDF a una lista de materiales se hace a mano.",
+  "solucion": "Extrae BOM de planos y PDF a Excel con revisión.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'extract BOM from PDF drawing'; LinkedIn de ingeniería",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Modelos de visión y OCR mejores y baratos.",
+  "ventaja_juan": "Leo planos de SolidWorks y AutoCAD.",
+  "riesgo_principal": "La precisión OCR puede fallar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "BOM desde planos"
+ },
+ {
+  "id": "G19-10",
+  "nombre": "Calculadora de coste de impresión 3D",
+  "cliente_que_paga": "Granjas de impresión 3D",
+  "problema": "Cotizar piezas impresas en 3D es subjetivo y lento.",
+  "solucion": "Cotiza por geometría, material y tiempo, con widget embebible.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplaces de plugins para Shopify y WooCommerce; SEO",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crece la manufactura bajo demanda.",
+  "ventaja_juan": "Conozco firmware de impresoras 3D.",
+  "riesgo_principal": "Competidores de cotización instantánea.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "cotizador impresión 3D"
+ },
+ {
+  "id": "G19-11",
+  "nombre": "Generador de rutas G-code",
+  "cliente_que_paga": "Talleres CNC pequeños",
+  "problema": "Programar CAM simples consume tiempo para piezas repetitivas.",
+  "solucion": "Plantillas paramétricas de G-code para fresado básico.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'G-code generator'; r/hobbycnc y r/CNC",
+  "competidores": [
+   "Fusion 360 (sin verificar)"
+  ],
+  "por_que_ahora": "Más talleres pequeños y hobistas.",
+  "ventaja_juan": "Conozco CAM.",
+  "riesgo_principal": "Gratis por CAM gratuitos (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "G-code paramétrico"
+ },
+ {
+  "id": "G19-12",
+  "nombre": "Verificador de planos DXF",
+  "cliente_que_paga": "Talleres de corte láser",
+  "problema": "Los DXF mal dibujados provocan rechazos y retrabajos.",
+  "solucion": "Valida DXF (líneas abiertas, duplicados) y corrige automáticamente.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'DXF checker'; foros de láser",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Pedidos online de corte con archivos de clientes.",
+  "ventaja_juan": "Manejo DXF y AutoCAD.",
+  "riesgo_principal": "Tamaño de mercado limitado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "validación DXF"
+ },
+ {
+  "id": "G19-13",
+  "nombre": "Registro digital de calibraciones",
+  "cliente_que_paga": "Laboratorios y mantenimiento",
+  "problema": "Los certificados de calibración se pierden en papel.",
+  "solucion": "Registro con recordatorios y repositorio de certificados.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'calibration management software'; ISO 17025 comunidades",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auditorías ISO más estrictas.",
+  "ventaja_juan": "Conozco instrumentación industrial.",
+  "riesgo_principal": "Competidores establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "gestión calibraciones"
+ },
+ {
+  "id": "G19-14",
+  "nombre": "Gestor de repuestos MRO",
+  "cliente_que_paga": "Mantenimiento de plantas medianas",
+  "problema": "El inventario de repuestos se lleva en Excel y faltan piezas.",
+  "solucion": "Inventario de repuestos con alertas y búsqueda por número de parte.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'spare parts inventory software'; LinkedIn",
+  "competidores": [
+   "UpKeep, Fiix (sin verificar precios)"
+  ],
+  "por_que_ahora": "Cadenas de suministro inestables.",
+  "ventaja_juan": "Entiendo repuestos industriales.",
+  "riesgo_principal": "CMMS competidores fuertes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "inventario repuestos"
+ },
+ {
+  "id": "G19-15",
+  "nombre": "Bitácora de turnos",
+  "cliente_que_paga": "Supervisores de producción",
+  "problema": "Las notas de turno se pierden entre papeles y chats.",
+  "solucion": "App de bitácora con búsqueda y reportes por turno.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'shift handover log'; r/manufacturing",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Rotación de personal exige traspasos.",
+  "ventaja_juan": "Conozco turnos de planta.",
+  "riesgo_principal": "Producto simple, fácil de copiar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "bitácora de turnos"
+ },
+ {
+  "id": "G19-16",
+  "nombre": "Etiquetas de seguridad LOTO",
+  "cliente_que_paga": "Seguridad industrial",
+  "problema": "Los procedimientos de bloqueo y etiquetado se elaboran manualmente.",
+  "solucion": "Genera procedimientos LOTO con fotos y exporta a PDF.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'LOTO procedure template'; grupos de EHS en LinkedIn",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Presión regulatoria OSHA.",
+  "ventaja_juan": "Conozco máquinas y energías.",
+  "riesgo_principal": "Plantillas gratis abundan (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "procedimientos LOTO"
+ },
+ {
+  "id": "G19-17",
+  "nombre": "Diagramas eléctricos desde texto",
+  "cliente_que_paga": "Ingenieros eléctricos",
+  "problema": "Dibujar esquemas en CAD toma horas.",
+  "solucion": "Describe el circuito en texto y genera un esquema editable.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'electrical schematic generator'; r/electronics",
+  "competidores": [
+   "EPLAN, QElectroTech (sin verificar)"
+  ],
+  "por_que_ahora": "IA que genera diagramas desde texto.",
+  "ventaja_juan": "Conozco AutoCAD Electrical.",
+  "riesgo_principal": "Calidad de la IA incierta.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "esquemas eléctricos IA"
+ },
+ {
+  "id": "G19-18",
+  "nombre": "Gemelo de datos para pruebas SCADA",
+  "cliente_que_paga": "Integradores SCADA",
+  "problema": "Probar HMI sin planta real requiere simuladores costosos.",
+  "solucion": "Generador de señales simuladas Modbus/OPC UA configurable en la nube.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'OPC UA simulator'; GitHub y foros de Inductive Automation",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Pruebas previas a puesta en marcha.",
+  "ventaja_juan": "Conozco SCADA y PLC.",
+  "riesgo_principal": "Simuladores gratuitos existen (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "simulador señales OPC"
+ },
+ {
+  "id": "G19-19",
+  "nombre": "Auditor de seguridad OT",
+  "cliente_que_paga": "Ingenieros de planta",
+  "problema": "Revisar configuración de seguridad de PLC y redes OT es manual.",
+  "solucion": "Escanea exports de configuración y reporta riesgos según IEC 62443.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'IEC 62443 checklist'; LinkedIn de ciberseguridad OT",
+  "competidores": [
+   "Claroty, Nozomi (sin verificar; enfoque empresa)"
+  ],
+  "por_que_ahora": "Regulación y seguros de ciberseguridad industrial.",
+  "ventaja_juan": "Conozco PLC y redes industriales.",
+  "riesgo_principal": "Cumplimiento delicado, riesgo de responsabilidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "auditoría seguridad OT"
+ },
+ {
+  "id": "G19-20",
+  "nombre": "Calculadora de ahorro de energía en motores",
+  "cliente_que_paga": "Ingenieros de planta",
+  "problema": "Justificar variadores de frecuencia exige cálculos dispersos.",
+  "solucion": "Calcula retorno de inversión de VFD con datos de placa.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'VFD energy savings calculator'; foros de ingeniería",
+  "competidores": [
+   "fabricantes de variadores con calculadoras gratuitas (F1 posible)"
+  ],
+  "por_que_ahora": "Costos de energía elevados.",
+  "ventaja_juan": "Conozco motores y automatización.",
+  "riesgo_principal": "Incumbentes gratuitos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "ahorro energía VFD"
+ }
+]

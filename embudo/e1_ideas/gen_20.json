@@ -1,0 +1,378 @@
+[
+ {
+  "id": "G20-01",
+  "nombre": "Print Farm Queue Optimizer",
+  "cliente_que_paga": "Operadores de granjas de impresión 3D (10-200 impresoras)",
+  "problema": "Los trabajos se asignan a mano y las impresoras quedan ociosas o se mezclan filamentos.",
+  "solucion": "SaaS que se conecta a Klipper/Moonraker y OctoPrint, y agenda trabajos por filamento, tiempo y mantenimiento.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Subreddits r/3Dprinting y r/PrintFarm, y Discord de Klipper/Voron con plugin gratuito de entrada.",
+  "competidores": [
+   "3DPrinterOS",
+   "Obico",
+   "AstroPrint (sin verificar precios)"
+  ],
+  "por_que_ahora": "Las granjas Etsy/Shopify de impresión crecen y las impresoras Klipper baratas son comunes.",
+  "ventaja_juan": "Conoce firmware de impresoras 3D y la API de Klipper.",
+  "riesgo_principal": "Un incumbente con plan gratuito puede cubrir lo básico.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "cola granja impresión"
+ },
+ {
+  "id": "G20-02",
+  "nombre": "Slicer Profile Cloud",
+  "cliente_que_paga": "Makers avanzados y pequeños talleres con varias impresoras",
+  "problema": "Los perfiles de PrusaSlicer/Orca/Cura se desincronizan y se pierden entre máquinas.",
+  "solucion": "Control de versiones y sincronización en la nube de perfiles de slicer con diff y rollback.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Búsqueda 'sync orca slicer profiles' y foros de Orca/Prusa en GitHub Discussions.",
+  "competidores": [
+   "Git manual",
+   "Thingiverse (no cubre perfiles)"
+  ],
+  "por_que_ahora": "Orca Slicer ha dividido el ecosistema en forks con perfiles incompatibles.",
+  "ventaja_juan": "Conoce formatos de config de slicers.",
+  "riesgo_principal": "Precio bajo exige muchos pagadores; podría fallar F5.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "sync perfiles slicer"
+ },
+ {
+  "id": "G20-03",
+  "nombre": "Print Failure Cost Tracker",
+  "cliente_que_paga": "Vendedores de Etsy/Shopify que imprimen en 3D",
+  "problema": "No saben el costo real por pieza (filamento, energía, fallos, tiempo).",
+  "solucion": "Calculadora que lee G-code y telemetría para costo por pieza, margen y precio sugerido.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda 'etsy 3d print pricing calculator' y comunidades de Etsy sellers 3D.",
+  "competidores": [
+   "Calculadoras web gratuitas",
+   "Prusa calculators (sin verificar)"
+  ],
+  "por_que_ahora": "Auge de microempresas de impresión 3D bajo demanda.",
+  "ventaja_juan": "Entiende G-code y costos de manufactura.",
+  "riesgo_principal": "Existen calculadoras gratuitas (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "costeo impresión 3D"
+ },
+ {
+  "id": "G20-04",
+  "nombre": "G-code Linter Pro",
+  "cliente_que_paga": "Operadores de impresoras 3D y CNC en talleres",
+  "problema": "Un G-code erróneo daña la máquina o desperdicia horas de impresión.",
+  "solucion": "Validador en navegador y CLI que detecta colisiones, límites de eje y errores de temperatura antes de imprimir.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Búsqueda 'gcode analyzer' y repositorios GitHub de Klipper; plugin de OctoPrint.",
+  "competidores": [
+   "Gcode viewers gratuitos",
+   "NC Viewer (sin verificar)"
+  ],
+  "por_que_ahora": "Más firmware personalizado y máquinas CoreXY caseras.",
+  "ventaja_juan": "Experiencia directa con firmware y G-code.",
+  "riesgo_principal": "Visores gratuitos cubren parte del valor.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "validación G-code"
+ },
+ {
+  "id": "G20-05",
+  "nombre": "STEP Preview API",
+  "cliente_que_paga": "Desarrolladores de SaaS de manufactura",
+  "problema": "Necesitan convertir STEP/IGES a glTF para mostrar piezas en la web sin construir un kernel CAD.",
+  "solucion": "API REST de conversión y vista previa de CAD a glTF/PNG con pago por uso.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'step to gltf api', RapidAPI y directorios de APIs.",
+  "competidores": [
+   "CAD Exchanger (sin verificar)",
+   "Autodesk Forge/APS",
+   "Open CASCADE (librería)"
+  ],
+  "por_que_ahora": "Los marketplaces de piezas bajo demanda necesitan visores 3D embebidos.",
+  "ventaja_juan": "Conoce CAD y formatos STEP.",
+  "riesgo_principal": "Autodesk APS ofrece alternativa de plataforma grande.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "API conversión CAD"
+ },
+ {
+  "id": "G20-06",
+  "nombre": "Instant Print Quote Widget",
+  "cliente_que_paga": "Servicios de impresión 3D bajo demanda",
+  "problema": "Cotizar archivos STL por correo es lento y pierde clientes.",
+  "solucion": "Widget embebible que analiza STL, calcula volumen/soporte y da precio instantáneo.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "App Store de Shopify/WooCommerce buscando 'instant quote 3D printing'.",
+  "competidores": [
+   "Craftcloud (sin verificar)",
+   "Xometry (marketplace)"
+  ],
+  "por_que_ahora": "Muchas tiendas pequeñas ofrecen impresión bajo demanda.",
+  "ventaja_juan": "Conoce slicing y análisis de mallas.",
+  "riesgo_principal": "Depende de plataformas de e-commerce.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "cotizador STL"
+ },
+ {
+  "id": "G20-07",
+  "nombre": "Filament Inventory Tracker",
+  "cliente_que_paga": "Granjas y makers con muchos carretes",
+  "problema": "Se acaba el filamento a mitad de impresión y no hay trazabilidad.",
+  "solucion": "App con escaneo QR de carretes, peso restante y alertas integradas a OctoPrint/Klipper.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Plugin en repos de OctoPrint y Spoolman en r/3Dprinting.",
+  "competidores": [
+   "Spoolman (gratis)",
+   "Hojas de cálculo"
+  ],
+  "por_que_ahora": "Spoolman popularizó el seguimiento pero sin SaaS.",
+  "ventaja_juan": "Entiende el flujo de filamento.",
+  "riesgo_principal": "Spoolman gratuito sugiere F1 fuerte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "inventario filamento"
+ },
+ {
+  "id": "G20-08",
+  "nombre": "Printer Telemetry Alerts",
+  "cliente_que_paga": "Operadores de granjas de impresión",
+  "problema": "Fallos nocturnos arruinan lotes y nadie se entera a tiempo.",
+  "solucion": "Agente ligero que lee Klipper y manda alertas a Slack/Telegram con detección de anomalías.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de plugins de OctoPrint/Klipper y búsqueda 'klipper alerts'.",
+  "competidores": [
+   "Obico",
+   "OctoEverywhere (sin verificar)"
+  ],
+  "por_que_ahora": "Más impresoras en lotes sin supervisión.",
+  "ventaja_juan": "Conoce firmware y telemetría.",
+  "riesgo_principal": "Incumbentes con plan gratuito.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "alertas impresora 3D"
+ },
+ {
+  "id": "G20-09",
+  "nombre": "DXF Nest Optimizer",
+  "cliente_que_paga": "Talleres de corte láser y plasma",
+  "problema": "Pierden material por mal anidado de piezas.",
+  "solucion": "Servicio web que anida DXF y exporta para láser/CNC con reporte de desperdicio.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Búsqueda 'dxf nesting software' y foros de láser/CNC.",
+  "competidores": [
+   "DeepNest (gratis)",
+   "SigmaNEST (caro)"
+  ],
+  "por_que_ahora": "Costos de materia prima altos presionan a talleres.",
+  "ventaja_juan": "Conoce DXF y CAM.",
+  "riesgo_principal": "DeepNest gratuito (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "anidado DXF"
+ },
+ {
+  "id": "G20-10",
+  "nombre": "Gcode-to-Lab Reports",
+  "cliente_que_paga": "Educadores de makerspaces y escuelas",
+  "problema": "No pueden documentar uso de máquinas por alumno.",
+  "solucion": "Panel que registra trabajos por usuario/clase con reportes para el administrador.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Búsqueda 'makerspace management' y comunidades de educadores STEM.",
+  "competidores": [
+   "Makerspace software genéricos (sin verificar)"
+  ],
+  "por_que_ahora": "Más makerspaces escolares con impresoras.",
+  "ventaja_juan": "Conoce hardware de makerspaces.",
+  "riesgo_principal": "Ventas a escuelas son lentas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "gestión makerspace"
+ },
+ {
+  "id": "G20-11",
+  "nombre": "PLC Code Diff Viewer",
+  "cliente_que_paga": "Ingenieros de automatización con TIA Portal/Studio 5000",
+  "problema": "No pueden comparar versiones de proyectos PLC como código normal.",
+  "solucion": "Visor web de diff y control de versiones para exportaciones XML de PLC.",
+  "precio_usd_mes": 45,
+  "canal_primeros_100": "Búsqueda 'git for plc' y comunidades r/PLC y PLCtalk.",
+  "competidores": [
+   "Copia Rockwell (sin verificar)",
+   "VersionDog (sin verificar)"
+  ],
+  "por_que_ahora": "Industria 4.0 empuja DevOps a planta.",
+  "ventaja_juan": "Experto en TIA Portal y Studio 5000.",
+  "riesgo_principal": "Ciclos de aprobación en empresas lentos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "control versiones PLC"
+ },
+ {
+  "id": "G20-12",
+  "nombre": "Spare Parts Printability Checker",
+  "cliente_que_paga": "Equipos de mantenimiento industrial",
+  "problema": "No saben si un repuesto se puede reemplazar por impresión 3D.",
+  "solucion": "Subida de CAD y análisis de material/costo vs repuesto OEM.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'replace spare part 3d print' y LinkedIn groups de mantenimiento.",
+  "competidores": [
+   "Servicios de impresión industrial (sin verificar)"
+  ],
+  "por_que_ahora": "Cadenas de suministro inestables.",
+  "ventaja_juan": "Conoce materiales y CAD.",
+  "riesgo_principal": "Mercado difícil de alcanzar sin ventas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "repuestos impresión 3D"
+ },
+ {
+  "id": "G20-13",
+  "nombre": "Maker Product Compliance Pack",
+  "cliente_que_paga": "Vendedores de productos físicos hechos por makers",
+  "problema": "No saben qué certificaciones necesitan para vender en EU/US.",
+  "solucion": "Guías y checklists por categoría de producto con plantillas de documentos.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'CE marking small business' y Etsy seller forums.",
+  "competidores": [
+   "Consultoras (sin verificar)"
+  ],
+  "por_que_ahora": "Nuevas regulaciones EU de seguridad de productos.",
+  "ventaja_juan": "Experiencia en fabricación.",
+  "riesgo_principal": "Riesgo legal por consejos incorrectos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "cumplimiento productos maker"
+ },
+ {
+  "id": "G20-14",
+  "nombre": "Resin Cure Logger",
+  "cliente_que_paga": "Usuarios de impresoras de resina y laboratorios dentales/joyería",
+  "problema": "La post-cura inconsistente arruina piezas sin trazabilidad.",
+  "solucion": "Registro de ciclos de lavado y cura con QR por lote.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Comunidades r/resinprinting y grupos de joyería con impresión 3D.",
+  "competidores": [
+   "Registro manual"
+  ],
+  "por_que_ahora": "Impresión de resina en joyería y dental crece.",
+  "ventaja_juan": "Conoce procesos de impresión.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "registro cura resina"
+ },
+ {
+  "id": "G20-15",
+  "nombre": "Firmware Config Builder",
+  "cliente_que_paga": "Constructores de impresoras 3D DIY",
+  "problema": "Configurar Marlin/Klipper para cada placa es propenso a errores.",
+  "solucion": "Generador guiado de configuración con validación y pruebas simuladas.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Búsqueda 'klipper config generator' y Discord de Voron.",
+  "competidores": [
+   "Generadores comunitarios gratuitos"
+  ],
+  "por_que_ahora": "Cada mes salen nuevas placas y toolheads.",
+  "ventaja_juan": "Experiencia directa con firmware.",
+  "riesgo_principal": "Hay incumbentes gratuitos en comunidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "configurador firmware"
+ },
+ {
+  "id": "G20-16",
+  "nombre": "3D Model Licensing Tracker",
+  "cliente_que_paga": "Vendedores de STL y diseñadores 3D",
+  "problema": "Se copian modelos y venden sin licencia.",
+  "solucion": "Servicio de licencias con enlaces únicos y marca de agua en STL.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'sell stl files' y grupos de diseñadores en Patreon/Cults.",
+  "competidores": [
+   "Gumroad",
+   "Cults3D"
+  ],
+  "por_que_ahora": "Creadores de STL migran a tiendas propias.",
+  "ventaja_juan": "Conoce formatos de malla.",
+  "riesgo_principal": "Las plataformas existentes pueden copiarlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "licencias modelos 3D"
+ },
+ {
+  "id": "G20-17",
+  "nombre": "CNC Job Costing Tool",
+  "cliente_que_paga": "Talleres de maquinado pequeños",
+  "problema": "Estiman a ojo y pierden margen.",
+  "solucion": "Importa CAM y estima tiempo de máquina, herramental y costo.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "Búsqueda 'cnc job costing software' y foros Practical Machinist.",
+  "competidores": [
+   "Paperless Parts (sin verificar)",
+   "ProShop (sin verificar)"
+  ],
+  "por_que_ahora": "Inflación de costos y demanda de cotizaciones rápidas.",
+  "ventaja_juan": "Conoce CAM y manufactura.",
+  "riesgo_principal": "Incumbentes con más funciones.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "costeo CNC"
+ },
+ {
+  "id": "G20-18",
+  "nombre": "Printer Fleet Firmware Updater",
+  "cliente_que_paga": "Operadores de granjas con impresoras mixtas",
+  "problema": "Actualizar firmware en decenas de máquinas es manual.",
+  "solucion": "Panel que orquesta actualizaciones y respaldos de configuración por lote.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Plugins de Klipper/Moonraker y Discord de granjas.",
+  "competidores": [
+   "Scripts caseros"
+  ],
+  "por_que_ahora": "Granjas más grandes con más máquinas.",
+  "ventaja_juan": "Experiencia directa en firmware.",
+  "riesgo_principal": "Riesgo de brickear equipos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "actualización firmware flota"
+ },
+ {
+  "id": "G20-19",
+  "nombre": "Assembly Instruction Generator",
+  "cliente_que_paga": "Pequeñas marcas de hardware",
+  "problema": "Crear manuales de ensamblaje es lento y costoso.",
+  "solucion": "Sube un STEP y obtén instrucciones paso a paso con renders.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'assembly instructions generator' y Kickstarter creators.",
+  "competidores": [
+   "Manuales manuales",
+   "Herramientas de documentación técnica (sin verificar)"
+  ],
+  "por_que_ahora": "El crowdfunding de hardware sigue activo.",
+  "ventaja_juan": "Conoce CAD y ensamblajes.",
+  "riesgo_principal": "IA general podría replicarlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "manuales ensamblaje CAD"
+ },
+ {
+  "id": "G20-20",
+  "nombre": "Tolerance Stack Calculator",
+  "cliente_que_paga": "Ingenieros de diseño mecánico y makers de piezas de precisión",
+  "problema": "Calcular acumulación de tolerancias en hojas de cálculo es lento y propenso a errores.",
+  "solucion": "Calculadora web que importa dimensiones de CAD y simula acumulación estadística de tolerancias.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Búsqueda 'tolerance stack up calculator' y comunidades r/MechanicalEngineering.",
+  "competidores": [
+   "Hojas de cálculo",
+   "CETOL (sin verificar)"
+  ],
+  "por_que_ahora": "Más diseño de producto distribuido con manufactura bajo demanda.",
+  "ventaja_juan": "Conoce SolidWorks y GD&T.",
+  "riesgo_principal": "Herramientas dentro de CAD pueden cubrirlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "análisis tolerancias"
+ }
+]

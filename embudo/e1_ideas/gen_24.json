@@ -1,0 +1,374 @@
+[
+ {
+  "id": "G24-01",
+  "nombre": "FilamentVault",
+  "cliente_que_paga": "Aficionados a impresión 3D con 10+ bobinas",
+  "problema": "No saben cuánto filamento queda ni qué ajustes funcionan por material.",
+  "solucion": "App web/móvil de inventario de filamento con perfiles de slicer por bobina, QR y alertas de recompra.",
+  "precio_usd_mes": 4,
+  "canal_primeros_100": "Posts en r/3Dprinting y r/BambuLab, YouTube de makers y listado en App Store/Play por 'filament tracker'.",
+  "competidores": [
+   "Spoolman (open source, gratis)"
+  ],
+  "por_que_ahora": "Boom de impresoras Bambu/Prusa con muchas bobinas por usuario.",
+  "ventaja_juan": "Conoce firmware y flujos de impresoras 3D.",
+  "riesgo_principal": "F1 parcial: Spoolman gratis; precio bajo exige volumen alto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "inventario filamento 3D"
+ },
+ {
+  "id": "G24-02",
+  "nombre": "PrintFarm Home",
+  "cliente_que_paga": "Makers que venden impresiones en Etsy con 3-10 impresoras",
+  "problema": "Cotizar y seguir pedidos y costos reales por pieza es manual.",
+  "solucion": "Calculadora de costo por impresión (material, energía, desgaste) con cola de pedidos y listados Etsy.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Grupos de Facebook de Etsy 3D print sellers, r/3Dprinting_business y YouTube de print-farm.",
+  "competidores": [
+   "Printago",
+   "3DPrinterOS (sin verificar precios)"
+  ],
+  "por_que_ahora": "Crecimiento de pequeñas granjas de impresión por marketplace.",
+  "ventaja_juan": "Domina impresión 3D y costos de manufactura.",
+  "riesgo_principal": "Incumbentes y hojas de cálculo gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "costos granjas impresión"
+ },
+ {
+  "id": "G24-03",
+  "nombre": "GCode Doctor",
+  "cliente_que_paga": "Dueños de impresoras 3D con fallos de calidad",
+  "problema": "Diagnosticar artefactos de impresión requiere prueba y error.",
+  "solucion": "Sube G-code/foto de la pieza y recibe diagnóstico y ajustes de perfil para tu slicer.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "SEO 'stringing fix', 'layer shift' y respuestas en r/FixMyPrint y foros de Bambu.",
+  "competidores": [
+   "Simplify3D guía de problemas (estática)",
+   "Obico (sin verificar funciones)"
+  ],
+  "por_que_ahora": "Los modelos de visión permiten diagnóstico por foto a bajo costo.",
+  "ventaja_juan": "Conoce firmware, G-code y cinemática de impresoras.",
+  "riesgo_principal": "Mercado de chatbots genéricos gratis podría cubrirlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "diagnóstico impresión 3D"
+ },
+ {
+  "id": "G24-04",
+  "nombre": "CNC Hobby Feeds",
+  "cliente_que_paga": "Dueños de CNC de escritorio (Shapeoko, X-Carve, 3018)",
+  "problema": "Elegir velocidades/avances por material y fresa es adivinar.",
+  "solucion": "Calculadora de feeds y speeds con biblioteca de fresas y perfiles de máquina, exporta ajustes a Carbide Create/Fusion.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "SEO 'feeds and speeds calculator', foros Carbide 3D y r/hobbycnc.",
+  "competidores": [
+   "G-Wizard (sin verificar precio)",
+   "Fusion 360 CAM (gratis personal)"
+  ],
+  "por_que_ahora": "Venta masiva de CNC de escritorio a precio accesible.",
+  "ventaja_juan": "Experiencia CAM y mecanizado.",
+  "riesgo_principal": "Fusion y fabricantes ofrecen herramientas gratis.",
+  "evidencia_url": "https://discourse.shapr3d.com/t/additional-subscription-plans/26010",
+  "angulo": "24",
+  "tema": "feeds speeds CNC"
+ },
+ {
+  "id": "G24-05",
+  "nombre": "GrowSheet",
+  "cliente_que_paga": "Cultivadores de plantas de interior/hidroponía",
+  "problema": "Parámetros de nutrientes y luz se gestionan en hojas sueltas.",
+  "solucion": "Planificador de cultivo con calendario, recetas de nutrientes, registro y recordatorios por especie.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "r/microgrowery, r/hydro y YouTube de hidroponía; App Store 'grow journal'.",
+  "competidores": [
+   "Planta/Greg (sin verificar) para plantas generales"
+  ],
+  "por_que_ahora": "Crece el cultivo doméstico y hidropónico.",
+  "ventaja_juan": "Poco; solo ingeniería de software.",
+  "riesgo_principal": "Mercado fragmentado y estacional.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "diario cultivo hidroponía"
+ },
+ {
+  "id": "G24-06",
+  "nombre": "SourdoughLab",
+  "cliente_que_paga": "Panaderos caseros de masa madre",
+  "problema": "Los resultados cambian con temperatura y hora de alimentación.",
+  "solucion": "Calculadora de fermentación con temperatura, hidratación y cronograma, con notificaciones.",
+  "precio_usd_mes": 4,
+  "canal_primeros_100": "Instagram/TikTok de panadería casera y r/Sourdough; búsqueda App Store 'sourdough'.",
+  "competidores": [
+   "Sourdough apps varias (sin verificar)"
+  ],
+  "por_que_ahora": "El pan casero sigue como hobby tras la pandemia.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Muchas apps gratuitas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "fermentación masa madre"
+ },
+ {
+  "id": "G24-07",
+  "nombre": "RC Tune Log",
+  "cliente_que_paga": "Aficionados a drones FPV y RC",
+  "problema": "Los ajustes PID y el historial de baterías se pierden entre setups.",
+  "solucion": "Registro de configuraciones Betaflight, baterías y vuelos con comparación de blackbox.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Foros FPV, r/Multicopter, YouTube de FPV y Discord de Betaflight.",
+  "competidores": [
+   "Betaflight Blackbox Explorer (gratis)",
+   "Plasmatree PID Analyzer (gratis)"
+  ],
+  "por_que_ahora": "FPV en crecimiento con componentes baratos.",
+  "ventaja_juan": "Conoce firmware embebido y control PID.",
+  "riesgo_principal": "Herramientas gratis cubren análisis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "registro FPV drones"
+ },
+ {
+  "id": "G24-08",
+  "nombre": "KnitPattern Pro",
+  "cliente_que_paga": "Tejedores y crocheteros que compran patrones",
+  "problema": "Ajustar patrones a talla y madeja requiere cálculos tediosos.",
+  "solucion": "Escala patrones al calibre y talla del usuario y genera instrucciones personalizadas.",
+  "precio_usd_mes": 7,
+  "canal_primeros_100": "Ravelry grupos, TikTok KnitTok y Pinterest.",
+  "competidores": [
+   "Ravelry (comunidad con herramientas gratis)"
+  ],
+  "por_que_ahora": "Auge de tejido como hobby en redes.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Ravelry domina la comunidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "patrones tejido personalizados"
+ },
+ {
+  "id": "G24-09",
+  "nombre": "Ham Log Cloud",
+  "cliente_que_paga": "Radioaficionados con licencia",
+  "problema": "Registros de contactos y diplomas (awards) están en software antiguo.",
+  "solucion": "Log web moderno con sincronización de LoTW/QRZ, mapas de DXCC y seguimiento de premios.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "Foros QRZ, r/amateurradio, clubes ARRL y canales de YouTube de HAM.",
+  "competidores": [
+   "QRZ (suscripción)",
+   "Club Log (sin verificar)"
+  ],
+  "por_que_ahora": "Radioafición se renueva con SDR y digital.",
+  "ventaja_juan": "Mente electrónica/industrial.",
+  "riesgo_principal": "Comunidad pequeña y apegada a gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "log radioaficionados"
+ },
+ {
+  "id": "G24-10",
+  "nombre": "AquaPlanner",
+  "cliente_que_paga": "Acuaristas de agua dulce y marina",
+  "problema": "Los parámetros de agua y dosificaciones se descontrolan.",
+  "solucion": "Seguimiento de parámetros con alertas y calculadoras de dosificación por tanque.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "r/Aquariums, r/ReefTank, foros Reef2Reef y YouTube acuarismo.",
+  "competidores": [
+   "Aquarimate (sin verificar)",
+   "Apex Fusion (hardware propio)"
+  ],
+  "por_que_ahora": "Acuarismo marino crece con tanques nano.",
+  "ventaja_juan": "Podría integrar sensores IoT/PLC.",
+  "riesgo_principal": "Competencia gratuita en hojas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "parámetros acuario"
+ },
+ {
+  "id": "G24-11",
+  "nombre": "Dyno Notes",
+  "cliente_que_paga": "Dueños de autos modificados y track days",
+  "problema": "Los datos de pista y ajustes están dispersos.",
+  "solucion": "Registro de ajustes de suspensión/neumáticos con comparación de vueltas y notas por circuito.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Foros de track days, r/Autocross, grupos de Facebook de club y YouTube.",
+  "competidores": [
+   "Harry's LapTimer (sin verificar)",
+   "Racelogic (hardware)"
+  ],
+  "por_que_ahora": "Auge de track days y coches usados modificados.",
+  "ventaja_juan": "Conocimiento mecánico/ingeniería.",
+  "riesgo_principal": "Mercado de nicho disperso.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "registro track day"
+ },
+ {
+  "id": "G24-12",
+  "nombre": "STL Library",
+  "cliente_que_paga": "Aficionados a miniaturas y bricolaje 3D con miles de STL",
+  "problema": "Los archivos STL están desordenados entre carpetas y nubes.",
+  "solucion": "Biblioteca local/nube con etiquetas, vista previa 3D, duplicados y búsqueda.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Reddit r/3Dprinting, Discord de miniaturas y YouTube de wargaming.",
+  "competidores": [
+   "Manyfold (open source)",
+   "Thangs (sin verificar)"
+  ],
+  "por_que_ahora": "Explosión de modelos descargados.",
+  "ventaja_juan": "Conoce formatos 3D y CAD.",
+  "riesgo_principal": "Open source gratis (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "organizador archivos STL"
+ },
+ {
+  "id": "G24-13",
+  "nombre": "TabletopForge",
+  "cliente_que_paga": "Dungeon masters y jugadores de mesa",
+  "problema": "Preparar sesiones, mapas y notas lleva horas.",
+  "solucion": "Gestor de campaña con generadores, notas enlazadas y exportación de handouts.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "r/DnD, Kickstarter hobby, TikTok DnD y DMs Guild.",
+  "competidores": [
+   "World Anvil",
+   "Kanka"
+  ],
+  "por_que_ahora": "Mesa y D&D en auge tras Baldur's Gate 3.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Mercado saturado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "herramientas campaña D&D"
+ },
+ {
+  "id": "G24-14",
+  "nombre": "WoodCut Optimizer",
+  "cliente_que_paga": "Carpinteros aficionados",
+  "problema": "Desperdician madera al planear cortes.",
+  "solucion": "Optimizador de despiece 2D con lista de compras y cortes para sierra de mesa.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "SEO 'cut list optimizer', YouTube de carpintería y r/woodworking.",
+  "competidores": [
+   "CutList Optimizer (sin verificar)",
+   "Cutlist Plus (sin verificar)"
+  ],
+  "por_que_ahora": "Auge DIY.",
+  "ventaja_juan": "Conoce nesting y CAM.",
+  "riesgo_principal": "Hay herramientas web gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "optimizador despiece madera"
+ },
+ {
+  "id": "G24-15",
+  "nombre": "PCB Review Lite",
+  "cliente_que_paga": "Hobbyistas de electrónica que mandan PCB",
+  "problema": "Errores de diseño detectados tras fabricar.",
+  "solucion": "Revisión automática de Gerber/KiCad con lista de problemas y sugerencias.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "r/PrintedCircuitBoard, foros KiCad y YouTube electrónica.",
+  "competidores": [
+   "Fabricantes con DRC gratis (JLCPCB)"
+  ],
+  "por_que_ahora": "Fabricación barata de PCB masifica el hobby.",
+  "ventaja_juan": "Conocimiento de electrónica industrial.",
+  "riesgo_principal": "Revisores gratuitos de fabricantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "revisión Gerber hobby"
+ },
+ {
+  "id": "G24-16",
+  "nombre": "RetroROM Cloud",
+  "cliente_que_paga": "Coleccionistas de juegos retro",
+  "problema": "Es difícil organizar colecciones y metadatos.",
+  "solucion": "Catálogo de colección física con valor de mercado y wishlist.",
+  "precio_usd_mes": 4,
+  "canal_primeros_100": "r/gamecollecting, foros y YouTube retro.",
+  "competidores": [
+   "PriceCharting",
+   "Collectorz"
+  ],
+  "por_que_ahora": "Precios retro al alza.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Competencia y bajo precio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "catálogo coleccionista retro"
+ },
+ {
+  "id": "G24-17",
+  "nombre": "ClimbTrack",
+  "cliente_que_paga": "Escaladores indoor",
+  "problema": "Registrar ascensos y progresión de entrenamiento es manual.",
+  "solucion": "Diario de vías con plan de entrenamiento y análisis de progreso.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "r/climbing, Instagram climbing y gimnasios (tienda de apps).",
+  "competidores": [
+   "Kaya",
+   "TopLogger (sin verificar)"
+  ],
+  "por_que_ahora": "Escalada en auge post-olímpica.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Competencia y estacionalidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "diario escalada"
+ },
+ {
+  "id": "G24-18",
+  "nombre": "VinylDB",
+  "cliente_que_paga": "Coleccionistas de vinilos",
+  "problema": "Gestionar prensajes y valor de colección.",
+  "solucion": "Catálogo con escaneo de código y seguimiento de valor.",
+  "precio_usd_mes": 4,
+  "canal_primeros_100": "r/vinyl, Discogs foros y TikTok.",
+  "competidores": [
+   "Discogs"
+  ],
+  "por_que_ahora": "Vinilo en alza.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Discogs lo cubre gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "colección vinilos"
+ },
+ {
+  "id": "G24-19",
+  "nombre": "Beekeeper Log",
+  "cliente_que_paga": "Apicultores aficionados",
+  "problema": "Seguimiento de colmenas y tratamientos disperso.",
+  "solucion": "App de inspecciones, tratamientos y recordatorios por colmena.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "r/Beekeeping, asociaciones de apicultores y App Store.",
+  "competidores": [
+   "Hive Tracks (sin verificar)"
+  ],
+  "por_que_ahora": "Apicultura urbana creciente.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Estacionalidad y mercado pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "gestión colmenas"
+ },
+ {
+  "id": "G24-20",
+  "nombre": "Gunpla Tracker",
+  "cliente_que_paga": "Modelistas de kits plásticos y pintura",
+  "problema": "Inventario de pinturas y kits pendientes (backlog) desordenado.",
+  "solucion": "Gestor de pinturas, mezclas y progreso con listas de compra.",
+  "precio_usd_mes": 4,
+  "canal_primeros_100": "r/modelmakers, r/Gunpla y YouTube.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Comunidad modelista creciente.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "inventario modelismo pintura"
+ }
+]

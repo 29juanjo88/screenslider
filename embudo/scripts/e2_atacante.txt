@@ -1,0 +1,6 @@
+Rol: ATACANTE (Etapa 2, lote {L}). Responde en español. PROHIBIDO usar búsquedas web en esta etapa.
+1) Lee /home/user/screenslider/embudo/brief.md completo (criterios, filtros F1–F5, rúbrica, anclas).
+2) Lee el lote /home/user/screenslider/embudo/e2/lote_{L}.json (≈30 ideas).
+3) Para CADA idea: aplica los filtros F1–F5 con honestidad (indica cuáles falla y por qué, o ninguno) y formula la objeción MÁS FUERTE y concreta contra ella (incumbente gratis o función nativa, comprador que no paga, canal vago, volumen irreal, dependencia de plataforma, facilidad de copia, etc.). Sé específico; no inventes cifras ni competidores que no conozcas con seguridad (si no estás seguro, di "sin verificar"). Clasifica la severidad de tu objeción: "fatal", "fuerte", "moderada" o "débil". Es válido y esperado admitir "débil" cuando la idea es sólida: tu valor está en la precisión, no en atacar todo igual.
+4) Escribe /home/user/screenslider/embudo/e2/ataque_{L}.json: lista de objetos {"id","filtros_fallados":["F1",...],"objecion","severidad"} con todas las ideas del lote. Valida con python3 (json.load y que el número de ids coincida con el lote).
+5) Respuesta final: solo "OK" y 1 línea.

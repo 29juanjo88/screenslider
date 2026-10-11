@@ -1,0 +1,377 @@
+[
+ {
+  "id": "G02-01",
+  "nombre": "Gerber Preview for Chrome",
+  "cliente_que_paga": "PCB designers and hardware engineers",
+  "problema": "Reviewing Gerber/fab files requires desktop viewers or uploading to fab sites.",
+  "solucion": "Chrome extension renders Gerber/Excellon files from any download link or email attachment, with measure tools.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Chrome Web Store search 'gerber viewer' plus r/PrintedCircuitBoard and EEVblog forum",
+  "competidores": [
+   "KiCad Gerber viewer",
+   "Tracespace"
+  ],
+  "por_que_ahora": "Hardware startups outsource fab and share files via links.",
+  "ventaja_juan": "Industrial electronics background.",
+  "riesgo_principal": "Free web viewers exist; differentiation must be workflow. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "PCB Gerber viewer"
+ },
+ {
+  "id": "G02-02",
+  "nombre": "STEP Peek",
+  "cliente_que_paga": "Mechanical engineers and procurement buyers",
+  "problema": "Cannot preview STEP/IGES attachments in Gmail, Drive or PLM links without CAD software.",
+  "solucion": "Extension adds inline 3D preview, dimensions and BOM extraction to STEP files in Gmail/Drive/Slack web.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Chrome Web Store search 'step file viewer' and r/SolidWorks, r/MechanicalEngineering",
+  "competidores": [
+   "Autodesk Viewer",
+   "eDrawings"
+  ],
+  "por_que_ahora": "WASM CAD kernels (OpenCascade) make in-browser parsing feasible.",
+  "ventaja_juan": "SolidWorks/CAD file-format expertise.",
+  "riesgo_principal": "Free viewers satisfy casual users (F1 risk). Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "CAD file preview"
+ },
+ {
+  "id": "G02-03",
+  "nombre": "PLC Tag Lens",
+  "cliente_que_paga": "Controls engineers and integrators",
+  "problema": "Reading exported PLC tag/L5X files in a browser is painful.",
+  "solucion": "Extension opens L5X/TIA exports from GitHub/Drive and shows searchable tag, rung and I/O tables.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store search 'PLC', r/PLC, PLCtalk forum",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Teams are moving PLC code into Git and reviewing it on GitHub.",
+  "ventaja_juan": "Siemens TIA and Rockwell Studio 5000 experience.",
+  "riesgo_principal": "Small niche; vendors may ship own tooling. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "PLC export viewer"
+ },
+ {
+  "id": "G02-04",
+  "nombre": "PLC PR Diff",
+  "cliente_que_paga": "Automation engineers using Git",
+  "problema": "GitHub shows PLC export diffs as unreadable XML.",
+  "solucion": "Extension rewrites GitHub PR diffs of L5X/XML into readable logic changes.",
+  "precio_usd_mes": 20,
+  "canal_primeros_100": "GitHub PLC repos, r/PLC, Chrome Web Store search 'github diff'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Version control for PLC is growing slowly.",
+  "ventaja_juan": "Direct PLC domain knowledge.",
+  "riesgo_principal": "Tiny audience. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "PLC git diff"
+ },
+ {
+  "id": "G02-05",
+  "nombre": "Fab Quote Autofill",
+  "cliente_que_paga": "Makers and engineers ordering CNC/3D print parts",
+  "problema": "Re-entering part specs across Xometry, Protolabs, Fictiv wastes time.",
+  "solucion": "Extension autofills quote forms across manufacturing marketplaces from one spec sheet and compares results.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Chrome Web Store search 'instant quote autofill', r/engineering, r/3Dprinting",
+  "competidores": [
+   "Xometry",
+   "Protolabs",
+   "Fictiv"
+  ],
+  "por_que_ahora": "Many on-demand fab marketplaces exist.",
+  "ventaja_juan": "Manufacturing and CAM knowledge.",
+  "riesgo_principal": "Marketplaces may block automation. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "fab quote comparison"
+ },
+ {
+  "id": "G02-06",
+  "nombre": "G-code Inspector",
+  "cliente_que_paga": "3D printer and CNC operators",
+  "problema": "Running unreviewed G-code risks crashes and failed prints.",
+  "solucion": "Extension previews and lints G-code from any link or model-site download page.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Chrome Web Store search 'gcode viewer', r/3Dprinting, r/hobbycnc",
+  "competidores": [
+   "NC Viewer",
+   "Camotics"
+  ],
+  "por_que_ahora": "More G-code is shared online.",
+  "ventaja_juan": "3D printer firmware experience.",
+  "riesgo_principal": "Free web viewers exist. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "G-code preview lint"
+ },
+ {
+  "id": "G02-07",
+  "nombre": "Invoice Table Grabber",
+  "cliente_que_paga": "Accountants and bookkeepers in US/UK",
+  "problema": "Copying portal tables into Excel breaks formats.",
+  "solucion": "Extension extracts tables from portals into clean CSV/Sheets with saved templates.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Chrome Web Store search 'table to csv', accounting subreddits",
+  "competidores": [
+   "Data Miner",
+   "Table Capture"
+  ],
+  "por_que_ahora": "Portal-heavy workflows.",
+  "ventaja_juan": "Backend/data engineering.",
+  "riesgo_principal": "Crowded category. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "web table export"
+ },
+ {
+  "id": "G02-08",
+  "nombre": "Meeting Notes to Jira",
+  "cliente_que_paga": "Engineering managers and PMs",
+  "problema": "Action items from Google Meet calls get lost.",
+  "solucion": "Extension captures meeting captions and creates Jira/Linear tickets with owners.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Chrome Web Store search 'meet notes jira', Atlassian Marketplace",
+  "competidores": [
+   "Fireflies",
+   "Otter.ai"
+  ],
+  "por_que_ahora": "LLM summarization is cheap.",
+  "ventaja_juan": "Backend/GraphQL integrations.",
+  "riesgo_principal": "Incumbents bundling this feature. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "meeting to tickets"
+ },
+ {
+  "id": "G02-09",
+  "nombre": "API Request Replayer",
+  "cliente_que_paga": "Backend developers and QA",
+  "problema": "Reproducing a failed browser request in code needs manual copying.",
+  "solucion": "DevTools extension exports requests to TypeScript/Python clients with masked auth and shareable repro links.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Chrome Web Store search 'devtools api', Show HN",
+  "competidores": [
+   "Postman",
+   "Requestly",
+   "Insomnia"
+  ],
+  "por_que_ahora": "AI agents consume API specs.",
+  "ventaja_juan": "Daily backend experience.",
+  "riesgo_principal": "Free tools overlap. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "API repro devtools"
+ },
+ {
+  "id": "G02-10",
+  "nombre": "GraphQL Cost Lens",
+  "cliente_que_paga": "GraphQL API developers",
+  "problema": "Query cost and N+1 problems are invisible in DevTools.",
+  "solucion": "DevTools panel showing query complexity, resolver timings and N+1 hints.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Chrome Web Store search 'graphql devtools', r/graphql",
+  "competidores": [
+   "Apollo Client Devtools",
+   "GraphQL Network Inspector"
+  ],
+  "por_que_ahora": "GraphQL adoption in enterprises.",
+  "ventaja_juan": "GraphQL expertise.",
+  "riesgo_principal": "Apollo is free. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "GraphQL perf devtools"
+ },
+ {
+  "id": "G02-11",
+  "nombre": "Shopify Admin Bulk Fixer",
+  "cliente_que_paga": "Shopify operators with large catalogs",
+  "problema": "Bulk editing in the admin is clumsy for staff.",
+  "solucion": "Extension adds bulk-edit, find-replace and audit tools for products/metafields in Shopify admin.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Chrome Web Store search 'Shopify admin', Shopify community forum",
+  "competidores": [
+   "Matrixify"
+  ],
+  "por_que_ahora": "Merchants want fewer paid apps.",
+  "ventaja_juan": "Backend/GraphQL API experience.",
+  "riesgo_principal": "Shopify native features and policy. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "Shopify bulk admin"
+ },
+ {
+  "id": "G02-12",
+  "nombre": "Recruiter Notes Pipeline",
+  "cliente_que_paga": "Solo and agency recruiters",
+  "problema": "Candidate research and notes are scattered across tabs.",
+  "solucion": "Extension saves profiles, notes and stages to Sheets/Notion with email templates.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store search 'recruiter', r/recruiting",
+  "competidores": [
+   "Gem"
+  ],
+  "por_que_ahora": "Recruiting teams have shrinking budgets.",
+  "ventaja_juan": "Backend integrations.",
+  "riesgo_principal": "LinkedIn blocks scrapers. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "recruiter CRM extension"
+ },
+ {
+  "id": "G02-13",
+  "nombre": "Contract Clause Highlighter",
+  "cliente_que_paga": "Freelancers and procurement staff",
+  "problema": "Risky clauses hide in web ToS and contracts.",
+  "solucion": "Extension highlights risky clauses (auto-renewal, liability) in-browser with explanations.",
+  "precio_usd_mes": 10,
+  "canal_primeros_100": "Chrome Web Store search 'terms of service highlighter'",
+  "competidores": [
+   "ToS;DR"
+  ],
+  "por_que_ahora": "LLM clause detection is cheap.",
+  "ventaja_juan": "Software only.",
+  "riesgo_principal": "Legal-advice liability; AI commoditization. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "contract clause scanner"
+ },
+ {
+  "id": "G02-14",
+  "nombre": "Ad Library Saver",
+  "cliente_que_paga": "Performance marketers and agencies",
+  "problema": "Saving competitor ads from Meta Ad Library is manual.",
+  "solucion": "Extension saves, tags and exports ads from ad libraries into swipe-file boards.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Chrome Web Store search 'ad library', r/PPC",
+  "competidores": [
+   "Foreplay"
+  ],
+  "por_que_ahora": "Heavy ad spend.",
+  "ventaja_juan": "Backend scraping/storage.",
+  "riesgo_principal": "Platform ToS changes. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "ad swipe file"
+ },
+ {
+  "id": "G02-15",
+  "nombre": "SEO On-Page Snapshot",
+  "cliente_que_paga": "Freelance SEOs and writers",
+  "problema": "Checking on-page items across competitor pages takes many tools.",
+  "solucion": "Extension shows headings, schema, internal links and word diffs with export.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Chrome Web Store search 'SEO extension'",
+  "competidores": [
+   "MozBar",
+   "SEOquake"
+  ],
+  "por_que_ahora": "AI content boom.",
+  "ventaja_juan": "General engineering.",
+  "riesgo_principal": "Crowded; free incumbents (F1 risk). Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "SEO extension"
+ },
+ {
+  "id": "G02-16",
+  "nombre": "Cookie Consent Auditor",
+  "cliente_que_paga": "Privacy and web compliance consultants",
+  "problema": "Verifying cookie banners and trackers per site is manual.",
+  "solucion": "Extension logs trackers fired before consent and generates an audit PDF.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Chrome Web Store search 'cookie audit', r/gdpr",
+  "competidores": [
+   "Cookiebot scanner",
+   "Ghostery"
+  ],
+  "por_que_ahora": "GDPR enforcement.",
+  "ventaja_juan": "Backend/network.",
+  "riesgo_principal": "Advice liability. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "cookie consent audit"
+ },
+ {
+  "id": "G02-17",
+  "nombre": "Accessibility Ticket Recorder",
+  "cliente_que_paga": "Front-end developers and QA",
+  "problema": "Accessibility issues are reported without repro steps.",
+  "solucion": "Extension records flows, flags WCAG failures and exports tickets with screenshots.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store search 'accessibility', r/accessibility",
+  "competidores": [
+   "axe DevTools",
+   "WAVE"
+  ],
+  "por_que_ahora": "European Accessibility Act deadline pushes compliance.",
+  "ventaja_juan": "Web dev experience.",
+  "riesgo_principal": "axe is a strong incumbent. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "WCAG ticket export"
+ },
+ {
+  "id": "G02-18",
+  "nombre": "Screenshot Redactor",
+  "cliente_que_paga": "Support, QA and security staff",
+  "problema": "Sensitive data leaks in screenshots shared with vendors.",
+  "solucion": "Extension auto-detects and blurs emails, keys and PII in screenshots before upload.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Chrome Web Store search 'redact screenshot', r/sysadmin",
+  "competidores": [
+   "Snagit",
+   "CleanShot"
+  ],
+  "por_que_ahora": "Screenshot sharing with AI tools grows.",
+  "ventaja_juan": "Security-minded backend.",
+  "riesgo_principal": "Native OS tools overlap. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "screenshot redaction"
+ },
+ {
+  "id": "G02-19",
+  "nombre": "Print Cost Badge",
+  "cliente_que_paga": "3D printing hobbyists and print-farm owners",
+  "problema": "True print cost/time of a model is unknown before downloading.",
+  "solucion": "Extension estimates filament, time and electricity cost per model on Printables/Thingiverse using the user's printer profile.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Chrome Web Store search '3d print cost', r/3Dprinting, r/functionalprint",
+  "competidores": [
+   "PrusaSlicer",
+   "Cura"
+  ],
+  "por_que_ahora": "Print farms and Etsy sellers are growing.",
+  "ventaja_juan": "3D printer firmware experience.",
+  "riesgo_principal": "Free slicers may add this; low price (F5 risk). Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "3D print cost badge"
+ },
+ {
+  "id": "G02-20",
+  "nombre": "Onshape BOM Exporter",
+  "cliente_que_paga": "Mechanical engineers and small hardware teams on Onshape",
+  "problema": "Exporting clean BOMs with costs from Onshape documents is manual.",
+  "solucion": "Extension exports Onshape BOMs to Sheets/CSV with supplier price lookups and revision stamps.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store search 'onshape', Onshape forum, r/CAD",
+  "competidores": [
+   "Onshape native export"
+  ],
+  "por_que_ahora": "Onshape adoption by startups.",
+  "ventaja_juan": "CAD/CAM experience.",
+  "riesgo_principal": "Depends on Onshape and Chrome; native features may improve. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "Onshape BOM export"
+ }
+]

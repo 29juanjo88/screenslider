@@ -1,0 +1,385 @@
+[
+ {
+  "id": "G08-01",
+  "nombre": "StepView API",
+  "cliente_que_paga": "Desarrollador de SaaS de manufactura/marketplaces de piezas",
+  "problema": "Mostrar archivos STEP/IGES en la web exige compilar OpenCascade y mantener servidores.",
+  "solucion": "API REST que convierte STEP/IGES/DXF a glTF/PNG/SVG con visor embebible, cobro por conversión.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO de 'step to gltf api' y 'convert step to glb online', listados en RapidAPI y directorios de APIs, docs indexables.",
+  "competidores": [
+   "CAD Exchanger (sin verificar precios)",
+   "Autodesk Platform Services (Forge)",
+   "Open CASCADE (librería, DIY)"
+  ],
+  "por_que_ahora": "Auge de marketplaces de manufactura bajo demanda y visores 3D en navegador.",
+  "ventaja_juan": "Conoce SolidWorks/AutoCAD y formatos CAD; software casi gratis.",
+  "riesgo_principal": "Autodesk APS u OSS (occt-import-js) cubren parte del caso.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "conversión CAD API"
+ },
+ {
+  "id": "G08-02",
+  "nombre": "DXF Nesting API",
+  "cliente_que_paga": "Desarrollador de software de cotización para corte láser/CNC",
+  "problema": "Calcular anidado y área de material de DXF para cotizar requiere algoritmos complejos.",
+  "solucion": "API que recibe DXF, devuelve longitud de corte, perforaciones, área, bounding box y anidado estimado.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'dxf nesting api', 'dxf cut length calculator api', RapidAPI, comunidades de desarrolladores de ecommerce de manufactura.",
+  "competidores": [
+   "Deepnest (OSS, local)",
+   "SVGnest (OSS)",
+   "sin verificar otros"
+  ],
+  "por_que_ahora": "Cotización instantánea es estándar en ecommerce de fabricación.",
+  "ventaja_juan": "Conocimiento CAM/corte y formatos DXF.",
+  "riesgo_principal": "Mercado de compradores pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "cotización DXF API"
+ },
+ {
+  "id": "G08-03",
+  "nombre": "GcodeStats API",
+  "cliente_que_paga": "Desarrollador de plataformas de impresión 3D bajo demanda y granjas de impresión",
+  "problema": "Estimar tiempo, filamento y costo desde STL/3MF sin ejecutar un slicer manualmente.",
+  "solucion": "API que lamina en headless y devuelve tiempo, peso, costo y problemas de imprimibilidad.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'stl print time estimate api', directorios de APIs, foros de desarrolladores de OctoPrint/Klipper y GitHub README.",
+  "competidores": [
+   "PrusaSlicer/Cura CLI (DIY)",
+   "sin verificar servicios comerciales"
+  ],
+  "por_que_ahora": "Crecimiento de servicios de impresión 3D online y granjas.",
+  "ventaja_juan": "Firmware de impresoras 3D y slicers.",
+  "riesgo_principal": "Cliente puede correr el slicer CLI gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "estimación impresión 3D"
+ },
+ {
+  "id": "G08-04",
+  "nombre": "PLC Tag Parser API",
+  "cliente_que_paga": "Desarrollador de herramientas de ingeniería industrial/IIoT",
+  "problema": "Leer exportaciones de proyectos PLC (TIA, Studio 5000 L5X) para documentación y auditoría es tedioso.",
+  "solucion": "API que parsea L5X/AWL/exportes XML y devuelve tags, rutinas, I/O y diagramas de dependencias en JSON.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "SEO 'parse l5x file api', foros PLCTalk/Reddit r/PLC con ejemplos, directorios de APIs.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de IA para generar y revisar código PLC necesita parsers confiables.",
+  "ventaja_juan": "PLC Siemens y Rockwell: raro entre desarrolladores web.",
+  "riesgo_principal": "Nicho pequeño; formatos propietarios cambian.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "API para PLC"
+ },
+ {
+  "id": "G08-05",
+  "nombre": "API Usage Metering Kit",
+  "cliente_que_paga": "Desarrollador/fundador que monetiza una API",
+  "problema": "Medir uso y cobrar por llamada exige construir facturación y cuotas.",
+  "solucion": "Gateway proxy con claves, cuotas, planes y cobro vía Stripe para cualquier API en 10 minutos.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Listados en directorios de APIs, SEO 'monetize api stripe usage billing', Product Hunt, Indie Hackers.",
+  "competidores": [
+   "Stripe Billing",
+   "Zuplo",
+   "Moesif",
+   "Unkey (sin verificar precios)"
+  ],
+  "por_que_ahora": "Más APIs de IA vendidas por indie hackers.",
+  "ventaja_juan": "Backend Node/TS y GraphQL.",
+  "riesgo_principal": "Mercado saturado, incumbentes bien financiados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "monetización de APIs"
+ },
+ {
+  "id": "G08-06",
+  "nombre": "Doc-SEO Auditor",
+  "cliente_que_paga": "Equipos de DevRel y documentación de productos API",
+  "problema": "La documentación no posiciona en buscadores ni en respuestas de IA.",
+  "solucion": "Auditor de docs OpenAPI/Docusaurus con reporte SEO, enlaces rotos y schema para búsqueda y LLM.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'api documentation seo', comunidad Write the Docs, Product Hunt, directorios de herramientas de DevRel.",
+  "competidores": [
+   "Ahrefs/Semrush (genéricos)",
+   "Mintlify (plataforma de docs, sin verificar funciones)"
+  ],
+  "por_que_ahora": "Búsqueda por IA exige llms.txt y docs estructuradas.",
+  "ventaja_juan": "Backend y TS para parsear docs.",
+  "riesgo_principal": "Herramientas SEO genéricas cubren parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "SEO de documentación"
+ },
+ {
+  "id": "G08-07",
+  "nombre": "OpenAPI Drift Watch",
+  "cliente_que_paga": "Equipos de ingeniería que consumen APIs de terceros",
+  "problema": "Un proveedor cambia su API sin aviso y la integración falla en producción.",
+  "solucion": "Monitor que vigila OpenAPI/changelogs de proveedores y alerta de cambios que rompen con diff semántico.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'api breaking change monitor', GitHub Marketplace, directorios de APIs, Hacker News.",
+  "competidores": [
+   "Optic (sin verificar estado)",
+   "oasdiff (OSS)",
+   "Bump.sh (sin verificar)"
+  ],
+  "por_que_ahora": "Integraciones SaaS proliferan y dependen de terceros.",
+  "ventaja_juan": "Backend senior con integraciones.",
+  "riesgo_principal": "Alternativa OSS en CI gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "control de cambios API"
+ },
+ {
+  "id": "G08-08",
+  "nombre": "Webhook Replay Vault",
+  "cliente_que_paga": "Desarrolladores backend que reciben webhooks",
+  "problema": "Los webhooks fallidos se pierden y depurarlos es lento.",
+  "solucion": "Endpoint que almacena, reenvía y reproduce webhooks con firma verificada y alertas.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'webhook inspector replay', directorios de herramientas dev, Reddit r/webdev.",
+  "competidores": [
+   "Hookdeck",
+   "webhook.site",
+   "Svix (sin verificar precios)"
+  ],
+  "por_que_ahora": "Casi todo SaaS ahora depende de webhooks.",
+  "ventaja_juan": "Backend Node/PHP.",
+  "riesgo_principal": "Competidores establecidos con capa gratuita.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "depuración de webhooks"
+ },
+ {
+  "id": "G08-09",
+  "nombre": "Postman Collection Doctor",
+  "cliente_que_paga": "Equipos de QA/integración con colecciones Postman",
+  "problema": "Las colecciones se desactualizan frente a la API real.",
+  "solucion": "Servicio que valida colecciones contra OpenAPI y corrige automáticamente variables y tests.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Postman Public API Network, SEO 'postman collection validator', GitHub Marketplace.",
+  "competidores": [
+   "Postman (nativo parcial)",
+   "Newman (OSS)"
+  ],
+  "por_que_ahora": "Equipos acumulan colecciones sin mantenimiento.",
+  "ventaja_juan": "Backend senior.",
+  "riesgo_principal": "Postman puede incorporarlo nativamente (F1 potencial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "calidad de colecciones"
+ },
+ {
+  "id": "G08-10",
+  "nombre": "GraphQL Cost Guard",
+  "cliente_que_paga": "Equipos con APIs GraphQL públicas",
+  "problema": "Consultas costosas abusan de la API y disparan facturas.",
+  "solucion": "Middleware/SaaS que calcula costo de consultas, límites por cliente y reportes de uso medido.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'graphql query cost limiting', npm/GitHub, comunidad GraphQL Discord.",
+  "competidores": [
+   "Apollo GraphOS",
+   "Stellate (sin verificar precios)"
+  ],
+  "por_que_ahora": "Más APIs GraphQL públicas e IA que las consulta.",
+  "ventaja_juan": "GraphQL en su stack.",
+  "riesgo_principal": "Incumbentes grandes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "límites en GraphQL"
+ },
+ {
+  "id": "G08-11",
+  "nombre": "Unit Converter Engine API",
+  "cliente_que_paga": "Desarrolladores de software de ingeniería y ecommerce técnico",
+  "problema": "Convertir unidades y tolerancias (pulgadas/mm, roscas, calibres) con estándares es propenso a errores.",
+  "solucion": "API con conversiones, tablas de roscas, calibres de lámina y tolerancias ISO.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'sheet metal gauge api', 'thread pitch lookup api', RapidAPI.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más herramientas de cotización técnica en la web.",
+  "ventaja_juan": "Conocimiento de mecanizado y estándares.",
+  "riesgo_principal": "Precio bajo exige volumen alto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "datos de ingeniería API"
+ },
+ {
+  "id": "G08-12",
+  "nombre": "Material Price Feed API",
+  "cliente_que_paga": "Desarrolladores de herramientas de cotización de manufactura",
+  "problema": "Precios de materiales (acero, aluminio, filamento) no están en formato API.",
+  "solucion": "API con precios de referencia por material y espesor, histórico y alertas.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'steel price api', RapidAPI, directorios de datos financieros.",
+  "competidores": [
+   "Metals-API (sin verificar)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Cotización dinámica con inflación de materiales.",
+  "ventaja_juan": "Conocimiento de manufactura para estructurar datos.",
+  "riesgo_principal": "Obtener datos fiables y licenciables.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "datos de materiales"
+ },
+ {
+  "id": "G08-13",
+  "nombre": "Drawing-to-BOM API",
+  "cliente_que_paga": "Desarrolladores de ERP/PLM ligeros",
+  "problema": "Extraer lista de materiales y cotas de PDFs de planos requiere OCR técnico.",
+  "solucion": "API que lee planos PDF/DXF y devuelve cotas, tolerancias, material y lista estructurada.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'extract dimensions from engineering drawing api', directorios de APIs de IA.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Modelos de visión permiten extracción antes imposible.",
+  "ventaja_juan": "Lectura de planos y AutoCAD/SolidWorks.",
+  "riesgo_principal": "IA generalista podría cubrirlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "extracción de planos"
+ },
+ {
+  "id": "G08-14",
+  "nombre": "API Status Aggregator",
+  "cliente_que_paga": "Equipos que dependen de varias APIs de terceros",
+  "problema": "Hay que revisar páginas de estado de muchos proveedores.",
+  "solucion": "Panel y API unificados con estado y latencia real de las APIs usadas, con alertas.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'api status monitor', directorios de APIs, Product Hunt.",
+  "competidores": [
+   "StatusGator",
+   "IsDown (sin verificar precios)"
+  ],
+  "por_que_ahora": "Dependencias de IA y SaaS multiplicadas.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Mercado con incumbentes y bajo precio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "monitoreo de APIs"
+ },
+ {
+  "id": "G08-15",
+  "nombre": "Mock API Generator from Docs",
+  "cliente_que_paga": "Desarrolladores frontend y QA",
+  "problema": "Sin backend listo, hay que escribir mocks a mano.",
+  "solucion": "Genera mocks realistas y estables desde OpenAPI con escenarios de error, hospedados.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'mock api from openapi', GitHub, directorios dev.",
+  "competidores": [
+   "Mockoon",
+   "Postman mock servers",
+   "Prism (OSS)"
+  ],
+  "por_que_ahora": "Desarrollo con IA acelera el prototipado.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Gratis suficiente (riesgo F1/F5).",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "mocks de API"
+ },
+ {
+  "id": "G08-16",
+  "nombre": "SDK Generator Lite",
+  "cliente_que_paga": "Fundadores con una API pública",
+  "problema": "Mantener SDKs en varios lenguajes consume tiempo.",
+  "solucion": "Genera y publica SDKs TS/Python/PHP desde OpenAPI con ejemplos y docs, con actualización automática.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'generate sdk from openapi', GitHub Marketplace, directorios de APIs.",
+  "competidores": [
+   "Speakeasy",
+   "Stainless",
+   "Fern (sin verificar precios)"
+  ],
+  "por_que_ahora": "Toda API necesita SDKs.",
+  "ventaja_juan": "Stack TS/PHP/Python.",
+  "riesgo_principal": "Incumbentes financiados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "SDKs desde OpenAPI"
+ },
+ {
+  "id": "G08-17",
+  "nombre": "G-code Linter API",
+  "cliente_que_paga": "Desarrolladores de software CAM y de máquinas CNC/3D",
+  "problema": "Validar G-code detecta colisiones y límites de máquina tarde.",
+  "solucion": "API que valida G-code contra perfiles de máquina y devuelve errores, tiempo y límites.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'gcode validator api', foros CNCzone, directorios de APIs.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más talleres usan software web de CAM.",
+  "ventaja_juan": "CAM y firmware de impresoras 3D.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "validación de G-code"
+ },
+ {
+  "id": "G08-18",
+  "nombre": "Tolerance Stack API",
+  "cliente_que_paga": "Desarrolladores de software de diseño mecánico",
+  "problema": "El cálculo de acumulación de tolerancias no se encuentra como servicio.",
+  "solucion": "API de análisis de tolerancias (peor caso, RSS, Monte Carlo) con visualización.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'tolerance stack-up calculator api', comunidades de ingeniería mecánica, RapidAPI.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Herramientas CAD web en crecimiento.",
+  "ventaja_juan": "Ingeniería mecánica y SolidWorks.",
+  "riesgo_principal": "Mercado pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "análisis de tolerancias"
+ },
+ {
+  "id": "G08-19",
+  "nombre": "API Changelog Feed",
+  "cliente_que_paga": "Desarrolladores y product managers",
+  "problema": "Seguir cambios de decenas de APIs es manual.",
+  "solucion": "Feed/RSS/email unificado de changelogs de APIs, con alertas por endpoint usado.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'api changelog', directorios de APIs, newsletter, Hacker News.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más integraciones por producto.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Precio bajo y valor percibido débil (F5).",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "feed de cambios API"
+ },
+ {
+  "id": "G08-20",
+  "nombre": "3MF Repair API",
+  "cliente_que_paga": "Plataformas de impresión 3D bajo demanda y marketplaces de modelos",
+  "problema": "Modelos con mallas rotas fallan al imprimir.",
+  "solucion": "API que repara malla (agujeros, normales) y devuelve reporte y archivo listo para imprimir.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'repair stl api', directorios de APIs, foros de impresión 3D y Reddit r/3Dprinting.",
+  "competidores": [
+   "Microsoft 3D Builder (local)",
+   "Netfabb (Autodesk, sin verificar)",
+   "Meshmixer (descontinuado, sin verificar)"
+  ],
+  "por_que_ahora": "Boom de servicios de impresión 3D online.",
+  "ventaja_juan": "Firmware 3D y mallas.",
+  "riesgo_principal": "Librerías OSS (MeshLab, trimesh) cubren parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "reparación de mallas 3D"
+ }
+]

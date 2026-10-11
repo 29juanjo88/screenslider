@@ -1,0 +1,365 @@
+[
+ {
+  "id": "G01-01",
+  "nombre": "Print-on-Demand 3D Quote",
+  "cliente_que_paga": "Tiendas Shopify que venden piezas impresas en 3D bajo pedido",
+  "problema": "Los clientes suben STL y el comerciante cotiza a mano, perdiendo ventas.",
+  "solucion": "App que analiza STL/3MF subido en la tienda, calcula volumen, material y tiempo, y agrega al carrito con precio instantáneo.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'instant quote 3D printing' / 'STL upload' en Shopify App Store",
+  "competidores": [
+   "Xometry (marketplace, no app Shopify)",
+   "sin verificar otras apps"
+  ],
+  "por_que_ahora": "Crece el comercio de piezas impresas 3D y de maker shops en Shopify.",
+  "ventaja_juan": "Conoce firmware y slicing de impresoras 3D para estimar tiempo/material real.",
+  "riesgo_principal": "Pocas tiendas 3D en Shopify; nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G01-02",
+  "nombre": "DXF Laser Cut Pricer",
+  "cliente_que_paga": "Talleres de corte láser/CNC con tienda Shopify",
+  "problema": "Cotizar archivos DXF/SVG a mano consume horas.",
+  "solucion": "Widget que lee DXF/SVG, calcula perímetro, área y precio por material/espesor, y crea el producto en el carrito.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'custom laser cut quote' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Talleres venden online piezas a medida y quieren autoservicio.",
+  "ventaja_juan": "Conocimiento CAD/CAM de nesting y tiempos de corte.",
+  "riesgo_principal": "Mercado de talleres con Shopify limitado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "cotización corte láser"
+ },
+ {
+  "id": "G01-03",
+  "nombre": "Product Spec Sheet PDF",
+  "cliente_que_paga": "Tiendas B2B de equipo industrial y repuestos en Shopify",
+  "problema": "Los compradores B2B piden hojas técnicas en PDF que se arman a mano.",
+  "solucion": "Genera automáticamente fichas PDF de producto con specs, dibujos y branding desde metafields.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'PDF datasheet' / 'product catalog PDF' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "B2B en Shopify (Plus) crece y exige documentación.",
+  "ventaja_juan": "Familiaridad con documentación técnica industrial.",
+  "riesgo_principal": "Ya existen generadores de catálogos PDF; diferenciación débil.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "fichas técnicas PDF"
+ },
+ {
+  "id": "G01-04",
+  "nombre": "Compatibility Finder Parts",
+  "cliente_que_paga": "Tiendas de repuestos y accesorios (impresoras, CNC, electrónica)",
+  "problema": "Clientes compran piezas incompatibles y generan devoluciones.",
+  "solucion": "Selector año/modelo/marca que filtra productos compatibles con tabla de fitment importable por CSV.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'fitment' / 'part finder' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Devoluciones por incompatibilidad erosionan márgenes.",
+  "ventaja_juan": "Conoce catálogos de repuestos de impresoras 3D y automatización.",
+  "riesgo_principal": "Hay apps de fitment automotriz establecidas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "compatibilidad de repuestos"
+ },
+ {
+  "id": "G01-05",
+  "nombre": "CAD File Delivery Vault",
+  "cliente_que_paga": "Vendedores de modelos 3D/STL y archivos CAD en Shopify",
+  "problema": "Vender archivos digitales con licencias, versiones y protección es torpe.",
+  "solucion": "Entrega digital con licencias por uso, versionado, vista previa 3D web y límite de descargas.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Búsqueda 'digital downloads' / 'STL' en Shopify App Store",
+  "competidores": [
+   "Digital Downloads (Shopify, gratis)",
+   "sin verificar otros"
+  ],
+  "por_que_ahora": "Boom de creadores de modelos 3D que salen de marketplaces con comisión.",
+  "ventaja_juan": "Entiende formatos STEP/STL/3MF y vista previa 3D.",
+  "riesgo_principal": "Incumbente gratis de Shopify puede cubrir lo básico (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "venta de archivos 3D"
+ },
+ {
+  "id": "G01-06",
+  "nombre": "Wholesale Quote Request",
+  "cliente_que_paga": "Mayoristas y fabricantes con tienda Shopify",
+  "problema": "Clientes grandes piden cotización personalizada y no hay flujo nativo.",
+  "solucion": "Botón de cotización por producto con volumen, aprobación y conversión a draft order.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'request a quote' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más fabricantes migran a Shopify para B2B.",
+  "ventaja_juan": "Experiencia en cotización industrial.",
+  "riesgo_principal": "Categoría saturada de apps RFQ.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "solicitud de cotización B2B"
+ },
+ {
+  "id": "G01-07",
+  "nombre": "Custom Part Configurator",
+  "cliente_que_paga": "Fabricantes de piezas a medida (dimensiones, materiales) en Shopify",
+  "problema": "Los límites de variantes de Shopify impiden configurar piezas paramétricas.",
+  "solucion": "Configurador paramétrico con fórmulas de precio, vista previa dimensional y generación de BOM.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'product configurator' / 'custom dimensions' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Demanda de productos hechos a medida en e-commerce.",
+  "ventaja_juan": "Experiencia paramétrica CAD (SolidWorks).",
+  "riesgo_principal": "Apps de opciones de producto ya existen y son baratas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "configurador paramétrico"
+ },
+ {
+  "id": "G01-08",
+  "nombre": "Shipping Dims Auditor",
+  "cliente_que_paga": "Comerciantes con costos de envío altos por peso dimensional",
+  "problema": "Cobros por peso dimensional erróneos por datos de caja y producto malos.",
+  "solucion": "Audita pesos/dimensiones de catálogo vs. cargos del transportista y sugiere corrección de datos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'shipping audit' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los carriers elevaron tarifas dimensionales.",
+  "ventaja_juan": "Habilidad para procesar datos y reglas.",
+  "riesgo_principal": "Depende de datos de carrier y de Shopify.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "auditoría peso dimensional"
+ },
+ {
+  "id": "G01-09",
+  "nombre": "Return Reason Insights",
+  "cliente_que_paga": "Comerciantes con >500 pedidos/mes y altas devoluciones",
+  "problema": "No saben qué productos o proveedores causan devoluciones.",
+  "solucion": "Panel que clasifica motivos de devolución por SKU/proveedor con alertas y informes mensuales.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'returns analytics' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Las devoluciones son el mayor costo del e-commerce.",
+  "ventaja_juan": "Backend y analítica de datos.",
+  "riesgo_principal": "Apps de devoluciones grandes pueden añadir analítica.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "analítica de devoluciones"
+ },
+ {
+  "id": "G01-10",
+  "nombre": "Supplier PO Sync",
+  "cliente_que_paga": "Tiendas dropshipping/hardware con proveedores múltiples",
+  "problema": "Reabastecer y enviar órdenes de compra a proveedores es manual.",
+  "solucion": "Genera órdenes de compra por proveedor desde inventario bajo, envía por email y concilia recepciones.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'purchase order' / 'inventory reorder' en Shopify App Store",
+  "competidores": [
+   "Stocky (Shopify, descontinuado según conocimiento, sin verificar)"
+  ],
+  "por_que_ahora": "Shopify retira o cambia Stocky y hay hueco para reemplazos.",
+  "ventaja_juan": "Backend de integraciones y flujos.",
+  "riesgo_principal": "Shopify puede lanzar función nativa.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "órdenes de compra proveedores"
+ },
+ {
+  "id": "G01-11",
+  "nombre": "Bundle Cost Margin Guard",
+  "cliente_que_paga": "Comerciantes con bundles y descuentos agresivos",
+  "problema": "Descuentos y bundles se aplican sin ver el margen real.",
+  "solucion": "Alerta y bloquea ofertas que bajan del margen mínimo usando costo por artículo.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'profit margin' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Presión de márgenes por publicidad cara.",
+  "ventaja_juan": "Mentalidad de costos de manufactura.",
+  "riesgo_principal": "Muchas apps de profit tracking existentes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "control de márgenes"
+ },
+ {
+  "id": "G01-12",
+  "nombre": "Assembly Instructions Hub",
+  "cliente_que_paga": "Vendedores de kits y productos de ensamble (muebles, kits 3D, electrónica)",
+  "problema": "Soporte inundado por preguntas de ensamble.",
+  "solucion": "Portal de instrucciones por pedido con pasos, vistas 3D, videos y QR en el empaque.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'product manual' / 'user guide' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Reducir tickets de soporte postventa.",
+  "ventaja_juan": "Experiencia en documentación técnica y 3D.",
+  "riesgo_principal": "Mercado pequeño y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "manuales de ensamble"
+ },
+ {
+  "id": "G01-13",
+  "nombre": "Maker Warranty Registry",
+  "cliente_que_paga": "Marcas de hardware (impresoras 3D, herramientas) en Shopify",
+  "problema": "Garantías se gestionan por correo, hay fraude y reclamos lentos.",
+  "solucion": "Registro de garantía con serial, validación y flujo de RMA conectado a pedidos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'warranty registration' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Marcas de hardware DTC crecen.",
+  "ventaja_juan": "Conoce hardware y fallas de impresoras 3D.",
+  "riesgo_principal": "Existen apps de garantía y RMA.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "registro de garantía"
+ },
+ {
+  "id": "G01-14",
+  "nombre": "Wide Format Print Calculator",
+  "cliente_que_paga": "Imprentas de gran formato (lonas, vinilo, rotulación) con Shopify",
+  "problema": "Cotizar por m2 con acabados y desperdicio es manual.",
+  "solucion": "Calculadora por área, material, acabados y nesting con precio en vivo.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Búsqueda 'price calculator' / 'by square meter' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Imprentas abren tienda online.",
+  "ventaja_juan": "Experiencia en nesting y CAM.",
+  "riesgo_principal": "Nicho limitado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "calculadora gran formato"
+ },
+ {
+  "id": "G01-15",
+  "nombre": "GPSR Compliance Labeler",
+  "cliente_que_paga": "Vendedores de la UE y exportadores a la UE",
+  "problema": "La norma GPSR exige datos de seguridad y contacto responsable por producto.",
+  "solucion": "Gestiona campos GPSR por producto, importa en masa y los muestra en la ficha.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'GPSR' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "GPSR entró en vigor en dic. 2024 en la UE.",
+  "ventaja_juan": "Backend; sin ventaja industrial clara.",
+  "riesgo_principal": "Muchas apps ya cubren GPSR, precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "cumplimiento GPSR UE"
+ },
+ {
+  "id": "G01-16",
+  "nombre": "Variant Matrix Bulk Editor",
+  "cliente_que_paga": "Tiendas con miles de variantes (herrajes, tornillería, piezas)",
+  "problema": "Editar variantes masivas por CSV es lento y propenso a errores.",
+  "solucion": "Editor de matriz de variantes con reglas, vista previa de diff y reversión.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'bulk editor variants' en Shopify App Store",
+  "competidores": [
+   "Matrixify",
+   "Shopify Bulk Editor (nativo)"
+  ],
+  "por_que_ahora": "Catálogos industriales grandes migran a Shopify.",
+  "ventaja_juan": "Manejo de catálogos técnicos.",
+  "riesgo_principal": "Matrixify y editor nativo son fuertes (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "edición masiva variantes"
+ },
+ {
+  "id": "G01-17",
+  "nombre": "Lead Time Estimator",
+  "cliente_que_paga": "Tiendas de productos hechos bajo pedido o fabricados",
+  "problema": "Los clientes preguntan cuándo llegará y la tienda no puede prometer fechas.",
+  "solucion": "Estima fecha de entrega según cola de producción, capacidad y transporte, mostrada en producto y carrito.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'delivery date' / 'estimated delivery' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Expectativas de entrega transparentes reducen tickets.",
+  "ventaja_juan": "Conocimiento de cola de producción en máquinas.",
+  "riesgo_principal": "Cada taller modela capacidad distinto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "fecha de entrega fabricación"
+ },
+ {
+  "id": "G01-18",
+  "nombre": "Production Queue Tracker",
+  "cliente_que_paga": "Talleres de impresión 3D y fabricación bajo demanda con Shopify",
+  "problema": "No hay visibilidad del estado de producción para el cliente ni el taller.",
+  "solucion": "Tablero de producción con estados por pedido, notificaciones al cliente y etiquetas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'order tracking' / 'production status' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fabricación bajo demanda en auge.",
+  "ventaja_juan": "Experiencia en flujos de producción y PLC/MES.",
+  "riesgo_principal": "Nicho pequeño y hay apps de tracking.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "seguimiento de producción"
+ },
+ {
+  "id": "G01-19",
+  "nombre": "Material Cost Auto-Pricer",
+  "cliente_que_paga": "Fabricantes con precios atados a commodities (metal, filamento, resina)",
+  "problema": "Los precios cambian con el costo del material y se actualizan a mano.",
+  "solucion": "Actualiza precios automáticamente según costo de material con reglas y redondeo.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'auto pricing' / 'dynamic pricing' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Volatilidad de costos de insumos.",
+  "ventaja_juan": "Conocimiento de costos de manufactura.",
+  "riesgo_principal": "Fuente de datos de commodities puede ser cara.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "precios por costo material"
+ },
+ {
+  "id": "G01-20",
+  "nombre": "Sample Swatch Request",
+  "cliente_que_paga": "Tiendas de materiales, filamentos y acabados",
+  "problema": "Los clientes dudan en comprar sin ver o probar el material.",
+  "solucion": "Solicitud de muestras gratis o de bajo costo limitada por cliente, con seguimiento de conversión a compra.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'free samples' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Menos fricción de compra en materiales.",
+  "ventaja_juan": "Conoce filamentos y materiales de manufactura.",
+  "riesgo_principal": "Precio bajo y nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "muestras de materiales"
+ }
+]

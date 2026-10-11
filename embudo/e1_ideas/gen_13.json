@@ -1,0 +1,389 @@
+[
+ {
+  "id": "G13-01",
+  "nombre": "PLC Diff CI",
+  "cliente_que_paga": "Ingenieros de automatización e integradores con PLC en Git",
+  "problema": "Los proyectos PLC (L5X, PLCopen XML) son casi ilegibles en pull requests y los errores llegan a planta.",
+  "solucion": "GitHub Action/App que convierte L5X/PLCopen XML en diffs legibles de rungs y tags, con lint de reglas y comentario en el PR.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "GitHub Marketplace (búsqueda 'PLC', 'Rockwell', 'L5X'), r/PLC, foros de Automation Direct y PLCTalk",
+  "competidores": [
+   "Rockwell Studio 5000 Logix Compare (sin verificar)",
+   "Siemens Version Control Interface (sin verificar)"
+  ],
+  "por_que_ahora": "El control de versiones en automatización industrial empieza a adoptarse y casi no hay herramientas nativas de Git.",
+  "ventaja_juan": "Conoce TIA Portal y Studio 5000 a fondo.",
+  "riesgo_principal": "Mercado de compradores pequeño y formatos propietarios cambiantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "PLC CI diff"
+ },
+ {
+  "id": "G13-02",
+  "nombre": "CAD Diff PR",
+  "cliente_que_paga": "Equipos de hardware y mecánica que versionan CAD en GitHub",
+  "problema": "Los cambios en STEP/DXF/STL en un PR no se pueden revisar visualmente.",
+  "solucion": "GitHub App que renderiza antes/después de archivos STEP/STL/DXF y resalta geometría cambiada en el PR.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace ('CAD', 'STEP', 'hardware'), comunidad r/OpenSCAD y r/3Dprinting, Hackaday",
+  "competidores": [
+   "Onshape (sin verificar)",
+   "GitHub render de STL nativo (parcial)"
+  ],
+  "por_que_ahora": "Más hardware open source y equipos robóticos usan Git para CAD.",
+  "ventaja_juan": "Experiencia en SolidWorks/AutoCAD y formatos de intercambio.",
+  "riesgo_principal": "GitHub podría mejorar el render nativo; mercado de nicho.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "diff CAD en PR"
+ },
+ {
+  "id": "G13-03",
+  "nombre": "Flaky Quarantine",
+  "cliente_que_paga": "Líderes de ingeniería con CI lento por tests inestables",
+  "problema": "Los tests flaky bloquean merges y cuestan horas de ingeniero cada semana.",
+  "solucion": "GitHub App que detecta tests flaky de los reportes JUnit, los pone en cuarentena automáticamente y abre issues.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "GitHub Marketplace ('flaky tests'), SEO 'quarantine flaky tests github actions'",
+  "competidores": [
+   "BuildPulse (sin verificar)",
+   "Trunk Flaky Tests (sin verificar)",
+   "Datadog CI Visibility (sin verificar)"
+  ],
+  "por_que_ahora": "Los repos usan más Actions y los equipos con CI de 20+ min sienten el costo.",
+  "ventaja_juan": "Backend senior en Node/TS, rápido de construir.",
+  "riesgo_principal": "Competidores bien financiados y diferenciación débil.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "tests flaky CI"
+ },
+ {
+  "id": "G13-04",
+  "nombre": "Actions Cost Attribution",
+  "cliente_que_paga": "Platform engineers y finanzas técnicas de organizaciones GitHub",
+  "problema": "La factura de minutos de GitHub Actions no dice qué repo, workflow o equipo la causa.",
+  "solucion": "Panel autoservicio que lee la API de billing/usage y asigna costo por repo, workflow y equipo, con alertas de picos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub Marketplace, SEO 'github actions cost per repo', Hacker News Show HN",
+  "competidores": [
+   "Informes nativos de GitHub (parcial, sin verificar)",
+   "Depot/Blacksmith (reducen costo, no atribuyen; sin verificar)"
+  ],
+  "por_que_ahora": "GitHub cambió y encareció precios de Actions y de runners, lo que dispara el interés en costos (sin verificar detalles).",
+  "ventaja_juan": "Backend con APIs/GraphQL.",
+  "riesgo_principal": "GitHub puede añadir esta vista nativa (F1 latente).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "costos GitHub Actions"
+ },
+ {
+  "id": "G13-05",
+  "nombre": "Workflow Hardener",
+  "cliente_que_paga": "Equipos de seguridad y DevOps con muchos workflows de Actions",
+  "problema": "Los workflows tienen permisos excesivos, acciones sin fijar a SHA y riesgo de inyección.",
+  "solucion": "App que escanea workflows, propone PRs de corrección automática (pin de SHA, permisos mínimos) y reporta cumplimiento.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "GitHub Marketplace ('security', 'actions hardening'), SEO 'pin github actions to sha'",
+  "competidores": [
+   "zizmor (gratis)",
+   "StepSecurity (sin verificar)",
+   "Dependabot (parcial)"
+  ],
+  "por_que_ahora": "Ataques recientes a acciones populares aumentaron la preocupación por la cadena de suministro.",
+  "ventaja_juan": "Backend; ninguna ventaja industrial.",
+  "riesgo_principal": "Incumbentes gratuitos cubren gran parte (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "seguridad GitHub Actions"
+ },
+ {
+  "id": "G13-06",
+  "nombre": "Printer Firmware CI",
+  "cliente_que_paga": "Mantenedores de firmware Klipper/Marlin y fabricantes de impresoras 3D",
+  "problema": "Cada release de firmware requiere pruebas manuales en máquinas distintas.",
+  "solucion": "Action que compila el firmware por placa, simula G-code y falla el PR si hay regresión de movimiento o límites térmicos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub Marketplace ('Marlin', 'Klipper'), Discord de Klipper, r/klippers",
+  "competidores": [
+   "PlatformIO CI (compila, no simula; sin verificar)"
+  ],
+  "por_que_ahora": "Auge de impresoras 3D con firmware propio y marcas de bajo costo que lanzan variantes rápido.",
+  "ventaja_juan": "Experiencia directa en firmware de impresoras 3D.",
+  "riesgo_principal": "Mercado muy pequeño y comunidad que espera gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "CI firmware 3D"
+ },
+ {
+  "id": "G13-07",
+  "nombre": "Copilot Seat Reclaimer",
+  "cliente_que_paga": "Responsables de ingeniería y finanzas con licencias de Copilot/IDE",
+  "problema": "Pagan asientos de herramientas de IA y de GitHub que nadie usa.",
+  "solucion": "App que cruza la API de uso de GitHub (Copilot, seats) y recomienda retirar asientos inactivos, con reporte mensual.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "GitHub Marketplace, SEO 'unused copilot seats', LinkedIn de engineering managers",
+  "competidores": [
+   "Informes nativos de GitHub (sin verificar)",
+   "Zylo/Productiv (SaaS management, enterprise; sin verificar)"
+  ],
+  "por_que_ahora": "El gasto en herramientas de IA para devs crece y finanzas pide control.",
+  "ventaja_juan": "Backend con GraphQL.",
+  "riesgo_principal": "GitHub puede incluir esta analítica nativamente.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "licencias Copilot sin uso"
+ },
+ {
+  "id": "G13-08",
+  "nombre": "Renovate Triage",
+  "cliente_que_paga": "Mantenedores y equipos con cientos de PRs de Dependabot/Renovate",
+  "problema": "El ruido de PRs de dependencias hace que se ignoren actualizaciones críticas.",
+  "solucion": "App que agrupa, prioriza por riesgo y auto-aprueba PRs seguros según CI verde y changelog.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace ('dependabot'), SEO 'too many dependabot PRs'",
+  "competidores": [
+   "Renovate (gratis, con agrupación)",
+   "Dependabot grouped updates (gratis)"
+  ],
+  "por_que_ahora": "Aumentan los CVE reportados y la fatiga de alertas.",
+  "ventaja_juan": "Backend Node/TS.",
+  "riesgo_principal": "Incumbentes gratis cubren agrupación (riesgo F1 alto).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "triage de dependencias"
+ },
+ {
+  "id": "G13-09",
+  "nombre": "Edge Heartbeat",
+  "cliente_que_paga": "Integradores industriales y equipos IIoT",
+  "problema": "Los dispositivos en planta se caen sin que nadie lo note hasta que el cliente llama.",
+  "solucion": "Servicio de heartbeat/dead-man switch para gateways PLC y Raspberry Pi con alertas, SDK para Modbus/OPC UA y página de estado.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'monitor modbus gateway uptime', r/PLC, r/industrialautomation, directorios de Node-RED",
+  "competidores": [
+   "Healthchecks.io (genérico; sin verificar)",
+   "Cronitor (genérico; sin verificar)"
+  ],
+  "por_que_ahora": "Más integradores ofrecen mantenimiento remoto recurrente.",
+  "ventaja_juan": "Conoce PLC, Modbus y planta.",
+  "riesgo_principal": "Herramientas genéricas baratas cubren el caso básico.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "monitoreo edge industrial"
+ },
+ {
+  "id": "G13-10",
+  "nombre": "Datadog Bill Cutter",
+  "cliente_que_paga": "Líderes de plataforma con facturas de observabilidad crecientes",
+  "problema": "La factura de logs y métricas crece sin explicación y nadie sabe qué cortar.",
+  "solucion": "Herramienta autoservicio que analiza exportes de uso, detecta logs/métricas de alto costo y genera reglas de exclusión.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'reduce datadog costs', Hacker News, r/devops",
+  "competidores": [
+   "Cribl (sin verificar)",
+   "Grafana Adaptive Metrics (sin verificar)",
+   "Vantage (sin verificar)"
+  ],
+  "por_que_ahora": "Los recortes de costo en infraestructura son prioridad recurrente en 2026.",
+  "ventaja_juan": "Backend/GraphQL.",
+  "riesgo_principal": "Requiere acceso a datos sensibles y confianza del comprador.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "costo observabilidad"
+ },
+ {
+  "id": "G13-11",
+  "nombre": "Image CVE Diff",
+  "cliente_que_paga": "Equipos DevOps que construyen contenedores",
+  "problema": "Los escáneres listan cientos de CVE sin decir qué cambió con este PR.",
+  "solucion": "Action que compara la imagen base antes/después y comenta solo CVE nuevos, con tamaño de imagen y sugerencia de base más pequeña.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "GitHub Marketplace ('docker scan'), SEO 'docker image size diff github action'",
+  "competidores": [
+   "Trivy (gratis)",
+   "Docker Scout (sin verificar)",
+   "Snyk (sin verificar)"
+  ],
+  "por_que_ahora": "Los requisitos SBOM y de cadena de suministro presionan a equipos pequeños.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Trivy y Scout cubren gran parte (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "diff de imágenes Docker"
+ },
+ {
+  "id": "G13-12",
+  "nombre": "STL Visual Regression",
+  "cliente_que_paga": "Fabricantes y estudios de diseño paramétrico con CI",
+  "problema": "Cambios paramétricos rompen piezas y nadie lo ve hasta imprimir.",
+  "solucion": "Action que renderiza STL/STEP generados desde OpenSCAD/CadQuery, compara volumen, bounding box y vistas, y falla si se desvían.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace, comunidades CadQuery y OpenSCAD, Printables/Thingiverse devs",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "CAD como código (CadQuery, build123d) está creciendo.",
+  "ventaja_juan": "CAD y 3D, geometría computacional.",
+  "riesgo_principal": "Nicho diminuto; pocos pagarán suscripción.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "regresión de geometría"
+ },
+ {
+  "id": "G13-13",
+  "nombre": "Cert Expiry Watch",
+  "cliente_que_paga": "Ingenieros DevOps y SRE de empresas medianas",
+  "problema": "Certificados, tokens y claves API vencen y causan caídas sorpresa.",
+  "solucion": "Servicio que inventaría vencimientos (TLS, tokens OAuth, secretos en repos) y avisa por Slack/email con tiempo.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'ssl certificate expiry monitor', GitHub Marketplace, r/sysadmin",
+  "competidores": [
+   "Uptime Kuma (gratis)",
+   "StatusCake (sin verificar)",
+   "Let's Encrypt avisos (parcial)"
+  ],
+  "por_que_ahora": "Los certificados TLS bajan de vigencia, lo que obliga a rotar más seguido (sin verificar fechas).",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Muchas alternativas gratuitas (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "vencimiento de certificados"
+ },
+ {
+  "id": "G13-14",
+  "nombre": "Affected Tests Selector",
+  "cliente_que_paga": "Equipos con monorepos y CI de más de 20 minutos",
+  "problema": "Corren toda la suite en cada PR aunque cambió una carpeta.",
+  "solucion": "Action que mapea dependencias por cambios y ejecuta solo los tests afectados, con gráfico de ahorro de minutos.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "GitHub Marketplace ('monorepo'), SEO 'run only affected tests github actions'",
+  "competidores": [
+   "Nx affected (gratis)",
+   "Bazel (gratis)",
+   "Turborepo (gratis)"
+  ],
+  "por_que_ahora": "Más monorepos y costos de CI en alza.",
+  "ventaja_juan": "Backend Node/TS.",
+  "riesgo_principal": "Herramientas gratuitas del ecosistema ya lo hacen (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "tests afectados monorepo"
+ },
+ {
+  "id": "G13-15",
+  "nombre": "Incident Postmortem Draft",
+  "cliente_que_paga": "SRE y engineering managers de equipos de 20-200 devs",
+  "problema": "Los postmortems se escriben tarde y mal, o nunca.",
+  "solucion": "App de Slack que arma línea de tiempo desde el canal del incidente, alertas y commits, y genera el borrador editable.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Slack App Directory, SEO 'postmortem template slack', r/sre",
+  "competidores": [
+   "incident.io (sin verificar)",
+   "FireHydrant (sin verificar)",
+   "Rootly (sin verificar)"
+  ],
+  "por_que_ahora": "Los LLM hacen viable resumir canales largos a bajo costo.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Plataformas de incidentes bien financiadas incluyen esto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "postmortem automático"
+ },
+ {
+  "id": "G13-16",
+  "nombre": "Firmware Dep Licenses",
+  "cliente_que_paga": "Fabricantes de hardware con firmware C/C++",
+  "problema": "El cumplimiento de licencias de librerías embebidas se descubre en auditoría.",
+  "solucion": "Action para PlatformIO/CMake/Arduino que genera SBOM y detecta GPL/AGPL conflictivas con informe para clientes.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub Marketplace ('SBOM', 'PlatformIO'), foros de PlatformIO, SEO 'SBOM embedded firmware'",
+  "competidores": [
+   "FOSSA (sin verificar)",
+   "ScanCode (gratis)",
+   "Syft (gratis)"
+  ],
+  "por_que_ahora": "Regulaciones de ciberseguridad como el CRA europeo exigen SBOM (sin verificar alcance).",
+  "ventaja_juan": "Firmware de impresoras 3D y PLC.",
+  "riesgo_principal": "Herramientas gratuitas generan SBOM; el valor está en la UX embedded.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "SBOM firmware embebido"
+ },
+ {
+  "id": "G13-17",
+  "nombre": "Actions Log Explainer",
+  "cliente_que_paga": "Desarrolladores que depuran fallos de CI",
+  "problema": "Leer logs de 5,000 líneas para hallar el error cuesta tiempo diario.",
+  "solucion": "App que lee el log fallido, resume la causa probable y sugiere el fix en un comentario del PR.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace ('CI failure'), SEO 'github actions error explained'",
+  "competidores": [
+   "Copilot en Actions (sin verificar)",
+   "Datadog CI Visibility (sin verificar)"
+  ],
+  "por_que_ahora": "LLM baratos permiten resumir logs en segundos.",
+  "ventaja_juan": "Backend con IA.",
+  "riesgo_principal": "GitHub/Copilot lo integrará nativamente (F1 latente).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "explicar fallos CI"
+ },
+ {
+  "id": "G13-18",
+  "nombre": "Gcode Lint Action",
+  "cliente_que_paga": "Granjas de impresión 3D y makers que versionan G-code/configs",
+  "problema": "Un G-code o perfil malo daña la máquina o desperdicia horas de impresión.",
+  "solucion": "Action que valida G-code y perfiles de slicer (límites, temperaturas, colisiones básicas) en cada PR o subida.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de GitHub, Printables y r/3Dprinting, foros de granjas de impresión",
+  "competidores": [
+   "OctoPrint plugins (gratis, parcial)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Granjas de impresión comerciales crecen y automatizan con Git.",
+  "ventaja_juan": "Experiencia en firmware 3D y G-code.",
+  "riesgo_principal": "Mercado pequeño y comunidad maker que espera gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "lint de G-code"
+ },
+ {
+  "id": "G13-19",
+  "nombre": "Cron Drift Monitor",
+  "cliente_que_paga": "Equipos con muchos cron jobs, GitHub Actions programadas y pipelines de datos",
+  "problema": "Los jobs programados fallan en silencio o se atrasan.",
+  "solucion": "Servicio que vigila ejecuciones esperadas de Actions programadas y cron, con alerta por duración anómala y ejecución faltante.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace ('scheduled workflow'), SEO 'github actions schedule not running'",
+  "competidores": [
+   "Healthchecks.io (sin verificar)",
+   "Cronitor (sin verificar)"
+  ],
+  "por_que_ahora": "GitHub puede retrasar o desactivar workflows programados en repos inactivos.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Mercado saturado con incumbentes baratos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "monitoreo cron jobs"
+ },
+ {
+  "id": "G13-20",
+  "nombre": "Customer Release Notes",
+  "cliente_que_paga": "Product managers y fundadores de SaaS pequeños y medianos",
+  "problema": "Los changelogs para clientes se escriben a mano o se omiten.",
+  "solucion": "App de GitHub que convierte PRs fusionados en notas de versión para clientes, página pública de changelog y feed RSS.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace ('release notes', 'changelog'), SEO 'changelog generator from pull requests'",
+  "competidores": [
+   "Release Drafter (gratis)",
+   "Headway (sin verificar)",
+   "LaunchNotes (sin verificar)"
+  ],
+  "por_que_ahora": "Los LLM permiten reescribir PRs técnicos en lenguaje de cliente.",
+  "ventaja_juan": "Backend Node/TS.",
+  "riesgo_principal": "Release Drafter y changelogs nativos de GitHub cubren lo básico (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "changelog para clientes"
+ }
+]

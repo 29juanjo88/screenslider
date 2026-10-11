@@ -1,0 +1,374 @@
+[
+ {
+  "id": "G18-01",
+  "nombre": "Instant DXF quote widget for laser shops",
+  "cliente_que_paga": "Owner of a laser/waterjet cutting shop",
+  "problema": "Shops lose RFQs because quoting DXF files by hand takes hours.",
+  "solucion": "Embeddable widget that parses DXF, computes cut length/pierces/material and returns an instant price.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Shopify/WordPress plugin listings plus r/lasercutting and Facebook laser-shop groups",
+  "competidores": [
+   "Xometry",
+   "Protolabs",
+   "Paperless Parts (enterprise)"
+  ],
+  "por_que_ahora": "Customers expect Amazon-like instant quotes.",
+  "ventaja_juan": "Knows DXF geometry and nesting costs from CAD/CAM work.",
+  "riesgo_principal": "Shops fear exposing pricing and need setup effort.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "cotización CAD"
+ },
+ {
+  "id": "G18-02",
+  "nombre": "STEP/IGES to glTF conversion API",
+  "cliente_que_paga": "SaaS developers building manufacturing or e-commerce tools",
+  "problema": "Rendering CAD in the browser needs heavy OpenCascade tooling.",
+  "solucion": "Pay-per-use REST API converting STEP/IGES/DXF to glTF/PNG/SVG with thumbnails.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO for 'step to gltf api', RapidAPI/API directories, GitHub examples",
+  "competidores": [
+   "CAD Exchanger",
+   "Autodesk Platform Services (pricing sin verificar)"
+  ],
+  "por_que_ahora": "Web 3D viewers and parts marketplaces are growing.",
+  "ventaja_juan": "Strong CAD format knowledge and backend skills.",
+  "riesgo_principal": "Incumbent CAD SDK vendors could undercut.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "conversión CAD API"
+ },
+ {
+  "id": "G18-03",
+  "nombre": "Automated DFM checker for sheet metal",
+  "cliente_que_paga": "Mechanical design engineers and startups ordering sheet-metal parts",
+  "problema": "Parts get rejected by shops for min-flange, hole-to-edge or bend-relief errors.",
+  "solucion": "Upload DXF/STEP and get a DFM report with highlighted violations by process.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'sheet metal DFM checklist', r/engineering, Fusion/SolidWorks forums",
+  "competidores": [
+   "Xometry and Protolabs built-in DFM (only on their quotes)"
+  ],
+  "por_que_ahora": "Engineers want pre-checks before ordering.",
+  "ventaja_juan": "DFM and sheet-metal design experience.",
+  "riesgo_principal": "Quote platforms offer free DFM feedback (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "DFM chapa"
+ },
+ {
+  "id": "G18-04",
+  "nombre": "Laser cut nesting and cost calculator for Etsy sellers",
+  "cliente_que_paga": "Etsy/Shopify sellers of laser-cut goods",
+  "problema": "Sellers misprice products because material, time and kerf are guessed.",
+  "solucion": "Web app calculating per-item cost from SVG/DXF, machine rate and material sheets.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Etsy seller forums, YouTube laser channels, Facebook Glowforge groups",
+  "competidores": [
+   "Spreadsheets",
+   "Glowforge app (sin verificar)"
+  ],
+  "por_que_ahora": "Craft laser machines are widespread.",
+  "ventaja_juan": "Knows laser time and cost models.",
+  "riesgo_principal": "Low price needs many payers (F5 borderline).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "costeo corte láser"
+ },
+ {
+  "id": "G18-05",
+  "nombre": "CNC job time estimator from G-code",
+  "cliente_que_paga": "CNC job shop estimators",
+  "problema": "Estimates ignore real machine time, causing underquoting.",
+  "solucion": "Upload G-code/CAM output and get cycle time with rapids, accel and tool changes.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Practical Machinist and r/CNC, SEO 'gcode time estimator'",
+  "competidores": [
+   "CAMotics (free simulator)",
+   "CAM built-in estimates"
+  ],
+  "por_que_ahora": "Shops tighten margins with rising costs.",
+  "ventaja_juan": "CAM/CNC background.",
+  "riesgo_principal": "Free simulators may be good enough (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "estimador G-code"
+ },
+ {
+  "id": "G18-06",
+  "nombre": "G-code diff and version control for CNC programs",
+  "cliente_que_paga": "CNC programmers and machine shops",
+  "problema": "Programs get edited at the machine and nobody knows which version is right.",
+  "solucion": "Git-like web tool to diff, annotate and track G-code revisions per part.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Practical Machinist, r/CNC, SEO 'gcode compare'",
+  "competidores": [
+   "Generic diff tools",
+   "CIMCO (sin verificar)"
+  ],
+  "por_que_ahora": "Shops digitize without MES budgets.",
+  "ventaja_juan": "Understands G-code and machinist workflows.",
+  "riesgo_principal": "Shops are slow to change habits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "control versiones CNC"
+ },
+ {
+  "id": "G18-07",
+  "nombre": "Fusion 360 add-in for instant outsourced quotes",
+  "cliente_que_paga": "Fusion 360 hobbyist-pro designers",
+  "problema": "Designers leave CAD to get quotes and re-upload models.",
+  "solucion": "Add-in that exports the body and compares estimated costs for print/laser/CNC.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Autodesk App Store search 'quote' and Fusion forums",
+  "competidores": [
+   "Native Fusion manufacturing extension (sin verificar)"
+  ],
+  "por_que_ahora": "Fusion user base is large.",
+  "ventaja_juan": "CAD plus API skills.",
+  "riesgo_principal": "Single platform dependency, low price.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "complemento Fusion"
+ },
+ {
+  "id": "G18-08",
+  "nombre": "3D print farm job queue and cost tracker",
+  "cliente_que_paga": "Small print farm operators",
+  "problema": "Farm owners track failed prints, filament and machine hours in spreadsheets.",
+  "solucion": "SaaS to schedule jobs, log failures and compute per-print profit.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "r/3Dprinting, r/PrintFarm, YouTube print-farm creators",
+  "competidores": [
+   "OctoPrint plugins",
+   "3DPrinterOS (sin verificar)"
+  ],
+  "por_que_ahora": "Print-on-demand farms are multiplying.",
+  "ventaja_juan": "Printer firmware knowledge.",
+  "riesgo_principal": "OctoPrint ecosystem is free (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "granja impresión 3D"
+ },
+ {
+  "id": "G18-09",
+  "nombre": "STL print-cost quote widget for Shopify",
+  "cliente_que_paga": "Shopify stores selling custom 3D prints",
+  "problema": "Owners hand-quote every uploaded STL.",
+  "solucion": "Shopify app: upload STL, compute volume/support/time, show instant price and checkout.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Shopify App Store search 'custom 3D print quote'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Custom print stores are growing.",
+  "ventaja_juan": "Slicing and printer-time modeling experience.",
+  "riesgo_principal": "Shopify dependency; incumbent apps may exist.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "cotización STL"
+ },
+ {
+  "id": "G18-10",
+  "nombre": "Printable-file QA checker for Etsy STL sellers",
+  "cliente_que_paga": "Designers selling STL files on Etsy/Cults3D",
+  "problema": "Buyers complain about non-manifold or unprintable models.",
+  "solucion": "Upload mesh and get automated repair and printability report.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Etsy seller forums, r/3Dprinting, Cults3D creators",
+  "competidores": [
+   "Meshmixer (discontinued)",
+   "Netfabb (sin verificar)"
+  ],
+  "por_que_ahora": "Digital file sales are booming.",
+  "ventaja_juan": "3D printing know-how.",
+  "riesgo_principal": "Free slicers repair meshes (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "validación STL"
+ },
+ {
+  "id": "G18-11",
+  "nombre": "PLC tag list converter between vendors",
+  "cliente_que_paga": "Controls engineers migrating PLC projects",
+  "problema": "Migrating tag databases between Siemens and Rockwell is manual.",
+  "solucion": "Web tool mapping tag exports (CSV/XML) across TIA Portal and Studio 5000 formats.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'convert tag list Studio 5000 TIA', PLCTalk and r/PLC",
+  "competidores": [
+   "Vendor migration tools (sin verificar)"
+  ],
+  "por_que_ahora": "Brownfield migrations increase.",
+  "ventaja_juan": "Hands-on TIA Portal and Studio 5000.",
+  "riesgo_principal": "Niche volume may stay small.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "migración PLC"
+ },
+ {
+  "id": "G18-12",
+  "nombre": "PLC code documentation generator",
+  "cliente_que_paga": "Controls engineers and integrators",
+  "problema": "Nobody documents ladder logic before handoff.",
+  "solucion": "Upload PLC export and get readable docs, I/O lists and cross references.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "PLCTalk, r/PLC, SEO 'PLC documentation tool'",
+  "competidores": [
+   "Vendor built-in cross reference tools"
+  ],
+  "por_que_ahora": "Integrators face handoff audits.",
+  "ventaja_juan": "PLC programming experience.",
+  "riesgo_principal": "Vendors could add LLM docs natively.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "documentación PLC"
+ },
+ {
+  "id": "G18-13",
+  "nombre": "PLC LLM review assistant",
+  "cliente_que_paga": "Industrial automation engineers",
+  "problema": "Reviews of ST/ladder code are manual and miss mistakes.",
+  "solucion": "Static checker flagging naming, unsafe patterns and unit mismatches in exported PLC text.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "r/PLC, LinkedIn automation groups, PLCTalk",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "LLM code review is mainstream but not for PLC.",
+  "ventaja_juan": "Deep PLC knowledge.",
+  "riesgo_principal": "Export formats are proprietary.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "revisión código PLC"
+ },
+ {
+  "id": "G18-14",
+  "nombre": "Sheet metal bend allowance calculator API",
+  "cliente_que_paga": "Developers of fabrication software",
+  "problema": "Teams reimplement K-factor and bend deduction badly.",
+  "solucion": "API/library computing flat patterns and bend allowances with material tables.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'k-factor calculator api', GitHub, dev forums",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "More shops build custom portals.",
+  "ventaja_juan": "Sheet-metal CAD experience.",
+  "riesgo_principal": "Small developer audience.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "chapa API"
+ },
+ {
+  "id": "G18-15",
+  "nombre": "Tolerance stack-up analyzer",
+  "cliente_que_paga": "Mechanical design engineers",
+  "problema": "Stack-ups are done in Excel and often wrong.",
+  "solucion": "Browser tool for 1D worst-case and statistical tolerance stacks with reports.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'tolerance stack up calculator', r/engineering, YouTube",
+  "competidores": [
+   "Excel templates",
+   "CETOL (enterprise",
+   "price sin verificar)"
+  ],
+  "por_que_ahora": "Remote engineers want lightweight tools.",
+  "ventaja_juan": "Knows GD&T practice.",
+  "riesgo_principal": "Free calculators exist (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "análisis tolerancias"
+ },
+ {
+  "id": "G18-16",
+  "nombre": "RFQ inbox parser for machine shops",
+  "cliente_que_paga": "Machine shop estimators",
+  "problema": "RFQs arrive by email with mixed attachments.",
+  "solucion": "Inbox tool extracting part, qty, material and drawings into a quote queue.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "Practical Machinist and r/machinists content marketing",
+  "competidores": [
+   "Paperless Parts (enterprise)"
+  ],
+  "por_que_ahora": "LLM extraction is now cheap.",
+  "ventaja_juan": "Knows RFQ and drawing content.",
+  "riesgo_principal": "Requires outbound trust and email access.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "parser de RFQ"
+ },
+ {
+  "id": "G18-17",
+  "nombre": "Engineering drawing title-block extractor",
+  "cliente_que_paga": "Procurement and manufacturing engineers",
+  "problema": "Reading PDFs of drawings for BOMs is slow.",
+  "solucion": "Upload PDF drawings; extract part number, material, tolerances to CSV.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'extract data from engineering drawings', r/engineering",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Vision LLMs read drawings now.",
+  "ventaja_juan": "Drawing standards expertise.",
+  "riesgo_principal": "Accuracy expectations are high.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "extracción planos"
+ },
+ {
+  "id": "G18-18",
+  "nombre": "Machine shop hourly rate calculator and pricing coach",
+  "cliente_que_paga": "Small machine shop owners",
+  "problema": "Owners do not know true hourly rate and underprice.",
+  "solucion": "Interactive calculator and benchmark dashboard from costs, utilization and overhead.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'machine shop hourly rate calculator', Practical Machinist",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Margin pressure from inflation.",
+  "ventaja_juan": "Understands shop economics.",
+  "riesgo_principal": "Free spreadsheets and low price (F5 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "tarifa taller"
+ },
+ {
+  "id": "G18-19",
+  "nombre": "DXF cleanup and validator for CAM",
+  "cliente_que_paga": "Laser/plasma cutter operators",
+  "problema": "Bad DXFs (duplicates, open contours) waste material.",
+  "solucion": "Drag and drop tool fixing duplicate lines, open paths and units before cutting.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'dxf cleanup', r/lasercutting, Inkscape forums",
+  "competidores": [
+   "Inkscape",
+   "LibreCAD (free) (F1 risk)"
+  ],
+  "por_que_ahora": "Customer-supplied DXFs are chaotic.",
+  "ventaja_juan": "CAM file handling experience.",
+  "riesgo_principal": "Free tools overlap (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "limpieza DXF"
+ },
+ {
+  "id": "G18-20",
+  "nombre": "Laser engraving job-file preparer for photo products",
+  "cliente_que_paga": "Sellers of engraved gifts",
+  "problema": "Preparing photos for engraving is slow trial and error.",
+  "solucion": "Web tool converting images to engrave-ready vector/raster files with material presets.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Etsy seller forums, r/lasercutting, YouTube laser channels",
+  "competidores": [
+   "LightBurn (paid desktop)",
+   "Glowforge app"
+  ],
+  "por_que_ahora": "Personalized gifts keep selling.",
+  "ventaja_juan": "Laser parameter knowledge.",
+  "riesgo_principal": "LightBurn may cover it.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "preparación grabado láser"
+ }
+]

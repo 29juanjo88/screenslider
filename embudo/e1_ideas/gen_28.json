@@ -1,0 +1,381 @@
+[
+ {
+  "id": "G28-01",
+  "nombre": "PLC Diff for Git",
+  "cliente_que_paga": "Controls engineers / integrators with TIA Portal and Studio 5000",
+  "problema": "Siemens SCL/ladder sources cannot be diffed natively; code review of PLC changes is manual.",
+  "solucion": "Web app that ingests exported XML/L5X and shows readable diffs and change reports, with a git-friendly CLI.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Search 'compare TIA Portal projects' / 'L5X diff' plus PLCTalk and r/PLC posts",
+  "competidores": [
+   "versionDog",
+   "Siemens Automation Compare Tool",
+   "MDT AutoSave"
+  ],
+  "por_que_ahora": "IEC 61131 teams adopting git/CI; Siemens VCI exports XML since V16.",
+  "ventaja_juan": "Knows TIA Portal and Studio 5000 export formats.",
+  "riesgo_principal": "Vendors may ship better native diffs.",
+  "evidencia_url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing",
+  "angulo": "28",
+  "tema": "PLC code diff"
+ },
+ {
+  "id": "G28-02",
+  "nombre": "L5X Tag Documenter",
+  "cliente_que_paga": "Rockwell integrators who deliver documentation",
+  "problema": "Customers demand I/O lists and tag docs; engineers write them by hand.",
+  "solucion": "Upload L5X, get I/O list, tag cross-reference and PDF/Excel docs in a branded template.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'Studio 5000 I/O list generator' and PLCTalk forum",
+  "competidores": [
+   "Rockwell Studio 5000 built-in export",
+   "Custom Excel macros"
+  ],
+  "por_que_ahora": "Integrators have less time per project and handoff docs are contractually required.",
+  "ventaja_juan": "Direct Studio 5000 experience.",
+  "riesgo_principal": "Rockwell could improve native export.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "PLC documentation generator"
+ },
+ {
+  "id": "G28-03",
+  "nombre": "STEP Validator API",
+  "cliente_que_paga": "CAD/manufacturing SaaS developers",
+  "problema": "Customer-uploaded STEP files arrive broken, with units wrong or no solids.",
+  "solucion": "Hosted API that checks, repairs and reports STEP/IGES issues before they reach a CAM or quoting flow.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'validate step file api', API directories, Hacker News Show HN",
+  "competidores": [
+   "Open CASCADE (library)",
+   "CAD Exchanger (SDK)",
+   "Datakit"
+  ],
+  "por_que_ahora": "Many manufacturing quoting startups launched recently.",
+  "ventaja_juan": "CAD formats and SolidWorks exports.",
+  "riesgo_principal": "Open-source libraries cover part of it.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "CAD file validation API"
+ },
+ {
+  "id": "G28-04",
+  "nombre": "GCode Sanity Linter",
+  "cliente_que_paga": "Shops running CNC/3D printers with many post-processors",
+  "problema": "Bad G-code crashes machines or scraps parts; checks are by eye.",
+  "solucion": "Browser linter that flags unsafe moves, missing tool changes and bounds violations, per machine profile.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'gcode checker' and r/hobbycnc, r/3Dprinting",
+  "competidores": [
+   "CAMotics",
+   "NC Viewer (free)",
+   "Vericut (enterprise)"
+  ],
+  "por_que_ahora": "Cheap CNC machines are widespread among small shops.",
+  "ventaja_juan": "Firmware and CAM knowledge.",
+  "riesgo_principal": "Free viewers satisfy many users (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "G-code verification"
+ },
+ {
+  "id": "G28-05",
+  "nombre": "Sheet Metal DFM Check",
+  "cliente_que_paga": "Procurement engineers and designers ordering laser/bend parts",
+  "problema": "Parts are rejected after quoting for unbendable features.",
+  "solucion": "Upload DXF/STEP, get bend and hole-to-edge rule violations with fix hints against a shop's rules.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'sheet metal DFM check' and SolidWorks forums",
+  "competidores": [
+   "Xometry DFM",
+   "Protolabs instant quote"
+  ],
+  "por_que_ahora": "More designers send to online fab shops.",
+  "ventaja_juan": "SolidWorks sheet metal.",
+  "riesgo_principal": "Fab marketplaces give DFM for free.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "sheet metal DFM"
+ },
+ {
+  "id": "G28-06",
+  "nombre": "Laser Quote Widget",
+  "cliente_que_paga": "Small laser/waterjet job shops",
+  "problema": "Quoting DXF requests takes hours per week.",
+  "solucion": "Embeddable instant-quote widget with nesting-based pricing and Stripe checkout.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Search 'online quote laser cutting DXF' and Facebook shop owner groups",
+  "competidores": [
+   "Xometry (marketplace)",
+   "Quoting plugins"
+  ],
+  "por_que_ahora": "Customers expect instant quotes.",
+  "ventaja_juan": "DXF parsing and CAM.",
+  "riesgo_principal": "Outreach heavy per the brief's MEDIA anchor.",
+  "evidencia_url": "https://www.fabricatingandmetalworking.com/2019/12/low-cost-subscription-pricing-for-nesting-software/",
+  "angulo": "28",
+  "tema": "laser shop quoting"
+ },
+ {
+  "id": "G28-07",
+  "nombre": "Alarm Text Translator",
+  "cliente_que_paga": "Machine builders exporting equipment",
+  "problema": "HMI/PLC alarm texts must be translated into many languages in spreadsheets.",
+  "solucion": "Tool that reads HMI text lists, translates with glossary and exports back for TIA/Factory Talk.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'HMI alarm text translation' and LinkedIn machine builder groups",
+  "competidores": [
+   "Manual Excel",
+   "General translation services"
+  ],
+  "por_que_ahora": "Machine exports growing and LLM translation is cheap.",
+  "ventaja_juan": "HMI text list formats.",
+  "riesgo_principal": "Format variety.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "HMI text translation"
+ },
+ {
+  "id": "G28-08",
+  "nombre": "Printer Profile Hub",
+  "cliente_que_paga": "3D print farm operators",
+  "problema": "Slicer profiles drift across printers and cause failures.",
+  "solucion": "Versioned profile repository with a diff, rollout and rollback across slicers.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Search 'print farm management' and Reddit r/3Dprinting",
+  "competidores": [
+   "Printago",
+   "3DPrinterOS",
+   "OctoFarm"
+  ],
+  "por_que_ahora": "Print farms are growing commercially.",
+  "ventaja_juan": "3D printer firmware.",
+  "riesgo_principal": "Slicer vendors may add sync.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "print farm profiles"
+ },
+ {
+  "id": "G28-09",
+  "nombre": "OPC UA Test Bench",
+  "cliente_que_paga": "Software teams integrating industrial gear",
+  "problema": "Testing OPC UA clients needs real PLCs.",
+  "solucion": "Cloud-hosted simulated OPC UA servers with configurable fault injection.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'opc ua simulator online' and GitHub",
+  "competidores": [
+   "Prosys simulation server",
+   "open62541"
+  ],
+  "por_que_ahora": "IIoT software is on the rise.",
+  "ventaja_juan": "Industrial protocols.",
+  "riesgo_principal": "Free simulators exist.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "OPC UA simulator"
+ },
+ {
+  "id": "G28-10",
+  "nombre": "Modbus Device Registry",
+  "cliente_que_paga": "Integrators writing drivers",
+  "problema": "Register maps for devices are scattered across PDFs.",
+  "solucion": "Searchable database of Modbus maps with an API and code generation.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'modbus register map for <device>'",
+  "competidores": [
+   "Vendor PDFs"
+  ],
+  "por_que_ahora": "Edge gateways need driver configs.",
+  "ventaja_juan": "Reads device manuals and PLC drivers.",
+  "riesgo_principal": "Data entry effort.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "Modbus register maps"
+ },
+ {
+  "id": "G28-11",
+  "nombre": "Lab Calibration Tracker",
+  "cliente_que_paga": "Calibration managers in small labs",
+  "problema": "Calibration due dates tracked in spreadsheets; audits painful.",
+  "solucion": "Asset calibration scheduler with certificates, reminders and audit exports.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'calibration management software' and ISO 17025 forums",
+  "competidores": [
+   "Qualer",
+   "Fluke MET/TEAM"
+  ],
+  "por_que_ahora": "Audit pressure persists.",
+  "ventaja_juan": "Industrial instrumentation context.",
+  "riesgo_principal": "Established competitors.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "calibration tracking"
+ },
+ {
+  "id": "G28-12",
+  "nombre": "Torque Spec Library",
+  "cliente_que_paga": "Maintenance planners",
+  "problema": "Bolt torque specs live in manuals.",
+  "solucion": "Searchable spec library with CSV import for CMMS.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO",
+  "competidores": [
+   "Manufacturer manuals"
+  ],
+  "por_que_ahora": "Predictive maintenance push.",
+  "ventaja_juan": "Manuals experience.",
+  "riesgo_principal": "Low price (F5 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "torque spec lookup"
+ },
+ {
+  "id": "G28-13",
+  "nombre": "Panel BOM Extractor",
+  "cliente_que_paga": "Electrical panel builders",
+  "problema": "BOM from EPLAN/AutoCAD Electrical drawings are retyped.",
+  "solucion": "Parse DXF/DWG schematics into a priced BOM.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'panel bom from dwg' and r/PLC",
+  "competidores": [
+   "EPLAN",
+   "AutoCAD Electrical"
+  ],
+  "por_que_ahora": "Panel shops are growing.",
+  "ventaja_juan": "AutoCAD.",
+  "riesgo_principal": "Incumbents have native BOM.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "panel BOM extraction"
+ },
+ {
+  "id": "G28-14",
+  "nombre": "Safety Relay Calculator",
+  "cliente_que_paga": "Machine safety engineers",
+  "problema": "PL/SIL calculations are done in spreadsheets.",
+  "solucion": "Web tool to compute PL per ISO 13849 and produce a report.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'ISO 13849 calculator'",
+  "competidores": [
+   "SISTEMA (free)"
+  ],
+  "por_que_ahora": "Machinery regulation updates.",
+  "ventaja_juan": "Safety systems.",
+  "riesgo_principal": "SISTEMA is free (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "ISO 13849 calculator"
+ },
+ {
+  "id": "G28-15",
+  "nombre": "DXF Cleanup Service",
+  "cliente_que_paga": "Laser shops",
+  "problema": "Customer DXFs have duplicates, splines and open contours.",
+  "solucion": "API/web tool to clean and normalize DXFs.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'fix dxf open contours'",
+  "competidores": [
+   "Manual CAD cleanup"
+  ],
+  "por_que_ahora": "Online ordering.",
+  "ventaja_juan": "DXF structure.",
+  "riesgo_principal": "Free scripts exist.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "DXF cleanup"
+ },
+ {
+  "id": "G28-16",
+  "nombre": "Drawing Title Block Extractor",
+  "cliente_que_paga": "Procurement teams",
+  "problema": "Specs in PDF drawings are retyped.",
+  "solucion": "OCR+LLM extraction of title block and tolerances to CSV/ERP.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'extract title block from pdf drawing'",
+  "competidores": [
+   "Werk24",
+   "Paperless Parts"
+  ],
+  "por_que_ahora": "LLM vision improved.",
+  "ventaja_juan": "Engineering drawings.",
+  "riesgo_principal": "Competitors exist.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "drawing data extraction"
+ },
+ {
+  "id": "G28-17",
+  "nombre": "Firmware Release Notes Bot",
+  "cliente_que_paga": "Hardware startups",
+  "problema": "Release notes assembled manually.",
+  "solucion": "Git-based release notes and changelog pages for firmware.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub Marketplace",
+  "competidores": [
+   "Release-please",
+   "GitHub releases"
+  ],
+  "por_que_ahora": "Hardware startups ship OTA.",
+  "ventaja_juan": "Firmware.",
+  "riesgo_principal": "Free alternatives (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "firmware changelogs"
+ },
+ {
+  "id": "G28-18",
+  "nombre": "Stencil Gerber Quote",
+  "cliente_que_paga": "Electronics hobbyists/small makers",
+  "problema": "Stencil pricing requires emailing vendors.",
+  "solucion": "Gerber-based instant quote comparison across vendors.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO",
+  "competidores": [
+   "JLCPCB"
+  ],
+  "por_que_ahora": "PCB ordering grows.",
+  "ventaja_juan": "Electronics.",
+  "riesgo_principal": "Low price.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "Gerber quoting"
+ },
+ {
+  "id": "G28-19",
+  "nombre": "Weld Procedure Spec Builder",
+  "cliente_que_paga": "Fabrication shops and welding engineers",
+  "problema": "WPS/PQR documents are assembled by hand in Word.",
+  "solucion": "Web tool that builds WPS/PQR sheets with code-aware field checks and PDF export.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'WPS template AWS D1.1' and welding forums",
+  "competidores": [
+   "Weldassistant",
+   "Manual Word templates"
+  ],
+  "por_que_ahora": "Audit paperwork is persistent.",
+  "ventaja_juan": "Industrial fabrication context.",
+  "riesgo_principal": "Code compliance liability.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "welding procedure docs"
+ },
+ {
+  "id": "G28-20",
+  "nombre": "Mold Flow Lite Reports",
+  "cliente_que_paga": "Injection molders",
+  "problema": "Simple fill checks need expensive software.",
+  "solucion": "Cloud estimates of fill/cooling from STEP.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'injection molding simulation online'",
+  "competidores": [
+   "Autodesk Moldflow",
+   "SOLIDWORKS Plastics"
+  ],
+  "por_que_ahora": "Low-cost compute.",
+  "ventaja_juan": "3D and CAD.",
+  "riesgo_principal": "Accuracy liability.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "molding simulation"
+ }
+]

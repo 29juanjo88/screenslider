@@ -1,0 +1,403 @@
+[
+ {
+  "id": "G25-01",
+  "nombre": "Evidencia SOC2 para equipos pequeños",
+  "cliente_que_paga": "Responsable de compliance/IT en empresa de 100-500 personas",
+  "problema": "Recolectar evidencia de auditoría SOC 2 en hojas de cálculo y capturas es lento.",
+  "solucion": "Recolector de evidencia por conectores read-only (Google Workspace, AWS, GitHub) que genera el paquete para el auditor.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Búsquedas 'Vanta alternative' y 'SOC 2 evidence collection' en SEO + G2/Capterra",
+  "competidores": [
+   "Vanta",
+   "Drata",
+   "Sprinto",
+   "ComplyJet"
+  ],
+  "por_que_ahora": "Muchas empresas medianas piden SOC 2 y las plataformas grandes son caras.",
+  "ventaja_juan": "Backend/APIs: construir conectores casi gratis.",
+  "riesgo_principal": "Mercado saturado y con mucho gasto en marketing.",
+  "evidencia_url": "https://complyjet.com/blog/vanta-competitors-alternatives",
+  "angulo": "25",
+  "tema": "compliance SOC2"
+ },
+ {
+  "id": "G25-02",
+  "nombre": "Monitor de cambios en PLC",
+  "cliente_que_paga": "Ingeniero de planta / gerente de OT de planta mediana",
+  "problema": "Nadie sabe qué cambió en los programas de PLC entre respaldos.",
+  "solucion": "Servicio que compara proyectos PLC (L5X, TIA Openness exports) subidos y alerta diferencias con historial versionado.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Foros PLCTalk, r/PLC y SEO 'PLC program version control'",
+  "competidores": [
+   "FactoryTalk AssetCentre",
+   "Copia de Git manual",
+   "Industrial Defender (seguridad OT)"
+  ],
+  "por_que_ahora": "NIS2/IEC 62443 empujan control de cambios en OT.",
+  "ventaja_juan": "PLC Siemens/Rockwell: conoce los formatos de archivo.",
+  "riesgo_principal": "Los formatos propietarios cambian y los fabricantes pueden lanzar lo suyo.",
+  "evidencia_url": "https://industrialmonitordirect.com/tr/blogs/knowledgebase/plc-change-management-versioning-plc-and-hmi-project-files",
+  "angulo": "25",
+  "tema": "control cambios PLC"
+ },
+ {
+  "id": "G25-03",
+  "nombre": "Inventario de SaaS en la sombra",
+  "cliente_que_paga": "Jefe de IT en empresa de 200-2000 empleados",
+  "problema": "No se sabe qué apps SaaS usan los empleados ni cuánto cuestan.",
+  "solucion": "Conecta Google/Microsoft OAuth y correo de facturas para listar apps, usuarios y renovaciones.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Directorios Google Workspace Marketplace y Microsoft AppSource + SEO 'SaaS discovery tool'",
+  "competidores": [
+   "Zluri",
+   "BetterCloud",
+   "Torii"
+  ],
+  "por_que_ahora": "Recortes de costos y auditorías de SaaS.",
+  "ventaja_juan": "Integraciones OAuth con Node/TS.",
+  "riesgo_principal": "Competidores con presupuesto grande; ventas enterprise.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "inventario SaaS"
+ },
+ {
+  "id": "G25-04",
+  "nombre": "Revisión de accesos trimestral",
+  "cliente_que_paga": "Responsable de seguridad/compliance",
+  "problema": "Las revisiones de acceso de usuarios se hacen a mano cada trimestre.",
+  "solucion": "Importa usuarios de apps por CSV/API, asigna revisores por correo y genera evidencia firmada.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Google Workspace Marketplace y búsqueda 'user access review template' (SEO)",
+  "competidores": [
+   "Vanta",
+   "Drata",
+   "hojas de cálculo"
+  ],
+  "por_que_ahora": "Auditorías SOC 2/ISO exigen revisiones periódicas.",
+  "ventaja_juan": "Backend simple.",
+  "riesgo_principal": "Las suites de compliance lo incluyen.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "revisión de accesos"
+ },
+ {
+  "id": "G25-05",
+  "nombre": "Offboarding automático de empleados",
+  "cliente_que_paga": "Gerente de RR. HH. / IT",
+  "problema": "Al salir un empleado quedan cuentas activas por semanas.",
+  "solucion": "Checklist de offboarding conectado a Okta/Google/Slack que revoca accesos y registra cada paso.",
+  "precio_usd_mes": 129,
+  "canal_primeros_100": "Slack App Directory y SEO 'employee offboarding checklist automation'",
+  "competidores": [
+   "BetterCloud",
+   "Okta Workflows",
+   "Rippling"
+  ],
+  "por_que_ahora": "Más equipos remotos y rotación.",
+  "ventaja_juan": "APIs de identidad.",
+  "riesgo_principal": "Plataformas de identidad lo ofrecen nativo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "offboarding IT"
+ },
+ {
+  "id": "G25-06",
+  "nombre": "Políticas y acuses de lectura",
+  "cliente_que_paga": "Responsable de RR. HH./compliance",
+  "problema": "Seguimiento de quién leyó y aceptó cada política se pierde en correos.",
+  "solucion": "Publica políticas, envía acuses con recordatorios y exporta reporte de auditoría.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Slack/Teams app directories y SEO 'policy acknowledgment software'",
+  "competidores": [
+   "PolicyTech",
+   "Workable (RRHH)",
+   "Microsoft Forms"
+  ],
+  "por_que_ahora": "Regulaciones de conducta y seguridad en aumento.",
+  "ventaja_juan": "Desarrollo web rápido.",
+  "riesgo_principal": "Microsoft Forms/SharePoint pueden bastar (F1 cercano).",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "acuses de políticas"
+ },
+ {
+  "id": "G25-07",
+  "nombre": "Escáner de licencias de software",
+  "cliente_que_paga": "Líder de ingeniería/compliance",
+  "problema": "Se ignora qué licencias open source hay en el código.",
+  "solucion": "Escanea repos y genera SBOM y reporte de licencias con alertas de incompatibilidad.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "GitHub Marketplace y SEO 'SBOM generator'",
+  "competidores": [
+   "FOSSA",
+   "Snyk",
+   "Dependabot (gratis parcial)"
+  ],
+  "por_que_ahora": "Reglas de SBOM (EO 14028, CRA UE).",
+  "ventaja_juan": "Backend/Node.",
+  "riesgo_principal": "Incumbentes gratis cubren parte (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "SBOM y licencias"
+ },
+ {
+  "id": "G25-08",
+  "nombre": "Alertas de caducidad de certificados",
+  "cliente_que_paga": "Equipo DevOps/IT",
+  "problema": "Certificados TLS y claves que caducan causan caídas.",
+  "solucion": "Descubre dominios, monitorea certificados y avisa por Slack/correo.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'certificate expiry monitoring' y listados de Slack",
+  "competidores": [
+   "Uptime Robot (parcial)",
+   "Datadog",
+   "Keyfactor"
+  ],
+  "por_que_ahora": "Vida de certificados reducida a 47 días próximamente (CA/B Forum).",
+  "ventaja_juan": "Backend simple.",
+  "riesgo_principal": "Muchas herramientas gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "caducidad de certificados"
+ },
+ {
+  "id": "G25-09",
+  "nombre": "Evidencia de pentest y hallazgos",
+  "cliente_que_paga": "Responsable de seguridad",
+  "problema": "Seguir hallazgos de pentest y vulnerabilidades entre PDFs y Jira es caótico.",
+  "solucion": "Importa informes, normaliza hallazgos y genera seguimiento con SLA.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Búsqueda 'pentest findings tracker' y comunidades r/netsec",
+  "competidores": [
+   "DefectDojo (gratis)",
+   "Plextrac",
+   "Jira"
+  ],
+  "por_que_ahora": "Más clientes piden retest evidenciado.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "DefectDojo gratis (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "hallazgos de pentest"
+ },
+ {
+  "id": "G25-10",
+  "nombre": "Cuestionarios de seguridad IA",
+  "cliente_que_paga": "Responsable de ventas/seguridad en SaaS",
+  "problema": "Responder cuestionarios de proveedores toma días.",
+  "solucion": "Base de respuestas y borrador con IA a partir de documentos propios.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "SEO 'security questionnaire automation'",
+  "competidores": [
+   "Vanta",
+   "Loopio",
+   "SafeBase"
+  ],
+  "por_que_ahora": "Compradores enterprise envían cuestionarios más largos.",
+  "ventaja_juan": "Backend + IA.",
+  "riesgo_principal": "Competidores bien financiados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "cuestionarios de seguridad"
+ },
+ {
+  "id": "G25-11",
+  "nombre": "Conciliador de gastos de tarjeta",
+  "cliente_que_paga": "Controller / finanzas",
+  "problema": "Faltan recibos de gastos con tarjeta corporativa a fin de mes.",
+  "solucion": "Reclama recibos por correo/Slack y concilia contra extracto CSV.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "QuickBooks/Xero app stores",
+  "competidores": [
+   "Expensify",
+   "Ramp",
+   "Brex"
+  ],
+  "por_que_ahora": "Más tarjetas virtuales por equipo.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Las fintech lo regalan con la tarjeta (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "recibos de gastos"
+ },
+ {
+  "id": "G25-12",
+  "nombre": "Seguimiento de contratos y renovaciones",
+  "cliente_que_paga": "Responsable de compras/finanzas",
+  "problema": "Se pierden fechas de renovación automática de contratos.",
+  "solucion": "Extrae fechas de PDFs y avisa antes del plazo de cancelación.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'contract renewal tracker' y Google Workspace Marketplace",
+  "competidores": [
+   "Ironclad",
+   "Juro",
+   "hojas de cálculo"
+  ],
+  "por_que_ahora": "IA permite extracción barata.",
+  "ventaja_juan": "Backend/PDF.",
+  "riesgo_principal": "Mercado de CLM grande.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "renovaciones de contratos"
+ },
+ {
+  "id": "G25-13",
+  "nombre": "Auditor de licencias CAD",
+  "cliente_que_paga": "Gerente de IT de empresa de ingeniería",
+  "problema": "Licencias SolidWorks/AutoCAD sin uso cuestan miles.",
+  "solucion": "Lee logs de licencias (FlexNet/SNL) y reporta uso y ahorro posible.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Foros SolidWorks y SEO 'SolidWorks license usage report'",
+  "competidores": [
+   "Flexera",
+   "Reprise",
+   "LicenseAnalyzer"
+  ],
+  "por_que_ahora": "Costos de suscripción CAD en alza.",
+  "ventaja_juan": "Conoce CAD y licenciamiento.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "licencias CAD"
+ },
+ {
+  "id": "G25-14",
+  "nombre": "Respaldo de proyectos CAD/PDM",
+  "cliente_que_paga": "Jefe de ingeniería",
+  "problema": "Proyectos CAD en discos compartidos sin respaldo versionado.",
+  "solucion": "Agente que respalda y versiona carpetas CAD en la nube con restauración.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'SolidWorks backup' y foros",
+  "competidores": [
+   "Dropbox",
+   "PDM propio de SolidWorks",
+   "Egnyte"
+  ],
+  "por_que_ahora": "Ransomware en manufactura.",
+  "ventaja_juan": "Conoce flujos CAD.",
+  "riesgo_principal": "Nube genérica compite.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "respaldo CAD"
+ },
+ {
+  "id": "G25-15",
+  "nombre": "Registro de cambios en G-code",
+  "cliente_que_paga": "Gerente de manufactura con CNC/impresoras 3D",
+  "problema": "Programas CNC/G-code modificados sin trazabilidad.",
+  "solucion": "Repositorio con diff y aprobación de programas G-code por máquina.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'CNC program management' y Reddit r/CNC",
+  "competidores": [
+   "Predator DNC",
+   "Git",
+   "MachineMetrics"
+  ],
+  "por_que_ahora": "Auditorías ISO 9001/AS9100.",
+  "ventaja_juan": "CAM y G-code.",
+  "riesgo_principal": "Compradores conservadores en talleres.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "trazabilidad G-code"
+ },
+ {
+  "id": "G25-16",
+  "nombre": "Cotizador DXF para compras",
+  "cliente_que_paga": "Comprador/ingeniero de compras",
+  "problema": "Pedir cotización de piezas láser a varios talleres tarda días.",
+  "solucion": "Sube DXF y obtiene comparativa de precio calculado por reglas.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'laser cutting quote online'",
+  "competidores": [
+   "Xometry",
+   "SendCutSend",
+   "Protolabs"
+  ],
+  "por_que_ahora": "Marketplaces de manufactura crecen.",
+  "ventaja_juan": "CAD/CAM.",
+  "riesgo_principal": "Marketplaces grandes dominan.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "cotización DXF"
+ },
+ {
+  "id": "G25-17",
+  "nombre": "Monitoreo de flota de impresoras 3D",
+  "cliente_que_paga": "Gerente de laboratorio/producción de prototipos",
+  "problema": "No se ve el estado de varias impresoras 3D.",
+  "solucion": "Panel que une Klipper/OctoPrint, alertas de fallo y costos por trabajo.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Comunidades Klipper/OctoPrint y SEO 'print farm management'",
+  "competidores": [
+   "3DPrinterOS",
+   "AstroPrint",
+   "Obico"
+  ],
+  "por_que_ahora": "Más granjas de impresión.",
+  "ventaja_juan": "Firmware de impresoras 3D.",
+  "riesgo_principal": "Competidores con versión gratuita.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "granja de impresión"
+ },
+ {
+  "id": "G25-18",
+  "nombre": "Documentación de controles ISO 27001",
+  "cliente_que_paga": "Responsable de seguridad",
+  "problema": "Redactar documentación ISO 27001 desde cero lleva meses.",
+  "solucion": "Generador guiado de políticas y registro de controles con exportación.",
+  "precio_usd_mes": 129,
+  "canal_primeros_100": "SEO 'ISO 27001 documentation template'",
+  "competidores": [
+   "Vanta",
+   "Drata",
+   "Secureframe"
+  ],
+  "por_que_ahora": "Demanda de certificación ISO.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Plantillas gratis abundan.",
+  "evidencia_url": "https://complyjet.com/blog/vanta-competitors-alternatives",
+  "angulo": "25",
+  "tema": "documentación ISO 27001"
+ },
+ {
+  "id": "G25-19",
+  "nombre": "Inventario de activos OT",
+  "cliente_que_paga": "Ingeniero de seguridad OT",
+  "problema": "No existe inventario de PLCs, HMIs y firmware de la planta.",
+  "solucion": "Importa escaneos pasivos/CSV y mapea firmware y CVE conocidas por equipo.",
+  "precio_usd_mes": 249,
+  "canal_primeros_100": "SEO 'OT asset inventory' y LinkedIn/ISA Global Cybersecurity Alliance",
+  "competidores": [
+   "Industrial Defender",
+   "Claroty",
+   "Nozomi"
+  ],
+  "por_que_ahora": "IEC 62443 y NIS2 elevan exigencia.",
+  "ventaja_juan": "PLC/Siemens/Rockwell.",
+  "riesgo_principal": "Compras OT suelen requerir ventas.",
+  "evidencia_url": "https://www.vanmeterinc.com/blog/factorytalk-assetcentre-automation-assets",
+  "angulo": "25",
+  "tema": "inventario OT"
+ },
+ {
+  "id": "G25-20",
+  "nombre": "Validador de BOM de ingeniería",
+  "cliente_que_paga": "Gerente de ingeniería/compras",
+  "problema": "BOMs exportados de CAD llegan con errores a compras y ERP.",
+  "solucion": "Sube BOM de SolidWorks/AutoCAD, detecta duplicados, partes sin número y diferencias entre revisiones.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "SEO 'BOM comparison tool' y foros SolidWorks",
+  "competidores": [
+   "Excel",
+   "PDM nativo",
+   "OpenBOM"
+  ],
+  "por_que_ahora": "Cadenas de suministro exigen exactitud.",
+  "ventaja_juan": "Conoce CAD y BOM.",
+  "riesgo_principal": "OpenBOM y PDM cubren parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "validación de BOM"
+ }
+]

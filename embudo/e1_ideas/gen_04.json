@@ -1,0 +1,362 @@
+[
+ {
+  "id": "G04-01",
+  "nombre": "CAD Viewer for Jira",
+  "cliente_que_paga": "Ingenieros de producto y PMs en equipos de hardware/manufactura que usan Jira",
+  "problema": "Los adjuntos STEP/DXF/STL en tickets Jira no se pueden ver sin descargar y abrir software CAD.",
+  "solucion": "App de Jira que renderiza STEP, STL, DXF y 3MF en el ticket, con medición y comentarios.",
+  "precio_usd_mes": 150,
+  "canal_primeros_100": "Búsqueda 'CAD viewer' / 'STL' en Atlassian Marketplace y comunidad Atlassian de hardware",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Equipos de hardware adoptan Jira Cloud y Forge facilita apps con renderizado.",
+  "ventaja_juan": "Conocimiento de SolidWorks/AutoCAD y formatos CAD; render con librerías abiertas.",
+  "riesgo_principal": "Dependencia de Atlassian; mercado de equipos hardware en Jira es acotado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "visor CAD Jira"
+ },
+ {
+  "id": "G04-02",
+  "nombre": "3D Print Request Workflow",
+  "cliente_que_paga": "Operadores de laboratorios, escuelas y fábricas con servicio interno de impresión 3D",
+  "problema": "Las solicitudes de impresión 3D llegan por email/chat sin estimación de material, tiempo ni cola.",
+  "solucion": "Plantilla de Jira Service Management con subida de STL, estimación automática de tiempo/costo y cola por impresora.",
+  "precio_usd_mes": 120,
+  "canal_primeros_100": "Búsqueda '3D printing' en Atlassian Marketplace; foros de makerspaces y universidades",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Impresión 3D interna se vuelve habitual en empresas y universidades.",
+  "ventaja_juan": "Experiencia en firmware de impresoras 3D y slicing.",
+  "riesgo_principal": "Nicho pequeño; riesgo de plataforma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "cola impresión 3D"
+ },
+ {
+  "id": "G04-03",
+  "nombre": "Change Control for Engineering",
+  "cliente_que_paga": "Gerentes de calidad/ingeniería en fabricantes que usan Jira",
+  "problema": "Gestionar ECR/ECN con aprobaciones y trazabilidad en Jira exige configuración compleja.",
+  "solucion": "App con flujo ECR/ECN preconfigurado, aprobaciones por rol, registro de auditoría y export PDF.",
+  "precio_usd_mes": 200,
+  "canal_primeros_100": "Búsqueda 'ECO' 'change control' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fabricantes migran de PLM pesado a herramientas ligeras en la nube.",
+  "ventaja_juan": "Conocimiento de procesos industriales y documentación técnica.",
+  "riesgo_principal": "Compradores regulados pueden exigir validación formal.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "control de cambios ECN"
+ },
+ {
+  "id": "G04-04",
+  "nombre": "PLC Project Docs for Confluence",
+  "cliente_que_paga": "Ingenieros de automatización e integradores de sistemas",
+  "problema": "La documentación de proyectos PLC (listas de E/S, tags) vive en Excel desconectada de Confluence.",
+  "solucion": "Macro Confluence que importa listas de tags/E/S de TIA Portal y Studio 5000 y genera páginas versionadas.",
+  "precio_usd_mes": 90,
+  "canal_primeros_100": "Búsqueda 'PLC' 'automation' en Atlassian Marketplace; foros PLCtalk y r/PLC",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Integradores buscan documentación estandarizada y trazable.",
+  "ventaja_juan": "Experiencia directa con TIA Portal y Studio 5000.",
+  "riesgo_principal": "Mercado de nicho chico en Atlassian.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "documentación PLC Confluence"
+ },
+ {
+  "id": "G04-05",
+  "nombre": "Release Notes Generator",
+  "cliente_que_paga": "Release managers y PMs de equipos SaaS",
+  "problema": "Redactar notas de versión a mano desde tickets de Jira consume horas cada release.",
+  "solucion": "App que agrupa tickets por versión, genera notas con IA y publica en Confluence o página pública.",
+  "precio_usd_mes": 60,
+  "canal_primeros_100": "Búsqueda 'release notes' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "LLMs permiten redactar notas legibles a bajo costo.",
+  "ventaja_juan": "Backend TypeScript e integración con APIs.",
+  "riesgo_principal": "Competencia existente; la IA nativa de Atlassian puede cubrirlo (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "notas de versión IA"
+ },
+ {
+  "id": "G04-06",
+  "nombre": "Bitbucket PR Risk Scoring",
+  "cliente_que_paga": "Engineering managers y líderes técnicos con Bitbucket Cloud",
+  "problema": "Los PR grandes pasan sin revisión profunda y causan incidentes.",
+  "solucion": "App de Bitbucket que puntúa riesgo del PR por tamaño, archivos críticos y cobertura, con checks de merge.",
+  "precio_usd_mes": 80,
+  "canal_primeros_100": "Búsqueda 'pull request' en Atlassian Marketplace y Bitbucket Pipes",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más código generado por IA aumenta volumen de PRs.",
+  "ventaja_juan": "Backend senior; conocimiento de CI/CD.",
+  "riesgo_principal": "Bitbucket tiene cuota menor que GitHub; riesgo de plataforma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "riesgo en pull requests"
+ },
+ {
+  "id": "G04-07",
+  "nombre": "Jira Cost Rollup",
+  "cliente_que_paga": "Controllers y PMOs de empresas medianas",
+  "problema": "Los costos de proyecto no se pueden sumar en Jira sin hojas de cálculo externas.",
+  "solucion": "App que asigna tarifas por rol a worklogs y reporta costo por épica/proyecto con export a CSV.",
+  "precio_usd_mes": 100,
+  "canal_primeros_100": "Búsqueda 'cost' 'budget' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Presión por rentabilidad de proyectos tras recortes de presupuesto.",
+  "ventaja_juan": "Backend y reporting.",
+  "riesgo_principal": "Mercado saturado de apps de time tracking/budget.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "costos proyecto Jira"
+ },
+ {
+  "id": "G04-08",
+  "nombre": "Compliance Evidence Collector",
+  "cliente_que_paga": "Líderes de seguridad/compliance en SaaS que buscan SOC 2 / ISO 27001",
+  "problema": "Reunir evidencia de tickets y aprobaciones para auditorías toma semanas.",
+  "solucion": "App que etiqueta tickets como evidencia, valida aprobaciones y exporta paquete listo para auditor.",
+  "precio_usd_mes": 180,
+  "canal_primeros_100": "Búsqueda 'SOC 2' 'audit' en Atlassian Marketplace; comunidades de compliance",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más SaaS pequeños necesitan SOC 2 para vender.",
+  "ventaja_juan": "Backend y automatización de exportes.",
+  "riesgo_principal": "Plataformas de compliance (Vanta, Drata) cubren parte; sin verificar integración.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "evidencia auditoría SOC2"
+ },
+ {
+  "id": "G04-09",
+  "nombre": "Confluence Stale Page Cleaner",
+  "cliente_que_paga": "Administradores de Confluence y gerentes de conocimiento",
+  "problema": "Los espacios acumulan páginas obsoletas que confunden y degradan la búsqueda.",
+  "solucion": "App que detecta páginas sin uso, asigna dueños, pide revisión y archiva con un clic.",
+  "precio_usd_mes": 70,
+  "canal_primeros_100": "Búsqueda 'cleanup' 'archive' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Bases de conocimiento enormes dificultan el uso de IA y búsqueda.",
+  "ventaja_juan": "Backend y APIs de Confluence.",
+  "riesgo_principal": "Atlassian podría añadir función nativa (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "limpieza páginas Confluence"
+ },
+ {
+  "id": "G04-10",
+  "nombre": "Bill of Materials for Jira",
+  "cliente_que_paga": "Ingenieros de producto en startups de hardware",
+  "problema": "No existe forma ligera de manejar BOM versionada dentro de Jira.",
+  "solucion": "App que modela BOM jerárquica por issue, con costos, proveedores y export CSV.",
+  "precio_usd_mes": 130,
+  "canal_primeros_100": "Búsqueda 'BOM' 'bill of materials' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Startups de hardware evitan PLM caro.",
+  "ventaja_juan": "Conocimiento de ensamblados CAD y BOM.",
+  "riesgo_principal": "Nicho reducido; PLM ligeros competidores.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "BOM en Jira"
+ },
+ {
+  "id": "G04-11",
+  "nombre": "Incident Postmortem Builder",
+  "cliente_que_paga": "SREs y líderes de ingeniería",
+  "problema": "Los postmortems se escriben tarde y sin formato consistente.",
+  "solucion": "App que arma postmortem en Confluence desde la línea de tiempo del incidente en Jira y chat.",
+  "precio_usd_mes": 90,
+  "canal_primeros_100": "Búsqueda 'postmortem' 'incident' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Cultura SRE extendida; IA acelera redacción.",
+  "ventaja_juan": "Backend y automatización.",
+  "riesgo_principal": "Atlassian ya tiene función de postmortem en Jira Service Management (F1 posible).",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "postmortem automático"
+ },
+ {
+  "id": "G04-12",
+  "nombre": "Maintenance Requests for JSM",
+  "cliente_que_paga": "Jefes de mantenimiento en plantas y facilities",
+  "problema": "Las órdenes de mantenimiento de equipos industriales se gestionan por papel o email.",
+  "solucion": "Plantilla JSM con activos, QR por máquina, preventivo programado y reporte de downtime.",
+  "precio_usd_mes": 160,
+  "canal_primeros_100": "Búsqueda 'maintenance' 'CMMS' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Planta pequeña busca CMMS barato dentro de herramientas existentes.",
+  "ventaja_juan": "Conocimiento de planta industrial y PLC.",
+  "riesgo_principal": "CMMS dedicados compiten fuerte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "mantenimiento industrial JSM"
+ },
+ {
+  "id": "G04-13",
+  "nombre": "Jira Data Residency Auditor",
+  "cliente_que_paga": "Administradores de TI en empresas reguladas",
+  "problema": "No es fácil ver qué datos sensibles aparecen en tickets y adjuntos.",
+  "solucion": "App que escanea tickets por PII y secretos, alerta y propone redacción.",
+  "precio_usd_mes": 110,
+  "canal_primeros_100": "Búsqueda 'PII' 'secrets' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fugas de secretos en tickets son comunes.",
+  "ventaja_juan": "Backend y seguridad.",
+  "riesgo_principal": "Atlassian ofrece funciones de seguridad propias en planes altos (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "PII en tickets"
+ },
+ {
+  "id": "G04-14",
+  "nombre": "OKR Tracker Lite",
+  "cliente_que_paga": "Jefes de equipo en empresas medianas",
+  "problema": "Los OKR viven en hojas separadas del trabajo real en Jira.",
+  "solucion": "App que enlaza OKRs a épicas y calcula avance automático.",
+  "precio_usd_mes": 50,
+  "canal_primeros_100": "Búsqueda 'OKR' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Adopción de OKR en equipos medianos.",
+  "ventaja_juan": "Backend y reporting.",
+  "riesgo_principal": "Mercado saturado; riesgo de ser clon.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "OKR en Jira"
+ },
+ {
+  "id": "G04-15",
+  "nombre": "Gantt for Bitbucket Milestones",
+  "cliente_que_paga": "PMs de equipos de software",
+  "problema": "Los hitos de repos no se visualizan junto con el plan.",
+  "solucion": "App que dibuja cronograma de ramas, PRs y releases.",
+  "precio_usd_mes": 40,
+  "canal_primeros_100": "Búsqueda 'timeline' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Equipos buscan visibilidad sin herramientas extras.",
+  "ventaja_juan": "Frontend React.",
+  "riesgo_principal": "Precio bajo exige volumen alto (F5).",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "cronograma Bitbucket"
+ },
+ {
+  "id": "G04-16",
+  "nombre": "Test Evidence for Regulated Software",
+  "cliente_que_paga": "QA leads en software de dispositivos y automatización",
+  "problema": "Vincular resultados de pruebas a requisitos exige hojas manuales.",
+  "solucion": "App que traza requisitos a pruebas, adjunta evidencia y genera matriz de trazabilidad.",
+  "precio_usd_mes": 190,
+  "canal_primeros_100": "Búsqueda 'traceability' 'requirements' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Software embebido industrial necesita trazabilidad.",
+  "ventaja_juan": "Experiencia en firmware y PLC.",
+  "riesgo_principal": "Competidores establecidos en test management.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "matriz de trazabilidad"
+ },
+ {
+  "id": "G04-17",
+  "nombre": "Jira to Slicer Handoff",
+  "cliente_que_paga": "Operadores de granjas de impresión 3D",
+  "problema": "Pasar pedidos de clientes a slicers requiere trabajo manual.",
+  "solucion": "App que convierte tickets con STL en trabajos con parámetros y exporta a OctoPrint/Klipper.",
+  "precio_usd_mes": 100,
+  "canal_primeros_100": "Búsqueda '3D print' en Atlassian Marketplace; comunidades OctoPrint",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Granjas de impresión crecen.",
+  "ventaja_juan": "Firmware de impresoras 3D.",
+  "riesgo_principal": "Nicho muy pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "handoff impresión 3D"
+ },
+ {
+  "id": "G04-18",
+  "nombre": "Atlassian License Optimizer",
+  "cliente_que_paga": "Administradores de TI y compradores de licencias en empresas medianas",
+  "problema": "Se pagan licencias de usuarios inactivos de Jira y Confluence.",
+  "solucion": "App que detecta inactivos, propone desactivación y ahorro estimado.",
+  "precio_usd_mes": 80,
+  "canal_primeros_100": "Búsqueda 'license' 'inactive users' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Recortes de costos SaaS.",
+  "ventaja_juan": "Backend y reporting.",
+  "riesgo_principal": "Atlassian ofrece algunas vistas nativas (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "optimizar licencias Atlassian"
+ },
+ {
+  "id": "G04-19",
+  "nombre": "Engineering Drawing Review in Confluence",
+  "cliente_que_paga": "Ingenieros de diseño y calidad",
+  "problema": "Revisar planos PDF/DXF con comentarios requiere correos y marcas manuales.",
+  "solucion": "Macro de Confluence con visor de planos, marcado, aprobaciones y versiones.",
+  "precio_usd_mes": 140,
+  "canal_primeros_100": "Búsqueda 'drawing' 'markup' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Equipos distribuidos revisan diseños en remoto.",
+  "ventaja_juan": "Conocimiento de AutoCAD/SolidWorks y planos.",
+  "riesgo_principal": "Herramientas de markup genéricas compiten.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "revisión de planos"
+ },
+ {
+  "id": "G04-20",
+  "nombre": "Customer Feedback to Jira Insights",
+  "cliente_que_paga": "Product managers de SaaS",
+  "problema": "El feedback de clientes llega por muchos canales y se pierde.",
+  "solucion": "App que agrupa feedback de tickets de soporte en temas y lo liga a épicas.",
+  "precio_usd_mes": 90,
+  "canal_primeros_100": "Búsqueda 'feedback' 'product discovery' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "IA permite agrupar texto barato.",
+  "ventaja_juan": "Backend y NLP con APIs.",
+  "riesgo_principal": "Atlassian ya ofrece producto de discovery (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "feedback a roadmap"
+ }
+]

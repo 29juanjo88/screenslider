@@ -1,0 +1,374 @@
+[
+ {
+  "id": "G10-01",
+  "nombre": "HubSpot CAD Quote Sync",
+  "cliente_que_paga": "RevOps manager at a manufacturer using HubSpot",
+  "problema": "Sales reps quote custom parts by hand from CAD files and re-key data into deals.",
+  "solucion": "HubSpot app that parses uploaded STEP/DXF files on a deal and writes material, volume and price estimate into line items.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "HubSpot App Marketplace search 'quote', 'CAD', 'manufacturing'",
+  "competidores": [
+   "PandaDoc",
+   "Proposify"
+  ],
+  "por_que_ahora": "HubSpot marketplace is growing and manufacturers lack vertical apps.",
+  "ventaja_juan": "CAD parsing and manufacturing cost knowledge.",
+  "riesgo_principal": "Depends on HubSpot and few niche buyers.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "CAD quoting hubspot"
+ },
+ {
+  "id": "G10-02",
+  "nombre": "AppExchange DXF Quote Object",
+  "cliente_que_paga": "Salesforce admin at a job shop or fabricator",
+  "problema": "Quotes for laser/waterjet parts are built manually outside Salesforce.",
+  "solucion": "Managed package that reads DXF on an Opportunity and computes cut length, pierce count and price from a rate table.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Salesforce AppExchange search 'manufacturing quote' and 'CPQ'",
+  "competidores": [
+   "Salesforce CPQ"
+  ],
+  "por_que_ahora": "CPQ is heavy and expensive for small fabricators on Salesforce.",
+  "ventaja_juan": "DXF geometry and laser-cutting costing expertise.",
+  "riesgo_principal": "AppExchange security review and ISV process effort.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "DXF quoting salesforce"
+ },
+ {
+  "id": "G10-03",
+  "nombre": "AWS Marketplace STEP Conversion API",
+  "cliente_que_paga": "Developer at a manufacturing SaaS",
+  "problema": "Need to convert and preview STEP/IGES files without building a CAD kernel.",
+  "solucion": "Containerized API on AWS Marketplace converting CAD to glTF/PNG/SVG, billed via the AWS bill.",
+  "precio_usd_mes": 300,
+  "canal_primeros_100": "AWS Marketplace listing for 'CAD conversion' and SEO 'step to gltf api'",
+  "competidores": [
+   "CAD Exchanger",
+   "Autodesk Platform Services"
+  ],
+  "por_que_ahora": "Enterprises can burn AWS commits through Marketplace without procurement.",
+  "ventaja_juan": "CAD formats knowledge and low-cost build.",
+  "riesgo_principal": "Open-source OpenCascade DIY alternatives.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "CAD conversion API"
+ },
+ {
+  "id": "G10-04",
+  "nombre": "PLC Code Diff for Git",
+  "cliente_que_paga": "Controls engineer / automation team lead",
+  "problema": "PLC project files (L5X, TIA exports) are binary-ish and impossible to review in pull requests.",
+  "solucion": "GitHub App that renders readable diffs and review comments for L5X/SimaticML exports.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub Marketplace search 'PLC' and Rockwell/Siemens forums",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Industrial teams are adopting Git and CI slowly.",
+  "ventaja_juan": "Direct Studio 5000 and TIA Portal experience.",
+  "riesgo_principal": "Small niche and vendors may ship own versioning.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "PLC version control"
+ },
+ {
+  "id": "G10-05",
+  "nombre": "HubSpot 3D Print Order Intake",
+  "cliente_que_paga": "Owner of a 3D printing service bureau using HubSpot",
+  "problema": "Customers email STL files and quotes are manual.",
+  "solucion": "HubSpot app with a form that analyzes STL, estimates print time and material, and creates a deal with a price.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "HubSpot App Marketplace search '3D printing'",
+  "competidores": [
+   "Craftcloud",
+   "Xometry"
+  ],
+  "por_que_ahora": "Print-on-demand bureaus multiply and want CRM-native intake.",
+  "ventaja_juan": "3D printer firmware knowledge for accurate time estimates.",
+  "riesgo_principal": "Tiny HubSpot-using segment.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "3D print quoting"
+ },
+ {
+  "id": "G10-06",
+  "nombre": "Salesforce Contract Clause Checker for MSPs",
+  "cliente_que_paga": "Salesforce admin in IT services firm",
+  "problema": "Order forms deviate from standard terms without anyone noticing.",
+  "solucion": "AppExchange app comparing Opportunity quote terms against approved clause rules and flagging deviations.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "AppExchange search 'contract' and 'deal desk'",
+  "competidores": [
+   "Conga",
+   "DocuSign CLM"
+  ],
+  "por_que_ahora": "LLMs make clause comparison cheap.",
+  "ventaja_juan": "Backend/GraphQL integration skills.",
+  "riesgo_principal": "Crowded contracts category; sin verificar demand.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "contract clause check"
+ },
+ {
+  "id": "G10-07",
+  "nombre": "AWS Cost Anomaly Explainer",
+  "cliente_que_paga": "FinOps lead at mid-size AWS customer",
+  "problema": "Cost anomaly alerts do not say which deployment or team caused it.",
+  "solucion": "SaaS on AWS Marketplace that links CUR anomalies to deploy events and owners with Slack summaries.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "AWS Marketplace search 'FinOps' and r/FinOps",
+  "competidores": [
+   "Vantage",
+   "CloudZero",
+   "AWS Cost Anomaly Detection"
+  ],
+  "por_que_ahora": "Cloud spend scrutiny remains high.",
+  "ventaja_juan": "Backend and infra experience.",
+  "riesgo_principal": "AWS native tools are free and improving (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "AWS cost anomalies"
+ },
+ {
+  "id": "G10-08",
+  "nombre": "HubSpot Invoice-to-Deal Reconciler",
+  "cliente_que_paga": "RevOps or finance ops at B2B SaaS",
+  "problema": "Stripe payments do not match HubSpot deals, so reports are wrong.",
+  "solucion": "HubSpot app matching Stripe invoices to deals and flagging mismatches in a dashboard.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "HubSpot App Marketplace search 'Stripe'",
+  "competidores": [
+   "HubSpot native Stripe integration"
+  ],
+  "por_que_ahora": "More SaaS firms run billing in Stripe and CRM in HubSpot.",
+  "ventaja_juan": "Backend integration skills.",
+  "riesgo_principal": "Native HubSpot features may cover it (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "Stripe HubSpot reconcile"
+ },
+ {
+  "id": "G10-09",
+  "nombre": "Salesforce Duplicate Lead Merger Lite",
+  "cliente_que_paga": "Salesforce admin",
+  "problema": "Native duplicate rules are clunky and bulk merges are manual.",
+  "solucion": "AppExchange app for scheduled fuzzy duplicate detection with one-click bulk merge and undo.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "AppExchange search 'duplicate' and 'dedupe'",
+  "competidores": [
+   "Cloudingo",
+   "DemandTools"
+  ],
+  "por_que_ahora": "Data quality matters more for AI use of CRM data.",
+  "ventaja_juan": "Backend data skills.",
+  "riesgo_principal": "Entrenched incumbents with large installed base.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "CRM deduplication"
+ },
+ {
+  "id": "G10-10",
+  "nombre": "PLC Tag Documentation Generator",
+  "cliente_que_paga": "Automation engineer at system integrator",
+  "problema": "Documenting PLC tags and routines for handover takes days.",
+  "solucion": "Web tool ingesting L5X/TIA exports to generate IO lists, tag docs and cross-reference PDFs.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'L5X to Excel' / 'PLC documentation generator' and PLCtalk forums",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Integrators face labor shortages and need faster handover.",
+  "ventaja_juan": "Hands-on PLC experience.",
+  "riesgo_principal": "Vendor tools may add export features.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "PLC documentation"
+ },
+ {
+  "id": "G10-11",
+  "nombre": "Marketplace Listing Compliance Scanner",
+  "cliente_que_paga": "ISV product manager listing on AWS/Salesforce/HubSpot",
+  "problema": "Listings get rejected for missing security docs and policy items.",
+  "solucion": "SaaS checklist/scanner that audits a listing and app against marketplace requirements.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Vendor partner forums and SEO 'AppExchange security review checklist'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Marketplace sales are a growing ISV channel.",
+  "ventaja_juan": "Backend and API experience.",
+  "riesgo_principal": "Small buyer pool and policy changes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "marketplace listing audit"
+ },
+ {
+  "id": "G10-12",
+  "nombre": "HubSpot Workflow Documenter",
+  "cliente_que_paga": "HubSpot admin or agency",
+  "problema": "Workflows grow undocumented and nobody knows what triggers what.",
+  "solucion": "HubSpot app that maps workflows and properties into a living diagram and exportable doc.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "HubSpot App Marketplace search 'documentation' and HubSpot community",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Portal complexity increases with AI automation.",
+  "ventaja_juan": "Graph/GraphQL API skills.",
+  "riesgo_principal": "HubSpot may build native maps.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "HubSpot workflow docs"
+ },
+ {
+  "id": "G10-13",
+  "nombre": "Salesforce Flow Cost Auditor",
+  "cliente_que_paga": "Salesforce architect",
+  "problema": "Flows and Apex hit governor limits unexpectedly.",
+  "solucion": "AppExchange app scanning Flows for limit risks and showing hotspots before they break production.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "AppExchange search 'flow' and 'governor limits'",
+  "competidores": [
+   "Salesforce Optimizer",
+   "Gearset"
+  ],
+  "por_que_ahora": "Flow replaced Process Builder and adoption exploded.",
+  "ventaja_juan": "Backend code analysis skills.",
+  "riesgo_principal": "Salesforce native tooling is free (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "Salesforce flow audit"
+ },
+ {
+  "id": "G10-14",
+  "nombre": "AWS Marketplace Industrial MQTT Gateway",
+  "cliente_que_paga": "IIoT engineer at factory IT",
+  "problema": "Plant data from PLCs needs to land in AWS reliably with schema mapping.",
+  "solucion": "Marketplace AMI/container bridging OPC UA/Modbus to AWS IoT/S3 with config UI.",
+  "precio_usd_mes": 250,
+  "canal_primeros_100": "AWS Marketplace search 'OPC UA' and 'IIoT'",
+  "competidores": [
+   "AWS IoT SiteWise",
+   "Kepware"
+  ],
+  "por_que_ahora": "Smart-factory data projects need cloud pipelines.",
+  "ventaja_juan": "PLC and industrial protocol knowledge.",
+  "riesgo_principal": "AWS SiteWise is native and hardware support burden.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "OPC UA to AWS"
+ },
+ {
+  "id": "G10-15",
+  "nombre": "3D Printer Fleet Monitor for Shopify-like Print Farms",
+  "cliente_que_paga": "Print farm operator",
+  "problema": "Failed prints and idle printers go unnoticed across many machines.",
+  "solucion": "Self-hosted agent plus cloud dashboard that alerts on failures across Klipper/Marlin printers.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Klipper and r/3Dprinting communities, OctoPrint plugin repository",
+  "competidores": [
+   "OctoPrint",
+   "Obico",
+   "3DPrinterOS"
+  ],
+  "por_que_ahora": "Print farms are growing with cheap printers.",
+  "ventaja_juan": "Printer firmware knowledge.",
+  "riesgo_principal": "Open source free alternatives (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "print farm monitoring"
+ },
+ {
+  "id": "G10-16",
+  "nombre": "Salesforce Report Scheduler to Sheets",
+  "cliente_que_paga": "Sales ops analyst",
+  "problema": "Execs want reports in spreadsheets on a schedule and exports are manual.",
+  "solucion": "AppExchange app that pushes reports to Google Sheets/Excel on a schedule with row-level history.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "AppExchange search 'Google Sheets' and 'export'",
+  "competidores": [
+   "Coefficient",
+   "Salesforce Data Loader"
+  ],
+  "por_que_ahora": "Spreadsheet-based reporting persists.",
+  "ventaja_juan": "Backend integration skills.",
+  "riesgo_principal": "Well-served by Coefficient.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "Salesforce sheets sync"
+ },
+ {
+  "id": "G10-17",
+  "nombre": "HubSpot Calculated Quote Properties",
+  "cliente_que_paga": "RevOps for manufacturing/distribution",
+  "problema": "HubSpot lacks formula-heavy pricing for custom products.",
+  "solucion": "App letting admins define formula-based price calculators attached to deals and quotes.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "HubSpot App Marketplace search 'calculator' and 'pricing'",
+  "competidores": [
+   "HubSpot calculation properties"
+  ],
+  "por_que_ahora": "Many non-SaaS firms moved to HubSpot.",
+  "ventaja_juan": "Engineering formulas background.",
+  "riesgo_principal": "Native calculated properties partially overlap.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "HubSpot pricing calculators"
+ },
+ {
+  "id": "G10-18",
+  "nombre": "AWS Marketplace Gcode Analyzer API",
+  "cliente_que_paga": "Developer at 3D printing SaaS",
+  "problema": "Need to estimate time, filament and defects from G-code at scale.",
+  "solucion": "Marketplace API that parses G-code and returns print time, material and toolpath previews.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "AWS Marketplace and SEO 'gcode analyzer api'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Print services and slicer SaaS are proliferating.",
+  "ventaja_juan": "Printer firmware and G-code expertise.",
+  "riesgo_principal": "Very small developer market.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "gcode analysis API"
+ },
+ {
+  "id": "G10-19",
+  "nombre": "AppExchange Field Service CAD Viewer",
+  "cliente_que_paga": "Field service manager at equipment maker using Salesforce",
+  "problema": "Technicians lack drawing and part views inside work orders.",
+  "solucion": "Lightning component showing 2D/3D CAD of assets on Work Orders from uploaded files.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "AppExchange search 'Field Service' and 'CAD'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Servitization drives field service on Salesforce.",
+  "ventaja_juan": "CAD viewer/conversion knowledge.",
+  "riesgo_principal": "Niche and Salesforce dependency.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "CAD viewer salesforce"
+ },
+ {
+  "id": "G10-20",
+  "nombre": "Marketplace Usage Billing Meter",
+  "cliente_que_paga": "ISV engineer selling on AWS Marketplace",
+  "problema": "Metering and reporting usage to AWS Marketplace APIs is fiddly.",
+  "solucion": "SDK plus hosted service that meters usage and submits records with retries and dashboards.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "AWS Marketplace seller docs and r/aws; SEO 'AWS Marketplace metering'",
+  "competidores": [
+   "AWS Marketplace Metering Service (native)"
+  ],
+  "por_que_ahora": "More ISVs list on AWS Marketplace.",
+  "ventaja_juan": "Backend/TypeScript expertise.",
+  "riesgo_principal": "Native API is free and small buyer pool.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "marketplace usage metering"
+ }
+]

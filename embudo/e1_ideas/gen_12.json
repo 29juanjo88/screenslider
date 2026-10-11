@@ -1,0 +1,372 @@
+[
+ {
+  "id": "G12-01",
+  "nombre": "CAD Preview for Zapier/Make",
+  "cliente_que_paga": "Ops or product engineers at manufacturing e-commerce and quoting SaaS",
+  "problema": "Automations cannot read STEP/DXF/IGES files, so teams preview and quote parts by hand.",
+  "solucion": "Zapier/Make/n8n app that converts CAD files to PNG/SVG/glTF plus metadata (bbox, volume) in one step.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Zapier App Directory and Make app listing for searches like 'STEP file', plus n8n community nodes and SEO 'step to png api'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "No-code automation is mainstream while CAD tooling stays closed to it.",
+  "ventaja_juan": "Knows CAD formats and can build converters nearly free.",
+  "riesgo_principal": "Depends on Zapier/Make approval and on open-source CAD kernels for parsing.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "CAD file automation"
+ },
+ {
+  "id": "G12-02",
+  "nombre": "PLC Alarms to Notion CMMS",
+  "cliente_que_paga": "Maintenance managers at small and mid factories without a CMMS",
+  "problema": "PLC alarms live in HMIs; nobody logs them as work orders or sees recurring faults.",
+  "solucion": "Edge agent (OPC UA/MQTT) turns Siemens/Rockwell alarms into Notion or Airtable work orders with recurrence stats.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Notion and Airtable template galleries, r/PLC and r/IndustrialMaintenance posts, SEO 'PLC alarm log to Airtable'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Notion and Airtable are used on the plant floor and OPC UA gateways are cheap.",
+  "ventaja_juan": "Direct Siemens TIA and Rockwell Studio 5000 experience.",
+  "riesgo_principal": "Factory IT may block outbound cloud connections; support burden for each PLC model.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "PLC alarm logging"
+ },
+ {
+  "id": "G12-03",
+  "nombre": "Print Farm Logger for Airtable",
+  "cliente_que_paga": "Owners of small 3D print farms and print-on-demand shops",
+  "problema": "Job times, failures and filament use are tracked by hand in spreadsheets.",
+  "solucion": "Plugin for OctoPrint/Klipper that streams job, failure and filament data into Airtable or Notion dashboards.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "OctoPrint plugin repository, Klipper and 3D print farm subreddits and Discords, Airtable Universe template.",
+  "competidores": [
+   "Obico (failure detection only)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Print farms for Etsy and Shopify sellers are growing and need cost per part.",
+  "ventaja_juan": "Wrote 3D printer firmware, knows Klipper and Marlin internals.",
+  "riesgo_principal": "Hobby audience resists paying; price keeps volume requirement high.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "3D print farm analytics"
+ },
+ {
+  "id": "G12-04",
+  "nombre": "BOM Cost Rollup Airtable",
+  "cliente_que_paga": "Hardware startup operations or purchasing leads",
+  "problema": "Bill-of-materials costs are re-keyed from CAD exports into Airtable and go stale.",
+  "solucion": "Airtable extension that imports CAD/CSV BOMs, links supplier prices and rolls up cost per assembly.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Airtable Marketplace extensions and SEO 'BOM cost Airtable'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Hardware startups run on Airtable instead of PLM systems.",
+  "ventaja_juan": "Knows SolidWorks BOM exports and assembly structures.",
+  "riesgo_principal": "Airtable platform dependency; free templates may satisfy many users.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "BOM costing Airtable"
+ },
+ {
+  "id": "G12-05",
+  "nombre": "Cross-Platform Automation Monitor",
+  "cliente_que_paga": "Automation agencies and freelancers managing client Zaps, Make scenarios and n8n workflows",
+  "problema": "Failures are scattered across three platforms and clients notice before the agency does.",
+  "solucion": "One dashboard and alert feed for failed runs across Zapier, Make and n8n with retry links.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Agency communities such as Make and n8n forums, Zapier Experts directory posts, YouTube automation creators, SEO 'monitor Make scenarios'.",
+  "competidores": [
+   "Native run history in each platform (partial)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Agencies now run multi-platform stacks for clients.",
+  "ventaja_juan": "Backend engineer, strong with APIs and webhooks.",
+  "riesgo_principal": "Platforms could expose better native monitoring; API limits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "automation failure monitoring"
+ },
+ {
+  "id": "G12-06",
+  "nombre": "Operations Cost Optimizer",
+  "cliente_que_paga": "Agencies and ops teams paying for Make operations or Zapier tasks",
+  "problema": "Bills grow because scenarios waste operations on polling and loops.",
+  "solucion": "Upload exported blueprints; get ranked fixes and estimated monthly savings.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Make community forum, r/nocode and r/zapier, SEO 'reduce Make operations'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Task-based pricing hurts as automations scale.",
+  "ventaja_juan": "Backend skills to parse workflow JSON.",
+  "riesgo_principal": "Platforms may change pricing or ship their own advisor.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "automation cost audit"
+ },
+ {
+  "id": "G12-07",
+  "nombre": "n8n Secret and PII Linter",
+  "cliente_que_paga": "n8n self-hosters and agencies handling client data",
+  "problema": "Exported workflows contain hardcoded keys and send personal data to unsafe nodes.",
+  "solucion": "Scans workflow JSON in CI or by upload for secrets, PII flows and risky nodes; gives reports.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "n8n community forum and templates, GitHub Marketplace action, SEO 'n8n security checklist'.",
+  "competidores": [
+   "Generic secret scanners such as gitleaks (free, not workflow-aware)"
+  ],
+  "por_que_ahora": "n8n self-hosting is surging and agents add risk.",
+  "ventaja_juan": "Strong security and DevOps backend skills.",
+  "riesgo_principal": "Free generic scanners may be judged good enough (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "workflow security linting"
+ },
+ {
+  "id": "G12-08",
+  "nombre": "Agency Client Portal",
+  "cliente_que_paga": "Automation agencies selling retainers",
+  "problema": "Clients cannot see what automations do or the hours saved, so churn is high.",
+  "solucion": "White-label portal showing runs, errors and hours saved per client, pulled from Make/n8n/Zapier.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Agency YouTube/Skool communities, Make and n8n partner directories, SEO 'automation agency client reporting'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Automation agencies are a fast-growing niche needing retention proof.",
+  "ventaja_juan": "Fast full-stack build with Next.js.",
+  "riesgo_principal": "Needs tracking of platform APIs and agency adoption.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "agency reporting portal"
+ },
+ {
+  "id": "G12-09",
+  "nombre": "Human Approval for Workflows",
+  "cliente_que_paga": "Teams running AI agents inside n8n/Make/Zapier",
+  "problema": "Agent steps send emails or spend money with no approval gate.",
+  "solucion": "Approval node: sends Slack or email request, waits, then resumes with audit trail.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "n8n community nodes, Make and Zapier app directories, SEO 'human in the loop n8n'.",
+  "competidores": [
+   "HumanLayer (sin verificar details)"
+  ],
+  "por_que_ahora": "Agent workflows moved into production in 2025-2026.",
+  "ventaja_juan": "Industrial interlock mindset applied to software safeguards.",
+  "riesgo_principal": "Native approval features are being added by platforms.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "agent approval gates"
+ },
+ {
+  "id": "G12-10",
+  "nombre": "Workflow Template Storefront",
+  "cliente_que_paga": "Creators selling n8n/Make/Zapier templates",
+  "problema": "Selling templates through Gumroad lacks license keys, updates and import links.",
+  "solucion": "Storefront with license keys, versioned updates and one-click import links for workflows.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Creators on YouTube and X, n8n and Make forums, SEO 'sell n8n templates'.",
+  "competidores": [
+   "Gumroad (generic)"
+  ],
+  "por_que_ahora": "Template economy around n8n and Make is booming.",
+  "ventaja_juan": "Quick Next.js and Stripe build.",
+  "riesgo_principal": "Creators may stay on Gumroad; marketplace chicken-and-egg problem.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "template selling platform"
+ },
+ {
+  "id": "G12-11",
+  "nombre": "STL Quote Engine for Zapier",
+  "cliente_que_paga": "3D print service bureaus and makers selling prints",
+  "problema": "Quotes require manually checking each STL for volume and time.",
+  "solucion": "Zapier/Make app and API returning volume, print time and price from an STL upload.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Zapier directory searches 'STL', Shopify and WooCommerce forums, 3D print service subreddits.",
+  "competidores": [
+   "Craftcloud (marketplace)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "On-demand print shops multiply and want automated quoting.",
+  "ventaja_juan": "Printer firmware and slicing knowledge.",
+  "riesgo_principal": "Slicer estimates vary by machine and may be inaccurate.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "STL instant quoting"
+ },
+ {
+  "id": "G12-12",
+  "nombre": "DXF Cut-Length Calculator",
+  "cliente_que_paga": "Laser and waterjet fabricators using Airtable or forms",
+  "problema": "Quoting needs cut length, pierces and nesting by hand from DXF files.",
+  "solucion": "Make/Zapier app and API returning cut length, pierce count and price from DXF.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Make/Zapier directories, fabrication forums such as Fabricators and Makers communities, SEO 'DXF cut length calculator'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Online quoting is expected by customers.",
+  "ventaja_juan": "CAD/CAM knowledge of cutting parameters.",
+  "riesgo_principal": "Small shops may not use automation tools.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "DXF cut quoting"
+ },
+ {
+  "id": "G12-13",
+  "nombre": "Industrial Data to Airtable",
+  "cliente_que_paga": "Plant engineers and integrators wanting dashboards without a historian",
+  "problema": "Getting PLC tag values into Airtable or Sheets requires custom code.",
+  "solucion": "Gateway that reads OPC UA/Modbus tags and syncs to Airtable, Notion or Sheets on schedule.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'PLC to Airtable', r/PLC, Automation Direct and Control.com forums, n8n nodes.",
+  "competidores": [
+   "Node-RED (free, DIY)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Low-cost cloud dashboards replace historians for small plants.",
+  "ventaja_juan": "PLC protocols and industrial networking know-how.",
+  "riesgo_principal": "Node-RED is free (F1 risk) and plants restrict cloud links.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "PLC data sync"
+ },
+ {
+  "id": "G12-14",
+  "nombre": "Notion Workspace Backup",
+  "cliente_que_paga": "Teams running operations in Notion",
+  "problema": "Notion offers limited export; accidental deletions lose data and relations.",
+  "solucion": "Scheduled full backups to S3/Drive with diff history and restore of pages and databases.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Notion integrations gallery, SEO 'Notion backup', Notion subreddit.",
+  "competidores": [
+   "Native Notion export and version history (partial)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Companies now keep core data in Notion.",
+  "ventaja_juan": "Backend and API experience.",
+  "riesgo_principal": "Notion API gaps and native features could kill it.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "Notion backup"
+ },
+ {
+  "id": "G12-15",
+  "nombre": "Airtable to Postgres Sync",
+  "cliente_que_paga": "Developers and ops teams outgrowing Airtable",
+  "problema": "Airtable rate limits and size caps hurt apps built on it.",
+  "solucion": "Continuous two-way sync of Airtable bases to Postgres/Supabase with schema mapping.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Airtable Marketplace, SEO 'Airtable to Postgres sync', developer forums.",
+  "competidores": [
+   "Whalesync",
+   "Stacksync"
+  ],
+  "por_que_ahora": "Many Airtable prototypes become production apps.",
+  "ventaja_juan": "Strong backend and database skills.",
+  "riesgo_principal": "Established competitors; price competition.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "Airtable database sync"
+ },
+ {
+  "id": "G12-16",
+  "nombre": "Webhook Retry Relay",
+  "cliente_que_paga": "No-code builders whose automations drop webhooks",
+  "problema": "Webhooks fail silently when a Zap or scenario is busy or down.",
+  "solucion": "Hosted relay with queue, retries, dead-letter inbox and replay, no code needed.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Zapier and Make community forums, SEO 'webhook retry Zapier'.",
+  "competidores": [
+   "Hookdeck"
+  ],
+  "por_que_ahora": "Event-driven automations increase reliance on webhooks.",
+  "ventaja_juan": "Backend queue design experience.",
+  "riesgo_principal": "Hookdeck and platform improvements; low willingness to pay.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "webhook reliability relay"
+ },
+ {
+  "id": "G12-17",
+  "nombre": "Notion DSAR Automation",
+  "cliente_que_paga": "Privacy or operations leads at small SaaS companies",
+  "problema": "Data subject access and deletion requests span many tools and take hours.",
+  "solucion": "Workflow that finds a person's data across Notion, Airtable, Stripe and HubSpot, exports and deletes with a log.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Make/Zapier directories, SEO 'GDPR DSAR automation', privacy communities.",
+  "competidores": [
+   "Transcend",
+   "DataGrail",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Privacy request volumes keep rising.",
+  "ventaja_juan": "Backend integration experience.",
+  "riesgo_principal": "Legal accuracy expectations; enterprise vendors.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "DSAR automation"
+ },
+ {
+  "id": "G12-18",
+  "nombre": "Print Order to Job Queue",
+  "cliente_que_paga": "Etsy and Shopify sellers fulfilling 3D printed products",
+  "problema": "Orders are copied by hand into slicers and filament stock is not tracked.",
+  "solucion": "n8n/Make connector that turns orders into print jobs and deducts filament in Airtable.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Shopify App Store, Etsy seller forums, 3D printing subreddits.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Print-on-demand with home farms is growing.",
+  "ventaja_juan": "Knows printers and G-code workflow.",
+  "riesgo_principal": "Low price demands many customers; fragmented printer ecosystem.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "3D print fulfillment"
+ },
+ {
+  "id": "G12-19",
+  "nombre": "PDF Docs from Notion",
+  "cliente_que_paga": "Automation builders producing client PDFs",
+  "problema": "Generating branded PDFs from Notion or Airtable rows needs fragile templates.",
+  "solucion": "API and Zapier app rendering branded PDFs from Notion/Airtable records with templates.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Zapier directory, Notion integrations gallery, SEO 'Notion to PDF API'.",
+  "competidores": [
+   "PDFMonkey",
+   "Documint"
+  ],
+  "por_que_ahora": "Notion and Airtable are now the data source for client documents.",
+  "ventaja_juan": "Easy backend build.",
+  "riesgo_principal": "Crowded niche with existing vendors.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "document generation API"
+ },
+ {
+  "id": "G12-20",
+  "nombre": "Notion JSON API Cache",
+  "cliente_que_paga": "Developers using Notion as a CMS",
+  "problema": "Notion API rate limits and slow responses break sites.",
+  "solucion": "Cached, typed JSON endpoint over Notion databases with webhooks for rebuilds.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'Notion as CMS API', Notion developer communities, Next.js blog tutorials.",
+  "competidores": [
+   "Super.so",
+   "Potion"
+  ],
+  "por_que_ahora": "Indie sites keep choosing Notion as backend.",
+  "ventaja_juan": "Next.js and GraphQL expertise.",
+  "riesgo_principal": "Notion could improve API; price keeps volume high.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "Notion CMS API"
+ }
+]

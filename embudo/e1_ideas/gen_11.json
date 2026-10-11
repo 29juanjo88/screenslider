@@ -1,0 +1,373 @@
+[
+ {
+  "id": "G11-01",
+  "nombre": "BOM Cleaner for Sheets",
+  "cliente_que_paga": "Ingenieros de manufactura y compras en equipos de hardware",
+  "problema": "Las BOM exportadas de CAD llegan con duplicados, unidades mixtas y números de parte inconsistentes.",
+  "solucion": "Complemento de Google Sheets que normaliza, deduplica y consolida BOM (SolidWorks/AutoCAD/Excel) con un clic.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda 'BOM cleanup google sheets' en Google Workspace Marketplace y posts en r/MechanicalEngineering.",
+  "competidores": [
+   "Hojas manuales",
+   "scripts propios"
+  ],
+  "por_que_ahora": "Los equipos de hardware pequeños viven en hojas y no tienen PLM.",
+  "ventaja_juan": "Conoce el formato real de BOM de SolidWorks/AutoCAD.",
+  "riesgo_principal": "Mercado de nicho y dependencia del Marketplace de Google.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "BOM en hojas de cálculo"
+ },
+ {
+  "id": "G11-02",
+  "nombre": "PLC Tag Sheet Sync",
+  "cliente_que_paga": "Ingenieros de automatización y integradores de sistemas",
+  "problema": "Las tablas de tags de PLC (TIA Portal, Studio 5000) se mantienen a mano en Excel y se desincronizan.",
+  "solucion": "Complemento de Excel que importa/exporta tag tables de Siemens y Rockwell, valida nombres y direcciones y detecta duplicados.",
+  "precio_usd_mes": 20,
+  "canal_primeros_100": "Microsoft AppSource búsqueda 'PLC tags excel' y foros PLCTalk y r/PLC.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "La automatización industrial adopta Excel/Office 365 en los equipos de ingeniería.",
+  "ventaja_juan": "Experiencia directa con TIA Portal y Studio 5000.",
+  "riesgo_principal": "Mercado pequeño y complemento de Excel de escritorio exige instalación corporativa.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "tags PLC Excel"
+ },
+ {
+  "id": "G11-03",
+  "nombre": "Quote-to-Sheet 3D Print",
+  "cliente_que_paga": "Granjas de impresión 3D y talleres de prototipado",
+  "problema": "Calcular costo de impresión (filamento, tiempo, desgaste) por pieza se hace con hojas manuales y errores.",
+  "solucion": "Complemento de Google Sheets que importa G-code/3MF, calcula costo por pieza y genera cotizaciones.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de Google Workspace, YouTube y foros de r/3Dprinting y r/functionalprint.",
+  "competidores": [
+   "calculadoras web gratuitas",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crece la impresión 3D por encargo en Etsy y Shopify.",
+  "ventaja_juan": "Conoce firmware, G-code y costos reales de impresión 3D.",
+  "riesgo_principal": "Hay calculadoras gratis; el valor depende de la integración con hojas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "costeo impresión 3D"
+ },
+ {
+  "id": "G11-04",
+  "nombre": "Unit & Tolerance Checker",
+  "cliente_que_paga": "Ingenieros mecánicos y de calidad",
+  "problema": "Conversión de unidades y verificación de tolerancias en hojas de cálculo propensa a errores.",
+  "solucion": "Complemento de Excel con funciones de unidades, ajustes ISO (H7/g6) y comprobación de tolerancias.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Microsoft AppSource y búsqueda 'ISO fits excel add-in'.",
+  "competidores": [
+   "tablas estáticas",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Excel permite funciones personalizadas JavaScript modernas.",
+  "ventaja_juan": "Entiende tolerancias y ajustes de CAD.",
+  "riesgo_principal": "Funciones nativas de conversión en Excel podrían cubrir parte (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "tolerancias en Excel"
+ },
+ {
+  "id": "G11-05",
+  "nombre": "Sheet-to-Invoice Bulk PDF",
+  "cliente_que_paga": "Freelancers y agencias que facturan desde hojas de cálculo",
+  "problema": "Generar decenas de facturas PDF desde Google Sheets exige scripts frágiles.",
+  "solucion": "Complemento que convierte filas de Sheets en facturas PDF con plantilla y las envía por Gmail.",
+  "precio_usd_mes": 14,
+  "canal_primeros_100": "Búsqueda 'invoice generator sheets' en Marketplace de Google Workspace.",
+  "competidores": [
+   "Invoice Ninja",
+   "Zoho Invoice"
+  ],
+  "por_que_ahora": "Los autónomos globales siguen usando Sheets como base de datos.",
+  "ventaja_juan": "Poca; backend y Apps Script.",
+  "riesgo_principal": "Mercado saturado y competidores gratuitos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "facturas desde Sheets"
+ },
+ {
+  "id": "G11-06",
+  "nombre": "Data Quality Guard",
+  "cliente_que_paga": "Analistas de datos y operaciones en empresas medianas",
+  "problema": "Los errores en hojas compartidas (fórmulas rotas, valores fuera de rango) se detectan tarde.",
+  "solucion": "Complemento de Sheets/Excel con reglas de validación, alertas por Slack y registro de auditoría.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de Google Workspace y AppSource; contenido SEO 'spreadsheet audit'.",
+  "competidores": [
+   "Spreadsheet auditing tools",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más equipos usan hojas como sistema de registro.",
+  "ventaja_juan": "Mentalidad de control industrial aplicada a datos.",
+  "riesgo_principal": "Plataforma única y competidores generalistas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "auditoría de hojas"
+ },
+ {
+  "id": "G11-07",
+  "nombre": "CSV Merge for Sheets",
+  "cliente_que_paga": "Analistas de e-commerce y operaciones",
+  "problema": "Combinar CSV de múltiples tiendas o proveedores con columnas distintas consume horas.",
+  "solucion": "Complemento que mapea columnas, concatena CSV y detecta duplicados, con plantillas guardadas.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'merge csv'.",
+  "competidores": [
+   "Power Query",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los vendedores multi-canal exportan CSV a diario.",
+  "ventaja_juan": "Software casi gratis.",
+  "riesgo_principal": "Power Query de Excel es nativo y gratis (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "fusión de CSV"
+ },
+ {
+  "id": "G11-08",
+  "nombre": "Slicer Settings Library",
+  "cliente_que_paga": "Usuarios de impresión 3D profesional",
+  "problema": "Los perfiles de slicer (Cura, PrusaSlicer) no se comparan ni versionan.",
+  "solucion": "Complemento de Sheets que importa perfiles, compara parámetros entre versiones y relaciona resultados de calidad.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "r/3Dprinting, foros de Prusa y Marketplace de Google.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más usuarios avanzados con múltiples impresoras.",
+  "ventaja_juan": "Experiencia con firmware de impresoras 3D.",
+  "riesgo_principal": "Nicho pequeño y disposición de pago incierta.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "perfiles de slicer"
+ },
+ {
+  "id": "G11-09",
+  "nombre": "CAD Revision Tracker",
+  "cliente_que_paga": "Equipos de diseño mecánico pequeños sin PLM",
+  "problema": "Se pierde el historial de revisiones y aprobaciones de dibujos en carpetas y hojas.",
+  "solucion": "Complemento de Sheets con registro de revisiones, estados de aprobación y vínculos a Drive.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'engineering change log' y comunidades de SolidWorks.",
+  "competidores": [
+   "PLM de gran empresa",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los equipos pequeños no pueden pagar un PLM.",
+  "ventaja_juan": "Conoce los flujos reales de CAD.",
+  "riesgo_principal": "Puede ser reemplazado por plantillas gratuitas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "control de revisiones CAD"
+ },
+ {
+  "id": "G11-10",
+  "nombre": "Maintenance Log for Sheets",
+  "cliente_que_paga": "Jefes de mantenimiento en plantas pequeñas",
+  "problema": "Los registros de mantenimiento preventivo viven en hojas y no avisan a tiempo.",
+  "solucion": "Complemento de Sheets que programa tareas, envía recordatorios por email y lleva historial por activo.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de Google Workspace y grupos de LinkedIn de mantenimiento.",
+  "competidores": [
+   "CMMS como Fiix y UpKeep"
+  ],
+  "por_que_ahora": "Plantas pequeñas rechazan CMMS caros.",
+  "ventaja_juan": "Experiencia en PLC y plantas industriales.",
+  "riesgo_principal": "Competidores CMMS con planes baratos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "mantenimiento en Sheets"
+ },
+ {
+  "id": "G11-11",
+  "nombre": "Excel PLC I/O List Builder",
+  "cliente_que_paga": "Integradores de sistemas de control",
+  "problema": "Las listas de I/O se arman a mano y luego se repiten en cada proyecto.",
+  "solucion": "Complemento de Excel que genera listas de I/O desde plantillas de equipos y exporta a importadores de TIA/Studio 5000.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "AppSource y comunidades de integradores en LinkedIn y PLCTalk.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los integradores buscan reducir horas de ingeniería.",
+  "ventaja_juan": "Conocimiento directo de flujos de TIA Portal y Studio 5000.",
+  "riesgo_principal": "Mercado pequeño; formatos propietarios cambian.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "listas I/O PLC"
+ },
+ {
+  "id": "G11-12",
+  "nombre": "Material Cost Sheet Feed",
+  "cliente_que_paga": "Compradores y estimadores de talleres de maquinado",
+  "problema": "Los precios de material (acero, aluminio) cambian y las cotizaciones usan datos viejos.",
+  "solucion": "Complemento de Sheets con funciones que traen precios de material de fuentes configurables.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Marketplace de Google Workspace; SEO 'steel price google sheets'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Volatilidad de materias primas.",
+  "ventaja_juan": "Conoce materiales y procesos de manufactura.",
+  "riesgo_principal": "Depende de licencias de datos de terceros.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "precios de material"
+ },
+ {
+  "id": "G11-13",
+  "nombre": "Gerber/DXF Metrics in Sheets",
+  "cliente_que_paga": "Fabricantes de PCB y corte láser",
+  "problema": "Extraer longitud de corte, área y número de agujeros de DXF para cotizar se hace a mano.",
+  "solucion": "Complemento que sube DXF y devuelve métricas de corte directamente en celdas de Sheets.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Marketplace de Google Workspace y foros de corte láser y CNC.",
+  "competidores": [
+   "CotizaMaquila (concepto propio)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los talleres automatizan cotizaciones.",
+  "ventaja_juan": "Dominio de CAD/CAM y DXF.",
+  "riesgo_principal": "Mercado reducido y necesidad de procesar archivos en servidor.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "métricas DXF"
+ },
+ {
+  "id": "G11-14",
+  "nombre": "Scheduled Report Mailer",
+  "cliente_que_paga": "Gerentes de operaciones en empresas medianas",
+  "problema": "Enviar reportes de hojas por email cada semana exige copiar y pegar manualmente.",
+  "solucion": "Complemento que envía rangos o gráficos de Sheets como PDF/email programado a listas.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'schedule email report'.",
+  "competidores": [
+   "Apps Script manual",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Se simplifican reportes sin BI.",
+  "ventaja_juan": "Backend y automatización.",
+  "riesgo_principal": "Competencia con funciones nativas de Google (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "reportes programados"
+ },
+ {
+  "id": "G11-15",
+  "nombre": "Excel PDF Table Extractor",
+  "cliente_que_paga": "Analistas financieros y de compras",
+  "problema": "Extraer tablas de PDF de proveedores a Excel produce errores de formato.",
+  "solucion": "Complemento de Excel que extrae tablas de PDF con OCR y las normaliza.",
+  "precio_usd_mes": 24,
+  "canal_primeros_100": "AppSource y búsqueda 'pdf to excel add-in'.",
+  "competidores": [
+   "Adobe Acrobat",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Mejores modelos de extracción.",
+  "ventaja_juan": "Backend con procesamiento de archivos.",
+  "riesgo_principal": "Incumbentes grandes y IA genérica lo pueden matar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "PDF a Excel"
+ },
+ {
+  "id": "G11-16",
+  "nombre": "Test Data Logger for Sheets",
+  "cliente_que_paga": "Ingenieros de pruebas y laboratorios",
+  "problema": "Registrar mediciones de equipos en hojas requiere copiar y pegar manualmente.",
+  "solucion": "Complemento y API para enviar lecturas (Modbus/serial vía script) a Sheets con marca de tiempo.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de Google Workspace y foros de Arduino y automatización.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "IoT barato en laboratorios pequeños.",
+  "ventaja_juan": "Experiencia con PLC y protocolos industriales.",
+  "riesgo_principal": "Necesita agente local y soporte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "registro de mediciones"
+ },
+ {
+  "id": "G11-17",
+  "nombre": "Project Cost Roll-up",
+  "cliente_que_paga": "Gerentes de proyecto en ingeniería",
+  "problema": "Consolidar costos de varias hojas de proyecto es lento y poco confiable.",
+  "solucion": "Complemento de Excel que consolida presupuestos entre libros con trazabilidad.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "AppSource y búsqueda 'consolidate workbooks'.",
+  "competidores": [
+   "Power Query",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más equipos distribuidos con muchos libros.",
+  "ventaja_juan": "Experiencia en proyectos industriales.",
+  "riesgo_principal": "Power Query lo cubre gratis (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "consolidación de costos"
+ },
+ {
+  "id": "G11-18",
+  "nombre": "Calendar Capacity Planner",
+  "cliente_que_paga": "Gerentes de producción de talleres",
+  "problema": "Planificar capacidad de máquinas en hojas no muestra conflictos.",
+  "solucion": "Complemento de Sheets que lee Google Calendar, detecta sobrecargas de máquinas y sugiere reprogramación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de Google Workspace y comunidades de manufactura.",
+  "competidores": [
+   "software APS de gran escala"
+  ],
+  "por_que_ahora": "Talleres pequeños sin MES.",
+  "ventaja_juan": "Conocimiento de CAM y producción.",
+  "riesgo_principal": "Mercado de nicho con integraciones limitadas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "capacidad de máquinas"
+ },
+ {
+  "id": "G11-19",
+  "nombre": "Spec Sheet Generator",
+  "cliente_que_paga": "Equipos de producto de hardware",
+  "problema": "Crear hojas de especificación (datasheets) desde datos de hojas es repetitivo.",
+  "solucion": "Complemento que convierte filas de Sheets en datasheets PDF/Docs con plantilla de marca.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'datasheet generator'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Productos con muchas variantes.",
+  "ventaja_juan": "Conoce especificaciones técnicas.",
+  "riesgo_principal": "Combinar documentos es fácil con herramientas existentes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "datasheets desde Sheets"
+ },
+ {
+  "id": "G11-20",
+  "nombre": "Sheets Backup & Versioning",
+  "cliente_que_paga": "Equipos de finanzas y operaciones en empresas medianas",
+  "problema": "Cambios accidentales en hojas críticas no se pueden revertir fácilmente.",
+  "solucion": "Complemento que guarda instantáneas programadas, compara versiones y restaura rangos.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'sheet backup version'.",
+  "competidores": [
+   "Historial de versiones nativo de Google"
+  ],
+  "por_que_ahora": "Más datos críticos en Sheets.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "El historial nativo de Google es suficiente para muchos (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "versionado de hojas"
+ }
+]

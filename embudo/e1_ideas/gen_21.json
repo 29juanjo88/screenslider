@@ -1,0 +1,370 @@
+[
+ {
+  "id": "G21-01",
+  "nombre": "StepView API",
+  "cliente_que_paga": "Desarrolladores de SaaS de manufactura/e-commerce de piezas",
+  "problema": "Convertir STEP/IGES a glTF/PNG requiere compilar OpenCascade y mantener servidores.",
+  "solucion": "API REST pay-per-use que convierte STEP/IGES/DXF a glTF, PNG y SVG con visor embebible.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'step to gltf api', hilos de three.js discourse, directorios de APIs, docs.",
+  "competidores": [
+   "Convert3D (API, precios sin verificar)",
+   "Fascat (librería Python)",
+   "OpenCascade DIY"
+  ],
+  "por_que_ahora": "Web 3D y marketplaces de manufactura bajo demanda crecen.",
+  "ventaja_juan": "Conoce CAD/STEP y puede montarlo casi gratis.",
+  "riesgo_principal": "Pocos compradores y costos de cómputo.",
+  "evidencia_url": "https://discourse.threejs.org/t/how-to-convert-the-format-step-and-stp-in-gltf/27878",
+  "angulo": "21",
+  "tema": "API conversión CAD"
+ },
+ {
+  "id": "G21-02",
+  "nombre": "PLC Tag Linter",
+  "cliente_que_paga": "Programadores PLC en integradores y plantas",
+  "problema": "Los proyectos Siemens/Rockwell acumulan tags mal nombrados y duplicados sin auditoría.",
+  "solucion": "Sube el export XML/L5X y obtén reporte de convenciones de nombres, tags sin uso y duplicados.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Foros PLCTalk, r/PLC, Siemens/Rockwell communities, SEO 'L5X tag audit'.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Estándares de código PLC y equipos remotos.",
+  "ventaja_juan": "Experiencia directa en TIA Portal y Studio 5000.",
+  "riesgo_principal": "Formatos propietarios cambian.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "auditoría código PLC"
+ },
+ {
+  "id": "G21-03",
+  "nombre": "L5X Diff",
+  "cliente_que_paga": "Ingenieros de controles que versionan proyectos PLC",
+  "problema": "Los cambios en proyectos Studio 5000 no se pueden comparar con claridad.",
+  "solucion": "Diff visual web de archivos L5X con ladder legible y comentarios de cambio.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "PLCTalk, r/PLC, búsqueda 'compare L5X files', YouTube de tutoriales.",
+  "competidores": [
+   "Rockwell Studio 5000 Logix Compare (nativo, sin verificar)"
+  ],
+  "por_que_ahora": "Adopción de Git en automatización.",
+  "ventaja_juan": "Conoce Studio 5000.",
+  "riesgo_principal": "F1: herramienta nativa de Rockwell puede ser suficiente.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "diff proyectos PLC"
+ },
+ {
+  "id": "G21-04",
+  "nombre": "Quote From STL",
+  "cliente_que_paga": "Talleres de impresión 3D y makers que venden piezas",
+  "problema": "Cotizar piezas manualmente por peso, tiempo y material consume horas.",
+  "solucion": "Widget embebible que analiza STL y calcula precio por material, tiempo y margen.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Shopify App Store y WooCommerce plugins, búsqueda 'instant 3D print quote'.",
+  "competidores": [
+   "Xometry (marketplace)",
+   "Craftcloud (sin verificar)"
+  ],
+  "por_que_ahora": "Auge de servicios de impresión 3D pequeños.",
+  "ventaja_juan": "Firmware de impresoras 3D y slicing.",
+  "riesgo_principal": "Competencia de plataformas grandes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G21-05",
+  "nombre": "DXF Nesting Lite",
+  "cliente_que_paga": "Talleres de corte láser/CNC pequeños en EE.UU./UE",
+  "problema": "El nesting profesional es caro y el gratuito es limitado.",
+  "solucion": "Nesting web de DXF con reporte de desperdicio y exportación para la máquina.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'dxf nesting software', foros de CNC y r/CNC.",
+  "competidores": [
+   "DeepNest (gratis, open source)",
+   "SigmaNEST (sin verificar)"
+  ],
+  "por_que_ahora": "Cortadoras láser de fibra baratas proliferan.",
+  "ventaja_juan": "CAM y DXF.",
+  "riesgo_principal": "F1: DeepNest es gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "nesting DXF corte"
+ },
+ {
+  "id": "G21-06",
+  "nombre": "GD&T Checker",
+  "cliente_que_paga": "Ingenieros de diseño y calidad que revisan planos",
+  "problema": "Errores de GD&T en dibujos provocan rechazos y retrabajo.",
+  "solucion": "Sube PDF/DXF y recibe checklist de errores comunes de GD&T según ASME Y14.5.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'GD&T checker', r/MechanicalEngineering, LinkedIn de calidad.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "IA para lectura de planos madura.",
+  "ventaja_juan": "Conocimiento CAD y dibujo técnico.",
+  "riesgo_principal": "La IA puede fallar en precisión.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "revisión GD&T planos"
+ },
+ {
+  "id": "G21-07",
+  "nombre": "Ladder Explainer",
+  "cliente_que_paga": "Técnicos de mantenimiento y estudiantes de PLC",
+  "problema": "Entender lógica ladder ajena es lento.",
+  "solucion": "Pega código ladder/ST y obtén explicación en lenguaje natural y diagrama de flujo.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'explain ladder logic', YouTube, r/PLC.",
+  "competidores": [
+   "ChatGPT genérico"
+  ],
+  "por_que_ahora": "LLMs ya entienden ST.",
+  "ventaja_juan": "Escribe PLC a diario.",
+  "riesgo_principal": "F1: LLMs gratis cubren parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "explicador lógica ladder"
+ },
+ {
+  "id": "G21-08",
+  "nombre": "FieldCalc Pro",
+  "cliente_que_paga": "Ingenieros de campo en automatización",
+  "problema": "Se necesitan cálculos rápidos (4-20mA, escalado, VFD) sin hojas de Excel.",
+  "solucion": "PWA offline con calculadoras de instrumentación y escalado analógico, guardables por proyecto.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Apple/Google app stores, control.com y foros de automatización.",
+  "competidores": [
+   "FieldGain (app mencionada en control.com)"
+  ],
+  "por_que_ahora": "Técnicos usan celular en campo.",
+  "ventaja_juan": "Ingeniero de campo con PLC.",
+  "riesgo_principal": "F5 riesgo: precio bajo exige volumen alto.",
+  "evidencia_url": "https://control.com/forums/threads/fieldgain-technical-tools.56026/",
+  "angulo": "21",
+  "tema": "calculadoras instrumentación"
+ },
+ {
+  "id": "G21-09",
+  "nombre": "Pipe Sizing SaaS",
+  "cliente_que_paga": "Ingenieros mecánicos/HVAC de consultoras",
+  "problema": "Dimensionar tuberías y pérdidas en Excel es propenso a error.",
+  "solucion": "Calculadora web con curvas de bomba, pérdidas y reporte PDF.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'pipe pressure drop calculator', r/HVAC, r/MechanicalEngineering.",
+  "competidores": [
+   "Pipe Flow Expert (sin verificar)"
+  ],
+  "por_que_ahora": "Herramientas web reemplazan Excel.",
+  "ventaja_juan": "Formación mecánica.",
+  "riesgo_principal": "Muchas calculadoras gratis (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "dimensionamiento tuberías"
+ },
+ {
+  "id": "G21-10",
+  "nombre": "BOM Cost Rollup",
+  "cliente_que_paga": "Startups de hardware e ingenieros de producto",
+  "problema": "Costear BOMs con precios cambiantes es manual.",
+  "solucion": "Sube BOM CSV y obtén costo con precios de distribuidores y alertas.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Hardware subreddits, SEO 'BOM costing tool', Product Hunt.",
+  "competidores": [
+   "Octopart (sin verificar)",
+   "Arena (sin verificar)"
+  ],
+  "por_que_ahora": "Volatilidad de precios de componentes.",
+  "ventaja_juan": "Hardware e impresión 3D.",
+  "riesgo_principal": "APIs de precios con costo y acceso.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "costeo BOM hardware"
+ },
+ {
+  "id": "G21-11",
+  "nombre": "Arc Flash Reports",
+  "cliente_que_paga": "Ingenieros eléctricos de consultoras",
+  "problema": "Estudios de arc flash se hacen con software caro o Excel.",
+  "solucion": "Calculadora IEEE 1584 con etiquetas y reporte PDF.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "SEO 'arc flash calculator IEEE 1584', LinkedIn eléctricos.",
+  "competidores": [
+   "ETAP, SKM (caros, sin verificar)"
+  ],
+  "por_que_ahora": "Cumplimiento NFPA 70E creciente.",
+  "ventaja_juan": "Conocimiento eléctrico industrial.",
+  "riesgo_principal": "Responsabilidad si resultados fallan.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "cálculo arc flash"
+ },
+ {
+  "id": "G21-12",
+  "nombre": "Motor Sizing Assistant",
+  "cliente_que_paga": "Ingenieros de diseño de máquinas",
+  "problema": "Seleccionar motores y reductores exige catálogos dispersos.",
+  "solucion": "Entra carga/ciclo y obtén selección de servo/reductor con curva torque-velocidad.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'servo motor sizing tool', foros de motion control.",
+  "competidores": [
+   "Fabricantes (herramientas gratis de marca)"
+  ],
+  "por_que_ahora": "Automatización en alza.",
+  "ventaja_juan": "Experiencia en máquinas y PLC.",
+  "riesgo_principal": "F1: herramientas gratuitas de fabricantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "selección de motores"
+ },
+ {
+  "id": "G21-13",
+  "nombre": "SPC Dashboard",
+  "cliente_que_paga": "Ingenieros de calidad en manufactura mediana",
+  "problema": "Control estadístico de proceso en Excel es frágil.",
+  "solucion": "Sube CSV y obtén cartas X-bar/R, Cp/Cpk y alertas.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'SPC chart online', LinkedIn ASQ, r/Quality.",
+  "competidores": [
+   "Minitab (caro, sin verificar)",
+   "QI Macros (sin verificar)"
+  ],
+  "por_que_ahora": "Calidad digital sin MES.",
+  "ventaja_juan": "Conocimiento manufactura.",
+  "riesgo_principal": "Minitab domina.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "control estadístico calidad"
+ },
+ {
+  "id": "G21-14",
+  "nombre": "FMEA Builder",
+  "cliente_que_paga": "Ingenieros de calidad y diseño",
+  "problema": "FMEAs en Excel son tediosos y poco colaborativos.",
+  "solucion": "Editor web de FMEA con sugerencias y exportación a Excel/PDF.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'FMEA template software', LinkedIn, ASQ.",
+  "competidores": [
+   "APIS IQ-FMEA (sin verificar)"
+  ],
+  "por_que_ahora": "Auditorías IATF/ISO exigen FMEA.",
+  "ventaja_juan": "Conoce procesos de manufactura.",
+  "riesgo_principal": "Plantillas gratis compiten.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "FMEA colaborativo"
+ },
+ {
+  "id": "G21-15",
+  "nombre": "Weld Symbol Studio",
+  "cliente_que_paga": "Soldadores/ingenieros y dibujantes",
+  "problema": "Interpretar símbolos AWS es confuso.",
+  "solucion": "Generador y decodificador de símbolos de soldadura con exportación DXF/SVG.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'weld symbol generator', r/Welding.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Contenido SEO desatendido.",
+  "ventaja_juan": "CAD y dibujo.",
+  "riesgo_principal": "Precio bajo y mercado pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "símbolos de soldadura"
+ },
+ {
+  "id": "G21-16",
+  "nombre": "G-code Verifier",
+  "cliente_que_paga": "Operadores de CNC/impresión 3D",
+  "problema": "Errores en G-code dañan máquinas o piezas.",
+  "solucion": "Simulador web que revisa G-code y detecta colisiones/límites.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'gcode viewer simulator', r/CNC, r/3Dprinting.",
+  "competidores": [
+   "CAMotics (gratis)",
+   "NC Viewer (gratis)"
+  ],
+  "por_que_ahora": "Más CNC de escritorio.",
+  "ventaja_juan": "CAM y firmware 3D.",
+  "riesgo_principal": "F1: visores gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "verificador G-code"
+ },
+ {
+  "id": "G21-17",
+  "nombre": "Print Farm Queue",
+  "cliente_que_paga": "Granjas de impresión 3D pequeñas",
+  "problema": "Gestionar colas y costos en varias impresoras es caótico.",
+  "solucion": "Panel con cola, consumo y costo por trabajo, multimarca.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "r/3Dprinting, Etsy sellers, SEO 'print farm software'.",
+  "competidores": [
+   "3DPrinterOS (sin verificar)",
+   "OctoFarm (gratis)"
+  ],
+  "por_que_ahora": "Aumentan vendedores de Etsy.",
+  "ventaja_juan": "Firmware de impresoras.",
+  "riesgo_principal": "OctoFarm gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "gestión granja impresión"
+ },
+ {
+  "id": "G21-18",
+  "nombre": "Fixture Library",
+  "cliente_que_paga": "Ingenieros de manufactura",
+  "problema": "Reutilizar diseños de fixtures está disperso.",
+  "solucion": "Biblioteca de plantillas paramétricas de fixtures en STEP/SolidWorks.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'fixture design templates', r/SolidWorks.",
+  "competidores": [
+   "GrabCAD (gratis)"
+  ],
+  "por_que_ahora": "Faltan plantillas de calidad.",
+  "ventaja_juan": "SolidWorks.",
+  "riesgo_principal": "F1: GrabCAD gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "plantillas de fixtures"
+ },
+ {
+  "id": "G21-19",
+  "nombre": "BOM Compliance Check",
+  "cliente_que_paga": "Equipos de hardware que exportan",
+  "problema": "Verificar RoHS/REACH por componente es manual.",
+  "solucion": "Sube BOM y obtén informe de cumplimiento con fuentes citadas.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'RoHS BOM checker', foros de compliance.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Regulaciones más estrictas.",
+  "ventaja_juan": "Hardware.",
+  "riesgo_principal": "Datos de cumplimiento difíciles y riesgo legal.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "cumplimiento BOM"
+ },
+ {
+  "id": "G21-20",
+  "nombre": "Timing Belt Calculator",
+  "cliente_que_paga": "Diseñadores de máquinas y makers",
+  "problema": "Seleccionar correas y poleas requiere catálogos.",
+  "solucion": "Calculadora web de transmisión por correa con exportación CAD.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'timing belt calculator', r/engineering.",
+  "competidores": [
+   "Fabricantes (calculadoras gratis, sin verificar)"
+  ],
+  "por_que_ahora": "Maker hardware crece.",
+  "ventaja_juan": "CAD y mecánica.",
+  "riesgo_principal": "F1 y F5 posibles.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "cálculo de correas"
+ }
+]

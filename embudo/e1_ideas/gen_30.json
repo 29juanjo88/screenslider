@@ -1,0 +1,380 @@
+[
+ {
+  "id": "G30-01",
+  "nombre": "Shopify STEP/DXF Quote Add-on",
+  "cliente_que_paga": "Machine shop or 3D print service owner on Shopify",
+  "problema": "Existing quote apps accept STL/DXF but STEP support is unconfirmed; shops quote CAD by hand.",
+  "solucion": "Shopify app: customer uploads STEP/DXF, gets instant price from shop's rate table.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Search 'instant quote CNC' in Shopify App Store plus r/shopify and CNC forums",
+  "competidores": [
+   "MakeQuote",
+   "3D Print Quote Calculator",
+   "Xometry (sin verificar)"
+  ],
+  "por_que_ahora": "Shops move to Shopify and want self-serve quoting without paying marketplace fees.",
+  "ventaja_juan": "CAD/CAM knowledge to parse geometry and cost it correctly.",
+  "riesgo_principal": "Depends on Shopify; STEP kernel cost/complexity.",
+  "evidencia_url": "https://apps.shopify.com/makequote",
+  "angulo": "30",
+  "tema": "cotización CAD"
+ },
+ {
+  "id": "G30-02",
+  "nombre": "TIA Diff",
+  "cliente_que_paga": "Controls engineer / integrator using Siemens TIA Portal",
+  "problema": "Enterprise PLC version-control tools cost hundreds per month; small integrators email .zap files.",
+  "solucion": "Web tool that diffs exported TIA/Studio 5000 projects and tracks revisions.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "PLCtalk forum, r/PLC, Siemens support forum, YouTube tutorials",
+  "competidores": [
+   "Copia Automation",
+   "Git (generic)"
+  ],
+  "por_que_ahora": "Integrators are pushed to prove change history for audits.",
+  "ventaja_juan": "Direct TIA Portal and Studio 5000 experience.",
+  "riesgo_principal": "Export formats are vendor-controlled; Copia may cut price.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "control de versiones PLC"
+ },
+ {
+  "id": "G30-03",
+  "nombre": "Sheet Metal DFM Check API",
+  "cliente_que_paga": "Developers of quoting/marketplace SaaS for fabrication",
+  "problema": "Instant DFM feedback is bundled inside expensive quoting platforms.",
+  "solucion": "API that returns bend, hole-to-edge and minimum-feature errors for DXF flat patterns.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'DXF DFM check api', RapidAPI-style API directories, docs",
+  "competidores": [
+   "Xometry (sin verificar)",
+   "Protolabs (sin verificar)"
+  ],
+  "por_que_ahora": "Many shops build their own online quoting.",
+  "ventaja_juan": "DXF/CAM and sheet-metal manufacturing rules.",
+  "riesgo_principal": "Small buyer pool; rules vary by shop.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "DFM chapa metálica"
+ },
+ {
+  "id": "G30-04",
+  "nombre": "Light PDM for SolidWorks",
+  "cliente_que_paga": "Small engineering team of 3-15 on SolidWorks",
+  "problema": "SolidWorks PDM and enterprise PLM are costly and heavy to administer.",
+  "solucion": "Cloud revision vault with check-in/out and release states via a SolidWorks add-in.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SolidWorks forums, r/SolidWorks, SEO 'SolidWorks PDM alternative'",
+  "competidores": [
+   "SolidWorks PDM",
+   "Onshape (sin verificar)"
+  ],
+  "por_que_ahora": "Small teams reject per-seat PLM pricing.",
+  "ventaja_juan": "SolidWorks daily use and add-in knowledge.",
+  "riesgo_principal": "Dassault could bundle or block; MVP over 6 weeks.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "PDM ligero"
+ },
+ {
+  "id": "G30-05",
+  "nombre": "Web Laser Nesting",
+  "cliente_que_paga": "Laser/waterjet shop owner",
+  "problema": "SigmaNEST-class nesting costs thousands; free tools are clunky.",
+  "solucion": "Browser nesting for DXF with kerf/lead-in settings and cut-time estimate, flat monthly fee.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'DXF nesting software online', r/lasercutting, Facebook CNC groups",
+  "competidores": [
+   "SigmaNEST",
+   "DeepNest (free)"
+  ],
+  "por_que_ahora": "Browser compute makes heavy nesting viable.",
+  "ventaja_juan": "DXF/CAM geometry background.",
+  "riesgo_principal": "DeepNest free may trigger F1.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "nesting DXF"
+ },
+ {
+  "id": "G30-06",
+  "nombre": "G-code Post Fixer",
+  "cliente_que_paga": "CNC hobbyist or small shop with Fusion/FreeCAD",
+  "problema": "Custom post-processors need paid CAM add-ons or scripting skills.",
+  "solucion": "Upload G-code, choose controller, get converted code with preview and safety checks.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'convert gcode for grbl/mach3', r/hobbycnc, CNCzone",
+  "competidores": [
+   "Autodesk post library (sin verificar)"
+  ],
+  "por_que_ahora": "Cheap CNC machines keep multiplying.",
+  "ventaja_juan": "CAM and G-code experience.",
+  "riesgo_principal": "Price low; needs about 700 payers for $10k.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "posprocesador G-code"
+ },
+ {
+  "id": "G30-07",
+  "nombre": "Print Farm Lite",
+  "cliente_que_paga": "Owner of 5-50 printer farm / Etsy 3D seller",
+  "problema": "Print-farm managers charge per printer at high totals.",
+  "solucion": "Job queue, filament cost tracking and order intake for Klipper/OctoPrint printers.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "r/3Dprinting, r/functionalprint, OctoPrint plugin repository, YouTube",
+  "competidores": [
+   "3DPrinterOS (sin verificar)",
+   "Obico (sin verificar)"
+  ],
+  "por_que_ahora": "Farms are growing with cheap Bambu-class printers.",
+  "ventaja_juan": "3D printer firmware knowledge.",
+  "riesgo_principal": "Printer vendors add free fleet tools.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "granja impresión 3D"
+ },
+ {
+  "id": "G30-08",
+  "nombre": "Churn Recovery for Stripe",
+  "cliente_que_paga": "SaaS founder using Stripe",
+  "problema": "Dunning suites cost $100+/mo for one feature, smart retries.",
+  "solucion": "Stripe app that runs retry schedules and dunning emails; flat price.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Stripe App Marketplace and r/SaaS, IndieHackers posts",
+  "competidores": [
+   "Churnkey",
+   "Baremetrics Recover"
+  ],
+  "por_que_ahora": "Involuntary churn is a known SaaS leak.",
+  "ventaja_juan": "Backend/Stripe API skills.",
+  "riesgo_principal": "Stripe native Smart Retries is F1 risk.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "recuperación de pagos"
+ },
+ {
+  "id": "G30-09",
+  "nombre": "Mini Status Page",
+  "cliente_que_paga": "Indie SaaS or API developer",
+  "problema": "Atlassian Statuspage starts pricey for what it does.",
+  "solucion": "Hosted status page with uptime checks, custom domain, Slack alerts.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'Statuspage alternative', Product Hunt, IndieHackers",
+  "competidores": [
+   "Atlassian Statuspage",
+   "Instatus"
+  ],
+  "por_que_ahora": "Statuspage price increases push users to look.",
+  "ventaja_juan": "Backend and monitoring.",
+  "riesgo_principal": "Crowded; low price needs 900 payers.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "página de estado"
+ },
+ {
+  "id": "G30-10",
+  "nombre": "Slack IT Intake",
+  "cliente_que_paga": "IT manager at 50-500 person firm",
+  "problema": "Jira Service Management is heavy for simple IT requests.",
+  "solucion": "Slack app turning messages into tracked tickets with SLAs.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Slack App Directory search 'IT helpdesk'",
+  "competidores": [
+   "Jira Service Management",
+   "Zendesk"
+  ],
+  "por_que_ahora": "Slack is the default workplace channel.",
+  "ventaja_juan": "Node/TypeScript Slack bot work.",
+  "riesgo_principal": "Slack dependency; competitors many.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "helpdesk Slack"
+ },
+ {
+  "id": "G30-11",
+  "nombre": "HubSpot Quote PDFs",
+  "cliente_que_paga": "Sales ops at small B2B firm on HubSpot",
+  "problema": "Salesforce CPQ-style tools are expensive for simple quotes.",
+  "solucion": "HubSpot app generating branded quote PDFs with line items and e-accept.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "HubSpot App Marketplace search 'quotes'",
+  "competidores": [
+   "HubSpot Quotes (native)",
+   "PandaDoc"
+  ],
+  "por_que_ahora": "HubSpot ecosystem keeps growing.",
+  "ventaja_juan": "Backend/PDF generation.",
+  "riesgo_principal": "Native quotes feature risks F1.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "cotizaciones HubSpot"
+ },
+ {
+  "id": "G30-12",
+  "nombre": "Legal PDF Bates Tool",
+  "cliente_que_paga": "Paralegal or litigation support",
+  "problema": "Acrobat Pro or e-discovery suites cost heavily for stamping and redaction.",
+  "solucion": "Browser tool for batch Bates stamping, redaction and exhibit indexing.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'bates numbering pdf online', paralegal forums",
+  "competidores": [
+   "Adobe Acrobat Pro",
+   "Redactable (sin verificar)"
+  ],
+  "por_que_ahora": "Remote litigation produces big PDF sets.",
+  "ventaja_juan": "PDF processing code.",
+  "riesgo_principal": "Redaction liability; privacy trust.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "sellado Bates PDF"
+ },
+ {
+  "id": "G30-13",
+  "nombre": "KiCad BOM Pricer",
+  "cliente_que_paga": "Hardware engineer using KiCad",
+  "problema": "Altium BOM/supply tools are expensive.",
+  "solucion": "KiCad plugin checking BOM stock and price across distributors.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "KiCad Plugin and Content Manager, r/PrintedCircuitBoard",
+  "competidores": [
+   "KiBot (free)",
+   "Octopart"
+  ],
+  "por_que_ahora": "Chip shortages made BOM checks routine.",
+  "ventaja_juan": "Electronics-adjacent firmware skill.",
+  "riesgo_principal": "Free plugins may suffice (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "BOM KiCad"
+ },
+ {
+  "id": "G30-14",
+  "nombre": "Small Historian",
+  "cliente_que_paga": "Controls integrator or maker factory",
+  "problema": "Ignition/PI-style historians are costly for 100 tags.",
+  "solucion": "Cloud tag historian with Modbus/OPC-UA connector and dashboards.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "PLCtalk, r/PLC, r/homeassistant, Grafana plugin listings",
+  "competidores": [
+   "Ignition (sin verificar)",
+   "AVEVA PI (sin verificar)"
+  ],
+  "por_que_ahora": "Cheap IIoT gateways are common.",
+  "ventaja_juan": "PLC and industrial protocol knowledge.",
+  "riesgo_principal": "Needs edge connector support.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "historian PLC"
+ },
+ {
+  "id": "G30-15",
+  "nombre": "STL Repair API",
+  "cliente_que_paga": "Developers of 3D print services",
+  "problema": "Netfabb-class mesh repair is expensive.",
+  "solucion": "API that repairs and checks STL/3MF for printability.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'stl repair api', API directories",
+  "competidores": [
+   "Autodesk Netfabb",
+   "Meshmixer (discontinued, sin verificar)"
+  ],
+  "por_que_ahora": "Online print services keep launching.",
+  "ventaja_juan": "3D printing and mesh knowledge.",
+  "riesgo_principal": "Open-source repair libraries (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "reparación STL"
+ },
+ {
+  "id": "G30-16",
+  "nombre": "Shopify Rage-Click Finder",
+  "cliente_que_paga": "Shopify store owner",
+  "problema": "Hotjar-style replay is expensive for one insight.",
+  "solucion": "App that flags rage clicks and dead buttons weekly.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Shopify App Store search 'heatmap'",
+  "competidores": [
+   "Hotjar",
+   "Microsoft Clarity (free)"
+  ],
+  "por_que_ahora": "Conversion pressure rises with ad costs.",
+  "ventaja_juan": "Frontend/JS skill.",
+  "riesgo_principal": "Clarity is free (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "clics de frustración"
+ },
+ {
+  "id": "G30-17",
+  "nombre": "PLC Doc Generator",
+  "cliente_que_paga": "PLC programmer delivering client documentation",
+  "problema": "Writing IO lists and docs by hand eats days.",
+  "solucion": "Upload TIA/Studio 5000 export; get IO list, tag docs and PDF manual.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "PLCtalk, r/PLC, YouTube tutorials",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Clients demand documentation packages.",
+  "ventaja_juan": "Direct PLC project knowledge.",
+  "riesgo_principal": "Export formats; small market.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "documentación PLC"
+ },
+ {
+  "id": "G30-18",
+  "nombre": "Takeoff Lite",
+  "cliente_que_paga": "Estimator at fabrication or construction subcontractor",
+  "problema": "Bluebeam costs per seat for measuring.",
+  "solucion": "Browser PDF/DXF measure and markup with quantity export.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'Bluebeam alternative', r/estimators",
+  "competidores": [
+   "Bluebeam"
+  ],
+  "por_que_ahora": "Remote estimating is standard.",
+  "ventaja_juan": "CAD drawing knowledge.",
+  "riesgo_principal": "Strong incumbents.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "takeoff PDF"
+ },
+ {
+  "id": "G30-19",
+  "nombre": "Gerber Share Review",
+  "cliente_que_paga": "PCB freelancer sending designs to clients",
+  "problema": "Altium 365 is expensive for sharing review links.",
+  "solucion": "Upload Gerbers, share viewer link with comments.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'gerber viewer online', r/PrintedCircuitBoard",
+  "competidores": [
+   "Altium 365",
+   "Free Gerber viewers"
+  ],
+  "por_que_ahora": "Remote hardware teams.",
+  "ventaja_juan": "Hardware familiarity.",
+  "riesgo_principal": "Free viewers (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "revisión Gerber"
+ },
+ {
+  "id": "G30-20",
+  "nombre": "CAD Preview Embed",
+  "cliente_que_paga": "SaaS developers needing CAD preview",
+  "problema": "Autodesk Platform Services viewer costs heavy.",
+  "solucion": "Embeddable STEP/IGES viewer widget.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'step viewer embed', npm, docs",
+  "competidores": [
+   "Autodesk Platform Services",
+   "Open CASCADE (free)"
+  ],
+  "por_que_ahora": "Manufacturing SaaS growth.",
+  "ventaja_juan": "CAD kernel familiarity.",
+  "riesgo_principal": "Open-source alternative.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "visor CAD"
+ }
+]

@@ -1,0 +1,600 @@
+G01-01 | Print-on-Demand 3D Quote | Tiendas Shopify que venden piezas impresas en 3D bajo pedido | App que analiza STL/3MF subido en la tienda, calcula volumen, material y tiempo, y agrega al carrito con precio instantáneo. | tema:cotización impresión 3D
+G01-02 | DXF Laser Cut Pricer | Talleres de corte láser/CNC con tienda Shopify | Widget que lee DXF/SVG, calcula perímetro, área y precio por material/espesor, y crea el producto en el carrito. | tema:cotización corte láser
+G01-03 | Product Spec Sheet PDF | Tiendas B2B de equipo industrial y repuestos en Shopify | Genera automáticamente fichas PDF de producto con specs, dibujos y branding desde metafields. | tema:fichas técnicas PDF
+G01-04 | Compatibility Finder Parts | Tiendas de repuestos y accesorios (impresoras, CNC, electrónica) | Selector año/modelo/marca que filtra productos compatibles con tabla de fitment importable por CSV. | tema:compatibilidad de repuestos
+G01-05 | CAD File Delivery Vault | Vendedores de modelos 3D/STL y archivos CAD en Shopify | Entrega digital con licencias por uso, versionado, vista previa 3D web y límite de descargas. | tema:venta de archivos 3D
+G01-06 | Wholesale Quote Request | Mayoristas y fabricantes con tienda Shopify | Botón de cotización por producto con volumen, aprobación y conversión a draft order. | tema:solicitud de cotización B2B
+G01-07 | Custom Part Configurator | Fabricantes de piezas a medida (dimensiones, materiales) en Shopify | Configurador paramétrico con fórmulas de precio, vista previa dimensional y generación de BOM. | tema:configurador paramétrico
+G01-08 | Shipping Dims Auditor | Comerciantes con costos de envío altos por peso dimensional | Audita pesos/dimensiones de catálogo vs. cargos del transportista y sugiere corrección de datos. | tema:auditoría peso dimensional
+G01-09 | Return Reason Insights | Comerciantes con >500 pedidos/mes y altas devoluciones | Panel que clasifica motivos de devolución por SKU/proveedor con alertas y informes mensuales. | tema:analítica de devoluciones
+G01-10 | Supplier PO Sync | Tiendas dropshipping/hardware con proveedores múltiples | Genera órdenes de compra por proveedor desde inventario bajo, envía por email y concilia recepciones. | tema:órdenes de compra proveedores
+G01-11 | Bundle Cost Margin Guard | Comerciantes con bundles y descuentos agresivos | Alerta y bloquea ofertas que bajan del margen mínimo usando costo por artículo. | tema:control de márgenes
+G01-12 | Assembly Instructions Hub | Vendedores de kits y productos de ensamble (muebles, kits 3D, electrónica) | Portal de instrucciones por pedido con pasos, vistas 3D, videos y QR en el empaque. | tema:manuales de ensamble
+G01-13 | Maker Warranty Registry | Marcas de hardware (impresoras 3D, herramientas) en Shopify | Registro de garantía con serial, validación y flujo de RMA conectado a pedidos. | tema:registro de garantía
+G01-14 | Wide Format Print Calculator | Imprentas de gran formato (lonas, vinilo, rotulación) con Shopify | Calculadora por área, material, acabados y nesting con precio en vivo. | tema:calculadora gran formato
+G01-15 | GPSR Compliance Labeler | Vendedores de la UE y exportadores a la UE | Gestiona campos GPSR por producto, importa en masa y los muestra en la ficha. | tema:cumplimiento GPSR UE
+G01-16 | Variant Matrix Bulk Editor | Tiendas con miles de variantes (herrajes, tornillería, piezas) | Editor de matriz de variantes con reglas, vista previa de diff y reversión. | tema:edición masiva variantes
+G01-17 | Lead Time Estimator | Tiendas de productos hechos bajo pedido o fabricados | Estima fecha de entrega según cola de producción, capacidad y transporte, mostrada en producto y carrito. | tema:fecha de entrega fabricación
+G01-18 | Production Queue Tracker | Talleres de impresión 3D y fabricación bajo demanda con Shopify | Tablero de producción con estados por pedido, notificaciones al cliente y etiquetas. | tema:seguimiento de producción
+G01-19 | Material Cost Auto-Pricer | Fabricantes con precios atados a commodities (metal, filamento, resina) | Actualiza precios automáticamente según costo de material con reglas y redondeo. | tema:precios por costo material
+G01-20 | Sample Swatch Request | Tiendas de materiales, filamentos y acabados | Solicitud de muestras gratis o de bajo costo limitada por cliente, con seguimiento de conversión a compra. | tema:muestras de materiales
+G02-01 | Gerber Preview for Chrome | PCB designers and hardware engineers | Chrome extension renders Gerber/Excellon files from any download link or email attachment, with measure tools. | tema:PCB Gerber viewer
+G02-02 | STEP Peek | Mechanical engineers and procurement buyers | Extension adds inline 3D preview, dimensions and BOM extraction to STEP files in Gmail/Drive/Slack web. | tema:CAD file preview
+G02-03 | PLC Tag Lens | Controls engineers and integrators | Extension opens L5X/TIA exports from GitHub/Drive and shows searchable tag, rung and I/O tables. | tema:PLC export viewer
+G02-04 | PLC PR Diff | Automation engineers using Git | Extension rewrites GitHub PR diffs of L5X/XML into readable logic changes. | tema:PLC git diff
+G02-05 | Fab Quote Autofill | Makers and engineers ordering CNC/3D print parts | Extension autofills quote forms across manufacturing marketplaces from one spec sheet and compares results. | tema:fab quote comparison
+G02-06 | G-code Inspector | 3D printer and CNC operators | Extension previews and lints G-code from any link or model-site download page. | tema:G-code preview lint
+G02-07 | Invoice Table Grabber | Accountants and bookkeepers in US/UK | Extension extracts tables from portals into clean CSV/Sheets with saved templates. | tema:web table export
+G02-08 | Meeting Notes to Jira | Engineering managers and PMs | Extension captures meeting captions and creates Jira/Linear tickets with owners. | tema:meeting to tickets
+G02-09 | API Request Replayer | Backend developers and QA | DevTools extension exports requests to TypeScript/Python clients with masked auth and shareable repro links. | tema:API repro devtools
+G02-10 | GraphQL Cost Lens | GraphQL API developers | DevTools panel showing query complexity, resolver timings and N+1 hints. | tema:GraphQL perf devtools
+G02-11 | Shopify Admin Bulk Fixer | Shopify operators with large catalogs | Extension adds bulk-edit, find-replace and audit tools for products/metafields in Shopify admin. | tema:Shopify bulk admin
+G02-12 | Recruiter Notes Pipeline | Solo and agency recruiters | Extension saves profiles, notes and stages to Sheets/Notion with email templates. | tema:recruiter CRM extension
+G02-13 | Contract Clause Highlighter | Freelancers and procurement staff | Extension highlights risky clauses (auto-renewal, liability) in-browser with explanations. | tema:contract clause scanner
+G02-14 | Ad Library Saver | Performance marketers and agencies | Extension saves, tags and exports ads from ad libraries into swipe-file boards. | tema:ad swipe file
+G02-15 | SEO On-Page Snapshot | Freelance SEOs and writers | Extension shows headings, schema, internal links and word diffs with export. | tema:SEO extension
+G02-16 | Cookie Consent Auditor | Privacy and web compliance consultants | Extension logs trackers fired before consent and generates an audit PDF. | tema:cookie consent audit
+G02-17 | Accessibility Ticket Recorder | Front-end developers and QA | Extension records flows, flags WCAG failures and exports tickets with screenshots. | tema:WCAG ticket export
+G02-18 | Screenshot Redactor | Support, QA and security staff | Extension auto-detects and blurs emails, keys and PII in screenshots before upload. | tema:screenshot redaction
+G02-19 | Print Cost Badge | 3D printing hobbyists and print-farm owners | Extension estimates filament, time and electricity cost per model on Printables/Thingiverse using the user's printer profile. | tema:3D print cost badge
+G02-20 | Onshape BOM Exporter | Mechanical engineers and small hardware teams on Onshape | Extension exports Onshape BOMs to Sheets/CSV with supplier price lookups and revision stamps. | tema:Onshape BOM export
+G03-01 | Slack PLC Alarm Bridge | Ingeniero de controles / jefe de mantenimiento en planta | App de Slack que recibe alarmas OPC UA/MQTT de Siemens/Rockwell, las enruta a canales y permite acuse con botón. | tema:alarmas PLC Slack
+G03-02 | CAD Review Bot for Teams | Líder de ingeniería mecánica | Bot de Teams que renderiza STEP/DXF en el hilo con vista 3D y comentarios anclados. | tema:visor CAD Teams
+G03-03 | 3D Print Queue for Slack | Responsable de laboratorio makerspace o granja de impresión | App de Slack que lee OctoPrint/Klipper/Moonraker, notifica fallos y gestiona cola con /print. | tema:cola impresión 3D
+G03-04 | Standup Summarizer Pro | Engineering manager de equipo de 20-200 personas | Resumen diario por IA de hilos de canales con bloqueos, decisiones y tareas pendientes. | tema:resumen hilos Slack
+G03-05 | Slack Support Escalation Router | Head of Support en SaaS B2B con canales compartidos | App que convierte mensajes en tickets con SLA, timer y escalado automático. | tema:soporte canales compartidos
+G03-06 | Teams Meeting Cost Meter | Ops manager o CFO de empresa mediana | App de Teams que estima costo por reunión con salario promedio y reporta las más caras. | tema:costo de reuniones
+G03-07 | Slack to Jira Compliance Audit Log | Responsable de compliance en empresa regulada | Exporta hilos marcados como decisión a un log inmutable con sellado de tiempo y búsqueda. | tema:registro de decisiones
+G03-08 | Shift Handover Notes for Slack | Supervisor de turno en manufactura o logística | Formulario /handover en Slack que compila incidencias, KPIs y pendientes y los publica en el canal de planta. | tema:entrega de turno
+G03-09 | Slack Quote Approval for Machine Shops | Dueño de taller CNC / láser | App Slack que recibe DXF/STEP, calcula costo estimado y pide aprobación con botones. | tema:aprobación cotizaciones taller
+G03-10 | Teams Approvals for CAD Changes (ECO) | Ingeniero de procesos / gestor de cambios | App de Teams con flujo ECO, adjuntos CAD y firma por aprobador. | tema:aprobación ECO
+G03-11 | Slack Sprint Retro Bot | Scrum master / EM | Bot que recolecta feedback anónimo, agrupa temas y hace seguimiento de acciones. | tema:retro sprint
+G03-12 | Incident Postmortem Generator | SRE / Eng manager | Convierte el canal de incidente en postmortem estructurado con línea de tiempo y acciones. | tema:postmortem automático
+G03-13 | Teams Translation for Plant Floor | Gerente de planta multinacional | Traduce mensajes en Teams/Slack con glosario técnico de manufactura y siglas. | tema:traducción técnica
+G03-14 | Slack Time-off Plus for Shift Teams | HR ops en empresa con turnos | App Slack de ausencias con reglas de cobertura mínima por turno. | tema:ausencias por turnos
+G03-15 | GitHub Release Notes to Slack | Product manager de SaaS | Genera release notes de PR/commits con IA y las publica por canal con aprobación. | tema:release notes IA
+G03-16 | Slack File Governance | IT admin de empresa mediana | Escanea archivos subidos a Slack por PII/secretos y los cuarentena con política. | tema:DLP para Slack
+G03-17 | Teams CAD Version Diff | Ingeniero mecánico en equipo distribuido | Bot que compara dos STEP y muestra las diferencias resaltadas en el hilo. | tema:diff de CAD
+G03-18 | Slack Sales Quote Cost Check for Print Farms | Dueño de servicio de impresión 3D por encargo | Slack app que recibe STL, estima tiempo/material y devuelve cotización en hilo. | tema:cotización impresión 3D
+G03-19 | Teams IT Request Triage | IT helpdesk lead en empresa mediana | Bot de Teams que clasifica solicitudes con IA y crea tickets con prioridad. | tema:triage de TI
+G03-20 | Teams Safety Incident Reporter | Gerente EHS en planta o almacén | App de Teams con formulario móvil, fotos, clasificación y alertas a supervisores con reporte mensual. | tema:reporte incidentes EHS
+G04-01 | CAD Viewer for Jira | Ingenieros de producto y PMs en equipos de hardware/manufactura que usan Jira | App de Jira que renderiza STEP, STL, DXF y 3MF en el ticket, con medición y comentarios. | tema:visor CAD Jira
+G04-02 | 3D Print Request Workflow | Operadores de laboratorios, escuelas y fábricas con servicio interno de impresió | Plantilla de Jira Service Management con subida de STL, estimación automática de tiempo/costo y cola por impresora. | tema:cola impresión 3D
+G04-03 | Change Control for Engineering | Gerentes de calidad/ingeniería en fabricantes que usan Jira | App con flujo ECR/ECN preconfigurado, aprobaciones por rol, registro de auditoría y export PDF. | tema:control de cambios ECN
+G04-04 | PLC Project Docs for Confluence | Ingenieros de automatización e integradores de sistemas | Macro Confluence que importa listas de tags/E/S de TIA Portal y Studio 5000 y genera páginas versionadas. | tema:documentación PLC Confluence
+G04-05 | Release Notes Generator | Release managers y PMs de equipos SaaS | App que agrupa tickets por versión, genera notas con IA y publica en Confluence o página pública. | tema:notas de versión IA
+G04-06 | Bitbucket PR Risk Scoring | Engineering managers y líderes técnicos con Bitbucket Cloud | App de Bitbucket que puntúa riesgo del PR por tamaño, archivos críticos y cobertura, con checks de merge. | tema:riesgo en pull requests
+G04-07 | Jira Cost Rollup | Controllers y PMOs de empresas medianas | App que asigna tarifas por rol a worklogs y reporta costo por épica/proyecto con export a CSV. | tema:costos proyecto Jira
+G04-08 | Compliance Evidence Collector | Líderes de seguridad/compliance en SaaS que buscan SOC 2 / ISO 27001 | App que etiqueta tickets como evidencia, valida aprobaciones y exporta paquete listo para auditor. | tema:evidencia auditoría SOC2
+G04-09 | Confluence Stale Page Cleaner | Administradores de Confluence y gerentes de conocimiento | App que detecta páginas sin uso, asigna dueños, pide revisión y archiva con un clic. | tema:limpieza páginas Confluence
+G04-10 | Bill of Materials for Jira | Ingenieros de producto en startups de hardware | App que modela BOM jerárquica por issue, con costos, proveedores y export CSV. | tema:BOM en Jira
+G04-11 | Incident Postmortem Builder | SREs y líderes de ingeniería | App que arma postmortem en Confluence desde la línea de tiempo del incidente en Jira y chat. | tema:postmortem automático
+G04-12 | Maintenance Requests for JSM | Jefes de mantenimiento en plantas y facilities | Plantilla JSM con activos, QR por máquina, preventivo programado y reporte de downtime. | tema:mantenimiento industrial JSM
+G04-13 | Jira Data Residency Auditor | Administradores de TI en empresas reguladas | App que escanea tickets por PII y secretos, alerta y propone redacción. | tema:PII en tickets
+G04-14 | OKR Tracker Lite | Jefes de equipo en empresas medianas | App que enlaza OKRs a épicas y calcula avance automático. | tema:OKR en Jira
+G04-15 | Gantt for Bitbucket Milestones | PMs de equipos de software | App que dibuja cronograma de ramas, PRs y releases. | tema:cronograma Bitbucket
+G04-16 | Test Evidence for Regulated Software | QA leads en software de dispositivos y automatización | App que traza requisitos a pruebas, adjunta evidencia y genera matriz de trazabilidad. | tema:matriz de trazabilidad
+G04-17 | Jira to Slicer Handoff | Operadores de granjas de impresión 3D | App que convierte tickets con STL en trabajos con parámetros y exporta a OctoPrint/Klipper. | tema:handoff impresión 3D
+G04-18 | Atlassian License Optimizer | Administradores de TI y compradores de licencias en empresas medianas | App que detecta inactivos, propone desactivación y ahorro estimado. | tema:optimizar licencias Atlassian
+G04-19 | Engineering Drawing Review in Confluence | Ingenieros de diseño y calidad | Macro de Confluence con visor de planos, marcado, aprobaciones y versiones. | tema:revisión de planos
+G04-20 | Customer Feedback to Jira Insights | Product managers de SaaS | App que agrupa feedback de tickets de soporte en temas y lo liga a épicas. | tema:feedback a roadmap
+G05-01 | CADFrame for Figma | Diseñadores de producto/industrial en equipos de hardware | Plugin que importa STEP/STL y coloca vistas renderizadas con ángulos y materiales editables en frames de Figma. | tema:CAD a Figma
+G05-02 | Design Token Sync Pro | Design systems leads y front-end leads en empresas medianas | Plugin que exporta variables de Figma a CSS/Tailwind/TS y abre PR automático en GitHub con diff visual. | tema:tokens de diseño a código
+G05-03 | A11y Audit Reports | Diseñadores UX y agencias que deben entregar informes WCAG | Plugin que audita frames contra WCAG 2.2 y genera PDF de informe con capturas y recomendaciones por pantalla. | tema:auditoría accesibilidad WCAG
+G05-04 | Figma to Shopify Theme | Freelancers y agencias de temas Shopify | Plugin que exporta frames a secciones Liquid con settings schema y CSS responsive. | tema:Figma a Shopify
+G05-05 | Email Design Exporter | Diseñadores de email marketing y agencias | Plugin que genera HTML de email con tablas y MSO fallbacks desde auto-layout, con envío de prueba. | tema:Figma a HTML email
+G05-06 | Copy Deck Localizer | Product designers y localization managers en SaaS | Plugin que extrae strings, los envía a archivos i18n (JSON/XLIFF) y previsualiza textos traducidos con overflow en el diseño. | tema:localización de diseños
+G05-07 | Pitch Deck Data Fill | Fundadores y analistas que mantienen decks financieros | Plugin que vincula capas de texto y gráficos a Google Sheets/Airtable y actualiza en un clic. | tema:datos vivos en Figma
+G05-08 | Print-Ready Export | Diseñadores de packaging y merch que imprimen | Plugin que exporta PDF/X con sangrado, marcas de corte y capas de troquel desde frames. | tema:exportación a imprenta
+G05-09 | Laser Cut Export | Makers y diseñadores de productos de corte láser / CNC | Plugin que exporta capas a SVG/DXF con colores por operación (corte/grabado), kerf y nesting básico. | tema:Figma a corte láser
+G05-10 | 3D Mockup Studio | Marketers de apps y SaaS que hacen capturas de producto | Plugin que aplica frames de Figma a modelos 3D de dispositivos con escenas y exporta MP4/PNG. | tema:mockups 3D de producto
+G05-11 | Design QA Diff | QA y front-end leads que verifican implementación | Plugin + CLI que compara capturas de staging con frames de Figma y reporta diferencias en píxeles y espaciado. | tema:QA visual de diseño
+G05-12 | Prototype to Playwright | QA engineers y SDETs | Plugin que lee prototipos y genera tests de Playwright con selectores sugeridos. | tema:tests desde prototipos
+G05-13 | Component Usage Analytics | Design system managers en empresas medianas | Plugin/servicio que escanea archivos y muestra uso y detaches por componente en dashboard. | tema:analítica de design system
+G05-14 | Brand Compliance Checker | Brand managers y agencias con muchos clientes | Plugin que valida frames contra reglas de marca y marca desviaciones con informe. | tema:cumplimiento de marca
+G05-15 | Data Table Generator | Product designers de dashboards B2B | Plugin que genera tablas/gráficos con datos sintéticos por esquema (fintech, SaaS, logística) y variantes. | tema:datos sintéticos de UI
+G05-16 | Figma to React Native | Devs móviles indie y agencias | Plugin que exporta frames auto-layout a componentes React Native/Expo con estilos y navegación. | tema:Figma a React Native
+G05-17 | Hardware UI Kit Builder | Diseñadores de HMI/panel (industrial) y UX de IoT | Plugin con biblioteca de componentes HMI/P&ID y exportación a especificación para ingenieros de control. | tema:HMI industrial en Figma
+G05-18 | FigJam Roadmap Exporter | Product managers | Plugin que convierte stickies en issues con campos y relaciones en Jira/Linear/GitHub. | tema:FigJam a issues
+G05-19 | Font License Auditor | Agencias y equipos legales/ops que publican diseños | Plugin que lista fuentes usadas, su licencia conocida y costos pendientes por proyecto. | tema:auditoría de licencias fuentes
+G05-20 | Spec Sheet Generator | Product designers que entregan a manufactura | Plugin que genera hojas de especificación PDF con cotas y BOM desde frames anotados. | tema:specs de manufactura
+G06-01 | STL Quote for WooCommerce | Tiendas WooCommerce que venden impresión 3D bajo pedido | Plugin que analiza el STL (volumen, tiempo, material) y muestra precio instantáneo en el carrito. | tema:cotización impresión 3D
+G06-02 | DXF Laser Cutting Quote | Talleres de corte láser/CNC con tienda WooCommerce | Plugin que lee DXF, calcula área de corte, perímetro y precio por material. | tema:cotización DXF láser
+G06-03 | WooCommerce Product Configurator 3D | Tiendas de productos personalizables (muebles, piezas) | Visor 3D ligero con opciones que actualizan precio y variación. | tema:configurador 3D Woo
+G06-04 | Subscription Churn Saver | Dueños de tiendas WooCommerce Subscriptions | Plugin de dunning inteligente, ofertas de pausa y alertas de cancelación. | tema:retención suscripciones Woo
+G06-05 | Wholesale Portal Pro | Marcas con venta B2B sobre WooCommerce | Portal B2B con precios por nivel, aprobación de cuentas y reórdenes. | tema:portal mayorista Woo
+G06-06 | Agency Maintenance Dashboard | Agencias WordPress con 20+ sitios de clientes | Panel central que monitorea plugins, versiones y envía reportes al cliente. | tema:gestión multisitio WP
+G06-07 | Woo Order Sync to ERP | Tiendas WooCommerce medianas con ERP o inventario externo | Conector configurable que sincroniza pedidos e inventario vía webhooks. | tema:sincronización ERP Woo
+G06-08 | Print Shop Order Tracker | Servicios de impresión 3D/CNC bajo pedido | Plugin con estados de producción y portal de seguimiento para el cliente. | tema:seguimiento producción pedidos
+G06-09 | Product Data Sheet Generator | Tiendas B2B de componentes industriales en WooCommerce | Plugin que crea PDF de ficha técnica desde atributos del producto. | tema:fichas técnicas PDF
+G06-10 | Digital Download Licenses Pro | Vendedores de software, CAD files y plugins en WooCommerce | Plugin de licencias con activaciones por sitio, expiración y renovaciones. | tema:licencias software Woo
+G06-11 | CAD File Marketplace Plugin | Creadores que venden modelos STL/STEP | Plugin con vista previa 3D, categorías y entrega segura de archivos. | tema:venta archivos CAD
+G06-12 | Multi-Currency Tax Compliance | Tiendas WooCommerce que venden globalmente | Plugin que aplica reglas fiscales por país y muestra precios locales. | tema:cumplimiento IVA Woo
+G06-13 | LLM Product Description Auditor | Tiendas WooCommerce con catálogos grandes | Plugin que audita catálogo y propone mejoras con IA. | tema:auditoría catálogo IA
+G06-14 | Technical Spec Search for Woo | Tiendas industriales con miles de SKUs | Buscador facetado por especificaciones (dimensiones, tolerancias, material). | tema:búsqueda atributos técnicos
+G06-15 | Maker Course Delivery Bundle | Creadores de cursos CAD/PLC/3D en WordPress | Plugin ligero de cursos con acceso por compra en Woo y progreso. | tema:cursos técnicos Woo
+G06-16 | Booking for Print Services | Estudios de impresión 3D y makerspaces | Plugin de reservas por máquina y franja, con pago Woo. | tema:reservas makerspaces
+G06-17 | Shipping Rate Calculator by Dimensions | Tiendas con productos voluminosos o pesados | Plugin que calcula envío por dimensiones y paquetes. | tema:cálculo envío dimensional
+G06-18 | Review Request Automation | Tiendas WooCommerce pequeñas y medianas | Plugin que envía solicitudes de reseña con incentivos y lo publica con schema. | tema:automatización reseñas
+G06-19 | Warranty and RMA Manager | Tiendas de hardware/electrónica | Plugin con formularios de RMA, estados y etiquetas de devolución. | tema:gestión garantías RMA
+G06-20 | Spare Parts Finder by Model | Fabricantes y distribuidores de refacciones | Plugin que filtra repuestos por modelo/serie con despiece. | tema:buscador refacciones
+G07-01 | PLC ST Studio | Ingenieros de automatización y integradores | Extensión VS Code con resaltado, linting, navegación y formateo para Structured Text, con importación/exportación de archivos PLCopen XML. | tema:editor PLC Structured Text
+G07-02 | G-code Inspector | Operadores CNC y makers de impresión 3D | Extensión VS Code que valida G-code, simula trayectoria en panel 3D y avisa de límites de máquina y errores de firmware. | tema:validación G-code
+G07-03 | Klipper Config Doctor | Usuarios avanzados de impresoras 3D Klipper | Extensión VS Code con esquema, validación, autocompletado de secciones Klipper y chequeo de pines por placa. | tema:config Klipper
+G07-04 | OpenAPI Mock Studio | Desarrolladores backend y de frontend | Extensión VS Code que levanta mock server con datos realistas y escenarios de error desde el spec abierto. | tema:mocks OpenAPI
+G07-05 | GraphQL Cost Lens | Equipos que operan APIs GraphQL | Extensión VS Code/JetBrains que estima complejidad y profundidad de queries y detecta N+1 contra el schema. | tema:costo queries GraphQL
+G07-06 | Laravel Query Radar | Desarrolladores Laravel | Plugin JetBrains/VS Code que analiza código Eloquent y muestra advertencias de N+1 y sugerencias de índices en línea. | tema:N+1 Eloquent
+G07-07 | CAD Preview for Code | Desarrolladores de software de manufactura | Extensión VS Code que renderiza STEP, DXF, STL y 3MF en un panel con medición básica. | tema:visor CAD en editor
+G07-08 | SCAD Linter Pro | Usuarios de OpenSCAD y CAD paramétrico | Extensión VS Code con lint, previsualización en vivo, y análisis de parámetros para modelos paramétricos. | tema:editor OpenSCAD
+G07-09 | AI Cost Meter | Desarrolladores y equipos que usan APIs de LLM | Extensión VS Code que registra tokens y costo por llamada LLM en el código y alerta por presupuesto. | tema:costo de LLM
+G07-10 | Agent Guard | Equipos técnicos que usan agentes IA de código | Extensión VS Code que audita y bloquea acciones de agentes (shell, red, archivos sensibles) con políticas. | tema:seguridad de agentes IA
+G07-11 | Prompt Diff | Ingenieros que mantienen prompts de LLM | Extensión VS Code que corre un set de casos contra versiones del prompt y muestra diferencias de salida. | tema:pruebas de prompts
+G07-12 | Env Secret Sentinel | Desarrolladores y equipos pequeños | Extensión VS Code/JetBrains que detecta secretos, los oculta en pantalla y bloquea commits. | tema:filtrado de secretos
+G07-13 | Modbus Workbench | Integradores y técnicos de automatización | Extensión VS Code con cliente/simulador Modbus TCP y OPC UA, y scripts reproducibles. | tema:pruebas Modbus OPC
+G07-14 | PLC Git Diff | Equipos de automatización con control de versiones | Plugin que convierte exportaciones de PLC a texto comparable y muestra diffs legibles en el editor. | tema:control versiones PLC
+G07-15 | Test Data Forge | Desarrolladores y QA | Plugin JetBrains/VS Code que genera datos coherentes desde el schema de base de datos o tipos TypeScript. | tema:datos de prueba
+G07-16 | Regex Explainer Pro | Desarrolladores de todos los niveles | Extensión VS Code con explicación visual, pruebas en línea y generación de regex desde ejemplos. | tema:explicador regex
+G07-17 | Docker Compose Doctor | Desarrolladores y DevOps | Extensión VS Code que valida compose, detecta puertos en conflicto, vulnerabilidades y sugerencias de buenas prácticas. | tema:validación Docker Compose
+G07-18 | Next.js Perf Lens | Desarrolladores React/Next.js | Plugin VS Code que marca en línea Client/Server boundaries, tamaño de bundle e hidratación innecesaria. | tema:rendimiento Next.js
+G07-19 | Onboarding Map | Líderes técnicos que incorporan ingenieros | Extensión VS Code que genera mapas navegables de arquitectura y recorridos guiados del código. | tema:onboarding de código
+G07-20 | Bambu Slice Script | Makers avanzados y granjas de impresión | Extensión VS Code para scripts de laminado por lotes, perfiles y envío a impresoras vía API local. | tema:automatización granja 3D
+G08-01 | StepView API | Desarrollador de SaaS de manufactura/marketplaces de piezas | API REST que convierte STEP/IGES/DXF a glTF/PNG/SVG con visor embebible, cobro por conversión. | tema:conversión CAD API
+G08-02 | DXF Nesting API | Desarrollador de software de cotización para corte láser/CNC | API que recibe DXF, devuelve longitud de corte, perforaciones, área, bounding box y anidado estimado. | tema:cotización DXF API
+G08-03 | GcodeStats API | Desarrollador de plataformas de impresión 3D bajo demanda y granjas de impresión | API que lamina en headless y devuelve tiempo, peso, costo y problemas de imprimibilidad. | tema:estimación impresión 3D
+G08-04 | PLC Tag Parser API | Desarrollador de herramientas de ingeniería industrial/IIoT | API que parsea L5X/AWL/exportes XML y devuelve tags, rutinas, I/O y diagramas de dependencias en JSON. | tema:API para PLC
+G08-05 | API Usage Metering Kit | Desarrollador/fundador que monetiza una API | Gateway proxy con claves, cuotas, planes y cobro vía Stripe para cualquier API en 10 minutos. | tema:monetización de APIs
+G08-06 | Doc-SEO Auditor | Equipos de DevRel y documentación de productos API | Auditor de docs OpenAPI/Docusaurus con reporte SEO, enlaces rotos y schema para búsqueda y LLM. | tema:SEO de documentación
+G08-07 | OpenAPI Drift Watch | Equipos de ingeniería que consumen APIs de terceros | Monitor que vigila OpenAPI/changelogs de proveedores y alerta de cambios que rompen con diff semántico. | tema:control de cambios API
+G08-08 | Webhook Replay Vault | Desarrolladores backend que reciben webhooks | Endpoint que almacena, reenvía y reproduce webhooks con firma verificada y alertas. | tema:depuración de webhooks
+G08-09 | Postman Collection Doctor | Equipos de QA/integración con colecciones Postman | Servicio que valida colecciones contra OpenAPI y corrige automáticamente variables y tests. | tema:calidad de colecciones
+G08-10 | GraphQL Cost Guard | Equipos con APIs GraphQL públicas | Middleware/SaaS que calcula costo de consultas, límites por cliente y reportes de uso medido. | tema:límites en GraphQL
+G08-11 | Unit Converter Engine API | Desarrolladores de software de ingeniería y ecommerce técnico | API con conversiones, tablas de roscas, calibres de lámina y tolerancias ISO. | tema:datos de ingeniería API
+G08-12 | Material Price Feed API | Desarrolladores de herramientas de cotización de manufactura | API con precios de referencia por material y espesor, histórico y alertas. | tema:datos de materiales
+G08-13 | Drawing-to-BOM API | Desarrolladores de ERP/PLM ligeros | API que lee planos PDF/DXF y devuelve cotas, tolerancias, material y lista estructurada. | tema:extracción de planos
+G08-14 | API Status Aggregator | Equipos que dependen de varias APIs de terceros | Panel y API unificados con estado y latencia real de las APIs usadas, con alertas. | tema:monitoreo de APIs
+G08-15 | Mock API Generator from Docs | Desarrolladores frontend y QA | Genera mocks realistas y estables desde OpenAPI con escenarios de error, hospedados. | tema:mocks de API
+G08-16 | SDK Generator Lite | Fundadores con una API pública | Genera y publica SDKs TS/Python/PHP desde OpenAPI con ejemplos y docs, con actualización automática. | tema:SDKs desde OpenAPI
+G08-17 | G-code Linter API | Desarrolladores de software CAM y de máquinas CNC/3D | API que valida G-code contra perfiles de máquina y devuelve errores, tiempo y límites. | tema:validación de G-code
+G08-18 | Tolerance Stack API | Desarrolladores de software de diseño mecánico | API de análisis de tolerancias (peor caso, RSS, Monte Carlo) con visualización. | tema:análisis de tolerancias
+G08-19 | API Changelog Feed | Desarrolladores y product managers | Feed/RSS/email unificado de changelogs de APIs, con alertas por endpoint usado. | tema:feed de cambios API
+G08-20 | 3MF Repair API | Plataformas de impresión 3D bajo demanda y marketplaces de modelos | API que repara malla (agujeros, normales) y devuelve reporte y archivo listo para imprimir. | tema:reparación de mallas 3D
+G09-01 | StepViewAPI | Desarrolladores de SaaS de manufactura y marketplaces de piezas | API REST que convierte STEP/IGES/DXF a glTF/PNG/SVG, con una página SEO por cada par de formatos. | tema:API conversión CAD
+G09-02 | DXF Nest Quote Widget | Talleres de corte láser/CNC que venden online | Widget embebible que calcula precio desde un DXF subido; páginas SEO por material y espesor. | tema:cotización DXF
+G09-03 | PLC Tag Converter | Ingenieros de automatización y integradores | Herramienta web que convierte listas de tags/E-S entre formatos, con páginas SEO por par de plataformas. | tema:migración tags PLC
+G09-04 | Gcode Diff & Validator | Operadores de farms de impresión 3D y talleres CNC | Validador web que revisa G-code por firmware/controlador, con páginas SEO por error y máquina. | tema:validador G-code
+G09-05 | Print Farm Cost Calc API | Vendedores de Etsy/Shopify de piezas impresas 3D | Calculadora con páginas por material/impresora y plugin para tiendas, plan de pago para lotes. | tema:costeo impresión 3D
+G09-06 | Tolerance Stack Pages | Ingenieros mecánicos y diseñadores | Calculadora con miles de páginas por ajuste (H7/g6, etc.) y exportación PDF/informe en plan de pago. | tema:tolerancias mecánicas
+G09-07 | Wire Gauge & Cable Sizing | Electricistas industriales y integradores | Calculadora por norma (NEC, IEC) con páginas SEO por carga/longitud y reportes PDF de pago. | tema:cálculo de cable
+G09-08 | Shopify HS Code Pages | Tiendas Shopify que envían internacionalmente | App que sugiere HS codes y genera documentos, con páginas SEO por producto/país. | tema:HS code Shopify
+G09-09 | API Status Page Generator | Startups SaaS y equipos de desarrollo | Generador de status pages con dominios por proyecto y SEO por 'status of [service]' agregado. | tema:status pages SaaS
+G09-10 | OpenAPI Docs Hosting | Equipos de desarrollo de APIs | Hosting de docs desde un OpenAPI con dominio propio y páginas SEO por endpoint. | tema:docs OpenAPI
+G09-11 | Webhook Debug Inbox | Desarrolladores backend | Bandeja de entrada de webhooks con reenvío y páginas SEO por proveedor (Stripe, GitHub, etc.). | tema:depuración webhooks
+G09-12 | Schema Markup Generator | SEOs y agencias pequeñas | Generador y validador de schema con páginas SEO por tipo y plugin WordPress. | tema:generador schema
+G09-13 | Cron Expression Monitor | Desarrolladores y DevOps | Monitor de cron con ping y alertas; páginas SEO por expresión cron. | tema:monitoreo cron
+G09-14 | Pallet & Container Load Calc | Logística de pequeños importadores/exportadores | Calculadora 3D de carga con páginas SEO por contenedor/producto y exportación PDF. | tema:carga contenedor
+G09-15 | Currency Invoice Templates API | Freelancers internacionales | Generador de facturas con páginas SEO por país/moneda y PDF de pago. | tema:facturas multi-país
+G09-16 | 3MF Slicer Preset Library | Dueños de impresoras 3D y farms | Biblioteca de perfiles con páginas por impresora/filamento y sincronización con slicers en plan de pago. | tema:perfiles slicer
+G09-17 | Material Price Feed | Compradores de talleres y startups de hardware | Buscador y alertas de precios con páginas SEO por material/aleación. | tema:precio materiales
+G09-18 | Ladder Logic Snippet Library | Programadores PLC | Biblioteca de snippets importables a TIA/Studio 5000 con páginas SEO por patrón. | tema:snippets ladder PLC
+G09-19 | Bolt & Fastener Torque Pages | Mecánicos e ingenieros de montaje | Calculadora con SEO por tamaño/grado y reportes de pago. | tema:torque tornillos
+G09-20 | CNC Feeds & Speeds Pages | Maquinistas CNC y talleres pequeños | Calculadora con páginas SEO por herramienta/material y librería personal de pago. | tema:avances CNC
+G10-01 | HubSpot CAD Quote Sync | RevOps manager at a manufacturer using HubSpot | HubSpot app that parses uploaded STEP/DXF files on a deal and writes material, volume and price estimate into line items. | tema:CAD quoting hubspot
+G10-02 | AppExchange DXF Quote Object | Salesforce admin at a job shop or fabricator | Managed package that reads DXF on an Opportunity and computes cut length, pierce count and price from a rate table. | tema:DXF quoting salesforce
+G10-03 | AWS Marketplace STEP Conversion API | Developer at a manufacturing SaaS | Containerized API on AWS Marketplace converting CAD to glTF/PNG/SVG, billed via the AWS bill. | tema:CAD conversion API
+G10-04 | PLC Code Diff for Git | Controls engineer / automation team lead | GitHub App that renders readable diffs and review comments for L5X/SimaticML exports. | tema:PLC version control
+G10-05 | HubSpot 3D Print Order Intake | Owner of a 3D printing service bureau using HubSpot | HubSpot app with a form that analyzes STL, estimates print time and material, and creates a deal with a price. | tema:3D print quoting
+G10-06 | Salesforce Contract Clause Checker for MSPs | Salesforce admin in IT services firm | AppExchange app comparing Opportunity quote terms against approved clause rules and flagging deviations. | tema:contract clause check
+G10-07 | AWS Cost Anomaly Explainer | FinOps lead at mid-size AWS customer | SaaS on AWS Marketplace that links CUR anomalies to deploy events and owners with Slack summaries. | tema:AWS cost anomalies
+G10-08 | HubSpot Invoice-to-Deal Reconciler | RevOps or finance ops at B2B SaaS | HubSpot app matching Stripe invoices to deals and flagging mismatches in a dashboard. | tema:Stripe HubSpot reconcile
+G10-09 | Salesforce Duplicate Lead Merger Lite | Salesforce admin | AppExchange app for scheduled fuzzy duplicate detection with one-click bulk merge and undo. | tema:CRM deduplication
+G10-10 | PLC Tag Documentation Generator | Automation engineer at system integrator | Web tool ingesting L5X/TIA exports to generate IO lists, tag docs and cross-reference PDFs. | tema:PLC documentation
+G10-11 | Marketplace Listing Compliance Scanner | ISV product manager listing on AWS/Salesforce/HubSpot | SaaS checklist/scanner that audits a listing and app against marketplace requirements. | tema:marketplace listing audit
+G10-12 | HubSpot Workflow Documenter | HubSpot admin or agency | HubSpot app that maps workflows and properties into a living diagram and exportable doc. | tema:HubSpot workflow docs
+G10-13 | Salesforce Flow Cost Auditor | Salesforce architect | AppExchange app scanning Flows for limit risks and showing hotspots before they break production. | tema:Salesforce flow audit
+G10-14 | AWS Marketplace Industrial MQTT Gateway | IIoT engineer at factory IT | Marketplace AMI/container bridging OPC UA/Modbus to AWS IoT/S3 with config UI. | tema:OPC UA to AWS
+G10-15 | 3D Printer Fleet Monitor for Shopify-like Print Farms | Print farm operator | Self-hosted agent plus cloud dashboard that alerts on failures across Klipper/Marlin printers. | tema:print farm monitoring
+G10-16 | Salesforce Report Scheduler to Sheets | Sales ops analyst | AppExchange app that pushes reports to Google Sheets/Excel on a schedule with row-level history. | tema:Salesforce sheets sync
+G10-17 | HubSpot Calculated Quote Properties | RevOps for manufacturing/distribution | App letting admins define formula-based price calculators attached to deals and quotes. | tema:HubSpot pricing calculators
+G10-18 | AWS Marketplace Gcode Analyzer API | Developer at 3D printing SaaS | Marketplace API that parses G-code and returns print time, material and toolpath previews. | tema:gcode analysis API
+G10-19 | AppExchange Field Service CAD Viewer | Field service manager at equipment maker using Salesforce | Lightning component showing 2D/3D CAD of assets on Work Orders from uploaded files. | tema:CAD viewer salesforce
+G10-20 | Marketplace Usage Billing Meter | ISV engineer selling on AWS Marketplace | SDK plus hosted service that meters usage and submits records with retries and dashboards. | tema:marketplace usage metering
+G11-01 | BOM Cleaner for Sheets | Ingenieros de manufactura y compras en equipos de hardware | Complemento de Google Sheets que normaliza, deduplica y consolida BOM (SolidWorks/AutoCAD/Excel) con un clic. | tema:BOM en hojas de cálculo
+G11-02 | PLC Tag Sheet Sync | Ingenieros de automatización y integradores de sistemas | Complemento de Excel que importa/exporta tag tables de Siemens y Rockwell, valida nombres y direcciones y detecta duplicados. | tema:tags PLC Excel
+G11-03 | Quote-to-Sheet 3D Print | Granjas de impresión 3D y talleres de prototipado | Complemento de Google Sheets que importa G-code/3MF, calcula costo por pieza y genera cotizaciones. | tema:costeo impresión 3D
+G11-04 | Unit & Tolerance Checker | Ingenieros mecánicos y de calidad | Complemento de Excel con funciones de unidades, ajustes ISO (H7/g6) y comprobación de tolerancias. | tema:tolerancias en Excel
+G11-05 | Sheet-to-Invoice Bulk PDF | Freelancers y agencias que facturan desde hojas de cálculo | Complemento que convierte filas de Sheets en facturas PDF con plantilla y las envía por Gmail. | tema:facturas desde Sheets
+G11-06 | Data Quality Guard | Analistas de datos y operaciones en empresas medianas | Complemento de Sheets/Excel con reglas de validación, alertas por Slack y registro de auditoría. | tema:auditoría de hojas
+G11-07 | CSV Merge for Sheets | Analistas de e-commerce y operaciones | Complemento que mapea columnas, concatena CSV y detecta duplicados, con plantillas guardadas. | tema:fusión de CSV
+G11-08 | Slicer Settings Library | Usuarios de impresión 3D profesional | Complemento de Sheets que importa perfiles, compara parámetros entre versiones y relaciona resultados de calidad. | tema:perfiles de slicer
+G11-09 | CAD Revision Tracker | Equipos de diseño mecánico pequeños sin PLM | Complemento de Sheets con registro de revisiones, estados de aprobación y vínculos a Drive. | tema:control de revisiones CAD
+G11-10 | Maintenance Log for Sheets | Jefes de mantenimiento en plantas pequeñas | Complemento de Sheets que programa tareas, envía recordatorios por email y lleva historial por activo. | tema:mantenimiento en Sheets
+G11-11 | Excel PLC I/O List Builder | Integradores de sistemas de control | Complemento de Excel que genera listas de I/O desde plantillas de equipos y exporta a importadores de TIA/Studio 5000. | tema:listas I/O PLC
+G11-12 | Material Cost Sheet Feed | Compradores y estimadores de talleres de maquinado | Complemento de Sheets con funciones que traen precios de material de fuentes configurables. | tema:precios de material
+G11-13 | Gerber/DXF Metrics in Sheets | Fabricantes de PCB y corte láser | Complemento que sube DXF y devuelve métricas de corte directamente en celdas de Sheets. | tema:métricas DXF
+G11-14 | Scheduled Report Mailer | Gerentes de operaciones en empresas medianas | Complemento que envía rangos o gráficos de Sheets como PDF/email programado a listas. | tema:reportes programados
+G11-15 | Excel PDF Table Extractor | Analistas financieros y de compras | Complemento de Excel que extrae tablas de PDF con OCR y las normaliza. | tema:PDF a Excel
+G11-16 | Test Data Logger for Sheets | Ingenieros de pruebas y laboratorios | Complemento y API para enviar lecturas (Modbus/serial vía script) a Sheets con marca de tiempo. | tema:registro de mediciones
+G11-17 | Project Cost Roll-up | Gerentes de proyecto en ingeniería | Complemento de Excel que consolida presupuestos entre libros con trazabilidad. | tema:consolidación de costos
+G11-18 | Calendar Capacity Planner | Gerentes de producción de talleres | Complemento de Sheets que lee Google Calendar, detecta sobrecargas de máquinas y sugiere reprogramación. | tema:capacidad de máquinas
+G11-19 | Spec Sheet Generator | Equipos de producto de hardware | Complemento que convierte filas de Sheets en datasheets PDF/Docs con plantilla de marca. | tema:datasheets desde Sheets
+G11-20 | Sheets Backup & Versioning | Equipos de finanzas y operaciones en empresas medianas | Complemento que guarda instantáneas programadas, compara versiones y restaura rangos. | tema:versionado de hojas
+G12-01 | CAD Preview for Zapier/Make | Ops or product engineers at manufacturing e-commerce and quoting SaaS | Zapier/Make/n8n app that converts CAD files to PNG/SVG/glTF plus metadata (bbox, volume) in one step. | tema:CAD file automation
+G12-02 | PLC Alarms to Notion CMMS | Maintenance managers at small and mid factories without a CMMS | Edge agent (OPC UA/MQTT) turns Siemens/Rockwell alarms into Notion or Airtable work orders with recurrence stats. | tema:PLC alarm logging
+G12-03 | Print Farm Logger for Airtable | Owners of small 3D print farms and print-on-demand shops | Plugin for OctoPrint/Klipper that streams job, failure and filament data into Airtable or Notion dashboards. | tema:3D print farm analytics
+G12-04 | BOM Cost Rollup Airtable | Hardware startup operations or purchasing leads | Airtable extension that imports CAD/CSV BOMs, links supplier prices and rolls up cost per assembly. | tema:BOM costing Airtable
+G12-05 | Cross-Platform Automation Monitor | Automation agencies and freelancers managing client Zaps, Make scenarios and n8n | One dashboard and alert feed for failed runs across Zapier, Make and n8n with retry links. | tema:automation failure monitoring
+G12-06 | Operations Cost Optimizer | Agencies and ops teams paying for Make operations or Zapier tasks | Upload exported blueprints; get ranked fixes and estimated monthly savings. | tema:automation cost audit
+G12-07 | n8n Secret and PII Linter | n8n self-hosters and agencies handling client data | Scans workflow JSON in CI or by upload for secrets, PII flows and risky nodes; gives reports. | tema:workflow security linting
+G12-08 | Agency Client Portal | Automation agencies selling retainers | White-label portal showing runs, errors and hours saved per client, pulled from Make/n8n/Zapier. | tema:agency reporting portal
+G12-09 | Human Approval for Workflows | Teams running AI agents inside n8n/Make/Zapier | Approval node: sends Slack or email request, waits, then resumes with audit trail. | tema:agent approval gates
+G12-10 | Workflow Template Storefront | Creators selling n8n/Make/Zapier templates | Storefront with license keys, versioned updates and one-click import links for workflows. | tema:template selling platform
+G12-11 | STL Quote Engine for Zapier | 3D print service bureaus and makers selling prints | Zapier/Make app and API returning volume, print time and price from an STL upload. | tema:STL instant quoting
+G12-12 | DXF Cut-Length Calculator | Laser and waterjet fabricators using Airtable or forms | Make/Zapier app and API returning cut length, pierce count and price from DXF. | tema:DXF cut quoting
+G12-13 | Industrial Data to Airtable | Plant engineers and integrators wanting dashboards without a historian | Gateway that reads OPC UA/Modbus tags and syncs to Airtable, Notion or Sheets on schedule. | tema:PLC data sync
+G12-14 | Notion Workspace Backup | Teams running operations in Notion | Scheduled full backups to S3/Drive with diff history and restore of pages and databases. | tema:Notion backup
+G12-15 | Airtable to Postgres Sync | Developers and ops teams outgrowing Airtable | Continuous two-way sync of Airtable bases to Postgres/Supabase with schema mapping. | tema:Airtable database sync
+G12-16 | Webhook Retry Relay | No-code builders whose automations drop webhooks | Hosted relay with queue, retries, dead-letter inbox and replay, no code needed. | tema:webhook reliability relay
+G12-17 | Notion DSAR Automation | Privacy or operations leads at small SaaS companies | Workflow that finds a person's data across Notion, Airtable, Stripe and HubSpot, exports and deletes with a log. | tema:DSAR automation
+G12-18 | Print Order to Job Queue | Etsy and Shopify sellers fulfilling 3D printed products | n8n/Make connector that turns orders into print jobs and deducts filament in Airtable. | tema:3D print fulfillment
+G12-19 | PDF Docs from Notion | Automation builders producing client PDFs | API and Zapier app rendering branded PDFs from Notion/Airtable records with templates. | tema:document generation API
+G12-20 | Notion JSON API Cache | Developers using Notion as a CMS | Cached, typed JSON endpoint over Notion databases with webhooks for rebuilds. | tema:Notion CMS API
+G13-01 | PLC Diff CI | Ingenieros de automatización e integradores con PLC en Git | GitHub Action/App que convierte L5X/PLCopen XML en diffs legibles de rungs y tags, con lint de reglas y comentario en el PR. | tema:PLC CI diff
+G13-02 | CAD Diff PR | Equipos de hardware y mecánica que versionan CAD en GitHub | GitHub App que renderiza antes/después de archivos STEP/STL/DXF y resalta geometría cambiada en el PR. | tema:diff CAD en PR
+G13-03 | Flaky Quarantine | Líderes de ingeniería con CI lento por tests inestables | GitHub App que detecta tests flaky de los reportes JUnit, los pone en cuarentena automáticamente y abre issues. | tema:tests flaky CI
+G13-04 | Actions Cost Attribution | Platform engineers y finanzas técnicas de organizaciones GitHub | Panel autoservicio que lee la API de billing/usage y asigna costo por repo, workflow y equipo, con alertas de picos. | tema:costos GitHub Actions
+G13-05 | Workflow Hardener | Equipos de seguridad y DevOps con muchos workflows de Actions | App que escanea workflows, propone PRs de corrección automática (pin de SHA, permisos mínimos) y reporta cumplimiento. | tema:seguridad GitHub Actions
+G13-06 | Printer Firmware CI | Mantenedores de firmware Klipper/Marlin y fabricantes de impresoras 3D | Action que compila el firmware por placa, simula G-code y falla el PR si hay regresión de movimiento o límites térmicos. | tema:CI firmware 3D
+G13-07 | Copilot Seat Reclaimer | Responsables de ingeniería y finanzas con licencias de Copilot/IDE | App que cruza la API de uso de GitHub (Copilot, seats) y recomienda retirar asientos inactivos, con reporte mensual. | tema:licencias Copilot sin uso
+G13-08 | Renovate Triage | Mantenedores y equipos con cientos de PRs de Dependabot/Renovate | App que agrupa, prioriza por riesgo y auto-aprueba PRs seguros según CI verde y changelog. | tema:triage de dependencias
+G13-09 | Edge Heartbeat | Integradores industriales y equipos IIoT | Servicio de heartbeat/dead-man switch para gateways PLC y Raspberry Pi con alertas, SDK para Modbus/OPC UA y página de estado. | tema:monitoreo edge industrial
+G13-10 | Datadog Bill Cutter | Líderes de plataforma con facturas de observabilidad crecientes | Herramienta autoservicio que analiza exportes de uso, detecta logs/métricas de alto costo y genera reglas de exclusión. | tema:costo observabilidad
+G13-11 | Image CVE Diff | Equipos DevOps que construyen contenedores | Action que compara la imagen base antes/después y comenta solo CVE nuevos, con tamaño de imagen y sugerencia de base más pequeña. | tema:diff de imágenes Docker
+G13-12 | STL Visual Regression | Fabricantes y estudios de diseño paramétrico con CI | Action que renderiza STL/STEP generados desde OpenSCAD/CadQuery, compara volumen, bounding box y vistas, y falla si se desvían. | tema:regresión de geometría
+G13-13 | Cert Expiry Watch | Ingenieros DevOps y SRE de empresas medianas | Servicio que inventaría vencimientos (TLS, tokens OAuth, secretos en repos) y avisa por Slack/email con tiempo. | tema:vencimiento de certificados
+G13-14 | Affected Tests Selector | Equipos con monorepos y CI de más de 20 minutos | Action que mapea dependencias por cambios y ejecuta solo los tests afectados, con gráfico de ahorro de minutos. | tema:tests afectados monorepo
+G13-15 | Incident Postmortem Draft | SRE y engineering managers de equipos de 20-200 devs | App de Slack que arma línea de tiempo desde el canal del incidente, alertas y commits, y genera el borrador editable. | tema:postmortem automático
+G13-16 | Firmware Dep Licenses | Fabricantes de hardware con firmware C/C++ | Action para PlatformIO/CMake/Arduino que genera SBOM y detecta GPL/AGPL conflictivas con informe para clientes. | tema:SBOM firmware embebido
+G13-17 | Actions Log Explainer | Desarrolladores que depuran fallos de CI | App que lee el log fallido, resume la causa probable y sugiere el fix en un comentario del PR. | tema:explicar fallos CI
+G13-18 | Gcode Lint Action | Granjas de impresión 3D y makers que versionan G-code/configs | Action que valida G-code y perfiles de slicer (límites, temperaturas, colisiones básicas) en cada PR o subida. | tema:lint de G-code
+G13-19 | Cron Drift Monitor | Equipos con muchos cron jobs, GitHub Actions programadas y pipelines de datos | Servicio que vigila ejecuciones esperadas de Actions programadas y cron, con alerta por duración anómala y ejecución faltante. | tema:monitoreo cron jobs
+G13-20 | Customer Release Notes | Product managers y fundadores de SaaS pequeños y medianos | App de GitHub que convierte PRs fusionados en notas de versión para clientes, página pública de changelog y feed RSS. | tema:changelog para clientes
+G14-01 | MCP Server Linter | Desarrolladores que publican servidores MCP | Linter CLI y GitHub Action que puntúa esquemas, descripciones y riesgos (inyección en descripciones) y comenta en el PR. | tema:calidad servidores MCP
+G14-02 | MCP Gateway Hosting | Equipos que consumen muchos servidores MCP | Gateway autoservicio que aloja conexiones MCP con OAuth gestionado, logs y cuotas por agente. | tema:gateway MCP gestionado
+G14-03 | Agent Cost Guard | Desarrolladores de agentes LLM con facturas impredecibles | Proxy/SDK que impone presupuestos por ejecución, corta bucles y alerta por Slack. | tema:control costos agentes
+G14-04 | Prompt Injection Scanner for Agents | Equipos que lanzan agentes con herramientas | Suite de pruebas automatizadas de inyección que se ejecuta en CI contra el agente y reporta explotables. | tema:seguridad de agentes IA
+G14-05 | Agent Replay Debugger | Ingenieros que depuran agentes en producción | Grabador de trazas con repetición determinista paso a paso, edición de herramientas simuladas y diff de ejecuciones. | tema:depuración de agentes
+G14-06 | Eval Datasets from Logs | Equipos de producto con agentes ya en producción | Convierte logs reales en casos de prueba etiquetados y detecta regresiones por versión de prompt. | tema:evaluación desde logs
+G14-07 | Model Switch Regression Tester | Equipos que cambian de modelo LLM | Ejecuta tus prompts en N modelos y muestra diferencias, costo y calidad lado a lado. | tema:migración entre modelos
+G14-08 | MCP Server Test Harness | Autores de servidores MCP y equipos de plataforma | Arnés que simula clientes LLM, ejecuta escenarios y mide tasa de éxito de herramientas. | tema:pruebas servidores MCP
+G14-09 | Agent Audit Trail | Equipos de cumplimiento en empresas medianas que usan agentes | Registro inmutable de acciones de agentes con exportación a evidencia SOC 2 y ISO. | tema:auditoría de agentes IA
+G14-10 | Secrets Vault for Agents | Desarrolladores de agentes con acceso a APIs de terceros | Bóveda que entrega credenciales de corta vida por herramienta y redacta secretos de las trazas. | tema:secretos para agentes
+G14-11 | Agent Sandbox Runner | Equipos que ejecutan código generado por agentes | API de sandbox efímero con límites de red, CPU y tiempo, cobro por ejecución con mínimo mensual. | tema:sandbox de código agentes
+G14-12 | Tool Schema Generator from OpenAPI | Desarrolladores que exponen una API a agentes | Generador que toma OpenAPI y produce un servidor MCP optimizado con descripciones mejoradas por prueba. | tema:OpenAPI a MCP
+G14-13 | PLC MCP Bridge | Ingenieros de automatización y integradores industriales | Servidor MCP de solo lectura para OPC UA y Modbus con listas de permitidos y registro. | tema:IA industrial OPC UA
+G14-14 | CAD Tools for Agents | Equipos que construyen agentes de diseño o cotización | Servidor MCP y API que extrae geometría, volumen, agujeros y materiales de CAD para agentes. | tema:CAD para agentes
+G14-15 | Agent Rate Limit Shield | Equipos con muchos agentes llamando a APIs de terceros | Capa de colas, reintentos y límites compartidos entre agentes con panel. | tema:límites de API agentes
+G14-16 | Agent Cost Attribution | Equipos financieros y de ingeniería de empresas medianas | Etiqueta cada llamada LLM con cliente/función y genera informes de margen por cliente. | tema:costo por cliente IA
+G14-17 | Agent Config Drift Monitor | Equipos de plataforma con prompts y herramientas versionadas | Monitor que detecta cambios de versión de modelo y deriva en salidas con pruebas canario programadas. | tema:deriva de modelos LLM
+G14-18 | Agent Permission Policy Builder | Equipos de seguridad que habilitan agentes | Editor de políticas declarativas con simulación de acciones y aplicación vía SDK. | tema:permisos de agentes
+G14-19 | 3D Print Agent Toolkit | Creadores de agentes para fabricación aditiva | API y MCP para analizar mallas, estimar tiempo, material y soportes, y detectar problemas de impresión. | tema:IA e impresión 3D
+G14-20 | Agent Benchmark Reports | Gerentes de ingeniería que eligen framework o modelo | Informes de benchmark por tarea con datos reproducibles, vendidos como suscripción con alertas de nuevos modelos. | tema:benchmarks de agentes
+G15-01 | Agente de RFQ para talleres CNC | Dueños/estimadores de talleres de maquinado CNC (EE.UU./UE) | Agente que lee el email, extrae planos STEP/PDF, estima tiempo de máquina y redacta la cotización para aprobar. | tema:cotización CNC
+G15-02 | Revisor de ladder PLC con IA | Ingenieros de controles e integradores de sistemas | Sube un export de TIA Portal/Studio 5000 y el agente detecta lógica riesgosa, nombres inconsistentes y falta de alarmas. | tema:revisión código PLC
+G15-03 | Agente de DFM para impresión 3D | Ingenieros de producto y makers que envían piezas a imprimir | Agente que analiza STL/STEP, explica problemas de imprimibilidad y propone cambios de diseño. | tema:DFM impresión 3D
+G15-04 | Agente de conciliación para freight forwarders | Coordinadores de operaciones en agentes de carga | Agente que lee facturas PDF y cotizaciones, marca diferencias y prepara disputas. | tema:auditoría facturas carga
+G15-05 | Agente de respuestas a RFP técnicos | Gerentes de ingeniería de ventas en proveedores de maquinaria | Agente que responde cuestionarios usando fichas técnicas y respuestas previas, con citas a la fuente. | tema:respuestas RFP técnicos
+G15-06 | Agente de cumplimiento de reseñas para Airbnb | Anfitriones profesionales con 5-50 propiedades | Agente que redacta respuestas personalizadas y detecta problemas recurrentes por propiedad. | tema:reseñas anfitriones
+G15-07 | Agente de notas clínicas para fisioterapeutas | Fisioterapeutas autónomos en EE.UU./Reino Unido | Dicta la sesión y el agente genera la nota SOAP lista para pegar en su EHR. | tema:notas SOAP fisioterapia
+G15-08 | Agente de fichas técnicas para Shopify industrial | Dueños de tiendas Shopify que venden piezas y repuestos | App que lee PDFs del fabricante y llena atributos, metacampos y descripciones. | tema:fichas técnicas catálogo
+G15-09 | Agente de diagnóstico de fallas de impresora 3D | Operadores de granjas de impresión 3D y Etsy sellers | Agente que lee logs de Klipper/Marlin y fotos, y diagnostica la causa con pasos de corrección. | tema:diagnóstico impresora 3D
+G15-10 | Agente de entradas de Plaid a QuickBooks | Contadores independientes con clientes de e-commerce | Agente que categoriza y concilia pagos de Amazon, Shopify y Stripe en el libro. | tema:conciliación e-commerce
+G15-11 | Agente de permisos de construcción | Contratistas residenciales y diseñadores | Agente que revisa requisitos del municipio y arma la lista de documentos y formularios. | tema:paquetes permisos obra
+G15-12 | Agente de inventario de repuestos de mantenimiento | Planificadores de mantenimiento en plantas medianas | Agente que lee el CMMS y sugiere mínimos/máximos, duplicados y alternativas. | tema:repuestos mantenimiento
+G15-13 | Agente de traducción de documentación técnica | Redactores técnicos en fabricantes pequeños | Agente con glosario por cliente que traduce manuales y conserva el formato. | tema:traducción manuales técnicos
+G15-14 | Agente de cotización de impresión bajo demanda | Operadores de servicios de impresión 3D | Widget que analiza STL, calcula material y tiempo, y devuelve precio automático. | tema:cotizador impresión 3D
+G15-15 | Agente de informes de inspección | Inspectores de edificios y de campo | Sube fotos y notas de voz; el agente genera el informe con hallazgos por sección. | tema:informes inspección
+G15-16 | Agente de reclamos de garantía | Gerentes de posventa de fabricantes pequeños | Agente que valida el reclamo, pide evidencia y prepara la resolución. | tema:reclamos garantía
+G15-17 | Agente de scripts G-code | Operadores de CNC y makers avanzados | Agente que revisa G-code, detecta colisiones y errores comunes y explica el postprocesador. | tema:revisión G-code
+G15-18 | Agente de cumplimiento de etiquetas | Vendedores de Amazon FBA con productos regulados | Agente que revisa etiquetas e imágenes contra requisitos de cada marketplace. | tema:revisión etiquetas
+G15-19 | Agente de triage de issues para mantenedores | Mantenedores de open source con patrocinio | GitHub App que etiqueta, detecta duplicados y pide datos faltantes. | tema:triage issues GitHub
+G15-20 | Agente de BOM y compras desde CAD | Ingenieros de compras en fabricantes de equipo pequeño | Sube un ensamblaje STEP; el agente extrae la BOM, normaliza piezas y sugiere proveedores y alternativas. | tema:BOM desde CAD
+G16-01 | Peppol Invoice Validator API | Developers de SaaS/ERP que emiten e-facturas UE | API y CLI que valida y repara UBL/CII contra EN16931 y reglas nacionales, con mensajes legibles. | tema:e-invoicing UE validación
+G16-02 | EAA Accessibility Audit CI | Equipos frontend de ecommerce/SaaS vendiendo en UE | GitHub Action que audita WCAG 2.2 en PRs, genera declaración de accesibilidad y reporte exportable. | tema:accesibilidad EAA CI
+G16-03 | Shopify EAA Accessibility Scanner | Dueños de tiendas Shopify que venden a UE | App Shopify que escanea tienda, prioriza errores WCAG y sugiere fix en Liquid. | tema:Shopify accesibilidad
+G16-04 | Digital Product Passport Builder | Fabricantes medianos que exportan a la UE (textil, baterías, electrónica) | Plataforma que importa CSV/PLM, genera DPP con QR y JSON-LD alojado público. | tema:pasaporte digital producto
+G16-05 | EU Battery Passport Generator | Fabricantes e importadores de baterías industriales/e-bikes | Formulario guiado que genera pasaporte, QR y registro de datos exigidos. | tema:pasaporte batería UE
+G16-06 | CBAM Importer Report Tool | Importadores UE de acero, aluminio, cemento y fertilizantes | Web app que calcula emisiones desde datos del proveedor y exporta el informe XML/Excel. | tema:CBAM reporte importadores
+G16-07 | CSRD Supplier Data Collector | Empresas proveedoras de grandes cuentas con cuestionarios ESG | Plantilla reutilizable que rellena respuestas ESG y las exporta en formatos de cada cliente. | tema:ESG cuestionarios proveedores
+G16-08 | AI Act Risk Classifier | Product managers y legal ops de startups con features de IA | Cuestionario guiado que clasifica riesgo y genera checklist y plantilla de documentación técnica. | tema:clasificador EU AI Act
+G16-09 | AI Act Annex IV Documentation | Equipos ML de proveedores de IA de alto riesgo | Repositorio que genera la documentación Annex IV desde model cards y registros de pruebas. | tema:documentación Annex IV
+G16-10 | LLM Usage Logger for AI Act | Developers integrando LLMs en productos regulados | SDK proxy open-core que registra llamadas con redacción de PII y exporta evidencias. | tema:logging auditoría IA
+G16-11 | SEC Cyber 8-K Incident Playbook | CISOs y legal de empresas públicas pequeñas/medianas | Workflow que guía materialidad, genera borrador de 8-K y cronograma. | tema:SEC incidente cibernético
+G16-12 | DORA Register of Information Tool | Fintech y proveedores TIC de entidades financieras UE | Editor web que valida y exporta el registro de información DORA. | tema:DORA registro TIC
+G16-13 | NIS2 Compliance Tracker | Equipos de TI de empresas medianas UE en sectores críticos | Tracker de controles NIS2, plantillas de políticas y reporte de incidentes. | tema:NIS2 cumplimiento
+G16-14 | CRA SBOM & Vulnerability Reporter | Fabricantes de productos con elementos digitales (IoT, firmware) | Herramienta que genera SBOM CycloneDX desde firmware/repos y gestiona reportes ENISA. | tema:CRA SBOM firmware
+G16-15 | Machinery Regulation Tech File | Fabricantes de maquinaria que venden a UE | Plantilla web para expediente técnico, análisis de riesgos y declaración UE de conformidad. | tema:reglamento maquinaria UE
+G16-16 | GPSR Product Safety Label Tool | Vendedores de Amazon/Etsy/Shopify que venden a UE | Generador de etiquetas y fichas por SKU, con exportación masiva a marketplaces. | tema:GPSR etiquetas seguridad
+G16-17 | EUDR Geolocation Validator | Importadores de cacao, café, madera y soja en la UE | Valida GeoJSON de parcelas, genera la declaración y la envía por API. | tema:EUDR geolocalización
+G16-18 | California Privacy Opt-Out Tester | Equipos de privacidad de sitios con tráfico en EE. UU. | Servicio que escanea sitios con navegador headless y verifica GPC, cookies y tags. | tema:privacidad CCPA GPC
+G16-19 | PFAS Reporting Assistant | Fabricantes que usan componentes con PFAS (EE. UU. TSCA, UE) | Importa BOM y consulta listas de sustancias para generar reporte. | tema:reporte PFAS manufactura
+G16-20 | Accessible PDF Remediation (EAA) | Equipos de contenido/marketing de empresas que publican PDFs a clientes UE | Servicio web que autoetiqueta PDFs (PDF/UA), detecta fallos y exporta versión accesible por lotes. | tema:PDF accesible EAA
+G17-01 | STL Shop Checkout | Vendedores de piezas impresas en 3D con tienda Shopify/WooCommerce | App que analiza el STL subido, calcula precio automático y cobra con Stripe en el carrito. | tema:cotización impresión 3D
+G17-02 | DXF Quote Pay | Talleres de corte láser/CNC con sitio web | Widget que lee DXF, calcula precio por longitud de corte/material y cobra depósito con Stripe. | tema:cotizador DXF pagos
+G17-03 | Usage Billing Simulator | Product managers y fundadores de SaaS con cobro por uso | Sube datos de uso históricos, simula planes y proyecta MRR/churn antes de lanzar. | tema:simulación precios uso
+G17-04 | Stripe Failed Payment Sentinel | Dueños de SaaS pequeños en Stripe | Alertas y secuencias de reintento/emails con panel de recuperación sobre la API de Stripe. | tema:recuperación pagos fallidos
+G17-05 | VAT Threshold Watch | Vendedores digitales globales y creadores | Conecta Stripe/Gumroad, monitorea umbrales por jurisdicción y alerta antes de cruzarlos. | tema:umbrales impuestos digitales
+G17-06 | Invoice PDF API | Desarrolladores de SaaS que generan facturas | API que recibe JSON y devuelve PDF/Facturae/ZUGFeRD con plantillas. | tema:API facturas PDF
+G17-07 | Webhook Replay Vault | Equipos de desarrollo que integran Stripe/PayPal/Shopify | Gateway que guarda, reintenta y reproduce webhooks con idempotencia y alertas. | tema:fiabilidad webhooks pagos
+G17-08 | License Key Drop | Desarrolladores indie que venden software de escritorio | Servicio con claves de licencia, activaciones por máquina y checkout con Stripe/Paddle. | tema:licencias software indie
+G17-09 | CAD File Paywall | Diseñadores que venden modelos 3D/CAD | Tienda embebible con visor 3D, marca de agua y entrega por pago con enlace temporal. | tema:venta modelos CAD
+G17-10 | Pricing Page A/B Lab | Fundadores de SaaS con tráfico moderado | Test A/B de páginas de precios con Stripe, midiendo ARPU y churn. | tema:pruebas precios SaaS
+G17-11 | Dunning Email Writer | Equipos de customer success en SaaS B2B | Generador de secuencias de dunning por tono/segmento con envío vía SMTP. | tema:emails cobranza SaaS
+G17-12 | Affiliate Payout Hub | Creadores y SaaS con programa de afiliados | Calcula comisiones desde Stripe y genera lotes de pago con reportes (sin custodiar fondos). | tema:pagos afiliados
+G17-13 | Pay-What-You-Want Embeds | Músicos y escritores independientes | Widget de pago flexible con Stripe y entrega digital. | tema:pago voluntario creadores
+G17-14 | MRR Metrics for Shopify Subscriptions | Dueños de tiendas Shopify con suscripciones | App con MRR, churn, LTV desde Recharge/Bold. | tema:analítica suscripciones Shopify
+G17-15 | Print Farm Billing | Granjas de impresión 3D que cobran por pieza | Panel que lee estado de impresoras (Klipper/OctoPrint), calcula costo y emite factura Stripe. | tema:facturación granjas 3D
+G17-16 | Crypto-free Tip Jar API | Streamers y desarrolladores | API/widget para propinas con Stripe y alertas OBS. | tema:propinas streamers
+G17-17 | Refund Abuse Detector | Tiendas de bienes digitales | Detecta patrones de reembolso/contracargo y bloquea compradores. | tema:fraude reembolsos digitales
+G17-18 | Multi-currency Price Tuner | Tiendas Shopify globales | Calcula precios psicológicos locales con tipo de cambio y poder adquisitivo. | tema:precios multimoneda
+G17-19 | Quote-to-Cash for CNC Shops | Talleres CNC pequeños en EE.UU./UE | Cotiza, aprueba, cobra depósito y factura en un flujo con importación de CAD. | tema:cotización a cobro CNC
+G17-20 | Subscription Pause Flow | Apps de suscripción pequeñas | Widget de pausa/descuento al cancelar con Stripe Billing. | tema:flujo cancelación suscripciones
+G18-01 | Instant DXF quote widget for laser shops | Owner of a laser/waterjet cutting shop | Embeddable widget that parses DXF, computes cut length/pierces/material and returns an instant price. | tema:cotización CAD
+G18-02 | STEP/IGES to glTF conversion API | SaaS developers building manufacturing or e-commerce tools | Pay-per-use REST API converting STEP/IGES/DXF to glTF/PNG/SVG with thumbnails. | tema:conversión CAD API
+G18-03 | Automated DFM checker for sheet metal | Mechanical design engineers and startups ordering sheet-metal parts | Upload DXF/STEP and get a DFM report with highlighted violations by process. | tema:DFM chapa
+G18-04 | Laser cut nesting and cost calculator for Etsy sellers | Etsy/Shopify sellers of laser-cut goods | Web app calculating per-item cost from SVG/DXF, machine rate and material sheets. | tema:costeo corte láser
+G18-05 | CNC job time estimator from G-code | CNC job shop estimators | Upload G-code/CAM output and get cycle time with rapids, accel and tool changes. | tema:estimador G-code
+G18-06 | G-code diff and version control for CNC programs | CNC programmers and machine shops | Git-like web tool to diff, annotate and track G-code revisions per part. | tema:control versiones CNC
+G18-07 | Fusion 360 add-in for instant outsourced quotes | Fusion 360 hobbyist-pro designers | Add-in that exports the body and compares estimated costs for print/laser/CNC. | tema:complemento Fusion
+G18-08 | 3D print farm job queue and cost tracker | Small print farm operators | SaaS to schedule jobs, log failures and compute per-print profit. | tema:granja impresión 3D
+G18-09 | STL print-cost quote widget for Shopify | Shopify stores selling custom 3D prints | Shopify app: upload STL, compute volume/support/time, show instant price and checkout. | tema:cotización STL
+G18-10 | Printable-file QA checker for Etsy STL sellers | Designers selling STL files on Etsy/Cults3D | Upload mesh and get automated repair and printability report. | tema:validación STL
+G18-11 | PLC tag list converter between vendors | Controls engineers migrating PLC projects | Web tool mapping tag exports (CSV/XML) across TIA Portal and Studio 5000 formats. | tema:migración PLC
+G18-12 | PLC code documentation generator | Controls engineers and integrators | Upload PLC export and get readable docs, I/O lists and cross references. | tema:documentación PLC
+G18-13 | PLC LLM review assistant | Industrial automation engineers | Static checker flagging naming, unsafe patterns and unit mismatches in exported PLC text. | tema:revisión código PLC
+G18-14 | Sheet metal bend allowance calculator API | Developers of fabrication software | API/library computing flat patterns and bend allowances with material tables. | tema:chapa API
+G18-15 | Tolerance stack-up analyzer | Mechanical design engineers | Browser tool for 1D worst-case and statistical tolerance stacks with reports. | tema:análisis tolerancias
+G18-16 | RFQ inbox parser for machine shops | Machine shop estimators | Inbox tool extracting part, qty, material and drawings into a quote queue. | tema:parser de RFQ
+G18-17 | Engineering drawing title-block extractor | Procurement and manufacturing engineers | Upload PDF drawings; extract part number, material, tolerances to CSV. | tema:extracción planos
+G18-18 | Machine shop hourly rate calculator and pricing coach | Small machine shop owners | Interactive calculator and benchmark dashboard from costs, utilization and overhead. | tema:tarifa taller
+G18-19 | DXF cleanup and validator for CAM | Laser/plasma cutter operators | Drag and drop tool fixing duplicate lines, open paths and units before cutting. | tema:limpieza DXF
+G18-20 | Laser engraving job-file preparer for photo products | Sellers of engraved gifts | Web tool converting images to engrave-ready vector/raster files with material presets. | tema:preparación grabado láser
+G19-01 | Linter de PLC Structured Text | Ingenieros de control e integradores | Linter y reglas de estilo (IEC 61131-3) para ST/SCL en CI, con reporte en pull requests. | tema:lint PLC ST
+G19-02 | Git diff para proyectos PLC | Integradores y OEMs con varios técnicos | Exporta proyectos a texto (PLCopen XML/AWL) y muestra diffs legibles en web. | tema:diff proyectos PLC
+G19-03 | Documentador automático de PLC | Integradores de sistemas | Genera manual de operación y lista de E/S a partir del export del proyecto. | tema:documentación PLC
+G19-04 | Conversor de tags SCADA | Ingenieros SCADA | Convierte y valida bases de tags entre plataformas SCADA. | tema:migración tags SCADA
+G19-05 | Calculadora de OEE por CSV | Gerentes de planta y mejora continua | Sube CSV de paros y producción y obtiene OEE y Pareto con enlaces compartibles. | tema:OEE autoservicio
+G19-06 | Alertas de OT por email | Técnicos de mantenimiento | Pasarela que lee Modbus/OPC UA y envía alertas por email o Telegram. | tema:alertas Modbus OPC
+G19-07 | Pruebas simuladas de PLC | Programadores de PLC | Corre pruebas unitarias en la nube sobre ST con simulación de E/S. | tema:pruebas unitarias PLC
+G19-08 | Visor web de DXF y STEP | Desarrolladores de SaaS de manufactura | API que convierte STEP/DXF a glTF/SVG/PNG para incrustar. | tema:API de vista CAD
+G19-09 | Extractor de BOM desde planos | Compradores en manufactura | Extrae BOM de planos y PDF a Excel con revisión. | tema:BOM desde planos
+G19-10 | Calculadora de coste de impresión 3D | Granjas de impresión 3D | Cotiza por geometría, material y tiempo, con widget embebible. | tema:cotizador impresión 3D
+G19-11 | Generador de rutas G-code | Talleres CNC pequeños | Plantillas paramétricas de G-code para fresado básico. | tema:G-code paramétrico
+G19-12 | Verificador de planos DXF | Talleres de corte láser | Valida DXF (líneas abiertas, duplicados) y corrige automáticamente. | tema:validación DXF
+G19-13 | Registro digital de calibraciones | Laboratorios y mantenimiento | Registro con recordatorios y repositorio de certificados. | tema:gestión calibraciones
+G19-14 | Gestor de repuestos MRO | Mantenimiento de plantas medianas | Inventario de repuestos con alertas y búsqueda por número de parte. | tema:inventario repuestos
+G19-15 | Bitácora de turnos | Supervisores de producción | App de bitácora con búsqueda y reportes por turno. | tema:bitácora de turnos
+G19-16 | Etiquetas de seguridad LOTO | Seguridad industrial | Genera procedimientos LOTO con fotos y exporta a PDF. | tema:procedimientos LOTO
+G19-17 | Diagramas eléctricos desde texto | Ingenieros eléctricos | Describe el circuito en texto y genera un esquema editable. | tema:esquemas eléctricos IA
+G19-18 | Gemelo de datos para pruebas SCADA | Integradores SCADA | Generador de señales simuladas Modbus/OPC UA configurable en la nube. | tema:simulador señales OPC
+G19-19 | Auditor de seguridad OT | Ingenieros de planta | Escanea exports de configuración y reporta riesgos según IEC 62443. | tema:auditoría seguridad OT
+G19-20 | Calculadora de ahorro de energía en motores | Ingenieros de planta | Calcula retorno de inversión de VFD con datos de placa. | tema:ahorro energía VFD
+G20-01 | Print Farm Queue Optimizer | Operadores de granjas de impresión 3D (10-200 impresoras) | SaaS que se conecta a Klipper/Moonraker y OctoPrint, y agenda trabajos por filamento, tiempo y mantenimiento. | tema:cola granja impresión
+G20-02 | Slicer Profile Cloud | Makers avanzados y pequeños talleres con varias impresoras | Control de versiones y sincronización en la nube de perfiles de slicer con diff y rollback. | tema:sync perfiles slicer
+G20-03 | Print Failure Cost Tracker | Vendedores de Etsy/Shopify que imprimen en 3D | Calculadora que lee G-code y telemetría para costo por pieza, margen y precio sugerido. | tema:costeo impresión 3D
+G20-04 | G-code Linter Pro | Operadores de impresoras 3D y CNC en talleres | Validador en navegador y CLI que detecta colisiones, límites de eje y errores de temperatura antes de imprimir. | tema:validación G-code
+G20-05 | STEP Preview API | Desarrolladores de SaaS de manufactura | API REST de conversión y vista previa de CAD a glTF/PNG con pago por uso. | tema:API conversión CAD
+G20-06 | Instant Print Quote Widget | Servicios de impresión 3D bajo demanda | Widget embebible que analiza STL, calcula volumen/soporte y da precio instantáneo. | tema:cotizador STL
+G20-07 | Filament Inventory Tracker | Granjas y makers con muchos carretes | App con escaneo QR de carretes, peso restante y alertas integradas a OctoPrint/Klipper. | tema:inventario filamento
+G20-08 | Printer Telemetry Alerts | Operadores de granjas de impresión | Agente ligero que lee Klipper y manda alertas a Slack/Telegram con detección de anomalías. | tema:alertas impresora 3D
+G20-09 | DXF Nest Optimizer | Talleres de corte láser y plasma | Servicio web que anida DXF y exporta para láser/CNC con reporte de desperdicio. | tema:anidado DXF
+G20-10 | Gcode-to-Lab Reports | Educadores de makerspaces y escuelas | Panel que registra trabajos por usuario/clase con reportes para el administrador. | tema:gestión makerspace
+G20-11 | PLC Code Diff Viewer | Ingenieros de automatización con TIA Portal/Studio 5000 | Visor web de diff y control de versiones para exportaciones XML de PLC. | tema:control versiones PLC
+G20-12 | Spare Parts Printability Checker | Equipos de mantenimiento industrial | Subida de CAD y análisis de material/costo vs repuesto OEM. | tema:repuestos impresión 3D
+G20-13 | Maker Product Compliance Pack | Vendedores de productos físicos hechos por makers | Guías y checklists por categoría de producto con plantillas de documentos. | tema:cumplimiento productos maker
+G20-14 | Resin Cure Logger | Usuarios de impresoras de resina y laboratorios dentales/joyería | Registro de ciclos de lavado y cura con QR por lote. | tema:registro cura resina
+G20-15 | Firmware Config Builder | Constructores de impresoras 3D DIY | Generador guiado de configuración con validación y pruebas simuladas. | tema:configurador firmware
+G20-16 | 3D Model Licensing Tracker | Vendedores de STL y diseñadores 3D | Servicio de licencias con enlaces únicos y marca de agua en STL. | tema:licencias modelos 3D
+G20-17 | CNC Job Costing Tool | Talleres de maquinado pequeños | Importa CAM y estima tiempo de máquina, herramental y costo. | tema:costeo CNC
+G20-18 | Printer Fleet Firmware Updater | Operadores de granjas con impresoras mixtas | Panel que orquesta actualizaciones y respaldos de configuración por lote. | tema:actualización firmware flota
+G20-19 | Assembly Instruction Generator | Pequeñas marcas de hardware | Sube un STEP y obtén instrucciones paso a paso con renders. | tema:manuales ensamblaje CAD
+G20-20 | Tolerance Stack Calculator | Ingenieros de diseño mecánico y makers de piezas de precisión | Calculadora web que importa dimensiones de CAD y simula acumulación estadística de tolerancias. | tema:análisis tolerancias
+G21-01 | StepView API | Desarrolladores de SaaS de manufactura/e-commerce de piezas | API REST pay-per-use que convierte STEP/IGES/DXF a glTF, PNG y SVG con visor embebible. | tema:API conversión CAD
+G21-02 | PLC Tag Linter | Programadores PLC en integradores y plantas | Sube el export XML/L5X y obtén reporte de convenciones de nombres, tags sin uso y duplicados. | tema:auditoría código PLC
+G21-03 | L5X Diff | Ingenieros de controles que versionan proyectos PLC | Diff visual web de archivos L5X con ladder legible y comentarios de cambio. | tema:diff proyectos PLC
+G21-04 | Quote From STL | Talleres de impresión 3D y makers que venden piezas | Widget embebible que analiza STL y calcula precio por material, tiempo y margen. | tema:cotización impresión 3D
+G21-05 | DXF Nesting Lite | Talleres de corte láser/CNC pequeños en EE.UU./UE | Nesting web de DXF con reporte de desperdicio y exportación para la máquina. | tema:nesting DXF corte
+G21-06 | GD&T Checker | Ingenieros de diseño y calidad que revisan planos | Sube PDF/DXF y recibe checklist de errores comunes de GD&T según ASME Y14.5. | tema:revisión GD&T planos
+G21-07 | Ladder Explainer | Técnicos de mantenimiento y estudiantes de PLC | Pega código ladder/ST y obtén explicación en lenguaje natural y diagrama de flujo. | tema:explicador lógica ladder
+G21-08 | FieldCalc Pro | Ingenieros de campo en automatización | PWA offline con calculadoras de instrumentación y escalado analógico, guardables por proyecto. | tema:calculadoras instrumentación
+G21-09 | Pipe Sizing SaaS | Ingenieros mecánicos/HVAC de consultoras | Calculadora web con curvas de bomba, pérdidas y reporte PDF. | tema:dimensionamiento tuberías
+G21-10 | BOM Cost Rollup | Startups de hardware e ingenieros de producto | Sube BOM CSV y obtén costo con precios de distribuidores y alertas. | tema:costeo BOM hardware
+G21-11 | Arc Flash Reports | Ingenieros eléctricos de consultoras | Calculadora IEEE 1584 con etiquetas y reporte PDF. | tema:cálculo arc flash
+G21-12 | Motor Sizing Assistant | Ingenieros de diseño de máquinas | Entra carga/ciclo y obtén selección de servo/reductor con curva torque-velocidad. | tema:selección de motores
+G21-13 | SPC Dashboard | Ingenieros de calidad en manufactura mediana | Sube CSV y obtén cartas X-bar/R, Cp/Cpk y alertas. | tema:control estadístico calidad
+G21-14 | FMEA Builder | Ingenieros de calidad y diseño | Editor web de FMEA con sugerencias y exportación a Excel/PDF. | tema:FMEA colaborativo
+G21-15 | Weld Symbol Studio | Soldadores/ingenieros y dibujantes | Generador y decodificador de símbolos de soldadura con exportación DXF/SVG. | tema:símbolos de soldadura
+G21-16 | G-code Verifier | Operadores de CNC/impresión 3D | Simulador web que revisa G-code y detecta colisiones/límites. | tema:verificador G-code
+G21-17 | Print Farm Queue | Granjas de impresión 3D pequeñas | Panel con cola, consumo y costo por trabajo, multimarca. | tema:gestión granja impresión
+G21-18 | Fixture Library | Ingenieros de manufactura | Biblioteca de plantillas paramétricas de fixtures en STEP/SolidWorks. | tema:plantillas de fixtures
+G21-19 | BOM Compliance Check | Equipos de hardware que exportan | Sube BOM y obtén informe de cumplimiento con fuentes citadas. | tema:cumplimiento BOM
+G21-20 | Timing Belt Calculator | Diseñadores de máquinas y makers | Calculadora web de transmisión por correa con exportación CAD. | tema:cálculo de correas
+G22-01 | Sponsor Rate Calculator for Newsletters | Newsletter owners (5k-100k subs) selling ads | Dashboard que lee métricas de la lista (opens/clicks) y sugiere CPM, paquetes y plantilla de pitch. | tema:precio anuncios newsletter
+G22-02 | Podcast Ad Insertion Tracker | Podcasters medianos con anuncios dinámicos | Panel que une descargas de hosting y contratos para generar reportes de entrega para sponsors. | tema:reportes sponsors podcast
+G22-03 | STL Licence Keys for Maker Creators | Creadores de modelos 3D que venden en Patreon | Entrega de STL con enlaces firmados, marca de agua por comprador y rastreo de filtraciones. | tema:protección archivos STL
+G22-04 | Print Time Estimator for Maker Shops | Creadores que venden impresiones 3D en Etsy | Widget que recibe STL y devuelve cotización con laminado real por impresora. | tema:cotización impresión 3D
+G22-05 | YouTube Chapter Auto-Publisher | YouTubers educativos con videos largos | Transcribe, genera capítulos y descripción y los publica vía API de YouTube. | tema:capítulos YouTube
+G22-06 | Course Drip Analytics for Teachable | Creadores de cursos online | Conecta con Teachable/Thinkific y muestra puntos de abandono y mensajes sugeridos. | tema:analítica de cursos
+G22-07 | Paid Community Churn Radar | Dueños de comunidades de pago (Circle, Skool) | Puntúa riesgo de baja por actividad y dispara DM/email de retención. | tema:retención comunidades
+G22-08 | Newsletter Archive SEO Rebuilder | Newsletters que quieren tráfico de búsqueda | Convierte ediciones en páginas SEO con schema, enlaces internos y sitemap. | tema:SEO archivo newsletter
+G22-09 | Guest Booking Pipeline for Podcasters | Podcasters con entrevistas | CRM ligero con formularios, recordatorios, kit de preparación y ficha de invitado. | tema:agenda de invitados
+G22-10 | Clip Licensing Marketplace Kit | YouTubers con clips virales | Página de licencias de clips con pago y contrato automático. | tema:licencia de clips
+G22-11 | CAD Tutorial Companion Files Hub | YouTubers de CAD y makers | Hosting de archivos CAD con visor en navegador, versionado y paywall para suscriptores. | tema:archivos CAD tutoriales
+G22-12 | PLC Course Simulator Embed | Creadores de cursos de PLC | Simulador web de ladder para incrustar en cursos con ejercicios calificados. | tema:simulador PLC cursos
+G22-13 | Affiliate Link Rot Monitor | Bloggers y YouTubers con enlaces de afiliado | Escanea descripciones y posts, avisa de enlaces muertos y sugiere alternativas. | tema:enlaces de afiliado
+G22-14 | Shorts Repurposing Scheduler | Podcasters y YouTubers de video largo | Detecta momentos clave, recorta con subtítulos y programa en TikTok/Shorts. | tema:clips cortos
+G22-15 | Membership Tax Receipts for Creators | Creadores con ingresos de Patreon/Stripe | Consolida pagos de varias plataformas y calcula obligaciones por país. | tema:VAT para creadores
+G22-16 | Webinar Replay Evergreen Funnel | Creadores de cursos y coaches | Programa replays evergreen con chat simulado y CTA de pago. | tema:webinar evergreen
+G22-17 | Thumbnail A/B Result Tracker | YouTubers de 10k-500k subs | Importa datos de YouTube Analytics y reporta ganadores por patrón visual. | tema:pruebas de miniaturas
+G22-18 | Digital Product Bundle Builder | Creadores con varios productos pequeños | Crea bundles con precios dinámicos sobre Gumroad/Stripe y cupones por temporada. | tema:paquetes de productos
+G22-19 | Transcript-to-Show-Notes API | Hosts de podcast y agencias de producción | API que recibe audio y devuelve show notes, timestamps, quotes y SEO. | tema:show notes IA
+G22-20 | Sponsor Deal Invoice Reminder | Newsletters y podcasters con patrocinios directos | Genera facturas, recordatorios y estado de pago ligados a cada campaña. | tema:facturas de patrocinio
+G23-01 | Amazon FBA Claims Auditor | Amazon FBA sellers with $20k+/mo revenue | Parse FBA reports, detect discrepancies, generate ready-to-file claim text and track deadlines. | tema:reembolsos FBA
+G23-02 | Etsy 3D Print Order Router | Etsy sellers who 3D print products | Etsy order to print-job mapping with automatic queue, filament need and tracking updates. | tema:Etsy impresion 3D
+G23-03 | Print Cost Calculator Listing | Etsy/TikTok 3D print sellers | Upload STL/3MF, compute filament, time, power, failure rate and suggest marketplace prices after fees. | tema:calculo costo impresion
+G23-04 | Marketplace Fee Profit Simulator | Amazon/Etsy/eBay/TikTok multi-channel sellers | Import orders from each marketplace and show net margin per SKU with alerts. | tema:margen por SKU
+G23-05 | TikTok Shop Return Guard | TikTok Shop sellers | Dashboard to detect abusive refund patterns and prepare dispute evidence. | tema:disputas TikTok
+G23-06 | eBay Parts Fitment Fixer | eBay Motors parts sellers | Bulk generate and validate fitment data from part numbers, with CSV export for eBay. | tema:fitment eBay
+G23-07 | Amazon A+ Content Checker | Amazon brand owners | Monitor listings daily for suppression, buy box loss and image compliance and alert by email. | tema:alertas listados
+G23-08 | CAD to Etsy Mockups | Etsy sellers of custom engraved/cut products | Upload DXF/STL and get photo-realistic mockups ready for Etsy listings. | tema:mockups CAD
+G23-09 | Customs Forms Multi-Marketplace | Cross-border Etsy/eBay sellers | Suggest HS codes from listing text and generate customs forms per marketplace order. | tema:codigos HS
+G23-10 | Review Response Autopilot | Amazon brand sellers | Draft compliant replies and flag review manipulation for removal reports. | tema:gestion reseñas
+G23-11 | Inventory Sync Etsy eBay | Multi-channel handmade sellers | Single-stock sync across Etsy, eBay, Amazon with buffer rules. | tema:sync inventario
+G23-12 | Packaging Dimension Optimizer | Amazon FBA sellers | Input product dims, suggest packaging to minimize FBA fee tier, with 3D fit preview. | tema:empaque FBA
+G23-13 | Seller Account Health Monitor | Amazon sellers | Track metrics and generate plan-of-action drafts for appeals. | tema:salud de cuenta
+G23-14 | Laser Cut Etsy Quote Widget | Etsy custom laser cut sellers | Customer uploads DXF, instant price quote with Etsy custom order link. | tema:cotizacion DXF
+G23-15 | Competitor Price Tracker eBay | eBay resellers | Auto repricing rules and alerts. | tema:repricing eBay
+G23-16 | Product Label Generator | Amazon FBA sellers | Generate label PDFs for thermal printers from reports. | tema:etiquetas FBA
+G23-17 | Etsy SEO Rank Tracker | Etsy sellers | Daily rank tracking for listings. | tema:rank Etsy
+G23-18 | TikTok Shop Sample Manager | TikTok Shop sellers | CRM for creator samples and commissions. | tema:muestras creadores
+G23-19 | Supplier PO Tracker Sellers | Amazon sellers importing from China | Track POs, ocean freight and inbound with reorder alerts. | tema:ordenes compra
+G23-20 | Amazon Listing Image Compliance Checker | Amazon sellers | Upload images, auto-check and fix compliance before submit. | tema:imagenes Amazon
+G24-01 | FilamentVault | Aficionados a impresión 3D con 10+ bobinas | App web/móvil de inventario de filamento con perfiles de slicer por bobina, QR y alertas de recompra. | tema:inventario filamento 3D
+G24-02 | PrintFarm Home | Makers que venden impresiones en Etsy con 3-10 impresoras | Calculadora de costo por impresión (material, energía, desgaste) con cola de pedidos y listados Etsy. | tema:costos granjas impresión
+G24-03 | GCode Doctor | Dueños de impresoras 3D con fallos de calidad | Sube G-code/foto de la pieza y recibe diagnóstico y ajustes de perfil para tu slicer. | tema:diagnóstico impresión 3D
+G24-04 | CNC Hobby Feeds | Dueños de CNC de escritorio (Shapeoko, X-Carve, 3018) | Calculadora de feeds y speeds con biblioteca de fresas y perfiles de máquina, exporta ajustes a Carbide Create/Fusion. | tema:feeds speeds CNC
+G24-05 | GrowSheet | Cultivadores de plantas de interior/hidroponía | Planificador de cultivo con calendario, recetas de nutrientes, registro y recordatorios por especie. | tema:diario cultivo hidroponía
+G24-06 | SourdoughLab | Panaderos caseros de masa madre | Calculadora de fermentación con temperatura, hidratación y cronograma, con notificaciones. | tema:fermentación masa madre
+G24-07 | RC Tune Log | Aficionados a drones FPV y RC | Registro de configuraciones Betaflight, baterías y vuelos con comparación de blackbox. | tema:registro FPV drones
+G24-08 | KnitPattern Pro | Tejedores y crocheteros que compran patrones | Escala patrones al calibre y talla del usuario y genera instrucciones personalizadas. | tema:patrones tejido personalizados
+G24-09 | Ham Log Cloud | Radioaficionados con licencia | Log web moderno con sincronización de LoTW/QRZ, mapas de DXCC y seguimiento de premios. | tema:log radioaficionados
+G24-10 | AquaPlanner | Acuaristas de agua dulce y marina | Seguimiento de parámetros con alertas y calculadoras de dosificación por tanque. | tema:parámetros acuario
+G24-11 | Dyno Notes | Dueños de autos modificados y track days | Registro de ajustes de suspensión/neumáticos con comparación de vueltas y notas por circuito. | tema:registro track day
+G24-12 | STL Library | Aficionados a miniaturas y bricolaje 3D con miles de STL | Biblioteca local/nube con etiquetas, vista previa 3D, duplicados y búsqueda. | tema:organizador archivos STL
+G24-13 | TabletopForge | Dungeon masters y jugadores de mesa | Gestor de campaña con generadores, notas enlazadas y exportación de handouts. | tema:herramientas campaña D&D
+G24-14 | WoodCut Optimizer | Carpinteros aficionados | Optimizador de despiece 2D con lista de compras y cortes para sierra de mesa. | tema:optimizador despiece madera
+G24-15 | PCB Review Lite | Hobbyistas de electrónica que mandan PCB | Revisión automática de Gerber/KiCad con lista de problemas y sugerencias. | tema:revisión Gerber hobby
+G24-16 | RetroROM Cloud | Coleccionistas de juegos retro | Catálogo de colección física con valor de mercado y wishlist. | tema:catálogo coleccionista retro
+G24-17 | ClimbTrack | Escaladores indoor | Diario de vías con plan de entrenamiento y análisis de progreso. | tema:diario escalada
+G24-18 | VinylDB | Coleccionistas de vinilos | Catálogo con escaneo de código y seguimiento de valor. | tema:colección vinilos
+G24-19 | Beekeeper Log | Apicultores aficionados | App de inspecciones, tratamientos y recordatorios por colmena. | tema:gestión colmenas
+G24-20 | Gunpla Tracker | Modelistas de kits plásticos y pintura | Gestor de pinturas, mezclas y progreso con listas de compra. | tema:inventario modelismo pintura
+G25-01 | Evidencia SOC2 para equipos pequeños | Responsable de compliance/IT en empresa de 100-500 personas | Recolector de evidencia por conectores read-only (Google Workspace, AWS, GitHub) que genera el paquete para el auditor. | tema:compliance SOC2
+G25-02 | Monitor de cambios en PLC | Ingeniero de planta / gerente de OT de planta mediana | Servicio que compara proyectos PLC (L5X, TIA Openness exports) subidos y alerta diferencias con historial versionado. | tema:control cambios PLC
+G25-03 | Inventario de SaaS en la sombra | Jefe de IT en empresa de 200-2000 empleados | Conecta Google/Microsoft OAuth y correo de facturas para listar apps, usuarios y renovaciones. | tema:inventario SaaS
+G25-04 | Revisión de accesos trimestral | Responsable de seguridad/compliance | Importa usuarios de apps por CSV/API, asigna revisores por correo y genera evidencia firmada. | tema:revisión de accesos
+G25-05 | Offboarding automático de empleados | Gerente de RR. HH. / IT | Checklist de offboarding conectado a Okta/Google/Slack que revoca accesos y registra cada paso. | tema:offboarding IT
+G25-06 | Políticas y acuses de lectura | Responsable de RR. HH./compliance | Publica políticas, envía acuses con recordatorios y exporta reporte de auditoría. | tema:acuses de políticas
+G25-07 | Escáner de licencias de software | Líder de ingeniería/compliance | Escanea repos y genera SBOM y reporte de licencias con alertas de incompatibilidad. | tema:SBOM y licencias
+G25-08 | Alertas de caducidad de certificados | Equipo DevOps/IT | Descubre dominios, monitorea certificados y avisa por Slack/correo. | tema:caducidad de certificados
+G25-09 | Evidencia de pentest y hallazgos | Responsable de seguridad | Importa informes, normaliza hallazgos y genera seguimiento con SLA. | tema:hallazgos de pentest
+G25-10 | Cuestionarios de seguridad IA | Responsable de ventas/seguridad en SaaS | Base de respuestas y borrador con IA a partir de documentos propios. | tema:cuestionarios de seguridad
+G25-11 | Conciliador de gastos de tarjeta | Controller / finanzas | Reclama recibos por correo/Slack y concilia contra extracto CSV. | tema:recibos de gastos
+G25-12 | Seguimiento de contratos y renovaciones | Responsable de compras/finanzas | Extrae fechas de PDFs y avisa antes del plazo de cancelación. | tema:renovaciones de contratos
+G25-13 | Auditor de licencias CAD | Gerente de IT de empresa de ingeniería | Lee logs de licencias (FlexNet/SNL) y reporta uso y ahorro posible. | tema:licencias CAD
+G25-14 | Respaldo de proyectos CAD/PDM | Jefe de ingeniería | Agente que respalda y versiona carpetas CAD en la nube con restauración. | tema:respaldo CAD
+G25-15 | Registro de cambios en G-code | Gerente de manufactura con CNC/impresoras 3D | Repositorio con diff y aprobación de programas G-code por máquina. | tema:trazabilidad G-code
+G25-16 | Cotizador DXF para compras | Comprador/ingeniero de compras | Sube DXF y obtiene comparativa de precio calculado por reglas. | tema:cotización DXF
+G25-17 | Monitoreo de flota de impresoras 3D | Gerente de laboratorio/producción de prototipos | Panel que une Klipper/OctoPrint, alertas de fallo y costos por trabajo. | tema:granja de impresión
+G25-18 | Documentación de controles ISO 27001 | Responsable de seguridad | Generador guiado de políticas y registro de controles con exportación. | tema:documentación ISO 27001
+G25-19 | Inventario de activos OT | Ingeniero de seguridad OT | Importa escaneos pasivos/CSV y mapea firmware y CVE conocidas por equipo. | tema:inventario OT
+G25-20 | Validador de BOM de ingeniería | Gerente de ingeniería/compras | Sube BOM de SolidWorks/AutoCAD, detecta duplicados, partes sin número y diferencias entre revisiones. | tema:validación de BOM
+G26-01 | QuoteFromCAD for Freelance Engineers | Ingenieros mecánicos freelance | Sube un STEP/DXF y obtiene estimación de horas y propuesta PDF basada en complejidad geométrica. | tema:cotización CAD freelance
+G26-02 | PermitPack for Solo Architects | Arquitectos independientes | Checklist de permisos por ciudad/condado y compilador de PDF con índice de hojas. | tema:permisos para arquitectos
+G26-03 | TM Fuzzy for Freelance Translators | Traductores freelance | Memoria de traducción web ligera con importación TMX/XLIFF y búsqueda difusa. | tema:CAT tool ligera
+G26-04 | InvoiceHours for Therapists | Terapeutas privados | Genera superbills con códigos CPT/ICD desde la agenda y exporta PDF. | tema:superbill terapeutas
+G26-05 | DXF Check for Laser Freelancers | Diseñadores/ingenieros que envían DXF a talleres láser | Validador y reparador automático de DXF con reporte, vía web y API. | tema:validador DXF
+G26-06 | CPD Tracker for Licensed Professionals | Ingenieros y arquitectos con licencia | Registro de certificados con alertas por renovación según jurisdicción. | tema:créditos CPD licencias
+G26-07 | ConsultBrief Client Portal | Consultores independientes | Portal con marca propia para entregables, comentarios y pagos Stripe. | tema:portal de clientes
+G26-08 | Gcode Quote for 3D Print Freelancers | Diseñadores que venden impresión 3D bajo pedido | Sube STL/G-code y obtiene precio, tiempo y presupuesto PDF. | tema:cotización impresión 3D
+G26-09 | P&ID Redline for PLC Freelancers | Ingenieros de control freelance | Importa tags de TIA/Studio 5000 y genera documentación y checklist FAT/SAT. | tema:documentación PLC
+G26-10 | Retainer Pulse for Consultants | Consultores con retainers | Seguimiento de horas contra retainer con alertas y resumen mensual automático. | tema:seguimiento de retainers
+G26-11 | RFP Radar for Solo Consultants | Consultores y arquitectos independientes | Alertas filtradas de RFPs públicos con resumen IA. | tema:alertas de RFP
+G26-12 | Glossary Guard for Translators | Traductores freelance | Plugin que valida glosarios del cliente en DOCX y avisa incumplimientos. | tema:control terminológico
+G26-13 | BIM Quantity Takeoff Lite | Arquitectos y estimadores freelance | Sube IFC y exporta metrados a Excel con precios editables. | tema:metrados desde IFC
+G26-14 | SessionNotes Voice for Therapists | Terapeutas privados | Dictado a notas SOAP con plantillas, exportable sin almacenar PHI. | tema:notas clínicas IA
+G26-15 | Contract Clause Lib for Freelancers | Consultores y freelancers | Biblioteca de cláusulas comentadas con generador de SOW (no es asesoría legal). | tema:cláusulas para freelancers
+G26-16 | Tolerance Stack API for Freelancers | Ingenieros mecánicos freelance | Calculadora web de tolerancias 1D con reportes PDF y plantillas ISO. | tema:apilamiento de tolerancias
+G26-17 | Slicer Profile Vault | Ingenieros freelance con impresión 3D | Repositorio versionado de perfiles de Cura/PrusaSlicer con parámetros validados. | tema:perfiles de slicer
+G26-18 | Time-Zone Booking for Global Freelancers | Traductores y consultores globales | Agenda con detección de zona, buffer y recordatorios multilingües. | tema:agenda multizona
+G26-19 | Fee Proposal Builder for Architects | Arquitectos independientes | Generador de propuestas por fases con benchmarks y firma electrónica. | tema:propuestas de honorarios
+G26-20 | Delivery Check for Engineering Drawings | Ingenieros freelance | Revisión automática de DXF/PDF contra checklist y estándar de cliente. | tema:revisión de planos
+G27-01 | Filament price index API | Makers de software 3D (slicers, gestores de granjas de impresión, tiendas) | API REST + webhooks con precios y stock históricos de filamento de ~100 tiendas. | tema:datos filamento 3D
+G27-02 | Price Drop Alerts for 3D Printers | Aficionados y granjas de impresión que compran impresoras y piezas | Alertas por email/Discord de caídas de precio por modelo y tienda, con historial. | tema:alertas precios 3D
+G27-03 | Competitor pricing watch for SaaS | Fundadores y product managers de SaaS | Monitoreo de páginas de precios con diff estructurado y resumen semanal por email/Slack. | tema:monitoreo precios SaaS
+G27-04 | Machine-tool used listings feed | Compradores de talleres y brokers de maquinaria CNC usada | Agregador con alertas por modelo/controlador (Fanuc, Haas) y puntuación de precio justo. | tema:alertas maquinaria usada
+G27-05 | PLC part obsolescence monitor | Ingenieros de mantenimiento y de planta de empresas medianas | Monitoreo de avisos de fin de vida de Siemens/Rockwell con alertas por BOM subida. | tema:obsolescencia PLC
+G27-06 | Shopify competitor stock tracker | Dueños de tiendas Shopify de nicho | App que sigue productos de tiendas Shopify públicas (/products.json) con alertas. | tema:rastreo competidores Shopify
+G27-07 | Open-source license change alerts | Equipos de ingeniería y compliance de empresas medianas | Monitor de cambios de licencia en npm/PyPI/GitHub con alertas y reportes PR. | tema:alertas licencias OSS
+G27-08 | Public API changelog monitor | Desarrolladores que integran APIs de terceros | Vigila docs, changelogs y OpenAPI specs de ~500 APIs y avisa de breaking changes. | tema:cambios en APIs
+G27-09 | Cloud pricing change feed | FinOps y equipos de plataforma | Dataset diario de precios y SKUs con diff y webhooks. | tema:datos precios cloud
+G27-10 | Airline schedule change alerts | Viajeros frecuentes y agentes de viaje freelance | Monitoreo de reservas por email e itinerario con alerta de cambio y reubicación. | tema:alertas vuelos
+G27-11 | Government tender alerts niche | Contratistas pequeños de manufactura y fabricación en EE.UU./UE | Alertas filtradas por NAICS/CPV y por palabras de CAD/mecanizado. | tema:licitaciones manufactura
+G27-12 | Material price index for fabricators | Talleres de corte y fabricación que cotizan | Índice semanal de precio de láminas por proveedor, con API para cotizadores. | tema:índice materiales taller
+G27-13 | Chrome Web Store rank tracker | Desarrolladores de extensiones de Chrome | Seguimiento diario de posiciones, instalaciones y reseñas con alertas. | tema:ranking extensiones
+G27-14 | Marketplace rate-limit and policy tracker | Vendedores de Etsy/Amazon con productos físicos | Monitoreo de páginas de políticas y tarifas con resumen explicativo. | tema:cambios políticas marketplaces
+G27-15 | Printer firmware CVE watch | Fabricantes y granjas de impresión 3D/industrial | Feed filtrado de CVEs y releases para firmware y controladores con alertas. | tema:CVE firmware 3D
+G27-16 | CAD library release tracker | Desarrolladores que usan OpenCascade, CadQuery y similares | Newsletter y API de releases, issues y compatibilidad de kernels CAD. | tema:releases librerías CAD
+G27-17 | Job postings data for PLC roles | Reclutadoras industriales y analistas de talento en automatización | Dataset semanal de ofertas con salario, tecnología y región. | tema:datos empleo automatización
+G27-18 | App Store review alert digests | Desarrolladores indie y PMs de apps | Digest diario con clustering de reseñas y alertas de picos de queja. | tema:alertas reseñas apps
+G27-19 | STEP model marketplace price data | Compradores de piezas CAD y diseñadores de producto | Dataset semanal de ventas y precios de modelos 3D/CAD por categoría. | tema:datos modelos 3D
+G27-20 | Expired domain drop alerts | Compradores de dominios y SEOs | Alertas por filtros de dominios expirando con métricas SEO. | tema:alertas dominios expirados
+G28-01 | PLC Diff for Git | Controls engineers / integrators with TIA Portal and Studio 5000 | Web app that ingests exported XML/L5X and shows readable diffs and change reports, with a git-friendly CLI. | tema:PLC code diff
+G28-02 | L5X Tag Documenter | Rockwell integrators who deliver documentation | Upload L5X, get I/O list, tag cross-reference and PDF/Excel docs in a branded template. | tema:PLC documentation generator
+G28-03 | STEP Validator API | CAD/manufacturing SaaS developers | Hosted API that checks, repairs and reports STEP/IGES issues before they reach a CAM or quoting flow. | tema:CAD file validation API
+G28-04 | GCode Sanity Linter | Shops running CNC/3D printers with many post-processors | Browser linter that flags unsafe moves, missing tool changes and bounds violations, per machine profile. | tema:G-code verification
+G28-05 | Sheet Metal DFM Check | Procurement engineers and designers ordering laser/bend parts | Upload DXF/STEP, get bend and hole-to-edge rule violations with fix hints against a shop's rules. | tema:sheet metal DFM
+G28-06 | Laser Quote Widget | Small laser/waterjet job shops | Embeddable instant-quote widget with nesting-based pricing and Stripe checkout. | tema:laser shop quoting
+G28-07 | Alarm Text Translator | Machine builders exporting equipment | Tool that reads HMI text lists, translates with glossary and exports back for TIA/Factory Talk. | tema:HMI text translation
+G28-08 | Printer Profile Hub | 3D print farm operators | Versioned profile repository with a diff, rollout and rollback across slicers. | tema:print farm profiles
+G28-09 | OPC UA Test Bench | Software teams integrating industrial gear | Cloud-hosted simulated OPC UA servers with configurable fault injection. | tema:OPC UA simulator
+G28-10 | Modbus Device Registry | Integrators writing drivers | Searchable database of Modbus maps with an API and code generation. | tema:Modbus register maps
+G28-11 | Lab Calibration Tracker | Calibration managers in small labs | Asset calibration scheduler with certificates, reminders and audit exports. | tema:calibration tracking
+G28-12 | Torque Spec Library | Maintenance planners | Searchable spec library with CSV import for CMMS. | tema:torque spec lookup
+G28-13 | Panel BOM Extractor | Electrical panel builders | Parse DXF/DWG schematics into a priced BOM. | tema:panel BOM extraction
+G28-14 | Safety Relay Calculator | Machine safety engineers | Web tool to compute PL per ISO 13849 and produce a report. | tema:ISO 13849 calculator
+G28-15 | DXF Cleanup Service | Laser shops | API/web tool to clean and normalize DXFs. | tema:DXF cleanup
+G28-16 | Drawing Title Block Extractor | Procurement teams | OCR+LLM extraction of title block and tolerances to CSV/ERP. | tema:drawing data extraction
+G28-17 | Firmware Release Notes Bot | Hardware startups | Git-based release notes and changelog pages for firmware. | tema:firmware changelogs
+G28-18 | Stencil Gerber Quote | Electronics hobbyists/small makers | Gerber-based instant quote comparison across vendors. | tema:Gerber quoting
+G28-19 | Weld Procedure Spec Builder | Fabrication shops and welding engineers | Web tool that builds WPS/PQR sheets with code-aware field checks and PDF export. | tema:welding procedure docs
+G28-20 | Mold Flow Lite Reports | Injection molders | Cloud estimates of fill/cooling from STEP. | tema:molding simulation
+G29-01 | Offline PLC Diff | Controls engineers and system integrators | Local desktop app that diffs and visually compares L5X/TIA exports with no cloud upload, one-time license. | tema:PLC offline diff
+G29-02 | Air-Gapped CAD Viewer API | Manufacturing and defense SaaS/ERP developers | Self-hosted Docker STEP/IGES/DXF to glTF/SVG converter licensed per instance. | tema:self-hosted CAD conversion
+G29-03 | G-code Offline Linter | CNC and 3D-printer hobbyists and small shops | Offline desktop G-code simulator/linter for Marlin, Klipper and Fanuc dialects, pay once. | tema:G-code offline linter
+G29-04 | Local Print Farm Manager | 3D print farm owners with 5-50 printers | LAN-only farm manager for queueing, spool tracking and failure logs, flat price per farm. | tema:offline print farm
+G29-05 | Private Meeting Notes | Consultants, lawyers-adjacent professionals, therapists-adjacent coaches | Mac/Windows app transcribing locally with an on-device model and exporting notes, one-time fee. | tema:local meeting transcription
+G29-06 | Offline Invoice Vault | Freelance designers and developers in the US/EU | Local-first invoicing app with PDF export and optional encrypted sync, $49 once. | tema:local invoicing
+G29-07 | Spreadsheet-Free Cut Lists | Woodworkers and cabinet makers | Simple offline cut-list optimizer with sheet nesting and one-time pricing. | tema:cut list optimizer
+G29-08 | Minimal Gantt for Engineers | Project engineers on shutdowns and commissioning | Lightweight offline scheduler with Gantt, critical path and Excel import, flat price. | tema:simple Gantt
+G29-09 | PLC Documentation Generator | Integrators handing over projects | Offline tool parsing exported PLC projects into IO lists, tag sheets and PDF docs. | tema:PLC documentation
+G29-10 | Local Markdown CRM | Solo consultants and agencies | Local-first contact and deal tracker over plain files with optional git sync. | tema:local CRM
+G29-11 | DXF Nesting Offline | Laser and plasma cutting shops | Desktop DXF nesting and quoting, one-time license per seat. | tema:DXF nesting
+G29-12 | Private Journal App | Consumers who distrust AI journaling | Encrypted offline journal with no AI and no account, $29 once. | tema:anti-AI journal
+G29-13 | Offline Time Tracker | Freelance engineers billing hourly | Local timer with invoices and reports, no screenshots. | tema:offline time tracking
+G29-14 | Modbus Test Bench | Automation techs commissioning devices | Modern cross-platform Modbus/OPC UA test tool with scripts and logs, one-time price. | tema:Modbus test tool
+G29-15 | Offline Docs Reader for Plants | Maintenance teams in plants | Offline searchable library for manuals and drawings with tags, per-plant license. | tema:offline manuals library
+G29-16 | Self-Hosted Form Builder | Developers and agencies | Single-binary form backend with one-time license. | tema:self-hosted forms
+G29-17 | Pay-Once API Mocking | Backend developers | Local mock server with recorded traffic replay, flat license. | tema:local API mock
+G29-18 | Offline STL Repair | 3D printing hobbyists and shops | Local STL repair and orientation tool, one-time price. | tema:STL repair
+G29-19 | Offline Tolerance Stack-Up | Mechanical design engineers | Offline 1D/2D tolerance stack-up calculator with worst-case and Monte Carlo, one-time license. | tema:tolerance stack-up
+G29-20 | Lifetime Label Designer | Small warehouse and Etsy sellers | Offline label designer for thermal printers, pay once. | tema:thermal label designer
+G30-01 | Shopify STEP/DXF Quote Add-on | Machine shop or 3D print service owner on Shopify | Shopify app: customer uploads STEP/DXF, gets instant price from shop's rate table. | tema:cotización CAD
+G30-02 | TIA Diff | Controls engineer / integrator using Siemens TIA Portal | Web tool that diffs exported TIA/Studio 5000 projects and tracks revisions. | tema:control de versiones PLC
+G30-03 | Sheet Metal DFM Check API | Developers of quoting/marketplace SaaS for fabrication | API that returns bend, hole-to-edge and minimum-feature errors for DXF flat patterns. | tema:DFM chapa metálica
+G30-04 | Light PDM for SolidWorks | Small engineering team of 3-15 on SolidWorks | Cloud revision vault with check-in/out and release states via a SolidWorks add-in. | tema:PDM ligero
+G30-05 | Web Laser Nesting | Laser/waterjet shop owner | Browser nesting for DXF with kerf/lead-in settings and cut-time estimate, flat monthly fee. | tema:nesting DXF
+G30-06 | G-code Post Fixer | CNC hobbyist or small shop with Fusion/FreeCAD | Upload G-code, choose controller, get converted code with preview and safety checks. | tema:posprocesador G-code
+G30-07 | Print Farm Lite | Owner of 5-50 printer farm / Etsy 3D seller | Job queue, filament cost tracking and order intake for Klipper/OctoPrint printers. | tema:granja impresión 3D
+G30-08 | Churn Recovery for Stripe | SaaS founder using Stripe | Stripe app that runs retry schedules and dunning emails; flat price. | tema:recuperación de pagos
+G30-09 | Mini Status Page | Indie SaaS or API developer | Hosted status page with uptime checks, custom domain, Slack alerts. | tema:página de estado
+G30-10 | Slack IT Intake | IT manager at 50-500 person firm | Slack app turning messages into tracked tickets with SLAs. | tema:helpdesk Slack
+G30-11 | HubSpot Quote PDFs | Sales ops at small B2B firm on HubSpot | HubSpot app generating branded quote PDFs with line items and e-accept. | tema:cotizaciones HubSpot
+G30-12 | Legal PDF Bates Tool | Paralegal or litigation support | Browser tool for batch Bates stamping, redaction and exhibit indexing. | tema:sellado Bates PDF
+G30-13 | KiCad BOM Pricer | Hardware engineer using KiCad | KiCad plugin checking BOM stock and price across distributors. | tema:BOM KiCad
+G30-14 | Small Historian | Controls integrator or maker factory | Cloud tag historian with Modbus/OPC-UA connector and dashboards. | tema:historian PLC
+G30-15 | STL Repair API | Developers of 3D print services | API that repairs and checks STL/3MF for printability. | tema:reparación STL
+G30-16 | Shopify Rage-Click Finder | Shopify store owner | App that flags rage clicks and dead buttons weekly. | tema:clics de frustración
+G30-17 | PLC Doc Generator | PLC programmer delivering client documentation | Upload TIA/Studio 5000 export; get IO list, tag docs and PDF manual. | tema:documentación PLC
+G30-18 | Takeoff Lite | Estimator at fabrication or construction subcontractor | Browser PDF/DXF measure and markup with quantity export. | tema:takeoff PDF
+G30-19 | Gerber Share Review | PCB freelancer sending designs to clients | Upload Gerbers, share viewer link with comments. | tema:revisión Gerber
+G30-20 | CAD Preview Embed | SaaS developers needing CAD preview | Embeddable STEP/IGES viewer widget. | tema:visor CAD

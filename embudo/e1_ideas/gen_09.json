@@ -1,0 +1,370 @@
+[
+ {
+  "id": "G09-01",
+  "nombre": "StepViewAPI",
+  "cliente_que_paga": "Desarrolladores de SaaS de manufactura y marketplaces de piezas",
+  "problema": "Convertir y previsualizar STEP/IGES en web exige operar OpenCascade, que es complejo.",
+  "solucion": "API REST que convierte STEP/IGES/DXF a glTF/PNG/SVG, con una página SEO por cada par de formatos.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO programático en 'step to gltf api' y 'iges to svg api' más directorios de APIs.",
+  "competidores": [
+   "CAD Exchanger (precios sin verificar)",
+   "Autodesk Platform Services"
+  ],
+  "por_que_ahora": "Crecen los portales de cotización de manufactura bajo demanda y los visores 3D web.",
+  "ventaja_juan": "Conocimiento de CAD y formatos; software casi gratis.",
+  "riesgo_principal": "Mercado pequeño y OpenCascade abierto facilita clones.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "API conversión CAD"
+ },
+ {
+  "id": "G09-02",
+  "nombre": "DXF Nest Quote Widget",
+  "cliente_que_paga": "Talleres de corte láser/CNC que venden online",
+  "problema": "Cotizar piezas DXF a mano retrasa pedidos y pierde clientes.",
+  "solucion": "Widget embebible que calcula precio desde un DXF subido; páginas SEO por material y espesor.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsquedas 'laser cutting quote software' y listado en Shopify/WooCommerce app stores.",
+  "competidores": [
+   "Xometry (marketplace, no widget)",
+   "sin verificar otros"
+  ],
+  "por_que_ahora": "Talleres quieren pedidos online sin ERP.",
+  "ventaja_juan": "CAD/CAM y DXF.",
+  "riesgo_principal": "Canal débil de talleres; Shopify como plataforma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "cotización DXF"
+ },
+ {
+  "id": "G09-03",
+  "nombre": "PLC Tag Converter",
+  "cliente_que_paga": "Ingenieros de automatización y integradores",
+  "problema": "Migrar tags entre Siemens TIA y Rockwell Studio 5000 es manual y propenso a errores.",
+  "solucion": "Herramienta web que convierte listas de tags/E-S entre formatos, con páginas SEO por par de plataformas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'convert tia portal tags to studio 5000' y foros como PLCTalk y r/PLC.",
+  "competidores": [
+   "Sin verificar (scripts caseros y herramientas de fabricantes)"
+  ],
+  "por_que_ahora": "Migraciones de plataformas legadas por escasez de repuestos.",
+  "ventaja_juan": "Experiencia directa en TIA Portal y Studio 5000.",
+  "riesgo_principal": "Fabricantes pueden ofrecer su propio migrador.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "migración tags PLC"
+ },
+ {
+  "id": "G09-04",
+  "nombre": "Gcode Diff & Validator",
+  "cliente_que_paga": "Operadores de farms de impresión 3D y talleres CNC",
+  "problema": "Un G-code incompatible estropea piezas o daña máquinas.",
+  "solucion": "Validador web que revisa G-code por firmware/controlador, con páginas SEO por error y máquina.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'validate gcode marlin', 'klipper gcode check' y subreddits de impresión 3D.",
+  "competidores": [
+   "Sin verificar (visores gratuitos)"
+  ],
+  "por_que_ahora": "Boom de farms de impresión con Klipper/Marlin.",
+  "ventaja_juan": "Firmware de impresoras 3D.",
+  "riesgo_principal": "F1: visores gratuitos cubren gran parte; hay que diferenciar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "validador G-code"
+ },
+ {
+  "id": "G09-05",
+  "nombre": "Print Farm Cost Calc API",
+  "cliente_que_paga": "Vendedores de Etsy/Shopify de piezas impresas 3D",
+  "problema": "Calcular costo real por pieza (filamento, tiempo, energía) es impreciso.",
+  "solucion": "Calculadora con páginas por material/impresora y plugin para tiendas, plan de pago para lotes.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Shopify App Store 'print on demand 3D cost' y búsquedas 'etsy 3d printing pricing calculator'.",
+  "competidores": [
+   "Sin verificar (hojas de cálculo gratuitas)"
+  ],
+  "por_que_ahora": "Venta de piezas 3D en Etsy crece.",
+  "ventaja_juan": "Impresión 3D y laminado.",
+  "riesgo_principal": "F1/F5: calculadoras gratis y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "costeo impresión 3D"
+ },
+ {
+  "id": "G09-06",
+  "nombre": "Tolerance Stack Pages",
+  "cliente_que_paga": "Ingenieros mecánicos y diseñadores",
+  "problema": "Calcular ajustes ISO/ANSI y apilamiento de tolerancias es tedioso en hojas de cálculo.",
+  "solucion": "Calculadora con miles de páginas por ajuste (H7/g6, etc.) y exportación PDF/informe en plan de pago.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'H7 g6 fit tolerance calculator' y comunidades r/engineering.",
+  "competidores": [
+   "Sin verificar (tablas gratuitas)"
+  ],
+  "por_que_ahora": "Más pequeñas empresas de hardware diseñan sin herramientas especializadas.",
+  "ventaja_juan": "CAD SolidWorks/AutoCAD.",
+  "riesgo_principal": "F1: tablas gratuitas abundantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "tolerancias mecánicas"
+ },
+ {
+  "id": "G09-07",
+  "nombre": "Wire Gauge & Cable Sizing",
+  "cliente_que_paga": "Electricistas industriales y integradores",
+  "problema": "Dimensionar cable por corriente, caída de tensión y norma exige consultar tablas.",
+  "solucion": "Calculadora por norma (NEC, IEC) con páginas SEO por carga/longitud y reportes PDF de pago.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'wire size calculator [amps] [distance]' y foros de electricistas.",
+  "competidores": [
+   "Sin verificar (calculadoras gratuitas de fabricantes)"
+  ],
+  "por_que_ahora": "Auge de instalaciones solares y EV chargers.",
+  "ventaja_juan": "Experiencia industrial eléctrica.",
+  "riesgo_principal": "F1: calculadoras gratuitas; riesgo normativo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "cálculo de cable"
+ },
+ {
+  "id": "G09-08",
+  "nombre": "Shopify HS Code Pages",
+  "cliente_que_paga": "Tiendas Shopify que envían internacionalmente",
+  "problema": "Clasificar productos con HS code y aranceles causa retenciones aduanales.",
+  "solucion": "App que sugiere HS codes y genera documentos, con páginas SEO por producto/país.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'HS code' en Shopify App Store y SEO 'hs code for [product]'.",
+  "competidores": [
+   "Zonos (precios sin verificar)"
+  ],
+  "por_que_ahora": "Cambios arancelarios elevan la necesidad.",
+  "ventaja_juan": "Backend e integraciones Shopify.",
+  "riesgo_principal": "Dependencia de Shopify y datos arancelarios de calidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "HS code Shopify"
+ },
+ {
+  "id": "G09-09",
+  "nombre": "API Status Page Generator",
+  "cliente_que_paga": "Startups SaaS y equipos de desarrollo",
+  "problema": "Mantener una página de estado propia cuesta tiempo.",
+  "solucion": "Generador de status pages con dominios por proyecto y SEO por 'status of [service]' agregado.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'status page for saas' y Product Hunt/IndieHackers.",
+  "competidores": [
+   "Statuspage (Atlassian)",
+   "Better Stack (precios sin verificar)"
+  ],
+  "por_que_ahora": "Más SaaS pequeños necesitan transparencia.",
+  "ventaja_juan": "Backend Node/TS.",
+  "riesgo_principal": "F1: competidores con planes gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "status pages SaaS"
+ },
+ {
+  "id": "G09-10",
+  "nombre": "OpenAPI Docs Hosting",
+  "cliente_que_paga": "Equipos de desarrollo de APIs",
+  "problema": "Publicar documentación de OpenAPI pulida requiere configuración repetitiva.",
+  "solucion": "Hosting de docs desde un OpenAPI con dominio propio y páginas SEO por endpoint.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'host openapi docs' y GitHub Marketplace.",
+  "competidores": [
+   "Readme",
+   "Redocly",
+   "Stoplight (precios sin verificar)"
+  ],
+  "por_que_ahora": "Más APIs públicas y agentes IA que las consumen.",
+  "ventaja_juan": "GraphQL y backend.",
+  "riesgo_principal": "Mercado saturado, diferenciación limitada.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "docs OpenAPI"
+ },
+ {
+  "id": "G09-11",
+  "nombre": "Webhook Debug Inbox",
+  "cliente_que_paga": "Desarrolladores backend",
+  "problema": "Probar webhooks de terceros requiere túneles y logs.",
+  "solucion": "Bandeja de entrada de webhooks con reenvío y páginas SEO por proveedor (Stripe, GitHub, etc.).",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'test stripe webhook locally' y guías en dev.to.",
+  "competidores": [
+   "webhook.site",
+   "ngrok"
+  ],
+  "por_que_ahora": "Más integraciones basadas en webhooks.",
+  "ventaja_juan": "Backend Node/TS.",
+  "riesgo_principal": "F1: webhook.site gratuito cubre lo básico.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "depuración webhooks"
+ },
+ {
+  "id": "G09-12",
+  "nombre": "Schema Markup Generator",
+  "cliente_que_paga": "SEOs y agencias pequeñas",
+  "problema": "Escribir JSON-LD por tipo de página es repetitivo y propenso a errores.",
+  "solucion": "Generador y validador de schema con páginas SEO por tipo y plugin WordPress.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'schema markup generator for [type]' y WordPress.org plugin directory.",
+  "competidores": [
+   "Sin verificar (generadores gratuitos)"
+  ],
+  "por_que_ahora": "Buscadores IA usan datos estructurados.",
+  "ventaja_juan": "Desarrollo web.",
+  "riesgo_principal": "F1: generadores gratuitos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "generador schema"
+ },
+ {
+  "id": "G09-13",
+  "nombre": "Cron Expression Monitor",
+  "cliente_que_paga": "Desarrolladores y DevOps",
+  "problema": "Los cron jobs fallan en silencio.",
+  "solucion": "Monitor de cron con ping y alertas; páginas SEO por expresión cron.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'cron expression every 5 minutes' hacia monitor de pago.",
+  "competidores": [
+   "Healthchecks.io",
+   "Cronitor (precios sin verificar)"
+  ],
+  "por_que_ahora": "Más tareas programadas en serverless.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Competidores consolidados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "monitoreo cron"
+ },
+ {
+  "id": "G09-14",
+  "nombre": "Pallet & Container Load Calc",
+  "cliente_que_paga": "Logística de pequeños importadores/exportadores",
+  "problema": "Planificar carga de contenedores y pallets reduce costos pero es manual.",
+  "solucion": "Calculadora 3D de carga con páginas SEO por contenedor/producto y exportación PDF.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'container load calculator' y foros de importadores.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Fletes volátiles incentivan optimizar.",
+  "ventaja_juan": "Conocimiento CAD/3D.",
+  "riesgo_principal": "Competidores desconocidos; producto de nicho.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "carga contenedor"
+ },
+ {
+  "id": "G09-15",
+  "nombre": "Currency Invoice Templates API",
+  "cliente_que_paga": "Freelancers internacionales",
+  "problema": "Facturas multi-moneda con impuestos por país son confusas.",
+  "solucion": "Generador de facturas con páginas SEO por país/moneda y PDF de pago.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "SEO 'invoice template [country]'.",
+  "competidores": [
+   "Invoice Ninja",
+   "Wave (precios sin verificar)"
+  ],
+  "por_que_ahora": "Más freelancers remotos globales.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "F1/F5: opciones gratis y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "facturas multi-país"
+ },
+ {
+  "id": "G09-16",
+  "nombre": "3MF Slicer Preset Library",
+  "cliente_que_paga": "Dueños de impresoras 3D y farms",
+  "problema": "Encontrar perfiles de laminado probados por impresora/filamento es disperso.",
+  "solucion": "Biblioteca de perfiles con páginas por impresora/filamento y sincronización con slicers en plan de pago.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "SEO '[printer] [filament] slicer profile' y subreddits.",
+  "competidores": [
+   "Sin verificar (repositorios comunitarios gratuitos)"
+  ],
+  "por_que_ahora": "Mucha variedad de impresoras y filamentos.",
+  "ventaja_juan": "Firmware de impresoras 3D.",
+  "riesgo_principal": "F1/F5: perfiles gratuitos en comunidades.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "perfiles slicer"
+ },
+ {
+  "id": "G09-17",
+  "nombre": "Material Price Feed",
+  "cliente_que_paga": "Compradores de talleres y startups de hardware",
+  "problema": "Comparar precios de acero/aluminio por forma y aleación es lento.",
+  "solucion": "Buscador y alertas de precios con páginas SEO por material/aleación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'aluminum 6061 plate price' y suscripción por correo.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Volatilidad de precios de materias primas.",
+  "ventaja_juan": "Contexto industrial.",
+  "riesgo_principal": "Datos de proveedores son difíciles de obtener.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "precio materiales"
+ },
+ {
+  "id": "G09-18",
+  "nombre": "Ladder Logic Snippet Library",
+  "cliente_que_paga": "Programadores PLC",
+  "problema": "Reescribir patrones comunes de lógica ladder consume tiempo.",
+  "solucion": "Biblioteca de snippets importables a TIA/Studio 5000 con páginas SEO por patrón.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'ladder logic motor start stop example' y foros PLCTalk, r/PLC.",
+  "competidores": [
+   "Sin verificar (ejemplos gratuitos en foros)"
+  ],
+  "por_que_ahora": "Falta de ingenieros PLC jóvenes busca plantillas.",
+  "ventaja_juan": "Experiencia en PLC.",
+  "riesgo_principal": "F1: ejemplos gratuitos; importación depende de formatos propietarios.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "snippets ladder PLC"
+ },
+ {
+  "id": "G09-19",
+  "nombre": "Bolt & Fastener Torque Pages",
+  "cliente_que_paga": "Mecánicos e ingenieros de montaje",
+  "problema": "Consultar torques por tornillo/material es disperso.",
+  "solucion": "Calculadora con SEO por tamaño/grado y reportes de pago.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "SEO 'M8 bolt torque grade 8.8'.",
+  "competidores": [
+   "Sin verificar (tablas gratuitas)"
+  ],
+  "por_que_ahora": "Mucho tráfico de búsqueda técnica.",
+  "ventaja_juan": "CAD/mecánica.",
+  "riesgo_principal": "F1/F5: tablas gratuitas y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "torque tornillos"
+ },
+ {
+  "id": "G09-20",
+  "nombre": "CNC Feeds & Speeds Pages",
+  "cliente_que_paga": "Maquinistas CNC y talleres pequeños",
+  "problema": "Elegir avances y velocidades por herramienta/material lleva prueba y error.",
+  "solucion": "Calculadora con páginas SEO por herramienta/material y librería personal de pago.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'feeds and speeds [material] [endmill]' y r/CNC, r/hobbycnc.",
+  "competidores": [
+   "Sin verificar (calculadoras gratuitas y apps de fabricantes de herramientas)"
+  ],
+  "por_que_ahora": "Más talleres pequeños y hobbistas con CNC de escritorio.",
+  "ventaja_juan": "CAM y CNC.",
+  "riesgo_principal": "F1: calculadoras gratuitas de fabricantes de herramientas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "avances CNC"
+ }
+]

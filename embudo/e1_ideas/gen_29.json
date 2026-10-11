@@ -1,0 +1,387 @@
+[
+ {
+  "id": "G29-01",
+  "nombre": "Offline PLC Diff",
+  "cliente_que_paga": "Controls engineers and system integrators",
+  "problema": "PLC projects (L5X, TIA XML) are hard to diff and review without paying for a cloud platform.",
+  "solucion": "Local desktop app that diffs and visually compares L5X/TIA exports with no cloud upload, one-time license.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Search 'L5X compare' / 'TIA Portal diff' on PLCTalk, r/PLC and LinkedIn PLC groups, plus YouTube tutorials",
+  "competidores": [
+   "Copia",
+   "Git + manual L5X export"
+  ],
+  "por_que_ahora": "Plants and OEMs refuse to upload proprietary code to the cloud and want air-gapped tools.",
+  "ventaja_juan": "Direct PLC experience with TIA Portal and Studio 5000.",
+  "riesgo_principal": "Rockwell/Siemens could ship better native diffing.",
+  "evidencia_url": "https://www.solisplc.com/tutorials/an-introduction-to-tia-portals-version-control-interface-using-git-and-github",
+  "angulo": "29",
+  "tema": "PLC offline diff"
+ },
+ {
+  "id": "G29-02",
+  "nombre": "Air-Gapped CAD Viewer API",
+  "cliente_que_paga": "Manufacturing and defense SaaS/ERP developers",
+  "problema": "Cannot send customer CAD files to third-party cloud converters for IP reasons.",
+  "solucion": "Self-hosted Docker STEP/IGES/DXF to glTF/SVG converter licensed per instance.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'self-hosted step to gltf', GitHub, Hacker News Show HN, three.js forum",
+  "competidores": [
+   "Autodesk Platform Services",
+   "CAD Exchanger",
+   "Open CASCADE (library)"
+  ],
+  "por_que_ahora": "IP and export-control worries are pushing buyers toward self-hosting.",
+  "ventaja_juan": "CAD formats and geometry knowledge.",
+  "riesgo_principal": "Open-source OCCT wrappers cover basic needs.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "self-hosted CAD conversion"
+ },
+ {
+  "id": "G29-03",
+  "nombre": "G-code Offline Linter",
+  "cliente_que_paga": "CNC and 3D-printer hobbyists and small shops",
+  "problema": "Bad G-code crashes machines and wastes material, and web checkers need uploads.",
+  "solucion": "Offline desktop G-code simulator/linter for Marlin, Klipper and Fanuc dialects, pay once.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "r/hobbycnc, r/3Dprinting, CNCzone forums and YouTube reviewers",
+  "competidores": [
+   "CAMotics (free)",
+   "NC Viewer (web)"
+  ],
+  "por_que_ahora": "Desktop pay-once tools are favored amid subscription fatigue.",
+  "ventaja_juan": "Firmware and CAM background.",
+  "riesgo_principal": "CAMotics being free may trigger F1 in basic cases.",
+  "evidencia_url": "https://www.indiehackers.com/post/why-im-charging-49-once-instead-of-a-subscription-for-my-desktop-app-aabcd91ddb",
+  "angulo": "29",
+  "tema": "G-code offline linter"
+ },
+ {
+  "id": "G29-04",
+  "nombre": "Local Print Farm Manager",
+  "cliente_que_paga": "3D print farm owners with 5-50 printers",
+  "problema": "Cloud farm managers charge per printer per month and break when internet drops.",
+  "solucion": "LAN-only farm manager for queueing, spool tracking and failure logs, flat price per farm.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "r/3Dprinting, Printables forums, Klipper/Moonraker Discord, YouTube maker channels",
+  "competidores": [
+   "OctoPrint (free)",
+   "3DPrinterOS",
+   "Obico"
+  ],
+  "por_que_ahora": "Etsy and print-on-demand farms are growing and want predictable cost.",
+  "ventaja_juan": "3D printer firmware experience.",
+  "riesgo_principal": "Free OctoPrint plugins cover part of the need.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "offline print farm"
+ },
+ {
+  "id": "G29-05",
+  "nombre": "Private Meeting Notes",
+  "cliente_que_paga": "Consultants, lawyers-adjacent professionals, therapists-adjacent coaches",
+  "problema": "Cloud AI note-takers send confidential calls to third parties.",
+  "solucion": "Mac/Windows app transcribing locally with an on-device model and exporting notes, one-time fee.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Product Hunt, r/privacy, Hacker News, Mac app review blogs",
+  "competidores": [
+   "MacWhisper",
+   "Granola"
+  ],
+  "por_que_ahora": "Local speech models are now good enough on laptops.",
+  "ventaja_juan": "Cheap development.",
+  "riesgo_principal": "Crowded niche and OS vendors adding native transcription.",
+  "evidencia_url": "https://www.indiehackers.com/post/why-im-charging-49-once-instead-of-a-subscription-for-my-desktop-app-aabcd91ddb",
+  "angulo": "29",
+  "tema": "local meeting transcription"
+ },
+ {
+  "id": "G29-06",
+  "nombre": "Offline Invoice Vault",
+  "cliente_que_paga": "Freelance designers and developers in the US/EU",
+  "problema": "Cloud invoicing tools lock data and raise monthly prices.",
+  "solucion": "Local-first invoicing app with PDF export and optional encrypted sync, $49 once.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Indie Hackers, r/freelance, Product Hunt",
+  "competidores": [
+   "FreshBooks",
+   "Wave"
+  ],
+  "por_que_ahora": "Subscription fatigue among freelancers.",
+  "ventaja_juan": "Low build cost.",
+  "riesgo_principal": "Wave is free, which risks F1.",
+  "evidencia_url": "https://www.indiehackers.com/post/why-im-charging-49-once-instead-of-a-subscription-for-my-desktop-app-aabcd91ddb",
+  "angulo": "29",
+  "tema": "local invoicing"
+ },
+ {
+  "id": "G29-07",
+  "nombre": "Spreadsheet-Free Cut Lists",
+  "cliente_que_paga": "Woodworkers and cabinet makers",
+  "problema": "Cut-list tools are bloated subscriptions or manual spreadsheets.",
+  "solucion": "Simple offline cut-list optimizer with sheet nesting and one-time pricing.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "r/woodworking, Wood Talk forums and YouTube woodworking channels",
+  "competidores": [
+   "CutList Optimizer (web)",
+   "OptiCut"
+  ],
+  "por_que_ahora": "Hobbyists dislike subscriptions.",
+  "ventaja_juan": "Nesting algorithms from CAM.",
+  "riesgo_principal": "Free web optimizers exist.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "cut list optimizer"
+ },
+ {
+  "id": "G29-08",
+  "nombre": "Minimal Gantt for Engineers",
+  "cliente_que_paga": "Project engineers on shutdowns and commissioning",
+  "problema": "MS Project and Primavera are overbuilt and pricey for 20-task plans.",
+  "solucion": "Lightweight offline scheduler with Gantt, critical path and Excel import, flat price.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Search 'MS Project alternative' SEO and commissioning engineers on LinkedIn",
+  "competidores": [
+   "MS Project",
+   "Primavera",
+   "GanttProject (free)"
+  ],
+  "por_que_ahora": "Teams want simpler tools without Microsoft 365 bundles.",
+  "ventaja_juan": "Industrial project context.",
+  "riesgo_principal": "GanttProject is free (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "simple Gantt"
+ },
+ {
+  "id": "G29-09",
+  "nombre": "PLC Documentation Generator",
+  "cliente_que_paga": "Integrators handing over projects",
+  "problema": "Writing IO lists and handover docs by hand takes days.",
+  "solucion": "Offline tool parsing exported PLC projects into IO lists, tag sheets and PDF docs.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "PLCTalk, Reddit r/PLC, search 'generate IO list from TIA Portal'",
+  "competidores": [
+   "Manual Excel",
+   "Copia"
+  ],
+  "por_que_ahora": "Customers demand documentation but integrators cannot upload code.",
+  "ventaja_juan": "PLC naming and structure knowledge.",
+  "riesgo_principal": "Small niche.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "PLC documentation"
+ },
+ {
+  "id": "G29-10",
+  "nombre": "Local Markdown CRM",
+  "cliente_que_paga": "Solo consultants and agencies",
+  "problema": "CRMs are overblown and store client data in the cloud.",
+  "solucion": "Local-first contact and deal tracker over plain files with optional git sync.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "r/selfhosted, Hacker News, Obsidian community plugins",
+  "competidores": [
+   "HubSpot Free",
+   "Obsidian"
+  ],
+  "por_que_ahora": "Local-first movement.",
+  "ventaja_juan": "Cheap build.",
+  "riesgo_principal": "HubSpot Free hits F1.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "local CRM"
+ },
+ {
+  "id": "G29-11",
+  "nombre": "DXF Nesting Offline",
+  "cliente_que_paga": "Laser and plasma cutting shops",
+  "problema": "Nesting software is expensive or cloud-tied.",
+  "solucion": "Desktop DXF nesting and quoting, one-time license per seat.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Search 'DXF nesting software' SEO, r/lasercutting, Facebook laser groups",
+  "competidores": [
+   "DeepNest (free)",
+   "SigmaNEST",
+   "Lantek"
+  ],
+  "por_que_ahora": "Small shops avoid subscriptions.",
+  "ventaja_juan": "DXF and CAM knowledge.",
+  "riesgo_principal": "DeepNest is free.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "DXF nesting"
+ },
+ {
+  "id": "G29-12",
+  "nombre": "Private Journal App",
+  "cliente_que_paga": "Consumers who distrust AI journaling",
+  "problema": "AI journal apps analyze personal entries on servers.",
+  "solucion": "Encrypted offline journal with no AI and no account, $29 once.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "r/privacy, Product Hunt, privacy blogs",
+  "competidores": [
+   "Day One",
+   "Obsidian"
+  ],
+  "por_que_ahora": "Anti-AI sentiment is growing.",
+  "ventaja_juan": "Low cost.",
+  "riesgo_principal": "Consumer apps are hard to monetize at volume.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "anti-AI journal"
+ },
+ {
+  "id": "G29-13",
+  "nombre": "Offline Time Tracker",
+  "cliente_que_paga": "Freelance engineers billing hourly",
+  "problema": "Cloud time trackers include invasive tracking.",
+  "solucion": "Local timer with invoices and reports, no screenshots.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Reddit r/freelance, Product Hunt",
+  "competidores": [
+   "Toggl",
+   "Clockify"
+  ],
+  "por_que_ahora": "Privacy concern about monitoring.",
+  "ventaja_juan": "Cheap build.",
+  "riesgo_principal": "Clockify is free.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "offline time tracking"
+ },
+ {
+  "id": "G29-14",
+  "nombre": "Modbus Test Bench",
+  "cliente_que_paga": "Automation techs commissioning devices",
+  "problema": "Free Modbus tools are dated and Windows-only.",
+  "solucion": "Modern cross-platform Modbus/OPC UA test tool with scripts and logs, one-time price.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Search 'Modbus tester' SEO, PLCTalk, r/PLC",
+  "competidores": [
+   "Modbus Poll",
+   "QModMaster"
+  ],
+  "por_que_ahora": "Engineers working on laptops want modern UI.",
+  "ventaja_juan": "Direct field experience.",
+  "riesgo_principal": "Modbus Poll is established.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "Modbus test tool"
+ },
+ {
+  "id": "G29-15",
+  "nombre": "Offline Docs Reader for Plants",
+  "cliente_que_paga": "Maintenance teams in plants",
+  "problema": "Manuals are on cloud portals unreachable on the shop floor.",
+  "solucion": "Offline searchable library for manuals and drawings with tags, per-plant license.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Reliability and maintenance forums and LinkedIn groups",
+  "competidores": [
+   "SharePoint",
+   "Dropbox"
+  ],
+  "por_que_ahora": "Plants block cloud and want offline search.",
+  "ventaja_juan": "Industrial context.",
+  "riesgo_principal": "Needs content ingestion variety.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "offline manuals library"
+ },
+ {
+  "id": "G29-16",
+  "nombre": "Self-Hosted Form Builder",
+  "cliente_que_paga": "Developers and agencies",
+  "problema": "SaaS form tools charge per submission.",
+  "solucion": "Single-binary form backend with one-time license.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Hacker News, r/selfhosted, dev.to",
+  "competidores": [
+   "Formspree",
+   "Tally"
+  ],
+  "por_que_ahora": "Cost and privacy.",
+  "ventaja_juan": "Backend expertise.",
+  "riesgo_principal": "Many free OSS options.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "self-hosted forms"
+ },
+ {
+  "id": "G29-17",
+  "nombre": "Pay-Once API Mocking",
+  "cliente_que_paga": "Backend developers",
+  "problema": "Mock servers subscription pricing.",
+  "solucion": "Local mock server with recorded traffic replay, flat license.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub, Hacker News, dev.to",
+  "competidores": [
+   "Postman",
+   "WireMock"
+  ],
+  "por_que_ahora": "Postman price hikes.",
+  "ventaja_juan": "Backend skills.",
+  "riesgo_principal": "Free OSS competitors.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "local API mock"
+ },
+ {
+  "id": "G29-18",
+  "nombre": "Offline STL Repair",
+  "cliente_que_paga": "3D printing hobbyists and shops",
+  "problema": "Mesh repair web services upload models.",
+  "solucion": "Local STL repair and orientation tool, one-time price.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "r/3Dprinting, Printables, YouTube",
+  "competidores": [
+   "Meshmixer",
+   "Netfabb",
+   "PrusaSlicer"
+  ],
+  "por_que_ahora": "Privacy for client models.",
+  "ventaja_juan": "3D printing and mesh knowledge.",
+  "riesgo_principal": "Slicers include repair for free.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "STL repair"
+ },
+ {
+  "id": "G29-19",
+  "nombre": "Offline Tolerance Stack-Up",
+  "cliente_que_paga": "Mechanical design engineers",
+  "problema": "Tolerance analysis is done in spreadsheets or in expensive CAD add-ons.",
+  "solucion": "Offline 1D/2D tolerance stack-up calculator with worst-case and Monte Carlo, one-time license.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Search 'tolerance stack up calculator' SEO, r/MechanicalEngineering, Eng-Tips",
+  "competidores": [
+   "Spreadsheets",
+   "CETOL 6 Sigma"
+  ],
+  "por_que_ahora": "Engineers want licensed-once tools outside CAD suites.",
+  "ventaja_juan": "Mechanical CAD background.",
+  "riesgo_principal": "Small niche.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "tolerance stack-up"
+ },
+ {
+  "id": "G29-20",
+  "nombre": "Lifetime Label Designer",
+  "cliente_que_paga": "Small warehouse and Etsy sellers",
+  "problema": "Label tools charge monthly.",
+  "solucion": "Offline label designer for thermal printers, pay once.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Etsy seller forums, r/ecommerce",
+  "competidores": [
+   "Avery",
+   "NiceLabel"
+  ],
+  "por_que_ahora": "Subscription fatigue.",
+  "ventaja_juan": "Printing knowledge.",
+  "riesgo_principal": "Printer vendors give free software.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "thermal label designer"
+ }
+]

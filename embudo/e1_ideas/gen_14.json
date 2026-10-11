@@ -1,0 +1,370 @@
+[
+ {
+  "id": "G14-01",
+  "nombre": "MCP Server Linter",
+  "cliente_que_paga": "Desarrolladores que publican servidores MCP",
+  "problema": "Los servidores MCP salen con esquemas de herramientas ambiguos, descripciones que confunden al LLM y fallos de seguridad.",
+  "solucion": "Linter CLI y GitHub Action que puntúa esquemas, descripciones y riesgos (inyección en descripciones) y comenta en el PR.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Listado en GitHub Marketplace (Actions) y entradas en awesome-mcp-servers y el registro de MCP; publicación de reportes de calidad de servidores populares.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "El ecosistema MCP crece rápido y no hay estándar de calidad.",
+  "ventaja_juan": "Experiencia con protocolos industriales y validación de esquemas en backend.",
+  "riesgo_principal": "Anthropic o la comunidad pueden publicar un linter oficial gratuito.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "calidad servidores MCP"
+ },
+ {
+  "id": "G14-02",
+  "nombre": "MCP Gateway Hosting",
+  "cliente_que_paga": "Equipos que consumen muchos servidores MCP",
+  "problema": "Gestionar credenciales, OAuth y límites de decenas de servidores MCP por agente es un caos.",
+  "solucion": "Gateway autoservicio que aloja conexiones MCP con OAuth gestionado, logs y cuotas por agente.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Directorios de MCP y SEO 'hosted MCP server OAuth'; posts en r/mcp y Discord de MCP.",
+  "competidores": [
+   "Smithery",
+   "Composio"
+  ],
+  "por_que_ahora": "Los agentes en producción necesitan acceso autenticado a SaaS.",
+  "ventaja_juan": "Backend Node/TypeScript y GraphQL son el stack natural.",
+  "riesgo_principal": "Muchos competidores financiados y los LLM providers integran MCP remoto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "gateway MCP gestionado"
+ },
+ {
+  "id": "G14-03",
+  "nombre": "Agent Cost Guard",
+  "cliente_que_paga": "Desarrolladores de agentes LLM con facturas impredecibles",
+  "problema": "Un bucle de agente puede gastar cientos de dólares en tokens sin aviso.",
+  "solucion": "Proxy/SDK que impone presupuestos por ejecución, corta bucles y alerta por Slack.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'LLM cost limit per agent' y Hacker News (Show HN); paquete en npm/PyPI con README orientado a búsqueda.",
+  "competidores": [
+   "Helicone",
+   "LiteLLM"
+  ],
+  "por_que_ahora": "Los agentes autónomos multiplican el gasto por tarea.",
+  "ventaja_juan": "Proxy HTTP y límites de tasa son backend clásico.",
+  "riesgo_principal": "Los proveedores y LiteLLM ya ofrecen presupuestos gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "control costos agentes"
+ },
+ {
+  "id": "G14-04",
+  "nombre": "Prompt Injection Scanner for Agents",
+  "cliente_que_paga": "Equipos que lanzan agentes con herramientas",
+  "problema": "Los agentes con acceso a email o archivos son vulnerables a inyección vía contenido externo.",
+  "solucion": "Suite de pruebas automatizadas de inyección que se ejecuta en CI contra el agente y reporta explotables.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "GitHub Marketplace Action, SEO 'prompt injection testing tool' y comunidad OWASP LLM.",
+  "competidores": [
+   "Garak",
+   "Promptfoo"
+  ],
+  "por_que_ahora": "Los incidentes de inyección en agentes ganan atención.",
+  "ventaja_juan": "Mentalidad de pruebas de sistemas de control y CI.",
+  "riesgo_principal": "Herramientas open source gratuitas cubren gran parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "seguridad de agentes IA"
+ },
+ {
+  "id": "G14-05",
+  "nombre": "Agent Replay Debugger",
+  "cliente_que_paga": "Ingenieros que depuran agentes en producción",
+  "problema": "Reproducir una ejecución fallida de un agente es casi imposible por la no determinación.",
+  "solucion": "Grabador de trazas con repetición determinista paso a paso, edición de herramientas simuladas y diff de ejecuciones.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Integración publicada en LangChain y OpenAI Agents SDK docs de comunidad, más posts en r/LocalLLaMA y X.",
+  "competidores": [
+   "LangSmith",
+   "Langfuse"
+  ],
+  "por_que_ahora": "Más agentes en producción, más necesidad de depuración.",
+  "ventaja_juan": "Experiencia con registro y reproducción de eventos industriales (PLC trace).",
+  "riesgo_principal": "LangSmith y Langfuse cubren trazas; el diferenciador es la repetición.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "depuración de agentes"
+ },
+ {
+  "id": "G14-06",
+  "nombre": "Eval Datasets from Logs",
+  "cliente_que_paga": "Equipos de producto con agentes ya en producción",
+  "problema": "Construir conjuntos de evaluación a mano consume semanas y se desactualiza.",
+  "solucion": "Convierte logs reales en casos de prueba etiquetados y detecta regresiones por versión de prompt.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Integraciones listadas con Langfuse y OpenTelemetry; SEO 'build eval dataset from production logs'.",
+  "competidores": [
+   "Braintrust",
+   "Langfuse"
+  ],
+  "por_que_ahora": "Los equipos migran de modelo con frecuencia y temen regresiones.",
+  "ventaja_juan": "Backend y pipelines de datos.",
+  "riesgo_principal": "Braintrust y otros ya tienen funciones similares.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "evaluación desde logs"
+ },
+ {
+  "id": "G14-07",
+  "nombre": "Model Switch Regression Tester",
+  "cliente_que_paga": "Equipos que cambian de modelo LLM",
+  "problema": "Cambiar de GPT a Claude o a un modelo más barato rompe comportamientos sin aviso.",
+  "solucion": "Ejecuta tus prompts en N modelos y muestra diferencias, costo y calidad lado a lado.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'compare LLM outputs for my prompts' y Product Hunt; comunidad r/LLMDevs.",
+  "competidores": [
+   "Promptfoo",
+   "OpenRouter"
+  ],
+  "por_que_ahora": "Nuevos modelos salen cada mes con precios distintos.",
+  "ventaja_juan": "Stack TypeScript para el SaaS.",
+  "riesgo_principal": "Promptfoo es gratuito y muy usado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "migración entre modelos"
+ },
+ {
+  "id": "G14-08",
+  "nombre": "MCP Server Test Harness",
+  "cliente_que_paga": "Autores de servidores MCP y equipos de plataforma",
+  "problema": "No hay forma fácil de probar un servidor MCP con un agente simulado antes de publicar.",
+  "solucion": "Arnés que simula clientes LLM, ejecuta escenarios y mide tasa de éxito de herramientas.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "npm y PyPI, directorios MCP y tutoriales en dev.to.",
+  "competidores": [
+   "MCP Inspector"
+  ],
+  "por_que_ahora": "Cada semana aparecen cientos de servidores MCP.",
+  "ventaja_juan": "Pruebas funcionales y simulación de dispositivos.",
+  "riesgo_principal": "MCP Inspector oficial es gratis y puede crecer.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "pruebas servidores MCP"
+ },
+ {
+  "id": "G14-09",
+  "nombre": "Agent Audit Trail",
+  "cliente_que_paga": "Equipos de cumplimiento en empresas medianas que usan agentes",
+  "problema": "Los agentes actúan en sistemas internos sin registro auditable para SOC 2.",
+  "solucion": "Registro inmutable de acciones de agentes con exportación a evidencia SOC 2 y ISO.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Marketplace de integraciones de Vanta y Drata y SEO 'AI agent audit log SOC 2'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los auditores empiezan a preguntar por controles de IA.",
+  "ventaja_juan": "Backend y registros de eventos.",
+  "riesgo_principal": "Ciclos de compra pueden exigir ventas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "auditoría de agentes IA"
+ },
+ {
+  "id": "G14-10",
+  "nombre": "Secrets Vault for Agents",
+  "cliente_que_paga": "Desarrolladores de agentes con acceso a APIs de terceros",
+  "problema": "Las claves API quedan expuestas en prompts, logs y memoria del agente.",
+  "solucion": "Bóveda que entrega credenciales de corta vida por herramienta y redacta secretos de las trazas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'API keys for AI agents secure' y listados en directorios de MCP y GitHub Marketplace.",
+  "competidores": [
+   "HashiCorp Vault",
+   "Doppler"
+  ],
+  "por_que_ahora": "Los agentes reciben acceso amplio a sistemas reales.",
+  "ventaja_juan": "Seguridad backend y control de acceso.",
+  "riesgo_principal": "Vault y Doppler pueden añadir esta función.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "secretos para agentes"
+ },
+ {
+  "id": "G14-11",
+  "nombre": "Agent Sandbox Runner",
+  "cliente_que_paga": "Equipos que ejecutan código generado por agentes",
+  "problema": "Ejecutar código arbitrario de un agente es peligroso y montar aislamiento lleva semanas.",
+  "solucion": "API de sandbox efímero con límites de red, CPU y tiempo, cobro por ejecución con mínimo mensual.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'sandbox for AI agent code execution' y docs de frameworks de agentes.",
+  "competidores": [
+   "E2B",
+   "Modal"
+  ],
+  "por_que_ahora": "El auge de agentes de código aumenta la demanda.",
+  "ventaja_juan": "Backend, contenedores y bajo costo operativo.",
+  "riesgo_principal": "Competidores financiados con precios agresivos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "sandbox de código agentes"
+ },
+ {
+  "id": "G14-12",
+  "nombre": "Tool Schema Generator from OpenAPI",
+  "cliente_que_paga": "Desarrolladores que exponen una API a agentes",
+  "problema": "Convertir una API REST en herramientas bien descritas para LLM requiere trabajo manual.",
+  "solucion": "Generador que toma OpenAPI y produce un servidor MCP optimizado con descripciones mejoradas por prueba.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'openapi to mcp server' y GitHub, más listado en directorios MCP.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Todas las empresas quieren un servidor MCP para su API.",
+  "ventaja_juan": "GraphQL/REST y generación de código.",
+  "riesgo_principal": "Herramientas gratuitas de generación abundan.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "OpenAPI a MCP"
+ },
+ {
+  "id": "G14-13",
+  "nombre": "PLC MCP Bridge",
+  "cliente_que_paga": "Ingenieros de automatización y integradores industriales",
+  "problema": "No pueden conectar agentes de IA de forma segura a datos de PLC y SCADA.",
+  "solucion": "Servidor MCP de solo lectura para OPC UA y Modbus con listas de permitidos y registro.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Foros de PLCTalk y r/PLC, LinkedIn de automatización y SEO 'OPC UA MCP server'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "La industria explora copilotos de IA sobre datos de planta.",
+  "ventaja_juan": "Experiencia directa en Siemens TIA Portal y Rockwell.",
+  "riesgo_principal": "Resistencia de OT a conectar IA a planta.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "IA industrial OPC UA"
+ },
+ {
+  "id": "G14-14",
+  "nombre": "CAD Tools for Agents",
+  "cliente_que_paga": "Equipos que construyen agentes de diseño o cotización",
+  "problema": "Los agentes no pueden leer ni consultar archivos CAD (STEP, DXF).",
+  "solucion": "Servidor MCP y API que extrae geometría, volumen, agujeros y materiales de CAD para agentes.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'step file API for AI' y directorios MCP; foros de desarrolladores de manufactura.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Surgen agentes de cotización y DFM.",
+  "ventaja_juan": "CAD/CAM y conocimiento de formatos de archivo.",
+  "riesgo_principal": "Mercado pequeño al inicio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "CAD para agentes"
+ },
+ {
+  "id": "G14-15",
+  "nombre": "Agent Rate Limit Shield",
+  "cliente_que_paga": "Equipos con muchos agentes llamando a APIs de terceros",
+  "problema": "Los agentes saturan APIs externas y provocan 429 y bloqueos de cuenta.",
+  "solucion": "Capa de colas, reintentos y límites compartidos entre agentes con panel.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'rate limit AI agents API' y paquetes en npm/PyPI.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más agentes concurrentes en producción.",
+  "ventaja_juan": "Backend de colas.",
+  "riesgo_principal": "Los frameworks de agentes incorporan reintentos básicos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "límites de API agentes"
+ },
+ {
+  "id": "G14-16",
+  "nombre": "Agent Cost Attribution",
+  "cliente_que_paga": "Equipos financieros y de ingeniería de empresas medianas",
+  "problema": "No saben qué cliente o función genera el gasto en tokens.",
+  "solucion": "Etiqueta cada llamada LLM con cliente/función y genera informes de margen por cliente.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "Integración con Stripe Apps marketplace y SEO 'LLM cost per customer'.",
+  "competidores": [
+   "Helicone"
+  ],
+  "por_que_ahora": "Los márgenes de productos de IA son un tema crítico.",
+  "ventaja_juan": "Facturación y backend.",
+  "riesgo_principal": "Plataformas de observabilidad añaden la función.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "costo por cliente IA"
+ },
+ {
+  "id": "G14-17",
+  "nombre": "Agent Config Drift Monitor",
+  "cliente_que_paga": "Equipos de plataforma con prompts y herramientas versionadas",
+  "problema": "Cambios silenciosos en prompts y modelos alteran el comportamiento sin alertas.",
+  "solucion": "Monitor que detecta cambios de versión de modelo y deriva en salidas con pruebas canario programadas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'LLM model drift monitoring' y Slack Marketplace.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los proveedores actualizan modelos sin aviso.",
+  "ventaja_juan": "Monitoreo continuo estilo SCADA.",
+  "riesgo_principal": "Los proveedores ofrecen versiones fijas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "deriva de modelos LLM"
+ },
+ {
+  "id": "G14-18",
+  "nombre": "Agent Permission Policy Builder",
+  "cliente_que_paga": "Equipos de seguridad que habilitan agentes",
+  "problema": "Definir qué herramientas puede usar cada agente se hace con ad hoc y sin revisión.",
+  "solucion": "Editor de políticas declarativas con simulación de acciones y aplicación vía SDK.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'AI agent authorization policy' y GitHub Marketplace.",
+  "competidores": [
+   "Open Policy Agent"
+  ],
+  "por_que_ahora": "El control de acceso para agentes es una necesidad nueva.",
+  "ventaja_juan": "Seguridad de sistemas de control y autorización.",
+  "riesgo_principal": "OPA es gratuito.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "permisos de agentes"
+ },
+ {
+  "id": "G14-19",
+  "nombre": "3D Print Agent Toolkit",
+  "cliente_que_paga": "Creadores de agentes para fabricación aditiva",
+  "problema": "Los agentes no pueden analizar STL ni preparar impresiones.",
+  "solucion": "API y MCP para analizar mallas, estimar tiempo, material y soportes, y detectar problemas de impresión.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'STL analysis API', comunidades r/3Dprinting y directorios MCP.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los agentes de manufactura emergen.",
+  "ventaja_juan": "Firmware de impresoras 3D y experiencia en slicing.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "IA e impresión 3D"
+ },
+ {
+  "id": "G14-20",
+  "nombre": "Agent Benchmark Reports",
+  "cliente_que_paga": "Gerentes de ingeniería que eligen framework o modelo",
+  "problema": "Elegir modelo o framework de agentes requiere pruebas propias costosas.",
+  "solucion": "Informes de benchmark por tarea con datos reproducibles, vendidos como suscripción con alertas de nuevos modelos.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Newsletter y SEO 'best LLM for agent tool calling', publicación en Hacker News.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "El número de modelos y frameworks crece cada mes.",
+  "ventaja_juan": "Ingeniería de pruebas sistemática.",
+  "riesgo_principal": "Contenido fácil de copiar y gratuito en otros sitios.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "benchmarks de agentes"
+ }
+]

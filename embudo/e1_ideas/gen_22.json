@@ -1,0 +1,391 @@
+[
+ {
+  "id": "G22-01",
+  "nombre": "Sponsor Rate Calculator for Newsletters",
+  "cliente_que_paga": "Newsletter owners (5k-100k subs) selling ads",
+  "problema": "No saben qué cobrar por anuncio ni a quién ofrecer.",
+  "solucion": "Dashboard que lee métricas de la lista (opens/clicks) y sugiere CPM, paquetes y plantilla de pitch.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'newsletter sponsorship rates' y comunidades de Beehiiv/Substack/r/Newsletters",
+  "competidores": [
+   "Paved",
+   "Swapstack",
+   "Beehiiv Ad Network"
+  ],
+  "por_que_ahora": "Creadores buscan monetizar tras caída de orgánico.",
+  "ventaja_juan": "Poca; construir integraciones API es fácil.",
+  "riesgo_principal": "Marketplaces propios regalan la herramienta a sus usuarios.",
+  "evidencia_url": "https://www.thepodcasthost.com/monetisation/convertkit-sponsor-network/",
+  "angulo": "22",
+  "tema": "precio anuncios newsletter"
+ },
+ {
+  "id": "G22-02",
+  "nombre": "Podcast Ad Insertion Tracker",
+  "cliente_que_paga": "Podcasters medianos con anuncios dinámicos",
+  "problema": "Reportar entregas de anuncios a patrocinadores es manual en hojas de cálculo.",
+  "solucion": "Panel que une descargas de hosting y contratos para generar reportes de entrega para sponsors.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Directorio de integraciones de Buzzsprout/Transistor y SEO 'podcast sponsor report template'",
+  "competidores": [
+   "Spreadsheets",
+   "Podscribe",
+   "Megaphone"
+  ],
+  "por_que_ahora": "Más podcasts con anuncios directos sin red.",
+  "ventaja_juan": "Ninguna directa.",
+  "riesgo_principal": "Hosts añaden reportes nativos (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "reportes sponsors podcast"
+ },
+ {
+  "id": "G22-03",
+  "nombre": "STL Licence Keys for Maker Creators",
+  "cliente_que_paga": "Creadores de modelos 3D que venden en Patreon",
+  "problema": "Archivos de pago se filtran y revenden sin control.",
+  "solucion": "Entrega de STL con enlaces firmados, marca de agua por comprador y rastreo de filtraciones.",
+  "precio_usd_mes": 24,
+  "canal_primeros_100": "Grupos de Facebook/Reddit r/3Dprinting y comunidades de Patreon de makers",
+  "competidores": [
+   "Gumroad",
+   "Patreon",
+   "Cults3D"
+  ],
+  "por_que_ahora": "Boom de creadores de modelos 3D de pago.",
+  "ventaja_juan": "Conocimiento de formatos STL/3MF y impresión 3D.",
+  "riesgo_principal": "Plataformas añaden DRM nativo.",
+  "evidencia_url": "https://www.patreon.com/3DELWORLD",
+  "angulo": "22",
+  "tema": "protección archivos STL"
+ },
+ {
+  "id": "G22-04",
+  "nombre": "Print Time Estimator for Maker Shops",
+  "cliente_que_paga": "Creadores que venden impresiones 3D en Etsy",
+  "problema": "Cotizar tiempo/costo de impresión es manual por pedido.",
+  "solucion": "Widget que recibe STL y devuelve cotización con laminado real por impresora.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Etsy sellers forums y búsqueda 'STL quote calculator' en Shopify App Store",
+  "competidores": [
+   "Craftcloud",
+   "Slant3D",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más microempresas de impresión por encargo.",
+  "ventaja_juan": "Firmware de impresoras 3D y laminado.",
+  "riesgo_principal": "Cura/Prusa añaden estimadores propios.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G22-05",
+  "nombre": "YouTube Chapter Auto-Publisher",
+  "cliente_que_paga": "YouTubers educativos con videos largos",
+  "problema": "Escribir capítulos y descripciones SEO toma horas por video.",
+  "solucion": "Transcribe, genera capítulos y descripción y los publica vía API de YouTube.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "YouTube Creator Insider foros y SEO 'YouTube chapters generator'",
+  "competidores": [
+   "TubeBuddy",
+   "VidIQ"
+  ],
+  "por_que_ahora": "IA barata para transcripción.",
+  "ventaja_juan": "Backend/API.",
+  "riesgo_principal": "TubeBuddy ya cubre parcial (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "capítulos YouTube"
+ },
+ {
+  "id": "G22-06",
+  "nombre": "Course Drip Analytics for Teachable",
+  "cliente_que_paga": "Creadores de cursos online",
+  "problema": "No ven dónde abandonan los alumnos entre lecciones.",
+  "solucion": "Conecta con Teachable/Thinkific y muestra puntos de abandono y mensajes sugeridos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Marketplace de apps Thinkific/Teachable y SEO 'course completion rate'",
+  "competidores": [
+   "Kajabi analytics",
+   "Thinkific reports"
+  ],
+  "por_que_ahora": "Cursos saturados exigen retención.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Plataformas integran analítica nativa.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "analítica de cursos"
+ },
+ {
+  "id": "G22-07",
+  "nombre": "Paid Community Churn Radar",
+  "cliente_que_paga": "Dueños de comunidades de pago (Circle, Skool)",
+  "problema": "Pierden miembros sin saber quién está a punto de irse.",
+  "solucion": "Puntúa riesgo de baja por actividad y dispara DM/email de retención.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Directorio de integraciones de Circle y comunidad Skool Games",
+  "competidores": [
+   "Common Room",
+   "Circle analytics"
+  ],
+  "por_que_ahora": "Comunidades de pago crecieron y el churn duele.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Circle/Skool añaden analítica nativa.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "retención comunidades"
+ },
+ {
+  "id": "G22-08",
+  "nombre": "Newsletter Archive SEO Rebuilder",
+  "cliente_que_paga": "Newsletters que quieren tráfico de búsqueda",
+  "problema": "Archivo web de ediciones no posiciona.",
+  "solucion": "Convierte ediciones en páginas SEO con schema, enlaces internos y sitemap.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Beehiiv/Substack communities y SEO 'newsletter archive SEO'",
+  "competidores": [
+   "Beehiiv native archive",
+   "Ghost"
+  ],
+  "por_que_ahora": "Búsqueda orgánica sigue siendo la fuente de suscriptores.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Plataformas mejoran archivo nativo.",
+  "evidencia_url": "https://create.beehiiv.com/p/the-most-reliable-way-to-get-content-ideas",
+  "angulo": "22",
+  "tema": "SEO archivo newsletter"
+ },
+ {
+  "id": "G22-09",
+  "nombre": "Guest Booking Pipeline for Podcasters",
+  "cliente_que_paga": "Podcasters con entrevistas",
+  "problema": "Coordinar invitados y calendarios es caos de correos.",
+  "solucion": "CRM ligero con formularios, recordatorios, kit de preparación y ficha de invitado.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'podcast guest booking tool' y Podcast Movement",
+  "competidores": [
+   "Calendly",
+   "Airtable"
+  ],
+  "por_que_ahora": "Más podcasts de entrevistas.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Calendly + Notion lo cubren gratis (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "agenda de invitados"
+ },
+ {
+  "id": "G22-10",
+  "nombre": "Clip Licensing Marketplace Kit",
+  "cliente_que_paga": "YouTubers con clips virales",
+  "problema": "Reclamos y licencias de clips se gestionan por correo.",
+  "solucion": "Página de licencias de clips con pago y contrato automático.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Reddit r/NewTubers y SEO 'license my viral video'",
+  "competidores": [
+   "Jukin Media",
+   "ViralHog"
+  ],
+  "por_que_ahora": "Medios compran clips virales constantemente.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Jukin ya domina.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "licencia de clips"
+ },
+ {
+  "id": "G22-11",
+  "nombre": "CAD Tutorial Companion Files Hub",
+  "cliente_que_paga": "YouTubers de CAD y makers",
+  "problema": "Entregar archivos fuente de tutoriales con versiones es manual.",
+  "solucion": "Hosting de archivos CAD con visor en navegador, versionado y paywall para suscriptores.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Descripciones de videos de Fusion/SolidWorks y foros r/FreeCAD",
+  "competidores": [
+   "Patreon",
+   "Google Drive",
+   "GrabCAD"
+  ],
+  "por_que_ahora": "Creció el contenido de CAD en YouTube.",
+  "ventaja_juan": "SolidWorks/AutoCAD y visores CAD.",
+  "riesgo_principal": "Mercado pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "archivos CAD tutoriales"
+ },
+ {
+  "id": "G22-12",
+  "nombre": "PLC Course Simulator Embed",
+  "cliente_que_paga": "Creadores de cursos de PLC",
+  "problema": "Alumnos no tienen simulador sin licencia cara.",
+  "solucion": "Simulador web de ladder para incrustar en cursos con ejercicios calificados.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "YouTube 'PLC tutorial' y Udemy instructores de automatización",
+  "competidores": [
+   "PLCSIM",
+   "LogixPro",
+   "OpenPLC"
+  ],
+  "por_que_ahora": "Demanda de capacitación en automatización.",
+  "ventaja_juan": "Experiencia directa Siemens/Rockwell.",
+  "riesgo_principal": "Complejidad técnica del simulador.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "simulador PLC cursos"
+ },
+ {
+  "id": "G22-13",
+  "nombre": "Affiliate Link Rot Monitor",
+  "cliente_que_paga": "Bloggers y YouTubers con enlaces de afiliado",
+  "problema": "Enlaces rotos o programas cerrados pierden comisiones.",
+  "solucion": "Escanea descripciones y posts, avisa de enlaces muertos y sugiere alternativas.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'broken affiliate link checker' y Chrome Web Store",
+  "competidores": [
+   "Broken Link Checker",
+   "Thirsty Affiliates"
+  ],
+  "por_que_ahora": "Programas de afiliados cambian constantemente.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Precio bajo exige volumen (F5 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "enlaces de afiliado"
+ },
+ {
+  "id": "G22-14",
+  "nombre": "Shorts Repurposing Scheduler",
+  "cliente_que_paga": "Podcasters y YouTubers de video largo",
+  "problema": "Convertir episodios en shorts exige edición manual.",
+  "solucion": "Detecta momentos clave, recorta con subtítulos y programa en TikTok/Shorts.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'podcast to shorts' y app directories",
+  "competidores": [
+   "Opus Clip",
+   "Descript"
+  ],
+  "por_que_ahora": "Video corto domina el descubrimiento.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Opus Clip fuerte (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "clips cortos"
+ },
+ {
+  "id": "G22-15",
+  "nombre": "Membership Tax Receipts for Creators",
+  "cliente_que_paga": "Creadores con ingresos de Patreon/Stripe",
+  "problema": "Cumplir IVA/VAT por país de suscriptores es confuso.",
+  "solucion": "Consolida pagos de varias plataformas y calcula obligaciones por país.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'creator VAT calculator' y r/Patreon",
+  "competidores": [
+   "Paddle",
+   "Lemon Squeezy",
+   "Quaderno"
+  ],
+  "por_que_ahora": "Reglas VAT para productos digitales vigentes.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Riesgo regulatorio y errores.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "VAT para creadores"
+ },
+ {
+  "id": "G22-16",
+  "nombre": "Webinar Replay Evergreen Funnel",
+  "cliente_que_paga": "Creadores de cursos y coaches",
+  "problema": "Reproducir webinars como 'en vivo' requiere varias herramientas.",
+  "solucion": "Programa replays evergreen con chat simulado y CTA de pago.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'evergreen webinar software' y Product Hunt",
+  "competidores": [
+   "EverWebinar",
+   "WebinarJam"
+  ],
+  "por_que_ahora": "Marketing de webinar sigue funcionando.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Competidores establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "webinar evergreen"
+ },
+ {
+  "id": "G22-17",
+  "nombre": "Thumbnail A/B Result Tracker",
+  "cliente_que_paga": "YouTubers de 10k-500k subs",
+  "problema": "No miden qué miniaturas realmente suben el CTR.",
+  "solucion": "Importa datos de YouTube Analytics y reporta ganadores por patrón visual.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store 'YouTube thumbnail test'",
+  "competidores": [
+   "TubeBuddy",
+   "VidIQ",
+   "YouTube Test & Compare"
+  ],
+  "por_que_ahora": "YouTube lanzó pruebas A/B nativas.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "F1: función nativa de YouTube.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "pruebas de miniaturas"
+ },
+ {
+  "id": "G22-18",
+  "nombre": "Digital Product Bundle Builder",
+  "cliente_que_paga": "Creadores con varios productos pequeños",
+  "problema": "Armar paquetes y promociones entre productos es manual.",
+  "solucion": "Crea bundles con precios dinámicos sobre Gumroad/Stripe y cupones por temporada.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de Gumroad y Twitter/X de creadores indie",
+  "competidores": [
+   "Gumroad bundles",
+   "Lemon Squeezy"
+  ],
+  "por_que_ahora": "Creadores diversifican ingresos.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Plataformas ya ofrecen bundles (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "paquetes de productos"
+ },
+ {
+  "id": "G22-19",
+  "nombre": "Transcript-to-Show-Notes API",
+  "cliente_que_paga": "Hosts de podcast y agencias de producción",
+  "problema": "Show notes y timestamps se escriben a mano.",
+  "solucion": "API que recibe audio y devuelve show notes, timestamps, quotes y SEO.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Directorios de APIs y SEO 'podcast show notes generator'",
+  "competidores": [
+   "Podium",
+   "Castmagic",
+   "Descript"
+  ],
+  "por_que_ahora": "Modelos de transcripción económicos.",
+  "ventaja_juan": "Backend/API.",
+  "riesgo_principal": "IA genérica lo vuelve commodity.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "show notes IA"
+ },
+ {
+  "id": "G22-20",
+  "nombre": "Sponsor Deal Invoice Reminder",
+  "cliente_que_paga": "Newsletters y podcasters con patrocinios directos",
+  "problema": "Cobrar a sponsors tarde por facturas manuales.",
+  "solucion": "Genera facturas, recordatorios y estado de pago ligados a cada campaña.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'sponsorship invoice template' y r/Newsletters",
+  "competidores": [
+   "FreshBooks",
+   "Wave"
+  ],
+  "por_que_ahora": "Más patrocinios directos sin red.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Facturadores genéricos lo cubren (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "facturas de patrocinio"
+ }
+]

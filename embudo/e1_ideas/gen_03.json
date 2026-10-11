@@ -1,0 +1,384 @@
+[
+ {
+  "id": "G03-01",
+  "nombre": "Slack PLC Alarm Bridge",
+  "cliente_que_paga": "Ingeniero de controles / jefe de mantenimiento en planta",
+  "problema": "Las alarmas de PLC llegan por SCADA o email y el equipo las pierde.",
+  "solucion": "App de Slack que recibe alarmas OPC UA/MQTT de Siemens/Rockwell, las enruta a canales y permite acuse con botón.",
+  "precio_usd_mes": 29.0,
+  "canal_primeros_100": "Búsqueda 'PLC alarms Slack' y 'OPC UA Slack' en Slack App Directory; posts en r/PLC y foros de automatización",
+  "competidores": [
+   "Ignition alerting (sin verificar)",
+   "email/SMS de SCADA"
+  ],
+  "por_que_ahora": "Equipos de planta ya usan Slack/Teams para mantenimiento.",
+  "ventaja_juan": "Conocimiento directo de TIA Portal, Studio 5000 y OPC UA.",
+  "riesgo_principal": "Plantas con redes aisladas o TI que bloquea integraciones.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "alarmas PLC Slack"
+ },
+ {
+  "id": "G03-02",
+  "nombre": "CAD Review Bot for Teams",
+  "cliente_que_paga": "Líder de ingeniería mecánica",
+  "problema": "Revisar archivos CAD exige abrir software pesado y se pierden comentarios.",
+  "solucion": "Bot de Teams que renderiza STEP/DXF en el hilo con vista 3D y comentarios anclados.",
+  "precio_usd_mes": 39.0,
+  "canal_primeros_100": "Microsoft Teams app store buscando 'CAD viewer' y 'STEP viewer'; SEO 'view STEP file in Teams'",
+  "competidores": [
+   "Autodesk Viewer (sin verificar)",
+   "Onshape (sin verificar)"
+  ],
+  "por_que_ahora": "Equipos híbridos de diseño colaboran en Teams.",
+  "ventaja_juan": "Experiencia con SolidWorks/AutoCAD y formatos CAD.",
+  "riesgo_principal": "Los CAD grandes ya ofrecen visores gratis (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "visor CAD Teams"
+ },
+ {
+  "id": "G03-03",
+  "nombre": "3D Print Queue for Slack",
+  "cliente_que_paga": "Responsable de laboratorio makerspace o granja de impresión",
+  "problema": "Nadie sabe el estado de impresoras 3D ni cuándo termina cada trabajo.",
+  "solucion": "App de Slack que lee OctoPrint/Klipper/Moonraker, notifica fallos y gestiona cola con /print.",
+  "precio_usd_mes": 19.0,
+  "canal_primeros_100": "Slack App Directory 'OctoPrint'; foros Klipper/OctoPrint y r/3Dprinting",
+  "competidores": [
+   "OctoEverywhere (sin verificar)",
+   "Obico (sin verificar)"
+  ],
+  "por_que_ahora": "Granjas de impresión pequeñas crecen y usan Slack/Discord.",
+  "ventaja_juan": "Firmware de impresoras 3D y API Moonraker.",
+  "riesgo_principal": "Mercado pequeño y notificaciones ya gratis en OctoPrint.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "cola impresión 3D"
+ },
+ {
+  "id": "G03-04",
+  "nombre": "Standup Summarizer Pro",
+  "cliente_que_paga": "Engineering manager de equipo de 20-200 personas",
+  "problema": "Los standups async se dispersan en hilos largos.",
+  "solucion": "Resumen diario por IA de hilos de canales con bloqueos, decisiones y tareas pendientes.",
+  "precio_usd_mes": 49.0,
+  "canal_primeros_100": "Slack Marketplace buscando 'summary', 'standup'; SEO 'slack thread summarizer'",
+  "competidores": [
+   "Slack AI nativo (sin verificar)",
+   "Geekbot (sin verificar)"
+  ],
+  "por_que_ahora": "LLMs baratos permiten resumir por centavos.",
+  "ventaja_juan": "Backend TS y automatización de bajo costo.",
+  "riesgo_principal": "Slack AI nativo puede cubrir el caso (F1 alto).",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "resumen hilos Slack"
+ },
+ {
+  "id": "G03-05",
+  "nombre": "Slack Support Escalation Router",
+  "cliente_que_paga": "Head of Support en SaaS B2B con canales compartidos",
+  "problema": "Clientes escriben en canales compartidos y los tickets se pierden sin SLA.",
+  "solucion": "App que convierte mensajes en tickets con SLA, timer y escalado automático.",
+  "precio_usd_mes": 79.0,
+  "canal_primeros_100": "Slack Marketplace 'shared channel support'; contenido SEO sobre Slack Connect support",
+  "competidores": [
+   "Pylon (sin verificar)",
+   "Plain (sin verificar)",
+   "Thena (sin verificar)"
+  ],
+  "por_que_ahora": "Soporte por Slack Connect crece en B2B.",
+  "ventaja_juan": "Backend TS/Node, webhooks.",
+  "riesgo_principal": "Mercado competido por startups financiadas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "soporte canales compartidos"
+ },
+ {
+  "id": "G03-06",
+  "nombre": "Teams Meeting Cost Meter",
+  "cliente_que_paga": "Ops manager o CFO de empresa mediana",
+  "problema": "Reuniones recurrentes cuestan miles al mes sin visibilidad.",
+  "solucion": "App de Teams que estima costo por reunión con salario promedio y reporta las más caras.",
+  "precio_usd_mes": 99.0,
+  "canal_primeros_100": "Microsoft AppSource 'meeting analytics'; posts LinkedIn de ops",
+  "competidores": [
+   "Viva Insights (sin verificar)",
+   "Clockwise (sin verificar)"
+  ],
+  "por_que_ahora": "Presión por reducir costos y reuniones.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Viva Insights nativo (F1) y datos de calendario sensibles.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "costo de reuniones"
+ },
+ {
+  "id": "G03-07",
+  "nombre": "Slack to Jira Compliance Audit Log",
+  "cliente_que_paga": "Responsable de compliance en empresa regulada",
+  "problema": "Decisiones tomadas en Slack no quedan archivadas para auditoría.",
+  "solucion": "Exporta hilos marcados como decisión a un log inmutable con sellado de tiempo y búsqueda.",
+  "precio_usd_mes": 149.0,
+  "canal_primeros_100": "Slack Marketplace 'audit', 'archive', 'eDiscovery'; búsquedas 'slack decision log'",
+  "competidores": [
+   "Slack Enterprise Grid export (sin verificar)",
+   "Smarsh (sin verificar)"
+  ],
+  "por_que_ahora": "Auditorías SOC2/ISO obligan a evidenciar decisiones.",
+  "ventaja_juan": "Backend TS.",
+  "riesgo_principal": "Puede aproximarse a ventas enterprise; Enterprise Grid cubre parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "registro de decisiones"
+ },
+ {
+  "id": "G03-08",
+  "nombre": "Shift Handover Notes for Slack",
+  "cliente_que_paga": "Supervisor de turno en manufactura o logística",
+  "problema": "Entrega de turno por mensajes sueltos pierde incidencias.",
+  "solucion": "Formulario /handover en Slack que compila incidencias, KPIs y pendientes y los publica en el canal de planta.",
+  "precio_usd_mes": 39.0,
+  "canal_primeros_100": "Slack App Directory 'shift handover'; grupos de LinkedIn de lean manufacturing",
+  "competidores": [
+   "Tulip (sin verificar)",
+   "SafetyCulture (sin verificar)"
+  ],
+  "por_que_ahora": "Plantas adoptan Slack/Teams para operación.",
+  "ventaja_juan": "Conocimiento de piso de planta y turnos.",
+  "riesgo_principal": "Planta a menudo usa herramientas MES y no Slack.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "entrega de turno"
+ },
+ {
+  "id": "G03-09",
+  "nombre": "Slack Quote Approval for Machine Shops",
+  "cliente_que_paga": "Dueño de taller CNC / láser",
+  "problema": "Cotizaciones requieren aprobación del dueño y se pierden en chats.",
+  "solucion": "App Slack que recibe DXF/STEP, calcula costo estimado y pide aprobación con botones.",
+  "precio_usd_mes": 69.0,
+  "canal_primeros_100": "Slack Marketplace 'quote'; foros r/Machinists y r/CNC",
+  "competidores": [
+   "Xometry (sin verificar)",
+   "Paperless Parts (sin verificar)"
+  ],
+  "por_que_ahora": "Talleres pequeños digitalizan cotización.",
+  "ventaja_juan": "CAD/CAM y estimación de tiempos de maquinado.",
+  "riesgo_principal": "Talleres pocos en Slack; outreach necesario.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "aprobación cotizaciones taller"
+ },
+ {
+  "id": "G03-10",
+  "nombre": "Teams Approvals for CAD Changes (ECO)",
+  "cliente_que_paga": "Ingeniero de procesos / gestor de cambios",
+  "problema": "Los cambios de ingeniería (ECO) se aprueban por email sin trazabilidad.",
+  "solucion": "App de Teams con flujo ECO, adjuntos CAD y firma por aprobador.",
+  "precio_usd_mes": 89.0,
+  "canal_primeros_100": "Microsoft AppSource 'engineering change'; SEO 'ECO approval workflow Teams'",
+  "competidores": [
+   "Arena PLM (sin verificar)",
+   "Power Automate Approvals (gratis, F1)"
+  ],
+  "por_que_ahora": "Pymes manufactureras usan Teams.",
+  "ventaja_juan": "Experiencia en cambios de ingeniería y CAD.",
+  "riesgo_principal": "Power Automate Approvals puede bastar (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "aprobación ECO"
+ },
+ {
+  "id": "G03-11",
+  "nombre": "Slack Sprint Retro Bot",
+  "cliente_que_paga": "Scrum master / EM",
+  "problema": "Retros remotas son aburridas y sin seguimiento.",
+  "solucion": "Bot que recolecta feedback anónimo, agrupa temas y hace seguimiento de acciones.",
+  "precio_usd_mes": 19.0,
+  "canal_primeros_100": "Slack Marketplace 'retrospective'; SEO 'slack retro bot'",
+  "competidores": [
+   "EasyRetro (sin verificar)",
+   "Parabol (sin verificar)"
+  ],
+  "por_que_ahora": "Equipos remotos permanentes.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Mercado saturado, bajo precio por equipo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "retro sprint"
+ },
+ {
+  "id": "G03-12",
+  "nombre": "Incident Postmortem Generator",
+  "cliente_que_paga": "SRE / Eng manager",
+  "problema": "Escribir postmortems tras un incidente consume horas.",
+  "solucion": "Convierte el canal de incidente en postmortem estructurado con línea de tiempo y acciones.",
+  "precio_usd_mes": 59.0,
+  "canal_primeros_100": "Slack Marketplace 'incident'; SEO 'incident postmortem template slack'",
+  "competidores": [
+   "incident.io (sin verificar)",
+   "FireHydrant (sin verificar)",
+   "Rootly (sin verificar)"
+  ],
+  "por_que_ahora": "Incidentes con IA y automatización.",
+  "ventaja_juan": "Backend y APIs.",
+  "riesgo_principal": "Competidores bien financiados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "postmortem automático"
+ },
+ {
+  "id": "G03-13",
+  "nombre": "Teams Translation for Plant Floor",
+  "cliente_que_paga": "Gerente de planta multinacional",
+  "problema": "Equipos multilingües no entienden mensajes técnicos.",
+  "solucion": "Traduce mensajes en Teams/Slack con glosario técnico de manufactura y siglas.",
+  "precio_usd_mes": 49.0,
+  "canal_primeros_100": "Microsoft AppSource 'translate'; foros de manufactura multinacional",
+  "competidores": [
+   "Teams translator nativo (F1 parcial)",
+   "DeepL (sin verificar)"
+  ],
+  "por_que_ahora": "Cadenas globales con plantas en MX/US.",
+  "ventaja_juan": "Glosario técnico industrial y español nativo.",
+  "riesgo_principal": "Traducción nativa de Teams es gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "traducción técnica"
+ },
+ {
+  "id": "G03-14",
+  "nombre": "Slack Time-off Plus for Shift Teams",
+  "cliente_que_paga": "HR ops en empresa con turnos",
+  "problema": "Gestionar vacaciones por turno y cobertura en hojas de cálculo.",
+  "solucion": "App Slack de ausencias con reglas de cobertura mínima por turno.",
+  "precio_usd_mes": 99.0,
+  "canal_primeros_100": "Slack App Directory 'time off'; SEO",
+  "competidores": [
+   "Vacation Tracker (sin verificar)",
+   "Timetastic (sin verificar)"
+  ],
+  "por_que_ahora": "Trabajo por turnos más común.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Mercado saturado de ausencias.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "ausencias por turnos"
+ },
+ {
+  "id": "G03-15",
+  "nombre": "GitHub Release Notes to Slack",
+  "cliente_que_paga": "Product manager de SaaS",
+  "problema": "Release notes manuales para soporte y ventas.",
+  "solucion": "Genera release notes de PR/commits con IA y las publica por canal con aprobación.",
+  "precio_usd_mes": 29.0,
+  "canal_primeros_100": "Slack Marketplace 'release notes'; GitHub Marketplace",
+  "competidores": [
+   "Release Drafter (sin verificar)",
+   "Linear changelog (sin verificar)"
+  ],
+  "por_que_ahora": "IA reduce costo de redacción.",
+  "ventaja_juan": "Backend TS, GitHub APIs.",
+  "riesgo_principal": "GitHub y Linear ya cubren.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "release notes IA"
+ },
+ {
+  "id": "G03-16",
+  "nombre": "Slack File Governance",
+  "cliente_que_paga": "IT admin de empresa mediana",
+  "problema": "Archivos sensibles quedan en canales públicos.",
+  "solucion": "Escanea archivos subidos a Slack por PII/secretos y los cuarentena con política.",
+  "precio_usd_mes": 199.0,
+  "canal_primeros_100": "Slack Marketplace 'DLP'; búsquedas 'slack DLP'",
+  "competidores": [
+   "Nightfall (sin verificar)",
+   "Slack DLP enterprise (sin verificar)"
+  ],
+  "por_que_ahora": "Regulación y fugas por SaaS.",
+  "ventaja_juan": "Backend de seguridad.",
+  "riesgo_principal": "Ciclo de compra largo; DLP enterprise.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "DLP para Slack"
+ },
+ {
+  "id": "G03-17",
+  "nombre": "Teams CAD Version Diff",
+  "cliente_que_paga": "Ingeniero mecánico en equipo distribuido",
+  "problema": "No ven qué cambió entre revisiones de una pieza.",
+  "solucion": "Bot que compara dos STEP y muestra las diferencias resaltadas en el hilo.",
+  "precio_usd_mes": 59.0,
+  "canal_primeros_100": "Microsoft AppSource 'CAD'; SEO 'compare STEP files'",
+  "competidores": [
+   "Onshape compare (sin verificar)",
+   "SolidWorks Compare (sin verificar)"
+  ],
+  "por_que_ahora": "Revisión remota de diseño.",
+  "ventaja_juan": "Geometría CAD y kernels open source (OpenCascade).",
+  "riesgo_principal": "Complejidad de geometría para MVP en 6 semanas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "diff de CAD"
+ },
+ {
+  "id": "G03-18",
+  "nombre": "Slack Sales Quote Cost Check for Print Farms",
+  "cliente_que_paga": "Dueño de servicio de impresión 3D por encargo",
+  "problema": "Cotizar piezas 3D a clientes lleva tiempo y errores.",
+  "solucion": "Slack app que recibe STL, estima tiempo/material y devuelve cotización en hilo.",
+  "precio_usd_mes": 39.0,
+  "canal_primeros_100": "Slack Marketplace; comunidades r/3Dprinting y Discord de print-on-demand",
+  "competidores": [
+   "Craftcloud (sin verificar)",
+   "Xometry (sin verificar)"
+  ],
+  "por_que_ahora": "Servicios de impresión por encargo crecen.",
+  "ventaja_juan": "Firmware 3D y slicing.",
+  "riesgo_principal": "Los clientes finales no usan Slack.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G03-19",
+  "nombre": "Teams IT Request Triage",
+  "cliente_que_paga": "IT helpdesk lead en empresa mediana",
+  "problema": "Solicitudes llegan por chat y se pierden.",
+  "solucion": "Bot de Teams que clasifica solicitudes con IA y crea tickets con prioridad.",
+  "precio_usd_mes": 79.0,
+  "canal_primeros_100": "Microsoft AppSource 'helpdesk'; SEO 'Teams IT helpdesk bot'",
+  "competidores": [
+   "Moveworks (sin verificar)",
+   "Freshservice (sin verificar)"
+  ],
+  "por_que_ahora": "Helpdesk en chat con IA.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Competidores grandes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "triage de TI"
+ },
+ {
+  "id": "G03-20",
+  "nombre": "Teams Safety Incident Reporter",
+  "cliente_que_paga": "Gerente EHS en planta o almacén",
+  "problema": "Reportes de incidentes de seguridad en papel o email tardan días.",
+  "solucion": "App de Teams con formulario móvil, fotos, clasificación y alertas a supervisores con reporte mensual.",
+  "precio_usd_mes": 69.0,
+  "canal_primeros_100": "Microsoft AppSource 'safety incident'; SEO 'EHS incident reporting Teams'",
+  "competidores": [
+   "SafetyCulture (sin verificar)",
+   "Microsoft Forms (gratis, F1 parcial)"
+  ],
+  "por_que_ahora": "Regulación OSHA y adopción de Teams en planta.",
+  "ventaja_juan": "Conocimiento de entornos industriales y seguridad de máquinas.",
+  "riesgo_principal": "Forms + Power Automate pueden bastar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "reporte incidentes EHS"
+ }
+]

@@ -1,0 +1,389 @@
+[
+ {
+  "id": "G07-01",
+  "nombre": "PLC ST Studio",
+  "cliente_que_paga": "Ingenieros de automatización y integradores",
+  "problema": "Editar código IEC 61131-3 Structured Text en editores de PLC es torpe, sin autocompletado ni linting moderno.",
+  "solucion": "Extensión VS Code con resaltado, linting, navegación y formateo para Structured Text, con importación/exportación de archivos PLCopen XML.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Búsqueda 'structured text' en VS Code Marketplace, r/PLC y foros de PLCTalk.",
+  "competidores": [
+   "Extensiones gratuitas de ST en VS Code (sin verificar)",
+   "IDEs de fabricantes (TIA Portal, Studio 5000)"
+  ],
+  "por_que_ahora": "Los PLC se están acercando a flujos con Git y CI.",
+  "ventaja_juan": "Conocimiento directo de TIA Portal y Studio 5000.",
+  "riesgo_principal": "Tamaño de nicho pequeño y disposición de pago incierta.",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "editor PLC Structured Text"
+ },
+ {
+  "id": "G07-02",
+  "nombre": "G-code Inspector",
+  "cliente_que_paga": "Operadores CNC y makers de impresión 3D",
+  "problema": "Errores en G-code se descubren al romper piezas o desperdiciar filamento.",
+  "solucion": "Extensión VS Code que valida G-code, simula trayectoria en panel 3D y avisa de límites de máquina y errores de firmware.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Búsqueda 'gcode' en VS Code Marketplace, r/3Dprinting, r/hobbycnc.",
+  "competidores": [
+   "Simuladores web gratuitos como NC Viewer (sin verificar)",
+   "CAMotics"
+  ],
+  "por_que_ahora": "Más impresoras con firmware Klipper/Marlin editadas a mano.",
+  "ventaja_juan": "Experiencia en firmware de impresoras 3D.",
+  "riesgo_principal": "Existen visores web gratuitos (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "validación G-code"
+ },
+ {
+  "id": "G07-03",
+  "nombre": "Klipper Config Doctor",
+  "cliente_que_paga": "Usuarios avanzados de impresoras 3D Klipper",
+  "problema": "printer.cfg mal configurado causa fallas y es difícil de depurar.",
+  "solucion": "Extensión VS Code con esquema, validación, autocompletado de secciones Klipper y chequeo de pines por placa.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Búsqueda 'klipper' en VS Code Marketplace, Discord y r/klippers.",
+  "competidores": [
+   "Documentación oficial de Klipper",
+   "extensiones gratuitas sin verificar"
+  ],
+  "por_que_ahora": "Auge de Klipper en impresoras de consumo.",
+  "ventaja_juan": "Conocimiento de firmware de impresoras 3D.",
+  "riesgo_principal": "Comunidad espera herramientas gratis (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "config Klipper"
+ },
+ {
+  "id": "G07-04",
+  "nombre": "OpenAPI Mock Studio",
+  "cliente_que_paga": "Desarrolladores backend y de frontend",
+  "problema": "Montar mocks coherentes desde un OpenAPI requiere herramientas externas pesadas.",
+  "solucion": "Extensión VS Code que levanta mock server con datos realistas y escenarios de error desde el spec abierto.",
+  "precio_usd_mes": 10,
+  "canal_primeros_100": "Búsqueda 'openapi mock' en VS Code Marketplace y SEO 'mock server from openapi'.",
+  "competidores": [
+   "Prism de Stoplight",
+   "Postman",
+   "Mockoon"
+  ],
+  "por_que_ahora": "Equipos con API-first y agentes IA que necesitan mocks.",
+  "ventaja_juan": "Backend senior con APIs y GraphQL.",
+  "riesgo_principal": "Alto nivel de competidores gratuitos (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "mocks OpenAPI"
+ },
+ {
+  "id": "G07-05",
+  "nombre": "GraphQL Cost Lens",
+  "cliente_que_paga": "Equipos que operan APIs GraphQL",
+  "problema": "Consultas costosas se detectan en producción, no en el editor.",
+  "solucion": "Extensión VS Code/JetBrains que estima complejidad y profundidad de queries y detecta N+1 contra el schema.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda 'graphql' en JetBrains Marketplace y VS Code Marketplace, comunidades GraphQL.",
+  "competidores": [
+   "GraphQL plugin de JetBrains",
+   "Apollo Studio (sin verificar para este uso)"
+  ],
+  "por_que_ahora": "GraphQL maduro y con problemas de rendimiento en escala.",
+  "ventaja_juan": "Experiencia profesional en GraphQL.",
+  "riesgo_principal": "Incumbentes gratuitos cubren parte (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "costo queries GraphQL"
+ },
+ {
+  "id": "G07-06",
+  "nombre": "Laravel Query Radar",
+  "cliente_que_paga": "Desarrolladores Laravel",
+  "problema": "N+1 y consultas lentas aparecen tarde en el ciclo.",
+  "solucion": "Plugin JetBrains/VS Code que analiza código Eloquent y muestra advertencias de N+1 y sugerencias de índices en línea.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Búsqueda 'laravel' en JetBrains Marketplace (PhpStorm), Laracasts y r/laravel.",
+  "competidores": [
+   "Laravel Idea (de pago, JetBrains)",
+   "Laravel Debugbar",
+   "Telescope"
+  ],
+  "por_que_ahora": "Gran base de Laravel y PhpStorm.",
+  "ventaja_juan": "Stack PHP/Laravel propio.",
+  "riesgo_principal": "Laravel Idea ya domina el canal.",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "N+1 Eloquent"
+ },
+ {
+  "id": "G07-07",
+  "nombre": "CAD Preview for Code",
+  "cliente_que_paga": "Desarrolladores de software de manufactura",
+  "problema": "No se puede previsualizar STEP/DXF/STL dentro del editor o del repositorio.",
+  "solucion": "Extensión VS Code que renderiza STEP, DXF, STL y 3MF en un panel con medición básica.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Búsqueda 'step viewer' en VS Code Marketplace, foros de CadQuery y build123d.",
+  "competidores": [
+   "Visores STL gratuitos en VS Code (sin verificar)",
+   "FreeCAD"
+  ],
+  "por_que_ahora": "Auge de CAD como código (CadQuery, build123d, OpenSCAD).",
+  "ventaja_juan": "Conocimiento de SolidWorks y AutoCAD y de formatos CAD.",
+  "riesgo_principal": "Nicho pequeño; visores gratuitos (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "visor CAD en editor"
+ },
+ {
+  "id": "G07-08",
+  "nombre": "SCAD Linter Pro",
+  "cliente_que_paga": "Usuarios de OpenSCAD y CAD paramétrico",
+  "problema": "OpenSCAD tiene editor básico y errores difíciles de rastrear.",
+  "solucion": "Extensión VS Code con lint, previsualización en vivo, y análisis de parámetros para modelos paramétricos.",
+  "precio_usd_mes": 7,
+  "canal_primeros_100": "Búsqueda 'openscad' en VS Code Marketplace, r/openscad, Thingiverse.",
+  "competidores": [
+   "Editor nativo de OpenSCAD",
+   "Extensiones comunitarias (sin verificar)"
+  ],
+  "por_que_ahora": "CAD paramétrico en alza en impresión 3D.",
+  "ventaja_juan": "Conocimiento CAD e impresión 3D.",
+  "riesgo_principal": "Compradores esperan gratis (F5/F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "editor OpenSCAD"
+ },
+ {
+  "id": "G07-09",
+  "nombre": "AI Cost Meter",
+  "cliente_que_paga": "Desarrolladores y equipos que usan APIs de LLM",
+  "problema": "No saben cuánto gastan por función o prompt mientras desarrollan.",
+  "solucion": "Extensión VS Code que registra tokens y costo por llamada LLM en el código y alerta por presupuesto.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Búsqueda 'llm cost' en VS Code Marketplace y Hacker News Show HN.",
+  "competidores": [
+   "Helicone",
+   "Langfuse",
+   "LangSmith"
+  ],
+  "por_que_ahora": "Gasto en LLM crece y se cuestiona.",
+  "ventaja_juan": "Backend con Node y Python para instrumentar.",
+  "riesgo_principal": "Los proveedores añaden dashboards propios.",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "costo de LLM"
+ },
+ {
+  "id": "G07-10",
+  "nombre": "Agent Guard",
+  "cliente_que_paga": "Equipos técnicos que usan agentes IA de código",
+  "problema": "Agentes ejecutan comandos o leen secretos sin control.",
+  "solucion": "Extensión VS Code que audita y bloquea acciones de agentes (shell, red, archivos sensibles) con políticas.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda 'ai agent security' en VS Code Marketplace, Hacker News, comunidades de Claude Code y Cursor.",
+  "competidores": [
+   "Controles nativos de cada agente",
+   "Herramientas de seguridad emergentes (sin verificar)"
+  ],
+  "por_que_ahora": "Adopción masiva de agentes de código.",
+  "ventaja_juan": "Backend senior capaz de construir el hook layer.",
+  "riesgo_principal": "Los agentes integran estas funciones de forma nativa (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "seguridad de agentes IA"
+ },
+ {
+  "id": "G07-11",
+  "nombre": "Prompt Diff",
+  "cliente_que_paga": "Ingenieros que mantienen prompts de LLM",
+  "problema": "Cambiar un prompt rompe comportamiento sin que se note.",
+  "solucion": "Extensión VS Code que corre un set de casos contra versiones del prompt y muestra diferencias de salida.",
+  "precio_usd_mes": 14,
+  "canal_primeros_100": "Búsqueda 'prompt testing' en VS Code Marketplace y comunidades de LLM Ops.",
+  "competidores": [
+   "Promptfoo",
+   "LangSmith"
+  ],
+  "por_que_ahora": "Prompts en producción se tratan como código.",
+  "ventaja_juan": "Experiencia backend y testing.",
+  "riesgo_principal": "Promptfoo es gratuito y fuerte (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "pruebas de prompts"
+ },
+ {
+  "id": "G07-12",
+  "nombre": "Env Secret Sentinel",
+  "cliente_que_paga": "Desarrolladores y equipos pequeños",
+  "problema": "Se filtran claves .env en commits y capturas.",
+  "solucion": "Extensión VS Code/JetBrains que detecta secretos, los oculta en pantalla y bloquea commits.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Búsqueda 'secrets' en VS Code Marketplace y JetBrains Marketplace.",
+  "competidores": [
+   "GitGuardian",
+   "gitleaks",
+   "GitHub secret scanning"
+  ],
+  "por_que_ahora": "Filtraciones frecuentes con agentes IA.",
+  "ventaja_juan": "Backend senior.",
+  "riesgo_principal": "Incumbentes gratuitos y nativos (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "filtrado de secretos"
+ },
+ {
+  "id": "G07-13",
+  "nombre": "Modbus Workbench",
+  "cliente_que_paga": "Integradores y técnicos de automatización",
+  "problema": "Probar comunicaciones Modbus/OPC UA requiere herramientas de escritorio separadas.",
+  "solucion": "Extensión VS Code con cliente/simulador Modbus TCP y OPC UA, y scripts reproducibles.",
+  "precio_usd_mes": 14,
+  "canal_primeros_100": "Búsqueda 'modbus' en VS Code Marketplace, PLCTalk, r/PLC.",
+  "competidores": [
+   "Modbus Poll",
+   "QModMaster",
+   "simuladores gratuitos"
+  ],
+  "por_que_ahora": "Ingeniería industrial moviéndose hacia flujos de código.",
+  "ventaja_juan": "Conocimiento de PLC y protocolos industriales.",
+  "riesgo_principal": "Herramientas gratuitas cubren lo básico (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "pruebas Modbus OPC"
+ },
+ {
+  "id": "G07-14",
+  "nombre": "PLC Git Diff",
+  "cliente_que_paga": "Equipos de automatización con control de versiones",
+  "problema": "Los proyectos de TIA Portal y Studio 5000 son binarios y no se comparan bien en Git.",
+  "solucion": "Plugin que convierte exportaciones de PLC a texto comparable y muestra diffs legibles en el editor.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Búsqueda 'PLC version control' en foros PLCTalk, LinkedIn de automatización y SEO.",
+  "competidores": [
+   "Versiones de control de los fabricantes (de pago, sin verificar)",
+   "Copia de Git de terceros (sin verificar)"
+  ],
+  "por_que_ahora": "Industria adoptando DevOps para PLC.",
+  "ventaja_juan": "Experiencia directa con TIA y Studio 5000.",
+  "riesgo_principal": "Requiere acceso a exportaciones propietarias.",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "control versiones PLC"
+ },
+ {
+  "id": "G07-15",
+  "nombre": "Test Data Forge",
+  "cliente_que_paga": "Desarrolladores y QA",
+  "problema": "Generar datos de prueba realistas con relaciones es tedioso.",
+  "solucion": "Plugin JetBrains/VS Code que genera datos coherentes desde el schema de base de datos o tipos TypeScript.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Búsqueda 'test data' en JetBrains Marketplace y SEO 'generate mock data from schema'.",
+  "competidores": [
+   "Faker",
+   "Mockaroo"
+  ],
+  "por_que_ahora": "Esquemas tipados y entornos de prueba con IA.",
+  "ventaja_juan": "Backend con TypeScript y bases de datos.",
+  "riesgo_principal": "Faker es gratis y suficiente (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "datos de prueba"
+ },
+ {
+  "id": "G07-16",
+  "nombre": "Regex Explainer Pro",
+  "cliente_que_paga": "Desarrolladores de todos los niveles",
+  "problema": "Regex complejos son ilegibles y difíciles de depurar.",
+  "solucion": "Extensión VS Code con explicación visual, pruebas en línea y generación de regex desde ejemplos.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "Búsqueda 'regex' en VS Code Marketplace.",
+  "competidores": [
+   "regex101",
+   "extensiones gratuitas (sin verificar)"
+  ],
+  "por_que_ahora": "Asistentes IA hacen más fácil el generado.",
+  "ventaja_juan": "Ninguna especial.",
+  "riesgo_principal": "Precio bajo y competencia gratuita (F1, F5).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "explicador regex"
+ },
+ {
+  "id": "G07-17",
+  "nombre": "Docker Compose Doctor",
+  "cliente_que_paga": "Desarrolladores y DevOps",
+  "problema": "Archivos compose mal configurados causan fallas silenciosas.",
+  "solucion": "Extensión VS Code que valida compose, detecta puertos en conflicto, vulnerabilidades y sugerencias de buenas prácticas.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Búsqueda 'docker compose' en VS Code Marketplace.",
+  "competidores": [
+   "Docker extension de Microsoft",
+   "Hadolint"
+  ],
+  "por_que_ahora": "Compose omnipresente en desarrollo local.",
+  "ventaja_juan": "Backend senior.",
+  "riesgo_principal": "Docker extension ya cubre gran parte (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "validación Docker Compose"
+ },
+ {
+  "id": "G07-18",
+  "nombre": "Next.js Perf Lens",
+  "cliente_que_paga": "Desarrolladores React/Next.js",
+  "problema": "Problemas de rendimiento de Server Components se ven tarde.",
+  "solucion": "Plugin VS Code que marca en línea Client/Server boundaries, tamaño de bundle e hidratación innecesaria.",
+  "precio_usd_mes": 10,
+  "canal_primeros_100": "Búsqueda 'next.js' en VS Code Marketplace y comunidad Next.js.",
+  "competidores": [
+   "Next.js DevTools",
+   "Bundle Analyzer"
+  ],
+  "por_que_ahora": "App Router sigue generando confusión.",
+  "ventaja_juan": "Stack React/Next.js propio.",
+  "riesgo_principal": "Vercel puede incorporarlo nativo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "rendimiento Next.js"
+ },
+ {
+  "id": "G07-19",
+  "nombre": "Onboarding Map",
+  "cliente_que_paga": "Líderes técnicos que incorporan ingenieros",
+  "problema": "Nuevos ingenieros tardan semanas en entender un repositorio.",
+  "solucion": "Extensión VS Code que genera mapas navegables de arquitectura y recorridos guiados del código.",
+  "precio_usd_mes": 20,
+  "canal_primeros_100": "Búsqueda 'codebase onboarding' en VS Code Marketplace y comunidades de engineering managers.",
+  "competidores": [
+   "Sourcegraph",
+   "CodeSee (estado sin verificar)",
+   "asistentes IA"
+  ],
+  "por_que_ahora": "Rotación y equipos distribuidos.",
+  "ventaja_juan": "Backend senior con muchos repos.",
+  "riesgo_principal": "Asistentes IA hacen esto de forma nativa (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "onboarding de código"
+ },
+ {
+  "id": "G07-20",
+  "nombre": "Bambu Slice Script",
+  "cliente_que_paga": "Makers avanzados y granjas de impresión",
+  "problema": "Automatizar laminado y cola de impresión requiere scripts frágiles.",
+  "solucion": "Extensión VS Code para scripts de laminado por lotes, perfiles y envío a impresoras vía API local.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda 'print farm' en VS Code Marketplace, r/3Dprinting, Discord de comunidades.",
+  "competidores": [
+   "OctoPrint",
+   "Mainsail",
+   "Obico"
+  ],
+  "por_que_ahora": "Crecimiento de granjas de impresión pequeñas.",
+  "ventaja_juan": "Firmware de impresoras 3D.",
+  "riesgo_principal": "Depende de APIs cerradas de fabricantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "automatización granja 3D"
+ }
+]

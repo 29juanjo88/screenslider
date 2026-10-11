@@ -1,0 +1,385 @@
+[
+ {
+  "id": "G16-01",
+  "nombre": "Peppol Invoice Validator API",
+  "cliente_que_paga": "Developers de SaaS/ERP que emiten e-facturas UE",
+  "problema": "Deben emitir facturas Peppol BIS/EN16931 válidas y los errores de validación son crípticos.",
+  "solucion": "API y CLI que valida y repara UBL/CII contra EN16931 y reglas nacionales, con mensajes legibles.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'peppol validator api', GitHub, directorios de APIs, posts en dev.to",
+  "competidores": [
+   "Storecove",
+   "Billit",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Mandatos e-invoicing B2B en Bélgica (2026), Polonia, Francia y la ley ViDA con fechas límite.",
+  "ventaja_juan": "Backend senior en Node/TS y XML/validación de esquemas.",
+  "riesgo_principal": "Los proveedores de acceso Peppol pueden incluir validación gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "e-invoicing UE validación"
+ },
+ {
+  "id": "G16-02",
+  "nombre": "EAA Accessibility Audit CI",
+  "cliente_que_paga": "Equipos frontend de ecommerce/SaaS vendiendo en UE",
+  "problema": "El European Accessibility Act exige conformidad WCAG y no saben qué falla en cada release.",
+  "solucion": "GitHub Action que audita WCAG 2.2 en PRs, genera declaración de accesibilidad y reporte exportable.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "GitHub Marketplace 'accessibility audit action', SEO 'EAA compliance checklist'",
+  "competidores": [
+   "axe DevTools",
+   "Pa11y",
+   "Lighthouse (gratis)"
+  ],
+  "por_que_ahora": "EAA aplica desde junio de 2025 y las multas llegan por país.",
+  "ventaja_juan": "Backend/React; automatización de CI.",
+  "riesgo_principal": "Lighthouse/axe gratis cubren parte (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "accesibilidad EAA CI"
+ },
+ {
+  "id": "G16-03",
+  "nombre": "Shopify EAA Accessibility Scanner",
+  "cliente_que_paga": "Dueños de tiendas Shopify que venden a UE",
+  "problema": "Temen multas EAA y no saben qué temas/apps rompen accesibilidad.",
+  "solucion": "App Shopify que escanea tienda, prioriza errores WCAG y sugiere fix en Liquid.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'accessibility' en Shopify App Store",
+  "competidores": [
+   "accessiBe",
+   "UserWay",
+   "sin verificar"
+  ],
+  "por_que_ahora": "EAA vigente y comerciantes buscan cumplimiento.",
+  "ventaja_juan": "Experiencia web/Next.js; Liquid sencillo.",
+  "riesgo_principal": "Dependencia de Shopify y overlays establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "Shopify accesibilidad"
+ },
+ {
+  "id": "G16-04",
+  "nombre": "Digital Product Passport Builder",
+  "cliente_que_paga": "Fabricantes medianos que exportan a la UE (textil, baterías, electrónica)",
+  "problema": "El ESPR/DPP exigirá pasaporte digital con datos de producto y QR por SKU.",
+  "solucion": "Plataforma que importa CSV/PLM, genera DPP con QR y JSON-LD alojado público.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'digital product passport software', LinkedIn/foros de manufactura, directorios de ESPR",
+  "competidores": [
+   "Circularise",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Reglamento de baterías UE exige pasaporte en 2027; ESPR avanza por categorías.",
+  "ventaja_juan": "Conocimiento industrial/BOM y datos de producto.",
+  "riesgo_principal": "Reglas delegadas aún sin definir; ciclo de compra largo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "pasaporte digital producto"
+ },
+ {
+  "id": "G16-05",
+  "nombre": "EU Battery Passport Generator",
+  "cliente_que_paga": "Fabricantes e importadores de baterías industriales/e-bikes",
+  "problema": "Deben cumplir el pasaporte de baterías UE con huella de carbono y trazabilidad.",
+  "solucion": "Formulario guiado que genera pasaporte, QR y registro de datos exigidos.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "SEO 'battery passport', foros de e-mobility, asociaciones comerciales (sin verificar)",
+  "competidores": [
+   "Circulor",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fecha límite febrero 2027 para baterías industriales y EV.",
+  "ventaja_juan": "Electrónica/industria; impresión 3D y firmware.",
+  "riesgo_principal": "Mercado reducido y requisitos cambiantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "pasaporte batería UE"
+ },
+ {
+  "id": "G16-06",
+  "nombre": "CBAM Importer Report Tool",
+  "cliente_que_paga": "Importadores UE de acero, aluminio, cemento y fertilizantes",
+  "problema": "Deben reportar emisiones incorporadas CBAM trimestralmente y el Excel oficial es doloroso.",
+  "solucion": "Web app que calcula emisiones desde datos del proveedor y exporta el informe XML/Excel.",
+  "precio_usd_mes": 129,
+  "canal_primeros_100": "SEO 'CBAM report template', LinkedIn en comunidades de aduanas",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fase definitiva CBAM desde 2026 con certificados.",
+  "ventaja_juan": "Datos de manufactura y cálculo de acero/aluminio.",
+  "riesgo_principal": "La normativa se simplifica o cambia; incumbentes de carbono.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "CBAM reporte importadores"
+ },
+ {
+  "id": "G16-07",
+  "nombre": "CSRD Supplier Data Collector",
+  "cliente_que_paga": "Empresas proveedoras de grandes cuentas con cuestionarios ESG",
+  "problema": "Reciben cuestionarios CSRD/Scope 3 distintos de cada cliente.",
+  "solucion": "Plantilla reutilizable que rellena respuestas ESG y las exporta en formatos de cada cliente.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'ESG questionnaire supplier', LinkedIn, directorios SaaS",
+  "competidores": [
+   "EcoVadis",
+   "Sphera",
+   "sin verificar"
+  ],
+  "por_que_ahora": "CSRD ola 2/3 trasladada a cadena de suministro.",
+  "ventaja_juan": "Backend y formularios dinámicos.",
+  "riesgo_principal": "Omnibus de la UE reduce alcance CSRD.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "ESG cuestionarios proveedores"
+ },
+ {
+  "id": "G16-08",
+  "nombre": "AI Act Risk Classifier",
+  "cliente_que_paga": "Product managers y legal ops de startups con features de IA",
+  "problema": "No saben si su sistema es de alto riesgo bajo el EU AI Act ni qué documentos requiere.",
+  "solucion": "Cuestionario guiado que clasifica riesgo y genera checklist y plantilla de documentación técnica.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'EU AI Act compliance checklist', Product Hunt, Hacker News",
+  "competidores": [
+   "Credo AI",
+   "Holistic AI",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Obligaciones GPAI desde agosto 2025 y alto riesgo en 2026-2027.",
+  "ventaja_juan": "Desarrollo con LLMs y plantillas.",
+  "riesgo_principal": "Retrasos o simplificación del AI Act.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "clasificador EU AI Act"
+ },
+ {
+  "id": "G16-09",
+  "nombre": "AI Act Annex IV Documentation",
+  "cliente_que_paga": "Equipos ML de proveedores de IA de alto riesgo",
+  "problema": "Deben producir documentación técnica Annex IV y no saben el formato.",
+  "solucion": "Repositorio que genera la documentación Annex IV desde model cards y registros de pruebas.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "GitHub, SEO 'annex iv technical documentation template', Hugging Face",
+  "competidores": [
+   "Credo AI",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Alto riesgo con fecha límite escalonada.",
+  "ventaja_juan": "Python y documentación técnica.",
+  "riesgo_principal": "Plataformas GRC lo absorben.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "documentación Annex IV"
+ },
+ {
+  "id": "G16-10",
+  "nombre": "LLM Usage Logger for AI Act",
+  "cliente_que_paga": "Developers integrando LLMs en productos regulados",
+  "problema": "Necesitan registros auditables de uso, entradas y salidas para transparencia/logging.",
+  "solucion": "SDK proxy open-core que registra llamadas con redacción de PII y exporta evidencias.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "GitHub, npm/PyPI, Hacker News, SEO 'llm audit logging'",
+  "competidores": [
+   "Langfuse",
+   "Helicone",
+   "sin verificar"
+  ],
+  "por_que_ahora": "El artículo 12 pide logging automático para alto riesgo.",
+  "ventaja_juan": "Node/TS, proxies.",
+  "riesgo_principal": "Observabilidad LLM gratis (Langfuse OSS).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "logging auditoría IA"
+ },
+ {
+  "id": "G16-11",
+  "nombre": "SEC Cyber 8-K Incident Playbook",
+  "cliente_que_paga": "CISOs y legal de empresas públicas pequeñas/medianas",
+  "problema": "Deben decidir materialidad y presentar 8-K Item 1.05 en 4 días hábiles.",
+  "solucion": "Workflow que guía materialidad, genera borrador de 8-K y cronograma.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'SEC 8-K item 1.05 template', LinkedIn, newsletters de ciberseguridad",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Regla de la SEC en vigor desde diciembre 2023 con litigios activos.",
+  "ventaja_juan": "Backend y documentos.",
+  "riesgo_principal": "No es asesoría legal; gran competencia gratuita en plantillas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "SEC incidente cibernético"
+ },
+ {
+  "id": "G16-12",
+  "nombre": "DORA Register of Information Tool",
+  "cliente_que_paga": "Fintech y proveedores TIC de entidades financieras UE",
+  "problema": "Deben mantener el registro de terceros TIC DORA en formato xBRL-CSV.",
+  "solucion": "Editor web que valida y exporta el registro de información DORA.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'DORA register of information template', LinkedIn",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "DORA aplica desde enero 2025, reportes anuales.",
+  "ventaja_juan": "Validación de esquemas; datos estructurados.",
+  "riesgo_principal": "Compradores en finanzas son lentos; reguladores publican herramientas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "DORA registro TIC"
+ },
+ {
+  "id": "G16-13",
+  "nombre": "NIS2 Compliance Tracker",
+  "cliente_que_paga": "Equipos de TI de empresas medianas UE en sectores críticos",
+  "problema": "NIS2 exige medidas y reporte de incidentes en 24 h y no tienen proceso.",
+  "solucion": "Tracker de controles NIS2, plantillas de políticas y reporte de incidentes.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'NIS2 compliance checklist', Reddit r/sysadmin, LinkedIn",
+  "competidores": [
+   "Vanta",
+   "Drata",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Transposición nacional en 2025-2026 con sanciones.",
+  "ventaja_juan": "Backend y seguridad.",
+  "riesgo_principal": "GRC grandes con presupuesto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "NIS2 cumplimiento"
+ },
+ {
+  "id": "G16-14",
+  "nombre": "CRA SBOM & Vulnerability Reporter",
+  "cliente_que_paga": "Fabricantes de productos con elementos digitales (IoT, firmware)",
+  "problema": "El Cyber Resilience Act exige SBOM y reporte de vulnerabilidades explotadas en 24 h.",
+  "solucion": "Herramienta que genera SBOM CycloneDX desde firmware/repos y gestiona reportes ENISA.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "GitHub Marketplace, SEO 'cyber resilience act sbom', foros embedded",
+  "competidores": [
+   "Dependency-Track (gratis)",
+   "Anchore",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Reporte obligatorio desde septiembre 2026 y el resto en diciembre 2027.",
+  "ventaja_juan": "Firmware de impresoras 3D y PLC; conoce el mundo embedded.",
+  "riesgo_principal": "SBOM tooling OSS gratis (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "CRA SBOM firmware"
+ },
+ {
+  "id": "G16-15",
+  "nombre": "Machinery Regulation Tech File",
+  "cliente_que_paga": "Fabricantes de maquinaria que venden a UE",
+  "problema": "El nuevo Machinery Regulation 2023/1230 exige expediente técnico y evaluación de riesgos digital.",
+  "solucion": "Plantilla web para expediente técnico, análisis de riesgos y declaración UE de conformidad.",
+  "precio_usd_mes": 119,
+  "canal_primeros_100": "SEO 'machinery regulation technical file', LinkedIn/foros de ingeniería",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Aplica desde enero 2027.",
+  "ventaja_juan": "PLC y seguridad de máquinas; conoce el sector.",
+  "riesgo_principal": "Plantillas de consultoras; ciclo lento.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "reglamento maquinaria UE"
+ },
+ {
+  "id": "G16-16",
+  "nombre": "GPSR Product Safety Label Tool",
+  "cliente_que_paga": "Vendedores de Amazon/Etsy/Shopify que venden a UE",
+  "problema": "El GPSR exige datos del responsable UE y etiquetado de seguridad.",
+  "solucion": "Generador de etiquetas y fichas por SKU, con exportación masiva a marketplaces.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'GPSR' en Shopify App Store y Amazon seller forums",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "GPSR vigente desde diciembre 2024.",
+  "ventaja_juan": "Backend y automatización de listings.",
+  "riesgo_principal": "Precio bajo exige muchos clientes (F5 límite).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "GPSR etiquetas seguridad"
+ },
+ {
+  "id": "G16-17",
+  "nombre": "EUDR Geolocation Validator",
+  "cliente_que_paga": "Importadores de cacao, café, madera y soja en la UE",
+  "problema": "Deben cargar geolocalización y declaración de diligencia debida al sistema TRACES.",
+  "solucion": "Valida GeoJSON de parcelas, genera la declaración y la envía por API.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "SEO 'EUDR due diligence statement', foros de comercio de commodities",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "EUDR pospuesto repetidamente; fecha en fin de 2026.",
+  "ventaja_juan": "Geodatos y APIs.",
+  "riesgo_principal": "Nuevo aplazamiento o simplificación.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "EUDR geolocalización"
+ },
+ {
+  "id": "G16-18",
+  "nombre": "California Privacy Opt-Out Tester",
+  "cliente_que_paga": "Equipos de privacidad de sitios con tráfico en EE. UU.",
+  "problema": "Deben probar que GPC y opt-outs CCPA funcionen realmente.",
+  "solucion": "Servicio que escanea sitios con navegador headless y verifica GPC, cookies y tags.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'GPC signal test', Reddit r/privacy, Product Hunt",
+  "competidores": [
+   "Cookiebot",
+   "OneTrust",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Aplicación creciente de CCPA/CPRA y leyes estatales nuevas.",
+  "ventaja_juan": "Node/Playwright.",
+  "riesgo_principal": "Escaneos gratis de CMPs.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "privacidad CCPA GPC"
+ },
+ {
+  "id": "G16-19",
+  "nombre": "PFAS Reporting Assistant",
+  "cliente_que_paga": "Fabricantes que usan componentes con PFAS (EE. UU. TSCA, UE)",
+  "problema": "Deben informar uso de PFAS por componente y proveedor.",
+  "solucion": "Importa BOM y consulta listas de sustancias para generar reporte.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'PFAS reporting TSCA', foros de manufactura",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "TSCA 8(a)(7) ventana de reporte 2026.",
+  "ventaja_juan": "BOM y manufactura.",
+  "riesgo_principal": "Reglas retrasadas y bases de datos de pago.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "reporte PFAS manufactura"
+ },
+ {
+  "id": "G16-20",
+  "nombre": "Accessible PDF Remediation (EAA)",
+  "cliente_que_paga": "Equipos de contenido/marketing de empresas que publican PDFs a clientes UE",
+  "problema": "El EAA exige documentos accesibles y sus PDFs no tienen etiquetas ni orden de lectura.",
+  "solucion": "Servicio web que autoetiqueta PDFs (PDF/UA), detecta fallos y exporta versión accesible por lotes.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'PDF/UA remediation tool' y 'make PDF accessible', Adobe/Acrobat foros",
+  "competidores": [
+   "Adobe Acrobat Pro",
+   "CommonLook",
+   "sin verificar"
+  ],
+  "por_que_ahora": "EAA vigente desde junio 2025 incluye documentos de servicios.",
+  "ventaja_juan": "Procesamiento de documentos y estructuras de datos en backend.",
+  "riesgo_principal": "Acrobat incluye autoetiquetado básico (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "PDF accesible EAA"
+ }
+]

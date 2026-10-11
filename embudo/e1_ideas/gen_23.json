@@ -1,0 +1,373 @@
+[
+ {
+  "id": "G23-01",
+  "nombre": "Amazon FBA Claims Auditor",
+  "cliente_que_paga": "Amazon FBA sellers with $20k+/mo revenue",
+  "problema": "Lost/damaged inbound inventory goes unclaimed and claim windows expire.",
+  "solucion": "Parse FBA reports, detect discrepancies, generate ready-to-file claim text and track deadlines.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Search 'FBA reimbursement' on r/FulfillmentByAmazon and SEO for 'FBA lost inventory claim'",
+  "competidores": [
+   "Helium 10",
+   "Jungle Scout",
+   "Threecolts"
+  ],
+  "por_que_ahora": "Sellers lose money weekly to unreconciled shipments.",
+  "ventaja_juan": "Backend report-parsing skill; software near free.",
+  "riesgo_principal": "Amazon SP-API access and policy changes.",
+  "evidencia_url": "https://painonsocial.com/blog/amazon-fba-issues-reddit",
+  "angulo": "23",
+  "tema": "reembolsos FBA"
+ },
+ {
+  "id": "G23-02",
+  "nombre": "Etsy 3D Print Order Router",
+  "cliente_que_paga": "Etsy sellers who 3D print products",
+  "problema": "Variations and orders must be manually mapped to STL files, filament and printers.",
+  "solucion": "Etsy order to print-job mapping with automatic queue, filament need and tracking updates.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Etsy seller forums, r/3Dprinting, r/EtsySellers, YouTube 3D print business creators",
+  "competidores": [
+   "Printago",
+   "SimplyPrint"
+  ],
+  "por_que_ahora": "Print-on-demand with home farms is booming.",
+  "ventaja_juan": "3D printer firmware and slicer knowledge.",
+  "riesgo_principal": "Printago/SimplyPrint already cover this.",
+  "evidencia_url": "https://printago.io/solutions/etsy-sellers",
+  "angulo": "23",
+  "tema": "Etsy impresion 3D"
+ },
+ {
+  "id": "G23-03",
+  "nombre": "Print Cost Calculator Listing",
+  "cliente_que_paga": "Etsy/TikTok 3D print sellers",
+  "problema": "Sellers underprice items without true cost per print.",
+  "solucion": "Upload STL/3MF, compute filament, time, power, failure rate and suggest marketplace prices after fees.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'etsy 3d print pricing calculator' and Printables/Reddit communities",
+  "competidores": [
+   "Free spreadsheets",
+   "3DPrinterOS"
+  ],
+  "por_que_ahora": "More hobbyists turn to selling prints.",
+  "ventaja_juan": "Deep 3D print slicing knowledge.",
+  "riesgo_principal": "Free calculators exist.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "calculo costo impresion"
+ },
+ {
+  "id": "G23-04",
+  "nombre": "Marketplace Fee Profit Simulator",
+  "cliente_que_paga": "Amazon/Etsy/eBay/TikTok multi-channel sellers",
+  "problema": "True per-SKU profit after fees, shipping and ads is unclear.",
+  "solucion": "Import orders from each marketplace and show net margin per SKU with alerts.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Chrome Web Store and Amazon seller Facebook groups",
+  "competidores": [
+   "Sellerboard",
+   "Sellerise"
+  ],
+  "por_que_ahora": "Fee changes are frequent.",
+  "ventaja_juan": "Fast backend/GraphQL integration.",
+  "riesgo_principal": "Crowded profit-analytics market.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "margen por SKU"
+ },
+ {
+  "id": "G23-05",
+  "nombre": "TikTok Shop Return Guard",
+  "cliente_que_paga": "TikTok Shop sellers",
+  "problema": "Refund and chargeback disputes are tracked by hand.",
+  "solucion": "Dashboard to detect abusive refund patterns and prepare dispute evidence.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "TikTok Shop seller Discord/Facebook groups and the TikTok Shop partner marketplace",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "TikTok Shop is growing fast in the US.",
+  "ventaja_juan": "API integrations.",
+  "riesgo_principal": "TikTok API limits and policy risk.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "disputas TikTok"
+ },
+ {
+  "id": "G23-06",
+  "nombre": "eBay Parts Fitment Fixer",
+  "cliente_que_paga": "eBay Motors parts sellers",
+  "problema": "Compatibility (fitment) tables are tedious to maintain.",
+  "solucion": "Bulk generate and validate fitment data from part numbers, with CSV export for eBay.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "eBay seller community forums and SEO 'ebay fitment bulk upload'",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Compatibility errors cause returns.",
+  "ventaja_juan": "Data pipelines; CAD part-number familiarity.",
+  "riesgo_principal": "eBay may build native tool.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "fitment eBay"
+ },
+ {
+  "id": "G23-07",
+  "nombre": "Amazon A+ Content Checker",
+  "cliente_que_paga": "Amazon brand owners",
+  "problema": "Listings get suppressed for policy issues unnoticed.",
+  "solucion": "Monitor listings daily for suppression, buy box loss and image compliance and alert by email.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Search 'amazon listing suppressed alert' and seller FB groups",
+  "competidores": [
+   "Helium 10",
+   "Sellerboard"
+  ],
+  "por_que_ahora": "Suppression happens more with AI-generated content.",
+  "ventaja_juan": "Monitoring scripts.",
+  "riesgo_principal": "Competes with suite tools.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "alertas listados"
+ },
+ {
+  "id": "G23-08",
+  "nombre": "CAD to Etsy Mockups",
+  "cliente_que_paga": "Etsy sellers of custom engraved/cut products",
+  "problema": "Product photos for custom items take hours.",
+  "solucion": "Upload DXF/STL and get photo-realistic mockups ready for Etsy listings.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Etsy seller YouTube and Pinterest, SEO 'laser cut etsy mockup'",
+  "competidores": [
+   "Placeit",
+   "Canva"
+  ],
+  "por_que_ahora": "AI renders are cheap now.",
+  "ventaja_juan": "CAD file handling.",
+  "riesgo_principal": "Canva/Placeit free tiers.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "mockups CAD"
+ },
+ {
+  "id": "G23-09",
+  "nombre": "Customs Forms Multi-Marketplace",
+  "cliente_que_paga": "Cross-border Etsy/eBay sellers",
+  "problema": "HS codes and customs declarations are error-prone.",
+  "solucion": "Suggest HS codes from listing text and generate customs forms per marketplace order.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Search 'HS code finder etsy' and Etsy forum",
+  "competidores": [
+   "Zonos",
+   "Easyship"
+  ],
+  "por_que_ahora": "De minimis changes raised duties.",
+  "ventaja_juan": "API work.",
+  "riesgo_principal": "Carriers integrate natively.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "codigos HS"
+ },
+ {
+  "id": "G23-10",
+  "nombre": "Review Response Autopilot",
+  "cliente_que_paga": "Amazon brand sellers",
+  "problema": "Negative reviews and Q&A go unanswered.",
+  "solucion": "Draft compliant replies and flag review manipulation for removal reports.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Amazon seller subreddits and SEO",
+  "competidores": [
+   "Jungle Scout",
+   "Helium 10"
+  ],
+  "por_que_ahora": "LLMs make drafting cheap.",
+  "ventaja_juan": "Python automation.",
+  "riesgo_principal": "Amazon rules restrict automation.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "gestion reseñas"
+ },
+ {
+  "id": "G23-11",
+  "nombre": "Inventory Sync Etsy eBay",
+  "cliente_que_paga": "Multi-channel handmade sellers",
+  "problema": "Overselling when stock sells on two channels.",
+  "solucion": "Single-stock sync across Etsy, eBay, Amazon with buffer rules.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Etsy app directories and r/EtsySellers",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Sellers diversify away from Etsy.",
+  "ventaja_juan": "Backend sync.",
+  "riesgo_principal": "Crowded space.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "sync inventario"
+ },
+ {
+  "id": "G23-12",
+  "nombre": "Packaging Dimension Optimizer",
+  "cliente_que_paga": "Amazon FBA sellers",
+  "problema": "Oversize fees from incorrect box sizes.",
+  "solucion": "Input product dims, suggest packaging to minimize FBA fee tier, with 3D fit preview.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'FBA size tier calculator' and seller forums",
+  "competidores": [
+   "Amazon FBA revenue calculator (free)"
+  ],
+  "por_que_ahora": "Fee tiers rose.",
+  "ventaja_juan": "3D/CAD geometry packing.",
+  "riesgo_principal": "Amazon calculator is free.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "empaque FBA"
+ },
+ {
+  "id": "G23-13",
+  "nombre": "Seller Account Health Monitor",
+  "cliente_que_paga": "Amazon sellers",
+  "problema": "Suspensions come without warning.",
+  "solucion": "Track metrics and generate plan-of-action drafts for appeals.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Seller Central forums and FB groups",
+  "competidores": [
+   "Seller 365",
+   "Threecolts"
+  ],
+  "por_que_ahora": "Suspension rates high.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Amazon API changes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "salud de cuenta"
+ },
+ {
+  "id": "G23-14",
+  "nombre": "Laser Cut Etsy Quote Widget",
+  "cliente_que_paga": "Etsy custom laser cut sellers",
+  "problema": "Custom orders require manual quotes.",
+  "solucion": "Customer uploads DXF, instant price quote with Etsy custom order link.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Etsy forums, r/lasercutting",
+  "competidores": [
+   "Xometry"
+  ],
+  "por_que_ahora": "Custom products grow.",
+  "ventaja_juan": "DXF expertise.",
+  "riesgo_principal": "Etsy API limits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "cotizacion DXF"
+ },
+ {
+  "id": "G23-15",
+  "nombre": "Competitor Price Tracker eBay",
+  "cliente_que_paga": "eBay resellers",
+  "problema": "Manual price checks.",
+  "solucion": "Auto repricing rules and alerts.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "eBay forums",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Margins thin.",
+  "ventaja_juan": "Scraping skill.",
+  "riesgo_principal": "TOS limits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "repricing eBay"
+ },
+ {
+  "id": "G23-16",
+  "nombre": "Product Label Generator",
+  "cliente_que_paga": "Amazon FBA sellers",
+  "problema": "FNSKU labels need exact format.",
+  "solucion": "Generate label PDFs for thermal printers from reports.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'FNSKU label pdf'",
+  "competidores": [
+   "Amazon native"
+  ],
+  "por_que_ahora": "Always.",
+  "ventaja_juan": "Printer firmware knowledge.",
+  "riesgo_principal": "Native tools free.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "etiquetas FBA"
+ },
+ {
+  "id": "G23-17",
+  "nombre": "Etsy SEO Rank Tracker",
+  "cliente_que_paga": "Etsy sellers",
+  "problema": "Rank unknown per keyword.",
+  "solucion": "Daily rank tracking for listings.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Etsy forums, YouTube",
+  "competidores": [
+   "eRank",
+   "Marmalead"
+  ],
+  "por_que_ahora": "Etsy search changes.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Incumbents entrenched.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "rank Etsy"
+ },
+ {
+  "id": "G23-18",
+  "nombre": "TikTok Shop Sample Manager",
+  "cliente_que_paga": "TikTok Shop sellers",
+  "problema": "Affiliate sample requests tracked by sheet.",
+  "solucion": "CRM for creator samples and commissions.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "TikTok seller groups",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Affiliate model boom.",
+  "ventaja_juan": "CRUD apps.",
+  "riesgo_principal": "Platform dependence.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "muestras creadores"
+ },
+ {
+  "id": "G23-19",
+  "nombre": "Supplier PO Tracker Sellers",
+  "cliente_que_paga": "Amazon sellers importing from China",
+  "problema": "POs, shipments and QC reports scattered.",
+  "solucion": "Track POs, ocean freight and inbound with reorder alerts.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Amazon FB groups, SEO",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Tariff volatility.",
+  "ventaja_juan": "Industrial/manufacturing flow familiarity.",
+  "riesgo_principal": "Spreadsheet inertia.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "ordenes compra"
+ },
+ {
+  "id": "G23-20",
+  "nombre": "Amazon Listing Image Compliance Checker",
+  "cliente_que_paga": "Amazon sellers",
+  "problema": "Main images rejected for white-background and size rules.",
+  "solucion": "Upload images, auto-check and fix compliance before submit.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'amazon main image requirements checker'",
+  "competidores": [
+   "Photoroom"
+  ],
+  "por_que_ahora": "Image rules tighten.",
+  "ventaja_juan": "Image processing.",
+  "riesgo_principal": "Amazon may add native checks.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "imagenes Amazon"
+ }
+]

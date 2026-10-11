@@ -1,0 +1,369 @@
+[
+ {
+  "id": "G26-01",
+  "nombre": "QuoteFromCAD for Freelance Engineers",
+  "cliente_que_paga": "Ingenieros mecánicos freelance",
+  "problema": "Cotizar horas de diseño por proyecto a ojo y perder margen.",
+  "solucion": "Sube un STEP/DXF y obtiene estimación de horas y propuesta PDF basada en complejidad geométrica.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'freelance mechanical engineer proposal template' (SEO) y r/MechanicalEngineering",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Freelance técnico en auge y herramientas de geometría abiertas.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Estimación de horas poco fiable al inicio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "cotización CAD freelance"
+ },
+ {
+  "id": "G26-02",
+  "nombre": "PermitPack for Solo Architects",
+  "cliente_que_paga": "Arquitectos independientes",
+  "problema": "Armar paquetes de planos y checklist de permisos por jurisdicción es manual.",
+  "solucion": "Checklist de permisos por ciudad/condado y compilador de PDF con índice de hojas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'building permit checklist [city]' y comunidad r/architecture",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Permisos digitales en más ciudades.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Mantener datos por jurisdicción.",
+  "evidencia_url": "https://www.capterra.in/software/1103011/Architek",
+  "angulo": "26",
+  "tema": "permisos para arquitectos"
+ },
+ {
+  "id": "G26-03",
+  "nombre": "TM Fuzzy for Freelance Translators",
+  "cliente_que_paga": "Traductores freelance",
+  "problema": "Trados es caro y pesado; muchos solo necesitan memoria de traducción ligera.",
+  "solucion": "Memoria de traducción web ligera con importación TMX/XLIFF y búsqueda difusa.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Grupos de ProZ y SEO 'cheap CAT tool freelance'",
+  "competidores": [
+   "Trados",
+   "memoQ",
+   "Smartcat"
+  ],
+  "por_que_ahora": "Fatiga con herramientas complejas y precio alto de Trados.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Smartcat y otros con plan gratis (F1 posible).",
+  "evidencia_url": "https://www.capterra.com/p/151746/Trados-Studio/",
+  "angulo": "26",
+  "tema": "CAT tool ligera"
+ },
+ {
+  "id": "G26-04",
+  "nombre": "InvoiceHours for Therapists",
+  "cliente_que_paga": "Terapeutas privados",
+  "problema": "Facturas superbill para reembolso de seguros hechas a mano.",
+  "solucion": "Genera superbills con códigos CPT/ICD desde la agenda y exporta PDF.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'superbill generator' y grupos de Facebook de terapeutas en práctica privada",
+  "competidores": [
+   "SimplePractice",
+   "TherapyNotes"
+  ],
+  "por_que_ahora": "Más terapeutas fuera de red de seguros.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Incumbentes con función nativa (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "superbill terapeutas"
+ },
+ {
+  "id": "G26-05",
+  "nombre": "DXF Check for Laser Freelancers",
+  "cliente_que_paga": "Diseñadores/ingenieros que envían DXF a talleres láser",
+  "problema": "Archivos DXF rechazados por geometría abierta o duplicada.",
+  "solucion": "Validador y reparador automático de DXF con reporte, vía web y API.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'dxf repair online' y foros de r/lasercutting",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Aumento de servicios de corte bajo demanda.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Herramientas gratuitas parciales.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "validador DXF"
+ },
+ {
+  "id": "G26-06",
+  "nombre": "CPD Tracker for Licensed Professionals",
+  "cliente_que_paga": "Ingenieros y arquitectos con licencia",
+  "problema": "Rastrear horas de educación continua por estado/colegio con requisitos distintos.",
+  "solucion": "Registro de certificados con alertas por renovación según jurisdicción.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'PE continuing education tracker' y subreddit r/engineering",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Renovaciones obligatorias recurrentes.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Precio bajo exige volumen alto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "créditos CPD licencias"
+ },
+ {
+  "id": "G26-07",
+  "nombre": "ConsultBrief Client Portal",
+  "cliente_que_paga": "Consultores independientes",
+  "problema": "Compartir entregables, aprobaciones y facturas en correos dispersos.",
+  "solucion": "Portal con marca propia para entregables, comentarios y pagos Stripe.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Product Hunt y SEO 'client portal for consultants'",
+  "competidores": [
+   "Dubsado",
+   "HoneyBook"
+  ],
+  "por_que_ahora": "Consultores buscan alternativas a suites caras.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Mercado saturado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "portal de clientes"
+ },
+ {
+  "id": "G26-08",
+  "nombre": "Gcode Quote for 3D Print Freelancers",
+  "cliente_que_paga": "Diseñadores que venden impresión 3D bajo pedido",
+  "problema": "Calcular precio de piezas según tiempo, filamento y desgaste.",
+  "solucion": "Sube STL/G-code y obtiene precio, tiempo y presupuesto PDF.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Reddit r/3Dprinting y SEO '3d print cost calculator'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de microtalleres 3D.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Calculadoras gratuitas (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G26-09",
+  "nombre": "P&ID Redline for PLC Freelancers",
+  "cliente_que_paga": "Ingenieros de control freelance",
+  "problema": "Documentar cambios de PLC y generar hojas de comisionamiento a mano.",
+  "solucion": "Importa tags de TIA/Studio 5000 y genera documentación y checklist FAT/SAT.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Foros de PLCs (Control.com, r/PLC) y SEO 'PLC documentation generator'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Retiro de expertos y consultores independientes en alza.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP. Experiencia directa en PLC.",
+  "riesgo_principal": "Formatos propietarios cambian.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "documentación PLC"
+ },
+ {
+  "id": "G26-10",
+  "nombre": "Retainer Pulse for Consultants",
+  "cliente_que_paga": "Consultores con retainers",
+  "problema": "No saben cuándo un cliente consume más horas de lo pactado.",
+  "solucion": "Seguimiento de horas contra retainer con alertas y resumen mensual automático.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de Notion/Slack y SEO 'retainer tracking'",
+  "competidores": [
+   "Harvest",
+   "Toggl"
+  ],
+  "por_que_ahora": "Retainers más comunes tras 2020.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Incumbentes con funciones similares.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "seguimiento de retainers"
+ },
+ {
+  "id": "G26-11",
+  "nombre": "RFP Radar for Solo Consultants",
+  "cliente_que_paga": "Consultores y arquitectos independientes",
+  "problema": "Perder licitaciones públicas por no verlas a tiempo.",
+  "solucion": "Alertas filtradas de RFPs públicos con resumen IA.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'government RFP alerts for consultants' y LinkedIn orgánico",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Mejor acceso a datos abiertos de contrataciones.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Calidad de datos por país.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "alertas de RFP"
+ },
+ {
+  "id": "G26-12",
+  "nombre": "Glossary Guard for Translators",
+  "cliente_que_paga": "Traductores freelance",
+  "problema": "Terminología inconsistente entre proyectos del mismo cliente.",
+  "solucion": "Plugin que valida glosarios del cliente en DOCX y avisa incumplimientos.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Foros ProZ y listados de Word add-ins",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Clientes envían glosarios obligatorios.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Trados y memoQ lo cubren.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "control terminológico"
+ },
+ {
+  "id": "G26-13",
+  "nombre": "BIM Quantity Takeoff Lite",
+  "cliente_que_paga": "Arquitectos y estimadores freelance",
+  "problema": "Extraer cantidades de IFC/Revit exige licencias caras.",
+  "solucion": "Sube IFC y exporta metrados a Excel con precios editables.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'ifc quantity takeoff' y r/BIM",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Adopción de IFC abierto.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Visores gratuitos con exportación.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "metrados desde IFC"
+ },
+ {
+  "id": "G26-14",
+  "nombre": "SessionNotes Voice for Therapists",
+  "cliente_que_paga": "Terapeutas privados",
+  "problema": "Redactar notas clínicas consume tiempo sin facturar.",
+  "solucion": "Dictado a notas SOAP con plantillas, exportable sin almacenar PHI.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'SOAP note generator therapist' y grupos de Facebook",
+  "competidores": [
+   "Upheal",
+   "Mentalyc"
+  ],
+  "por_que_ahora": "IA de notas se normaliza.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Regulación de datos de salud (HIPAA).",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "notas clínicas IA"
+ },
+ {
+  "id": "G26-15",
+  "nombre": "Contract Clause Lib for Freelancers",
+  "cliente_que_paga": "Consultores y freelancers",
+  "problema": "Contratos copiados con cláusulas riesgosas.",
+  "solucion": "Biblioteca de cláusulas comentadas con generador de SOW (no es asesoría legal).",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'freelance contract template' y Product Hunt",
+  "competidores": [
+   "Bonsai"
+  ],
+  "por_que_ahora": "Más freelance global.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Plantillas gratuitas abundantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "cláusulas para freelancers"
+ },
+ {
+  "id": "G26-16",
+  "nombre": "Tolerance Stack API for Freelancers",
+  "cliente_que_paga": "Ingenieros mecánicos freelance",
+  "problema": "Cálculos de apilamiento de tolerancias en hojas Excel frágiles.",
+  "solucion": "Calculadora web de tolerancias 1D con reportes PDF y plantillas ISO.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'tolerance stack up calculator' y r/MechanicalEngineering",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Manufactura reshoring.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Herramientas gratuitas de nicho.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "apilamiento de tolerancias"
+ },
+ {
+  "id": "G26-17",
+  "nombre": "Slicer Profile Vault",
+  "cliente_que_paga": "Ingenieros freelance con impresión 3D",
+  "problema": "Perfiles de impresión dispersos entre máquinas y clientes.",
+  "solucion": "Repositorio versionado de perfiles de Cura/PrusaSlicer con parámetros validados.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Reddit r/3Dprinting y foros de Printables",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más impresoras por taller.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP. Firmware 3D.",
+  "riesgo_principal": "Mercado pequeño y gratuito.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "perfiles de slicer"
+ },
+ {
+  "id": "G26-18",
+  "nombre": "Time-Zone Booking for Global Freelancers",
+  "cliente_que_paga": "Traductores y consultores globales",
+  "problema": "Agendar con clientes en husos horarios distintos genera errores.",
+  "solucion": "Agenda con detección de zona, buffer y recordatorios multilingües.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Marketplace de Calendly alternativas y SEO",
+  "competidores": [
+   "Calendly",
+   "Cal.com"
+  ],
+  "por_que_ahora": "Trabajo remoto global.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Cal.com gratis (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "agenda multizona"
+ },
+ {
+  "id": "G26-19",
+  "nombre": "Fee Proposal Builder for Architects",
+  "cliente_que_paga": "Arquitectos independientes",
+  "problema": "Propuestas de honorarios sin referencias de fases ni benchmarks.",
+  "solucion": "Generador de propuestas por fases con benchmarks y firma electrónica.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "SEO 'architect fee proposal template' y r/architecture",
+  "competidores": [
+   "Architek"
+  ],
+  "por_que_ahora": "Presión de márgenes en prácticas pequeñas.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Competidores con módulos similares.",
+  "evidencia_url": "https://www.capterra.in/software/1103011/Architek",
+  "angulo": "26",
+  "tema": "propuestas de honorarios"
+ },
+ {
+  "id": "G26-20",
+  "nombre": "Delivery Check for Engineering Drawings",
+  "cliente_que_paga": "Ingenieros freelance",
+  "problema": "Entregar planos con errores de cajetín, escala o capas.",
+  "solucion": "Revisión automática de DXF/PDF contra checklist y estándar de cliente.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'drawing checker' y foros de AutoCAD",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más entrega remota de planos.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Incumbentes de CAD con scripts.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "revisión de planos"
+ }
+]

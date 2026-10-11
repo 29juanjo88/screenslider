@@ -1,0 +1,9 @@
+Rol: GENERADOR de ideas de software (agente 06 de 30). Responde en español.
+1) Lee /home/user/screenslider/embudo/brief.md completo (criterios, filtros, rúbrica, anclas, esquema).
+2) Tu ángulo: Canal: plugins de WordPress y WooCommerce (freemium a pro)
+3) Genera exactamente 20 ideas de software DISTINTAS entre sí, para mercado GLOBAL EN INGLÉS, que se vendan solas (sin equipo de ventas), con meta de US$10–50k MRR. Nada orientado a pymes mexicanas ni plantillas genéricas (bots de WhatsApp, contabilidad, cobranza). Cada idea debe pasar los filtros F1–F5 según tu mejor juicio y nombrar un canal CONCRETO para los primeros 100 clientes de pago. Prefiere nichos específicos con comprador claro a ideas amplias. Cuando sea natural, aprovecha la ventaja de Juan (software casi gratis + PLC/CAD/CAM/impresión 3D), pero no la fuerces.
+4) IMPORTANTE: la herramienta WebSearch es diferida; cárgala primero llamando a ToolSearch con query "select:WebSearch". Búsquedas web: MÁXIMO 3 (procura usar al menos 2) en total (úsalas para ver huecos o demanda en tu canal). Para competidores y precios no verificados, nombra solo los que conozcas con seguridad; si no estás seguro, escribe "sin verificar". NUNCA inventes URLs: evidencia_url es una URL real que viste en tus búsquedas o "sin verificar".
+5) Escribe /home/user/screenslider/embudo/e1_ideas/gen_06.json: una lista JSON de 20 objetos con exactamente estas claves:
+ id ("G06-01".."G06-20"), nombre, cliente_que_paga, problema, solucion, precio_usd_mes (número), canal_primeros_100, competidores (lista de strings), por_que_ahora, ventaja_juan, riesgo_principal, evidencia_url, angulo ("06"), tema (2–4 palabras, ej. "cotización CAD", "seguridad de agentes IA").
+ Textos breves (1–2 frases por campo). Valida con: python3 -c "import json;d=json.load(open('/home/user/screenslider/embudo/e1_ideas/gen_06.json'));assert len(d)==20"
+6) Respuesta final: solo "OK" y un resumen de 1–2 líneas (incluye cuántas búsquedas usaste).

@@ -1,0 +1,402 @@
+[
+ {
+  "id": "G17-01",
+  "nombre": "STL Shop Checkout",
+  "cliente_que_paga": "Vendedores de piezas impresas en 3D con tienda Shopify/WooCommerce",
+  "problema": "Cotizar piezas 3D a medida (volumen, material, tiempo) a mano antes de cobrar frena ventas.",
+  "solucion": "App que analiza el STL subido, calcula precio automático y cobra con Stripe en el carrito.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'instant quote 3D printing' en Shopify App Store y r/3Dprinting",
+  "competidores": [
+   "Craftcloud",
+   "Xometry (marketplace, no app)",
+   "Treatstock"
+  ],
+  "por_que_ahora": "Creciente número de makers que venden servicios de impresión 3D en línea.",
+  "ventaja_juan": "Conocimiento de firmware y geometría de impresoras 3D para estimar tiempo/material con precisión.",
+  "riesgo_principal": "Dependencia de Shopify; nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "cotización impresión 3D"
+ },
+ {
+  "id": "G17-02",
+  "nombre": "DXF Quote Pay",
+  "cliente_que_paga": "Talleres de corte láser/CNC con sitio web",
+  "problema": "Cotizan DXF por correo y pierden pedidos por lentitud; cobrar anticipo es manual.",
+  "solucion": "Widget que lee DXF, calcula precio por longitud de corte/material y cobra depósito con Stripe.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Foros r/CNC y r/lasercutting, SEO 'laser cutting instant quote widget'",
+  "competidores": [
+   "Xometry",
+   "SendCutSend (servicio propio)",
+   "Quotebeam"
+  ],
+  "por_que_ahora": "Talleres pequeños compiten con servicios instantáneos en línea.",
+  "ventaja_juan": "Experiencia CAD/CAM y parseo de DXF.",
+  "riesgo_principal": "Canal débil: talleres no buscan software activamente.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "cotizador DXF pagos"
+ },
+ {
+  "id": "G17-03",
+  "nombre": "Usage Billing Simulator",
+  "cliente_que_paga": "Product managers y fundadores de SaaS con cobro por uso",
+  "problema": "Cambiar a precios por uso sin simular ingresos genera sorpresas en facturación.",
+  "solucion": "Sube datos de uso históricos, simula planes y proyecta MRR/churn antes de lanzar.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'usage-based pricing calculator' y comunidades Indie Hackers y SaaStr",
+  "competidores": [
+   "ProfitWell (gratis)",
+   "Metronome",
+   "Orb"
+  ],
+  "por_que_ahora": "Auge del cobro por uso en SaaS de IA.",
+  "ventaja_juan": "Backend/GraphQL para ingerir datos y modelar.",
+  "riesgo_principal": "Los motores de facturación incluyen simuladores.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "simulación precios uso"
+ },
+ {
+  "id": "G17-04",
+  "nombre": "Stripe Failed Payment Sentinel",
+  "cliente_que_paga": "Dueños de SaaS pequeños en Stripe",
+  "problema": "Pagos fallidos silenciosos causan churn involuntario del 5-10% (sin verificar).",
+  "solucion": "Alertas y secuencias de reintento/emails con panel de recuperación sobre la API de Stripe.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Stripe App Marketplace y búsqueda 'recover failed payments Stripe'",
+  "competidores": [
+   "Churnkey",
+   "Baremetrics Recover",
+   "Stripe Smart Retries (gratis)"
+  ],
+  "por_que_ahora": "Más SaaS indie en Stripe y apps de Stripe marketplace maduras.",
+  "ventaja_juan": "Node/TypeScript y webhooks.",
+  "riesgo_principal": "F1 parcial: Stripe tiene reintentos nativos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "recuperación pagos fallidos"
+ },
+ {
+  "id": "G17-05",
+  "nombre": "VAT Threshold Watch",
+  "cliente_que_paga": "Vendedores digitales globales y creadores",
+  "problema": "No saben cuándo superan umbrales de IVA/sales tax por país y reciben multas.",
+  "solucion": "Conecta Stripe/Gumroad, monitorea umbrales por jurisdicción y alerta antes de cruzarlos.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'EU VAT threshold digital goods' y r/Entrepreneur",
+  "competidores": [
+   "Quaderno",
+   "TaxJar",
+   "Paddle (merchant of record)"
+  ],
+  "por_que_ahora": "Reglas de IVA digital y nexus económico en EE.UU. cada vez más estrictas.",
+  "ventaja_juan": "Backend e integraciones API.",
+  "riesgo_principal": "Datos fiscales desactualizados generan responsabilidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "umbrales impuestos digitales"
+ },
+ {
+  "id": "G17-06",
+  "nombre": "Invoice PDF API",
+  "cliente_que_paga": "Desarrolladores de SaaS que generan facturas",
+  "problema": "Generar PDFs de facturas conformes por país es tedioso.",
+  "solucion": "API que recibe JSON y devuelve PDF/Facturae/ZUGFeRD con plantillas.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'invoice pdf api' y directorios de APIs (RapidAPI)",
+  "competidores": [
+   "Invoice Ninja",
+   "Docmosis",
+   "PDFShift"
+  ],
+  "por_que_ahora": "Mandatos de e-facturación en la UE.",
+  "ventaja_juan": "Python/Node, generación de documentos.",
+  "riesgo_principal": "Mercado atendido por muchas bibliotecas gratuitas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "API facturas PDF"
+ },
+ {
+  "id": "G17-07",
+  "nombre": "Webhook Replay Vault",
+  "cliente_que_paga": "Equipos de desarrollo que integran Stripe/PayPal/Shopify",
+  "problema": "Webhooks de pagos perdidos o duplicados rompen la contabilidad.",
+  "solucion": "Gateway que guarda, reintenta y reproduce webhooks con idempotencia y alertas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'webhook retry Stripe' en Stack Overflow, Hacker News",
+  "competidores": [
+   "Hookdeck",
+   "Svix",
+   "Convoy"
+  ],
+  "por_que_ahora": "Más integraciones de pagos entre proveedores.",
+  "ventaja_juan": "Backend senior con colas y fiabilidad.",
+  "riesgo_principal": "Competidores con financiamiento.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "fiabilidad webhooks pagos"
+ },
+ {
+  "id": "G17-08",
+  "nombre": "License Key Drop",
+  "cliente_que_paga": "Desarrolladores indie que venden software de escritorio",
+  "problema": "Gestionar licencias, activaciones y pagos requiere código a medida.",
+  "solucion": "Servicio con claves de licencia, activaciones por máquina y checkout con Stripe/Paddle.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Búsqueda 'software licensing for indie apps' y r/SideProject",
+  "competidores": [
+   "Keygen",
+   "LemonSqueezy (incluye licencias)",
+   "Gumroad (licencias básicas)"
+  ],
+  "por_que_ahora": "Auge de apps indie y venta directa fuera de tiendas.",
+  "ventaja_juan": "Experiencia con software industrial con licencias.",
+  "riesgo_principal": "F1 parcial: plataformas ya incluyen licencias.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "licencias software indie"
+ },
+ {
+  "id": "G17-09",
+  "nombre": "CAD File Paywall",
+  "cliente_que_paga": "Diseñadores que venden modelos 3D/CAD",
+  "problema": "Entregar STEP/STL con vista previa y protección contra reventa es manual.",
+  "solucion": "Tienda embebible con visor 3D, marca de agua y entrega por pago con enlace temporal.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'sell 3D models online' y comunidades Printables/Thingiverse",
+  "competidores": [
+   "Gumroad",
+   "Cults3D",
+   "CGTrader"
+  ],
+  "por_que_ahora": "Creadores monetizan modelos fuera de marketplaces con comisiones.",
+  "ventaja_juan": "Conocimiento de formatos CAD/STL/STEP.",
+  "riesgo_principal": "Creadores prefieren plataformas con audiencia.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "venta modelos CAD"
+ },
+ {
+  "id": "G17-10",
+  "nombre": "Pricing Page A/B Lab",
+  "cliente_que_paga": "Fundadores de SaaS con tráfico moderado",
+  "problema": "Cambiar precios sin medir impacto en conversión.",
+  "solucion": "Test A/B de páginas de precios con Stripe, midiendo ARPU y churn.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'pricing page ab test saas' y Product Hunt",
+  "competidores": [
+   "Price Intelligently",
+   "Optimizely",
+   "Statsig"
+  ],
+  "por_que_ahora": "Presión por optimizar precios en SaaS de IA.",
+  "ventaja_juan": "React/Next.js y analítica.",
+  "riesgo_principal": "Herramientas generales de experimentación cubren el uso.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "pruebas precios SaaS"
+ },
+ {
+  "id": "G17-11",
+  "nombre": "Dunning Email Writer",
+  "cliente_que_paga": "Equipos de customer success en SaaS B2B",
+  "problema": "Emails de cobro mal escritos aumentan tensión y no cobran.",
+  "solucion": "Generador de secuencias de dunning por tono/segmento con envío vía SMTP.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'dunning email templates' y Stripe Marketplace",
+  "competidores": [
+   "Churnkey",
+   "Chargebee",
+   "Stripe (plantillas nativas)"
+  ],
+  "por_que_ahora": "IA hace posible personalizar a escala.",
+  "ventaja_juan": "Backend y plantillas.",
+  "riesgo_principal": "Plantillas gratis en blogs.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "emails cobranza SaaS"
+ },
+ {
+  "id": "G17-12",
+  "nombre": "Affiliate Payout Hub",
+  "cliente_que_paga": "Creadores y SaaS con programa de afiliados",
+  "problema": "Pagar comisiones a afiliados internacionales es manual.",
+  "solucion": "Calcula comisiones desde Stripe y genera lotes de pago con reportes (sin custodiar fondos).",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'affiliate payouts Stripe' y Rewardful marketplace",
+  "competidores": [
+   "Rewardful",
+   "FirstPromoter",
+   "PartnerStack"
+  ],
+  "por_que_ahora": "Más SaaS lanzan afiliados como canal.",
+  "ventaja_juan": "API y automatización.",
+  "riesgo_principal": "Riesgo regulatorio al mover dinero; solo reportes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "pagos afiliados"
+ },
+ {
+  "id": "G17-13",
+  "nombre": "Pay-What-You-Want Embeds",
+  "cliente_que_paga": "Músicos y escritores independientes",
+  "problema": "Plataformas cobran comisión alta.",
+  "solucion": "Widget de pago flexible con Stripe y entrega digital.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Reddit r/WeAreTheMusicMakers y SEO 'pay what you want button'",
+  "competidores": [
+   "Gumroad",
+   "Ko-fi",
+   "Buy Me a Coffee"
+  ],
+  "por_que_ahora": "Creadores buscan alternativas con menos comisión.",
+  "ventaja_juan": "Software barato.",
+  "riesgo_principal": "F1: incumbentes gratuitos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "pago voluntario creadores"
+ },
+ {
+  "id": "G17-14",
+  "nombre": "MRR Metrics for Shopify Subscriptions",
+  "cliente_que_paga": "Dueños de tiendas Shopify con suscripciones",
+  "problema": "Pocos paneles de MRR/churn para suscripciones de Shopify.",
+  "solucion": "App con MRR, churn, LTV desde Recharge/Bold.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Shopify App Store 'subscription analytics'",
+  "competidores": [
+   "Recharge Analytics",
+   "Littledata",
+   "Triple Whale"
+  ],
+  "por_que_ahora": "Crecimiento de comercio por suscripción.",
+  "ventaja_juan": "GraphQL de Shopify.",
+  "riesgo_principal": "Dependencia de Shopify y Recharge.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "analítica suscripciones Shopify"
+ },
+ {
+  "id": "G17-15",
+  "nombre": "Print Farm Billing",
+  "cliente_que_paga": "Granjas de impresión 3D que cobran por pieza",
+  "problema": "Facturar clientes por horas de máquina y material es manual.",
+  "solucion": "Panel que lee estado de impresoras (Klipper/OctoPrint), calcula costo y emite factura Stripe.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Comunidades r/3Dprinting, Klipper Discord, SEO 'print farm management'",
+  "competidores": [
+   "3DPrinterOS",
+   "AstroPrint",
+   "Obico"
+  ],
+  "por_que_ahora": "Auge de granjas de impresión pequeñas.",
+  "ventaja_juan": "Firmware de impresoras 3D y APIs.",
+  "riesgo_principal": "Mercado pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "facturación granjas 3D"
+ },
+ {
+  "id": "G17-16",
+  "nombre": "Crypto-free Tip Jar API",
+  "cliente_que_paga": "Streamers y desarrolladores",
+  "problema": "Integrar propinas con alertas requiere código.",
+  "solucion": "API/widget para propinas con Stripe y alertas OBS.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Búsqueda 'stream tips Stripe' en r/Twitch",
+  "competidores": [
+   "StreamElements",
+   "Streamlabs",
+   "Ko-fi"
+  ],
+  "por_que_ahora": "Más streamers independientes.",
+  "ventaja_juan": "Node.",
+  "riesgo_principal": "F1: gratis y saturado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "propinas streamers"
+ },
+ {
+  "id": "G17-17",
+  "nombre": "Refund Abuse Detector",
+  "cliente_que_paga": "Tiendas de bienes digitales",
+  "problema": "Pérdidas por reembolsos fraudulentos repetidos.",
+  "solucion": "Detecta patrones de reembolso/contracargo y bloquea compradores.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Shopify App Store y Stripe Marketplace 'chargeback prevention'",
+  "competidores": [
+   "Chargeflow",
+   "Signifyd",
+   "Stripe Radar (nativo)"
+  ],
+  "por_que_ahora": "Más fraude con bienes digitales.",
+  "ventaja_juan": "Backend, ML ligero.",
+  "riesgo_principal": "F1 parcial: Radar nativo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "fraude reembolsos digitales"
+ },
+ {
+  "id": "G17-18",
+  "nombre": "Multi-currency Price Tuner",
+  "cliente_que_paga": "Tiendas Shopify globales",
+  "problema": "Precios fijos en dólares pierden conversión en otros países.",
+  "solucion": "Calcula precios psicológicos locales con tipo de cambio y poder adquisitivo.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Shopify App Store 'multi currency pricing'",
+  "competidores": [
+   "Shopify Markets (nativo)",
+   "Currency Converter Plus",
+   "Geolocation apps"
+  ],
+  "por_que_ahora": "Mayor comercio transfronterizo.",
+  "ventaja_juan": "Datos y APIs.",
+  "riesgo_principal": "F1: Shopify Markets cubre.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "precios multimoneda"
+ },
+ {
+  "id": "G17-19",
+  "nombre": "Quote-to-Cash for CNC Shops",
+  "cliente_que_paga": "Talleres CNC pequeños en EE.UU./UE",
+  "problema": "Pasan de cotización a factura en herramientas separadas.",
+  "solucion": "Cotiza, aprueba, cobra depósito y factura en un flujo con importación de CAD.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Foros Practical Machinist y Reddit r/machining",
+  "competidores": [
+   "Paperless Parts",
+   "ProShop",
+   "Xometry"
+  ],
+  "por_que_ahora": "Talleres digitalizan procesos.",
+  "ventaja_juan": "CAD/CAM y conocimiento de talleres.",
+  "riesgo_principal": "Canal difícil y competidores fuertes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "cotización a cobro CNC"
+ },
+ {
+  "id": "G17-20",
+  "nombre": "Subscription Pause Flow",
+  "cliente_que_paga": "Apps de suscripción pequeñas",
+  "problema": "Cancelaciones sin opción de pausa pierden clientes.",
+  "solucion": "Widget de pausa/descuento al cancelar con Stripe Billing.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Stripe App Marketplace 'cancel flow'",
+  "competidores": [
+   "ChurnZero",
+   "Churnkey",
+   "ProsperStack"
+  ],
+  "por_que_ahora": "Churn alto en SaaS.",
+  "ventaja_juan": "Next.js widgets.",
+  "riesgo_principal": "Competidores consolidados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "flujo cancelación suscripciones"
+ }
+]
