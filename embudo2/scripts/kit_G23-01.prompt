@@ -1,0 +1,16 @@
+Rol: PREPARADOR DE VALIDACIÓN para la idea G23-01 (Amazon FBA Claims Auditor). Responde en español (los textos para clientes van en inglés).
+Contexto: Juan (ingeniero de software backend en Guadalajara, construye SaaS solo) va a validar esta idea en 2 semanas SIN escribir producto: landing con lista de espera/preventa, 10 conversaciones con compradores y una métrica de corte.
+1) Lee /home/user/screenslider/embudo2/brief2.md, /home/user/screenslider/embudo2/d/G23-01/idea.json y /home/user/screenslider/embudo2/d/G23-01/juez.json (veredicto, condición, experimento). El plan aprobado es: Landing "Find the FBA reimbursements Amazon still owes you" con precio US$49/mes; auditoría gratis manual de reportes FBA (inbound/daños) sin escribir producto; publicar en r/FulfillmentByAmazon y grupos de sellers. Verifica también ReimburseOps, Helium 10 Managed Refund Service, Getida, Threecolts y la política de reembolso proactivo de Amazon (ventana de 60 días). Métrica: en 14 días ≥15 sellers suben reportes, monto mediano recuperable ≥US$150/mes y ≥5 prepagos de US$49; <3 prepagos = descartar.
+2) Búsqueda web: carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 8 búsquedas. Úsalas para encontrar: (a) lugares concretos donde están los compradores (subreddits, hilos de foro, grupos, comunidades) con URL real; (b) hilos existentes donde alguien pide esta solución o se queja del problema; (c) precios actuales de 2–3 competidores. Si no confirmas algo: "sin verificar". NUNCA inventes URLs, cifras ni nombres.
+3) Escribe /home/user/screenslider/embudo2/validacion/G23-01.md con estas secciones:
+ ## Hipótesis y métrica de corte (copiar del plan; 3 líneas)
+ ## Landing (en inglés): headline, subheadline, 3 beneficios, sección "How it works" en 3 pasos, bloque de precio y preventa, FAQ de 4 preguntas, CTA. Listo para pegar en Carrd/Framer.
+ ## Dónde están los compradores: 8–12 lugares con URL y por qué sirve cada uno.
+ ## Hilos con dolor real: hasta 6 URLs con una línea de qué dicen (o "no encontré" si no hay).
+ ## Competidores y precios verificados: tabla nombre | precio | qué cubre | URL.
+ ## Guion de entrevista (en inglés, 12 preguntas tipo Mom Test: pasado y hechos, no opiniones; termina pidiendo la preventa) + versión corta en español.
+ ## Mensajes de contacto: 2 plantillas en inglés (comunidad y mensaje directo), sin spam, ofreciendo valor primero.
+ ## Borradores de 2 publicaciones útiles para comunidad (en inglés) que no sean promoción directa.
+ ## Calendario de 14 días: tareas por día con tiempo estimado (Juan trabaja a tiempo parcial, ~2 h/día).
+ ## Hoja de registro: columnas sugeridas para registrar cada conversación y visita.
+4) Respuesta final: solo "OK" y 1 línea (cuántas búsquedas usaste y cuántas URLs verificadas incluiste).

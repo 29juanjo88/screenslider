@@ -371,7 +371,7 @@ document.getElementById('plans2').innerHTML=PLANS2.map((p,i)=>{const f=DATA2.fin
  <div class="blk"><p>${esc(p.angle)}</p></div>
  <div class="blk"><div class="label">Landing y preventa</div><ul>${p.landing.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
  <div class="blk"><div class="label">10 conversaciones con compradores</div><ul>${p.talks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
- <div class="blk gate"><div class="label">Métrica que decide</div><p>${esc(p.metric)}</p></div></article>`}).join('');
+ <div class="blk gate"><div class="label">Métrica que decide</div><p>${esc(p.metric)}</p></div>${DATA2.kits&&DATA2.kits[p.id]?`<details class="kit"><summary>Kit completo de validación</summary><div class="md">${md(DATA2.kits[p.id])}</div></details>`:''}</article>`}).join('');
 const ST2={finalista:'Finalista',top40:'Top 40',fuera:'Etapa B',duplicado:'Duplicado'};
 (function(){const tb=document.getElementById('tb238'),q=document.getElementById('q238'),s=document.getElementById('s238'),c=document.getElementById('c238');const open=new Set();
  const render=()=>{const v=q.value.trim().toLowerCase();const rows=DATA2.ideas.filter(x=>(!v||[x.id,x.n,x.c,x.cu,x.ch,x.t].join(' ').toLowerCase().includes(v))&&(!s.value||x.st===s.value)).sort((a,b)=>(b.e3??-1)-(a.e3??-1)||b.e2-a.e2);
