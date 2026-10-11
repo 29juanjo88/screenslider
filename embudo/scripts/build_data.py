@@ -18,8 +18,13 @@ def short(x):
     elif x['top100']: st='top100'
     else: st='fuera'
     return dict(id=x['id'],n=x['nombre'],c=x['cliente_que_paga'],p=x['problema'],s=x['solucion'],pr=x['precio_usd_mes'],ch=x['canal_primeros_100'],t=x['tema_norm'],a=ang.get(x['angulo'],x['angulo']).split(' (')[0],e2=x['e2_total'],r2=x.get('e2_razon') or '',f2=x.get('e2_filtro'),e3=x.get('e3_total'),r3=x.get('e3_razon') or '',st=st,dup=x.get('duplicado_de') or x.get('variante_de'))
-data=dict(fin=fin,ideas=[short(x) for x in ideas])
+for f in fin:
+    if f['id']=='G06-04':
+        f['post']=dict(veredicto='DESCARTADA',nota='Al preparar la validación apareció el plugin Subscription Churn Saver en WooCommerce.com: ofertas de descuento o pausa de 1 a 12 meses en el flujo de cancelación, por US$39. Es el mismo ángulo que el juez puso como condición. También existe Cancellation Survey and Offers (US$79, con versión gratis).',url='https://woocommerce.com/products/subscription-churn-saver/')
+import os
+kits={k[:-3]:open('validacion/'+k).read() for k in os.listdir('validacion') if k.endswith('.md')}
+data=dict(fin=fin,ideas=[short(x) for x in ideas],kits=kits)
 json.dump(data,open('entrega/datos_entrega.json','w'),ensure_ascii=False)
 s=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
-open('entrega/data.js','w').write('const DATA='+s+';')
+t=open('entrega/plantilla.html').read(); open('entrega/embudo-600-20.html','w').write(t.replace('/*DATA*/','const DATA='+s+';'))
 print(len(s), sum(1 for x in data['ideas'] if x['st']=='top100'))

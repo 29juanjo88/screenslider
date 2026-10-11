@@ -109,6 +109,16 @@ details.fin>summary::-webkit-details-marker{display:none}
 .plan .blk:last-child{border-bottom:0}
 .plan ol,.plan ul{margin:0;padding-left:1.15rem;display:flex;flex-direction:column;gap:4px}
 .plan .gate{background:var(--warn-soft)}
+details.kit{border-top:1px solid var(--ink)}
+details.kit>summary{cursor:pointer;padding:10px 14px;font-family:var(--f-display);font-weight:600}
+.md{padding:4px 14px 16px;display:flex;flex-direction:column;gap:8px;font-size:.86rem;min-width:0}
+.md h4{font-family:var(--f-display);font-size:1rem;margin:10px 0 0}
+.md ul,.md ol{margin:0;padding-left:1.15rem;display:flex;flex-direction:column;gap:3px}
+.md .tw{overflow-x:auto}
+.md table{border-collapse:collapse;font-size:.8rem;min-width:420px}
+.md td,.md th{border:1px solid var(--rule);padding:4px 6px;vertical-align:top;text-align:left}
+.md a{word-break:break-all}
+.post{padding:12px 14px;background:var(--bad-soft);border-left:3px solid var(--bad)}
 /* resumen */
 .prose{max-width:68ch;display:flex;flex-direction:column;gap:12px;margin-top:14px}
 .prose ul{margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:6px}
@@ -149,11 +159,11 @@ table.ideas tr.det td{background:var(--paper);font-size:.84rem}
     <div><span class="label">Etapa 1</span><span class="n mono">600</span><span class="d">ideas por canal y tendencia · 65 duplicados</span></div>
     <div><span class="label">Etapa 2</span><span class="n mono">100</span><span class="d">atacante, defensor y juez · sin búsquedas</span></div>
     <div><span class="label">Etapa 3</span><span class="n mono">20</span><span class="d">mismos roles con búsquedas web</span></div>
-    <div><span class="label">Etapa 4</span><span class="n mono">0 · 19 · 1</span><span class="d">avanza · condicional · descartada</span></div>
+    <div><span class="label">Etapa 4</span><span class="n mono">0 · 18 · 2</span><span class="d">avanza · condicional · descartada (1 tras verificar)</span></div>
   </div>
   <div class="verdict-line">
     <div class="label">Veredicto del embudo</div>
-    <p style="margin-top:4px">Ninguna idea tiene probabilidad alta. Cinco tienen probabilidad media, y en todas la duda es la misma: no hay evidencia de que el canal traiga compradores solos. El siguiente paso es validar sin escribir producto. Los tres planes de dos semanas están en la pestaña Planes.</p>
+    <p style="margin-top:4px">Ninguna idea tiene probabilidad alta. Cuatro quedan en probabilidad media, y en todas la duda es la misma: no hay evidencia de que el canal traiga compradores solos. Subscription Churn Saver, que había quedado primera, se descartó al preparar su validación: ya existe un plugin con el mismo nombre y el mismo ángulo. El siguiente paso es validar sin escribir producto. Los tres planes de dos semanas y sus kits están en la pestaña Planes.</p>
   </div>
 
   <nav class="tabs" role="tablist" aria-label="Secciones">
@@ -172,7 +182,7 @@ table.ideas tr.det td{background:var(--paper);font-size:.84rem}
 
   <section class="sheet" id="planes" role="tabpanel" aria-labelledby="tab-planes" hidden>
     <h2>Planes de validación de 2 semanas</h2>
-    <p class="lead">Para las tres mejores ideas. No se escribe producto: solo landing con lista de espera o preventa, 10 conversaciones con compradores y una métrica que decide si sigues. Los umbrales parten del experimento que propuso cada juez, ajustados a dos semanas.</p>
+    <p class="lead">Para las tres mejores ideas. No se escribe producto: solo landing con lista de espera o preventa, 10 conversaciones con compradores y una métrica que decide si sigues. Los umbrales parten del experimento que propuso cada juez, ajustados a dos semanas. Cada plan trae su kit completo: textos de la landing, lugares donde están los compradores, competidores con precio, guion de entrevista, mensajes y calendario.</p>
     <div class="plans" id="plans"></div>
   </section>
 
@@ -186,6 +196,7 @@ table.ideas tr.det td{background:var(--paper);font-size:.84rem}
         <li><b>Diversidad forzada.</b> Máximo 5 ideas por tema en las 100 y 3 en las 20.</li>
         <li><b>Sesgo de rol contenido.</b> En la etapa 2 los atacantes nunca calificaron una objeción como débil, pero el juez no les dio veto. En la etapa 4 la réplica obligó a conceder lo cierto, y varios defensores admitieron competidores directos (Copia, CODESYS, Sublium).</li>
         <li><b>Ventaja de Juan desde el inicio.</b> 14 de las 20 finalistas son industriales (CAD, PLC, láser, CNC).</li>
+        <li><b>Verificación antes de validar.</b> Al preparar los kits, una búsqueda encontró el plugin Subscription Churn Saver en WooCommerce.com, que ya ofrece pausa y descuento al cancelar por US$39. La idea pasó de primera a descartada antes de gastar un día en ella.</li>
         <li><b>Presupuesto de búsquedas.</b> El límite real resultó ser de 200 búsquedas por turno. La etapa 4 se repartió en tres turnos y ningún agente chocó con el límite.</li>
       </ul>
       <p>El resultado se parece al anterior: ninguna alta y cinco medias. La diferencia es que ahora cada idea tiene la evidencia citada, el hecho que la frena y un experimento barato con umbral. El cotizador DXF láser, pariente de CotizaMaquila, volvió a aparecer solo y otra vez quedó en media.</p>
@@ -234,7 +245,8 @@ table.ideas tr.det td{background:var(--paper);font-size:.84rem}
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const link=u=>/^https?:\/\//.test(u||'')?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>`:`<span class="label">${esc(u||'sin verificar')}</span>`;
 const VO={AVANZA:0,CONDICIONAL:1,DESCARTADA:2},PO={alta:0,media:1,baja:2};
-const fin=DATA.fin.slice().sort((a,b)=>VO[a.juez.veredicto]-VO[b.juez.veredicto]||PO[a.juez.probabilidad_exito]-PO[b.juez.probabilidad_exito]||b.juez.total-a.juez.total);
+const VER=f=>f.post?f.post.veredicto:f.juez.veredicto;
+const fin=DATA.fin.slice().sort((a,b)=>VO[VER(a)]-VO[VER(b)]||PO[a.juez.probabilidad_exito]-PO[b.juez.probabilidad_exito]||b.juez.total-a.juez.total);
 const DIMS=[['dolor','Dolor'],['pago','Pago'],['alternativas_actuales','Alternativas'],['canal_y_cac','Canal y CAC'],['retencion','Retención'],['mercado','Mercado'],['defensa_frente_a_copias','Defensa ante copias'],['ejecucion_una_persona_tiempo_parcial','Ejecución 1 persona']];
 const RUB=[['dolor','Dolor ×2'],['pago','Pago ×2'],['canal','Canal ×3'],['mercado','Mercado'],['diferenciacion','Dif.'],['ventaja_juan','Ventaja'],['mvp','MVP'],['riesgo','Riesgo']];
 function role(r,cls,label){if(!r)return'';return `<div class="role"><span class="who ${cls}">${label}</span><p>${esc(r.r1)}</p>${r.concede?`<p class="r2"><b>Concede en réplica:</b> ${esc(r.concede)}</p>`:''}${r.sigue?`<p class="r2"><b>Sigue en pie:</b> ${esc(r.sigue)}</p>`:''}</div>`}
@@ -242,9 +254,10 @@ document.getElementById('fin-list').innerHTML=fin.map((f,i)=>{const j=f.juez;con
  return `<details class="fin" id="f-${esc(f.id)}"${i===0?' open':''}><summary>
  <span class="rank mono">${String(i+1).padStart(2,'0')}</span>
  <span class="fin-head"><span class="t">${esc(f.nombre)}</span><span class="s">${esc(f.cliente)} · US$${esc(f.precio)}/mes · ${esc(f.tema)}</span></span>
- <span class="fin-meta"><span class="chip v-${esc(j.veredicto)}">${esc(j.veredicto)}</span><span class="chip p-${esc(j.probabilidad_exito)}">prob. ${esc(j.probabilidad_exito)}</span><span class="score mono"><b>${esc(j.total)}</b>/60 · E2 ${esc(f.e2)} · E3 ${esc(f.e3)}</span></span></summary>
+ <span class="fin-meta"><span class="chip v-${esc(VER(f))}">${esc(VER(f))}${f.post?' · tras verificar':''}</span><span class="chip p-${esc(j.probabilidad_exito)}">prob. ${esc(j.probabilidad_exito)}</span><span class="score mono"><b>${esc(j.total)}</b>/60 · E2 ${esc(f.e2)} · E3 ${esc(f.e3)}</span></span></summary>
  <div class="fin-body">
   <div class="kv"><div><div class="label">Problema</div><p>${esc(f.problema)}</p></div><div><div class="label">Solución</div><p>${esc(f.solucion)}</p></div><div><div class="label">Canal para los primeros 100</div><p>${esc(f.canal)}</p></div></div>
+  ${f.post?`<div class="post"><div class="label">Actualización posterior al juez</div><p>${esc(f.post.nota)} ${link(f.post.url)}</p></div>`:''}
   <div class="decisive"><div class="label">Hecho decisivo</div><p>${esc(j.hecho_decisivo)}</p></div>
   ${j.condicion?`<div><div class="label">Condición</div><p>${esc(j.condicion)}</p></div>`:''}
   <div><div class="label">Experimento más barato</div><p>${esc(j.experimento_mas_barato)}</p></div>
@@ -258,11 +271,17 @@ document.getElementById('fin-list').innerHTML=fin.map((f,i)=>{const j=f.juez;con
   ${(j.fuentes_clave||[]).length?`<div class="src"><div class="label">Fuentes clave</div>${j.fuentes_clave.map(s=>`<div>${esc(s.afirmacion)} — ${link(s.url)}</div>`).join('')}</div>`:''}
  </div></details>`}).join('');
 
+function inl(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/(^|[\s(|])(https?:\/\/[^\s<|)]+)/g,'$1<a href="$2" target="_blank" rel="noopener">$2</a>');}
+function md(src){const L=src.split('\n');let h='',i=0;while(i<L.length){let l=L[i];
+ if(/^#{1,6}\s/.test(l)){h+=`<h4>${inl(l.replace(/^#+\s*/,''))}</h4>`;i++;continue}
+ if(/^\|/.test(l)){let rows=[];while(i<L.length&&/^\|/.test(L[i])){if(!/^\|[\s:|-]+\|?\s*$/.test(L[i]))rows.push(L[i].replace(/^\||\|\s*$/g,'').split('|'));i++}
+  h+='<div class="tw"><table>'+rows.map((r,k)=>'<tr>'+r.map(c=>k?`<td>${inl(c.trim())}</td>`:`<th>${inl(c.trim())}</th>`).join('')+'</tr>').join('')+'</table></div>';continue}
+ if(/^\s*([-*]|\d+[.)])\s/.test(l)){const ord=/^\s*\d/.test(l);let it=[];while(i<L.length&&/^\s*([-*]|\d+[.)])\s/.test(L[i])){it.push(L[i].replace(/^\s*([-*]|\d+[.)])\s/,''));i++}
+  h+=(ord?'<ol>':'<ul>')+it.map(x=>`<li>${inl(x)}</li>`).join('')+(ord?'</ol>':'</ul>');continue}
+ if(!l.trim()){i++;continue}
+ let para=[];while(i<L.length&&L[i].trim()&&!/^(#|\||\s*([-*]|\d+[.)])\s)/.test(L[i])){para.push(L[i]);i++}h+=`<p>${inl(para.join(' '))}</p>`}
+ return h;}
 const PLANS=[
- {id:'G06-04',name:'Subscription Churn Saver',angle:'Ángulo a validar: ofertas de pausa y de retención en el flujo de cancelación de WooCommerce Subscriptions, que Sublium y Subscriptions Recovery no cubren.',
-  landing:['Día 1–2: landing en inglés "Stop subscription cancellations in WooCommerce" con un video del flujo de cancelación hecho en Figma.','Precio visible US$29/mes. Preventa: 3 meses por US$59 con un enlace de pago de Stripe, reembolsable.','Días 3–14: un artículo "How to reduce WooCommerce Subscriptions churn" y 3–4 publicaciones útiles en grupos de Facebook de WooCommerce y en el foro de WordPress.org, con enlace a la landing.'],
-  talks:['Dónde: hilos sobre cancelaciones y pagos fallidos en el foro de soporte de WooCommerce Subscriptions; grupos de WooCommerce en Facebook; tiendas que listan Subscriptions en sus créditos.','Preguntas: cuántos suscriptores tienes, qué churn mensual, cuánto es cancelación voluntaria y cuánto pago fallido, qué usas hoy y cuánto pagas.','Cierra cada llamada con el enlace de preventa.'],
-  metric:'Sigue si en 14 días logras al menos 6 preventas pagadas o 25 registros de tiendas con más de 100 suscriptores, y si al menos 5 de las 10 conversaciones dicen que la cancelación voluntaria es su fuga principal. Si no llegas a 3 preventas, descártala.'},
  {id:'G04-03',name:'Change Control for Engineering',angle:'Ángulo a validar: flujo ECR/ECN de manufactura dentro de Jira para fabricantes sin PLM. Ambos pares confirmaron que no hay una app dedicada en Atlassian Marketplace.',
   landing:['Día 1–3: arma el flujo ECR → ECO → ECN con la configuración nativa de Jira (estados, campos, aprobaciones) y graba un video de 3 minutos. Eso es demo, no producto.','Landing "ECR/ECN change control for Jira" con precio US$200/mes. Piloto fundador: US$1,200 el primer año, con depósito reembolsable de US$200.','Publica 5–8 respuestas útiles en Atlassian Community (hilo "ECO Management in Jira"), r/manufacturing y r/PLM.'],
   talks:['Dónde: tu red de manufactura en Guadalajara (maquiladoras y proveedores Tier 2 que usan Jira), LinkedIn ("quality engineer" + "Jira") y quienes respondan en la comunidad de Atlassian.','Preguntas: cómo registran hoy un cambio de ingeniería (Excel, correo, PLM), cuántos ECO al mes, si la auditoría ISO 9001 o IATF pide trazabilidad, quién aprueba comprar apps de Marketplace y con qué presupuesto.','Pide el depósito del piloto al final de cada llamada.'],
@@ -270,13 +289,17 @@ const PLANS=[
  {id:'G29-09',name:'PLC Documentation Generator',angle:'Ángulo a validar: lista de IO y PDF de entrega generados offline desde proyectos de TIA Portal o Studio 5000, para integradores. Es donde tu experiencia en PLC pesa más.',
   landing:['Día 1–3: landing con una muestra real (lista de IO y PDF de un proyecto de ejemplo armados a mano) y el mensaje "offline, sin subir tu proyecto a la nube".','Prueba dos precios: US$29/mes por ingeniero y US$199/año. El juez sugirió US$49/año, pero con ese precio la meta exige un volumen irreal (filtro F5).','Publica 2 artículos SEO ("generate IO list from TIA Portal", "export Studio 5000 tags to Excel") y 5–8 respuestas útiles en r/PLC y PLCTalk.'],
   talks:['Dónde: integradores en r/PLC, PLCTalk, grupos de LinkedIn de usuarios de TIA Portal y Studio 5000, y tus contactos de integración en el Bajío.','Preguntas: cuántas entregas de proyecto hacen al mes, cuántas horas toma documentar, qué usan hoy (Excel, PLC Copilot, scripts propios), si el cliente final exige formato.','Ofrece la preventa anual al cierre.'],
-  metric:'Sigue si en 14 días logras 25 emails de integradores y al menos 5 preventas a US$199/año o más, y si al menos 6 de las 10 conversaciones documentan a mano al menos un proyecto al mes. Con menos de 2 preventas, descártala.'}
+  metric:'Sigue si en 14 días logras 25 emails de integradores y al menos 5 preventas a US$199/año o más, y si al menos 6 de las 10 conversaciones documentan a mano al menos un proyecto al mes. Con menos de 2 preventas, descártala.'},
+ {id:'G01-02',name:'DXF Laser Cut Pricer',angle:'Ángulo a validar: cotizador de corte láser para tiendas Shopify que calcula el precio por longitud de corte, perforaciones y espesor. MakeQuote no documenta ese cálculo; su motor descrito es de impresión 3D.',
+  landing:['Día 1: instala el plan gratis de MakeQuote y prueba 5 DXF con distinta longitud de corte, perforaciones y espesor. Si el precio responde bien en 3 o más casos, detente: el hueco no existe.','Día 2–3: landing "Instant laser-cut quotes on your Shopify store" con una demo en video y precios de US$49 y US$79/mes; lista de espera con preventa.','Publica en la comunidad de Shopify, r/lasercutting y foros de talleres de corte, ofreciendo ayuda con cotización antes que el producto.'],
+  talks:['Dónde: talleres de corte láser y CNC con tienda Shopify (búscalos con la consulta de tiendas que venden "custom laser cut parts"), r/lasercutting y los talleres de tu red en Guadalajara que venden en línea.','Preguntas: cómo cotizan hoy un DXF, cuánto tardan, cuántas cotizaciones pierden por lentitud, qué probaron y por qué lo dejaron.','Cierra con la preventa a US$49.'],
+  metric:'Sigue si MakeQuote falla en al menos 3 de las 5 pruebas y, en 14 días, juntas 25 emails de talleres con tienda y al menos 5 que acepten preventa o una llamada con el precio de US$49. Si falla cualquiera de las dos condiciones, descártala.'}
 ];
 document.getElementById('plans').innerHTML=PLANS.map((p,i)=>{const f=DATA.fin.find(x=>x.id===p.id)||{juez:{}};return `<article class="plan"><header><span class="label">Plan ${i+1} · ${esc(p.id)}</span><h3>${esc(p.name)}</h3><span class="score mono">${esc(f.juez.veredicto)} · prob. ${esc(f.juez.probabilidad_exito)} · ${esc(f.juez.total)}/60</span></header>
  <div class="blk"><p>${esc(p.angle)}</p></div>
  <div class="blk"><div class="label">Landing y preventa</div><ul>${p.landing.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
  <div class="blk"><div class="label">10 conversaciones con compradores</div><ul>${p.talks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
- <div class="blk gate"><div class="label">Métrica que decide</div><p>${esc(p.metric)}</p></div></article>`}).join('');
+ <div class="blk gate"><div class="label">Métrica que decide</div><p>${esc(p.metric)}</p></div>${DATA.kits&&DATA.kits[p.id]?`<details class="kit"><summary>Kit completo de validación</summary><div class="md">${md(DATA.kits[p.id])}</div></details>`:''}</article>`}).join('');
 
 /* tablas */
 const STL={finalista:'Finalista',top100:'Top 100',fuera:'Etapa 2',duplicado:'Duplicado',variante:'Variante'};
