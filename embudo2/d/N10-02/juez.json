@@ -1,0 +1,49 @@
+{
+ "id": "N10-02",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 4,
+  "cuna": 2,
+  "ejecucion": 3
+ },
+ "total": 35,
+ "hecho_decisivo": "Complianz Agency cubre 25 sitios por ~US$399/año (~US$33/mes) y Enzuzo 10 dominios a US$79/mes; ambos pares lo concedieron en ronda 2, de modo que la cuña de precio plano multi-dominio ya está ocupada y es copiable. Queda solo el nicho agencias multi-plataforma con panel white-label, sin tamaño verificado. https://complianz.io/pricing/",
+ "condicion": "Confirmar que existe un segmento de agencias/freelancers con 20+ dominios, fuera de WordPress, que pague US$49-99/mes por panel multi-cliente white-label y no esté servido por Secure Privacy, Cookie Script o Biscotti (sin verificar en páginas oficiales), con más de 100k compradores posibles.",
+ "experimento_mas_barato": "Landing con precio plano (US$49 y US$99/mes, dominios ilimitados, white-label) más 2 publicaciones en comunidades de agencias y 1 página SEO 'cookiebot alternative for agencies', con lista de espera y preventa. Métrica: registros con intención de pago. Umbral: >=40 agencias con 10+ dominios en 4 semanas y >=10 preventas pagadas; si no, descartar.",
+ "dimensiones": {
+  "dolor": "Dolor de cumplimiento y precio, no semanal; se busca solo tras alzas (Cookiebot, evidencia de reseñas). Ambos pares concedieron que es moderado.",
+  "pago": "Hay pago demostrado por dominio (CookieYes, Cookiebot), pero anclado por plan gratis de CookieYes y Complianz Agency a ~US$33/mes; a US$19 se necesitan ~526 clientes para US$10k MRR.",
+  "alternativas_actuales": "Muy saturado: Complianz (25 sitios), Enzuzo, Consently, Cookie Script, Secure Privacy, ConsentPixel; ambos defensores admitieron que la cuña está parcialmente ocupada. Solo WordPress en Complianz deja un hueco multi-plataforma no probado.",
+  "canal_y_cac": "WordPress.org, Shopify y SEO tienen intención de compra, pero están dominados por incumbentes con base instalada y blogs de rivales; CAC y conversión sin verificar.",
+  "retencion": "Sin datos de churn; costo de cambio moderado (cambiar un script), mayor para agencias con panel e historial. Ambos pares lo debilitaron.",
+  "mercado": "El universo de sitios con CMP supera 100k con holgura (proxys: CookieYes ~733k instalaciones WP según WPoptic, ~466k sitios BuiltWith), pero compradores de la cuña de agencias 20+ dominios sin cuantificar.",
+  "defensa_frente_a_copias": "Casi nula: cuña de precio/empaquetado copiable en semanas; la certificación Google CMP protege a los incumbentes, no al entrante. Concedido por ambos defensores.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP técnico factible en 6-8 semanas con el stack de Juan, pero soporte de scripts rotos, actualización legal por jurisdicción y posible certificación Google lo vuelven pesado."
+ },
+ "resumen_P1": "Atacante: la cuña ya existe (Complianz Agency, Enzuzo, Secure Privacy white-label) y los canales están ocupados. Defensor: concedió que la defensa es casi nula y que la cuña está más ocupada; sostiene solo que Complianz es WordPress y hay hueco agnóstico de plataforma.",
+ "resumen_P2": "Atacante: cuña copiable y sin tamaño verificado, pero concedió que el mercado total supera 100k. Defensor: concedió defensa nula y ejecución cargada; sostiene que el nicho multi-plataforma con panel y white-label no está cubierto. Caso moderado, no alto.",
+ "razonamiento": "Ambos pares coinciden en que la cuña de precio plano para agencias está ocupada y es copiable, y que el dolor es de cumplimiento, no semanal. El mercado total es grande y el MVP es factible, así que no falla F6 ni F3. F1 no se cumple del todo porque Complianz y otros cubren gran parte de la cuña, aunque no está probado que cubran un panel multi-plataforma white-label. El total de 35 queda en la banda MEDIA baja. Solo vale la pena si una preventa barata confirma demanda del nicho multi-plataforma, y la probabilidad de llegar a US$10-50k MRR vendiendo casi solo es baja.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Complianz Agency ~US$399/año por 25 sitios",
+   "url": "https://complianz.io/pricing/"
+  },
+  {
+   "afirmacion": "CookieYes gratis 1 dominio; Basic 10, Pro 25, Ultimate 55 USD/mes por dominio",
+   "url": "https://www.cookieyes.com/pricing/"
+  },
+  {
+   "afirmacion": "Enzuzo Pro 10 dominios US$79/mes (blog de vendor, sin verificar)",
+   "url": "https://enzuzo.com/blog/cookiebot-pricing"
+  },
+  {
+   "afirmacion": "Instalaciones CookieYes en WP 733,835 (tercero)",
+   "url": "https://wpoptic.com/plugin/cookie-law-info/"
+  }
+ ],
+ "busquedas_usadas": 0
+}

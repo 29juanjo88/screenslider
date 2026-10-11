@@ -26,5 +26,6 @@ kits={k[:-3]:open('validacion/'+k).read() for k in os.listdir('validacion') if k
 data=dict(fin=fin,ideas=[short(x) for x in ideas],kits=kits)
 json.dump(data,open('entrega/datos_entrega.json','w'),ensure_ascii=False)
 s=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
-t=open('entrega/plantilla.html').read(); open('entrega/embudo-600-20.html','w').write(t.replace('/*DATA*/','const DATA='+s+';'))
+d2=open('../embudo2/entrega_v2.json').read().replace('</','<\\/')
+t=open('entrega/plantilla.html').read(); open('entrega/embudo-600-20.html','w').write(t.replace('/*DATA*/','const DATA='+s+';\nconst DATA2='+d2+';'))
 print(len(s), sum(1 for x in data['ideas'] if x['st']=='top100'))

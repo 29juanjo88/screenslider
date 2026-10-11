@@ -1,0 +1,82 @@
+{
+ "id": "N07-09",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor admite urgencia moderada y que solo segmentos con motivo (trabajo, migración, examen) tienen urgencia alta; también es cierto que el dolor de no tener pareja de práctica es recurrente en cada sesión y que hay gente que busca tutores o apps. Concedo que mi descripción de 'mera molestia' fue algo dura para ese subsegmento.",
+   "refuto": "Los 10.3M de suscriptores de Duolingo prueban gasto en aprender idiomas, no urgencia por la cuña (repaso de errores propios); es una prueba indirecta. La urgencia por segmento sigue sin cifras (el propio defensor la marca sin verificar), y ChatGPT voz gratis cubre el dolor central de tener con quién hablar.",
+   "evidencia": [
+    {"afirmacion": "ChatGPT voz es compañero gratis de conversación para B2+ (reseña 2026)", "url": "https://speakshark.com/blog/chatgpt-voice-mode-english-practice"},
+    {"afirmacion": "Urgencia por segmento: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Hay disposición de pago demostrada y a escala: Duolingo con más de 10M de suscriptores de pago, y Speak y Duolingo Max cobran bastante más que $8 (Max ~US$29.99/mes o $168/año según un blog; la fuente es única y no oficial). Un plan a $8 queda por debajo de ambos. Esto favorece a la idea y lo concedo sin reservas.",
+   "refuto": "Que se pague mucho por otros productos no prueba que se pague $8 por esta cuña, y el precio bajo es precisamente la apuesta de margen estrecho: el costo por minuto de voz sigue sin verificar para ambos lados. Además Speak anual (~$7/mes) iguala el precio de la idea con un producto más completo.",
+   "evidencia": [
+    {"afirmacion": "Speak Premium EEUU: $17.99/mes y $83.99/año", "url": "https://apps.apple.com/us/app/-/id1286609883"},
+    {"afirmacion": "Duolingo Max $29.99/mes o $168/año según un solo blog tercero (verificar en sitio oficial)", "url": "https://beginnersinai.org/duolingo-max-explained/"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que la reseña indica que ChatGPT no registra qué sonidos fallas (hueco parcial) y que el defensor tiene razón en que los currículos de Duolingo Max son propios. También concedo que no pude demostrar en ronda 1 que los incumbentes no hacen repaso de errores.",
+   "refuto": "Mi búsqueda de ronda 2 refuta la premisa del defensor (marcada por él como sin verificar): una fuente indica que Speak ya genera lecciones personalizadas a partir de tus errores recurrentes ('Made for You'), en el nivel Premium Plus. Es una fuente de listado, no oficial, y otra reseña dice que el feedback de Speak es breve y poco personalizado, así que el incumbente ya ocupa parte de la cuña aunque con calidad discutida. Además Explain My Answer pasó a gratis en Duolingo según un blog, lo que indica que los incumbentes regalan funciones de este tipo.",
+   "evidencia": [
+    {"afirmacion": "Speak ofrece lecciones personalizadas a partir de tus errores (Premium Plus), según listado de tercero; calidad discutida por otra reseña", "url": "https://tooldirectory.ai/tools/speak"},
+    {"afirmacion": "Reseña 2026 califica a Speak 3/5: feedback breve y con poca personalización", "url": "https://languatalk.com/blog/speak-app-review/"},
+    {"afirmacion": "Explain My Answer gratis para todos desde enero 2026, según un blog; Max se diferencia solo por Video Call y Roleplay", "url": "https://beginnersinai.org/duolingo-max-explained/"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor tiene razón en que el producto puede mostrar valor en una sesión gratuita de 5 minutos (product-led) y que ASO y SEO por par de idiomas son canales nombrados válidos. Concedo también que yo no tengo cifras de CAC.",
+   "refuto": "Canal nombrado no es canal con intención demostrada: el propio defensor admite que no hay evidencia de CAC ni de conversión y que el SEO de idiomas está dominado por incumbentes. Una sesión gratuita con voz en tiempo real tiene costo variable para el fundador (sin verificar), de modo que el product-led cuesta dinero por cada prueba.",
+   "evidencia": [
+    {"afirmacion": "Las comparativas de precios de Speak las dominan blogs de competidores y afiliados", "url": "https://speakshark.com/blog/speak-app-pricing-per-month-2026"},
+    {"afirmacion": "CAC y conversión de SEO/Reddit/YouTube: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que un historial personal acumulativo podría crear costo de cambio y hábito, y que el 9% de penetración de pago de Duolingo (10.3M sobre 130.2M MAU, cifras de Q1 2025) es dato verificado, aunque no habla de retención.",
+   "refuto": "El defensor admite que no hay dato de retención y que Juan no tendría gamificación ni rachas, que es lo que sostiene a Duolingo. La hipótesis de costo de cambio por historial es especulación; el historial de errores también se pierde si el usuario abandona, y un 9% de penetración muestra que la mayoría no paga.",
+   "evidencia": [
+    {"afirmacion": "Duolingo: 10.3M de pago y 130.2M MAU en Q1 2025 (no mide retención)", "url": "https://investors.duolingo.com/news-releases/news-release-details/duolingo-adds-record-number-daus-surpasses-10-million-paid"},
+    {"afirmacion": "Retención de apps de idiomas: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo plenamente que el mercado total supera los 2M de compradores posibles (F6 no aplica; escala 5) y que con ~1,250 pagadores a $8 se llegan a $10k MRR, una fracción mínima de los 10.3M de pago de Duolingo. Mi posición aquí no ataca el tamaño.",
+   "refuto": "La cifra de 1,250 pagadores es aritmética, no demanda: usar a los suscriptores de un incumbente como mercado de la cuña mezcla el mercado total con el alcanzable. La fracción que pagaría por la cuña, y no por Speak o ChatGPT, sigue sin cuantificar por ambos lados.",
+   "evidencia": [
+    {"afirmacion": "Duolingo 130.2M MAU y 10.3M de pago en Q1 2025", "url": "https://investors.duolingo.com/news-releases/news-release-details/duolingo-adds-record-number-daus-surpasses-10-million-paid"},
+    {"afirmacion": "Fracción que pagaría por la cuña: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Ambos coincidimos en que la defensa es débil y copiable; el defensor lo concede explícitamente y que no se probó que los incumbentes no lo hagan. Concedo que un segmento concreto (un par de idiomas o un examen) y el precio plano son las únicas palancas defendibles de un indie.",
+   "refuto": "La copia ya no es hipotética: la búsqueda de ronda 2 sugiere que Speak ya lo ofrece parcialmente en su nivel superior. Los datos acumulados del usuario no son un foso si ChatGPT con memoria o Speak construyen el mismo historial.",
+   "evidencia": [
+    {"afirmacion": "Speak genera lecciones desde tus errores (Premium Plus), según listado de tercero", "url": "https://tooldirectory.ai/tools/speak"},
+    {"afirmacion": "Ausencia de la función en incumbentes: sin verificar y contradicha por la fuente anterior", "url": "sin verificar"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que es el punto más fuerte: el stack de Juan alcanza, SM-2 es un algoritmo simple y un MVP en ~6 semanas es verosímil con APIs de terceros. Lo dije yo mismo en ronda 1.",
+   "refuto": "El defensor reconoce que el costo variable de voz comprime el margen y exigiría límites de uso, lo que choca con el precio plano que es parte de la cuña. Cobertura de calidad de corrección en varios idiomas y la distribución, cuello de botella declarado, no se resuelven con el MVP. Costo exacto por minuto: sin verificar.",
+   "evidencia": [
+    {"afirmacion": "Costo por minuto de voz en tiempo real y margen a $8: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "Concedo que el mercado es enorme (muy por encima de 2M) y que la disposición de pago está demostrada y a precios mayores que $8 (Duolingo >10M de pago, Speak ~$18/mes), y que la ejecución técnica es viable para Juan; no hay F6 ni problema de comprador.",
+ "punto_que_sigue_en_pie": "La cuña de repaso de errores propios es copiable y ya está parcialmente ocupada: una fuente indica que Speak genera lecciones desde tus errores en Premium Plus, ChatGPT voz cubre gratis la conversación, y no hay evidencia de canal con intención de compra ni de margen a $8.",
+ "busquedas_usadas": 2
+}

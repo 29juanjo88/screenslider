@@ -1,0 +1,45 @@
+{
+ "id": "N01-05",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 3,
+  "mercado": 4,
+  "cuna": 2,
+  "ejecucion": 2
+ },
+ "total": 36,
+ "hecho_decisivo": "Price2Spy publica un plan de 100 URLs a US$23.95/mes (Basic S), por debajo de los 29 USD de la idea; la cuña de precio plano 29 USD/100 URLs queda sin hueco (https://www.price2spy.com/?p=129998; tabla oficial, precio vivo no confirmado). Ambos pares concedieron en R2 que la franja 0-29 USD está ocupada y que no hay foso.",
+ "condicion": "Identificar una cuña distinta del precio (p. ej. nicho Shopify con alertas Slack + sugerencia de regla, o fiabilidad demostrable de datos) que usuarios de apps de 19-29 USD o Prisync declaren no tener, y que pague 29 USD.",
+ "experimento_mas_barato": "Landing page 'competitor price alerts + repricing rule suggestion' con waitlist de pago/preventa a 29 USD, tráfico por SEO/posts en comunidades Shopify y Reddit; además 15 entrevistas a usuarios de apps similares. Umbral: >=30 emails cualificados y >=5 preventas/depósitos en 3 semanas, o >=5 de 15 entrevistados que nombren una carencia concreta pagable.",
+ "dimensiones": {
+  "dolor": "Real pero intermitente; ambos pares admiten no tener evidencia de urgencia semanal. La existencia de varias apps indica demanda inferida, no medida.",
+  "pago": "Pago demostrado en la categoría (19-399 USD/mes), pero los de 29 USD compiten con gratis y 19 USD; ambos pares lo concedieron.",
+  "alternativas_actuales": "Saturada: apps gratis (CompeteTracker, PriceKit, Snoopie), ShopiSync 6.99-29, Price2Spy ~24 por 100 URLs, Prisync 99. La cuña de precio no sobrevive.",
+  "canal_y_cac": "SEO y Shopify App Store existen con intención de compra, pero el App Store está saturado en la franja barata; sin datos de CAC.",
+  "retencion": "Sin datos; riesgo de churn por scraping poco fiable y por vendedores que dejan de monitorear. Sin verificar.",
+  "mercado": "Millones de tiendas; ambos pares coinciden en que supera 100k compradores y no falla F6. Compradores de pago realistas bastante menos, pero >250k plausible.",
+  "defensa_frente_a_copias": "Sin foso: producto replicable, incumbentes ya bajan precio. Cuña 2 como máximo.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP acotado construible, pero el scraping anti-bot es costo y soporte recurrente para una sola persona."
+ },
+ "resumen_P1": "Atacante: franja 0-29 USD ocupada (ShopiSync a 29, planes gratis), scraping frágil sin foso. Defensor: mercado enorme y pago demostrado en la categoría, ~345 clientes a 29 USD dan 10k MRR; concedió que la cuña no es única.",
+ "resumen_P2": "Atacante: dolor intermitente, sin evidencia de búsqueda activa; concedió mercado grande y hueco entre gratis y Prisync. Defensor: concedió que Price2Spy ~24 USD por 100 URLs debilita la cuña de precio y que todo depende de ejecución y fiabilidad.",
+ "razonamiento": "Los dos pares coinciden en que el mercado es grande y hay pago demostrado, pero también en que la cuña de precio está debilitada y no hay foso. La verificación del juez confirma que Price2Spy ofrece 100 URLs a 23.95 USD, lo que elimina el argumento central del hueco entre gratis y Prisync. Sin evidencia de urgencia ni de CAC y con scraping como carga operativa recurrente, la idea queda en banda MEDIA baja (36). Solo vale la pena si se encuentra una cuña distinta del precio, por eso CONDICIONAL con probabilidad baja.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Price2Spy 100 URLs a 23.95 USD/mes (Basic S), precio vivo no confirmado",
+   "url": "https://www.price2spy.com/?p=129998"
+  },
+  {
+   "afirmacion": "Prisync desde 99 USD (100 productos)",
+   "url": "https://prisync.com/compare-plans"
+  },
+  {
+   "afirmacion": "Apps gratis/19 USD en Shopify (citadas por roles)",
+   "url": "https://apps.shopify.com/competetracker"
+  }
+ ],
+ "busquedas_usadas": 1
+}

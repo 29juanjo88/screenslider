@@ -167,14 +167,34 @@ table.ideas tr.det td{background:var(--paper);font-size:.84rem}
   </div>
 
   <nav class="tabs" role="tablist" aria-label="Secciones">
-    <button role="tab" id="tab-finalistas" aria-controls="finalistas" aria-selected="true">Finalistas</button>
+    <button role="tab" id="tab-mercado" aria-controls="mercado" aria-selected="true">Embudo 2 · mercado grande</button>
+    <button role="tab" id="tab-finalistas" aria-controls="finalistas" aria-selected="false">Embudo 1 · finalistas</button>
     <button role="tab" id="tab-planes" aria-controls="planes" aria-selected="false">Planes de validación</button>
     <button role="tab" id="tab-resumen" aria-controls="resumen" aria-selected="false">Qué cambió</button>
     <button role="tab" id="tab-top100" aria-controls="top100" aria-selected="false">Las 100</button>
     <button role="tab" id="tab-todas" aria-controls="todas" aria-selected="false">Las 600</button>
   </nav>
 
-  <section class="sheet" id="finalistas" role="tabpanel" aria-labelledby="tab-finalistas">
+  <section class="sheet" id="mercado" role="tabpanel" aria-labelledby="tab-mercado">
+    <h2>Embudo 2: solo mercados grandes</h2>
+    <p class="lead">Segundo embudo, con el criterio corregido: al menos 100 mil compradores posibles, el mercado pesa ×3 y no hay bono industrial. Entraron 200 ideas nuevas y 38 rescatadas del embudo 1; quedaron 40 y luego 10. Cada finalista pasó por dos pares de atacante y defensor en dos rondas, y por un juez neutral.</p>
+    <div class="verdict-line" style="margin-top:14px">
+      <div class="label">Resultado</div>
+      <p style="margin-top:4px">Ninguna idea alta. Una media (Amazon FBA Claims Auditor), ocho bajas condicionales y una descartada (EAA Watch). En mercados grandes casi todas las cuñas de precio ya están ocupadas por alguien que cobra lo mismo o menos.</p>
+    </div>
+    <div class="fin-list" id="fin2-list"></div>
+    <h3 style="margin-top:28px">Planes de 2 semanas para las 3 mejores</h3>
+    <div class="plans" id="plans2"></div>
+    <h3 style="margin-top:28px">Las 238 ideas del embudo 2</h3>
+    <div class="filters">
+      <label><span class="label">Buscar</span><input id="q238" type="search" placeholder="nombre, cliente, cuña…"></label>
+      <label><span class="label">Estado</span><select id="s238"><option value="">Todos</option><option value="finalista">Finalista</option><option value="top40">Top 40</option><option value="fuera">Eliminada en etapa B</option><option value="duplicado">Duplicado</option></select></label>
+    </div>
+    <div class="count" id="c238"></div>
+    <div class="tbl-wrap"><table class="ideas" id="tb238"></table></div>
+  </section>
+
+  <section class="sheet" id="finalistas" role="tabpanel" aria-labelledby="tab-finalistas" hidden>
     <h2>Las 20 finalistas</h2>
     <p class="lead">Ordenadas por veredicto, después por probabilidad y por el puntaje final del juez (sobre 60; banda alta ≥44, media 32–43). Cada ficha trae los dos pares independientes de atacante y defensor, lo que cada uno concedió en la réplica y el razonamiento del juez.</p>
     <div class="fin-list" id="fin-list"></div>
@@ -250,13 +270,13 @@ const fin=DATA.fin.slice().sort((a,b)=>VO[VER(a)]-VO[VER(b)]||PO[a.juez.probabil
 const DIMS=[['dolor','Dolor'],['pago','Pago'],['alternativas_actuales','Alternativas'],['canal_y_cac','Canal y CAC'],['retencion','Retención'],['mercado','Mercado'],['defensa_frente_a_copias','Defensa ante copias'],['ejecucion_una_persona_tiempo_parcial','Ejecución 1 persona']];
 const RUB=[['dolor','Dolor ×2'],['pago','Pago ×2'],['canal','Canal ×3'],['mercado','Mercado'],['diferenciacion','Dif.'],['ventaja_juan','Ventaja'],['mvp','MVP'],['riesgo','Riesgo']];
 function role(r,cls,label){if(!r)return'';return `<div class="role"><span class="who ${cls}">${label}</span><p>${esc(r.r1)}</p>${r.concede?`<p class="r2"><b>Concede en réplica:</b> ${esc(r.concede)}</p>`:''}${r.sigue?`<p class="r2"><b>Sigue en pie:</b> ${esc(r.sigue)}</p>`:''}</div>`}
-document.getElementById('fin-list').innerHTML=fin.map((f,i)=>{const j=f.juez;const p=j.puntajes||{};
+function renderFin(list,elId,RUB,la,lb){document.getElementById(elId).innerHTML=list.map((f,i)=>{const j=f.juez;const p=j.puntajes||{};
  return `<details class="fin" id="f-${esc(f.id)}"${i===0?' open':''}><summary>
  <span class="rank mono">${String(i+1).padStart(2,'0')}</span>
  <span class="fin-head"><span class="t">${esc(f.nombre)}</span><span class="s">${esc(f.cliente)} · US$${esc(f.precio)}/mes · ${esc(f.tema)}</span></span>
- <span class="fin-meta"><span class="chip v-${esc(VER(f))}">${esc(VER(f))}${f.post?' · tras verificar':''}</span><span class="chip p-${esc(j.probabilidad_exito)}">prob. ${esc(j.probabilidad_exito)}</span><span class="score mono"><b>${esc(j.total)}</b>/60 · E2 ${esc(f.e2)} · E3 ${esc(f.e3)}</span></span></summary>
+ <span class="fin-meta"><span class="chip v-${esc(VER(f))}">${esc(VER(f))}${f.post?' · tras verificar':''}</span><span class="chip p-${esc(j.probabilidad_exito)}">prob. ${esc(j.probabilidad_exito)}</span><span class="score mono"><b>${esc(j.total)}</b>/60 · ${la} ${esc(f.e2)} · ${lb} ${esc(f.e3)}</span></span></summary>
  <div class="fin-body">
-  <div class="kv"><div><div class="label">Problema</div><p>${esc(f.problema)}</p></div><div><div class="label">Solución</div><p>${esc(f.solucion)}</p></div><div><div class="label">Canal para los primeros 100</div><p>${esc(f.canal)}</p></div></div>
+  <div class="kv"><div><div class="label">Problema</div><p>${esc(f.problema)}</p></div><div><div class="label">Solución</div><p>${esc(f.solucion)}</p></div><div><div class="label">Canal para los primeros 100</div><p>${esc(f.canal)}</p></div>${f.cuna?`<div><div class="label">Cuña</div><p>${esc(f.cuna)}</p></div>`:''}${f.mercado?`<div><div class="label">Tamaño de mercado</div><p>${esc(f.mercado)}</p></div>`:''}</div>
   ${f.post?`<div class="post"><div class="label">Actualización posterior al juez</div><p>${esc(f.post.nota)} ${link(f.post.url)}</p></div>`:''}
   <div class="decisive"><div class="label">Hecho decisivo</div><p>${esc(j.hecho_decisivo)}</p></div>
   ${j.condicion?`<div><div class="label">Condición</div><p>${esc(j.condicion)}</p></div>`:''}
@@ -269,7 +289,10 @@ document.getElementById('fin-list').innerHTML=fin.map((f,i)=>{const j=f.juez;con
   </div>
   <div style="overflow-x:auto"><table class="dims">${DIMS.map(([k,l])=>`<tr><td>${l}</td><td>${esc((j.dimensiones||{})[k])}</td></tr>`).join('')}</table></div>
   ${(j.fuentes_clave||[]).length?`<div class="src"><div class="label">Fuentes clave</div>${j.fuentes_clave.map(s=>`<div>${esc(s.afirmacion)} — ${link(s.url)}</div>`).join('')}</div>`:''}
- </div></details>`}).join('');
+ </div></details>`}).join('');}
+renderFin(fin,'fin-list',RUB,'E2','E3');
+const fin2=DATA2.fin.slice().sort((a,b)=>VO[a.juez.veredicto]-VO[b.juez.veredicto]||PO[a.juez.probabilidad_exito]-PO[b.juez.probabilidad_exito]||b.juez.total-a.juez.total);
+renderFin(fin2,'fin2-list',[['dolor','Dolor ×2'],['pago','Pago ×2'],['canal','Canal ×2'],['mercado','Mercado ×3'],['cuna','Cuña ×2'],['ejecucion','Ejecución']],'B','C');
 
 function inl(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/(^|[\s(|])(https?:\/\/[^\s<|)]+)/g,'$1<a href="$2" target="_blank" rel="noopener">$2</a>');}
 function md(src){const L=src.split('\n');let h='',i=0;while(i<L.length){let l=L[i];
@@ -331,11 +354,36 @@ fill(a600,[...new Set(I.map(x=>x.a))],'Todos los ángulos');
 setup({tb:document.getElementById('tb600'),count:document.getElementById('c600'),inputs:[q600,a600,s600,m600],page:100,more:document.getElementById('more600'),
  rows:()=>I.filter(x=>match(x,q600.value.trim().toLowerCase())&&(!a600.value||x.a===a600.value)&&(!s600.value||x.st===s600.value)&&((x.e2||0)>=(+m600.value||0)))});
 
+const PLANS2=[
+ {id:'G23-01',name:'Amazon FBA Claims Auditor',angle:'Cuña a validar: auditoría de reembolsos de envíos entrantes y daños que Refund Genie no cubre, a precio fijo de US$49 en vez de comisión.',
+  landing:['Día 1–2: landing "Find the FBA reimbursements Amazon still owes you" con un ejemplo de reporte y el precio visible de US$49/mes.','Ofrece una auditoría gratis: el vendedor sube sus reportes de inventario y envíos y tú los revisas a mano o con una hoja de cálculo. No es producto, es servicio manual.','Publica en r/FulfillmentByAmazon y en grupos de vendedores de Facebook con un caso real anonimizado.'],
+  talks:['Dónde: r/FulfillmentByAmazon, grupos de Facebook de vendedores FBA y foros de Seller Central.','Preguntas: qué usas hoy para reembolsos (Helium 10, Getida, a mano), cuánto recuperas al mes, cuánto pagas de comisión, cuándo fue la última vez que perdiste un reclamo por plazo.','Al entregar la auditoría, muestra el monto recuperable y pide la preventa.'],
+  metric:'Sigue si en 14 días al menos 15 vendedores suben sus reportes, el monto mediano recuperable es de US$150 al mes o más, y al menos 5 prepagan US$49. Con menos de 3 prepagos, descártala.'},
+ {id:'N07-09',name:'Tutor de idiomas por conversación',angle:'Cuña a validar: repaso persistente de los errores reales del alumno, para adultos con un motivo duro (examen, trabajo o migración). El modo voz de ChatGPT es gratis y Speak cuesta unos US$7 al mes, así que sin esa cuña no hay producto.',
+  landing:['Día 1–3: tres landings, una por objetivo (por ejemplo IELTS Speaking, inglés para entrevistas de trabajo, español para expatriados), con un video de demo hecho en Figma.','Precio visible de US$8/mes y preventa de 3 meses.','Antes de seguir, calcula el costo de voz por usuario activo con la API que usarías; si el margen a US$8 baja del 60%, el precio no sirve.'],
+  talks:['Dónde: r/IELTS, r/EnglishLearning, r/languagelearning y grupos de expatriados.','Preguntas: cómo practicas hoy, si ya usas ChatGPT en modo voz, qué te frustra de eso, cuándo es tu examen y cuánto pagas por preparación.','Busca a quienes ya pagan academia o tutor: son los compradores reales.'],
+  metric:'Sigue si en 14 días al menos 3% de los visitantes deja su email y al menos 15 prepagan. Si menos del 1% deja email, descártala.'},
+ {id:'N06-07',name:'PDF2Sheet',angle:'Cuña a validar: facturas escaneadas y heterogéneas a Excel o Sheets con plantilla reutilizable, para cuentas por pagar y contadores. Excel 365 ya importa PDF con texto gratis, así que la cuña solo vive en escaneados, Mac y formatos variables.',
+  landing:['Día 1–2: landing "Scanned invoices to Excel, with a template you reuse" con un video de demo y un antes y después real.','Preventa a US$19/mes por usuario.','Publica en r/accounting, r/excel y foros de contadores; opcionalmente unos US$150 en anuncios de búsqueda.'],
+  talks:['Dónde: r/accounting, r/Bookkeeping, r/excel y grupos de contadores independientes.','Preguntas: cuántas facturas procesas al mes, cuántas vienen escaneadas, qué usas hoy (Excel, Docparser, captura manual), cuánto tiempo te toma y cuánto pagas.','Pide 3 facturas reales para probar a mano y cierra con la preventa.'],
+  metric:'Sigue si en 14 días al menos 2% de los visitantes deja su email y al menos 10 prepagan. Si nadie procesa más de 50 facturas escaneadas al mes, descártala.'}];
+document.getElementById('plans2').innerHTML=PLANS2.map((p,i)=>{const f=DATA2.fin.find(x=>x.id===p.id)||{juez:{}};return `<article class="plan"><header><span class="label">Plan ${i+1} · ${esc(p.id)}</span><h3>${esc(p.name)}</h3><span class="score mono">${esc(f.juez.veredicto)} · prob. ${esc(f.juez.probabilidad_exito)} · ${esc(f.juez.total)}/60</span></header>
+ <div class="blk"><p>${esc(p.angle)}</p></div>
+ <div class="blk"><div class="label">Landing y preventa</div><ul>${p.landing.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
+ <div class="blk"><div class="label">10 conversaciones con compradores</div><ul>${p.talks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
+ <div class="blk gate"><div class="label">Métrica que decide</div><p>${esc(p.metric)}</p></div></article>`}).join('');
+const ST2={finalista:'Finalista',top40:'Top 40',fuera:'Etapa B',duplicado:'Duplicado'};
+(function(){const tb=document.getElementById('tb238'),q=document.getElementById('q238'),s=document.getElementById('s238'),c=document.getElementById('c238');const open=new Set();
+ const render=()=>{const v=q.value.trim().toLowerCase();const rows=DATA2.ideas.filter(x=>(!v||[x.id,x.n,x.c,x.cu,x.ch,x.t].join(' ').toLowerCase().includes(v))&&(!s.value||x.st===s.value)).sort((a,b)=>(b.e3??-1)-(a.e3??-1)||b.e2-a.e2);
+  c.textContent=rows.length+' ideas';
+  tb.innerHTML='<thead><tr><th>ID</th><th>Idea</th><th>Cliente</th><th>US$/mes</th><th>B</th><th>C</th><th>Estado</th></tr></thead><tbody>'+rows.map(x=>`<tr class="row" data-id="${esc(x.id)}"><td class="mono">${esc(x.id)}</td><td>${esc(x.n)}</td><td>${esc(x.c)}</td><td class="num">${esc(x.pr)}</td><td class="num">${esc(x.e2)}</td><td class="num">${x.e3==null?'–':esc(x.e3)}</td><td><span class="st st-${x.st==='top40'?'top100':esc(x.st)}">${ST2[x.st]}</span></td></tr>`+(open.has(x.id)?`<tr class="det"><td colspan="7"><div class="det-grid"><div><div class="label">Problema</div>${esc(x.p)}</div><div><div class="label">Solución</div>${esc(x.s)}</div><div><div class="label">Cuña</div>${esc(x.cu)}</div><div><div class="label">Canal</div>${esc(x.ch)}</div><div><div class="label">Juez etapa B</div>${esc(x.r2)}</div>${x.r3?`<div><div class="label">Juez etapa C</div>${esc(x.r3)}</div>`:''}</div></td></tr>`:'')).join('')+'</tbody>';};
+ tb.addEventListener('click',e=>{const tr=e.target.closest('tr.row');if(!tr)return;const id=tr.dataset.id;open.has(id)?open.delete(id):open.add(id);render();});
+ [q,s].forEach(i=>i.addEventListener('input',render));render();})();
 /* pestañas */
 const tabs=[...document.querySelectorAll('nav.tabs button')];
 function show(id){tabs.forEach(b=>{const on=b.getAttribute('aria-controls')===id;b.setAttribute('aria-selected',on);document.getElementById(b.getAttribute('aria-controls')).hidden=!on;});try{localStorage.setItem('tab',id)}catch(e){}}
 tabs.forEach(b=>b.addEventListener('click',()=>show(b.getAttribute('aria-controls'))));
-const h=(location.hash||'').slice(1);let start='finalistas';
+const h=(location.hash||'').slice(1);let start='mercado';
 if(tabs.some(b=>b.getAttribute('aria-controls')===h))start=h;else{try{const s=localStorage.getItem('tab');if(s&&tabs.some(b=>b.getAttribute('aria-controls')===s))start=s}catch(e){}}
 show(start);
 })();

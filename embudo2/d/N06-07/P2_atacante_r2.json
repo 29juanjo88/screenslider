@@ -1,0 +1,78 @@
+{
+ "id": "N06-07",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que para AP, finanzas y contadores el dolor es recurrente y la búsqueda 'pdf to excel' es activa; ya lo había concedido. También es cierto que existen add-ons de Marketplace para la función, lo que confirma demanda.",
+   "refuto": "Que existan add-ons no prueba dolor urgente de pago: el defensor admite que la magnitud de búsqueda no está cuantificada (url 'sin verificar') y no responde a mi punto de que Power Query nativo cubre gratis el caso simple con PDFs de texto. El dolor semanal es del subsegmento de volumen, no del titular.",
+   "evidencia": [
+    {"afirmacion": "Excel importa tablas de PDF con texto vía Power Query, gratis", "url": "https://www.thebricks.com/resources/how-to-import-a-pdf-into-excel"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Docparser ($39-$159) y ReadyData ($9-$229) prueban presupuesto existente, y $19 queda bajo el escalón de entrada de Docparser. Es cierto y lo había concedido.",
+   "refuto": "Comparar con Docparser es engañoso: ese comprador paga por automatización (API/email) que un add-in manual no ofrece. Para el segmento ligero, ReadyData ya cobra $19 y tiene tier gratis, así que $19 no es una ventaja de precio sino paridad. El defensor admite coexistencia con uso gratis.",
+   "evidencia": [
+    {"afirmacion": "ReadyData: gratis, Lite $9, Starter $19", "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"},
+    {"afirmacion": "Docparser: $39/100 créditos, $74/250, $159/1000", "url": "https://mammoth.io/blog/docparser-pricing/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Verifiqué en búsqueda que 'PDF Tables Extractor' es gratis, tiene ~81K usuarios y su última actualización es marzo 2022; el defensor acierta. También es cierto que el add-on IA extrae solo la tabla principal (según su cita; no lo verifiqué) y que los de pago cobran por documento.",
+   "refuto": "Que los gratis estén desactualizados no los hace insuficientes: 81K usuarios que lo usan gratis muestran que el caso simple se resuelve sin pagar, lo cual apoya F1 parcial. La fragilidad de un add-on viejo no cubre Power Query, ChatGPT/Copilot ni ReadyData, que el defensor no rebate. Las capacidades de Copilot y precios de Nanonets siguen sin verificar en ambos lados.",
+   "evidencia": [
+    {"afirmacion": "PDF Tables Extractor: gratis, ~81K usuarios, última actualización 14 marzo 2022 (verificado en búsqueda)", "url": "https://workspace.google.com/marketplace/app/pdf_tables_extractor/870797276658"},
+    {"afirmacion": "Power Query nativo importa PDF gratis", "url": "https://www.thebricks.com/resources/how-to-import-a-pdf-into-excel"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "El dato de ~81K usuarios en un extractor gratis es real (verificado) y demuestra que la categoría tiene tráfico en Workspace Marketplace; eso debilita mi tesis de que el canal es solo saturación sin demanda. Concedo también que el defensor admitió no haber verificado AppSource.",
+   "refuto": "Esos 81K son usuarios de una herramienta GRATIS y sin actualizar desde 2022: prueban tráfico, no disposición de pago ni conversión freemium a pago (sin verificar para ambos). Tráfico gratuito no es canal para 100 clientes de pago; y la mitad del canal propuesto (AppSource) no tiene evidencia de volumen. El SEO 'pdf to excel' lo domina el gratis, como el propio defensor concede.",
+   "evidencia": [
+    {"afirmacion": "Listing gratis con ~81K usuarios, sin actualización desde 2022", "url": "https://workspace.google.com/marketplace/app/pdf_tables_extractor/870797276658"},
+    {"afirmacion": "Conversión a pago y CAC en este nicho", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Las plantillas por proveedor pueden crear costo de cambio y uso mensual en cierre contable/AP; es una hipótesis razonable y el defensor admite que no tiene datos de churn.",
+   "refuto": "Es solo hipótesis de producto sin evidencia; yo tampoco tengo datos de churn, así que ninguna parte la demuestra. Persiste mi argumento de que quien tiene flujo recurrente tiende a migrar a Docparser/Nanonets con automatización, y de que los convertidores suelen tener uso esporádico (el defensor también lo reconoce).",
+   "evidencia": [
+    {"afirmacion": "Churn/retención de herramientas PDF-a-Excel", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El defensor tiene razón en que una fracción mínima de los >300M de asientos M365 (cifra de blog, sin fecha, no primaria) supera con holgura 100k posibles compradores; F6 se supera y yo ya había dicho que no tenía evidencia de lo contrario. Retiro cualquier insinuación de que el mercado sea chico.",
+   "refuto": "Asientos M365 no son compradores posibles: el defensor mismo marca como 'sin verificar' la fracción que procesa PDFs a mano y el >2M. El score 5 exige >2M compradores y esa cifra no tiene fuente; el mercado pagador efectivo (los que no usan Power Query/IA gratis) es bastante menor. Lo defendible es mercado grande (≥100k), probablemente 4 o menos hasta que se verifique.",
+   "evidencia": [
+    {"afirmacion": ">300M asientos M365 citados en un blog, sin fecha, no fuente primaria", "url": "https://sqmagazine.co.uk/google-sheets-vs-excel-statistics.md"},
+    {"afirmacion": "Fracción pagadora y >2M profesionales", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor reconoce que la defensa es débil, que ReadyData ya está en $19 y que Microsoft/Google/OpenAI pueden absorber la función. Coincidimos casi por completo.",
+   "refuto": "Las defensas que propone (biblioteca de plantillas, integración profunda, tope de páginas) son prácticas de producto, no barreras: cualquier incumbente puede igualarlas. El argumento de que no igualarían el precio plano 'sin canibalizar' no tiene evidencia y ReadyData ya demuestra lo contrario.",
+   "evidencia": [
+    {"afirmacion": "ReadyData ya ofrece Starter $19 y gratis", "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El MVP es factible para Juan en ~6 semanas (Office.js/Apps Script + Node + API de visión) y el tope de páginas con overage es una mitigación razonable del costo de inferencia. Ya lo había concedido.",
+   "refuto": "El defensor no responde a la carga operativa: la exactitud en facturas heterogéneas, revisión de dos marketplaces y expectativas de seguridad de documentos financieros. El tope con overage además erosiona la cuña de 'precio plano' (se acerca al modelo por documento). Sus propias cifras de costo de inferencia por página están 'sin verificar'; yo no tengo datos sobre ellas.",
+   "evidencia": [
+    {"afirmacion": "Costo de inferencia por página, exactitud y requisitos de revisión de marketplaces", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El mercado total supera el umbral de 100k compradores (F6 pasa) y la categoría tiene tráfico real: verifiqué que el extractor gratis de Workspace Marketplace tiene ~81K usuarios. Mi ataque se limita a la parte pagadora y a la cuña, no al tamaño bruto.",
+ "punto_que_sigue_en_pie": "La cuña de precio plano es copiable y no es diferencial: ReadyData ya cobra $19 con tier gratis, Power Query e IA general cubren gratis el caso simple, y el defensor reconoce que la defensa es débil. El >2M sigue sin fuente, así que el 5 en mercado no se sostiene.",
+ "busquedas_usadas": 1
+}

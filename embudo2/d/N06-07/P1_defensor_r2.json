@@ -1,0 +1,84 @@
+{
+ "id": "N06-07",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El atacante tiene razón en que Excel 365 en Windows ya importa tablas de PDF de forma nativa y refrescable (Power Query), que ChatGPT/Copilot extraen tablas, y que no tengo evidencia de frecuencia semanal ni de volumen de búsqueda. El dolor es de productividad, no crítico.",
+   "refuto": "El atacante generaliza el conector nativo a todo el universo. Búsqueda de verificación: fuentes de la comunidad Microsoft indican que el conector 'Desde PDF' falta en Excel para Mac, no tengo confirmación para Excel web, y el propio rival admite que PDFs escaneados requieren OCR y no funcionan. Eso deja sin cubrir a usuarios de Mac, de Google Sheets (ningún conector nativo equivalente verificado) y de PDFs escaneados/desordenados, que es donde el dolor es mayor. Sigue sin ser una prueba de dolor semanal: lo reconozco.",
+   "evidencia": [
+    {"afirmacion": "Pregunta de la comunidad Microsoft: el conector PDF de Power Query no aparece en Excel para Mac", "url": "https://learn.microsoft.com/en-us/answers/questions/5116197/power-query-mac-get-file-)-pdf"},
+    {"afirmacion": "Excel nativo en Windows importa tablas de PDF; escaneados requieren OCR (dato del rival, aceptado)", "url": "https://office-watch.com/2026/import-pdfs-into-excel/"},
+    {"afirmacion": "Disponibilidad en Excel web y frecuencia semanal del dolor", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Cierto que Docparser cobra por flujos automatizados por volumen y que el usuario ocasional tiene alternativas gratis (nativo, IA general, ReadyData gratis y $9). La disposición a pagar $19 del usuario ocasional es baja; no tengo dato que lo contradiga.",
+   "refuto": "El rival no aporta evidencia de que el segmento objetivo sea mayoritariamente ocasional; es una inferencia. Los contadores/AP con volumen mensual recurrente y sin ganas de montar un flujo Docparser son el segmento de la cuña, y ahí hay pago demostrado en el rango $9-$159 (ReadyData, Docparser). Es plausible, no probado.",
+   "evidencia": [
+    {"afirmacion": "Docparser $39/100 créditos, $74/250, $159/1000", "url": "https://mammoth.io/blog/docparser-pricing/"},
+    {"afirmacion": "ReadyData gratis, Lite $9, Starter $19, Pro $59, hasta $229", "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"},
+    {"afirmacion": "Proporción de usuarios recurrentes vs ocasionales", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo la saturación: Excel nativo gratis, IA general, ReadyData con tier gratis y Starter exactamente a $19 (la cuña de precio plano ya está igualada en precio), PDF.it y un add-on PDF-a-Sheets con OCR ya listado. El F1 parcial del rival es razonable para el usuario ocasional.",
+   "refuto": "F1 exige incumbente gratis y suficientemente bueno PARA LA CUÑA; el nativo de Excel no cubre Mac ni escaneados según lo verificado, y no hay evidencia de que sea suficiente para plantillas por proveedor dentro de Sheets. El rival tampoco verificó la calidad de Copilot/ChatGPT con facturas ni los precios de Nanonets (sin verificar). Por tanto F1 no queda demostrado, solo plausible.",
+   "evidencia": [
+    {"afirmacion": "ReadyData Starter $19 con tier gratis", "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"},
+    {"afirmacion": "Add-on Convert PDF to Google Sheets con OCR ya existe", "url": "https://workspace.google.com/marketplace/app/convert_pdf_to_google_sheets/687083288287?hl=es"},
+    {"afirmacion": "Calidad de Copilot/ChatGPT en facturas y precios de Nanonets", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Cierto que no hay datos de volumen en AppSource ni CAC, que 'pdf to excel' está dominado por herramientas gratis y que un add-on nuevo sin reseñas compite contra listados existentes. Mi argumento de canal descansa en un solo dato (57K+ instalaciones de un rival, dato del listing del vendedor).",
+   "refuto": "Que existan listados rivales en Workspace Marketplace es precisamente evidencia de demanda en el canal, no contra él; el rival lo usa como saturación sin cuantificar. Su propia búsqueda no halló add-on Excel en AppSource, lo que él mismo dice que no confirma ni descarta. No se probó que el canal falle, solo que no está probado.",
+   "evidencia": [
+    {"afirmacion": "Table OCR ~57K+ instalaciones en Workspace Marketplace (dato del vendedor)", "url": "https://workspace.google.com/marketplace/app/table_ocr_poimi_taulukon_tiedot/959950861676"},
+    {"afirmacion": "CAC y volumen AppSource", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Sin datos de churn de ninguna parte; el uso puede ser episódico (cierres mensuales) y el usuario recurrente de AP puede migrar a Docparser/Nanonets. Mi argumento de costo de cambio por plantillas es una hipótesis.",
+   "refuto": "El rival tampoco aporta evidencia; su afirmación de que los recurrentes migran a automatización es especulación. El cierre mensual es recurrencia, no uso puntual: facturas y estados de cuenta se repiten todos los meses.",
+   "evidencia": [
+    {"afirmacion": "Churn/retención de la categoría", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Cierto que >2M es estimación sin fuente y que 'procesan PDFs' no equivale a 'compradores de pago'. El puntaje 5 no está respaldado; el propio rival admite que probablemente supera 100k.",
+   "refuto": "F6 (<100k) no se activa: con 450M+ puestos comerciales de Microsoft 365 como cota superior (no como compradores reales) y finanzas/AP/contabilidad global, superar 100k es muy probable; lo defendible es 4 (700k-2M) más que 5, y lo acepto como ajuste honesto.",
+   "evidencia": [
+    {"afirmacion": "Microsoft 365 supera 450 millones de puestos comerciales de pago (cota superior del universo)", "url": "https://office365itpros.com/tag/microsoft-365-user-number/"},
+    {"afirmacion": "Compradores reales de pago >2M", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Casi nula, como dije en ronda 1: es un envoltorio de LLM/Document AI, ReadyData ya iguala el precio, Docparser ya tiene plantillas y Microsoft/Google pueden absorber la función. Doble riesgo de plataforma y de proveedor LLM.",
+   "refuto": "El rival no tiene evidencia de roadmap de Copilot/Gemini (sin verificar). Que Docparser tenga plantillas no implica que las ofrezca dentro de la hoja a $19 plano. Aun así, los fosos que propongo son modestos.",
+   "evidencia": [
+    {"afirmacion": "Roadmap de Copilot/Gemini para extraer tablas de PDF", "url": "sin verificar"},
+    {"afirmacion": "ReadyData ya ofrece tier de $19", "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Operar es más duro que construir: dos add-ons con revisiones de marketplace, soporte de exactitud, costo variable de inferencia que presiona un plano de $19 y requisitos de privacidad de documentos financieros. Sin dato de costo por página.",
+   "refuto": "El rival concede que el MVP en 6 semanas y el stack encajan. El riesgo de margen se mitiga empezando solo con Sheets y con tope de páginas más overage (ajuste ya propuesto en C); no es un problema irresoluble, solo no verificado.",
+   "evidencia": [
+    {"afirmacion": "Docparser limita por créditos (1 crédito = documento hasta 5 páginas), modelo replicable", "url": "https://mammoth.io/blog/docparser-pricing/"},
+    {"afirmacion": "Costo de inferencia por página", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La cuña de precio plano ya está igualada en precio por ReadyData ($19, con tier gratis), Excel nativo gratis cubre el caso simple en Windows y la defensa ante copias es casi nula; además el puntaje de mercado 5 (>2M) no está respaldado y 4 es más honesto.",
+ "punto_que_sigue_en_pie": "Pago demostrado en la categoría (Docparser $39-$159, ReadyData hasta $229), mercado claramente >100k (F6 no se activa) y el nativo de Excel no cubre Mac ni PDFs escaneados ni Google Sheets, por lo que existe un hueco real aunque modesto, ejecutable por una persona con Sheets primero.",
+ "busquedas_usadas": 1
+}

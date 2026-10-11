@@ -1,0 +1,102 @@
+{
+ "id": "N02-02",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Cierto: el dolor es episodico, no hay hilos organicos de Reddit/foros y casi toda la evidencia viene de blogs de vendors con interes comercial. Mi propia r1 ya lo puntuaba medio.",
+   "refuto": "El cambio de precios de Actions 2026 (rebaja de hosted runners y cargo a self-hosted pospuesto) es un hecho de GitHub, no de vendors; la factura es mensual y recurrente. 'Episodico' es inferencia del atacante sin datos, igual que mi 'recurrente'.",
+   "evidencia": [
+    {
+     "afirmacion": "GitHub changelog sobre precios de Actions (fuente primaria)",
+     "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Cierto: existe CostOps listado desde US$29/mes (verificado en Capterra, no en el sitio del vendor), lo que elimina el diferenciador de precio; existen alternativas gratis para una auditoria puntual; US$10k MRR a US$29 exige ~345 clientes retenidos; pagadores con factura relevante siguen sin verificar.",
+   "refuto": "La existencia de un competidor que cobra US$29 es tambien evidencia de disposicion de pago en este nicho (el atacante lo admite). Capterra indica precio basado en uso, sin prueba gratis, no un plan plano confirmado.",
+   "evidencia": [
+    {
+     "afirmacion": "Capterra lista CostOps desde US$29/mes usage-based; no confirmado en sitio del vendor",
+     "url": "https://www.capterra.com/p/10036601/CostOps/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Cierto y relevante: CostOps ocupa la misma propuesta (solo lectura, por workflow/job, alertas de presupuesto); Vantage tambien ofrece integracion de costos de GitHub; el export de uso de GitHub permite costo por workflow gratis via la columna workflow_path del reporte detallado; hay scripts OSS. Mi r1 afirmo que ninguna alternativa era un dashboard continuo neutral con alertas: eso queda falso por CostOps. La cuña 'no migrar runners' no es unica.",
+   "refuto": "El reporte detallado solo se obtiene desde la interfaz web, no por la REST API /usage, y requiere owner/admin y trabajo manual (sumar net_amount por workflow_path): cubre auditoria puntual, no monitoreo continuo. Ademas la columna 'Workflow' citada por el atacante es de un post de 2021; el formato actual usa workflow_path. DoiT es generico multi-nube, no especifico de Actions (sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "Docs GitHub: reporte detallado incluye workflow_path; solo desde la web UI",
+     "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"
+    },
+    {
+     "afirmacion": "CostOps: costos por workflow/repo/runner, alertas de presupuesto, solo lectura",
+     "url": "https://www.capterra.com/p/10036601/CostOps/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Cierto: volumen de busqueda, demanda real en Marketplace y CAC siguen sin verificar; Blacksmith domina el SEO informativo del tema; r/devops penaliza la autopromocion; el comprador puede requerir aprobacion de equipo.",
+   "refuto": "Que Blacksmith publique mucho contenido prueba intencion comercial, y su contenido es informativo/lead-gen de runners, no una herramienta instalable; un informe gratis de repo como producto compite en otra intencion. El Marketplace es canal real (hay apps de dashboard listadas), aunque su demanda no esta medida.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de busqueda y demanda en Marketplace",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Cierto: es la dimension mas debil para ambos. El valor de auditoria es puntual, el monitoreo continuo es hipotesis sin datos y cancelar una app de solo lectura es barato.",
+   "refuto": "Solo que el atacante tampoco tiene datos de churn comparables (lo admite). Que CostOps y Vantage vendan modelos recurrentes sugiere que otros apuestan por valor continuo, pero no prueba retencion.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn de analizadores de costo de CI comparables",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Cierto: no puedo demostrar >100k orgs con factura de Actions relevante; 47-48M devs no es el mercado comprable; muchas orgs quedan en el tier gratis/incluido. La carga de la prueba es de la idea y F6 sigue como riesgo principal.",
+   "refuto": "El atacante tampoco demuestra que este bajo 100k (lo concede). Que existan al menos CostOps, Vantage y vendors de runners vendiendo a este segmento indica un mercado no trivial, pero sin tamano verificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Numero de orgs que pagan Actions",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Cierto: sin datos propietarios ni lock-in, CostOps ya existe, GitHub o vendors pueden ampliarlo y la dependencia de una sola plataforma es riesgo mortal si cambia la API o el reporte. Un LLM puede generar un script que procese el CSV.",
+   "refuto": "El reporte detallado no esta en la API REST (solo UI web), asi que una mejora nativa o un script requieren pasos manuales; hoy no es 'un paso corto' verificado (inferencia del atacante). Neutralidad y benchmarks agregados siguen siendo defensas parciales y futuras, no actuales.",
+   "evidencia": [
+    {
+     "afirmacion": "Docs GitHub: detailed usage report solo en web UI",
+     "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Cierto: tras el MVP el cuello es distribucion, soporte y confianza para dar acceso a la org; la facilidad tecnica tambien facilita copias. Ademas, si el reporte detallado no esta en la API, la ingesta debe basarse en runs/jobs de la API, lo que puede restar precision de costo (sin verificar).",
+   "refuto": "El MVP en 4-6 semanas con Node/TS sigue siendo factible y el atacante lo admite; el modelo de permisos de solo lectura reduce la friccion de confianza.",
+   "evidencia": [
+    {
+     "afirmacion": "Precision del costo por job via API",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "CostOps (listado Capterra, desde US$29/mes, solo lectura, por workflow/job, alertas) ocupa la misma propuesta y precio: mi cuña 'sin migrar runners' no es unica y mi afirmacion de r1 de que ninguna alternativa era dashboard continuo neutral con alertas queda refutada.",
+ "punto_que_sigue_en_pie": "El dolor de costo es real y recurre mensual, hay disposicion de pago en el segmento (CostOps lo evidencia), el MVP es factible en 4-6 semanas para una persona, y el reporte detallado de GitHub con workflow_path solo esta en la UI web (no en la API), asi que el monitoreo continuo automatizado no es gratis ni trivial.",
+ "busquedas_usadas": 2
+}

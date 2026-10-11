@@ -1,0 +1,134 @@
+{
+ "id": "N01-09",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que las devoluciones son recurrentes para tiendas con volumen y en que la existencia de plugins RMA muestra demanda. Él mismo admite urgencia moderada (3/5).",
+   "refuto": "Que existan plugins RMA prueba oferta, no dolor semanal ni búsqueda activa; y la propia evidencia del defensor sobre magnitud en dinero es 'sin verificar'. Para la tienda Woo típica pequeña sigue siendo 'estaría bien'.",
+   "evidencia": [
+    {
+     "afirmacion": "Plugin gratis ya cubre el flujo básico de devoluciones/reembolsos",
+     "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+    },
+    {
+     "afirmacion": "Magnitud del dolor en dinero",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Hay precedente de pago: RMA desde US$149 único y portales Shopify mensuales (ReturnGO desde $23/mes). El defensor admite que $39 es alto.",
+   "refuto": "Los precedentes mensuales son de Shopify/Wix, no de Woo; en Woo lo pagado es licencia única/anual. Bajar a $19-29 no resuelve la cultura de licencia única y erosiona la meta de MRR (F5 en riesgo por volumen).",
+   "evidencia": [
+    {
+     "afirmacion": "Plugins nativos Woo con tarifa plana anual o única vs SaaS por volumen",
+     "url": "https://www.zorem.com/?p=110579"
+    },
+    {
+     "afirmacion": "Precios de Webkul/WPSwings/Kaddora",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor concede lo central: AfterShip Returns integra Woo oficialmente (portal de marca, etiquetas con 12+ transportistas), lo que refuerza mi ataque. Concedo que la calidad real de esa integración sigue sin verificar y que el plugin de AfterShip en WordPress.org avisa de no estar probado con las últimas 3 versiones mayores de WP (apertura real de calidad). Mi búsqueda de réplica no confirmó que el plan gratis/Premium $0 aplique a Woo (podría ser promo); no lo uso como hecho.",
+   "refuto": "La defensa de etapa C ('ningún SaaS mensual Woo con etiquetas') queda contradicha por el propio defensor; el hueco de 'no probado con últimas versiones' es una debilidad de un competidor, no una cuña estructural, pues AfterShip puede actualizarlo.",
+   "evidencia": [
+    {
+     "afirmacion": "AfterShip Returns integra WooCommerce con portal de marca y etiquetas",
+     "url": "https://www.aftership.com/integrations/woocommerce/returns"
+    },
+    {
+     "afirmacion": "AfterShip Returns Essentials desde $16/mes",
+     "url": "https://www.aftership.com/returns/pricing"
+    },
+    {
+     "afirmacion": "Un review de terceros menciona sobrecargos por devolución de $0.55-1.19; no verificado contra AfterShip",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se fortalece"
+  },
+  "canal_y_cac": {
+   "concedo": "El canal WordPress.org y SEO es real y nombrado, con intención de búsqueda; el defensor admite saturación y que no hay cifra de CAC.",
+   "refuto": "Un SaaS con cuenta externa y etiquetas de pago no encaja con el modelo freemium del directorio sin plugin gratis competente que canibalice el pago; y el directorio ya tiene incumbentes con instalaciones y reseñas. 'CAC cercano a cero' sin datos es supuesto.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores presentes en el directorio de WordPress.org",
+     "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+    },
+    {
+     "afirmacion": "CAC y conversión freemium",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor acierta en que el portal integrado cuesta migrar moderadamente y que las devoluciones son continuas; admite mortalidad de tiendas y falta de datos de churn.",
+   "refuto": "Costo de migración 'moderado' es afirmación sin evidencia; con precio fijo y meses de pocas devoluciones, la cancelación es probable. Un precio por volumen mitiga pero hace el MRR volátil.",
+   "evidencia": [
+    {
+     "afirmacion": "Modelo por volumen escala con devoluciones",
+     "url": "https://www.zorem.com/?p=110579"
+    },
+    {
+     "afirmacion": "Churn de plugins/apps Woo",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Concedo que el universo Woo (4.5-6.2M según RedStag, no re-verificado) supera ampliamente 100k, F6 no aplica, y 1% serían 45-62k solo si el segmento fuese tan pequeño. Es la dimensión más favorable a la idea.",
+   "refuto": "El 4 asume implícitamente todas las tiendas; el segmento pagador (físicos con devoluciones suficientes, que no usen gratis) está sin cuantificar por ambos lados. Aun así probablemente supere 100k, por lo que mi ataque aquí es de magnitud, no de descarte.",
+   "evidencia": [
+    {
+     "afirmacion": "Woo ~4.5-6.2M tiendas",
+     "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"
+    },
+    {
+     "afirmacion": "Segmento pagador",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor admite que la defensa es débil, sin foso técnico, y que AfterShip ya entró; coincidimos. Su idea de marca de especialista Woo con integraciones profundas (HPOS, Subscriptions) es una ventaja operativa posible.",
+   "refuto": "Esa ventaja es copiable y depende de reseñas que él mismo marca 'sin verificar'; un especialista unipersonal compite contra AfterShip con recursos y 900+ transportistas en tracking.",
+   "evidencia": [
+    {
+     "afirmacion": "AfterShip ya integra Woo",
+     "url": "https://www.aftership.com/integrations/woocommerce/returns"
+    },
+    {
+     "afirmacion": "Foso de reseñas e integraciones",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El stack PHP/Node de Juan encaja y un MVP de ~6 semanas es plausible si se limita el alcance; el defensor lo reconoce con riesgos.",
+   "refuto": "El MVP no es el problema sino la operación: compatibilidad WP/Woo/HPOS, agregador de etiquetas (costo y cobertura sin verificar) y soporte multi-hosting. Que AfterShip esté sin probar en últimas 3 versiones muestra que incluso un equipo grande se atrasa, lo que respalda la carga de mantenimiento y no la disminuye.",
+   "evidencia": [
+    {
+     "afirmacion": "Plugin de AfterShip sin probar con últimas 3 versiones mayores de WP",
+     "url": "https://ky.wordpress.org/plugins/automizely-returnscenter/"
+    },
+    {
+     "afirmacion": "Costo y cobertura EasyPost/Shippo",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El mercado Woo (millones de tiendas) supera con holgura 100k, F6 no aplica; también concedo que el canal WordPress.org es real y que el MVP es factible con el stack de Juan.",
+ "punto_que_sigue_en_pie": "La cuña 'Woo desatendido' es falsa: AfterShip Returns integra Woo oficialmente (confirmado por el propio defensor), hay plugin gratis y RMA de pago único, la cultura Woo es de licencia única y no hay foso; $39/mes (o $19-29) choca con eso y con AfterShip desde $16/mes.",
+ "busquedas_usadas": 1
+}

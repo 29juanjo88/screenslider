@@ -1,0 +1,53 @@
+{
+ "id": "N02-02",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 3,
+  "mercado": 2,
+  "cuna": 2,
+  "ejecucion": 4
+ },
+ "total": 32,
+ "hecho_decisivo": "La doc oficial de GitHub confirma que el informe de uso detallado ya trae workflow_path (costo por workflow) gratis, aunque solo por UI web/correo y no por REST API; y ambos pares hallaron competidores directos de solo lectura (CostOps desde US$29 en Capterra, octolense gratis en beta en Marketplace, Vantage). Además nadie verificó cuántas orgs pagan Actions (F6). https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports",
+ "condicion": "Confirmar (a) que existen >=100k orgs con gasto relevante en Actions (F6) y (b) que hay una cuña de monitoreo continuo/alertas que orgs con factura real pagan y retienen pese a CostOps/octolense/export nativo.",
+ "experimento_mas_barato": "Landing + informe gratis manual: publicar página 'GitHub Actions cost audit' y ofrecer auditoría gratuita subiendo el CSV de uso; publicar en r/devops/SEO. Métrica: >=30 orgs envían CSV en 4 semanas y >=5 aceptan preorden/pago de US$29+ para monitoreo continuo (>=15% de los que reciben informe). Además estimar orgs pagadoras (p. ej. consulta de datos públicos/encuesta); si <100k plausibles, descartar.",
+ "dimensiones": {
+  "dolor": "Dolor monetario real ligado al cambio de precios de Actions, pero episódico; sin hilos orgánicos verificados. Ambos pares coinciden en nivel medio (3).",
+  "pago": "Hay presupuesto adyacente y CostOps cobra desde US$29 (listado Capterra), pero pago por un analizador puro no demostrado y el comprador puede optimizar y cancelar.",
+  "alternativas_actuales": "F1 parcial: el desglose por workflow es nativo y gratis (workflow_path), más CLI OSS, Vantage, CostOps y octolense. Solo queda el hueco de monitoreo continuo/alertas; la cuña de no migrar runners no es única.",
+  "canal_y_cac": "Marketplace, SEO y Reddit son canales nombrados y plausibles, pero Blacksmith domina el SEO, octolense ocupa el Marketplace y no hay datos de volumen ni CAC.",
+  "retencion": "Dimensión más débil, concedida por ambos defensores: valor de auditoría puntual, churn tras optimizar y sin datos comparables; monitoreo continuo es solo hipótesis.",
+  "mercado": "Nadie aportó la cifra de orgs que pagan Actions; 47-180M de devs no son compradores. F6 es riesgo abierto; escala probable 2-3, se puntúa 2 por carga de la prueba.",
+  "defensa_frente_a_copias": "Foso bajo, concedido por ambos: copias ya existen (CostOps, octolense), GitHub puede mejorar su reporte y hay dependencia total de plataforma. Neutralidad e histórico son defensas modestas.",
+  "ejecucion_una_persona_tiempo_parcial": "Fuerte: MVP 4-6 semanas con Node/TS, sin hardware ni ventas; matiz: el detalle por workflow no está en la REST API, así que hay que subir CSV o reconstruir costo desde runs, con riesgo de precisión."
+ },
+ "resumen_P1": "El atacante demostró con doc oficial que el desglose por workflow ya es nativo y gratis y que el mercado de pagadores no está cuantificado; el defensor contrapuso que es export manual por UI sin dashboard, alertas ni recomendaciones, y concedió churn, foso bajo y F6 sin resolver.",
+ "resumen_P2": "El atacante encontró CostOps (US$29, solo lectura, por job, alertas) y octolense (Marketplace, gratis en beta), que ocupan la cuña; el defensor concedió que su afirmación de ausencia de alternativas quedó refutada y se apoyó en dolor real, disposición de pago evidenciada por CostOps y MVP factible.",
+ "razonamiento": "Los dos pares coinciden en lo importante: dolor medio, ejecución fuerte, retención débil, foso bajo y mercado de pagadores sin cuantificar. La cuña 'no migrar runners' no distingue de CostOps/octolense/Vantage, y el dato de la cuña (costo por workflow) es gratis y nativo, lo que deja solo el monitoreo continuo como hueco, frágil frente al churn. La existencia de competidores de pago a US$29 prueba cierta disposición de pago pero erosiona la novedad. Con mercado 2 y cuña 2 el total queda en el límite bajo de MEDIA, y la meta de US$10k exige ~345 clientes retenidos a US$29. Solo vale validar si se confirma tamaño de mercado y retención del monitoreo, por lo que CONDICIONAL con probabilidad baja.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Informe detallado de GitHub incluye workflow_path; solo por UI web/correo",
+   "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"
+  },
+  {
+   "afirmacion": "CostOps listado desde US$29 usage-based, por workflow/job, alertas (listado Capterra, no verificado en vendor)",
+   "url": "https://www.capterra.com/p/10036601/CostOps/"
+  },
+  {
+   "afirmacion": "octolense: dashboard de Actions en GitHub Marketplace, gratis en beta",
+   "url": "https://github.com/apps/octolense-github-actions-dashboard"
+  },
+  {
+   "afirmacion": "GitHub cambió precios de Actions (dolor en conversación)",
+   "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"
+  },
+  {
+   "afirmacion": "Vantage soporta costos de GitHub",
+   "url": "https://www.vantage.sh/blog/vantage-launches-support-github-costs"
+  }
+ ],
+ "busquedas_usadas": 0
+}

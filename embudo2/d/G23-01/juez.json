@@ -1,0 +1,57 @@
+{
+ "id": "G23-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "media",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 4,
+  "canal": 3,
+  "mercado": 3,
+  "cuna": 2,
+  "ejecucion": 4
+ },
+ "total": 37,
+ "hecho_decisivo": "Ambos pares coinciden (y el atacante lo concede en r2) en que Refund Genie de Helium 10 no cubre discrepancias de envíos entrantes (https://www.helium10.com/tools/refund-genie/), pero ese hueco lo cubren Helium 10 Managed Refund Service, Threecolts y servicios por comisión, y ReimburseOps ya ocupa el precio fijo bajo ($19/mes, listado de terceros). Desde nov-2024 Amazon reembolsa proactivamente y la ventana bajó a 60 días (fuentes de vendors). Tamaño del segmento FBA con 20k+/mes: sin verificar; la búsqueda del juez no halló cifra.",
+ "condicion": "Confirmar que existe un segmento de sellers FBA que (a) no usa Helium 10/servicio gestionado y (b) recupera de forma recurrente más de ~$250/mes en reclamos manuales (inbound/daños), pagando $49 fijos; y que el segmento supera 100k compradores.",
+ "experimento_mas_barato": "Landing + auditoría gratuita de un CSV/reporte FBA (sin producto: revisión manual o script desechable) anunciada en r/FulfillmentByAmazon y 1-2 artículos SEO; métrica: de 300 visitantes cualificados, >=30 suben reporte y >=10 aceptan pagar $49/mes tras ver el monto recuperable (o >=5 prepagos). Matar si <3 prepagos o si el monto mediano recuperable es <$150/mes.",
+ "dimensiones": {
+  "dolor": "Dolor monetario real y reconocido por ambos pares, pero episódico y erosionado: reembolso proactivo de Amazon desde fines de 2024, ventana de 60 días y monto basado en costo desde 2025-03-10. Magnitud (1-3%, ~1/3 sin reembolsar) solo de vendors.",
+  "pago": "Hay presupuesto demostrado (comisiones 20-25%, suites), y $49 fijo gana a la comisión si se recuperan >$250/mes. Pero el modelo dominante es 'cero si no recupero' y hay herramientas de $19; ambos defensores concedieron el punto.",
+  "alternativas_actuales": "Saturado: función nativa gratis, Refund Genie sin comisión (no cubre inbound), Managed Refund Service, Threecolts, Carbon6, GETIDA, Jarvio, ReimburseOps $19. El hueco de inbound existe en el producto DIY pero no es segmento desatendido.",
+  "canal_y_cac": "Canal nombrado con intención (Reddit, SEO long-tail) cumple F4 formalmente; ambos atacantes lo concedieron. Reddit castiga autopromoción y el SEO está ocupado; sin datos de volumen ni CAC.",
+  "retencion": "Retención dudosa: tras limpiar el backlog inicial el valor mensual cae y Amazon automatiza más; riesgo de churn alto tras 2-4 meses. Sin evidencia de uso recurrente.",
+  "mercado": "Tamaño del segmento 20k+/mes sin verificar. Encuesta citada (Influencer Marketing Hub) sugiere ~20% de sellers entre $25k-250k/mes y ~6% sobre $250k, sobre una base de cientos de miles a millones de sellers; plausible >100k pero no probado.",
+  "defensa_frente_a_copias": "Débil: parsear reportes FBA y redactar reclamos es fácil de copiar, un LLM redacta el texto, y los incumbentes ya lo tienen. Cuña de precio fijo sin foso.",
+  "ejecucion_una_persona_tiempo_parcial": "Viable: MVP con carga de CSV/reportes en pocas semanas. Riesgo: acceso a SP-API y cambios de política de Amazon; se mitiga con carga manual de reportes."
+ },
+ "resumen_P1": "El atacante mostró saturación (Refund Genie, Threecolts, servicios por comisión) y SEO/Reddit difíciles; el defensor sostuvo que $49 fijo vence al 20-25% y que Refund Genie no cubre inbound, hecho que el atacante concedió pero refutó con el Managed Refund Service. Ambos terminaron en cuña estrecha (inbound + precio fijo para quien no usa Helium 10).",
+ "resumen_P2": "El atacante aportó que Amazon reembolsa proactivamente con ventana de 60 días y que ReimburseOps cubre el precio fijo bajo en $19; el defensor concedió erosión del dolor, saturación y valor limitado del texto por LLM. Quedó la defensa de que el reembolso proactivo no cubre todo (~1/3) y que la ventana corta hace útil el seguimiento de plazos.",
+ "razonamiento": "Los dos pares convergen: dolor y presupuesto reales, pero cuña débil y mercado ocupado, con concesiones fuertes del defensor en r2 sobre alternativas y pago. El hueco inbound de Refund Genie es real pero cubierto por servicios gestionados, y el precio fijo bajo ya está tomado por ReimburseOps a $19. El tamaño del segmento 20k+/mes no pudo verificarse; la evidencia indirecta lo hace plausible sobre 100k, por lo que no se aplica F6. No se descarta por F1 porque ninguna alternativa gratis cubre la cuña inbound completa. Vale la pena solo si un test barato demuestra disposición a pagar $49 fijo; total 37, banda media.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Refund Genie sin comisión, DIY; no incluye discrepancias inbound (según Helium 10)",
+   "url": "https://www.helium10.com/tools/refund-genie/"
+  },
+  {
+   "afirmacion": "Reembolso proactivo de Amazon y ventana de 60 días (vendor, no oficial)",
+   "url": "https://www.spscommerce.com/community/articles/amazons-reimbursement-policy-updates-what-sellers-need-to-know"
+  },
+  {
+   "afirmacion": "Política FBA de reembolsos desde 2025-03-10 (costo de abastecimiento)",
+   "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"
+  },
+  {
+   "afirmacion": "ReimburseOps Pro $19/mes sin comisión (listado de terceros)",
+   "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+  },
+  {
+   "afirmacion": "Managed Refund Service de Helium 10 cubre reclamos (reseña)",
+   "url": "https://revenuegeeks.com/helium-10-managed-refund-service/"
+  },
+  {
+   "afirmacion": "Distribución de ventas mensuales de sellers (encuesta 2021, no desglosa >$20k ni FBA)",
+   "url": "https://influencermarketinghub.com/how-much-do-amazon-sellers-make/"
+  }
+ ],
+ "busquedas_usadas": 1
+}

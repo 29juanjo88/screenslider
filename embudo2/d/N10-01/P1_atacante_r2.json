@@ -1,0 +1,81 @@
+{
+ "id": "N10-01",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor acierta en que la EAA es ley vigente desde 28-jun-2025 y aplica a tiendas no-UE que venden a consumidores UE, y que el dolor es real aunque episodico. Ambos coincidimos en que no es semanal.",
+   "refuto": "El defensor mismo admite dolor episodico y de cumplimiento con urgencia media y exencion de microempresas; no aporta evidencia de busqueda activa recurrente. Sus fuentes de la obligacion son blogs de vendors sesgados. Un dolor de una sola vez no sostiene suscripcion mensual.",
+   "evidencia": [
+    {"afirmacion": "EAA es ley en Irlanda desde 28-jun-2025 (concedido)", "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"},
+    {"afirmacion": "Exencion microempresa (<10 personas y <=2M EUR), fuente de vendor", "url": "https://accessible.org/does-eaa-apply-shopify-stores/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo que accessiBe cobra desde $59/mes (segun listing citado por el defensor, no re-verificado por mi) y que existe gasto real en el area; tambien que HewnScan cobra $29 Pro, lo que muestra que ese precio existe en el mercado (verificado en mi busqueda de r2). Tambien concedo que mi calculo de 345 pagadores es propio.",
+   "refuto": "Comparar con accessiBe (overlay, categoria distinta que la propia cuña rechaza) no demuestra disposicion a pagar por un escaner de arreglos; los comparables directos son $4.99-$29 con tier gratis. Las 'agencias cobran miles' sigue sin verificar en ambos lados. Un precio de $29-49 propuesto por el defensor choca con HewnScan Pro $29 ya existente, asi que no hay prima de precio.",
+   "evidencia": [
+    {"afirmacion": "HewnScan: tier gratis (auditoria de home, 26 checks) y Pro $29/mes con re-escaneos semanales; precio Agency no confirmado en mi busqueda", "url": "https://pickyourapp.com/products/hewnscan"},
+    {"afirmacion": "AccessKit plan de pago desde $4.99/mes", "url": "https://apps.shopify.com/accesskit"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que Shopify no trae accesibilidad nativa (roundup de tercero) y que overlays y enterprise (Deque, Siteimprove) son caros o no arreglan codigo, por lo que hay hueco frente a ellos. El defensor tambien concede honestamente que F1 parcial es riesgo real.",
+   "refuto": "El hueco frente a overlays/enterprise no es la cuña relevante: el rival directo son los escaneres baratos o gratis (AccessKit, Accessify AI, HewnScan) que ya prometen arreglos y reportes. El defensor reconoce que no verifico si herramientas gratis bastan, y no aporta evidencia de que la lista por plantilla sea exclusiva. HewnScan ademas traza cada problema a la app culpable, funcion cercana a la cuña.",
+   "evidencia": [
+    {"afirmacion": "HewnScan Pro: severidad, guia de arreglos, traza al app culpable, reporte PDF y alertas", "url": "https://pickyourapp.com/products/hewnscan"},
+    {"afirmacion": "AccessKit se declara no-overlay y orientado al markup del tema, con tier gratis", "url": "https://apps.shopify.com/accesskit"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que el canal existe con demanda visible (varias apps con listing activo), que Scanify tiene listing sin resenas y por tanto entrar sin resenas es posible, y que la existencia de nuevos entrantes no prueba por si sola que ninguno gane.",
+   "refuto": "Que un competidor sin resenas exista prueba facilidad de entrada, no que gane trafico; es precisamente mi argumento de saturacion. 'CAC cercano a cero si se posiciona' es condicional sin evidencia, y el defensor admite que CAC y ranking son sin verificar. WordPress.org sigue sin verificar en ambos lados.",
+   "evidencia": [
+    {"afirmacion": "SEO EAA dominado por blogs de vendors (clym, testparty, fudge, accessible.org)", "url": "https://www.clym.io/blog/european-accessibility-act-fines-by-country"},
+    {"afirmacion": "CAC y ranking App Store", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que la obligacion EAA es continua en principio y que temas/apps/contenido generan regresiones, y que un plan agencia multi-tienda podria retener mejor. No tengo datos de churn.",
+   "refuto": "La continuidad legal no equivale a disposicion de pagar un escaner mensual cuando competidores de $5-10 y gratis ya ofrecen re-escaneo semanal. Los datos de churn son sin verificar en ambos lados; la hipotesis de agencias tambien carece de evidencia. El reporte de evidencia historico como costo de cambio es afirmacion sin respaldo.",
+   "evidencia": [
+    {"afirmacion": "HewnScan Pro y Accessify AI Basic ya incluyen re-escaneos semanales/automaticos a $29 y $9.99", "url": "https://pickyourapp.com/products/hewnscan"},
+    {"afirmacion": "Churn del segmento", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Esta es mi mayor concesion: el defensor aporta cifras de base de plataformas (~4.53M WooCommerce, ~2.9M Shopify segun Store Leads citado por blogs) y su argumento de que 100k compradores es ~2-4% del total es aritmeticamente correcto y hace plausible el cumplimiento de F6. Retiro la duda de que F6 probablemente falle; la dejo solo como no verificada en fraccion.",
+   "refuto": "Las cifras son de fuentes secundarias y cuentan tiendas vivas, no compradores obligados con ventas UE por encima de la exencion y dispuestos a pagar $29; esa fraccion es sin verificar (el propio defensor lo dice). Plausible no es un puntaje 4 (700k-2M) demostrado, y la ventana regulatoria es temporal.",
+   "evidencia": [
+    {"afirmacion": "~4.53M tiendas WooCommerce vivas (Store Leads Q3 2025), cifra concedida como secundaria", "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"},
+    {"afirmacion": "Fraccion con ventas UE sobre umbral de microempresa", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor concede que la defensa es debil; coincidimos. Su idea de biblioteca acumulada de arreglos por tema es un foso posible a largo plazo.",
+   "refuto": "La biblioteca por tema es esfuerzo manual propio, copiable y de mantenimiento creciente; no hay evidencia de que genere ventaja antes de los primeros 500 clientes. HewnScan, lanzada 21-jul-2026 con tier gratis y Pro $29, prueba que la replica es rapida. LLM capacidad: sin verificar.",
+   "evidencia": [
+    {"afirmacion": "HewnScan lanzada 21-jul-2026, gratis y Pro $29/mes", "url": "https://pickyourapp.com/products/hewnscan"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que Juan puede construir un MVP con su stack en ~6 semanas y que es operable por una persona; tambien que axe-core es una base razonable (licencia sin verificar). Coincido en que la infraestructura es barata.",
+   "refuto": "El defensor admite que Juan debe adquirir conocimiento de accesibilidad para generar arreglos correctos por tema y que un escaner cubre solo parte de WCAG; ahi esta el costo real, mas soporte, mantenimiento de reglas y riesgo de que el reporte se lea como garantia legal. Sin evidencia de plazos.",
+   "evidencia": [
+    {"afirmacion": "Escaneres existentes se declaran guia de preparacion, no certificacion legal", "url": "https://pickyourapp.com/products/hewnscan"},
+    {"afirmacion": "Plazo MVP y esfuerzo de mantenimiento", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El mercado de plataformas es de millones de tiendas (Store Leads via blogs) y alcanzar 100k compradores posibles requiere solo 2-4%, por lo que F6 probablemente se cumple; retiro mi duda sobre F6. Tambien concedo que el MVP es viable para Juan y que la urgencia EAA es real.",
+ "punto_que_sigue_en_pie": "La cuña no es diferencial: AccessKit, Accessify AI y HewnScan ya ofrecen escaneo/arreglos con tier gratis y planes de $4.99-$29 (HewnScan Pro exactamente $29), el canal esta saturado, la retencion es debil y no hay defensa ante copias, asi que ganar 500 clientes a $29 no esta respaldado.",
+ "busquedas_usadas": 1
+}

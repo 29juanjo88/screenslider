@@ -1,0 +1,138 @@
+{
+ "id": "N07-09",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El atacante acierta en que el dolor es de mejora personal, difuso y sin urgencia semanal verificada; yo tampoco tengo evidencia de intensidad de búsqueda. Concedo también que la fuente talkdrill es un blog parcial.",
+   "refuto": "Su propia fuente dice que la voz de ChatGPT supera la práctica oral de Duolingo: eso confirma que hay demanda real de práctica hablada, no que no haya dolor. Que existan productos de pago centrados en conversación (Speak, Max) indica dolor monetizado para un segmento.",
+   "evidencia": [
+    {
+     "afirmacion": "Productos de pago centrados en práctica conversacional con IA",
+     "url": "https://dupple.com/learn/best-ai-language-learning-tools"
+    },
+    {
+     "afirmacion": "Urgencia semanal / volumen de búsqueda",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo un punto importante: Speak anual (US$83.99, ~US$7/mes) está en la lista de la App Store de EE.UU., así que el precio plano de US$8 NO es una cuña de precio frente al plan anual de Speak; sólo lo sería frente al mensual (US$17.99). Retiro mi argumento de 'menos de la mitad del precio de Speak' salvo en comparación mensual. Los precios entre blogs son inconsistentes (Adapty cita US$19.99/US$99.99).",
+   "refuto": "Que el plan anual de Speak sea bajo no elimina la disposición de pago: confirma que hay gente pagando ~US$7-18/mes por práctica oral. La disposición de pago existe; lo que se debilita es la cuña de precio.",
+   "evidencia": [
+    {
+     "afirmacion": "Speak en App Store EE.UU.: mensual US$17.99 y anual US$83.99 (según reseña que cita el listado; no confirmé el listado directamente)",
+     "url": "https://speakshark.com/blog/speak-app-pricing-per-month-2026"
+    },
+    {
+     "afirmacion": "Adapty lista US$19.99 mensual / US$99.99 anual (región o fecha distinta)",
+     "url": "https://adapty.io/paywall-library/speak-language-learning/"
+    },
+    {
+     "afirmacion": "Duolingo Max lanzó a US$29.99/mes",
+     "url": "https://techcrunch.com/2023/03/14/duolingo-launches-new-subscription-tier-with-access-to-ai-tutor-powered-by-gpt-4"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que ChatGPT voz está disponible gratis: TechRadar titula que el modo voz ya es gratuito. Eso es un incumbente gratis relevante y F1 es un riesgo serio; además existen alternativas baratas a Speak (SpeakShark, Issen).",
+   "refuto": "La búsqueda no encontró fuente fiable sobre si la voz gratuita tiene memoria entre sesiones ni su límite diario exacto (OpenAI no publica el límite; sólo 'Plus = 5x'). El atacante afirma que un prompt con memoria aproxima el repaso de errores, pero no lo evidencia. Además, el uso gratuito termina al llegar al cupo, lo que limita a quien practica a diario. No demuestro que F1 no aplique: sigue abierto.",
+   "evidencia": [
+    {
+     "afirmacion": "El modo voz de ChatGPT es gratuito (artículo de TechRadar)",
+     "url": "https://www.techradar.com/computing/artificial-intelligence/now-that-chatgpt-voice-mode-is-free-is-it-even-worth-paying-for-chatgpt-plus-anymore"
+    },
+    {
+     "afirmacion": "Límite diario no publicado por OpenAI; Plus ofrece 5x el límite gratuito (resultado de búsqueda, no verificado en el sitio oficial)",
+     "url": "https://www.techradar.com/computing/artificial-intelligence/now-that-chatgpt-voice-mode-is-free-is-it-even-worth-paying-for-chatgpt-plus-anymore"
+    },
+    {
+     "afirmacion": "Memoria en voz gratuita y repaso espaciado de errores",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que no tengo evidencia de CAC ni de intención de compra en mis canales, que las keywords 'best language app/Speak alternatives' están ocupadas por blogs de competidores y que las reglas de r/languagelearning pueden limitar la autopromoción. Con ARPU de US$8 el CAC pagado es inviable; sólo el canal orgánico funciona.",
+   "refuto": "El atacante también marca 'sin verificar' las reglas de Reddit y el CAC, así que sus afirmaciones tienen la misma debilidad. El hecho de que haya blogs de competidores posicionados prueba que hay búsqueda con intención comercial ('Speak alternatives'), un nicho de long tail por par de idiomas aún explotable.",
+   "evidencia": [
+    {
+     "afirmacion": "Búsquedas 'Speak alternatives' dominadas por blogs de competidores (cita del atacante)",
+     "url": "https://speakshark.com/blog/speak-app-alternatives-2026"
+    },
+    {
+     "afirmacion": "CAC y reglas de r/languagelearning",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que Duolingo retiene con rachas y gamificación, que un tutor de voz plano sin hábito carece de eso, y que la retención de apps de idiomas es baja. No tengo datos de churn.",
+   "refuto": "La cita sobre el ejecutivo de Duolingo viene de un blog de un competidor y no prueba que el historial personal de errores no genere hábito. Mi argumento de costo de cambio por historial acumulado sigue siendo una hipótesis, no un hecho; sólo digo que no queda refutado con evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Cita atribuida a ejecutivo de Duolingo sobre engagement (blog de competidor)",
+     "url": "https://www.talkdrill.com/blog/compare/duolingo-vs-chatgpt-english/"
+    },
+    {
+     "afirmacion": "Churn mensual de apps de idiomas",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Ambos coincidimos en que el universo supera 100k con holgura (puntaje 5 probable). Concedo que el mercado abordable de pago para la cuña estrecha es menor, y que ~1,250 pagadores para US$10k MRR es aritmética mía, no dato de fuente. Con churn alto hay que adquirir miles al año.",
+   "refuto": "1,250 pagadores (o ~6,250 para US$50k) frente a ~12M suscriptores de pago de Duolingo (fuente secundaria) es una fracción pequeña; que el atacante concede 'mercado grande' deja esta dimensión como la más sólida de la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Mercado online de idiomas US$15.8B en 2025 (estimación)",
+     "url": "https://www.meticulousresearch.com/product/online-language-learning-market-5025"
+    },
+    {
+     "afirmacion": "~12.2M suscriptores de pago de Duolingo (fuente secundaria)",
+     "url": "https://dupple.com/learn/best-ai-language-learning-tools"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo plenamente que repaso de errores es una función, no un foso; Speak/Duolingo con GPT-4 y datos, o un GPT personalizado, pueden copiarla. Además el precio plano deja de ser diferenciador (Speak anual ~US$7/mes) y las funciones de IA se comoditizan (Explain My Answer gratis según reseña). El costo de voz hace vulnerable el precio plano ante usuarios intensivos.",
+   "refuto": "Que algo sea copiable no significa que será copiado pronto: Speak y Duolingo apuntan a contenido y gamificación masivos; un foco estrecho (pares de idiomas, adultos) podría ser ignorado. Es una apuesta de velocidad y foco, sin evidencia de que se vayan a abstener.",
+   "evidencia": [
+    {
+     "afirmacion": "Duolingo Max con GPT-4; Explain My Answer pasó a ser gratis (reseña)",
+     "url": "https://nibble-app.com/blog/is-duolingo-max-worth-it"
+    },
+    {
+     "afirmacion": "Que incumbentes no copien repaso de errores",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Costo por minuto de voz en tiempo real y margen",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que operar a escala exige multi-idioma, calidad de STT por idioma, móvil y control de costos variables de voz, y que competir en contenido y marca sola es difícil. El costo por minuto sigue sin verificar y puede romper el margen a US$8.",
+   "refuto": "El atacante mismo concede que el MVP es técnicamente factible en ~6 semanas con APIs de voz para Juan. Un MVP web de un par de idiomas con topes de uso evita móvil y contenido propio al inicio; la parte técnica favorece.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo de API de voz en tiempo real y factibilidad del MVP",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La cuña no es sólida: el precio plano de US$8 no se distingue del plan anual de Speak (~US$7/mes), el modo voz de ChatGPT es gratuito (F1 sigue abierto) y el repaso de errores es una función copiable, no un foso.",
+ "punto_que_sigue_en_pie": "El mercado es enorme y ya paga por práctica oral (el atacante lo concede), el MVP es viable para Juan en ~6 semanas, y no se demostró que la voz gratuita de ChatGPT tenga memoria de errores ni cupo diario suficiente para cubrir la cuña.",
+ "busquedas_usadas": 2
+}

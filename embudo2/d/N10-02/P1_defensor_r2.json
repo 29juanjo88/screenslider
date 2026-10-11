@@ -1,0 +1,118 @@
+{
+ "id": "N10-02",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Es dolor de cumplimiento/precio, no de pérdida semanal; solo se busca activamente tras alzas (Cookiebot). La evidencia de la alza viene de reseñas y blogs de rivales, no del sitio oficial, y no hay datos de búsqueda ni churn.",
+   "refuto": "Que sea 'tolerable' para agencias no está probado: el atacante tampoco cita cifras. El disparador externo (Consent Mode v2, alza de precio) sigue siendo real y recurrente por cada alta de cliente.",
+   "evidencia": [
+    {
+     "afirmacion": "Alza de Cookiebot ~EUR15 a ~EUR30/mes por dominio, según reseña Trustpilot (sin verificar en sitio oficial)",
+     "url": "https://uk.trustpilot.com/review/cookiebot.com"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Correcto que Complianz Agency cubre 25 sitios por ~US$399/año (~$33/mes), verificado en mi búsqueda (fuentes coinciden en $399; una copia en caché muestra $359). Eso choca directamente con un precio de $49-99/mes plano para 20+ dominios y confirma el anclaje a precios bajos; a $19 hacen falta ~526 pagadores para $10k MRR.",
+   "refuto": "Complianz es solo WordPress, así que el ancla de $33/mes no aplica a agencias con sitios no-WP (Shopify, Webflow, custom). La disposición de pago por dominio de CookieYes/Cookiebot sigue demostrada.",
+   "evidencia": [
+    {
+     "afirmacion": "Complianz Agency $399/año por 25 sitios; Personal $59, Professional $179",
+     "url": "https://complianz.io/complianz-pricing-faqs/"
+    },
+    {
+     "afirmacion": "CookieYes Basic $10/Pro $25/Ultimate $55 por dominio",
+     "url": "https://www.cookieyes.com/pricing/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "La cuña de precio plano multi-dominio está más ocupada de lo que admití: Complianz Agency (25 sitios, $399/año) es casi el mismo producto para WordPress, más Enzuzo 10 dominios $79/mes, Consently, Cookie Script. Para la cuña de agencias WP, F1 parcial es un riesgo serio; lo retiro como 'sin documentar'.",
+   "refuto": "El atacante afirma F1 cumplido para toda la cuña, pero Complianz es solo WordPress y requiere licencia por sitio con tope 25; el atacante admite que Shopify/WordPress 'integran banners' como 'sin verificar'. Un panel multi-cliente agnóstico de plataforma con white-label no está acreditado en esos bundles.",
+   "evidencia": [
+    {
+     "afirmacion": "Complianz Agency 25 sitios $399/año",
+     "url": "https://complianz.io/complianz-pricing-faqs/"
+    },
+    {
+     "afirmacion": "Enzuzo Pro 10 dominios $79/mes (blog de vendor)",
+     "url": "https://enzuzo.com/blog/cookiebot-pricing"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Los tres canales están disputados por incumbentes con instalaciones y reseñas; el SEO 'cookiebot alternative' está saturado de blogs de rivales; no tengo cifras de CAC ni conversión.",
+   "refuto": "Que estén disputados no equivale a cerrados: el canal tiene intención de compra demostrada y existe la cola larga 'for agencies' o específica de plataforma, donde no hay evidencia de saturación. El atacante tampoco cuantifica.",
+   "evidencia": [
+    {
+     "afirmacion": "Blogs de rivales ocupan SEO de alternativas",
+     "url": "https://consentpixel.com/blogs/onetrust-alternatives/"
+    },
+    {
+     "afirmacion": "CAC y conversión freemium->pago en CMP: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Agencias cambian cuando cae un proyecto o aparece algo más barato; no hay datos de churn y el mantenimiento regulatorio condiciona la retención.",
+   "refuto": "La parte 'baja motivación de cambio' que el propio atacante reconoce y el costo de re-configurar cada dominio y el historial de consentimientos sostienen retención decente; ningún lado tiene datos.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de CMP para agencias: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El mercado de la cuña estrecha (agencias con 20+ dominios) no está cuantificado y podría quedar bajo 100k (F6); mi cifra de decenas de miles es una conjetura. Complianz con tiers de 1/5/25 sitios muestra que la demanda multi-sitio ya está servida.",
+   "refuto": "El atacante concede que contando todos los dueños de sitios se supera 100k; el producto puede venderse también a freelancers/dueños de varios sitios a precio plano bajo, y los proxies de instalaciones (733,835 WP CookieYes según WPoptic; 43,306 tiendas Shopify según StoreCensus) respaldan tamaño total grande, aunque instalaciones no son compradores.",
+   "evidencia": [
+    {
+     "afirmacion": "CookieYes 733,835 instalaciones WP (WPoptic; otras fuentes difieren)",
+     "url": "https://wpoptic.com/plugin/cookie-law-info/"
+    },
+    {
+     "afirmacion": "Número de agencias con 20+ dominios: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Es casi nula: la cuña es de precio/empaquetado, copiable en semanas, y Complianz/Enzuzo ya lo hacen. La certificación Google protege más a los ya certificados (CookieYes ya es Google CMP Partner) que al recién llegado; retiro mi argumento (2) como barrera a favor. El riesgo de abuso por reventa con dominios ilimitados es válido.",
+   "refuto": "Solo queda el argumento de canibalización de incumbentes por dominio, que es inferencia propia, no evidencia; no lo sobrestimo.",
+   "evidencia": [
+    {
+     "afirmacion": "CookieYes certificado Google CMP Partner para TCF",
+     "url": "https://www.cookieyes.com/blog/google-certified-cmp-for-tcf/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "MVP competitivo exige bloqueo fiable de scripts, Consent Mode v2, registros, traducciones, actualización legal y soporte; el soporte de scripts rotos recae en una persona. Mi estimación de 6-8 semanas es juicio propio sin verificar.",
+   "refuto": "El propio atacante reconoce que sin AdSense/Ad Manager no se exige certificación Google CMP/TCF, lo que alivia la carga para el segmento de agencias; el stack encaja con Juan y el costo operativo es bajo.",
+   "evidencia": [
+    {
+     "afirmacion": "Google exige CMP certificado con TCF para AdSense/Ad Manager/AdMob en EEA/UK (vendors)",
+     "url": "https://flexyconsent.com/blog/google-certified-cmp-list-requirements/"
+    },
+    {
+     "afirmacion": "Tiempo de MVP 6-8 semanas: juicio propio",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "Complianz Agency (25 sitios, ~$399/año, verificado) ocupa casi exactamente la cuña de agencias multi-dominio en WordPress y ancla el precio muy por debajo de $49-99/mes; la cuña de precio plano es copiable y la defensa frente a copias es casi nula.",
+ "punto_que_sigue_en_pie": "Mercado total grande y disposición de pago demostrada por dominio; la cuña viable es un panel multi-cliente/white-label agnóstico de plataforma (no solo WP) para agencias, con certificación Google no obligatoria fuera de AdSense; la ejecución en solitario es factible aunque pesada.",
+ "busquedas_usadas": 1
+}

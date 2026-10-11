@@ -1,0 +1,118 @@
+{
+ "id": "N01-09",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es difuso: la tienda Woo típica es pequeña y el email o el reembolso nativo le alcanza; no tengo datos de volumen de devoluciones; ReturnDesk gratis cubre el caso básico.",
+   "refuto": "Que sea 'estaría bien' para la tienda típica no invalida el segmento con volumen (ropa, calzado), donde las devoluciones sí son recurrentes; el atacante tampoco aporta datos que lo desmientan.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de devoluciones por tienda Woo",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "El hábito Woo es licencia única/anual y $39/mes choca con él; el propio ECOSIRE es pago único con actualizaciones limitadas.",
+   "refuto": "El hábito de pagar existe (RMA desde US$149, SaaS Shopify de pago); lo que cambia es la forma de cobro, resoluble con plan anual o precio por volumen $19-29. El atacante no demuestra que no paguen.",
+   "evidencia": [
+    {
+     "afirmacion": "RMA Woo de ECOSIRE desde US$149",
+     "url": "https://ecosire.com/apps/woocommerce/woo-returns-rma-manager"
+    },
+    {
+     "afirmacion": "Zorem: plugins nativos con tarifa plana anual o única vs SaaS por volumen",
+     "url": "https://www.zorem.com/?p=110579"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Es lo más fuerte del atacante: AfterShip Returns lista Woo y, según su página de precios, parte de $16/mes; mi $19-29 casi lo iguala y la cuña 'Woo desatendido' es falsa. Yo mismo lo había señalado.",
+   "refuto": "La cuña puede ser calidad/profundidad de la integración Woo (HPOS, Subscriptions, cupones nativos) y no ausencia total; el atacante admite no haber verificado la calidad de la integración Woo de AfterShip, cuyo plugin figura sin probar en las últimas 3 versiones de WP. Cobertura de etiquetas de AfterShip en Woo sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "AfterShip Returns desde $16/mes",
+     "url": "https://www.aftership.com/returns/pricing"
+    },
+    {
+     "afirmacion": "Plugin de AfterShip sin probar con las últimas 3 versiones mayores de WP",
+     "url": "https://ky.wordpress.org/plugins/automizely-returnscenter/"
+    },
+    {
+     "afirmacion": "AfterShip integra Woo",
+     "url": "https://www.aftership.com/integrations/woocommerce/returns"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "El directorio está saturado, hay un plugin gratis ya posicionado y el freemium puede canibalizar el pago; no hay datos de CAC.",
+   "refuto": "No hay evidencia de que 'woocommerce returns' esté dominado de forma inalcanzable; la intención de búsqueda existe y SEO propio es un segundo canal. El atacante tampoco aporta rankings.",
+   "evidencia": [
+    {
+     "afirmacion": "Instalaciones y ranking de 'woocommerce returns plugin'",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Las tiendas pequeñas tienen alta mortalidad y un precio fijo mensual se siente injusto en meses sin devoluciones.",
+   "refuto": "Es un argumento sin datos de churn de ninguna de las dos partes; un precio por volumen o escalonado mitiga justo ese punto. Sin datos.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps de devoluciones Woo",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El segmento pagador real es mucho menor que 4.5-6.2M y no está cuantificado; el 4 asume que toda tienda Woo compra. Ninguna de las dos partes re-verificó la cifra.",
+   "refuto": "Incluso con una fracción baja, F6 (100k) probablemente no aplica; el propio atacante dice que es la dimensión más favorable. Un 1% de 4.5M son 45k, así que el cumplimiento de F6 depende de que la fracción sea mayor, sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Woo ~4.5-6.2M tiendas",
+     "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"
+    },
+    {
+     "afirmacion": "Fracción de tiendas Woo que pagarían",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Sin foso técnico: portal CRUD más etiquetas vía agregador; AfterShip o ECOSIRE pueden copiar o bajar precio. Ya lo había admitido.",
+   "refuto": "La defensa operativa (especialización Woo, reseñas, integraciones profundas) es modesta pero real; AfterShip es generalista y su atención a Woo no está demostrada. No es un foso.",
+   "evidencia": [
+    {
+     "afirmacion": "AfterShip ya integra Woo",
+     "url": "https://www.aftership.com/integrations/woocommerce/returns"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El mantenimiento continuo (WP, Woo, HPOS, carriers, soporte multi-tenant) es una carga alta para una persona a tiempo parcial; MVP no es lo mismo que operar.",
+   "refuto": "El MVP de ~6 semanas con stack PHP/Node es viable, y el alcance puede acotarse (un agregador, pocos carriers, sin multisite/WPML al inicio). Que ECOSIRE sea HPOS-ready muestra el alcance esperado, no que sea inabarcable.",
+   "evidencia": [
+    {
+     "afirmacion": "ECOSIRE HPOS-ready, WPML, multisite",
+     "url": "https://ecosire.com/apps/woocommerce/woo-returns-rma-manager"
+    },
+    {
+     "afirmacion": "Cobertura de carriers y costo del agregador",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La cuña 'Woo desatendido' es falsa tal como se formuló: AfterShip Returns lista Woo desde $16/mes, hay plugin gratis y RMA de pago único, y un precio de $19-29 casi iguala a AfterShip.",
+ "punto_que_sigue_en_pie": "Mercado Woo grande con canal de intención y un MVP viable para un dev PHP/Node; la apuesta restante es ser especialista Woo (integración profunda, etiquetas y crédito nativo, precio por volumen) donde la calidad de AfterShip en Woo no está demostrada.",
+ "busquedas_usadas": 0
+}

@@ -1,0 +1,48 @@
+{
+"id":"N06-07","par":"P1","rol":"atacante",
+"replica":{
+"dolor":{
+"concedo":"El defensor tiene razón en que existen extractores de pago (ReadyData $9-$229, Docparser) y que la búsqueda 'pdf to excel' es activa; hay dolor monetizado. Él mismo admite que la urgencia es de productividad y no de pérdida crítica.",
+"refuto":"Que existan productos de pago no prueba frecuencia semanal ni urgencia; el defensor no aporta evidencia de frecuencia (volumen de búsqueda sin verificar). Excel 365 ya importa PDF de forma nativa y el dolor real queda en escaneados/desordenados, un subsegmento.",
+"evidencia":[{"afirmacion":"Excel 365 importa tablas de PDF de forma nativa (Power Query); PDFs escaneados requieren OCR","url":"https://office-watch.com/2026/import-pdfs-into-excel/"},{"afirmacion":"Frecuencia semanal del dolor","url":"sin verificar"}],
+"posicion":"se debilita"},
+"pago":{
+"concedo":"La disposición de pago existe: Docparser $39/100 créditos y $159/1000, ReadyData hasta $229, y $19 está en el rango. Además, el listing de Table OCR indica que reseñas mencionan suscripción de ~$9/mes tras pocos usos, lo que sugiere pago real aunque bajo (reseñas no verificadas por Google).",
+"refuto":"Los pagos demostrados son por volumen/flujo automatizado o ~$9 en Sheets; el usuario ocasional que atrae un plano de $19 tiene alternativas gratis. El ancla de precio observada en Sheets (~$9) es menos de la mitad de $19.",
+"evidencia":[{"afirmacion":"Table OCR: ficha 'Free of charge', reseñas dicen que se pide suscripción (~$9/mes) tras pocos usos; Google no verifica reseñas","url":"https://workspace.google.com/marketplace/app/table_ocr_poimi_taulukon_tiedot/959950861676"},{"afirmacion":"Docparser $39/$74/$159","url":"https://mammoth.io/blog/docparser-pricing/"}],
+"posicion":"se mantiene"},
+"alternativas_actuales":{
+"concedo":"Los pagos de Docparser/Nanonets viven fuera de la hoja y cobran por crédito, así que el plano dentro de la hoja es una diferencia real. Concedo también que no verifiqué competidores con volumen en AppSource.",
+"refuto":"El defensor aporta contra sí mismo: Table OCR (verificado ahora: 60K+, actualizado 16-abr-2026, extrae tablas de PDF, escaneados e imágenes a Sheets, ficha 'gratis') es competencia directa gratis/freemium en el canal principal. Eso fortalece F1 parcial en Sheets, más ReadyData $19 con tier gratis y Excel nativo.",
+"evidencia":[{"afirmacion":"Table OCR: 60K+ (ficha), extrae tablas de PDF/escaneados/imágenes a Google Sheets, 'Free of charge', actualizado 16 abr 2026","url":"https://workspace.google.com/marketplace/app/table_ocr_poimi_taulukon_tiedot/959950861676"},{"afirmacion":"ReadyData Starter $19 con tier gratis","url":"https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"}],
+"posicion":"se fortalece"},
+"canal_y_cac":{
+"concedo":"Concedo que 60K+ en Table OCR demuestra que Workspace Marketplace distribuye add-ons de PDF-a-tabla y que hay demanda de descubrimiento allí. Eso debilita mi punto de 'canal sin volumen demostrado' para Sheets.",
+"refuto":"Ese mismo dato muestra un incumbente instalado, con reseñas y precio gratis/bajo, contra el que un add-on nuevo sin reseñas debe ganar los primeros 100 pagos; no demuestra conversión a $19. AppSource y CAC por SEO siguen sin verificar (el SEO está dominado por herramientas gratis).",
+"evidencia":[{"afirmacion":"Table OCR 60K+ en Workspace Marketplace, gratis con paywall de uso según reseñas","url":"https://workspace.google.com/marketplace/app/table_ocr_poimi_taulukon_tiedot/959950861676"},{"afirmacion":"Volumen en AppSource y CAC","url":"sin verificar"}],
+"posicion":"se debilita"},
+"retencion":{
+"concedo":"Las plantillas por proveedor pueden crear costo de cambio y hay uso recurrente en AP/cierres mensuales; ninguno de los dos tiene datos de churn, así que mi afirmación de churn alto también es especulativa.",
+"refuto":"El defensor asume recurrencia sin evidencia y admite que el usuario ocasional cancela; el usuario recurrente de AP es justo el que migra a Docparser/Nanonets por automatización. Sin datos, queda en empate de incertidumbre.",
+"evidencia":[{"afirmacion":"Churn/retención de la categoría","url":"sin verificar"}],
+"posicion":"se debilita"},
+"mercado":{
+"concedo":"Más de 450M de puestos comerciales de Microsoft 365 hacen muy plausible superar 100k compradores posibles (F6 no se activa); concedo que no tengo evidencia de lo contrario. 60K+ instalaciones de un solo add-on rival también sugiere un mercado de decenas de miles solo en Sheets.",
+"refuto":"450M son puestos de Office, no compradores de extracción de PDF; el propio defensor reconoce que es cota superior y que >2M es estimación sin fuente. El puntaje 5 (>2M) no está respaldado; 4 o menos es más defendible dado que el comprador real excluye a quien usa Excel nativo/IA gratis.",
+"evidencia":[{"afirmacion":"450M puestos M365 (cota superior, no compradores)","url":"https://office365itpros.com/tag/microsoft-365-user-number/"},{"afirmacion":">2M compradores de extracción de PDF","url":"sin verificar"}],
+"posicion":"se debilita"},
+"defensa_frente_a_copias":{
+"concedo":"El defensor concede honestamente que la defensa es débil; coincidimos. Las plantillas por proveedor y los datos de corrección son fosos posibles pero modestos.",
+"refuto":"Esos fosos son hipotéticos y sin evidencia ('sin verificar'); Docparser ya tiene plantillas como núcleo, ReadyData iguala $19 y Table OCR ya está instalado en Sheets.",
+"evidencia":[{"afirmacion":"Fosos de plantillas/datos en este segmento","url":"sin verificar"},{"afirmacion":"Excel ya trae importación nativa de PDF","url":"https://office-watch.com/2026/import-pdfs-into-excel/"}],
+"posicion":"se mantiene"},
+"ejecucion_una_persona_tiempo_parcial":{
+"concedo":"El stack de Juan encaja y un MVP en Sheets en ~6 semanas es plausible; el tope de páginas con overage (modelo tipo créditos de Docparser) mitiga el margen de inferencia.",
+"refuto":"Mitigable no es resuelto: el tope y overage contradicen la cuña de 'plano' frente a incumbentes por documento, y siguen pendientes dos add-ons con revisión de marketplaces, soporte de exactitud en escaneados y privacidad de documentos financieros. Costo por página sin verificar.",
+"evidencia":[{"afirmacion":"Costo de inferencia por página vs $19","url":"sin verificar"}],
+"posicion":"se mantiene"}
+},
+"concesion_mas_importante":"El canal Workspace Marketplace sí distribuye add-ons PDF-a-tabla (Table OCR 60K+ según su ficha) y el pago existente es real; además el mercado probablemente supera 100k, así que F6 no aplica y mi tesis de 'canal sin demanda' queda desmentida para Sheets.",
+"punto_que_sigue_en_pie":"La cuña es débil: ese mismo add-on rival es gratis/freemium (~$9 según reseñas), ReadyData iguala $19 con tier gratis, Excel nativo y la IA general cubren al usuario ocasional, y no hay foso; el puntaje 5 de mercado y la cuña de plano con topes quedan sin respaldo.",
+"busquedas_usadas":1
+}

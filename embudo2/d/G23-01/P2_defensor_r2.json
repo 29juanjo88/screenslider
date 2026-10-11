@@ -1,0 +1,48 @@
+{
+"id":"G23-01","par":"P2","rol":"defensor",
+"replica":{
+"dolor":{
+"concedo":"Es cierto que desde finales de 2024 Amazon reembolsa proactivamente parte del inventario perdido en sus almacenes y que la ventana de reclamo bajó de 18 meses a 60 días; mi r1 no lo mencionaba. Mi búsqueda lo confirma en varias fuentes de vendors (fecha exacta imprecisa: octubre o noviembre 2024; no encontré fuente oficial de Amazon). También es cierto que desde 2025-03-10 el monto se basa en costo de abastecimiento, lo que reduce el valor por reclamo, y que todas las cifras de dolor residual vienen de vendors.",
+"refuto":"Que el problema se erosione no implica que desaparezca: las mismas fuentes dicen que la reembolsación proactiva solo cubre ciertos casos (p. ej. no los reembolsos de clientes sin devolución) y que deja sin cubrir una parte relevante (~1/3 según el piloto citado por el atacante; ~40% según reportes de industria citados en un resultado, todo de vendors). Además la ventana de 60 días hace MÁS urgente el seguimiento de plazos, que es parte de la propuesta. El atacante no aporta evidencia de que el residuo sea irrelevante en dinero.",
+"evidencia":[{"afirmacion":"Resultados de búsqueda (vendors) confirman recorte de ventana a 60 días y reembolso proactivo parcial, que solo aplica a ciertos casos y deja parte sin cubrir; sin fuente oficial de Amazon","url":"https://www.sellerlogic.com/en/blog/amazon-reimbursement/"},{"afirmacion":"Otra fuente de vendor sobre reembolsos que los vendedores nunca cobran","url":"https://blog.sellerboard.com/?p=3598"}],
+"posicion":"se debilita"},
+"pago":{
+"concedo":"Concedo que el comprador está acostumbrado a 'cero si no recupero' (20-25%) o a tenerlo incluido en una suscripción ya pagada, que $49 fijos puede exceder lo recuperable para un seller pequeño y que la comisión sobre cientos de dólares no duele a uno grande. La cuña de precio fijo choca con el modelo dominante.",
+"refuto":"El atacante mismo admite que hay presupuesto en la categoría; el precio fijo ataca precisamente a quien recupera miles al mes y no quiere ceder 20-25% (en $2,000 recuperados, 25% son $500 vs $49). No hay evidencia de que ese segmento no pague. Pero tampoco yo la tengo: no hay dato de conversión.",
+"evidencia":[{"afirmacion":"Servicios de comisión ~25% (Carbon6, reseña)","url":"https://jarvio.io/best-amazon-reimbursement-tools"},{"afirmacion":"Helium 10 afirma que Refund Genie no cobra comisión (marketing del vendor)","url":"https://www.helium10.com/tools/refund-genie/"}],
+"posicion":"se mantiene"},
+"alternativas_actuales":{
+"concedo":"Concedo la saturación: función nativa de Amazon (Inventory Ledger, reclamo manual gratis), Refund Genie sin comisión, servicios por comisión, Threecolts, Jarvio, SellerLabs y herramientas de ~$19. El atacante tiene razón en que esto roza F1 para la cuña de 'pago fijo para sellers pequeños'. También concedo que un LLM puede redactar texto de reclamo, por lo que ese componente aporta poco diferencial (inferencia plausible, sin verificar).",
+"refuto":"Gratis nativo no es 'suficientemente bueno' si la propia Amazon deja sin cubrir una fracción y el reclamo manual exige trabajo y control de plazos; F1 exige que el incumbente gratis sirva para la cuña, y eso no está demostrado. Refund Genie requiere suscripción de Helium 10 (no es gratis) y, según Helium 10, no cubre discrepancias de envíos entrantes. Pero reconozco que esa afirmación es del propio vendor.",
+"evidencia":[{"afirmacion":"Refund Genie: DIY, sin comisión, sin discrepancias de envíos entrantes (afirmación de Helium 10)","url":"https://www.helium10.com/tools/refund-genie/"},{"afirmacion":"Reembolso proactivo de Amazon solo cubre ciertos casos","url":"https://www.sellerlogic.com/en/blog/amazon-reimbursement/"}],
+"posicion":"se debilita"},
+"canal_y_cac":{
+"concedo":"Concedo que el SEO de 'best reimbursement tools' está dominado por vendors con autoridad, que Reddit penaliza la autopromoción y que no hay CAC verificado. Un entrante nuevo rankea difícil en los términos principales.",
+"refuto":"El atacante concede que el canal es concreto y cumple F4 formalmente. Las búsquedas de cola larga (p. ej. 'FBA lost inventory claim deadline', reglas de la nueva ventana de 60 días) y una calculadora gratuita por CSV son un ángulo que los listados genéricos no cubren; sin embargo esto es hipótesis, sin datos de volumen.",
+"evidencia":[{"afirmacion":"Listados de vendors dominan comparativas de reembolso","url":"https://jarvio.io/best-amazon-reimbursement-tools"},{"afirmacion":"CAC real del canal","url":"sin verificar"}],
+"posicion":"se mantiene"},
+"retencion":{
+"concedo":"Concedo que el valor es en buena parte episódico (auditar el atraso y cancelar) y que la ventana de 60 días y el reembolso automático reducen el flujo de reclamos manuales. Sin datos de retención de ninguno de los dos lados.",
+"refuto":"Una ventana de 60 días obliga a monitoreo continuo, no solo a una auditoría única: se debe revisar cada envío antes de que caduque, lo que sostiene el uso recurrente mientras haya reclamos nuevos. Pero esto depende de que el volumen residual sea relevante, que es justo lo debilitado en 'dolor'.",
+"evidencia":[{"afirmacion":"Fuentes de vendors recomiendan auditar con frecuencia porque revisiones trimestrales pierden la ventana","url":"https://www.sellerlogic.com/en/blog/amazon-reimbursement/"},{"afirmacion":"Datos de retención de herramientas similares","url":"sin verificar"}],
+"posicion":"se mantiene"},
+"mercado":{
+"concedo":"Concedo plenamente que el segmento FBA $20k+/mes no está dimensionado, que Amazon no publica conteo por ingreso, que las cifras secundarias son contradictorias y que solo una fracción usa FBA, habla inglés y compra herramientas. El riesgo de F6 es real y yo no tengo cifra que lo descarte.",
+"refuto":"El atacante tampoco demuestra que sea <100k; su propio proxy (75k-100k+ sellers con >$1M anuales) es el techo del segmento alto, de modo que $20k+/mes ($240k/año) es una base mayor, y el umbral podría bajarse a vendedores más pequeños. Es plausible pero NO demostrado; la carga de la prueba pesa sobre mí por ser requisito duro.",
+"evidencia":[{"afirmacion":"Fuentes secundarias contradictorias sobre sellers >$1M/año (75k-100k+), sin metodología (citado por el atacante, no re-verificado)","url":"https://revenuegeeks.com/research/amazon-seller-statistics"},{"afirmacion":"86% de vendedores usan FBA (Jungle Scout 2023)","url":"https://www.junglescout.com/wp-content/uploads/2023/02/The-State-of-the-Amazon-Seller-2023-Jungle-Scout.pdf"},{"afirmacion":"Tamaño del segmento FBA $20k+/mes","url":"sin verificar"}],
+"posicion":"se debilita"},
+"defensa_frente_a_copias":{
+"concedo":"Concedo que la defensa es casi nula: lógica replicable, sin datos propietarios ni efectos de red, incumbentes con SP-API y distribución, y Amazon puede ampliar su automatización (ya lo hizo en 2024-25). El precio se copia incluyéndolo en una suscripción.",
+"refuto":"Solo matizo que los incumbentes de comisión tienen incentivo contrario a una tarifa fija baja, pero el atacante tiene razón en que Helium 10/Threecolts ya lo incluyen sin comisión en suites, lo que reduce ese argumento. No tengo evidencia nueva a favor.",
+"evidencia":[{"afirmacion":"Refund Genie incluido en suscripción sin comisión (afirmación del vendor)","url":"https://www.helium10.com/tools/refund-genie/"}],
+"posicion":"se debilita"},
+"ejecucion_una_persona_tiempo_parcial":{
+"concedo":"Concedo que lo difícil no es el código sino SP-API (registro, revisión, roles restringidos), el mantenimiento por cambios de política (dos en ~5 meses) y el soporte; y que el modo CSV pierde automatización y retención. No verifiqué requisitos actuales de SP-API.",
+"refuto":"El atacante reconoce que el MVP es factible y que esta es la dimensión más favorable; un MVP por CSV evita SP-API al inicio y existe un producto así (ReimburseOps). El costo es menor automatización, que concedo.",
+"evidencia":[{"afirmacion":"Producto basado en CSV existe (ReimburseOps), enfoque factible","url":"https://www.aitoolsspace.com/en/tools/reimburseops"},{"afirmacion":"Requisitos actuales de SP-API","url":"sin verificar"}],
+"posicion":"se mantiene"}
+},
+"concesion_mas_importante":"Amazon ya reembolsa proactivamente y recortó la ventana a 60 días (confirmado en fuentes de vendors), lo que reduce el dolor residual, junto con la falta de cifra para el segmento $20k+/mes (riesgo F6 real) y una cuña de precio fijo ya ocupada por herramientas de ~$19 y suites sin comisión.",
+"punto_que_sigue_en_pie":"Queda un dolor residual monetario (reembolsos no automáticos, ventana corta que exige seguimiento) con canal concreto y MVP por CSV factible para una persona; el atacante concede estos tres puntos. Pero la cuña y el mercado siguen sin demostrar.",
+"busquedas_usadas":1
+}

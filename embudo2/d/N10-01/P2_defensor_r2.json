@@ -1,0 +1,110 @@
+{
+ "id": "N10-01",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Cierto: la exencion de microempresas (<10 personas y <=2M EUR) saca a la cola de tiendas pequenas; el enforcement es desigual; un escaner no da cumplimiento legal y las apps rivales lo admiten en su listing.",
+   "refuto": "El atacante mismo admite que la fecha legal crea busqueda activa; no es 'estaria bien'. Que el comprador 'busque auditoria humana' es suposicion sin dato (el propio atacante no verifica casos de sancion a tiendas pequenas).",
+   "evidencia": [
+    {
+     "afirmacion": "EAA es ley en Irlanda desde 28-jun-2025",
+     "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Cierto: el ancla de precio del canal Shopify es baja; hay planes de $4.99-$19 y escaneo gratis, y HewnScan Pro es $29 (verificado en su listing, tambien Agency $79). Mi argumento de que $29-49 esta dentro del presupuesto existente se debilita: el gasto existente en overlays no se traslada automaticamente a una app nueva.",
+   "refuto": "Precios bajos de rivales no prueban que no paguen mas por arreglos de calidad; Accessify AI cobra Pro $29.99, es decir hay rivales a ~$29 que sobreviven. Pero eso es evidencia de ancla, no de demanda probada.",
+   "evidencia": [
+    {
+     "afirmacion": "HewnScan: Free, Pro $29/mes, Agency $79/mes (verificado en listing)",
+     "url": "https://apps.shopify.com/hewnscan"
+    },
+    {
+     "afirmacion": "Accessify AI: Basic $9.99, Pro $29.99 (resultado de busqueda)",
+     "url": "https://apps.shopify.com/accessifyai"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Cierto y es el punto mas fuerte del atacante. Verifique que HewnScan (lanzado 21-jul-2026) ofrece Pro $29 con auditoria de todas las paginas, re-escaneos semanales, trazado por app y PDF, y plan Agency $79 con white-label: es casi el mismo producto y precio. Ademas Kokua ofrece arreglos a nivel de tema aplicables a Liquid y Accessify AI genera parches de codigo: mi cuña de 'lista de arreglos por plantilla' ya esta parcialmente ocupada. Riesgo F1 real para la parte de escaneo.",
+   "refuto": "No esta probado que esas listas de arreglos sean correctas ni por plantilla concreta (Dawn y temas populares); el listing de HewnScan no dice si sus arreglos son a nivel de codigo/tema. HewnScan tiene 0 reviews y Accessify AI sin reviews: ningun rival tiene traccion verificada. F1 exige que el gratis sea suficiente PARA LA CUÑA; el escaneo gratis cubre una home de 26 chequeos, no el sitio completo.",
+   "evidencia": [
+    {
+     "afirmacion": "HewnScan Free: solo home page, 26 chequeos; Pro $29; 0 reviews; lanzado 21-jul-2026",
+     "url": "https://apps.shopify.com/hewnscan"
+    },
+    {
+     "afirmacion": "Kokua: arreglo a nivel de tema para Liquid, sin overlay (resultado de busqueda de terceros)",
+     "url": "https://pickyourapp.com/products/kokua"
+    },
+    {
+     "afirmacion": "Accessify AI: auto-fix con parches de codigo y rollback, sin reviews",
+     "url": "https://apps.shopify.com/accessifyai"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Cierto: el canal esta saturado de apps nuevas, sin reviews un app nueva no aparece y el CAC en anuncios no es viable a $29. Sin dato de CAC.",
+   "refuto": "La saturacion con 0 reviews en todos (incl. HewnScan, Accessify AI) implica que nadie tiene ventaja de reviews aun; el canal esta abierto a quien consiga las primeras. Sigue siendo debil: es una carrera, no una ventaja.",
+   "evidencia": [
+    {
+     "afirmacion": "HewnScan 0 reviews, lanzado jul-2026",
+     "url": "https://apps.shopify.com/hewnscan"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Cierto: el riesgo de churn 'arreglo y me voy' es alto y no tengo datos de retencion; el monitoreo recurrente ya esta cubierto por rivales (Kokua Monitor, HewnScan semanal).",
+   "refuto": "Que 'los cambios de tema son esporadicos' es suposicion; apps, contenido y actualizaciones del tema introducen regresiones continuas, y agencias con varias tiendas (plan Agency existe a $79 como senal de demanda) tienen costo de cambio. Sin datos de ninguna parte.",
+   "evidencia": [
+    {
+     "afirmacion": "Existencia de plan Agency white-label $79 en HewnScan",
+     "url": "https://apps.shopify.com/hewnscan"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Cierto: las cifras de tiendas son estimaciones discrepantes, mi universo es bruto y no tengo la fraccion con ventas UE sobre umbral; el mercado comprable es incierto.",
+   "refuto": "El atacante concede que el techo bruto supera 100k y que sumando WooCommerce y agencias probablemente lo supere; con millones de tiendas, 100k compradores posibles es plausible aunque no verificado. No hay evidencia de que quede por debajo de F6.",
+   "evidencia": [
+    {
+     "afirmacion": "Estimaciones discrepantes de tiendas Shopify (4.82M vs 2.5M)",
+     "url": "https://redstagfulfillment.com/how-many-shopify-stores-exist/"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Cierto: defensa casi nula. Ya hay varias copias, un clon casi exacto (HewnScan) lanzado en jul-2026, y rivales con IA generando parches; no hay foso tecnologico.",
+   "refuto": "'Cero defensa' es exagerado: una base de arreglos por tema mantenida y reseñas/ranking son activos acumulables, aunque copiables. Las funciones nativas de Shopify y la sustitucion por ChatGPT siguen sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Accessify AI y HewnScan lanzados recientemente: el mercado se llena rapido",
+     "url": "https://apps.shopify.com/accessifyai"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Cierto: el MVP de escaner no es diferencial; la calidad de arreglos por tema exige conocimiento de accesibilidad que Juan no ha demostrado, hay mantenimiento continuo y dos plataformas duplican revision de app store.",
+   "refuto": "El atacante concede que es tecnicamente viable para una persona. Se puede acotar a Shopify y a pocos temas; la experiencia en accesibilidad se adquiere con axe-core y las guias WCAG. Que Juan 'no tiene' experiencia es sin verificar (mi propia nota).",
+   "evidencia": [
+    {
+     "afirmacion": "Rivales de una sola app lanzados en 2026 muestran que el MVP es factible en poco tiempo",
+     "url": "https://apps.shopify.com/hewnscan"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La cuña esta parcialmente ocupada: HewnScan (verificado, lanzado 21-jul-2026) vende Pro a $29/mes con auditoria completa, re-escaneos semanales, trazado por app y PDF, y Kokua/Accessify AI ya ofrecen arreglos a nivel de tema/codigo. El diferencial 'lista de arreglos por plantilla a precio plano' ya no es claramente unico y el riesgo F1 sobre el escaneo es real.",
+ "punto_que_sigue_en_pie": "Dolor regulatorio con fecha real y un universo bruto de millones de tiendas (supera F6 plausiblemente); ningun rival tiene reviews ni traccion verificada (0 reviews), y el escaneo gratis de HewnScan cubre solo la home con 26 chequeos, asi que el canal esta abierto y la calidad de los arreglos por tema aun puede diferenciar, aunque no esta probado.",
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,83 @@
+{
+ "id": "N02-02",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razon en que es dolor monetario recurrente de un comprador concreto (eng manager/DevOps), que el cambio de precios de Actions pone el costo en la conversacion, y el mismo admite que es dolor medio (3), no critico. Tambien admite que no hay hilos organicos. Concedo que mi 'episodico' es parcialmente inferencia: la factura llega cada mes.",
+   "refuto": "Que la factura sea mensual no implica que el dolor sea buscado: la unica evidencia de que falta costo por workflow viene de vendors interesados, y el defensor reconoce que la demanda organica esta sin verificar. Ademas su propio argumento_principal concede que el 'por que ahora' es mas debil de lo que dice la idea (cargo a self-hosted pospuesto).",
+   "evidencia": [
+    {"afirmacion": "Demanda organica (hilos Reddit/foros) sin verificar, reconocido por ambos lados", "url": "sin verificar"},
+    {"afirmacion": "Fuente de dolor es blog de vendor con interes comercial", "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "El presupuesto existe (la factura), el ROI es medible, y existe un mercado de pago adyacente (Depot, Blacksmith, Datadog). Mi busqueda confirma que CostOps cobra desde US$29 en Capterra, lo que valida que alguien cobra por esto; eso valida disposicion de pago y no solo la resta. Concedo tambien que 'cobrar por ahorro' es una hipotesis, no un hecho que yo pruebe.",
+   "refuto": "El defensor admite que el pago real de orgs con factura relevante esta sin verificar y que el pagador puede optimizar y cancelar. Los productos adyacentes que cita (runners, Datadog) cobran por otra cosa (computo, observabilidad general), no por un analizador. Mi busqueda solo confirma el precio de lista en Capterra (usage-based, mensual, sin prueba gratis); no hay vendor-site ni cifras de clientes, asi que no prueba que existan compradores suficientes.",
+   "evidencia": [
+    {"afirmacion": "Capterra: CostOps desde US$29, basado en uso, facturacion mensual; no se hallo pagina de precios del vendor (precio de listado, sin verificar en vendor)", "url": "https://www.capterra.com/p/10036601/CostOps/"},
+    {"afirmacion": "Numero de orgs que pagan Actions con factura relevante: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor acierta en que ninguna alternativa gratis es un dashboard continuo con alertas para un manager, y en que scripts/CSV exigen tiempo de ingenieria, por lo que F1 es parcial y no un descarte duro. Concedo que mi afirmacion de que el CSV nativo trae columna por workflow viene de un hilo de comunidad antiguo y no la verifique contra docs actuales.",
+   "refuto": "El defensor omite CostOps (dashboard de pago, solo lectura, por job, alertas de presupuesto, a US$29): mi busqueda lo confirma como listado en Capterra, y es exactamente la propuesta de la idea. Ademas su propia evidencia agrega octolense, app de dashboard de Actions en GitHub Marketplace, que mi busqueda muestra como gratis en beta (individuales gratis, pago planeado para multiples orgs; G2 describe planes por usuarios activos; vigente sin verificar). Es competencia directa en el canal mismo que la idea nombra y a precio cero para cuentas individuales. La cuña 'sin migrar runners' no distingue de ninguno de los dos.",
+   "evidencia": [
+    {"afirmacion": "CostOps: plataforma de costo de Actions por workflow, repo y runner, alertas de presupuesto, analisis por job, solo lectura (listado Capterra)", "url": "https://www.capterra.com/p/10036601/CostOps/"},
+    {"afirmacion": "octolense: app de dashboard de Actions en GitHub Marketplace; gratis durante beta publica, pago planeado para multiples orgs (vigencia sin verificar)", "url": "https://github.com/apps/octolense-github-actions-dashboard"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor tiene razon en que Marketplace (fricción baja, solo lectura), SEO de cola larga y un informe gratis como gancho son canales nombrados plausibles y de CAC monetario bajo; y que la existencia de octolense en Marketplace indica que el canal existe. Acepta tambien que Blacksmith domina el SEO y que el volumen esta sin verificar, lo que coincide conmigo.",
+   "refuto": "Que el canal exista no significa que funcione para esta idea: el mismo hecho que usa como prueba (octolense) muestra que el Marketplace ya tiene un incumbente gratis en esa vitrina. 'Se difunde dentro de la org' es hipotesis sin evidencia. Sin volumen de busqueda ni CAC, la dimension queda en 'plausible, no demostrada', y el SEO esta ocupado por quien usa el contenido de lead-gen.",
+   "evidencia": [
+    {"afirmacion": "App rival ya listada en el Marketplace con precio gratis en beta", "url": "https://github.com/apps/octolense-github-actions-dashboard"},
+    {"afirmacion": "Blacksmith ocupa el SEO del tema con guias de costo por workflow", "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"},
+    {"afirmacion": "Volumen de busqueda y CAC: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor acierta en que, si se vende como monitoreo continuo (alertas de regresion, presupuestos por equipo, reportes a finanzas), hay logica de valor recurrente porque los pipelines cambian y la factura es mensual. Concedo que no tengo datos de churn comparables que prueben lo contrario; mi posicion tambien es inferencia.",
+   "refuto": "Ambos reconocemos que es la dimension mas debil y que el valor recurrente no esta validado con ningun cliente; el ajuste de 'monitoreo continuo' es una hipotesis posterior al hallazgo de churn de la etapa C, no evidencia. Un dashboard de solo lectura barato de cancelar y con alternativas gratis para alertas basicas sigue teniendo riesgo alto de churn tras la optimizacion.",
+   "evidencia": [
+    {"afirmacion": "Retencion con alertas continuas: hipotesis, sin datos (reconocido por la defensa)", "url": "sin verificar"},
+    {"afirmacion": "Datos de churn de analizadores de costo de CI: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El defensor tiene razon en que no puedo demostrar que los pagadores esten bajo 100k; la evidencia no cierra en ninguna direccion y su estimacion 'cientos de miles' es plausible (la base de desarrolladores de GitHub es enorme, aunque las cifras 150M vs 180M son de fuente secundaria). Concedo que mi 'probablemente cerca o bajo el umbral' es una inferencia.",
+   "refuto": "Las cifras de desarrolladores (180M, 47-48M) no son compradores posibles: el propio defensor reconoce que el subconjunto de pagadores con factura relevante puede ser bastante menor y que F6 es el riesgo principal, y que no hay cifra de orgs que pagan Actions. Con carga de la prueba en la idea, escala 2-3 sigue sin soporte; la evidencia disponible apunta a 2 mas que a 3.",
+   "evidencia": [
+    {"afirmacion": "Numero de orgs que pagan minutos de Actions: sin verificar (ambos lados)", "url": "sin verificar"},
+    {"afirmacion": "Cifra de desarrolladores GitHub 180M+ es resumen secundario, no mide compradores", "url": "https://www.getpanto.ai/blog/github-statistics"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor tiene parte de razon en que la neutralidad (sin conflicto de interes con vender runners) y datos agregados de benchmarks con el tiempo pueden ser defensas parciales, y admite que el foso tecnico es debil. Concedo que los benchmarks agregados son un activo real a largo plazo, aunque requieren masa critica de clientes.",
+   "refuto": "La neutralidad no es un foso: CostOps y octolense tambien son analizadores sin runners propios, es decir, la copia ya existe, no es solo riesgo futuro. Los benchmarks entre orgs necesitan muchos clientes antes de tener valor, y es circular. Ambos reconocemos riesgo de GitHub nativo y de analisis gratis como lead-gen de vendors.",
+   "evidencia": [
+    {"afirmacion": "Copias neutrales ya existentes: CostOps (de pago) y octolense (gratis en beta)", "url": "https://www.capterra.com/p/10036601/CostOps/"},
+    {"afirmacion": "GitHub reevalua precios y experiencia de Actions; podria cubrir el hueco nativo", "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo plenamente: es la dimension mas fuerte. GitHub App de solo lectura con backend Node/TS, MVP en 4-6 semanas, sin hardware ni ventas; el defensor lo detalla bien y reconoce el riesgo de precision del costo por job y rate limits (sin verificar).",
+   "refuto": "Solo matizo que la facilidad tecnica es la misma que permite que otros ya lo hayan hecho, y que la parte dificil para Juan (distribucion, confianza de acceso OAuth a billing) no se mejora con un MVP rapido. No discuto el puntaje 4.",
+   "evidencia": [
+    {"afirmacion": "Docs oficiales de metricas de Actions por organizacion existen como insumo de datos", "url": "https://docs.github.com/en/actions/concepts/metrics"},
+    {"afirmacion": "Precision del costo por job via API: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "No puedo demostrar que el mercado de pagadores este bajo 100k ni que la idea falle F1/F6 de forma dura: la evidencia no cierra, el defensor esta en lo cierto en que es un caso MEDIA con ejecucion fuerte, y existe mercado de pago adyacente (CostOps cobra desde US$29).",
+ "punto_que_sigue_en_pie": "La cuña 'solo analiza, sin migrar runners' ya esta ocupada: CostOps (de pago, US$29, solo lectura, por job, alertas) y octolense (dashboard en el propio Marketplace, gratis en beta) cubren la propuesta; sumado a retencion sin validar y pagadores sin cuantificar, la cuña no supera 2-3.",
+ "busquedas_usadas": 2
+}

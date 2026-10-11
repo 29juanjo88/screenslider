@@ -1,0 +1,110 @@
+{
+ "id": "N09-05",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es de costo de facturación, no de pérdida de ingresos; urgencia media-baja, y se puede mitigar limpiando la lista o cambiando a un plan gratis. La evidencia viene de blogs de competidores, no independientes.",
+   "refuto": "Que sea mitigable gratis no lo anula: limpiar listas es trabajo manual recurrente y la factura crece con la lista. El atacante tampoco aporta evidencia independiente de que el dolor sea menor.",
+   "evidencia": [
+    {
+     "afirmacion": "Mailchimp cuenta contactos no suscritos y dados de baja para facturar (fuente de competidor)",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Kit gratis hasta 10k y Beehiiv gratis hasta 2,500 recortan el segmento de pago; quien busca precio es poco leal; a $25/mes hacen falta ~400-2,000 clientes para la meta.",
+   "refuto": "Ya existe presupuesto (pagan Mailchimp) y el valor está en listas >10k, donde los planes gratis de Kit no aplican. El atacante admite que hay presupuesto existente. El número de clientes necesario es aritmética, no un obstáculo demostrado.",
+   "evidencia": [
+    {
+     "afirmacion": "Kit gratis hasta 10k; de pago desde ~$32.50/mes (roundup de terceros)",
+     "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Hay muchas alternativas; Listmonk, Sendy y EmailOctopus ocupan parte del espacio BYO-SES; F1 es parcial para listas pequeñas. Mi ronda 1 no cubrió Listmonk y el atacante acierta en incluirlo.",
+   "refuto": "Listmonk y Sendy son autoalojados: exigen operar servidor, lo que el creador no técnico no hace; no son sustitutos de un SaaS hosted con importador. Precios de comparadores sin verificar en sitios oficiales. Ninguna fuente muestra un posicionamiento central de cobro por activos, aunque no es exhaustivo.",
+   "evidencia": [
+    {
+     "afirmacion": "Listmonk/Sendy/EmailOctopus según comparador (sin verificar en sitios oficiales)",
+     "url": "https://geekflare.com/guides/best-aws-ses-email-marketing-tools/"
+    },
+    {
+     "afirmacion": "Posicionamiento por contactos activos en alternativas: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Las primeras páginas de 'Mailchimp alternative' están dominadas por competidores con autoridad; un dominio nuevo tarda meses; no hay CAC ni volumen verificados; las reglas de r/Emailmarketing son sin verificar.",
+   "refuto": "La cola larga (calculadora de ahorro, 'Mailchimp pricing inactive contacts', guías de migración) compite con menos autoridad que el término principal. El atacante tampoco demuestra que sea inviable, solo lento.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores publican 'Mailchimp alternative pricing' (demanda y competencia)",
+     "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "El cliente migró por precio y puede volver a migrar; el churn de creadores es alto si abandonan la newsletter; Listmonk/Sendy son salida barata para el sensible al precio. Sin datos de churn.",
+   "refuto": "El atacante también reconoce el costo de cambio real para listas grandes activas, que es el segmento objetivo. El importador bidireccional es hipótesis suya sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de ESP para creadores: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "No hay cifra verificada del segmento 5k-100k con inactivos; la carga de la prueba es mía; el dato de 800k clientes de pago es de 2021; la ficha dice 'sin verificar'.",
+   "refuto": "El atacante admite que no puede afirmar que esté bajo 100k. Con 800k pagadores solo en Mailchimp (2021, 50% fuera de EE.UU.) más Kit, Beehiiv y Brevo, que 100k+ sean listas de 5k+ con inactivos es plausible, pero no demostrado.",
+   "evidencia": [
+    {
+     "afirmacion": "Mailchimp: 800,000 clientes de pago en 2021 (Intuit)",
+     "url": "https://www.businesswire.com/news/home/20210913005806/en"
+    },
+    {
+     "afirmacion": "Tamaño del segmento 5k-100k: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Casi nula: el pricing es copiable en un trimestre, el importador es trivial, sin efecto de red ni datos propios. Brevo ya cobra por envío (agregador).",
+   "refuto": "Copiar exige a Mailchimp/Kit sacrificar ingreso por contactos totales (inferencia mía); la historia reciente muestra que no suelen hacerlo, pero sin verificar. Que Mailchimp pueda reaccionar no equivale a que lo haga.",
+   "evidencia": [
+    {
+     "afirmacion": "Brevo contactos ilimitados desde $9/mes (agregador, sin verificar)",
+     "url": "https://www.emailtooltester.com/en/?p=2338"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Operar un ESP implica entregabilidad, quejas, rebotes, sandbox de SES, abuso y soporte; BYO-SES baja la conversión de creadores no técnicos. Etapa C juzgó ejecución 2 y no tengo evidencia que lo contradiga.",
+   "refuto": "BYO-SES traslada la reputación de IP al cliente, lo que reduce (no elimina) el riesgo de suspensión de la cuenta del producto; EmailOctopus muestra que el modelo funciona. El MVP en 6-10 semanas lo concede el atacante.",
+   "evidencia": [
+    {
+     "afirmacion": "EmailOctopus permite conectar Amazon SES",
+     "url": "https://help.emailoctopus.com/article/114-aws-costs"
+    },
+    {
+     "afirmacion": "Políticas de SES (sandbox, quejas): sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "La cuña (precio por activos, importador, BYO-SES) es copiable y parcialmente ocupada (Listmonk, Sendy, EmailOctopus, Brevo, planes gratis de Kit/Beehiiv), y el canal SEO está dominado por competidores; la defensa frente a copias es casi nula.",
+ "punto_que_sigue_en_pie": "Existe presupuesto real y comprobado (Mailchimp con 800k pagadores en 2021, mitad fuera de EE.UU.), por lo que el mercado probablemente supera 100k aunque el segmento exacto no esté cuantificado, y los incumbentes tienen incentivo de ingreso para no cambiar su modelo de cobro.",
+ "busquedas_usadas": 0
+}

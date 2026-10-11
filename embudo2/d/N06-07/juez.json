@@ -1,0 +1,53 @@
+{
+ "id": "N06-07",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 4,
+  "cuna": 2,
+  "ejecucion": 4
+ },
+ "total": 36,
+ "hecho_decisivo": "La cuña de precio plano está igualada: ReadyData tiene tier gratis y Starter a $19 con OCR (https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction). Excel 365 importa PDF con texto gratis vía Power Query (https://office-watch.com/2026/import-pdfs-into-excel/). Ambos pares coinciden en que ya hay add-ons PDF-a-Sheets con decenas de miles de usuarios gratis (https://workspace.google.com/marketplace/app/pdf_tables_extractor/870797276658). El único hueco verificado es Mac, escaneados y facturas heterogéneas.",
+ "condicion": "Confirmar que existe un segmento recurrente (AP/contadores con facturas heterogéneas o escaneadas, o usuarios de Excel Mac/web) que pague $19+/mes por usuario, y que la extracción con LLM sea suficientemente exacta con bajo costo de inferencia por documento.",
+ "experimento_mas_barato": "Landing page con demo en video (maqueta, sin producto) enfocada en 'facturas escaneadas a Excel/Sheets con plantilla reusable', más 3 publicaciones en r/excel, r/accounting y foros de contadores y anuncios mínimos (~US$150) con lista de espera y botón de preventa a $19/mes. Métrica: visitante a preventa/pago. Umbral: >=2% de visitantes dejan email y >=15 preventas pagadas (o 30 con tarjeta registrada) en 3 semanas; menos que eso mata la idea.",
+ "dimensiones": {
+  "dolor": "El dolor es real pero episódico para el usuario casual; Power Query cubre el caso simple. El dolor semanal está en el subsegmento AP/contadores con escaneados, sin evidencia de frecuencia.",
+  "pago": "Hay pago demostrado (Docparser $39-159, ReadyData $9-229) pero por flujos automatizados; el usuario ligero tiene gratis y ancla de ~$9 en Sheets. $19 es paridad, no ventaja.",
+  "alternativas_actuales": "Muy saturado: Power Query, ChatGPT/Copilot, ReadyData freemium, PDF.it, add-ons de Sheets, Docparser, Nanonets, Acrobat. Ambos pares concedieron que el hueco es angosto.",
+  "canal_y_cac": "Workspace Marketplace entrega tráfico (add-ons con 60K-81K usuarios) pero gratis y con incumbentes instalados. AppSource sin volumen verificado y el SEO 'pdf to excel' lo dominan herramientas gratis. CAC sin verificar.",
+  "retencion": "Las plantillas como costo de cambio son hipótesis sin evidencia; el uso casual es episódico y quien necesita automatización migra a Docparser/Nanonets. Churn sin verificar.",
+  "mercado": "Hay muchos compradores potenciales en el mundo (cifra >2M sin verificar), pero los que pagarían recurrentemente son un subsegmento bastante menor. Se estima de 700k a 2M.",
+  "defensa_frente_a_copias": "Cuña de precio plano y plantillas fácil de copiar y ya igualada por ReadyData; Microsoft Copilot y Acrobat pueden absorber la función. Defensa baja.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP factible en pocas semanas con LLM de visión y add-in. Riesgos: costo de inferencia por documento y exactitud con facturas; operación liviana."
+ },
+ "resumen_P1": "Ataque: Excel nativo, IA general, ReadyData a $19 con tier gratis y add-on Table OCR (60K+) vacían la cuña; el pago real es de ~$9 en Sheets. Defensa: Power Query no cubre Mac ni escaneados, los de pago salen de la hoja y cobran por documento, pero concedió que el dolor es de productividad y el hueco es plausible, no probado.",
+ "resumen_P2": "Ataque: el caso simple lo resuelve gratis Power Query y un extractor gratis tiene 81K usuarios, lo que sustenta F1 parcial; $19 es paridad con ReadyData. Defensa: los gratis son frágiles (sin actualizar desde 2022), Docparser prueba presupuesto y la ergonomía en la hoja es diferencial, pero concedió que el hueco es angosto y que la retención no tiene evidencia.",
+ "razonamiento": "Ambos pares coinciden en los hechos clave y el defensor concedió en r2 que la cuña de precio está igualada y el hueco es angosto. El F1 no se demuestra del todo porque Power Query no cubre Mac ni escaneados, así que no se descarta. El mercado es grande y el producto es ejecutable por una persona, pero el canal es incierto (AppSource sin volumen, Sheets con gratis instalados) y la defensa es baja. Con 36 puntos queda en banda media, y la probabilidad de llegar a US$10-50k MRR es baja. Vale la pena solo si una prueba de preventa confirma que el segmento de facturas escaneadas/heterogéneas paga.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "ReadyData: gratis, Lite $9, Starter $19, Pro $59 hasta $229",
+   "url": "https://ai.g2.com/marketplace/tools/readydata-ai-data-extraction"
+  },
+  {
+   "afirmacion": "Docparser $39/100 créditos, $74/250, $159/1000",
+   "url": "https://mammoth.io/blog/docparser-pricing/"
+  },
+  {
+   "afirmacion": "Excel 365 importa PDF con texto vía Power Query",
+   "url": "https://office-watch.com/2026/import-pdfs-into-excel/"
+  },
+  {
+   "afirmacion": "Table OCR 60K+ usuarios, gratis con paywall según reseñas",
+   "url": "https://workspace.google.com/marketplace/app/table_ocr_poimi_taulukon_tiedot/959950861676"
+  },
+  {
+   "afirmacion": "PDF Tables Extractor gratis, ~81K usuarios, sin actualizar desde 2022",
+   "url": "https://workspace.google.com/marketplace/app/pdf_tables_extractor/870797276658"
+  }
+ ],
+ "busquedas_usadas": 0
+}

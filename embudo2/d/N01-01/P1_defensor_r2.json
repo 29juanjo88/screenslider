@@ -1,0 +1,126 @@
+{
+ "id": "N01-01",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Es episodico y parte del dolor se cubre con automatizacion nativa: Stripe Smart Disputes envia un paquete pre-llenado y Shopify recopila evidencia automaticamente. Para quien tiene pocas disputas, 'no hacer nada' compite con el producto.",
+   "refuto": "Que sea delegable no lo vuelve menos urgente: el comerciante ya paga 20-25% de lo recuperado a terceros, lo que prueba que busca resolverlo. El rival no aporta evidencia de que el paquete automatico sea suficiente por reason code; la propia pagina de Stripe habla de elegibilidad por reason code y metodo de pago, o sea que no cubre todos los casos (el rival mismo lo cita).",
+   "evidencia": [
+    {
+     "afirmacion": "Shopify cobra $15 por disputa con Shopify Payments, reembolsable solo si se gana (aceptado por ambos).",
+     "url": "https://www.chargeback.io/es/blog/whats-the-shopify-chargeback-fee"
+    },
+    {
+     "afirmacion": "Smart Disputes depende de elegibilidad por reason code y metodo de pago.",
+     "url": "https://edge-docs.stripe.com/disputes/smart-disputes"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "El rival tiene razon aritmetica: con $39 fijos y comision del 25%, el punto de equilibrio es ~US$156 recuperados al mes (39/0.25); un comerciante con pocas disputas o ticket bajo paga menos con comision. La cuota fija es mas cara para el segmento chico y ChargePay presiona el precio a la baja ($19.99).",
+   "refuto": "No hay evidencia de que el segmento de 5-100 disputas/mes recupere menos de $156/mes: ticket promedio y tasa de victoria son sin verificar para ambos lados. El pago por exito tiene un tope solo en Disputifier ($250/disputa), por lo que quien recupera mucho paga bastante mas que $39. Que existan apps de precio plano ($19.99-$99.99) confirma que ese modelo se vende. El cobro de Stripe por exito no esta confirmado en fuente oficial (el rival lo admite).",
+   "evidencia": [
+    {
+     "afirmacion": "ChargePay vende precio plano sin comision ($19.99-$99.99).",
+     "url": "https://apps.shopify.com/chargepay"
+    },
+    {
+     "afirmacion": "Chargeflow 25% de lo recuperado (fuentes contradictorias).",
+     "url": "https://redo.com/resources/articles/comparisons/chargeflow-pricing"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo tres capas reales de alternativas (nativas, por exito, precio plano) y que ChargePay ocupa la cuña de cuota fija en Shopify. Concedo que un LLM podria redactar cartas; es una amenaza plausible.",
+   "refuto": "El rival admite que lo del LLM es 'sin verificar' y que no comprobo si ChargePay cubre reason codes ni otras plataformas: no sustentan que mi cuña multiplataforma este ocupada. Un LLM no trae pedido, tracking ni logs ni envia por API; ahi esta el valor, como el rival reconoce ('integracion de datos'). Mi propia busqueda previa no hallo cuota fija con precio publicado en Woo/Stripe, aunque no fue exhaustiva.",
+   "evidencia": [
+    {
+     "afirmacion": "Ninguna app de cuota fija con precio publicado en WooCommerce/Stripe en los resultados revisados (no exhaustivo).",
+     "url": "https://redo.com/resources/articles/comparisons/best-chargeback-management-software"
+    },
+    {
+     "afirmacion": "ChatGPT como sustituto adoptado: sin verificar.",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que el canal es compartido con incumbentes con resenas, que un recien llegado parte sin ranking, que Reddit penaliza la autopromocion y que los incumbentes publican mucho SEO. No tengo cifras de CAC.",
+   "refuto": "El rival tampoco tiene cifras de CAC (sin verificar) y concede intencion de compra alta. El SEO de cola larga por reason code/emisor y la busqueda en WooCommerce.org (con menos apps de este tipo, no verificado) son rutas distintas a competir por 'chargeback' generico. Que ya haya apps con listing activo prueba demanda.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores publican contenido SEO masivo (acepto).",
+     "url": "https://chargebacks911.com/shopify-statistics/"
+    },
+    {
+     "afirmacion": "CAC en la App Store: sin verificar.",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "El uso depende de que haya disputas; en meses tranquilos hay riesgo de cancelar $39, y la mortalidad de tiendas chicas es alta. No hay datos de churn a mi favor.",
+   "refuto": "El argumento del rival de que 'una tienda de $8,000/mes puede cruzar 1% con pocas ordenes' prueba dolor de cola, pero no churn: sin datos para ninguno. El segmento objetivo (5+ disputas/mes) las tiene de forma recurrente por definicion; el churn se concentra en el segmento chico que yo mismo concedo que no es el objetivo. Que prefieran delegar es afirmacion sin fuente.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn de apps de disputas: sin verificar.",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El calculo del rival es correcto como aritmetica: 5 disputas/mes a tasa media 0.56% implica ~900 pedidos/mes. Mis 2.86M y 4.53M tiendas son un techo, no compradores; el 5-10% que supuse es sin verificar. Los conteos de tiendas difieren (2.86M, 3.06M, 5.7M segun fuente) y 'activa' no tiene definicion comun. El requisito de >=100k no esta demostrado.",
+   "refuto": "El rival tambien usa un calculo propio (admitido como inferencia), y usar la tasa media 0.56% subestima: el mismo dato dice que casi 1 de cada 4 comerciantes supera 1%, lo que a 5 disputas implica ~500 pedidos/mes. El umbral 5 disputas/mes lo puse yo como inicio, no es un requisito duro del producto: una tienda con 2-4 disputas a $15 de tarifa mas el pedido tambien pierde dinero. El propio rival admite que >100k es plausible sumando Woo/Stripe/PayPal. Sin embargo, no logro demostrar la cifra.",
+   "evidencia": [
+    {
+     "afirmacion": "Tasa media de chargebacks 0.56% en 2024; casi 1 de cada 4 comerciantes supera 1%.",
+     "url": "https://chargebacks911.com/shopify-statistics/"
+    },
+    {
+     "afirmacion": "Tiendas Shopify vivas: 2.86M (Store Leads) vs 3.06M (chargeback.io) vs 5.7M (Swell); definicion de 'activa' variable.",
+     "url": "https://storeleads.app/reports/shopify"
+    },
+    {
+     "afirmacion": "Numero de tiendas con 5-100 disputas/mes: sin verificar.",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo casi todo: es logica de plantillas mas conectores, copiable en semanas por ChargePay o por Chargeflow, que ademas tiene datos agregados de miles de disputas que un solo dev no iguala. Sin foso fuerte; ya lo habia dicho.",
+   "refuto": "Solo matizo que 'casi nula' es excesivo: los conectores multiplataforma, el historial y plantillas del cliente generan algo de costo de cambio, y resenas/ranking en tiendas de apps acumulan ventaja. Sin evidencia verificada de mi lado; es hipotesis. Y que un incumbente 'pueda' copiar no significa que lo haga en el nicho de 500 clientes de una persona.",
+   "evidencia": [
+    {
+     "afirmacion": "Chargeflow ofrece garantia 4x ROI y modelo por exito (acepto escala de datos).",
+     "url": "https://redo.com/resources/articles/comparisons/chargeflow-pricing"
+    },
+    {
+     "afirmacion": "Foso por datos/integraciones: hipotesis, sin verificar.",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que la parte dificil es operativa: OAuth, revision de app de Shopify, webhooks, tracking multi-carrier y soporte con dinero y plazos en juego a tiempo parcial. El multiplataforma no cabe en 6 semanas; ambos coincidimos en que el MVP solo-Stripe o solo-Shopify es plausible.",
+   "refuto": "El rival no muestra que sea inviable: reconoce MVP viable para un backend senior, y el stack (Node/TS, APIs, webhooks) es el de Juan. Tiempo de revision de app Shopify: sin verificar para ambos. Se puede empezar con un conector y ampliar por fases.",
+   "evidencia": [
+    {
+     "afirmacion": "Tiempo real de revision de app Shopify e integracion multiplataforma: sin verificar.",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El comprador real (5-100 disputas/mes, ~500-900+ pedidos/mes) es mucho menor que los millones de tiendas y el requisito de >=100k compradores no esta verificado; ademas la cuña de cuota fija ya la ocupa ChargePay y el foso frente a copias es casi nulo.",
+ "punto_que_sigue_en_pie": "Dolor monetario recurrente con presupuesto ya existente (20-25% de lo recuperado), canal con intencion de compra y MVP de un conector factible para Juan; la cuña restante (multiplataforma Stripe/Woo/PayPal, evidencia por reason code, escalonado por volumen) no esta demostrada como ocupada, aunque tampoco como probada.",
+ "busquedas_usadas": 0
+}

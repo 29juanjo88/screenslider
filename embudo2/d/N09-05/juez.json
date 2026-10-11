@@ -1,0 +1,41 @@
+{
+ "id": "N09-05",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 4,
+  "cuna": 2,
+  "ejecucion": 3
+ },
+ "total": 35,
+ "hecho_decisivo": "Los dos pares coinciden (concesiones en ronda 2) en que la cuña (cobro por activos + importador Mailchimp + BYO-SES) es copiable en días y está parcialmente ocupada (Kit gratis hasta 10k, Beehiiv gratis hasta 2,500, Brevo/EmailOctopus/Sendy por envío), y que el canal SEO 'Mailchimp alternative' está dominado por competidores; a la vez ambos admiten mercado >100k (Intuit 2021: ~800k clientes de pago de Mailchimp, ~50% fuera de EE.UU.; cifra citada por P2, no verificada por el juez) y que F1 no se dispara por encima de 10k contactos.",
+ "condicion": "Confirmar que existe un segmento de >10k contactos pagando a Mailchimp/Kit que migraría por ahorro >=40% y que se puede captar por un canal distinto al SEO saturado (p. ej. hilos de Reddit, comunidades de creadores), con entregabilidad resuelta vía BYO-SES.",
+ "experimento_mas_barato": "Landing con calculadora de ahorro (pega tu factura de Mailchimp y lista de contactos activos) y lista de espera con prepago/depósito; tráfico orgánico desde Reddit r/Emailmarketing, r/newsletters y comunidades de creadores durante 3-4 semanas. Métrica: visitantes que completan la calculadora y dejan email. Umbral: >=150 emails calificados (>10k contactos) y >=15 depósitos o compromisos de pago a $25+/mes; si <5 compromisos, matar.",
+ "dimensiones": {
+  "dolor": "Dolor de factura al renovar/crecer, no pérdida operativa semanal; ambos pares lo admiten y la evidencia de cobro por inactivos viene de blogs de competidores. Limpiar la lista es gratis pero recurrente.",
+  "pago": "Existe presupuesto (los creadores ya pagan a Mailchimp/Kit/Beehiiv), pero es pago de sustitución que busca pagar menos; a $25/mes se requieren ~400+ clientes para $10k MRR y Kit/Beehiiv recortan la parte baja.",
+  "alternativas_actuales": "Muy saturado: Kit gratis hasta 10k, Beehiiv gratis hasta 2,500, Brevo, EmailOctopus, Sendy, Listmonk, Buttondown ya cobran por envío o con BYO-SES. F1 no se dispara claramente por encima de 10k.",
+  "canal_y_cac": "El SEO 'Mailchimp alternative' está dominado por los propios competidores; Reddit y comunidades de creadores son plausibles pero no verificados. Canal frágil.",
+  "retencion": "Comprador buscador de precio, poco leal; migrar es costoso al inicio pero cualquier rival puede ofrecer lo mismo, retención incierta.",
+  "mercado": "Probablemente >100k compradores (Mailchimp ~800k pagadores 2021 según P2, ~757k empresas Datanyze según P1); el segmento exacto 5k-100k no está cuantificado. F6 no falla.",
+  "defensa_frente_a_copias": "Casi nula: precio por activos e importador son copiables en días y los incumbentes ya tienen modelos cercanos.",
+  "ejecucion_una_persona_tiempo_parcial": "Viable con BYO-SES (reduce el riesgo de reputación de IP), pero un ESP completo (editor, segmentación, cumplimiento, soporte de entregabilidad) excede 6 semanas de MVP a tiempo parcial."
+ },
+ "resumen_P1": "Ataque: la cuña está cubierta por planes gratis (Kit, Beehiiv) y alternativas por envío, es copiable en días y el SEO está ocupado; el dolor es solo de factura. Defensa: el mercado supera 100k, por encima de 10k no hay gratis suficiente y BYO-SES mitiga entregabilidad; admite que pago y canal son más frágiles.",
+ "resumen_P2": "Ataque: el cobro por envío y BYO-SES ya están ocupados (EmailOctopus, Sendy, Listmonk, Brevo), a $25 con retención incierta y defensa casi nula. Defensa: hay presupuesto probado (Mailchimp ~800k pagadores, mitad fuera de EE.UU.) y los incumbentes tienen incentivo de ingreso para no cambiar su cobro; concede cuña débil y canal dominado.",
+ "razonamiento": "Ambos pares convergen en lo esencial: mercado grande y F1/F6 no se disparan, pero la cuña es delgada, copiable y el canal principal está saturado. Las concesiones de ronda 2 de los defensores sobre cuña, canal y pago pesan más que la insistencia en el tamaño de mercado. El mercado (x3) sostiene el puntaje en la banda media (35), pero con cuña 2 y canal 2 la probabilidad de llegar a US$10-50k MRR vendiendo casi solo es baja. Solo vale la pena si se demuestra un segmento >10k contactos y un canal propio con compromiso de pago. No se usaron búsquedas web porque los pares coinciden y el hecho decisivo no depende de un dato verificable adicional.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Mailchimp factura contactos no suscritos y dados de baja (fuente de competidor, no independiente)",
+   "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"
+  },
+  {
+   "afirmacion": "Precios de Kit y Buttondown comparables a $25-33/mes (blog de comparación)",
+   "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"
+  }
+ ],
+ "busquedas_usadas": 0
+}

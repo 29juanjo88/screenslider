@@ -1,0 +1,53 @@
+{
+ "id": "N07-09",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 4,
+  "canal": 2,
+  "mercado": 5,
+  "cuna": 2,
+  "ejecucion": 3
+ },
+ "total": 40,
+ "hecho_decisivo": "El modo voz de ChatGPT es gratuito (https://www.techradar.com/computing/artificial-intelligence/now-that-chatgpt-voice-mode-is-free-is-it-even-worth-paying-for-chatgpt-plus-anymore) y Speak anual (US$83.99, ~US$7/mes) iguala el precio de US$8 (https://apps.apple.com/us/app/-/id1286609883); un listado de tercero indica que Speak Premium Plus ya genera lecciones a partir de errores recurrentes (https://tooldirectory.ai/tools/speak, no oficial). La cuña de precio desaparece y la de repaso de errores queda parcial; no verificado si ChatGPT voz gratis conserva memoria de errores entre sesiones.",
+ "condicion": "Confirmar que existe un hueco real y pagado: que al menos ~30% de aprendices con motivo duro (examen, trabajo, migración) que ya practican con ChatGPT voz declaren que pagarían por repaso persistente de sus errores, y que el costo de voz por usuario activo deje margen >60% a US$8.",
+ "experimento_mas_barato": "Landing page por 3 pares de idioma/examen con demo en video (sin producto) + lista de espera con precio visible US$8/mes y preventa; tráfico de ~US$300 en Reddit/YouTube/Google más 10 entrevistas con usuarios de ChatGPT voz. Métrica: conversión visitante a preventa/email con tarjeta. Umbral para continuar: >=3% a email y >=30 preventas pagadas (o >=10% de entrevistados pagando); si <1% a email, matar. En paralelo, hoja de cálculo de costo por minuto de voz con APIs actuales (sin verificar).",
+ "dimensiones": {
+  "dolor": "Dolor real (falta de interlocutor) pero de mejora personal, sin urgencia semanal verificada; ambos pares lo concedieron como moderado y solo los segmentos con motivo duro tienen urgencia.",
+  "pago": "Disposición de pago demostrada en la categoría (Duolingo >10M suscriptores de pago, Speak ~US$18/mes); pero Speak anual (~US$7/mes) iguala los US$8, así que la ventaja de precio es débil. Ambos pares lo concedieron.",
+  "alternativas_actuales": "Saturado: Duolingo Max, Speak, Pimsleur, Langotalk y ChatGPT/Gemini voz gratis. F1 parcial real; Speak ya ofrecería lecciones desde tus errores según un listado no oficial. Hueco parcial: ChatGPT no registra errores de pronunciación recurrentes.",
+  "canal_y_cac": "SEO, YouTube y Reddit nombrados pero dominados por afiliados e incumbentes; Reddit penaliza la autopromoción. Sin evidencia de CAC ni intención de compra; ambos defensores lo concedieron como el punto más débil.",
+  "retencion": "Churn alto típico en apps de idiomas; el historial personal de errores podría crear costo de cambio, pero es hipótesis sin evidencia.",
+  "mercado": "Cientos de millones de aprendices; el umbral de 100k compradores se supera de sobra (cifra exacta sin verificar). Mercado 5.",
+  "defensa_frente_a_copias": "Cuña copiable: Speak, Duolingo o un chatbot con memoria pueden replicar el repaso de errores; foso mínimo salvo datos acumulados del usuario.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP de voz con APIs es factible en 6 semanas para un ingeniero backend, pero el costo de voz en tiempo real a US$8 comprime el margen y no está verificado; riesgo de soporte multi-idioma."
+ },
+ "resumen_P1": "Ataque: ChatGPT voz gratis y el anual de Speak (~US$7/mes) eliminan la cuña de precio y rozan F1; canales competidos. Defensa: la categoría paga mucho y los chatbots gratis no garantizan repaso estructurado de errores, pero concedió que F1 y canal no están resueltos.",
+ "resumen_P2": "Ataque: la ronda 2 aportó que Speak Premium Plus genera lecciones desde errores recurrentes (fuente no oficial) y que Duolingo regala funciones. Defensa: hay hueco parcial (ChatGPT no registra errores de pronunciación) y la disposición de pago es enorme, pero concedió margen estrecho y canal sin evidencia.",
+ "razonamiento": "Los dos pares coinciden en lo decisivo: mercado enorme y disposición de pago probada, pero cuña débil (precio anual de Speak ~US$7, ChatGPT voz gratis, función de errores parcialmente cubierta) y canal sin evidencia. Las concesiones de ambos defensores en ronda 2 sobre precio, F1 y CAC pesan más que los argumentos de hueco parcial. El mercado ×3 sostiene el total de 40 (banda media), por lo que no se descarta, pero la probabilidad de llegar a US$10-50k MRR vendiendo casi solo es baja. Vale la pena solo si una prueba barata muestra que hay quien paga por el repaso persistente y que el margen de voz aguanta. No usé búsquedas propias; los hechos de precio de Speak y la funcionalidad de errores provienen de fuentes secundarias.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Speak Premium EEUU US$17.99/mes y US$83.99/año (listado App Store citado por P2)",
+   "url": "https://apps.apple.com/us/app/-/id1286609883"
+  },
+  {
+   "afirmacion": "Modo voz de ChatGPT gratuito",
+   "url": "https://www.techradar.com/computing/artificial-intelligence/now-that-chatgpt-voice-mode-is-free-is-it-even-worth-paying-for-chatgpt-plus-anymore"
+  },
+  {
+   "afirmacion": "Duolingo >10M suscriptores de pago (Q1 2025)",
+   "url": "https://investors.duolingo.com/news-releases/news-release-details/duolingo-adds-record-number-daus-surpasses-10-million-paid"
+  },
+  {
+   "afirmacion": "Speak genera lecciones desde errores (listado tercero, no oficial)",
+   "url": "https://tooldirectory.ai/tools/speak"
+  },
+  {
+   "afirmacion": "ChatGPT voz no registra qué sonidos fallas",
+   "url": "https://speakshark.com/blog/chatgpt-voice-mode-english-practice"
+  }
+ ],
+ "busquedas_usadas": 0
+}

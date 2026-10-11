@@ -1,0 +1,126 @@
+{
+ "id": "G23-01",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor acierta en que el dolor es monetario, recurrente y discutido en una comunidad nombrada, y que la política de 2025 obliga a auditar. Yo ya concedí que ~1/3 no se reembolsa automáticamente según un piloto de vendor.",
+   "refuto": "Las cifras que usa (1-3% de ingresos sin reclamar, auditoría manual capta menos de la mitad) son afirmaciones comerciales de vendors que venden la solución, sin metodología independiente. Su propio texto lo admite. Además no responde que Amazon reembolsa proactivamente desde nov-2024 y la ventana bajó a 60 días, lo que encoge el residuo; la fuente de Reddit es una compilación de quejas, no medición de dinero perdido.",
+   "evidencia": [
+    {
+     "afirmacion": "Amazon reembolsa proactivamente y la ventana bajó a 60 días",
+     "url": "https://www.spscommerce.com/community/articles/amazons-reimbursement-policy-updates-what-sellers-need-to-know"
+    },
+    {
+     "afirmacion": "Cifra 1-3% es afirmación comercial de un vendor",
+     "url": "https://www.amplisell.com/blog-post/best-amazon-reimbursement-services-for-fba-brands"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Hay presupuesto existente en la categoría (servicios de 15-25% y suites) y un fijo de $49 es retorno claro para quien recupera cientos de dólares al mes. El propio defensor admite la competencia de herramientas más baratas.",
+   "refuto": "El precio de referencia real del modelo fijo es $19/mes (ReimburseOps, sin comisión), 2.5 veces menos que $49; verifiqué en listados de terceros que Pro es $19 fijo, aunque no en el sitio del vendor. Eso hace que el argumento 'fijo vs comisión' no sostenga $49 sin diferenciación. Y quien recupera cientos al mes ya es candidato a servicio gestionado.",
+   "evidencia": [
+    {
+     "afirmacion": "ReimburseOps: Pro $19/mes plano sin comisión, vía CSV (listados de terceros, no el sitio del vendor)",
+     "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo un punto que debilita mi tesis: Helium 10 declara que Refund Genie NO incluye discrepancias de envíos entrantes y que el seller debe presentar los reclamos manualmente; verifiqué que esa frase aparece en sus páginas. Es un hueco funcional real, y Refund Genie no es sustituto completo para la cuña de inbound.",
+   "refuto": "Ese hueco ya está cubierto por Helium 10 Managed Refund Service (incluye reclamos inbound, envía y monitorea reclamos, incluido en planes Platinum/Diamond con cuota por éxito, según una reseña de terceros), por Threecolts Seller 365 y por los servicios gestionados. Y la búsqueda de ReimburseOps muestra que el hueco de pago fijo bajo ya está ocupado. Lo del defensor es una brecha en un producto DIY, no un segmento desatendido.",
+   "evidencia": [
+    {
+     "afirmacion": "Refund Genie no incluye discrepancias inbound; reclamos manuales en Seller Central",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "afirmacion": "Managed Refund Service cubre reclamos inbound y los presenta automáticamente (reseña de tercero, vendor marketing)",
+     "url": "https://revenuegeeks.com/helium-10-managed-refund-service/"
+    },
+    {
+     "afirmacion": "ReimburseOps ocupa el pago fijo bajo",
+     "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que el canal es concreto y con intención de compra (cumple F4 formalmente) y que una calculadora gratuita de CSV como gancho product-led es una idea razonable que yo no había considerado.",
+   "refuto": "Ambos admitimos que el SEO de 'FBA reimbursement' está saturado por vendors y Reddit limita la autopromoción; el gancho propuesto no tiene evidencia de conversión y el CAC es sin verificar para los dos. ReimburseOps ya ofrece un tier gratis de auditoría, por lo que el gancho no es novedoso.",
+   "evidencia": [
+    {
+     "afirmacion": "Listados de vendors dominan 'best reimbursement tools'",
+     "url": "https://jarvio.io/best-amazon-reimbursement-tools"
+    },
+    {
+     "afirmacion": "ReimburseOps es freemium con auditoría gratuita básica",
+     "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor tiene razón en que cada envío entrante genera nuevas discrepancias y plazos, lo que da un flujo continuo y un motivo de monitoreo; además reconoce el riesgo de churn tras el backlog. Mi evidencia de churn también es nula.",
+   "refuto": "Un flujo continuo no equivale a retención: con reembolso proactivo de Amazon y ventana de 60 días, el residuo recurrente se encoge, y su única fuente es una compilación de quejas de Reddit, no datos de retención. Quien pague $49 por pocos reclamos compara con el fee recuperado.",
+   "evidencia": [
+    {
+     "afirmacion": "Reembolso proactivo y ventana de 60 días reducen el flujo manual",
+     "url": "https://www.spscommerce.com/community/articles/amazons-reimbursement-policy-updates-what-sellers-need-to-know"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo que 86% de los sellers usan FBA (Jungle Scout 2023, según el defensor, no lo abrí) y que ≥100k es plausible; no puedo demostrar que sea <100k. El juez de C dio 3.",
+   "refuto": "Plausible no es demostrado: para un umbral duro y peso ×3, la carga de la prueba es de la idea. Ni el defensor ni yo tenemos cifra de sellers FBA con $20k+/mes, y él mismo propone bajar el segmento a vendedores más pequeños, que es justo donde un fijo de $49 es menos rentable que $19 de la competencia. Las cifras de 3M/10M están sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Sin cifra oficial de sellers por ingreso mensual; fuentes secundarias contradictorias",
+     "url": "https://revenuegeeks.com/research/amazon-seller-statistics"
+    },
+    {
+     "afirmacion": "Número de sellers FBA de $20k+/mes",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor tiene razón en que los incumbentes con comisión tienen incentivo contrario a un fijo bajo (no quieren canibalizar) y que plantillas con datos propios podrían ser un activo; ambos coincidimos en que el foso técnico es nulo.",
+   "refuto": "El incentivo de no canibalizar no aplica a quien ya ofrece la versión sin comisión: Helium 10 y Threecolts incluyen reembolso DIY en sus suites y ReimburseOps ya es fijo. El valor de los datos propios es, según el propio defensor, hipotético.",
+   "evidencia": [
+    {
+     "afirmacion": "Helium 10 ofrece Refund Genie sin comisión",
+     "url": "https://www.helium10.com/tools/refund-genie/"
+    },
+    {
+     "afirmacion": "ReimburseOps es herramienta fija de bajo precio",
+     "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo plenamente: un MVP por CSV sin SP-API en ≤6 semanas es viable y ReimburseOps lo demuestra; esto corrige mi énfasis en el riesgo de SP-API, que desaparece en la versión CSV.",
+   "refuto": "Persiste el mantenimiento ante cambios de política (dos en 5 meses) y de formato de reportes, y el soporte de disputas. Pero la dimensión es favorable a la idea y no es donde ataco.",
+   "evidencia": [
+    {
+     "afirmacion": "ReimburseOps funciona por CSV sin conexión a Seller Central",
+     "url": "https://www.aitoolsspace.com/en/tools/reimburseops"
+    },
+    {
+     "afirmacion": "Cambios de política obligan a mantener reglas",
+     "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "Refund Genie de Helium 10 no cubre discrepancias de envíos entrantes (verificado en sus páginas) y el MVP por CSV sin SP-API es viable en ≤6 semanas; el hueco funcional y la ejecución son reales.",
+ "punto_que_sigue_en_pie": "La cuña de pago fijo ya está ocupada por ReimburseOps a $19/mes (listados de terceros) y el hueco inbound lo cubren Managed Refund Service y Threecolts; sumado a un segmento $20k+/mes no dimensionado (umbral duro F6) y a cero foso, $49 no tiene un segmento claramente desatendido.",
+ "busquedas_usadas": 2
+}

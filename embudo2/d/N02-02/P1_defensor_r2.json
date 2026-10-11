@@ -1,0 +1,82 @@
+{
+ "id": "N02-02",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El atacante tiene razón en que el dolor es episódico, que se corrige con cambios puntuales (caché, runners Linux en vez de macOS/Windows) y que no hay evidencia verificada de búsqueda activa (sin hilos de Reddit/foros). No es un dolor semanal.",
+   "refuto": "Que sea 'estaría bien' para la mayoría no se sigue: el propio atacante admite que el cambio de precios de Actions pone el costo en conversación, y el dolor es en dólares, recurrente (cada factura) y se regenera con repos y workflows nuevos. Ese argumento apoya un dolor moderado (3), no un 'estaría bien' (1-2).",
+   "evidencia": [
+    {"afirmacion": "GitHub anunció precios más simples y cambios en Actions (changelog oficial)", "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/"},
+    {"afirmacion": "Demanda orgánica en foros: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Cierto que repos públicos y equipos pequeños caen en minutos gratis, que solo orgs con gasto notable pagarían, y que no verifiqué precios de Depot/Blacksmith/Datadog; el presupuesto para una herramienta solo de análisis no está demostrado.",
+   "refuto": "Que existan vendors de pago (runners, Datadog CI Visibility) que monetizan el costo de CI indica presupuesto en la categoría adyacente, aunque no para un analizador puro. El ROI (ahorro frente a US$29/mes) es medible. El argumento del atacante de que 'el CSV nativo es gratis' se debilita: mi búsqueda confirmó que el informe detallado con workflow_path solo está disponible por la interfaz web y no por la API REST /usage, es decir es una exportación manual, no monitoreo continuo.",
+   "evidencia": [
+    {"afirmacion": "El informe detallado (con workflow_path) solo se obtiene por la interfaz web; la API REST /usage solo da facturación resumida (resultado de búsqueda sobre la doc de GitHub)", "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"},
+    {"afirmacion": "Precios de competidores", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que el desglose por workflow existe nativamente y gratis (workflow_path, repo, cost center) y que hay guías y analítica de vendors, CLI OSS y Datadog; que las fuentes que dicen que lo nativo no alcanza son de vendors interesados; y que F1 es parcial: lo gratis cubre una auditoría puntual.",
+   "refuto": "El atacante la presenta como cobertura total, pero lo gratis es manual (exportación web, no API REST para el detalle), sin dashboard continuo, alertas de regresión ni recomendaciones. Para una cuña de monitoreo continuo sin migrar runners, el incumbente gratis no es 'suficientemente bueno'. Matiz que me perjudica: esa misma limitación de API obliga a reconstruir el costo desde runs y tiempos facturables, lo que reduce la precisión.",
+   "evidencia": [
+    {"afirmacion": "Informe detallado solo vía web, no vía API REST", "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"},
+    {"afirmacion": "Blacksmith ofrece analítica por job en sus runners (fuente de vendor)", "url": "https://info.blacksmith.sh/task/blog/services-per-job-cost-analytics-github-actions"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Verdad que el SEO está dominado por vendors con presupuesto de contenido, que no verifiqué volumen de búsqueda ni tráfico/competencia de Marketplace, que Reddit castiga la autopromoción y que pedir acceso OAuth a una org alarga la compra por seguridad.",
+   "refuto": "Que los vendors publiquen contenido de forma constante prueba que existe intención de búsqueda, y un informe gratis por repo con instalación de 1 clic acorta la fricción de seguridad (permisos solo lectura). El atacante no aporta evidencia de que el canal sea inviable, solo que no está demostrado, igual que lo mío.",
+   "evidencia": [
+    {"afirmacion": "Vendors publican guías de costo por workflow (intención de búsqueda)", "url": "https://info.blacksmith.sh/task/blog/how-to-get-per-workflow-cost-breakdowns-github-actions"},
+    {"afirmacion": "Volumen de búsqueda, tráfico de Marketplace y CAC", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Es la dimensión más débil y lo reconozco sin matices: el churn tras optimizar es real, las alertas de regresión acercan el producto a Datadog y a las alertas de presupuesto nativas, y la aritmética del atacante es correcta (500 × US$29 = US$14.5k; US$50k exigiría unos 1,700 clientes). No tengo datos de retención de herramientas comparables.",
+   "refuto": "Solo parcialmente: la cuenta de 500 clientes es el piso de la meta (US$10-50k), no un fallo, y el plan por org de US$29-49 sube el techo. Pero esto no demuestra baja churn; solo que la meta es alcanzable con volumen moderado si la retención es aceptable, lo cual está sin verificar.",
+   "evidencia": [
+    {"afirmacion": "Aritmética: 500 × US$29 = US$14,500 MRR", "url": "sin verificar"},
+    {"afirmacion": "Retención de herramientas FinOps/CI comparables", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Correcto: 47-48M desarrolladores es base de personas, no de compradores. El número de orgs con gasto relevante en Actions sigue sin verificar y, filtrando por gasto que justifique una herramienta, es plausible que quede cerca o por debajo de 100k (riesgo F6). Mi mejor lectura sigue siendo escala 2-3.",
+   "refuto": "El atacante afirma 'probablemente <100k' sin evidencia, igual que yo afirmo lo contrario sin cifra; es una incertidumbre simétrica, no un fallo demostrado de F6. La base de Octoverse (más de 180M de desarrolladores en GitHub) hace plausible un universo grande de equipos, aunque el filtro por gasto lo reduce. No lo trato como demostrado.",
+   "evidencia": [
+    {"afirmacion": "GitHub: más de 180M de desarrolladores y 630M de repos (Octoverse 2025)", "url": "https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/"},
+    {"afirmacion": "Número de orgs que pagan Actions", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que la defensa es prácticamente baja: el análisis vía API es replicable, Blacksmith ya incluye analítica por job y puede regalarla, GitHub puede mejorar su informe nativo, hay dependencia total de la plataforma, y no hay datos propietarios ni efectos de red hoy.",
+   "refuto": "Solo matizo que la neutralidad frente a vendors de runners y los datos históricos acumulados por cliente son foso modesto pero real, y que mi propia búsqueda indica que GitHub aún no expone el detalle por API REST (lo que retrasa una copia nativa trivial, aunque no la impide). No es un foso fuerte.",
+   "evidencia": [
+    {"afirmacion": "Blacksmith incluye analítica de costo por job en sus runners (vendor)", "url": "https://info.blacksmith.sh/task/blog/services-per-job-cost-analytics-github-actions"},
+    {"afirmacion": "Detalle por workflow no disponible por API REST /usage", "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo los riesgos posteriores señalados: soporte de seguridad/permisos de orgs, cambios de precios de GitHub que obligan a recalcular el modelo (el cargo de US$0.002/min viene solo de blogs de vendors, sin verificar), y que la precisión del 'ahorro estimado' es crítica. Además mi búsqueda muestra que el detalle por workflow no está en la API REST, así que parte del costo deberá estimarse desde runs y minutos facturables, lo que complica la precisión.",
+   "refuto": "El atacante mismo admite que el MVP es viable en ~6 semanas con el stack de Juan; los riesgos son de operación, no de construcción. Sin hardware, regulación ni ventas.",
+   "evidencia": [
+    {"afirmacion": "Detalle de uso solo por UI, API REST solo resumen (afecta la ingesta)", "url": "https://docs.github.com/en/enterprise-cloud@latest/billing/managing-your-billing/about-usage-reports"},
+    {"afirmacion": "Cargo de plataforma US$0.002/min: sin verificar contra GitHub", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La retención: es un producto de auditoría con churn tras ahorrar, y mitigarlo con alertas lo acerca a Datadog y a las alertas nativas; sin datos de retención, ese riesgo es real y el tamaño de mercado de pagadores (posible F6) también queda sin demostrar.",
+ "punto_que_sigue_en_pie": "El desglose nativo con workflow_path es una exportación manual (informe detallado solo por la interfaz web, no por la API REST), así que un monitoreo continuo con alertas y recomendaciones, neutral y sin migrar runners, sigue siendo una cuña distinta de lo gratis, aunque frágil.",
+ "busquedas_usadas": 1
+}

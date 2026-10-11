@@ -1,0 +1,82 @@
+{
+ "id": "N01-01",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El atacante acierta en que el dolor es episodico y solo semanal para el subconjunto con 5-100 disputas/mes; la fraccion de tiendas en ese segmento es sin verificar (yo mismo lo admiti) y la fuente de la tarifa de US$15 es de un vendor.",
+   "refuto": "Que sea concentrado no lo hace debil: el atacante mismo concede que la tarifa de US$15 por disputa es dolor monetario directo, y no aporta evidencia de que los comerciantes con volumen lo delegan por completo (no hay fuente). Quien ya paga 20-25% de lo recuperado a servicios externos demuestra que no lo deja perder ni lo gestiona a mano.",
+   "evidencia": [
+    {"afirmacion": "Shopify cobra US$15 por disputa en cuentas de EE. UU. con Shopify Payments (fuente de vendor).", "url": "https://www.chargeback.io/es/blog/whats-the-shopify-chargeback-fee"},
+    {"afirmacion": "Fraccion de tiendas con 5-100 disputas/mes: sin verificar.", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Con pocas disputas al mes, 20-25% de lo recuperado puede salir mas barato que US$39 fijos, y el pago por exito reduce el riesgo percibido; ChargePay es mas barato en el nivel de entrada (US$19.99).",
+   "refuto": "El atacante concede que ChargePay prueba que la cuota fija se vende, que es la parte clave de disposicion de pago. El argumento de 'puede salir mas barato' se invierte para tiendas con disputas altas o de ticket alto, donde la comision de 20-25% (Disputifier tope US$250 por disputa) supera con creces US$39; ese es el segmento objetivo (5-100 disputas).",
+   "evidencia": [
+    {"afirmacion": "Chargeflow cobra 25% de lo recuperado; Disputifier 20% con tope US$250 por disputa ganada.", "url": "https://redo.com/resources/articles/comparisons/chargeflow-pricing"},
+    {"afirmacion": "ChargePay vende precio plano de US$19.99 a US$99.99/mes en Shopify App Store.", "url": "https://apps.shopify.com/chargepay"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Es la dimension mas debil y lo reconozco: la cuña de cuota fija declarada ya esta ocupada por ChargePay y mas barata; Stripe Smart Disputes y Shopify Payments dan evidencia nativa gratis para parte de las disputas (F1 parcial para disputas simples); el ajuste de etapa C (multi-plataforma, reason codes) es una cuña distinta a la declarada en la idea.",
+   "refuto": "F1 exige que el incumbente gratis sea suficientemente bueno para la CUÑA elegida; el atacante mismo admite que no pudo verificar el alcance de la evidencia automatica de Shopify, asi que F1 no esta demostrado. La ayuda oficial de Shopify dice que la evidencia depende de la razon del contracargo, lo que sustenta que una base generica no es equivalente a evidencia por reason code. Ademas ChargePay es solo Shopify, por lo que la cobertura Woo/Stripe/PayPal sigue sin servir por un plan fijo, aunque no verifique ese vacio de forma exhaustiva.",
+   "evidencia": [
+    {"afirmacion": "Con Shopify Payments, Shopify recolecta y envia evidencia en la fecha limite; el comerciante puede agregar evidencia antes.", "url": "https://help.shopify.com/manual/payments/shopify-payments/managing-chargebacks"},
+    {"afirmacion": "El tipo de evidencia depende de la razon del contracargo (guia oficial de Shopify).", "url": "https://help.shopify.com/en/manual/payments/chargebacks/resolve-chargeback"},
+    {"afirmacion": "Ausencia de un competidor de cuota fija multi-plataforma: sin verificar de forma exhaustiva.", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Un recien llegado sin resenas queda abajo en un listado donde la confianza pesa; el SEO de 'chargeback' esta competido por vendors con contenido (Redo, Chargeflow, Chargeback.io); r/shopify prohibe autopromocion y no escala a 500 clientes; no hay CAC verificado.",
+   "refuto": "Que el canal este poblado confirma intencion de compra, no su inexistencia. El atacante no presenta datos de ranking ni de conversion (los marca sin verificar). El SEO por reason code especifico (long tail) es distinto al head term 'best chargeback software' que cita; lo uso solo como hipotesis, sin evidencia propia. Woo.org/Stripe sigue sin verificar y no lo defiendo mas alla de eso.",
+   "evidencia": [
+    {"afirmacion": "Existen listings de chargebacks en Shopify App Store (ChargePay), lo que indica busqueda activa.", "url": "https://apps.shopify.com/chargepay"},
+    {"afirmacion": "CAC, conversion del listing y ranking: sin verificar.", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Con cuota fija, la tienda cuyas disputas bajan cancela; las disputas son estacionales; las tiendas Shopify pequeñas cierran y las apps se desinstalan; si Shopify/Stripe amplian la evidencia nativa el valor marginal cae. Es un riesgo real y ninguno de los dos tiene datos de churn.",
+   "refuto": "El atacante afirma 'churn alto' sin ninguna fuente (lo marca sin verificar), asi que es hipotesis, no hecho. Tambien hay contrapeso: mientras la tienda venda, siguen llegando disputas y el historial de evidencia crea algo de costo de cambio; un plan escalonado por volumen mitiga la cancelacion en meses bajos. No son fosos fuertes y no los presento como tales.",
+   "evidencia": [
+    {"afirmacion": "Datos de churn/retencion de apps de disputas o tiendas pequeñas: sin verificar.", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "El comprador real es un subconjunto filtrado dos veces (ventas reales y disputas frecuentes); las cifras de tiendas son de blogs secundarios; la estimacion >500k de la etapa C esta sin verificar; para US$10k MRR se necesitan ~257 clientes a US$39 y ~1,282 para US$50k.",
+   "refuto": "El atacante concede que el umbral de 100k probablemente se cumple (5-10% de 2.5-4.8M = 125k-480k), asi que F6 no aplica. Sumar Woo/Stripe/PayPal amplia la base, aunque ese tamaño es sin verificar. 257-1,282 clientes sobre una base de cientos de miles es 0.1-1%, una penetracion plausible pero no demostrada.",
+   "evidencia": [
+    {"afirmacion": "~2.51M tiendas Shopify vivas (marzo 2025), dato secundario.", "url": "https://cropink.com/how-many-shopify-stores-are-there"},
+    {"afirmacion": "~2.54M dominios vivos (abril 2025) y 4.82M con subdominios, fuentes secundarias.", "url": "https://redstagfulfillment.com/how-many-shopify-stores-exist/"},
+    {"afirmacion": "Numero de tiendas con 5-100 disputas/mes y tamaño Woo/Stripe: sin verificar.", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo practicamente todo: los reason codes son publicos, la logica es reproducible en semanas, ChargePay o Chargeflow pueden añadir o ajustar planes fijos, Shopify/Stripe pueden absorber la funcion, no hay efecto de red y la tasa de exito medida exige volumen que Juan no tiene al inicio. Ya lo habia dicho como la dimension mas debil.",
+   "refuto": "Solo matizo: ChargePay ya existe y no ha cerrado el espacio multi-plataforma, y la copia por parte de incumbentes mayores es una posibilidad, no un hecho verificado. No tengo evidencia de foso, asi que no lo reclamo.",
+   "evidencia": [
+    {"afirmacion": "ChargePay opera en Shopify con precio ligado al plan de Shopify.", "url": "https://apps.shopify.com/chargepay"},
+    {"afirmacion": "Foso por datos/plantillas o integraciones: sin verificar.", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "6 semanas es optimista si incluye Shopify + Stripe + Woo; la revision de la app Shopify añade tiempo; hay datos sensibles y plazos de disputa de pocos dias que presionan el soporte; mantener reglas por reason code de varias redes es carga continua; probar que gana disputas requiere datos reales que Juan no tiene.",
+   "refuto": "El propio atacante concede que Juan puede construirlo tecnicamente con su stack y costo bajo. Un MVP acotado a Shopify+Stripe sigue siendo viable en un plazo cercano, aunque ya no sostengo el alcance multi-plataforma dentro de las 6 semanas. El acceso programatico a envio de evidencia y los tiempos de aprobacion siguen sin verificar por ambos.",
+   "evidencia": [
+    {"afirmacion": "Acceso programatico a evidence submission para apps de terceros y tiempo de aprobacion de app: sin verificar.", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "La cuña de cuota fija declarada ya esta ocupada por ChargePay (mas barato en entrada) y la defensa frente a copias es casi nula; ademas la diferenciacion alternativa (multi-plataforma y reason code) no esta demostrada y Shopify/Stripe cubren parte de la evidencia gratis.",
+"punto_que_sigue_en_pie": "El dolor es monetario y concreto, ya hay presupuesto (20-25% de lo recuperado y planes fijos de US$20-100), el atacante concede que el universo supera 100k (F6 no aplica) y no demostro que F1 aplique a la cuña de reason code multi-plataforma.",
+ "busquedas_usadas": 0
+}

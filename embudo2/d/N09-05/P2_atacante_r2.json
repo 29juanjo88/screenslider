@@ -1,0 +1,79 @@
+{
+ "id": "N09-05",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que el cobro por contactos no suscritos/dados de baja es un costo mensual visible en cada factura y que la queja es repetida; yo ya lo había admitido. También es cierto que el recorte del plan gratis de Mailchimp aumenta la irritación.",
+   "refuto": "Sigue siendo dolor de costo, no de pérdida de ingresos; el propio defensor lo califica urgencia media. Se resuelve gratis limpiando la lista. La evidencia sigue viniendo solo de blogs de competidores y los datos del recorte del plan gratis son discrepantes (el defensor lo reconoce).",
+   "evidencia": [
+    {"afirmacion": "Queja sobre contactos facturados: fuente de competidor, no independiente", "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Hay presupuesto existente: el cliente ya paga un ESP, y $25 cae dentro del rango observado (Buttondown ~$9-29, Kit ~$32.50, Beehiiv ~$43). Eso favorece a la idea y lo concedo. El defensor también admite que Kit y Beehiiv gratis reducen el segmento en la parte baja.",
+   "refuto": "El defensor dice que el valor está en listas >10k, pero eso es un segmento mucho más estrecho que 5k-100k, y ahí Kit cobra ~$32.50 y Buttondown $29 por 5k, comparables a $25. El comprador que migra por precio compara por precio y tiene poca lealtad; a $25 se necesitan ~400-2,000 clientes para la meta de MRR. Todos los precios son de roundups de terceros.",
+   "evidencia": [
+    {"afirmacion": "Kit gratis hasta 10k; de pago desde ~$32.50 (tercero)", "url": "https://superframeworks.com/articles/best-newsletter-platforms-indie-hackers"},
+    {"afirmacion": "Beehiiv gratis hasta 2,500; Scale ~$43 (fuentes difieren)", "url": "https://skillscouter.com/beehiiv-review/"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor acierta en que no encontré una fuente verificada que posicione 'cobro por contactos activos + importador Mailchimp + limpieza' como eje central; mis precios de Listmonk/Sendy/EmailOctopus vienen de comparadores y no los verifiqué en sitios oficiales. También es cierto que EmailOctopus mezcla planes por suscriptores con SES, no es puramente por envío.",
+   "refuto": "La ausencia de evidencia no es evidencia de ausencia: el propio defensor admite que no lo confirmó de forma exhaustiva. Y el defensor confirma con fuente oficial de EmailOctopus que el modelo SES por envío ya existe, y cita Sendy sobre SES (precio $69 listado). Por tanto el ajuste BYO-SES que propone para rescatar la idea ya está ocupado por EmailOctopus, Sendy y Listmonk; la diferencia queda reducida a un posicionamiento de marketing.",
+   "evidencia": [
+    {"afirmacion": "EmailOctopus permite conectar SES y pagar a Amazon por envío (ayuda oficial citada por el defensor)", "url": "https://help.emailoctopus.com/article/114-aws-costs"},
+    {"afirmacion": "Sendy envía vía Amazon SES, precio listado $69", "url": "https://inboxreads.co/tools/emailoctopus/vs/sendy"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor tiene razón en que la proliferación de blogs 'Mailchimp alternative pricing' prueba demanda de búsqueda con intención de compra, y que una calculadora/importador gratuito son activos product-led plausibles. Ambos admitimos que no hay volumen ni CAC verificados.",
+   "refuto": "Esa misma proliferación prueba que la SERP está ocupada por dominios con autoridad; un dominio nuevo tarda meses. El defensor reconoce que es una de las búsquedas más disputadas. Una calculadora es copiable por los mismos competidores. Reddit: el defensor lista r/Emailmarketing sin verificar sus reglas de autopromoción.",
+   "evidencia": [
+    {"afirmacion": "SERP dominada por competidores y agregadores", "url": "https://envoke.com/blog/mailchimp-alternative-pricing/"},
+    {"afirmacion": "Volumen de búsqueda, CAC y reglas de r/Emailmarketing", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor tiene razón en que el costo de cambio de un ESP es real (listas, automatizaciones, formularios, dominio remitente) y yo ya lo había concedido. También admite que no hay datos de churn.",
+   "refuto": "El argumento se vuelve contra la idea: el costo de cambio que retiene también frena la adquisición (lo dice el propio defensor). Además, el cliente objetivo ya demostró que migra por precio, y con BYO-SES el cliente ve que paga solo la capa de software, reemplazable por Listmonk o Sendy. Sin dato de churn, ninguno de los dos lo demuestra; la carga de la prueba sigue en la idea.",
+   "evidencia": [
+    {"afirmacion": "Datos de churn del sector", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El defensor aporta un dato que yo no tenía: Intuit declaró en 2021 800,000 clientes de pago de Mailchimp (13M de usuarios), 50% fuera de EE.UU., lo que sugiere un universo de pagadores muy por encima de 100k. Concedo que probablemente no se incumple F6 y que mi sospecha de un puntaje cercano a 2 era demasiado pesimista. No lo verifiqué por mi cuenta (sin verificar), pero la URL es plausible como nota de prensa oficial.",
+   "refuto": "Son 800k clientes de pago de todo tipo (mayoría pymes y comercio con listas pequeñas), no creadores con 5k-100k suscriptores; es un dato de 2021 y el defensor mismo admite que la fracción relevante no tiene fuente y que su '100k parece razonable' es una estimación propia. El universo total no equivale al segmento comprable que migraría pagando $25. Un 3-4 es defendible, pero 4 no está demostrado.",
+   "evidencia": [
+    {"afirmacion": "Intuit 2021: 800,000 clientes de pago, 13M usuarios (dato citado por el defensor, no verificado por mí; de 2021)", "url": "https://www.businesswire.com/news/home/20210913005806/en"},
+    {"afirmacion": "Tamaño del segmento 5k-100k", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor concede honestamente que es débil, y aporta un argumento válido: Mailchimp y Kit cobran por contactos totales, lo que les da incentivo a no cambiar de modelo, y una ventana asimétrica. Concedo que es una inferencia razonable que reduce la probabilidad de copia por parte de esos dos.",
+   "refuto": "El incentivo no cubre a Brevo (ya cobra por envío), Buttondown, Beehiiv, EmailOctopus ni a los self-hosted, que ya compiten con modelos distintos. La ventana asimétrica es una inferencia del propio defensor, sin evidencia directa. Marca y SEO se construyen en meses, y el importador es trivial.",
+   "evidencia": [
+    {"afirmacion": "Brevo con contactos ilimitados desde $9 (agregador, sin verificar en sitio oficial)", "url": "https://www.emailtooltester.com/en/?p=2338"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "BYO-SES/Postmark sí reduce el riesgo de reputación de IP compartida, el stack de Juan cubre editor, importador y facturación, y un MVP de 6-10 semanas es plausible. Lo concedo. Además el defensor reconoce que la etapa C puntuó ejecución 2.",
+   "refuto": "BYO-SES traslada la carga al cliente (configurar AWS, salir del sandbox), lo que baja la conversión de creadores no técnicos; y quien sí lo hace es el perfil que podría usar Listmonk/Sendy gratis. Siguen vigentes soporte, rebotes/quejas, cumplimiento anti-spam y la culpa percibida ante fallos de entregabilidad. El tiempo de MVP es estimación propia del defensor, sin verificar. Mi ataque sobre MVP queda matizado, el operativo no.",
+   "evidencia": [
+    {"afirmacion": "Tiempo de MVP: estimación propia del defensor, sin verificar", "url": "sin verificar"},
+    {"afirmacion": "Políticas de SES sobre sandbox y quejas", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El mercado probablemente supera 100k compradores: el dato de Intuit 2021 (800k clientes de pago de Mailchimp, 50% fuera de EE.UU.) hace insostenible mi sospecha de que pudiera caer en el rango 2; además el modelo BYO-SES reduce de verdad el riesgo de reputación de IP.",
+ "punto_que_sigue_en_pie": "La cuña no es defendible: el cobro por envío y BYO-SES ya están ocupados (EmailOctopus, Sendy, Listmonk, Brevo), Kit/Beehiiv son gratis en la parte baja, cualquier rival puede copiar el precio por activos, y el canal SEO está dominado por competidores; todo ello a $25 con retención incierta.",
+ "busquedas_usadas": 0
+}

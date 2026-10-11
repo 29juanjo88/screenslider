@@ -1,0 +1,53 @@
+{
+ "id": "N10-01",
+ "veredicto": "DESCARTADA",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 2,
+  "mercado": 3,
+  "cuna": 1,
+  "ejecucion": 4
+ },
+ "total": 29,
+ "hecho_decisivo": "La cuña (lista de arreglos a nivel de tema, escaneo continuo, reporte/declaración EAA) ya está ocupada por apps de Shopify con plan gratis o a ~$29: Kokua (gratis, axe-core WCAG 2.2 AA, arreglo Liquid por hallazgo, monitoreo, declaración EAA, lanzada 15-jul-2026) y HewnScan (Pro $29/mes, re-escaneos semanales, trazado por app, PDF; Agency $79). Ambos pares y ambos defensores concedieron en r2 que es casi un clon al mismo precio. Falla F1 para la cuña. Fuente: https://pickyourapp.com/products/kokua",
+ "condicion": "No aplica (DESCARTADA). Solo se reconsideraría si se demostrara que los arreglos de Kokua/HewnScan/Accessify AI son incorrectos o genéricos y existe un segmento (agencias multi-tienda) que paga >$29 por arreglos verificados por tema; sin verificar.",
+ "experimento_mas_barato": "Sin escribir producto: instalar Kokua, HewnScan y Accessify AI en 3 tiendas de prueba (Dawn y 2 temas populares) y comparar si sus arreglos son correctos y específicos por plantilla; además, landing + 20 entrevistas/mensajes a agencias Shopify con clientes UE. Métrica: % de hallazgos con arreglo correcto y ≥5 agencias que acepten prepago o carta de intención a ≥$49/mes. Umbral: si los rivales aciertan >70% de los arreglos o <5 agencias aceptan, se mata.",
+ "dimensiones": {
+  "dolor": "La EAA vigente desde 28-jun-2025 crea urgencia real pero episódica; exención de microempresas, enforcement por queja y desigual. Ambos pares coinciden en dolor medio de cumplimiento, no semanal.",
+  "pago": "Ancla de precio baja en Shopify: escaneo gratis y Pro de $4.99-$19.99, con HewnScan a $29 y overlays desde $39-59. El defensor admitió que el gasto en overlays no se traslada y no hay evidencia de que alguien pague $29+ por la lista de arreglos.",
+  "alternativas_actuales": "Punto decisivo: Kokua (gratis), HewnScan ($29), Accessify AI (gratis/$9.99/$29.99), AccessKit (gratis/$4.99) y AccessFix cubren escaneo, arreglos por tema y declaración EAA. Los defensores concedieron la cuña parcialmente ocupada; F1 aplica para la cuña elegida.",
+  "canal_y_cac": "Shopify App Store con intención de compra, pero saturado con 7-9 apps EAA nuevas (muchas con 0 reseñas) y SEO dominado por blogs de vendors. Sin datos de CAC ni de WordPress.org; carrera por reseñas sin ventaja.",
+  "retencion": "Riesgo alto de 'arreglo y me voy'; el monitoreo recurrente ya está cubierto por rivales y el cliente puede volver al plan gratis. La hipótesis de agencias multi-tienda es plausible pero sin datos.",
+  "mercado": "Techo bruto de millones de tiendas (Shopify ~2.3-2.9M, WooCommerce ~4.2-4.5M, estimaciones de terceros) y ambos lados aceptan que F6 probablemente no falla; la fracción con ventas UE sobre la exención es sin verificar, por eso puntaje 3.",
+  "defensa_frente_a_copias": "Prácticamente nula: ya hay un clon casi exacto (HewnScan) y rivales con IA generando parches. El defensor concedió; solo quedan reseñas y una biblioteca de arreglos por tema, ambas copiables.",
+  "ejecucion_una_persona_tiempo_parcial": "Un MVP de escáner con axe-core y guías es factible en ≤6 semanas por una persona; la dificultad es mantener arreglos correctos por tema y competir en soporte."
+ },
+ "resumen_P1": "El atacante mostró escáneres gratis y de $4.99-$29 con re-escaneo y reportes, y canal saturado con churn post-remediación; el defensor respondió que AccessKit es sobre todo escaneo y que nadie tiene reseñas aún, pero concedió dolor episódico, ancla de precio débil y defensa casi nula.",
+ "resumen_P2": "El atacante demostró con Kokua, HewnScan y Accessify AI que la cuña de arreglos por plantilla ya está ocupada, incluso gratis; el defensor concedió que HewnScan es casi el mismo producto y precio y que no hay foso, defendiendo solo que ninguno tiene tracción verificada ni calidad de arreglos comprobada.",
+ "razonamiento": "Ambos pares convergen en el mismo hecho: la cuña de lista de arreglos por tema con monitoreo y reporte EAA ya la ofrecen Kokua (gratis) y HewnScan ($29), y los defensores lo concedieron en la ronda 2, lo que es evidencia fuerte. Eso activa F1 para la cuña elegida, no solo competencia de pago. El mercado bruto es grande y el escaneo es fácil de construir, pero el precio ancla es bajo, el canal está saturado de apps sin reseñas y no hay defensa. El puntaje total de 29 cae en banda BAJA, igual al ancla del gestor de tareas genérico. El único argumento a favor es que nadie tiene tracción verificada, lo que no basta para un clon sin ángulo.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Kokua: gratis, WCAG 2.2 AA con axe-core, arreglo a nivel de tema Liquid, monitoreo y declaración EAA, lanzada 15-jul-2026 (según listing)",
+   "url": "https://pickyourapp.com/products/kokua"
+  },
+  {
+   "afirmacion": "HewnScan: Free (home, 26 checks), Pro $29/mes, Agency $79/mes, 0 reseñas, lanzada 21-jul-2026",
+   "url": "https://apps.shopify.com/hewnscan"
+  },
+  {
+   "afirmacion": "AccessKit: escaneos gratis y Pro $4.99/mes, sobre todo escaneo",
+   "url": "https://apps.shopify.com/accesskit"
+  },
+  {
+   "afirmacion": "EAA es ley en Irlanda desde 28-jun-2025",
+   "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"
+  },
+  {
+   "afirmacion": "Exención de microempresas (<10 personas y <=2M EUR), fuente de vendor",
+   "url": "https://accessible.org/does-eaa-apply-shopify-stores/"
+  }
+ ],
+ "busquedas_usadas": 1
+}

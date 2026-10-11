@@ -1,0 +1,82 @@
+{
+ "id": "G23-01",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razon en que el dolor es monetario directo, que existe una industria que cobra 20-25% por resolverlo y que la politica del 2025-03-10 obliga a revisar reclamos. Retiro mi framing de 'pasivo': el dolor se paga aunque el seller no lo busque cada semana.",
+   "refuto": "Sigue sin verificarse la magnitud (1-3% de ingresos es afirmacion comercial de un proveedor) y el defensor no demuestra busqueda activa: un articulo agregador sobre problemas FBA en Reddit no es volumen de busqueda. Que el dolor se pague a comision no prueba urgencia semanal.",
+   "evidencia": [
+    {"afirmacion": "Magnitud 1-3% de ingresos sin reclamar es afirmacion comercial, no verificada", "url": "https://www.amplisell.com/blog-post/best-amazon-reimbursement-services-for-fba-brands"},
+    {"afirmacion": "Politica de reembolsos FBA actualizada desde 2025-03-10", "url": "https://sellercentral.amazon.com/gp/help/external/G200213130"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "El defensor acierta en que hay disposicion de pago demostrada (Getida 25%, Carbon6 ~25%, Jungle Scout gestionado 20%) y que $49 fijos es mas barato que la comision para quien recupera mas de ~$200-250/mes (aritmetica correcta).",
+   "refuto": "Esa ventaja solo existe si el seller recupera esa cantidad cada mes; tras el backlog inicial no esta demostrado. Ademas el pago fijo antes de ver recobro sigue frente a 'solo pago si recuperas'. El precio de Helium 10 Diamond ($279-359) viene de un agregador y el propio defensor admite que no confirmo que incluya Refund Genie.",
+   "evidencia": [
+    {"afirmacion": "Getida 25%, Jungle Scout gestionado 20% (sitio de resenas con afiliados)", "url": "https://revenuegeeks.com/getida-pricing/"},
+    {"afirmacion": "Resena cita ~25% para Carbon6", "url": "https://jarvio.io/best-amazon-reimbursement-tools"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Mi busqueda de verificacion confirma un hecho que favorece al defensor: segun el resumen de busqueda de la pagina oficial de Helium 10, Refund Genie NO incluye discrepancias de envios entrantes (inbound), que el seller debe reclamar a mano. Concedo que ahi hay hueco real y que Refund Genie no cubre exactamente la cuña. Tambien concedo que el defensor distingue bien DIY, gestionado y hoja de calculo.",
+   "refuto": "El hueco esta parcialmente cubierto: Helium 10 tiene un Managed Refund Service que, segun una resena (RevenueGeeks) y el resumen de busqueda, cubre reclamos entrantes y esta incluido en planes Platinum/Diamond; ademas Getida, Carbon6 y Seller Investigators los reclaman por comision. Es decir, el entrante lo cubren servicios gestionados, no es terreno vacio; la cuña real es solo precio fijo + DIY para quien no quiere ceder comision. Inclusion del servicio por plan: resena, sin verificar en pagina oficial de precios.",
+   "evidencia": [
+    {"afirmacion": "Refund Genie audita reembolsos pero no incluye discrepancias de envios entrantes de FBA (segun resumen de busqueda de la pagina oficial; no leida directamente)", "url": "https://www.helium10.com/tools/refund-genie/"},
+    {"afirmacion": "Helium 10 Managed Refund Service: resena indica que cubre reclamos y esta incluido en Platinum/Diamond (inclusion exacta sin verificar en precios oficiales)", "url": "https://revenuegeeks.com/helium-10-managed-refund-service/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor tiene razon en que la intencion de busqueda es alta, que existe una comunidad nombrada y que una auditoria gratuita de un reporte subido es un lead magnet product-led plausible. Eso es mas concreto que mi version y lo concedo.",
+   "refuto": "Sigue sin evidencia de volumen de busqueda ni de dificultad SEO (ambos 'sin verificar' para los dos), el SEO esta ocupado por Helium 10, Threecolts, Jarvio y otros con dominios fuertes, y Reddit castiga la autopromocion. 'CAC bajo si el contenido posiciona' es condicional, no evidencia. Un lead magnet con CSV tambien lo replica cualquiera.",
+   "evidencia": [
+    {"afirmacion": "Contenido comparativo de reembolsos FBA dominado por proveedores establecidos", "url": "https://jarvio.io/best-amazon-reimbursement-tools"},
+    {"afirmacion": "Volumen de busqueda y dificultad SEO de 'FBA reimbursement'", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "El defensor tiene razon en que nuevos envios generan discrepancias nuevas continuamente y que el seguimiento de plazos es un habito recurrente; mi tesis de que el valor se agota tras el backlog era demasiado absoluta. Ambos coincidimos en que no hay datos de retencion de la categoria.",
+   "refuto": "El propio defensor admite churn si el seller limpia el backlog en 2-3 meses. Su argumento de flujo continuo no esta cuantificado: el flujo mensual de discrepancias de un seller pequeno puede no justificar $49. Y la consolidacion en suites que ya incluyen la funcion sigue sin respuesta.",
+   "evidencia": [
+    {"afirmacion": "Datos de retencion/churn de herramientas de reembolso FBA", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo con claridad el punto mas fuerte del defensor. Mi busqueda de verificacion muestra ~1.9M vendedores activos de terceros a nivel mundial en 2025 y una cifra ampliamente repetida de ~82% usando FBA (sin fuente primaria de Amazon). Eso daria del orden de 1.5M sellers FBA (calculo mio, no fuente). Incluso con una fraccion pequena con ingresos suficientes para $49, superar 100k es plausible y mi sospecha de F6 se debilita mucho. Concedo ademas que baja el umbral de ingresos amplia el mercado.",
+   "refuto": "Sigue sin existir cifra verificada de sellers FBA con $20k+/mes y las cifras vienen de agregadores secundarios que mezclan activos, registrados y regiones; no todos los marketplaces regionales aplican. Bajar el umbral a $5-10k/mes cambia el cliente: reduce el valor de recobro por seller y empeora pago y retencion, por lo que agranda el mercado a costa de otras dimensiones. Mercado 3-4 plausible, no 5.",
+   "evidencia": [
+    {"afirmacion": "~1.9M vendedores activos de terceros a nivel mundial en 2025; ~82% dependen de FBA (agregadores, sin fuente primaria de Amazon; segun resultados de busqueda, paginas no leidas directamente)", "url": "https://redstagfulfillment.com/how-many-third-party-sellers-are-on-amazon/"},
+    {"afirmacion": "Estadisticas de vendedores Amazon (agregador citado por el defensor)", "url": "https://novadata.io/resources/amazon-seller-statistics"},
+    {"afirmacion": "Sellers FBA con $20k+/mes", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor admite que la defensa es debil, y concedo sus puntos validos: un enfoque unico en auditoria/reclamos, precio fijo bajo que los suites no atienden por su modelo y una base de patrones de rechazo por tipo de reclamo son ventajas posibles, no triviales para un incumbente de suite.",
+   "refuto": "Los datos de patrones de rechazo requieren volumen de clientes que aun no existe, y el texto de reclamo se genera gratis con IA general. Helium 10 ya tiene Managed Refund Service que cubre entrantes, asi que la copia ya existe en parte. Sin efecto de red ni datos propietarios iniciales, defensa baja.",
+   "evidencia": [
+    {"afirmacion": "Helium 10 ya ofrece Managed Refund Service que cubre reclamos de entrantes (resena)", "url": "https://revenuegeeks.com/helium-10-managed-refund-service/"},
+    {"afirmacion": "Otras herramientas ya usan SP-API para reembolsos, barrera tecnica baja", "url": "https://www.shulex.com/blog/amazon-reimbursement-software"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El defensor tiene razon en dos cosas que reconozco: un MVP por carga de CSV sin SP-API es viable en <=6 semanas para el perfil de Juan, y SP-API puede dejarse a una segunda fase. Eso reduce mi objecion de aprobacion de Amazon al MVP.",
+   "refuto": "La dependencia de SP-API sigue siendo riesgo para el producto completo: sin sincronizacion automatica, el CSV manual compite mal contra Refund Genie/gestionados, que son automaticos. El defensor no aporta evidencia de que los reportes exportables cubran la deteccion de discrepancias entrantes (su evidencia es 'sin verificar'), y Juan no tiene conocimiento del dominio FBA ni de reglas de reclamo cambiantes.",
+   "evidencia": [
+    {"afirmacion": "Exportacion de reportes de Seller Central para MVP con CSV", "url": "sin verificar"},
+    {"afirmacion": "Tiempo de aprobacion de SP-API", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "Mercado: con ~1.9M vendedores activos y ~82% en FBA (agregadores, calculo mio ~1.5M), superar 100k compradores posibles es plausible; mi duda de F6 se debilita mucho. Tambien concedo que Refund Genie no cubre discrepancias entrantes y que un MVP por CSV es viable.",
+ "punto_que_sigue_en_pie": "La cuña es debil y copiable: Helium 10 tiene un Managed Refund Service que cubre entrantes (Platinum/Diamond, segun resena) y los servicios por comision cubren el mismo caso; el canal SEO/Reddit esta ocupado, sin volumen verificado, y la retencion tras el backlog inicial y la defensa frente a copias son pobres.",
+ "busquedas_usadas": 2
+}

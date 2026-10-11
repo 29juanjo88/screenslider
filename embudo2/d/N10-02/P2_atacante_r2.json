@@ -1,0 +1,130 @@
+{
+ "id": "N10-02",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "Concedo que el defensor admite que no es dolor semanal agudo y que la compra de CMP es obligatoria por regulación; también que el alza de Cookiebot y el costo lineal por dominio son quejas reales para agencias con muchos sitios.",
+   "refuto": "El defensor no aporta medida de demanda: la cifra del alza de Cookiebot sigue viniendo de reseñas/blogs de competidores y no prueba que las agencias cambien de proveedor. Urgencia de tener CMP no equivale a urgencia de cambiar a FlatConsent.",
+   "evidencia": [
+    {
+     "afirmacion": "Alza de Cookiebot solo respaldada por reseñas (cifra exacta sin verificar)",
+     "url": "https://uk.trustpilot.com/review/cookiebot.com"
+    },
+    {
+     "afirmacion": "BuiltWith: CookieYes ganó 4,251 sitios de Cookiebot y perdió 2,616; el cambio ocurre pero no es masivo (cita del defensor)",
+     "url": "https://trends.builtwith.com/widgets/CookieYes/Market-Share"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo que la categoría ya cobra por dominio y que un plano frente a N x $10-55 es un ahorro cuantificable para agencias; también concedo que el pago real está en agencias, no en freelancers pequeños.",
+   "refuto": "El propio defensor reconoce que freelancers con 1-3 sitios esperan gratis y que el precio plano de la cuña implica cientos de clientes a $19 (10k MRR ~530). Subir a $49-99 reduce el segmento a miles de agencias, sin cifra verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "CookieYes: gratis 1 dominio/5,000 pageviews; planes por dominio",
+     "url": "https://www.cookieyes.com/pricing/"
+    },
+    {
+     "afirmacion": "Tamaño de segmento de agencias multi-dominio dispuestas a pagar",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que ninguna alternativa hallada es literalmente 'ilimitada a $19, multi-cliente, sin límite de pageviews, fuera de WordPress'; el defensor ya reconoce que la cuña amplia está ocupada y la reformula a agencias con 20+ dominios, lo cual es honesto. Concedo también que el 'Complianz ilimitado en WordPress' de mi ronda 1 no está confirmado: el propio defensor lista Agency en 25 sitios.",
+   "refuto": "La reformulación (panel multi-cliente, white-label, auditoría masiva) es otra cuña distinta a la de la idea original y no está demostrada como mal atendida: Complianz Agency (25 sitios) y Enzuzo ya cubren multi-dominio. Además la afirmación del defensor de Cookiez a $444/año con sitios ilimitados no se sostiene: mi búsqueda solo halló precios de $29-49/año por sitio en el blog de Elementor, con fuentes contradictorias y sin precio oficial de sitios ilimitados; queda sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Elementor Cookiez: fuentes del blog de Elementor dan $29-49/año por sitio y no confirman $444 ilimitado; sin verificar en página oficial",
+     "url": "https://elementor.com/blog/?p=152119"
+    },
+    {
+     "afirmacion": "Complianz Agency 25 sitios $399/año; Personal 59, Professional 179 (cita del defensor)",
+     "url": "https://complianz.io/complianz-pricing-faqs/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que WordPress.org, Shopify y SEO son canales reales con intención de compra y que el defensor reconoce la saturación del SEO 'alternative'.",
+   "refuto": "'CAC bajo si el plugin gratis atrae por búsqueda' es una hipótesis sin evidencia: el defensor mismo dice que el CAC real es sin verificar y que el directorio está dominado por plugins con cientos de miles de instalaciones. Un plugin gratis sin reseñas no compite en ese ranking.",
+   "evidencia": [
+    {
+     "afirmacion": "SEO 'cookiebot alternative' ocupado por blogs de rivales",
+     "url": "https://enzuzo.com/blog/cookiebot-pricing"
+    },
+    {
+     "afirmacion": "CAC real",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que el cambio de CMP en docenas de sitios de clientes tiene costo real y que una agencia integrada con panel y white-label sería más pegajosa; mi argumento de 'copy-paste de script' era exagerado para agencias grandes.",
+   "refuto": "El defensor admite no tener datos de churn y que cancelan cuando se vende el sitio. Los datos de BuiltWith muestran que el cambio entre CMP ocurre en miles de sitios, y el cliente cuña llega justamente por sensibilidad a precio.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de CMP",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "BuiltWith: flujo de sitios entre CookieYes y Cookiebot",
+     "url": "https://trends.builtwith.com/widgets/CookieYes/Market-Share"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Concedo que el universo de sitios con CMP supera con holgura 100k (CookieYes solo ~466k sitios en BuiltWith) y que el defensor admite que son sitios, no compradores. El mercado total sí es grande, y mi sospecha de F6 no tiene fuente.",
+   "refuto": "Sitios con CookieYes no son compradores de la cuña; el subconjunto de agencias/freelancers con 5+ o 20+ dominios no tiene cifra, y 'cientos de miles plausible' es sin verificar. Una parte grande usa plan gratis. La carga de la prueba del umbral de 100k queda sin cumplir para la cuña estrecha.",
+   "evidencia": [
+    {
+     "afirmacion": "BuiltWith: CookieYes 466,068 sitios vivos en una instantánea",
+     "url": "https://trends.builtwith.com/widgets/CookieYes"
+    },
+    {
+     "afirmacion": "Agencias/freelancers con 5+ dominios",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que el defensor reconoce la defensa como débil y propone barreras plausibles (foco en agencias, white-label, costos de cambio por dominio instalado). La inferencia de no canibalización de los incumbentes es razonable en teoría.",
+   "refuto": "Esa inferencia es sin verificar, y los incumbentes ya tienen tiers multi-sitio (Complianz Agency, Enzuzo), así que no necesitan canibalizar nada para extenderlos. White-label y panel son funciones copiables.",
+   "evidencia": [
+    {
+     "afirmacion": "Bundles planos ya existen",
+     "url": "https://complianz.io/complianz-pricing-faqs/"
+    },
+    {
+     "afirmacion": "Incentivo de no canibalización",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que el MVP técnico (script, bloqueo, Consent Mode v2, plugin WP, panel) es factible con el stack de Juan en 6-8 semanas, y que un MVP solo con Consent Mode v2 es viable.",
+   "refuto": "El defensor admite que los requisitos de certificación Google CMP, mantenimiento legal por jurisdicción y soporte a agencias son carga real; sin TCF/certificación se limita a sitios sin publicidad, y Complianz ya fija TCF como estándar esperado. Costo y criterios oficiales de certificación: sin verificar por ambas partes.",
+   "evidencia": [
+    {
+     "afirmacion": "Complianz incluye Consent Mode v2 y TCF en todos los tiers",
+     "url": "https://complianz.io/complianz-pricing-faqs/"
+    },
+    {
+     "afirmacion": "Requisitos de certificación Google CMP",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El mercado total de sitios con CMP supera con holgura 100k (CookieYes ~466k sitios en BuiltWith), la categoría ya cobra por dominio y el MVP es técnicamente factible; no puedo sostener que F6 se incumpla sin una fuente.",
+ "punto_que_sigue_en_pie": "La cuña de precio plano multi-dominio está ocupada y es copiable (Complianz Agency, Enzuzo), la cuña reformulada a agencias 20+ no tiene tamaño ni demanda de cambio verificados, y el defensor mismo concluye 'moderado, no alto'; además la afirmación Cookiez $444 ilimitado no se pudo verificar.",
+ "busquedas_usadas": 1
+}

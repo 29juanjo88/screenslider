@@ -1,0 +1,82 @@
+{
+ "id": "N10-01",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Es dolor de riesgo/cumplimiento, no de pérdida semanal; el enforcement es por queja y las cifras de multas son contradictorias; la exención de microempresas recorta a los dueños pequeños; el cliente puede actuar una vez y olvidarse.",
+   "refuto": "No es cierto que no lo busque: existen al menos 7-9 apps con claims EAA lanzadas en 2026, lo que muestra demanda que los vendors perciben. Tiendas medianas fuera de la exención y agencias con varios clientes sí tienen exposición legal real y fecha vigente. El atacante no aporta evidencia de que el dolor sea nulo, solo de que es episódico, algo que yo ya había admitido.",
+   "evidencia": [
+    {"afirmacion": "EAA es ley en Irlanda desde 28-jun-2025", "url": "https://www.ccpc.ie/business/european-accessibility-act-becomes-law-in-ireland-on-28-june-2025/"},
+    {"afirmacion": "Exención microempresa (<10 personas y <=2M EUR), fuente de vendor", "url": "https://accessible.org/does-eaa-apply-shopify-stores/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Hay apps con plan gratis y de pago de $4.99-$10/mes (AccessKit, Accessify AI, shoplab); el ancla de precio a $29 es débil; llegar a US$10k MRR a $29 exige ~345 pagadores (cálculo correcto); HewnScan es muy reciente y sin demanda verificada.",
+   "refuto": "Esos $4.99-$10 son escáneres/alertas, no remediación por tema: verifiqué que AccessKit Pro a $4.99 ofrece escaneo, declaración EAA alojada y solo arreglo automático de alt text. Hay precios de $29 (HewnScan Pro) y $39 (Accessibility Way) coexistiendo, y overlays desde $59, así que el rango de pago existe. Pero no tengo evidencia de que el $29 convierta; sigue sin verificar.",
+   "evidencia": [
+    {"afirmacion": "AccessKit: Free con escaneos ilimitados y 25 arreglos de alt text; Pro $4.99/mes con declaración EAA alojada, historial y alt text ilimitado", "url": "https://apps.shopify.com/accesskit"},
+    {"afirmacion": "Accessibility Way desde $39/mes (dato del atacante, no re-verificado por mí)", "url": "https://apps.shopify.com/accessibilityway"},
+    {"afirmacion": "accessiBe desde $59/mes en Shopify (sin re-verificar)", "url": "https://apps.shopify.com/accesswidget"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "F1 parcial es un riesgo real: hay escáneres WCAG/EAA gratis en Shopify App Store (AccessKit, Accessify AI, HewnScan). Tampoco verifiqué herramientas gratuitas generales como axe DevTools o Lighthouse, que cubren detección.",
+   "refuto": "El atacante afirma que AccessKit ofrece la misma cuña (arreglar el markup real del tema). La ficha dice lo contrario: es principalmente escaneo, marca problemas para que el dueño o su desarrollador los arregle, y el único arreglo automático listado es el alt text de imágenes de producto. Entonces lo gratis cubre detección, no la lista priorizada de arreglos por plantilla; esa parte de la cuña sigue sin ocupar, al menos según esa ficha. Falta comprobar Accessify AI y HewnScan en ese punto.",
+   "evidencia": [
+    {"afirmacion": "AccessKit: 'mostly scan', flaggea markup para dueño/desarrollador; único arreglo automático es alt text", "url": "https://apps.shopify.com/accesskit"},
+    {"afirmacion": "Shopify no trae accesibilidad nativa según roundup de terceros (citado por el atacante)", "url": "https://meetanshi.com/blog/best-shopify-apps-for-accessibility/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El canal está saturado (7-9 apps con claims EAA), el SEO de 'EAA compliance checklist' está dominado por blogs de vendors con presupuesto, un listing nuevo sin reseñas parte desventajado y Shopify controla ranking y comisión. WordPress.org sigue sin verificar.",
+   "refuto": "Saturación con listings de 0 reseñas implica que nadie tiene ventaja de reseñas todavía: AccessKit, lanzado el 28-jul-2026, tiene 0 reseñas. La barrera de entrada es baja para todos, también para mí; no es un mercado cerrado por incumbentes con reseñas acumuladas. Dicho esto, no es evidencia de que yo gane el ranking.",
+   "evidencia": [
+    {"afirmacion": "AccessKit lanzada 28-jul-2026 con 0 reseñas y 0.0 de rating", "url": "https://apps.shopify.com/accesskit"},
+    {"afirmacion": "Scanify con listing sin reseñas", "url": "https://apps.shopify.com/scanify-accessibility-scan"}
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "La retención es estructuralmente débil: arreglar el tema una vez y cancelar es un patrón probable. No tengo datos de churn y el valor del reporte de evidencia puede ser un entregable de una sola vez. El plan agencia multi-tienda como retención es hipótesis.",
+   "refuto": "No es cierto que todo el valor sea único: la obligación EAA es continua y los temas, apps y contenido cambian, lo que genera regresiones. AccessKit mismo vende historial de escaneos y declaración alojada como suscripción, señal de que el mercado ya empaqueta recurrencia. Aun así, eso no prueba que se pague.",
+   "evidencia": [
+    {"afirmacion": "AccessKit Pro incluye historial de escaneos y declaración EAA alojada como parte de la suscripción", "url": "https://apps.shopify.com/accesskit"},
+    {"afirmacion": "La obligación EAA es continua para tiendas en alcance", "url": "https://www.fudge.ai/blog/european-accessibility-act-shopify/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "La fracción de tiendas con ventas UE, fuera de la exención y dispuestas a pagar $29 no está verificada; el puntaje 4 de etapa C carece de respaldo directo; las fuentes de conteo son blogs que citan a Store Leads; la ventana regulatoria es más fuerte en 2025-2027.",
+   "refuto": "El atacante admite que F6 probablemente se cumple en sentido amplio. Con ~2.9M tiendas Shopify y ~4.5M WooCommerce, alcanzar 100k compradores posibles exige ~1.4% del total; es plausible, pero sigo sin fuente para esa fracción. La normalización posterior a 2027 es especulación sin evidencia del atacante, y la obligación es permanente.",
+   "evidencia": [
+    {"afirmacion": "~4.53M tiendas WooCommerce vivas (Store Leads, Q3 2025), vía blog", "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"},
+    {"afirmacion": "~2.9M tiendas Shopify vivas (Store Leads, Q2 2026), vía blog", "url": "https://www.webtonic.io/blog/e-commerce-shopify-statistics"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Casi nula, como ya dije: un escáner con lista de arreglos es replicable en semanas, HewnScan y AccessKit aparecieron en julio de 2026, Shopify o incumbentes podrían añadir funciones y un LLM puede sugerir parches (sin verificar). No hay datos propietarios ni efectos de red fuertes.",
+   "refuto": "Solo matizo: la velocidad de copia se ha demostrado para escaneo, no para una biblioteca curada de arreglos por tema, que exige trabajo manual y acumulativo. AccessKit, por ejemplo, no la tiene. Es un foso pequeño y no probado, no un argumento fuerte.",
+   "evidencia": [
+    {"afirmacion": "AccessKit (28-jul-2026) solo automatiza alt text, no arreglos por tema", "url": "https://apps.shopify.com/accesskit"},
+    {"afirmacion": "HewnScan lanzada 21-jul-2026 con Pro $29 (dato del atacante)", "url": "https://pickyourapp.com/collections/store-design-site-optimization/products/hewnscan"}
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Un escáner fiable de WCAG 2.2 y el mapeo por tema Shopify/WooCommerce son más trabajo que un MVP simple; Juan no tiene experiencia en accesibilidad ni reputación; el riesgo de responsabilidad si el reporte se usa como evidencia es real; reseñas y confianza no son código. El MVP en 6-8 semanas es mi estimación, no un dato verificado.",
+   "refuto": "No hace falta construir un motor propio de render si se usa axe-core (licencia sin verificar aquí) sobre páginas clave; la infraestructura es barata y operable por una persona. El atacante concede que el MVP es plausible en 6-8 semanas.",
+   "evidencia": [
+    {"afirmacion": "Los escáneres existentes se declaran no certificación legal (mitiga responsabilidad con disclaimer similar)", "url": "https://pickyourapp.com/collections/store-design-site-optimization/products/hewnscan"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La defensa frente a copias es casi nula y el espacio ya está poblado de escáneres gratis o de $5-$29; llegar a US$10k MRR a $29 exige ~345 pagadores sin evidencia de que la cuña de arreglos por tema convierta ni retenga.",
+ "punto_que_sigue_en_pie": "La cuña de lista priorizada de arreglos de código por plantilla no parece ocupada: AccessKit (que el atacante citó como misma cuña) es principalmente escaneo con arreglo automático solo de alt text. Sumado a la obligación EAA vigente y a un mercado de millones de tiendas, hay un hueco real aunque no probado.",
+ "busquedas_usadas": 1
+}

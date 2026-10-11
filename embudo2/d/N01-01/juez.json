@@ -1,0 +1,45 @@
+{
+ "id": "N01-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 4,
+  "canal": 3,
+  "mercado": 3,
+  "cuna": 2,
+  "ejecucion": 3
+ },
+ "total": 36,
+ "hecho_decisivo": "ChargePay ya vende en Shopify App Store cuota fija sin comisión desde US$19.99/mes (tiers 19.99/39.99/79.99/99.99), por lo que la cuña de precio fijo no es exclusiva y es más barata en la entrada (https://apps.shopify.com/chargepay). Ambos pares lo concedieron.",
+ "condicion": "Confirmar con entrevistas/ensayo que existe una cuña distinta a la cuota fija (evidencia por reason code, multiplataforma Stripe/Woo/PayPal) por la que comerciantes con 5-100 disputas/mes pagarían US$39 en vez de ChargePay, Smart Disputes o éxito-fee; y que ese segmento supera ~250k compradores.",
+ "experimento_mas_barato": "Landing + lista de espera con 'evidencia por reason code, multiplataforma, US$39 fijo' dirigida a r/shopify, Shopify Community y búsqueda 'chargeback' (pocos US$ de ads o posts orgánicos), más 15 entrevistas con comerciantes de 5-100 disputas/mes comparando contra ChargePay. Umbral: >=40 registros con email en 3 semanas y >=5 que prepaguen/reserven con tarjeta a US$39; si no, matar.",
+ "dimensiones": {
+  "dolor": "Dolor monetario real (tarifa Shopify US$15 por disputa, reembolsable solo si se gana) pero episódico; ambos pares coinciden en que es recurrente solo para 5-100 disputas/mes y la fracción de tiendas en ese rango es sin verificar.",
+  "pago": "Hay presupuesto demostrado (20-25% de lo recuperado, planes fijos US$20-100), pero la norma es pago por éxito y con pocas disputas el % sale más barato que US$39 fijos (punto de equilibrio ~US$156 recuperados/mes).",
+  "alternativas_actuales": "Chargeflow, Disputifier, Chargebacks911, ChargePay (fijo), más evidencia automática de Shopify Payments y Stripe Smart Disputes gratis para parte de los casos.",
+  "canal_y_cac": "Shopify App Store con intención de compra ('chargeback') y comunidades es un canal nombrado, pero está poblado y no hay cifras de CAC; dependencia de plataforma como riesgo.",
+  "retencion": "Sin verificar; el uso depende del volumen de disputas y cambia de proveedor con facilidad; ningún par aportó datos de churn.",
+  "mercado": "Millones de tiendas, pero el comprador real (5-100 disputas/mes) es un subconjunto sin cuantificar; ambos pares aceptan que F6 probablemente no aplica, estimado 250-700k sin verificar.",
+  "defensa_frente_a_copias": "Casi nula: ambos defensores lo admiten; no hay foso de datos ni efecto de red y la integración es replicable.",
+  "ejecucion_una_persona_tiempo_parcial": "Factible para un conector (API de disputas de Shopify permite enviar evidencia, concedido en P2), pero multiplataforma y revisión de la app exceden un MVP de 6 semanas."
+ },
+ "resumen_P1": "El atacante mostró que la cuña de cuota fija ya está ocupada por ChargePay y que Shopify/Stripe automatizan evidencia; el defensor sostuvo dolor monetario recurrente con presupuesto existente y una cuña alternativa (reason code, multiplataforma) aún no probada ni refutada. Ambos concedieron foso casi nulo y mercado >=100k no verificado.",
+ "resumen_P2": "El atacante concedió viabilidad técnica (disputeEvidenceUpdate) y universo >100k, pero insistió en que ChargePay ocupa la cuña y en que el pago por éxito es la norma; el defensor concedió que la cuña de cuota fija está ocupada y sin defensa, y sostuvo que F1 no se probó para la cuña de reason code multiplataforma.",
+ "razonamiento": "Los dos pares convergen: el dolor y el presupuesto existen, pero la cuña declarada (cuota fija) ya la ocupa ChargePay a menor precio de entrada, lo que verifiqué en la ficha de Shopify App Store. No cae en F1 de forma clara porque la cuña alternativa no está demostrada como cubierta, así que no se descarta. Sin embargo, es poco probable llegar a US$10-50k MRR con un clon sin foso en un canal poblado y con automatización gratuita parcial de Shopify y Stripe. Mercado y retención son hipótesis sin verificar. Por eso se deja condicional a una cuña verificable, con probabilidad baja.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "ChargePay vende cuota fija sin comisión desde US$19.99/mes en Shopify",
+   "url": "https://apps.shopify.com/chargepay"
+  },
+  {
+   "afirmacion": "Shopify cobra US$15 por disputa con Shopify Payments (EE. UU.), fuente de vendor",
+   "url": "https://www.chargeback.io/es/blog/whats-the-shopify-chargeback-fee"
+  },
+  {
+   "afirmacion": "Stripe Smart Disputes envía paquete de evidencia pre-llenado, con elegibilidad limitada",
+   "url": "https://edge-docs.stripe.com/disputes/smart-disputes"
+  }
+ ],
+ "busquedas_usadas": 1
+}

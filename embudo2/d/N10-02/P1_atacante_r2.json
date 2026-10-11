@@ -1,0 +1,84 @@
+{
+ "id": "N10-02",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que existe un disparador externo real: el alza de Cookiebot (reseña Trustpilot) y el requisito de Consent Mode v2 con CMP certificado para Google Ads en Europa generan picos de búsqueda de alternativa. También concedo que para agencias con muchos dominios el costo por dominio se multiplica. Ambos admitimos que ambos datos vienen de reseñas y blogs de vendors.",
+   "refuto": "No hay evidencia de frecuencia ni de pérdida recurrente: el propio defensor admite que es de 'resolver una vez y olvidar'. Un dolor de picos esporádicos no equivale a 'lo busca cada semana'. Consent Mode v2 afecta a quien usa Google Ads/audiencias, no a todo freelancer, y la fuente es un vendor, no Google.",
+   "evidencia": [
+    {"afirmacion": "Alza de Cookiebot ~EUR15 a ~EUR30 por dominio (reseña, sin verificar en sitio oficial)", "url": "https://uk.trustpilot.com/review/cookiebot.com"},
+    {"afirmacion": "Cookiebot aparece con precios por dominio, y un listado reporta Premium Small $16/mes para 4+ dominios (resumen de búsqueda, sin verificar en la página)", "url": "https://www.cookiebot.com/us/pricing-cb"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo que la disposición de pago está demostrada (CookieYes, Cookiebot cobran por dominio) y que una agencia con 20 dominios pagando por dominio hoy gasta cientos de dólares, de modo que un plano de $49-99 sería ahorro tangible en teoría. Concedo también que el defensor reencuadra correctamente hacia agencias, no sitios únicos.",
+   "refuto": "El ahorro frente a 'por dominio' es irrelevante si la agencia ya compra planes planos: Complianz Agency $399/año por 25 sitios (~$33/mes, verificado en búsqueda), ConsentPixel $199/año ilimitado en WordPress y Secure Privacy sin tope de dominios desde $15/mes (resúmenes de búsqueda, páginas de vendor). A $49-99 el producto sería más caro que varias alternativas planas, no más barato.",
+   "evidencia": [
+    {"afirmacion": "Complianz Agency $399/año por 25 sitios (otros precios $359 y $239 parecen antiguos o promocionales)", "url": "https://complianz.io/pricing/"},
+    {"afirmacion": "Secure Privacy: sin tope de dominios en planes de pago desde $15/mes, white-label desde plan Small (según resumen de búsqueda; sin verificar en página oficial)", "url": "https://secureprivacy.ai/blog/how-agencies-manage-consent-for-multiple-clients-with-secure-privacy"},
+    {"afirmacion": "ConsentPixel: Agency Lite $99.99/mes (10) y plan ilimitado $199/año, solo WordPress (resumen de búsqueda, sin verificar)", "url": "https://consentpixel.com/blogs/cookieyes-alternatives/"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que mi ronda 1 sobreafirmó un punto: Complianz NO es ilimitado, tiene tope de 25 sitios en la licencia Agency (corrección que el defensor sí arrastró mal al decir 'ilimitado en WordPress'; la corrección va a favor de la verdad, no de mi tesis). Concedo también que CookieYes y Cookiebot siguen cobrando por dominio y que ninguna fuente que vi prueba un plan idéntico exacto de 20+ dominios a $49-99 con white-label verificado en página oficial.",
+   "refuto": "La afirmación central del defensor, 'ninguno está documentado como panel multi-cliente white-label de 20+ dominios', queda refutada por mi búsqueda: Secure Privacy anuncia sin tope de dominios y white-label desde $15/mes; Biscotti CMP lista agencia con sub-cuentas para hasta 25 clientes; Cookie Script se anuncia con dashboard white-label, sub-cuentas y reseller; Concentio ofrece dominios ilimitados por sesiones. Son resúmenes de páginas de vendors y listados, sin verificar en sitios oficiales, pero la carga de la prueba pasa al defensor, que no aportó ninguna fuente de su negativa.",
+   "evidencia": [
+    {"afirmacion": "Secure Privacy documenta gestión de múltiples clientes de agencia", "url": "https://secureprivacy.ai/blog/how-agencies-manage-consent-for-multiple-clients-with-secure-privacy"},
+    {"afirmacion": "Biscotti CMP: agencia con white label y sub-cuentas hasta 25 clientes (listado, precio no dado)", "url": "https://www.getapp.com/all-software/a/biscotti-cmp/"},
+    {"afirmacion": "Ranking de CMP para agencias, escrito por un competidor (Consently), con Cookie Script como mejor para agencias; sesgo declarado", "url": "https://consently.net/blog/best-cmp-for-agencies"},
+    {"afirmacion": "Concentio: todas las funciones en todos los planes, precio por sesiones", "url": "https://www.producthunt.com/p/concentio/concentio-the-cmp-that-gives-you-everything-on-every-plan"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que los canales existen y mueven volumen: plugins de consentimiento con cientos de miles de instalaciones en WordPress y decenas de miles de tiendas Shopify con CookieYes (43,306) y Cookiebot (14,819) según StoreCensus; el CAC en dinero puede ser casi cero y la intención de compra es real. Concedo que el defensor reconoce con honestidad la saturación de SEO.",
+   "refuto": "Esos números prueban lo que mi tesis sostenía: los canales están ocupados por incumbentes con base instalada y reseñas. Volumen del canal no es volumen alcanzable para un recién llegado. Instalaciones no son compradores de pago y no hay ninguna cifra de conversión freemium-pago. Además, el SEO de 'alternativa' y los blogs de rivales (Consently, ConsentPixel, Secure Privacy) compiten justo con términos de agencias.",
+   "evidencia": [
+    {"afirmacion": "StoreCensus: 43,306 tiendas Shopify con CookieYes (estimación de tercero)", "url": "https://www.storecensus.com/stats/app/cookie-law-info"},
+    {"afirmacion": "Competidores publican guías específicas para agencias, ocupando el SEO objetivo", "url": "https://consently.net/blog/best-cmp-for-agencies"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que el defensor tiene un argumento razonable: un CMP instalado es infraestructura, quitarlo implica reconfigurar y el historial de consentimientos y el panel multi-cliente elevan el costo de cambio. Concedo que ambos lados carecemos de datos de churn; mi punto de churn de agencias también es sin verificar.",
+   "refuto": "Costo de cambio bajo-moderado: pegar un script. El propio defensor admite que un rival más barato es 'razón de cambio fácil'. Y con 25 sitios por $399/año de Complianz o planes sin tope, el incentivo de cambio es real. Afirmar 'buena retención' sin datos es especulación.",
+   "evidencia": [
+    {"afirmacion": "Churn de CMPs para agencias: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Concedo con más amplitud que en ronda 1: el mercado total de sitios que necesitan consentimiento supera ampliamente los 100k, y los proxys (733,835 instalaciones de CookieYes en WP según WPoptic; 43k tiendas Shopify) lo respaldan razonablemente. Hasta un banner solo para el segmento grande de sitios hace plausible no fallar F6 en el mercado total. El defensor admite correctamente que instalaciones no son compradores.",
+   "refuto": "Lo que se vende es la cuña (agencias con 20+ dominios a $49-99), no 'cualquier sitio'; el defensor mismo la estima en 'decenas de miles', sin verificar, es decir por debajo de 100k, lo que lo deja justo en F6 si se acepta su ajuste. Y a $19 el precio original exige ~526 pagadores. El defensor no puede defender a la vez el mercado total para F6 y el ajuste estrecho para la cuña.",
+   "evidencia": [
+    {"afirmacion": "CookieYes 733,835 instalaciones WP según WPoptic (vendor dice 1.5M+; fuentes difieren)", "url": "https://wpoptic.com/plugin/cookie-law-info/"},
+    {"afirmacion": "Número de agencias/freelancers con 20+ dominios: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo los matices del defensor: la canibalización de incumbentes por dominio (CookieYes, Cookiebot) es una inferencia razonable, y la certificación Google y el panel multi-cliente elevan algo el costo de copia por parte de recién llegados de bajo esfuerzo. El propio defensor concede que 'no hay foso tecnológico real'.",
+   "refuto": "La canibalización no protege: los que ya ofrecen planes planos o de agencia (Secure Privacy, Complianz, Cookie Script, Biscotti, ConsentPixel) no tienen ese conflicto, y varios ya lo hacen. La certificación Google protege a los certificados (CookieYes, etc.), no al nuevo. El ahorro de panel/white-label ya está empaquetado por rivales según mi búsqueda.",
+   "evidencia": [
+    {"afirmacion": "Varios CMP ya empaquetan white-label y sub-cuentas para agencias", "url": "https://consently.net/blog/best-cmp-for-agencies"},
+    {"afirmacion": "Complianz Agency 25 sitios $399/año", "url": "https://complianz.io/pricing/"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que el stack es el de Juan, que un MVP de 6-8 semanas es plausible, que el costo de infraestructura es casi cero y que sin AdSense la certificación Google es menos urgente para agencias. El defensor también reconoce que el MVP sin certificación debilita la propuesta en Europa.",
+   "refuto": "Para competir con paneles white-label multi-cliente con sub-cuentas, facturación reseller, escaneo, TCF/Consent Mode, plugins WordPress y Shopify con revisiones de plataforma, la carga es mucho mayor que el MVP del banner. La estimación de 6-8 semanas es un 'juicio propio, sin verificar' según el propio defensor, y no cubre soporte continuo ni actualizaciones legales.",
+   "evidencia": [
+    {"afirmacion": "Estimación de MVP 6-8 semanas: juicio propio del defensor, sin verificar", "url": "sin verificar"},
+    {"afirmacion": "Requisitos de CMP certificado de Google para AdSense/Ad Manager en EEA/UK (fuente de vendor)", "url": "https://flexyconsent.com/blog/google-certified-cmp-list-requirements/"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El mercado total de sitios que requieren consentimiento es muy grande y el pago por CMP está demostrado, por lo que no falla F6 en el agregado; el dolor tiene disparadores reales (alza de Cookiebot, Consent Mode v2). También reconozco que me equivoqué en dar a entender que Complianz es ilimitado: tiene tope de 25 sitios.",
+ "punto_que_sigue_en_pie": "La cuña de precio/empaquetado para agencias ya está servida: Complianz 25 sitios por $399/año, Secure Privacy sin tope de dominios con white-label desde $15/mes, Biscotti, Cookie Script, ConsentPixel; la negativa del defensor ('ninguno documentado') no tiene fuente y se contradice con lo hallado (resúmenes de vendors, sin verificar en sitios oficiales). A $49-99 el producto sería más caro que esas opciones y a $19 exige ~526 pagadores.",
+ "busquedas_usadas": 2
+}

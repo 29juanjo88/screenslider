@@ -1,0 +1,57 @@
+{
+ "id": "N01-09",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 3,
+  "mercado": 4,
+  "cuna": 2,
+  "ejecucion": 3
+ },
+ "total": 35,
+ "hecho_decisivo": "AfterShip Returns integra WooCommerce oficialmente (portal de marca, etiquetas 12+ transportistas, desde US$16/mes) y existen RMA oficiales/de pago (WooCommerce US$99, ECOSIRE US$149 único) y ReturnDesk gratis; la cuña 'Woo desatendido' es falsa, solo queda el hueco de un producto Woo-nativo mantenido con etiquetas y crédito. https://www.aftership.com/integrations/woocommerce/returns",
+ "condicion": "Confirmar que tiendas Woo con volumen de devoluciones (moda/calzado) pagan suscripción mensual (>=US$19-29) por un portal Woo-nativo con etiquetas y crédito, y que la integración Woo de AfterShip es deficiente/desactualizada.",
+ "experimento_mas_barato": "Landing + lista de espera con precio US$29/mes anunciada en 15-20 hilos/grupos de comunidades Woo (Facebook, r/woocommerce, Slack) y SEO 'woocommerce returns portal'; umbral: >=40 emails y >=10 prepagos/compromisos de pago mensual en 4 semanas, y >=5 entrevistas con tiendas >50 devoluciones/mes que declaren pagar mensual.",
+ "dimensiones": {
+  "dolor": "Ambos pares coinciden: dolor real solo en tiendas con volumen; para la tienda típica es 'estaría bien' y no hay datos de volumen.",
+  "pago": "Hay precedente de pago (RMA US$99-149, SaaS Shopify US$23-30/mes) pero la cultura Woo es licencia única/anual; US$39/mes choca y bajar a US$19-29 acerca a F5 (350-525 clientes para US$10k).",
+  "alternativas_actuales": "Ambos defensores concedieron que AfterShip integra Woo con etiquetas; además RMA oficial, ECOSIRE, PluginHive y ReturnDesk gratis. Queda un hueco de calidad/mantenimiento, no una cuña estructural.",
+  "canal_y_cac": "WordPress.org y SEO son canales nombrados con intención, pero el directorio está saturado, el freemium canibaliza y no hay datos de CAC ni conversión.",
+  "retencion": "Sin datos de churn; tiendas pequeñas con alta mortalidad y estacionalidad, mitigable parcialmente con precio por volumen y costo de cambio medio.",
+  "mercado": "4.5-6.2M tiendas Woo (fuente de terceros), pero el segmento pagador real con volumen es mucho menor y no cuantificado; F6 probablemente no aplica.",
+  "defensa_frente_a_copias": "Débil: cualquier plugin RMA o AfterShip puede añadir etiquetas/crédito; la ventaja sería solo calidad y foco Woo.",
+  "ejecucion_una_persona_tiempo_parcial": "Juan domina PHP/Laravel pero el mantenimiento por versiones de WP/Woo, integración con carriers y soporte pesan; MVP viable en unas 6-8 semanas."
+ },
+ "resumen_P1": "Atacante: AfterShip Returns desde US$16/mes ya integra Woo y la cultura Woo es pago único, así que la cuña falla. Defensor: concedió casi todo y solo sostiene un hueco de calidad Woo-nativo y precio por volumen.",
+ "resumen_P2": "Atacante: cada pieza (RMA oficial, ECOSIRE, PluginHive, ReturnDesk, AfterShip) existe y solo falta empaquetarla como suscripción, lo que Woo rechaza; US$19-29 lleva a F5. Defensor: concedió AfterShip y el choque de precio, pero sostiene un hueco estrecho Woo-nativo mantenido y que 500 clientes son viables en millones de tiendas.",
+ "razonamiento": "Ambos pares coinciden en lo decisivo: la cuña 'Woo desatendido' es falsa por AfterShip, el RMA oficial y plugins de pago, y el precio mensual choca con la cultura de licencia Woo. El mercado total es grande, por lo que F1 y F6 no se activan de forma clara y no hay veto. Con puntaje 35 (banda media) la idea solo merece validación si hay evidencia de pago mensual en el segmento con volumen. La probabilidad de llegar a US$10-50k MRR es baja por la presión de precio y la saturación del canal. No usé búsquedas porque ambos pares convergieron en los hechos.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "AfterShip Returns integra WooCommerce con etiquetas 12+ transportistas",
+   "url": "https://www.aftership.com/integrations/woocommerce/returns"
+  },
+  {
+   "afirmacion": "AfterShip Returns Essentials desde US$16/mes",
+   "url": "https://www.aftership.com/returns/pricing"
+  },
+  {
+   "afirmacion": "Plugin gratis ReturnDesk en WordPress.org",
+   "url": "https://wordpress.org/plugins/windcodex-returndesk/"
+  },
+  {
+   "afirmacion": "RMA Woo ECOSIRE desde US$149 licencia única",
+   "url": "https://ecosire.com/apps/woocommerce/woo-returns-rma-manager"
+  },
+  {
+   "afirmacion": "Extensión oficial Woo Returns and Warranty listada en US$99 (periodo ambiguo)",
+   "url": "https://www.woocommerce.com/products/warranty-requests/"
+  },
+  {
+   "afirmacion": "Plugins nativos Woo con tarifa plana anual/única vs SaaS por volumen",
+   "url": "https://www.zorem.com/?p=110579"
+  }
+ ],
+ "busquedas_usadas": 0
+}
