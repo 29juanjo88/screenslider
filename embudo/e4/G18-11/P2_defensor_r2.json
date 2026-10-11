@@ -1,0 +1,106 @@
+{
+ "id": "G18-11",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Es cierto que el dolor es esporádico, no semanal; que los tags son solo una parte de la migración (la lógica y AOI no migran 1 a 1); y que un hilo de foro no prueba urgencia.",
+   "refuto": "Que sea la parte fácil no está respaldado: el mapeo de tags a DBs y tipos no es 1 a 1 según la propia guía que cita el atacante, por lo que automatizarlo tiene valor. Mi búsqueda no halló ningún importador nativo de tags Rockwell en TIA Portal, lo que sugiere que sigue siendo trabajo manual.",
+   "evidencia": [
+    {
+     "afirmacion": "Resultado de búsqueda: TIA Portal no importa nativamente tags de CompactLogix; se recomiendan gateways o mensajería explícita, no conversión de archivo",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/compactlogix-tags-to-s7-1500-tia-portal-import-procedure"
+    },
+    {
+     "afirmacion": "Mapeo de tags Logix a Data Blocks no es uno a uno",
+     "url": "https://industrialmonitordirect.com/ro/blogs/knowledgebase/allen-bradley-to-siemens-s7-300-migration-engineering-guide"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "No hay evidencia de disposición de pago ni precio de referencia; Pago 2 de etapa 3 es defendible; el ingeniero puede usar Excel, scripts u Openness; un uso puntual empuja a precio por proyecto.",
+   "refuto": "Que su empresa rara vez apruebe el gasto es una afirmación sin evidencia (el atacante la marca sin verificar). Un pago único de 49-149 USD es inferior al costo de horas de ingeniero y cargable al proyecto, pero es argumento de lógica, no dato.",
+   "evidencia": [
+    {
+     "afirmacion": "Disposición de pago y precios de herramientas equivalentes",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "La alternativa gratis (manual, Excel, scripts, Openness) es real y WinCC TagConverter muestra que Siemens puede cubrir parte. Es plausible que el hueco refleje demanda baja.",
+   "refuto": "Un script propio no es un incumbente gratis y suficientemente bueno en el sentido de F1: es esfuerzo propio, y no se halló producto gratuito dedicado. Mi búsqueda adicional no halló conversor dedicado L5X a TIA; el único cercano (TagConverter) es de tags HMI. Alcance de la búsqueda limitado (1 consulta).",
+   "evidencia": [
+    {
+     "afirmacion": "Búsqueda: no se halló conversor dedicado L5X a TIA Portal; solo opciones parciales",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/compactlogix-tags-to-s7-1500-tia-portal-import-procedure"
+    },
+    {
+     "afirmacion": "WinCC TagConverter cubre tags HMI desde Allen-Bradley",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "Es la dimensión más débil por su peso x3: el volumen de búsqueda y el tráfico de PLCTalk y r/PLC no están verificados, esas comunidades son hostiles a la autopromoción y no hay marketplace con intención de compra. Con LTV puntual el CAC pesa más.",
+   "refuto": "La cifra de 'decenas de búsquedas al mes' del atacante es especulación sin fuente. SEO de cola larga con intención de herramienta (convertir tag list) y respuestas útiles en foros donde ya se discute el problema es un canal nombrado, aunque de volumen incierto.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda y tráfico de comunidades",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Es la objeción central y es cierta: la migración es puntual, 10k MRR con 59 USD exige unos 170 suscriptores simultáneos y el pago por proyecto convierte el negocio en ingresos no recurrentes. Esto empeora el cálculo de objetivo MRR.",
+   "refuto": "Solo parcialmente: integradores que migran varios proyectos al año podrían sostener suscripción, pero es hipótesis sin verificar y requiere ampliar el producto, como admite el atacante.",
+   "evidencia": [
+    {
+     "afirmacion": "Frecuencia de migraciones por integrador",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "El mercado es estrecho y no tengo cifra verificada de compradores; Mercado 2 es razonable.",
+   "refuto": "El atacante tampoco aporta cifra; afirmar que está por debajo de 2.000 compradores es inferencia no medida. Aun así no puedo demostrar lo contrario.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de ingenieros que migran entre Rockwell y Siemens",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Las barreras son bajas: los formatos son documentados, un ingeniero con Python replica el mapeo, y Siemens podría ampliar TagConverter. El conocimiento de Juan no es un foso duradero.",
+   "refuto": "Replicar con calidad exige conocer ambos entornos, y el hueco existente sugiere que pocos lo han hecho; los casos límite y mapeos acumulados sirven como SEO. Argumento moderado.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens ya ofrece TagConverter para tags HMI",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "La validación es un riesgo real: requiere proyectos y licencias de ambos entornos (costo sin verificar), los formatos varían por versión y el soporte y el contenido compiten por el tiempo parcial de Juan.",
+   "refuto": "El atacante reconoce que el MVP técnico es factible en 6 semanas. El procesamiento sin estado y el alcance acotado (solo tags) limitan el soporte; Juan ya conoce ambas plataformas. Costo de licencias sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo de licencias y variación entre versiones",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La retención: el uso es puntual, así que la meta de 10k MRR exige cientos de altas nuevas o ampliar a una suite multi-vendor, y la disposición de pago sigue sin evidencia.",
+ "punto_que_sigue_en_pie": "Hay un hueco real sin conversor dedicado (verificado de nuevo, con alcance limitado), junto con la mayor ventaja técnica de Juan y un MVP factible en 6 semanas.",
+ "busquedas_usadas": 1
+}

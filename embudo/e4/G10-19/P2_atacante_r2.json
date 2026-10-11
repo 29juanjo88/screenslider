@@ -1,0 +1,75 @@
+{
+ "id": "G10-19",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que el vínculo datos de producto-servicio en Salesforce es un dolor reconocido (Siemens Teamcenter SLM en AppExchange, ene 2024) y que la app Field Service nativa no incluye visor 3D. También admite honestamente que la urgencia no está demostrada.",
+   "refuto": "Que Siemens lance un producto de servitización para grandes cuentas no prueba urgencia de pago de un fabricante mediano por un visor CAD en Work Orders. La cifra de Simplus (38%, 2020) es de una consultora y no habla de CAD. Sigue sin haber evidencia de búsquedas o quejas específicas.",
+   "evidencia": [
+    {"afirmacion": "Siemens Teamcenter SLM en AppExchange confirma el dolor general producto-servicio, no el de visor CAD en Work Orders", "url": "https://www.automation.com/en-us/articles/january-2024/siemens-salesforce-servitization-manufacturing"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Salesforce Field Service es de pago, existe presupuesto de AppExchange y RenderDraw/Visual CPQ cobra desde US$25/usuario: hay disposición de pago por visualización en el ecosistema. El precio por org de US$89 es pequeño frente a licencias por usuario.",
+   "refuto": "El precio de US$25/usuario es de Visual CPQ (producto de cotización) en Capterra, no un visor de Work Orders; extrapolarlo es especulativo. El precio por org de US$89-149 sigue sin respaldo, y por org implica ~112 a 560 clientes para la meta, sin evidencia de ese universo.",
+   "evidencia": [
+    {"afirmacion": "Precio verificado solo para Visual CPQ, no para visor de Work Orders", "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Mi búsqueda de réplica no encontró documentación que confirme que RenderDraw cubra Work Orders de Field Service ni un listing/precio actual en AppExchange; solo describe un componente 3D en páginas de registro con conversión CAD vía servidor. El defensor acierta en que el hueco específico de Work Orders no está confirmado como ocupado, y que Dynamics tiene visor nativo solo con GLB/GLTF/OBJ (no es Salesforce).",
+   "refuto": "RenderDraw es Salesforce-nativo, coloca modelos 3D interactivos en páginas de registro mediante configuración de admin y tiene motor de conversión CAD; colocarlo en Work Order/Asset es configuración, no producto nuevo. Esto es el núcleo de la propuesta de Juan. Además el 'hueco' del defensor se apoya en ausencia de resultados, que no prueba ausencia, y adjuntar PDF/imágenes sigue siendo gratis.",
+   "evidencia": [
+    {"afirmacion": "RenderDraw: app Salesforce-native para 3D en páginas de registro con relaciones entre objetos configurables; motor de conversión CAD (guía 2022); cobertura de Field Service Work Orders sin verificar", "url": "https://stackshare.io/stackups/omega-first-software-vs-renderdraw"},
+    {"afirmacion": "Reseña G2 de RenderDraw menciona empoderar técnicos de field service (afirmación general, no documentación de Work Orders)", "url": "https://www.g2.com/products/renderdraw-flexible-3d-rendering-for-salesforce/reviews"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "AppExchange es un marketplace nombrado con intención de búsqueda y sin ventas; la existencia de CareAR, RenderDraw y Teamcenter SLM allí indica que los clientes buscan complementos de este tipo. Ya lo había concedido en ronda 1.",
+   "refuto": "Que existan otras apps no mide el volumen de búsqueda de 'CAD' + 'Field Service', que ambos bandos reconocen sin verificar. El defensor dice 'CAC cercano a cero' sin base, mientras el Security Review y la certificación de socio retrasan el primer cobro. Sin volumen no se sostiene 100 clientes de pago.",
+   "evidencia": [
+    {"afirmacion": "Volumen de búsqueda en AppExchange y costo/plazo del Security Review", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Un componente embebido en Work Orders/Assets con archivos CAD ya vinculados sí genera algún costo de cambio y uso recurrente por técnicos, más de lo que afirmé al hablar de utilidad totalmente pasiva.",
+   "refuto": "El costo de cambio es bajo: los archivos CAD viven en Salesforce Files y otro visor los lee igual. No hay datos propios ni flujo de trabajo; el defensor tampoco aporta datos de churn. Si RenderDraw o Salesforce cubren la función, migrar es trivial.",
+   "evidencia": [
+    {"afirmacion": "Churn de apps AppExchange comparables", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Ambos coincidimos: nicho de miles como mucho, no cien mil. El defensor concede honestamente que no tiene cifra verificada. También es cierto que reutilizar la conversión STEP/DXF fuera de Salesforce ampliaría el mercado, y que la servitización es una tendencia real.",
+   "refuto": "Ese ensanchamiento es otro producto (API de conversión) con su propio canal y competidores, no parte de esta idea. La tendencia de servitización no cuantifica compradores de visor. Para la meta se requieren ~100-560 organizaciones de pago sin dato del universo.",
+   "evidencia": [
+    {"afirmacion": "Número de orgs con Salesforce Field Service que son fabricantes de equipo", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor acierta en que el nicho pequeño desincentiva a los grandes, que el Security Review frena copias casuales y que la conversión CAD propia es una barrera técnica real; ya concedí la ventaja de Juan en CAD.",
+   "refuto": "El defensor mismo reconoce defensa moderada-baja, sin efectos de red ni datos propios. RenderDraw ya está dentro del ecosistema con motor de conversión CAD y puede añadir Work Orders con poco esfuerzo. Que Dynamics tenga visor 3D nativo muestra que Salesforce podría hacer lo mismo (riesgo F1 futuro).",
+   "evidencia": [
+    {"afirmacion": "Dynamics 365 Field Service incluye visor 3D nativo (GLB/GLTF/OBJ), precedente de funcionalidad de plataforma", "url": "https://learn.microsoft.com/en-us/dynamics365/field-service/3d-viewer"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El stack de Juan (JS/TS, React, LWC es JavaScript) y su experiencia CAD encajan, y el visor three.js/glTF más conversión backend es factible en 6-8 semanas; el cuello es el Security Review, como dice el defensor, no el visor.",
+   "refuto": "El propio defensor admite que su estimación es juicio sin fuente. Aprender Apex, packaging, Security Review y límites de gobernador, más conversión STEP/IGES, hacen que el tiempo hasta el primer ingreso a tiempo parcial pueda superar los 6 meses. La dependencia total de Salesforce se mantiene.",
+   "evidencia": [
+    {"afirmacion": "Plazo y requisitos para publicar en AppExchange", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "No hay evidencia verificada de que RenderDraw cubra Work Orders de Field Service ni de su listing/precio actual en AppExchange; el hueco específico puede existir, y hay disposición de pago comparable (US$25/usuario) y un canal AppExchange nombrado sin ventas.",
+ "punto_que_sigue_en_pie": "Sin evidencia de demanda ni volumen de búsqueda, con nicho de miles, precio no respaldado, ~100-560 clientes necesarios, RenderDraw ya Salesforce-nativo con conversión CAD (colocar su visor en Work Orders es configuración) y dependencia total de Salesforce con Security Review que retrasa los ingresos.",
+ "busquedas_usadas": 1
+}

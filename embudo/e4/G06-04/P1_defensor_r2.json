@@ -1,0 +1,78 @@
+{
+ "id": "G06-04",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es pasivo, el reintento nativo de Woo Subscriptions existe y cubre errores reintentables, y muchos fallos (tarjetas canceladas) no se recuperan con dunning. No hay cifra verificada de MRR perdido en tiendas Woo; mi cifra de 20-40% viene de blogs de proveedores.",
+   "refuto": "El nativo está apagado por defecto y es básico (guía de StoreApps, que el propio atacante concede). Que parte de los fallos sea irrecuperable no anula el resto: la pausa, las ofertas de retención y las alertas de tarjeta por vencer atacan causas que el reintento no toca. Pero esto no está cuantificado.",
+   "evidencia": [
+    {"afirmacion": "Reintento nativo desactivado por defecto y limitado", "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"},
+    {"afirmacion": "Lógica nativa básica, conviene herramienta dedicada", "url": "https://www.storeapps.org/reduce-subscription-churn-in-woocommerce/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Mi r1 citó Sublium a $99-199/mes desde AlternativeTo. Mi búsqueda de réplica muestra que Capterra lista Sublium en planes anuales ($199, $299 y $399 al año según el listado) y que su versión Lite cobra 2.9% de comisión sobre ingresos. Así que mi referencia de precio mensual es dudosa y el atacante tiene razón en que el mercado Woo se acostumbra a licencias anuales. A $29/mes (~$348/año) Juan quedaría por encima de la licencia anual de Sublium, no por debajo, como yo sostuve.",
+   "refuto": "Sigue habiendo pago demostrado: existen competidores de pago (Subscriptions Recovery $79/mes según AlternativeTo, Sublium de pago anual). Que se pague por dunning en Woo está probado; lo que se debilita es mi argumento de que $29/mes es un precio de entrada bajo. Juan podría cobrar anual y ajustar precio, pero eso cambia la meta de clientes necesarios y no está validado.",
+   "evidencia": [
+    {"afirmacion": "Sublium en Capterra: planes anuales desde $199/año; fuente de terceros, puede no coincidir con el precio vigente", "url": "https://www.capterra.com/p/10037187/Sublium/"},
+    {"afirmacion": "Sublium Lite en WordPress.org: pay-as-you-go con 2.9% de comisión sobre ingresos", "url": "https://mri.wordpress.org/plugins/sublium-subscriptions-for-woocommerce/"},
+    {"afirmacion": "Subscriptions Recovery $79/mes (sin re-verificar en esta ronda)", "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "El espacio está ocupado: reintento nativo, Subscriptions Recovery, Sublium, Smart Subscriptions de StoreApps, y la mención de otro 'Subscription Churn Saver' (solo según una guía). El atacante añade Smart Subscriptions con una URL que no re-verifiqué. Además Sublium ofrece reintentos configurables (hasta 6), notificaciones de recuperación, alertas de vencimiento de tarjeta y actualizador de tarjeta, según su ficha: eso solapa con mi ángulo de alertas. El ángulo no está definido con nitidez.",
+   "refuto": "No hay F1 firme: nada de lo gratis es suficientemente bueno según el juez de etapa 3, y las funciones avanzadas de Sublium son de su versión Pro. El nativo no cubre pausa ni oferta de retención. Eso deja un hueco parcial, no un clon sin más.",
+   "evidencia": [
+    {"afirmacion": "Sublium: reintentos configurables, notificaciones de recuperación y alertas de vencimiento en Pro (ficha de terceros)", "url": "https://mri.wordpress.org/plugins/sublium-subscriptions-for-woocommerce/"},
+    {"afirmacion": "Smart Subscriptions de StoreApps con reintentos configurables (citado por el atacante, no re-verificado)", "url": "https://www.storeapps.org/product/smart-subscriptions-for-woocommerce/"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "No tengo datos de volumen de búsqueda, conversión freemium ni CAC. WordPress.org favorece a quien ya tiene instalaciones activas y reseñas, y un recién llegado parte en desventaja. Las normas de los grupos de Facebook no las verifiqué; admito que la autopromoción suele estar restringida. Es dependencia de una plataforma.",
+   "refuto": "El atacante tampoco aporta evidencia de que el canal esté cerrado (sus tres afirmaciones están 'sin verificar'). El hecho de que Sublium Lite use WordPress.org como puerta de entrada indica que el directorio funciona como canal de adquisición para este nicho, aunque no prueba que funcione para un entrante.",
+   "evidencia": [
+    {"afirmacion": "Sublium distribuye su versión Lite en el directorio de WordPress.org", "url": "https://mri.wordpress.org/plugins/sublium-subscriptions-for-woocommerce/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Un plugin anti-churn tiene su propio churn: desactivar un plugin es barato, y en tiendas con pocas suscripciones el ROI a $29/mes es difícil de demostrar. Mi argumento de costo de cambio fue demasiado optimista. Ninguno de los dos tiene datos.",
+   "refuto": "En tiendas con volumen de suscripciones el ROI es medible (MRR recuperado) y se puede mostrar en un panel; el segmento objetivo debería ser ese, no las tiendas pequeñas. Es una hipótesis, no un hecho.",
+   "evidencia": [
+    {"afirmacion": "Churn de plugins Woo de pago", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "El único dato es ~48k instalaciones de Woo Subscriptions de una fuente de terceros con fecha poco clara, y el total de tiendas Woo cae según otra fuente. Solo una fracción tiene volumen para pagar. Esto es mercado acotado y no verificado oficialmente.",
+   "refuto": "48k instalaciones está muy por encima del umbral de 2,000 compradores de la rúbrica, y 345 clientes serían ~0.7% (cálculo del propio atacante), alcanzable sobre el papel. El atacante lo concede.",
+   "evidencia": [
+    {"afirmacion": "~48k instalaciones de WooCommerce Subscriptions (tercero, fecha incierta)", "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Casi nula, como ya admití: el código es copiable, Sublium y StoreApps pueden ampliar funciones, Woo podría mejorar el nativo, y no hay datos propietarios al inicio. El 2 de diferenciación de etapa 3 es razonable.",
+   "refuto": "Solo matizo que el foso en plugins de nicho suele ser operativo (soporte, integraciones, reseñas), y que un incumbente grande como FunnelKit (Sublium) no necesariamente prioriza un foco estrecho en pausa y retención. Es especulación sin evidencia, no un argumento fuerte.",
+   "evidencia": [
+    {"afirmacion": "Foso operativo vs. incumbentes", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El soporte de compatibilidad (pasarelas, versiones de WP/Woo/Subscriptions) y la responsabilidad por cobros reales son carga continua que compite con la distribución, que ya es el cuello de botella de Juan. La ventaja industrial no aplica, solo la de PHP y pagos.",
+   "refuto": "El atacante concede que el MVP en 6 semanas es factible. El stack PHP encaja de forma directa, y el MVP puede limitarse a una pasarela (Stripe) para acotar el soporte. No he verificado el tiempo de soporte.",
+   "evidencia": [
+    {"afirmacion": "Hooks de reintento de WooCommerce Subscriptions documentados", "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "Mi referencia de precio de r1 era frágil: Sublium aparece en planes anuales (desde $199/año) con una versión Lite que cobra 2.9% de comisión, no a $99-199/mes. Además su Pro ya incluye alertas de vencimiento y notificaciones de recuperación. Eso debilita 'pago' y 'diferenciación', y deja a $29/mes por encima de la licencia anual del incumbente.",
+ "punto_que_sigue_en_pie": "Hay pago demostrado por dunning en Woo (competidores de pago), el reintento nativo es básico y está apagado por defecto (por lo que no hay F1 firme), existen ~48k instalaciones de Woo Subscriptions (muy por encima de 2,000) y el MVP en 6 semanas con PHP es factible. Los puntos del atacante sobre canal y retención carecen de evidencia propia.",
+ "busquedas_usadas": 1
+}

@@ -1,0 +1,78 @@
+{
+ "id": "G19-01",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Es cierto que el dolor es difuso: no hay encuesta ni quejas que muestren que los ingenieros lo busquen cada semana, y Control Engineering/Control Design confirman que la adopcion de Git/CI es lenta. Mi propio R1 ya admitia dolor realista de 3.",
+   "refuto": "Que la adopcion sea lenta no equivale a ausencia de dolor: los errores se descubren en puesta en marcha y la comunidad B&R ya improvisa analisis estatico en CI con Lizard. El atacante no aporta evidencia de que no exista necesidad, solo de que el segmento es temprano.",
+   "evidencia": [
+    {"afirmacion": "Uso real de analisis estatico de ST en CI en comunidad B&R con herramienta generica", "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"},
+    {"afirmacion": "Adopcion de CI/Git lenta por herramientas de fabricante (argumento del atacante, concedido)", "url": "https://www.controleng.com/how-to-improve-plc-programming-with-git-workflows/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "El atacante tiene razon en un hecho verificado en esta ronda: CODESYS Static Analysis forma parte del bundle Professional Developer Edition (US$660/ano 1 usuario; US$3,300/ano 5 usuarios en tienda US), con demo de 30 dias. Quien ya paga ese bundle tiene analisis estatico incluido. Tambien concedo que no hay precios ni disposicion de pago demostrados para un linter de ST, y que la etapa 3 lo marco igual.",
+   "refuto": "El bundle PDE cubre solo el ecosistema CODESYS y no esta claro si Static Analysis se vende por separado; no se ofrece reporte en PR/CI ni reglas de estilo de equipo (no verificado que lo incluya). Que existan US$660/ano por usuario demuestra presupuesto para herramientas de ingenieria, lo que vuelve plausible $29-49/mes por equipo para quien usa Siemens SCL o PLCopen fuera de CODESYS. Sin embargo, esto es inferencia, no evidencia directa.",
+   "evidencia": [
+    {"afirmacion": "Static Analysis es parte de CODESYS PDE; PDE 1 usuario US$660/ano y 5 usuarios red US$3,300/ano; demo 30 dias; si se vende suelto: sin verificar", "url": "https://us.store.codesys.com/engineering/professional-developer-edition.html"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo la lista completa: iec-checker, iecst, ST-Checker, Lizard, CODESYS Static Analysis y Copia Automation. Para usuarios CODESYS el F1 parcial es real. Copia Automation tiene base instalada en integradores.",
+   "refuto": "Copia es plataforma de Git y revision visual de codigo, no un linter de reglas ST con reporte en PR (no hay evidencia de lo contrario). Sobre SIMATIC AX: la busqueda de esta ronda no hallo documentacion de un linter propio de Siemens; sigue sin verificar, aunque AX es entorno VS Code con CI, o sea terreno donde Siemens podria anadirlo. Las herramientas gratis son CLI/academicas sin pulido, pero eso es argumento de UX, no de capacidad.",
+   "evidencia": [
+    {"afirmacion": "SIMATIC AX es entorno basado en VS Code con ST y CI; no se hallo linter propio documentado (sin verificar)", "url": "https://developer.siemens.com/simatic-ax/overview.html"},
+    {"afirmacion": "Copia Automation vende revision de codigo/Git a integradores (dato del proveedor)", "url": "https://copia.io/resources/leading-systems-integrator-accelerates-code-reviews-and-onboarding-with-copia-automation"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que ningun canal tiene intencion de compra verificada: volumen de busqueda de 'structured text linter' sin verificar, GitHub Marketplace debil para ingenieros de control, y PLCtalk/r/PLC probablemente poco receptivos a promocion (el atacante tampoco lo verifico). El outreach a integradores no puede ser canal principal segun el brief.",
+   "refuto": "El atacante afirma hostilidad de los foros sin evidencia (sin verificar). El contenido tecnico util (guias de reglas PLCopen, ejemplos de CI para ST) no es promocion y puede atraer busqueda de cola larga, y el hilo de B&R muestra publico que discute el tema. Esto sigue siendo hipotesis no probada.",
+   "evidencia": [
+    {"afirmacion": "Comunidad tecnica discute CI y analisis estatico de ST", "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"},
+    {"afirmacion": "Volumen de busqueda y reglas de PLCtalk/r/PLC", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que un linter 'desaparece' en CI, que los proyectos PLC son por obra y que el equipo puede migrar a iec-checker gratis. No hay datos de churn en ningun lado.",
+   "refuto": "El propio atacante admite el punto a favor: con reglas de equipo en el flujo de PR sube el costo de salida. El cancelar-al-terminar-proyecto se mitiga con planes por equipo/OEM que mantienen codigo entre proyectos, aunque es argumento, no dato.",
+   "evidencia": [
+    {"afirmacion": "Churn de herramientas de lint para PLC", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo que el subconjunto relevante (programadores de ST/SCL con Git/CI, presupuesto y formato accesible) es pequeno y sin cifra verificada; con $29-49 hacen falta cientos de equipos para $10k y la etapa 3 puntuo 2. El atacante ademas senala que CODESYS ya tiene la herramienta incluida, lo que recorta mas el segmento.",
+   "refuto": "El segmento no es fijo: Siemens VCI exporta SCL como texto y SIMATIC AX apuesta por ST en VS Code, ampliando quienes pueden usar un linter. Que las herramientas sean raras segun JKU es ambiguo, como admite el atacante. Aun asi, ninguna cifra respalda 'cientos de equipos'.",
+   "evidencia": [
+    {"afirmacion": "TIA Portal V18 VCI exporta SCL como texto", "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-v18-git-version-control-vci-setup-and-diff-limits"},
+    {"afirmacion": "Numero de compradores posibles", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que el codigo es replicable, que iec-checker/iecst ya tienen parsers abiertos, y que CODESYS, Siemens o Copia podrian anadir lint. El conocimiento de dominio no es un foso de producto demostrado.",
+   "refuto": "Una base de reglas curada y mantenida por dialecto (SCL, CODESYS, PLCopen) es trabajo continuo que a un vendor grande no le urge en un nicho pequeno, y los competidores gratis no la mantienen como producto. Es una ventaja de tiempo, no un foso, y lo reconozco.",
+   "evidencia": [
+    {"afirmacion": "iec-checker y iecst implementan parsers abiertos (concedido)", "url": "https://docs.rs/crate/iecst/0.5.0"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que mantener reglas por dialecto y dar soporte a ingenieros industriales sobrecarga a una persona, que TIA Openness exige Windows y licencia TIA (sin verificar), y que Rockwell/TIA cerrados quedan fuera del MVP.",
+   "refuto": "El propio atacante reconoce que un MVP de 6 semanas es factible. Acotar el MVP a PLCopen XML/CODESYS y SCL en texto exportado por VCI evita Openness. El soporte es limitado mientras no haya ventas.",
+   "evidencia": [
+    {"afirmacion": "VCI exporta SCL como texto analizable", "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-v18-git-version-control-vci-setup-and-diff-limits"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "CODESYS Static Analysis viene incluido en el bundle Professional Developer Edition (verificado en tienda CODESYS) y hay herramientas gratis; el segmento CODESYS esta parcialmente servido y la disposicion de pago por un linter de ST sigue sin evidencia.",
+ "punto_que_sigue_en_pie": "No hay linter comercial independiente, enfocado en CI/PR y multi-dialecto (SCL/PLCopen) verificado; el MVP en 6 semanas es factible para Juan y la ventaja de dominio es real, aunque el mercado y el pago son inciertos (banda media, no alta).",
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,118 @@
+{
+ "id": "G18-11",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Concedo que la migración de tags es un paso menor dentro de un proyecto mayor, que es puntual y que el único hilo (MrPLC) trata de código y no de tag lists; no hay frecuencia verificada.",
+   "refuto": "Que sea menor no implica que sea indoloro: el atacante mismo admite que el proceso es manual y con fricción real. Su blog (industrialmonitordirect) habla de comunicación vía gateway, no prueba que la conversión de tags no duela. Rehacer miles de tags a mano con riesgo de error en planta es costoso, pero no lo puedo cuantificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo MrPLC sobre conversión parcial Studio 5000 a TIA: indicio de proceso manual, no prueba de urgencia",
+     "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+    },
+    {
+     "afirmacion": "Frecuencia y urgencia",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo que no hay evidencia de disposición de pago, que 59 USD/mes es incoherente con uso puntual y que alcanzar 10k MRR por proyecto exige muchas conversiones nuevas al mes.",
+   "refuto": "La afirmación de que el fabricante cubre el costo gratis es especulativa: el servicio gratuito citado era para empresas de EE.UU. (2016) y no cubre a clientes globales. El atacante tampoco aporta evidencia de que NO paguen.",
+   "evidencia": [
+    {
+     "afirmacion": "El servicio gratuito de Siemens se anunció para empresas de EE.UU. (artículo de 2016)",
+     "url": "https://www.automationworld.com/home/news/13314939/siemens-nocharge-service-converts-rockwell-controller-code"
+    },
+    {
+     "afirmacion": "Disposición de pago",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo, y mi búsqueda lo confirma, que Siemens anunció en 2016 un servicio sin cargo que convierte código y datos de RSLogix 5/500 y Studio 5000 a TIA Portal para S7-1200/1500. Es un competidor serio y un riesgo F1 parcial que subestimé en ronda 1. También existe WinCC TagConverter.",
+   "refuto": "Los hechos no respaldan que F1 se cumpla: (1) vigencia actual sin verificar, ninguna fuente posterior a ~2019 lo confirma; (2) elegibilidad limitada a empresas de EE.UU., y el mercado de Juan es global; (3) es un servicio con intermediación de Siemens (envío de proyecto, contacto con Modernization Experts), no una herramienta autoservicio, y cubre un flujo de migración completa a S7-1200/1500, no a otros destinos ni solo tags; (4) los clientes con confidencialidad pueden preferir herramienta local en navegador. Aun así, el atacante acierta en que reduce el hueco.",
+   "evidencia": [
+    {
+     "afirmacion": "Servicio sin cargo Rockwell a TIA para S7-1200/1500, empresas de EE.UU., 2016; vigencia actual no confirmada en mis 2 búsquedas",
+     "url": "https://www.automationworld.com/home/news/13314939/siemens-nocharge-service-converts-rockwell-controller-code"
+    },
+    {
+     "afirmacion": "Whitepaper Siemens de conversión de código (Migration Studio), fechado ~2019; vigencia sin verificar",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:b78c8088-f9d2-471c-b9f3-165f9be8bcfe/version:1572621539/code-conversion-white-paper-v3.pdf"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que el volumen de búsqueda es no verificado, que PLCTalk y r/PLC son hostiles a la promoción y que no hay marketplace con intención de compra; el techo del canal es bajo.",
+   "refuto": "Hostil al spam no es lo mismo que cerrado: responder con una herramienta gratuita útil a preguntas reales es práctica aceptada, y el SEO long-tail no depende de la comunidad. El atacante tampoco aporta cifras de volumen.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda y aceptación de comunidades",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo plenamente: es la dimensión más débil. La migración es puntual, una suscripción mensual tendría churn muy alto y solo integradores recurrentes retendrían, sin evidencia de que existan en volumen.",
+   "refuto": "Solo matizo que 'churn cercano al 100%' es una estimación sin fuente; el modelo por proyecto o créditos evita fingir recurrencia, pero entonces la meta de MRR exige reposición constante de clientes.",
+   "evidencia": [
+    {
+     "afirmacion": "Frecuencia de migraciones por integrador",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Concedo que es un nicho dentro de otro, unidireccional, y que no tengo cifra verificada de compradores; el 'por qué ahora' (brownfield en aumento) tampoco tiene evidencia y las cifras de Technavio/Reanin no miden este nicho.",
+   "refuto": "El atacante afirma 'miles como mucho' sin fuente; ambas partes estamos sin datos. La herramienta podría ser bidireccional y ampliarse a otros vendors, lo que agranda el mercado, pero es una proyección, no un hecho.",
+   "evidencia": [
+    {
+     "afirmacion": "Nº de ingenieros o proyectos de migración Rockwell-Siemens",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que un mapeo CSV/XML es replicable, que no hay foso de datos y que Siemens ya tiene herramientas propias (TagConverter y el servicio de conversión), y que cambios de formato entre versiones pueden romper la herramienta.",
+   "refuto": "Replicable no significa replicado: en dos rondas nadie halló una herramienta de terceros dedicada. Un fabricante que gana con cada migración tiene incentivo para convertir hacia su ecosistema, no para hacer herramientas neutras o inversas (Siemens a Rockwell). La ventaja de conocimiento de dominio sigue siendo real aunque no sea un foso.",
+   "evidencia": [
+    {
+     "afirmacion": "Servicio de Siemens y TagConverter como respuesta del fabricante",
+     "url": "https://www.automationworld.com/home/news/13314939/siemens-nocharge-service-converts-rockwell-controller-code"
+    },
+    {
+     "afirmacion": "Incentivo de fabricantes a no ofrecer herramientas inversas",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que el MVP es factible pero el mantenimiento es el riesgo real: múltiples versiones de TIA y Studio 5000, UDT/AOI sin equivalente 1:1, soporte con responsabilidad por errores y dificultad de validar sin proyectos reales ni licencias. También que no resuelve el cuello de botella de distribución.",
+   "refuto": "Lo único que refuto es el tono de imposibilidad: Juan declara experiencia en ambas plataformas y puede construir casos de prueba propios, y un MVP de tags simples (sin AOI) es acotable. El atacante no aporta evidencia de lo contrario.",
+   "evidencia": [
+    {
+     "afirmacion": "Complejidad de mantener formatos y mapear UDT",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Experiencia de Juan en ambas plataformas (brief)",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "Siemens anunció un servicio sin cargo que convierte código y datos de Studio 5000 a TIA Portal (2016, EE.UU.). Esto confirma al atacante que el hueco es menor de lo que dije y que la competencia viene del fabricante; sumado a la retención casi nula y la falta de evidencia de pago, la tesis de negocio recurrente es débil.",
+ "punto_que_sigue_en_pie": "No hay evidencia de que el servicio gratuito siga vigente, es solo para EE.UU. y no es autoservicio; ninguna herramienta de terceros dedicada a tag lists apareció en dos rondas, y el MVP barato con ventaja máxima de Juan se mantiene. Es válido como producto pequeño por proyecto, no como SaaS de 10k MRR.",
+ "busquedas_usadas": 2
+}

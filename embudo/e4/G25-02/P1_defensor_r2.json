@@ -1,0 +1,80 @@
+{
+ "id": "G25-02",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El atacante tiene razón: la evidencia son dos anécdotas (control.com y JLab) y no demuestran urgencia semanal ni búsqueda activa de un producto. Ya lo había admitido en ronda 1.",
+   "refuto": "No es solo un hilo suelto: el caso JLab (~9k diferencias en un L5X) y el pedido en control.com describen el mismo patrón de ediciones en línea sin archivar. Eso es dolor real, aunque episódico (incidente, auditoría, puesta en marcha). Aun así no tengo frecuencia medida y no la invento.",
+   "evidencia": [
+    {"afirmacion": "Hilo JLab: diff de L5X controlador vs respaldo con ~9k diferencias", "url": "https://mailman.jlab.org/pipermail/dsg-hallb_magnets/2023-February/001361.html"},
+    {"afirmacion": "Frecuencia semanal del dolor", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Cierto que precios de VersionDog, AssetCentre y AutoSave siguen sin verificar y que las nativas son gratis. También es cierto que un ingeniero de planta rara vez compra SaaS con tarjeta; el comprador real suele necesitar aprobación.",
+   "refuto": "Que existan productos de pago multi-vendor sí indica presupuesto en el segmento, aunque no su monto. El atacante tampoco aporta evidencia de que no se pague. El ajuste a CLI local de $49-99 por sitio apunta a integradores y OEMs, que sí compran con tarjeta, pero eso es hipótesis sin verificar.",
+   "evidencia": [
+    {"afirmacion": "VersionDog y MDT AutoSave son productos terceros multi-vendor", "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"},
+    {"afirmacion": "Precios de VersionDog/AssetCentre/AutoSave", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Mi búsqueda de ronda 2 debilita mi caso: Rockwell documenta un comando oficial Show Differences (Compare Tool integrado con control de código fuente) en Studio 5000, y existe Copia, que ofrece merge para Studio 5000. El riesgo F1 parcial es mayor de lo que yo presentaba, sobre todo para Rockwell. Ningún resultado mostró una herramienta de diff semántico L5X multi-vendor con reporte de auditoría, pero que mi búsqueda no la encuentre no prueba que no exista.",
+   "refuto": "Que existan comparadores nativos no equivale a que sean suficientes: según fuentes secundarias exigen exportar a L5K, son por vendor y generan ruido. El hueco multi-vendor, semántico, con reporte de auditoría sigue sin tener un producto ligero evidente. La demanda de ese hueco sigue siendo hipótesis.",
+   "evidencia": [
+    {"afirmacion": "Rockwell: comando Show Differences usa el Logix Designer Compare Tool contra la última versión en control de código fuente (requiere proyecto checked out y Compare Tool instalado)", "url": "https://www.rockwellautomation.com/en-be/docs/studio-5000-logix-designer/37-00/contents-ditamap/studio-5000-logix-designer/source-control---show-differences-command.html"},
+    {"afirmacion": "Copia documenta el uso de su Advanced Merge Tool para Studio 5000 y la Compare Tool nativa como alternativa manual", "url": "https://help.copia.io/knowledge/how-to-perform-a-manual-studio-5000-project-merge-if-the-copia-advanced-merge-tool-fails"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Acierta el atacante: no verifiqué volumen de búsqueda ni conversión, PLCTalk y r/PLC penalizan la autopromoción, y a $199 haría falta un número no trivial de clientes en un nicho pequeño. La compra en OT puede pasar por TI o seguridad.",
+   "refuto": "La compra por TI aplica menos a una CLI o GitHub Action local sin subir proyectos, y a precios bajos de integrador. Las búsquedas de cola larga como 'L5X diff' y 'PLC program compare' son un canal nombrado de intención alta, pero su volumen es sin verificar. El canal es plausible, no demostrado.",
+   "evidencia": [
+    {"afirmacion": "Existe contenido que posiciona sobre detección de cambios en PLC", "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-program-change-detection-methods"},
+    {"afirmacion": "Volumen de búsqueda y CAC", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El uso episódico (incidentes, auditorías, fin de proyecto) y el churn por proyecto en integradores son riesgos reales. Ninguno de los dos tenemos datos de retención.",
+   "refuto": "El historial versionado y los reportes de auditoría acumulados crean costo de salida para plantas y OEMs con equipos instalados. Es un argumento lógico, no un dato, y el atacante tampoco lo desmiente con evidencia.",
+   "evidencia": [
+    {"afirmacion": "Datos de churn en herramientas OT", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El tamaño no está verificado y el juez de etapa 3 dio 2/5. Concedo que el mercado autoservicio es pequeño, y que la fuente de IEC 62443 y NIS2 no confirma que exijan respaldo de programas PLC por nombre.",
+   "refuto": "El 2/5 es un juicio interno y no una cifra. El universo de integradores y OEMs con Rockwell o Siemens en el mercado anglosajón probablemente sea de miles, pero sin verificar. El tailwind de gestión de cambios en IEC 62443-2-1 es descriptivo de blog.",
+   "evidencia": [
+    {"afirmacion": "IEC 62443-2-1 incluye gestión de configuración y cambios y backup/recovery (blog)", "url": "https://www.legiscope.com/blog/nis2-ot-industrie-anlagen.html"},
+    {"afirmacion": "Número de compradores posibles", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Los formatos son texto o XML, ya hubo una librería académica, y Rockwell y Siemens ya incluyen comparación nativa; Copia y VersionDog podrían ampliarla. El foso es bajo y no hay efecto de red. Mi evidencia de barrera técnica era sin verificar.",
+   "refuto": "El mantenimiento continuo de parsers entre versiones y el historial acumulado dan alguna fricción, y que un estudiante lo hiciera en 2014 como tesis no implica un producto mantenido. Es un foso de nicho, no un foso fuerte.",
+   "evidencia": [
+    {"afirmacion": "Tesis CVUT con librería Java para comparar L5X", "url": "https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"},
+    {"afirmacion": "Barrera técnica de parsers semánticos", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El atacante acierta en que mantener compatibilidad con versiones de Studio 5000 y TIA Openness, conseguir muestras y licencias, dar soporte y ganar credibilidad en seguridad OT es una carga continua para una persona a tiempo parcial. El juez dio MVP 3/5, no 4.",
+   "refuto": "Un MVP CLI de L5X con diff y reporte es factible en torno a 6 semanas con la experiencia de Juan en PLC y Node/TS. El alcance inicial puede limitarse a L5X de Rockwell y dejar TIA Openness para después. La credibilidad OT mejora con una herramienta local, que no sube proyectos.",
+   "evidencia": [
+    {"afirmacion": "Esfuerzo de mantener compatibilidad entre versiones", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "Rockwell ya ofrece Show Differences integrado con control de código fuente y existe Copia para Studio 5000, así que el riesgo F1 parcial es mayor para el lado Rockwell. Además la demanda, los precios y el volumen de búsqueda siguen sin verificar y el mercado es pequeño y episódico.",
+ "punto_que_sigue_en_pie": "No encontré, en mi búsqueda ni en la de ronda 1, un producto ligero de diff semántico multi-vendor con reporte de auditoría, local y a precio de integrador. El dolor documentado y la ventaja de Juan (5/5) apoyan un nicho viable, pero reducido.",
+ "busquedas_usadas": 1
+}

@@ -1,0 +1,85 @@
+{
+ "id": "G19-01",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Cierto: no hay evidencia de busqueda activa ni medicion de frecuencia/costo; el hilo de B&R usa Lizard (generico, C/C++) y es anecdotico. Tambien es cierto que solo ST/IL son lintables como texto y ladder/FBD queda fuera.",
+   "refuto": "El uso de Lizard y de Jenkins+TwinCAT por la comunidad muestra que quien usa ST con CI improvisa su propia solucion, senal de dolor en el subconjunto relevante; el atacante no aporta evidencia de ausencia de dolor, solo de ausencia de medicion.",
+   "evidencia": [
+    {"afirmacion": "Comunidad B&R integra analisis estatico de ST en CI con herramienta generica", "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"},
+    {"afirmacion": "Proyecto comunitario ejecuta analisis estatico TwinCAT desde Jenkins", "url": "https://github.com/Beluk/TcStaticAnalysisLoader"},
+    {"afirmacion": "Frecuencia y costo del dolor", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Cierto: no hay evidencia directa de que equipos paguen un linter independiente; el calculo de ~350 pagadores para 10k MRR a 29 USD es correcto; iec-checker/iecst anclan un piso gratis para quien usa Git.",
+   "refuto": "Afirmar que los complementos se perciben como gratis contradice que CODESYS cobra Static Analysis dentro de Professional Developer Edition (3,300 USD/ano, 5 usuarios) y STweep a 99.99 USD, y Beckhoff cobra TE1200: hay gasto real en el tema. Falta probar que se traslada a un producto independiente.",
+   "evidencia": [
+    {"afirmacion": "CODESYS PDE (con Static Analysis) 3,300 USD/ano 5 usuarios; STweep 99.99 USD", "url": "https://store.codesys.com/codesys-static-analysis.html"},
+    {"afirmacion": "Beckhoff TE1200 es producto comercial", "url": "https://www.beckhoff.com/en-au/products/automation/twincat/texxxx-twincat-3-engineering/te1200.html"},
+    {"afirmacion": "Disposicion de pago por linter independiente", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "El atacante tiene razon y es un hallazgo importante: CODESYS Static Analysis existe con mas de 100 reglas y PLCopen Coding Guidelines, tambien en Schneider Machine Expert y ABB. Esto debilita mi argumento de ronda 1 de que no hay incumbente en CODESYS/PLCopen y mi ajuste a ese ecosistema; es un riesgo F1 parcial (nativo de plataforma, aunque de pago).",
+   "refuto": "No es gratis (F1 exige gratis y suficientemente bueno): va en una edicion de 3,300 USD/ano atada al IDE. El propio atacante admite que no verifico ejecucion en CI con reporte en PR. Mi busqueda para verificarlo no hallo documentacion de CLI/CI de Static Analysis (solo scripting generico del compilador), asi que el hueco sigue sin verificar en ambos sentidos. Tampoco verifico SIMATIC AX.",
+   "evidencia": [
+    {"afirmacion": "CODESYS Static Analysis: mas de 100 reglas, PLCopen Coding Guidelines (concedido)", "url": "https://content.helpme-codesys.com/en/CODESYS%20Static%20Analysis/_san_overview.html"},
+    {"afirmacion": "Busqueda no hallo CLI/CI especifico de Static Analysis; solo scripting de compilacion CODESYS (blog tercero)", "url": "https://industrialmonitordirect.com/blogs/knowledgebase/capturing-codesys-v35-compiler-output-via-cli-scripts"},
+    {"afirmacion": "Static Analysis de CODESYS en CI con reporte en PR", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Cierto: la audiencia de control usa poco Git, GitHub Marketplace es debil para ella, el volumen de busqueda no esta verificado, los foros restringen la autopromocion y el integrador citado por Control Design ve obstaculos. Mi etapa-3 ya lo valoraba 3 y no mejoro.",
+   "refuto": "Que llegar a integradores 'acabe' en outreach es especulacion sin evidencia; el contenido tecnico y SEO de nicho de baja competencia (pocas herramientas) es viable y no exige ventas. La evidencia de Copia es opinion de un proveedor, que ademas confirma que Git en PLC es un tema en movimiento.",
+   "evidencia": [
+    {"afirmacion": "Opinion de proveedor Copia sobre adopcion limitada de Git en PLC (concedido)", "url": "https://copia.io/?p=1397"},
+    {"afirmacion": "Comunidades B&R/TwinCAT discuten CI para ST", "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"},
+    {"afirmacion": "Volumen de busqueda 'structured text linter'", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Cierto: el trabajo por proyectos del integrador hace probable un uso episodico y la cancelacion; no tengo datos de churn y el riesgo de migrar al IDE o a OSS es real.",
+   "refuto": "'Churn alto' tambien es inferencia sin evidencia del atacante. Un OEM con producto continuo y reglas de equipo en CI es uso recurrente; el segmento OEM mitiga, aunque no esta cuantificado.",
+   "evidencia": [
+    {"afirmacion": "Churn de linters de pago en nichos industriales", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Cierto: no hay cifra con fuente; el subconjunto ST+Git+CI+pago probablemente es pequeno y el nicho podria estar bajo 2,000 compradores. Que las herramientas sean raras es ambiguo (oportunidad o falta de demanda).",
+   "refuto": "El atacante tambien admite que su estimacion es inferencia sin verificar; no hay evidencia de que sea menor a 2,000. Sigue siendo una tesis no probada en ambos lados, y la tendencia de ST/Git crece segun fuentes de proveedor.",
+   "evidencia": [
+    {"afirmacion": "Herramientas de analisis estatico raras en PLC", "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"},
+    {"afirmacion": "Tamano de mercado ST+Git", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Cierto: las reglas basadas en IEC 61131-3 y PLCopen son publicas y CODESYS ya implementa PLCopen Coding Guidelines; iec-checker cubre ST/PLCopen XML; los fabricantes pueden integrarlo y formatos TIA/Studio 5000 cierran acceso. El foso de dominio no es protegible legalmente. Retiro el argumento de que los fabricantes tienen poco incentivo, pues CODESYS ya lo hizo.",
+   "refuto": "Copiabilidad no implica que lo hagan multi-vendor con UX de PR; los OSS existentes son CLI sin producto y los fabricantes han optado por atar al IDE en 5+ anos. Argumento debil pero no vacio.",
+   "evidencia": [
+    {"afirmacion": "CODESYS implementa reglas PLCopen (concedido)", "url": "https://content.helpme-codesys.com/en/CODESYS%20Static%20Analysis/_san_overview.html"},
+    {"afirmacion": "iec-checker OSS sin oferta SaaS comercial verificada", "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"}
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Cierto: la cola larga de dialectos, la dependencia de exportaciones (TIA, L5X), la carga de mantenimiento y que el cuello de botella es la distribucion, no el codigo. El atacante concede que el MVP en 6 semanas es factible.",
+   "refuto": "Un MVP acotado a ST/PLCopen XML con 20-30 reglas y SARIF evita la cola larga inicial; las dimensiones de mantenimiento son sin verificar en ambos lados.",
+   "evidencia": [
+    {"afirmacion": "Solo ST/IL son representables en texto para CI (concedido)", "url": "https://jacow.org/icalepcs2021/papers/TUPV035.pdf"},
+    {"afirmacion": "Base OSS de referencia para parser", "url": "https://docs.rs/crate/iecst/0.5.0"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "Existe CODESYS Static Analysis (mas de 100 reglas, PLCopen Coding Guidelines, tambien en Schneider y ABB): mi ajuste hacia CODESYS/PLCopen XML choca con un incumbente nativo de pago, y las reglas publicas son copiables. No hay evidencia de pago por un linter independiente.",
+ "punto_que_sigue_en_pie": "No es F1: el incumbente es de pago (PDE 3,300 USD/ano) y atado al IDE, no gratis; no se verifico que haga CI/reporte en PR (mi busqueda tampoco lo hallo), y ahi persiste un hueco multi-vendor con ventaja unica de Juan y MVP en 6 semanas; el gasto existente en herramientas similares sugiere presupuesto, aunque la demanda real requiere validacion previa.",
+ "busquedas_usadas": 1
+}

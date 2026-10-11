@@ -1,0 +1,80 @@
+{
+ "id": "G01-17",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor admite que la evidencia de urgencia es débil, y yo también admito que el dolor es real y recurrente en made-to-order (clientes preguntan cuándo llega); existen 8+ apps EDD, señal de que el problema se percibe.",
+   "refuto": "Que existan apps de la categoría no prueba urgencia ni disposición a pagar por cola de producción: ninguno de los dos lados tiene una cifra de reducción de tickets o ventas perdidas. Una guía encontrada indica que el tiempo de preparación se resuelve con configuración manual por producto/colección, es decir, hay sustitutos simples.",
+   "evidencia": [
+    {"afirmacion": "Guía: Shopify no suma el tiempo de preparación a la fecha; se configura con reglas manuales por producto/colección", "url": "https://www.identixweb.com/how-to-set-up-delivery-scheduling-for-made-to-order-products-on-shopify/"},
+    {"afirmacion": "Reducción cuantificada de tickets: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Hay presupuesto demostrado en el nicho: Orderkraft cobra 69 USD/mes + uso, y 29 USD queda por debajo de ese ancla. Esto fortalece la posición del defensor más de lo que mi ronda 1 reconoció.",
+   "refuto": "Orderkraft es un producto más amplio (gestión made-to-order), no solo estimación; el pago por una estimación con cola es hipótesis. Las EDD genéricas cobran 0-20 USD, por lo que 29 USD exige justificar el salto con una función aún no validada.",
+   "evidencia": [
+    {"afirmacion": "Orderkraft 69 USD/mes + uso; calcula lead time por producción y entrega de proveedor", "url": "https://apps.shopify.com/orderkraft"},
+    {"afirmacion": "ArrivesBy gratis a 19.99 USD/mes", "url": "https://apps.shopify.com/arrives-by"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor tiene razón en que ninguna fuente que encontré documenta una app con cola finita real (cada pedido empuja las fechas de los siguientes); mi ronda 1 solo argumentaba ausencia de hallazgo. También concedo que la verificación de mi propia búsqueda no halló esa función.",
+   "refuto": "Sí hay aproximaciones: Orderkraft calcula lead time por tiempo de producción; Ecosire delivery date picker ofrece límites de capacidad por franja que cierran cuando se llena; EDD Availability App declara soporte made-to-order. El hueco es parcial, no limpio, y las fuentes son marketing de proveedores, no pruebas de funcionalidad.",
+   "evidencia": [
+    {"afirmacion": "Ecosire: límites de capacidad por franja que cierran al llenarse", "url": "https://ecosire.com/apps/shopify/shopify-delivery-date-picker"},
+    {"afirmacion": "EDD Availability App: soporta made-to-order, usa disponibilidad, tiempo de proceso y reglas de envío", "url": "https://apps.shopify.com/edd-availability-app"},
+    {"afirmacion": "Orderkraft: lead time por producción y proveedor", "url": "https://apps.shopify.com/orderkraft"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "El canal es nombrado, tiene intención de compra y el CAC orgánico puede ser bajo; el defensor también reconoce la saturación. Ninguno tiene datos de volumen de búsqueda.",
+   "refuto": "'CAC cercano a cero' no tiene evidencia: un recién llegado sin reseñas compite contra apps instaladas; afirmarlo es suposición. El nicho made-to-order no está probado como palabra clave rentable en la App Store.",
+   "evidencia": [
+    {"afirmacion": "8+ apps en listados comparativos", "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"},
+    {"afirmacion": "Volumen de búsqueda y CAC: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor es coherente en que una app integrada al flujo del carrito y alimentada con datos de cola genera costo de cambio; mi churn alto también era sin datos. Ambas posiciones son hipótesis.",
+   "refuto": "El costo de cambio solo existe si la configuración de capacidad es profunda; si es simple, migrar a una EDD gratis es fácil. Y el defensor mismo admite que cada taller modela distinto, lo que eleva el riesgo de desinstalación temprana.",
+   "evidencia": [
+    {"afirmacion": "Churn de apps Shopify EDD o de tiendas made-to-order: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Ambos coincidimos en que el mercado es chico y que no hay cifra verificada. Aritmética: 10k/29 ≈ 345 clientes y 50k/29 ≈ 1,724; es solo aritmética, no un hecho externo.",
+   "refuto": "No hay nada que refutar al defensor aquí; mi propia afirmación de que 345 clientes es 'exigente' carece de cifra de mercado, así que no puedo probar que sea inalcanzable.",
+   "evidencia": [
+    {"afirmacion": "Número de tiendas Shopify made-to-order: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor acierta en que la configuración flexible y el dominio de capacidad pueden ser una barrera para genéricos, y que Orderkraft ya cubre parcialmente el nicho (lo cual también es un competidor).",
+   "refuto": "La afirmación 'ninguna app EDD modela cola' sigue sin verificar y mi búsqueda halló aproximaciones (capacidad por franja, lead time por producción), lo que muestra que añadir cola es incremental para quien ya tiene base instalada. Sin datos propietarios ni efecto de red, la defensa sigue siendo débil.",
+   "evidencia": [
+    {"afirmacion": "Ecosire con capacidad por franja ya existe", "url": "https://ecosire.com/apps/shopify/shopify-delivery-date-picker"},
+    {"afirmacion": "Shopify lanza función nativa de fecha de entrega: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El MVP encaja con el stack de Juan (Node/TS, GraphQL, app embebida y theme app extension) y es factible en ~6 semanas; el defensor tiene razón y mi ronda 1 ya daba 4 al MVP.",
+   "refuto": "La carga de soporte por modelos de capacidad distintos por taller choca con el autoservicio del brief; el defensor lo reconoce como carga principal pero sin fuente. Que la ventaja de Juan en máquinas sea relevante para el comerciante Shopify sigue sin evidencia.",
+   "evidencia": [
+    {"afirmacion": "Carga de soporte por configuración distinta por taller: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "Hay disposición de pago demostrada en el nicho (Orderkraft a 69 USD/mes + uso) y mi búsqueda no halló una app con cola finita real; el hueco de diferenciación existe y 29 USD queda por debajo del ancla, así que mi ronda 1 subestimó esos puntos.",
+ "punto_que_sigue_en_pie": "No hay evidencia de demanda de pago por cola de producción: el canal es el más saturado, el mercado es chico (~345 pagadores para 10k MRR), los sustitutos parciales existen (capacidad por franja, lead time por producción, reglas manuales) y la defensa ante copias es débil.",
+ "busquedas_usadas": 1
+}

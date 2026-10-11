@@ -1,0 +1,114 @@
+{
+ "id": "G25-02",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "Concedo que el dolor es real y documentado (JLab ~9k diferencias, control.com) y que el defensor admite urgencia media y evidencia anecdotica; ya lo habia reconocido yo.",
+   "refuto": "Dos hilos aislados no demuestran demanda recurrente ni busqueda activa de producto; la frecuencia semanal sigue sin evidencia en ambos lados.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo JLab, caso unico de 2023",
+     "url": "https://mailman.jlab.org/pipermail/dsg-hallb_magnets/2023-February/001361.html"
+    },
+    {
+     "afirmacion": "Frecuencia del dolor",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo que la existencia de VersionDog/MDT AutoSave/AssetCentre indica que el segmento paga por algo similar y que un comentario de foro sugiere hueco de precio para sitios chicos.",
+   "refuto": "Que paguen a incumbentes no prueba que paguen a un tercero nuevo con tarjeta a $49-199; el comentario de foro es una opinion de un usuario. Mi busqueda de precios de VersionDog no encontro ninguna cifra, asi que el precio de referencia sigue sin verificar para ambos.",
+   "evidencia": [
+    {
+     "afirmacion": "Busqueda de precio VersionDog: solo fichas GetApp sin precio",
+     "url": "https://www.getapp.ie/software/2042851/versiondog"
+    },
+    {
+     "afirmacion": "Precios de competidores",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que ninguna fuente muestra un diff semantico multi-vendor ligero y que las nativas son ruidosas; el defensor reconoce F1 parcial. Mi busqueda de herramientas L5X open source no hallo ninguna especifica (solo diffs genericos).",
+   "refuto": "Que no la encontrara una busqueda no prueba que no exista; L5X es XML y un diff XML/Git ya es gratis y 'suficiente para muchos'; VCI de TIA V16 con Git sigue cubriendo parte del caso. El hueco sigue siendo hipotesis sin demanda demostrada.",
+   "evidencia": [
+    {
+     "afirmacion": "VCI V16 exporta XML para Git",
+     "url": "https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/"
+    },
+    {
+     "afirmacion": "Busqueda de diff L5X open source: sin herramienta especifica en resultados",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que existen canales nombrados (SEO 'L5X diff', PLCTalk, r/PLC) y que una herramienta gratuita CLI puede servir de gancho; el defensor admite que no verifico volumen.",
+   "refuto": "Los blogs que posicionan el tema no prueban volumen de busqueda con intencion de compra; un gancho gratis refuerza F1 (el usuario se queda con la version gratis) y el nicho es pequeno, por lo que $49-99 exige 100-500+ clientes. Sin dato de CAC en ninguno de los dos lados.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de busqueda y CAC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que un historial acumulado y la integracion CI generan costo de cambio, y que el defensor admite que con uso anual el churn seria alto.",
+   "refuto": "El checklist de proveedor citado no es fuente regulatoria ni de retencion; el switching cost de un historial exportable en Git es bajo, y el uso episodico (incidente/auditoria/proyecto) sigue en pie. Sin datos de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn en herramientas OT",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo que NIS2/IEC 62443 es un viento a favor plausible y que el mercado de plantas e integradores no es trivial.",
+   "refuto": "El defensor mismo admite no tener cifra y que la fuente no confirma que las normas exijan respaldo de programas PLC; 'decenas de miles' es especulacion. Ademas, quien ya usa AssetCentre/VersionDog sale del mercado y el juez de etapa 3 dio 2/5.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamano de compradores",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Descripcion de blog de IEC 62443-2-1 (no prueba exigencia)",
+     "url": "https://www.legiscope.com/blog/nis2-ot-industrie-anlagen.html"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que los parsers semanticos y el historial dan cierta barrera de conocimiento y que no es trivial mantenerlos; el defensor acepta que el foso es moderado y sin efecto de red.",
+   "refuto": "La barrera tecnica la respalda con 'sin verificar'; el precedente CVUT muestra que un estudiante lo hizo, y los fabricantes ya incluyen comparacion nativa. Un foso moderado sin evidencia sigue siendo bajo.",
+   "evidencia": [
+    {
+     "afirmacion": "Estudiante CVUT construyo comparador L5X",
+     "url": "https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que Juan tiene ventaja real, que un CLI/GitHub Action local evita el problema de subir proyectos y que un MVP L5X en ~6 semanas es factible; esto reduce mi objecion sobre confianza en la nube.",
+   "refuto": "El MVP L5X no cubre TIA Openness, que el propio defensor admite requiere licencia y entorno Siemens; el mantenimiento multi-version y la credibilidad en seguridad OT para vender siguen siendo carga para una persona a tiempo parcial. Mi objecion se limita a mantenimiento y soporte.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo de mantener compatibilidad con versiones",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El pivote a CLI/GitHub Action local elimina la objecion de subir proyectos OT a la nube, el MVP L5X es factible y hay un hueco plausible de diff semantico multi-vendor ligero con dolor documentado.",
+ "punto_que_sigue_en_pie": "La demanda, el volumen de busqueda y la disposicion de pago a un tercero nuevo no estan verificados en ningun lado, el mercado es pequeno y episodico, y gratis (nativas, VCI+Git, L5X como XML) cubre parte del caso con riesgo F1 parcial.",
+ "busquedas_usadas": 2
+}

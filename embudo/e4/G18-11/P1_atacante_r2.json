@@ -1,0 +1,110 @@
+{
+ "id": "G18-11",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que el proceso es manual (sin herramienta dedicada hallada) y que un error de tags cuesta caro; yo mismo admití fricción real. También admite que no hay datos de frecuencia.",
+   "refuto": "Fricción manual episódica no es dolor urgente ni buscado activamente; un solo hilo MrPLC trata código, no tags. Afirmar 'dolor agudo' no tiene evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Único hilo citado por ambos trata conversión parcial de código, no tag lists",
+     "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "El comprador concreto (ingeniero/integrador que factura por horas) es plausible y 49-149 USD por proyecto es pequeño frente a horas ahorradas; el defensor admite honestamente que no hay evidencia de pago.",
+   "refuto": "Plausibilidad no es evidencia: ambas partes tienen 'sin verificar'. Además el pago por proyecto no resuelve que 10k MRR exija cientos de conversiones nuevas al mes; el servicio gratuito de Siemens fija una referencia de precio cero.",
+   "evidencia": [
+    {
+     "afirmacion": "Disposición de pago por conversión de tags PLC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Siemens anunció servicio sin cargo de conversión de código Rockwell a TIA (2016)",
+     "url": "https://www.automationworld.com/home/news/13314939/siemens-nocharge-service-converts-rockwell-controller-code"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor acierta en que WinCC TagConverter es de tags HMI, no PLC a PLC, y que ESA Crew y eWON exportan a su propio ecosistema, no a una tag table TIA; por tanto F1 no aplica con claridad. Concedo que mi énfasis en F1 era excesivo y que el servicio de 2016 es de código para EE.UU., no una herramienta de tags disponible globalmente.",
+   "refuto": "Mi búsqueda de réplica solo reconfirma el anuncio de 2016 (limitado a empresas de EE.UU., vía formulario, S7-1200/1500); no pude confirmar si sigue vigente. Sigue siendo un incumbente gratuito potencial del fabricante que convierte datos y código, más que tags, y la importación Excel/scripts nativa es la alternativa real de bajo costo. El defensor no menciona este servicio.",
+   "evidencia": [
+    {
+     "afirmacion": "Anuncio 2016: servicio sin cargo, Studio 5000 a TIA, empresas de EE.UU.; vigencia sin verificar",
+     "url": "https://www.automationworld.com/home/news/13314939/siemens-nocharge-service-converts-rockwell-controller-code"
+    },
+    {
+     "afirmacion": "WinCC TagConverter es para tags HMI",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "SEO long-tail con baja competencia por ausencia de herramienta dedicada es un canal nombrado y de CAC bajo; el defensor admite que el volumen no está verificado y que el techo es bajo.",
+   "refuto": "Baja competencia puede significar también baja demanda; ausencia de resultados no prueba volumen. Los foros mencionados son hostiles a promoción. Sin datos de volumen no se llega a 100 pagadores con certeza.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda y tráfico PLCTalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor concede que la evidencia no le favorece: uso puntual y baja retención. Concedo que cobro por proyecto y una suite multi-vendor mitigan algo, y que el retrabajo brownfield puede repetirse en integradores.",
+   "refuto": "Las mitigaciones son hipótesis sin evidencia; la suite multi-vendor (alarmas, I/O, Mitsubishi, Omron, CODESYS) es otra idea, ampliando alcance y mantenimiento, no defensa de esta. El precio de 59 USD/mes del idea.json sigue siendo incoherente con el uso puntual.",
+   "evidencia": [
+    {
+     "afirmacion": "Frecuencia de migraciones por integrador",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Los datos de Technavio y Reanin existen, pero el defensor admite que no miden compradores de esta herramienta, y que el mercado es pequeño y el juez dio 2. Concedo que mi 'miles como mucho' era conjetura.",
+   "refuto": "Cifras de mercado de software PLC de miles de millones son irrelevantes para el nicho y entre sí discrepan; no apoyan un TAM de compradores. Sin cifra de compradores el tamaño sigue sin sustento.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de ingenieros/proyectos de migración Rockwell-Siemens",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Technavio, mercado de software PLC (no mide el nicho)",
+     "url": "https://www.technavio.com/report/plc-software-market-analysis"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El nicho pequeño desincentiva a grandes, y el conocimiento tácito de UDT/AOI y formatos es real; el defensor admite que no hay foso de datos ni de red y que Siemens podría ampliar TagConverter.",
+   "refuto": "El conocimiento tácito se replica con scripts o LLM en pocos días; un integrador puede hacerlo por sí mismo. Que el nicho sea pequeño protege de grandes pero también limita el negocio.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens ya tiene TagConverter y servicio de conversión",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo plenamente que el MVP es factible en pocas semanas, sin hardware, y que correr en navegador ayuda a la confianza; es el punto más fuerte de la idea.",
+   "refuto": "El riesgo restante es mantenimiento por versiones de TIA/Studio 5000 y validación sin proyectos reales ni licencias; el defensor lo reconoce parcialmente. No resuelve distribución, cuello de botella declarado.",
+   "evidencia": [
+    {
+     "afirmacion": "Parseo L5X/CSV a XLSX documentado en ESA Crew (importación, no conversión TIA)",
+     "url": "https://help.esa-automation.com/kreohmi/en/tag_database_importing.html"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "F1 no aplica con claridad: no hay herramienta dedicada de tags PLC a PLC, WinCC TagConverter es solo HMI y el servicio gratuito de Siemens (2016, solo EE.UU., código, vigencia sin verificar) no es equivalente probado; además el MVP y la ventaja de Juan son sólidos.",
+ "punto_que_sigue_en_pie": "Sin evidencia verificada de demanda, volumen de búsqueda ni disposición de pago, y con uso puntual (retención casi nula), llegar a 10k MRR exige reponer cientos de clientes nuevos al mes desde canales pequeños y hostiles a la promoción.",
+ "busquedas_usadas": 1
+}

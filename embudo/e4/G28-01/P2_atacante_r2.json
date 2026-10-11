@@ -1,0 +1,78 @@
+{
+ "id": "G28-01",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor acierta en que .ACD es binario y que en TIA el diff como texto es pobre; un cambio mal revisado en línea de producción es costoso. Ambos admitimos que no hay hilos de PLCTalk/r/PLC que lo pidan y que el dolor es episódico, no semanal.",
+   "refuto": "Que el dolor sea real no lo vuelve urgente: la práctica común (exportar L5X/L5K y comparar como texto) ya lo resuelve de forma tolerable y el defensor no aporta evidencia de búsqueda activa. 'Paro de planta' es un escenario, no un dato.",
+   "evidencia": [
+    {"afirmacion": "Sin evidencia verificada de demanda activa en PLCTalk/r/PLC (admitido por ambas partes)", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "El segmento sí gasta en herramientas de ingeniería caras (TIA $3,130) y en versionado comercial; $39-99 es marginal frente a eso en términos absolutos.",
+   "refuto": "Gastar en licencias de ingeniería no demuestra disposición a pagar por una utilidad adyacente; el pagador es la empresa vía integradores, y el defensor reconoce que el precio de versiondog no es público. Sin ancla de precios del segmento para un diff autoservicio.",
+   "evidencia": [
+    {"afirmacion": "STEP 7 Professional TIA V20 listado a $3,130 (gasto en licencias, no en utilidades de diff)", "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"},
+    {"afirmacion": "Disposición de pago por un diff autoservicio: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo un punto importante: mi búsqueda de réplica no halló documentación oficial de Rockwell que describa uso por línea de comandos del Compare Tool de Logix Designer; solo documenta abrir la herramienta y Source Control > Show Differences vía GUI. Por tanto el hueco 'CLI/GitHub Action' que señala el defensor es plausible y la nativa no sirve directamente para CI. También concedo que no apliqué bien F1: la herramienta nativa no es un sustituto completo para git/CI, así que F1 no se cumple de forma clara.",
+   "refuto": "El hueco no está libre: Copia ya vende Git-based source control y revisión para Rockwell y Siemens, existe el add-in open source tia-git-addin y el flujo exportar L5X + diff de texto estándar funciona en CI sin herramienta de pago. La ausencia de CLI documentada viene de un blog de terceros, no de Rockwell, y no cubrí versiones nuevas de Logix Designer (sin verificar si hay modo headless).",
+   "evidencia": [
+    {"afirmacion": "Rockwell documenta el Compare Tool como comando que abre la herramienta (GUI); no se halló documentación oficial de CLI", "url": "https://www.rockwellautomation.com/en-gb/docs/studio-5000-logix-designer/38-01/contents-ditamap/studio-5000-logix-designer/compare-tool-command.html"},
+    {"afirmacion": "Copia ofrece Git-based source control y merge para Rockwell", "url": "https://docs.copia.io/docs/git-based-source-control/supported-vendors/rockwell/rockwell-1"},
+    {"afirmacion": "Add-in open source con parser SimaticML para Git", "url": "https://gitblind.noratr.app/Czarnak/tia-git-addin"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor nombra canales concretos (búsquedas L5X diff / compare TIA Portal projects, GitHub Marketplace Action, contenido técnico) y admite honestamente que volumen y CAC son hipótesis; que existan blogs que rankean sugiere algo de tráfico informativo.",
+   "refuto": "Tráfico informativo no es intención de compra, y quienes rankean son blogs de terceros y documentación de proveedores. GitHub Marketplace no tiene demanda probada de PLC. Nada verificado sobre volumen.",
+   "evidencia": [
+    {"afirmacion": "Volumen de búsqueda 'L5X diff' / 'compare TIA Portal projects': sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Si se integra a CI (Action, reportes por commit) puede ser recurrente y el control de cambios es un proceso continuo; el defensor admite que sin datos puede haber churn por proyecto.",
+   "refuto": "Ese escenario depende de adopción de git/CI en equipos de controles, que ninguna parte ha verificado. Sin datos, la hipótesis de uso continuo es solo eso.",
+   "evidencia": [
+    {"afirmacion": "Adopción de git/CI en equipos de controles y retención: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El defensor es honesto: tamaño sin verificar, juez etapa 3 dio 2; ampliar a Codesys/Beckhoff es una opción plausible de expansión y $99 por equipo reduce los clientes necesarios.",
+   "refuto": "La expansión a otros formatos es hipótesis sin evidencia y multiplica el trabajo de un fundador a tiempo parcial. Con $39 hacen falta ~256 pagadores por $10k MRR dentro de un nicho de usuarios con git.",
+   "evidencia": [
+    {"afirmacion": "Número de usuarios TIA/Studio 5000 con git: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que el conocimiento de esquemas XML (SCL, LAD, FBD, L5X) para diffs semánticos es una barrera de conocimiento real y que la ventaja de Juan es genuina; el defensor también admite que el código es copiable.",
+   "refuto": "Una barrera de conocimiento de pocas semanas de trabajo no frena a Copia (con producto ya en el mercado) ni a un fork open source; el parser SimaticML ya existe en abierto. Comunidad e inercia son aspiracionales.",
+   "evidencia": [
+    {"afirmacion": "Parser SimaticML open source ya existe", "url": "https://gitblind.noratr.app/Czarnak/tia-git-addin"},
+    {"afirmacion": "Copia comercializa versionado y revisión de código para PLCs Rockwell", "url": "https://www.copia.io/blog/unlock-the-power-of-version-control-for-your-rockwell-plcs-with-copia"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que el MVP en 6 semanas es muy factible: formatos de texto estructurado parseables sin SDK propietario, CLI en Node/TS, costo casi cero, y el procesamiento local evita alojar código de clientes. Mi argumento de licencias de prueba pesa menos de lo que dije, pues L5X/XML de muestra pueden obtenerse sin licencia propia.",
+   "refuto": "Sigue en pie el costo continuo de compatibilidad con versiones V16-V21 y esquemas L5X, y la necesidad de muestras variadas (el defensor lo admite). Además el cuello de botella de Juan es distribución, no construcción.",
+   "evidencia": [
+    {"afirmacion": "Obtener muestras variadas de XML/L5X es esfuerzo continuo (admitido por el defensor)", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "La nativa de Rockwell no tiene CLI oficial documentado (no hallé documentación que lo contradiga), por lo que el hueco 'diff legible con CLI/GitHub Action para CI' es real y F1 no se cumple de forma clara; además el MVP y la ventaja técnica de Juan son sólidos.",
+ "punto_que_sigue_en_pie": "No hay evidencia verificada de demanda, volumen de búsqueda ni disposición de pago de un comprador que se autoatiende; el mercado es pequeño, Copia y el parser open source ya ocupan el espacio, y el canal (distribución, el cuello de botella de Juan) es especulativo.",
+ "busquedas_usadas": 1
+}

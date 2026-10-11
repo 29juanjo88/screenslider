@@ -1,0 +1,80 @@
+{
+ "id": "G19-01",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor admite que el dolor es real (revisión manual, errores en puesta en marcha) y que el uso de Lizard en CI en la comunidad B&R muestra necesidad real. Yo ya concedía que el dolor existe; el JKU confirma que las herramientas de análisis estático son raras.",
+   "refuto": "Que las herramientas sean raras no prueba urgencia ni búsqueda activa; puede ser falta de demanda. El propio defensor reconoce que no hay evidencia de búsqueda semanal y que el costo de errores en puesta en marcha es 'sin verificar'. Un hilo en una comunidad de B&R es un caso anecdótico.",
+   "evidencia": [
+    {"afirmacion": "Uso de Lizard en CI en comunidad B&R (un hilo, caso anecdótico)", "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"},
+    {"afirmacion": "Costo cuantificado de errores en puesta en marcha", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Existe precedente comercial de pago: Schneider EcoStruxure Verification por créditos e Itris PLC Checker (anuncio 2017). Es más que lo que yo daba a entender al decir que solo había un comercial. Y $29-49/mes es poco frente al gasto de un integrador por proyecto.",
+   "refuto": "Ambos precedentes son por cotización, sin precio público, atados a fabricante y de modelo empresarial, no suscripción autoservicio; no prueban que un ingeniero o equipo pague $29 por mes. El Itris es de 2017 y el defensor no muestra que siga vigente como producto independiente. CODESYS Static Analysis ya viene en su bundle Professional (US$3,300 por 5 usuarios, según mi ronda 1), de modo que quien más usa ST abierto ya lo tiene. El defensor no respondió a este punto.",
+   "evidencia": [
+    {"afirmacion": "Schneider EcoStruxure Control Engineering Verification, por créditos, precio bajo cotización", "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"},
+    {"afirmacion": "Itris PLC Checker, anuncio 2017, sin precio", "url": "https://www.automation.com/en-us/products/product03/itris-automation-announces-plc-checker-now-with-pl"},
+    {"afirmacion": "Disposición de pago de ingenieros por suscripción de $29-49: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor acierta en que las alternativas gratis son CLI sin pulido ni reporte en PR, y que los incumbentes de fabricante están atados a su marca: no hay un linter gratis dominante con UX de PR. Por tanto F1 no se dispara de forma clara. Añade plceye y Arcade.PLC, que no tenía, lo que en realidad refuerza la lista de gratis.",
+   "refuto": "El defensor mismo reconoce que iec-checker, iecst y plceye cubren parte de las reglas (PLCopen XML/L5X); plceye cubre además L5X de Rockwell. La diferenciación por 'UX y reporte en PR' es una capa fácil de copiar con un wrapper de GitHub Action sobre iec-checker. No pude verificar si Siemens SIMATIC AX trae lint propio: una búsqueda solo confirmó que AX es texto-primero con Git y CI y Apax, sin confirmar reglas de lint, así que no lo afirmo ni lo descarto.",
+   "evidencia": [
+    {"afirmacion": "plceye gratis, analiza ST en L5X y PLCopen XML", "url": "https://docs.rs/plceye"},
+    {"afirmacion": "iec-checker open source para ST y PLCopen XML", "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"},
+    {"afirmacion": "SIMATIC AX: texto-primero, Git y CI nativos; lint propio sin verificar", "url": "https://developer.siemens.com/simatic-ax/overview.html"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor nombra canales concretos (búsqueda, GitHub Marketplace, PLCtalk, r/PLC, comunidad CODESYS) y admite que hay una comunidad técnica que discute CI de ST. Reconozco que F4 no se incumple formalmente, porque el canal está nombrado, y que contenido SEO sobre guías PLCopen tiene poca competencia.",
+   "refuto": "Nombrar el canal no es lo mismo que demostrar intención de compra. Ambos coincidimos en que el volumen de búsqueda y el tamaño de las comunidades son 'sin verificar'. El defensor no aporta evidencia nueva de que haya demanda que busque sola. 'Poca competencia' en SEO puede significar también poca demanda.",
+   "evidencia": [
+    {"afirmacion": "Volumen de búsqueda de 'structured text linter' y tamaño de comunidades", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Si el linter queda en el pipeline de CI con reglas de equipo, el costo de salida sube y el uso es continuo por commit. Lo había anotado como punto a favor, y el defensor tiene razón en ese mecanismo.",
+   "refuto": "Ese mecanismo solo funciona si el equipo ya tiene CI, que es justo la minoría. Los proyectos PLC son por obra y las reglas se estabilizan, tras lo cual se puede migrar a iec-checker gratis. El defensor admite que no hay datos de churn. Nadie tiene evidencia aquí.",
+   "evidencia": [
+    {"afirmacion": "Datos de churn de herramientas CI/lint para PLC", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "El defensor aporta evidencia útil que no tenía: TIA Portal V18 VCI exporta SCL como texto y Siemens ofrece VCI con Git (V16+), y hay blog de terceros sobre V21. Eso amplía el segmento con Git/texto por encima de solo CODESYS/PLCopen. Concedo también que el mercado global de programadores PLC es grande en términos absolutos.",
+   "refuto": "VCI exporta solo SCL y STL como texto, el resto es binario (según su propia fuente), y V21 viene solo de un blog de terceros. Que haya exportación a Git no cuantifica cuántos equipos pagarían. El propio defensor admite que con $29-49 se necesitan cientos de equipos y que no hay cifra verificada. La etapa 3 puntuó mercado 2.",
+   "evidencia": [
+    {"afirmacion": "TIA Portal V18 VCI: SCL y STL como texto, el resto binario (blog de terceros)", "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-v18-git-version-control-vci-setup-and-diff-limits"},
+    {"afirmacion": "Número de equipos PLC con Git/CI y presupuesto: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Los incumbentes de fabricante están atados a su marca, y el conocimiento de dominio de Juan para curar reglas es una ventaja real frente a desarrolladores de software genéricos. El defensor es honesto al admitir que el código es copiable.",
+   "refuto": "Esa ventaja de conocimiento es de ejecución, no un foso: las reglas son reproducibles y la base abierta (iec-checker, iecst, plceye) ya implementa parsers. El defensor mismo reconoce que Siemens podría integrar linters nativos. Citar el estudio JKU (pocas herramientas) como defensa no prueba barrera, solo ausencia de oferta.",
+   "evidencia": [
+    {"afirmacion": "iecst implementa parser y diagnósticos abiertos", "url": "https://docs.rs/crate/iecst/0.5.0"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Aquí el defensor tiene razón en lo principal: el MVP en 6 semanas es realista (CLI, 15-30 reglas, GitHub Action), el stack de Juan encaja, la infraestructura cuesta casi nada, y empezar por PLCopen XML/CODESYS y SCL en texto vía VCI acota el riesgo. Parsers de referencia acortan el trabajo. Retiro la insinuación de que el MVP sea inviable.",
+   "refuto": "Queda pendiente el mantenimiento continuo por dialecto/fabricante y el soporte técnico a clientes industriales con una sola persona a tiempo parcial, que el defensor no aborda. Mi afirmación sobre TIA Openness (Windows y licencia) sigue sin verificar y la retiro como dato.",
+   "evidencia": [
+    {"afirmacion": "TIA Openness requiere Windows y licencia TIA: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El MVP en 6 semanas es realista y el defensor aportó un camino de entrada creíble: SCL como texto vía TIA VCI y PLCopen XML/CODESYS, con precedentes comerciales de pago (Schneider, Itris) y sin un linter gratis dominante con UX de PR. La idea no cae en ningún filtro F1-F5 de forma clara.",
+ "punto_que_sigue_en_pie": "La disposición de pago y la demanda en el canal siguen sin evidencia: ningún precedente es de suscripción autoservicio, el volumen de búsqueda es sin verificar y el segmento con Git/CI y presupuesto es chico frente al gratis (iec-checker, plceye) y al CODESYS Static Analysis nativo, lo que hace de $29 con cientos de equipos un salto sin respaldo.",
+ "busquedas_usadas": 1
+}

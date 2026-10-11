@@ -1,0 +1,110 @@
+{
+ "id": "G10-19",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Cierto: no hay evidencia de busquedas o quejas especificas sobre CAD en Work Orders; el dolor es moderado y se puede parchar con PDFs adjuntos. Mi propio caso ya lo admitia.",
+   "refuto": "El atacante no aporta evidencia de que sea 'molestia sin urgencia'; tambien es 'sin verificar'. Un resenador de G2 menciona tecnicos de field service como beneficiarios de 3D en Salesforce, y la app nativa no tiene 3D (hueco confirmado por ambos).",
+   "evidencia": [
+    {
+     "afirmacion": "Resenador G2 de RenderDraw dice que ayuda a tecnicos de field service (opinion, no documentacion de Work Order)",
+     "url": "https://www.g2.com/products/renderdraw-flexible-3d-rendering-for-salesforce/reviews"
+    },
+    {
+     "afirmacion": "La app Field Service nativa no incluye 3D (aceptado por ambos)",
+     "url": "https://apps.apple.com/app/id1163307568"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Cierto: el unico precio verificado es US$25/usuario de Visual CPQ y US$89/org no tiene respaldo directo; presupuesto de fabricantes sin verificar. Mi busqueda de r2 no hallo precios de RenderDraw.",
+   "refuto": "Que un competidor cobre por usuario muestra que existe pago por visualizacion 3D en Salesforce; el atacante no demuestra que se espere gratis. Un precio por org de $89 es inferior a pocos usuarios de RenderDraw, lo que es argumento de precio, aunque no prueba de demanda.",
+   "evidencia": [
+    {
+     "afirmacion": "RenderDraw/Visual CPQ desde US$25/usuario",
+     "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Cierto y refuerza al atacante: RenderDraw convierte CAD a interactivo en Salesforce y un resenador lo vincula con tecnicos de field service; adjuntar PDF es gratis. Mi hueco 'no hay visor CAD' esta debilitado: RenderDraw es competidor directo probable.",
+   "refuto": "Sigue sin verificarse que RenderDraw cubra Work Orders: mi busqueda de r2 no hallo listing de AppExchange ni documentacion de Work Orders. Segun una guia de terceros, RenderDraw requiere convertir a .glb y cada llamada cuenta como llamada API a su servidor; STEP/DXF nativo con conversion incluida podria ser un angulo (sin verificar si es diferencial real).",
+   "evidencia": [
+    {
+     "afirmacion": "RenderDraw: CAD a Salesforce interactivo; cobertura de Work Orders y listing no confirmados",
+     "url": "https://stackshare.io/stackups/omega-first-software-vs-renderdraw"
+    },
+    {
+     "afirmacion": "Reseñas G2 de RenderDraw (pocas)",
+     "url": "https://www.g2.com/products/renderdraw-flexible-3d-rendering-for-salesforce/reviews"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Cierto: volumen de busqueda en AppExchange sin verificar, y la Security Review y ser partner retrasan el primer cliente. Si el canal es pequeno, el CAC sube.",
+   "refuto": "El costo si es verificable y es bajo: docs de Salesforce (v244) indican US$999 la review inicial, nueva version gratis, y exentas las apps gratuitas; versiones antiguas citaban US$2,700. No es 'capital relevante' (F3). El plazo de la review sigue sin verificar. 'Outreach' del atacante es hipotesis sin evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Security review fee US$999 en docs v244 (docs antiguas: US$2,700 en total el primer ano)",
+     "url": "https://developer.salesforce.com/docs/atlas.en-us.244.0.packagingGuide.meta/packagingGuide/security_review_fees.htm"
+    }
+   ],
+   "posicion": "se fortalece"
+  },
+  "retencion": {
+   "concedo": "Cierto: sin datos de churn y es utilidad pasiva; si Salesforce o un ISV lo cubre, el cliente puede irse.",
+   "refuto": "El atacante tampoco tiene datos. Los archivos CAD enlazados a Assets y Work Orders crean algo de costo de cambio, aunque moderado y no probado.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps AppExchange comparables",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Cierto: nicho pequeno; 10k/89 ~ 113 clientes y 50k ~ 562 (aritmetica correcta); el techo alto es dificil. Numero de orgs sin verificar.",
+   "refuto": "Mi tope no es solo Salesforce: la conversion STEP/DXF es reutilizable. A $149 hacen falta ~68 clientes para 10k. El atacante no demuestra que 113 sea inalcanzable.",
+   "evidencia": [
+    {
+     "afirmacion": "Aritmetica propia: 10,000/149 ~ 67 clientes",
+     "url": "sin verificar (aritmetica propia)"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Cierto: se copia en semanas y RenderDraw puede ampliar a Work Orders; Salesforce o Siemens pueden hacerlo nativo; la ventaja CAD no protege contra incumbente con distribucion. El atacante ya concede la ventaja tecnica de Juan.",
+   "refuto": "Un nicho chico reduce el incentivo de entrada de grandes; RenderDraw tiene pocas reseñas en G2 (senal debil de traccion, no concluyente). Es defensa debil, no la basa mi caso.",
+   "evidencia": [
+    {
+     "afirmacion": "RenderDraw con pocas reseñas en G2",
+     "url": "https://www.g2.com/products/renderdraw-flexible-3d-rendering-for-salesforce/reviews"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Cierto: el visor es lo facil; Apex/LWC, packaging, Security Review y limites de plataforma agregan tiempo; podria superar 6 meses hasta ingresos. Dependencia de una plataforma.",
+   "refuto": "Aprender LWC (JavaScript) encaja con el stack de Juan, y el costo de la review es modesto (US$999). El plazo de publicacion no esta verificado por ninguno de los dos.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo review US$999",
+     "url": "https://developer.salesforce.com/docs/atlas.en-us.244.0.packagingGuide.meta/packagingGuide/security_review_fees.htm"
+    },
+    {
+     "afirmacion": "Plazo de publicacion en AppExchange",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "RenderDraw ya ofrece conversion de CAD a 3D interactivo en Salesforce con mencion a tecnicos de field service: mi 'hueco' de alternativas se debilita y la diferenciacion es baja (cobertura de Work Orders sigue sin verificar).",
+ "punto_que_sigue_en_pie": "Canal AppExchange nombrado con costo de entrada bajo y verificable (review US$999, no F3) y ventaja CAD de Juan (concedida por el atacante); ningun filtro F1-F5 queda demostrado. El nicho es chico y de una plataforma.",
+ "busquedas_usadas": 2
+}

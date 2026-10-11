@@ -1,0 +1,114 @@
+{
+ "id": "G12-01",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Cierto: la demanda es hipotética; la etapa 3 no halló evidencia de que equipos pidan CAD en Zapier/Make, y no tengo cuantificación de urgencia semanal. El dolor es plausible, no demostrado.",
+   "refuto": "Ausencia de guías no prueba ausencia de dolor: DigiFabster extrae volumen/área de STEP/IGS/DXF, lo que muestra que estos metadatos se usan para cotizar. El atacante tampoco aporta evidencia de que el flujo manual sea 'funcional' sin costo.",
+   "evidencia": [
+    {
+     "afirmacion": "DigiFabster extrae volumen, área y complejidad de STEP/IGS/DXF para cotizar",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    },
+    {
+     "afirmacion": "Urgencia/tiempo perdido cuantificado",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Cierto: no hay evidencia de disposición de pago a $49/mes por conector CAD, y las referencias de precio (thumbnail.ws, alternativeto) son de capturas web, no CAD. Un script o API barata puede cubrir usos puntuales.",
+   "refuto": "El atacante afirma que los usuarios no-code 'esperan planes gratis o por tarea' sin evidencia. Compradores con presupuesto en manufactura/cotización pagan por herramientas de cotización; es inferencia, no prueba.",
+   "evidencia": [
+    {
+     "afirmacion": "Disposición de pago a $49/mes por conector CAD",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Cierto: existen APIs HTTP (convert3d, Adom Step2GLB) invocables desde HTTP/webhook, y la ruta DIY con FreeCAD/CadQuery; sustituyen parcialmente el conector.",
+   "refuto": "Mi búsqueda de ronda 2 no halló ninguna app Zapier/Make/n8n de STEP a PNG (solo plantillas genéricas de PDF/HTML a PNG), lo que respalda que el hueco de conector existe; el valor no es solo comodidad si entrega imagen+metadatos en un paso, aunque esa diferencia no está probada con usuarios.",
+   "evidencia": [
+    {
+     "afirmacion": "Adom Step2GLB expone endpoint HTTP y /thumbnail PNG",
+     "url": "https://wiki.adom.inc/p/pg_h304hqp5bg"
+    },
+    {
+     "afirmacion": "convert3d.org ofrece API STEP a GLB",
+     "url": "https://convert3d.org/step-to-glb"
+    },
+    {
+     "afirmacion": "Búsqueda web r2 sin resultados de app no-code para STEP a PNG (resultados genéricos de orshot/n8n PDF)",
+     "url": "https://orshot.com/help/connect-no-code-tools.md"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "Cierto: no hay evidencia de volumen de búsqueda en directorios ni CAC medido; un directorio vacío puede significar ausencia de demanda; Zapier/Make exigen revisión y las apps nuevas tienen poca visibilidad; el SEO 'step to png api' compite con convert3d.",
+   "refuto": "Es lectura ambigua, no prueba: vacío puede ser hueco o falta de demanda, y ninguno de los dos lados lo verificó. Mitigación ya propuesta: API REST + nodo n8n community (sin aprobación) primero. El atacante omite esa vía.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda y CAC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Cierto: sin datos de churn, y el uso ligado al volumen de cotizaciones puede recortarse; quien crece puede migrar a API directa.",
+   "refuto": "Mi tesis de costo de cambio es inferencia lógica igual que su tesis de churn; ninguna está sustentada. No refuto con evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención de conectores CAD en no-code",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Cierto: es un nicho estrecho; ~204-205 clientes a $49 para $10k MRR es fracción alta de un segmento no medido, y la etapa 3 dio mercado 2.",
+   "refuto": "Solo parcialmente: existe un ecosistema activo de cotización instantánea (DigiFabster, Xometry, MakerVerse, AMFG, Prototek), y la API/SEO amplía más allá de Zapier/Make. Aun así el tamaño sigue sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Ecosistema activo de cotización instantánea de manufactura",
+     "url": "https://www.manufacturing.net/artificial-intelligence/news/22930496/prototek-launches-aipowered-cnc-instant-quote-platform"
+    },
+    {
+     "afirmacion": "Número de compradores posibles",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Cierto: defensa débil; kernels abiertos, y convert3d/Adom podrían publicar un conector rápido; Zapier/Make podrían añadir conversión nativa. Sin efectos de red.",
+   "refuto": "Nada sustancial que refutar; solo matizo que 'en días' no está evidenciado y que ser primero con reseñas es un foso modesto sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Foso por reseñas/posicionamiento",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Cierto: el trabajo operativo es real (cómputo, archivos grandes, timeouts, mantener tres plataformas, casos de borde CAD, soporte) y la distribución es la debilidad de Juan.",
+   "refuto": "El MVP técnico sigue siendo factible en 6 semanas y se reduce lanzando API REST + n8n primero (una plataforma) en vez de tres; el propio atacante concede la ventaja máxima de Juan en formatos CAD.",
+   "evidencia": [
+    {
+     "afirmacion": "Tiempo de aprobación Zapier/Make",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La demanda y la disposición de pago a $49/mes están sin verificar, y un directorio vacío puede ser ausencia de demanda; además las APIs HTTP sustituyen parcialmente el conector y la defensa ante copias es débil.",
+ "punto_que_sigue_en_pie": "No se halló ninguna app Zapier/Make/n8n de STEP a PNG/glTF (confirmado de nuevo), Juan tiene ventaja máxima en formatos CAD y el MVP acotado (API REST + nodo n8n sin aprobación) cabe en 6 semanas con costo casi nulo.",
+ "busquedas_usadas": 1
+}

@@ -1,0 +1,126 @@
+{
+ "id": "G19-01",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor es honesto: reconoce que no hay cifras de costo ni encuesta. Concedo que hay uso real de analisis estatico de ST en CI (B&R con Lizard, TwinCAT con Jenkins), lo que muestra dolor tecnico activo en un subgrupo.",
+   "refuto": "Que alguien adapte una herramienta generica (Lizard) o monte un script casero demuestra que existe una solucion de bricolaje, no urgencia semanal ni busqueda activa de un linter pago. El costo por parada sigue sin verificar y el ladder/FBD queda fuera.",
+   "evidencia": [
+    {
+     "afirmacion": "Uso de Lizard (herramienta generica) en CI para ST en comunidad B&R",
+     "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+    },
+    {
+     "afirmacion": "Costo por parada/error",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Concedo que existen productos de pago de fabricante (CODESYS PDE, Beckhoff TE1200, Schneider) y que el defensor admite que no hay evidencia de pago por un linter independiente. Un precio de 29-49 USD es bajo frente a esas referencias.",
+   "refuto": "Esos productos son paquetes de IDE (PDE a 3,300 USD/ano incluye muchas funciones); su existencia no prueba que alguien pague 29/mes por un linter aparte, y el precio bajo puede leerse como senal de que el comprador lo espera como parte del IDE. Con 29-49 la meta exige 300-1,700 equipos sin tamano de mercado demostrado.",
+   "evidencia": [
+    {
+     "afirmacion": "CODESYS Static Analysis se vende dentro de Professional Developer Edition (paquete de IDE)",
+     "url": "https://store.codesys.com/codesys-static-analysis.html"
+    },
+    {
+     "afirmacion": "Disposicion de pago por linter ST independiente",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que el hueco 'multi-vendor + reporte en PR' es plausible: la documentacion de CODESYS describe Static Analysis como funcion interactiva con resultados en la vista de mensajes, sin CLI documentado. Tambien que mi R1 dejo ese punto como sin verificar y que CODESYS no es gratis (F1 solo parcial).",
+   "refuto": "Mi busqueda de R2 muestra que ese hueco se esta cerrando por el incumbente: un briefing de CODESYS (oct 2024) anuncia que la siguiente version (estimada Q2 2025) se centraria en uso de Static Analysis en flujos de integracion continua, con formato de resultado estandarizado legible por maquina y un driver de scripting; un foro menciona un API de scripting (SAN-22). No pude confirmar que haya salido. Hoy, 2026-10, el diferenciador 'CI/PR' puede estar ya cubierto o a punto de estarlo en el ecosistema que el defensor elige. El argumento 'OSS es solo CLI' tambien es debil: un CLI con salida SARIF es justo el producto.",
+   "evidencia": [
+    {
+     "afirmacion": "Briefing CODESYS oct 2024: proxima version enfocada en Static Analysis en CI, resultado estandarizado y driver de scripting (estimada Q2 2025; si se lanzo, sin verificar)",
+     "url": "https://de.codesys.com/fileadmin/data/Images/Messen_und_Veranstaltungen/CODESYS-Feature-Briefing-032024/04_PDE.pdf"
+    },
+    {
+     "afirmacion": "Foro CODESYS: API de scripting de Static Analysis listado como mejora SAN-22; ejecucion via script con limitaciones",
+     "url": "https://forge.codesys.com/forge/talk/Engineering/thread/fb7a6d2d87"
+    },
+    {
+     "afirmacion": "Documentacion: resultados en la vista de mensajes, funcion interactiva",
+     "url": "https://content.helpme-codesys.com/en/CODESYS%20Static%20Analysis/_san_overview.html"
+    },
+    {
+     "afirmacion": "Si la funcion CI de CODESYS ya fue lanzada",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se fortalece"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor admite que el volumen de busqueda no esta verificado y que GitHub es debil para ingenieros de control. Concedo que existen comunidades que discuten CI para ST y que el open core con CLI gratis es un modelo PLG legitimo.",
+   "refuto": "Discutir CI en un foro no es un canal con intencion de compra; open core con CLI gratis reduce la conversion a pago justo donde ya hay alternativas gratis. Los foros PLCtalk/r/PLC no se verificaron como canal permitido y no hay un canal nombrado con demanda demostrada. La nueva evidencia de CODESYS indica que la comunidad CODESYS probablemente reciba la funcion de su proveedor.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de busqueda y reglas de foros",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que un linter integrado en CI con reglas de equipo crea costo de cambio real y que no tengo datos de churn; mi argumento de uso episodico es inferencia.",
+   "refuto": "El costo de cambio solo existe si el equipo ya adopto CI; los integradores trabajan por proyecto. Ademas las reglas personalizadas son portables como config y el reemplazo por funcion nativa del IDE o OSS reduce el costo de cambio.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn en el nicho",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Concedo que 300-500 equipos a 29-49 dan 10-15k MRR aritmeticamente y que mi cifra <2,000 es inferencia; el defensor tampoco aporta fuente.",
+   "refuto": "El defensor ofrece como evidencia la existencia de una tienda CODESYS, que no dimensiona compradores de linter. Con el subconjunto ST + Git/CI + pago, y la meta de 10k+ MRR, sigue sin soporte. Su propia admision (juez dio mercado 2) coincide.",
+   "evidencia": [
+    {
+     "afirmacion": "Numero de equipos ST con Git/CI",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Herramientas de analisis estatico raras en PLC (ambigua: oportunidad o falta de demanda)",
+     "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que un parser multi-dialecto y una biblioteca de reglas curada por dominio son una barrera real frente a desarrolladores web genericos, y que los fabricantes tienen poco incentivo de ser multi-vendor.",
+   "refuto": "Eso no frena al incumbente en su propio ecosistema: CODESYS ya tiene 100+ reglas y PLCopen Coding Guidelines y planeaba CI, y su motor lo distribuyen Schneider y ABB. Las reglas publicas se copian y iec-checker es LGPL. El moat de conocimiento de Juan no escala.",
+   "evidencia": [
+    {
+     "afirmacion": "CODESYS Static Analysis ya implementa reglas PLCopen Coding Guidelines y esta en ABB/Schneider",
+     "url": "https://content.helpme-codesys.com/en/CODESYS%20Static%20Analysis/_san_overview.html"
+    },
+    {
+     "afirmacion": "Plan de CODESYS de integrar CI",
+     "url": "https://de.codesys.com/fileadmin/data/Images/Messen_und_Veranstaltungen/CODESYS-Feature-Briefing-032024/04_PDE.pdf"
+    }
+   ],
+   "posicion": "se fortalece"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo plenamente: MVP de parser + 20-30 reglas + SARIF en 6 semanas es realista para Juan y puede apoyarse en OSS (segun licencia). En esta dimension el defensor tiene razon.",
+   "refuto": "Solo matizo que la cobertura de dialectos y formatos propietarios (TIA, L5X) es mantenimiento continuo, y que el MVP no resuelve distribucion. Su 'evidencia' de ventaja de Juan es el propio brief (sin URL).",
+   "evidencia": [
+    {
+     "afirmacion": "Costo de mantenimiento de dialectos",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El hueco 'linter independiente multi-vendor con reporte en PR' no esta demostrado como cubierto, el MVP es factible en 6 semanas con ventaja real de Juan, y no hay evidencia de que CODESYS haya lanzado ya la funcion CI; ademas el precio de 29-49 es bajo frente a las referencias de fabricante.",
+ "punto_que_sigue_en_pie": "Sin evidencia de disposicion de pago por un linter independiente ni de tamano de mercado (probable <2,000 compradores), con canal debil, alternativas gratis (iec-checker) y un incumbente (CODESYS, tambien en Schneider/ABB) que anuncio mover Static Analysis hacia CI, justo el angulo diferencial.",
+ "busquedas_usadas": 1
+}

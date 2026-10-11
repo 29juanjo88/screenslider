@@ -1,0 +1,81 @@
+{
+ "id": "G15-01",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que cotizar a mano es trabajo recurrente y semanal (CloudNC cita 2-4h+ por RFQ) y que un taller lento pierde trabajos. También admite honestamente que no hay hilos de foros verificados; coincidimos en el hecho.",
+   "refuto": "La cifra de 2-4h es dato del vendedor, no independiente, y la patente citada es antigua y anecdótica; no prueban que el comprador busque activamente la solución. Sigue sin haber evidencia de búsqueda activa, y el dolor real puede ser la precisión de la cotización y no solo la velocidad.",
+   "evidencia": [
+    {"afirmacion": "Cifra 2-4h por RFQ proviene del vendedor CloudNC", "url": "https://www.cloudnc.com/quote-agent"},
+    {"afirmacion": "Hilos de foros pidiendo esta solución: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Que SpeedQuoteAI cobre desde US$750 y que Paperless Parts haya levantado US$30M prueba que hay talleres que pagan por esta categoría. El defensor además concede que US$149 no está validado y que CloudNC tiene plan gratis.",
+   "refuto": "Que existan pagadores a US$750 o más no prueba que los talleres pequeños paguen US$149 por un producto nuevo y sin marca; el 'hueco de precio' es una hipótesis. Paperless Parts levantar capital no es evidencia de que haya demanda a precio bajo. Un plan gratis de CloudNC ancla las expectativas de los talleres chicos hacia abajo.",
+   "evidencia": [
+    {"afirmacion": "SpeedQuoteAI desde US$750", "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"},
+    {"afirmacion": "CloudNC plan gratis de 3 cotizaciones/mes", "url": "https://www.cloudnc.com/quote-agent"},
+    {"afirmacion": "Disposición a pagar US$149 validada: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "No existe un incumbente gratis completo (F1 no se dispara) y Paperless Parts apunta a talleres de 1,000-50,000 piezas únicas/año, de modo que el segmento más pequeño podría estar menos atendido. Hoja de cálculo es la alternativa real de los chicos.",
+   "refuto": "'Desatendidos por precio' es inferencia: el precio de Paperless Parts y de Costifier está sin verificar (agregadores dan cifras contradictorias), y CloudNC ya ofrece capa gratuita y SpeedQuoteAI cubre el mismo caso de RFQ por email. El campo concurrido sigue siendo lo principal.",
+   "evidencia": [
+    {"afirmacion": "Paperless Parts apunta a 1,000-50,000 piezas únicas/año", "url": "https://www.paperlessparts.com/facts/"},
+    {"afirmacion": "Precio de Paperless Parts contradictorio entre fuentes", "url": "https://www.g2.com/products/paperless-parts/pricing"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "Existen páginas comparativas públicas del tipo 'X vs Paperless Parts', lo que sugiere cierta demanda SEO de comparación, y el defensor admite que no verificó volumen ni CAC y que los foros son hostiles a la autopromoción. Retiro la afirmación fuerte de que el canal es inviable: es incierto, no refutado.",
+   "refuto": "Una página de CB Insights comparando dos competidores no es evidencia de volumen de búsqueda ni de que Juan pueda posicionarse; la keyword está dominada por competidores con presupuesto. El onboarding de 10-12 semanas de Paperless Parts (su propio llms.txt) apunta a que este segmento no compra en autoservicio puro; el defensor no lo rebatió.",
+   "evidencia": [
+    {"afirmacion": "Onboarding típico de Paperless Parts de 10-12 semanas", "url": "https://www.paperlessparts.com/llms.txt"},
+    {"afirmacion": "Volumen de búsqueda y CAC de 'CNC quoting software': sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "El defensor tiene razón en que las cotizaciones son recurrentes semanales y que integrarse con bandeja de email y tarifas del taller sube el costo de cambio. Ninguno de los dos tiene datos de churn.",
+   "refuto": "Esa integración es un argumento de inferencia, no evidencia. El churn sigue siendo plausiblemente alto por mortalidad de talleres pequeños y flujo estacional de RFQs, y los clientes con volumen migran a suites con ERP/portal. Un agente de solo cotización es fácil de reemplazar.",
+   "evidencia": [
+    {"afirmacion": "Datos de churn en software de cotización CNC: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El tamaño no es el cuello de botella: con ~17,000 talleres en EE.UU. (cifra de mi ronda 1) bastan ~67 clientes a US$149 para US$10k MRR, y el defensor tiene razón en que el universo supera varios miles. Además el defensor no pudo verificar su propia cifra NAICS 332710.",
+   "refuto": "La proyección de 100-300 clientes (US$15-45k MRR) es un supuesto sin base; la fracción con volumen de RFQs por email y presupuesto, y que no usa ya otra herramienta, es desconocida. El dato de UE sigue sin verificar.",
+   "evidencia": [
+    {"afirmacion": "NAICS 33271: 17,130 firmas / 17,433 establecimientos en EE.UU.; no aísla CNC", "url": "https://www.ibisworld.com/united-states/number-of-businesses/machine-shop-services/645/"},
+    {"afirmacion": "Mercado UE y fracción con RFQs por email: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor admite que la defensa es débil y que los incumbentes pueden bajar de gama; coincidimos. Concedo también que el conocimiento CAD/CAM de Juan mejora la calidad de las plantillas de tiempos.",
+   "refuto": "Los 'datos acumulados por taller' y las plantillas son un foso hipotético que Juan no tiene al inicio y que se construye solo con clientes que aún no existen; un taller puede exportar tarifas fácilmente. Los LLM benefician por igual a los competidores financiados.",
+   "evidencia": [
+    {"afirmacion": "Paperless Parts (US$30M) ya ofrece extracción de PDF con IA", "url": "https://www.paperlessparts.com/facts/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Es cierto que el stack de Juan (Node/TS, Python, CAD) encaja con parseo de email, extracción con LLM y lectura de STEP, y que un MVP acotado de borrador asistido con aprobación humana y tarifas configurables es factible en 6 semanas. Esto debilita mi tesis de que el MVP es inviable.",
+   "refuto": "Un borrador que solo reformatea datos extraídos es commodity y no resuelve el problema de fondo (tiempo de máquina fiable); si estima, la precisión destruye la confianza. El juez de etapa 3 dio MVP 2. Quedan sin cubrir seguridad de planos de clientes (propiedad intelectual, posible ITAR, sin verificar), soporte e integraciones para una persona a tiempo parcial.",
+   "evidencia": [
+    {"afirmacion": "Etapa 3: el juez puntuó MVP 2 y Riesgo 2 en el JSON de la idea", "url": "sin verificar"},
+    {"afirmacion": "Requisitos de confidencialidad/ITAR: sin verificar", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El tamaño de mercado no es problema (~67 clientes a US$149 bastan para US$10k MRR) y un MVP acotado de borrador asistido sí cabe en 6 semanas con el stack de Juan; además la existencia de competidores que cobran prueba que hay pago en la categoría.",
+ "punto_que_sigue_en_pie": "El mercado ya está ocupado por competidores financiados que cubren el mismo caso (Paperless Parts, SpeedQuoteAI, CloudNC con plan gratis), sin foso defendible, con US$149 no validado y un canal sin evidencia de volumen o CAC; el 'hueco de talleres pequeños' es una hipótesis sin datos.",
+ "busquedas_usadas": 0
+}

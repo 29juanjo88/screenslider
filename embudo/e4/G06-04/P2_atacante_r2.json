@@ -1,0 +1,78 @@
+{
+ "id": "G06-04",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que los pagos fallidos son dinero ya ganado que se pierde cada ciclo y es medible en dólares. También admite con honestidad que las cifras vienen de blogs de proveedores, igual que yo admití no tener cifra por tienda.",
+   "refuto": "La cifra de 20-40% de cancelaciones es de una guía comercial sin fuente nombrada, y el benchmark de Recurly (1.38%) es 'sin verificar'; ninguna es de tiendas Woo pequeñas. El dolor sigue siendo pasivo (el dueño no lo nota), lo que reduce la búsqueda activa y la urgencia de pagar. Además, que las guías digan que el nativo es 'básico' no prueba que el dolor residual justifique $29/mes.",
+   "evidencia": [
+    {"afirmacion": "Reintento nativo de Woo Subscriptions existe (apagado por defecto), por lo que parte del dolor ya tiene solución incluida", "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"},
+    {"afirmacion": "Cifras de churn involuntario provienen de guías de proveedores, no auditadas", "url": "https://usecaddy.com/reduce-subscription-churn"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "La disposición de pago está demostrada por competidores a $79 y $99-199/mes, y $29 queda muy por debajo, de modo que el ROI de 'recuperar un par de cobros' es plausible. Concedo que ~350 pagadores para $10k no es volumen irreal (F5 no aplica).",
+   "refuto": "Los precios vienen de AlternativeTo, no de páginas oficiales, y el defensor no aportó conversión gratis a pago ni evidencia de que un precio bajo sea ventaja y no señal de producto inferior. Existe además una versión gratis de Subscriptions Recovery como ancla de precio cero.",
+   "evidencia": [
+    {"afirmacion": "Subscriptions Recovery $79/mes con versión gratis limitada (fuente secundaria)", "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"},
+    {"afirmacion": "Sublium $99-199/mes (fuente secundaria)", "url": "https://alternativeto.net/software/sublium/about"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor acierta en que el reintento nativo está apagado por defecto y es limitado, y que la etapa 3 no lo consideró F1 firme; no lo defenderé como incumbente gratis suficientemente bueno. Concedo también que los competidores de pago son más caros.",
+   "refuto": "Aun sin F1 firme, el espacio está ocupado por cuatro capas (nativo, Subscriptions Recovery con plan gratis, Sublium, y un plugin llamado Subscription Churn Saver, el mismo nombre de la idea). El defensor mismo admite plugins gratis como Recurio, sin verificar. Esto confirma diferenciación 2/5 sin ángulo propio.",
+   "evidencia": [
+    {"afirmacion": "Plugin 'Subscription Churn Saver' ya mencionado en una guía (coincide con el nombre de la idea)", "url": "https://usecaddy.com/reduce-subscription-churn"},
+    {"afirmacion": "Subscriptions Recovery tiene versión gratis", "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "WordPress.org es un marketplace real con intención de compra, y existen guías SEO sobre churn en Woo que muestran demanda de contenido. El defensor reconoce que esta es su dimensión con evidencia más débil.",
+   "refuto": "La afirmación 'CAC casi cero' no tiene evidencia: volumen de búsqueda y conversión freemium están 'sin verificar'. Las guías SEO existentes (StoreApps, Caddy) demuestran que los competidores ya ocupan el contenido, no que haya espacio. Los grupos de Facebook son reclutamiento manual, de baja escalabilidad. El canal pesa x3, por lo que su incertidumbre es lo más costoso.",
+   "evidencia": [
+    {"afirmacion": "El espacio de guías SEO sobre churn en Woo ya está ocupado por terceros", "url": "https://www.storeapps.org/reduce-subscription-churn-in-woocommerce/"},
+    {"afirmacion": "Volumen de búsqueda y conversión en WordPress.org", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El ROI de un dunning es visible en el panel (cobros recuperados) y eso puede sostener la retención; ya lo había concedido. El switching cost moderado es razonable.",
+   "refuto": "Ese mismo ROI visible juega en contra de tiendas pequeñas con pocos fallos: verán poco retorno y desactivarán. Ninguno de los dos tiene datos de retención de competidores, así que 'valor cada mes' es una hipótesis, no un hecho.",
+   "evidencia": [
+    {"afirmacion": "Retención de plugins de dunning en Woo", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Ambos coincidimos en que el número de tiendas con Subscriptions activo no está verificado, y el defensor acierta en que ~350 pagadores para $10k no es absurdo dentro del ecosistema Woo, que es enorme.",
+   "refuto": "El defensor usa 'ecosistema enorme' para un subconjunto que exige la extensión de pago Subscriptions; sin cifra, el techo para $50k (~1,700 clientes a $29) no está demostrado. La dependencia total de WooCommerce/Automattic sigue como riesgo de plataforma marcado por el brief.",
+   "evidencia": [
+    {"afirmacion": "Número de tiendas con WooCommerce Subscriptions activo", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor coincide en que la defensa es débil y que la diferenciación puntuada es 2. Concedo que precio inferior, rapidez, pausa y alertas más reseñas en WordPress.org son una estrategia posible, y que precios altos de competidores dejan espacio de posicionamiento.",
+   "refuto": "Esas defensas son todas copiables (precio, funciones) y dependen de reseñas que aún no existen. Ser más barato no es un foso. Las funciones de pausa y alertas ya forman el set estándar de los incumbentes.",
+   "evidencia": [
+    {"afirmacion": "Sublium ya incluye recuperación de pagos, es decir el set de funciones estándar", "url": "https://alternativeto.net/software/sublium/about"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El MVP en 6 semanas es factible con PHP/Laravel y pagos; ya lo había concedido y el defensor tiene razón en que el costo es casi cero.",
+   "refuto": "El defensor califica el soporte como 'manejable' sin evidencia (su cita es solo la puntuación del juez, sin URL). Compatibilidad con múltiples pasarelas, versiones Woo/WP y soporte posterior a tiempo parcial siguen siendo costos reales, y el cuello de botella de Juan es distribución, la dimensión más débil.",
+   "evidencia": [
+    {"afirmacion": "Carga de soporte/compatibilidad de plugins Woo con múltiples pasarelas", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "Concedo que la disposición de pago está demostrada ($79 y $99-199/mes), que el reintento nativo no constituye un F1 firme, que el MVP en 6 semanas es factible y que ~350 pagadores no es un volumen irreal; la idea no debería descartarse por filtro.",
+ "punto_que_sigue_en_pie": "Diferenciación 2/5 en un espacio ocupado y sin foso, y un canal (peso x3) cuya demanda y CAC son 'sin verificar' en ambos lados, mientras los competidores ya dominan el contenido SEO.",
+ "busquedas_usadas": 0
+}

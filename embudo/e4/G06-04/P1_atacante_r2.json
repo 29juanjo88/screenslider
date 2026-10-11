@@ -1,0 +1,76 @@
+{
+ "id": "G06-04",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que es pérdida directa de MRR en dólares y que una guía (StoreApps) dice que la lógica nativa es básica. Su cifra de 20-40% de churn involuntario viene de blogs de proveedores sin estudio y él mismo la marca débil; no la uso en su contra ni a su favor.",
+   "refuto": "Dolor en dólares no implica búsqueda activa: el dueño no lo ve (el defensor admite que es silencioso/pasivo), y el reintento nativo cubre los fallos recuperables. Sin cifra verificada de MRR perdido en tiendas Woo.",
+   "evidencia": [
+    {"afirmacion": "Reintento nativo existe, apagado por defecto, 5 reintentos en 7 días, activable en un checkbox", "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"},
+    {"afirmacion": "Cifra de MRR perdido en tiendas Woo", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Disposición de pago demostrada por competidores ($79/mes Subscriptions Recovery, $99-199/mes Sublium) y a $29 hay menos fricción. Es el punto más favorable a la idea y ambos coincidimos.",
+   "refuto": "Que los incumbentes cobren más no prueba que un entrante a $29 capte demanda: obliga a ~345 clientes y el precio bajo puede leerse como menor calidad. Mi afirmación sobre preferencia por licencias anuales sigue sin verificar y la retiro como argumento.",
+   "evidencia": [
+    {"afirmacion": "Precios de competidores (Subscriptions Recovery $79/mes, Sublium $99-199/mes) según AlternativeTo", "url": "https://alternativeto.net/software/sublium/about"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor acierta en que el nativo está apagado por defecto (lo verifiqué en la documentación oficial) y que por eso no es un F1 firme; también que el espacio ocupado lo reconoce honestamente. Concedo que mi framing de 'nativo cubre el caso básico' debe matizarse: la configuración oficial requiere PHP con filtro para personalizar según un listado de proveedor (marketing, sin verificar de forma independiente).",
+   "refuto": "El defensor propone como hueco 'pausa/oferta de retención/alertas', pero no aporta evidencia de que ningún incumbente lo cubra; Sublium y Smart Subscriptions ya cubren dunning y reintentos configurables. El ángulo sigue sin estar en idea.json (angulo '06'). Recurio gratis sigue sin verificar por ambos.",
+   "evidencia": [
+    {"afirmacion": "El reintento está apagado por defecto y se activa en WooCommerce > Settings > Subscriptions > Enable Automatic Retry", "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"},
+    {"afirmacion": "Smart Subscriptions ofrece reintentos configurables sobre Stripe", "url": "https://www.storeapps.org/product/smart-subscriptions-for-woocommerce/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor reconoce que no hay datos de volumen ni de conversión, y yo tampoco los tengo: ambos lados están sin verificar. Concedo que WordPress.org es un canal nombrado y concreto, por lo que F4 no se cumple como descarte.",
+   "refuto": "Un canal nombrado no es un canal con demanda: sin volumen de búsqueda, con directorio competido y un recién llegado sin reseñas, el 'CAC bajo' del defensor es una suposición sin evidencia. Los grupos de Facebook como canal no tienen respaldo.",
+   "evidencia": [
+    {"afirmacion": "Volumen de búsqueda y conversión freemium en WordPress.org", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor tiene razón en que un plugin conectado al flujo de cobro tiene fricción de cambio y ROI medible (MRR recuperado); mi afirmación de que 'desactivar es fácil' es exagerada para integraciones con cobros.",
+   "refuto": "Ninguno de los dos tiene datos de churn de plugins Woo de pago. El ROI medible juega en contra de tiendas con pocas suscripciones: si recupera poco, el dueño lo cancela porque lo ve. Es la paradoja del producto anti-churn.",
+   "evidencia": [
+    {"afirmacion": "Churn de plugins de dunning Woo y distribución de tiendas por número de suscripciones", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Concedo que ~48k instalaciones (única cifra, de terceros) no es un mercado diminuto y 345 clientes es alcanzable sobre el papel (~0.7%). El defensor admitió no tener cifra; la mía es débil pero existe.",
+   "refuto": "La fuente es de terceros con fecha poco clara y el nicho se reparte con nativo, tres plugins de pago y uno gratis; la cuota de 0.7% sin diferenciación es optimista. Tiendas Woo -8% interanual también de fuente de terceros y conflictiva.",
+   "evidencia": [
+    {"afirmacion": "WooCommerce Subscriptions: 47,997 instalaciones (fuente de terceros)", "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Ambos coincidimos: la defensa es débil. El defensor admite que el foso es operativo y no técnico.",
+   "refuto": "Los fosos que propone (benchmarks de datos propios, integraciones profundas, reseñas) no están evidenciados y requieren una base de clientes que un entrante no tiene al inicio; los incumbentes ya tienen reseñas y pasarelas integradas.",
+   "evidencia": [
+    {"afirmacion": "Diferenciación 2/5 en juicio de etapa 3", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "MVP viable en ~6 semanas con el stack PHP del fundador, y el defensor reconoce la carga continua de soporte. Concedo que mi punto sobre 'responsabilidad en pagos' es una preocupación sin cuantificar.",
+   "refuto": "Ventaja de Juan limitada a PHP/pagos genérico, sin ventaja industrial; el cuello de botella del fundador es distribución y el canal elegido exige reseñas y soporte de foro.",
+   "evidencia": [
+    {"afirmacion": "Ventaja de Juan declarada: Backend PHP/Laravel y pagos", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El reintento nativo de WooCommerce Subscriptions está apagado por defecto (verificado en la documentación oficial), por lo que no es un incumbente gratis 'suficientemente bueno' firme y F1 no se sostiene; además la disposición de pago está demostrada por competidores a $79-199/mes y el MVP es viable.",
+ "punto_que_sigue_en_pie": "Sin ángulo diferenciado ni defensa ante copias en un espacio ya ocupado (Subscriptions Recovery, Sublium, Smart Subscriptions), con canal WordPress.org sin demanda verificada y un precio de $29 que exige ~345 clientes; ninguna evidencia aportada por el defensor cierra esos huecos.",
+ "busquedas_usadas": 1
+}

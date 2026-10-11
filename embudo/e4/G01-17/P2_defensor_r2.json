@@ -1,0 +1,126 @@
+{
+ "id": "G01-17",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Concedo que el dolor es de severidad media, que no está cuantificado (ni reducción de tickets ni pérdida de ventas) y que muchos comerciantes lo mitigan con un texto fijo de plazo.",
+   "refuto": "Refuto que la existencia de 8+ apps implique que el problema está 'resuelto': esas apps usan reglas fijas y el atacante no demostró que cubran plazos variables por cola. Tampoco aporta evidencia de que el dolor sea trivial.",
+   "evidencia": [
+    {
+     "afirmacion": "Hay al menos 8 apps de fecha de entrega en listados comparativos (demanda de la función, no de la cola)",
+     "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+    },
+    {
+     "afirmacion": "Cuantificación de tickets/conversión",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo que 29 USD queda por encima de casi todas las EDD (0-20 USD), que Orderkraft cobra por un producto más amplio y que ~345 pagadores para 10k MRR es exigente.",
+   "refuto": "Refuto que el precio sea un obstáculo en sí: 29 USD está muy por debajo de los 69 USD + uso de Orderkraft, único precedente de pago en made-to-order. Pero admito que el pago por 'solo estimación con cola' sigue siendo hipótesis.",
+   "evidencia": [
+    {
+     "afirmacion": "Orderkraft cobra 69 USD/mes + uso",
+     "url": "https://apps.shopify.com/orderkraft"
+    },
+    {
+     "afirmacion": "ArrivesBy gratis a 19.99 USD/mes",
+     "url": "https://apps.shopify.com/arrives-by"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que 'no hallé' no equivale a 'no existe', que no verifiqué la ausencia de apps con cola, y que metafields/texto manual son sustitutos reales (F1 parcial).",
+   "refuto": "Refuto que la carga de la prueba recaiga solo en mí: el atacante tampoco nombró ninguna app con cola de producción aparte de Orderkraft; los sustitutos manuales no calculan fecha dinámica. No hice búsquedas nuevas en esta ronda.",
+   "evidencia": [
+    {
+     "afirmacion": "Orderkraft es lo más cercano verificado, 69 USD/mes + uso",
+     "url": "https://apps.shopify.com/orderkraft"
+    },
+    {
+     "afirmacion": "Ninguna app EDD modela cola",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Metafields/nativo como sustituto",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que 'estimated delivery' es el listado más disputado, que un recién llegado sin reseñas queda abajo y que no tengo cifras de volumen de búsqueda ni CAC. Esto debilita mi argumento de CAC cercano a cero.",
+   "refuto": "Refuto que el atacante pruebe que el CAC será alto: tampoco tiene cifras. El nicho 'made to order' permite long-tail de búsqueda menos saturado, y la intención de compra es real; el juez de etapa 3 dio canal 4.",
+   "evidencia": [
+    {
+     "afirmacion": "Múltiples apps EDD compiten en el mismo listado",
+     "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda y CAC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Concedo que las tiendas pequeñas made-to-order son inestables y que un mal ajuste del modelo provoca desinstalación temprana; no hay datos de churn.",
+   "refuto": "Refuto que migren a gratis por defecto: las EDD gratis no ofrecen cola, y una vez conectada la capacidad el costo de cambio sube. Es argumento, no dato.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps de nicho",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo plenamente que el nicho es chico, que ~345 clientes para 10k MRR es exigente y que ninguno de los dos tiene cifra verificada. Es mi punto más débil.",
+   "refuto": "Solo refuto el tono: tampoco hay evidencia de que sea menor a 345 tiendas aptas dentro de Shopify; la incertidumbre es simétrica.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de tiendas made-to-order",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que la defensa es casi nula: una EDD establecida o Orderkraft podrían añadir cola, y Shopify podría lanzar algo nativo; la ventaja de Juan fue puntuada 2/5.",
+   "refuto": "Refuto que sea 'nula' y que la ventaja sea irrelevante: el modelado de capacidad requiere conocimiento de dominio que las EDD genéricas no tienen y que un copista debe configurar por taller. Además el atacante no verificó que Shopify vaya a lanzar la función.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores con base instalada",
+     "url": "https://apps.shopify.com/arrives-by"
+    },
+    {
+     "afirmacion": "Shopify lanza fecha nativa",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que construir es lo fácil, que el soporte por configuración distinta por taller es casi consultivo, que hay dependencia de una plataforma (riesgo 2/5) y que la distribución es el cuello de botella de Juan.",
+   "refuto": "Refuto que invalide el MVP: el juez dio 4 en MVP y el stack encaja; el soporte puede mitigarse con plantillas de capacidad. La carga de soporte es hipótesis sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Perfil del fundador en el brief",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Carga de soporte",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El mercado de tiendas made-to-order con cola real es chico (~345 pagadores para 10k MRR), el canal está saturado y la defensa ante copias es casi nula; no tengo ninguna cifra verificada de demanda de pago por la función diferencial.",
+ "punto_que_sigue_en_pie": "Sigue habiendo un hueco aparente sin refutar: ninguna app verificada modela cola de producción por debajo de Orderkraft (69 USD + uso), por lo que 29 USD con canal nombrado y MVP corto es viable como apuesta de nicho, sin probar.",
+ "busquedas_usadas": 0
+}

@@ -1,0 +1,48 @@
+{
+"id":"G25-02","par":"P2","rol":"atacante",
+"replica":{
+"dolor":{
+"concedo":"El defensor tiene razón en que el dolor está documentado (JLab ~9k diferencias, consulta en control.com) y es real, no inventado. También coincidimos en que es episódico y la evidencia es anecdótica; no es una pérdida semanal.",
+"refuto":"Dos casos (un laboratorio y un hilo de foro) no demuestran búsqueda activa ni urgencia de compra. La fuente de proveedor sobre 'control de versiones poco común' es un blog secundario sin encuesta, y también implica que el mercado no percibe el dolor como para pagar.",
+"evidencia":[{"afirmacion":"Hilo JLab, caso aislado de laboratorio","url":"https://mailman.jlab.org/pipermail/dsg-hallb_magnets/2023-February/001361.html"}],
+"posicion":"se mantiene"},
+"pago":{
+"concedo":"Concedo que existen productos comerciales de gestión de cambios con presupuesto en el segmento y que el hueco de precio frente a suites de US$5k-10k+ es un argumento válido de posicionamiento. También concedo que mi propio argumento de pago era inferido (sin precios).",
+"refuto":"El precio de AutoSave Basic (US$4,850) no pude confirmarlo: mi búsqueda no halló ningún producto 'AutoSave Basic' ni esa cifra, por lo que queda sin verificar (la URL de automation.com del defensor no la pude abrir ni corroborar). El precio de AssetCentre viene de un blog secundario. Además, que las suites cuesten US$5-10k indica que el comprador compra respaldo/cumplimiento con soporte, no un diff; pagar menos por una función no prueba disposición a pagar por ella. La búsqueda apunta además a que AutoSave evolucionó a Octoplant (AUVESY-MDT), de modo que el producto citado puede estar desactualizado.",
+"evidencia":[{"afirmacion":"Búsqueda web no encontró 'AutoSave Basic' ni US$4,850; AutoSave habría evolucionado a Octoplant según un webinar de MAC Solutions (secundario)","url":"https://mac-solutions.net/?p=3174"},{"afirmacion":"Precio AutoSave Basic US$4,850 citado por el defensor","url":"sin verificar"}],
+"posicion":"se debilita"},
+"alternativas_actuales":{
+"concedo":"Concedo que las nativas son por vendor, que no hay un diff semántico multi-vendor ligero como producto simple, y que el defensor admite honestamente el riesgo F1. También concedo que mi afirmación sobre las herramientas CLI de Rockwell venía de un foro y era no confirmada.",
+"refuto":"El hueco 'multi-vendor' es pequeño: el propio defensor reconoce que Copia, Team Coherence y Software Defined Automation ya venden control de versiones PLC. Mi búsqueda confirmó, en una fuente secundaria (mfgrobots, no la documentación de Rockwell), que las VCS Custom Tools son herramientas CLI gratuitas que convierten ACD a L5X para usar Git, lo que cubre justo el caso base de diff de Logix. El ajuste a CLI/GitHub Action local choca de frente con ellas.",
+"evidencia":[{"afirmacion":"Artículo secundario describe las VCS Custom Tools de Rockwell como CLI gratuitas que convierten ACD a L5X para Git (no se halló documentación oficial de Rockwell)","url":"https://www.mfgrobots.com/Article/mfg/acs/49388.html"},{"afirmacion":"TIA Portal incluye Compare Projects y VCI (V16)","url":"https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/"}],
+"posicion":"se fortalece"},
+"canal_y_cac":{
+"concedo":"Concedo que el costo de contenido para Juan es casi cero, que el GitHub Action/CLI gratis como puerta de entrada product-led es un ángulo plausible y que las consultas de cola larga ('L5X diff') pueden tener poca competencia directa. Ambos admitimos que el volumen de búsqueda no está verificado.",
+"refuto":"Que existan blogs de terceros que rankean prueba competencia por el SEO, no demanda de compra. La puerta de entrada gratis choca con las VCS Custom Tools gratuitas de Rockwell. El comprador (gerente OT/integrador con tarjeta) no está demostrado en PLCTalk/r/PLC; sin volumen ni conversión medidos el canal sigue siendo una hipótesis (F4 borderline).",
+"evidencia":[{"afirmacion":"Volumen de búsqueda y demanda en PLCTalk/r/PLC","url":"sin verificar"}],
+"posicion":"se mantiene"},
+"retencion":{
+"concedo":"Concedo que un historial acumulado y los reportes de auditoría crean costo de cambio, y que NIS2/IEC 62443 son un impulso regulatorio plausible. El defensor reconoce también que no hay datos de churn.",
+"refuto":"Costo de cambio por historial es débil si el historial vive en archivos L5X/XML o Git exportables. La cita de 21 CFR Part 11 es de un blog de proveedor (Copia), que vende justo el sustituto, y es un resumen de búsqueda. Un cumplimiento real exigiría validación y soporte que un producto de una persona no ofrece.",
+"evidencia":[{"afirmacion":"Datos de churn/retención del segmento","url":"sin verificar"}],
+"posicion":"se mantiene"},
+"mercado":{
+"concedo":"Concedo que a nivel global integradores, OEMs y plantas con Rockwell/Siemens son un universo grande en principio, y que 50-100 clientes a US$99-199 es una cifra pequeña en absoluto. Ninguno de los dos tiene cifra verificada.",
+"refuto":"Lo relevante no es el universo de PLC sino quién compra una herramienta de terceros de autoservicio, sin suite, sin usar Git y sin recurrir a las nativas gratis; ese subconjunto no está dimensionado. A US$49-99 (el ajuste) se necesitan 100-1000 clientes, no 50. Afirmar 'plausible' sin dato es especulación.",
+"evidencia":[{"afirmacion":"Número de compradores potenciales","url":"sin verificar"}],
+"posicion":"se mantiene"},
+"defensa_frente_a_copias":{
+"concedo":"Concedo que el conocimiento de formatos de Juan y el diseño local sin subir proyectos son una ventaja real frente a plataformas pesadas, y que el defensor reconoció que la defensa a nivel de código es débil.",
+"refuto":"El 'foso por datos/formatos' no tiene evidencia (el propio defensor puso sin verificar). L5X es XML abierto; la CVUT demuestra que un estudiante lo hizo. El historial del cliente no es foso si es exportable. Los fabricantes (Rockwell con VCS Custom Tools, Siemens con VCI) y Copia con capital pueden cerrar el hueco.",
+"evidencia":[{"afirmacion":"Tesis CVUT: diff de L5X en Java","url":"https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"},{"afirmacion":"Foso por datos/formatos","url":"sin verificar"}],
+"posicion":"se mantiene"},
+"ejecucion_una_persona_tiempo_parcial":{
+"concedo":"Concedo que el defensor tiene razón en que un diff semántico básico de L5X/TIA Openness XML con CLI y reporte HTML es construible en ~6 semanas por Juan, y que el diseño local evita infraestructura y la objeción de subir proyectos OT. Esto corrige mi sobrestimación del alcance inicial.",
+"refuto":"Un MVP de diff no es un producto vendible: sigue faltando soporte por versión de firmware/IDE, acceso a licencias de TIA/Studio 5000 y proyectos reales para pruebas (sin verificar el costo), y el mapeo de auditoría que justifica el precio. La carga continua de soporte la admite también el defensor.",
+"evidencia":[{"afirmacion":"Costo de licencias TIA/Studio 5000 para pruebas","url":"sin verificar"}],
+"posicion":"se debilita"}
+},
+"concesion_mas_importante":"El dolor está documentado y un diff semántico básico es construible por Juan en ~6 semanas con un hueco de precio frente a las suites enterprise; mi argumento de pago era inferido, y mis dudas sobre la ejecución inicial eran exageradas.",
+"punto_que_sigue_en_pie":"F1/alternativas: Rockwell (VCS Custom Tools, gratis según fuente secundaria), Siemens (VCI/Compare) y Copia cubren con herramientas gratuitas o establecidas el caso base, y el ajuste CLI/GitHub Action local choca con ellas; además demanda, canal y tamaño de mercado siguen sin verificar y la cifra de US$4,850 del defensor no se pudo confirmar.",
+"busquedas_usadas":2
+}

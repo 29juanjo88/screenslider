@@ -1,0 +1,77 @@
+{
+ "id": "G28-01",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razon en que el dolor es real: Git no difunde .ACD binarios y muchos programadores PLC no adoptaron Git por herramientas propietarias (Control Engineering). Ambos coincidimos en que no hay evidencia de hilos en PLCTalk/r/PLC.",
+   "refuto": "Que el dolor exista no lo hace urgente ni buscado activamente: es episodico (revision/puesta en marcha) y el propio defensor lo admite. Que pocos usen Git es a la vez prueba de dolor y de mercado inmaduro; los articulos citados son informativos, no demanda de compra.",
+   "evidencia": [
+    {"afirmacion": "Control Engineering: muchos programadores PLC no han adoptado Git (binarios, herramientas propietarias); cita citada por el defensor, no demuestra intencion de compra", "url": "https://www.controleng.com/using-git-workflows-to-improve-efficiency-reduce-bottlenecks/"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "El gasto del segmento es alto (STEP 7 Professional ~US$3,130 segun revendedor) y US$39-99 es marginal frente a eso; tambien que no pude probar que no paguen.",
+   "refuto": "Gastar en el IDE no implica pagar un auxiliar que se espera incluido; el defensor tampoco aporta evidencia de suscripciones autoservicio de ~US$39 en este nicho. El unico ancla comparable (versionDog, Copia) es de cotizacion, sin precio de mercado verificable.",
+   "evidencia": [
+    {"afirmacion": "Copia lista Source Control y DeviceLink como 'contact us for pricing' / demo; sin precios publicados ni checkout autoservicio", "url": "https://copia.io/pricing"},
+    {"afirmacion": "Disposicion de pago autoservicio ~US$39 en control engineers", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor acierta en el hueco de formato: los comparadores nativos son GUI dentro del IDE con licencia, sin CLI/GitHub Action; el Compare de Rockwell es offline entre .ACD; y L5X es XML legible sin Studio 5000. Tambien concedo que mi ronda 1 pudo sobrestimar la cobertura de Copia para un comprador de US$39, y que el filtro F1 no se activa por completo.",
+   "refuto": "El defensor afirma que Copia/Octoplant se centran en ventas empresariales y no competirian en autoservicio. Verificado parcialmente: la pagina de precios de Copia es 'contact us' (apoya al defensor), pero un comunicado de 2021 anuncia planes Team y Enterprise con prueba gratuita de 14 dias (vigencia hoy sin verificar), lo que sugiere un camino de entrada de equipo. Ademas Copia ya vende Git+diff para Siemens y Rockwell, y L5X como XML tambien se diffea con git diff y herramientas genericas gratis, lo que acerca F1 para el caso Rockwell.",
+   "evidencia": [
+    {"afirmacion": "Copia: precios por contacto/demo, Git source control para Siemens, Rockwell y CODESYS", "url": "https://copia.io/pricing"},
+    {"afirmacion": "Copia anuncio planes Team y Enterprise con prueba gratis de 14 dias (2021; vigencia actual sin verificar)", "url": "https://blog.copia.io/copia-automation-raises-16.4m-in-funding-to-bring-devops-efficiencies-to-industrial-automation"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "Existen guias indexadas sobre comparar/versionar proyectos (industrialmonitordirect, Control Engineering), hay busqueda informativa del tema, y el CAC en dinero es bajo con SEO/GitHub Action/herramienta web gratis como cebo.",
+   "refuto": "Busqueda informativa no es intencion de compra con volumen: el defensor admite que el volumen no esta verificado y que probablemente es bajo. Esas guias las publican incumbentes y terceros que ya ocupan el SEO; un GitHub Action en Marketplace es un canal nombrado pero sin evidencia de que PLC lo use. F4 se sostiene solo porque el canal esta nombrado, pero su rendimiento no tiene respaldo.",
+   "evidencia": [
+    {"afirmacion": "Volumen de 'L5X diff' / 'compare TIA Portal projects'", "url": "sin verificar"},
+    {"afirmacion": "Copia compite con contenido SEO sobre control de versiones PLC Rockwell", "url": "https://www.copia.io/blog/unlock-the-power-of-version-control-for-your-rockwell-plcs-with-copia"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Si se integra en CI/PR (CLI/GitHub Action) es pegajoso y el historial crea costo de salida; ninguno tiene datos de churn.",
+   "refuto": "Esa pegajosidad depende de que el equipo use Git/CI en PLC, adopcion minoritaria segun el propio defensor; el plan individual de US$39 queda expuesto a cancelar entre proyectos. El defensor ofrece solo hipotesis.",
+   "evidencia": [
+    {"afirmacion": "Churn/retencion de herramientas de versionado PLC", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El defensor admite que es el punto mas debil y que no puede demostrar 200-500 equipos; coincidimos en que mercado es un 2. Concedo tambien que baja adopcion actual puede ser mercado temprano en crecimiento, no inexistente.",
+   "refuto": "Mercado temprano sin cifra sigue siendo una apuesta: no hay dato de compradores TIA/Studio 5000 con Git, y esos compradores se reparten con Copia y versionDog. El calculo propio de ~257 clientes a US$39 para US$10k MRR (~1,280 para US$50k) sigue en pie.",
+   "evidencia": [
+    {"afirmacion": "Tamano de usuarios TIA/Studio 5000 con Git", "url": "sin verificar"}
+   ],
+   "posicion": "se fortalece"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El conocimiento del dominio para diffs semanticos de ladder/SCL/AOI es una barrera real, aunque moderada, y Siemens/Rockwell/Copia estan orientados a empresa con ventas, no a US$39 autoservicio.",
+   "refuto": "Conocimiento de formatos documentados no es foso duradero; un vendor puede mejorar su diff nativo (riesgo que el defensor y la idea declaran) y Copia ya tiene diff y puede bajar de escalon con su prueba/plan Team. El foco empresarial hoy no impide moverse hacia abajo.",
+   "evidencia": [
+    {"afirmacion": "Siemens ya ofrece VCI/XML para git desde V16 y comparacion nativa", "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo plenamente que aqui la idea es fuerte: L5X es XML estandar, un MVP L5X + diff legible + CLI en 6 semanas es factible sin hardware ni capital, y empezar solo por L5X evita la licencia TIA para pruebas iniciales. Esto retira mi objecion de capital propio (F3) para el MVP.",
+   "refuto": "Mantener compatibilidad con cada release de TIA (V17-V20) y soporte industrial en tiempo parcial es carga recurrente; validar TIA XML eventualmente exige licencia (~US$3,130) y proyectos reales. El MVP solo L5X estrecha aun mas el mercado ya pequeno.",
+   "evidencia": [
+    {"afirmacion": "STEP 7 Professional TIA V20 ~US$3,130 segun revendedor", "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "La ejecucion es fuerte y existe un hueco de formato real: L5X es XML, un MVP es factible en 6 semanas sin capital, y los comparadores nativos no ofrecen CLI/GitHub Action ni reportes legibles para revision por pares, por lo que F1 no se activa del todo.",
+ "punto_que_sigue_en_pie": "Mercado diminuto (~257 clientes a US$39 solo para US$10k MRR) con canal sin volumen verificado, disposicion de pago autoservicio no demostrada, y competidores (Copia, versionDog, nativos) ya con git/diff que pueden bajar de escalon.",
+ "busquedas_usadas": 1
+}

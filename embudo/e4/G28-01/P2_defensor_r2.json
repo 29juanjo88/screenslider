@@ -1,0 +1,114 @@
+{
+ "id": "G28-01",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es episodico y tolerado; Rockwell integra Compare Tool con Source Control y hay comparacion generica de texto sobre L5K/L5X; sigo sin evidencia de hilos en PLCTalk/r/PLC; la mayoria de equipos de controles no usa git/CI.",
+   "refuto": "Que existan Compare Tool y WinMerge no implica ausencia de dolor: son GUI/offline y no sirven en revision de PRs ni CI, que es el hueco declarado. Pero el atacante tampoco aporta evidencia de que ese hueco sea doloroso; la adopcion de git es hipotesis de ambos lados.",
+   "evidencia": [
+    {
+     "afirmacion": "Compare de Studio 5000 es offline entre .ACD (segun blog); no documenta CLI",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rslogix-5000-program-change-history-and-compare-tool"
+    },
+    {
+     "afirmacion": "Demanda en foros",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "El gasto de $3,130 en TIA es licencia de ingenieria, no prueba de disposicion a pagar por un diff; no hay ancla de precio del segmento (versiondog no publica precio); el ingeniero individual rara vez aprueba $39 por tarjeta sin la empresa.",
+   "refuto": "Que el comprador sea el equipo/integrador con presupuesto de herramientas (y que Copia/versiondog existan y cobren) indica que hay gasto en versionado PLC; $39-99 por equipo es compra de bajo umbral, aunque no probada.",
+   "evidencia": [
+    {
+     "afirmacion": "Copia y versiondog son herramientas comerciales de versionado PLC",
+     "url": "https://docs.copia.io/docs/git-based-source-control/supported-vendors/siemens"
+    },
+    {
+     "afirmacion": "Disposicion de pago por diff autoservicio",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Es la dimension donde el atacante tiene mas razon. Copia soporta Siemens TIA (v14 SP1 a v20 segun su whitepaper) con diff de LAD/SCL/STL; existe tia-git-addin open source con parser SimaticML; Siemens V21 introduce un formato de exportacion para Git y existen VCI y Compare Tool. Mi hueco es mas estrecho de lo que dije en ronda 1, y el riesgo de F1 parcial es real.",
+   "refuto": "Roza F1 pero no la cumple: lo gratuito (add-in, VCI) requiere TIA con licencia/GUI y no ofrece CLI, GitHub Action ni informes de cambios listos; Copia es SaaS empresarial con precio no publicado. Un add-in comunitario no es producto soportado. Esto es hipotesis no probada con usuarios.",
+   "evidencia": [
+    {
+     "afirmacion": "Copia soporta Siemens TIA v14 SP1-v20 y renderiza cambios en LAD/SCL/STL (busqueda de esta ronda; pricing no encontrado)",
+     "url": "https://docs.copia.io/docs/git-based-source-control/supported-vendors/siemens"
+    },
+    {
+     "afirmacion": "Siemens V21 anade formato de exportacion para Git (trade press)",
+     "url": "https://www.eenewseurope.com/en/siemens-boosts-automation-workflow-with-new-tia-portal-v21"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Volumen de busqueda y CAC sin verificar por ambos lados; los foros industriales son hostiles a la autopromocion; no hay marketplace con intencion de compra salvo GitHub Marketplace (Action); los compradores reales pueden pasar por integradores.",
+   "refuto": "El atacante afirma 'probablemente minusculo' sin cifra, igual de sin verificar. Hay canales nombrados concretos (queries de cola larga, GitHub Marketplace, contenido tecnico) y un CLI gratis como gancho; es hipotesis, no certeza.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen 'L5X diff'",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El uso es esporadico salvo integracion CI; sin datos de retencion; churn por fin de proyecto plausible; la adopcion de git en controles es minoritaria y mi tesis 'por que ahora' carece de fuente.",
+   "refuto": "Con GitHub Action por commit el uso es continuo mientras el repo este activo; la suscripcion por equipo (no por proyecto) y repositorios de planta en mantenimiento reducen churn. Sin datos, es conjetura.",
+   "evidencia": [
+    {
+     "afirmacion": "Retencion en herramientas comparables",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Mercado pequeno, juez de etapa 3 dio 2; sin cifra de usuarios con fuente; el subconjunto que usa git es menor aun; $10k MRR a $39 exige ~256 pagadores.",
+   "refuto": "Nada nuevo del atacante lo reduce; con $99 por equipo bastan ~100 equipos para $10k y la expansion a otros formatos es opcion, no promesa.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamano de mercado",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El foso es bajo: parser SimaticML open source ya existe, Siemens migra a formatos de texto en V21 que hacen el git diff estandar mas suficiente, y un clon gratis presionaria el precio. Mi 'barrera de conocimiento' es debil frente a esto.",
+   "refuto": "Un add-in C# dentro de TIA no es lo mismo que diff semantico legible, CLI y CI multiplataforma para L5X y XML; la ventaja de Juan acelera ejecucion y credibilidad, aunque no impide copia. Que Siemens mejore lo nativo es el riesgo principal declarado en la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens V21 formato de exportacion para Git",
+     "url": "https://www.eenewseurope.com/en/siemens-boosts-automation-workflow-with-new-tia-portal-v21"
+    },
+    {
+     "afirmacion": "Copia como incumbente con recursos (financiacion sin verificar)",
+     "url": "https://docs.copia.io/docs/git-based-source-control/supported-vendors/siemens"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Mantener compatibilidad TIA V16-V21 y esquemas L5X, soporte y obtener muestras de prueba son costos continuos; probar exportaciones puede requerir licencia costosa; la distribucion, cuello de botella de Juan, es lo mas debil.",
+   "refuto": "El propio atacante admite que el MVP en 6 semanas es factible y que la ventaja tecnica es solida. Parsear L5X/XML exportado no exige licencia en tiempo de ejecucion; las muestras pueden venir de repos publicos o de la comunidad (hipotesis).",
+   "evidencia": [
+    {
+     "afirmacion": "L5X y VCI son XML parseable sin SDK propietario",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "Alternativas y foso: Copia ya cubre TIA y Rockwell con diff legible, existe un parser SimaticML open source y Siemens V21 mejora el formato Git; el hueco es mas estrecho y el riesgo F1 parcial es real.",
+ "punto_que_sigue_en_pie": "Nadie ha demostrado una opcion autoservicio barata con CLI y GitHub Action; el MVP es rapido y barato con ventaja de Juan maxima, y las debilidades de canal y mercado son incertidumbre sin verificar en ambos lados, no refutaciones.",
+ "busquedas_usadas": 1
+}

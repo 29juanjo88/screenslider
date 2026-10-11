@@ -1,0 +1,130 @@
+{
+ "id": "G15-01",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es dato de vendedor (CloudNC), no hay hilos de foros verificados, y el dolor real incluye precision de la cotizacion, no solo velocidad. Los talleres con mas RFQs ya son objetivo de Paperless Parts.",
+   "refuto": "Que un taller pequeno pueda tolerar cotizar lento no equivale a ausencia de dolor: que varios vendedores financiados (CloudNC, SpeedQuoteAI, Paperless Parts) construyan exactamente esto indica que su investigacion encontro dolor pagable. El borrador aprobado por el usuario mitiga el riesgo de precision. Sin evidencia independiente del atacante de que los talleres chicos no sufran.",
+   "evidencia": [
+    {
+     "afirmacion": "CloudNC afirma 2-4h+ por RFQ manual (dato del vendedor)",
+     "url": "https://www.cloudnc.com/quote-agent"
+    },
+    {
+     "afirmacion": "Hilos de foros pidiendo esto",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "US$149 no esta validado; CloudNC tiene capa gratis (3 cotizaciones/mes); precios de Paperless Parts contradictorios (US$39 en Capterra vs ~US$300 en agregadores), sin verificar. Que el pagador real sea el taller con volumen es plausible.",
+   "refuto": "La busqueda confirma que SpeedQuoteAI cobra desde US$750/mes con prueba de 10 dias sin tarjeta, y existe un plan de US$1,500; pero segun la misma fuente tiene 0 resenas en Capterra, asi que su traccion de pago no esta probada. El hueco de precio por debajo de US$750 sigue abierto; 'tierra de nadie' es opinion del atacante sin evidencia. La capa de 3 cotizaciones de CloudNC no cubre un taller con flujo semanal de RFQs.",
+   "evidencia": [
+    {
+     "afirmacion": "SpeedQuoteAI desde US$750/mes, prueba 10 dias sin tarjeta, plan Growth US$1,500, 0 resenas",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    },
+    {
+     "afirmacion": "CloudNC plan gratis 3 cotizaciones/mes",
+     "url": "https://www.cloudnc.com/quote-agent"
+    },
+    {
+     "afirmacion": "Disposicion a pagar US$149",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Campo saturado y financiado: Paperless Parts (US$30M), SpeedQuoteAI (mismo caso RFQ por email con IA), CloudNC, Costifier. La hoja de calculo con estimador es la alternativa gratis mas comun.",
+   "refuto": "No hay incumbente gratis completo (F1 no se dispara, el atacante lo admite). SpeedQuoteAI esta listado con 0 resenas y US$750 de entrada, y Paperless Parts apunta a 1,000-50,000 piezas unicas/ano; ninguno atiende al taller muy pequeno a US$149 con evidencia publica. Aun asi, mi posicion se debilita: SpeedQuoteAI cubre exactamente el flujo email-a-cotizacion y diferencia solo por precio.",
+   "evidencia": [
+    {
+     "afirmacion": "SpeedQuoteAI intercepta emails RFQ y genera cotizacion en <2 min, integra Gmail y Google Sheets",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    },
+    {
+     "afirmacion": "Paperless Parts: segmento 1,000-50,000 piezas unicas/ano",
+     "url": "https://www.paperlessparts.com/llms.txt"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Verificado: el llms.txt de Paperless Parts dice 'Typical onboarding: 10-12 weeks' con equipo de implementacion dedicado. Foros hostiles a la autopromocion, sin datos de volumen de busqueda ni CAC, y el SEO esta disputado por competidores.",
+   "refuto": "Ese onboarding describe un producto de suite completa (ERP/portal), no un agente de email a borrador; la misma busqueda muestra que SpeedQuoteAI ofrece prueba de 10 dias sin tarjeta, o sea autoservicio es viable en esta categoria. Que los foros esten poblados por operarios es afirmacion sin evidencia. Hay paginas de comparacion 'X vs Paperless Parts', senal de SEO de intencion. Pero el canal sigue sin validar y la confianza de subir planos es una barrera real.",
+   "evidencia": [
+    {
+     "afirmacion": "Paperless Parts: Typical onboarding 10-12 weeks (verificado)",
+     "url": "https://www.paperlessparts.com/llms.txt"
+    },
+    {
+     "afirmacion": "SpeedQuoteAI: prueba de 10 dias sin tarjeta (autoservicio en la categoria)",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    },
+    {
+     "afirmacion": "Volumen de busqueda y CAC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Ninguno de los dos tiene datos de churn. Los talleres pequenos tienen alta mortalidad y estacionalidad, y una estimacion erronea puede causar cancelacion; un agente solo de cotizacion es mas facil de reemplazar que una suite.",
+   "refuto": "El atacante afirma 'riesgo alto' sin datos, igual que mi argumento de costo de cambio es inferencia. La integracion con tarifas, materiales e historial del taller crea algo de costo de cambio, pero modesto. Queda empatado en incertidumbre, con ligera ventaja del atacante.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn en software de cotizacion CNC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "El propio atacante aporta ~17,000 talleres en EE.UU. (IBISWorld, NAICS 33271), que no aislan CNC; la fraccion con RFQs por email y presupuesto es menor y parte ya usa competidores. Mi cifra de r1 era un supuesto sin verificar.",
+   "refuto": "El atacante concede que el tamano no es el cuello de botella: 67 clientes son ~0.4% de 17,000 para US$10k MRR, y 100-300 clientes a US$149 dan US$15-45k MRR. Eso fortalece mi posicion con una cifra citada por el rival. La UE suma sin cifra verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "~17,130 firmas / 17,433 establecimientos NAICS 33271 en EE.UU.",
+     "url": "https://www.ibisworld.com/united-states/number-of-businesses/machine-shop-services/645/"
+    },
+    {
+     "afirmacion": "Fraccion con RFQs por email y presupuesto",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se fortalece"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Casi nula, como ya admiti. Un agente LLM es replicable, los competidores financiados pueden bajar de gama y el 'por que ahora' beneficia igual a todos. Juan no tiene datos de tiempos de maquina al inicio.",
+   "refuto": "Solo matiz: el conocimiento CAD/CAM de Juan (que el atacante reconoce) puede mejorar la calidad de estimacion y las plantillas de tiempos, y los datos por taller se acumulan con el uso. Es una ventaja de calidad, no un foso duradero. Sin argumento nuevo para sostener mas.",
+   "evidencia": [
+    {
+     "afirmacion": "SpeedQuoteAI ya cubre RFQ por email con IA",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "La estimacion fiable de tiempo de maquina desde STEP/PDF es dificil; la etapa 3 dio MVP 2. Un MVP que solo redacta emails es commodity, y planos de clientes implican confidencialidad (ITAR sin verificar) y soporte.",
+   "refuto": "Refuto el uso del onboarding de 10-12 semanas de Paperless Parts como prueba: mide la implementacion de una suite empresarial, no un agente acotado. Un MVP de 6 semanas con borrador asistido (extraccion de datos + tarifas configurables del taller + aprobacion humana, sin estimacion autonoma) es acotable con el stack de Juan, que el atacante reconoce que encaja. Pero ese MVP acotado se acerca al commodity que el atacante describe, de modo que el riesgo de diferenciacion persiste.",
+   "evidencia": [
+    {
+     "afirmacion": "Paperless Parts onboarding 10-12 semanas (suite completa)",
+     "url": "https://www.paperlessparts.com/llms.txt"
+    },
+    {
+     "afirmacion": "Estimacion fiable en 6 semanas",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El campo esta saturado y financiado, SpeedQuoteAI cubre exactamente el flujo email a cotizacion, la defensa frente a copias es casi nula, y verifique que Paperless Parts declara onboarding de 10-12 semanas; ademas US$149 y el canal siguen sin validar y la estimacion fiable no cabe en 6 semanas.",
+ "punto_que_sigue_en_pie": "Existe un hueco de precio y foco: ningun competidor verificado ofrece autoservicio por debajo de US$750/mes (SpeedQuoteAI, con 0 resenas) para el taller pequeno, y el rival concede que el tamano de mercado (~17,000 talleres en EE.UU.) permite US$10k MRR con ~0.4%.",
+ "busquedas_usadas": 2
+}
