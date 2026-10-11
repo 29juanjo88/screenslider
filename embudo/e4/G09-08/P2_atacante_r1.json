@@ -1,0 +1,149 @@
+{
+ "id": "G09-08",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe (retenciones aduanales, códigos erróneos) pero es episódico: el comerciante clasifica cada producto una vez y rara vez vuelve. No es una pérdida semanal que busque activamente; el juez de etapa 3 dio 3. El volumen real de búsqueda 'HS code' en la App Store sigue sin verificar. Honestidad: los reportes de códigos erróneos de Shopify Markets Pro sí muestran dolor real, pero son anecdóticos.",
+   "evidencia": [
+    {
+     "afirmacion": "Usuarios reportan que Shopify Markets Pro asigna HS codes con IA, a veces incorrectos y sobrescribiendo los manuales (anecdótico, post de comunidad)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda 'HS code' en App Store y frecuencia del problema",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay disposición de pago comprobada solo en la franja baja: DutyCode gratis hasta 25 clasificaciones y desde US$19/mes; DutyLookout cobra 0.09 por clasificación. Pagar US$29/mes por una tarea que se hace una vez por producto invita a cancelar tras clasificar el catálogo. La clasificación puntual tiene un techo de gasto muy bajo.",
+   "evidencia": [
+    {
+     "afirmacion": "DutyCode: gratis 25, Starter $19, Growth $49, Scale $99 al mes",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "DutyLookout: 0.09 por clasificación tras 25 gratis al mes",
+     "url": "https://apps.shopify.com/dutylookout"
+    },
+    {
+     "afirmacion": "HClassify tiene una sola reseña (1 estrella), señal débil de demanda (según defensa etapa 3)",
+     "url": "https://apps.shopify.com/hclassify"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Saturado y con gratis suficientemente bueno (riesgo de F1): Shopify tiene campo nativo de HS code y búsqueda por descripción, y Markets Pro clasifica automáticamente; Easyship ofrece lookup gratis y clasificación masiva de catálogo; Zonos tiene Classify y está en la App Store; DutyCode tiene plan gratis; también FindHS.codes, Dutify, FedEx. Para un comerciante pequeño la combinación gratis es casi suficiente.",
+   "evidencia": [
+    {
+     "afirmacion": "Shopify permite añadir HS code y país de origen en el bulk editor y sugiere buscar por descripción del producto",
+     "url": "https://help.shopify.com/manual/markets/duties-and-import-taxes/charging-duties"
+    },
+    {
+     "afirmacion": "Shopify Markets Pro asigna HS codes automáticamente según usuarios (anecdótico)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    },
+    {
+     "afirmacion": "Easyship ofrece lookup HS gratis dentro de su app gratuita y clasificación masiva por catálogo",
+     "url": "https://easyship.com/hs-tariff-code-lookup"
+    },
+    {
+     "afirmacion": "Zonos ofrece herramienta de lookup HS/HTS con búsqueda por palabras clave e imagen; precio no indicado",
+     "url": "https://about-us.www.zonos.com/cross-border-ecommerce-tools-calculators/hs-hts-tariff-code-lookup-tool"
+    },
+    {
+     "afirmacion": "Zonos Duty & Tax clasifica HS automáticamente en checkout dentro de Shopify",
+     "url": "https://zonos.com/docs/global-ecommerce/shopify/get-started"
+    },
+    {
+     "afirmacion": "DutyCode con plan gratis de 25 clasificaciones",
+     "url": "https://apps.shopify.com/dutycode"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado existe (App Store y SEO) pero ya hay al menos tres apps de autoservicio compitiendo por la misma búsqueda, con reseñas y antigüedad que un recién llegado no tiene. El SEO 'hs code for [product]' compite con herramientas gratis de Easyship, Zonos, FedEx, FindHS.codes, y el SEO programático con contenido generado es riesgoso ante actualizaciones de Google (sin verificar). Primeros 100 pagadores a $29 probablemente exigirán reseñas que tardan meses.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores de autoservicio ya listados en la App Store: DutyCode, HClassify, DutyLookout",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Herramientas gratis de lookup HS ya posicionan para búsquedas del tema (Easyship, Zonos, FindHS.codes, Dutify)",
+     "url": "https://easyship.com/hs-tariff-code-lookup"
+    },
+    {
+     "afirmacion": "CAC real en App Store y ranking para 'HS code'",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Riesgo de penalización por SEO programático de baja calidad",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Retención estructuralmente débil: tarea one-shot por SKU. Tras clasificar el catálogo, el uso cae a altas de productos nuevos; el comerciante baja al plan gratis (DutyCode) o desinstala. El único gancho recurrente serían cambios arancelarios, difíciles de monetizar sin datos de calidad. Sin datos de churn de apps comparables (sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "Planes por volumen de clasificaciones (250/2,500/ilimitado) indican modelo de uso episódico, no flujo continuo",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Churn de apps HS en Shopify",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Etapa 3 puntuó mercado 4, pero no hay cifra con fuente de tiendas Shopify que envíen internacionalmente y clasifiquen manualmente. El mercado pagador efectivo se reduce a quienes no usan Markets Pro, Zonos, Easyship ni lo gratis. Alcanzar US$10k MRR a $29 exige ~345 pagadores retenidos, no trivial en un nicho episódico.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de tiendas Shopify con envíos internacionales que necesitan HS codes",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Aritmética: US$10,000 / US$29 = ~345 clientes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Prácticamente nula. Clasificar con LLM más una base arancelaria pública es replicable en semanas; Shopify puede mejorar su clasificación nativa (ya lo hace con Markets Pro); Zonos y Easyship tienen datos y distribución. El SEO programático se copia fácil. Honestidad: una base de rulings (p. ej. CBP) bien curada podría ser un foso leve, pero es de acceso público y no hay evidencia de que sea defendible.",
+   "evidencia": [
+    {
+     "afirmacion": "Shopify ya ofrece clasificación automática nativa en Markets Pro (reporte de usuarios)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    },
+    {
+     "afirmacion": "Zonos y Easyship ya ofrecen clasificación con herramientas propias",
+     "url": "https://about-us.www.zonos.com/cross-border-ecommerce-tools-calculators/hs-hts-tariff-code-lookup-tool"
+    },
+    {
+     "afirmacion": "Existen al menos 3 apps de autoservicio con precios similares o menores",
+     "url": "https://apps.shopify.com/hclassify"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestidad: el MVP técnico (app Shopify con Node/TS) cabe en 6 semanas y es la dimensión más favorable a Juan. Pero la parte difícil no es código: es precisión de clasificación por país (códigos nacionales de 8-10 dígitos difieren), datos arancelarios actualizados, responsabilidad por errores, revisión de app de Shopify y soporte. Su experiencia en PLC/CAD/3D no aporta ventaja a este nicho (ventaja de Juan puntuada 3).",
+   "evidencia": [
+    {
+     "afirmacion": "Shopify admite un solo HS code por producto y los códigos nacionales completos difieren por país, lo que complica la precisión (reporte de usuario)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    },
+    {
+     "afirmacion": "Para EE. UU. se requiere HTS de 10 dígitos; la mayoría de países usa mínimo 8 y solo 6 son armonizados",
+     "url": "https://easyship.com/hs-tariff-code-lookup"
+    },
+    {
+     "afirmacion": "Costo y licencia de datos arancelarios de calidad",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Nicho saturado donde lo gratis casi basta (campo nativo y Markets Pro de Shopify, Easyship, DutyCode gratis, herramientas de Zonos y otras), con tarea one-shot por SKU que genera retención débil y techo de precio bajo (US$19-49 en competidores), sin foso defendible y con riesgo de responsabilidad por clasificación errónea. Lo único a favor es que el canal App Store existe y el MVP es factible en 6 semanas.",
+ "busquedas_usadas": 2
+}

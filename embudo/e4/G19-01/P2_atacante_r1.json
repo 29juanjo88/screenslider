@@ -1,0 +1,133 @@
+{
+ "id": "G19-01",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es difuso: errores de ST se descubren en puesta en marcha, pero el ingeniero de control lo resuelve con revisión manual y simulación, no lo 'busca activamente' cada semana. No hay evidencia de búsquedas o quejas que indiquen urgencia por un linter. Honestidad: el dolor de revisión es real según la prensa del sector, pero no cuantificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Los ingenieros PLC no han adoptado Git por herramientas visuales, archivos binarios y herramientas propietarias de cada fabricante; la tendencia a CI es lenta",
+     "url": "https://www.controleng.com/how-to-improve-plc-programming-with-git-workflows/"
+    },
+    {
+     "afirmacion": "Control Design: el sector adopta lentamente control de versiones y CI/CD, con obstáculos de bloqueo por fabricante",
+     "url": "https://www.controldesign.com/control/plcs-pacs/article/55308447/the-future-of-industrial-controls-embracing-text-based-languages-and-modern-software-practices"
+    },
+    {
+     "afirmacion": "No se halló encuesta independiente que mida adopción de Git/CI entre programadores PLC (búsqueda propia)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Sin evidencia de pago por linters de ST. El único comercial hallado (Schneider) va por cotización y créditos; CODESYS ya trae Static Analysis dentro de su bundle Professional Developer Edition, por lo que quien paga ya lo tiene. Los $29/mes de Juan compiten con licencias empresariales de miles de dólares donde el comprador industrial espera soporte, certificación y factura, no una suscripción de un solo dev. La etapa 3 también concluyó 'pago sin evidencia'.",
+   "evidencia": [
+    {
+     "afirmacion": "CODESYS Static Analysis forma parte de CODESYS Professional Developer Edition (licencia flotante 1 año, 5 usuarios: US$3,300 en la tienda US); existe prueba de 30 días",
+     "url": "https://us.store.codesys.com/catalogsearch/result/?q=tools"
+    },
+    {
+     "afirmacion": "Demanda de pago y precios de linters ST: sin verificar (etapa 3)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Schneider EcoStruxure Control Engineering Verification, por créditos, precio bajo cotización",
+     "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hay gratis y de pago: iec-checker (open source, ST y PLCopen XML), crate iecst con diagnósticos, ST-Checker académico, Lizard genérico en CI usado por la comunidad B&R, CODESYS Static Analysis nativo, y Copia Automation (Git y revisión de código visual para PLC) que ya vende a integradores. Riesgo de F1 parcial: para el usuario CODESYS/PLCopen el análisis es nativo o gratis. Siemens SIMATIC AX: no pude verificar si trae lint propio.",
+   "evidencia": [
+    {
+     "afirmacion": "iec-checker open source para ST y PLCopen XML",
+     "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+    },
+    {
+     "afirmacion": "Crate iecst con diagnósticos",
+     "url": "https://docs.rs/crate/iecst/0.5.0"
+    },
+    {
+     "afirmacion": "Lizard en CI para ST en comunidad B&R",
+     "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+    },
+    {
+     "afirmacion": "Copia Automation vende revisión de código/Git a integradores (caso de integrador: ahorro de hasta un día semanal, dato del proveedor)",
+     "url": "https://copia.io/resources/leading-systems-integrator-accelerates-code-reviews-and-onboarding-with-copia-automation"
+    },
+    {
+     "afirmacion": "Siemens SIMATIC AX y su análisis estático: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado es débil: GitHub Marketplace tiene pocos usuarios de PLC porque estos no usan Git/CI de forma masiva; 'structured text linter' es una búsqueda de volumen probablemente mínimo (sin verificar). PLCtalk y r/PLC son comunidades hostiles a la promoción y de usuarios mayoritariamente en ladder, sin presupuesto individual. Sin marketplace con intención de compra, el CAC recae en contenido lento y outreach a integradores, que el brief excluye como canal principal.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda de 'structured text linter': sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Adopción de Git/CI en PLC lenta y fragmentada por herramientas propietarias",
+     "url": "https://www.controleng.com/how-to-improve-plc-programming-with-git-workflows/"
+    },
+    {
+     "afirmacion": "Reglas de autopromoción de PLCtalk y r/PLC: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un linter se instala una vez en CI y 'desaparece'; si las reglas se estabilizan, el equipo puede cancelar o pasar a una herramienta gratis (iec-checker). Los proyectos PLC son por obra: un integrador lo usa mientras dura el proyecto y cancela. Sin datos de churn de herramientas similares (sin verificar). Punto a favor: si queda integrado en el flujo de PR y el equipo lo adopta como estándar, la fricción de salida sube.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de herramientas dev de nicho industrial: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Tamaño sin fuente verificable. El subconjunto relevante es mínimo: programadores PLC que escriben ST/SCL (no ladder) y además usan Git/CI y tienen presupuesto, con formatos accesibles (PLCopen XML/CODESYS, no TIA/Studio 5000 cerrados). La etapa 3 puntuó mercado 2 (<2,000 compradores posibles a esa definición). Cifra de mercado: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño del mercado de linters ST: sin verificar (etapa 3)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Estudio JKU: las herramientas de análisis estático son raras en programación PLC (puede leerse a favor de la oportunidad o de falta de demanda)",
+     "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Poca defensa: un parser de ST con reglas es replicable por un vendor (CODESYS, Siemens, Copia) o por la comunidad open source con una extensión de iec-checker, y el cliente puede ser quien lo copie. La única barrera es el conocimiento de dominio de Juan, que no es un foso de producto. Una buena base de reglas curadas podría diferenciar, pero no está demostrado.",
+   "evidencia": [
+    {
+     "afirmacion": "iec-checker y iecst ya implementan parsers y diagnósticos abiertos",
+     "url": "https://docs.rs/crate/iecst/0.5.0"
+    },
+    {
+     "afirmacion": "Copia Automation ya tiene base instalada en integradores y podría añadir lint",
+     "url": "https://copia.io/resources/leading-systems-integrator-accelerates-code-reviews-and-onboarding-with-copia-automation"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestamente aquí la evidencia no me favorece del todo: Juan conoce ST/SCL y TIA, y un MVP en 6 semanas (parser + reglas + GitHub Action) es factible. Los riesgos: el dialecto SCL de Siemens y el de Rockwell exigen exportar a formatos propietarios o texto (TIA Openness requiere Windows y licencia TIA para generar el código), y mantener reglas por fabricante es trabajo continuo. Soporte a ingenieros industriales y validación sin presupuesto de ventas sobrecarga a una persona a tiempo parcial.",
+   "evidencia": [
+    {
+     "afirmacion": "TIA Openness requiere TIA Portal con licencia y Windows: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Perfil de Juan: ST/SCL, TIA Portal, backend senior (brief.md)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "No hay demanda de pago demostrada en un nicho diminuto: el cliente objetivo (programadores PLC con Git/CI y presupuesto) es escaso, ya existen alternativas gratis (iec-checker, iecst) y nativas (CODESYS Static Analysis, bundle de US$3,300 por 5 usuarios), y el canal nombrado (GitHub Marketplace, PLCtalk, r/PLC) no tiene intención de compra verificada. La ventaja de Juan es real, pero es de ejecución, no de foso ni de distribución, que es su cuello de botella.",
+ "busquedas_usadas": 2
+}

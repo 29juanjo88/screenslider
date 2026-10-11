@@ -1,0 +1,137 @@
+{
+ "id": "G12-01",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es moderado y hasta ahora anecdótico: usuarios de herramientas no-code piden previsualizar CAD 3D en sus flujos y no lo tienen. No hay evidencia de urgencia semanal ni de búsqueda activa; la evidencia no me favorece del todo.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo de comunidad Airtable pidiendo miniaturas/previews de adjuntos CAD 3D (STEP, STL, SLDPRT), señal de demanda no resuelta en plataformas no-code",
+     "url": "https://community.airtable.com/t/thumbnail-previews-for-3d-cad-attachments-step-stl-sldprt-etc/36633"
+    },
+    {
+     "afirmacion": "Petición en ClickUp de integrar un visor CAD en el preview nativo",
+     "url": "https://feedback.clickup.com/integrations/p/cad-viewer-integration-into-built-in-preview-in-clickup"
+    },
+    {
+     "afirmacion": "Frecuencia/urgencia del dolor en equipos de e-commerce de manufactura: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay precedente de pago por conversión CAD (licencia de convertidor CAD de $99 única; Meshy Pro para lotes) y $49/mes es un gasto de ops razonable si ahorra horas de cotización manual. Pero no hay evidencia directa de disposición a pagar $49/mes por el conector; es hipótesis.",
+   "evidencia": [
+    {
+     "afirmacion": "Convertidor CAD universal de línea de comandos vendido a $99 licencia única, muestra que hay quien paga por conversión CAD automatizable",
+     "url": "https://payhip.com/b/608sH"
+    },
+    {
+     "afirmacion": "Meshy ofrece nivel Pro para procesamiento por lotes de conversión STEP a glTF (precio no mostrado)",
+     "url": "https://www.meshy.ai/3d-tools/file-converter/step/to/gltf"
+    },
+    {
+     "afirmacion": "Disposición de pago a $49/mes: sin verificar (concedido por etapa 3)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "No se halló app dedicada de Zapier/Make/n8n para STEP a PNG/glTF; las alternativas son APIs HTTP genéricas (convert3d, Adom), convertidores web gratuitos, librerías open source autoalojadas (fascat) o scripts FreeCAD/CadQuery detrás de un webhook. Hueco real, pero las alternativas HTTP y DIY son sustitutos viables y varias gratuitas (riesgo F1 parcial: no cubren metadatos ni conector no-code listo).",
+   "evidencia": [
+    {
+     "afirmacion": "Sin app Zapier/Make para STEP a PNG/glTF; solo APIs HTTP de conversión",
+     "url": "https://convert3d.org/step-to-glb"
+    },
+    {
+     "afirmacion": "Adom Step2GLB expone endpoint HTTP y /thumbnail invocable por webhook",
+     "url": "https://wiki.adom.inc/p/pg_h304hqp5bg"
+    },
+    {
+     "afirmacion": "Make tiene ConvertAPI genérico (soporte STEP sin verificar)",
+     "url": "https://www.make.com/en/integrations/convertapi/zapier"
+    },
+    {
+     "afirmacion": "Fascat: librería Python open source STEP a glTF/OpenUSD local, autoalojada",
+     "url": "https://pypi.org/project/fascat/"
+    },
+    {
+     "afirmacion": "Convertidores web gratuitos STEP a glTF (convert.guru, Meshy gratis por archivo)",
+     "url": "https://convert.guru/step-to-gltf"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canales nombrados: directorio de Zapier, listado de Make, nodos comunitarios de n8n y SEO 'step to png api'. n8n permite nodos comunitarios con verificación vía GitHub Actions sin aprobación comercial de ventas, y el CAC en directorios es casi cero en dinero (solo tiempo). Debilidad: no hay evidencia de volumen de búsqueda en esos directorios ni de tráfico de 'step to png api'.",
+   "evidencia": [
+    {
+     "afirmacion": "n8n documenta el proceso de envío y verificación de community nodes (publicación vía GitHub Actions con provenance desde 1 mayo 2026, sin dependencias en runtime para verificados)",
+     "url": "https://docs.n8n.io/connect/create-nodes/deploy-your-node/submit-community-nodes"
+    },
+    {
+     "afirmacion": "Guías de verificación de nodos n8n",
+     "url": "https://docs.n8n.io/connect/create-nodes/build-your-node/reference/verification-guidelines"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda en directorios Zapier/Make y SEO 'step to png api': sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC real: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un paso integrado en un flujo de cotización o catálogo se vuelve infraestructura: cambiarlo implica rehacer automatizaciones, lo que favorece retención baja-churn mientras el flujo viva. Es un argumento lógico; no hay datos de churn. Contra: uso por volumen puede ser esporádico y cancelable.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de retención/churn de conectores comparables: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado de nicho: ops/ingenieros de e-commerce de manufactura y SaaS de cotización que usen no-code. Alcanzar US$10k MRR a $49 exige ~205 clientes; es plausible solo si el nicho supera unos pocos miles de compradores, lo cual no está demostrado. Honestamente el tamaño es incierto y probablemente 2 en la rúbrica.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de mercado de compradores posibles: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Existen múltiples extensiones de visor STEP en otros ecosistemas (Odoo, Obsidian), señal de demanda dispersa de preview CAD",
+     "url": "https://apps.odoo.com/apps/modules/18.0/cyb_step_file_viewer"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa débil en tecnología (kernels open source como OpenCASCADE, librerías como fascat; cualquiera puede copiar). La defensa viable es ser el primero en los directorios con reseñas, mantener metadatos útiles (bbox, volumen) y conocimiento de formatos de Juan (DXF/IGES/STEP edge cases). No es un foso fuerte; lo reconozco.",
+   "evidencia": [
+    {
+     "afirmacion": "Librería open source de conversión STEP a glTF disponible públicamente, baja barrera técnica para copiar",
+     "url": "https://pypi.org/project/fascat/"
+    },
+    {
+     "afirmacion": "Ventaja de primer movimiento en directorios: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy favorable: Juan conoce Node/TypeScript y formatos CAD; el MVP es un servicio de conversión con kernel open source más un nodo n8n y app Zapier/Make, alcanzable en ≤6 semanas a tiempo parcial. Costo de infraestructura bajo (conversión bajo demanda). Riesgos: hosting de conversiones pesadas y aprobación de Zapier/Make; mitigable lanzando primero API REST + nodo n8n, como sugirió la defensa de etapa 3.",
+   "evidencia": [
+    {
+     "afirmacion": "n8n community nodes se publican mediante @n8n/node-cli y GitHub Actions, camino de lanzamiento sin aprobación de ventas",
+     "url": "https://docs.n8n.io/integrations/community-nodes/building-community-nodes"
+    },
+    {
+     "afirmacion": "Tiempo real de MVP y costo de cómputo por conversión: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hueco real y verificado en lo que se pudo buscar: no existe conector no-code dedicado de STEP/DXF/IGES a PNG/glTF con metadatos, y la ventaja técnica de Juan es máxima con MVP rápido y costo casi cero. El camino API REST + nodo n8n + SEO evita depender de aprobaciones. Concedo que demanda, disposición de pago a $49, tamaño de mercado y foso son hipotéticos y sin verificar; la apuesta es de bajo costo y alta ejecutabilidad más que de demanda probada.",
+ "busquedas_usadas": 2
+}

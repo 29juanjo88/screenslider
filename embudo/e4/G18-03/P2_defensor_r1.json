@@ -1,0 +1,117 @@
+{
+ "id": "G18-03",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Las piezas rechazadas por el taller (brida minima, agujero-borde, alivio de plegado) cuestan iteraciones, retraso y dinero al ingeniero o startup que pide piezas. Es un dolor recurrente pero episodico (cada pedido), no semanal para todos. La evidencia directa de urgencia es debil: no hay datos de tasa de rechazo.",
+   "evidencia": [
+    {
+     "afirmacion": "Los fabricantes ofrecen revision DFM con cada cotizacion, lo que indica que el problema de fabricabilidad es real y frecuente",
+     "url": "https://qdj-prototype.com/dfm-engineering-review/"
+    },
+    {
+     "afirmacion": "Tasa de rechazo de piezas de chapa por errores DFM",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay precedente de suscripcion por software de chapa: Design2Fab cobra US$79.99/usuario/mes. Existen herramientas DFM de pago (DFMPro, DFX Analyzer) aunque como add-ins CAD sin precio publico. Honesto: la disposicion de pago por un DFM independiente a US$49 NO esta verificada y el DFM gratis atado a cotizacion la erosiona.",
+   "evidencia": [
+    {
+     "afirmacion": "Hypertherm Design2Fab cobra US$79.99 por usuario al mes",
+     "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+    },
+    {
+     "afirmacion": "DFMPro y DFX Analyzer existen como herramientas DFM comerciales para chapa, sin precio publicado",
+     "url": "https://sourceforge.net/software/design-for-manufacturing-dfm/"
+    },
+    {
+     "afirmacion": "Disposicion de pago por DFM independiente a US$49/mes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Las alternativas son: DFM gratis dentro de cotizacion (Xometry, Protolabs, QDJ), que obliga a subir la pieza a cada proveedor y no sirve para comparar; DFM dentro de plataformas de cotizacion (DigiFabster); y add-ins CAD de escritorio (DFMPro, DFX Analyzer) enfocados a empresas, sin precio publico ni autoservicio. Una busqueda no hallo un verificador DFM de chapa autoservicio, neutral, con DXF y STEP y precio publico. Reconozco que el DFM gratis es el riesgo F1 principal.",
+   "evidencia": [
+    {
+     "afirmacion": "QDJ Prototype da DFM gratis con cotizacion (STEP/IGES)",
+     "url": "https://qdj-prototype.com/dfm-engineering-review/"
+    },
+    {
+     "afirmacion": "DigiFabster: el DFM esta dentro del flujo de cotizacion, no es producto independiente",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    },
+    {
+     "afirmacion": "DFMPro/DFX Analyzer son add-ins CAD; no se confirmo un producto standalone DXF/STEP con suscripcion publica",
+     "url": "https://sourceforge.net/software/design-for-manufacturing-dfm/"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: SEO 'sheet metal DFM checklist' y consultas de reglas de diseno de chapa (contenido evergreen, intencion tecnica), r/engineering y foros de Fusion/SolidWorks. Un checker gratuito limitado con reporte compartible permite product-led growth y CAC cercano a cero. Debilidad: no hay volumen de busqueda verificado ni marketplace con intencion de compra directa; el canal es plausible, no probado.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de busqueda de 'sheet metal DFM checklist' y keywords afines",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC estimado por SEO/comunidad",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Uso ligado al ritmo de diseno/pedidos de cada ingeniero: equipos que iteran piezas de chapa de forma continua retienen; usuarios esporadicos cancelan tras un proyecto (churn alto en plan individual). Mitigacion: plan por equipo, historial de reportes, reglas por proveedor/proceso personalizables. No hay datos de retencion; es el punto mas incierto.",
+   "evidencia": [
+    {
+     "afirmacion": "Retencion/churn de herramientas DFM por suscripcion",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El gasto en fabricacion de chapa es enorme, pero esa cifra es del mercado de servicios, no del software DFM. Estimaciones muy dispares (USD 22 mil millones a 87 mil millones en 2025 segun la definicion). El numero de ingenieros/startups compradores potenciales de pre-chequeo DFM es plausiblemente de decenas de miles a >100k a nivel global, pero sin fuente. Tamano del mercado de software DFM de chapa: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Mercado global de servicios de fabricacion de chapa estimado en USD 87.3 mil millones en 2025 (Global Market Insights); otras fuentes citan ~USD 22 mil millones, segun la definicion",
+     "url": "https://www.gminsights.com/industry-analysis/sheet-metal-fabrication-services-market"
+    },
+    {
+     "afirmacion": "Numero de compradores potenciales de un DFM autoservicio",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada. Ventaja de Juan: conocimiento de chapa/CAD (DXF/STEP) que pocos devs tienen, y la neutralidad multi-proveedor que Xometry/Protolabs no ofreceran porque su DFM es gancho de venta. Foso posible: biblioteca de reglas por proveedor/proceso y acumulacion de datos. Pero las reglas DFM son conocimiento publico y una plataforma de cotizacion podria exponer su DFM como herramienta gratis; no hay foso tecnico fuerte.",
+   "evidencia": [
+    {
+     "afirmacion": "Las plataformas de cotizacion integran DFM dentro del flujo de pedido, no como producto neutral",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    },
+    {
+     "afirmacion": "Foso por datos/reglas por proveedor",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Fuerte. MVP viable en ~6 semanas: parseo DXF (y STEP via OpenCascade) en Node/Python, reglas geometricas basicas (agujero-borde, brida minima, alivio de plegado) con tablas por material/espesor, reporte visual. Costo de infraestructura bajo. Riesgo: STEP 3D a chapa (deteccion de pliegues) es mas dificil; empezar con DXF plano y validar con landing y prepagos como sugirio la etapa 3.",
+   "evidencia": [
+    {
+     "afirmacion": "Ajuste sugerido en etapa 3: validar con landing y prepagos antes de construir; opcion API/plugin white-label para plataformas de cotizacion",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Tiempo real de implementacion de deteccion de pliegues desde STEP",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hueco real y verificado en lo posible: no se hallo un verificador DFM de chapa autoservicio, neutral y con precio publico, mientras que el DFM gratis esta atado a cotizacion de cada proveedor y no sirve para comparar. Juan tiene ventaja de dominio, MVP rapido y canal SEO/comunidad plausible. Debilidades honestas: disposicion de pago a US$49 sin verificar, F1 por DFM gratis, retencion y volumen de busqueda sin datos; por eso conviene validar con landing y prepagos y considerar un angulo B2B white-label.",
+ "busquedas_usadas": 2
+}

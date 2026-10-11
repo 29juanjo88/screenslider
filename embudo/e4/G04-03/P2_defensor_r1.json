@@ -1,0 +1,129 @@
+{
+ "id": "G04-03",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Gestionar ECR/ECN con aprobaciones y trazabilidad en Jira hoy exige configuración propia; un usuario real pidió en la comunidad Atlassian una solución de ECO con BOM, versionado y aprobaciones. El dolor es recurrente en equipos de ingeniería (cada cambio de producto pasa por ECN). Honesto: un experto del hilo cuestiona la necesidad de una app y el hilo es de 2021 y único; urgencia semanal no probada.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo comunitario: usuario busca procedimiento ECO/BOM en Jira para productos PCB/mecánicos",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Un respondedor cuestiona la necesidad de app y sugiere Confluence (contra-evidencia)",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Magnitud/frecuencia del dolor en manufactura que usa Jira",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los fabricantes ya pagan por software de control de cambios (QMS/PLM/ERP con módulo ECO), por lo que existe presupuesto; una app ligera a US$200/mes sería más barata que PLM. Honesto: no hay precio verificado de competidores ni prueba de que usuarios Jira de manufactura paguen por una app así.",
+   "evidencia": [
+    {
+     "afirmacion": "Existe software ECN comercial independiente (Intellect, QMS) para industrias reguladas; precio sin verificar",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    },
+    {
+     "afirmacion": "ERP/PLM incluyen ECO (NetSuite, Acumatica Engineering Change Control en marketplace de SoftwareOne), lo que indica presupuesto existente",
+     "url": "https://platform.softwareone.com/product/engineering-change-control/PCP-0836-5237"
+    },
+    {
+     "afirmacion": "Disposición de pago de usuarios Jira de manufactura por una app ECO",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Dos búsquedas de la etapa 3 y una de ronda 1 no hallaron ninguna app ECR/ECN de manufactura en Atlassian Marketplace; solo flujos de Change Management tipo IT, gratuitos y sin soporte. Las alternativas reales son PLM/QMS/ERP pesados (caros, fuera de Jira) o Jira/Confluence configurado a mano. Honesto: ausencia no confirmada de forma exhaustiva y puede reflejar falta de demanda; QMS regulados cubren el segmento alto.",
+   "evidencia": [
+    {
+     "afirmacion": "Marketplace: apps de Change Management halladas son flujos IT gratuitos v1.0 sin soporte",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    },
+    {
+     "afirmacion": "Búsqueda web ronda 1 no halló app ECO/ECN de Jira en Marketplace; solo ERP/QMS ajenos (NetSuite, Acumatica, Odoo)",
+     "url": "https://platform.softwareone.com/product/engineering-change-control/PCP-0836-5237"
+    },
+    {
+     "afirmacion": "Intellect ECN como alternativa QMS dedicada",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    },
+    {
+     "afirmacion": "Inexistencia total de competidores en Marketplace",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsqueda de 'ECO', 'ECN', 'change control', 'BOM' dentro de Atlassian Marketplace, más SEO/comunidad Atlassian; modelo product-led con prueba gratuita, sin ventas. CAC bajo si el listado ranquea, y Atlassian cobra la comisión solo al vender. Honesto: no hay volumen de búsqueda verificado para esos términos; dependencia de una sola plataforma (riesgo).",
+   "evidencia": [
+    {
+     "afirmacion": "Comisión de Atlassian: Forge 84%, Connect 80% para el socio desde 1-abr-2026; Forge 100% hasta US$1M de ingresos de por vida desde 1-ene-2026; cambio previsto 1-oct-2026 (Forge 83%)",
+     "url": "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/"
+    },
+    {
+     "afirmacion": "Volumen de búsquedas y CAC real en Marketplace para términos ECO/ECN",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Una vez que el flujo ECR/ECN y su registro de auditoría viven en Jira, los registros históricos y aprobaciones crean costo de cambio alto; el proceso de cambios es continuo, no puntual. Honesto: sin datos de churn de apps Marketplace comparables.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn/retención de apps de flujos de trabajo en Atlassian Marketplace",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Intellect y ERP muestran que el control de cambios es un proceso continuo con trazabilidad, no una compra única",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Universo: fabricantes (maquinaria, electrónica, contrato) que usan Jira y gestionan cambios de ingeniería; meta de US$10k MRR requiere ~50 clientes a US$200 y US$50k ~250, cifras plausibles incluso con nicho pequeño. Honesto: el número de compradores posibles no está verificado y la rúbrica puede darle 2-3.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de mercado (nº de fabricantes con Jira) y base instalada",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Aritmética: US$10k MRR = 50 clientes a US$200/mes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada: plantillas ECR/ECN afinadas con conocimiento de procesos industriales, integraciones (BOM, PDF de auditoría), reseñas y ranking en Marketplace, y datos históricos del cliente. Honesto: el flujo es replicable por un vendor Atlassian o por Atlassian mismo (funciones nativas, F1 potencial) y no hay foso técnico fuerte; la defensa es de nicho y velocidad.",
+   "evidencia": [
+    {
+     "afirmacion": "Respondedor sugiere que Jira/Confluence nativos bastan (riesgo de F1)",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Barreras de entrada de otros vendors en Marketplace",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy favorable: Juan domina Node.js/TypeScript/React y GraphQL, útil para apps Forge; el MVP (flujo preconfigurado, roles, auditoría, PDF) es acotado y alcanzable en ~6 semanas a tiempo parcial. Atlassian gestiona cobro y distribución. Su experiencia en procesos industriales y documentación técnica le da credibilidad con el comprador. Honesto: la curva de Forge/seguridad Atlassian (Cloud Fortified) y soporte podrían alargar tiempos.",
+   "evidencia": [
+    {
+     "afirmacion": "Perfil de Juan: backend senior Node/TS/React, experiencia industrial (PLC, CAD/CAM)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Atlassian procesa pagos y paga a socios tras acumular US$500 de ganancia",
+     "url": "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hueco aparente en Atlassian Marketplace para ECR/ECN de manufactura (dos rondas de búsqueda no hallan app dedicada), con canal nombrado y product-led, ticket de US$200 que hace viable la meta con ~50-250 clientes, y MVP alcanzable en 6 semanas con el stack y conocimiento industrial de Juan. Debilidades honestas: demanda y competidores sin verificar, un experto cuestiona la necesidad, dependencia de Atlassian y riesgo de segmento regulado (apuntar a manufactura no regulada).",
+ "busquedas_usadas": 2
+}

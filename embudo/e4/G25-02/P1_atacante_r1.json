@@ -1,0 +1,117 @@
+{
+ "id": "G25-02",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es esporádico y se resuelve con tareas manuales: una consulta en un foro y un hilo de mailing list de JLab (diff de L5X con ~9k diferencias). Eso son anécdotas, no demanda recurrente. Honestamente, la evidencia sí muestra dolor real, pero no urgencia semanal ni búsqueda activa de producto.",
+   "evidencia": [
+    {
+     "afirmacion": "Usuario pide herramienta para detectar cambios no archivados en PLC (anécdota única)",
+     "url": "https://control.com/forums/search/517721/"
+    },
+    {
+     "afirmacion": "Hilo JLab: comparar L5X vs respaldo, ~9k diferencias (caso de un laboratorio, 2023)",
+     "url": "https://mailman.jlab.org/pipermail/dsg-hallb_magnets/2023-February/001361.html"
+    },
+    {
+     "afirmacion": "Frecuencia del dolor en PLCTalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Quien paga en OT ya tiene presupuesto en soluciones establecidas y vía el vendor; el ingeniero de planta rara vez compra SaaS con tarjeta a $199/mes. La disposición de pago del segmento no está verificada (precios de VersionDog/AssetCentre sin verificar), y las herramientas nativas son gratis o ya incluidas con licencia.",
+   "evidencia": [
+    {
+     "afirmacion": "TIA Portal incluye Compare Projects y VCI (V16) para Git",
+     "url": "https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/"
+    },
+    {
+     "afirmacion": "Precios de VersionDog/AssetCentre/MDT AutoSave",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Muy pobladas: nativas por vendor (Compare de TIA, Compare Tool de Studio 5000, L5K texto con Git), multi-vendor establecidas (VersionDog, MDT AutoSave) y AssetCentre de Rockwell. Riesgo F1 parcial: nativo gratis y suficiente para muchos. El hueco 'diff semántico multi-vendor' es hipótesis, no demostrada como demanda.",
+   "evidencia": [
+    {
+     "afirmacion": "VersionDog y MDT AutoSave son productos multi-vendor; Studio 5000 trae Compare Tool y exporta L5K",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Métodos de detección de cambios en TIA ya documentados",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-program-change-detection-methods"
+    },
+    {
+     "afirmacion": "VersionDog listado en GetApp",
+     "url": "https://www.getapp.co.uk/software/2042851/versiondog"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Los canales nombrados (PLCTalk, r/PLC, SEO 'PLC program version control') son comunidades que penalizan la autopromoción y el volumen de búsqueda no está medido. Un SaaS a $199 requiere ~50-250 clientes para la meta, y cada compra de OT implica aprobación de TI/seguridad, o sea ciclo largo contrario a 'autoservicio'. La variante sugerida de $49-99 exige 100-500+ clientes en un nicho pequeño. Sin evidencia de volumen de búsqueda ni de conversión.",
+   "evidencia": [
+    {
+     "afirmacion": "Demanda y volumen de búsqueda en PLCTalk/r/PLC/SEO",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC y conversión en el segmento",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Uso episódico: se diffea cuando hay incidente, auditoría o puesta en marcha; muchos integradores terminan proyectos y dejan de necesitar la herramienta (churn por proyecto). Como CLI/GitHub Action local, el valor recurrente se percibe poco y es fácil de cancelar. Sin datos de retención en este segmento.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención/churn de herramientas de versionado PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado de compradores autoservicio pequeño: plantas medianas con Rockwell/Siemens que no usan ya AssetCentre/VersionDog y aceptan un tercero. Tamaño no verificado. El juez de etapa 3 dio mercado 2 (<2,000 a ~10k compradores posibles).",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño del mercado de gestión de cambios/versionado PLC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Juez etapa 3 calificó mercado en 2/5 (interno)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Baja. Un diff de L5X/XML es técnicamente replicable (un estudiante CVUT ya hizo una librería Java; L5K/XML son texto). Rockwell/Siemens o VersionDog pueden añadir diff semántico y reporte de auditoría; los formatos propietarios cambian y pueden romper el producto. Foso inexistente salvo conocimiento de nicho.",
+   "evidencia": [
+    {
+     "afirmacion": "Estudiante CVUT construyó librería para comparar dos L5X (tags, rungs)",
+     "url": "https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"
+    },
+    {
+     "afirmacion": "Riesgo de que fabricantes lancen lo suyo (riesgo_principal de la idea)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Aquí la evidencia me favorece parcialmente: Juan conoce PLC/L5X/TIA y un MVP CLI es factible en ~6 semanas. Pero mantener parsers contra múltiples versiones de Studio 5000/TIA Openness (licencias de software, hardware de prueba, proyectos reales de muestra) y soporte a clientes industriales es carga continua para una persona a tiempo parcial. Para vender hace falta confianza/credibilidad en seguridad OT (NIS2/IEC 62443), difícil de conseguir sin referencias.",
+   "evidencia": [
+    {
+     "afirmacion": "Juez etapa 3 asignó ventaja de Juan 5/5 y MVP 3/5 (interno)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Costo y esfuerzo de mantener compatibilidad con versiones de TIA/Studio 5000",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado pequeño y episódico, saturado de alternativas nativas gratis y productos establecidos, con canal de comunidades no validado y sin foso: el dolor es real pero anecdótico, la ventaja técnica de Juan no resuelve distribución ni la reticencia de OT a comprar/subir proyectos de un tercero desconocido.",
+ "busquedas_usadas": 0
+}

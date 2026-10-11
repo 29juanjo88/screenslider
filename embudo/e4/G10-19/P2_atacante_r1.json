@@ -1,0 +1,105 @@
+{
+ "id": "G10-19",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es real pero de baja urgencia: tecnicos sin planos en la Work Order es una molestia que hoy se resuelve con PDFs adjuntos o archivos en Files. Nada indica que el manager lo busque activamente cada semana. Puntaje del juez en etapa 3: 3.",
+   "evidencia": [
+    {
+     "afirmacion": "No hay evidencia de busquedas o quejas sobre CAD en Work Orders de Field Service",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "La app Field Service nativa no incluye visualizacion 3D de modelos (favorece a la idea: el hueco existe)",
+     "url": "https://apps.apple.com/app/id1163307568"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Disposicion de pago no demostrada: el unico precio verificado de un competidor es US$25/usuario (Visual CPQ), y el precio objetivo de US$89/mes por org no tiene respaldo. Los equipos Salesforce pueden esperar que el visor sea una funcion incluida o de bajo costo.",
+   "evidencia": [
+    {
+     "afirmacion": "RenderDraw/Visual CPQ desde US$25/usuario en Capterra",
+     "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+    },
+    {
+     "afirmacion": "Presupuesto de fabricantes para un visor CAD en Salesforce",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "RenderDraw ya ofrece 3D/CAD y visual work instructions para field service en Salesforce; Accusoft Document Viewer maneja dibujos CAD/CAM en Salesforce. Ademas, adjuntar PDF/imagenes a la Work Order es gratis y suficiente para muchos (posible F1 parcial). Cobertura exacta de Work Orders de RenderDraw sin verificar, lo que debilita mi ataque, pero la diferenciacion queda en 2.",
+   "evidencia": [
+    {
+     "afirmacion": "RenderDraw ofrece 3D interactiva y CAD nativa en Salesforce via AppExchange",
+     "url": "https://stackshare.io/stackups/omega-first-software-vs-renderdraw"
+    },
+    {
+     "afirmacion": "RenderDraw ofrece visual work instructions con 3D para tecnicos de field service",
+     "url": "https://agentcommunity.org/m/renderdraw"
+    },
+    {
+     "afirmacion": "Accusoft Document Viewer para Salesforce maneja dibujos CAD/CAM (generico)",
+     "url": "https://www.idm.net.au/node/9786"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Honestidad: el canal AppExchange es nombrado y con intencion (juez dio 4), pero el volumen de busqueda para 'CAD' + 'Field Service' no esta verificado y probablemente es minimo. Salir a AppExchange exige Security Review (proceso, posible costo y tiempo no verificados) y ser Partner, lo que retrasa el primer cliente de pago. Si el canal es pequeno, el CAC se dispara hacia outreach, prohibido por el brief.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de busqueda en AppExchange para 'Field Service'/'CAD'",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Costo y plazo del Security Review de AppExchange",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Si el visor se vuelve funcion nativa o lo cubre otro ISV, el cliente cancela con facil. Es una utilidad pasiva sin flujo de trabajo propio ni datos que cree lock-in; el uso depende de que el equipo siga subiendo CAD. Sin datos de churn de apps AppExchange.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn tipico de apps AppExchange de utilidad",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Nicho diminuto: fabricantes de equipo con Salesforce Field Service y archivos CAD en Work Orders. Para US$10k MRR a US$89 se necesitan ~113 clientes; para US$50k, ~562. Con el nicho pequeno y un competidor, llegar al rango bajo es incierto, y el techo alto es improbable. Juez dio mercado 2.",
+   "evidencia": [
+    {
+     "afirmacion": "Numero de orgs con Salesforce Field Service que son fabricantes de equipo",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Calculo propio: 10,000/89 = ~112 clientes",
+     "url": "sin verificar (aritmetica propia)"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Un visor CAD en LWC apoyado en librerias abiertas se copia en semanas; RenderDraw ya esta dentro del ecosistema y podria agregar Work Orders. Salesforce podria ofrecer visor nativo. La unica barrera (conocimiento CAD de Juan) no protege frente a un incumbente con distribucion ya instalada. En esto la evidencia no me favorece del todo: la ventaja tecnica de Juan es real (5).",
+   "evidencia": [
+    {
+     "afirmacion": "RenderDraw ya presente en AppExchange/Salesforce con 3D/CAD",
+     "url": "https://stackshare.io/stackups/omega-first-software-vs-renderdraw"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "El MVP de visor es factible en ~6 semanas para Juan (juez: 3), pero lo caro es todo lo demas: aprender Apex/LWC y packaging de Salesforce, Security Review, soporte a orgs distintas, conversion de formatos CAD (STEP/IGES) pesada en el navegador y limites de gobernador de Salesforce. Dependencia total de una plataforma (riesgo 2). A tiempo parcial el plazo hasta ingresos puede exceder 6 meses.",
+   "evidencia": [
+    {
+     "afirmacion": "Tiempo y requisitos de publicar una app gestionada en AppExchange",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Nicho minusculo dentro de un solo marketplace, con competidor ya presente (RenderDraw, desde US$25/usuario) y alternativas gratis (adjuntar PDF); sin evidencia de demanda, volumen de busqueda ni disposicion a pagar US$89, y con Security Review y dependencia de Salesforce que retrasan y amenazan el MRR. Concedo: la ventaja CAD de Juan y un canal AppExchange nombrado son reales.",
+ "busquedas_usadas": 0
+}

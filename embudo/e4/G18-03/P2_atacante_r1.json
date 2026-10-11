@@ -1,0 +1,109 @@
+{
+ "id": "G18-03",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episodico y barato: una pieza rechazada se corrige en una iteracion de cotizacion, y el propio flujo del taller devuelve la correccion sin costo. No hay evidencia de que el ingeniero 'lo busque activamente' ni de cuanto dinero pierde. La idea trae evidencia_url 'sin verificar'. Honestidad: el dolor es real en equipos que piden chapa con frecuencia, pero no hay dato que lo cuantifique.",
+   "evidencia": [
+    {
+     "afirmacion": "QDJ y otros dan revision DFM con cada cotizacion, es decir el rechazo se resuelve dentro del proceso normal de compra",
+     "url": "https://qdj-prototype.com/dfm-engineering-review/"
+    },
+    {
+     "afirmacion": "Frecuencia y costo del rechazo de piezas de chapa por errores DFM",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Nadie ha demostrado pagar por DFM independiente de chapa. La unica referencia de precio (Design2Fab US$79.99/usuario/mes) es software de layout/nesting para fabricantes, no pre-chequeo para compradores; no es evidencia de pago por este producto. El usuario objetivo (diseñador/startup que compra piezas) ya obtiene DFM gratis al cotizar. A $49/mes exige 200-1000 pagadores para US$10-50k MRR con uso episodico (compras esporadicas), lo que invita a cancelar tras un proyecto.",
+   "evidencia": [
+    {
+     "afirmacion": "Design2Fab cobra US$79.99/usuario/mes pero es software de layout de chapa para fabricacion, otro comprador y otro trabajo",
+     "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+    },
+    {
+     "afirmacion": "Disposicion de pago por DFM independiente de chapa",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "F1 es riesgo serio: DFM gratis atado a cotizacion (QDJ, Wsoptics verifica fabricabilidad al cotizar, Xometry/Protolabs segun etapa 3), y SolidWorks incluye DFMXpress sin costo con la licencia, que segun TriMech puede evaluar piezas de chapa (reglas especificas sin verificar; fuente dudosa y antigua). Los usuarios de CAD profesional ya tienen reglas de chapa en la herramienta (min flange, bend relief) al disenar con la funcion nativa. Honestidad: mi busqueda no hallo un verificador DFM de chapa autoservicio, gratis y neutral que revise bend relief y hole-to-edge; ese hueco se mantiene, aunque puede significar poca demanda y no oportunidad.",
+   "evidencia": [
+    {
+     "afirmacion": "QDJ ofrece DFM gratis con cada cotizacion",
+     "url": "https://qdj-prototype.com/dfm-engineering-review/"
+    },
+    {
+     "afirmacion": "Wsoptics acepta STEP/DXF/DWG y verifica fabricabilidad dentro del flujo de compra",
+     "url": "https://wsoptics.de/shop"
+    },
+    {
+     "afirmacion": "DFMXpress viene incluido sin costo con SOLIDWORKS y puede revisar chapa (blog de reseller; reglas de chapa sin verificar)",
+     "url": "https://store.trimech.com/blog/top-5-dfmxpress-features-you-already-have/page/21"
+    },
+    {
+     "afirmacion": "Xometry/Protolabs DFM integrado gratis en cotizacion (afirmado en la idea, no verificado con URL)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (SEO 'sheet metal DFM checklist', r/engineering, foros Fusion/SolidWorks) es debil: esa busqueda tiene intencion informativa y la satisfacen guias gratis de los propios talleres; quien busca un checklist quiere un PDF, no una suscripcion. Reddit y foros prohiben o castigan la autopromocion. No existe marketplace con intencion de compra para 'DFM checker'. El ajuste de la defensa (API white-label a plataformas de cotizacion) es venta B2B con ciclo de compra, que el brief excluye como canal principal. Sin datos de volumen de busqueda ni CAC.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de busqueda y dificultad de 'sheet metal DFM checklist' y CAC esperado",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "El ajuste sugerido en etapa 3 (API white-label para plataformas de cotizacion) implica clientes B2B que ya tienen DFM propio en su flujo (p. ej. DigiFabster)",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Uso ligado a proyectos puntuales: el ingeniero revisa un lote de piezas y no vuelve hasta el siguiente diseño. Churn alto previsible en suscripcion mensual; el valor se agota cuando el diseñador aprende las reglas (min flange, relief) y dejan de fallarle. Sin datos de retencion de herramientas analogas. Honestidad: equipos de compra recurrente (job shops de diseño, OEM chicos) retendrian mejor, pero son un nicho menor y no hay evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Retencion/churn de herramientas de pre-chequeo DFM por suscripcion",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "No hay cifra verificable de compradores potenciales de un DFM de chapa independiente. La etapa 3 califica mercado 3 sin fuente. Mercado alcanzable real (ingenieros que piden chapa Y no usan CAD con chequeos Y pagarian) es mucho menor que el total de ingenieros mecanicos.",
+   "evidencia": [
+    {
+     "afirmacion": "Numero de ingenieros/startups que piden chapa a talleres y tamaño del mercado de DFM software",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Las reglas de DFM de chapa (min flange, hole-to-edge, relief) son conocimiento publico y replicable; la barrera es pequeña. Xometry, Protolabs, DigiFabster u otros pueden ampliar su DFM gratis a modo autoservicio con poco esfuerzo, ya que tienen geometria y datos reales de rechazos de miles de pedidos que Juan no tendra. Ademas un LLM/agente CAD podria generar chequeos similares. Existe incluso un paquete MCP de DFM publicado (jsr.io/@casys/mcp-dfm), señal de que el tema se comoditiza (alcance no verificado para chapa).",
+   "evidencia": [
+    {
+     "afirmacion": "Plataformas de cotizacion como DigiFabster ya integran DXF/STEP y DFM en su flujo",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    },
+    {
+     "afirmacion": "Existe un paquete MCP 'dfm' de terceros (alcance sobre chapa sin verificar)",
+     "url": "https://jsr.io/@casys/mcp-dfm@0.3.0"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Un MVP ingenuo es posible, pero la precision es lo dificil: parsear STEP, reconocer features de chapa (flanges, bends, reliefs) y evitar falsos positivos requiere kernel geometrico (OpenCascade) y un tuning por proceso/material/taller; un reporte con falsos positivos destruye la confianza. Tambien soporte de formatos variados. Honestidad: Juan tiene experiencia en chapa/CAD, lo que si ayuda y es su punto fuerte; un MVP de solo DXF 2D con reglas basicas en 6 semanas es plausible. Cuello de botella real (distribucion) no se resuelve con su ventaja tecnica.",
+   "evidencia": [
+    {
+     "afirmacion": "Complejidad y precision del reconocimiento de features de chapa desde STEP",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hay un hueco real pero probablemente porque la demanda de pago es debil: el DFM de chapa se obtiene gratis al cotizar (QDJ, Wsoptics, plataformas de cotizacion) o dentro del CAD, el pago por DFM independiente nunca se verifico, el uso es episodico (churn), el canal SEO/Reddit es informativo y no de compra, y las reglas son faciles de copiar por quienes tienen los datos. Con F1 como riesgo real y pago 2, la idea se queda en MEDIA-baja y la distribucion, cuello de botella de Juan, no mejora.",
+ "busquedas_usadas": 2
+}

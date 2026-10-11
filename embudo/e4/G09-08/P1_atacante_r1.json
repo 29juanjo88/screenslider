@@ -1,0 +1,125 @@
+{
+ "id": "G09-08",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episodico: se clasifica un producto una vez y el codigo queda en el catalogo. No es una urgencia semanal recurrente. La etapa 3 no verifico volumen de busqueda 'HS code' ni demanda real; el juez dio dolor 3. Honestidad: los aranceles cambiantes si elevan la necesidad, pero sin evidencia cuantificada de perdidas por retenciones.",
+   "evidencia": [
+    {
+     "afirmacion": "Merchants se quejan de HS codes incorrectos que causan aranceles innecesarios (dolor real, pero ligado a la clasificacion automatica de Shopify)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    },
+    {
+     "afirmacion": "Volumen real de busqueda 'HS code' en App Store y frecuencia de retenciones aduanales",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "La disposicion de pago existe, pero ancla bajo: DutyCode ofrece 25 clasificaciones gratis y planes de $19-99; DutyLookout cobra $0.09 por clasificacion. El comerciante clasifica una vez y puede cancelar (pago por catalogo, no por uso continuo). A $29 la meta de $10k MRR exige ~345 pagadores sostenidos.",
+   "evidencia": [
+    {
+     "afirmacion": "DutyCode: gratis 25 clasificaciones, Starter $19, Growth $49, Scale $99",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "DutyLookout: $0.09 por clasificacion tras 25 gratis al mes",
+     "url": "https://apps.shopify.com/dutylookout"
+    },
+    {
+     "afirmacion": "HClassify $49/$149/$399, con una sola resena de 1 estrella (senal debil de demanda)",
+     "url": "https://apps.shopify.com/hclassify"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Riesgo de F1: Shopify ya tiene gestion nativa de HS codes por pais (changelog oct 2025), busqueda por palabra clave en la ficha de producto, y Markets Pro/Managed Markets asigna HS codes con IA. Ship&co y otras apps de envio ya sincronizan HS codes a facturas comerciales. Ademas DutyCode, HClassify, DutyLookout y Zonos cubren la clasificacion. El 'suficientemente bueno gratis' es discutible porque usuarios reportan errores, pero la plataforma lo absorbe progresivamente.",
+   "evidencia": [
+    {
+     "afirmacion": "Shopify permite HS codes especificos por pais y Managed Markets muestra los codigos asignados",
+     "url": "https://changelog.shopify.com/posts/country-specific-hs-code-management-for-international-selling"
+    },
+    {
+     "afirmacion": "Hilo de comunidad: Markets Pro asigna HS codes con IA y puede sobrescribir los manuales (queja de usuario, no documentacion oficial)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    },
+    {
+     "afirmacion": "Ship&co busca por palabra clave y sincroniza HS codes de Shopify a facturas comerciales",
+     "url": "https://support.shipandco.com/hc/en-us/articles/900004157846"
+    },
+    {
+     "afirmacion": "Zonos clasifica HS automaticamente en checkout dentro de Shopify",
+     "url": "https://zonos.com/docs/global-ecommerce/shopify/get-started"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal App Store es real pero saturado: al menos DutyCode, HClassify y DutyLookout compiten por la misma busqueda, y un recien llegado sin resenas queda abajo. El SEO programatico 'hs code for [product]' no esta probado y compite con sitios de aduanas/gobierno y bases gratuitas de HS; ademas el trafico SEO es de importadores/curiosos, no necesariamente de duenos de tienda Shopify. Honestidad: el canal esta nombrado (cumple F4), pero la demanda no esta verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen al menos tres apps de HS code de bajo precio en la App Store",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Eficacia del SEO programatico 'hs code for [product]' y CAC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Retencion estructuralmente debil: la clasificacion es una tarea de una vez por SKU; tras clasificar el catalogo el comerciante puede bajar de plan o desinstalar (los planes por volumen de clasificaciones favorecen el churn). Solo los comerciantes con altas de producto frecuentes mantienen uso. Sin datos de churn de apps comparables.",
+   "evidencia": [
+    {
+     "afirmacion": "Los planes de DutyCode se miden por numero de clasificaciones (250/2,500/ilimitado), es decir, uso ligado a nuevos SKUs",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Datos de churn de apps de HS code",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El universo de tiendas es grande, pero el segmento relevante (tiendas que envian internacionalmente, con catalogo suficiente y dispuestas a pagar) es solo una fraccion y no hay cifra verificada. La etapa 3 dio mercado 4. Honestidad: el techo de compradores posibles (>100k) probablemente se cumple, esto NO me favorece como ataque. Pero hay que repartirlo entre varias apps y la solucion nativa de Shopify.",
+   "evidencia": [
+    {
+     "afirmacion": "Entre 2.8M y 2.9M tiendas Shopify vivas segun StoreLeads (feb-Q2 2026); BuiltWith reporta 6.9M sitios (definicion mas amplia). Shopify no publica la cifra",
+     "url": "https://ecomm.design/how-many-shopify-stores-are-there/"
+    },
+    {
+     "afirmacion": "Porcentaje de tiendas que envian internacionalmente y compran apps de HS",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Practicamente nula. La clasificacion HS via LLM/base arancelaria es replicable por cualquiera; ya hay 3+ clones de bajo precio y Shopify integra la funcion. El SEO programatico se copia con facilidad y los datos arancelarios son de dominio publico o licenciados caros. Sin efecto de red ni datos propietarios; la ventaja de Juan es backend generico, no conocimiento aduanero.",
+   "evidencia": [
+    {
+     "afirmacion": "Lanzamiento de HClassify en enero 2026 muestra entrada continua de competidores",
+     "url": "https://apps.shopify.com/hclassify"
+    },
+    {
+     "afirmacion": "Shopify absorbe la funcion de forma nativa (HS por pais, Markets Pro)",
+     "url": "https://changelog.shopify.com/posts/country-specific-hs-code-management-for-international-selling"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "MVP tecnico factible en 6 semanas (el juez dio 4), pero lo dificil es no tecnico: calidad de datos arancelarios por pais, responsabilidad por clasificacion errada (soporte y descargos), mantener aranceles cambiantes, aprobacion y resenas en App Store y SEO programatico a escala. La ventaja de Juan (PLC/CAD/3D) no aplica; solo Shopify/backend. La distribucion es su cuello de botella declarado y aqui exige ganar resenas frente a incumbentes.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos arancelarios de calidad y riesgo de responsabilidad: riesgo principal declarado en la propia idea",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Costo y licencias de datos arancelarios",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Idea con canal nombrado pero espacio saturado de apps de $19-99 (DutyCode, HClassify, DutyLookout, Zonos), funcion que Shopify absorbe de forma nativa (HS por pais, Markets Pro con IA), uso de una sola vez por SKU (churn alto), sin defensa ni ventaja industrial de Juan; a $29 se necesitan ~345 pagadores contra incumbentes con resenas. Concesion: dolor real, mercado grande y MVP rapido.",
+ "busquedas_usadas": 2
+}

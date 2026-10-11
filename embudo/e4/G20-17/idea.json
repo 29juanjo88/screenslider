@@ -1,0 +1,128 @@
+{
+ "idea": {
+  "id": "G20-17",
+  "nombre": "CNC Job Costing Tool",
+  "cliente_que_paga": "Talleres de maquinado pequeños",
+  "problema": "Estiman a ojo y pierden margen.",
+  "solucion": "Importa CAM y estima tiempo de máquina, herramental y costo.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "Búsqueda 'cnc job costing software' y foros Practical Machinist.",
+  "competidores": [
+   "Paperless Parts (sin verificar)",
+   "ProShop (sin verificar)"
+  ],
+  "por_que_ahora": "Inflación de costos y demanda de cotizaciones rápidas.",
+  "ventaja_juan": "Conoce CAM y manufactura.",
+  "riesgo_principal": "Incumbentes con más funciones.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "costeo CNC",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null,
+  "e2_total": 35,
+  "e2_razon": "Canal SEO de intención alta, pero incumbentes con más funciones y la importación de CAM es difícil.",
+  "e2_filtro": null,
+  "e2_desempate": 38,
+  "e3_total": 36,
+  "e3_filtro": null,
+  "e3_razon": "Pasa los filtros: hay pago en autoservicio en la categoria y canal SEO nombrado, aunque el volumen de busqueda esta sin verificar. Estimar tiempos desde CAM en 6 semanas es dificil y los incumbentes son mas profundos; media-baja.",
+  "e3_hecho": "Competidores con precio publico en autoservicio existen (Machestra desde gratis/$19/$79, QuoteForge desde $99), pero ninguno verificado como estimador CAM a $69; Paperless Parts/ProShop sin precio publicado.",
+  "e3_competidores": [
+   {
+    "nombre": "QuoteForge",
+    "precio": "desde $99/mes (moneda sin verificar)",
+    "url": "https://www.softwaresuggest.com/quoteforge"
+   },
+   {
+    "nombre": "Machestra",
+    "precio": "gratis / $19 / $79 mes",
+    "url": "https://www.capterra.com/software/1108556/Machestra"
+   },
+   {
+    "nombre": "Paperless Parts",
+    "precio": "sin verificar",
+    "url": "https://www.paperlessparts.com/cnc-machining-quoting-software-ppc/"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G20-17",
+   "filtros_fallados": [],
+   "objecion": "Incumbentes consolidados (Paperless Parts, ProShop) cubren costeo y cotizacion desde geometria CAD con mucha mas profundidad; competir a $69/mes contra suites de precio por cotizacion exige estimacion precisa de tiempos de maquina desde CAM, lo cual es dificil de construir en 6 semanas. Canal (SEO 'cnc job costing software' y Practical Machinist) sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "Paperless Parts ofrece costeo automatico desde geometria con logica de precios personalizable y job costing",
+     "url": "https://www.paperlessparts.com/cnc-machining-quoting-software-ppc/"
+    },
+    {
+     "afirmacion": "ProShop ERP incluye job costing, cost estimating, compras y envios para job shops CNC; calificacion 4.8/5 con 113 resenas en Capterra UK",
+     "url": "https://www.capterra.co.uk/compare/155436/179259/proshop/vs/paperlessparts"
+    },
+    {
+     "afirmacion": "Precios de ambos incumbentes no publicados (por cotizacion); no se pudo comparar contra $69",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Demanda y volumen de la busqueda 'cnc job costing software' y actividad en Practical Machinist",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G20-17",
+   "rescatar": true,
+   "respuesta": "Es la unica con senal de disposicion de pago: hay competidores que cobran planes mensuales publicos para talleres pequenos (QuoteForge Starter desde $99/mes, moneda por confirmar) y el canal SEO es de intencion de compra. El ataque tiene razon en que Paperless Parts y ProShop son mas profundos, pero no compiten en autoservicio barato. La ventaja de Juan (CAM/CAD) aplica directamente.",
+   "concesiones": "Estimar tiempos de maquina desde CAM es dificil en 6 semanas; precios de Paperless Parts/ProShop no publicos; volumen de busqueda y actividad en Practical Machinist sin verificar; $69 puede quedar entre un estimador gratis (Costimator, sin verificar) y QuoteForge a $99.",
+   "hechos": [
+    {
+     "afirmacion": "QuoteForge publica planes desde $99/mes (Starter) hasta $349 y $899, con cotizacion instantanea desde STEP: prueba de pago en autoservicio (moneda sin verificar)",
+     "url": "https://www.softwaresuggest.com/quoteforge"
+    },
+    {
+     "afirmacion": "Existe categoria de software de estimacion/cotizacion CNC con multiples vendors (DigiFabster, QLM Costing, CadVex, Paperless Parts)",
+     "url": "https://softwareconnect.com/roundups/best-manufacturing-estimating-quoting-software/"
+    }
+   ],
+   "ajuste_sugerido": "MVP acotado: estimador por heuristicas desde STEP/DXF (no CAM completo), nicho 3 ejes o laser, precio $69-99, canal SEO 'cnc job costing software' y comunidades.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G20-17",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 4,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 2,
+    "ventaja_juan": 4,
+    "mvp": 2,
+    "riesgo": 2
+   },
+   "total": 36,
+   "hecho_decisivo": "Competidores con precio publico en autoservicio existen (Machestra desde gratis/$19/$79, QuoteForge desde $99), pero ninguno verificado como estimador CAM a $69; Paperless Parts/ProShop sin precio publicado.",
+   "competidores_verificados": [
+    {
+     "nombre": "QuoteForge",
+     "precio": "desde $99/mes (moneda sin verificar)",
+     "url": "https://www.softwaresuggest.com/quoteforge"
+    },
+    {
+     "nombre": "Machestra",
+     "precio": "gratis / $19 / $79 mes",
+     "url": "https://www.capterra.com/software/1108556/Machestra"
+    },
+    {
+     "nombre": "Paperless Parts",
+     "precio": "sin verificar",
+     "url": "https://www.paperlessparts.com/cnc-machining-quoting-software-ppc/"
+    }
+   ],
+   "razon": "Pasa los filtros: hay pago en autoservicio en la categoria y canal SEO nombrado, aunque el volumen de busqueda esta sin verificar. Estimar tiempos desde CAM en 6 semanas es dificil y los incumbentes son mas profundos; media-baja.",
+   "busquedas_usadas": 2
+  }
+ }
+}

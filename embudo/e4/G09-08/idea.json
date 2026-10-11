@@ -1,0 +1,117 @@
+{
+ "idea": {
+  "id": "G09-08",
+  "nombre": "Shopify HS Code Pages",
+  "cliente_que_paga": "Tiendas Shopify que envían internacionalmente",
+  "problema": "Clasificar productos con HS code y aranceles causa retenciones aduanales.",
+  "solucion": "App que sugiere HS codes y genera documentos, con páginas SEO por producto/país.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'HS code' en Shopify App Store y SEO 'hs code for [product]'.",
+  "competidores": [
+   "Zonos (precios sin verificar)"
+  ],
+  "por_que_ahora": "Cambios arancelarios elevan la necesidad.",
+  "ventaja_juan": "Backend e integraciones Shopify.",
+  "riesgo_principal": "Dependencia de Shopify y datos arancelarios de calidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "HS code Shopify",
+  "tema_norm": "etiquetas y aduanas",
+  "duplicado_de": null,
+  "e2_total": 36,
+  "e2_razon": "Búsqueda 'HS code' en Shopify App Store más SEO programático dan buen canal, pero hay jugadores como Zonos, riesgo de responsabilidad y datos arancelarios costosos.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 36,
+  "e3_filtro": null,
+  "e3_razon": "El canal del marketplace existe y hay disposición de pago comprobada, pero el espacio ya está poblado de apps baratas y la diferenciación vía SEO programático no está probada. Quedan riesgos de responsabilidad por clasificación errónea y de dependencia de Shopify.",
+  "e3_hecho": "En la Shopify App Store ya existen apps de HS code de autoservicio: DutyCode (gratis con 25 clasificaciones, luego US$19-99/mes) y HClassify (US$49-399).",
+  "e3_competidores": [
+   {
+    "nombre": "DutyCode",
+    "precio": "gratis 25; US$19/49/99 al mes (listados contradictorios: también paquetes de créditos)",
+    "url": "https://apps.shopify.com/dutycode"
+   },
+   {
+    "nombre": "HClassify",
+    "precio": "US$49/149/399 al mes",
+    "url": "https://apps.shopify.com/hclassify"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G09-08",
+   "filtros_fallados": [],
+   "objecion": "Zonos ya está en Shopify App Store con clasificación HS automática al checkout, pero su precio es por contacto/ventas, lo que deja hueco para un precio de US$29 autoservicio. Riesgos: responsabilidad por clasificación errónea, datos arancelarios costosos, dependencia de Shopify; la demanda real del canal 'HS code' en la App Store no se verificó.",
+   "hechos": [
+    {
+     "afirmacion": "Zonos Duty & Tax está en Shopify App Store y clasifica HS automáticamente en checkout",
+     "url": "https://zonos.com/docs/global-ecommerce/shopify/get-started"
+    },
+    {
+     "afirmacion": "Precio de Zonos no público; requiere contactar a ventas",
+     "url": "https://support.masonhub.co/hc/en-us/articles/360054685172-Automate-International-Duties-Taxes-and-Fees-with-Zonos"
+    },
+    {
+     "afirmacion": "Otras apps HS de bajo precio en Shopify y demanda de la búsqueda 'HS code'",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G09-08",
+   "rescatar": true,
+   "respuesta": "La búsqueda confirma que en la Shopify App Store hay varias apps de HS code que cobran entre $19 y $99/mes (DutyCode, HClassify), lo que prueba disposición de pago y canal de búsqueda dentro del marketplace. Zonos oculta su precio, pero hay competidores de autoservicio, por lo que el precio de $29 no es un hueco único.",
+   "concesiones": "Mercado con varios competidores de bajo precio, diferenciación débil si es solo clasificación, riesgo de responsabilidad por clasificación errónea, dependencia de Shopify y datos arancelarios. HClassify tiene una sola reseña (1 estrella), señal débil de demanda; volumen real de la búsqueda 'HS code' sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "DutyCode: plan gratis 25 clasificaciones, Starter $19/mes (250), Growth $49/mes (2,500), Scale $99/mes ilimitado",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "HClassify: Starter $49, Growth $149, Enterprise $399 al mes; lanzada enero 2026",
+     "url": "https://apps.shopify.com/hclassify"
+    },
+    {
+     "afirmacion": "DutyLookout cobra por uso, 0.09 por clasificación tras 25 gratis al mes",
+     "url": "https://apps.shopify.com/dutylookout"
+    }
+   ],
+   "ajuste_sugerido": "Diferenciar por SEO programático ('hs code for [product]') más generación de documentos aduanales, y subir a plan escalonado $29-$79 por volumen de productos. Marcar el riesgo de responsabilidad con descargo y mostrar fuente del código.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G09-08",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 4,
+    "diferenciacion": 2,
+    "ventaja_juan": 3,
+    "mvp": 4,
+    "riesgo": 2
+   },
+   "total": 36,
+   "hecho_decisivo": "En la Shopify App Store ya existen apps de HS code de autoservicio: DutyCode (gratis con 25 clasificaciones, luego US$19-99/mes) y HClassify (US$49-399).",
+   "competidores_verificados": [
+    {
+     "nombre": "DutyCode",
+     "precio": "gratis 25; US$19/49/99 al mes (listados contradictorios: también paquetes de créditos)",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "nombre": "HClassify",
+     "precio": "US$49/149/399 al mes",
+     "url": "https://apps.shopify.com/hclassify"
+    }
+   ],
+   "razon": "El canal del marketplace existe y hay disposición de pago comprobada, pero el espacio ya está poblado de apps baratas y la diferenciación vía SEO programático no está probada. Quedan riesgos de responsabilidad por clasificación errónea y de dependencia de Shopify.",
+   "busquedas_usadas": 1
+  }
+ }
+}

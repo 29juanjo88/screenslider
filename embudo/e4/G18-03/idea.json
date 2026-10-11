@@ -1,0 +1,121 @@
+{
+ "idea": {
+  "id": "G18-03",
+  "nombre": "Automated DFM checker for sheet metal",
+  "cliente_que_paga": "Mechanical design engineers and startups ordering sheet-metal parts",
+  "problema": "Parts get rejected by shops for min-flange, hole-to-edge or bend-relief errors.",
+  "solucion": "Upload DXF/STEP and get a DFM report with highlighted violations by process.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'sheet metal DFM checklist', r/engineering, Fusion/SolidWorks forums",
+  "competidores": [
+   "Xometry and Protolabs built-in DFM (only on their quotes)"
+  ],
+  "por_que_ahora": "Engineers want pre-checks before ordering.",
+  "ventaja_juan": "DFM and sheet-metal design experience.",
+  "riesgo_principal": "Quote platforms offer free DFM feedback (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "DFM chapa",
+  "tema_norm": "DFM, reparación y validación DXF",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Pre-chequeo DFM neutral multi-proveedor con ventaja clara de Juan; Xometry/Protolabs dan DFM gratis solo dentro de su cotizacion, pago sin verificar.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 36,
+  "e3_filtro": null,
+  "e3_razon": "Hueco neutral con ventaja de Juan y SEO plausible, pero disposicion de pago y F1 por DFM gratis son riesgo real. MEDIA-baja.",
+  "e3_hecho": "No se hallo verificador DFM de chapa autoservicio neutral; Xometry/Protolabs/QDJ dan DFM gratis solo atado a cotizacion; pago por DFM independiente sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "QDJ Prototype DFM",
+    "precio": "gratis con cotizacion",
+    "url": "https://qdj-prototype.com/dfm-engineering-review/"
+   },
+   {
+    "nombre": "Hypertherm Design2Fab",
+    "precio": "US$79.99/usuario/mes",
+    "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G18-03",
+   "filtros_fallados": [],
+   "objecion": "Xometry/Protolabs dan DFM gratis dentro de sus cotizaciones y otros fabricantes (QDJ Prototype) lo dan gratis con cada cotización; el ingeniero puede obtener revisión sin pagar. Sin embargo, no encontré un verificador DFM de chapa autoservicio gratis y neutral que acepte DXF y STEP, lo que mantiene el hueco. Disposición de pago a $49 sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "QDJ Prototype ofrece revisión DFM gratis con cada cotización (STEP/IGES)",
+     "url": "https://qdj-prototype.com/dfm-engineering-review/"
+    },
+    {
+     "afirmacion": "Wsoptics acepta STEP/DXF/DWG, verifica fabricabilidad y cotiza, dentro del flujo de compra",
+     "url": "https://wsoptics.de/shop"
+    },
+    {
+     "afirmacion": "No se halló verificador DFM de chapa autoservicio gratis que acepte DXF y STEP",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Disposición de pago por DFM independiente",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G18-03",
+   "rescatar": true,
+   "respuesta": "El atacante mismo califica de moderada y concede que no hay verificador DFM de chapa autoservicio gratis y neutral. Mi busqueda no hallo uno con precio publicado: lo cercano son plataformas de cotizacion (DigiFabster, configuradores tipo DigiKey) donde el DFM va dentro del pedido, y Hypertherm Design2Fab cobra US$79.99/usuario/mes por software de layout, lo que muestra que ingenieros pagan suscripcion por herramientas de chapa. El DFM gratis atado a la cotizacion no sirve a quien compara proveedores.",
+   "concesiones": "Xometry/Protolabs/QDJ dan DFM gratis con cotizacion; disposicion de pago por DFM independiente sin verificar; F1 es riesgo real.",
+   "hechos": [
+    {
+     "afirmacion": "Hypertherm Design2Fab (layout de chapa) cobra US$79.99 por usuario al mes por suscripcion",
+     "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+    },
+    {
+     "afirmacion": "DigiFabster y configuradores como el de DigiKey aceptan DXF/STEP pero el DFM esta dentro del flujo de cotizacion, no como producto independiente",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    },
+    {
+     "afirmacion": "Disposicion de pago por DFM independiente de chapa",
+     "url": "sin verificar"
+    }
+   ],
+   "ajuste_sugerido": "Ofrecer API/plugin de DFM white-label para plataformas de cotizacion y fabricantes chicos (B2B, usando SEO 'sheet metal DFM checklist'), con plan individual freemium de pocos chequeos al mes y $49 para uso ilimitado; validar con una landing y prepagos antes de construir.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G18-03",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 2,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 3,
+    "ventaja_juan": 4,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 36,
+   "hecho_decisivo": "No se hallo verificador DFM de chapa autoservicio neutral; Xometry/Protolabs/QDJ dan DFM gratis solo atado a cotizacion; pago por DFM independiente sin verificar.",
+   "competidores_verificados": [
+    {
+     "nombre": "QDJ Prototype DFM",
+     "precio": "gratis con cotizacion",
+     "url": "https://qdj-prototype.com/dfm-engineering-review/"
+    },
+    {
+     "nombre": "Hypertherm Design2Fab",
+     "precio": "US$79.99/usuario/mes",
+     "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+    }
+   ],
+   "razon": "Hueco neutral con ventaja de Juan y SEO plausible, pero disposicion de pago y F1 por DFM gratis son riesgo real. MEDIA-baja.",
+   "busquedas_usadas": 0
+  }
+ }
+}

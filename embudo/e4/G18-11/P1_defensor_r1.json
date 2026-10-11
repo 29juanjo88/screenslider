@@ -1,0 +1,121 @@
+{
+ "id": "G18-11",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Migrar bases de tags entre Rockwell y Siemens es un proceso manual y tedioso (copiar a Excel, remapear tipos). Es un dolor agudo aunque episódico: en un proyecto de migración el ingeniero pierde horas o días, y el costo de errores de tags es alto. Honestidad: no hay datos de frecuencia; un solo hilo no prueba urgencia semanal.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo en MrPLC sobre conversión parcial de código Studio 5000 a TIA Portal, indicio de proceso manual",
+     "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+    },
+    {
+     "afirmacion": "Búsqueda ronda 1: no se halló herramienta dedicada L5X a tag table de TIA; los flujos documentados son scripting propio o copiar vía Excel",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Comprador concreto: ingeniero de controles o integrador que factura el proyecto por horas, para quien 49-149 USD por conversión es trivial frente a horas ahorradas; compra con tarjeta, sin ventas. Honestidad: no hay evidencia verificada de disposición de pago ni precios de referencia; el juez de etapa 3 dio Pago 2.",
+   "evidencia": [
+    {
+     "afirmacion": "Ajuste sugerido en etapa 3: vender por proyecto (49-149 USD) o suite multi-vendor por suscripción para integradores",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Disposición de pago de ingenieros de controles por conversión de tags",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "No se halló herramienta dedicada Studio 5000 a TIA Portal. Lo más cercano, Siemens WinCC TagConverter, cubre tags HMI desde fuentes Allen-Bradley (PLC-5/SLC/ControlLogix), no tags de PLC a PLC. Otras herramientas multi-vendor (ESA Crew, eWON Flexy Tag Generator) leen L5X o TIA pero exportan a su propio ecosistema/dispositivo, no a una tag table de TIA. La alternativa real es el trabajo manual o scripts propios, no un incumbente gratis suficientemente bueno (F1 no aplica con claridad, aunque WinCC TagConverter puede cubrir parte del caso HMI).",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens WinCC TagConverter: tags HMI desde fuentes Allen-Bradley; precio sin verificar",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    },
+    {
+     "afirmacion": "ESA Crew importa L5X/CSV de ControlLogix y SCL/DB/XLSX de TIA hacia su propia base, no convierte entre ambos",
+     "url": "https://help.esa-automation.com/kreohmi/en/tag_database_importing.html"
+    },
+    {
+     "afirmacion": "eWON Flexy Tag Generator importa tags de Logix Designer y TIA Portal para generar archivo de tags del Flexy, no tabla TIA",
+     "url": "https://forum.hms-networks.com/t/new-flexy-tag-generator-import-tags-from-plc-software-into-your-flexy/70573"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: SEO de cola larga ('convert Rockwell L5X to TIA Portal tags', 'Studio 5000 to TIA Portal'), con baja competencia por la ausencia de herramienta dedicada, más hilos útiles en PLCTalk, MrPLC y r/PLC donde los ingenieros ya preguntan. Una herramienta web gratuita de vista previa (freemium) captura tráfico con intención y CAC cercano a cero salvo tiempo de Juan. Honestidad: volumen de búsqueda y tráfico de foros sin verificar; el techo del canal es bajo por nicho.",
+   "evidencia": [
+    {
+     "afirmacion": "Existe actividad de foro (MrPLC) sobre el tema, donde se puede responder con la herramienta",
+     "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de la keyword y tráfico de PLCTalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Aquí la evidencia NO favorece: la migración es puntual y la retención de suscripción será baja. Mitigaciones: modelo de pago por proyecto con ingreso recurrente por nuevos proyectos, y ampliar a suite multi-vendor (alarmas, I/O, Mitsubishi, Omron, CODESYS) con plan para integradores que migran con frecuencia; el retrabajo en brownfield genera repetición dentro de una misma cuenta.",
+   "evidencia": [
+    {
+     "afirmacion": "Atacante y juez de etapa 3 coinciden en uso puntual y baja retención",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Frecuencia de migraciones por integrador",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado total pequeño pero no trivial: Siemens y Rockwell son de los principales proveedores de PLC y software PLC. Estimaciones de software PLC difieren por alcance (Technavio: +924.4 M USD 2024-2029, CAGR 5.6%; Reanin: 3,023 M USD en 2025), pero no miden compradores de una herramienta de conversión. Para 10k MRR a 59 USD/mes hacen falta unos 170 suscriptores, o menos de 100 conversiones por proyecto de 100 USD al mes. Honestidad: número de compradores posibles sin verificar; juez dio Mercado 2.",
+   "evidencia": [
+    {
+     "afirmacion": "Technavio: mercado de software PLC crecerá 924.4 M USD entre 2024 y 2029, CAGR 5.6%",
+     "url": "https://www.technavio.com/report/plc-software-market-analysis"
+    },
+    {
+     "afirmacion": "Reanin estima 3,023.19 M USD en 2025 y 4,427.04 M USD en 2032 (alcance distinto, estimaciones en conflicto)",
+     "url": "https://www.reanin.com/reports/programmable-logic-controller-software-market"
+    },
+    {
+     "afirmacion": "Número de ingenieros de controles que migran entre Siemens y Rockwell",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada: el nicho es demasiado pequeño para atraer a grandes, y la ventaja está en conocimiento tácito (mapeo de tipos de datos UDT/AOI, convenciones de nombres, formatos de exportación de TIA y L5X) que exige dominar ambas plataformas, algo que Juan tiene. Un competidor podría replicar con scripts si ve la demanda; Siemens podría ampliar TagConverter. Sin foso de datos o red fuerte; la defensa es nicho, SEO temprano y calidad de mapeo.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens ya ofrece TagConverter para tags HMI desde fuentes Allen-Bradley; podría extenderlo (riesgo)",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    },
+    {
+     "afirmacion": "Juan tiene experiencia práctica en TIA Portal y Studio 5000 (brief)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy favorable: un parser de L5X/CSV con generador de XLSX/XML para tag tables de TIA es un MVP de pocas semanas en Node/TypeScript, sin hardware, sin capital, con la herramienta corriendo en el navegador (los archivos del cliente no salen del equipo, lo cual ayuda a la confianza industrial). Soporte mínimo y costo de infraestructura casi cero. Riesgo: validar formatos reales requiere proyectos de ejemplo y versiones de TIA.",
+   "evidencia": [
+    {
+     "afirmacion": "Juez de etapa 3: MVP 4 y Ventaja de Juan 5",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Flujo documentado: parsear L5X y escribir XLSX/CSV con plantilla exportada de TIA es técnicamente viable; mapeo de tipos no verificado",
+     "url": "https://help.esa-automation.com/kreohmi/en/tag_database_importing.html"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hueco verificado en dos rondas de búsqueda (sin herramienta dedicada Studio 5000 a TIA Portal) combinado con la ventaja máxima de Juan y un MVP barato, con canal SEO/foros nombrado y cobro por proyecto de 49-149 USD. Debilidades admitidas: retención baja, mercado pequeño y disposición de pago sin evidencia; por eso la idea es mejor como comienzo de una suite multi-vendor de migración que como suscripción única.",
+ "busquedas_usadas": 2
+}

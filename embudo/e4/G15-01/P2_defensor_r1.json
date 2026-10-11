@@ -1,0 +1,121 @@
+{
+ "id": "G15-01",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Cotizar RFQs es trabajo manual recurrente: CloudNC (dato del vendedor) cita 2-4h+ por RFQ. Quien cotiza lento pierde el trabajo. Es dolor semanal y en dinero directo. Un hallazgo antiguo (patente) habla de 2-3 días para estimar en pequeños proveedores, anecdótico. No hay hilos de foros verificados pidiendo esto.",
+   "evidencia": [
+    {
+     "afirmacion": "CloudNC afirma 2-4h+ por RFQ cotizada manualmente (dato del vendedor)",
+     "url": "https://www.cloudnc.com/quote-agent"
+    },
+    {
+     "afirmacion": "Patente antigua: pequeños proveedores gastan 2-3 días en estimaciones 'best guess' (anecdótico, fechado)",
+     "url": "https://patents.justia.com/patent/7747470"
+    },
+    {
+     "afirmacion": "Hilos de Reddit/Practical Machinist pidiendo esta solución",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay pago probado: SpeedQuoteAI desde US$750 con prueba de 10 días, Paperless Parts levantó US$30M, lo que implica talleres que pagan. A US$149/mes se queda muy por debajo de SpeedQuoteAI, con un nicho de talleres chicos que los incumbentes no atienden por precio. Concesión: el precio de US$149 no está validado y CloudNC tiene plan gratis (3 cotizaciones/mes).",
+   "evidencia": [
+    {
+     "afirmacion": "SpeedQuoteAI desde US$750, prueba 10 días",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    },
+    {
+     "afirmacion": "Paperless Parts levantó US$30M",
+     "url": "https://startupsavant.com/news/paperless-parts"
+    },
+    {
+     "afirmacion": "CloudNC plan gratis de 3 cotizaciones/mes",
+     "url": "https://www.cloudnc.com/quote-agent"
+    },
+    {
+     "afirmacion": "Disposición a pagar US$149 validada",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hoy: cotizar a mano con hojas de cálculo, o software de gama alta. Paperless Parts apunta a talleres de 1,000-50,000 piezas únicas/año; los talleres más pequeños quedan desatendidos por precio. No hay incumbente gratis completo (juez etapa 3). Concesión: el campo está concurrido (Paperless Parts, SpeedQuoteAI, CloudNC, Costifier).",
+   "evidencia": [
+    {
+     "afirmacion": "Paperless Parts: costeo por geometría, DFM, extracción de PDF con IA; talleres de 1,000-50,000 piezas únicas/año",
+     "url": "https://www.paperlessparts.com/facts/"
+    },
+    {
+     "afirmacion": "Costifier ofrece estimación con IA para CNC",
+     "url": "https://www.cbinsights.com/compare/costifier-vs-paperless-parts"
+    },
+    {
+     "afirmacion": "Precio de Paperless Parts y Costifier",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: r/machinists, r/CNC, Practical Machinist, YouTube de talleres, SEO 'CNC quoting software'. Hay intención de compra en SEO de comparativas (existen páginas 'X vs Paperless Parts'). Debilidad honesta: no verifiqué volumen de búsqueda ni CAC; foros hostiles a la autopromoción; el canal depende de contenido de Juan. Sin ventas, prueba gratuita de autoservicio.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen comparativas públicas 'Costifier vs Paperless Parts', señal de demanda SEO de comparación",
+     "url": "https://www.cbinsights.com/compare/costifier-vs-paperless-parts"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'CNC quoting software' y CAC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Si el agente se integra al flujo de cotización (bandeja de email, tarifas de máquina y materiales del taller), cambiar cuesta; las cotizaciones son recurrentes semanales, no puntuales. Evidencia directa de churn: ninguna. Es una inferencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención/churn de software de cotización CNC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado de talleres de maquinado grande en EE.UU./UE, pero no pude verificar la cifra: dos búsquedas no dieron un conteo de establecimientos NAICS 332710. A US$149, 100-300 clientes dan US$15-45k MRR; basta una fracción pequeña de un universo que razonablemente supera varios miles. Es supuesto, no hecho.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de talleres de maquinado (NAICS 332710) en EE.UU.; la fuente sería Census CBP",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Paperless Parts apunta a talleres de 1,000-50,000 piezas únicas/año, indica segmento definido",
+     "url": "https://www.paperlessparts.com/facts/"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Débil, lo admito. Defensa posible: precio y foco en taller pequeño, plantillas de tiempos reales de máquina que Juan conoce (CAD/CAM), datos acumulados de cada taller (tarifas, historial de cotizaciones). Los incumbentes con fondos pueden bajar de gama; los LLM abaratan copiar.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores financiados cubren el mismo caso (Paperless Parts US$30M)",
+     "url": "https://startupsavant.com/news/paperless-parts"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Stack de Juan (Node/TS, Python) encaja con parseo de email, extracción PDF con LLM y STEP vía librerías; su conocimiento de CAD/CAM y tiempos de maquinado es ventaja real. Un MVP de 6 semanas cabe si se acota: email a datos extraídos a borrador de cotización con tarifas configurables del taller, sin prometer estimación automática perfecta (usuario aprueba). Concesión: estimación fiable es el punto difícil, el juez previo le dio MVP 2.",
+   "evidencia": [
+    {
+     "afirmacion": "Perfil de Juan: CAD/CAM, SolidWorks, Node/TS, Python (brief)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Estimación fiable en 6 semanas",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hay demanda y pago probados (SpeedQuoteAI desde US$750, Paperless Parts con US$30M) y un hueco de precio y foco en talleres pequeños a US$149, con canal nombrado y ventaja técnica de Juan en CAD/CAM. Debilidades honestas: competencia financiada, sin validar precio ni volumen de mercado, defensa débil y estimación difícil; el MVP debe ser un borrador asistido, no una estimación autónoma.",
+ "busquedas_usadas": 2
+}

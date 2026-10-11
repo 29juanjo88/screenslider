@@ -1,0 +1,113 @@
+{
+ "id": "G01-02",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Cotizar DXF a mano es trabajo repetitivo por pedido; un fabricante real pidió en la comunidad Shopify cotización instantánea desde DXF por área y número de perforaciones, y un experto dijo no conocer app que lo hiciera. Honestidad: es un solo hilo anecdótico y anterior a MakeQuote; no hay datos de horas perdidas por taller.",
+   "evidencia": [
+    {
+     "afirmacion": "Fabricante de acero pidió cotización instantánea desde DXF (área + perforaciones); respuesta: no conozco app que lo haga",
+     "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+    },
+    {
+     "afirmacion": "Horas semanales perdidas por taller cotizando",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los talleres ya pagan por apps/herramientas de cotización y el precio de $49 es pequeño frente a una cotización manual con valor de pedido de cientos de dólares. Honestidad: MakeQuote cobra Pro $19 (terceros) con plan gratis, lo que ancla el precio a la baja; $49 requiere justificar con lógica de láser real.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote: plan gratis 10 pedidos/mes; Pro $19/mes según listados de terceros",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Disposición de pago de talleres a $49/mes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "MakeQuote cubre DXF/STL pero su motor es de slicing para impresión 3D (tiempo de impresión, material); no se pudo confirmar que cotice láser por longitud de corte, perforaciones o área de lámina. Es nuevo (mayo 2026) y tiene 0 reseñas. ConvertCalculator ofrece plantilla con API Smidyo, pero es calculadora genérica no confirmada con checkout Shopify. Honestidad: MakeQuote es un incumbente real con plan gratis; el hueco es de profundidad, no de existencia.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote soporta láser y 3D, motor basado en slicing; 0 reseñas; no confirmado cotizar por corte/perforaciones",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "ConvertCalculator tiene plantilla Instant Laser Cutting Pricing (API Smidyo, formatos DXF/SVG/DWG); integración con checkout Shopify no confirmada",
+     "url": "https://cc-smidyo.convertcalculator.com/laser-shop-pricing-copy"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsqueda 'custom laser cut quote' / 'DXF quote' en Shopify App Store, donde la intención de compra es alta y el CAC es casi cero (sin ventas). Complementos: hilos de la comunidad Shopify donde fabricantes piden la función. Honestidad: no hay datos de volumen de búsqueda ni de conversión de la tienda; con 0 reseñas de MakeQuote, el ranking inicial es disputable pero la competencia en el listado es mínima.",
+   "evidencia": [
+    {
+     "afirmacion": "La búsqueda en App Store devuelve a MakeQuote como único resultado cercano, sin reseñas",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Fabricantes piden la función en la comunidad Shopify",
+     "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+    },
+    {
+     "afirmacion": "Volumen de búsquedas y conversión en App Store",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Si el widget está integrado en el carrito y la tienda del taller, el costo de cambio es alto (materiales, espesores y tarifas calibrados, historial de pedidos). Es herramienta de operación diaria ligada al ingreso. Honestidad: sin datos de churn de apps comparables; el riesgo es que el taller cierre la tienda online o vuelva a cotizar a mano.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps de cotización para talleres",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado de servicios de corte láser online estimado en miles de millones, pero las fuentes son inconsistentes y de baja calidad; el subconjunto relevante (talleres con Shopify) es pequeño y sin cifra. Para $10k MRR a $49 se necesitan ~205 clientes. Honestidad: el mercado direccionable es el punto más débil; no hay conteo de talleres con Shopify.",
+   "evidencia": [
+    {
+     "afirmacion": "Mercado online de corte láser: US$3,685M en 2025 (Intel Market Research; definición amplia, poco fiable)",
+     "url": "https://www.intelmarketresearch.com/online-laser-cutting-service-market-59770"
+    },
+    {
+     "afirmacion": "Otra fuente da US$0.46B en 2024 para servicios de corte y grabado láser y dice que la cotización online influye en ~41% de pedidos (inconsistente con la anterior)",
+     "url": "https://www.globalgrowthinsights.com/market-reports/laser-cutting-and-engraving-service-market-120370"
+    },
+    {
+     "afirmacion": "Número de talleres láser con tienda Shopify",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "La defensa es de profundidad técnica: parser DXF/SVG robusto, cálculo de longitud de corte, perforaciones, área, nesting y tiempos por material/espesor, que un motor de slicing 3D no replica fácilmente. Juan tiene conocimiento CAD/CAM. Honestidad: es defensa moderada; MakeQuote podría añadir lógica de láser y no hay efecto de red ni datos propietarios.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote basa su motor en slicing, orientado a 3D",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Ventaja CAD/CAM de Juan en nesting y tiempos de corte (idea.json, etapa 2)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "MVP viable en ~6 semanas con el stack de Juan (Node/TS, React, app embebida Shopify): parseo DXF/SVG con librerías existentes, fórmula de precio por material/espesor, creación de producto/variante en carrito. Infraestructura casi gratis, soporte autoservicio. Honestidad: la revisión de la App Store de Shopify y la facturación vía Shopify añaden fricción; no verifiqué librerías específicas.",
+   "evidencia": [
+    {
+     "afirmacion": "Calificación del juez etapa 3: MVP 4/5, ventaja de Juan 4/5",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "El hueco que MakeQuote deja es de profundidad: su motor es de slicing 3D y no se confirmó cotización láser por corte, perforaciones y espesor, mientras que un fabricante real pidió exactamente eso. Con canal nombrado (Shopify App Store), CAC casi cero, MVP en 6 semanas y ventaja CAD/CAM, se necesitan ~205 clientes a $49 para $10k MRR. Debilidades honestas: incumbente con plan gratis y $19, mercado de talleres con Shopify pequeño y sin cifra, dependencia de una plataforma.",
+ "busquedas_usadas": 2
+}

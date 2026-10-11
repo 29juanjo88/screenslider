@@ -1,0 +1,137 @@
+{
+ "id": "G18-03",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episodico y de baja severidad: una pieza rechazada se corrige en una iteracion y el propio fabricante devuelve feedback DFM gratis con la cotizacion. No hay evidencia de que el ingeniero lo busque activamente cada semana. La etapa 3 califico dolor 3 sin cifras de frecuencia ni costo del rechazo.",
+   "evidencia": [
+    {
+     "afirmacion": "QDJ Prototype ofrece revision DFM gratis con cada cotizacion, o sea el 'rechazo' se resuelve sin costo en el flujo normal",
+     "url": "https://qdj-prototype.com/dfm-engineering-review/"
+    },
+    {
+     "afirmacion": "Wsoptics verifica fabricabilidad dentro del flujo de compra de chapa (STEP/DXF/DWG)",
+     "url": "https://wsoptics.de/shop"
+    },
+    {
+     "afirmacion": "Frecuencia/costo de piezas de chapa rechazadas por errores DFM",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Punto mas debil de la idea: no hay evidencia de pago por un DFM independiente. El unico precio comparable (Design2Fab, US$79.99/usuario/mes) es software de layout/nesting para fabricantes, no pre-chequeo para compradores. El hueco puede existir porque nadie lo paga. Los ingenieros estan acostumbrados a DFM gratis atado a cotizacion y a DFMXpress incluido en SolidWorks. Honestidad: Design2Fab muestra que hay suscripciones en chapa, pero para otro comprador.",
+   "evidencia": [
+    {
+     "afirmacion": "Hypertherm Design2Fab cuesta US$79.99/usuario/mes (layout de chapa, otro caso de uso)",
+     "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+    },
+    {
+     "afirmacion": "DFMXpress viene incluido sin costo en SolidWorks e incluye chequeo de piezas de chapa",
+     "url": "https://store.trimech.com/?p=28841"
+    },
+    {
+     "afirmacion": "Disposicion de pago por DFM de chapa independiente",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas gratis y suficientes para el caso comun: DFM de las plataformas (Xometry/Protolabs, QDJ, Wsoptics) y DFMXpress nativo en SolidWorks, que cubre a la base mas grande de usuarios de CAD de chapa. Esto roza F1 (funciones nativas/gratis). Honestidad: una busqueda propia no hallo un verificador de chapa autoservicio gratis, neutral y con DXF+STEP; los resultados fueron de PCB (JLCPCB, AdvancedPCB) o ligados a un pedido. Ese hueco favorece a la idea pero tambien sugiere mercado inexistente. DFMXpress tiene reglas configurables; que tan completo es en chapa: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "DFMXpress incluido en SolidWorks, revisa piezas de chapa, reglas configurables",
+     "url": "https://www.javelin-tech.com/blog/2015/12/dfmxpress-solidworks-design-for-manufacturability/"
+    },
+    {
+     "afirmacion": "Busqueda propia: no aparecio un checker DFM de chapa autoservicio gratis con DXF y STEP; lo hallado eran PCB u ordenes de un proveedor",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "DigiFabster integra DFM dentro de la cotizacion instantanea",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    },
+    {
+     "afirmacion": "Cobertura de DFMXpress en reglas de chapa (min flange, hole-to-edge, bend relief)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (SEO 'sheet metal DFM checklist', r/engineering, foros Fusion/SolidWorks) es generico: la query de checklist atrae lectores de contenido gratis con intencion informativa, no compradores de herramienta; los hilos de Reddit/foros penalizan la autopromocion y no escalan a 100 pagadores. No hay marketplace con busqueda de intencion de compra. Sin volumenes de busqueda ni dificultad verificados. La defensa propuso pivotar a API white-label B2B para plataformas de cotizacion, lo que implica ventas/outreach, contra el brief.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen y dificultad de 'sheet metal DFM checklist'",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Canal de primeros 100 propuesto en la idea: SEO + r/engineering + foros, sin marketplace",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "La defensa de etapa 3 sugiere pivote a API/plugin white-label para plataformas de cotizacion (venta B2B)",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Uso esporadico: el ingeniero solo lo necesita al preparar un pedido; muchos equipos pedirian piezas pocas veces al ano. A $49/mes se cancelaria entre proyectos, churn alto y LTV bajo; el plan freemium que sugirio la defensa canibaliza. Sin datos de retencion de herramientas comparables.",
+   "evidencia": [
+    {
+     "afirmacion": "Frecuencia de pedidos de chapa de un ingeniero/startup tipico",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Churn de herramientas de uso episodico por proyecto",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Segmento nicho: ingenieros mecanicos que disenan chapa y compran a terceros, ademas muchos ya con SolidWorks/DFMXpress. Para US$10k MRR a $49 se necesitan ~205 pagadores sostenidos; con churn alto y uso esporadico exige cientos de altas por ano. Honestidad: el universo total de ingenieros mecanicos es amplio (>100k probable), pero no tengo fuente y el pagador real es un subconjunto pequeno.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamano de mercado de compradores de DFM de chapa independiente",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Meta: US$10k MRR / US$49 = ~205 clientes (calculo propio)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Debil. Las reglas DFM de chapa (min flange, hole-to-edge, bend relief) son conocimiento publico; Xometry, Protolabs, DigiFabster o Wsoptics ya tienen geometria y pueden publicar un checker gratis como gancho de adquisicion, y un LLM/CAD kernel open source reduce la barrera. DFMXpress puede ampliarse. Ventaja de Juan es conocimiento, no un foso de datos ni efecto red.",
+   "evidencia": [
+    {
+     "afirmacion": "Plataformas de cotizacion ya integran verificacion de fabricabilidad en su flujo",
+     "url": "https://wsoptics.de/shop"
+    },
+    {
+     "afirmacion": "DigiFabster ofrece cotizacion instantanea con DXF/STEP",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    },
+    {
+     "afirmacion": "Foso de datos o efecto red propio",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Parsear DXF/STEP, desplegar chapa y detectar violaciones con precision es mas dificil que un MVP de 6 semanas: requiere un kernel geometrico (p. ej. OpenCascade) y reglas distintas por proceso y proveedor; falsos positivos/negativos destruyen la confianza. Juan conoce chapa (ventaja real, honestidad), pero la calibracion con fabricantes y el soporte consumen tiempo parcial, y el cuello de botella real es distribucion, no codigo.",
+   "evidencia": [
+    {
+     "afirmacion": "Esfuerzo/precision de un motor de reglas DFM de chapa sobre STEP con kernel open source",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Wsoptics ya hace unfolding y verificacion STEP/DXF/DWG, indicando complejidad resuelta solo por proveedores con infraestructura",
+     "url": "https://wsoptics.de/shop"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hay un hueco, pero probablemente porque nadie paga por el: el DFM llega gratis con cada cotizacion y DFMXpress ya esta en SolidWorks (riesgo F1); no hay evidencia de pago independiente (solo Design2Fab a US$79.99 para otro comprador), el canal SEO/Reddit es informativo sin intencion de compra, el uso es esporadico (churn alto) y las reglas son copiables por plataformas con geometria propia. Para llegar a ~205 pagadores a $49 el cuello de botella de distribucion de Juan es justo el punto mas debil.",
+ "busquedas_usadas": 2
+}

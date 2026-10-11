@@ -1,0 +1,105 @@
+{
+ "id": "G06-04",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Los pagos fallidos son churn involuntario: dinero ya ganado que se pierde sin que el dueño lo note, de forma recurrente cada ciclo. Es dolor medible en dólares, aunque no siempre buscado activamente. Honestidad: las cifras de churn son de blogs de proveedores, no auditadas.",
+   "evidencia": [
+    {
+     "afirmacion": "Guías de proveedores estiman que el churn involuntario es ~20-40% de las cancelaciones en suscripciones (sin nombrar investigación; no auditado)",
+     "url": "https://usecaddy.com/reduce-subscription-churn"
+    },
+    {
+     "afirmacion": "Benchmark atribuido a Recurly: churn involuntario ecommerce 1.38% mensual (muestra no divulgada)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Guías indican que la lógica nativa de Woo es básica y conviene herramienta dedicada",
+     "url": "https://www.storeapps.org/reduce-subscription-churn-in-woocommerce/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay disposición de pago demostrada: competidores cobran $79/mes y $99-199/mes. Con $29/mes se posiciona muy por debajo, y si recupera un par de cobros al mes se paga solo. Honestidad: $29 exige ~350 clientes para $10k MRR, volumen alto pero no irreal.",
+   "evidencia": [
+    {
+     "afirmacion": "Subscriptions Recovery for WooCommerce: $79/mes más versión gratis limitada",
+     "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+    },
+    {
+     "afirmacion": "Sublium: $99-199/mes e incluye recuperación de pagos",
+     "url": "https://alternativeto.net/software/sublium/about"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "El reintento nativo de Woo existe pero está apagado por defecto y es limitado, por lo que no es un incumbente gratis suficientemente bueno (F1 no firme, según la etapa 3). Los competidores de pago son más caros. Honestidad: el espacio está ocupado y hay plugins gratis (p.ej. Recurio, sin verificar) y un plugin llamado Subscription Churn Saver.",
+   "evidencia": [
+    {
+     "afirmacion": "WooCommerce Subscriptions incluye reintento de pagos fallidos, desactivado por defecto",
+     "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+    },
+    {
+     "afirmacion": "Existe un plugin 'Subscription Churn Saver' enfocado en cancelaciones según una guía",
+     "url": "https://usecaddy.com/reduce-subscription-churn"
+    },
+    {
+     "afirmacion": "Existencia de plugin gratis Recurio",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsqueda 'woocommerce subscription retention' en WordPress.org y grupos de Facebook de WooCommerce, más SEO de contenido y los directorios de comparación. El freemium de WordPress.org da CAC casi cero. Honestidad: no verifiqué volumen de búsqueda ni conversión freemium; es la dimensión con evidencia más débil.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen guías de SEO sobre reducir churn en Woo que muestran demanda de contenido",
+     "url": "https://www.storeapps.org/reduce-subscription-churn-in-woocommerce/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda y tasa de conversión del directorio de WordPress.org",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "El producto se integra al cobro recurrente de la tienda y su valor aparece cada mes (cobros recuperados), con switching cost moderado. Es de las pocas categorías donde el ROI se ve en el panel. Honestidad: sin datos de retención de competidores.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención de clientes de plugins de dunning en Woo",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado: tiendas WooCommerce con Subscriptions activo, un nicho dentro de un ecosistema enorme. No logré verificar el número de tiendas con Subscriptions; la búsqueda no encontró cifra oficial. Para $10k MRR bastan ~350 pagadores.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de tiendas activas con WooCommerce Subscriptions",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Débil. Es un plugin sin burbuja de datos, copiable, y el nativo puede mejorar. Defensa posible: rapidez de ejecución, precio inferior, ofertas de pausa y alertas de cancelación (más allá del dunning), reseñas en WordPress.org. Honestidad: la diferenciación fue puntuada 2 por el juez.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores con precios altos dejan espacio para posicionarse más barato",
+     "url": "https://alternativeto.net/software/sublium/about"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy favorable: PHP/Laravel y pagos son el stack de Juan, un plugin de dunning es acotado y viable en ≤6 semanas; costo casi cero; soporte de plugin es manejable. Riesgo: depende de WordPress/WooCommerce y de las APIs de pasarelas.",
+   "evidencia": [
+    {
+     "afirmacion": "MVP puntuado 4 por el juez en etapa 3",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor monetario recurrente con pago demostrado (competidores a $79-199/mes), reintento nativo limitado y apagado por defecto, canal nombrado de bajo CAC (WordPress.org) y ejecución ideal para un dev PHP. Debilidades honestas: diferenciación débil, espacio ocupado, mercado no verificado y $29 exige ~350 clientes.",
+ "busquedas_usadas": 1
+}

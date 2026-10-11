@@ -1,0 +1,145 @@
+{
+ "id": "G06-04",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es real pero pasivo: el dueño no lo 'busca activamente' y el reintento nativo de WooCommerce Subscriptions ya cubre el caso básico (tarjetas con errores recuperables). Muchos pagos fallidos (tarjetas canceladas) no son recuperables con ningún dunning. Además la pasarela (Stripe/WooPayments) ya hace parte del trabajo. Honestidad: no hay cifra verificada de MRR perdido en tiendas Woo.",
+   "evidencia": [
+    {
+     "afirmacion": "WooCommerce Subscriptions incluye sistema nativo de reintento de pagos fallidos",
+     "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+    },
+    {
+     "afirmacion": "El reintento nativo funciona para errores reintentables (fondos insuficientes) pero no para tarjetas canceladas; guía de pruebas de WooCommerce",
+     "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/test-retry-system/"
+    },
+    {
+     "afirmacion": "Guías dicen que la lógica nativa es básica y conviene herramienta dedicada (a favor de la idea, lo concedo)",
+     "url": "https://www.storeapps.org/reduce-subscription-churn-in-woocommerce/"
+    },
+    {
+     "afirmacion": "Cifra de MRR perdido por pagos fallidos en tiendas Woo",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay pago demostrado por competidores ($79/mes y $99-199/mes), pero a $29/mes Juan se posiciona por debajo del mercado, lo que obliga a ~345 clientes para $10k MRR, y los dueños de tiendas pequeñas de Woo están acostumbrados a plugins de pago único anual y a versiones gratuitas. Honestidad: la disposición de pago es el punto más favorable a la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Subscriptions Recovery for WooCommerce $79/mes más versión gratis limitada",
+     "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+    },
+    {
+     "afirmacion": "Sublium $99-199/mes",
+     "url": "https://alternativeto.net/software/sublium/about"
+    },
+    {
+     "afirmacion": "Los clientes de Woo prefieren licencias anuales vs mensuales",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Tres capas: (1) reintento nativo incluido en Woo Subscriptions, (2) plugins de pago dedicados (Subscriptions Recovery, Sublium, Smart Subscriptions de StoreApps con reintentos configurables sobre Stripe), (3) un plugin llamado 'Subscription Churn Saver' ya mencionado en una guía, y plugins gratis como Recurio según etapa 3. El hueco ya está ocupado; el 'ángulo' no está definido en la idea (solo 'dunning inteligente, pausa y alertas').",
+   "evidencia": [
+    {
+     "afirmacion": "Subscriptions Recovery for WooCommerce",
+     "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+    },
+    {
+     "afirmacion": "Sublium incluye recuperación de pagos",
+     "url": "https://alternativeto.net/software/sublium/about"
+    },
+    {
+     "afirmacion": "Existe un plugin 'Subscription Churn Saver' enfocado en interceptar cancelaciones (según una guía)",
+     "url": "https://usecaddy.com/reduce-subscription-churn"
+    },
+    {
+     "afirmacion": "Smart Subscriptions de StoreApps ofrece reintento automático con calendarios configurables sobre Stripe",
+     "url": "https://www.storeapps.org/product/smart-subscriptions-for-woocommerce/"
+    },
+    {
+     "afirmacion": "Recurio plugin gratis (mencionado en etapa 3 sin URL propia)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal propuesto (búsqueda en WordPress.org + grupos de Facebook) es débil: WordPress.org solo distribuye plugins con núcleo gratis (freemium), con conversión baja y dependencia de reseñas/instalaciones activas que un recién llegado no tiene frente a incumbentes; los grupos de Facebook prohíben o limitan la autopromoción y no son canal escalable. No hay un listado verificado de la búsqueda 'woocommerce subscription retention' con volumen de demanda. Riesgo de plataforma única (WordPress.org/WooCommerce.com). CAC real sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda de 'woocommerce subscription retention' en WordPress.org",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Conversión freemium de plugins de WordPress.org a pago",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Normas anti-autopromoción de grupos de Facebook de WooCommerce",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Paradoja: un plugin anti-churn tiene su propio churn. Si funciona, el dueño lo instala y lo deja; si su tienda tiene pocas suscripciones (la mayoría de tiendas Woo pequeñas), el valor mensual es bajo y cancelará. A $29/mes con una tienda pequeña el ROI es difícil de demostrar. Además el costo de cambiar es bajo (desactivar un plugin). Sin datos verificados de retención de plugins Woo de pago.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención/churn de plugins de pago mensuales para WooCommerce",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Distribución de tiendas Woo con suscripciones activas por tamaño",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El mercado direccionable es una fracción pequeña: de millones de tiendas WooCommerce, solo las que usan Woo Subscriptions (única cifra encontrada: ~48,000 instalaciones, fuente de terceros sin fecha clara) y de estas solo las que tienen volumen suficiente para pagar $29/mes. Para $10k MRR a $29 se necesitaría ~0.7% de esas ~48k instalaciones (cálculo propio: 345/48,000), pero con competidores y nativo capturando parte. Además el total de tiendas Woo cae 8% interanual según una fuente. Honestidad: ~48k no es un mercado minúsculo (>2,000), y 345 clientes es alcanzable sobre el papel.",
+   "evidencia": [
+    {
+     "afirmacion": "WooCommerce Subscriptions: 47,997 instalaciones (1.1% penetración), fuente de terceros, fecha poco clara",
+     "url": "https://redstagfulfillment.com/how-many-woocommerce-stores-are-live/"
+    },
+    {
+     "afirmacion": "~4.15 millones de tiendas WooCommerce activas a mediados de 2026, -8% interanual (fuente de terceros, conflictiva con otras cifras)",
+     "url": "https://www.webtonic.io/blog/e-commerce-wordpress-statistics"
+    },
+    {
+     "afirmacion": "Cifra oficial de Automattic de instalaciones de Woo Subscriptions",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Prácticamente nula. Un plugin PHP de dunning/pausa/alertas es replicable en semanas por cualquier competidor existente (Sublium, StoreApps) o por Woo mismo ampliando su reintento nativo. No hay datos propietarios, efecto de red ni integración industrial de la ventaja de Juan (PLC/CAD/3D no aplica). Integrar 'inteligencia' (ML de momento óptimo de reintento) requeriría datos de muchos comercios que no tendrá al inicio. Los jueces previos le dieron diferenciación 2.",
+   "evidencia": [
+    {
+     "afirmacion": "Diferenciación 2/5 en juicio de etapa 3 (e3_razon en idea.json)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Smart Subscriptions de StoreApps ya ofrece reintentos configurables",
+     "url": "https://www.storeapps.org/product/smart-subscriptions-for-woocommerce/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "MVP en 6 semanas es factible (stack PHP del fundador), eso lo concedo. El problema es después: soporte de compatibilidad con múltiples pasarelas (Stripe, PayPal, WooPayments), versiones de WP/Woo/Subscriptions, y soporte técnico a tiendas que pierden dinero si el plugin falla con cobros reales (responsabilidad alta en pagos). El cuello de botella de Juan es distribución, y el canal elegido exige reseñas, contenido y soporte continuo en el foro, que consume el tiempo parcial. La ventaja de Juan es 'PHP y pagos', genérica sin conocimiento industrial único.",
+   "evidencia": [
+    {
+     "afirmacion": "Matriz de compatibilidad Woo Subscriptions con pasarelas y versiones: tiempo de soporte estimado",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Ventaja de Juan declarada: 'Backend PHP/Laravel y pagos' (idea.json)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Idea con dolor real y disposición de pago demostrada, pero en un espacio ya ocupado (reintento nativo + Subscriptions Recovery, Sublium, Smart Subscriptions, otro 'Churn Saver') sin ángulo diferenciado, con precio de $29 por debajo de los incumbentes que exige ~345 clientes, canal WordPress.org/Facebook sin demanda verificada, sin defensa ante copias y total de etapa 3 de solo 38 (MEDIA). Para Juan, cuyo cuello de botella es distribución, es un clon sin ángulo en un nicho dependiente de una plataforma.",
+ "busquedas_usadas": 2
+}

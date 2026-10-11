@@ -1,0 +1,110 @@
+{
+ "idea": {
+  "id": "G12-15",
+  "nombre": "Airtable to Postgres Sync",
+  "cliente_que_paga": "Developers and ops teams outgrowing Airtable",
+  "problema": "Airtable rate limits and size caps hurt apps built on it.",
+  "solucion": "Continuous two-way sync of Airtable bases to Postgres/Supabase with schema mapping.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Airtable Marketplace, SEO 'Airtable to Postgres sync', developer forums.",
+  "competidores": [
+   "Whalesync",
+   "Stacksync"
+  ],
+  "por_que_ahora": "Many Airtable prototypes become production apps.",
+  "ventaja_juan": "Strong backend and database skills.",
+  "riesgo_principal": "Established competitors; price competition.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "Airtable database sync",
+  "tema_norm": "automatización no-code",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Whalesync y Stacksync validan presupuesto pero ocupan el canal SEO; poca diferenciacion y presion de precio.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 37,
+  "e3_filtro": null,
+  "e3_razon": "Presupuesto validado y mercado amplio, pero Whalesync ya ocupa el rango barato y el canal SEO, sin ángulo diferenciador. Riesgo de plataforma Airtable y guerra de precios.",
+  "e3_hecho": "Whalesync cubre Airtable-Postgres desde ~$5-49/mes según fuente (oficial sin confirmar) y Stacksync $1,000+/mes",
+  "e3_competidores": [
+   {
+    "nombre": "Whalesync",
+    "precio": "Personal $5, Starter $20, Plus $40, Pro $200 (PricingSaaS; fuentes discrepan)",
+    "url": "https://pricingsaas.com/companies/whalesync"
+   },
+   {
+    "nombre": "Stacksync",
+    "precio": "Starter $1,000/mes",
+    "url": "https://www.stacksync.com/pricing.md"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G12-15",
+   "filtros_fallados": [],
+   "objecion": "Competidores consolidados ocupan el espacio; Stacksync cuesta $1,000+/mes (enterprise) y deja hueco abajo, pero Whalesync ya cubre el rango $49-$299 con Postgres; competir en precio con un tercero sin ventaja clara. Precios de Whalesync discrepan entre fuentes (sin verificar oficial). Airtable Marketplace como canal sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "Stacksync Starter $1,000/mes anual ($1,400 mensual), Pro $3,000",
+     "url": "https://www.stacksync.com/pricing.md"
+    },
+    {
+     "afirmacion": "Whalesync listado desde $49/mes (tiers $49/$99/$299 segun terceros; fuentes discrepan)",
+     "url": "https://br.nocode.tech/tools/whalesync"
+    },
+    {
+     "afirmacion": "Precio oficial de Whalesync y canal Airtable Marketplace",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G12-15",
+   "rescatar": false,
+   "respuesta": "Concedo en lo esencial: Whalesync y Stacksync ocupan el espacio. Los precios de Whalesync discrepan entre fuentes (desde $5 hasta $99+), lo que confirma que no hay hueco claro de precio y la presión competitiva es alta.",
+   "concesiones": "Competidores consolidados, sin diferenciación, canal Airtable Marketplace sin verificar, precio oficial de Whalesync sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "Precios de Whalesync discrepan entre terceros ($5/$20/$40/$200 vs $49/$129 vs $99/$249); oficial sin verificar",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    }
+   ],
+   "ajuste_sugerido": "Solo con ángulo muy específico (p. ej. sincronización con esquema tipado para Supabase) sin verificar; no recomendado.",
+   "busquedas_usadas": 0
+  },
+  "juez": {
+   "id": "G12-15",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 4,
+    "canal": 3,
+    "mercado": 4,
+    "diferenciacion": 1,
+    "ventaja_juan": 4,
+    "mvp": 3,
+    "riesgo": 2
+   },
+   "total": 37,
+   "hecho_decisivo": "Whalesync cubre Airtable-Postgres desde ~$5-49/mes según fuente (oficial sin confirmar) y Stacksync $1,000+/mes",
+   "competidores_verificados": [
+    {
+     "nombre": "Whalesync",
+     "precio": "Personal $5, Starter $20, Plus $40, Pro $200 (PricingSaaS; fuentes discrepan)",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    },
+    {
+     "nombre": "Stacksync",
+     "precio": "Starter $1,000/mes",
+     "url": "https://www.stacksync.com/pricing.md"
+    }
+   ],
+   "razon": "Presupuesto validado y mercado amplio, pero Whalesync ya ocupa el rango barato y el canal SEO, sin ángulo diferenciador. Riesgo de plataforma Airtable y guerra de precios.",
+   "busquedas_usadas": 1
+  }
+ }
+}

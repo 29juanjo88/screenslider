@@ -1,0 +1,113 @@
+{
+ "id": "G10-19",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es moderado y episódico: un técnico sin plano puede pedirlo por correo/teléfono o adjuntar un PDF/imagen a la Work Order con funciones nativas. No hay evidencia de que lo busquen activamente ni de pérdidas semanales cuantificadas. El juez de etapa 3 dio dolor 3.",
+   "evidencia": [
+    {
+     "afirmacion": "Field Service nativa no incluye visualización 3D de modelos (esto favorece a la idea, pero no prueba urgencia)",
+     "url": "https://apps.apple.com/app/id1163307568"
+    },
+    {
+     "afirmacion": "No hay datos cuantificados de pérdida por falta de planos en Work Orders",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El único precio verificado de un competidor es RenderDraw/Visual CPQ desde US$25/usuario, lo que ancla el valor percibido por debajo de US$89/mes plano y sugiere compra por usuario. Los presupuestos de field service van a FSM/CPQ, no a visores. Sin evidencia de que equipos de field service paguen por visor CAD aparte.",
+   "evidencia": [
+    {
+     "afirmacion": "RenderDraw Visual CPQ desde US$25/usuario en Capterra",
+     "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+    },
+    {
+     "afirmacion": "Disposición de pago por un visor CAD en Work Orders",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "RenderDraw ya ofrece 3D/CAD y visual work instructions en Salesforce (listing en AppExchange según una fuente secundaria; cobertura de Work Orders sin verificar). Accusoft Document Viewer para Salesforce maneja dibujos CAD/CAM. Además adjuntar PDF/imágenes y enlaces a PLM/visores externos es el sustituto gratis. Mi búsqueda no encontró un listing específico de visor CAD en Work Orders (esto favorece a Juan, pero la ausencia no está confirmada en AppExchange directamente). Microsoft Dynamics 365 Field Service ya trae visor 3D nativo, señal de que la plataforma puede copiar la función.",
+   "evidencia": [
+    {
+     "afirmacion": "RenderDraw ofrece 3D interactivo y CAD en Salesforce",
+     "url": "https://stackshare.io/stackups/omega-first-software-vs-renderdraw"
+    },
+    {
+     "afirmacion": "RenderDraw visual work instructions con 3D para técnicos",
+     "url": "https://agentcommunity.org/m/renderdraw"
+    },
+    {
+     "afirmacion": "Accusoft Document Viewer para Salesforce maneja CAD/CAM",
+     "url": "https://www.idm.net.au/node/9786"
+    },
+    {
+     "afirmacion": "Dynamics 365 Field Service incluye visor 3D nativo",
+     "url": "https://learn.microsoft.com/en-us/dynamics365/field-service/3d-viewer"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "AppExchange es un canal nombrado (a favor), pero el volumen de búsqueda para 'CAD' + 'Field Service' no está verificado y probablemente sea minúsculo. Un listing paid exige security review (la doc más reciente indica US$999 por revisión inicial, reenvíos y re-revisiones periódicas; versiones antiguas indican US$2,550 + US$150 de listing, y una nota de 2014 menciona 15-25% de ingresos) más proceso de partner; la cifra actual debe confirmarse. Conseguir 100 pagadores solo por búsquedas orgánicas en una categoría tan estrecha es dudoso y el fallback sería outbound, prohibido por el brief.",
+   "evidencia": [
+    {
+     "afirmacion": "Security review: US$999 en la doc más reciente (v244) para soluciones paid; US$2,550+US$150 en versiones antiguas",
+     "url": "https://developer.salesforce.com/docs/atlas.en-us.244.0.packagingGuide.meta/packagingGuide/security_review_fees.htm"
+    },
+    {
+     "afirmacion": "Nota de prensa 2014: revenue share de 15 o 25% en AppExchange (histórica, puede haber cambiado)",
+     "url": "https://www.networkworld.com/article/677930/mobile-apps-salesforce-com-to-impose-massive-fee-hike-for-app-store-security-review.html"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda en AppExchange para 'CAD'/'Field Service'",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un visor es una función auxiliar: si la empresa cambia de FSM o Salesforce lanza/compra la función, churn total. Dependiente de que el cliente siga subiendo CAD manualmente a Salesforce. Sin datos de retención de apps comparables. Honestidad: una vez integrado en procesos de Work Orders, el costo de cambio puede ser medio, pero no hay evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención de apps de AppExchange comparables",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Intersección estrecha: fabricantes de equipo con Salesforce Field Service y archivos CAD, comprando vía autoservicio. A US$89/mes, llegar a US$10k MRR exige ~112 clientes, y a US$50k ~560; en un nicho así 100+ clientes es ambicioso. El juez puso mercado 2. No encontré cifra verificable del tamaño.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de clientes de Salesforce Field Service con equipo fabricado y CAD (tamaño de mercado)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Un visor 2D/3D sobre librerías abiertas es replicable en semanas por RenderDraw, Accusoft u otro ISV de Salesforce; Microsoft ya integró un visor 3D nativo en su FSM y Salesforce podría hacerlo. Sin efectos de red ni datos propietarios. La única barrera (conocimiento CAD) es débil si se usan motores de conversión comerciales/abiertos.",
+   "evidencia": [
+    {
+     "afirmacion": "Dynamics 365 Field Service ya trae visor 3D nativo",
+     "url": "https://learn.microsoft.com/en-us/dynamics365/field-service/3d-viewer"
+    },
+    {
+     "afirmacion": "RenderDraw ya está establecido en el espacio",
+     "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Juan no tiene experiencia declarada en Apex/LWC/Salesforce (su stack es Node/PHP/React/Python); hay curva de aprendizaje, packaging de managed package, security review con escaneo (Code Analyzer/Checkmarx), cumplimiento de límites de gobernador y soporte a múltiples orgs. MVP en 6 semanas es apretado y el juez dio 3. Honestidad: la conversión CAD sí es su fortaleza (ventaja 5).",
+   "evidencia": [
+    {
+     "afirmacion": "Esfuerzo real de aprobar la security review de Salesforce para un ISV sin experiencia previa",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Nicho diminuto y dependiente de una plataforma: el único precio verificado (RenderDraw US$25/usuario) pone en duda los US$89 planos, la demanda de búsqueda en AppExchange para CAD en Field Service no está verificada, y alcanzar 100+ clientes sin ventas es poco creíble. Dynamics 365 ya trae visor 3D nativo, lo que muestra riesgo de absorción por la plataforma. A favor de Juan: no se halló listing específico para Work Orders y la ventaja CAD es real, pero eso no compensa tamaño, canal incierto y ejecución en Apex.",
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,121 @@
+{
+ "idea": {
+  "id": "G16-01",
+  "nombre": "Peppol Invoice Validator API",
+  "cliente_que_paga": "Developers de SaaS/ERP que emiten e-facturas UE",
+  "problema": "Deben emitir facturas Peppol BIS/EN16931 válidas y los errores de validación son crípticos.",
+  "solucion": "API y CLI que valida y repara UBL/CII contra EN16931 y reglas nacionales, con mensajes legibles.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'peppol validator api', GitHub, directorios de APIs, posts en dev.to",
+  "competidores": [
+   "Storecove",
+   "Billit",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Mandatos e-invoicing B2B en Bélgica (2026), Polonia, Francia y la ley ViDA con fechas límite.",
+  "ventaja_juan": "Backend senior en Node/TS y XML/validación de esquemas.",
+  "riesgo_principal": "Los proveedores de acceso Peppol pueden incluir validación gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "e-invoicing UE validación",
+  "tema_norm": "facturación, impuestos y conciliación",
+  "duplicado_de": null,
+  "e2_total": 41,
+  "e2_razon": "Mandato e-invoicing da intención de búsqueda, pero reglas Schematron oficiales son gratis y el valor es solo mensajes legibles/reparación.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 36,
+  "e3_filtro": null,
+  "e3_razon": "Hay intención de búsqueda por los mandatos, pero las reglas son gratis y el precio de referencia es pago por uso, muy por debajo de US$79/mes. No falla F1 con claridad, pero la diferenciación es estrecha y el riesgo de que los proveedores Peppol lo regalen es real.",
+  "e3_hecho": "Hay validadores web gratis (ecosio, Lappa) y un actor de Apify a US$4 por 1,000 validaciones; no se confirmó un REST API gratis dedicado.",
+  "e3_competidores": [
+   {
+    "nombre": "Apify Peppol BIS Preflight Validator",
+    "precio": "US$4 por 1,000 validaciones",
+    "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+   },
+   {
+    "nombre": "ecosio validator",
+    "precio": "gratis (web)",
+    "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G16-01",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "Existen validadores Peppol/EN16931 gratis (peppolvalidator.com, ecosio, Lappa) y un actor de API en Apify; las reglas Schematron oficiales son gratuitas, así que el valor diferencial (mensajes legibles/reparación) es estrecho. No se confirmó que exista un REST API gratis dedicado, por lo que F1 es parcial.",
+   "hechos": [
+    {
+     "afirmacion": "Validadores web gratis de Peppol/EN16931: ecosio (soporte de corrección solo para clientes de pago)",
+     "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+    },
+    {
+     "afirmacion": "Validador gratis web con reglas BIS 3.0 y EN16931",
+     "url": "https://lappa.org/free-peppol-xml-validator-tool/"
+    },
+    {
+     "afirmacion": "Actor de Apify con API HTTP para validar UBL/EN16931 (precio sin verificar)",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+    },
+    {
+     "afirmacion": "Precios de Storecove y Billit",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G16-01",
+   "rescatar": false,
+   "respuesta": "Hay validadores gratis (ecosio, Lappa, peppol.helger.com sin SLA) y un actor de Apify a $4 por 1,000 validaciones, que ancla el precio de mercado muy por debajo de $79/mes. No se halló un REST API de suscripción con precio publicado.",
+   "concesiones": "F1 parcial y precio de referencia bajo (pago por uso). El valor diferencial (mensajes legibles y reparación) es estrecho y el riesgo de que los proveedores Peppol lo regalen es real.",
+   "hechos": [
+    {
+     "afirmacion": "Actor de Apify valida UBL/Peppol BIS a partir de $4.00 por 1,000 facturas validadas",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    },
+    {
+     "afirmacion": "peppol.helger.com ofrece validación gratuita sin SLA (según doc de la librería ubl_ex)",
+     "url": "https://hexdocs.pm/ubl_ex/UblEx.Validator.md"
+    }
+   ],
+   "ajuste_sugerido": "",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G16-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 2,
+    "ventaja_juan": 3,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 36,
+   "hecho_decisivo": "Hay validadores web gratis (ecosio, Lappa) y un actor de Apify a US$4 por 1,000 validaciones; no se confirmó un REST API gratis dedicado.",
+   "competidores_verificados": [
+    {
+     "nombre": "Apify Peppol BIS Preflight Validator",
+     "precio": "US$4 por 1,000 validaciones",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+    },
+    {
+     "nombre": "ecosio validator",
+     "precio": "gratis (web)",
+     "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+    }
+   ],
+   "razon": "Hay intención de búsqueda por los mandatos, pero las reglas son gratis y el precio de referencia es pago por uso, muy por debajo de US$79/mes. No falla F1 con claridad, pero la diferenciación es estrecha y el riesgo de que los proveedores Peppol lo regalen es real.",
+   "busquedas_usadas": 1
+  }
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "G25-02",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es esporádico y ya tiene paliativos gratis. Las pruebas son anecdóticas: un hilo de mailing list de JLab (laboratorio, no planta con presupuesto) y una consulta en control.com. Es un 'estaría bien' ocasional (auditoría, depuración tras un incidente), no una pérdida semanal que se busque activamente. Honestidad: el dolor sí está documentado, pero la muestra es mínima.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo JLab: comparar L5X controlador vs respaldo, ~9k diferencias (caso aislado, de un laboratorio)",
+     "url": "https://mailman.jlab.org/pipermail/dsg-hallb_magnets/2023-February/001361.html"
+    },
+    {
+     "afirmacion": "Consulta en control.com pidiendo detectar cambios no archivados",
+     "url": "https://control.com/forums/search/517721/"
+    },
+    {
+     "afirmacion": "Demanda real en PLCTalk/r/PLC (volumen de búsquedas/hilos)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Quien paga en este segmento compra suites con soporte, respaldo automático y cumplimiento (VersionDog, MDT AutoSave, AssetCentre, Copia), no un diff. Un diff semántico es una función, no un producto; el ingeniero de planta lo hará con herramientas gratis o con el presupuesto del integrador. $199/mes exige aprobación de compra en planta mediana, y el brief excluye ciclos con ventas. No se verificó ningún precio de competidores (mi búsqueda de precios de VersionDog tampoco devolvió cifras), así que la disposición de pago es inferida. Honestidad: la existencia de competidores de pago sugiere presupuesto en el segmento, pero para otro producto.",
+   "evidencia": [
+    {
+     "afirmacion": "VersionDog es software comercial de gestión de cambios para PLC/CNC; sin precio publicado",
+     "url": "https://www.getapp.co.uk/software/2042851/versiondog"
+    },
+    {
+     "afirmacion": "Copia ofrece control de versiones basado en Git con herramienta de merge para Logix V21-V38 (producto comercial)",
+     "url": "https://docs.copia.io/docs/git-based-source-control/supported-vendors/rockwell/rockwell-1"
+    },
+    {
+     "afirmacion": "Precios de VersionDog/AssetCentre/MDT AutoSave",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Es la dimensión más dañina. F1 en riesgo: TIA Portal trae Compare Projects y VCI (V16) que exporta XML a Git; Studio 5000 trae Compare Tool; L5X/L5K son texto/XML diffeable con Git; Rockwell acaba de publicar herramientas CLI gratuitas 'VCS Custom Tools' para usar Git con Studio 5000 (según un foro, sin confirmar con Rockwell directamente); Copia cubre Git+merge para Logix; librerías MIT como L5Sharp permiten construir un diff en horas. Los fabricantes avanzan hacia el hueco que la idea quiere ocupar. El 'incumbente gratis suficientemente bueno' (F1) es defendible para el caso base.",
+   "evidencia": [
+    {
+     "afirmacion": "TIA Portal incluye Compare Projects y Version Control Interface (V16) que exporta XML para Git",
+     "url": "https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/"
+    },
+    {
+     "afirmacion": "Rockwell publicó herramientas CLI gratuitas (VCS Custom Tools) para Git con Studio 5000, según un post de foro (no verificado en la fuente de Rockwell); con ruido si hay AOI con source protection",
+     "url": "https://forum.inductiveautomation.com/t/rockwell-logix-ci-cd-and-version-control-tools/111055"
+    },
+    {
+     "afirmacion": "Copia soporta Logix V21-V38 con merge tool",
+     "url": "https://docs.copia.io/docs/git-based-source-control/supported-vendors/rockwell/rockwell-1"
+    },
+    {
+     "afirmacion": "L5Sharp, librería C# MIT para consultar/manipular L5X",
+     "url": "https://nuget.org/packages/L5Sharp/0.9.1"
+    },
+    {
+     "afirmacion": "Studio 5000 Compare Tool y VersionDog/MDT AutoSave como terceros multi-vendor (fuente secundaria)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (PLCTalk, r/PLC, SEO 'PLC program version control') es de baja intención de compra y hostil a la autopromoción; los foros de PLC son de técnicos sin presupuesto, mientras que el comprador (gerente OT) no está ahí. Las búsquedas SEO ya las ocupan VersionDog, Copia, AssetCentre y blogs de industrialmonitordirect. No hay marketplace/app store para este nicho, así que el camino real hacia 100 clientes a $199 es contenido lento o outbound a integradores (excluido). Sin demanda de búsqueda medida. Honestidad: el costo de publicar contenido es casi cero para Juan, pero el techo de conversión es incierto.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda y actividad de compra en PLCTalk/r/PLC / keywords 'PLC program version control'",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Resultados SEO del tema ya cubiertos por contenido de competidores y blogs (ej. industrialmonitordirect, Copia docs)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "CAC estimado",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Uso episódico: el valor aparece en auditorías o incidentes, no semanalmente. El ajuste sugerido en etapa 3 (CLI/GitHub Action local, $49-99/sitio) reduce el precio y hace más fácil el churn de un producto que se instala una vez y se olvida; además el cliente puede reemplazarlo por un script interno. Cambios de formato (nuevas versiones de TIA/Studio 5000) obligan a mantenimiento continuo para no perder funcionalidad. Sin datos de churn para el segmento.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn/retención de herramientas de control de versiones OT",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Las exportaciones con source protection cambian en cada export y ensucian los diffs, lo que implica casos límite de mantenimiento permanente",
+     "url": "https://forum.inductiveautomation.com/t/rockwell-logix-ci-cd-and-version-control-tools/111055"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Solo vale el nicho de plantas/integradores con PLC Rockwell o Siemens, que no usen ya una suite y que acepten subir o instalar una herramienta de terceros. A $199 se necesitan ~50-250 clientes para $10-50k MRR (50 a $199 ≈ $10k; 250 ≈ $50k). Si el precio baja a $49-99 (ajuste de la defensa), se requieren ~100-1000. No hay cifra verificada del número de compradores. Honestidad: el mercado global de OT es grande, pero el segmento de autoservicio sin ventas es probablemente pequeño.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de mercado de control de versiones/gestión de cambios PLC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Número de plantas/integradores que usan Rockwell/Siemens sin suite de versionado",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula. L5X es XML abierto y las librerías MIT lo parsean; un integrador o estudiante lo replica (ya hay una tesis CVUT con diff de L5X en Java). El foso real sería la cobertura de formatos propietarios (TIA Openness, ACD), justo lo que los fabricantes pueden cerrar o incluir. Copia, VersionDog y AssetCentre tienen clientes instalados, integraciones con controladores y soporte. Sin efecto de red ni datos propios.",
+   "evidencia": [
+    {
+     "afirmacion": "Tesis CVUT con librería Java que compara dos L5X",
+     "url": "https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"
+    },
+    {
+     "afirmacion": "L5Sharp (MIT) y otras librerías L5X abiertas",
+     "url": "https://nuget.org/packages/L5Sharp/0.9.1"
+    },
+    {
+     "afirmacion": "Fabricantes lanzan sus propias herramientas Git (Rockwell VCS Custom Tools, TIA VCI)",
+     "url": "https://forum.inductiveautomation.com/t/rockwell-logix-ci-cd-and-version-control-tools/111055"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Aquí la evidencia favorece a Juan en parte: conoce L5X/TIA y un diff básico es construible en pocas semanas. Pero el MVP vendible exige diff semántico multi-vendor (rungs, tags, AOI, hardware config), historial, reportes de auditoría y mapeo a IEC 62443/NIS2, más soporte técnico para cada versión de firmware/IDE, y acceso a licencias de TIA/Studio 5000 y proyectos reales para probar, lo que cuesta dinero y tiempo. Confianza: las empresas OT piden seguridad (subir proyectos a la nube), lo que empuja a un binario on-prem con más trabajo de empaquetado y soporte. Un solo desarrollador a tiempo parcial atendiendo plantas es frágil.",
+   "evidencia": [
+    {
+     "afirmacion": "Ventaja de Juan: conoce PLC Siemens/Rockwell y formatos (declaración del fundador en la idea)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Coste de licencias TIA/Studio 5000 para pruebas y el esfuerzo de soporte por versión",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "El hueco que se pretende ocupar (diff y versionado de PLC) lo están cerrando gratis los propios fabricantes (Compare Projects y VCI de TIA, Compare Tool de Studio 5000, herramientas CLI Git de Rockwell según un foro) y lo cubren suites establecidas (VersionDog, Copia, AssetCentre), con un comprador OT reacio a subir proyectos y un canal de foros de baja intención de compra, sin demanda ni precios verificados; es un buen ajuste de habilidades de Juan pero un producto frágil, fácil de copiar y con riesgo de F1.",
+ "busquedas_usadas": 2
+}

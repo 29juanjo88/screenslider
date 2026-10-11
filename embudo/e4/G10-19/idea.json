@@ -1,0 +1,107 @@
+{
+ "idea": {
+  "id": "G10-19",
+  "nombre": "AppExchange Field Service CAD Viewer",
+  "cliente_que_paga": "Field service manager at equipment maker using Salesforce",
+  "problema": "Technicians lack drawing and part views inside work orders.",
+  "solucion": "Lightning component showing 2D/3D CAD of assets on Work Orders from uploaded files.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "AppExchange search 'Field Service' and 'CAD'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Servitization drives field service on Salesforce.",
+  "ventaja_juan": "CAD viewer/conversion knowledge.",
+  "riesgo_principal": "Niche and Salesforce dependency.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "CAD viewer salesforce",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null,
+  "e2_total": 40,
+  "e2_razon": "Ventaja CAD fuerte y canal AppExchange con intención, pero nicho diminuto y security review de Salesforce; competidores sin verificar.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 38,
+  "e3_filtro": null,
+  "e3_razon": "Canal AppExchange nombrado y ventaja CAD fuerte, pero nicho diminuto, dependencia de Salesforce y competidor existente.",
+  "e3_hecho": "RenderDraw ya ofrece 3D/CAD y visual work instructions para field service en Salesforce (Visual CPQ desde US$25/usuario en Capterra); cobertura de Work Orders y listing AppExchange sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "RenderDraw",
+    "precio": "desde US$25/usuario (Capterra, Visual CPQ)",
+    "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G10-19",
+   "filtros_fallados": [],
+   "objecion": "Nicho diminuto, dependencia total de Salesforce y security review de AppExchange; ademas ya hay una oferta Salesforce-nativa de visualizacion 3D/CAD (RenderDraw), aunque no se confirmo que cubra Work Orders. Canal AppExchange existe pero la demanda para 'CAD' en Field Service no esta verificada.",
+   "hechos": [
+    {
+     "afirmacion": "RenderDraw ofrece visualizacion 3D interactiva y CAD nativa en Salesforce via AppExchange (cobertura de Work Orders sin verificar)",
+     "url": "https://stackshare.io/stackups/omega-first-software-vs-renderdraw"
+    },
+    {
+     "afirmacion": "La app Field Service nativa no incluye visualizacion 3D de modelos",
+     "url": "https://apps.apple.com/app/id1163307568"
+    },
+    {
+     "afirmacion": "Volumen de busqueda en AppExchange y precios",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G10-19",
+   "rescatar": true,
+   "respuesta": "No se encontro un visor CAD confirmado especifico para Work Orders de Field Service en AppExchange; RenderDraw ofrece visual work instructions y 3D en Salesforce (valida demanda) pero cobertura de Work Orders sin verificar. Accusoft es generico y antiguo. Canal AppExchange nombrado, ventaja CAD fuerte, sin filtro fallado segun el atacante.",
+   "concesiones": "Nicho diminuto, dependencia total de Salesforce, security review, competidor RenderDraw existe, precios y volumen de busqueda sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "RenderDraw ofrece visual work instructions con modelo 3D para tecnicos en field service sobre Salesforce (listing AppExchange no confirmado)",
+     "url": "https://agentcommunity.org/m/renderdraw"
+    },
+    {
+     "afirmacion": "Accusoft Document Viewer para Salesforce maneja dibujos CAD/CAM pero no es especifico de Field Service",
+     "url": "https://www.idm.net.au/node/9786"
+    },
+    {
+     "afirmacion": "Volumen de busqueda y precios en AppExchange",
+     "url": "sin verificar"
+    }
+   ],
+   "ajuste_sugerido": "Posicionar como visor 2D/3D de piezas y planos en Work Orders y Assets para fabricantes de equipo, a $89-149/mes, con conversion STEP/DXF reutilizable fuera de Salesforce.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G10-19",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 4,
+    "mercado": 2,
+    "diferenciacion": 2,
+    "ventaja_juan": 5,
+    "mvp": 3,
+    "riesgo": 2
+   },
+   "total": 38,
+   "hecho_decisivo": "RenderDraw ya ofrece 3D/CAD y visual work instructions para field service en Salesforce (Visual CPQ desde US$25/usuario en Capterra); cobertura de Work Orders y listing AppExchange sin verificar.",
+   "competidores_verificados": [
+    {
+     "nombre": "RenderDraw",
+     "precio": "desde US$25/usuario (Capterra, Visual CPQ)",
+     "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+    }
+   ],
+   "razon": "Canal AppExchange nombrado y ventaja CAD fuerte, pero nicho diminuto, dependencia de Salesforce y competidor existente.",
+   "busquedas_usadas": 1
+  }
+ }
+}

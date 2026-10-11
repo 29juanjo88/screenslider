@@ -1,0 +1,99 @@
+{
+ "idea": {
+  "id": "G12-01",
+  "nombre": "CAD Preview for Zapier/Make",
+  "cliente_que_paga": "Ops or product engineers at manufacturing e-commerce and quoting SaaS",
+  "problema": "Automations cannot read STEP/DXF/IGES files, so teams preview and quote parts by hand.",
+  "solucion": "Zapier/Make/n8n app that converts CAD files to PNG/SVG/glTF plus metadata (bbox, volume) in one step.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Zapier App Directory and Make app listing for searches like 'STEP file', plus n8n community nodes and SEO 'step to png api'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "No-code automation is mainstream while CAD tooling stays closed to it.",
+  "ventaja_juan": "Knows CAD formats and can build converters nearly free.",
+  "riesgo_principal": "Depends on Zapier/Make approval and on open-source CAD kernels for parsing.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "CAD file automation",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null,
+  "e2_total": 42,
+  "e2_razon": "Hueco real de CAD en no-code con canal de directorios Zapier/Make y ventaja alta, pero demanda hipotetica y dependencia de plataformas.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 37,
+  "e3_filtro": null,
+  "e3_razon": "Hueco real en directorios y ventaja maxima de Juan, pero demanda hipotetica, APIs HTTP sustituyen el conector y riesgo de aprobacion de plataforma. Canal nombrado pero sin demanda verificada.",
+  "e3_hecho": "No se hallo app Zapier/Make para STEP a PNG/glTF; solo APIs HTTP de conversion (convert3d, Adom); demanda y disposicion de pago sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "convert3d.org STEP to GLB (API)",
+    "precio": "sin verificar",
+    "url": "https://convert3d.org/step-to-glb"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G12-01",
+   "filtros_fallados": [],
+   "objecion": "La demanda es hipotetica: no se encontro ninguna app de Zapier/Make para CAD ni evidencia de busquedas en esos directorios; ademas ya existen APIs de conversion STEP a GLB que se pueden llamar con HTTP/webhook generico, lo que reduce el valor de un conector dedicado. Riesgo de aprobacion de plataforma.",
+   "hechos": [
+    {
+     "afirmacion": "No se hallo guia ni app nativa de Zapier o Make para convertir STEP/CAD a PNG/glTF; solo servicios de conversion con API",
+     "url": "https://convert3d.org/step-to-glb"
+    },
+    {
+     "afirmacion": "Adom Step2GLB expone un endpoint HTTP de conversion STEP a GLB y /thumbnail para PNG, invocable desde webhook/HTTP generico",
+     "url": "https://wiki.adom.inc/p/pg_h304hqp5bg"
+    },
+    {
+     "afirmacion": "Volumen de busquedas 'STEP file' en Zapier/Make y disposicion de pago a $49/mes: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G12-01",
+   "rescatar": true,
+   "respuesta": "El hueco persiste: la busqueda no hallo app nativa de Zapier/Make para STEP a imagen; solo ConvertAPI generico (sin confirmar STEP) y scripts DIY. El ataque tiene razon en que hay APIs HTTP, pero el segmento no-code compra conectores precisamente para evitar HTTP y hosting propio.",
+   "concesiones": "Demanda de busqueda en directorios y disposicion de pago a $49 sin verificar; riesgo de aprobacion de plataforma; existen APIs de conversion invocables por webhook.",
+   "hechos": [
+    {
+     "afirmacion": "No se hallo app Zapier/Make dedicada a STEP a PNG/glTF; Make tiene ConvertAPI generico (soporte STEP sin verificar) y la ruta practica es webhook a script FreeCAD/CadQuery",
+     "url": "https://www.make.com/en/integrations/convertapi/zapier"
+    }
+   ],
+   "ajuste_sugerido": "Lanzar primero como API REST con SEO 'step to png api' y n8n community node (sin aprobacion), y el conector Zapier/Make como canal secundario; cobrar por uso/plan $29-49.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G12-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 2,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 2,
+    "diferenciacion": 4,
+    "ventaja_juan": 5,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 37,
+   "hecho_decisivo": "No se hallo app Zapier/Make para STEP a PNG/glTF; solo APIs HTTP de conversion (convert3d, Adom); demanda y disposicion de pago sin verificar.",
+   "competidores_verificados": [
+    {
+     "nombre": "convert3d.org STEP to GLB (API)",
+     "precio": "sin verificar",
+     "url": "https://convert3d.org/step-to-glb"
+    }
+   ],
+   "razon": "Hueco real en directorios y ventaja maxima de Juan, pero demanda hipotetica, APIs HTTP sustituyen el conector y riesgo de aprobacion de plataforma. Canal nombrado pero sin demanda verificada.",
+   "busquedas_usadas": 2
+  }
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "idea": {
+  "id": "G01-17",
+  "nombre": "Lead Time Estimator",
+  "cliente_que_paga": "Tiendas de productos hechos bajo pedido o fabricados",
+  "problema": "Los clientes preguntan cuándo llegará y la tienda no puede prometer fechas.",
+  "solucion": "Estima fecha de entrega según cola de producción, capacidad y transporte, mostrada en producto y carrito.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'delivery date' / 'estimated delivery' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Expectativas de entrega transparentes reducen tickets.",
+  "ventaja_juan": "Conocimiento de cola de producción en máquinas.",
+  "riesgo_principal": "Cada taller modela capacidad distinto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "fecha de entrega fabricación",
+  "tema_norm": "producción y reservas",
+  "duplicado_de": null,
+  "e2_total": 36,
+  "e2_razon": "Canal Shopify nombrado y ángulo de cola de producción, pero cada taller modela capacidad distinto y el mercado es chico.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 38,
+  "e3_filtro": null,
+  "e3_razon": "Canal Shopify nombrado y hueco en modelado por cola, pero las apps gratis de fecha de entrega cubren la mayor parte y cada taller modela distinto. No falla F1/F5 con evidencia suficiente; riesgo de plataforma.",
+  "e3_hecho": "Busqueda no halla app Shopify con cola de produccion real; EDD apps cuestan 0-20 USD y Orderkraft 69 USD/mes+uso es lo mas cercano.",
+  "e3_competidores": [
+   {
+    "nombre": "Orderkraft: made to order",
+    "precio": "69 USD/mes + uso",
+    "url": "https://apps.shopify.com/orderkraft"
+   },
+   {
+    "nombre": "EDD Availability App",
+    "precio": "5.99 USD/mes",
+    "url": "https://apps.shopify.com/edd-availability-app"
+   },
+   {
+    "nombre": "ArrivesBy",
+    "precio": "gratis a 19.99 USD/mes",
+    "url": "https://apps.shopify.com/arrives-by"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G01-17",
+   "filtros_fallados": [
+    "F1",
+    "F5"
+   ],
+   "objecion": "El canal Shopify existe, pero está saturado de apps de fecha de entrega gratis o de $4.99-$19.99/mes; a $29/mes y con modelado distinto por taller es difícil diferenciarse y llegar al volumen necesario.",
+   "hechos": [
+    {
+     "afirmacion": "ArrivesBy: plan gratis, pago desde $4.99 hasta $19.99/mes",
+     "url": "https://apps.shopify.com/arrives-by"
+    },
+    {
+     "afirmacion": "Simple Estimated Delivery Date: gratis con 10 reglas, Basic $4.99, Plus $9.99",
+     "url": "https://apps.shopify.com/simple-estimated-delivery-date"
+    },
+    {
+     "afirmacion": "H3 Estimated Delivery: gratis con 1 regla, Premium $8/mes",
+     "url": "https://apps.shopify.com/estimated-delivery-date-h3"
+    },
+    {
+     "afirmacion": "Hay al menos 8 apps de fecha de entrega en listados comparativos",
+     "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+    },
+    {
+     "afirmacion": "Ninguna de esas apps modela cola de producción: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G01-17",
+   "rescatar": false,
+   "respuesta": "No hay evidencia nueva que refute el ataque; el canal Shopify está saturado de apps gratis o baratas y la variabilidad por taller frena el producto.",
+   "concesiones": "F1 y F5 plausibles; competidores verificados por el atacante; mercado chico; sin evidencia propia.",
+   "hechos": [],
+   "ajuste_sugerido": "",
+   "busquedas_usadas": 0
+  },
+  "juez": {
+   "id": "G01-17",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 4,
+    "mercado": 3,
+    "diferenciacion": 3,
+    "ventaja_juan": 2,
+    "mvp": 4,
+    "riesgo": 2
+   },
+   "total": 38,
+   "hecho_decisivo": "Busqueda no halla app Shopify con cola de produccion real; EDD apps cuestan 0-20 USD y Orderkraft 69 USD/mes+uso es lo mas cercano.",
+   "competidores_verificados": [
+    {
+     "nombre": "Orderkraft: made to order",
+     "precio": "69 USD/mes + uso",
+     "url": "https://apps.shopify.com/orderkraft"
+    },
+    {
+     "nombre": "EDD Availability App",
+     "precio": "5.99 USD/mes",
+     "url": "https://apps.shopify.com/edd-availability-app"
+    },
+    {
+     "nombre": "ArrivesBy",
+     "precio": "gratis a 19.99 USD/mes",
+     "url": "https://apps.shopify.com/arrives-by"
+    }
+   ],
+   "razon": "Canal Shopify nombrado y hueco en modelado por cola, pero las apps gratis de fecha de entrega cubren la mayor parte y cada taller modela distinto. No falla F1/F5 con evidencia suficiente; riesgo de plataforma.",
+   "busquedas_usadas": 2
+  }
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "idea": {
+  "id": "G18-11",
+  "nombre": "PLC tag list converter between vendors",
+  "cliente_que_paga": "Controls engineers migrating PLC projects",
+  "problema": "Migrating tag databases between Siemens and Rockwell is manual.",
+  "solucion": "Web tool mapping tag exports (CSV/XML) across TIA Portal and Studio 5000 formats.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'convert tag list Studio 5000 TIA', PLCTalk and r/PLC",
+  "competidores": [
+   "Vendor migration tools (sin verificar)"
+  ],
+  "por_que_ahora": "Brownfield migrations increase.",
+  "ventaja_juan": "Hands-on TIA Portal and Studio 5000.",
+  "riesgo_principal": "Niche volume may stay small.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "migración PLC",
+  "tema_norm": "conversión de tags PLC/SCADA",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Ventaja PLC real y búsqueda concreta, pero migración puntual (baja retención) y conversión parcial; sin evidencia.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 37,
+  "e3_filtro": null,
+  "e3_razon": "Hueco real y ventaja maxima de Juan, pero uso puntual, baja retencion y pago incierto; canal r/PLC/PLCTalk/SEO sin verificar el volumen.",
+  "e3_hecho": "No se hallo herramienta dedicada Studio 5000 a TIA (lo mas cercano: Siemens WinCC TagConverter, solo tags HMI); hilo MrPLC indica proceso manual. Demanda y pago sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "Siemens WinCC TagConverter",
+    "precio": "sin verificar",
+    "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G18-11",
+   "filtros_fallados": [],
+   "objecion": "Migración puntual (baja retención) y conversión parcial: la lógica y el hardware no migran, solo los tags; mercado de uso esporádico. No se halló una herramienta dedicada, lo cual es un hueco pero también señal de demanda baja.",
+   "hechos": [
+    {
+     "afirmacion": "No se encontró una herramienta dedicada para convertir tags Studio 5000 a TIA Portal; el más cercano es Siemens WinCC TagConverter (tags HMI, fuentes Allen-Bradley PLC-5/SLC/ControlLogix)",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    },
+    {
+     "afirmacion": "Hilo en foro sobre conversión parcial de Studio 5000 a TIA, lo que indica demanda y proceso manual",
+     "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+    },
+    {
+     "afirmacion": "Tamaño de demanda de la búsqueda y de PLCTalk o r/PLC no verificado",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G18-11",
+   "rescatar": true,
+   "respuesta": "Hay un hueco confirmado por dos búsquedas: no se encontró herramienta dedicada Studio 5000 a TIA Portal (lo más cercano es WinCC TagConverter de Siemens, para tags HMI) y existe un hilo de MrPLC sobre conversión parcial. La ventaja de Juan en ambas plataformas es real. Puede monetizarse por proyecto, no solo por suscripción.",
+   "concesiones": "Uso puntual con baja retención; la lógica y el hardware no migran, solo tags; tamaño de demanda y tráfico de PLCTalk o r/PLC sin verificar; un hilo no prueba disposición de pago. La segunda búsqueda no halló un hilo de conversión directa de Studio 5000 a TIA.",
+   "hechos": [
+    {
+     "afirmacion": "Hilo en MrPLC sobre conversión parcial de código de Studio 5000 a TIA Portal",
+     "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+    },
+    {
+     "afirmacion": "Lo más cercano es Siemens WinCC TagConverter (tags HMI desde fuentes Allen-Bradley)",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    }
+   ],
+   "ajuste_sugerido": "Vender por proyecto (pago por conversión, 49-149 USD) o suite de migración multi-vendor (tags, alarmas, I/O) con suscripción para integradores que migran con frecuencia.",
+   "busquedas_usadas": 2
+  },
+  "juez": {
+   "id": "G18-11",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 2,
+    "canal": 3,
+    "mercado": 2,
+    "diferenciacion": 4,
+    "ventaja_juan": 5,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 37,
+   "hecho_decisivo": "No se hallo herramienta dedicada Studio 5000 a TIA (lo mas cercano: Siemens WinCC TagConverter, solo tags HMI); hilo MrPLC indica proceso manual. Demanda y pago sin verificar.",
+   "competidores_verificados": [
+    {
+     "nombre": "Siemens WinCC TagConverter",
+     "precio": "sin verificar",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    }
+   ],
+   "razon": "Hueco real y ventaja maxima de Juan, pero uso puntual, baja retencion y pago incierto; canal r/PLC/PLCTalk/SEO sin verificar el volumen.",
+   "busquedas_usadas": 0
+  }
+ }
+}

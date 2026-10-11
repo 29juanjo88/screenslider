@@ -1,0 +1,137 @@
+{
+ "id": "G19-01",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero no es urgente ni se busca activamente. Los errores aparecen en puesta en marcha, pero la revisión manual y el simulador del IDE son el hábito establecido; no hay evidencia de que alguien busque un linter de ST. La mayor parte del PLC sigue siendo ladder/FBD (no lintable como texto) y el ST es solo una parte. Honestidad: el dolor de calidad es real en equipos que ya usan ST, pero no hay dato que mida su frecuencia o costo.",
+   "evidencia": [
+    {
+     "afirmacion": "Solo los lenguajes representables en texto (ST e IL) sirven para este enfoque de CI en PLC",
+     "url": "https://jacow.org/icalepcs2021/papers/TUPV035.pdf"
+    },
+    {
+     "afirmacion": "Se pregunta en comunidad B&R qué herramientas de análisis estático usar sobre ST y las respuestas son anecdóticas, mayormente C/C++ (Lizard); no hay señal de búsqueda activa de un linter dedicado",
+     "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+    },
+    {
+     "afirmacion": "Frecuencia y costo del dolor medidos (encuesta)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "No hay evidencia de disposición a pagar. Los ingenieros de control compran licencias de IDE a través del empleador y los complementos de calidad se perciben como parte del IDE o gratis. Hay alternativas open source (iec-checker, iecst) que fijan el precio de referencia cerca de cero para el nicho que sí usa Git. El precio de $29/mes por equipo exige ~350 pagadores para $10k MRR y ~1,700 para $50k, en un nicho sin tamaño demostrado.",
+   "evidencia": [
+    {
+     "afirmacion": "iec-checker es analizador open source de ST y PLCopen XML (gratis)",
+     "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+    },
+    {
+     "afirmacion": "Existen analizadores académicos/open source de ST (ST-Checker, crate iecst)",
+     "url": "https://docs.rs/crate/iecst/0.5.0"
+    },
+    {
+     "afirmacion": "Disposición de pago de integradores/OEM por un linter de ST",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "La etapa 3 asumió que no hay incumbente comercial dominante, pero mi búsqueda halló que CODESYS Static Analysis ya existe: más de 100 reglas configurables y conjuntos de reglas de PLCopen Coding Guidelines, integrado en el IDE CODESYS, y distribuido también en Schneider Machine Expert y ABB (documentación propia de ABB). Es precisamente el ecosistema abierto/Git que la defensa propone como ángulo (CODESYS/PLCopen XML), de modo que el ajuste sugerido choca con un incumbente nativo del IDE (riesgo F1 parcial: funciones nativas de plataforma, aunque de pago dentro de Professional Developer Edition y no gratis). Además Schneider EcoStruxure Verification, iec-checker, iecst, Lizard y extensiones VS Code. Honestidad: CODESYS Static Analysis no se ejecuta como paso de CI en pull requests con reporte, por lo que ahí podría quedar un hueco, pero no lo verifiqué (sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "CODESYS Static Analysis: más de 100 reglas parametrizables, conjuntos personalizados y reglas de PLCopen Coding Guidelines; se incluye en el paquete Professional Developer Edition",
+     "url": "https://content.helpme-codesys.com/en/CODESYS%20Static%20Analysis/_san_overview.html"
+    },
+    {
+     "afirmacion": "El análisis estático también aparece integrado en la documentación de ABB y Schneider Machine Expert (mismo motor CODESYS)",
+     "url": "https://help.plc.abb.com/f_staticanalysis_introduction.html"
+    },
+    {
+     "afirmacion": "Schneider EcoStruxure Control Engineering Verification, análisis estático comercial por créditos, precio bajo cotización",
+     "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+    },
+    {
+     "afirmacion": "Si CODESYS Static Analysis soporta ejecución en CI con reporte en pull requests",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Siemens SIMATIC AX: reglas de análisis de código nativas para ST/SCL",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado es débil. GitHub Marketplace atiende a desarrolladores de software, no a ingenieros de control, que raramente usan Git/CI; la búsqueda 'structured text linter' tiene volumen sin verificar y es probable que sea mínimo. Foros (PLCtalk, r/PLC) prohíben o toleran mal la autopromoción y no son un canal escalable de 100 pagadores. Para llegar a integradores se acaba haciendo outreach, lo que viola el criterio de ventas casi nulas. Honestidad: el uso de Git en PLC crece, pero la evidencia es de proveedores, no una encuesta.",
+   "evidencia": [
+    {
+     "afirmacion": "Copia (proveedor de control de versiones para PLC) afirma que muchos programadores PLC no han adoptado Git porque los archivos son binarios y las herramientas propietarias; es opinión de proveedor, no encuesta",
+     "url": "https://copia.io/?p=1397"
+    },
+    {
+     "afirmacion": "Un integrador citado por Control Design espera que ST gane popularidad pero señala obstáculos: control del fabricante, estabilidad y dificultad de mantenimiento",
+     "url": "https://www.controldesign.com/control/plcs-pacs/article/55308447/the-future-of-industrial-controls-embracing-text-based-languages-and-modern-software-practices"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'structured text linter' y reglas de los foros sobre autopromoción",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un linter es una herramienta de uso episódico: se configura una vez, y el equipo puede cancelar tras el proyecto. Los integradores trabajan por proyectos, de modo que el gasto sigue al proyecto y no es recurrente; el churn estimado es alto. Además, si el equipo pasa a CODESYS Static Analysis dentro del IDE o a una herramienta gratuita, se pierde. Sin datos de retención de herramientas análogas.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención/churn de herramientas de linting de pago en nichos industriales",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Las alternativas open source cubren el caso básico, bajando el costo de cambio",
+     "url": "https://docs.rs/crate/iecst/0.5.0"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Tamaño sin fuente: no hay cifra verificable de ingenieros que escriban ST bajo Git/CI. El subconjunto relevante (ST + Git + CI + disposición a pagar) es una fracción pequeña de los ingenieros de control. La literatura académica indica que las herramientas de análisis estático son raras en PLC, lo que puede leerse como oportunidad pero también como ausencia de demanda. Estimo que el mercado alcanzable es probablemente < 2,000 compradores, pero es mi inferencia, sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Las herramientas de análisis estático son raras en programación PLC (puede ser falta de demanda u oportunidad)",
+     "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"
+    },
+    {
+     "afirmacion": "Número de ingenieros que escriben ST con Git/CI y TAM en USD",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Baja. Las reglas de linting basadas en IEC 61131-3 y PLCopen Coding Guidelines son públicas; un competidor open source (iec-checker ya cubre ST y PLCopen XML) o un fabricante (CODESYS, Siemens, Schneider) lo replica o lo integra en el IDE. El foso es el conocimiento de Juan, que no escala ni es protegible. Los formatos propietarios (TIA, Studio 5000) cierran el acceso a la mayor parte del mercado y los fabricantes controlan las APIs (TIA Openness). Honestidad: la barrera de dominio sí frena a desarrolladores web genéricos, pero no a los fabricantes.",
+   "evidencia": [
+    {
+     "afirmacion": "CODESYS Static Analysis implementa ya reglas de PLCopen Coding Guidelines (reglas públicas replicables)",
+     "url": "https://content.helpme-codesys.com/en/CODESYS%20Static%20Analysis/_san_overview.html"
+    },
+    {
+     "afirmacion": "iec-checker open source ya analiza ST y PLCopen XML",
+     "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestidad: un MVP de parser+reglas es factible en ~6 semanas para Juan, y aquí la evidencia le favorece. Pero el parser completo de ST/SCL con dialectos de fabricante (SCL de Siemens, ST de Rockwell, CODESYS) es una cola larga de compatibilidad, y sin acceso gratuito a los formatos propietarios (exportación de TIA, L5X) el producto queda limitado a texto exportado. Mantener reglas por dialecto, soporte a ingenieros no técnicos y validación con clientes de planta es carga continua de tiempo parcial. El cuello de botella es la distribución, no el código, y aquí el MVP no lo resuelve.",
+   "evidencia": [
+    {
+     "afirmacion": "Solo ST/IL son representables en texto para CI; el resto de lenguajes IEC queda fuera del alcance",
+     "url": "https://jacow.org/icalepcs2021/papers/TUPV035.pdf"
+    },
+    {
+     "afirmacion": "Esfuerzo de mantenimiento de dialectos ST/SCL por fabricante",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hay un cliente con dolor real pero sin evidencia de que pague: el nicho (ingenieros de control que escriben ST y usan Git/CI) es pequeño y sin dimensionar, ya tiene opciones gratis (iec-checker, iecst) y nativas de pago (CODESYS Static Analysis, con más de 100 reglas y PLCopen Coding Guidelines, también en Schneider/ABB), el canal nombrado (GitHub Marketplace, foros) no es donde compra esa audiencia, y las reglas públicas se copian fácilmente. A $29/mes la meta exige cientos o miles de pagadores en un mercado que puede tener menos de 2,000 compradores. La ventaja de Juan y el MVP rápido son reales pero no resuelven distribución ni demanda.",
+ "busquedas_usadas": 2
+}

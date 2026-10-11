@@ -1,0 +1,121 @@
+{
+ "idea": {
+  "id": "G25-02",
+  "nombre": "Monitor de cambios en PLC",
+  "cliente_que_paga": "Ingeniero de planta / gerente de OT de planta mediana",
+  "problema": "Nadie sabe qué cambió en los programas de PLC entre respaldos.",
+  "solucion": "Servicio que compara proyectos PLC (L5X, TIA Openness exports) subidos y alerta diferencias con historial versionado.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Foros PLCTalk, r/PLC y SEO 'PLC program version control'",
+  "competidores": [
+   "FactoryTalk AssetCentre",
+   "Copia de Git manual",
+   "Industrial Defender (seguridad OT)"
+  ],
+  "por_que_ahora": "NIS2/IEC 62443 empujan control de cambios en OT.",
+  "ventaja_juan": "PLC Siemens/Rockwell: conoce los formatos de archivo.",
+  "riesgo_principal": "Los formatos propietarios cambian y los fabricantes pueden lanzar lo suyo.",
+  "evidencia_url": "https://industrialmonitordirect.com/tr/blogs/knowledgebase/plc-change-management-versioning-plc-and-hmi-project-files",
+  "angulo": "25",
+  "tema": "control cambios PLC",
+  "tema_norm": "diff y versionado PLC",
+  "duplicado_de": null,
+  "e2_total": 43,
+  "e2_razon": "Dolor concreto y presupuesto ($199) con ventaja máxima de Juan y canal PLCTalk/r/PLC con alguna evidencia; reticencia a subir proyectos OT y formatos propietarios frenan.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 37,
+  "e3_filtro": null,
+  "e3_razon": "Máxima ventaja de Juan y hueco en diff semántico multi-vendor con auditoría, pero hay competidores establecidos y herramientas nativas, y la reticencia a subir proyectos OT es real. Canal (SEO, PLCTalk) plausible sin demanda verificada.",
+  "e3_hecho": "VersionDog/MDT AutoSave/AssetCentre existen (precios sin verificar) y TIA/Studio 5000 traen comparación nativa; dolor documentado en foros.",
+  "e3_competidores": [
+   {
+    "nombre": "VersionDog (AUVESY)",
+    "precio": "sin verificar",
+    "url": "https://www.getapp.co.uk/software/2042851/versiondog"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G25-02",
+   "filtros_fallados": [],
+   "objecion": "Existen soluciones establecidas (VersionDog, MDT AutoSave, FactoryTalk AssetCentre) y herramientas nativas (Compare Projects de TIA, VCI de TIA V16 con Git, Compare Tool de Studio 5000, L5K en texto diffeable con Git); además los clientes OT dudan en subir proyectos a la nube. No se confirmó la demanda en PLCTalk/r/PLC.",
+   "hechos": [
+    {
+     "afirmacion": "TIA Portal incluye Compare Projects nativo y Version Control Interface (V16) que exporta XML para Git",
+     "url": "https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/"
+    },
+    {
+     "afirmacion": "Fuente secundaria indica que Studio 5000 trae Compare Tool y exporta L5K texto para Git; VersionDog y MDT AutoSave son productos multi-vendor",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Métodos de detección de cambios en TIA Portal ya documentados",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-program-change-detection-methods"
+    },
+    {
+     "afirmacion": "Precios de VersionDog/AssetCentre y demanda en PLCTalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G25-02",
+   "rescatar": true,
+   "respuesta": "Es la unica que merece defensa. Hay dolor documentado: un usuario en control.com pidio una herramienta para detectar cambios en un programa Siemens/Rockwell en ejecucion contra el archivo, porque muchas ediciones no se archivan, y un ingeniero de JLab tuvo que diffear dos L5X con ~9k diferencias en ~56k lineas sin herramienta clara. Las herramientas nativas (Compare de Studio 5000, TIA) son por vendor y producen ruido; el hueco es un diff semantico multi-vendor con historial y reporte de auditoria (NIS2/IEC 62443). VersionDog y MDT AutoSave existen, lo que valida disposicion de pago del segmento (precios sin verificar).",
+   "concesiones": "Existen VersionDog, MDT AutoSave, AssetCentre y comparadores nativos; clientes OT dudan en subir proyectos a la nube; no se verifico demanda en PLCTalk/r/PLC ni precios de competidores; la evidencia citada es de blogs secundarios.",
+   "hechos": [
+    {
+     "afirmacion": "Estudiante CVUT construyo una libreria Java que compara dos L5X (tags, rungs), prueba de que el diff semantico no esta resuelto como producto simple",
+     "url": "https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"
+    },
+    {
+     "afirmacion": "Hilo de mailing list JLab: comparar L5X de controlador vs. respaldo, ~9k diferencias manuales",
+     "url": "https://mailman.jlab.org/pipermail/dsg-hallb_magnets/2023-February/001361.html"
+    },
+    {
+     "afirmacion": "Usuario pide herramienta para detectar cambios no archivados en PLC Siemens/Rockwell",
+     "url": "https://control.com/forums/search/517721/"
+    },
+    {
+     "afirmacion": "Lista VersionDog y MDT AutoSave como terceros multi-vendor (fuente secundaria)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Precios de VersionDog/AssetCentre",
+     "url": "sin verificar"
+    }
+   ],
+   "ajuste_sugerido": "Nicho: CLI/GitHub Action local (sin subir el proyecto a la nube) que diffea L5X/TIA Openness XML de forma semantica y emite reporte de auditoria; precio $49-99/mes por sitio para integradores y OEMs; canal SEO 'L5X diff' / 'PLC program compare' y PLCTalk.",
+   "busquedas_usadas": 2
+  },
+  "juez": {
+   "id": "G25-02",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 2,
+    "diferenciacion": 3,
+    "ventaja_juan": 5,
+    "mvp": 3,
+    "riesgo": 3
+   },
+   "total": 37,
+   "hecho_decisivo": "VersionDog/MDT AutoSave/AssetCentre existen (precios sin verificar) y TIA/Studio 5000 traen comparación nativa; dolor documentado en foros.",
+   "competidores_verificados": [
+    {
+     "nombre": "VersionDog (AUVESY)",
+     "precio": "sin verificar",
+     "url": "https://www.getapp.co.uk/software/2042851/versiondog"
+    }
+   ],
+   "razon": "Máxima ventaja de Juan y hueco en diff semántico multi-vendor con auditoría, pero hay competidores establecidos y herramientas nativas, y la reticencia a subir proyectos OT es real. Canal (SEO, PLCTalk) plausible sin demanda verificada.",
+   "busquedas_usadas": 1
+  }
+ }
+}

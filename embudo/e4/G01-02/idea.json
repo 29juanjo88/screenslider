@@ -1,0 +1,106 @@
+{
+ "idea": {
+  "id": "G01-02",
+  "nombre": "DXF Laser Cut Pricer",
+  "cliente_que_paga": "Talleres de corte láser/CNC con tienda Shopify",
+  "problema": "Cotizar archivos DXF/SVG a mano consume horas.",
+  "solucion": "Widget que lee DXF/SVG, calcula perímetro, área y precio por material/espesor, y crea el producto en el carrito.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'custom laser cut quote' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Talleres venden online piezas a medida y quieren autoservicio.",
+  "ventaja_juan": "Conocimiento CAD/CAM de nesting y tiempos de corte.",
+  "riesgo_principal": "Mercado de talleres con Shopify limitado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "cotización corte láser",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null,
+  "e2_total": 41,
+  "e2_razon": "Canal nombrado en Shopify App Store con intención de compra y ventaja CAD/CAM de Juan; mercado de talleres con Shopify limitado.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 36,
+  "e3_filtro": null,
+  "e3_razon": "Canal Shopify con intención y ventaja CAD, pero incumbente nuevo con plan gratis y más barato. Plan gratis limitado, no falla F1.",
+  "e3_hecho": "MakeQuote (mayo 2026) ya cubre DXF con plan gratis de 10 pedidos y Pro $19/mes; su lógica de perímetro/espesor sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "MakeQuote",
+    "precio": "gratis 10 pedidos/mes; Pro $19/mes (terceros)",
+    "url": "https://apps.shopify.com/makequote"
+   }
+  ],
+  "variantes": [
+   "G18-01"
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G01-02",
+   "filtros_fallados": [],
+   "objecion": "Ya existe MakeQuote en Shopify App Store (STL/DXF, cotización instantánea, láser y 3D, plan gratis de 10 pedidos/mes), aunque es nuevo (lanzado mayo 2026, 0 reseñas). Un incumbente gratis cubre parte de la propuesta; falta ver su lógica de precio por perímetro/espesor. Mercado de talleres láser con Shopify es limitado y requiere vencer un plan gratis.",
+   "hechos": [
+    {
+     "afirmacion": "MakeQuote: app de Shopify para láser y 3D con carga STL/DXF, visor y cotización instantánea; plan gratis con límites; 0 reseñas",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Un fabricante en la comunidad de Shopify pidió esta función y un experto dijo no conocer app que lo hiciera (hilo anterior a MakeQuote)",
+     "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+    },
+    {
+     "afirmacion": "Detalle de cómo MakeQuote calcula precio por perímetro, perforaciones y espesor",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G01-02",
+   "rescatar": false,
+   "respuesta": "Hilo de comunidad Shopify muestra demanda de un fabricante que pidió esta función, pero MakeQuote ya cubre DXF con cotización instantánea, plan gratis y Pro a $19/mes; su lógica de precio por perímetro/espesor sin verificar.",
+   "concesiones": "Incumbente con plan gratis y precio menor que $49; mercado de talleres con Shopify limitado.",
+   "hechos": [
+    {
+     "afirmacion": "MakeQuote: DXF, cotización instantánea, plan gratis 10 pedidos/mes, Pro $19/mes (listados de terceros), sin reseñas",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Hilo de fabricante que pidió la función",
+     "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+    }
+   ],
+   "ajuste_sugerido": "",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G01-02",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 2,
+    "diferenciacion": 2,
+    "ventaja_juan": 4,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 36,
+   "hecho_decisivo": "MakeQuote (mayo 2026) ya cubre DXF con plan gratis de 10 pedidos y Pro $19/mes; su lógica de perímetro/espesor sin verificar.",
+   "competidores_verificados": [
+    {
+     "nombre": "MakeQuote",
+     "precio": "gratis 10 pedidos/mes; Pro $19/mes (terceros)",
+     "url": "https://apps.shopify.com/makequote"
+    }
+   ],
+   "razon": "Canal Shopify con intención y ventaja CAD, pero incumbente nuevo con plan gratis y más barato. Plan gratis limitado, no falla F1.",
+   "busquedas_usadas": 1
+  }
+ }
+}

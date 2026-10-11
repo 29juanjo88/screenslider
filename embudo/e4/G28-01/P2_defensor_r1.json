@@ -1,0 +1,137 @@
+{
+ "id": "G28-01",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Los proyectos de Studio 5000 se guardan como binario .ACD y TIA no se diffea bien como texto; la revisión de cambios en PLC es manual y un cambio mal revisado en una línea de producción cuesta paro de planta. El dolor es real pero episódico (en cada commit/puesta en marcha), no necesariamente semanal para todos. Honestidad: no hay evidencia de hilos en PLCTalk/r/PLC pidiéndolo.",
+   "evidencia": [
+    {
+     "afirmacion": "Studio 5000 guarda binario .ACD, lo que impide diff/merge; la práctica común es exportar L5X/L5K a Git (fuentes de blog, no oficiales)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rslogix-5000-program-change-history-and-compare-tool"
+    },
+    {
+     "afirmacion": "Siemens VCI (V16+) exporta XML a sistemas externos como Git, lo que crea la materia prima a diffear",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Demanda en PLCTalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El segmento ya gasta en herramientas de ingeniería caras y en gestión de versiones comercial (versiondog, Octoplant, Copia, AssetCenter), por lo que $39-99/equipo es marginal frente a una licencia de $3,130. Honestidad: el precio de versiondog no es público y quien paga hoy lo hace a nivel empresa.",
+   "evidencia": [
+    {
+     "afirmacion": "STEP 7 Professional TIA V20 listado a $3,130 en un revendedor",
+     "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"
+    },
+    {
+     "afirmacion": "versiondog es comercial; precio no publicado",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "afirmacion": "Existen herramientas comerciales de versionado (versiondog, Octoplant, FactoryTalk AssetCenter) mencionadas como las opciones del mercado",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rslogix-5000-program-change-history-and-compare-tool"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Las alternativas son o pesadas/empresariales (versiondog, Octoplant, AssetCenter) o nativas y limitadas: Compare de Studio 5000 v21+ solo funciona offline entre dos .ACD y sin CLI documentado, por lo que no sirve para Git/CI; el diff nativo de TIA está ligado a la GUI con licencia. Hueco: diff legible autoservicio, CLI y GitHub Action. Honestidad: Copia (SaaS) ya vende revisión de código PLC con Git para Rockwell, y existe F1 parcial (herramientas nativas gratis dentro de TIA).",
+   "evidencia": [
+    {
+     "afirmacion": "Compare Tool de Studio 5000 v21+ solo offline entre dos .ACD; Rockwell no documenta públicamente switches de línea de comandos (según un blog)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rslogix-5000-program-change-history-and-compare-tool"
+    },
+    {
+     "afirmacion": "Copia comercializa versionado y revisión de código para PLCs Rockwell (competidor directo, pitch de vendor)",
+     "url": "https://www.copia.io/blog/unlock-the-power-of-version-control-for-your-rockwell-plcs-with-copia"
+    },
+    {
+     "afirmacion": "versiondog exige TIA Portal con licencia",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "afirmacion": "Siemens ofrece comparación nativa e incluida en TIA",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsquedas de cola larga 'L5X diff', 'compare TIA Portal projects', GitHub Marketplace (Action), PLCTalk, r/PLC, y contenido técnico propio. Juan puede escribir tutoriales con autoridad. Honestidad: volumen de búsqueda sin verificar, y el comprador industrial suele pasar por integradores/TI; la intención de compra en foros no está probada. El CAC debería ser bajo (contenido + CLI gratis como gancho) pero es hipótesis.",
+   "evidencia": [
+    {
+     "afirmacion": "Los blogs de industrialmonitordirect rankean para consultas de comparación/versionado PLC, lo que indica que existe tráfico informativo (inferencia, sin cifras)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'L5X diff' y actividad PLCTalk/r/PLC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC estimado",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Si se integra al flujo Git/CI (GitHub Action, informes de cambios por commit) se vuelve infraestructura recurrente mientras el equipo tenga proyectos activos y auditoría de cambios; el uso es continuo, no puntual. Honestidad: si el uso es solo en puesta en marcha, habrá churn por proyecto; no hay datos de retención.",
+   "evidencia": [
+    {
+     "afirmacion": "El versionado/ control de cambios de PLC es un proceso continuo en cada modificación de programa (según guías)",
+     "url": "https://industrialmonitordirect.com/ar/blogs/knowledgebase/plc-change-management-versioning-plc-and-hmi-project-files"
+    },
+    {
+     "afirmacion": "Datos de retención de herramientas comparables",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Nicho: ingenieros de control e integradores con TIA/Studio 5000 que usan o quieren usar Git. Probablemente en miles a bajas decenas de miles, suficiente para 50-500 clientes a $39-99 (meta $10-50k MRR exige ~250-1,000 clientes a $39, más realista con $99 por equipo y expansión a otros formatos). Honestidad: sin tamaño verificado; el juez de etapa 3 dio mercado 2.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de mercado de usuarios TIA/Studio 5000 con Git",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Se mantiene el ajuste: ampliar a otros formatos (Codesys, Beckhoff, etc.) aumentaría el mercado, hipótesis",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada: conocimiento profundo de los esquemas XML de TIA (SCL, LAD, FBD) y L5X para producir diffs semánticos legibles es una barrera de conocimiento, no técnica, y pocos desarrolladores lo tienen; además integraciones CI, reportes y comunidad generan inercia. Honestidad: Siemens/Rockwell pueden mejorar lo nativo y Copia ya tiene recursos y financiación (sin verificar); el código es copiable.",
+   "evidencia": [
+    {
+     "afirmacion": "VCI exporta XML (formato público a parsear); también implica que otros pueden construirlo",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Copia como incumbente con foco Git-PLC",
+     "url": "https://www.copia.io/blog/unlock-the-power-of-version-control-for-your-rockwell-plcs-with-copia"
+    },
+    {
+     "afirmacion": "Ventaja de Juan: conoce TIA Portal y Studio 5000 (perfil del fundador en brief)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy favorable: un parser XML/L5X, motor de diff semántico, CLI en Node/TS y web app estática son factibles en ~6 semanas a tiempo parcial con costo casi cero; sin hardware ni regulación. Procesamiento local en CLI evita alojar código propietario de clientes (ventaja de confianza). Honestidad: obtener muestras variadas de XML de TIA/L5X para probar y cubrir versiones tomará esfuerzo continuo.",
+   "evidencia": [
+    {
+     "afirmacion": "Los formatos L5X (XML) y VCI/XML de TIA son texto estructurado, parseable sin SDK propietario",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "L5X no incluye configuración de Task (limitación a documentar)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rslogix-5000-program-change-history-and-compare-tool"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mayor ventaja del fundador del embudo en un hueco real: Git-for-PLC existe en forma empresarial (versiondog, Copia) pero no hay un diff autoservicio barato con CLI/CI, y el comprador ya gasta miles en licencias. MVP rápido y barato; el punto débil honesto es el tamaño de mercado y la demanda de búsqueda sin verificar, más el competidor Copia.",
+ "busquedas_usadas": 1
+}

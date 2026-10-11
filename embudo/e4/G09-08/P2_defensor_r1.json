@@ -1,0 +1,133 @@
+{
+ "id": "G09-08",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Un HS code erróneo o ausente causa retenciones aduanales, impuestos inesperados y pérdida de entregas; tras la suspensión de de minimis en EE.UU. (29-ago-2025) más envíos requieren clasificación a 10 dígitos. Es dolor recurrente por cada SKU internacional. Honestidad: es un dolor de 'configuración una vez por producto', menos semanal que otros; la urgencia depende del volumen de envíos.",
+   "evidencia": [
+    {
+     "afirmacion": "De minimis suspendido globalmente desde 29-ago-2025 según varias fuentes logísticas; envíos de bajo valor siguen procedimientos aduanales estándar y varias fuentes indican código HTS de 10 dígitos requerido (fuentes con interés comercial; una fuente sostiene que fue solo China-origen: alcance sin verificar)",
+     "url": "https://www.dhl.com/discover/en-us/global-logistics-advice/logistics-insights/the-end-of-de-minimis-exemption-meaning-for-your-business"
+    },
+    {
+     "afirmacion": "Alcance exacto (global vs solo China) discrepa entre fuentes",
+     "url": "https://gingercontrol.com/blog/de-minimis-repeal-small-importer-impact"
+    },
+    {
+     "afirmacion": "Zonos clasifica HS automáticamente en checkout, lo que confirma que el problema existe en Shopify",
+     "url": "https://zonos.com/docs/global-ecommerce/shopify/get-started"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay disposición de pago comprobada en el propio marketplace: apps de HS code de autoservicio cobran US$19-399/mes. US$29 queda dentro del rango. Honestidad: DutyCode ofrece plan gratis (25 clasificaciones) y HClassify tiene una sola reseña, así que la demanda real pagada es una señal débil.",
+   "evidencia": [
+    {
+     "afirmacion": "DutyCode: gratis 25 clasificaciones; Starter $19, Growth $49, Scale $99/mes",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "HClassify: $49/$149/$399 al mes, lanzada enero 2026",
+     "url": "https://apps.shopify.com/hclassify"
+    },
+    {
+     "afirmacion": "DutyLookout cobra por uso tras 25 gratis al mes",
+     "url": "https://apps.shopify.com/dutylookout"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: Zonos (precio no público, orientado a ventas, checkout completo), DutyCode, HClassify, DutyLookout (clasificación pura) y búsqueda manual en tablas arancelarias/corredores. Ninguna verificada combinando páginas SEO por producto/país + documentos; ese es el ángulo. Honestidad: el espacio está poblado y el ángulo no está probado.",
+   "evidencia": [
+    {
+     "afirmacion": "Precio de Zonos no público, requiere contactar a ventas",
+     "url": "https://support.masonhub.co/hc/en-us/articles/360054685172-Automate-International-Duties-Taxes-and-Fees-with-Zonos"
+    },
+    {
+     "afirmacion": "Competidores de autoservicio DutyCode y HClassify existen",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Que ningún competidor ofrezca SEO programático por producto/país no se verificó",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsqueda 'HS code' en Shopify App Store (descubrimiento por intención, CAC bajo, sin ventas) más SEO programático 'hs code for [product]' como segundo canal propio. Honestidad: volumen de búsqueda de ambos canales sin verificar; la existencia de al menos 3 apps de HS en el App Store muestra que el canal existe pero también que está competido.",
+   "evidencia": [
+    {
+     "afirmacion": "Varias apps de HS code publicadas en Shopify App Store (DutyCode, HClassify, DutyLookout)",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda 'HS code' en App Store y 'hs code for [product]' en Google",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC estimado",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Mientras la tienda venda internacionalmente y agregue SKUs, la app sigue siendo útil (clasificación continua, actualizaciones de aranceles, documentos por envío), y el cambio frecuente de aranceles refuerza la necesidad recurrente. Honestidad: si el catálogo se clasifica de una vez, el merchant puede cancelar; los planes por volumen/uso ayudan. Sin datos de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Modelos de precio por volumen de clasificaciones (250/2,500/ilimitado) sugieren uso recurrente ligado al catálogo",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Churn de apps de HS code",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Shopify declara millones de merchants en más de 175 países (44% EE.UU., 31% EMEA). Terceros estiman 4.8-5.6 millones de tiendas activas; solo una fracción envía internacionalmente, pero incluso 1-2% serían decenas de miles, muy por encima de los 500 clientes necesarios. Fracción internacional sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Shopify FY2025 10-K: millones de merchants en más de 175 países, 44% EE.UU., 31% EMEA",
+     "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm"
+    },
+    {
+     "afirmacion": "Estimaciones de terceros de 4.82M a 5.6M tiendas activas (varían, no oficiales)",
+     "url": "https://chargeflow.io/blog/shopify-statistics"
+    },
+    {
+     "afirmacion": "Porcentaje de tiendas que envían internacionalmente",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Honestamente débil: clasificación con IA/datos es copiable y ya hay clones baratos. La defensa posible es acumulativa: páginas SEO programáticas indexadas (activo que se compone con el tiempo), reseñas en App Store, marca de confianza con fuente del código y documentos. Zonos tiene más profundidad pero está orientado a ventas, no a autoservicio.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen competidores de bajo precio ya establecidos; sin moat tecnológico evidente",
+     "url": "https://apps.shopify.com/hclassify"
+    },
+    {
+     "afirmacion": "Efectividad del SEO programático como moat en este nicho",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Encaja con el perfil: Juan es backend senior en Node/TypeScript con Shopify/GraphQL, y el MVP (app embebida, sugerencia de HS por producto, generador de PDF, plantillas SEO) es factible en ≤6 semanas a tiempo parcial. Costos casi cero salvo datos arancelarios y LLM. Honestidad: riesgos de responsabilidad por clasificación errónea, calidad/costo de datos arancelarios y revisión de la app por Shopify; su conocimiento CAD/PLC aporta poco aquí.",
+   "evidencia": [
+    {
+     "afirmacion": "Perfil de Juan en brief: Node.js, TypeScript, GraphQL, React/Next.js",
+     "url": "sin verificar (brief interno)"
+    },
+    {
+     "afirmacion": "Costo y licencia de datos arancelarios de calidad",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hay un canal nombrado (Shopify App Store + SEO programático) con disposición de pago ya demostrada ($19-399/mes), un mercado enorme y un empujón regulatorio (fin de de minimis) que eleva la necesidad de HS codes; Juan puede construir el MVP rápido y a bajo costo. Debilidades reconocidas: espacio poblado, diferenciación SEO no probada, plan gratis de DutyCode, riesgo de responsabilidad y dependencia de Shopify.",
+ "busquedas_usadas": 2
+}

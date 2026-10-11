@@ -1,0 +1,109 @@
+{
+ "idea": {
+  "id": "G06-01",
+  "nombre": "STL Quote for WooCommerce",
+  "cliente_que_paga": "Tiendas WooCommerce que venden impresión 3D bajo pedido",
+  "problema": "Los clientes suben un STL y el dueño cotiza a mano cada pedido.",
+  "solucion": "Plugin que analiza el STL (volumen, tiempo, material) y muestra precio instantáneo en el carrito.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda '3D printing quote WooCommerce' en WordPress.org y foros de r/3Dprinting y print farms.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de print farms y servicios de impresión locales.",
+  "ventaja_juan": "Conocimiento de firmware de impresoras 3D y slicing para estimar tiempo/material.",
+  "riesgo_principal": "Dependencia de WooCommerce; estimaciones imprecisas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cotización impresión 3D",
+  "tema_norm": "cotización impresión 3D",
+  "duplicado_de": null,
+  "e2_total": 39,
+  "e2_razon": "Cotizacion de STL en WooCommerce elimina trabajo manual semanal, canal WordPress.org nombrado y ventaja de slicing; competidores sin verificar y nicho acotado.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 35,
+  "e3_filtro": null,
+  "e3_razon": "Dolor real pero canal WordPress.org ocupado por un rival con plan gratis y uno open source; diferenciacion debil y disposicion de pago baja a $29. Ventaja de slicing y MVP corto lo sostienen en banda MEDIA baja.",
+  "e3_hecho": "PrintPrice (WordPress.org) ya da precio instantaneo de STL en carrito con plan gratis de 5 pedidos/mes; SlicePress es GPL.",
+  "e3_competidores": [
+   {
+    "nombre": "PrintPrice",
+    "precio": "gratis 5 pedidos/mes; planes de pago 50/100/300 pedidos (precio sin verificar)",
+    "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+   },
+   {
+    "nombre": "SlicePress",
+    "precio": "GPL gratis",
+    "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G06-01",
+   "filtros_fallados": [],
+   "objecion": "Ya existen plugins de cotizacion STL para WooCommerce, incluido uno en WordPress.org (PrintPrice) y uno open source (SlicePress, GPL) con slicing real; el canal elegido esta ocupado y la diferenciacion es debil. Precios de los competidores sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "PrintPrice: STL & 3MF Price Calculator for WooCommerce existe en WordPress.org, con precio instantaneo en el carrito",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "SlicePress, plugin GPL con cotizacion basada en slicing real (OrcaSlicer), existe para tiendas de impresion 3D",
+     "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+    },
+    {
+     "afirmacion": "Precios de PrintPrice/SlicePress y demanda en r/3Dprinting",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G06-01",
+   "rescatar": false,
+   "respuesta": "El ataque es cierto: PrintPrice ya cubre STL/3MF en WordPress.org con cotización en carrito y cálculo de tiempo/masa en su nube; SlicePress es GPL. No hay un ángulo claro sin un nicho distinto.",
+   "concesiones": "Canal ocupado, diferenciación débil, competidores con plan gratis (5 pedidos/mes). Demanda en r/3Dprinting sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "PrintPrice tiene plan gratis de 5 pedidos pagados/mes y planes de pago de 50/100/300 pedidos vía Freemius; STEP solo en planes de pago",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    }
+   ],
+   "ajuste_sugerido": "Solo viable si se enfoca en un nicho que PrintPrice no cubra (p. ej. cotización con slicing local/offline o resina/SLS); sin verificar demanda.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G06-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 2,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 2,
+    "ventaja_juan": 4,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 35,
+   "hecho_decisivo": "PrintPrice (WordPress.org) ya da precio instantaneo de STL en carrito con plan gratis de 5 pedidos/mes; SlicePress es GPL.",
+   "competidores_verificados": [
+    {
+     "nombre": "PrintPrice",
+     "precio": "gratis 5 pedidos/mes; planes de pago 50/100/300 pedidos (precio sin verificar)",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "nombre": "SlicePress",
+     "precio": "GPL gratis",
+     "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+    }
+   ],
+   "razon": "Dolor real pero canal WordPress.org ocupado por un rival con plan gratis y uno open source; diferenciacion debil y disposicion de pago baja a $29. Ventaja de slicing y MVP corto lo sostienen en banda MEDIA baja.",
+   "busquedas_usadas": 0
+  }
+ }
+}

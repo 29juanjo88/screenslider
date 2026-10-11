@@ -1,0 +1,125 @@
+{
+ "id": "G12-01",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Equipos de e-commerce de manufactura y cotización a medida reciben archivos STEP/DXF que ninguna automatización lee; previsualizar y extraer volumen/bbox se hace a mano. Es dolor recurrente por cada pedido, pero la evidencia de urgencia es indirecta y no hay cuantificación; honestamente es dolor moderado, no demostrado.",
+   "evidencia": [
+    {
+     "afirmacion": "Plataformas de cotización instantánea (DigiFabster) extraen volumen, área y complejidad de STEP/IGS/DXF, lo que muestra que estos metadatos son valiosos para cotizar",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    },
+    {
+     "afirmacion": "No se halló app Zapier/Make dedicada a STEP a PNG/glTF; la ruta práctica es webhook a script FreeCAD/CadQuery (trabajo DIY)",
+     "url": "https://www.make.com/en/integrations/convertapi/zapier"
+    },
+    {
+     "afirmacion": "Cuantificación del tiempo perdido por cotización manual",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Existen APIs de conversión CAD de pago y vendedores de cotización que cobran; el segmento no-code compra conectores para evitar hosting propio. Precio de $49 es comparable a servicios API de miniaturas ($30-300/mes en un listado sin moneda confirmada; thumbnail.ws desde $49.50, aunque es de capturas web, no CAD). Disposición de pago concreta para CAD sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "thumbnail.ws (capturas de URL, no CAD) cobra desde $49.50/mes: referencia de precio de API de miniaturas, no del segmento CAD",
+     "url": "https://freetier.co/directory/products/thumbnailws"
+    },
+    {
+     "afirmacion": "Thumbnail API listada en rango $30-$300/mes (moneda y soporte STEP no confirmados)",
+     "url": "https://alternativeto.net/software/thumbnail-api/about"
+    },
+    {
+     "afirmacion": "Disposición de pago a $49/mes por conector CAD",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: APIs HTTP (convert3d, Adom Step2GLB), ConvertAPI genérico en Make (soporte STEP sin verificar), scripts propios con FreeCAD/CadQuery y widgets de cotización completos (DigiFabster). Nadie ofrece un paso nativo en Zapier/Make/n8n que devuelva imagen + metadatos. Concedo que las APIs HTTP sustituyen parcialmente el conector.",
+   "evidencia": [
+    {
+     "afirmacion": "convert3d.org ofrece API STEP a GLB",
+     "url": "https://convert3d.org/step-to-glb"
+    },
+    {
+     "afirmacion": "Adom Step2GLB expone endpoint HTTP de conversión y /thumbnail PNG",
+     "url": "https://wiki.adom.inc/p/pg_h304hqp5bg"
+    },
+    {
+     "afirmacion": "Make tiene integración ConvertAPI genérica",
+     "url": "https://www.make.com/en/integrations/convertapi/zapier"
+    },
+    {
+     "afirmacion": "DigiFabster ofrece widget de cotización con carga de STEP/IGS/DXF (solución completa, más cara/pesada)",
+     "url": "https://digifabster.com/products/instant-quoting-solution/"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado y de CAC bajo: listado en Zapier App Directory y Make, community nodes de n8n (sin aprobación) y SEO 'step to png api'. El ajuste de etapa 3 reduce riesgo: lanzar API REST + n8n primero. Concedo que no hay dato de volumen de búsqueda en los directorios ni CAC medido.",
+   "evidencia": [
+    {
+     "afirmacion": "Hueco real en directorios: no hay app Zapier/Make para STEP a PNG/glTF",
+     "url": "https://convert3d.org/step-to-glb"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda 'STEP file' en directorios Zapier/Make y CAC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Una vez insertado en un flujo de producción de cotización/pedidos, el conector se vuelve infraestructura invisible y cambiarlo rompe automatizaciones: retención potencialmente alta por costo de cambio. Es una inferencia lógica; no hay datos de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn/retención de conectores de automatización en nichos industriales",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Nicho acotado: ops/ingenieros de e-commerce de manufactura y SaaS de cotización. Para $10k MRR bastan ~205 clientes a $49. Tamaño total del mercado no verificado; probablemente cercano a la banda baja-media (miles, no cientos de miles). Evidencia de que hay muchos vendedores de cotización instantánea (DigiFabster, Xometry, MakerVerse, AMFG, Prototek) sugiere ecosistema activo.",
+   "evidencia": [
+    {
+     "afirmacion": "Ecosistema activo de plataformas de cotización instantánea de manufactura (DigiFabster, Prototek, AMFG, Xometry, MakerVerse)",
+     "url": "https://www.manufacturing.net/artificial-intelligence/news/22930496/prototek-launches-aipowered-cnc-instant-quote-platform"
+    },
+    {
+     "afirmacion": "Número de compradores posibles",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa débil: conversión con kernels open source es replicable. Ventajas modestas: conocimiento de formatos CAD, ser primero en directorios (reseñas, posicionamiento), integración multi-plataforma. Una API existente (Adom, convert3d) podría lanzar su conector con poco esfuerzo; la defensa es velocidad y nicho, no tecnología.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores API ya existen y podrían envolver su endpoint en un conector",
+     "url": "https://wiki.adom.inc/p/pg_h304hqp5bg"
+    },
+    {
+     "afirmacion": "Foso por reseñas/posicionamiento en directorios",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Mejor dimensión: Juan conoce STEP/DXF/IGES, el backend Node/Python es trivial, el MVP (API REST + nodo n8n) cabe en 6 semanas a tiempo parcial y el costo de infra es bajo. Riesgos: aprobación de Zapier/Make y soporte de kernels CAD (OpenCascade/CadQuery) en casos de borde.",
+   "evidencia": [
+    {
+     "afirmacion": "La ruta práctica actual ya es script FreeCAD/CadQuery tras webhook, lo que confirma factibilidad técnica con herramientas open source",
+     "url": "https://www.make.com/en/integrations/convertapi/zapier"
+    },
+    {
+     "afirmacion": "Tiempo real de aprobación de apps en Zapier/Make",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hueco verificado en un canal nombrado (directorios Zapier/Make/n8n) donde nadie ofrece un paso CAD a imagen+metadatos, con ejecución casi gratis para Juan y ventaja máxima. Concedo que demanda y disposición de pago están sin verificar, que las APIs HTTP son sustituto parcial y que la defensa ante copias es débil; la apuesta es un nicho pequeño pero alcanzable (~205 clientes a $49 para $10k MRR) con lanzamiento por canales sin aprobación (API+n8n+SEO).",
+ "busquedas_usadas": 2
+}

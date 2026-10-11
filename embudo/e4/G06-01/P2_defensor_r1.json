@@ -1,0 +1,109 @@
+{
+ "id": "G06-01",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dueño cotiza a mano cada STL subido: trabajo repetitivo semanal, con pedidos perdidos por demora en responder. La existencia de varios plugins que atacan lo mismo confirma que el dolor es real. Honestidad: la magnitud (horas/semana, conversión perdida) no está verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen plugins de cotización instantánea de STL en carrito (PrintPrice, SlicePress), señal de dolor reconocido",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Cifras de horas perdidas o demanda en r/3Dprinting",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay precedente de pago: PrintPrice cobra planes de 50/100/300 pedidos vía Freemius, así que el segmento paga por esto. Honestidad: el plan gratis (5 pedidos/mes) y SlicePress GPL bajan la disposición de pago; el precio de PrintPrice no está verificado. El comprador es concreto (dueño de tienda de impresión 3D bajo pedido) y $29/mes es un costo menor frente a su tiempo de cotización.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice tiene plan gratis de 5 pedidos/mes y planes de pago de 50/100/300 pedidos",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Precio exacto de planes de pago de PrintPrice",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Cotización manual por email, más PrintPrice (cálculo en su nube, STEP solo en planes de pago) y SlicePress (GPL, requiere montar slicer/API, orientado a técnicos). Hay huecos: slicing local/sin nube, materiales como resina/SLS, simplicidad de instalación. Honestidad: el incumbente gratis parcial es el punto más débil de la idea (riesgo F1 parcial, aunque el gratis está limitado a 5 pedidos).",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice: STL/3MF con precio instantáneo, plan gratis limitado, STEP solo en pago",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "SlicePress: plugin GPL con slicing real (OrcaSlicer)",
+     "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsqueda 'STL/3D printing quote' en el directorio de plugins de WordPress.org, más r/3Dprinting y comunidades de print farms. Un plugin freemium en el directorio aporta instalaciones con CAC cercano a cero y la intención de compra es alta. Honestidad: el canal está ocupado por PrintPrice, y la demanda en r/3Dprinting no está verificada; ganar posición requiere reseñas e instalaciones.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice ya está listado en WordPress.org, lo que prueba que el canal funciona y también que está competido",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "CAC real y volumen de búsquedas en el directorio",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Una vez integrado al flujo de pedidos y a la tabla de precios de la tienda, el plugin tiene costos de cambio y se usa con cada pedido; la suscripción se justifica mientras la tienda tenga pedidos. Honestidad: no hay datos de churn; tiendas pequeñas con poco volumen cancelan o se quedan en el plan gratis.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn o retención en plugins WooCommerce de este nicho",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Nicho acotado pero real: tiendas WooCommerce de impresión 3D bajo pedido y print farms. Para $10k MRR se necesitan unos 345 clientes a $29, lo cual es plausible solo si el nicho tiene miles de tiendas, algo no verificado. Honestidad: tamaño sin fuente.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de tiendas WooCommerce de impresión 3D bajo pedido",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Instalaciones activas de PrintPrice como proxy",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa débil en código (hay un GPL, SlicePress). La defensa posible está en la precisión de la estimación (conocimiento de firmware y slicing de Juan), perfiles de máquina y material calibrados, y soporte para casos no cubiertos (resina/SLS, local/offline). Honestidad: no hay foso fuerte; es ventaja de ejecución, no estructural.",
+   "evidencia": [
+    {
+     "afirmacion": "SlicePress GPL demuestra que el código base es copiable",
+     "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+    },
+    {
+     "afirmacion": "Ventaja de Juan en firmware 3D y slicing (declarada en la idea)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Encaja con el stack de Juan (PHP/Laravel, Node, Python) y su conocimiento de slicing. El MVP es un plugin con análisis de STL (volumen, tiempo, material) y precio en carrito, factible en unas 6 semanas a tiempo parcial. Soporte y mantenimiento de compatibilidad con WooCommerce son carga continua y manejable. Riesgo: dependencia de una plataforma (WooCommerce/WordPress).",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice y SlicePress muestran que el MVP técnico es alcanzable por equipos pequeños",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Estimación de 6 semanas",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor concreto y comprador claro con precedente de pago (PrintPrice cobra planes), canal nombrado de costo bajo (WordPress.org) y ejecución casi ideal para Juan (slicing + PHP). Debilidades reconocidas: canal ocupado, incumbente con plan gratis limitado, GPL competidor y mercado sin cuantificar. Solo se sostiene si se diferencia en estimación precisa y nichos no cubiertos.",
+ "busquedas_usadas": 0
+}

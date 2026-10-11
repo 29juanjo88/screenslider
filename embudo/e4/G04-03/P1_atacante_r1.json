@@ -1,0 +1,129 @@
+{
+ "id": "G04-03",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero no está probado como urgente ni recurrente: un solo hilo comunitario de usuario y un experto que cuestiona la necesidad de una app (se resuelve con Confluence/Jira configurado). Los gerentes de calidad sin urgencia regulatoria lo toleran con hojas de cálculo o workflows propios. No hay cifra de demanda.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo Atlassian: usuario pide ECO/BOM, pero un experto pregunta por qué una app y sugiere Confluence para control documental",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Demanda cuantificada (búsquedas, instalaciones, tickets)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Precio de $200/mes por instancia choca con alternativas: OpenBOM desde ~$30/usuario/mes (agregadores) y ERP/PLM que ya incluyen ECO (NetSuite, Odoo, Acumatica). Quien ya paga ERP/PLM no paga otra app; quien no, espera workflow gratis en Jira. Sin evidencia de que existan apps ECO de pago que se vendan en Marketplace (no confirma ni disposición ni techo de precio). A favor: Marketplace permite cobro por usuario y ticket alto es plausible para quien sí compre; no hay datos.",
+   "evidencia": [
+    {
+     "afirmacion": "OpenBOM desde ~$30/asiento/mes según fitgap; ITQlick $29/usuario/mes y nota débil gestión formal de cambios (agregadores, no oficial)",
+     "url": "https://us.fitgap.com/products/004920/openbom"
+    },
+    {
+     "afirmacion": "Arena PLM sin precio público; estimación ITQlick $75-125/usuario/mes (estimación, no cotización)",
+     "url": "https://www.itqlick.com/pdxpert-plm"
+    },
+    {
+     "afirmacion": "Disposición de pago por ECO en Jira de la audiencia objetivo",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Muchas: ECO nativo en ERP (NetSuite, Odoo, Acumatica, Oracle), PLM/QMS dedicados (Arena, Intellect, Onshape), flujos de Change Management gratuitos en Marketplace, y Jira/Confluence configurado a mano. Dispara riesgo F1 parcial (incumbente gratis 'suficientemente bueno' en Jira). Honestidad: no se encontró una app ECR/ECN de manufactura en Marketplace, lo que favorece a la idea, pero la búsqueda no indexa Marketplace, así que es ausencia no confirmada.",
+   "evidencia": [
+    {
+     "afirmacion": "NetSuite ofrece ECO con aprobación de cambios de BOM",
+     "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_1531288763.html"
+    },
+    {
+     "afirmacion": "Acumatica Engineering Change Control con ECR y ECO",
+     "url": "https://platform.softwareone.com/product/engineering-change-control/PCP-0836-5237"
+    },
+    {
+     "afirmacion": "Odoo PLM con ECO",
+     "url": "https://www.odoo.com/id_ID/app/plm-features"
+    },
+    {
+     "afirmacion": "Intellect ofrece software ECN para industrias reguladas",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    },
+    {
+     "afirmacion": "Apps de Change Management en Marketplace son flujos IT gratuitos v1.0 sin soporte",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal es único y no probado: búsqueda en Atlassian Marketplace por 'ECO'/'change control'. Si no hay apps ECO es porque probablemente hay poca búsqueda; un nicho vacío puede ser demanda cero. Sin datos de volumen de búsqueda ni instalaciones. Los primeros 100 pagadores a $200/mes implican un nicho de manufactura en Jira que es pequeño; Jira es dominante en software/IT, no en fábricas. Sin SEO/comunidad alternativos validados. Concedo que el canal es nombrado y de intención de compra, y el CAC en Marketplace puede ser bajo.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda y apps competidoras en Marketplace para ECO/PLM",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "La búsqueda web no mostró ninguna app Marketplace de ECO",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo de churn alto si el comprador crece: al escalar o auditarse, migra a PLM/QMS/ERP con ECO nativo (dato típico de herramientas ligeras). Las apps de Marketplace tienen fricción baja de desinstalación. A favor: datos de auditoría y aprobaciones generan lock-in moderado una vez adoptado. No hay datos de retención de apps comparables.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención de apps ECO/QMS en Marketplace",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "OpenBOM descrito con débil gestión formal de cambios, lo que empuja a migrar a PLM formal",
+     "url": "https://www.itqlick.com/pdxpert-plm"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Universo = fabricantes que usan Jira Y necesitan ECO formal Y no usan ERP/PLM con ECO; intersección pequeña y sin cuantificar. Para $10k MRR a $200 se requieren 50 clientes, alcanzable, pero para $50k exigiría 250, dudoso en nicho. Tamaño de mercado: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de fabricantes con Jira que necesitan ECO",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Tamaño del mercado de apps ECO en Atlassian Marketplace",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Baja: un workflow de aprobaciones + auditoría + PDF es replicable en semanas por cualquier vendor de Marketplace o por el propio Atlassian (plantillas de Jira Service Management/Work Management). Atlassian puede lanzar plantilla nativa gratis (riesgo F1/plataforma). La única barrera es conocimiento de dominio ECR/ECN, que se copia leyendo la norma/guías. Si el nicho funciona, ERPs y PLMs ligeros (OpenBOM, Odoo) ya tienen la funcionalidad.",
+   "evidencia": [
+    {
+     "afirmacion": "Flujos de Change Management gratuitos ya existen en Marketplace (v1.0)",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    },
+    {
+     "afirmacion": "Plantillas nativas de Atlassian para ECO",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Técnicamente viable en 6 semanas (Forge/Connect, TypeScript) para Juan; concedo MVP y ventaja de stack. Pero el cuello de botella es distribución: Marketplace exige proceso de aprobación, seguridad (Cloud Fortified / bug bounty), soporte y documentación, y si el segmento regulado exige validación formal (IQ/OQ, 21 CFR Part 11), no se puede cubrir a tiempo parcial. Sin clientes de diseño ni validación previa de demanda. Su conocimiento PLC/CAD no es ECN/QMS específico.",
+   "evidencia": [
+    {
+     "afirmacion": "Riesgo declarado en la idea: compradores regulados exigen validación formal",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Requisitos y tiempos de aprobación del Marketplace para apps nuevas",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "La idea descansa en un hueco aparente en Atlassian Marketplace que no está confirmado ni como demanda: la única señal es un hilo donde un experto cuestiona la necesidad de la app. Cada necesidad la cubren ERP/PLM/QMS con ECO nativo o Jira configurado, la audiencia con presupuesto es la regulada (que exige validación) y lo replicable (workflow + PDF) no tiene defensa; la ausencia de competidores puede significar ausencia de mercado. Concedo canal nombrado, MVP rápido y ticket alto plausible.",
+ "busquedas_usadas": 2
+}

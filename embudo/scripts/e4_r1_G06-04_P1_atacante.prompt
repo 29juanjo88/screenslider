@@ -1,0 +1,8 @@
+Rol: ATACANTE del par P1 (Etapa 4, ronda 1) para la idea finalista G06-04. Responde en español.
+Hay 2 pares independientes (P1 y P2) evaluando cada idea; tú eres atacante de P1. No leas los archivos del otro par.
+1) Lee /home/user/screenslider/embudo/brief.md completo.
+2) Lee la idea y su historial en /home/user/screenslider/embudo/e4/G06-04/idea.json (incluye la evidencia y los argumentos de la etapa 3, con URLs; reutilízalos y cítalos en vez de volver a buscarlos).
+3) Búsqueda web: carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 2 búsquedas (el presupuesto es compartido y escaso). Úsalas solo para huecos de evidencia que la etapa 3 no cubrió. Si una búsqueda falla, escribe "sin verificar". NUNCA inventes cifras, competidores, precios ni URLs.
+4) Construye tu caso EN CONTRA (por qué esta idea fracasaría para Juan) cubriendo OBLIGATORIAMENTE estas 8 dimensiones: dolor, pago, alternativas_actuales, canal_y_cac (costo de adquisición), retencion, mercado (tamaño CON fuente o "sin verificar"), defensa_frente_a_copias, ejecucion_una_persona_tiempo_parcial. En cada una: argumento + evidencia [{"afirmacion","url" o "sin verificar"}]. Sé honesto: si en alguna dimensión la evidencia no te favorece, dilo (la honestidad pesa ante el juez).
+5) Escribe /home/user/screenslider/embudo/e4/G06-04/P1_atacante_r1.json: {"id","par","rol","dimensiones":{"dolor":{"argumento","evidencia":[...]}, ... las 8 ...},"argumento_principal","busquedas_usadas":n}. Valida con python3.
+6) Respuesta final: solo "OK" y 1 línea.

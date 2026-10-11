@@ -1,0 +1,123 @@
+{
+ "idea": {
+  "id": "G28-01",
+  "nombre": "PLC Diff for Git",
+  "cliente_que_paga": "Controls engineers / integrators with TIA Portal and Studio 5000",
+  "problema": "Siemens SCL/ladder sources cannot be diffed natively; code review of PLC changes is manual.",
+  "solucion": "Web app that ingests exported XML/L5X and shows readable diffs and change reports, with a git-friendly CLI.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Search 'compare TIA Portal projects' / 'L5X diff' plus PLCTalk and r/PLC posts",
+  "competidores": [
+   "versionDog",
+   "Siemens Automation Compare Tool",
+   "MDT AutoSave"
+  ],
+  "por_que_ahora": "IEC 61131 teams adopting git/CI; Siemens VCI exports XML since V16.",
+  "ventaja_juan": "Knows TIA Portal and Studio 5000 export formats.",
+  "riesgo_principal": "Vendors may ship better native diffs.",
+  "evidencia_url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing",
+  "angulo": "28",
+  "tema": "PLC code diff",
+  "tema_norm": "diff y versionado PLC",
+  "duplicado_de": null,
+  "e2_total": 40,
+  "e2_razon": "Necesidad respaldada por una fuente, comparadores existentes son de pago/empresa y la ventaja de Juan es máxima; mercado reducido y riesgo de diff nativo.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 38,
+  "e3_filtro": null,
+  "e3_razon": "La ventaja de Juan es máxima y los incumbentes son empresariales, lo que deja espacio para un diff autoservicio orientado a git/CI. El mercado es pequeño, el volumen de búsqueda y la demanda en PLCTalk/r/PLC siguen sin verificar, y Siemens puede mejorar su diff nativo.",
+  "e3_hecho": "versionDog es comercial, exige TIA Portal con licencia y no publica precio; Siemens ofrece VCI (XML a Git desde V16) y comparación nativa.",
+  "e3_competidores": [
+   {
+    "nombre": "versionDog",
+    "precio": "no publicado (sin verificar)",
+    "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+   },
+   {
+    "nombre": "Siemens VCI / compare",
+    "precio": "incluido en TIA",
+    "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G28-01",
+   "filtros_fallados": [],
+   "objecion": "Mercado pequeño y con incumbentes: versionDog (comercial, TIA/S7/WinCC, reportes de cambios) y Siemens trae comparación nativa y VCI (XML a Git desde V16); el comprador industrial suele comprar vía integradores/ventas, no por autoservicio, y requiere TIA Portal con licencia para exportar.",
+   "hechos": [
+    {
+     "afirmacion": "Siemens VCI (V16+) exporta a XML para sistemas externos como Git; la comparación nativa de TIA es fuerte en bloques",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "versionDog es comercial, soporta TIA Portal/S7/WinCC con comparación y archivado automático",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "afirmacion": "Precio de versionDog",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'L5X diff' y actividad en PLCTalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G28-01",
+   "rescatar": true,
+   "respuesta": "Es la idea con mayor ventaja de Juan y evidencia citada (industrialmonitordirect). versionDog requiere TIA Portal con licencia y es un producto empresarial; no se encontró su precio público, lo que sugiere venta con cotización y deja espacio para una herramienta autoservicio de $39 orientada a git/CI. Los precios de licencias TIA (STEP 7 Professional unos $3,130 según un revendedor) muestran que el público ya gasta en herramientas de ingeniería.",
+   "concesiones": "Mercado pequeño; Siemens trae comparación nativa y VCI; el comprador industrial a veces compra vía integradores; precio de versionDog y volumen de búsqueda 'L5X diff' sin verificar; no hay evidencia de hilos en PLCTalk o r/PLC pidiéndolo.",
+   "hechos": [
+    {
+     "afirmacion": "versionDog requiere TIA Portal con licencia para comparar, respaldar e inventariar; precio no publicado",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "afirmacion": "Siemens VCI (V16+) exporta XML para sistemas externos como Git",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "STEP 7 Professional TIA V20 listado a $3,130 por un revendedor (referencia de gasto del segmento)",
+     "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"
+    }
+   ],
+   "ajuste_sugerido": "Enfocar L5X (Rockwell) y XML de TIA para integradores y equipos con git/CI; ofrecer CLI y GitHub Action, precio $39-$99 por equipo, SEO 'L5X diff' y 'compare TIA Portal projects'.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G28-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 2,
+    "diferenciacion": 3,
+    "ventaja_juan": 5,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 38,
+   "hecho_decisivo": "versionDog es comercial, exige TIA Portal con licencia y no publica precio; Siemens ofrece VCI (XML a Git desde V16) y comparación nativa.",
+   "competidores_verificados": [
+    {
+     "nombre": "versionDog",
+     "precio": "no publicado (sin verificar)",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "nombre": "Siemens VCI / compare",
+     "precio": "incluido en TIA",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    }
+   ],
+   "razon": "La ventaja de Juan es máxima y los incumbentes son empresariales, lo que deja espacio para un diff autoservicio orientado a git/CI. El mercado es pequeño, el volumen de búsqueda y la demanda en PLCTalk/r/PLC siguen sin verificar, y Siemens puede mejorar su diff nativo.",
+   "busquedas_usadas": 1
+  }
+ }
+}

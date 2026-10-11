@@ -1,0 +1,111 @@
+{
+ "idea": {
+  "id": "G29-09",
+  "nombre": "PLC Documentation Generator",
+  "cliente_que_paga": "Integrators handing over projects",
+  "problema": "Writing IO lists and handover docs by hand takes days.",
+  "solucion": "Offline tool parsing exported PLC projects into IO lists, tag sheets and PDF docs.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "PLCTalk, Reddit r/PLC, search 'generate IO list from TIA Portal'",
+  "competidores": [
+   "Manual Excel",
+   "Copia"
+  ],
+  "por_que_ahora": "Customers demand documentation but integrators cannot upload code.",
+  "ventaja_juan": "PLC naming and structure knowledge.",
+  "riesgo_principal": "Small niche.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "PLC documentation",
+  "tema_norm": "documentación de PLC",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Dolor concreto de días en documentación de entrega y ventaja de Juan alta, pero parsear proyectos propietarios es costoso y el nicho es chico.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 36,
+  "e3_filtro": null,
+  "e3_razon": "Dolor real y ventaja máxima de Juan; sin competidor dedicado hallado. Pero parsear proyectos propietarios es frágil (Openness), nicho chico y demanda sin verificar.",
+  "e3_hecho": "No se halló generador dedicado de IO list desde TIA Portal (no prueba inexistencia); demanda en PLCTalk sin verificar",
+  "e3_competidores": [
+   {
+    "nombre": "Litmus S7 Browse Agent",
+    "precio": "sin verificar",
+    "url": "https://litmus.io/solutions/siemens-s7-browse-agent"
+   }
+  ],
+  "variantes": [
+   "G18-12"
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G29-09",
+   "filtros_fallados": [],
+   "objecion": "Parsear proyectos propietarios (TIA Portal) es costoso y fragil (depende de Openness/exports); TIA ya trae vista nativa de direcciones IO, lo que erosiona el valor de listas basicas; nicho chico. No se hallo herramienta dedicada competidora en la busqueda, ni evidencia de demanda en PLCTalk/r/PLC (sin verificar). Copia no verificado.",
+   "hechos": [
+    {
+     "afirmacion": "TIA Portal tiene Address Overview nativo con direcciones IO por modulo (fuente de blog unica)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/finding-f-io-data-block-hardware-associations-in-tia-portal"
+    },
+    {
+     "afirmacion": "No se encontro herramienta dedicada de generacion de IO list desde TIA Portal en la busqueda (no prueba que no exista)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Demanda en PLCTalk / r/PLC y precio de Copia",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G29-09",
+   "rescatar": true,
+   "respuesta": "La búsqueda no encontró un generador dedicado de IO lists desde TIA Portal; lo más cercano es Litmus S7 Browse Agent (CSV de tags para Litmus Edge, no un entregable formal) y scripts propios con Openness. Hay evidencia de que la lista de IO y la documentación de entrega son entregables exigidos en proyectos. Es dolor real con ventaja alta de Juan y herramienta offline que resuelve la restricción de no subir código.",
+   "concesiones": "Parsear proyectos propietarios es frágil (Openness requiere TIA instalado); TIA tiene Address Overview nativo; nicho chico; demanda en PLCTalk/r/PLC sin verificar (la búsqueda no halló hilos de Reddit); precio de Copia sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "Litmus S7 Browse Agent lee un proyecto TIA y produce CSV de tags, pero orientado a Litmus Edge, no a IO list formal",
+     "url": "https://litmus.io/solutions/siemens-s7-browse-agent"
+    },
+    {
+     "afirmacion": "Openness permite generar tag tables vía XML templates; es la vía para construir el generador",
+     "url": "https://www.dmcinfo.com/blog/21173/using-xml-templates-in-tia-openness/"
+    },
+    {
+     "afirmacion": "Guía de selección de integradores pide como entregables export de IO list en .xlsx/.csv y cross-reference de tags",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/hiring-plc-programmers-best-practices-for-integrator-selection"
+    }
+   ],
+   "ajuste_sugerido": "Empezar con exports XML/AML/Excel de TIA (sin Openness) y subir precio a $49-79 por licencia de integrador; validar primero con hilos de PLCTalk.",
+   "busquedas_usadas": 3
+  },
+  "juez": {
+   "id": "G29-09",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 2,
+    "diferenciacion": 3,
+    "ventaja_juan": 5,
+    "mvp": 2,
+    "riesgo": 3
+   },
+   "total": 36,
+   "hecho_decisivo": "No se halló generador dedicado de IO list desde TIA Portal (no prueba inexistencia); demanda en PLCTalk sin verificar",
+   "competidores_verificados": [
+    {
+     "nombre": "Litmus S7 Browse Agent",
+     "precio": "sin verificar",
+     "url": "https://litmus.io/solutions/siemens-s7-browse-agent"
+    }
+   ],
+   "razon": "Dolor real y ventaja máxima de Juan; sin competidor dedicado hallado. Pero parsear proyectos propietarios es frágil (Openness), nicho chico y demanda sin verificar.",
+   "busquedas_usadas": 2
+  }
+ }
+}

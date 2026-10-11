@@ -1,0 +1,117 @@
+{
+ "id": "G06-01",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe (cotizar a mano) pero es de un nicho de dueños de tiendas pequeñas que ya tienen soluciones; no hay evidencia de que lo busquen activamente ni de volumen de pedidos que haga urgente automatizar. Honestidad: la existencia de plugins dedicados sugiere que el dolor es real, pero también que ya está resuelto.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice existe para convertir una tienda WooCommerce en tienda de cotización 3D, lo que confirma el dolor pero también que está cubierto",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Demanda/volumen de quejas en r/3Dprinting y print farms",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "A $29/mes compite contra un plan gratis (5 pedidos pagados/mes) y una opción GPL gratis. Los dueños con pocos pedidos nunca pasan del plan gratis; los de mucho volumen pueden usar SlicePress o un servicio propio. El etapa-3 ya calificó pago 2.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice: plan gratis de 5 pedidos pagados/mes y planes de pago de 50/100/300 pedidos vía Freemius",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "SlicePress es GPL gratis",
+     "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+    },
+    {
+     "afirmacion": "Disposición real de pago de talleres 3D a $29/mes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Ya hay al menos dos alternativas directas: PrintPrice (cloud, STL/3MF, tiempo desde gcode 3MF o estimado por masa) y SlicePress (slicing real con OrcaSlicer, GPL). Además cotización manual y formularios genéricos. La crítica de SlicePress a los estimadores por volumen muestra que la precisión ya la ocupa otro. Mi búsqueda solo halló PrintPrice como plugin WooCommerce dedicado; no verifiqué más, así que puede haber otros.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice calcula precio por kg/densidad/márgenes y tiempo desde gcode 3MF o masa de filamento",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "SlicePress argumenta que estimar por volumen es impreciso y usa slicing real",
+     "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+    },
+    {
+     "afirmacion": "Otros plugins o servicios (p. ej. cotizadores SaaS) no cubiertos por la búsqueda",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (búsqueda en WordPress.org) está ocupado por el incumbente con plan gratis y reseñas acumuladas; un plugin nuevo sin instalaciones queda abajo en el ranking. Reddit r/3Dprinting prohíbe o limita autopromoción (sin verificar) y los dueños de print farms son pocos. Sin evidencia de volumen de búsquedas.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice ya ocupa el listado de WordPress.org para cotizador STL/3MF en WooCommerce",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de '3D printing quote WooCommerce' y reglas de autopromoción en r/3Dprinting",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Cliente nicho y de negocio pequeño: alto churn por cierre de tiendas o por quedarse sin pedidos; si el volumen cae, bajan al plan gratis del rival. Además el plugin es poco pegajoso: cambiarlo es reconfigurar materiales y precios. Sin datos de retención.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de plugins WooCommerce de nicho y tiendas 3D pequeñas",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Techo bajo: para $10k MRR a $29 se necesitan unos 345 pagadores; el universo es tiendas WooCommerce de impresión 3D bajo pedido, un subnicho sin cifra verificada. Parte de ese universo usa Shopify, marketplaces o servicios como Craftcloud/Xometry (sin verificar). Tamaño: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Cantidad de tiendas WooCommerce de impresión 3D bajo pedido",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Cálculo propio: 10000/29 ≈ 345 clientes para US$10k MRR",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Sin defensa: el slicing se hace con motores abiertos (OrcaSlicer) y ya existe un plugin GPL que lo implementa; cualquiera puede bifurcar. El incumbente puede añadir slicing real con su nube. La ventaja de firmware de Juan es de conocimiento, no de barrera. Dependencia total de WooCommerce.",
+   "evidencia": [
+    {
+     "afirmacion": "SlicePress es GPL y usa slicing real, copiable por cualquiera",
+     "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+    },
+    {
+     "afirmacion": "PrintPrice ya procesa mallas en su nube y puede mejorar precisión",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "El MVP en 6 semanas es plausible (a favor de la idea, lo admito: Juan sabe PHP/Laravel y slicing). Pero lo difícil es mantener: compatibilidad con WooCommerce/WordPress, hosting de slicing (CPU, almacenamiento de archivos cliente, privacidad), soporte a tiendas y precisión por impresora/material. A tiempo parcial, eso consume el tiempo que debería ir a distribución, su cuello de botella.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice requiere cloud para parsear mallas y guardar archivos, lo que implica infraestructura continua",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Costo operativo de slicing en servidor a escala",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "El canal elegido está ocupado por PrintPrice (plan gratis y de pago) y SlicePress (GPL) ya ofrece slicing real, así que a $29/mes Juan vende un clon sin defensa a un nicho pequeño con alternativa gratis; se necesitan unos 345 pagadores y el único canal nombrado lo domina el incumbente. Lo único a favor es el MVP rápido y su conocimiento de slicing.",
+ "busquedas_usadas": 1
+}

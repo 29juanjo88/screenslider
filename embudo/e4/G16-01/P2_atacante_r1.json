@@ -1,0 +1,129 @@
+{
+ "id": "G16-01",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episódico: el dev lo siente durante la integración inicial y cuando cambian reglas, no cada semana. Una vez que su factura pasa, deja de buscar. Además el access point que transmite (Storecove, Billit, etc.) ya rechaza y devuelve errores, así que el dev recibe el error de todos modos. No hay evidencia verificada de que los mensajes crípticos sean un dolor que justifique pagar mensual.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen validadores gratis para Peppol/EN16931 que ya cubren la necesidad básica de validar (ecosio; la corrección asistida es solo para clientes de pago)",
+     "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+    },
+    {
+     "afirmacion": "No hay evidencia directa de dolor cuantificado (foros, volumen de búsquedas): sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El único precio de referencia verificado es pago por uso: US$4 por 1,000 validaciones en Apify. A US$79/mes un cliente tendría que validar ~20,000 facturas/mes para equipararse; la mayoría de SaaS pequeños validan pocas. Las reglas Schematron oficiales son gratuitas y hay una librería MIT en npm. Los compradores naturales (ERP/SaaS) tienden a construir o a delegar la validación al access point que ya pagan. Para US$10k MRR harían falta ~127 clientes a US$79; sin evidencia de que existan tantos pagando por validación suelta.",
+   "evidencia": [
+    {
+     "afirmacion": "Actor de Apify desde US$4.00 por 1,000 facturas validadas",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    },
+    {
+     "afirmacion": "Librería npm MIT @attestwire/en16931 valida EN16931/Peppol BIS 3.0 sin dependencias (v0.7.3, madurez dudosa)",
+     "url": "https://socket.dev/npm/package/@attestwire/en16931"
+    },
+    {
+     "afirmacion": "Precios de Storecove y Billit: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Muchas alternativas: validadores web gratis (ecosio, Lappa, peppolvalidator.com, peppol.helger.com sin SLA), Apify con API HTTP, Truugo con Validation API y Schematron API, librerías open source, y validación incluida en los access points. Honestidad: no se confirmó un REST API gratis dedicado y con SLA, lo que deja un hueco estrecho, pero el hueco se llena fácil.",
+   "evidencia": [
+    {
+     "afirmacion": "Validador gratis con reglas BIS 3.0 y EN16931",
+     "url": "https://lappa.org/free-peppol-xml-validator-tool/"
+    },
+    {
+     "afirmacion": "peppol.helger.com ofrece validación gratuita sin SLA",
+     "url": "https://hexdocs.pm/ubl_ex/UblEx.Validator.md"
+    },
+    {
+     "afirmacion": "Truugo ofrece Validation API y Schematron API para PEPPOL/EN16931",
+     "url": "https://www.truugo.com/peppol_bis_billing_3_validator/"
+    },
+    {
+     "afirmacion": "Actor Apify con API HTTP",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (SEO 'peppol validator api', GitHub, dev.to) compite con herramientas gratis que ya ocupan las búsquedas 'peppol validator' (ecosio, Lappa, peppolvalidator.com). La intención de búsqueda es de herramienta gratis puntual, no de suscripción. No hay marketplace con alta intención de compra para esto; Apify Store ya tiene un competidor posicionado. Sin verificar volumen de búsqueda ni CAC. Concedo: los mandatos generan tráfico informativo creciente.",
+   "evidencia": [
+    {
+     "afirmacion": "Páginas de validadores gratis ya posicionadas para la intención de búsqueda",
+     "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'peppol validator api' y CAC: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Uso conectado a hitos: se integra, se valida en CI y se olvida; el cliente puede bajar de plan o cancelar tras la certificación. Si el cliente usa un access point, la validación en producción ocurre allí. Churn alto esperable en un producto de validación puntual. Concedo que reglas que cambian trimestralmente generan algo de necesidad continua, pero se resuelve actualizando una dependencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Las reglas Peppol BIS 3.0 se actualizan trimestralmente (según blog de proveedor; mantener ambas capas Schematron requiere esfuerzo)",
+     "url": "https://www.truugo.com/peppol_bis_billing_3_validator/"
+    },
+    {
+     "afirmacion": "Datos de churn de productos similares: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "La red Peppol crece rápido (7.1 M identificadores de participante a 30-ago-2026, 98% del incremento reciente por Francia), pero eso son empresas receptoras/emisoras, no desarrolladores que compran una API de validación; un identificador no es un comprador. El comprador real (devs de SaaS/ERP que construyen emisión propia) es un subconjunto pequeño, no cuantificado. Además Francia usa su propio esquema de plataformas (PA/PDP) y los access points dominan: el top 5 sirve 87.3% de los participantes, lo que sugiere que la emisión está concentrada en pocos proveedores que ya integran validación. Concedo: el mercado total de e-invoicing es grande y creciente.",
+   "evidencia": [
+    {
+     "afirmacion": "7,118,671 identificadores de participante Peppol a 30-ago-2026, +25.1% en 30 días; 98% del crecimiento de Francia; son identificadores, no empresas distintas",
+     "url": "https://sharedserviceslink.com/news/peppol-network-passes-7-million-participants"
+    },
+    {
+     "afirmacion": "Más de 300 access points certificados en 98 países; en Francia el top 5 concentra 87.3% de participantes (cifras de fuentes secundarias, no autoritativas)",
+     "url": "https://www.b2brouter.net/es/peppol-en-cifras-estadisticas-b2brouter/"
+    },
+    {
+     "afirmacion": "Número de devs/SaaS que emiten e-facturas y comprarían una API: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Sin foso: las reglas son públicas y gratuitas, cualquier dev copia el wrapper Schematron+XSLT en días; los access points pueden añadirlo gratis, Apify ya tiene un actor y Truugo una API. La reparación/mensajes legibles es la única diferenciación y es fácil de replicar con un LLM. Concedo que un buen corpus de mensajes y de casos nacionales podría ser un activo, pero no hay evidencia de que sea difícil de igualar.",
+   "evidencia": [
+    {
+     "afirmacion": "Reglas Schematron oficiales gratuitas y librería MIT existente",
+     "url": "https://socket.dev/npm/package/@attestwire/en16931"
+    },
+    {
+     "afirmacion": "Competidores ya con API: Apify y Truugo",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Aquí la evidencia favorece parcialmente a la idea: un MVP en 6 semanas es factible para un backend senior en Node/TS. Pero el costo está en el mantenimiento: dos capas Schematron (EN16931 + Peppol BIS) más reglas nacionales (Bélgica, Polonia, Francia, Alemania) que cambian, requieren XSLT 2.0 y conocimiento fiscal local. A tiempo parcial, mantener cobertura de múltiples países, soporte a devs y SLA sería carga continua. La ventaja industrial de Juan (PLC/CAD/3D) no aplica; solo aplica su backend/XML genérico.",
+   "evidencia": [
+    {
+     "afirmacion": "Ejecutar localmente Schematron requiere procesador XSLT 2.0 y mantener ambas capas al día (blog de proveedor)",
+     "url": "https://www.truugo.com/peppol_bis_billing_3_validator/"
+    },
+    {
+     "afirmacion": "Esfuerzo real de mantener reglas nacionales a tiempo parcial: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Producto con hueco estrecho: el único precio verificado (US$4 por 1,000 validaciones) es mucho menor que US$79/mes, las reglas son gratis y hay validadores, API (Apify, Truugo) y librerías MIT ya disponibles, y los access points pueden regalarlo. Alcanzar US$10k MRR requiere ~127 clientes pagando un servicio fácil de copiar y de baja retención; el mercado de devs compradores no está cuantificado. Concedo que el MVP es viable y que los mandatos dan intención de búsqueda.",
+ "busquedas_usadas": 2
+}

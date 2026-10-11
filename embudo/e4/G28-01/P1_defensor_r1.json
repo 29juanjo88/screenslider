@@ -1,0 +1,133 @@
+{
+ "id": "G28-01",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "La revisión de cambios en PLC es manual y el archivo de proyecto es binario, así que Git no sirve sin una capa de texto. Control Engineering reporta que muchos programadores PLC no han adoptado Git por archivos binarios y herramientas propietarias. El dolor es real pero episódico (revisión/puesta en marcha), no semanal para todos; no hay evidencia verificada de hilos en PLCTalk o r/PLC pidiéndolo.",
+   "evidencia": [
+    {
+     "afirmacion": "Muchos programadores PLC no han adoptado Git: entornos visuales, archivos binarios, herramientas propietarias",
+     "url": "https://www.controleng.com/using-git-workflows-to-improve-efficiency-reduce-bottlenecks/"
+    },
+    {
+     "afirmacion": "Git no puede difundir archivos .ACD binarios; Git sin integración nativa con Studio 5000",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-version-control-file-format-compatibility-guide"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda y hilos en PLCTalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El segmento ya gasta mucho en herramientas de ingeniería (STEP 7 Professional TIA V20 listado en US$3,130 por un revendedor) y en versionado comercial (versionDog/Octoplant, empresarial). $39–99/mes por equipo es marginal frente a ese gasto y a una licencia TIA. Precio de versionDog no publicado (sin verificar), así que no puedo probar el ancla de precio.",
+   "evidencia": [
+    {
+     "afirmacion": "STEP 7 Professional TIA V20 a $3,130 (revendedor)",
+     "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"
+    },
+    {
+     "afirmacion": "versionDog es comercial; precio no publicado",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Honestidad: las alternativas son reales. Siemens ofrece VCI (XML a Git desde V16) y comparación nativa; Rockwell incluye Compare desde Logix Designer v21 (solo offline entre dos .ACD) y herramientas VCS Custom Tools gratuitas (fuente secundaria, licencia sin confirmar); versionDog/Octoplant maneja binarios con funciones empresariales; Copia vende tooling PLC basado en Git. El hueco: comparadores nativos son GUI dentro del IDE con licencia, sin reportes de cambios legibles para revisión por pares/PR, sin CLI/GitHub Action y sin ver diffs sin instalar TIA/Studio 5000. L5X es XML y se abre sin Studio 5000. Riesgo F1 parcial: lo nativo cubre el diff básico gratis.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens VCI (V16+) exporta XML a Git; comparación nativa fuerte en bloques",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Studio 5000 v21+ incluye Compare, solo offline entre .ACD; L5X es XML y se versiona en Git sin Studio 5000 instalado",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-version-control-file-format-compatibility-guide"
+    },
+    {
+     "afirmacion": "Rockwell VCS Custom Tools gratuitas convierten ACD a L5X para Git (fuente secundaria, licencia sin confirmar)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rockwell-plc-source-control-library-management-tools"
+    },
+    {
+     "afirmacion": "versionDog comercial, exige TIA con licencia",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "afirmacion": "Copia vende tooling Git para PLC (competidor adicional no listado en etapa 3)",
+     "url": "https://www.controleng.com/using-git-workflows-to-improve-efficiency-reduce-bottlenecks/"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsquedas 'L5X diff', 'compare TIA Portal projects', más PLCTalk y r/PLC, GitHub Action en Marketplace y contenido técnico. Intención de compra alta en esas búsquedas, pero volumen sin verificar y probablemente bajo. CAC bajo si es SEO/contenido/herramienta gratuita web (diff en navegador como cebo PLG), pero el techo de volumen limita el canal. Existen artículos de nicho (industrialmonitordirect, Control Engineering) que muestran que hay búsqueda informativa del tema.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen múltiples guías indexadas sobre comparar/versionar proyectos RSLogix/Studio 5000 y TIA, indicando búsqueda del tema",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/how-to-compare-rslogix-5000-program-differences"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'L5X diff' / 'compare TIA Portal projects'",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC real",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Si se integra a CI/PR (GitHub Action/CLI), pasa a ser parte del flujo y la retención es buena mientras el equipo use Git para PLC; el historial de cambios y reportes crea costo de salida. Debilidad: uso por proyecto, equipos pequeños pueden cancelar al terminar un proyecto; no hay datos de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn/retención de herramientas PLC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Copia posiciona flujos Git continuos para automatización industrial",
+     "url": "https://www.controleng.com/using-git-workflows-to-improve-efficiency-reduce-bottlenecks/"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Sin cifra verificada de compradores. Es un nicho: ingenieros de control/integradores con TIA o Studio 5000 que ya usan o quieren Git. La búsqueda no halló encuesta de adopción ni tamaño de mercado; la evidencia de baja adopción actual (archivo en carpetas) implica mercado temprano. Con ticket $39–99 se necesitarían ~200–500 equipos para la meta; no puedo demostrar que existan. Reconozco que es el punto más débil (juez e3 dio 2).",
+   "evidencia": [
+    {
+     "afirmacion": "Mayoría de programadores PLC usa flujo de carpetas de archivo (Copia, vendor-claim, anecdótico)",
+     "url": "https://www.controleng.com/using-git-workflows-to-improve-efficiency-reduce-bottlenecks/"
+    },
+    {
+     "afirmacion": "Tamaño de mercado de usuarios TIA/Studio 5000 con Git",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada. La barrera es conocimiento del dominio: parsear XML de TIA (SCL, ladder/LAD, FBD) y L5X (ladder, ST, AOI) para producir diffs semánticos legibles exige entender los formatos, que pocos desarrolladores tienen. Los grandes (Siemens, Rockwell, Copia, Octoplant) podrían replicarlo, pero su foco es empresarial con ventas, no autoservicio de $39. Riesgo: un vendor mejora su diff nativo.",
+   "evidencia": [
+    {
+     "afirmacion": "Incumbentes son productos empresariales con licencia",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "afirmacion": "Siemens puede mejorar diff nativo (riesgo declarado en etapa 3)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Fuerte. Juan conoce TIA Portal y Studio 5000 y Node/TypeScript; un MVP (parser L5X + diff legible + CLI + salida HTML/Markdown) es factible en ≤6 semanas porque L5X es XML estándar y no requiere hardware ni capital. Soporte y despliegue casi a costo cero. Validar TIA XML exige acceso a TIA con licencia (costo posible, mitigable empezando solo por L5X).",
+   "evidencia": [
+    {
+     "afirmacion": "L5X es XML, comparable y versionable sin Studio 5000",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-version-control-file-format-compatibility-guide"
+    },
+    {
+     "afirmacion": "Perfil de Juan con PLC Siemens/Rockwell y stack TS (brief)",
+     "url": "brief.md"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mejor ventaja de Juan del embudo, MVP rápido sin capital, y un hueco concreto: diffs legibles, CLI y GitHub Action de autoservicio a $39–99 frente a comparadores nativos dentro del IDE y a suites empresariales cotizadas. Honestidad: mercado pequeño y sin cifra, volumen de búsqueda sin verificar, y Rockwell/Siemens ya dan diff y exportación a Git gratis, así que el éxito depende de ofrecer valor de revisión (reportes, PR, CI) que lo nativo no da.",
+ "busquedas_usadas": 2
+}

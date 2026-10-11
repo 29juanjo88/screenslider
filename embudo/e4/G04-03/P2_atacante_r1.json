@@ -1,0 +1,137 @@
+{
+ "id": "G04-03",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es débil y no probado. El único indicio es un hilo de comunidad donde un experto cuestiona la necesidad de una app; la etapa 3 no halló demanda cuantificada. Quien tiene dolor real de ECR/ECN ya tiene (o necesita) PLM/QMS, y quien no, lo resuelve con un workflow de Jira. Honestidad: el hilo sí muestra a un usuario pidiendo ECO con BOM, versionado y aprobaciones, pero es una sola señal.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo de comunidad Atlassian sobre ECO en Jira: un usuario lo pide, un experto cuestiona la necesidad de una app",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Hilo 2024 sobre sincronizar change requests/orders de Jira con SolidWorks PDM/Vault: respuestas sin solución lista conocida (señal de dolor, pero pequeña)",
+     "url": "https://community.atlassian.com/forums/Jira-questions/Integrating-Jira-with-SolidWorks-PDM-or-Autodesk-Vault/qaa-p/2708548"
+    },
+    {
+     "afirmacion": "Tamaño de la demanda de ECR/ECN en Jira",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los $200/mes por app son poco creíbles en Atlassian Marketplace, donde las apps se cobran por usuario con precios bajos y los equipos de ingeniería esperan que Jira lo haga con configuración. Quien paga por control de cambios formal lo hace dentro de PLM/QMS con presupuesto propio. Los precios de PLM son opacos o conflictivos, lo que no confirma ni refuta el techo de pago. A favor: PLM cuesta bastante más, así que hay ancla de precio alta.",
+   "evidencia": [
+    {
+     "afirmacion": "Duro lista planes PLM Pro $9000/año y Enterprise $24000/año, con gestión de cambios incluida (Capterra; fuentes dispares)",
+     "url": "https://www.capterra.com/p/211999/Duro/pricing/"
+    },
+    {
+     "afirmacion": "OpenBOM reporta Team $30/asiento/mes y Company $90/asiento/mes según rfp.wiki; TrustRadius indica $25/mes, las fuentes discrepan",
+     "url": "https://www.rfp.wiki/specialty-industries/manufacturing/product-lifecycle-management-software-for-discrete-manufacturing/duro/openbom"
+    },
+    {
+     "afirmacion": "Disposición de pago de gerentes de calidad por una app de Marketplace a $200/mes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hay tres alternativas: (1) workflows de Change Management gratuitos en Jira/Marketplace (F1 parcial: incumbente gratis, aunque son flujos IT v1.0 sin soporte); (2) conectores gratuitos Jira-PLM (PROSTEP Arena, TECHNIA, OpsHub Windchill) para quien ya tiene PLM; (3) PLM/QMS dedicados con ECN nativo (Intellect, Duro, OpenBOM, Arena, Aras con edición comunitaria gratuita). Quien ya tiene PLM no necesita la app; quien no, usa Jira configurado o Excel. El hueco que ve la etapa 3 es 'aparente', y la ausencia de apps ECO en Marketplace puede significar falta de mercado, no oportunidad.",
+   "evidencia": [
+    {
+     "afirmacion": "Apps de Change Management en Marketplace halladas: flujos IT gratuitos v1.0 sin soporte",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    },
+    {
+     "afirmacion": "Conectores Jira-PLM en Marketplace (Windchill/OpsHub, PROSTEP Arena gratis, TECHNIA gratis) sincronizan change requests",
+     "url": "https://marketplace.atlassian.com/apps/1572722965/ptc-windchill-plm-integration-for-jira-no-code-two-way-sync"
+    },
+    {
+     "afirmacion": "Intellect ofrece software ECN para industrias reguladas",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    },
+    {
+     "afirmacion": "Aras tiene Community Edition gratuita para 50 usuarios según G2",
+     "url": "https://www.g2.com/compare/aras-innovator-vs-duro"
+    },
+    {
+     "afirmacion": "No se halló en mi búsqueda una app ECO/ECR nativa completa en Marketplace (esto favorece la idea)",
+     "url": "https://community.atlassian.com/forums/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (búsqueda en Atlassian Marketplace) es real pero la intención de búsqueda no está demostrada: no hay datos de volumen de búsquedas 'ECO'/'change control' ni de instalaciones comparables. Si nadie busca ECO en Marketplace, no hay canal para los primeros 100 clientes y se cae a outbound o contenido en un nicho de compradores (gerentes de calidad) que no viven en el Marketplace. Además un cliente a $200/mes exige confianza y soporte, que presiona el CAC. Honestidad: el Marketplace sí es un canal de bajo CAC y de autoservicio para quienes ya usan Jira.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda e instalaciones de apps ECO/change control en Atlassian Marketplace",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC esperado",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "El hilo de comunidad muestra intención de búsqueda de una app ECO, pero es un solo caso",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo de churn alto: la herramienta es de uso episódico (los ECN son esporádicos en fabricantes pequeños) y los compradores que crecen migran a PLM/QMS con ECN integrado, mismo tema que 'por qué ahora' (migran desde PLM pesado, pero al crecer vuelven). Los datos viven en Jira, así que el costo de salida es bajo si Atlassian mejora sus plantillas. Honestidad: el registro de auditoría y los registros históricos crean cierto lock-in una vez adoptado.",
+   "evidencia": [
+    {
+     "afirmacion": "Tasas de retención de apps de Marketplace de nicho comparables",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Frecuencia de ECN en fabricantes pequeños",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El mercado es la intersección de fabricantes que usan Jira Y gestionan ECR/ECN fuera de PLM Y no están regulados. Esa intersección es estrecha: los fabricantes suelen usar PLM/ERP o Excel, y Jira es de software/IT. Con el ajuste sugerido (no regulados) se pierde medtech, aeroespacial y automotriz, que son los que más pagan por trazabilidad. Para 50-ish clientes a $200 hacen falta US$10k MRR, es decir ~50 clientes; alcanzable en teoría, pero el tamaño total no está cuantificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de fabricantes con Jira que gestionan ECR/ECN sin PLM",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Intellect apunta a industrias reguladas (segmento que la idea debería evitar o validar formalmente)",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "La defensa es baja: un workflow ECR/ECN con aprobaciones, auditoría y PDF es replicable por cualquier desarrollador de Marketplace en semanas, y por Atlassian mediante plantillas nativas o Forge/Automation. Los conectores PLM de OpsHub, PROSTEP y TECHNIA pueden extenderse a ECO nativo. No hay datos propietarios, efectos de red ni integración profunda. Lo único defendible es el conocimiento de dominio de Juan (PLC/CAD) y la reputación en un nicho pequeño.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen proveedores establecidos con apps en Marketplace que podrían extenderse a ECO",
+     "url": "https://marketplace.atlassian.com/apps/1572722965/ptc-windchill-plm-integration-for-jira-no-code-two-way-sync"
+    },
+    {
+     "afirmacion": "Plantillas gratuitas de Change Management ya existen en Marketplace",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestidad: el MVP técnico es viable en 6 semanas para Juan (TypeScript, Forge/Connect, workflow y PDF) y cuesta casi nada. Los problemas están fuera del código: pasar la revisión del Marketplace y mantener compatibilidad con Jira Cloud, soporte a clientes de $200/mes, y sobre todo validar sin ventas con compradores de calidad. Si el segmento regulado exige validación formal (IQ/OQ, 21 CFR Part 11), el producto no cumple solo y no puede venderse sin tracción. Dependencia de una sola plataforma (Atlassian) es riesgo marcado en el brief.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo y plazo de certificación de apps/Forge y requisitos de soporte en Marketplace",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Requisitos de validación formal de compradores regulados (riesgo declarado en la propia idea)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hueco aparente, no demanda probada: ninguna app ECR/ECN en Marketplace puede significar ausencia de mercado. Quien paga por control de cambios usa PLM/QMS (con ECN nativo y conectores gratuitos a Jira); quien no, usa workflows gratuitos de Jira. El segmento no regulado es estrecho y de baja disposición a pagar $200/mes, sin foso defensivo frente a copias o plantillas de Atlassian y con canal (búsquedas en Marketplace) y CAC sin datos. El MVP es fácil, pero lo difícil es la demanda, y aquí no hay evidencia de ella.",
+ "busquedas_usadas": 2
+}

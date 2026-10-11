@@ -1,0 +1,134 @@
+{
+ "idea": {
+  "id": "G15-01",
+  "nombre": "Agente de RFQ para talleres CNC",
+  "cliente_que_paga": "Dueños/estimadores de talleres de maquinado CNC (EE.UU./UE)",
+  "problema": "Leer RFQs por email con planos y armar cotizaciones lleva horas por pieza.",
+  "solucion": "Agente que lee el email, extrae planos STEP/PDF, estima tiempo de máquina y redacta la cotización para aprobar.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Foros r/machinists y r/CNC, Practical Machinist, videos de YouTube de talleres, SEO 'CNC quoting software'.",
+  "competidores": [
+   "Paperless Parts",
+   "Xometry (marketplace)"
+  ],
+  "por_que_ahora": "LLM + geometría 3D permiten estimar sin ingeniero de cotización.",
+  "ventaja_juan": "Conoce CAD/CAM y tiempos de maquinado reales.",
+  "riesgo_principal": "Competidores con fondos y ciclos de venta; precisión de estimación.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "cotización CNC",
+  "tema_norm": "cotización y costeo de taller",
+  "duplicado_de": null,
+  "e2_total": 40,
+  "e2_razon": "Dolor semanal real en talleres CNC y canal SEO/foros, pero MVP de estimación fiable en 6 semanas es difícil y Paperless Parts compite.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 38,
+  "e3_filtro": null,
+  "e3_razon": "Dolor y pago reales (competidores cobran), pero mercado saturado con fondos y estimacion fiable no cabe en 6 semanas. No falla filtro; puntaje MEDIA. Busqueda web no disponible (cupo agotado); se uso evidencia de ataque/defensa.",
+  "e3_hecho": "Paperless Parts (US$30M), SpeedQuoteAI (desde US$750) y CloudNC (plan gratis limitado) cubren el mismo caso; no hay incumbente gratis completo.",
+  "e3_competidores": [
+   {
+    "nombre": "SpeedQuoteAI",
+    "precio": "desde US$750",
+    "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+   },
+   {
+    "nombre": "CloudNC Quote Agent",
+    "precio": "plan gratis 3 cotizaciones/mes",
+    "url": "https://www.cloudnc.com/quote-agent"
+   },
+   {
+    "nombre": "Paperless Parts",
+    "precio": "sin verificar",
+    "url": "https://www.paperlessparts.com/facts/"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G15-01",
+   "filtros_fallados": [
+    "F3"
+   ],
+   "objecion": "Competidor financiado (Paperless Parts, levantó $30M) ya ofrece cotización CNC con extracción de PDF por IA y geometría 3D; la estimación fiable en 6 semanas es difícil y el precio de $149 no está validado. Costifier también compite en estimación IA para CNC. Riesgo de ciclos de venta/confianza en precios.",
+   "hechos": [
+    {
+     "afirmacion": "Paperless Parts ofrece costeo por geometría CNC, advertencias DFM y extracción de PDF con IA; apunta a talleres de 1,000-50,000 piezas únicas/año",
+     "url": "https://www.paperlessparts.com/facts/"
+    },
+    {
+     "afirmacion": "Paperless Parts levantó $30M",
+     "url": "https://startupsavant.com/news/paperless-parts"
+    },
+    {
+     "afirmacion": "Costifier ofrece estimación de costos con IA para CNC",
+     "url": "https://www.cbinsights.com/compare/costifier-vs-paperless-parts"
+    },
+    {
+     "afirmacion": "Precios de Paperless Parts y Costifier",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G15-01",
+   "rescatar": false,
+   "respuesta": "El mercado existe y los proveedores cobran (SpeedQuoteAI desde US$750, CloudNC con plan gratis), lo que prueba disposicion de pago, pero tambien confirma competencia financiada y un incumbente gratis parcial. No hay evidencia de hilos de foros pidiendo esto.",
+   "concesiones": "Paperless Parts con $30M, SpeedQuoteAI y CloudNC cubren el mismo caso; estimacion fiable en 6 semanas es dificil; $149 sin validar.",
+   "hechos": [
+    {
+     "afirmacion": "SpeedQuoteAI (RFQ por email con IA para talleres CNC) arranca en US$750 con prueba de 10 dias",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    },
+    {
+     "afirmacion": "CloudNC Quote Agent afirma que cotizar manualmente toma 2-4h+ por RFQ y ofrece plan gratis de 3 cotizaciones/mes (dato del vendedor)",
+     "url": "https://www.cloudnc.com/quote-agent"
+    },
+    {
+     "afirmacion": "Hilos de Reddit/Practical Machinist pidiendo esta solucion",
+     "url": "sin verificar"
+    }
+   ],
+   "ajuste_sugerido": "",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G15-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 4,
+    "pago": 4,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 2,
+    "ventaja_juan": 4,
+    "mvp": 2,
+    "riesgo": 2
+   },
+   "total": 38,
+   "hecho_decisivo": "Paperless Parts (US$30M), SpeedQuoteAI (desde US$750) y CloudNC (plan gratis limitado) cubren el mismo caso; no hay incumbente gratis completo.",
+   "competidores_verificados": [
+    {
+     "nombre": "SpeedQuoteAI",
+     "precio": "desde US$750",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    },
+    {
+     "nombre": "CloudNC Quote Agent",
+     "precio": "plan gratis 3 cotizaciones/mes",
+     "url": "https://www.cloudnc.com/quote-agent"
+    },
+    {
+     "nombre": "Paperless Parts",
+     "precio": "sin verificar",
+     "url": "https://www.paperlessparts.com/facts/"
+    }
+   ],
+   "razon": "Dolor y pago reales (competidores cobran), pero mercado saturado con fondos y estimacion fiable no cabe en 6 semanas. No falla filtro; puntaje MEDIA. Busqueda web no disponible (cupo agotado); se uso evidencia de ataque/defensa.",
+   "busquedas_usadas": 0
+  }
+ }
+}

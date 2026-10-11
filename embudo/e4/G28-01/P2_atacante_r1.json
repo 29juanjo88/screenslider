@@ -1,0 +1,133 @@
+{
+ "id": "G28-01",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es real pero episódico y tolerado: la revisión manual de cambios PLC existe hace décadas y los equipos la resuelven con Compare Tool de Rockwell, comparador de Siemens o WinMerge sobre exportaciones. Etapa 3 no halló ni un hilo de PLCTalk/r/PLC que lo pida. No es un dolor semanal que se busque activamente; la mayoría de equipos de controles no usa git/CI.",
+   "evidencia": [
+    {
+     "afirmacion": "Rockwell trae Logix Designer Compare Tool integrado con Source Control",
+     "url": "https://www.rockwellautomation.com/en-be/docs/studio-5000-logix-designer/37-00/contents-ditamap/studio-5000-logix-designer/source-control---show-differences-command.html"
+    },
+    {
+     "afirmacion": "Blogs indican que herramientas genéricas (BeyondCompare/WinMerge) comparan exportaciones L5K como texto",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/rslogix-5000-compare-utility-setup-and-usage-guide"
+    },
+    {
+     "afirmacion": "No hay evidencia de hilos en PLCTalk/r/PLC pidiendo esto (concedido en etapa 3)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Quien paga en este mundo son empresas con presupuesto vía integradores/compras, y ya tienen herramientas incluidas o suites (versionDog, Copia). $39/mes por un diff autoservicio es gasto que un ingeniero individual rara vez aprueba por tarjeta; el gasto en TIA ($3,130 por licencia) refleja licencias de ingeniería, no disposición a pagar por utilidades adyacentes. Sin evidencia de que alguien pague por un diff solo.",
+   "evidencia": [
+    {
+     "afirmacion": "STEP 7 Professional TIA V20 listado a $3,130 (referencia de gasto en licencias, no en utilidades de diff)",
+     "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"
+    },
+    {
+     "afirmacion": "Precio de versionDog no publicado, no hay ancla de precios del segmento",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Disposición de pago por herramienta de diff autoservicio: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hay muchas alternativas, varias gratis o incluidas: Siemens VCI (XML a Git, V16+) con Automation Compare Tool de Siemens (descargable, gratuito según blog) ; Rockwell Compare Tool; add-in open source tia-git-addin con parser SimaticML (V21); Copia (merge/Git para Rockwell y Siemens) y versionDog como suites. Esto roza el filtro F1 (incumbente gratis suficientemente bueno, incluidas funciones nativas). Siemens además empuja formatos de texto (SCL) en V21 que hacen el git diff estándar suficiente, y SIMATIC AX es texto puro.",
+   "evidencia": [
+    {
+     "afirmacion": "VCI exporta SimaticML XML a Git; Siemens Automation Compare Tool puede usarse como comparador VCI",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-v18-git-version-control-vci-setup-and-diff-limits"
+    },
+    {
+     "afirmacion": "Add-in open source TIA V21 con parser SimaticML (C# XDocument) para Git",
+     "url": "https://gitblind.noratr.app/Czarnak/tia-git-addin"
+    },
+    {
+     "afirmacion": "Copia ofrece Git-based source control y merge para Rockwell (L5X) y Siemens",
+     "url": "https://docs.copia.io/docs/git-based-source-control/supported-vendors/rockwell/rockwell-1"
+    },
+    {
+     "afirmacion": "versionDog comparación y archivado para TIA/S7/WinCC",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "afirmacion": "Blog indica que SIMATIC AX son archivos de texto compatibles con Git estándar",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/siemens-simatic-ax-plc-development-guide-and-tia-comparison"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal declarado (SEO 'L5X diff', PLCTalk, r/PLC) es de volumen no verificado y probablemente minúsculo; los foros industriales son hostiles a la autopromoción y los compradores reales (integradores, OEM) compran por relaciones y distribuidores. Las páginas que rankean para estas consultas son blogs de terceros y documentación de proveedores, sin marketplace con intención de compra. Alcanzar 100 pagadores sin outbound es incierto. Honestidad: no hay evidencia de CAC ni de volumen.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda 'L5X diff' / 'compare TIA Portal projects': sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Resultados de búsqueda para el tema dominados por blogs y documentación de proveedores (industrialmonitordirect, Rockwell, Copia), no por herramientas autoservicio",
+     "url": "https://www.rockwellautomation.com/en-be/docs/studio-5000-logix-designer/37-00/contents-ditamap/studio-5000-logix-designer/source-control---show-differences-command.html"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Uso esporádico: se compara en commissioning o auditorías, no a diario; los proyectos terminan y el integrador cancela. Con $39/mes el churn por proyecto finalizado sería alto. Retención plausible solo con CI integrado, pero eso requiere adopción de git que es minoritaria. Sin datos de retención en el nicho.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención/churn en herramientas de ingeniería PLC: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Adopción de git/CI en equipos de controles: sin verificar (la tesis 'por qué ahora' no tiene fuente)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado pequeño: el juez de etapa 3 dio mercado 2 (<2,000 a 10,000 compradores). Para $10k MRR a $39 se necesitan ~256 pagadores; a $10-50k MRR, 256-1,280. Dividido entre Siemens y Rockwell y solo quienes usan git, el techo accesible es dudoso. Sin cifra de usuarios de TIA/Studio 5000 con fuente.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de usuarios de TIA Portal / Studio 5000 y proporción con git: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Juez etapa 3 puntuó mercado 2 con total 38 (MEDIA)",
+     "url": "/home/user/screenslider/embudo/e4/G28-01/idea.json"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Foso bajo: parsear XML de TIA/L5X es trabajo de pocas semanas y ya hay un add-in open source con parser SimaticML. Los incumbentes (Siemens, Rockwell, Copia, versionDog) pueden añadir diffs legibles; Siemens ya mejora formatos de texto en V21. Un clon open source gratis destruiría un precio de $39. El conocimiento de Juan es ventaja real (admitido), pero no impide copia.",
+   "evidencia": [
+    {
+     "afirmacion": "Parser SimaticML open source ya existe",
+     "url": "https://gitblind.noratr.app/Czarnak/tia-git-addin"
+    },
+    {
+     "afirmacion": "Siemens avanza a formatos de texto (SCL .s7dcl) más aptos para Git en V21",
+     "url": "https://www.plc-hmi-scadas.com/en/blog/control-versiones-git-tia-portal-v21/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Aquí la evidencia no favorece al ataque: un MVP en 6 semanas es factible y Juan domina los formatos (ventaja 5, MVP 4 en etapa 3). Los riesgos son otros: mantener compatibilidad con cada versión de TIA (V16–V21) y firmware/esquemas L5X, soporte a clientes industriales y pruebas sin licencias propias de TIA/Studio 5000 (costosas, ~$3,130 TIA Pro), lo que erosiona el tiempo parcial. Y el cuello de botella de Juan es distribución, justo lo más débil de esta idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Licencia STEP 7 Professional V20 ~$3,130 necesaria para probar exportaciones",
+     "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"
+    },
+    {
+     "afirmacion": "Juez etapa 3: ventaja Juan 5, MVP 4",
+     "url": "/home/user/screenslider/embudo/e4/G28-01/idea.json"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Nicho pequeño con alternativas nativas, gratuitas o open source (VCI + Siemens Compare, Rockwell Compare Tool, tia-git-addin, Copia, versionDog), sin evidencia de demanda ni de volumen de búsqueda, comprador que compra vía integradores, uso esporádico y foso casi nulo; roza F1. La única fortaleza sólida es la ventaja técnica y el MVP, pero Juan necesita distribución y esta es la dimensión más débil.",
+ "busquedas_usadas": 2
+}

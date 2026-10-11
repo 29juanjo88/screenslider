@@ -1,0 +1,129 @@
+{
+ "id": "G12-05",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episodico y se resuelve con parches baratos (alertas nativas, workflows de error propios, email parser). Los testimonios son anecdoticos (un caso de IndieHackers y un hilo de foro), no prueban busqueda activa de una herramienta de pago. Honestidad: el dolor si esta documentado y la perdida de un cliente de $2,500/mes es seria.",
+   "evidencia": [
+    {
+     "afirmacion": "Duenio de agencia perdio un cliente de $2,500/mes por un workflow n8n caido 3 dias (caso unico)",
+     "url": "https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"
+    },
+    {
+     "afirmacion": "Hilo en foro n8n preguntando como se enteran las agencias de fallos; es pregunta abierta, no demanda de pago",
+     "url": "https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"
+    },
+    {
+     "afirmacion": "Una agencia con 30 cuentas Make construyo su propio sistema de alertas con la API, es decir resuelve en casa",
+     "url": "https://community.make.com/t/vatech-io-enterpise-error-alert-and-backup-system-with-make-com-the-problems-we-faced-during-5-years-of-working-at-make-and-their-solutions/30143"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los competidores anclan el precio en gratis/$19; $49 no tiene respaldo. Agencias de automatizacion son pequenas, sensibles al costo y pueden construir su propio monitor con un escenario de error handler. Sin evidencia de disposicion de pago a $49.",
+   "evidencia": [
+    {
+     "afirmacion": "RootBrief Pro desde $19/mes (precio de lanzamiento)",
+     "url": "https://www.producthunt.com/p/rootbrief"
+    },
+    {
+     "afirmacion": "OpsVeritas gratis hasta 10 workflows",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "Flowlert gratis hasta 5 workflows",
+     "url": "https://hunted.space/product/flowlert"
+    },
+    {
+     "afirmacion": "Disposicion de pago de agencias a $49",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Al menos 4-6 monitores multi-plataforma ya existen (OpsVeritas, RootBrief, Flowlert, FlowPulse, n8ops, AIgencyTracker) mas FlowMetr y las alertas nativas por email/Slack de cada plataforma, y Zapier ofrece replay de runs fallidos en planes pagos. Los tiers gratis casi cubren a una agencia pequena. Honestidad: las alertas nativas son por cuenta y no detectan workflows programados que dejan de dispararse, un hueco real pero ya atacado por terceros.",
+   "evidencia": [
+    {
+     "afirmacion": "OpsVeritas monitorea n8n, Make, Zapier en un dashboard",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "Flowlert monitorea n8n, Make y Zapier",
+     "url": "https://hunted.space/product/flowlert"
+    },
+    {
+     "afirmacion": "FlowPulse run ledger para n8n, Make, Zapier",
+     "url": "https://hunted.space/product/flowpulse"
+    },
+    {
+     "afirmacion": "n8ops y FlowMetr existen como monitores (paginas de vendor, sin verificar sus claims)",
+     "url": "https://www.producthunt.com/products/n8ops"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Los canales nombrados (foros Make/n8n, directorio Zapier Experts, YouTube) son reales pero las comunidades prohiben o toleran mal la autopromocion, y los competidores ya publican alli y en Product Hunt. El SEO 'monitor Make scenarios' compite con ellos y con documentacion nativa. Con tickets de $49 y churn alto, el CAC por contenido/YouTube de un fundador a tiempo parcial es lento. Volumen de busquedas y CAC: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores ya presentes en Product Hunt/hunted.space, mismos canales de lanzamiento",
+     "url": "https://hunted.space/product/flowlert"
+    },
+    {
+     "afirmacion": "Volumen de busqueda y CAC en estos canales",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo de churn alto: el monitor es 'instalar y olvidar', las agencias cambian de plataforma o clientes (churn de cuentas de cliente), y cuando no hay fallos el valor percibido cae. Con tier gratis rival, downgrade facil. Sin datos de retencion de la categoria.",
+   "evidencia": [
+    {
+     "afirmacion": "Retencion/churn de monitores de automatizacion",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El numero de agencias/freelancers multi-plataforma que pagarian es pequeno y no hay cifra verificada. Para $10k MRR a $49 se necesitan ~205 pagadores; para $50k, ~1,020, en un nicho con 4-6 rivales y tiers gratis. Tamano total sin fuente.",
+   "evidencia": [
+    {
+     "afirmacion": "Numero de agencias de automatizacion que usan 2+ plataformas",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Aritmetica: $10k/$49 = ~204 clientes; $50k/$49 = ~1,020",
+     "url": "sin verificar (calculo propio)"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Practicamente nula: integracion via APIs publicas y webhooks, replicable por cualquier dev en semanas (ya hay 4-6 clones). Sin datos propietarios, efecto red ni lock-in. Ademas Zapier/Make/n8n pueden lanzar monitoreo multi-cuenta nativo (Zapier ya lo tiene en Enterprise).",
+   "evidencia": [
+    {
+     "afirmacion": "Multiples monitores casi identicos lanzados en paralelo",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "Zapier ofrece replay automatico, alertas y observability API en tiers pagos/Enterprise (resultado de busqueda, claims de terceros)",
+     "url": "https://blog.n8n.io/make-vs-zapier/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestidad: el MVP en 6 semanas es factible para un backend senior (polling de APIs, alertas). Pero el mantenimiento es continuo: tres APIs con limites de tasa, cambios de esquema, cuentas OAuth de clientes (seguridad de credenciales de terceros, confianza) y soporte. La ventaja industrial PLC/CAD de Juan no aplica; el cuello de botella es distribucion, donde Juan es debil.",
+   "evidencia": [
+    {
+     "afirmacion": "Limites de API y cambios de plataforma como riesgo declarado en la propia idea",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "MVP viable en tiempo parcial (concesion, sin fuente)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Idea con dolor real pero categoria ya ocupada por 4-6 monitores con tiers gratis y Pro desde $19, precio de $49 sin respaldo, defensa nula, riesgo de que las plataformas lo absorban y un canal donde Juan competiria contra rivales ya presentes; la diferenciacion es casi cero y la ventaja de Juan no es relevante.",
+ "busquedas_usadas": 1
+}

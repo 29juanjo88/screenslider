@@ -1,0 +1,133 @@
+{
+ "id": "G16-01",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Los mandatos convierten la validez de la factura en obligación legal: Bélgica desde 1-ene-2026 (todas las empresas, formato Peppol BIS), Polonia KSeF escalonado en 2026-2027 y, por ViDA, EN16931 será la única factura válida intra-UE desde 1-jul-2030. Una factura rechazada retrasa el cobro cada vez, y los mensajes de Schematron son crípticos. Honestidad: el dolor es real pero es de integración puntual, no diario; muchos lo resolverán una vez con una librería.",
+   "evidencia": [
+    {
+     "afirmacion": "Bélgica: e-factura obligatoria desde 1-ene-2026, formato Peppol BIS, aplica a todas las empresas",
+     "url": "https://economie.wallonie.be/en/home/actualites/actualites/facturation-electronique-obligatoire-en-belgique-a-partir-du-1er-janvier-2026.html"
+    },
+    {
+     "afirmacion": "Poland KSeF escalonado: grandes desde 1-feb-2026, resto desde 1-abr-2026, micro en 2027 (fuente agregadora)",
+     "url": "https://www.spscommerce.com/community/articles/e-invoicing-mandates-in-europe-the-2026-business-guide"
+    },
+    {
+     "afirmacion": "ViDA: desde 1-jul-2030 la factura estructurada EN16931 será la única válida en B2B intra-UE, sin umbral",
+     "url": "https://www.eurofiscalis.com/en/intra-eu-e-invoicing-2030/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Existe pago por validación (Apify cobra desde US$4 por 1,000 facturas) y ecosio reserva el soporte de corrección para clientes de pago, lo que muestra que la reparación se monetiza. El comprador es un dev/equipo de producto de SaaS/ERP con presupuesto de cumplimiento. Honestidad: el ancla de precio es pago por uso muy por debajo de US$79/mes; habría que escalar por volumen o ofrecer tier con reparación.",
+   "evidencia": [
+    {
+     "afirmacion": "Actor de Apify cobra desde US$4 por 1,000 validaciones",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    },
+    {
+     "afirmacion": "ecosio ofrece validación web gratis; soporte de corrección solo para clientes de pago",
+     "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+    },
+    {
+     "afirmacion": "Disposición a pagar US$79/mes por un SaaS concreto",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Validadores web gratis (ecosio, Lappa, peppol.helger.com sin SLA) y un actor de Apify. Son herramientas manuales o de nicho; no se confirmó un REST API gratis dedicado, con SLA, mensajes legibles y reparación automática, ni CLI para CI. Concedo que las reglas Schematron oficiales son gratis y que Storecove/Billit podrían incluir validación en su oferta (sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "Validador web gratis con reglas BIS 3.0 y EN16931",
+     "url": "https://lappa.org/free-peppol-xml-validator-tool/"
+    },
+    {
+     "afirmacion": "peppol.helger.com ofrece validación gratuita sin SLA",
+     "url": "https://hexdocs.pm/ubl_ex/UblEx.Validator.md"
+    },
+    {
+     "afirmacion": "Apify actor con API HTTP",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+    },
+    {
+     "afirmacion": "Oferta de validación incluida en Storecove/Billit",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: SEO de cola larga ('peppol validator api', 'EN16931 validation error', mensajes de error BR-xx), GitHub/npm, directorios de APIs y dev.to. Los mandatos generan búsquedas con intención de compra y los mensajes de error indexables son contenido programático barato. CAC cercano a tiempo del fundador. Honestidad: no hay volumen de búsqueda verificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Mandatos activos en 2026 generan demanda de búsqueda (Bélgica, Polonia, Francia, Alemania con fechas distintas según fuente)",
+     "url": "https://econnect.eu/en/blog/mandatory-e-invoicing-in-2026-which-countries-are-affected-0"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'peppol validator api'",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Una vez integrada en el pipeline de emisión o CI, la API se queda mientras se emitan facturas; el uso crece con el volumen y las reglas cambian (versiones BIS, reglas nacionales, ViDA 2030), lo que justifica suscripción de actualización. Honestidad: si el cliente solo valida en desarrollo, podría cancelar tras integrar; no hay datos de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Calendario escalonado de mandatos hasta 2030 y alineación de sistemas nacionales a 2035 sostiene demanda continua",
+     "url": "https://www.grantthornton.nl/en/insights-en/tax/btw/recent-e-invoicing-developments-in-europe/"
+    },
+    {
+     "afirmacion": "Datos de churn de APIs de validación",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Peppol tenía más de 1.4 millones de organizaciones registradas en 98 países (marzo 2025, según una fuente) y Bélgica sola tiene cerca de 1.2 millones de empresas obligadas. El comprador real es el subconjunto de SaaS/ERP/integradores que emiten facturas; cifra de ese subconjunto sin verificar, pero 500 clientes a US$79 (~US$40k MRR) parece acotado frente a miles de proveedores de software UE. Concedo que muchos clientes finales usarán a su Access Point.",
+   "evidencia": [
+    {
+     "afirmacion": "Más de 1.4M organizaciones registradas en Peppol en 98 países (marzo 2025, fuente secundaria)",
+     "url": "https://vatcompliance.co/blog/e-invoicing-and-peppol-requirements-for-global-businesses/"
+    },
+    {
+     "afirmacion": "Bélgica: unas 1.2M empresas obligadas (fuente secundaria)",
+     "url": "https://www.spscommerce.com/community/articles/e-invoicing-mandates-in-europe-the-2026-business-guide"
+    },
+    {
+     "afirmacion": "Número de desarrolladores/SaaS que emiten e-facturas UE",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Débil de forma honesta: reglas públicas, sin efecto de red. La defensa es operativa: catálogo de mensajes legibles y correcciones por regla nacional, mantenimiento continuo de versiones, SEO programático acumulado, integraciones y CLI. Un Access Point podría regalar validación; mitigación: posicionarse neutral y multi-AP.",
+   "evidencia": [
+    {
+     "afirmacion": "Reglas Schematron oficiales gratuitas (el motor no es defendible)",
+     "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+    },
+    {
+     "afirmacion": "Proveedores Peppol regalando validación",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy favorable: backend Node/TS con XML/validación; se pueden empaquetar los artefactos Schematron/XSLT oficiales, añadir capa de mensajes legibles y un MVP (endpoint, CLI, docs, página de errores) en ~6 semanas. Sin hardware, sin licencias reguladas, sin ventas. Costo operativo bajo. Riesgo: mantenimiento de reglas nacionales por país.",
+   "evidencia": [
+    {
+     "afirmacion": "Actor de Apify demuestra que validar UBL/Peppol BIS vía API es técnicamente factible por un desarrollador individual",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+    },
+    {
+     "afirmacion": "Esfuerzo exacto de MVP",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mandatos con fecha legal (Bélgica 2026, Polonia 2026-27, ViDA 2030) crean demanda recurrente y buscable entre devs de SaaS/ERP, y el MVP es muy factible para Juan a costo casi cero. La debilidad honesta es la diferenciación estrecha (reglas gratis, ancla Apify US$4/1,000) y precio US$79/mes sin validar; el caso depende de vender mensajes legibles, reparación y SLA vía SEO programático.",
+ "busquedas_usadas": 2
+}

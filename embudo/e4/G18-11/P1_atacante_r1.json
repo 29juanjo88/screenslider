@@ -1,0 +1,121 @@
+{
+ "id": "G18-11",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "La migración de tags es un paso menor dentro de un proyecto de migración mucho mayor (lógica, hardware, HMI, comisionamiento). El tag database se puede rehacer en horas o días; nadie 'busca activamente' pagar por ello cada semana. El único indicio de demanda es un hilo de foro sobre conversión parcial de código, no de tags, y un hilo no prueba urgencia. Honestidad: el proceso parece manual, lo que sí indica fricción real, pero puntual.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo MrPLC sobre conversión parcial de código Studio 5000 a TIA (es código, no tag lists; un solo hilo)",
+     "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+    },
+    {
+     "afirmacion": "Un blog señala que TIA Portal no puede importar/explorar tags de CompactLogix nativamente; la migración de comunicación se resuelve con gateway, no con conversión de tags",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/compactlogix-tags-to-s7-1500-tia-portal-import-procedure"
+    },
+    {
+     "afirmacion": "Frecuencia de migraciones Rockwell a Siemens y volumen de búsqueda",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Comprador ingeniero de controles en integrador o planta: la herramienta ahorra pocas horas; el gasto lo absorbe el proyecto o lo cubre el fabricante gratis. Suscripción de 59 USD/mes es incoherente con un uso de una vez por proyecto; por proyecto (49-149 USD) la meta de 10k MRR exige cientos de conversiones nuevas cada mes. Planta/empresa grande exige aprobación de compra y TI para subir datos de proceso. No hay evidencia de disposición de pago.",
+   "evidencia": [
+    {
+     "afirmacion": "Disposición de pago por herramientas de conversión de tags PLC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "La etapa 3 reconoció que un hilo no prueba disposición de pago",
+     "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Siemens ofrece (o ofreció) un servicio gratuito de conversión de código Rockwell (RSLogix 5/500, Studio 5000) a TIA Portal con datos, código, tareas y rutinas, que cubre más que los tags: riesgo F1 de incumbente gratis y mejor. Además existe WinCC TagConverter para tags HMI desde fuentes Allen-Bradley, y la importación por Excel/CSV nativa de TIA más scripts propios (Openness, Python) que un ingeniero puede escribir en un día. El competidor más fuerte es el propio fabricante que gana con cada migración. Limitación: el artículo es de 2016, su vigencia y disponibilidad fuera de EE.UU. no están verificadas, lo que podría favorecer a Juan.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens ofreció servicio sin cargo de conversión de código Rockwell (incl. Studio 5000) a TIA Portal para S7-1200/1500, disponible para empresas de EE.UU. (artículo de 2016; vigencia sin verificar)",
+     "url": "https://www.automationworld.com/home/news/13314939/siemens-nocharge-service-converts-rockwell-controller-code"
+    },
+    {
+     "afirmacion": "Siemens WinCC TagConverter convierte tags HMI desde fuentes Allen-Bradley",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    },
+    {
+     "afirmacion": "Precio de TagConverter y vigencia actual del servicio gratuito",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Los canales nombrados (SEO 'convert tag list Studio 5000 TIA', PLCTalk, r/PLC) son comunidades de ingenieros que odian el spam promocional y buscan respuestas gratis; el volumen de búsqueda es presumiblemente minúsculo y no está verificado. Sin marketplace donde la intención de compra llegue sola. Con pocas búsquedas al mes, llegar a 100 clientes de pago es incierto, y a 10k MRR mucho más. Honestidad: el CAC por SEO long-tail sería bajo si existiera tráfico, pero no hay dato.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda para consultas de conversión de tags PLC y tamaño/aceptación de PLCTalk o r/PLC para promoción",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "La etapa 3 no verificó el volumen del canal",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Es la dimensión más débil: la migración es un evento puntual. Tras convertir, el cliente cancela; churn cercano al 100% mensual en suscripción. Para sostener 10k MRR a 59 USD hacen falta unos 170 suscriptores activos, que requieren reponer continuamente la base. Solo integradores con migraciones recurrentes retendrían, y no hay evidencia de que existan en volumen. La etapa 3 ya aceptó baja retención como concesión.",
+   "evidencia": [
+    {
+     "afirmacion": "La defensa concedió uso puntual con baja retención",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Frecuencia de migraciones por integrador",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Nicho dentro de nicho: controls engineers que migran específicamente entre Rockwell y Siemens, en un sentido, con tags exportables. No tengo cifra con fuente del número de compradores; con el uso puntual el TAM anual de transacciones es probablemente de miles como mucho, pero esto no está verificado. El 'por qué ahora' (migraciones brownfield en aumento) tampoco tiene evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de mercado (nº de ingenieros/proyectos de migración Rockwell-Siemens al año)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Aumento de migraciones brownfield",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Un mapeo CSV/XML entre formatos es técnicamente simple y fácil de replicar por cualquier integrador o por un LLM con scripts; sin datos propietarios, sin efecto de red. Siemens o Rockwell pueden ampliar sus herramientas oficiales (ya existe TagConverter y el servicio de conversión). Lo único defendible es el conocimiento del dominio de Juan, que no es un foso frente a un fabricante, y los formatos de exportación de los fabricantes pueden cambiar entre versiones y romper la herramienta.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens ya tiene herramientas propias de conversión (TagConverter, servicio de conversión Rockwell a TIA)",
+     "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+    },
+    {
+     "afirmacion": "Servicio de conversión de Siemens",
+     "url": "https://www.automationworld.com/home/news/13314939/siemens-nocharge-service-converts-rockwell-controller-code"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestidad: el MVP en 6 semanas es factible y es la dimensión que más favorece a Juan (conoce TIA y Studio 5000). El riesgo está en el mantenimiento: múltiples versiones de TIA (XML de Openness) y Studio 5000 (L5K/L5X/CSV), tipos de datos UDT/estructuras sin equivalente 1:1, y soporte técnico a clientes con proyectos críticos; el error en un mapeo tiene coste alto en planta y responsabilidad. Además, validar sin acceso a proyectos reales de clientes y sin licencias de ambos entornos es difícil. La distribución, su cuello de botella declarado, no se resuelve con esta idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Juan tiene experiencia práctica en TIA Portal y Studio 5000 (brief)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Complejidad de mantener formatos de varias versiones y de mapear UDT sin equivalente",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Es una herramienta de uso puntual (retención casi nula) que compite con un servicio gratuito del propio fabricante (Siemens convierte código Rockwell a TIA sin cargo, vigencia sin verificar) y con la importación nativa más scripts triviales; no hay evidencia verificada de demanda, volumen de búsqueda ni disposición de pago, y para 10k MRR exigiría reponer cientos de clientes nuevos cada mes desde un canal de comunidades hostiles a la promoción. La ventaja técnica de Juan es real pero no resuelve distribución ni retención.",
+ "busquedas_usadas": 1
+}

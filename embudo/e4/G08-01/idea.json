@@ -1,0 +1,127 @@
+{
+ "idea": {
+  "id": "G08-01",
+  "nombre": "StepView API",
+  "cliente_que_paga": "Desarrollador de SaaS de manufactura/marketplaces de piezas",
+  "problema": "Mostrar archivos STEP/IGES en la web exige compilar OpenCascade y mantener servidores.",
+  "solucion": "API REST que convierte STEP/IGES/DXF a glTF/PNG/SVG con visor embebible, cobro por conversión.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO de 'step to gltf api' y 'convert step to glb online', listados en RapidAPI y directorios de APIs, docs indexables.",
+  "competidores": [
+   "CAD Exchanger (sin verificar precios)",
+   "Autodesk Platform Services (Forge)",
+   "Open CASCADE (librería, DIY)"
+  ],
+  "por_que_ahora": "Auge de marketplaces de manufactura bajo demanda y visores 3D en navegador.",
+  "ventaja_juan": "Conoce SolidWorks/AutoCAD y formatos CAD; software casi gratis.",
+  "riesgo_principal": "Autodesk APS u OSS (occt-import-js) cubren parte del caso.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "conversión CAD API",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null,
+  "e2_total": 45,
+  "e2_razon": "Equivale al ancla ALTA; SEO 'step to gltf api' y ventaja CAD fuertes, con APS/occt-import-js como cobertura parcial y demanda sin verificar.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 41,
+  "e3_filtro": null,
+  "e3_razon": "Ancla similar pero con competidor directo verificado y canal SEO disputado, por lo que queda por debajo del ancla (46). Ventaja de Juan fuerte y precio mensual bajo como ángulo.",
+  "e3_hecho": "Hay disposición de pago verificada por APIs CAD en nube (Convert3D desde $899/año, CAD Exchanger $590+), pero Convert3D es competidor directo y la demanda de 'step to gltf api' no está verificada.",
+  "e3_competidores": [
+   {
+    "nombre": "Convert3D API",
+    "precio": "$899/año (5,000 conv.), $1,799/año, $4,899/año",
+    "url": "https://convert3d.org/developer-api"
+   },
+   {
+    "nombre": "CAD Exchanger",
+    "precio": "desde $590 (G2: $590-$2,690)",
+    "url": "https://g2.com/products/cad-exchanger/pricing"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G08-01",
+   "filtros_fallados": [],
+   "objecion": "Incumbentes con SDK/CLI (CAD Exchanger) y OSS (occt-import-js), Autodesk APS cubren el caso; la demanda de 'step to gltf api' y disposicion de pago no estan verificadas. Hay convertidores online gratis para uso ocasional.",
+   "hechos": [
+    {
+     "afirmacion": "CAD Exchanger ofrece conversion STEP a glTF y SDK (C#, C++, Java, JS, Python); licencias desde $590 (suscripcion); no se hallo precio de API en la nube",
+     "url": "https://cadexchanger.com/step-to-gltf"
+    },
+    {
+     "afirmacion": "Precio de CAD Exchanger segun G2: $590 a $2,690",
+     "url": "https://g2.com/products/cad-exchanger/pricing"
+    },
+    {
+     "afirmacion": "Existen convertidores web STEP a glTF gratuitos/online",
+     "url": "https://convert.guru/es/stp-a-gltf"
+    },
+    {
+     "afirmacion": "Volumen de busqueda y precios de APS/occt-import-js",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G08-01",
+   "rescatar": true,
+   "respuesta": "Hay prueba de disposicion de pago por API de conversion CAD en la nube: Convert3D vende API REST (STEP a glTF incluido) desde $899/ano por 5,000 conversiones, y CAD Exchanger cobra licencias de $590+. El hueco es un API enfocado a STEP/IGES/DXF con visor embebible y precio mensual bajo ($79) para devs de marketplaces de manufactura; los convertidores gratis son web manuales, no API. Hilos de demanda en Reddit: sin verificar.",
+   "concesiones": "Existen convertidores web gratis, OSS (OpenCascade.js, occt-import-js) que corren en el navegador y Autodesk APS; demanda de busqueda sin verificar; Convert3D es competidor directo generalista.",
+   "hechos": [
+    {
+     "afirmacion": "Convert3D API: REST, 1000+ combinaciones de formato incl. STEP a glTF; Starter $899/ano (5,000 conversiones), Growth $1,799/ano (15,000)",
+     "url": "https://convert3d.org/developer-api"
+    },
+    {
+     "afirmacion": "Convertidores web STEP a glTF gratis/manuales existen (Meshy, convert.guru), sin API gratuita hallada",
+     "url": "https://convert.guru/step-to-gltf"
+    },
+    {
+     "afirmacion": "Patron comun en foros: leer STEP en servidor con OpenCascade, triangular y servir a Three.js, es decir, la gente lo monta DIY (dolor real pero resuelto a mano)",
+     "url": "https://github.com/donalffons/opencascade.js/discussions/277"
+    },
+    {
+     "afirmacion": "Hilos de Reddit pidiendo el servicio",
+     "url": "sin verificar"
+    }
+   ],
+   "ajuste_sugerido": "Nicho: devs de marketplaces/SaaS de manufactura bajo demanda; diferenciar con precio mensual (vs anual $899), visor embebible, miniaturas PNG/SVG y soporte DXF/IGES; precio $79-149 con tier por volumen.",
+   "busquedas_usadas": 2
+  },
+  "juez": {
+   "id": "G08-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 4,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 3,
+    "ventaja_juan": 5,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 41,
+   "hecho_decisivo": "Hay disposición de pago verificada por APIs CAD en nube (Convert3D desde $899/año, CAD Exchanger $590+), pero Convert3D es competidor directo y la demanda de 'step to gltf api' no está verificada.",
+   "competidores_verificados": [
+    {
+     "nombre": "Convert3D API",
+     "precio": "$899/año (5,000 conv.), $1,799/año, $4,899/año",
+     "url": "https://convert3d.org/developer-api"
+    },
+    {
+     "nombre": "CAD Exchanger",
+     "precio": "desde $590 (G2: $590-$2,690)",
+     "url": "https://g2.com/products/cad-exchanger/pricing"
+    }
+   ],
+   "razon": "Ancla similar pero con competidor directo verificado y canal SEO disputado, por lo que queda por debajo del ancla (46). Ventaja de Juan fuerte y precio mensual bajo como ángulo.",
+   "busquedas_usadas": 2
+  }
+ }
+}

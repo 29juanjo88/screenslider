@@ -1,0 +1,133 @@
+{
+ "id": "G12-05",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es concreto y costoso: una falla silenciosa de días puede costar un cliente recurrente. Es un dolor semanal para quien opera muchos flujos de clientes, y se discute activamente en comunidades.",
+   "evidencia": [
+    {
+     "afirmacion": "Dueño de agencia perdió un cliente de $2,500/mes por un workflow n8n que falló 3 días sin aviso",
+     "url": "https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"
+    },
+    {
+     "afirmacion": "Hilo en la comunidad n8n: cómo se enteran las agencias cuando algo se rompe en workflows de clientes",
+     "url": "https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"
+    },
+    {
+     "afirmacion": "Zapier muestra hasta 10,000 runs y garantiza máx. 60 días de historial; el historial nativo es por cuenta y limitado, lo que deja hueco para agencias multi-cliente",
+     "url": "https://help.zapier.com/hc/en-us/articles/8496291148685"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El comprador es la agencia que factura retainers de cientos o miles de dólares por cliente; $49/mes es una fracción de un solo cliente retenido. Honestidad: no hay evidencia verificada de disposición de pago a $49, y los competidores arrancan en $19 con tiers gratis, lo que presiona el precio a la baja.",
+   "evidencia": [
+    {
+     "afirmacion": "Retainer de $2,500/mes en el caso citado hace que $49 sea marginal frente a la pérdida evitada",
+     "url": "https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"
+    },
+    {
+     "afirmacion": "RootBrief Pro desde $19/mes (precio de lanzamiento, puede haber cambiado)",
+     "url": "https://www.producthunt.com/p/rootbrief"
+    },
+    {
+     "afirmacion": "Disposición de pago de agencias a $49",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hoy: historiales nativos por plataforma, alertas por correo propias de cada plataforma y varios monitores nuevos. Honestidad: los competidores existen (OpsVeritas, RootBrief, Flowlert, FlowPulse), son recientes y de tracción no verificada; su existencia valida la demanda pero resta diferenciación. El hueco restante es el flujo de agencia (agrupar por cliente, reportes white-label, enlaces de reintento).",
+   "evidencia": [
+    {
+     "afirmacion": "OpsVeritas: dashboard n8n/Make/Zapier, gratis hasta 10 workflows",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "RootBrief cubre n8n, Zapier y Make, Free y Pro desde $19",
+     "url": "https://www.producthunt.com/p/rootbrief"
+    },
+    {
+     "afirmacion": "Flowlert gratis hasta 5 workflows",
+     "url": "https://hunted.space/product/flowlert"
+    },
+    {
+     "afirmacion": "Tracción, ingresos y retención de esos competidores",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canales nombrados y gratuitos donde la audiencia se concentra: foro de la comunidad n8n (hilo directo sobre este problema), comunidad de Make, directorio de Zapier Experts, YouTube de creadores de automatización y SEO 'monitor Make scenarios'. Product-led con tier gratis encaja con el criterio de venta casi nula. CAC esperado bajo si el contenido funciona, pero sin cifra verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo en comunidad n8n sobre detectar fallas en workflows de clientes: demanda que ya busca solución en el canal",
+     "url": "https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"
+    },
+    {
+     "afirmacion": "Las búsquedas de esta ronda mostraron freelancers y agencias multi-plataforma activos en Upwork, Fiverr y la comunidad de Make (oferta de servicios), pero no cifras",
+     "url": "https://community.make.com/t/looking-for-freelancers-to-join-the-team/90652"
+    },
+    {
+     "afirmacion": "CAC real por estos canales",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Una vez conectado a los flujos de los clientes y usado en el reporte de la agencia, el monitor es infraestructura: cambiarlo implica reconectar credenciales de cada cliente. Se paga mientras la agencia tenga clientes con automatizaciones. Riesgo: churn por cierre de agencias pequeñas.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención/churn de monitores comparables",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "El valor es continuo porque las fallas ocurren de forma recurrente (caso de falla de 3 días)",
+     "url": "https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Tamaño no cuantificado con fuente. Cualitativamente, hay oferta abundante de freelancers y agencias que venden Make/n8n/Zapier, lo que sugiere miles de compradores potenciales, pero no pude verificar conteos de partners. Para $10k MRR bastan unas 200 agencias a $49.",
+   "evidencia": [
+    {
+     "afirmacion": "La búsqueda de esta ronda no halló conteos de partners/expertos de Make, Zapier o n8n ni tamaño de mercado",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Perfiles de freelancers multi-plataforma en Fiverr/Upwork evidencian oferta amplia (sin cifra)",
+     "url": "https://growthmethod.com/zapier-make-n8n/"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Honestidad: la defensa es débil; ya hay al menos 4 copias y la barrera técnica es baja. Posibles fosos: especializarse en agencias (multi-cliente, white-label, portal de reportes), profundidad de reintento/diagnóstico, comunidad y contenido propio, y velocidad de un solo desarrollador. Ninguno está verificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Al menos 4 monitores multi-plataforma ya existen (OpsVeritas, RootBrief, Flowlert, FlowPulse)",
+     "url": "https://hunted.space/product/flowpulse"
+    },
+    {
+     "afirmacion": "Foso real por especialización en agencias",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy favorable: es integración vía API/webhooks, backend y alertas, justo el stack de Juan (Node/TS, GraphQL). MVP de ingesta de errores, dashboard y alertas es alcanzable en ~6 semanas a tiempo parcial. Riesgo: límites de API de cada plataforma; no verifiqué que Zapier exponga historial de runs por API pública, lo que podría limitar la cobertura de Zapier.",
+   "evidencia": [
+    {
+     "afirmacion": "Zapier documenta historial de runs en su interfaz con 60 días garantizados; no confirmé endpoint público de errores",
+     "url": "https://help.zapier.com/hc/en-us/articles/8496291148685"
+    },
+    {
+     "afirmacion": "Ventaja de Juan en APIs y webhooks (perfil del brief)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor real y caro documentado para agencias de automatización, canales comunitarios nombrados y gratuitos, y MVP fácil para Juan. Debilidades honestas: diferenciación casi nula frente a 4+ monitores con tiers gratis y desde $19, y sin evidencia de pago a $49 ni de tamaño de mercado; el éxito depende de apuntar al nicho agencia (white-label, multi-cliente) en vez de ser un monitor genérico.",
+ "busquedas_usadas": 2
+}

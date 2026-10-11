@@ -1,0 +1,117 @@
+{
+ "id": "G01-02",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe (un fabricante pidió la función) pero es de un solo hilo, no de demanda masiva. Un taller con Shopify ya vende online; cotizar a mano es molesto, no una pérdida semanal medida. No hay evidencia de búsqueda activa de esta app por volumen.",
+   "evidencia": [
+    {
+     "afirmacion": "Un fabricante de acero pidió cotizar por DXF (área y perforaciones) en Shopify; un experto no conocía app (hilo anterior a MakeQuote, posiblemente desactualizado)",
+     "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+    },
+    {
+     "afirmacion": "Volumen de búsquedas de 'custom laser cut quote' en Shopify App Store",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El techo de precio percibido en el canal lo marca MakeQuote: gratis (10 pedidos/mes), Pro $19, Plus $29 (listados de terceros). Pedir $49 a talleres pequeños es 1.7-2.5x lo del incumbente. Los talleres de mayor volumen pagan por software de cotización dedicado (CutQuote desde $95 según Capterra), pero esos no son compradores Shopify de autoservicio. Honestidad: el rango $49 sí cabe en software de cotización industrial; la disposición existe, pero en otro segmento.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote: plan gratis 10 pedidos/mes, Pro $19, Plus $29",
+     "url": "https://pickyourapp.com/collections/finding-products/products/makequote"
+    },
+    {
+     "afirmacion": "CutQuote lista precio inicial $95 en Capterra, sin reseñas",
+     "url": "https://www.capterra.com/p/10040294/CutQuote/"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hay varias: MakeQuote dentro de Shopify (DXF, instantánea, gratis); y standalone con DXF, tiempos de corte y perforaciones: CutQuote, NanoQuote, ToolBox (Tempus Tools), ipLaser, SecturaFAB. Parte de ellos incluye portal de cliente con precio instantáneo. Ángulo de diferenciación (perímetro/espesor) queda como hipótesis: no pude verificar la lógica de precio de MakeQuote; un buscador de IA indicó que está orientado a slicing 3D, lo cual es solo una inferencia no confirmada. Dato favorable: ese hueco podría ser real. Hoja de cálculo y respuesta manual por email son el otro sustituto. Posible F1 parcial (plan gratis).",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote cubre DXF/STL con cotización instantánea para láser y 3D",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "CutQuote: DXF/DWG/STEP, tiempos, perforaciones, portal con precio instantáneo y Stripe",
+     "url": "https://www.capterra.com/p/10040294/CutQuote/"
+    },
+    {
+     "afirmacion": "NanoQuote: DXF/STEP a cotización con tiempos de corte, material y nesting preview, sin cuenta",
+     "url": "https://alternativeto.net/software/nanoquote-app/about/"
+    },
+    {
+     "afirmacion": "ToolBox de Tempus Tools: tienda online con precio instantáneo para láser/plasma/waterjet",
+     "url": "https://www.getonbrd.com/companies/tempus-tools-inc/website/tempus-tools-inc"
+    },
+    {
+     "afirmacion": "SecturaFAB: DXF con precio en tiempo real",
+     "url": "https://get.secturafab.com/instant-fabrication-quoting"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El único canal nombrado es el Shopify App Store con una sola keyword, donde MakeQuote ya ocupa el puesto con plan gratis; una app nueva sin reseñas parte de cero. Mismo problema para Juan, con 0 reseñas, sin presupuesto y tiempo parcial. Sin volumen de búsqueda conocido, y la fuera de la tienda (talleres que no usan Shopify) exigiría outreach, descartado por el brief. CAC en pago no verificado. Estimar 100 pagadores a $49 = $4.9k MRR; para $10k MRR hacen falta ~205 pagadores.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote ya está listado en la App Store de Shopify",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Tamaño de la búsqueda 'custom laser cut quote' y CAC en Shopify App Store",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo alto de churn: el taller con pocos pedidos/mes puede quedarse en el plan gratis de MakeQuote o volver a cotizar a mano; apps de Shopify se desinstalan fácilmente. Un taller que cierra su tienda o cambia a otra plataforma cancela. Si el volumen de pedidos custom es bajo, la app no se paga. Lado favorable: si integra precios y está en el flujo de checkout, sustituirla cuesta (switching cost moderado). Sin datos de retención.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn de apps de cotización en Shopify",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Universo = talleres láser/CNC con tienda Shopify que vendan piezas a medida: nicho pequeño; la propia idea lo marca como riesgo principal. El juez de etapa 3 dio 2 (<2,000 a ~10,000 compradores). No encontré fuente del número de talleres con Shopify. Para $10k MRR a $49 se necesitan ~205 clientes, lo que implica porcentaje considerable de un nicho no cuantificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de talleres láser/CNC con tienda Shopify",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Juez etapa 3 calificó mercado 2 y total 36 (MEDIA)",
+     "url": "sin verificar (idea.json etapa3)"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula: parsear DXF y calcular perímetro/área/perforaciones es técnica conocida; MakeQuote puede añadir cálculo por longitud de corte con una actualización, y CutQuote/NanoQuote ya lo hacen fuera de Shopify. Sin datos propietarios, sin efecto de red. Dependencia de la plataforma Shopify, que además puede lanzar función nativa. Lo único defendible es conocimiento de nesting/tiempos de Juan, y es una ventaja de ejecución, no una barrera.",
+   "evidencia": [
+    {
+     "afirmacion": "NanoQuote y CutQuote ya calculan tiempos de corte, material y perforaciones desde DXF",
+     "url": "https://alternativeto.net/software/nanoquote-app/about/"
+    },
+    {
+     "afirmacion": "MakeQuote es nuevo (mayo 2026) y puede iterar rápido",
+     "url": "https://apps.shopify.com/makequote"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestidad: el MVP es factible en 6 semanas (parser DXF, cálculo, producto en carrito con Shopify) y encaja con el stack de Juan: aquí la evidencia no me favorece. El problema es después: reseñas, soporte a talleres con archivos DXF sucios (splines, bloques, unidades, capas), aprobación de la app en Shopify y mantenimiento de la API de Shopify a tiempo parcial. El cuello de botella declarado (distribución) es justo lo más débil de esta idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Perfil de Juan: backend senior, CAD/CAM y Node/TS (brief)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Idea con ventaja técnica de Juan pero sin hueco defendible: MakeQuote ya ocupa el canal único (Shopify App Store) con plan gratis y Pro $19/Plus $29, existen CutQuote, NanoQuote y ToolBox fuera de Shopify, el nicho es pequeño y no cuantificado (~205 pagadores a $49 para $10k MRR), y no hay barrera a copias. El MVP es fácil, pero lo difícil (distribución) queda sin ventaja. Único punto abierto: la lógica de precio por perímetro/espesor de MakeQuote sin verificar.",
+ "busquedas_usadas": 2
+}

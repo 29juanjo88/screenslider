@@ -1,0 +1,121 @@
+{
+ "idea": {
+  "id": "G19-01",
+  "nombre": "Linter de PLC Structured Text",
+  "cliente_que_paga": "Ingenieros de control e integradores",
+  "problema": "El código ST/SCL se revisa a mano y los errores aparecen en puesta en marcha.",
+  "solucion": "Linter y reglas de estilo (IEC 61131-3) para ST/SCL en CI, con reporte en pull requests.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'structured text linter' y GitHub Marketplace; foros PLCtalk y r/PLC",
+  "competidores": [
+   "Productos de análisis estático de los fabricantes (sin verificar)"
+  ],
+  "por_que_ahora": "Los PLC pasan a Git y CI (PLCopen XML, TIA Openness).",
+  "ventaja_juan": "Conozco ST/SCL y TIA Portal.",
+  "riesgo_principal": "Formatos propietarios cerrados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "lint PLC ST",
+  "tema_norm": "revisión de código PLC",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Linter ST/SCL con ventaja unica de Juan y canal GitHub/foros, pero formatos cerrados y adopcion CI temprana.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 39,
+  "e3_filtro": null,
+  "e3_razon": "Diferenciacion y ventaja unicas de Juan, pero nicho pequeno, formatos cerrados, canal GitHub debil y pago sin evidencia. Banda media.",
+  "e3_hecho": "No se hallo linter comercial dominante de ST; solo Schneider (por creditos, atado a fabricante) y herramientas open source/academicas; demanda de pago sin verificar.",
+  "e3_competidores": [
+   {
+    "nombre": "Schneider EcoStruxure Control Engineering Verification",
+    "precio": "bajo cotizacion",
+    "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+   },
+   {
+    "nombre": "iec-checker",
+    "precio": "gratis (open source)",
+    "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G19-01",
+   "filtros_fallados": [],
+   "objecion": "No hallé un linter comercial dominante de ST, pero tampoco evidencia de demanda de pago: el nicho es pequeño, los formatos son propietarios (TIA, Studio 5000), y existen herramientas académicas, de código abierto y extensiones VS Code. El canal 'GitHub Marketplace' es débil para ingenieros de control que rara vez usan Git/CI. Alcance y disposición de pago sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "Existen analizadores académicos y open source de ST (ST-Checker, crate iecst con diagnósticos)",
+     "url": "https://docs.rs/crate/iecst/0.5.0"
+    },
+    {
+     "afirmacion": "Se hace análisis estático (Lizard) de ST en CI en la comunidad de B&R, lo que muestra uso real pero con herramienta genérica",
+     "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+    },
+    {
+     "afirmacion": "Precios de linters comerciales de ST y tamaño de mercado",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Análisis estático de fabricantes (competidor citado en la idea)",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G19-01",
+   "rescatar": true,
+   "respuesta": "Es la unica con ventaja unica de Juan y sin incumbente comercial dominante: el unico comercial hallado (Schneider EcoStruxure Verification) es SaaS por creditos con precio bajo cotizacion y atado a un fabricante; lo abierto (iec-checker, iecst) es academico/CLI. La literatura dice que las herramientas de analisis estatico para PLC siguen siendo raras.",
+   "concesiones": "Demanda de pago, tamano de mercado y adopcion de Git/CI por ingenieros de control sin verificar; formatos propietarios; hay herramientas open source.",
+   "hechos": [
+    {
+     "afirmacion": "Schneider EcoStruxure Control Engineering Verification (ex PLC Checker) es analisis estatico comercial por creditos, precio bajo cotizacion",
+     "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+    },
+    {
+     "afirmacion": "iec-checker es analizador open source de ST y PLCopen XML",
+     "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+    },
+    {
+     "afirmacion": "Estudio JKU indica que las herramientas de analisis estatico son raras en programacion PLC",
+     "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"
+    }
+   ],
+   "ajuste_sugerido": "Enfocar en CODESYS/PLCopen XML (abierto, con Git y CI) y vender a integradores y OEM a $29-49/mes por equipo; validar con pre-ventas antes de construir.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G19-01",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 2,
+    "diferenciacion": 4,
+    "ventaja_juan": 5,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 39,
+   "hecho_decisivo": "No se hallo linter comercial dominante de ST; solo Schneider (por creditos, atado a fabricante) y herramientas open source/academicas; demanda de pago sin verificar.",
+   "competidores_verificados": [
+    {
+     "nombre": "Schneider EcoStruxure Control Engineering Verification",
+     "precio": "bajo cotizacion",
+     "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+    },
+    {
+     "nombre": "iec-checker",
+     "precio": "gratis (open source)",
+     "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+    }
+   ],
+   "razon": "Diferenciacion y ventaja unicas de Juan, pero nicho pequeno, formatos cerrados, canal GitHub debil y pago sin evidencia. Banda media.",
+   "busquedas_usadas": 0
+  }
+ }
+}

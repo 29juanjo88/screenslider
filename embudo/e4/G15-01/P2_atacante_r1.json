@@ -1,0 +1,149 @@
+{
+ "id": "G15-01",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es dato de vendedor, no de comprador. Nadie ha mostrado hilos de foros pidiendo esto (la defensa de etapa 3 lo admitió). Un taller pequeño puede tolerar cotizar lento o a mano; el dolor es real sobre todo en talleres con alto volumen de RFQs, que ya son clientes de Paperless Parts. Además el dolor real es la precisión de la cotización (no perder dinero por cotizar mal), no solo la velocidad; una cotización errónea cuesta más que las horas ahorradas.",
+   "evidencia": [
+    {
+     "afirmacion": "CloudNC afirma que cotizar manualmente toma 2-4h+ por RFQ (dato del vendedor, no independiente)",
+     "url": "https://www.cloudnc.com/quote-agent"
+    },
+    {
+     "afirmacion": "Hilos de Reddit/Practical Machinist pidiendo esta solución: no hay evidencia",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Honestidad: el dolor es plausible y el juez de etapa 3 le dio 4; esta dimensión no me favorece mucho",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay disposición de pago en el segmento alto, pero no al precio de $149. SpeedQuoteAI arranca en US$750 y las cifras de Paperless Parts reportadas por agregadores son ~$300/mes (conflictivas, Capterra lista $39), lo que sugiere que el comprador que paga es el taller con volumen y exige fiabilidad. El $149 queda en tierra de nadie: más caro que el plan gratis de CloudNC (3 cotizaciones/mes) y demasiado barato para ser percibido como serio. Para US$10k MRR hacen falta ~67 clientes a $149, alcanzable en teoría, pero el $149 no está validado.",
+   "evidencia": [
+    {
+     "afirmacion": "SpeedQuoteAI desde US$750 con prueba de 10 días",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    },
+    {
+     "afirmacion": "CloudNC ofrece plan gratis de 3 cotizaciones/mes",
+     "url": "https://www.cloudnc.com/quote-agent"
+    },
+    {
+     "afirmacion": "Paperless Parts no publica precio; agregadores reportan ~$300/mes (Spotsaas, FitGap) y Capterra $39, contradictorio",
+     "url": "https://www.g2.com/products/paperless-parts/pricing"
+    },
+    {
+     "afirmacion": "Honestidad: que competidores cobren más prueba disposición de pago; esto favorece a la idea en parte",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Saturado y financiado: Paperless Parts (US$30M, costeo por geometría, DFM, extracción de PDF con IA), SpeedQuoteAI (RFQ por email con IA, exactamente el mismo caso), CloudNC Quote Agent (con capa gratuita), Costifier (estimación IA CNC), y Xometry como marketplace. Además la alternativa más común: hoja de cálculo + estimador experto, que es gratis. El F1 no se dispara del todo (no hay incumbente gratis completo), pero CloudNC con plan gratis erosiona el valor de entrada.",
+   "evidencia": [
+    {
+     "afirmacion": "Paperless Parts ofrece costeo por geometría, DFM y extracción de PDF con IA; apunta a talleres de 1,000-50,000 piezas únicas/año",
+     "url": "https://www.paperlessparts.com/facts/"
+    },
+    {
+     "afirmacion": "Paperless Parts levantó $30M",
+     "url": "https://startupsavant.com/news/paperless-parts"
+    },
+    {
+     "afirmacion": "Costifier ofrece estimación de costos con IA para CNC",
+     "url": "https://www.cbinsights.com/compare/costifier-vs-paperless-parts"
+    },
+    {
+     "afirmacion": "SpeedQuoteAI hace RFQ por email con IA para talleres CNC",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (r/machinists, r/CNC, Practical Machinist, YouTube, SEO 'CNC quoting software') es débil: esas comunidades suelen ser hostiles a la autopromoción y están pobladas por operarios, no por dueños/estimadores que compran. La keyword 'CNC quoting software' está dominada por competidores con presupuesto de contenido y ads. Paperless Parts declara onboarding típico de 10-12 semanas, lo que indica que la compra en este segmento no es de autoservicio puro; con un producto de $149 sin ventas, Juan competiría con un proceso de confianza (subir planos de clientes a un agente) que exige demostración y pruebas. No hay evidencia de volumen de búsqueda ni de CAC. Esto contradice el criterio de 'sin ciclos de compra'.",
+   "evidencia": [
+    {
+     "afirmacion": "Onboarding típico de Paperless Parts 10-12 semanas (según su llms.txt, citado en buscador)",
+     "url": "https://www.paperlessparts.com/llms.txt"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'CNC quoting software' y CAC: no verificado",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Aceptación de r/machinists para promoción de software de pago: no verificado",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo alto de churn: el uso depende del flujo de RFQs, que es estacional y de talleres pequeños con alta mortalidad; si la estimación falla una vez y el taller pierde dinero o un trabajo, cancela. Los clientes con volumen migrarán a suites completas (cotización + ERP/MES + portal de clientes) como Paperless Parts, que tienen costo de cambio mayor. Un agente de solo-cotización es una herramienta fácil de reemplazar. No tengo datos de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn/retención en software de cotización CNC: no verificado",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Paperless Parts apunta al taller con flujo alto de piezas únicas, es decir a los clientes que retienen mejor",
+     "url": "https://www.paperlessparts.com/facts/"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El tamaño total es limitado y el segmento relevante es una fracción. Los talleres de maquinado en EE.UU. son ~16,000-18,600 (no solo CNC; ningún dato separa CNC). Solo una parte tiene suficientes RFQs por email y presupuesto, y de ellos una parte ya usa Paperless Parts u otro. Agregar la UE amplía pero sin cifra verificada. Para $10k MRR a $149 se necesita ~67 clientes (~0.4% de 17,000), lo cual es matemáticamente plausible: honestamente, el tamaño no es el cuello de botella; lo son la competencia y la fiabilidad. Se mantiene en tamaño medio.",
+   "evidencia": [
+    {
+     "afirmacion": "Estimaciones de talleres de maquinado en EE.UU. entre ~16,000 y 18,600 (NAICS 33271: 17,130 firmas / 17,433 establecimientos); ningún dato aísla CNC",
+     "url": "https://www.ibisworld.com/united-states/number-of-businesses/machine-shop-services/645/"
+    },
+    {
+     "afirmacion": "Perfil con ~17,100 talleres citados por VerticaliQ",
+     "url": "https://verticaliq.com/?p=3669"
+    },
+    {
+     "afirmacion": "Mercado UE y fracción con volumen de RFQs por email: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula. Un agente LLM que lee emails, extrae planos y arma borradores es replicable por cualquiera con acceso a APIs de modelos; competidores financiados (Paperless Parts, SpeedQuoteAI, CloudNC) ya lo tienen y pueden añadir funciones o bajar precio. El foso sería datos de tiempos de máquina y calibración por taller, que Juan no tiene al inicio; el conocimiento CAD/CAM de Juan ayuda pero no es un foso. El 'por qué ahora' (LLM + geometría 3D) beneficia igual a los competidores.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores financiados ya ofrecen IA de extracción de PDF/RFQ por email",
+     "url": "https://www.paperlessparts.com/facts/"
+    },
+    {
+     "afirmacion": "SpeedQuoteAI cubre el caso de RFQ por email con IA",
+     "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+    },
+    {
+     "afirmacion": "Honestidad: el conocimiento de CAD/CAM de Juan es una ventaja real en la calidad de estimación, aunque no una defensa duradera",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "El MVP de 6 semanas es el punto más débil: una estimación de tiempo de máquina fiable desde STEP/PDF (reconocimiento de features, selección de procesos, fixturing, herramientas, materiales, márgenes del taller) es un problema de ingeniería profundo; la etapa 3 lo calificó MVP 2. Un MVP que solo redacta emails sería un commodity sin valor, y uno que estima mal destruye la confianza. Soporte, integraciones (email, ERP) y manejo de datos sensibles de clientes (planos con propiedad intelectual, posible ITAR) añaden carga para una persona a tiempo parcial. Honestidad: el stack de Juan (Node/TS, Python, CAD) sí encaja con la parte técnica.",
+   "evidencia": [
+    {
+     "afirmacion": "El juez de etapa 3 puntuó MVP 2 y Riesgo 2 (estimación fiable no cabe en 6 semanas)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Paperless Parts, con US$30M, necesitó onboarding de 10-12 semanas por cliente",
+     "url": "https://www.paperlessparts.com/llms.txt"
+    },
+    {
+     "afirmacion": "Requisitos de confidencialidad/ITAR de planos de clientes: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado con dolor y pago reales pero ya ocupado por competidores financiados (Paperless Parts US$30M, SpeedQuoteAI, CloudNC con plan gratis) que cubren exactamente este caso, con canal débil y compra que en la práctica exige confianza y onboarding. La estimación fiable no cabe en 6 semanas y no hay foso; a $149 sin validar, Juan compite sin diferenciación y con riesgo alto de churn. El tamaño del mercado (~17,000 talleres de EE.UU.) no es el problema: lo son la competencia y la ejecución.",
+ "busquedas_usadas": 2
+}

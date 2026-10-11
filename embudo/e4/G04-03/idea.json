@@ -1,0 +1,103 @@
+{
+ "idea": {
+  "id": "G04-03",
+  "nombre": "Change Control for Engineering",
+  "cliente_que_paga": "Gerentes de calidad/ingeniería en fabricantes que usan Jira",
+  "problema": "Gestionar ECR/ECN con aprobaciones y trazabilidad en Jira exige configuración compleja.",
+  "solucion": "App con flujo ECR/ECN preconfigurado, aprobaciones por rol, registro de auditoría y export PDF.",
+  "precio_usd_mes": 200,
+  "canal_primeros_100": "Búsqueda 'ECO' 'change control' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fabricantes migran de PLM pesado a herramientas ligeras en la nube.",
+  "ventaja_juan": "Conocimiento de procesos industriales y documentación técnica.",
+  "riesgo_principal": "Compradores regulados pueden exigir validación formal.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "control de cambios ECN",
+  "tema_norm": "control de cambios de ingeniería",
+  "duplicado_de": null,
+  "e2_total": 37,
+  "e2_razon": "ECR/ECN en Atlassian Marketplace con canal nombrado y ticket 200, pero competencia de apps de cambios sin verificar y riesgo de segmento regulado.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 37,
+  "e3_filtro": null,
+  "e3_razon": "Canal Atlassian Marketplace nombrado y ticket alto, con hueco aparente pero demanda no probada; PLM/QMS dedicados cubren regulados. Puntaje moderado por falta de evidencia.",
+  "e3_hecho": "No se confirmo ninguna app ECR/ECN de manufactura en Atlassian Marketplace; solo flujos IT gratis y un hilo comunitario donde un experto cuestiona la necesidad (sin verificar competidores ni demanda).",
+  "e3_competidores": [
+   {
+    "nombre": "Intellect ECN software (QMS)",
+    "precio": "sin verificar",
+    "url": "https://intellect.com/products/engineering-change-notice-software"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G04-03",
+   "filtros_fallados": [],
+   "objecion": "No se verificó que exista un nicho libre en Atlassian Marketplace: la búsqueda no encontró apps ECR/ECN concretas, ni confirmó demanda. Existen alternativas PLM/QMS dedicadas para industrias reguladas y la comunidad sugiere resolverlo con Confluence/Jira configurado. El segmento regulado pide validación formal.",
+   "hechos": [
+    {
+     "afirmacion": "Hilo de comunidad Atlassian sobre ECO en Jira: un experto cuestiona la necesidad de una app, sin nombrar app de Marketplace",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Intellect ofrece software ECN independiente para industrias reguladas (QMS)",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    },
+    {
+     "afirmacion": "Competidores en Atlassian Marketplace y tamaño de demanda: sin verificar",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "moderada",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G04-03",
+   "rescatar": true,
+   "respuesta": "La búsqueda tampoco encontró una app ECR/ECN de manufactura en Atlassian Marketplace; solo flujos de Change Management tipo IT, gratuitos y sin soporte. Un hilo de comunidad Atlassian muestra a un usuario pidiendo una app de ECO con BOM, control de versiones y aprobaciones. Es un hueco aparente, no demanda probada.",
+   "concesiones": "Un experto en el hilo cuestiona la necesidad de una app; hay QMS/PLM dedicados para industrias reguladas; tamaño de demanda y competidores específicos sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "Hilo en Atlassian Community: usuario busca app de ECO con BOM, versionado de documentos y aprobaciones en Jira",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Las apps de Change Management halladas en Marketplace son flujos IT gratuitos (v1.0, sin soporte), no ECR/ECN de manufactura; ausencia de apps ECO dedicadas no confirmada, sin verificar",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    }
+   ],
+   "ajuste_sugerido": "Apuntar a manufactura no regulada (maquinaria, electrónica, fabricantes por contrato) que no exige validación formal; validar antes en Marketplace con búsquedas 'BOM', 'PLM' y 'engineering change'.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G04-03",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 3,
+    "ventaja_juan": 3,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 37,
+   "hecho_decisivo": "No se confirmo ninguna app ECR/ECN de manufactura en Atlassian Marketplace; solo flujos IT gratis y un hilo comunitario donde un experto cuestiona la necesidad (sin verificar competidores ni demanda).",
+   "competidores_verificados": [
+    {
+     "nombre": "Intellect ECN software (QMS)",
+     "precio": "sin verificar",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    }
+   ],
+   "razon": "Canal Atlassian Marketplace nombrado y ticket alto, con hueco aparente pero demanda no probada; PLM/QMS dedicados cubren regulados. Puntaje moderado por falta de evidencia.",
+   "busquedas_usadas": 0
+  }
+ }
+}

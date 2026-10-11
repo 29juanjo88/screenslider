@@ -1,0 +1,125 @@
+{
+ "id": "G01-17",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es real pero moderado: 'cuándo llega' genera tickets, no pérdida semanal directa. Las apps de fecha estimada a $0-20 muestran que el mercado trata esto como funcionalidad menor, no como problema urgente. Honestidad: no hay evidencia propia de que los merchants busquen activamente una solución con cola de producción.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen al menos 8 apps de fecha de entrega en listados comparativos (dolor resuelto de forma barata)",
+     "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+    },
+    {
+     "afirmacion": "Evidencia directa de dolor urgente en tiendas made-to-order: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "La disposición de pago observada es baja: las apps de fecha de entrega van de gratis a ~$20/mes. A $29/mes Juan queda por encima de casi todo el segmento; solo Orderkraft (69 USD/mes + uso) cobra más y es un producto más amplio. Para $10k MRR se necesitan ~345 pagadores a $29.",
+   "evidencia": [
+    {
+     "afirmacion": "ArrivesBy: gratis a 19.99 USD/mes",
+     "url": "https://apps.shopify.com/arrives-by"
+    },
+    {
+     "afirmacion": "Simple Estimated Delivery Date: gratis con 10 reglas, Basic $4.99, Plus $9.99",
+     "url": "https://apps.shopify.com/simple-estimated-delivery-date"
+    },
+    {
+     "afirmacion": "H3 Estimated Delivery: gratis con 1 regla, Premium $8/mes",
+     "url": "https://apps.shopify.com/estimated-delivery-date-h3"
+    },
+    {
+     "afirmacion": "EDD Availability App: 5.99 USD/mes",
+     "url": "https://apps.shopify.com/edd-availability-app"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas abundantes y baratas/gratis (F1 parcial): el merchant puede usar una app EDD con reglas fijas, o un texto manual 'ships in 5-7 days'. Orderkraft cubre made-to-order con más funciones. La etapa 3 no halló app con cola de producción real, pero eso no equivale a demanda: puede ser un hueco sin mercado. El competidor 'sin verificar' en idea.json indica análisis incompleto.",
+   "evidencia": [
+    {
+     "afirmacion": "Orderkraft: made to order, 69 USD/mes + uso, el más cercano",
+     "url": "https://apps.shopify.com/orderkraft"
+    },
+    {
+     "afirmacion": "Ninguna app EDD modela cola de producción: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Apps nativas/gratis de Shopify o texto manual como sustituto: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal Shopify App Store está nombrado, pero saturado en la búsqueda 'estimated delivery date'; una app nueva sin reseñas compite con incumbentes con reseñas y plan gratis. Los nichos made-to-order son una fracción pequeña. Sin reseñas, el posicionamiento orgánico es lento, y para llegar a los primeros 100 clientes probablemente se necesitaría contenido/outreach. Honestidad: el canal sí tiene intención de compra, es el punto más favorable a la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Varias apps EDD ya listadas con planes gratis",
+     "url": "https://apps.shopify.com/arrives-by"
+    },
+    {
+     "afirmacion": "CAC o ranking real en la App Store para estas keywords: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo de churn alto: la tienda pequeña made-to-order tiene alta mortalidad, y si la integración de capacidad es manual (cada taller modela distinto) el merchant puede abandonarla al dejar de actualizar la cola. Además puede bajar a un plan gratis de la competencia. Si funciona se integra al flujo y retiene, pero no hay datos.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn de apps Shopify de este tipo: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Riesgo declarado: cada taller modela capacidad distinto (idea.json riesgo_principal)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado acotado: solo tiendas Shopify con producción bajo pedido/fabricada y con capacidad limitada, un subconjunto del total de tiendas. Los jueces previos y la defensa de etapa 3 lo calificaron de chico. No hay cifra verificada del número de tiendas objetivo.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de tiendas Shopify made-to-order: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Etapa 3 (defensa) concede 'mercado chico'",
+     "url": "/home/user/screenslider/embudo/e4/G01-17/idea.json"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa débil: el modelo de cola/capacidad es lógica simple de replicar; Orderkraft u otras EDD pueden añadir 'capacity per day' en semanas. La ventaja de Juan (cola de producción en máquinas) fue calificada 2/5 por el juez. Dependencia de una sola plataforma: Shopify puede lanzar funciones nativas de fecha estimada.",
+   "evidencia": [
+    {
+     "afirmacion": "Juez etapa 3: ventaja_juan 2, riesgo 2",
+     "url": "/home/user/screenslider/embudo/e4/G01-17/idea.json"
+    },
+    {
+     "afirmacion": "Shopify lanzando fecha estimada nativa: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "El MVP técnico es factible en 6 semanas (honestidad: a favor de la idea). Lo difícil es el soporte: cada taller modela capacidad distinto (turnos, máquinas, festivos, transportistas), lo que genera onboarding y configuración a medida, incompatible con autoservicio puro y con tiempo parcial. Además hay mantenimiento de la app, revisión de Shopify y cambios de API.",
+   "evidencia": [
+    {
+     "afirmacion": "Juez etapa 3: MVP 4/5",
+     "url": "/home/user/screenslider/embudo/e4/G01-17/idea.json"
+    },
+    {
+     "afirmacion": "Carga de soporte por configuración: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Un nicho pequeño en un canal saturado de alternativas gratis o de $5-20/mes, con precio de $29 por encima del mercado, defensa débil, dependencia de Shopify y modelado distinto por taller que fuerza soporte a medida; el hueco de cola de producción puede ser falta de demanda, no oportunidad. Sin evidencia verificada de dolor, mercado ni CAC.",
+ "busquedas_usadas": 0
+}

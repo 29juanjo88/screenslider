@@ -1,0 +1,121 @@
+{
+ "id": "G04-03",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Un usuario real pidió en la comunidad Atlassian un procedimiento ECO/BOM para productos PCB y mecánicos en Jira, con aprobaciones y versionado: el dolor existe y se busca activamente. Los cambios de ingeniería sin trazabilidad generan errores de producción. Honestidad: es un solo hilo y un experto cuestionó la necesidad de una app; la urgencia semanal no está probada.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo comunitario: usuario busca flujo ECO con BOM, versionado y aprobaciones en Jira",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Un respondedor sugiere resolverlo con Confluence/Jira configurado (evidencia en contra)",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Los fabricantes ya pagan por ECO/ECN dentro de ERP/PLM/QMS (Acumatica, NetSuite, Odoo, Intellect), así que existe presupuesto. Una app Jira a $200/mes sería más barata que PLM. Honestidad: precios de competidores sin verificar y no hay prueba de que paguen por una app Jira.",
+   "evidencia": [
+    {
+     "afirmacion": "Acumatica, NetSuite y Odoo ofrecen ECR/ECO como módulo pagado",
+     "url": "https://www.acumatica.com/cloud-erp-software/manufacturing-management/engineering-change-control"
+    },
+    {
+     "afirmacion": "Intellect vende software ECN independiente; precio sin verificar",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    },
+    {
+     "afirmacion": "Disposición a pagar $200/mes por app Jira de ECO",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hueco aparente: dos búsquedas de etapa 3 y una de esta ronda no hallaron app ECR/ECN de manufactura en Atlassian Marketplace; solo flujos IT de Change Management gratis, v1.0, sin soporte. Las alternativas son PLM/ERP pesados o Jira/Confluence configurado a mano. Honestidad: ausencia no confirmada; la búsqueda web no indexa bien el Marketplace y el gratis configurable podría activar F1 parcial.",
+   "evidencia": [
+    {
+     "afirmacion": "Apps de Change Management en Marketplace son flujos IT gratis, no ECR/ECN de manufactura",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    },
+    {
+     "afirmacion": "Búsqueda ronda 1 no halló ninguna app ECO/ECN con BOM en Marketplace; solo ERP/PLM y el hilo",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Intellect como alternativa QMS dedicada",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsqueda 'ECO', 'change control', 'engineering change' en Atlassian Marketplace, con instalación y trial autoservicio, sin ventas. Atlassian reporta que 70% de clientes cloud de Jira/Confluence tienen al menos una app y el Marketplace llega a cerca de 250k clientes cloud de pago, por lo que el CAC puede ser casi cero más SEO de ficha. Honestidad: no hay datos de volumen de búsqueda de ese término ni de conversión.",
+   "evidencia": [
+    {
+     "afirmacion": "Marketplace da acceso a casi 250,000 clientes cloud de pago (fecha sin verificar)",
+     "url": "https://www.atlassian.com/blog/company-news/atlassian-ventures-convertible-note"
+    },
+    {
+     "afirmacion": "70%+ de clientes Jira/Confluence Cloud tienen al menos una app instalada",
+     "url": "https://www.atlassian.com/blog/company-news/shareholder-letter-q2fy22"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de términos ECO/change control en Marketplace",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Si el flujo ECR/ECN y su registro de auditoría se convierten en el sistema de registro de cambios, el costo de cambio es alto (historial, aprobaciones, PDF) y el uso es continuo. Apps embebidas en Jira tienden a quedarse mientras la empresa use Jira. Honestidad: sin datos de churn de apps Marketplace.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps de flujo/auditoría en Atlassian Marketplace",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado direccionable: fabricantes que usan Jira Cloud, dentro de unos 250k clientes cloud de pago; a $200/mes, 50-100 clientes dan $10-20k MRR, una fracción muy pequeña. Honestidad: el subconjunto manufactura con Jira no está cuantificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Casi 250,000 clientes cloud de pago en el Marketplace (undated)",
+     "url": "https://www.atlassian.com/blog/company-news/atlassian-ventures-convertible-note"
+    },
+    {
+     "afirmacion": "Número de fabricantes con Jira que necesitan ECR/ECN",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada: conocimiento de proceso industrial (ECR/ECN, BOM, CAD) para plantillas y flujos correctos, y reseñas/posición en el Marketplace como ventaja temprana. Honestidad: el software es copiable por otros desarrolladores de apps Atlassian, y Atlassian o partners pueden añadir plantillas; el foso es débil.",
+   "evidencia": [
+    {
+     "afirmacion": "Ecosistema con 137 socios en el Marketplace (julio 2025), reporte de Aventis Advisors; cifra no leída directamente",
+     "url": "https://aventis-advisors.com/wp-content/uploads/2025/08/Aventis-Advisors-Atlassian-ecosystem.pdf"
+    },
+    {
+     "afirmacion": "Barreras técnicas fuertes frente a copias",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy alta: Juan domina Node/TypeScript y el modelo de apps Forge/Connect es de una persona; el alcance (flujo preconfigurado, roles, auditoría, export PDF) cabe en 6 semanas. Su conocimiento industrial reduce el riesgo de producto. Honestidad: debe cumplir requisitos de la plataforma Atlassian y soporte tiempo parcial; los compradores regulados quedan fuera.",
+   "evidencia": [
+    {
+     "afirmacion": "Rúbrica etapa 3 asignó MVP 4/5 para la idea",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Perfil de Juan: Node.js/TypeScript y experiencia industrial",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hueco aparente en un canal nombrado (Atlassian Marketplace, con cientos de miles de clientes de pago) para un dolor real de manufactura que hoy se resuelve con PLM/ERP caros o configuración manual; MVP en 6 semanas y ticket de $200/mes con ventaja industrial de Juan. Debilidades reconocidas: demanda no probada, competidores sin verificar, foso débil y dependencia de una plataforma.",
+ "busquedas_usadas": 2
+}

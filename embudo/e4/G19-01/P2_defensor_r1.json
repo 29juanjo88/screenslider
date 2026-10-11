@@ -1,0 +1,133 @@
+{
+ "id": "G19-01",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Los errores de lógica ST/SCL se descubren en puesta en marcha, donde cada hora de paro en planta es cara; la revisión es manual. Honestidad: el dolor es real pero no hay evidencia de que lo busquen activamente cada semana (puntaje realista 3).",
+   "evidencia": [
+    {
+     "afirmacion": "Estudio JKU: las herramientas de análisis estático son raras en la programación de PLC",
+     "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"
+    },
+    {
+     "afirmacion": "Hay uso real de análisis estático de ST en CI en la comunidad B&R (con herramienta genérica Lizard), lo que muestra necesidad",
+     "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+    },
+    {
+     "afirmacion": "Costo cuantificado de errores en puesta en marcha",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Existe precedente de pago: Schneider vende verificación estática por créditos (PLC Checker de Itris, con guías PLCopen, integrado después). Integradores y OEM facturan por proyecto, así que $29-49/mes por equipo es gasto menor. Honestidad: no hay precios públicos verificados ni prueba de disposición de pago de ingenieros de control; hay alternativas gratis.",
+   "evidencia": [
+    {
+     "afirmacion": "Schneider EcoStruxure Control Engineering Verification es análisis estático comercial por créditos, precio bajo cotización",
+     "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+    },
+    {
+     "afirmacion": "Itris Automation PLC Checker: herramienta comercial de análisis estático que verifica las guías de codificación PLCopen (anuncio de 2017; sin precio)",
+     "url": "https://www.automation.com/en-us/products/product03/itris-automation-announces-plc-checker-now-with-pl"
+    },
+    {
+     "afirmacion": "Precios de linters comerciales de ST",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Revisión manual por pares, herramientas de fabricante atadas a una marca y cotización, y herramientas abiertas/académicas en CLI sin pulido ni reporte en PR. Honestidad: iec-checker, iecst y plceye son gratis y cubren parte de las reglas (riesgo de F1 parcial); la diferenciación depende de UX, reglas de estilo y reporte en PR, no de capacidad técnica única.",
+   "evidencia": [
+    {
+     "afirmacion": "iec-checker es analizador open source de ST y PLCopen XML",
+     "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+    },
+    {
+     "afirmacion": "plceye es analizador gratis de ST en L5X y PLCopen XML (reglas: tags sin uso, complejidad ciclomática, anidamiento)",
+     "url": "https://docs.rs/plceye"
+    },
+    {
+     "afirmacion": "Existen analizadores académicos y open source (ST-Checker, crate iecst)",
+     "url": "https://docs.rs/crate/iecst/0.5.0"
+    },
+    {
+     "afirmacion": "Arcade.PLC (RWTH Aachen) ofrece análisis estático de ST IEC 61131-3 con demo en línea; licencia no confirmada",
+     "url": "https://arcade.embedded.rwth-aachen.de/doku.php?id=go"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canales nombrados: búsqueda 'structured text linter' / 'IEC 61131-3 static analysis', GitHub Marketplace (Action de CI), PLCtalk y r/PLC, y la comunidad CODESYS. Contenido SEO de reglas de estilo (p. ej. guías PLCopen) tiene poca competencia. CAC bajo si funciona, pero honestidad: volumen de búsqueda sin verificar y el canal GitHub es débil entre ingenieros de control; la demanda de búsqueda podría ser mínima.",
+   "evidencia": [
+    {
+     "afirmacion": "Hay comunidad técnica que discute CI/análisis estático de ST (B&R)",
+     "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'structured text linter' y tamaño de PLCtalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Una vez en el pipeline de CI y con reglas de equipo configuradas, el linter se queda (alto costo de salida, uso continuo por commit). Honestidad: es una herramienta de nicho con equipos que pueden terminar proyectos; sin datos de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn de herramientas de CI/lint para PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado global de programadores PLC es grande en absoluto, pero la fracción que usa Git/CI y textos ST es pequeña hoy. Siemens VCI exporta SCL como texto (V18) y amplía formatos en V21 según blog de terceros, lo que expande el segmento con Git. Honestidad: no hay cifra de tamaño verificada; con $29-49 se necesitan cientos de equipos para $10k.",
+   "evidencia": [
+    {
+     "afirmacion": "TIA Portal V18 VCI: SCL y STL se exportan como texto, el resto es binario",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-v18-git-version-control-vci-setup-and-diff-limits"
+    },
+    {
+     "afirmacion": "Siemens ofrece Version Control Interface con Git integrable vía Openness (V16 en adelante)",
+     "url": "https://www.solisplc.com/tutorials/an-introduction-to-tia-portals-version-control-interface-using-git-and-github"
+    },
+    {
+     "afirmacion": "V21 amplía la cobertura de texto (solo blog de terceros)",
+     "url": "https://www.plc-hmi-scadas.com/en/blog/control-versiones-git-tia-portal-v21/"
+    },
+    {
+     "afirmacion": "Número de ingenieros de control que usan Git/CI",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Conocimiento de dominio (ST/SCL, TIA, PLC) y reglas curadas por experiencia industrial, difícil de replicar por devs de software genéricos; los incumbentes de fabricante están atados a su marca. Honestidad: el código es copiable, los open source ya existen y un fabricante (Siemens) podría integrar linters nativos; la defensa es sobre todo conocimiento y velocidad.",
+   "evidencia": [
+    {
+     "afirmacion": "Estudio JKU: pocas herramientas de análisis estático en PLC",
+     "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"
+    },
+    {
+     "afirmacion": "Schneider EcoStruxure Verification atado a fabricante",
+     "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "MVP en 6 semanas es realista: parser de ST (con ayuda de crates/gramáticas existentes), 15-30 reglas, CLI en Node/TS o Python, GitHub Action y reporte en PR; stack de Juan coincide, y conoce SCL y TIA. Riesgo: soportar formatos propietarios (TIA, Studio 5000) es difícil; conviene empezar con PLCopen XML/CODESYS y SCL en texto exportado por VCI. Costo de infraestructura casi cero.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen parsers y analizadores de referencia (iecst, plceye, iec-checker) que acortan el MVP",
+     "url": "https://docs.rs/crate/iecst/0.5.0"
+    },
+    {
+     "afirmacion": "VCI exporta SCL como texto, que es analizable por un linter",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-v18-git-version-control-vci-setup-and-diff-limits"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Nicho con ventaja única de Juan, sin incumbente comercial accesible (solo Schneider/Itris por cotización y herramientas CLI gratis sin pulido), MVP en 6 semanas a costo casi cero y tendencia a Git/texto (VCI exporta SCL). Es una apuesta de banda media con techo moderado; las debilidades honestas son pago no verificado, mercado pequeño y alternativas gratis.",
+ "busquedas_usadas": 2
+}

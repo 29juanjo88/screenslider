@@ -1,0 +1,125 @@
+{
+ "id": "G29-09",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Las listas de IO y la documentación de entrega son entregables contractuales que el integrador debe producir al cerrar cada proyecto. Hacerlas a mano toma días y se repite en cada proyecto, así que el dolor es recurrente. Honestidad: no hay evidencia verificada de que los integradores lo busquen activamente (sin hilos de PLCTalk/Reddit), y el valor depende de que el integrador no tenga ya un script propio.",
+   "evidencia": [
+    {
+     "afirmacion": "Guía de selección de integradores pide como entregables export de IO list en .xlsx/.csv y cross-reference de tags",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/hiring-plc-programmers-best-practices-for-integrator-selection"
+    },
+    {
+     "afirmacion": "Que la documentación de entrega tome días por proyecto es la afirmación de la idea, no medida",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Búsqueda de hilos en PLCTalk/Reddit sobre exportar IO lists no devolvió ninguno",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El integrador factura por horas y recupera la licencia con un solo proyecto si ahorra un día de ingeniería. Ya paga software de ingeniería caro (TIA Portal, Studio 5000), y $29-79/mes es ínfimo frente a su facturación. Debilidad: no hay precios verificados de competidores y el nicho es de ingenieros acostumbrados a hacer scripts o usar Excel gratis.",
+   "evidencia": [
+    {
+     "afirmacion": "Precio de Litmus S7 Browse Agent y de Copia",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Disposición de pago de integradores por herramientas de documentación",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Las alternativas son débiles o no encajan. TIA ofrece Address Overview y copiar a Excel, PDF o export CAx/AML, todo manual y sin entregable formateado. Litmus S7 Browse Agent produce CSV de tags para Litmus Edge, no documentación de entrega. Existe ioList, una app de GitHub básica para L5X de Rockwell que genera CSV, lo que confirma la necesidad pero también que hay un sustituto gratis en Rockwell (riesgo F1 parcial). No se halló generador dedicado para TIA, lo cual no prueba que no exista.",
+   "evidencia": [
+    {
+     "afirmacion": "Litmus S7 Browse Agent lee un proyecto TIA y produce CSV de tags orientado a Litmus Edge",
+     "url": "https://litmus.io/solutions/siemens-s7-browse-agent"
+    },
+    {
+     "afirmacion": "TIA documenta vía copiar a Excel, imprimir a PDF o export CAx/AML; el copiado exige conexión online o configuración de dispositivo abierta",
+     "url": "https://industrialmonitordirect.com/ar/blogs/knowledgebase/export-tia-portal-device-list-excel-pdf-and-cax-methods"
+    },
+    {
+     "afirmacion": "ioList (GitHub) genera IO list CSV desde L5X de Rockwell; app básica de Windows, sin verificar mantenimiento",
+     "url": "https://github.com/tnunnink/ioList"
+    },
+    {
+     "afirmacion": "TIA Portal tiene Address Overview nativo con direcciones IO por módulo",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/finding-f-io-data-block-hardware-associations-in-tia-portal"
+    },
+    {
+     "afirmacion": "No se halló en dos búsquedas un generador dedicado de IO list/documentación desde TIA Portal (no prueba inexistencia)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: SEO de cola larga ('generate IO list from TIA Portal', 'L5X to IO list'), PLCTalk y r/PLC, más contenido tutorial. La baja competencia de resultados sugiere SEO accesible. Honestidad: es el punto débil; no hay volumen de búsqueda ni hilos verificados, y la comunidad PLC es hostil a la autopromoción. Descarga de prueba gratuita y herramienta offline reducen fricción, con CAC cercano a contenido.",
+   "evidencia": [
+    {
+     "afirmacion": "Las búsquedas de 'IO list' desde proyectos PLC devuelven sobre todo documentación de fabricantes y un repo de GitHub, no productos comerciales, lo que sugiere SERP poco disputado",
+     "url": "https://github.com/tnunnink/ioList"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda y actividad en PLCTalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Cada proyecto nuevo requiere documentación, por lo que un integrador activo la reusa continuamente, y hay regeneración cuando cambia el programa. Pero el uso es por proyecto, por lo que el modelo mensual tiende a churn en meses sin entregas. Mitigación: licencia anual o paquetes por proyecto. Sin datos de retención.",
+   "evidencia": [
+    {
+     "afirmacion": "Retención de herramientas de este tipo",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Es el punto más flojo y lo reconozco: nicho chico (integradores de sistemas y OEM con TIA/Studio 5000). Para $10k MRR bastan unos 140-350 licencias a $29-79, lo que es alcanzable en un universo global de miles de firmas, pero no hay cifra verificada. Ampliable a otras marcas (Codesys, ABB, Beckhoff) y a Rockwell.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de mercado de integradores de sistemas de control a nivel global",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "ABB Automation Builder también exporta mapeo IO a CSV, lo que indica demanda de formato común multimarca",
+     "url": "https://help.plc.abb.com/exporting_io_mapping_to_csv.html"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada: la ventaja es conocimiento de dominio (convenciones de nombres, estructura de proyectos, formato de entrega) más soporte multimarca y plantillas, difíciles de copiar para quien no sea ingeniero PLC. No hay foso técnico fuerte; Siemens podría mejorar la función nativa y un integrador con Openness puede hacer su script. Un nicho pequeño es poco atractivo para grandes competidores, lo que juega a favor.",
+   "evidencia": [
+    {
+     "afirmacion": "Openness permite automatizar tag tables vía XML; es accesible a otros ingenieros que quieran scriptear",
+     "url": "https://www.dmcinfo.com/blog/21173/using-xml-templates-in-tia-openness/"
+    },
+    {
+     "afirmacion": "Antomatix PLC Forge hace generación de código con IA para TIA y Studio 5000 vía Openness, lo que indica actividad en herramientas PLC, pero no documentación",
+     "url": "https://antomatix.com/antomatix-plc-forge-ai-code-generation-for-siemens-tia-portal-and-allen-bradley-studio-5000/"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Juan domina TIA, Studio 5000, nombres y estructura de PLC y es backend senior. Un MVP con parsers de exports abiertos (L5X de Rockwell, XML/AML/Excel de TIA) que genere Excel y PDF es factible en pocas semanas, sin Openness ni hardware, y con costo casi cero. Riesgo: Openness requiere TIA instalado y los formatos propietarios son frágiles; el soporte multiversión puede crecer. Empezar con L5X, que es XML documentado, reduce el riesgo.",
+   "evidencia": [
+    {
+     "afirmacion": "ioList demuestra que un parser de L5X a IO list es construible por un desarrollador individual",
+     "url": "https://github.com/tnunnink/ioList"
+    },
+    {
+     "afirmacion": "Openness permite generar y manipular tag tables vía XML",
+     "url": "https://www.dmcinfo.com/blog/21173/using-xml-templates-in-tia-openness/"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor recurrente y verificable en entregables de integradores (IO list y documentación), con alternativas débiles (copia manual en TIA, Litmus no orientado a entrega, ioList básico para L5X), ventaja máxima de Juan para construir en pocas semanas con costo casi cero. Debilidades honestas: nicho chico, demanda en comunidades y precios sin verificar, y riesgo de fragilidad de formatos propietarios. Recomendación: empezar con L5X de Rockwell y exports de TIA, y subir precio a $49-79 o licencia anual.",
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,125 @@
+{
+ "id": "G12-15",
+ "par": "P2",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El límite de Airtable es estructural: 5 req/s por base (429 y espera de 30 s al excederlo) y topes mensuales de llamadas según plan. Una app en producción sobre Airtable choca con esto. Honestidad: el dolor aparece al escalar, no a todos los usuarios; el juez de etapa 3 dio 3/5.",
+   "evidencia": [
+    {
+     "afirmacion": "Límite de 5 solicitudes/s por base; 429 y espera de 30 s",
+     "url": "https://airtable.com/developers/web/api/rate-limits"
+    },
+    {
+     "afirmacion": "Topes mensuales de llamadas por plan y throttling a 2 req/s en Team al agotarlos (versión reciente del artículo de soporte)",
+     "url": "https://support.airtable.com/managing-api-call-limits-in-airtable"
+    },
+    {
+     "afirmacion": "Límites de registros por base: no confirmados en la búsqueda",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay presupuesto demostrado: Stacksync cobra desde $1,000/mes y Whalesync tiene planes de pago de varios niveles. Equipos con apps en producción ya pagan por sincronizar. A $49/mes se necesitan ~200-1,000 clientes para $10-50k MRR (volumen exigente).",
+   "evidencia": [
+    {
+     "afirmacion": "Stacksync Starter $1,000/mes anual, Pro $3,000",
+     "url": "https://www.stacksync.com/pricing.md"
+    },
+    {
+     "afirmacion": "Whalesync con planes de pago (Personal $5 a Pro $200 según PricingSaaS; las fuentes discrepan)",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Alternativas: Whalesync (barato, canal SEO ocupado) y Stacksync (enterprise). Hay hueco entre ambos solo si Whalesync sube de precio, pero sus precios discrepan según la fuente. También existe el DIY con scripts/n8n, que suele romperse con los límites. Aquí la evidencia no me favorece: no hay un hueco claro de precio.",
+   "evidencia": [
+    {
+     "afirmacion": "Whalesync: precios discrepantes entre terceros; oficial sin verificar",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    },
+    {
+     "afirmacion": "Stacksync $1,000+/mes deja libre el rango bajo-medio",
+     "url": "https://www.stacksync.com/pricing.md"
+    },
+    {
+     "afirmacion": "Alternativas DIY (n8n, scripts) y otros competidores no cubiertos por la búsqueda",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canales: SEO de cola larga ('airtable to postgres sync', 'airtable to supabase'), Airtable Marketplace y foros (Airtable community, r/Airtable). La intención de compra es alta. Pero Whalesync ocupa el SEO y la existencia/viabilidad del Marketplace para este tipo de producto está sin verificar. CAC no estimable con datos; posiblemente bajo con contenido, pero sin evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Whalesync ocupa el canal SEO (según el juez de etapa 3)",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    },
+    {
+     "afirmacion": "Canal Airtable Marketplace para sincronizadores: viabilidad y requisitos",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Una sincronización continua en producción es infraestructura: cambiarla implica riesgo de datos, así que la retención debería ser alta mientras la base siga en Airtable. Contra: el cliente puede migrar del todo a Postgres (objetivo de la sincronización) y cancelar, así que hay churn natural por 'graduación'. Sin datos de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn/retención de sincronizadores",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Airtable reporta más de 500,000 organizaciones según fuentes secundarias (otras citan 450,000); los ingresos estimados oscilan entre ~$205M y $478M, con fuentes que discrepan. Solo una fracción necesita sincronizar con Postgres. El mercado total supera 100k organizaciones, aunque la porción direccionable es sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Más de 500,000 organizaciones usan Airtable (tercero, cifras discrepantes; otro cita 450,000)",
+     "url": "https://marketful.com/?p=36720"
+    },
+    {
+     "afirmacion": "Estimación de ARR de Airtable: $478M en 2024 (Sacra)",
+     "url": "https://sacra.com/research/airtable"
+    },
+    {
+     "afirmacion": "Fracción que necesita sincronización con Postgres",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Débil, y lo admito. No hay moat tecnológico: cualquier competidor puede igualar la sincronización. Defensas posibles: ángulo de nicho (esquema tipado para Supabase, migraciones), confiabilidad y soporte de un solo dev, precio intermedio. Whalesync y Stacksync ya existen, así que la defensa es baja.",
+   "evidencia": [
+    {
+     "afirmacion": "Dos competidores establecidos ya ofrecen el producto",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    },
+    {
+     "afirmacion": "Ángulo diferenciador viable (Supabase con esquema tipado)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Encaja con Juan: backend senior en Node/TS, Postgres y GraphQL. Una sincronización de un solo sentido con mapeo de esquema puede llegar a MVP en unas 6 semanas. Lo difícil es la bidireccionalidad (conflictos) y respetar los 5 req/s por base. El soporte continuo de una infraestructura de datos pesa a tiempo parcial. Costo casi cero con Supabase/VPS.",
+   "evidencia": [
+    {
+     "afirmacion": "Restricción técnica: 5 req/s por base, a respetar mediante colas",
+     "url": "https://airtable.com/developers/web/api/rate-limits"
+    },
+    {
+     "afirmacion": "Tiempo real de MVP bidireccional",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Dolor técnico real y documentado (5 req/s por base, topes por plan), presupuesto demostrado (Stacksync desde $1,000/mes, Whalesync de pago), mercado amplio (más de 450-500k organizaciones según terceros) y encaje de ejecución para Juan. Concedo que la diferenciación y la defensa son débiles y que el canal SEO y el Marketplace son inciertos. Solo funciona con un ángulo estrecho (p. ej. Airtable a Supabase con esquema tipado, precio intermedio).",
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,28 @@
+{
+"id":"G12-05","par":"P2","rol":"defensor",
+"dimensiones":{
+"dolor":{"argumento":"El dolor es concreto y monetizable: una falla silenciosa cuesta clientes de retainer. Agencias preguntan activamente en comunidades como se enteran de fallas.","evidencia":[
+{"afirmacion":"Dueño de agencia perdió un cliente de $2,500/mes por un workflow n8n caído 3 días sin aviso","url":"https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"},
+{"afirmacion":"Hilo en comunidad n8n: agencias preguntan cómo detectan roturas en workflows de clientes","url":"https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"}]},
+"pago":{"argumento":"Si una falla puede costar $2,500/mes de retainer, $49 es seguro barato; el comprador (dueño de agencia) factura al cliente y puede trasladar el costo. Honestidad: disposición de pago a $49 específicamente sin verificar, y los competidores tienen tiers gratis y Pro desde $19.","evidencia":[
+{"afirmacion":"RootBrief Pro desde $19/mes (precio de lanzamiento) indica que existe disposición de pago en la categoría, pero a menor precio","url":"https://www.producthunt.com/p/rootbrief"},
+{"afirmacion":"Disposición de pago de agencias a $49","url":"sin verificar"}]},
+"alternativas_actuales":{"argumento":"Hoy: historial nativo por plataforma (fragmentado en 3 sitios) y 4+ monitores nuevos. Honestidad: el hueco ya está ocupado, lo que debilita la diferenciación; la validación de la categoría es lo único a favor. Los competidores son lanzamientos recientes de Product Hunt y no hay evidencia de tracción.","evidencia":[
+{"afirmacion":"OpsVeritas: n8n, Make, Zapier, gratis 10 workflows","url":"https://www.producthunt.com/products/opsveritas"},
+{"afirmacion":"Flowlert: gratis hasta 5 workflows","url":"https://hunted.space/product/flowlert"},
+{"afirmacion":"FlowPulse: run ledger para n8n, Make, Zapier","url":"https://hunted.space/product/flowpulse"},
+{"afirmacion":"Tracción/ingresos de estos competidores","url":"sin verificar"}]},
+"canal_y_cac":{"argumento":"Canales nombrados y gratuitos donde el comprador ya pregunta: foro de la comunidad n8n (hilo directo sobre el problema), directorio de partners de Make, directorio de Zapier Experts, YouTube de creadores de automatización, SEO 'monitor Make scenarios'. CAC bajo si hay presencia en foros; es de contenido/comunidad, no outbound. CAC numérico sin verificar.","evidencia":[
+{"afirmacion":"Hilo activo en community.n8n.io sobre el tema exacto","url":"https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"},
+{"afirmacion":"Make mantiene un directorio de partners (Platinum/Gold/Silver) con agencias certificadas","url":"https://www.make.com/en/partners-directory?pc=samliew"},
+{"afirmacion":"CAC real del canal","url":"sin verificar"}]},
+"retencion":{"argumento":"Un monitor integrado en la operación diaria de la agencia y con historial de runs por cliente crea costo de cambio moderado y uso recurrente; mientras la agencia tenga clientes, necesita monitoreo. Churn esperado ligado al de las agencias (alto en freelancers). Sin datos de retención verificados.","evidencia":[{"afirmacion":"Churn/retención de monitores de automatización","url":"sin verificar"}]},
+"mercado":{"argumento":"Existe un ecosistema grande de agencias y freelancers de Zapier/Make/n8n (directorios oficiales y marketplaces como Fiverr), pero no pude obtener cifras de tamaño. La meta ($10k MRR) requiere ~200 agencias a $49, una fracción pequeña si el ecosistema es de miles. Tamaño con fuente: sin verificar.","evidencia":[
+{"afirmacion":"Directorio de partners de Make existe (cantidad no obtenida)","url":"https://www.make.com/en/partners-directory?pc=samliew"},
+{"afirmacion":"Número total de agencias/freelancers de automatización","url":"sin verificar"}]},
+"defensa_frente_a_copias":{"argumento":"Honestamente débil: ya hay copias y la barrera técnica es baja. Posible defensa: nicho agencia (portal/reportes white-label para clientes finales, multi-cliente), integraciones profundas y reputación en comunidades; ajuste sugerido en etapa 3 de $29-79 por agencia. Sin diferenciador verificado.","evidencia":[{"afirmacion":"Nicho white-label/portal para clientes de agencias como diferenciador (sugerido en etapa 3, no validado)","url":"sin verificar"}]},
+"ejecucion_una_persona_tiempo_parcial":{"argumento":"Muy favorable: Juan es backend senior con Node/TS, APIs y webhooks; el MVP (polling de APIs de ejecuciones de n8n/Make/Zapier, alertas por email/Slack, dashboard) cabe en ~6 semanas a tiempo parcial y con costo de infraestructura casi nulo. Riesgo: límites de API de las plataformas (Zapier tiene API de historial limitada, sin verificar).","evidencia":[{"afirmacion":"Accesibilidad de APIs de historial de ejecuciones de Zapier/Make/n8n y sus límites","url":"sin verificar"}]}
+},
+"argumento_principal":"Dolor real y costoso (retainers de $2,500/mes perdidos por fallas silenciosas), comprador claro (dueños de agencias de automatización), canales de comunidad nombrados y gratuitos, y MVP muy alcanzable para un backend senior. Debilidad honesta: categoría ya poblada con tiers gratis y Pro desde $19, diferenciación y disposición de pago a $49 sin verificar; el éxito depende de un nicho agencia/white-label.",
+"busquedas_usadas":1
+}

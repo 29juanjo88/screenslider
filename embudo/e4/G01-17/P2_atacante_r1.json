@@ -1,0 +1,133 @@
+{
+ "id": "G01-17",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe (clientes preguntan cuándo llega) pero es de severidad media: lo resuelven con una fecha fija o un texto de 'ships in 2-3 weeks' en la ficha. No hay evidencia de que el comerciante busque activamente una solución de pago ni de que pierda ventas cuantificables. La evidencia no me favorece del todo: el dolor es real en made-to-order, pero no está cuantificado.",
+   "evidencia": [
+    {
+     "afirmacion": "Reducción de tickets/conversión por mostrar fecha de entrega: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Existen al menos 8 apps de fecha de entrega, lo que indica que el problema se percibe, pero mayormente resuelto con reglas simples",
+     "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El precio de referencia del segmento es 0-20 USD/mes; a 29 USD/mes Juan pide más que casi todos los EDD. Solo Orderkraft cobra más (69 USD + uso), lo que sugiere que se paga por la gestión made-to-order completa, no por la estimación sola. A 29 USD, llegar a 10k MRR exige ~345 pagadores; a 50k, ~1,700. Honesto: Orderkraft muestra que hay disposición de pago en el nicho, pero con un producto más amplio.",
+   "evidencia": [
+    {
+     "afirmacion": "ArrivesBy: gratis a 19.99 USD/mes",
+     "url": "https://apps.shopify.com/arrives-by"
+    },
+    {
+     "afirmacion": "Simple Estimated Delivery Date: gratis con 10 reglas, Basic 4.99, Plus 9.99",
+     "url": "https://apps.shopify.com/simple-estimated-delivery-date"
+    },
+    {
+     "afirmacion": "H3 Estimated Delivery: gratis 1 regla, Premium 8 USD/mes",
+     "url": "https://apps.shopify.com/estimated-delivery-date-h3"
+    },
+    {
+     "afirmacion": "Orderkraft: 69 USD/mes + uso",
+     "url": "https://apps.shopify.com/orderkraft"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Apps gratis/baratas de fecha de entrega (F1 parcial) cubren lo básico; para made-to-order existe Orderkraft; y muchos talleres usan texto manual o campos de plazo por producto/metafields. La etapa 3 no verificó que ninguna modele cola de producción; el juez solo dijo que la búsqueda no halló una. Ausencia de hallazgo no es ausencia de competidor.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores EDD gratis/baratos verificados",
+     "url": "https://apps.shopify.com/arrives-by"
+    },
+    {
+     "afirmacion": "Orderkraft como app made-to-order más cercana",
+     "url": "https://apps.shopify.com/orderkraft"
+    },
+    {
+     "afirmacion": "Ninguna app modela cola de producción: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Funciones nativas de Shopify o metafields como sustituto: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal nombrado (búsqueda 'estimated delivery' en Shopify App Store) es el más disputado de la idea: las apps con cientos de reseñas dominan el ranking y la categoría tiene 8+ competidores. Un recién llegado sin reseñas aparece abajo; el CAC real dependería de ads de la App Store o contenido, sin cifras. A favor: el canal existe y tiene intención de compra.",
+   "evidencia": [
+    {
+     "afirmacion": "Al menos 8 apps de fecha de entrega en listados comparativos",
+     "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda y CAC en la App Store: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo alto de churn: tiendas made-to-order pequeñas son inestables (cierran o cambian de modelo), y si el modelado por taller no encaja se desinstala en días. Al ser una estimación, el comerciante puede migrar a un plugin gratuito cuando el negocio madura. Sin datos de retención del segmento.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps Shopify de nicho / tiendas made-to-order: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Riesgo principal declarado: cada taller modela capacidad distinto",
+     "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El subconjunto relevante (tiendas Shopify con producción propia/bajo pedido con cola real y que paguen 29 USD) es pequeño; el juez de etapa 3 y la etapa 2 ya lo calificaron como chico. No tengo cifra verificada del número de tiendas; para 10k MRR haría falta ~345 clientes de pago, lo cual en un nicho de cola productiva es exigente.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de tiendas Shopify made-to-order: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Etapa 2 y 3 señalan 'mercado chico' (juicio interno, no cifra)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula. Un modelo de cola/capacidad simple lo puede añadir cualquier app EDD (ya tienen base instalada y reseñas) o Orderkraft bajando precio. Shopify puede lanzar fechas de entrega nativas. Sin datos propietarios, sin efecto de red, sin integraciones difíciles. La ventaja de Juan (conocimiento de colas en máquinas) fue calificada 2 por el juez; el comerciante de Shopify no valora PLC/CAD.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores existentes con base instalada",
+     "url": "https://apps.shopify.com/arrives-by"
+    },
+    {
+     "afirmacion": "Shopify añade función nativa de fecha de entrega: sin verificar",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Ventaja de Juan calificada 2/5 por el juez de etapa 3 (idea.json)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "El MVP técnico es factible (el juez dio 4), pero el costo real está en: dependencia de una sola plataforma (revisión de app, cambios de API, theme app extensions por tema), soporte para configurar modelos de capacidad distintos por taller (soporte casi consultivo, contrario a autoservicio), y generar reseñas desde cero. Juan es débil en distribución, justo el cuello de botella de esta idea. Honesto: construir es lo fácil.",
+   "evidencia": [
+    {
+     "afirmacion": "Riesgo de plataforma puntuado 2/5 por el juez de etapa 3 (idea.json)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Carga de soporte por configuración distinta por taller: sin verificar",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Idea con canal real pero el más saturado y de precio bajo (0-20 USD) donde se pide 29 USD por una función que los EDD ya cubren en gran parte; el único diferenciador (cola de producción) no está probado como demanda de pago, el mercado es pequeño (~345 pagadores para 10k MRR), no hay defensa ante copias y la ventaja de Juan es casi irrelevante para el comprador. Honestamente: el canal es nombrado y hay un hueco aparente, pero sin evidencia de demanda.",
+ "busquedas_usadas": 0
+}

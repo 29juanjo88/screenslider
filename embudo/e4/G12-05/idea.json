@@ -1,0 +1,136 @@
+{
+ "idea": {
+  "id": "G12-05",
+  "nombre": "Cross-Platform Automation Monitor",
+  "cliente_que_paga": "Automation agencies and freelancers managing client Zaps, Make scenarios and n8n workflows",
+  "problema": "Failures are scattered across three platforms and clients notice before the agency does.",
+  "solucion": "One dashboard and alert feed for failed runs across Zapier, Make and n8n with retry links.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Agency communities such as Make and n8n forums, Zapier Experts directory posts, YouTube automation creators, SEO 'monitor Make scenarios'.",
+  "competidores": [
+   "Native run history in each platform (partial)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Agencies now run multi-platform stacks for clients.",
+  "ventaja_juan": "Backend engineer, strong with APIs and webhooks.",
+  "riesgo_principal": "Platforms could expose better native monitoring; API limits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "automation failure monitoring",
+  "tema_norm": "automatización no-code",
+  "duplicado_de": null,
+  "e2_total": 38,
+  "e2_razon": "Vista unificada Zapier/Make/n8n que ninguna plataforma ofrece, comunidades nombradas; riesgo de APIs nativas y tamaño sin verificar.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 36,
+  "e3_filtro": null,
+  "e3_razon": "Dolor documentado y canales de comunidad nombrados, pero el hueco ya esta ocupado y $49 supera a los incumbentes. Diferenciacion casi nula; no cae en F1 porque los tiers gratis son limitados.",
+  "e3_hecho": "Existen al menos 4 monitores multi-plataforma (OpsVeritas, RootBrief, Flowlert, FlowPulse) con tiers gratis y Pro desde $19.",
+  "e3_competidores": [
+   {
+    "nombre": "OpsVeritas",
+    "precio": "gratis 10 workflows; pago sin verificar",
+    "url": "https://www.producthunt.com/products/opsveritas"
+   },
+   {
+    "nombre": "RootBrief",
+    "precio": "Pro desde $19/mes (lanzamiento)",
+    "url": "https://www.producthunt.com/p/rootbrief"
+   },
+   {
+    "nombre": "Flowlert",
+    "precio": "gratis hasta 5 workflows",
+    "url": "https://hunted.space/product/flowlert"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G12-05",
+   "filtros_fallados": [],
+   "objecion": "Mercado ya poblado de monitores multi-plataforma para n8n/Make/Zapier con planes gratis; diferenciacion debil y precio $49 frente a tiers gratis o de $19.",
+   "hechos": [
+    {
+     "afirmacion": "OpsVeritas monitorea n8n, Make, Zapier y otros en un dashboard, con plan gratis de 10 workflows.",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "RootBrief cubre n8n, Zapier y Make; listado con Free y Pro desde $19/mes (precio de lanzamiento, puede haber cambiado).",
+     "url": "https://www.producthunt.com/p/rootbrief"
+    },
+    {
+     "afirmacion": "Flowlert monitorea n8n, Make y Zapier, gratis hasta 5 workflows.",
+     "url": "https://hunted.space/product/flowlert"
+    },
+    {
+     "afirmacion": "FlowPulse ofrece run ledger para n8n, Make, Zapier.",
+     "url": "https://hunted.space/product/flowpulse"
+    },
+    {
+     "afirmacion": "Demanda real de agencias y precios de agencia",
+     "url": "sin verificar"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G12-05",
+   "rescatar": false,
+   "respuesta": "Hay dolor real documentado, pero el hueco ya esta ocupado por varios monitores multi-plataforma con planes gratis y Pro desde $19; $49 no se justifica sin diferenciador.",
+   "concesiones": "OpsVeritas, RootBrief, Flowlert, FlowPulse, n8ops y AIgencyTracker cubren n8n/Make/Zapier; precios de lanzamiento $19 y tiers gratis; diferenciacion debil.",
+   "hechos": [
+    {
+     "afirmacion": "Un duenio de agencia perdio un cliente de $2,500/mes por un workflow n8n que fallo 3 dias sin aviso, y describe el dolor de gestionar n8n, Make y Zapier de muchos clientes (dolor real, pero ya hay productos que lo atacan)",
+     "url": "https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"
+    },
+    {
+     "afirmacion": "Hilo en comunidad n8n preguntando como enteran las agencias cuando algo se rompe en workflows de clientes",
+     "url": "https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"
+    },
+    {
+     "afirmacion": "Disposicion de pago de agencias a $49",
+     "url": "sin verificar"
+    }
+   ],
+   "ajuste_sugerido": "Nicho white-label/portal de reportes para clientes de agencias a $29-79 por agencia; aun sin diferenciador verificado.",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G12-05",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 4,
+    "pago": 3,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 1,
+    "ventaja_juan": 3,
+    "mvp": 4,
+    "riesgo": 2
+   },
+   "total": 36,
+   "hecho_decisivo": "Existen al menos 4 monitores multi-plataforma (OpsVeritas, RootBrief, Flowlert, FlowPulse) con tiers gratis y Pro desde $19.",
+   "competidores_verificados": [
+    {
+     "nombre": "OpsVeritas",
+     "precio": "gratis 10 workflows; pago sin verificar",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "nombre": "RootBrief",
+     "precio": "Pro desde $19/mes (lanzamiento)",
+     "url": "https://www.producthunt.com/p/rootbrief"
+    },
+    {
+     "nombre": "Flowlert",
+     "precio": "gratis hasta 5 workflows",
+     "url": "https://hunted.space/product/flowlert"
+    }
+   ],
+   "razon": "Dolor documentado y canales de comunidad nombrados, pero el hueco ya esta ocupado y $49 supera a los incumbentes. Diferenciacion casi nula; no cae en F1 porque los tiers gratis son limitados.",
+   "busquedas_usadas": 1
+  }
+ }
+}

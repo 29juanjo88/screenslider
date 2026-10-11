@@ -1,0 +1,137 @@
+{
+ "id": "G12-05",
+ "par": "P2",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es episodico y ya lo resuelven parcialmente las herramientas nativas (historial de ejecuciones, reintentos, rutas de error y alertas en Make y Zapier). La evidencia de dolor son anecdotas aisladas, no demanda cuantificada. Honestidad: el caso de perder un cliente de $2,500/mes es un dolor real y a favor de la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Un dueno de agencia perdio un cliente de $2,500/mes por un workflow n8n caido 3 dias (anecdota unica; favorece la idea)",
+     "url": "https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"
+    },
+    {
+     "afirmacion": "Hilo en comunidad n8n sobre como enterarse de fallos en workflows de clientes (indica dolor, pero un hilo no cuantifica demanda)",
+     "url": "https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"
+    },
+    {
+     "afirmacion": "Make ofrece logs de ejecucion, replay de ejecuciones fallidas y rutas de error con alertas personalizables; Zapier muestra historial de tareas, auto-retry y avisos de Zaps fallidos (fuentes: blogs de consultoras, sesgadas)",
+     "url": "https://routine.co/blog/posts/make-vs-zapier"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "No hay evidencia de que agencias paguen $49/mes por esto: los competidores regalan 5-10 workflows y Pro desde $19. Los freelancers tienden a resolver con un workflow de error-handling propio y gratis. Alta probabilidad de que el techo de precio sea $19-29, lo que exige >1,700 clientes a $29 para $50k o ~350 a $29 para $10k solo con captacion orgánica.",
+   "evidencia": [
+    {
+     "afirmacion": "RootBrief Pro desde $19/mes (precio de lanzamiento, puede haber cambiado)",
+     "url": "https://www.producthunt.com/p/rootbrief"
+    },
+    {
+     "afirmacion": "OpsVeritas gratis hasta 10 workflows; precio de pago sin verificar",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "Flowlert gratis hasta 5 workflows",
+     "url": "https://hunted.space/product/flowlert"
+    },
+    {
+     "afirmacion": "Disposicion de pago de agencias a $49: no hay evidencia (la etapa 3 tampoco la encontro)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "El hueco ya esta ocupado: al menos 4-6 monitores multi-plataforma con tiers gratis, mas las funciones nativas de cada plataforma y workflows caseros de alerta por Slack/email. Esto roza F1 (incumbente gratis suficientemente bueno) para agencias pequenas con pocos workflows. Es la dimension mas debil de la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "OpsVeritas monitorea n8n, Make, Zapier y otros en un dashboard con plan gratis",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "RootBrief cubre n8n, Zapier y Make",
+     "url": "https://www.producthunt.com/p/rootbrief"
+    },
+    {
+     "afirmacion": "Flowlert monitorea n8n, Make y Zapier, gratis hasta 5 workflows",
+     "url": "https://hunted.space/product/flowlert"
+    },
+    {
+     "afirmacion": "FlowPulse ofrece run ledger para n8n, Make, Zapier",
+     "url": "https://hunted.space/product/flowpulse"
+    },
+    {
+     "afirmacion": "n8ops y AIgencyTracker tambien listados por la defensa de etapa 3 (sin URL)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Los canales nombrados (foros Make/n8n, Zapier Experts, YouTube) son reales pero Juan compite ahi con 4+ productos que ya publican en Product Hunt y comunidades; los foros penalizan la autopromocion y no hay marketplace de apps donde la busqueda tenga intencion de compra (no es una app de Shopify). El CAC organico es tiempo de Juan; el SEO 'monitor Make scenarios' esta sin verificar. Honestidad: no encontre cifras de CAC; el canal de comunidad es barato en dinero pero lento y poco escalable.",
+   "evidencia": [
+    {
+     "afirmacion": "Competidores ya presentes en Product Hunt/directorios, lo que satura el mismo canal de descubrimiento",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "Volumen de busqueda y dificultad SEO de 'monitor Make scenarios': no verificado",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC en este nicho: no verificado",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Riesgo de churn alto: el valor se percibe solo cuando algo falla; si los workflows son estables, el cliente olvida la herramienta. Las agencias cambian de cliente y de stack (clientes salen, workflows se eliminan), y con tiers gratis la migracion es trivial. Sin datos de retencion de ninguna herramienta similar. Honestidad: monitoreo es un tipo de producto que suele ser pegajoso una vez integrado en el flujo, lo que atenua un poco el argumento.",
+   "evidencia": [
+    {
+     "afirmacion": "Retencion/churn de monitores de automatizacion: sin datos publicos",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Tamano sin cuantificar. Busque conteos de agencias/Experts/partners y no aparecieron cifras; solo hay datos adyacentes de las plataformas (n8n, Zapier) que no equivalen a compradores de este producto. El segmento real (agencias que operan multiples plataformas para clientes y pagan por monitoreo) es un subconjunto pequeno y es atendido por competidores. Para US$10k MRR a $49 harian falta ~205 clientes; a $19, ~526.",
+   "evidencia": [
+    {
+     "afirmacion": "Zapier reporta mas de 3 millones de usuarios (fuente secundaria; no equivale a agencias compradoras)",
+     "url": "https://sacra.com/chat/h/c2cd8914-1aaa-47fd-b447-8bdf39e177a9/"
+    },
+    {
+     "afirmacion": "Numero de agencias/freelancers multi-plataforma compradores posibles: sin verificar (busqueda no devolvio cifras)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Practicamente nula: es un agregador sobre APIs de terceros, sin datos propietarios ni efecto de red, y ya existen 4+ clones. Las plataformas pueden lanzar monitoreo nativo o cambiar limites/precios de API, matando el producto. Cualquier competidor con Claude/Cursor lo replica en semanas.",
+   "evidencia": [
+    {
+     "afirmacion": "Multiples clones ya lanzados (OpsVeritas, RootBrief, Flowlert, FlowPulse)",
+     "url": "https://www.producthunt.com/products/opsveritas"
+    },
+    {
+     "afirmacion": "Riesgo declarado en la propia idea: plataformas pueden exponer monitoreo nativo y hay limites de API",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestidad: el MVP es factible en ~6 semanas para un backend senior (polling/webhooks de APIs de 3 plataformas, alertas). El problema es lo que viene despues: mantener 3 integraciones contra APIs cambiantes con rate limits, soporte a agencias, y distribucion en comunidades que es justo el cuello de botella de Juan. Su ventaja industrial (PLC/CAD/3D) no aplica en absoluto a este nicho; solo la de backend/APIs.",
+   "evidencia": [
+    {
+     "afirmacion": "Ventaja industrial de Juan (PLC, CAD, firmware 3D) irrelevante para monitoreo no-code; juez de etapa 3 puntuo ventaja 3 y MVP 4",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Costo de mantenimiento de integraciones y limites de API de Zapier/Make/n8n: no verificado",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Idea con dolor real pero sin diferenciador: al menos 4 monitores multi-plataforma ya cubren Zapier/Make/n8n con tiers gratis y Pro desde $19, las plataformas tienen alertas y reintentos nativos, no hay evidencia de pago a $49 ni de tamano de mercado, la defensa ante copias es nula y la ventaja industrial de Juan no aplica; probablemente quede en techo de $19-29 con un canal de comunidad saturado y lento, lejos de US$10-50k MRR.",
+ "busquedas_usadas": 2
+}

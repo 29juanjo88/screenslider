@@ -1,0 +1,129 @@
+{
+ "idea": {
+  "id": "G06-04",
+  "nombre": "Subscription Churn Saver",
+  "cliente_que_paga": "Dueños de tiendas WooCommerce Subscriptions",
+  "problema": "Pagos fallidos y cancelaciones reducen MRR sin que el dueño lo note.",
+  "solucion": "Plugin de dunning inteligente, ofertas de pausa y alertas de cancelación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'woocommerce subscription retention' en WordPress.org y grupos de Facebook de WooCommerce.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crecen los modelos de suscripción en e-commerce.",
+  "ventaja_juan": "Backend PHP/Laravel y pagos.",
+  "riesgo_principal": "Posible incumbente nativo de WooCommerce.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "retención suscripciones Woo",
+  "tema_norm": "cobros y retención de suscripciones",
+  "duplicado_de": null,
+  "e2_total": 37,
+  "e2_razon": "Pagos fallidos duelen en dolares y WordPress.org es canal, pero ya existen plugins de dunning y Woo trae reintentos.",
+  "e2_filtro": null,
+  "e2_desempate": null,
+  "e3_total": 38,
+  "e3_filtro": null,
+  "e3_razon": "Hay pago demostrado y WordPress.org como canal, pero el espacio ya esta ocupado y el reintento nativo cubre parte; el nativo es basico, por lo que no se considera F1 firme. Diferenciacion debil.",
+  "e3_hecho": "Competidores de pago existen (Subscriptions Recovery $79/mes, Sublium $99-199/mes) y WooCommerce trae reintentos nativos limitados y apagados por defecto",
+  "e3_competidores": [
+   {
+    "nombre": "Subscriptions Recovery for WooCommerce",
+    "precio": "$79/mes + version gratis limitada",
+    "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+   },
+   {
+    "nombre": "Sublium",
+    "precio": "$99-199/mes",
+    "url": "https://alternativeto.net/software/sublium/about"
+   },
+   {
+    "nombre": "WooCommerce Subscriptions retry nativo",
+    "precio": "incluido",
+    "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+   }
+  ]
+ },
+ "etapa3": {
+  "ataque": {
+   "id": "G06-04",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "WooCommerce Subscriptions trae reintentos de pago nativos (apagados por defecto) y ya hay plugins de dunning/recuperación; diferenciación débil, aunque el nativo se considera limitado.",
+   "hechos": [
+    {
+     "afirmacion": "WooCommerce Subscriptions incluye sistema nativo de reintento de pagos fallidos, desactivado por defecto",
+     "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+    },
+    {
+     "afirmacion": "Existe 'Subscriptions Recovery for WooCommerce' con dunning (cuota citada $79/mes más versión gratis limitada)",
+     "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+    },
+    {
+     "afirmacion": "Guías indican que la lógica nativa es básica/limitada y conviene herramienta dedicada (hueco parcial)",
+     "url": "https://www.storeapps.org/reduce-subscription-churn-in-woocommerce/"
+    },
+    {
+     "afirmacion": "Existe un plugin 'Subscription Churn Saver' enfocado en interceptar cancelaciones (según una guía)",
+     "url": "https://usecaddy.com/reduce-subscription-churn"
+    }
+   ],
+   "severidad": "fuerte",
+   "busquedas_usadas": 1
+  },
+  "defensa": {
+   "id": "G06-04",
+   "rescatar": false,
+   "respuesta": "Hay disposición de pago para dunning (Subscriptions Recovery cobra $79/mes, Sublium $99-199/mes según AlternativeTo), pero eso confirma que el hueco ya está ocupado y compite con reintentos nativos y plugins gratis (Recurio).",
+   "concesiones": "Incumbentes de pago y gratis existen; diferenciación débil; reseñas independientes sin verificar.",
+   "hechos": [
+    {
+     "afirmacion": "Subscriptions Recovery for WooCommerce: $79/mes más versión gratis limitada",
+     "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+    },
+    {
+     "afirmacion": "Sublium listado entre $99 y $199/mes e incluye recuperación de pagos",
+     "url": "https://alternativeto.net/software/sublium/about"
+    }
+   ],
+   "ajuste_sugerido": "",
+   "busquedas_usadas": 1
+  },
+  "juez": {
+   "id": "G06-04",
+   "filtro_fallado": null,
+   "puntajes": {
+    "dolor": 3,
+    "pago": 4,
+    "canal": 3,
+    "mercado": 3,
+    "diferenciacion": 2,
+    "ventaja_juan": 3,
+    "mvp": 4,
+    "riesgo": 3
+   },
+   "total": 38,
+   "hecho_decisivo": "Competidores de pago existen (Subscriptions Recovery $79/mes, Sublium $99-199/mes) y WooCommerce trae reintentos nativos limitados y apagados por defecto",
+   "competidores_verificados": [
+    {
+     "nombre": "Subscriptions Recovery for WooCommerce",
+     "precio": "$79/mes + version gratis limitada",
+     "url": "https://alternativeto.net/software/subscriptions-recovery-for-woocommerce/about"
+    },
+    {
+     "nombre": "Sublium",
+     "precio": "$99-199/mes",
+     "url": "https://alternativeto.net/software/sublium/about"
+    },
+    {
+     "nombre": "WooCommerce Subscriptions retry nativo",
+     "precio": "incluido",
+     "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+    }
+   ],
+   "razon": "Hay pago demostrado y WordPress.org como canal, pero el espacio ya esta ocupado y el reintento nativo cubre parte; el nativo es basico, por lo que no se considera F1 firme. Diferenciacion debil.",
+   "busquedas_usadas": 1
+  }
+ }
+}

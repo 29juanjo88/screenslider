@@ -1,0 +1,129 @@
+{
+ "id": "G01-02",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es de baja frecuencia y no demostrado a escala: la única señal es un hilo de un fabricante en la comunidad de Shopify. Un taller cotiza unas pocas piezas a medida por semana; no está claro que 'horas' de cotización manual justifiquen $49/mes. Honestidad: el hilo sí muestra demanda real y que nadie tenía app (entonces).",
+   "evidencia": [
+    {
+     "afirmacion": "Fabricante pidió cotización instantánea desde archivos vectoriales por área y perforaciones; un experto dijo no conocer app (hilo previo a MakeQuote)",
+     "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+    },
+    {
+     "afirmacion": "Horas semanales perdidas por taller en cotización manual",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El precio de referencia en la categoría es bajo: MakeQuote ofrece plan gratis (10 pedidos/mes) y Pro $19/mes (terceros). Pedir $49 exige justificar 2.5x sobre el incumbente; los talleres pequeños esperan gratis o barato. No hay evidencia de que talleres con Shopify paguen por apps de cotización.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote: plan gratis 10 pedidos/mes, 2 perfiles, 5 materiales, visor 3D, integración con carrito; Pro $19/mes según terceros",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Disposición de pago de talleres láser por widget de cotización a $49/mes",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Ya hay un incumbente directo en el canal elegido (MakeQuote, lanzado 7 mayo 2026, DXF + láser, gratis). Además SendCutSend y Xometry ofrecen cotización instantánea propia (los talleres pueden derivar clientes allí) y SecturaFAB ofrece cotización instantánea desde DXF/DWG fuera de Shopify. A favor de Juan: la búsqueda no halló descripción de que MakeQuote precie láser por longitud de corte/perforaciones (su motor parece orientado a slicing de impresión 3D), y no halló widgets white-label de Xometry/SendCutSend; es un hueco posible pero MakeQuote puede cerrarlo con una actualización.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote cubre carga DXF, material y cotización instantánea para láser; 0 reseñas",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "SendCutSend da precio instantáneo desde DXF/DWG/EPS/AI/STEP",
+     "url": "https://sendcutsend.com/?p=101454"
+    },
+    {
+     "afirmacion": "SecturaFAB: cotización instantánea desde DXF/DWG para láser, plasma, waterjet (no Shopify)",
+     "url": "https://get.secturafab.com/instant-fabrication-quoting"
+    },
+    {
+     "afirmacion": "Xometry Instant Quoting Engine (propio, no embebible según resultados)",
+     "url": "https://xometry.eu/en/instant-quoting-engine/"
+    },
+    {
+     "afirmacion": "MakeQuote no precia láser por perímetro/perforaciones",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal único es la búsqueda en Shopify App Store, que MakeQuote ya ocupa con plan gratis y 'primero en llegar'. Con 0 reseñas de ellos, hay ventana, pero una app nueva sin reseñas tampoco convierte; el ranking depende de reseñas e instalaciones. Fuera del store no hay canal nombrado barato: llegar a talleres exige outreach (como el ancla MEDIA). Volumen de búsqueda de 'laser cut quote' en el store: sin verificar. Shopify cobra 15% de comisión sobre ingresos de apps (sin verificar para el umbral actual).",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote ya está listado en el store para esta necesidad",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Volumen de búsquedas en Shopify App Store para cotización de corte láser",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC por canal alternativo (SEO/comunidad) para talleres láser",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un taller que instala el widget lo mantiene mientras vende online, pero la base es de pocos pedidos online/mes; con pocos pedidos, el cliente puede bajar al plan gratis del incumbente (10 pedidos/mes) o cancelar. Churn típico de apps Shopify en SMB es alto (sin verificar). Una vez integrada la lógica de precios hay algo de fricción de cambio, lo cual favorece levemente.",
+   "evidencia": [
+    {
+     "afirmacion": "Plan gratis del incumbente cubre talleres de bajo volumen (10 pedidos/mes)",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Tasa de churn de apps Shopify de nicho",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Intersección estrecha: talleres de corte láser/CNC que venden online a medida Y usan Shopify. Para $10k MRR a $49 se necesitan ~205 pagadores; para $50k ~1,000. Tamaño del nicho: sin verificar; la propia etapa 2 lo marcó como riesgo principal. Se puede ampliar a 3D/otros pero ahí compite con más incumbentes.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de talleres láser/CNC con tienda Shopify",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Aritmética: $10k/$49 ≈ 205 clientes; $50k/$49 ≈ 1,020",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Casi nula: lógica de precio por perímetro/área/espesor es simple de replicar; MakeQuote (con mejor posición, gratis y ya instalado) puede añadirla en un sprint. Shopify mismo podría ofrecer nativo o apps de cotización genéricas. El conocimiento CAD/CAM de Juan (nesting, tiempos) es ventaja real pero solo si se convierte en precisión de precios difícil de copiar; no demostrado. Dependencia de una plataforma.",
+   "evidencia": [
+    {
+     "afirmacion": "Incumbente con plan gratis puede ampliar funciones",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Fosos de datos o integraciones propietarias del producto propuesto",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestidad: aquí la evidencia favorece a Juan. Parsear DXF/SVG, calcular perímetro/área y crear producto en el carrito es factible en ≤6 semanas con su stack (Node/TS, Shopify). Los riesgos son soporte a talleres, revisión de app de Shopify, casos extremos de DXF (splines, bloques, unidades) y la precisión de precios que un taller realmente aceptará. No se ve problema serio de capital.",
+   "evidencia": [
+    {
+     "afirmacion": "Stack de Juan (Node/TS/React) y experiencia CAD/CAM según brief",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Complejidad de DXF edge cases (splines/unidades)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Incumbente directo gratis en el único canal nombrado (MakeQuote, plan gratis y Pro $19 vs $49), nicho estrecho (láser + Shopify), cero foso y pago no demostrado; lo único a favor es un posible hueco en precio láser real y la ejecución factible en 6 semanas.",
+ "busquedas_usadas": 2
+}

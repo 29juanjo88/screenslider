@@ -1,0 +1,129 @@
+{
+ "id": "G25-02",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor es real y recurrente: ediciones en línea no archivadas y respaldos que no coinciden con lo que corre en el controlador. Hay casos documentados de diffs manuales de L5X de ~9k diferencias. Honesto: la evidencia son hilos aislados y blogs, no demanda cuantificada; la urgencia es media (se siente en incidentes y auditorías, no cada semana).",
+   "evidencia": [
+    {
+     "afirmacion": "Ingeniero de JLab comparó L5X controlador vs respaldo con ~9k diferencias sin herramienta clara",
+     "url": "https://mailman.jlab.org/pipermail/dsg-hallb_magnets/2023-February/001361.html"
+    },
+    {
+     "afirmacion": "Usuario en control.com pide herramienta para detectar cambios no archivados en PLC Siemens/Rockwell",
+     "url": "https://control.com/forums/search/517721/"
+    },
+    {
+     "afirmacion": "Frecuencia/urgencia semanal del dolor entre ingenieros de planta",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El segmento ya paga por herramientas de este tipo (VersionDog, MDT AutoSave, AssetCentre), lo que valida presupuesto. Honesto: no pude verificar precios; una fuente de foro sugiere que VersionDog solo es rentable con muchos dispositivos, lo que deja un hueco de precio para sitios pequeños e integradores.",
+   "evidencia": [
+    {
+     "afirmacion": "VersionDog y MDT AutoSave son productos terceros multi-vendor existentes",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Comentario de foro: VersionDog requiere muchos dispositivos para ser costo-eficiente (opinión de un usuario, no fuente oficial)",
+     "url": "https://support.industry.siemens.com/forum/hn/en/post/1188514"
+    },
+    {
+     "afirmacion": "Precios de VersionDog/AssetCentre/AutoSave",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hoy: Compare nativo de TIA/Studio 5000 (por vendor, ruidoso), VCI de TIA V16 con Git, L5K/L5X en Git manual, o suites enterprise caras. Nadie ofrece diff semántico multi-vendor ligero, autoservicio y con reporte de auditoría. Honesto: las nativas son gratis y cubren parte del caso (riesgo F1 parcial); el diferencial debe ser multi-vendor + semántico + auditoría.",
+   "evidencia": [
+    {
+     "afirmacion": "TIA Portal incluye Compare Projects y VCI V16 que exporta XML para Git",
+     "url": "https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/"
+    },
+    {
+     "afirmacion": "Studio 5000 trae Compare Tool y L5K texto para Git (fuente secundaria)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Estudiante CVUT construyó librería Java para comparar L5X: el diff semántico no está resuelto como producto simple",
+     "url": "https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: SEO de intención ('L5X diff', 'PLC program compare', 'PLC program version control'), PLCTalk, r/PLC, control.com y contenido técnico/herramienta gratuita en navegador o CLI como gancho product-led. CAC bajo si el contenido capta búsquedas de cola larga. Honesto: no verifiqué volumen de búsqueda ni demanda en PLCTalk/r/PLC; el nicho es pequeño y los foros toleran mal la promoción.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen búsquedas y contenido sobre detección de cambios PLC (los blogs posicionan en el tema)",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/tia-portal-program-change-detection-methods"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'L5X diff' y actividad de compra en PLCTalk/r/PLC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "CAC estimado",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Producto de historial: cuanto más tiempo acumula versiones y reportes de auditoría, más caro es irse (switching cost). Uso continuo ligado a CI/GitHub Action o respaldos programados; cancela solo si cierra el sitio. Honesto: sin datos de churn del sector; si el uso se limita a una auditoría anual, el churn puede ser alto.",
+   "evidencia": [
+    {
+     "afirmacion": "Un checklist de proveedor recomienda conservar respaldos y registros de cambios aprobados por controlador (no es fuente regulatoria)",
+     "url": "https://oxmaint.com/industries/manufacturing-plant/manufacturing-plc-backup-and-change-management-checklist-guide"
+    },
+    {
+     "afirmacion": "Datos de churn/retención en herramientas OT",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Compradores: integradores, OEMs y plantas medianas con Rockwell/Siemens; el tailwind regulatorio (NIS2/IEC 62443 con gestión de cambios) amplía el mercado. Honesto: no tengo cifra de compradores con fuente; probablemente decenas de miles de organizaciones pero sin verificar, y la fuente no confirma que 62443/NIS2 exijan respaldo de programas PLC por nombre.",
+   "evidencia": [
+    {
+     "afirmacion": "IEC 62443-2-1 incluye área de Configuration and Change Management y Back-up/Recovery (descripción de blog)",
+     "url": "https://www.legiscope.com/blog/nis2-ot-industrie-anlagen.html"
+    },
+    {
+     "afirmacion": "Número de compradores posibles (integradores/plantas) en el mercado anglosajón",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Defensa moderada: conocimiento profundo de formatos L5X/TIA Openness y parsers semánticos multi-vendor, historial acumulado del cliente y reportes de auditoría. Honesto: los fabricantes (Rockwell, Siemens) o VersionDog podrían añadir la función; los formatos propietarios cambian y exigen mantenimiento continuo; no hay efecto de red fuerte.",
+   "evidencia": [
+    {
+     "afirmacion": "Fabricantes ya incluyen comparación nativa, lo que indica que podrían ampliarla",
+     "url": "https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/"
+    },
+    {
+     "afirmacion": "Barrera técnica real de parsers semánticos más allá de diff de texto (sin evidencia externa)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Fuerte ajuste: Juan conoce Siemens/Rockwell y sus formatos, y domina Node/TS/Python. MVP en ~6 semanas: parser L5X + diff semántico en CLI/GitHub Action local (evita el problema de subir proyectos a la nube) + reporte HTML/PDF. Soporte ligero con autoservicio. Honesto: TIA Openness requiere licencia/entorno de Siemens para generar exports, y mantener compatibilidad entre versiones consume tiempo.",
+   "evidencia": [
+    {
+     "afirmacion": "Ya existe un precedente académico de comparador L5X (librería Java), lo que indica viabilidad técnica",
+     "url": "https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"
+    },
+    {
+     "afirmacion": "Perfil de Juan: PLC Siemens TIA/Rockwell Studio 5000 y backend senior (brief interno)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hay un hueco real entre los comparadores nativos por vendor (ruidosos) y las suites enterprise caras: un diff semántico multi-vendor, local (CLI/GitHub Action, sin subir proyectos) con historial y reporte de auditoría, a precio de integrador/OEM. Juan tiene la ventaja máxima (formatos L5X/TIA), MVP viable en ~6 semanas y canal SEO/foros nombrado. Debilidades honestas: demanda y precios sin verificar, nicho pequeño, nativas gratis y riesgo de que fabricantes lo absorban.",
+ "busquedas_usadas": 2
+}

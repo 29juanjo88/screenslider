@@ -1,0 +1,129 @@
+{
+ "id": "G28-01",
+ "par": "P1",
+ "rol": "atacante",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "El dolor existe pero es moderado y ya esta cubierto por herramientas nativas: TIA Portal compara bloques y Rockwell incluye Logix Designer Compare Tool junto con Studio 5000. La etapa 3 admite que no hay evidencia de hilos en PLCTalk o r/PLC pidiendo esto. Honestamente, el dolor de 'no poder diffear' es real para equipos que adoptan git, pero es un nicho de adopcion temprana, no una urgencia semanal masiva.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens VCI (V16+) exporta XML para git y TIA trae comparacion nativa en bloques",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Rockwell documenta un Compare Tool nativo en Studio 5000 Logix Designer",
+     "url": "https://www.rockwellautomation.com/en-gb/docs/studio-5000-logix-designer/38-01/contents-ditamap/studio-5000-logix-designer/compare-tool-command.html"
+    },
+    {
+     "afirmacion": "Demanda explicita en PLCTalk/r/PLC pidiendo diff de L5X/TIA",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "El presupuesto existe para licencias (STEP 7 Professional ~US$3,130 segun un revendedor) pero eso paga el IDE, no herramientas auxiliares; el ingeniero de planta espera que la comparacion venga incluida. A US$39/mes el comprador individual suele ser un empleado que necesita aprobacion de compra corporativa, lo que acerca el ciclo a venta B2B. Disposicion de pago por una herramienta autoservicio no verificada.",
+   "evidencia": [
+    {
+     "afirmacion": "STEP 7 Professional TIA V20 listado a US$3,130 por un revendedor",
+     "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"
+    },
+    {
+     "afirmacion": "Evidencia de que ingenieros de control paguen suscripciones autoservicio de ~US$39 por herramientas de diff",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Hay incumbentes fuertes: versionDog (comercial, TIA/S7/WinCC), Siemens VCI + comparacion nativa, Rockwell Compare Tool, y Copia Automation, un sistema de control de versiones basado en git especifico para PLC que ofrece diff para Studio 5000 y TIA Portal, con app de escritorio y web (precio solo por cotizacion). Copia es exactamente la propuesta 'git para PLC' con financiamiento y marketing de contenido; el posicionamiento de Juan queda como version mas barata y estrecha. La etapa 3 no menciono a Copia; es hueco importante. Nota honesta: el Compare Tool de Rockwell tiene quejas (falla en L5X, no muestra diferencias en algunos casos), lo que deja un hueco real, pero Copia lo cubre.",
+   "evidencia": [
+    {
+     "afirmacion": "Copia ofrece control de versiones git para PLC con diff y visualizacion de cambios para Studio 5000; precios solo 'contact us'",
+     "url": "https://copia.io/pricing"
+    },
+    {
+     "afirmacion": "Copia publica contenido sobre version control para PLC Rockwell (compite por el mismo SEO)",
+     "url": "https://www.copia.io/blog/unlock-the-power-of-version-control-for-your-rockwell-plcs-with-copia"
+    },
+    {
+     "afirmacion": "versionDog es comercial, soporta TIA/S7/WinCC con comparacion y archivado",
+     "url": "https://my.auvesy-mdt.com/tl_files/versiondog_info/en/content/tutorials/siemens_tia_portal/siemens_tia_portal_10.htm"
+    },
+    {
+     "afirmacion": "Rockwell Compare Tool nativo; blogs de terceros reportan fallos con L5X y casos sin diferencias (fuentes secundarias, a tomar con cautela)",
+     "url": "https://www.rockwellautomation.com/en-gb/docs/studio-5000-logix-designer/38-01/contents-ditamap/studio-5000-logix-designer/compare-tool-command.html"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "El canal propuesto (SEO 'L5X diff', 'compare TIA Portal projects', PLCTalk, r/PLC) carece de volumen verificado y las keywords son de cola muy larga/bajo volumen. Copia y sitios como industrialmonitordirect ya ocupan el contenido. Foros como PLCTalk son hostiles a la autopromocion. No hay marketplace con intencion de compra para este tipo de herramienta. Lograr 100 clientes de pago por SEO de nicho es incierto y lento. Lo favorable: el CAC en foros/contenido es casi cero en dinero, pero cuesta mucho tiempo parcial.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de busqueda de 'L5X diff' y 'compare TIA Portal projects'",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Actividad y tolerancia de PLCTalk/r/PLC a herramientas de pago",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Copia compite con contenido SEO en el mismo tema",
+     "url": "https://www.copia.io/blog/unlock-the-power-of-version-control-for-your-rockwell-plcs-with-copia"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "El uso de un diff es episodico (en revisiones o entregas de proyecto); un integrador puede cancelar entre proyectos. Como es CLI/Action de git, una vez integrado es pegajoso en CI, pero solo si el equipo realmente usa git/CI, lo cual es minoritario en PLC. Churn probable alto en plan individual de US$39. Sin datos de retencion de herramientas similares.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn/retencion de herramientas de versionado PLC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Adopcion de git/CI en equipos de PLC es minoritaria o creciente (no cuantificada)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "El mercado de compradores de autoservicio es pequeno: se requiere TIA Portal o Studio 5000 con licencia, que equipos usen git, y que no hayan adoptado Copia/versionDog. Para US$10k MRR a US$39 se necesitan ~257 clientes; para 50k, ~1,280. Poblacion de usuarios de TIA/Studio 5000 y fraccion que usa git: sin verificar. El juez de etapa 3 dio mercado 2.",
+   "evidencia": [
+    {
+     "afirmacion": "Numero de usuarios de TIA Portal / Studio 5000 y fraccion con git",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Aritmetica: US$10k / US$39 = ~257 clientes de pago (calculo propio)",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Foso debil. Parsear XML/L5X y renderizar diffs es replicable en semanas; los formatos son documentados por los fabricantes. Los incumbentes pueden agregar funciones (Siemens VCI, Rockwell Compare Tool mejorando; Copia ya tiene diff). El riesgo principal admitido por la propia idea es que los vendors saquen diffs nativos mejores. La unica ventaja es conocimiento de formatos de Juan, que no es barrera duradera. Ademas depende de que Siemens/Rockwell no cambien el esquema de exportacion.",
+   "evidencia": [
+    {
+     "afirmacion": "Siemens ya ofrece VCI/XML para git desde V16 y comparacion nativa",
+     "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+    },
+    {
+     "afirmacion": "Copia ya ofrece diff para Studio 5000",
+     "url": "https://www.copia.io/blog/unlock-the-power-of-version-control-for-your-rockwell-plcs-with-copia"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Honestamente aqui la evidencia favorece a la idea: Juan conoce los formatos y un MVP de CLI + diff web es factible en ~6 semanas. Los problemas: probar contra muchas versiones de TIA/Studio 5000 requiere licencias y proyectos reales (costosos, posible hardware/software propio), soporte de formatos con cambios entre versiones, y soporte a clientes industriales en tiempo parcial. Mantener compatibilidad con cada release de TIA (V17-V20) es carga recurrente.",
+   "evidencia": [
+    {
+     "afirmacion": "Juan conoce TIA Portal y Studio 5000 (segun idea.json)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Licencia STEP 7 Professional ~US$3,130 necesaria para pruebas de compatibilidad",
+     "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Mercado diminuto y un hueco ya ocupado: Copia ofrece precisamente git + diff para PLC (Studio 5000 y TIA), mas versionDog y las herramientas nativas de Siemens y Rockwell. Sin demanda verificada en el canal (SEO/PLCTalk), sin foso tecnico y con retencion episodica, llegar a ~257 clientes de US$39 en tiempo parcial es improbable. Lo que le favorece honestamente: la ventaja tecnica de Juan y un MVP rapido.",
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,105 @@
+{
+ "id": "G01-17",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Quien vende bajo pedido no puede prometer fecha porque depende de su cola; eso genera tickets 'donde esta mi pedido' y fricción al comprar. Es dolor recurrente pero no existencial: honestamente, no hay evidencia propia de pérdida de ventas cuantificada.",
+   "evidencia": [
+    {
+     "afirmacion": "Etapa 3: el problema (clientes preguntan cuándo llega) es plausible pero sin cifras de tickets o conversión",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Orderkraft existe específicamente para made-to-order, lo que indica que el dolor es real y monetizable",
+     "url": "https://apps.shopify.com/orderkraft"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Hay disposición de pago demostrada en el segmento made-to-order: Orderkraft cobra 69 USD/mes + uso y las apps EDD 5-20 USD. A 29 USD, la idea queda en medio. Desfavorable: las apps genéricas gratis ponen techo bajo en quien solo quiere una fecha simple.",
+   "evidencia": [
+    {
+     "afirmacion": "Orderkraft: made to order, 69 USD/mes + uso",
+     "url": "https://apps.shopify.com/orderkraft"
+    },
+    {
+     "afirmacion": "ArrivesBy: gratis a 19.99 USD/mes",
+     "url": "https://apps.shopify.com/arrives-by"
+    },
+    {
+     "afirmacion": "EDD Availability App 5.99 USD/mes",
+     "url": "https://apps.shopify.com/edd-availability-app"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Las EDD genéricas usan reglas fijas (días de tránsito/corte), no cola de producción ni capacidad. Orderkraft es lo más cercano pero es un sistema más amplio y caro. El juez de etapa 3 no halló app con cola de producción real. Hueco posible entre 20 y 69 USD. Debilidad: saturación (≥8 apps) y 'sin verificar' que ninguna modele cola.",
+   "evidencia": [
+    {
+     "afirmacion": "Búsqueda de etapa 3 no halló app Shopify con cola de producción real (hecho decisivo del juez, sin URL adicional)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Al menos 8 apps de fecha de entrega en listados comparativos",
+     "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+    },
+    {
+     "afirmacion": "Simple Estimated Delivery Date gratis con 10 reglas",
+     "url": "https://apps.shopify.com/simple-estimated-delivery-date"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado y con intención de compra: búsqueda 'estimated delivery date' / 'made to order' en Shopify App Store; CAC cercano a cero vía listing, reseñas y contenido SEO para talleres. Riesgo: categoría saturada, ranking difícil para app nueva; dependencia de una plataforma.",
+   "evidencia": [
+    {
+     "afirmacion": "Canal Shopify App Store nombrado en idea.json y aceptado por juez (canal 4)",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Existen múltiples apps activas en la categoría, lo que prueba demanda de búsqueda",
+     "url": "https://apps.shopify.com/arrives-by"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Si se integra con la cola de producción y el checkout, queda en el flujo operativo diario y el cambio es costoso (datos de capacidad configurados). Apps de Shopify de este tipo suelen retener bien, pero no tengo dato de churn.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps Shopify de fecha de entrega",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Mercado acotado: tiendas Shopify made-to-order/fabricación. 500 clientes x 29 USD = 14.5k MRR, requiere cuota alta de un nicho chico. Honesto: el juez dio mercado 3 y e2 lo calificó 'chico'. No hay cifra verificada de tiendas Shopify made-to-order.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de tiendas Shopify made-to-order",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Débil a medio: el modelo de capacidad/cola por taller (mapeo a máquinas, turnos) es difícil de copiar para apps EDD genéricas, y es el ángulo de Juan. Pero Orderkraft o una EDD podrían añadir cola; no hay moat técnico fuerte ni efecto de red.",
+   "evidencia": [
+    {
+     "afirmacion": "Orderkraft ya ocupa el segmento made-to-order",
+     "url": "https://apps.shopify.com/orderkraft"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Favorable: app Shopify con Node/TS/React/GraphQL es el stack de Juan; MVP en ≤6 semanas (juez mvp 4). Riesgo: cada taller modela capacidad distinto, lo que exige configuración flexible y soporte; ventaja industrial calificada solo 2 por el juez.",
+   "evidencia": [
+    {
+     "afirmacion": "Juez etapa 3: MVP 4, ventaja_juan 2, riesgo 2 (idea.json)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Hay un hueco entre las EDD de 0-20 USD con reglas fijas y Orderkraft a 69 USD+uso: una app de fecha de entrega basada en cola de producción real a ~29 USD, en un canal nombrado (Shopify App Store) y construible por Juan en el stack que domina. Debilidades honestas: saturación, mercado chico, variabilidad por taller y dependencia de Shopify.",
+ "busquedas_usadas": 0
+}

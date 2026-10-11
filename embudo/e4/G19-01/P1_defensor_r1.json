@@ -1,0 +1,125 @@
+{
+ "id": "G19-01",
+ "par": "P1",
+ "rol": "defensor",
+ "dimensiones": {
+  "dolor": {
+   "argumento": "Los errores de lógica ST/SCL se descubren en puesta en marcha, donde cada hora de parada es cara. Hay uso real de análisis estático en CI por parte de la comunidad (B&R, TwinCAT+Jenkins), lo que indica dolor activo. Honestidad: no hay cifras de costo por error ni encuesta de urgencia; el dolor es plausible pero moderado (no semanal para todos).",
+   "evidencia": [
+    {
+     "afirmacion": "Usuarios de B&R integran análisis estático (Lizard) de ST en pipelines CI/CD",
+     "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+    },
+    {
+     "afirmacion": "Existe un proyecto comunitario que ejecuta análisis estático TwinCAT desde Jenkins al detectar cambios en Git",
+     "url": "https://github.com/Beluk/TcStaticAnalysisLoader"
+    },
+    {
+     "afirmacion": "Costo por parada/error en puesta en marcha",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "pago": {
+   "argumento": "Ya hay gasto en herramientas de análisis/formato de ST: Beckhoff vende TE1200 (requiere licencia TC1200), CODESYS vende Static Analysis dentro de Professional Developer Edition (1 año, 5 usuarios, US$3,300) y un formateador STweep a US$99.99 por suscripción; Schneider vende verificación por créditos. Un precio de US$29-49/mes por equipo queda muy por debajo de esas referencias. Honestidad: son herramientas atadas a IDE; no hay evidencia directa de que equipos paguen un linter independiente.",
+   "evidencia": [
+    {
+     "afirmacion": "CODESYS Professional Developer Edition (incluye Static Analysis), licencia flotante 1 año 5 usuarios a US$3,300; STweep Formatter US$99.99 suscripción",
+     "url": "https://store.codesys.com/codesys-static-analysis.html"
+    },
+    {
+     "afirmacion": "Beckhoff TE1200 TwinCAT 3 PLC Static Analysis es producto comercial que requiere licencia TC1200 (precio no listado)",
+     "url": "https://www.beckhoff.com/en-au/products/automation/twincat/texxxx-twincat-3-engineering/te1200.html"
+    },
+    {
+     "afirmacion": "Schneider EcoStruxure Control Engineering Verification, por créditos, precio bajo cotización",
+     "url": "https://electrika.com/catalogues/schneider-electric/schneider-electric--miscellaneous/schneider-electric-miscellaneous/vijeo-citect/cegver10an/part/1208218"
+    }
+   ]
+  },
+  "alternativas_actuales": {
+   "argumento": "Revisión manual, herramientas de fabricante atadas a un IDE (TE1200, CODESYS Static Analysis, Schneider) y open source/académico (iec-checker LGPL-3.0, plceye, iecst) que son CLI o librerías, no un producto llave en mano con reporte en PR. El estudio JKU señala que las herramientas de análisis estático son raras en programación PLC. Honestidad: iec-checker/plceye gratis acotan el techo de precio (riesgo F1 parcial) y los productos de fabricante existen; la diferenciación es multi-vendor + CI/PR + UX, no ausencia de competencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Herramientas de análisis estático son raras en PLC (JKU)",
+     "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"
+    },
+    {
+     "afirmacion": "iec-checker, analizador open source de ST y PLCopen XML (LGPL-3.0)",
+     "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+    },
+    {
+     "afirmacion": "plceye: analizador open source para L5X y PLCopen XML, incluye complejidad ciclomática de ST",
+     "url": "https://docs.rs/crate/plceye/0.7.1"
+    },
+    {
+     "afirmacion": "Beckhoff TE1200 comercial",
+     "url": "https://www.beckhoff.com/en-au/products/automation/twincat/texxxx-twincat-3-engineering/te1200.html"
+    }
+   ]
+  },
+  "canal_y_cac": {
+   "argumento": "Canal nombrado: búsqueda 'structured text linter' / 'IEC 61131-3 static analysis', GitHub Marketplace (Action de CI), foros PLCtalk y r/PLC, y la comunidad CODESYS/TwinCAT. Open core con CLI gratis y Action en GitHub da distribución product-led con CAC cercano a cero (contenido técnico, ejemplos de reglas). Honestidad: volumen de búsqueda no verificado y el canal GitHub es débil para ingenieros de control; el etapa-3 lo calificó 3.",
+   "evidencia": [
+    {
+     "afirmacion": "Hay comunidades activas que discuten CI/análisis estático de ST (B&R, TwinCAT/Jenkins)",
+     "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda 'structured text linter' y tamaño de PLCtalk/r/PLC",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "retencion": {
+   "argumento": "Un linter integrado en CI y reglas de equipo es infraestructura que se queda: cada commit lo ejecuta, y las reglas personalizadas crean costo de cambio. Suscripción por equipo, con nuevas reglas por fabricante/estándar (IEC 61131-3, PLCopen, MISRA-like) como razón continua de pago. Honestidad: sin datos de churn; proyectos puntuales de integradores pueden dar uso intermitente.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn/retención de herramientas de CI en automatización",
+     "url": "sin verificar"
+    }
+   ]
+  },
+  "mercado": {
+   "argumento": "Nicho acotado: ingenieros de control/integradores/OEM que usan CODESYS, TwinCAT o exportan PLCopen XML y trabajan con Git. A US$29-49 por equipo, 300-500 equipos darían US$10-15k MRR, objetivo alcanzable en un nicho pequeño pero global. Honestidad: no encontré cifra de tamaño con fuente; el juez dio mercado 2.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de ingenieros PLC / equipos con Git en el mundo",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Existencia de ecosistema CODESYS con tienda de pago y suscripciones que sugiere base de compradores",
+     "url": "https://store.codesys.com/codesys-static-analysis.html"
+    }
+   ]
+  },
+  "defensa_frente_a_copias": {
+   "argumento": "Moats moderados: parser/analizador propio multi-dialecto (ST, SCL, CODESYS, TwinCAT), biblioteca de reglas curada por conocimiento de dominio (TIA Portal, PLCs) que pocos devs tienen, e integraciones CI. Los fabricantes tienen incentivo bajo de ser multi-vendor, y los proyectos open source son CLI sin producto. Honestidad: un fabricante (Beckhoff/CODESYS) o un proyecto OSS puede copiar reglas; formatos propietarios (TIA, Studio 5000) limitan la cobertura.",
+   "evidencia": [
+    {
+     "afirmacion": "Herramientas existentes están atadas a fabricante o son academicas/OSS",
+     "url": "https://research.jku.at/en/publications/static-code-analysis-of-iec-61131-3-programs-comprehensive-tool-s/"
+    },
+    {
+     "afirmacion": "iec-checker y plceye son OSS sin SaaS/reporte PR comercial (no se encontró oferta comercial independiente)",
+     "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+    }
+   ]
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "argumento": "Muy alineada con Juan: conoce ST/SCL y TIA Portal, y su stack (Node/TS, Python) sirve para un parser, CLI y GitHub Action. MVP en 6 semanas realista: parser de ST + 20-30 reglas + salida SARIF/anotaciones en PR, apoyado en PLCopen XML y archivos .st/ExportSCL. Puede apoyarse en OSS existente (según licencia). Honestidad: SCL de TIA exige exportación; cobertura de dialectos crece lento.",
+   "evidencia": [
+    {
+     "afirmacion": "Parsers/analizadores OSS de ST ya existen como base de referencia (iecst, iec-checker)",
+     "url": "https://docs.rs/crate/iecst/0.5.0"
+    },
+    {
+     "afirmacion": "Ventaja de Juan: ST/SCL, TIA Portal (brief)",
+     "url": "sin verificar"
+    }
+   ]
+  }
+ },
+ "argumento_principal": "Es la idea donde la ventaja de Juan es máxima y no hay linter independiente multi-vendor con reporte en PR: existen herramientas pagadas de fabricante (CODESYS PDE US$3,300/año, TE1200 de Beckhoff) que demuestran gasto, y OSS que demuestra demanda técnica pero no producto. Un linter CI a US$29-49/equipo es barato frente a esas referencias y MVP en 6 semanas. Debilidades reconocidas: tamaño de mercado sin verificar, adopción de Git/CI baja, OSS gratis y formatos cerrados.",
+ "busquedas_usadas": 2
+}
