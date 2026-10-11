@@ -1,0 +1,98 @@
+{
+ "id": "G12-15",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es episodico para muchos: Airtable recomienda un proxy de cache y hay migracion unica; no tengo evidencia de busqueda activa de pago semanal. La etapa 3 dio 3/5 y lo acepto.",
+   "refuto": "Episodico no es nulo: quien ya tiene una app en produccion sobre Airtable con 5 req/s por base y cuotas mensuales necesita lectura continua, y un cache no resuelve escrituras ni dos vias. El atacante tampoco aporta evidencia de que el dolor sea menor.",
+   "evidencia": [
+    {
+     "afirmacion": "Limite 5 req/s por base, 429 y cuotas por plan",
+     "url": "https://airtable.com/developers/web/api/rate-limits"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "El atacante acierta en que Stacksync ($1,000+) queda fuera de alcance sin ventas y que el cliente que migra puede cancelar; el pago esta validado pero el hueco a $49 es incierto.",
+   "refuto": "Que el pago este validado por ambos extremos de precio sugiere un tramo intermedio con presupuesto; el atacante lo concede ('el pago si esta validado').",
+   "evidencia": [
+    {
+     "afirmacion": "Stacksync Starter $1,000/mes; Whalesync con tiers de pago (precio oficial sin confirmar)",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Hay muchas alternativas (Whalesync, Stacksync, Zapier/Make, scripts, cache, migracion directa). El sync nativo es unidireccional pero reduce el valor. Mi propia r1 ya admitia que no hay ventaja demostrada.",
+   "refuto": "El listado de SaaSHub de 'migration tools' gratis es de migracion unica, no sync continuo bidireccional; no es sustituto equivalente. Sequin/Airbyte no los pudo verificar el atacante ni yo.",
+   "evidencia": [
+    {
+     "afirmacion": "El sync nativo de Airtable no devuelve cambios a la app externa (no cubre dos vias)",
+     "url": "https://support.airtable.com/articles/8169929594-airtable-sync-integrations-overview"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "Whalesync y Stacksync ocupan el SEO con contenido y paginas programaticas; el CAC no esta medido. Mi busqueda confirma que el Airtable Marketplace existe pero la guia es para extensiones (apps dentro de la base), no confirma que un servicio externo de sync Postgres pueda listarse con intencion de compra; el canal sigue sin verificar y se debilita.",
+   "refuto": "El atacante dijo que no encontro reglas del Marketplace: existe una guia oficial de envio y revision, asi que el canal no es inexistente, solo inadecuado/no confirmado para este tipo de producto.",
+   "evidencia": [
+    {
+     "afirmacion": "Guia oficial para enviar extensiones al Airtable Marketplace (con revision); encaje para sync externo sin verificar",
+     "url": "https://www.airtable.com/developers/apps/guides/submit-to-marketplace"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Ambos argumentos son razonamiento sin datos; el churn por migracion completa a Postgres es un riesgo real y un fallo de sync destruye confianza.",
+   "refuto": "Para quien mantiene Airtable como interfaz de ops y Postgres como backend de la app, el sync es permanente, no puente. El atacante tampoco tiene datos.",
+   "evidencia": [
+    {
+     "afirmacion": "Retencion de herramientas de sync",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Nadie tiene cifra verificada; el subsegmento realista es menor que el total, y se necesitan ~205 clientes a $49 para $10k (aritmetica correcta: 10000/49).",
+   "refuto": "205 clientes es un volumen plausible para un mercado de miles de apps en produccion, pero no puedo demostrarlo; no hay prueba de que sea irreal.",
+   "evidencia": [
+    {
+     "afirmacion": "Numero de equipos con Airtable como backend",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Casi nula. Confirmo la concesion de etapa 3 (diferenciacion 1, no rescatar); Airtable o Whalesync pueden replicar. Es la dimension mas debil.",
+   "refuto": "Nada sustancial; solo que la confiabilidad y el nicho Supabase son foso operativo menor, no tecnologico.",
+   "evidencia": [
+    {
+     "afirmacion": "Whalesync ya cubre Airtable-Postgres",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El bidireccional fiable con conflictos, backfill bajo 5 req/s, guardia operativa y manejo de credenciales es carga real para una persona a tiempo parcial.",
+   "refuto": "El MVP unidireccional con upsert por lotes es acotado a ~6 semanas y se puede lanzar asi; SOC2 no es requisito para un autoservicio inicial, y el atacante no lo evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Los clientes piden tuneles SSH/allowlist de IP (carga de infra real)",
+     "url": "https://community.airtable.com/t/connecting-airtable-base-to-postgresql-via-ssh-tunnel/44396"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "No hay defensa frente a copias ni diferenciacion, y el canal Airtable Marketplace no esta confirmado para un servicio de sync externo (la guia oficial es para extensiones); el SEO esta ocupado por Whalesync y Stacksync.",
+ "punto_que_sigue_en_pie": "El presupuesto de pago esta validado por competidores en ambos extremos (Whalesync y Stacksync $1,000+) y el MVP unidireccional es factible para un backend senior, aunque en un nicho estrecho.",
+ "busquedas_usadas": 1
+}

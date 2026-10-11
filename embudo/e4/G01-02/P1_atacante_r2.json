@@ -1,0 +1,126 @@
+{
+ "id": "G01-02",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El hilo de Shopify es demanda real, el dolor es recurrente por pedido a medida y el defensor admite que la magnitud no está cuantificada; concedo que el dolor existe y que nadie tenía app antes de MakeQuote.",
+   "refuto": "Pero 'horas por pedido' sigue sin cifra y la existencia de MakeQuote prueba que el dolor ya se está atendiendo; un solo hilo no es dolor a escala ni búsqueda activa.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo de un fabricante pidiendo cotización automática (previo a MakeQuote)",
+     "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+    },
+    {
+     "afirmacion": "Horas/dinero perdidos por cotización manual",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Concedo que $49 es pequeño frente a una cotización ganada y que el defensor reconoce la presión de MakeQuote ($19 Pro, gratis 10 pedidos).",
+   "refuto": "El argumento de 'tiempo facturable' es una hipótesis sin evidencia; no hay dato de que talleres paguen $49 por apps de cotización y el incumbente cobra 2.6x menos.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote gratis 10 pedidos/mes, Pro $19/mes o $199/año",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Disposición de pago a $49",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que MakeQuote es nuevo (7 mayo 2026, 0 reseñas) y que su lógica de precio láser por perímetro/perforaciones no está documentada; mi búsqueda de ronda 2 tampoco la encontró: el hueco es posible. Concedo que no demostré que no la tenga.",
+   "refuto": "Que no esté documentado no es un hueco probado: el listado dice soportar corte láser metal/no metal con DXF y cotización instantánea, y su motor documentado es de slicing 3D. 'Producto más profundo' es una promesa, no un hecho; además SendCutSend y SecturaFAB cubren DXF.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote: STL/DXF, láser y 3D, gratis 10 pedidos, Pro $19, lanzado 7 mayo 2026, sin reseñas; cálculo láser no descrito",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Cálculo láser de MakeQuote por perímetro/espesor",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que 'custom laser cut quote' es un canal nombrado con intención de compra, que CAC por ventas es cercano a cero y que no tener reseñas del incumbente abre ventana temporal.",
+   "refuto": "El defensor admite que MakeQuote ocupa el mismo canal y que posicionar sin reseñas cuesta; volumen de búsqueda sigue sin verificar y no hay segundo canal nombrado. Canal único y ocupado.",
+   "evidencia": [
+    {
+     "afirmacion": "MakeQuote listado en el mismo canal",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda en App Store",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que reconfigurar materiales, espesores y precios crea fricción de cambio y que el widget es infraestructura de ventas.",
+   "refuto": "Esa fricción se compensa con el plan gratis del incumbente para bajo volumen (10 pedidos/mes) y con talleres de pocos pedidos online; churn real sin datos de ninguna parte.",
+   "evidencia": [
+    {
+     "afirmacion": "Plan gratis cubre bajo volumen",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Churn de apps Shopify de cotización",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Concedo que el defensor reconoce que es el punto débil; concedo también que ampliar a plegado, waterjet, madera es posible y que ~205 pagadores a $49 da $10k.",
+   "refuto": "Ampliar no está evidenciado y llevaría a competir con más incumbentes; el tamaño del nicho sigue sin fuente. Hasta que se cuantifique, el techo es incierto y bajo.",
+   "evidencia": [
+    {
+     "afirmacion": "Talleres láser/CNC con Shopify",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Aritmética 10000/49 ≈ 205",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que la calidad del cálculo (nesting, tiempos de corte) es más difícil de copiar que un visor genérico y que el conocimiento CAD/CAM de Juan es ventaja real; el defensor califica la defensa de 'moderada' y no 'alta'.",
+   "refuto": "El conocimiento no es un foso técnico ni de datos: no hay integraciones propietarias ni efectos de red; MakeQuote con plan gratis puede añadir perímetro/espesor en un sprint, y Shopify es dependencia única. Sigue sin evidencia de foso.",
+   "evidencia": [
+    {
+     "afirmacion": "Incumbente con plan gratis puede ampliar funciones",
+     "url": "https://apps.shopify.com/makequote"
+    },
+    {
+     "afirmacion": "Foso de datos/integraciones propias",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo totalmente: ambos coincidimos en que MVP en ≤6 semanas con el stack de Juan es factible; no discuto esta dimensión.",
+   "refuto": "Solo matizo soporte, revisión de app de Shopify y casos extremos de DXF (splines, unidades), sin evidencia cuantificada.",
+   "evidencia": [
+    {
+     "afirmacion": "Stack de Juan según brief",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El hueco en la lógica de precio láser de MakeQuote (perímetro, perforaciones, espesor) no está documentado y no pude probar que no exista; además la demanda en la comunidad Shopify es real y la ejecución en 6 semanas es factible.",
+ "punto_que_sigue_en_pie": "Incumbente directo en el único canal nombrado, con plan gratis y Pro $19 frente a $49, nicho estrecho sin cifra y sin foso demostrable; la disposición a pagar $49 no tiene evidencia.",
+ "busquedas_usadas": 1
+}

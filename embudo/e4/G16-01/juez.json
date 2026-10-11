@@ -1,0 +1,55 @@
+{
+ "id": "G16-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 3,
+  "mercado": 3,
+  "diferenciacion": 2,
+  "ventaja_juan": 2,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 32,
+ "hecho_decisivo": "El único ancla de precio verificada es pago por uso (Apify, desde US$4 por 1,000 validaciones; Factilix EUR 29/mes por 20 facturas), muy por debajo de US$79/mes, y ambos pares concedieron que no hay foso ni evidencia de disposición de pago por suscripción. https://apify.com/kamerozkan/peppol-bis-preflight-validator",
+ "condicion": "Confirmar que al menos 15-20 equipos de SaaS/ERP que emiten e-facturas UE aceptan pagar >=US$49/mes por API/CLI con mensajes legibles y reparación, y que 'peppol validator api' o consultas por código de error (BR-xx) tienen volumen de búsqueda con intención de compra.",
+ "experimento_mas_barato": "Landing page con precios (US$49/US$79/mes) y lista de espera, más 10-15 páginas SEO por código de error EN16931 y un post en dev.to/GitHub con validador CLI gratis mínimo. Medir 6-8 semanas: umbral >=25 registros en la lista de espera con email corporativo y >=5 pre-pagos o cartas de intención a >=US$49/mes; si <10 registros o ningún prepago, matar.",
+ "dimensiones": {
+  "dolor": "Mandatos con fecha (Bélgica 2026) crean urgencia, pero ambos pares coinciden en que el dolor es episódico (integración) y la criticidad para devs es inferencia sin evidencia.",
+  "pago": "Solo hay ancla de pago por uso (US$4/1,000; Factilix EUR 3.90/factura o EUR 29/mes por 20); los dos defensores concedieron que US$79/mes y 127 clientes carecen de respaldo.",
+  "alternativas_actuales": "Validadores web gratis (ecosio, Lappa, helger), reglas Schematron oficiales, phive/librerías open source, Apify y Truugo con API; no se confirmó un REST API gratis con SLA y mensajes legibles, por lo que F1 es parcial y no concluyente.",
+  "canal_y_cac": "Canal nombrado (SEO por código de error, GitHub/npm, directorios, dev.to) pero sin volumen ni CAC verificados y con la consulta 'validator' dominada por herramientas gratis.",
+  "retencion": "Patrón integrar-validar-olvidar; los access points validan en producción; ambos pares concedieron que no hay datos de churn y que la retención es débil.",
+  "mercado": "Macro grande (6.1M identificadores Peppol) pero el comprador directo (devs SaaS/ERP con emisión propia) no está cuantificado; ambos defensores concedieron que un identificador no es un comprador.",
+  "defensa_frente_a_copias": "Casi nula: reglas públicas, motor open source, Apify/Truugo ya con API y los access points (Storecove declara validación incluida) pueden regalarlo; concedido por los cuatro roles.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP en ~6 semanas muy factible; el costo real es mantener reglas nacionales (Schematron, XSLT 2.0) y credibilidad en cumplimiento; la ventaja PLC/CAD/3D no aplica."
+ },
+ "resumen_P1": "Ataque: reglas y motores gratis, ancla US$4/1,000, retención de proyecto y defensa nula. Defensa: mandatos con fecha, hueco de API+CLI con SLA y mensajes legibles, canal por código de error y MVP factible; concedió defensa casi nula y precio sin respaldo.",
+ "resumen_P2": "Ataque: el precio de US$79/mes no tiene ancla, hay competidores con API (Apify, Truugo) y librería MIT, y el mercado comprador no está cuantificado. Defensa: mandatos crean demanda buscable y no hay API gratis con SLA y CLI; concedió que no hay foso, ni mercado cuantificado, ni respaldo para 127 clientes.",
+ "razonamiento": "Ambos pares convergen en los mismos hechos: reglas gratis, ancla de precio por uso muy inferior a US$79/mes, foso inexistente y canal e intención de compra sin verificar. Mi búsqueda adicional confirma precios por uso (Apify US$4/1,000; Factilix EUR 29/mes por 20 facturas) y ninguna suscripción de API de ese nivel, aunque tampoco un REST API gratis con SLA, por lo que F1 no se activa con claridad. A favor están el MVP rápido y los mandatos con fecha. El total (32) queda en el límite inferior de MEDIA, lejos de la banda ALTA que busca el brief. Vale la pena solo si un experimento barato demuestra disposición de pago de al menos US$49/mes; sin eso, se descarta.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Apify Peppol validator desde US$4 por 1,000 validaciones",
+   "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator"
+  },
+  {
+   "afirmacion": "ecosio validador gratis; corrección solo para clientes de pago",
+   "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+  },
+  {
+   "afirmacion": "Validador gratis Lappa con reglas BIS 3.0/EN16931",
+   "url": "https://lappa.org/free-peppol-xml-validator-tool/"
+  },
+  {
+   "afirmacion": "Peppol superó 6.1M de registros en ago-2026 (identificadores, no compradores)",
+   "url": "https://www.vatupdate.com/2026/08/20/peppol-network-exceeds-six-million-participants-as-e-invoicing-mandates-accelerate-adoption/"
+  },
+  {
+   "afirmacion": "Factilix EN16931 EUR 3.90/factura o EUR 29/mes por 20 facturas (reportado por búsqueda, URL directa sin verificar)",
+   "url": "sin verificar"
+  }
+ ],
+ "busquedas_usadas": 1
+}

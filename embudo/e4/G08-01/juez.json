@@ -1,0 +1,55 @@
+{
+ "id": "G08-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "media",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 2,
+  "diferenciacion": 2,
+  "ventaja_juan": 4,
+  "mvp": 4,
+  "riesgo": 3
+ },
+ "total": 33,
+ "hecho_decisivo": "Hay pago verificado por APIs CAD en nube solo con planes anuales (Convert3D Starter $899/año, Growth $1,799, Scale $4,899; sin plan mensual hallado), pero el volumen de búsqueda de 'step to gltf api' y la demanda real de $79/mes siguen sin verificar y el SEO ya lo ocupan CAD Exchanger, Convert3D y convert.guru. Ambos pares concedieron en r2 que el canal es el punto más débil y que $79/mes no es más barato que Convert3D.",
+ "condicion": "Confirmar demanda de canal: que las keywords de cola larga (step to gltf api, iges to svg api, step thumbnail api, etc.) tengan volumen suficiente y SERP no dominada, y que al menos 10 prospectos reales (devs de marketplaces/SaaS de manufactura) acepten pagar >=$79/mes por la API con precio mensual.",
+ "experimento_mas_barato": "Landing page con docs de API, precio visible y lista de espera/prepago (sin producto), más 3-5 páginas SEO de conversión y listado en RapidAPI/directorios. Métrica: registros con email corporativo y prepagos/cartas de intención. Umbral: >=40 registros cualificados y >=5 prepagos o compromisos a $79/mes en 6-8 semanas; además validar con herramienta de keywords >=300 búsquedas/mes agregadas en la cola larga. Si no se alcanza, descartar.",
+ "dimensiones": {
+  "dolor": "Real pero episódico: el patrón DIY con OpenCascade/Three.js es común y ambos lados aceptan ~3/5; no hay hilos de demanda verificados.",
+  "pago": "Pago verificado en el sector (Convert3D $899-4,899/año, CAD Exchanger $590+) pero anual y por licencia; $79/mes (~$948/año) no es más barato y la demanda mensual de pequeños devs es una hipótesis.",
+  "alternativas_actuales": "Convert3D es competidor directo con API REST y precios públicos; occt-import-js/OpenCascade.js gratis cubre en navegador parte del caso, APS y SDK de CAD Exchanger otros. F1 no se activa limpiamente (sin API gratuita hospedada hallada).",
+  "canal_y_cac": "Canal nombrado (SEO, RapidAPI, directorios) por lo que F4 pasa, pero disputado, con volumen y CAC sin verificar; ambos defensores concedieron que es el punto más débil y que el cuello de botella de Juan es distribución.",
+  "retencion": "Sin datos de churn; costo de cambio bajo (endpoint, glTF estándar), cacheo y salida a OSS. Flujo continuo de subidas en marketplaces da algo de recurrencia, pero el MRR por conversión es volátil.",
+  "mercado": "Nicho de miles de compradores (marketplaces de manufactura, SaaS CAD/PLM/cotización) sin cifra verificada; 127+ pagadores a $79 es una fracción alta.",
+  "defensa_frente_a_copias": "Casi nula: wrapper de OSS sin efectos de red ni datos; solo calidad de teselado, docs y especialización, no demostrada y copiable por incumbentes.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP en ~6 semanas no está en disputa y la ventaja CAD de Juan es real; la carga operativa (archivos corruptos, IP, SLA) es riesgo manejable, pero la distribución es su cuello de botella."
+ },
+ "resumen_P1": "Ataque: wrapper de OCCT sin foso, $79/mes ($948/año) no es más barato que Convert3D ($899/año), SEO disputado y retención débil. Defensa: presupuesto verificado, hueco de plan mensual y especialización con MVP viable; concedió que canal no pasa de 3, foso casi nulo y costo de cambio sobreestimado.",
+ "resumen_P2": "Ataque: Convert3D vende solo planes anuales y ya cubre el caso; uso cacheable, nicho pequeño, canal disputado. Defensa: occt-import-js no cubre miniaturas PNG/SVG, DXF ni visor ni hospedaje; concedió que el canal es lo más débil y que occt-import-js cubre gratis parte del caso.",
+ "razonamiento": "La idea no falla ningún filtro F1-F5: hay pago verificado por APIs de conversión CAD, comprador concreto y canal nombrado. Sin embargo, ambos pares coinciden en lo decisivo: el diferenciador es débil (precio mensual sin ventaja real, foso casi nulo), el SEO está ocupado por tres actores y no hay volumen de búsqueda verificado. Mi búsqueda confirmó que Convert3D solo publica planes anuales, lo que apoya tanto el pago como la hipótesis no probada del plan mensual. Frente al ancla ALTA (46) puntúo canal 2 y mercado 2, dando 33, banda MEDIA. Vale la pena solo si un experimento barato de demanda confirma búsquedas y compromisos de pago.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Convert3D API: planes anuales Starter $899, Growth $1,799, Scale $4,899; STEP y glTF; sin plan mensual hallado",
+   "url": "https://convert3d.org/developer-api"
+  },
+  {
+   "afirmacion": "CAD Exchanger desde $590 (G2 $590-$2,690)",
+   "url": "https://g2.com/products/cad-exchanger/pricing"
+  },
+  {
+   "afirmacion": "CAD Exchanger tiene página dedicada step-to-gltf (canal SEO disputado)",
+   "url": "https://cadexchanger.com/step-to-gltf"
+  },
+  {
+   "afirmacion": "Patrón DIY OpenCascade + Three.js",
+   "url": "https://github.com/donalffons/opencascade.js/discussions/277"
+  },
+  {
+   "afirmacion": "Convertidores web gratis STEP a glTF (manuales, sin API)",
+   "url": "https://convert.guru/step-to-gltf"
+  }
+ ],
+ "busquedas_usadas": 1
+}

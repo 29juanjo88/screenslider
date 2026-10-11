@@ -1,0 +1,83 @@
+{
+ "id": "G12-05",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es real y costoso: un cliente de $2,500/mes perdido por 3 dias de falla silenciosa, y el hilo de n8n muestra que la pregunta es recurrente. El historial nativo de Zapier es por cuenta y limitado (cita del defensor, no la verifique yo).",
+   "refuto": "Un caso en IndieHackers y un hilo de foro son anecdotas, no prueban frecuencia semanal ni busqueda activa de una herramienta de pago. Que el hilo pregunte 'como se enteran' indica que la gente improvisa soluciones, no que compre. Una agencia que construyo su propio sistema de alertas con la API de Make (mi evidencia r1) sigue sin ser refutada.",
+   "evidencia": [
+    {"afirmacion": "Caso unico de cliente de $2,500/mes perdido por workflow n8n caido 3 dias", "url": "https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"},
+    {"afirmacion": "Agencia con 30 cuentas Make resolvio con alertas propias via API", "url": "https://community.make.com/t/vatech-io-enterpise-error-alert-and-backup-system-with-make-com-the-problems-we-faced-during-5-years-of-working-at-make-and-their-solutions/30143"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "El defensor tiene razon en que $49 es marginal frente a un retainer de $2,500 si la agencia lo percibe asi, y que es el comprador concreto (cumple F2). Tambien admite que no hay evidencia de pago a $49, lo que coincide con mi posicion.",
+   "refuto": "El argumento de 'fraccion del retainer' es un razonamiento de valor, no evidencia de disposicion de pago: la misma logica aplicaria a RootBrief a $19 o a tiers gratis, que son el ancla real. Agencias pequenas con tier gratis disponible (OpsVeritas 10 workflows, Flowlert 5) tienen alternativa de costo cero.",
+   "evidencia": [
+    {"afirmacion": "RootBrief Pro desde $19/mes (precio de lanzamiento, puede haber cambiado)", "url": "https://www.producthunt.com/p/rootbrief"},
+    {"afirmacion": "OpsVeritas gratis hasta 10 workflows", "url": "https://www.producthunt.com/products/opsveritas"},
+    {"afirmacion": "Disposicion de pago de agencias a $49", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Los competidores son recientes, su traccion es no verificada (el defensor lo senala con razon) y no hay evidencia de que alguno tenga ingresos; no cae en F1 porque los tiers gratis son limitados (como dijo el juez en E3). Su existencia puede validar demanda. El hueco de flujo de agencia (agrupar por cliente, white-label) puede estar poco cubierto: no lo pude refutar.",
+   "refuto": "Que la traccion sea no verificada no ayuda a la idea: es 4+ rivales con listados identicos y precios de entrada de $0-$19. El nicho 'agencia/white-label' que propone el defensor no esta en la idea original y no hay evidencia de que los rivales no lo ofrezcan (no lo verifique).",
+   "evidencia": [
+    {"afirmacion": "Flowlert monitorea n8n, Make y Zapier, gratis hasta 5 workflows", "url": "https://hunted.space/product/flowlert"},
+    {"afirmacion": "FlowPulse run ledger para n8n, Make, Zapier", "url": "https://hunted.space/product/flowpulse"},
+    {"afirmacion": "Que los rivales no ofrezcan white-label/multi-cliente", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "Los canales son nombrados y concretos (foro n8n, comunidad Make, Zapier Experts, YouTube), con un hilo que muestra la demanda ya presente en el canal; esto cumple F4 y el modelo product-led con tier gratis encaja con el brief. Concedo que mi alegacion de que las comunidades prohiben la autopromocion no la respalde con fuente.",
+   "refuto": "La oferta de servicios de freelancers en el foro de Make (anuncio de busqueda de freelancers) no es evidencia de compradores de un monitor ni de intencion de compra; no hay volumen de busqueda ni CAC verificados por ninguno de los dos. Los rivales ya ocupan Product Hunt y los mismos canales.",
+   "evidencia": [
+    {"afirmacion": "Competidores presentes en los mismos canales de lanzamiento", "url": "https://hunted.space/product/flowlert"},
+    {"afirmacion": "Volumen de busqueda 'monitor Make scenarios' y CAC", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "El defensor tiene un punto razonable: reconectar credenciales de cada cliente crea friccion de cambio, y las fallas recurrentes dan valor continuo. Concedo que mi 'instalar y olvidar' tampoco tiene datos.",
+   "refuto": "Ese lock-in es una hipotesis sin datos. Si el monitor no detecta fallos, el valor percibido cae y el downgrade a un tier gratis rival es trivial. El mismo defensor admite churn por cierre de agencias pequenas. Ambos lados sin evidencia de retencion de la categoria.",
+   "evidencia": [
+    {"afirmacion": "Retencion/churn de monitores de automatizacion", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Para $10k MRR bastan ~205 agencias a $49, una cifra no irreal en principio, y mi tamano total de mercado tampoco tiene fuente. La oferta de freelancers/agencias es amplia cualitativamente.",
+   "refuto": "El defensor no encontro conteos de partners ni tamano de mercado, lo que deja sin respaldo la tesis de 'miles de compradores'. Para $50k se necesitan ~1,020 pagadores en un nicho de agencias multi-plataforma (no cualquier freelancer de una sola plataforma) con rivales gratis. El anchor del brief (>100k compradores = 5) queda muy lejos de lo demostrado.",
+   "evidencia": [
+    {"afirmacion": "Aritmetica: $10k/$49 = ~204 clientes; $50k/$49 = ~1,020", "url": "sin verificar (calculo propio)"},
+    {"afirmacion": "Numero de agencias que usan 2+ plataformas", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor coincide con mi posicion: la defensa es debil, y sus posibles fosos (especializacion en agencias, comunidad, velocidad) estan declarados como no verificados. Concedo que mi cita de que Zapier ya tiene monitoreo multi-cuenta en Enterprise se apoya en un blog de tercero (comparativa n8n vs Make vs Zapier), claim de tercero y no documentacion oficial.",
+   "refuto": "Un 'foso' por especializacion y velocidad de un solo desarrollador no es defensa: los 4+ rivales pueden agregar white-label. No hay evidencia que respalde ninguno de los fosos propuestos.",
+   "evidencia": [
+    {"afirmacion": "Al menos 4 monitores casi identicos lanzados en paralelo", "url": "https://hunted.space/product/flowpulse"},
+    {"afirmacion": "Zapier: claims de replay/alertas en tiers pagos, fuente de tercero", "url": "https://blog.n8n.io/make-vs-zapier/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El MVP en ~6 semanas es factible para un backend senior (APIs, webhooks, Node/TS). Lo conceda ya en r1. Ademas el defensor admite que no confirmo un endpoint publico de errores de Zapier, lo que fortalece mi tesis de riesgo de cobertura.",
+   "refuto": "Que sea facil de construir es tambien lo que lo hace copiable (ver defensa). El mantenimiento de 3 APIs con limites de tasa, OAuth de clientes y custodia de credenciales de terceros no esta descontado en 'muy favorable'. La debilidad de Juan es distribucion, no backend, y la ventaja PLC/CAD no aplica.",
+   "evidencia": [
+    {"afirmacion": "Zapier: historial en interfaz con 60 dias; endpoint publico de errores no confirmado (admision del defensor)", "url": "https://help.zapier.com/hc/en-us/articles/8496291148685"},
+    {"afirmacion": "Carga de mantenimiento de tres APIs y OAuth de clientes", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El dolor es real y caro (cliente de $2,500/mes perdido), los canales son nombrados y concretos, no cae en F1 porque los tiers gratis son limitados, y el MVP es factible en ~6 semanas para Juan.",
+ "punto_que_sigue_en_pie": "Diferenciacion casi nula y precio sin respaldo: 4+ monitores multi-plataforma con tiers gratis y Pro desde $19, sin evidencia de disposicion de pago a $49 ni de tamano de mercado; los fosos propuestos por el defensor (white-label, especializacion) son hipotesis no verificadas.",
+ "busquedas_usadas": 0
+}

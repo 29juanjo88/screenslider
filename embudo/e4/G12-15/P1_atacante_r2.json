@@ -1,0 +1,106 @@
+{
+ "id": "G12-15",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor acierta: el limite de 5 req/s con 429 y espera de 30 s es dolor tecnico real, y hay contenido dedicado a evitar 429 (Activepieces). Admite ademas que es nicho.",
+   "refuto": "Que el contenido sobre 429 pruebe busqueda activa de pago es inferencia: ese contenido enseña a evitar el problema gratis. El defensor no aporta frecuencia ni urgencia entre quienes pagan.",
+   "evidencia": [
+    {
+     "afirmacion": "Contenido sobre como evitar 429 de Airtable (solucion gratuita, no intencion de compra)",
+     "url": "https://www.activepieces.com/blog/airtable-api-rate-limit-how-to-avoid-429-errors.md"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Presupuesto validado por Stacksync ($1,000+/mes) y Whalesync; el defensor tiene razon en que el pago existe.",
+   "refuto": "El 'tramo' a $49 no esta demostrado. Mi busqueda: fuentes recientes (HubSpot jul-2026, xpay may-2026) ponen Whalesync Personal en $5 y Starter $20; ya cubre por debajo de $49. Precio oficial sigue sin verificar (aggregators discrepan).",
+   "evidencia": [
+    {
+     "afirmacion": "Whalesync Personal $5/mes segun listado HubSpot (jul 2026); tiers $20/$40/$200 segun PricingSaaS; oficial sin confirmar",
+     "url": "https://ecosystem.hubspot.com/marketplace/apps/whalesync"
+    },
+    {
+     "afirmacion": "Tiers de Whalesync segun PricingSaaS",
+     "url": "https://pricingsaas.com/companies/whalesync"
+    }
+   ],
+   "posicion": "se fortalece"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor concede que no hay ventaja demostrada frente a Whalesync y que el angulo Supabase esta sin verificar. Concedo que el hueco entre Whalesync barato y Stacksync $1,000 existe en teoria, y que el sync nativo es unidireccional.",
+   "refuto": "Un hueco entre $200 y $1,000 no es hueco si Whalesync cubre por debajo y la alternativa manual (scripts con upsert) es gratis, como el propio defensor cita. Whalesync soporta Postgres bidireccional segun nocode.tech.",
+   "evidencia": [
+    {
+     "afirmacion": "Whalesync lista sync bidireccional en tiempo real con Postgres",
+     "url": "https://nocode.tech/tools/whalesync"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor reconoce que Whalesync ocupa el SEO y que Airtable Marketplace y CAC estan sin verificar; coincidimos. Concedo que 'Airtable to Postgres sync' es una busqueda de intencion alta.",
+   "refuto": "Nombrar un canal no es verificarlo: el defensor no aporta evidencia de que el Marketplace admita este tipo de app, y su evidencia SEO es de contenido de 'como evitar 429', no de compra. Whalesync y Stacksync tienen SEO programatico y blog propios.",
+   "evidencia": [
+    {
+     "afirmacion": "Whalesync paginas de conectores por par de apps",
+     "url": "https://whalesync.com/connect/airtable-attio"
+    },
+    {
+     "afirmacion": "Stacksync blog SEO sobre airtable sync",
+     "url": "https://www.stacksync.com/blog/airtable-sync-two-proven-ways-sync-data.md"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor tiene un punto: infraestructura conectada es costosa de cambiar, favorece baja rotacion mientras el cliente siga en Airtable.",
+   "refuto": "Es razonamiento no medido y el propio defensor admite que quien migra del todo cancela. Mi argumento de puente de transicion queda sin refutar. Ambos sin datos.",
+   "evidencia": [
+    {
+     "afirmacion": "Retencion de herramientas de sync",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Mercado amplio en teoria; etapa 3 dio 4 y ninguno tiene cifra verificada. Concedo que mi argumento tampoco tiene cifra.",
+   "refuto": "El defensor cita la calificacion de etapa 3 como evidencia, pero eso es un juicio, no un dato; el subsegmento que paga sync, no migra y no es enterprise sigue sin dimensionar. Aritmetica: $10k/$49 = ~204 clientes (calculo propio).",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de mercado con fuente",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor concede que es debil y la dimension mas floja; coincido y concedo que soporte de nicho y confiabilidad son defensas posibles aunque modestas.",
+   "refuto": "Los incumbentes pueden bajar precios y Airtable ampliar su sync nativo; nada en la respuesta contradice esto.",
+   "evidencia": [
+    {
+     "afirmacion": "Airtable ofrece sync nativo e integraciones Sync API",
+     "url": "https://support.airtable.com/articles/8169929594-airtable-sync-integrations-overview"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que un MVP unidireccional Airtable->Postgres es factible en ~6 semanas y que la API ofrece upsert y lotes, lo que acota el diseño. Mi postura previa era demasiado dura al sugerir que el MVP era dudoso.",
+   "refuto": "La bidireccional fiable con conflictos y la guardia operativa de datos de clientes siguen siendo carga real; el defensor lo admite. Tiempo real de construirla: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Complejidad de sync bidireccional",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El pago esta validado (Stacksync $1,000+, Whalesync de pago), el dolor de 5 req/s es real y un MVP unidireccional en ~6 semanas es factible para Juan.",
+ "punto_que_sigue_en_pie": "Sin diferenciacion ni canal verificado: Whalesync (desde ~$5, Postgres bidireccional) ocupa el rango bajo y el SEO, Airtable Marketplace sin verificar, y el sync es puente de migracion con churn natural.",
+ "busquedas_usadas": 1
+}

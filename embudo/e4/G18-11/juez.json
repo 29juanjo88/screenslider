@@ -1,0 +1,51 @@
+{
+ "id": "G18-11",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 3,
+  "mercado": 2,
+  "diferenciacion": 4,
+  "ventaja_juan": 5,
+  "mvp": 4,
+  "riesgo": 3
+ },
+ "total": 37,
+ "hecho_decisivo": "Ambos pares y mis búsquedas coinciden en que no hay conversor dedicado de tags Studio 5000/L5X a TIA (hueco real; TagConverter es solo HMI), pero el único incumbente relevante es un servicio gratuito de Siemens (2016, solo EE.UU., código+datos) con vigencia sin verificar, y ninguna fuente prueba demanda, volumen de búsqueda ni disposición de pago; el uso es puntual (retención casi nula).",
+ "condicion": "Confirmar demanda de pago real: que una landing con la herramienta/lista de espera por proyecto (49-149 USD) consiga compradores o prepagos, y que las búsquedas 'convert Studio 5000/L5X to TIA tags' tengan volumen suficiente; si no, descartar.",
+ "experimento_mas_barato": "Sin escribir producto: (1) medir en Google Keyword Planner/Ahrefs el volumen de 5-10 keywords L5X/Studio 5000 a TIA; (2) landing con ejemplo de salida y botón 'pagar 79 USD por conversión' (preventa Stripe) o lista de espera, más 3 respuestas útiles en MrPLC/PLCTalk/r/PLC con enlace. Umbral para seguir: >=500 búsquedas/mes combinadas y >=10 preventas/pagos o >=3% de visitantes que pagan en 4 semanas; menos de eso, matar.",
+ "dimensiones": {
+  "dolor": "Proceso manual y propenso a errores, pero episódico y solo una fracción de la migración; un único hilo (de código, no tags) sin frecuencia verificada.",
+  "pago": "Plausible que un integrador cargue 49-149 USD al proyecto, pero sin evidencia de pago y con referencia de precio cero por el servicio gratuito de Siemens (vigencia sin verificar); ambos defensores admitieron que no hay evidencia.",
+  "alternativas_actuales": "Sin herramienta dedicada de terceros (confirmado por ambos pares y por mi búsqueda); alternativas: Excel/scripts/Openness, TagConverter (HMI) y servicio gratuito de Siemens 2016 solo EE.UU.; F1 no aplica con claridad.",
+  "canal_y_cac": "Canal nombrado (SEO long-tail, PLCTalk, MrPLC, r/PLC) con CAC monetario bajo, pero volumen sin verificar, comunidades hostiles a promoción y sin marketplace; ambos defensores lo concedieron como dimensión débil.",
+  "retencion": "Dimensión más débil, concedida por todos: migración puntual, churn casi total en suscripción; cobro por proyecto no genera MRR recurrente y la suite multi-vendor es otro producto.",
+  "mercado": "Nicho dentro de nicho (Rockwell a Siemens, un sentido); sin cifra verificada de compradores, cifras de software PLC no miden este nicho; Mercado 2 aceptado por ambos lados.",
+  "defensa_frente_a_copias": "Baja: formatos documentados replicables con Python/LLM en días y Siemens podría ampliar sus herramientas; solo queda conocimiento de dominio y SEO temprano.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP factible en ~6 semanas y gran ventaja de Juan (punto fuerte concedido por todos); riesgos: validación sin proyectos/licencias reales y mantenimiento por versiones TIA/Studio 5000."
+ },
+ "resumen_P1": "Ataque: uso puntual, retención nula y servicio gratuito de Siemens como ancla de precio cero; sin evidencia de demanda ni pago. Defensa: hueco verificado sin conversor dedicado, MVP barato y ventaja máxima de Juan; concedió que el servicio de Siemens es competidor serio y que sirve como producto pequeño por proyecto, no SaaS de 10k MRR.",
+ "resumen_P2": "Ataque: tags son la parte fácil, canal sin volumen, precio de referencia cero por Siemens y barreras bajas; concedió que el hueco existe y el MVP es genuino. Defensa: dolor real aunque episódico y ausencia de conversor dedicado; concedió retención, pago, canal débil y que no hay foso.",
+ "razonamiento": "Los dos pares coinciden en lo esencial: hueco real sin herramienta dedicada, ventaja de Juan y MVP excelentes, pero retención casi nula, pago y volumen de canal sin evidencia, y mercado pequeño. El servicio gratuito de Siemens (2016, solo EE.UU., vigencia no confirmada en mi búsqueda) no activa F1 con claridad, pero ancla el precio en cero. Ningún filtro F1-F5 se falla de forma concluyente (el canal está nombrado). El puntaje 37 cae en banda MEDIA, lejos de ALTA; para 10-50k MRR haría falta cientos de proyectos nuevos al mes desde un canal de volumen desconocido. Vale solo si un test barato demuestra pago y volumen, por eso CONDICIONAL con probabilidad baja.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Siemens anunció en 2016 servicio sin cargo de conversión de código Rockwell/Studio 5000 a TIA (solo EE.UU.); vigencia sin verificar",
+   "url": "https://www.automationworld.com/home/news/13314939/siemens-nocharge-service-converts-rockwell-controller-code"
+  },
+  {
+   "afirmacion": "WinCC TagConverter cubre tags HMI desde fuentes Allen-Bradley, no PLC a PLC",
+   "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2de0ff31-4ea7-4455-9a85-d3549aceafb6/brochure-wincc-tagconverter.pdf"
+  },
+  {
+   "afirmacion": "Hilo MrPLC sobre conversión parcial de código Studio 5000 a TIA (indicio de proceso manual)",
+   "url": "https://mrplc.com/forums/topic/38215-conversion-partial-code-from-studio5000-to-tia-potal/"
+  },
+  {
+   "afirmacion": "No hay importación nativa de tags CompactLogix en TIA; mapeo no uno a uno",
+   "url": "https://industrialmonitordirect.com/blogs/knowledgebase/compactlogix-tags-to-s7-1500-tia-portal-import-procedure"
+  }
+ ],
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,51 @@
+{
+ "id": "G01-17",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 3,
+  "mercado": 2,
+  "diferenciacion": 3,
+  "ventaja_juan": 2,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 34,
+ "hecho_decisivo": "La ficha de Orderkraft (https://apps.shopify.com/orderkraft), el competidor made-to-order mas cercano, muestra $29/mes + cargo por pedido (0.75 USD los primeros 200) y 0 resenas; los roles afirmaban 69 USD/mes. El hueco de precio 20-69 USD que sostenia la defensa no existe como se describio: el precio de Juan (29) iguala al de Orderkraft. Ademas, la busqueda no hallo ninguna app que calcule fechas desde cola/backlog real, pero tampoco evidencia de demanda de pago por esa funcion.",
+ "condicion": "Confirmar que merchants made-to-order en Shopify pagan 29 USD/mes por una fecha derivada de cola/capacidad (no solo reglas fijas) y que existe un segmento de al menos ~345 tiendas aptas alcanzables via la busqueda 'made to order' en la App Store.",
+ "experimento_mas_barato": "Sin escribir producto: landing + video/mockup de la cola-a-fecha y publicacion de una guia SEO 'made to order delivery date Shopify'; ademas contactar en comunidad Shopify/Reddit a 30 merchants made-to-order con lista de espera con tarjeta (preventa a 29 USD). Metrica: preventas/depositos. Umbral: >=10 depositos pagados o >=40 emails de lista de espera calificados en 4 semanas; menos de 3 mata la idea.",
+ "dimensiones": {
+  "dolor": "Real pero moderado: tickets 'donde esta mi pedido', sin cifras de perdida de ventas; ambos pares coinciden en que no esta cuantificado.",
+  "pago": "Hay precedente (Orderkraft cobra, EDD 0-20 USD); 29 USD queda sobre las EDD y al nivel de Orderkraft. Pago por cola real es hipotesis (concedido por ambos pares).",
+  "alternativas_actuales": "EDD genericas con reglas fijas, texto manual, metafields y date pickers con limite por franja son sustitutos; ninguna fuente documenta app con cola/backlog real, pero ausencia de hallazgo no prueba demanda.",
+  "canal_y_cac": "Canal Shopify App Store nombrado con intencion de compra, pero saturado (8+ apps) y sin resenas propias; CAC y volumen de busqueda sin verificar.",
+  "retencion": "Sin datos de churn; costo de cambio alto si la cola se integra, pero tiendas made-to-order pequenas son inestables.",
+  "mercado": "Nicho chico sin cifra verificada; 10k MRR requiere ~345 pagadores a 29 USD, ambos pares lo concedieron.",
+  "defensa_frente_a_copias": "Debil: sin moat ni efecto de red, Orderkraft/EDD pueden anadir capacidad, riesgo de funcion nativa de Shopify; concedido por ambos pares.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP factible en 6 semanas con el stack de Juan; el riesgo es soporte y onboarding por la variabilidad de modelado de cada taller, contrario al autoservicio."
+ },
+ "resumen_P1": "El atacante mostro precios bajos de las EDD y saturacion, pero concedio que el hueco de producto es real y que no falla F1/F5. El defensor concedio en R2 que el hueco es mas estrecho (date pickers con capacidad por franja, Orderkraft) y que no hay evidencia de demanda a 29 USD; queda el canal nombrado y el MVP factible.",
+ "resumen_P2": "El atacante halló aproximaciones (Ecosire capacidad por franja, EDD Availability made-to-order, Orderkraft) y sostuvo canal saturado y defensa nula; concedio disposicion de pago en el nicho. El defensor concedio casi todo (mercado chico, defensa casi nula) y quedo con un hueco aparente sin probar.",
+ "razonamiento": "Ambos pares convergen en los mismos hechos: dolor moderado no cuantificado, mercado chico, defensa debil, canal nombrado pero saturado, MVP facil y soporte por taller como carga. El hueco de producto (cola real) parece genuino pero no hay prueba de que alguien pague por el. La verificacion del juez corrige el ancla de 69 USD: Orderkraft lista 29 USD + uso y 0 resenas, lo que a la vez elimina el argumento del hueco de precio y sugiere un competidor nuevo sin traccion. No falla ningun filtro con evidencia suficiente, por lo que no se descarta, pero el total de 34 (banda media) y el nicho pequeno implican baja probabilidad de alcanzar 10-50k MRR; solo vale validar barato la demanda.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Orderkraft: 29 USD/mes + cargo por pedido, 0 resenas (segun la ficha consultada)",
+   "url": "https://apps.shopify.com/orderkraft"
+  },
+  {
+   "afirmacion": "Shopify calcula estimados por transito, no por calendario de produccion; no hay app documentada con cola/backlog",
+   "url": "https://community.shopify.com/t/made-to-order-and-pre-order-production-and-ship-dates/574958"
+  },
+  {
+   "afirmacion": "Al menos 8 apps de fecha de entrega",
+   "url": "https://www.raftlabs.com/best-shopify-apps/delivery-date/"
+  },
+  {
+   "afirmacion": "Guia: Shopify no suma tiempo de preparacion automaticamente",
+   "url": "https://www.identixweb.com/how-to-set-up-delivery-scheduling-for-made-to-order-products-on-shopify/"
+  }
+ ],
+ "busquedas_usadas": 2
+}

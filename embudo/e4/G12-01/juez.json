@@ -1,0 +1,51 @@
+{
+ "id": "G12-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 2,
+  "pago": 2,
+  "canal": 2,
+  "mercado": 2,
+  "diferenciacion": 3,
+  "ventaja_juan": 5,
+  "mvp": 5,
+  "riesgo": 2
+ },
+ "total": 31,
+ "hecho_decisivo": "Ninguna app dedicada de Zapier/Make/n8n para STEP a PNG/glTF (confirmado por ambos pares y por mi búsqueda), pero existen APIs HTTP (p. ej. Adom Step2GLB con endpoint /thumbnail) invocables desde el módulo HTTP genérico, y no hay evidencia de demanda ni de pago por un conector: un directorio vacío puede reflejar ausencia de demanda. https://wiki.adom.inc/p/pg_h304hqp5bg",
+ "condicion": "Confirmar demanda de pago real: al menos 15-20 equipos de cotización/e-commerce de manufactura que usen Zapier/Make/n8n dispuestos a prepagar o inscribirse en lista de espera pagada a ~$49/mes, y volumen de búsqueda/intención en directorios o SEO ('step to png api').",
+ "experimento_mas_barato": "Landing page + demo con API ficticia/prototipo manual (sin producto) con lista de espera con precio $49/mes y posts en comunidades n8n, Make, r/manufacturing, foros de Airtable/ClickUp que ya piden previews CAD. Métrica: visitantes que dejan email con pre-pedido/tarjeta o respuesta de pago. Umbral: >=20 pre-registros en 3 semanas con >=5 que confirman pago (prepago o carta de intención); si <5 registros, matar.",
+ "dimensiones": {
+  "dolor": "Hay señales anecdóticas (hilos de Airtable y ClickUp pidiendo previews CAD), pero ambos pares concedieron que no hay urgencia semanal ni frecuencia verificada.",
+  "pago": "Sin evidencia de disposición a pagar $49/mes; precedentes de precio (licencia $99, Meshy Pro) no son del segmento ni comparables. Ambos pares lo concedieron.",
+  "alternativas_actuales": "APIs HTTP (Adom, convert3d), DIY con FreeCAD/OCCT y plataformas de cotización completas (DigiFabster) cubren el caso; el conector solo ahorra configuración.",
+  "canal_y_cac": "Directorios Zapier/Make vacíos para STEP, pero sin volumen de búsqueda verificado; n8n y SEO no requieren aprobación. Canal nombrado pero sin demanda comprobada.",
+  "retencion": "Sin datos; un conector integrado en flujos de cotización podría retener bien, pero no verificado.",
+  "mercado": "Nicho: equipos de manufactura/cotización que automatizan con no-code; tamaño sin cuantificar y probablemente pequeño para $10k+ MRR (~205 clientes a $49).",
+  "defensa_frente_a_copias": "Casi nula: el foso es el conocimiento de formatos y kernels abiertos; cualquier API de conversión puede añadir un conector.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP viable en <=6 semanas con ventaja máxima de Juan; n8n sin aprobación; Zapier/Make exigen aprobación de plataforma."
+ },
+ "resumen_P1": "El atacante sostuvo que el dolor y el pago son hipotéticos y que las APIs HTTP sustituyen el conector. El defensor aportó hilos de Airtable/ClickUp y un camino sin aprobación (API REST + n8n), pero concedió que no hay evidencia de pago ni de mercado.",
+ "resumen_P2": "El atacante señaló que DigiFabster y APIs como Adom/convert3d ya resuelven el problema y que la defensa ante copias es nula. El defensor mantuvo que el hueco de conector existe y que el MVP es factible, concediendo que demanda y pago están sin verificar.",
+ "razonamiento": "Ambos pares coinciden en lo esencial: el hueco en directorios es real, la ejecución es muy favorable, pero no hay evidencia de demanda, pago a $49/mes ni tamaño de mercado. Las concesiones de ambos defensores en ronda 2 son fuertes. Mi búsqueda confirmó que no hay conector dedicado y que existen APIs HTTP que lo sustituyen. Con el puntaje de 31 queda en banda baja, por debajo de las anclas. No falla un filtro de forma clara, y un experimento barato de lista de espera puede validarlo o matarlo antes de escribir producto, por eso CONDICIONAL.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Hilo de Airtable pidiendo miniaturas de adjuntos CAD",
+   "url": "https://community.airtable.com/t/thumbnail-previews-for-3d-cad-attachments-step-stl-sldprt-etc/36633"
+  },
+  {
+   "afirmacion": "Petición ClickUp de visor CAD",
+   "url": "https://feedback.clickup.com/integrations/p/cad-viewer-integration-into-built-in-preview-in-clickup"
+  },
+  {
+   "afirmacion": "API HTTP Adom STEP a GLB/PNG (sustituto)",
+   "url": "https://wiki.adom.inc/p/pg_h304hqp5bg"
+  },
+  {
+   "afirmacion": "DigiFabster extrae volumen/área de STEP/IGS/DXF",
+   "url": "https://digifabster.com/products/instant-quoting-solution/"
+  }
+ ],
+ "busquedas_usadas": 1
+}

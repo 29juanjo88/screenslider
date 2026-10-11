@@ -1,0 +1,55 @@
+{
+ "id": "G09-08",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 3,
+  "mercado": 4,
+  "diferenciacion": 2,
+  "ventaja_juan": 2,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 35,
+ "hecho_decisivo": "Las apps de HS code en la Shopify App Store son al menos 5 (DutyCode, HClassify, DutyLookout, HS King, Classify AI), todas de bajo precio (gratis hasta 25 clasificaciones; US$19-49 de entrada; US$0.09-0.25 por clasificación) y con 0-2 reseñas en los listados consultados. Hay canal y precio publicado, pero no hay pagadores demostrados, y el único foso propuesto (SEO programático) no está probado. Búsquedas del juez: no se halló documentación oficial de una sugerencia nativa gratuita de Shopify aparte de Markets Pro (F1 no queda demostrado). https://apps.shopify.com/hs-king https://apps.shopify.com/dutycode",
+ "condicion": "Confirmar que existe demanda de pago real a US$29+ y un hueco de diferenciación: (a) que el SEO 'hs code for [product]' tenga volumen y que al menos el 2-3% de los visitantes deje email o se registre, y (b) que haya pagadores reales a US$29-49 (no solo plan gratis) en estas apps.",
+ "experimento_mas_barato": "Sin escribir producto: publicar 20-30 páginas estáticas 'hs code for [product]' con un lookup manual y waitlist/preventa de US$29/mes. Medir en 6-8 semanas: >=1,000 visitas orgánicas y >=3% de conversión a email, y >=10 preventas o depósitos. Complemento: revisar con Ahrefs/Google Keyword Planner el volumen de 'hs code' y 'hs code for [x]'; si el volumen mensual total es <5,000, matar la idea. Umbral de muerte: <5 preventas con 1,000 visitas.",
+ "dimensiones": {
+  "dolor": "El fin de de minimis (29-ago-2025, alcance exacto discutido) y los aranceles hacen la clasificación un requisito real, y los dos pares lo admiten. La frecuencia es por SKU, no semanal, y la pérdida por retenciones no está cuantificada.",
+  "pago": "Existen precios publicados de US$19-399/mes (DutyCode, HClassify) y cobro por uso (US$0.09-0.25), pero se ven pocas o ninguna reseña y hay planes gratis de 3-25 clasificaciones. No hay pagadores verificados; a US$29 se necesitan unos 345 clientes para US$10k.",
+  "alternativas_actuales": "Hay al menos 5 apps baratas más Zonos, Easyship (lookup gratis) y el campo HS nativo de Shopify. Ni el atacante ni el defensor demostraron un incumbente gratis suficientemente bueno, así que F1 queda como riesgo y no como descarte.",
+  "canal_y_cac": "El canal está nombrado (búsqueda 'HS code' en la App Store y SEO), por lo que F4 se cumple. Está competido por varias apps y el volumen de búsqueda y el CAC no están verificados por ningún lado. El tráfico de 'hs code for [product]' puede ser de importadores y no de dueños de tienda.",
+  "retencion": "Es una tarea mayormente por SKU con planes por volumen y plan gratis, así que el riesgo de churn es alto. Los cambios arancelarios y los SKUs nuevos dan algo de uso recurrente, pero sin datos de churn de ninguno de los lados.",
+  "mercado": "Hay millones de tiendas Shopify (cifras de terceros de 2.8-5.6M) y 345-500 clientes son una fracción mínima. Está sin verificar qué fracción envía al exterior y compraría una app de pago.",
+  "defensa_frente_a_copias": "Casi nula: la clasificación con LLM y datos arancelarios públicos se copia en semanas, entran clones continuamente (HClassify, HS King, Classify AI) y Shopify puede mejorar Markets Pro. El corpus SEO y las reseñas son una ventaja de tiempo no probada.",
+  "ejecucion_una_persona_tiempo_parcial": "El MVP en 6 semanas con Node/TS y GraphQL no se discute. Lo difícil es no técnico: calidad y licencia de datos por país (8-10 dígitos), responsabilidad por errores, revisión de la app y reseñas. La ventaja industrial de Juan (PLC/CAD/3D) no aplica."
+ },
+ "resumen_P1": "Ataque: espacio saturado de apps de US$19-99, Shopify gestiona HS por país de forma nativa, y no hay foso. Defensa: el fin de minimis hace la clasificación obligatoria, hay pago demostrado de US$19-399 y un canal nombrado. En la ronda 2 el atacante concedió dolor y pago, y el defensor concedió saturación y casi ningún foso.",
+ "resumen_P2": "Ataque: lo gratis casi basta (campo nativo, Easyship, plan gratis de DutyCode), la tarea es de una vez por SKU y no hay foso. Defensa: F1 no está demostrado y hay canal, mercado enorme y MVP factible. En la ronda 2 el defensor sumó Classify AI y HS King como clones y concedió retención y foso débiles; el atacante concedió que mercado, F4 y MVP no son el problema.",
+ "razonamiento": "Ambos pares coinciden en lo esencial: canal nombrado (F4 se cumple), mercado grande y MVP factible, pero espacio saturado, foso casi nulo y retención débil. El único hecho en disputa para F1 es si Shopify ofrece gratis algo suficientemente bueno. La búsqueda del juez no encontró documentación oficial de una sugerencia nativa gratuita fuera de Markets Pro, así que no descarto la idea. Los listados de las apps rivales muestran 0-2 reseñas, lo que sugiere un mercado joven y sin pagadores probados. El puntaje de 35 cae en banda MEDIA, lejos del ALTA que busca el brief. Por eso queda CONDICIONAL con probabilidad baja: solo vale la pena si el experimento de SEO y preventa demuestra demanda y conversión.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "DutyCode: gratis 25 clasificaciones y planes de pago",
+   "url": "https://apps.shopify.com/dutycode"
+  },
+  {
+   "afirmacion": "HS King: US$0.25 por clasificación, 0 reseñas",
+   "url": "https://apps.shopify.com/hs-king"
+  },
+  {
+   "afirmacion": "HClassify US$49-399, pocas reseñas",
+   "url": "https://apps.shopify.com/hclassify"
+  },
+  {
+   "afirmacion": "Queja de usuarios: Markets Pro asigna HS con IA y sobrescribe (anecdótico)",
+   "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+  },
+  {
+   "afirmacion": "Fin de de minimis y clasificación HTSUS (DHL; alcance discutido)",
+   "url": "https://www.dhl.com/discover/en-global/logistics-advice/logistics-insights/the-end-of-de-minimis-exemption-meaning-for-your-business"
+  }
+ ],
+ "busquedas_usadas": 2
+}

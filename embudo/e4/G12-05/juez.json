@@ -1,0 +1,59 @@
+{
+ "id": "G12-05",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 4,
+  "pago": 2,
+  "canal": 3,
+  "mercado": 3,
+  "diferenciacion": 2,
+  "ventaja_juan": 2,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 34,
+ "hecho_decisivo": "Existen al menos 4 monitores multi-plataforma (OpsVeritas, RootBrief, Flowlert, FlowPulse) con tiers gratis de 5-10 workflows y Pro desde $19 (precio de lanzamiento); nadie en los dos pares aporta evidencia de pago a $49 y ambos defensores concedieron diferenciacion casi nula. https://www.producthunt.com/p/rootbrief",
+ "condicion": "Confirmar que agencias con más de 10 clientes pagan al menos $29-39/mes por un ángulo de agencia (agrupar por cliente, reportes white-label/portal de cliente, detección de triggers que dejan de disparar) que los 4+ rivales no cubren, y que la API de Zapier permite leer runs fallidos de forma estable.",
+ "experimento_mas_barato": "Landing page con precio $39/mes (más tier de pago de prueba) y mockup del dashboard por cliente/white-label, más respuestas útiles en el hilo de n8n y la comunidad de Make durante 3 semanas. Métrica: waitlist con pre-pago o compromiso de pago. Umbral: >=15 agencias con >10 clientes que dejen email y >=5 que paguen/preordenen a >=$29; si <5 interesadas o todas piden gratis, descartar.",
+ "dimensiones": {
+  "dolor": "Real y costoso (cliente de $2,500/mes perdido por falla de 3 días; hilo activo en comunidad n8n), concedido por ambos atacantes. Evidencia anecdótica; sin frecuencia medida.",
+  "pago": "Sin evidencia de pago a $49; lo único verificado es Pro desde $19 y tiers gratis. Ambos defensores lo concedieron; el argumento de retainer es de valor, no de dato.",
+  "alternativas_actuales": "4-6 monitores multi-plataforma más alertas nativas; es la dimensión más débil. Tracción de los rivales sin verificar y los tiers gratis limitados evitan F1 por poco.",
+  "canal_y_cac": "Canales nombrados (foros n8n/Make, Zapier Experts, YouTube, SEO) aceptados por ambos pares como cumplimiento de F4, pero sin volumen de búsqueda ni CAC, rivales en los mismos canales y foros hostiles a la autopromoción.",
+  "retencion": "Sin datos. Fricción de cambio por reconectar credenciales vs. valor percibido solo cuando hay fallos y downgrade fácil a tier gratis; riesgo de churn alto en freelancers.",
+  "mercado": "Universo de agencias multi-plataforma sin cifra verificada; se necesitan ~205 pagadores a $49 para $10k y ~350 a $29. $50k MRR poco realista.",
+  "defensa_frente_a_copias": "Prácticamente nula: agregador sobre APIs de terceros, 4+ clones y riesgo de monitoreo nativo. White-label/portal es diferenciador sugerido pero no validado.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP en ~6 semanas viable (concedido por ambos lados), pero la ventaja industrial no aplica, mantener 3 integraciones es carga continua y la API de Zapier es experimental (/v2/zap-runs); se puede empezar con n8n y Make."
+ },
+ "resumen_P1": "El atacante mostró 4-6 rivales con tiers gratis y Pro desde $19, y una agencia que construyó sus propias alertas; el defensor sostuvo el dolor real (cliente de $2,500/mes) y el hueco de alertas nativas por organización, pero retrocedió en pago, alternativas, retención y mercado.",
+ "resumen_P2": "El atacante concedió dolor real, canales nombrados y MVP en 6 semanas, y mantuvo que no hay pago a $49 y que el techo es $19-29. El defensor concedió diferenciación casi nula y defensa nula, y propuso un nicho white-label a $29-39 sin validar.",
+ "razonamiento": "Ambos pares coinciden en que el dolor es real, el comprador es concreto, los canales están nombrados y el MVP es factible, así que no cae en F1-F5 de forma clara. Coinciden también en que no hay evidencia de pago a $49, que existen 4+ rivales con tiers gratis y Pro desde $19, y que la defensa frente a copias es casi nula; esas concesiones pesan más que los argumentos de valor. Mi búsqueda confirmó que Zapier tiene un endpoint experimental GET /v2/zap-runs, pero no pude confirmar filtro de fallos ni otro monitor de terceros, así que el riesgo técnico de Zapier queda sin resolver. El puntaje 34 cae en banda MEDIA, lejos de la ALTA exigida, y llegar a $10k exige 205-350 pagadores en un nicho saturado. Solo vale validar si un ángulo de agencia diferenciado sostiene $29-39.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "RootBrief cubre n8n, Zapier y Make, Pro desde $19/mes (lanzamiento)",
+   "url": "https://www.producthunt.com/p/rootbrief"
+  },
+  {
+   "afirmacion": "OpsVeritas monitorea n8n, Make, Zapier, gratis hasta 10 workflows",
+   "url": "https://www.producthunt.com/products/opsveritas"
+  },
+  {
+   "afirmacion": "Flowlert gratis hasta 5 workflows",
+   "url": "https://hunted.space/product/flowlert"
+  },
+  {
+   "afirmacion": "Dueño de agencia perdió cliente de $2,500/mes por falla de 3 días",
+   "url": "https://www.indiehackers.com/post/lost-a-2-500-month-client-in-my-ai-automation-agency-in-the-worst-way-possible-T1lcOPJFmIvuMLkkSbmT"
+  },
+  {
+   "afirmacion": "Hilo en comunidad n8n sobre cómo detectan fallos las agencias",
+   "url": "https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"
+  },
+  {
+   "afirmacion": "Zapier tiene endpoint experimental GET /v2/zap-runs (filtro de fallos sin verificar)",
+   "url": "https://docs.zapier.com/powered-by-zapier/api-reference/experimental/get-zap-runs.md"
+  }
+ ],
+ "busquedas_usadas": 1
+}

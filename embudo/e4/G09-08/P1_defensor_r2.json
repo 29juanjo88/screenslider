@@ -1,0 +1,134 @@
+{
+ "id": "G09-08",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es episódico por SKU (se clasifica una vez), no semanal; no hay cuantificación de pérdidas por retenciones; el juez dio 3 y no hay evidencia nueva que lo suba. Mi ronda 1 ya admitía la severidad sin cuantificar.",
+   "refuto": "'Episódico' omite que cada alta de producto y cada cambio arancelario reabre la tarea, y que el fin de minimis (29-ago-2025) la volvió obligatoria para todo envío a EE.UU. La queja documentada de HS erróneos con aranceles innecesarios (aportada por el propio atacante) prueba dolor activo, no 'estaría bien'.",
+   "evidencia": [
+    {
+     "afirmacion": "Fin de minimis para todos los países el 29-ago-2025",
+     "url": "https://www.dhl.com/discover/en-global/logistics-advice/logistics-insights/the-end-of-de-minimis-exemption-meaning-for-your-business"
+    },
+    {
+     "afirmacion": "Merchants reportan HS erróneos que causan aranceles innecesarios (hilo aportado por el atacante; relato de usuarios)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "El ancla de precio es baja (DutyCode con 25 gratis y $19-99; DutyLookout $0.09 por clasificación), HClassify tiene una sola reseña de 1 estrella, y a $29 se requieren ~345 pagadores para $10k. El freemium presiona el precio a la baja.",
+   "refuto": "Que existan 3 apps de pago con tramos hasta $399 prueba presupuesto existente; un plan $49-79 por volumen reduce el requisito a ~125-200 pagadores. 'Pagan una vez y cancelan' es hipótesis sin datos de churn (el atacante marca sin verificar).",
+   "evidencia": [
+    {
+     "afirmacion": "DutyCode $19/$49/$99 y HClassify $49/$149/$399",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Datos de churn o de pagadores reales",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Cierto y relevante: Shopify tiene gestión nativa de HS por país y Markets Pro asigna HS con IA; Ship&co sincroniza HS a facturas; mi búsqueda de réplica halló un cuarto competidor barato (HS King, $0.25 por clasificación) además de DutyCode. El espacio está más poblado de lo que dije y el riesgo F1 es real aunque parcial.",
+   "refuto": "La función nativa es gestión/asignación, no un clasificador con fuente y documentos; la única evidencia de calidad es una queja de usuarios de que Markets Pro erra y sobrescribe códigos manuales, lo que deja hueco para una herramienta con revisión. Mi búsqueda no encontró documentación oficial de una sugerencia nativa gratuita en el admin; no la he verificado en ninguna dirección. 'Suficientemente bueno' gratis no está demostrado.",
+   "evidencia": [
+    {
+     "afirmacion": "HS King cobra $0.25 por clasificación con IA (cuarto competidor)",
+     "url": "https://apps.shopify.com/hs-king"
+    },
+    {
+     "afirmacion": "Markets Pro asigna HS con IA y usuarios reportan errores y sobrescritura (anecdótico)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    },
+    {
+     "afirmacion": "Docs oficiales de Shopify sobre sugerencia nativa de HS",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "El canal está saturado (al menos 4 apps), un recién llegado sin reseñas parte abajo; la eficacia del SEO programático y el volumen de búsqueda no están verificados; el tráfico de 'hs code for [product]' puede ser de importadores y no de dueños de tienda.",
+   "refuto": "F4 se cumple (el atacante lo concede): canal nombrado. Que varias apps compitan por la misma búsqueda es señal de demanda de pago, no solo de saturación. Aun así no puedo probar conversión.",
+   "evidencia": [
+    {
+     "afirmacion": "Varias apps compiten en la categoría HS code del App Store",
+     "url": "https://apps.shopify.com/hs-king"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda y CAC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "La clasificación es mayormente una tarea por SKU; los planes por volumen facilitan bajar de plan o desinstalar; no hay datos de churn. Esta dimensión es de mis más débiles.",
+   "refuto": "Solo en parte: cambios arancelarios, altas de producto y regeneración de documentos dan uso recurrente para tiendas con catálogo dinámico. Pero es afirmación sin datos, igual que la del atacante.",
+   "evidencia": [
+    {
+     "afirmacion": "Planes de DutyCode medidos por clasificaciones (250/2,500/ilimitado)",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Churn de apps HS",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El segmento que envía internacionalmente y paga por apps HS es una fracción sin cifra verificada, y debe repartirse entre varias apps y la solución nativa. Mi cifra de 5.6M negocios era de un tercero débil; el atacante aporta 2.8-2.9M tiendas vivas (StoreLeads), que es más sólida.",
+   "refuto": "Incluso con 2.8M tiendas, el universo supera con holgura los 100k compradores posibles y 125-500 clientes son una fracción mínima; el propio atacante concede que el techo se cumple.",
+   "evidencia": [
+    {
+     "afirmacion": "2.8-2.9M tiendas Shopify vivas según StoreLeads; BuiltWith 6.9M",
+     "url": "https://ecomm.design/how-many-shopify-stores-are-there/"
+    },
+    {
+     "afirmacion": "Cross-border = 16% de pedidos en BFCM",
+     "url": "https://www.shopify.com/news/bfcm-data-2025"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Prácticamente de acuerdo: foso casi nulo, clasificación replicable, entrada continua de competidores (HClassify en enero 2026, HS King), Shopify puede absorberlo, y la ventaja de Juan no es conocimiento aduanero.",
+   "refuto": "Solo matizo que el SEO programático acumulativo y los documentos integrados pueden dar ventaja de tiempo, pero no está probado y no lo defiendo como foso.",
+   "evidencia": [
+    {
+     "afirmacion": "Entrada continua de competidores de bajo precio",
+     "url": "https://apps.shopify.com/hs-king"
+    },
+    {
+     "afirmacion": "Eficacia del SEO programático como foso",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Lo difícil no es técnico: calidad y licencia de datos arancelarios, responsabilidad por errores, mantenimiento, reseñas y aprobación en el App Store; la distribución es el cuello de botella declarado de Juan y aquí exige ganar reseñas frente a incumbentes. La ventaja industrial no aplica.",
+   "refuto": "El MVP en 6 semanas no se discute (el atacante concede juez 4). Competidores pequeños lanzaron rápido (HClassify, HS King), y la responsabilidad se mitiga con descargo y mostrando fuente; el costo de datos no está verificado por ninguna parte.",
+   "evidencia": [
+    {
+     "afirmacion": "HClassify lanzada en enero 2026 por equipo pequeño",
+     "url": "https://apps.shopify.com/hclassify"
+    },
+    {
+     "afirmacion": "Costo y licencia de datos arancelarios",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El espacio está saturado (DutyCode, HClassify, DutyLookout, Zonos y, según mi búsqueda, HS King) y Shopify ya asigna/gestiona HS nativamente, así que diferenciación y foso son casi nulos y el riesgo F1 es parcialmente real.",
+ "punto_que_sigue_en_pie": "Hay canal nombrado (F4 cumplido, concedido por el atacante), pago demostrado en el marketplace, mercado amplio y MVP factible en 6 semanas; la calidad dudosa del HS automático nativo (quejas de usuarios) deja un hueco no probado como gratis-y-suficiente.",
+ "busquedas_usadas": 1
+}

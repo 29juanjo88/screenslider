@@ -1,0 +1,59 @@
+{
+ "id": "G29-09",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "media",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 2,
+  "diferenciacion": 3,
+  "ventaja_juan": 5,
+  "mvp": 4,
+  "riesgo": 3
+ },
+ "total": 35,
+ "hecho_decisivo": "Existen herramientas de documentación PLC de pago (PLC Copilot, listado desde US$99/mes en Capterra/Software Advice, precio oficial sin verificar y con conflicto entre listados; soporta TIA y Studio 5000, exporta CSV/PDF; no se halló IO list específica) y un sustituto gratis para Rockwell (ioList en GitHub). Ambos pares concedieron que no hay evidencia de búsqueda activa, volumen de búsqueda ni disposición de pago específica. Hay categoría con pagadores pero el nicho IO-list-first sigue sin demanda demostrada.",
+ "condicion": "Confirmar demanda de pago y canal: que al menos 30-50 integradores/ingenieros PLC dejen email o prepaguen en una landing 'IO list desde proyecto TIA/L5X offline', y que existan hilos/búsquedas recurrentes sobre el tema. Además definir modelo de precio anual/por proyecto compatible con uso episódico.",
+ "experimento_mas_barato": "Landing page en inglés con muestra de IO list+PDF generado de un proyecto de ejemplo, con botón de preventa/lista de espera (US$49 licencia anual) más 2-3 artículos SEO ('generate IO list from TIA Portal') y 5-8 posts útiles (no promocionales) en r/PLC y PLCTalk durante 4 semanas. Métrica: conversión visita-email y preventas. Umbral: >=40 emails y >=8 preventas pagadas (o >=3% de visitantes cualificados dejando email); por debajo se mata.",
+ "dimensiones": {
+  "dolor": "Entregable contractual y repetido por proyecto, pero episódico; TIA ofrece Address Overview y export Excel/AML manual. 'Días por proyecto' no está medido.",
+  "pago": "Integradores facturan horas y pagan TIA/Studio 5000, pero no hay evidencia de pago por generadores de IO list; la señal adyacente es PLC Copilot ~US$99/mes (tercero, sin verificar con vendor).",
+  "alternativas_actuales": "Excel manual, export nativo, scripts Openness, ioList gratis (Rockwell L5X), PLC Copilot, PLC-Wizz, SDA, EcoStruxure Documentation. El defensor concedió que su 'sin competidor' era incompleto. F1 parcial para Rockwell, no concluyente para TIA.",
+  "canal_y_cac": "SEO de cola larga poco disputado, pero sin volumen verificado; PLCTalk/r/PLC rechazan autopromoción y no hay marketplace. Ambos lados admiten que es el punto débil.",
+  "retencion": "Uso por proyecto, churn alto en plan mensual; EcoStruxure se vende por paquete de análisis. Obliga a modelo anual o por proyecto, que reduce el MRR recurrente.",
+  "mercado": "Nicho chico: cifras de integradores antiguas o sin URL (CSIA ~2,200 hacia 2002; >4,000 sin verificar). A US$29 harían falta ~345 pagadores; a US$49-79 ~127-205, sin evidencia de ese precio.",
+  "defensa_frente_a_copias": "Foso débil: Siemens puede mejorar el export, Openness permite scripts propios, competidores con IA ya entran. Solo protegen el conocimiento de nomenclatura y la restricción offline, esta última sin verificar.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP acotado (L5X de Rockwell o exports XML/AML de TIA) factible en ~6 semanas y ventaja de Juan máxima; el multi-versión y el mantenimiento del parser son carga permanente, y la distribución sigue siendo su cuello de botella."
+ },
+ "resumen_P1": "Atacante: dolor episódico, TIA y ABB con export nativo, ioList gratis y PLC Copilot de pago; sin evidencia de búsqueda ni de pago. Defensor: concedió que existen competidores que no halló, pero sostiene que nadie ofrece IO-list-first offline y que la categoría tiene pagadores y un MVP L5X viable.",
+ "resumen_P2": "Atacante: demanda y pago sin verificar, mercado chico (cifra de 2002), churn alto y foso débil; concedió que dos búsquedas no hallaron un generador dedicado y que el MVP reducido cabe. Defensor: las rutas nativas son manuales y no dan un entregable formal; concedió que el mercado es chico, el canal débil y que no hay datos de pago.",
+ "razonamiento": "Ambos pares coinciden en que el dolor es real pero episódico, que el mercado es chico y que canal y disposición de pago no están verificados. Difieren en competidores: P1 halló PLC Copilot, ioList y otros; P2 no halló un generador dedicado. Prevalece P1, porque tiene URLs y el defensor de P1 concedió el hallazgo. Mi búsqueda confirmó PLC Copilot con soporte de TIA y Studio 5000 y precio de listado de terceros contradictorio; no mostró IO list específica. Eso valida que la categoría paga, pero el ángulo IO-list-first no está probado ni su canal. Total 35 (media), lejos de la banda alta; solo vale validar con un experimento barato de preventa y SEO antes de construir.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "PLC Copilot desde US$99/mes en listado de terceros; precios conflictivos",
+   "url": "https://www.capterra.com/p/10045128/PLC-Copilot/"
+  },
+  {
+   "afirmacion": "PLC Copilot en Software Advice, soporta Studio 5000 y TIA",
+   "url": "https://www.softwareadvice.com/product/552644-PLC-Copilot/"
+  },
+  {
+   "afirmacion": "ioList gratis: L5X de Rockwell a CSV",
+   "url": "https://github.com/tnunnink/ioList"
+  },
+  {
+   "afirmacion": "IO list como entregable estándar de integradores (blog único)",
+   "url": "https://industrialmonitordirect.com/blogs/knowledgebase/hiring-plc-programmers-best-practices-for-integrator-selection"
+  },
+  {
+   "afirmacion": "TIA: rutas nativas de export a Excel/PDF/AML",
+   "url": "https://industrialmonitordirect.com/blogs/knowledgebase/export-tia-portal-device-list-excel-pdf-and-cax-methods"
+  },
+  {
+   "afirmacion": "ABB Automation Builder exporta mapeo IO a CSV nativo",
+   "url": "https://help.plc.abb.com/exporting_io_mapping_to_csv.html"
+  }
+ ],
+ "busquedas_usadas": 1
+}

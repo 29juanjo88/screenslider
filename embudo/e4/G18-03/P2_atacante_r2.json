@@ -1,0 +1,84 @@
+{
+ "id": "G18-03",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor admite que el dolor es episodico y sin datos de tasa de rechazo; yo concedo que el problema de fabricabilidad es real (los talleres ofrecen DFM con cada cotizacion precisamente porque hay rechazos) y que es plausible en equipos que piden chapa con frecuencia.",
+   "refuto": "Que los fabricantes den DFM gratis no prueba urgencia ni que el ingeniero pague: prueba que el rechazo se resuelve dentro de la compra normal. La frecuencia y el costo siguen sin verificar en ambos lados.",
+   "evidencia": [
+    {"afirmacion": "QDJ ofrece revision DFM gratis con la cotizacion (revision de ingeniero con informe en 24 h, no chequeo instantaneo)", "url": "https://qdj-prototype.com/dfm-engineering-review/"},
+    {"afirmacion": "Tasa y costo de rechazo por errores DFM de chapa", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "El defensor es honesto al reconocer que el pago a US$49 no esta verificado. Concedo ademas que existen herramientas DFM comerciales de chapa (DFMPro, con reglas de radio minimo de plegado y distancia entre recortes) y que Design2Fab prueba que hay suscripciones por software de chapa; y que Toolpath cobra US$125/asiento/mes (anual), otro precedente de pago en la categoria CAM/DFM.",
+   "refuto": "Design2Fab es layout de ductos para fabricantes (otro comprador y otro trabajo), y Toolpath es CAM/cotizacion para talleres de mecanizado; ninguno prueba que un comprador de piezas pague por pre-chequeo. DFMPro es add-in CAD empresarial sin precio publico (el US$74.99 de SourceForge esta junto a otro producto, no atribuible). Los precedentes son de talleres/fabricantes, no del segmento objetivo.",
+   "evidencia": [
+    {"afirmacion": "Design2Fab: US$79.99/usuario/mes, software de layout de chapa", "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"},
+    {"afirmacion": "DFMPro integra reglas de chapa (radio de plegado, distancia entre recortes) dentro de CAD; precio mensual no publicado", "url": "https://www.automation.com/article/geometric-releases-dfmpro-cad-for-sheet-metal"},
+    {"afirmacion": "Toolpath cobra US$125/asiento/mes anual, producto para talleres CAM/cotizacion", "url": "https://www.toolpath.com/pricing/team"},
+    {"afirmacion": "Disposicion de pago por DFM independiente de chapa a US$49", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo al defensor que mi segunda busqueda de nuevo no hallo un verificador DFM de chapa autoservicio, gratis y neutral para DXF+STEP: los resultados fueron cotizadores (Wsoptics, QDJ) y DFM de PCB (JLCPCB, AdvancedPCB). El hueco es real. Tambien concedo que el DFM gratis exige subir la pieza a cada proveedor y no sirve para comparar.",
+   "refuto": "Que el hueco exista no neutraliza F1: el DFM gratis ya cubre la necesidad de quien esta por comprar, y los usuarios de CAD tienen reglas nativas/add-ins (DFMPro; DFMXpress segun reseller, sin verificar para chapa). El defensor no probo que 'comparar proveedores' sea un trabajo por el que alguien pague.",
+   "evidencia": [
+    {"afirmacion": "Wsoptics acepta STEP/DXF/DWG y verifica fabricabilidad dentro de la cotizacion", "url": "https://wsoptics.de/shop"},
+    {"afirmacion": "DFM gratis solo dentro del flujo de cotizacion (QDJ)", "url": "https://qdj-prototype.com/dfm-engineering-review/"},
+    {"afirmacion": "Los verificadores DFM autoservicio gratis encontrados son de PCB, no de chapa", "url": "https://dfm.jlcpcb.com"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "El defensor reconoce que el canal es plausible, no probado, sin volumen de busqueda ni CAC; concedo que un checker gratuito limitado con reporte compartible es un mecanismo PLG coherente y que el SEO evergreen tecnico puede traer trafico sin ads.",
+   "refuto": "La consulta 'checklist' es informativa y la satisface contenido gratis de los propios talleres; el freemium podria canibalizar el pago. El pivote a API white-label para plataformas de cotizacion es B2B con ciclo de compra, contrario al brief. Ninguna cifra verificada.",
+   "evidencia": [
+    {"afirmacion": "Plataformas de cotizacion como DigiFabster ya integran el DFM; un white-label seria venta B2B a quien ya lo tiene", "url": "https://digifabster.com/products/instant-quoting-solution/"},
+    {"afirmacion": "Volumen de busqueda y CAC de 'sheet metal DFM checklist'", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Ambos coincidimos en que el uso es episodico y que no hay datos; concedo que planes por equipo, historial de reportes y reglas personalizables por proveedor podrian mitigar el churn en equipos con compras recurrentes.",
+   "refuto": "Las mitigaciones son hipotesis sin evidencia; el defensor mismo la llama 'el punto mas incierto'. El segmento recurrente (job shops de diseno, OEM chicos) es menor y mas cercano a quienes ya tienen DFMPro o similar.",
+   "evidencia": [
+    {"afirmacion": "Retencion/churn de herramientas DFM por suscripcion", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El defensor tiene razon en que el gasto global en fabricacion de chapa es enorme y que el numero de ingenieros compradores podria ser de decenas de miles; concedo que mi r1 tampoco aporta una cifra en contra, y que mercado 3 no es descabellado.",
+   "refuto": "Las cifras de USD 22 a 87 mil millones son de servicios de fabricacion, no de software DFM, como el propio defensor admite; no dimensionan compradores de pre-chequeo. El mercado alcanzable (compran chapa, sin DFM nativo, y pagarian) sigue sin fuente.",
+   "evidencia": [
+    {"afirmacion": "El mercado citado es de servicios de fabricacion de chapa, no de software DFM", "url": "https://www.gminsights.com/industry-analysis/sheet-metal-fabrication-services-market"},
+    {"afirmacion": "Numero de compradores potenciales de DFM autoservicio", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo al defensor la neutralidad multi-proveedor (Xometry/Protolabs usan el DFM como gancho de venta) y la ventaja de dominio de Juan; el foso por biblioteca de reglas por proveedor es una direccion posible.",
+   "refuto": "El foso por datos/reglas no tiene evidencia; las reglas DFM son publicas, y quienes tienen miles de pedidos reales (plataformas de cotizacion) y CAD con DFM integrado (DFMPro) pueden replicar o regalar el chequeo. Un LLM/agente tambien comoditiza el tema (paquete MCP de DFM de terceros; alcance en chapa sin verificar).",
+   "evidencia": [
+    {"afirmacion": "Las plataformas de cotizacion integran DFM en su flujo", "url": "https://digifabster.com/products/instant-quoting-solution/"},
+    {"afirmacion": "Existe un paquete MCP de DFM de terceros (alcance en chapa sin verificar)", "url": "https://jsr.io/@casys/mcp-dfm@0.3.0"},
+    {"afirmacion": "Foso por datos/reglas por proveedor", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo plenamente al defensor que un MVP de DXF plano con reglas basicas (agujero-borde, brida minima, alivio) en ~6 semanas es plausible y que la experiencia de Juan en chapa/CAD es un punto fuerte real; ya lo habia dicho en r1.",
+   "refuto": "La dificultad esta en STEP 3D (deteccion de pliegues) y en los falsos positivos, que destruyen la confianza; el defensor lo admite sin dar tiempos verificados. Y la ejecucion tecnica no resuelve el cuello de botella de distribucion y pago. Un MVP solo DXF cubre menos al comprador que sube STEP.",
+   "evidencia": [
+    {"afirmacion": "Complejidad del reconocimiento de features de chapa desde STEP y tasa de falsos positivos", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "El hueco es real: dos busquedas mias no hallaron un verificador DFM de chapa autoservicio, neutral y con DXF+STEP, y el MVP DXF en 6 semanas con ventaja de dominio de Juan es plausible. Tambien concedo que existen herramientas de pago en la categoria (Design2Fab, DFMPro, Toolpath), aunque no del segmento comprador.",
+ "punto_que_sigue_en_pie": "La disposicion de pago del comprador de piezas sigue sin evidencia en ambos lados, mientras el DFM gratis atado a la cotizacion y las reglas nativas/DFMPro en CAD erosionan el valor; sumado a uso episodico, canal informativo (no de compra) y pivote white-label que es venta B2B, la idea se queda en MEDIA-baja y el hueco puede reflejar poca demanda.",
+ "busquedas_usadas": 2
+}

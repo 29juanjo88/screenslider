@@ -1,0 +1,47 @@
+{
+ "id": "G20-17",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 3,
+  "diferenciacion": 2,
+  "ventaja_juan": 4,
+  "mvp": 3,
+  "riesgo": 3
+ },
+ "total": 33,
+ "hecho_decisivo": "Existen estimadores CNC de autoservicio con precio publico: QuoteForge (Gridex AI) Starter $99/mes (cifras de listados de terceros, moneda euros segun SoftwareSuggest) y Machestra gratis/$19/$79 (job costing mas delgado). Prueba pago en la categoria, pero tambien que el MVP acotado (heuristicas STEP/DXF) ya esta cubierto y que el canal 'cnc job costing software' no tiene volumen verificado.",
+ "condicion": "Confirmar que existe demanda de busqueda/compra en el canal nombrado (keyword 'cnc job costing software' y similares con volumen y bajo KD, mas hilos activos en Practical Machinist) Y un angulo diferenciador viable frente a QuoteForge/Machestra (p.ej. estimacion desde tiempos de ciclo CAM/G-code) que quepa en un MVP de ~6 semanas.",
+ "experimento_mas_barato": "Landing page con propuesta 'estima costo y tiempo desde STEP/CAM' + precio $69 y boton de pre-pago/lista de espera; publicar 3-4 articulos SEO y participar en Practical Machinist/r/machinists. Metrica: visitantes cualificados -> pre-pagos/depositos. Umbral: >=15 pre-pagos o >=40 emails cualificados con intencion de compra en 6 semanas (conversion >=3%); si <5, descartar.",
+ "dimensiones": {
+  "dolor": "Dolor plausible (estimar a ojo erosiona margen) y reconocido por la existencia de la categoria, pero ambos pares coinciden en que no hay cuantificacion de perdida ni urgencia semanal.",
+  "pago": "Pago demostrado en la categoria ($19-$99+/mes en autoservicio) y $69 cae en el rango; ambos atacantes concedieron esto en r2, pero no prueba pago por este producto concreto, con Machestra gratis anclando abajo.",
+  "alternativas_actuales": "QuoteForge y Machestra cubren autoservicio barato; Paperless Parts, ProShop y JobBOSS tienen mas profundidad; la hoja de calculo gratis sigue siendo la alternativa real.",
+  "canal_y_cac": "Canal SEO y Practical Machinist nombrado pero sin volumen ni actividad verificados; ambos pares lo mantienen como el punto mas debil (peso x3).",
+  "retencion": "Sin evidencia; el costeo es herramienta de uso recurrente por cotizacion, pero talleres pequenos pueden volver a hojas de calculo; sin verificar.",
+  "mercado": "Talleres pequenos de maquinado globales son un universo grande (decenas de miles) pero fragmentado; ~145 clientes para $10k MRR es modesto, ~725 para $50k exigente.",
+  "defensa_frente_a_copias": "Debil: el MVP con heuristicas STEP/DXF es copiable y ya lo ofrecen incumbentes; el diferenciador desde CAM no cabe en 6 semanas (concedido por ambos defensores).",
+  "ejecucion_una_persona_tiempo_parcial": "MVP acotado factible en ~6 semanas con la ventaja de Juan en CAM/manufactura; la version que importa CAM nativo es dificil y se debe posponer."
+ },
+ "resumen_P1": "Ataque: sin canal ni demanda verificados y sin foso frente a QuoteForge/Machestra. Defensa: categoria con pago de autoservicio publicado, canal SEO nombrado y ventaja real de Juan; concede que la diferenciacion es muy debil.",
+ "resumen_P2": "Ataque: el MVP factible es lo que QuoteForge ya hace y la version diferenciada no cabe en 6 semanas; canal sin evidencia. Defensa: pago demostrado ($19-$99), ventaja CAM de Juan y que el atacante no verifico volumen; concede ausencia de foso y canal.",
+ "razonamiento": "Ambos pares convergen: pago de categoria real y MVP acotado factible, pero canal (x3) y diferenciacion sin evidencia. Las concesiones de r2 de los defensores sobre diferenciacion y canal pesan mas que la insistencia en la ventaja de Juan. La busqueda confirmo precios publicos de Machestra y QuoteForge, lo que valida pago pero tambien competencia barata directa. El total 33 cae en banda media, lejos de ALTA que busca el brief. Solo vale la pena si se valida demanda de busqueda y un angulo desde CAM; por eso CONDICIONAL con probabilidad baja.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Machestra: gratis (3 maquinas), $19 y $79/mes; job costing mas delgado",
+   "url": "https://www.capterra.com/software/1108556/Machestra"
+  },
+  {
+   "afirmacion": "QuoteForge (Gridex AI) Starter $99/mes, Growth $349, Pro $899 (listados de terceros)",
+   "url": "https://www.softwaresuggest.com/quoteforge"
+  },
+  {
+   "afirmacion": "Categoria de software de estimacion/cotizacion con varios vendors",
+   "url": "https://softwareconnect.com/roundups/best-manufacturing-estimating-quoting-software/"
+  }
+ ],
+ "busquedas_usadas": 2
+}

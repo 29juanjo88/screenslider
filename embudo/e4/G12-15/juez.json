@@ -1,0 +1,59 @@
+{
+ "id": "G12-15",
+ "veredicto": "DESCARTADA",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 3,
+  "diferenciacion": 1,
+  "ventaja_juan": 3,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 31,
+ "hecho_decisivo": "Whalesync y Stacksync tienen paginas dedicadas de sync bidireccional Airtable-Postgres/Supabase (https://whalesync.com/connect/airtable-supabase, https://www.stacksync.com/integrations/airtable-and-supabase), Whalesync desde ~$5-49/mes segun terceros (precio oficial sin verificar); ambos defensores concedieron diferenciacion/defensa casi nula y que el Airtable Marketplace no esta confirmado para un servicio de sync externo (guia oficial es para extensiones: https://www.airtable.com/developers/apps/guides/submit-to-marketplace). El SEO esta ocupado y no hay canal nombrado y verificado (F4 en riesgo).",
+ "condicion": "",
+ "experimento_mas_barato": "Landing page de una pagina con 'Airtable to Supabase typed-schema sync' y lista de espera con precio $49 visible, mas 3-4 respuestas utiles en comunidad Airtable/r/Airtable y long-tail SEO. Metrica: emails con intencion de pago/preorders. Umbral: >=30 registros calificados y >=5 preventas/entrevistas dispuestas a pagar $49 en 4 semanas; si no, matar.",
+ "dimensiones": {
+  "dolor": "Limite de 5 req/s por base y cuotas mensuales documentados oficialmente (https://airtable.com/developers/web/api/rate-limits); ambos pares coinciden en que es real pero episodico y sin evidencia de busqueda activa de pago.",
+  "pago": "Presupuesto validado por Stacksync ($1,000+/mes) y planes de pago de Whalesync, pero el tramo de $49 para un entrante no esta validado y los precios de Whalesync discrepan entre fuentes (oficial sin verificar).",
+  "alternativas_actuales": "Whalesync, Stacksync, Peliqan, Airbyte OSS, scripts propios, Zapier/Make y sync nativo unidireccional; las paginas de Whalesync/Stacksync ya cubren Airtable-Supabase, anulando el hueco de precio y el angulo propuesto.",
+  "canal_y_cac": "Los cuatro roles concedieron que el SEO esta ocupado y que el Airtable Marketplace no esta verificado para sync externo; solo quedan foros y long-tail sin evidencia de conversion ni CAC.",
+  "retencion": "Sin datos; el sync es infraestructura con costo de cambio para quien conserva Airtable, pero el cliente que se gradua a Postgres cancela, por lo que ambos pares lo dejan como inferencia.",
+  "mercado": "Base total de Airtable grande (450-500k organizaciones segun terceros discrepantes) pero la fraccion direccionable es sin verificar y ya la disputan al menos cuatro vendors; se necesitan ~204 clientes a $49 para $10k.",
+  "defensa_frente_a_copias": "Casi nula, concedida por ambos defensores: sin moat, Whalesync puede bajar precio y Airtable podria ampliar su sync nativo.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP unidireccional con upsert por lotes cabe en ~6 semanas y encaja con Juan, pero el bidireccional fiable, la guardia operativa de datos de clientes y la distribucion lo cargan; el MVP unidireccional compite con Airbyte gratis."
+ },
+ "resumen_P1": "Ataque: Whalesync (desde ~$5) ya ocupa el rango bajo y el SEO, el Marketplace no esta verificado y el cliente migra y cancela. Defensa: pago validado por ambos extremos, dolor de 5 req/s documentado y MVP unidireccional factible, pero concedio que no hay defensa ni canal confirmado.",
+ "resumen_P2": "Ataque: Whalesync y Stacksync ya tienen paginas two-way Airtable-Postgres/Supabase, anulando el angulo del defensor, y no hay listado en el Marketplace. Defensa: el sync bidireccional con mapeo no lo cubre gratis Airbyte y hay rango intermedio sin competidor verificado, pero concedio canal y moat debiles y que la distribucion es el punto flojo de Juan.",
+ "razonamiento": "Ambos pares coinciden en los hechos clave: dolor real pero episodico, pago validado por competidores, diferenciacion casi nula y canal no verificado. Las concesiones de los defensores en ronda 2 (sin moat, SEO ocupado, Marketplace no confirmado para sync externo) son evidencia fuerte contra el criterio de canal, que pesa x3. El hueco de precio entre Whalesync y Stacksync no se sostiene porque Whalesync cubre desde ~$5-200 y ya tiene paginas Supabase. El total ponderado queda en 31, banda BAJA, por debajo de la ancla MEDIA (37). No se aplica descarte formal F1 (los incumbentes son de pago) pero F4 queda en riesgo serio; no hay condicion concreta que rescate la idea sin un angulo nuevo.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Limite 5 req/s por base y cuotas por plan en la API de Airtable",
+   "url": "https://airtable.com/developers/web/api/rate-limits"
+  },
+  {
+   "afirmacion": "Stacksync Starter $1,000/mes",
+   "url": "https://www.stacksync.com/pricing.md"
+  },
+  {
+   "afirmacion": "Whalesync tiers $5/$20/$40/$200 segun tercero; oficial sin verificar",
+   "url": "https://pricingsaas.com/companies/whalesync"
+  },
+  {
+   "afirmacion": "Whalesync pagina dedicada Airtable-Supabase",
+   "url": "https://whalesync.com/connect/airtable-supabase"
+  },
+  {
+   "afirmacion": "Stacksync integracion Airtable-Supabase",
+   "url": "https://www.stacksync.com/integrations/airtable-and-supabase"
+  },
+  {
+   "afirmacion": "Guia de envio al Airtable Marketplace es para extensiones",
+   "url": "https://www.airtable.com/developers/apps/guides/submit-to-marketplace"
+  }
+ ],
+ "busquedas_usadas": 0
+}

@@ -1,0 +1,47 @@
+{
+ "id": "G06-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 2,
+  "mercado": 2,
+  "diferenciacion": 2,
+  "ventaja_juan": 4,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 30,
+ "hecho_decisivo": "El incumbente directo PrintPrice en WordPress.org (STL gratis hasta 5 pedidos pagados/mes; STEP y más volumen en planes de pago vía Freemius) muestra solo '10+' instalaciones activas y 1 reseña: el canal existe pero la demanda observable es mínima y no hay prueba de pago a $29. Ningún filtro F1-F5 se activa de forma plena. (https://de.wordpress.org/plugins/printprice-3d-calculator/)",
+ "condicion": "Confirmar demanda de pago real: que al menos 10 dueños de tiendas de impresión 3D bajo pedido con STL/WooCommerce acepten pagar US$29/mes (o prepago/lista de espera con tarjeta) y que el volumen de búsqueda del directorio sea suficiente para 100 pagadores.",
+ "experimento_mas_barato": "Landing en inglés 'Instant STL quotes for WooCommerce (real slicer accuracy)' + lista de espera con preventa de US$29/mes, tráfico gratis: publicaciones en comunidades de print farms/WooCommerce/r/3Dprinting (respetando reglas) y 30 mensajes directos a tiendas 3D con WooCommerce. Métrica: preventas/depósitos pagados. Umbral: >=10 preventas o >=40 registros con >=5 pagos en 3 semanas; si <3 pagos, matar.",
+ "dimensiones": {
+  "dolor": "Cotizar a mano cada STL es trabajo repetitivo real; ambos pares coinciden en dolor 3 y sin evidencia de urgencia ni de pedidos perdidos.",
+  "pago": "PrintPrice cobra planes de pago, pero con plan gratis y SlicePress GPL; precios sin verificar y sin evidencia de disposición a $29. Concedido por ambos pares como debilitado.",
+  "alternativas_actuales": "Cotización manual, PrintPrice (cloud, estimación por masa, STEP de pago) y SlicePress (GPL, slicing real, exige montar slicer). F1 no se activa plenamente: el gratis es limitado a 5 pedidos pagados/mes; huecos estrechos y no probados.",
+  "canal_y_cac": "WordPress.org es un canal nombrado pero con incumbente listado; su '10+' instalaciones sugiere demanda de búsqueda muy baja. Ambos defensores concedieron que es la dimensión más débil.",
+  "retencion": "Sin datos de churn; costo de cambio moderado (materiales y precios configurados) frente a tiendas pequeñas que cierran o bajan al plan gratis.",
+  "mercado": "Subnicho de tiendas WooCommerce de impresión 3D bajo pedido sin cifra verificada; ~345 pagadores a $29 para US$10k MRR es exigente.",
+  "defensa_frente_a_copias": "Casi nula: SlicePress es GPL con slicing real; solo la precisión calibrada es ventaja de ejecución no probada. Ambos pares concedieron.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP en ~6 semanas viable con PHP y slicing; el mantenimiento (WooCommerce, CPU de slicing, soporte) compite con la distribución, el cuello de botella de Juan."
+ },
+ "resumen_P1": "Ataque: canal ocupado por PrintPrice, SlicePress GPL sin defensa, ~345 pagadores en nicho sin cifras. Defensa: dolor real, precedente de pago, hueco en STEP/listo para usar, ejecución fuerte; concedió que canal y mercado son débiles.",
+ "resumen_P2": "Ataque: F1 parcial, diferenciación débil, ruta de primeros 100 pagadores no probada; concedió que F1 no se activa del todo y que el MVP es viable. Defensa: gratis limitado a 5 pedidos, huecos en resina/SLS y slicing local, aunque admitió falta de foso y de demanda verificada.",
+ "razonamiento": "Ambos pares convergen en lo mismo: dolor moderado, MVP factible, y debilidad en canal, diferenciación, defensa y tamaño, con casi todo lo demás sin verificar. Mi verificación indica que el incumbente solo tiene 10+ instalaciones y 1 reseña, lo que reduce la amenaza competitiva pero también indica poca demanda visible en el canal clave (peso x3). El plan gratis de 5 pedidos pagados no cubre a tiendas con volumen, así que no se activa F1. El total ponderado es 30 (banda BAJA, <32), lejos del objetivo de probabilidad alta. Vale la pena solo si un experimento barato demuestra pago real a $29.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "PrintPrice: 10+ instalaciones activas, 1 reseña, gratis hasta 5 pedidos pagados/mes, STEP solo de pago, planes 50/100/300 vía Freemius, sin precios listados",
+   "url": "https://wordpress.org/plugins/printprice-3d-calculator/"
+  },
+  {
+   "afirmacion": "PrintPrice cloud: parseo de mallas y tiempo desde 3MF o masa de filamento",
+   "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+  },
+  {
+   "afirmacion": "SlicePress GPL con slicing real (OrcaSlicer); crítica a estimadores por volumen",
+   "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+  }
+ ],
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,106 @@
+{
+ "id": "G04-03",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "Concedo que existe un usuario real que pidió ECO/BOM con aprobaciones y versionado, y que el defensor reconoce que es un solo hilo sin urgencia semanal probada.",
+   "refuto": "Refuto que 'se busca activamente' esté demostrado: un hilo individual no es búsqueda recurrente y el experto del mismo hilo cuestiona la necesidad de una app. Sin cifras de demanda.",
+   "evidencia": [
+    {
+     "afirmacion": "Hilo único; un experto cuestiona la necesidad de app",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo que existe presupuesto para ECO dentro de ERP/PLM (Acumatica, NetSuite, Odoo, Intellect) y que $200/mes sería más barato que un PLM; el defensor admite que no hay prueba de pago por una app Jira.",
+   "refuto": "Refuto que presupuesto en ERP/PLM implique pago por una app Jira: quien ya paga ERP con ECO no compra otra capa. Disposición de pago por app Jira: sin verificar. Mi cita de OpenBOM viene de agregadores, no oficial.",
+   "evidencia": [
+    {
+     "afirmacion": "ECO ya incluido en ERP (NetSuite)",
+     "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_1531288763.html"
+    },
+    {
+     "afirmacion": "Disposición de pago por app Jira ECO",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que mi búsqueda de esta ronda tampoco halló una app Marketplace ECR/ECN de manufactura con BOM, y que los flujos de Change Management hallados son IT, gratis y v1.0; el F1 es solo parcial.",
+   "refuto": "Refuto que sea un hueco confirmado: la búsqueda web no indexa Marketplace, por lo que la ausencia es no verificada. Las alternativas ERP/PLM/QMS y Jira configurado a mano siguen cubriendo la necesidad.",
+   "evidencia": [
+    {
+     "afirmacion": "Búsqueda r2: sin app Marketplace ECO/BOM identificada; sí NetSuite, Acumatica, Odoo",
+     "url": "https://platform.softwareone.com/product/engineering-change-control/PCP-0836-5237"
+    },
+    {
+     "afirmacion": "Flujos IT gratis v1.0",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que el canal es nombrado, con trial autoservicio y CAC potencialmente bajo; las cifras de Atlassian (cerca de 250k clientes cloud, 70% con apps) son de fuente oficial citada por el defensor (no releídas por mí).",
+   "refuto": "Refuto que esas cifras midan el canal relevante: son clientes de todo el Marketplace, en su mayoría IT/software, no fabricantes con necesidad ECO. Volumen de búsqueda ECO/change control: sin verificar. Nicho vacío puede ser demanda cero.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda ECO en Marketplace",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Concedo que registro de auditoría y aprobaciones generan lock-in moderado si se vuelve sistema de registro.",
+   "refuto": "Refuto que sea alto: desinstalar es de baja fricción y al auditarse/escalar migran a PLM/QMS. Ambos lados sin datos de churn: sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn apps Marketplace",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo que 50 a 100 clientes a $200 dan $10-20k MRR, una fracción pequeña de la base Jira cloud, y que alcanzar $10k es plausible.",
+   "refuto": "Refuto el uso de 250k como universo: el subconjunto manufactura con Jira sin ERP/PLM con ECO no está cuantificado (sin verificar); $50k exigiría 250 clientes en un nicho no medido.",
+   "evidencia": [
+    {
+     "afirmacion": "Fabricantes con Jira que necesitan ECR/ECN",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que el defensor admite foso débil y que el conocimiento de dominio y reseñas tempranas dan ventaja moderada de primer movimiento.",
+   "refuto": "Refuto que haya barrera técnica (sin evidencia) y que el conocimiento de dominio sea escaso: ECR/ECN es documentado. Atlassian o terceros pueden copiar el workflow.",
+   "evidencia": [
+    {
+     "afirmacion": "Barreras técnicas fuertes",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que el MVP en 6 semanas con Forge/TypeScript es viable y que la ventaja de stack de Juan es real.",
+   "refuto": "Refuto que el conocimiento PLC/CAD equivalga a dominio ECN/QMS, y que el requisito de aprobación/seguridad/soporte de Marketplace sea trivial a tiempo parcial (sin verificar). Regulados quedan fuera, y son quienes tienen presupuesto.",
+   "evidencia": [
+    {
+     "afirmacion": "Requisitos de aprobación Marketplace",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El hueco aparente en Marketplace es real hasta donde pude verificar (ninguna app ECR/ECN de manufactura hallada), el canal está nombrado, el MVP es viable y $10k MRR requiere solo ~50 clientes a $200.",
+ "punto_que_sigue_en_pie": "Demanda no probada: un solo hilo con un experto escéptico, ausencia no confirmada (puede ser demanda cero), ERP/PLM/QMS cubren a quien tiene presupuesto, y el foso es débil con dependencia de Atlassian.",
+ "busquedas_usadas": 1
+}

@@ -1,0 +1,63 @@
+{
+ "id": "G19-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 2,
+  "mercado": 2,
+  "diferenciacion": 3,
+  "ventaja_juan": 5,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 32,
+ "hecho_decisivo": "CODESYS Static Analysis (100+ reglas, PLCopen Coding Guidelines, distribuido tambien en Schneider Machine Expert y ABB) ya cubre el ecosistema abierto, con CI anunciado en un briefing de 2024 (lanzamiento sin verificar); ademas iec-checker/plceye/iecst son gratis. Ningun precedente de pago es una suscripcion autoservicio y no hay evidencia de demanda de busqueda ni de disposicion a pagar $29/mes. https://content.helpme-codesys.com/en/CODESYS%20Static%20Analysis/_san_overview.html",
+ "condicion": "Confirmar que equipos reales (fuera de CODESYS PDE) pagan por un linter ST independiente con reporte en PR: al menos 10 equipos con ST/SCL en Git que prepaguen o firmen carta de intencion a $29-49/mes, y que CODESYS/SIMATIC AX no ofrezcan ya linting en CI con reporte en PR.",
+ "experimento_mas_barato": "Landing page 'ST/SCL linter for CI' con demo estatica (salida SARIF simulada sobre codigo ST de ejemplo) y boton de preventa/lista de espera con precio; publicar 3 articulos tecnicos (reglas PLCopen, ejemplo CI con SCL via TIA VCI) y 1 post util en PLCtalk/r/PLC/foro CODESYS y B&R. Metrica: registros con intencion de pago. Umbral para avanzar: >=150 visitas cualificadas y >=30 emails en 4 semanas con >=5 preventas/compromisos a $29-49; si <10 emails o 0 preventas, descartar.",
+ "dimensiones": {
+  "dolor": "Dolor real pero difuso: errores en puesta en marcha, usuarios B&R/TwinCAT improvisan CI con Lizard/Jenkins; sin cifras de costo ni busqueda activa. Ambos pares coinciden en ~3.",
+  "pago": "Hay gasto en herramientas de analisis ST ligadas a IDE (CODESYS PDE US$660/ano por usuario, TE1200, Schneider, Itris 2017) pero ninguna prueba de pago por un linter independiente a $29/mes; se necesitan ~350 equipos para US$10k.",
+  "alternativas_actuales": "Fuertes y parciales: CODESYS Static Analysis (en Schneider y ABB), Beckhoff TE1200, Schneider Verification, Teamscale for Structured Text, Copia, y OSS gratis (iec-checker, plceye, iecst). Hueco plausible: multi-vendor con reporte en PR; CODESYS anuncio trabajo en CI. SIMATIC AX sin verificar. F1 solo parcial (no hay gratis dominante con UX de PR).",
+  "canal_y_cac": "Canal nombrado (busqueda, GitHub Marketplace, PLCtalk, r/PLC, foros CODESYS/B&R) pero sin intencion de compra demostrada; volumen de busqueda sin verificar y ambos pares lo concedieron; GitHub debil para ingenieros de control. F4 no se dispara formalmente.",
+  "retencion": "Si queda en CI con reglas de equipo hay costo de cambio, pero el trabajo por proyectos de integradores y la migracion a OSS/IDE nativo sugieren churn; sin datos. Segmento OEM mitiga.",
+  "mercado": "Sin cifra con fuente; subconjunto ST/SCL + Git/CI + presupuesto probablemente pequeno (estimado menor a 2,000, inferencia). TIA VCI exporta SCL como texto y amplia algo el segmento.",
+  "defensa_frente_a_copias": "Baja: reglas PLCopen publicas, parsers OSS existentes, fabricantes pueden integrarlo. El conocimiento de dominio de Juan es ventaja de ejecucion y tiempo, no foso; los dos defensores lo concedieron.",
+  "ejecucion_una_persona_tiempo_parcial": "Consenso de los cuatro roles: MVP de 6 semanas realista (parser + 20-30 reglas + SARIF/GitHub Action) con stack de Juan; riesgo en mantenimiento por dialecto, formatos cerrados (TIA, L5X) y soporte."
+ },
+ "resumen_P1": "Atacante: hallo CODESYS Static Analysis (100+ reglas, PLCopen, en Schneider/ABB) y su plan de CI, mas OSS gratis y cero evidencia de pago/canal. Defensor: concedio el incumbente y la copiabilidad, pero mostro gasto real en herramientas (PDE US$3,300, STweep US$99.99, TE1200) y que no hay CLI/CI documentado ni oferta multi-vendor.",
+ "resumen_P2": "Atacante: nicho diminuto sin demanda de pago, alternativas gratis y nativas, canal sin intencion de compra; concedio que ningun filtro F1-F5 cae con claridad y que el MVP es factible. Defensor: precedentes de pago (Schneider, Itris), camino de entrada via SCL por VCI y PLCopen XML, y ausencia de linter independiente con PR; concedio pago, mercado y moat sin evidencia.",
+ "razonamiento": "Ambos pares convergen: ventaja de Juan y MVP fuertes (5 y 4), pero pago, canal y mercado sin evidencia verificable, con concesiones explicitas de los defensores. El hallazgo de CODESYS Static Analysis y su direccion hacia CI reduce diferenciacion y defensa. Aun asi no hay filtro F1-F5 claramente disparado: ningun linter gratis dominante con reporte en PR y el canal esta nombrado. Con total 32 (limite inferior de media) y el canal ponderado x3 en 2, la probabilidad de alcanzar US$10-50k MRR vendiendo casi solo es baja. Vale la pena solo con una validacion de preventa muy barata antes de escribir producto.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "CODESYS Static Analysis: 100+ reglas y PLCopen Coding Guidelines",
+   "url": "https://content.helpme-codesys.com/en/CODESYS%20Static%20Analysis/_san_overview.html"
+  },
+  {
+   "afirmacion": "CODESYS PDE (incluye Static Analysis) US$3,300/ano 5 usuarios",
+   "url": "https://store.codesys.com/codesys-static-analysis.html"
+  },
+  {
+   "afirmacion": "Briefing CODESYS 2024: Static Analysis en CI (lanzamiento sin verificar)",
+   "url": "https://de.codesys.com/fileadmin/data/Images/Messen_und_Veranstaltungen/CODESYS-Feature-Briefing-032024/04_PDE.pdf"
+  },
+  {
+   "afirmacion": "iec-checker OSS gratis para ST y PLCopen XML",
+   "url": "https://awesome.ecosyste.ms/api/v1/projects/github.com%2Fjubnzv%2Fiec-checker"
+  },
+  {
+   "afirmacion": "Usuarios B&R improvisan analisis estatico de ST en CI con Lizard",
+   "url": "https://community.br-automation.com/t/static-code-analysis-in-ci-cd-using-lizard/8578"
+  },
+  {
+   "afirmacion": "Teamscale soporta Structured Text (competidor comercial adicional, precio sin verificar)",
+   "url": "https://teamscale.com/blog/en/news/blog/teamscale-for-structured-text"
+  },
+  {
+   "afirmacion": "SIMATIC AX: VS Code, CI; reglas de lint sin verificar",
+   "url": "https://developer.siemens.com/simatic-ax/overview.html"
+  }
+ ],
+ "busquedas_usadas": 1
+}

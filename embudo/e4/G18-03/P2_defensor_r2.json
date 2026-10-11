@@ -1,0 +1,80 @@
+{
+ "id": "G18-03",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es episodico, sin cuantificar (frecuencia y costo del rechazo sin verificar), y el rechazo suele resolverse dentro del flujo normal de cotizacion. No hay evidencia de busqueda activa.",
+   "refuto": "Que el taller ofrezca DFM con cada cotizacion confirma que el problema existe y es frecuente; que se corrija en una iteracion no lo hace gratis: cuesta dias de retraso. No hay dato que lo contradiga, solo ausencia de dato en ambos lados.",
+   "evidencia": [
+    {"afirmacion": "Los fabricantes ofrecen revision DFM con cada cotizacion (el problema es real)", "url": "https://qdj-prototype.com/dfm-engineering-review/"},
+    {"afirmacion": "Frecuencia y costo del rechazo", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Design2Fab es software de layout para fabricantes, no prueba pago por pre-chequeo de compradores; la disposicion de pago a US$49 sigue sin verificar y el DFM gratis al cotizar la erosiona. A US$49 se necesitan 200-1000 pagadores para la meta.",
+   "refuto": "Design2Fab si demuestra que profesionales de chapa pagan suscripcion mensual por software de chapa (precedente de categoria, no de este producto). DFMPro/DFX Analyzer existen como productos de pago, lo que indica presupuesto empresarial para DFM. No es prueba directa; solo la rebaja de 'nadie paga' a 'no verificado'.",
+   "evidencia": [
+    {"afirmacion": "Design2Fab cobra US$79.99/usuario/mes (precedente de suscripcion en software de chapa)", "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"},
+    {"afirmacion": "Pago por DFM independiente a US$49", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "El atacante tiene razon en F1 como riesgo serio, y mi busqueda confirma que DFMXpress (incluido con SOLIDWORKS) tiene un ajuste de proceso 'Sheet Metal' con reglas parametrizables, y su base DFMPro cubre radio minimo de plegado y distancia entre cortes. Por tanto, para usuarios de SOLIDWORKS existe una alternativa gratis nativa parcial que yo no habia considerado. Las reglas exactas actuales de DFMXpress para chapa (brida minima, agujero-borde, alivio) siguen sin verificar.",
+   "refuto": "DFMXpress exige licencia SOLIDWORKS y trabajar en ese CAD con modelo 3D; no sirve a quien tiene solo DXF, usa Fusion/Onshape/otro CAD, ni compara por proveedor/proceso. El atacante mismo admite que no hay verificador autoservicio gratis y neutral para DXF/STEP; ese hueco no fue refutado. Wsoptics y QDJ estan atados a su propia cotizacion.",
+   "evidencia": [
+    {"afirmacion": "DFMXpress tiene ajuste de proceso Sheet Metal con reglas parametrizables (resultado de busqueda; contenido detallado de reglas sin verificar)", "url": "https://help.solidworks.com/2019/english/SolidWorks/dfmxpress/t_rules_configuring.htm"},
+    {"afirmacion": "DFMPro (base de DFMXpress) agrego en 2009 reglas de radio minimo de plegado y distancia entre cortes (fuente antigua)", "url": "https://www.automation.com/article/geometric-releases-dfmpro-cad-for-sheet-metal"},
+    {"afirmacion": "DFM de DigiFabster esta dentro del flujo de cotizacion", "url": "https://digifabster.com/products/instant-quoting-solution/"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "'Sheet metal DFM checklist' es probablemente de intencion informativa, no hay marketplace con intencion de compra, el volumen y CAC estan sin verificar, y el white-label a plataformas de cotizacion es B2B con ciclo de compra, fuera del canal principal del brief. Reddit penaliza la autopromocion.",
+   "refuto": "Un checker gratuito limitado con reporte compartible convierte trafico informativo en producto (PLG), y no depende de que el checklist sea el producto final. Aun asi, afirmar que funciona seria especulacion; el atacante tampoco aporta datos de que no funcione.",
+   "evidencia": [
+    {"afirmacion": "Volumen de busqueda y CAC", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "El uso es ligado a proyectos, churn alto previsible en plan mensual individual, y el valor puede agotarse cuando el disenador aprende las reglas. No hay datos de retencion.",
+   "refuto": "Equipos con compra recurrente (job shops de diseno, OEM chicos) retienen mejor; plan por equipo y reglas personalizadas por proveedor aumentan el costo de salida. El atacante admite que ese segmento existe. No hay evidencia, por lo que esto es mitigacion, no refutacion.",
+   "evidencia": [
+    {"afirmacion": "Retencion de herramientas DFM por suscripcion", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "No existe cifra verificable de compradores potenciales de DFM de chapa independiente; las cifras de mercado de servicios de chapa que cite no miden el software DFM, y el mercado alcanzable real es menor que el total de ingenieros.",
+   "refuto": "El atacante tampoco aporta cifra; afirmar 'mucho menor' es sin evidencia. El gasto global en servicios de chapa indica una base amplia de compradores de piezas, aunque la conversion a pagadores de software es desconocida.",
+   "evidencia": [
+    {"afirmacion": "Mercado de servicios de fabricacion de chapa ~USD 87.3 mil millones en 2025 (mide servicios, no software DFM)", "url": "https://www.gminsights.com/industry-analysis/sheet-metal-fabrication-services-market"},
+    {"afirmacion": "Numero de compradores potenciales de DFM autoservicio", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Las reglas son conocimiento publico, las plataformas de cotizacion tienen datos reales de rechazos que Juan no tendra, pueden exponer su DFM, y los LLM/agentes CAD y paquetes como el MCP dfm sugieren comoditizacion. No hay foso tecnico fuerte.",
+   "refuto": "El paquete MCP tiene alcance sobre chapa sin verificar, asi que no demuestra comoditizacion en este nicho. Las plataformas de cotizacion usan el DFM como gancho de venta propio, por lo que la neutralidad multi-proveedor no es su incentivo. Es un argumento de incentivos, no un foso.",
+   "evidencia": [
+    {"afirmacion": "Plataformas integran DFM dentro del flujo de pedido", "url": "https://digifabster.com/products/instant-quoting-solution/"},
+    {"afirmacion": "Paquete MCP dfm de terceros (alcance sobre chapa sin verificar)", "url": "https://jsr.io/@casys/mcp-dfm@0.3.0"}
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "STEP a features de chapa con pocos falsos positivos es dificil (kernel OpenCascade, tuning por proceso/material), un reporte con falsos positivos destruye la confianza, y la ventaja tecnica no resuelve la distribucion.",
+   "refuto": "El propio atacante admite que un MVP de solo DXF 2D con reglas basicas en 6 semanas es plausible, y que la experiencia de Juan en chapa/CAD ayuda. Reglas planas (agujero-borde, brida minima via tablas) son geometria 2D abordable, y se puede etiquetar el reporte como asesoria para controlar expectativas.",
+   "evidencia": [
+    {"afirmacion": "Dificultad del reconocimiento de features desde STEP", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "F1 es mas fuerte de lo que admiti en ronda 1: DFM gratis atado a cotizacion mas DFMXpress nativo con modo Sheet Metal en SOLIDWORKS cubren parte del trabajo sin costo, y la disposicion de pago a US$49 sigue sin ninguna evidencia, con uso episodico que presiona el churn.",
+ "punto_que_sigue_en_pie": "Nadie, ni el atacante, hallo un verificador DFM de chapa autoservicio, neutral, DXF+STEP y con precio publico; el nicho de usuarios sin SOLIDWORKS o con solo DXF, el MVP DXF 2D en ~6 semanas y la ventaja de dominio de Juan siguen intactos, aunque la demanda de pago requiere validacion previa con landing y prepagos.",
+ "busquedas_usadas": 1
+}

@@ -1,0 +1,55 @@
+{
+ "id": "G10-19",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 3,
+  "mercado": 2,
+  "diferenciacion": 2,
+  "ventaja_juan": 5,
+  "mvp": 3,
+  "riesgo": 2
+ },
+ "total": 35,
+ "hecho_decisivo": "RenderDraw (app Salesforce-native) ya convierte CAD y coloca un componente 3D en record pages, con una reseña G2 que menciona técnicos de field service; ambos pares concedieron en r2 que el 'hueco' se estrechó. Cobertura de Work Orders y listing AppExchange siguen sin verificar (mi búsqueda tampoco los confirmó). Además el universo (fabricantes con Salesforce Field Service y CAD) no tiene cifra y se necesitan ~70-560 orgs. https://agentcommunity.org/m/renderdraw",
+ "condicion": "Confirmar en AppExchange directamente que RenderDraw u otro ISV NO cubre Work Orders de Field Service con STEP/DXF, y que la búsqueda 'Field Service'/'CAD'/'3D viewer' muestra demanda (listings con reseñas/instalaciones) suficiente para ~100 orgs.",
+ "experimento_mas_barato": "Sin escribir producto: (1) revisar manualmente AppExchange (búsquedas 'CAD', '3D viewer', 'Field Service drawings') y listar competidores, precios y número de reseñas; (2) landing page + demo en video (mockup) dirigida a admins/field service managers de fabricantes vía comunidad Trailblazer/LinkedIn orgánico/Reddit r/salesforce, con lista de espera y preventa a US$89/mes. Métrica: signups cualificados (usan Field Service y suben CAD). Umbral: >=30 en 4 semanas y >=5 preventas/cartas de intención; si <10 signups o RenderDraw cubre Work Orders con precio similar, matar.",
+ "dimensiones": {
+  "dolor": "Real pero moderado y episódico; la app nativa no muestra 3D, pero PDF/imagen adjunto es sustituto gratis y no hay cifras de pérdida. Ambos pares concedieron falta de evidencia cuantificada.",
+  "pago": "Solo ancla verificada es RenderDraw Visual CPQ desde US$25/usuario (otro producto); US$89/org sin respaldo directo, aunque hay presupuesto de ecosistema Salesforce y AppExchange.",
+  "alternativas_actuales": "RenderDraw ya ofrece CAD/3D en record pages de Salesforce y Accusoft maneja CAD genérico; PDFs adjuntos son gratis. Cobertura de Work Orders de RenderDraw sin verificar; Dynamics tiene visor nativo en otra plataforma.",
+  "canal_y_cac": "AppExchange es canal nombrado y de intención, sin outbound; security review US$999 en doc v244 (bajo, no F3). Volumen de búsqueda para CAD + Field Service sin verificar y probablemente pequeño.",
+  "retencion": "Sin datos de churn; componente embebido da costo de cambio bajo-medio, pero churn total si cambian de FSM o la plataforma/otro ISV cubre la función.",
+  "mercado": "Nicho de miles como máximo; ambos defensores concedieron que es la dimensión más débil. Se requieren ~70-110 orgs para US$10k y ~560 para US$50k sin cifra del universo.",
+  "defensa_frente_a_copias": "Moat débil: copiable en semanas, RenderDraw ya dentro del ecosistema y Microsoft lo trae nativo. Solo expertise de conversión CAD (STEP/IGES con ensambles) y velocidad.",
+  "ejecucion_una_persona_tiempo_parcial": "Visor y conversión CAD son fortaleza de Juan; la capa Apex/LWC, managed package y security review son curva nueva y su plazo no está verificado. MVP en ~6-8 semanas, ingresos posiblemente tras 6 meses."
+ },
+ "resumen_P1": "Ataque: RenderDraw ya es Salesforce-native con CAD y componente 3D usable en record pages, precio ancla US$25/usuario, nicho sin cifras y dependencia de Salesforce; Dynamics ya trae visor 3D. Defensa: no se confirmó ningún visor CAD específico de Work Orders, canal AppExchange de intención con review de US$999 y ventaja CAD; concedió que el hueco es más estrecho y mercado el punto más débil.",
+ "resumen_P2": "Ataque: nicho minúsculo, RenderDraw presente con motor de conversión CAD (poner el visor en Work Order sería configuración), precio y volumen de búsqueda sin respaldo. Defensa: Siemens Teamcenter SLM y CareAR en AppExchange validan el vínculo producto-servicio, cobertura de Work Orders de RenderDraw no confirmada, y concedió diferenciación baja.",
+ "razonamiento": "Ambos pares coinciden en lo esencial: canal nombrado y ventaja CAD reales, pero nicho pequeño, dependencia total de Salesforce, defensa débil y demanda/volumen sin verificar. La concesión decisiva de r2 es que RenderDraw ya ofrece CAD/3D en Salesforce con mención a técnicos de field service, lo que reduce la diferenciación aunque no se confirmó cobertura de Work Orders. Mi búsqueda adicional tampoco resolvió ese punto. Con 35 puntos queda en banda media, lejos del umbral alto de 44, y alcanzar US$10k MRR exige 70-110 orgs en un universo no cuantificado. Ningún filtro F1-F5 se activa claramente, así que no se descarta, pero solo vale validar si un chequeo barato de AppExchange y demanda confirma hueco y volumen.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "RenderDraw: CAD a 3D en Salesforce, listing/Work Orders no confirmados",
+   "url": "https://agentcommunity.org/m/renderdraw"
+  },
+  {
+   "afirmacion": "RenderDraw Visual CPQ desde US$25/usuario",
+   "url": "https://www.capterra.ie/software/1092246/Visual-CPQ"
+  },
+  {
+   "afirmacion": "Security review US$999 en doc v244",
+   "url": "https://developer.salesforce.com/docs/atlas.en-us.244.0.packagingGuide.meta/packagingGuide/security_review_fees.htm"
+  },
+  {
+   "afirmacion": "Dynamics 365 Field Service con visor 3D nativo",
+   "url": "https://learn.microsoft.com/en-us/dynamics365/field-service/3d-viewer"
+  },
+  {
+   "afirmacion": "App Field Service nativa sin visualización 3D",
+   "url": "https://apps.apple.com/app/id1163307568"
+  }
+ ],
+ "busquedas_usadas": 1
+}

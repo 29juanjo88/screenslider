@@ -1,0 +1,122 @@
+{
+ "id": "G09-08",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es episodico (clasificacion una vez por SKU), no semanal; el volumen de busqueda 'HS code' sigue sin verificar. El reporte de Markets Pro es anecdotico y parcialmente generado por IA.",
+   "refuto": "Que sea episodico no lo vuelve irrelevante: el hilo de comunidad muestra que los errores de clasificacion automatica generan aranceles innecesarios, lo cual es dolor monetario real y motivo para buscar una app alternativa. Sin datos de frecuencia, ambos lados especulan.",
+   "evidencia": [
+    {
+     "afirmacion": "Usuarios reportan que Markets Pro asigna HS codes con IA, a veces incorrectos (anecdotico)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Disposicion de pago probada solo en franja baja (US$19-99); DutyCode tiene free tier y DutyLookout cobra por uso. La busqueda adicional muestra mas competidores con precios bajos (Classify AI 19.99/mes, HS King 0.25 por clasificacion), lo que presiona el techo de precio.",
+   "refuto": "Existen precios de pago reales hasta US$399 (HClassify) y varias apps comparables cobran, lo que indica que hay merchants pagando; el rango incluye US$29. No hay evidencia de que 'una vez por producto' implique cancelacion; churn sin verificar en ambos lados.",
+   "evidencia": [
+    {
+     "afirmacion": "DutyCode: free install, Starter 19, Growth 49, Scale 99; listado tambien menciona paquetes de creditos",
+     "url": "https://apps.shopify.com/dutycode"
+    },
+    {
+     "afirmacion": "Classify AI: plan gratis de 3 clasificaciones; Growth US$19.99/mes con bulk y 10 digitos",
+     "url": "https://apps.shopify.com/classify-ai?locale=it"
+    },
+    {
+     "afirmacion": "HS King: gratis instalar, US$0.25 por clasificacion",
+     "url": "https://apps.shopify.com/hs-king"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "El atacante tiene razon en que el espacio esta mas poblado de lo que yo listaba: mi busqueda halla ademas Classify AI y HS King, y Easyship ofrece lookup HS gratis en su app gratuita. Zonos, Easyship y DutyCode gratis cubren parte del uso de comerciantes pequenos.",
+   "refuto": "No demostro F1: no verifique ni el atacante ni yo una funcion nativa de Shopify gratuita, ilimitada y suficientemente buena. Mi busqueda no hallo documentacion oficial de una sugerencia nativa gratuita; con Markets Pro el campo HS se deshabilita y la IA asigna codigos (segun hilo anecdotico), que es un servicio distinto y ligado a Markets Pro. La 'clasificacion masiva de catalogo' de Easyship solo aparece en una copia webflow de la pagina y no se confirmo en la pagina principal; el lookup es manual, uno a uno. Los tiers gratis de competidores son limitados (3 o 25 clasificaciones).",
+   "evidencia": [
+    {
+     "afirmacion": "Easyship: lookup HS gratis en su app gratuita; bulk solo mencionado en copia webflow, sin confirmar",
+     "url": "https://easyship.com/hs-tariff-code-lookup"
+    },
+    {
+     "afirmacion": "Markets Pro: campo HS deshabilitado y codigos asignados por IA (hilo de comunidad, anecdotico)",
+     "url": "https://community.shopify.com/t/harmonized-system-codes-are-incorrect-cause-unnecessary-tariffs/309687"
+    },
+    {
+     "afirmacion": "No se encontro doc oficial de Shopify sobre clasificacion nativa gratuita ilimitada",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Al menos 3-5 apps compiten por la misma busqueda en App Store con resenas y antiguedad; el SEO 'hs code for [product]' compite con herramientas gratis. CAC y volumen de busqueda siguen sin verificar y llegar a 100 pagadores probablemente tarde meses.",
+   "refuto": "El canal nombrado y concreto existe (cumple F4) y la competencia indica que hay demanda de busqueda; la antiguedad de HClassify (enero 2026) y su sola resena muestran que entrantes recientes no estan bloqueados. El riesgo de penalizacion por SEO programatico lo afirma el atacante sin evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "HClassify lanzada enero 2026 con una sola resena",
+     "url": "https://apps.shopify.com/hclassify"
+    },
+    {
+     "afirmacion": "Riesgo de penalizacion de SEO programatico: sin evidencia",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "La tarea es principalmente one-shot por SKU y el uso cae tras clasificar el catalogo; hay riesgo real de bajar a plan gratis o desinstalar. No tengo datos de churn.",
+   "refuto": "El atacante tampoco tiene datos de churn. Altas continuas de SKUs, cambios arancelarios y documentos por envio dan uso recurrente parcial, pero esto es hipotesis, no hecho; lo trato como debilidad abierta.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps HS",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Es cierto que no hay cifra con fuente de tiendas con envios internacionales que clasifiquen manualmente y que ~345 pagadores a US$29 para US$10k es el umbral; el pagador efectivo es menor al total de Shopify.",
+   "refuto": "345 clientes sobre millones de merchants (10-K: 175+ paises) es una fraccion minima; incluso con un 0.01-0.1% del total estimado de tiendas la meta es alcanzable en tamano, aunque la penetracion real es incierta. La aritmetica 10000/29 es correcta pero no refuta el tamano.",
+   "evidencia": [
+    {
+     "afirmacion": "Shopify FY2025 10-K: millones de merchants en 175+ paises",
+     "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm"
+    },
+    {
+     "afirmacion": "Fraccion con envio internacional",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo casi por completo: poco foso, replicable en semanas con LLM y datos publicos; Shopify puede mejorar su clasificacion nativa y ya hay mas clones (Classify AI, HS King).",
+   "refuto": "Solo refuto que sea 'nula' sin matiz: paginas SEO indexadas y resenas se acumulan con el tiempo y Zonos esta orientado a ventas. Aun asi no hay evidencia de que sean defendibles; mi posicion se debilita.",
+   "evidencia": [
+    {
+     "afirmacion": "Mas clones de bajo precio en App Store",
+     "url": "https://apps.shopify.com/classify-ai?locale=it"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "La parte dificil no es el codigo: precision por pais (8-10 digitos), datos arancelarios, responsabilidad, revision de Shopify y soporte; la experiencia CAD/PLC aporta poco.",
+   "refuto": "El MVP tecnico en <=6 semanas con Node/TS y GraphQL es reconocido por el propio atacante como favorable; el costo de datos es sin verificar para ambos lados, y se puede acotar con descargo y fuente visible del codigo.",
+   "evidencia": [
+    {
+     "afirmacion": "Para EE.UU. se requiere HTS de 10 digitos; la mayoria de paises usa 8+ y solo 6 son armonizados",
+     "url": "https://easyship.com/hs-tariff-code-lookup"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El espacio esta mas saturado de lo que mostre en ronda 1 (ademas de DutyCode, HClassify y DutyLookout aparecen Classify AI, HS King y el lookup gratis de Easyship), sin foso defendible y con retencion estructuralmente debil por ser tarea one-shot.",
+ "punto_que_sigue_en_pie": "No se probo F1: no hay evidencia verificada de un incumbente gratuito, ilimitado y suficientemente bueno (los tiers gratis son de 3-25 clasificaciones y el bulk de Easyship no se confirmo), y el canal nombrado (Shopify App Store 'HS code') mas el mercado enorme y pagos de US$19-399 permiten cumplir F4 y alcanzar un puntaje medio, aunque no alto.",
+ "busquedas_usadas": 2
+}

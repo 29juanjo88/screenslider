@@ -1,0 +1,130 @@
+{
+ "id": "G04-03",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que el hilo muestra a un usuario real pidiendo ECO con BOM, versionado y aprobaciones, y reconoce honestamente que es único y de 2021. También es cierto que el cambio de ingeniería es un proceso recurrente en fabricantes.",
+   "refuto": "Una señal única de 2021, con un experto cuestionando la necesidad, no demuestra dolor urgente ni búsqueda activa. 'Recurrente' no es 'semanal ni costoso'; el defensor mismo admite que la magnitud está sin verificar. Mi 2ª búsqueda de ronda 2 volvió a devolver solo ese hilo, sin otras señales de demanda.",
+   "evidencia": [
+    {
+     "afirmacion": "Búsquedas de ronda 2 sobre ECO/ECN en Marketplace devuelven solo el hilo de 2021 (usuario pide ECO/BOM; respuestas cuestionan la app y sugieren Confluence)",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Magnitud y frecuencia del dolor",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "Concedo que existe presupuesto en la categoría (PLM/QMS/ERP con ECO) y que $200/mes sería más barato que un PLM; mis propios datos de Duro ($9k-24k/año) lo respaldan como ancla alta.",
+   "refuto": "Que el PLM cueste más no implica que un usuario de Jira pague $200/mes por una app: quien tiene ese presupuesto compra PLM/QMS. El defensor no aporta ningún precio de app comparable ni disposición de pago de usuarios Jira de manufactura; cita ERP (Acumatica/NetSuite) que es otro comprador. Sigue sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Intellect vende ECN independiente para industrias reguladas (presupuesto en QMS, no en apps Jira); precio sin verificar",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    },
+    {
+     "afirmacion": "Disposición de pago de usuarios Jira por app ECO a $200/mes",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo plenamente el hecho clave: mis dos búsquedas de ronda 2 tampoco hallaron una app ECR/ECN de manufactura dedicada en Marketplace, y los flujos de Change Management hallados son IT, gratuitos y sin soporte. Esto favorece a la idea y debilita mi punto de F1.",
+   "refuto": "La ausencia no es exhaustiva (el buscador web no indexa el Marketplace) y existen sustitutos parciales: apps de aprobación/sign-off para Jira con historial tipo auditoría y bloqueo de transiciones (cita 'control de cambios' y 'aprobación de diseño' como casos de uso), más Wrike/Intellect como ECM independientes. 'Sin apps' puede ser falta de mercado, como dijo el propio hilo. El defensor reconoce esto.",
+   "evidencia": [
+    {
+     "afirmacion": "Ronda 2: sin app ECR/ECN dedicada hallada; sí flujo IT gratis 'Change Management CR Workflow'",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    },
+    {
+     "afirmacion": "Sustitutos parciales de aprobación/auditoría en Marketplace (p. ej. 'Business Sign-off & Approval for Jira', Forge); URL exacta",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Wrike ofrece Engineering Change Management (ECR/ECO/ECN) como producto independiente",
+     "url": "https://help.wrike.com/hc/es/community/posts/32700691404439-Streamline-Engineering-Change-Management-with-Wrike"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que el Marketplace es un canal nombrado, product-led, sin ventas, y que las comisiones citadas por el defensor (Atlassian cobra solo al vender) son un dato verificado que baja el costo fijo. Es mejor que 'marketing digital'.",
+   "refuto": "Las comisiones son costo de venta, no demanda: no responden si alguien busca 'ECO'. Ambos lados admiten volumen de búsqueda y CAC sin verificar; el defensor lo da por 'bajo si el listado ranquea', condicional sin evidencia. Mis búsquedas muestran que ni siquiera la web indexa apps ECO, lo cual es ausencia de señal de intención.",
+   "evidencia": [
+    {
+     "afirmacion": "Estructura de comisiones y pagos del Marketplace (costo, no demanda)",
+     "url": "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda de 'ECO/ECN/change control' en Marketplace y CAC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que el historial de auditoría y las aprobaciones generan cierto lock-in, y que el control de cambios es un proceso continuo en compañías con producto activo; ya lo había dicho.",
+   "refuto": "El defensor no aporta datos de churn. 'Continuo' contradice el uso episódico en fabricantes pequeños, que son el segmento no regulado sugerido; los datos viven en Jira y son exportables, por lo que el costo de salida es bajo. Intellect como evidencia de 'proceso continuo' es un QMS completo, no una app ligera.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn de apps Marketplace comparables y frecuencia de ECN en fabricantes pequeños",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo la aritmética: $10k MRR son ~50 clientes a $200 y $50k ~250; en teoría es alcanzable. La aritmética no necesita URL.",
+   "refuto": "El problema no es la aritmética sino la intersección (fabricantes con Jira, ECR/ECN fuera de PLM, no regulados), que nadie ha cuantificado; 250 clientes en un nicho así es una afirmación sin base. Excluir regulados, que el defensor sugiere, elimina a quienes más pagan.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño de la intersección y base instalada",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Intellect y los QMS captan el segmento regulado que el ajuste excluye",
+     "url": "https://intellect.com/products/engineering-change-notice-software"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que la defensa de nicho (conocimiento de dominio, reseñas, ranking, velocidad) tiene valor y que la ausencia actual de rivales da ventaja de primer movimiento; mi caso no ofrece prueba de que alguien esté ya copiando.",
+   "refuto": "El propio defensor admite que es replicable por vendors o por Atlassian y que no hay foso técnico; con 'barreras de entrada' sin verificar. La primacía en un mercado sin demanda probada no es defensa, y los sustitutos parciales de aprobación ya existen.",
+   "evidencia": [
+    {
+     "afirmacion": "Plantillas gratuitas de Change Management ya en Marketplace",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    },
+    {
+     "afirmacion": "Respondedor sugiere que Jira/Confluence nativos bastan",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo sin reservas que el MVP es viable en ~6 semanas con el stack de Juan y que Atlassian procesa pagos y distribución. Mi propio caso ya lo decía; no hay punto sustantivo en disputa.",
+   "refuto": "Solo matizo que Cloud Fortified/seguridad y soporte a clientes de $200/mes añaden carga fuera del código, y que la credibilidad industrial de Juan no sustituye validar demanda. El 'perfil de Juan' del defensor viene del brief, no de una fuente externa.",
+   "evidencia": [
+    {
+     "afirmacion": "Atlassian procesa pagos y paga a socios (dato del defensor, correcto)",
+     "url": "https://developer.atlassian.com/platform/marketplace/pricing-payment-and-billing/"
+    },
+    {
+     "afirmacion": "Costo y plazo de Cloud Fortified/revisión del Marketplace",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "Mis búsquedas de ronda 2 confirman que no hay una app ECR/ECN de manufactura dedicada en Marketplace (solo flujos IT gratis y sustitutos parciales), y el MVP es viable en 6 semanas: el hueco competitivo y la ejecución son reales; el F1 por incumbente gratis es débil.",
+ "punto_que_sigue_en_pie": "Hueco aparente no es demanda probada: una sola señal de 2021 con un experto cuestionando la app, sin volumen de búsqueda, sin disposición de pago de usuarios Jira a $200/mes y sin tamaño de la intersección de mercado; ambos lados lo dejan sin verificar.",
+ "busquedas_usadas": 2
+}

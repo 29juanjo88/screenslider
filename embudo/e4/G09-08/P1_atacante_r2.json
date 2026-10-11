@@ -1,0 +1,85 @@
+{
+ "id": "G09-08",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El fin de la exencion de minimis de EE.UU. (29-ago-2025) es un cambio real que vuelve la clasificacion HS un requisito operativo para quien envia a EE.UU., y es mas recurrente de lo que dije (aplica a cada envio, no solo al alta del SKU). Mi argumento de 'estaria bien' era demasiado fuerte.",
+   "refuto": "El defensor mismo admite que la severidad (retenciones, multas, costo por error) no esta cuantificada. Que el requisito exista no prueba que el merchant lo resuelva con una app de pago: el DDP/DDU lo suele absorber el transportista, el corredor o la plataforma de checkout. La urgencia semanal con busqueda activa sigue sin evidencia.",
+   "evidencia": [
+    {"afirmacion": "DHL describe el fin de minimis y la necesidad de clasificacion HTSUS correcta (fuente citada por el defensor; no la re-verifique)", "url": "https://www.dhl.com/discover/en-global/logistics-advice/logistics-insights/the-end-of-de-minimis-exemption-meaning-for-your-business"},
+    {"afirmacion": "Cifras de retenciones o costo por error de clasificacion", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Hay pago demostrado en el marketplace: DutyCode $19/49/99, HClassify $49/149/399 y DutyLookout por uso. El rango $29-79 es coherente con lo que ya cobran. Mi ancla 'bajo' ignoraba que HClassify y planes altos existen.",
+   "refuto": "Que existan precios publicados no demuestra pagadores: el defensor reconoce que el numero de pagadores reales esta sin verificar, que HClassify tiene una sola resena de 1 estrella y que el freemium de DutyCode presiona el precio a la baja. Con 25 clasificaciones gratis de dos incumbentes, el tramo $29 compite contra un plan gratuito suficiente para tiendas pequenas.",
+   "evidencia": [
+    {"afirmacion": "DutyCode gratis 25 clasificaciones, luego $19/49/99", "url": "https://apps.shopify.com/dutycode"},
+    {"afirmacion": "DutyLookout $0.09 por clasificacion tras 25 gratis al mes", "url": "https://apps.shopify.com/dutylookout"},
+    {"afirmacion": "Numero de pagadores reales de estas apps", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "El defensor tiene razon en que Zonos va por ventas y no compite directo en autoservicio a $29, y que los clones baratos son nuevos y poco validados. Tambien concedo que mi cita de la queja de comunidad sobre Markets Pro es testimonio de usuario, no documentacion oficial, y que HS por pais en Shopify no es un reemplazo completo de un clasificador.",
+   "refuto": "El defensor no rebate el punto F1: Shopify ya ofrece gestion nativa de HS por pais (changelog) y Ship&co sincroniza HS a facturas comerciales; y admite que el espacio esta poblado y que el clasificador es commodity. Que Zonos oculte su precio no crea hueco cuando ya hay tres apps de autoservicio.",
+   "evidencia": [
+    {"afirmacion": "Shopify permite HS codes especificos por pais de forma nativa", "url": "https://changelog.shopify.com/posts/country-specific-hs-code-management-for-international-selling"},
+    {"afirmacion": "Ship&co sincroniza HS codes de Shopify a facturas comerciales", "url": "https://support.shipandco.com/hc/en-us/articles/900004157846"},
+    {"afirmacion": "Que tan buena es la clasificacion nativa/gratuita vs apps de pago", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El canal esta nombrado y cumple F4 (busqueda 'HS code' en Shopify App Store); varias apps en esa categoria sugieren que hay demanda de instalacion. El SEO programatico es un segundo pie independiente de la plataforma, como dice el defensor. Concedo que 'CAC cercano a cero' es plausible para instalaciones organicas.",
+   "refuto": "Que haya varias apps compitiendo por la busqueda es evidencia de saturacion tanto como de demanda: un recien llegado sin resenas queda abajo. El defensor misma marca volumen de busqueda y CAC como sin verificar. El SEO 'hs code for [product]' compite con sitios de aduanas y bases gratuitas, y su audiencia no es necesariamente duenos de tiendas Shopify.",
+   "evidencia": [
+    {"afirmacion": "Al menos tres apps compiten en la categoria", "url": "https://apps.shopify.com/dutycode"},
+    {"afirmacion": "Volumen de busqueda y CAC reales", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor acierta en que cada producto nuevo y cada cambio arancelario generan reclasificacion, que el catalogo e historial dentro de la app crean un costo de cambio moderado y que el flujo es continuo mientras haya envios internacionales. Mi 'una sola vez' era exagerado para tiendas con altas frecuentes.",
+   "refuto": "Ninguna de las dos partes tiene datos de churn. El propio defensor concede que tiendas con catalogo estable clasifican y cancelan y que el pricing por credito facilita irse. El costo de cambio de un catalogo con codigos exportables es bajo.",
+   "evidencia": [
+    {"afirmacion": "Planes de DutyCode por numero de clasificaciones (ligados a SKUs nuevos)", "url": "https://apps.shopify.com/dutycode"},
+    {"afirmacion": "Datos de churn de apps HS", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "El mercado es grande: ya lo concedi en ronda 1. El dato de cross-border 16% de pedidos en BFCM y el crecimiento internacional de Shopify apoyan que el segmento exportador es sustancial. 500 clientes x $29-49 es una fraccion minuscula del universo, y el techo >100k probablemente se cumple.",
+   "refuto": "La cifra de 5.6M negocios es compilacion de terceros que el defensor mismo marca como no verificada, y mis fuentes (StoreLeads) dan 2.8-2.9M tiendas vivas. El 16% de BFCM es de pedidos, no de tiendas que necesiten HS ni compren apps. El numero de tiendas que envian internacionalmente y pagarian sigue sin verificar. No es un punto de ataque fuerte.",
+   "evidencia": [
+    {"afirmacion": "Entre 2.8M y 2.9M tiendas Shopify vivas segun StoreLeads; Shopify no publica la cifra", "url": "https://ecomm.design/how-many-shopify-stores-are-there/"},
+    {"afirmacion": "Cross-border 16% de pedidos BFCM (cita del defensor)", "url": "https://www.shopify.com/news/bfcm-data-2025"},
+    {"afirmacion": "Tiendas que envian internacionalmente y compran apps de HS", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor admite que la defensa es debil y que lo propuesto (corpus SEO, datos validados por usuarios, documentos integrados) es acumulativo y no esta probado. Concedo que un corpus de paginas con autoridad puede ser un foso real a largo plazo si se logra.",
+   "refuto": "El foso es hipotetico y lento; los datos arancelarios son publicos o licenciados, no propietarios; no hay efecto de red; y las tres apps existentes y Shopify pueden copiar la funcion. A tiempo parcial, el corpus tarda meses en rankear, mientras la competencia ya tiene resenas.",
+   "evidencia": [
+    {"afirmacion": "HClassify lanzo en enero 2026: entrada continua de competidores", "url": "https://apps.shopify.com/hclassify"},
+    {"afirmacion": "Efectividad del SEO programatico como foso en este nicho", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El MVP tecnico es factible en 6 semanas con el stack de Juan (Node/TS, GraphQL, Next.js), y que equipos pequenos ya lanzaron competidores (HClassify) lo respalda. Concedo que la responsabilidad se puede mitigar parcialmente con descargo y fuente visible.",
+   "refuto": "Lo dificil no es el MVP sino lo no tecnico: licencia y calidad de datos arancelarios por pais, soporte ante clasificaciones erradas, mantener aranceles cambiantes, y ganar resenas en la App Store. Un descargo no elimina el dano reputacional. La ventaja industrial de Juan (PLC/CAD/3D) no aplica, y el defensor lo reconoce. La evidencia del defensor sobre riesgos es 'sin verificar'.",
+   "evidencia": [
+    {"afirmacion": "Costo y licencia de datos arancelarios y responsabilidad por clasificacion errada", "url": "sin verificar"},
+    {"afirmacion": "HClassify lanzada por equipo pequeno en enero 2026", "url": "https://apps.shopify.com/hclassify"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El fin de la exencion de minimis (29-ago-2025) hace la clasificacion HS un requisito recurrente y no un 'estaria bien'; sumado a precios de pago publicados ($19-399/mes) y un mercado grande, el dolor y la disposicion de pago son mejores de lo que sostuve en ronda 1.",
+ "punto_que_sigue_en_pie": "Espacio saturado y sin foso: tres apps de autoservicio (DutyCode con 25 clasificaciones gratis, HClassify, DutyLookout) mas gestion nativa de HS por pais en Shopify, con volumen de busqueda, numero de pagadores y churn sin verificar; la unica diferenciacion propuesta (SEO programatico) es hipotetica y lenta.",
+ "busquedas_usadas": 0
+}

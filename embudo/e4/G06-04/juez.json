@@ -1,0 +1,51 @@
+{
+ "id": "G06-04",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "media",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 3,
+  "mercado": 4,
+  "diferenciacion": 2,
+  "ventaja_juan": 3,
+  "mvp": 4,
+  "riesgo": 3
+ },
+ "total": 37,
+ "hecho_decisivo": "El reintento nativo de WooCommerce Subscriptions existe pero esta apagado por defecto y es basico (https://woocommerce.com/document/subscriptions/failed-payment-retry/), asi que F1 no es firme; sin embargo Sublium ya ofrece reintentos (hasta 6), alertas de tarjeta por vencer y recuperacion (https://funnelkit.com/introducing-sublium-subscriptions/), por lo que la diferenciacion es debil. El precio exacto de los competidores es inconsistente entre fuentes (AlternativeTo $99-199/mes vs Capterra anual desde $199/ano segun el defensor P1): sin verificar.",
+ "condicion": "Confirmar un angulo diferenciado que Sublium y Subscriptions Recovery no cubran (p. ej. ofertas de pausa/save-offer en el flujo de cancelacion y alertas de cancelacion) y demanda real en el canal WordPress.org/grupos Woo para ese angulo.",
+ "experimento_mas_barato": "Landing page + lista de espera con 'WooCommerce subscription cancel save offer / pause' y publicaciones en 3-4 grupos de Facebook de WooCommerce y foros de WordPress.org, sin escribir plugin. Metrica: registros con intencion de pago (preventa a $29/mes o email + tarjeta). Umbral: >=30 registros cualificados o >=8 preventas en 3 semanas; menos mata la idea.",
+ "dimensiones": {
+  "dolor": "Perdida de MRR en dolares, pero pasiva: el dueno no la busca activamente y el nativo cubre parte. Ninguna cifra verificada en tiendas Woo.",
+  "pago": "Ambos pares aceptan que hay competidores de pago; los precios mensuales no estan confirmados (Sublium aparece en anual segun un defensor) y $29 puede leerse como inferior o como baja friccion.",
+  "alternativas_actuales": "Nativo basico apagado por defecto, mas Sublium, Subscriptions Recovery y opciones freemium; el espacio esta saturado y Sublium Pro ya incluye alertas de vencimiento.",
+  "canal_y_cac": "WordPress.org y grupos de Facebook son canales nombrados, pero la demanda de busqueda y el CAC estan sin verificar en ambos pares; los competidores dominan el contenido SEO.",
+  "retencion": "Producto de infraestructura que sirve mientras la tienda tenga suscripciones; sin evidencia de churn del propio plugin, pero se ve razonable.",
+  "mercado": "Aprox. 48k instalaciones de Woo Subscriptions segun el defensor P1 (sin verificar), muy por encima del minimo; ~350 pagadores a $29 es alcanzable.",
+  "defensa_frente_a_copias": "Debil: sin foso, funciones replicables por Sublium/FunnelKit y por el propio WooCommerce.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP en 6 semanas factible con PHP; mantenimiento por compatibilidad con pasarelas y soporte de plugin es carga real."
+ },
+ "resumen_P1": "Atacante: el nativo y varios competidores ocupan el espacio, sin angulo ni canal verificado, y $29 exige ~345 clientes. Defensor: nativo apagado y basico, pago demostrado y MVP factible, aunque concedio que el precio de Sublium era fragil y que su Pro ya incluye alertas.",
+ "resumen_P2": "Atacante: diferenciacion 2/5 y canal con demanda sin verificar, aunque concede que no hay F1 y que el pago esta demostrado. Defensor: concede saturacion y falta de evidencia de demanda en WordPress.org; mantiene pago y MVP.",
+ "razonamiento": "Ambos pares coinciden en que no hay filtro F1 firme, que hay pago demostrado y que el MVP es factible, y ambos defensores concedieron saturacion y diferenciacion debil. El hecho decisivo es que Sublium ya cubre reintentos y alertas, asi que la idea como esta es un clon. El canal pesa x3 y no tiene demanda verificada. El total 37 cae en banda MEDIA, lejos de ALTA. Vale la pena solo si un angulo concreto (pausa/ofertas de retencion) muestra demanda en un experimento barato.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Reintento nativo apagado por defecto",
+   "url": "https://woocommerce.com/document/subscriptions/failed-payment-retry/"
+  },
+  {
+   "afirmacion": "Sublium: reintentos, alertas y recuperacion",
+   "url": "https://funnelkit.com/introducing-sublium-subscriptions/"
+  },
+  {
+   "afirmacion": "Precio Sublium segun AlternativeTo (agregador, sin verificar en sitio oficial)",
+   "url": "https://alternativeto.net/software/sublium/about"
+  },
+  {
+   "afirmacion": "Logica nativa basica",
+   "url": "https://www.storeapps.org/reduce-subscription-churn-in-woocommerce/"
+  }
+ ],
+ "busquedas_usadas": 1
+}

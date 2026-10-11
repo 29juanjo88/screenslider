@@ -1,0 +1,138 @@
+{
+ "id": "G16-01",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Es cierto que el dolor es episodico (integracion inicial y cambios de reglas), que los access points ya devuelven errores y que no tengo evidencia cuantificada de dolor (foros, busquedas). Los validadores gratis cubren la validacion basica.",
+   "refuto": "El atacante tampoco aporta evidencia de que los mensajes sean un dolor menor; 'ya rechaza el access point' no elimina el costo de iterar contra un rechazo tardio. Los mandatos con fecha legal (Belgica 2026, ViDA 2030) crean urgencia con plazo, aunque no semanal.",
+   "evidencia": [
+    {
+     "afirmacion": "Belgica: e-factura obligatoria desde 1-ene-2026 para todas las empresas",
+     "url": "https://economie.wallonie.be/en/home/actualites/actualites/facturation-electronique-obligatoire-en-belgique-a-partir-du-1er-janvier-2026.html"
+    },
+    {
+     "afirmacion": "Dolor cuantificado en foros/busquedas",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Concedo que el unico precio verificado es pago por uso (US$4/1,000) muy por debajo de US$79/mes, que 127 clientes a US$79 para US$10k MRR no tienen respaldo y que hay libreria MIT. Mi busqueda no hallo precios publicados de Storecove (modelo por transaccion, sin cifra) ni de Truugo (licencia por cotizacion), asi que no puedo usarlos como ancla a favor.",
+   "refuto": "No es cierto que el atacante demuestre que los compradores construyan o deleguen; es sin verificar. Que Truugo venda licencia de API con cotizacion sugiere que existe pago por validacion como producto, pero sin cifra.",
+   "evidencia": [
+    {
+     "afirmacion": "Apify desde US$4 por 1,000 validaciones",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    },
+    {
+     "afirmacion": "Truugo: licencia de API por pedido/cotizacion, precio no publicado",
+     "url": "https://www.truugo.com/api/"
+    },
+    {
+     "afirmacion": "Storecove: precio por transaccion, sin cifra publica; Qvalia (otro AP) publica ejemplo 50 EUR/mes + 0.05 EUR/mensaje",
+     "url": "https://qvalia.com/compare/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "El atacante tiene razon en que hay mas alternativas de las que listé: Truugo con Validation API y Schematron API (verificado en su pagina), ademas de Apify, validadores gratis, libreria MIT y validacion estructurada en Storecove segun comparador de Qvalia. El hueco es estrecho.",
+   "refuto": "Sigue sin confirmarse un REST API gratis, dedicado y con SLA y mensajes legibles; Truugo es de pago con licencia y orientado a mensajeria empresarial, no a devs de autoservicio con CLI (sin verificar su plan self-serve).",
+   "evidencia": [
+    {
+     "afirmacion": "Truugo ofrece Validation API y Schematron API, licencia via pedido",
+     "url": "https://www.truugo.com/api/"
+    },
+    {
+     "afirmacion": "Apify actor con API HTTP",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    },
+    {
+     "afirmacion": "Validador gratis ecosio; correccion solo clientes de pago",
+     "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que los validadores gratis ya ocupan 'peppol validator', que la intencion es de herramienta puntual y que no hay volumen de busqueda ni CAC verificados; tampoco hay marketplace de alta intencion y Apify ya esta posicionado.",
+   "refuto": "La cola larga programatica (codigos de error BR-xx, 'peppol validator api') no esta demostrada ocupada por gratis; el atacante tampoco lo prueba. Sigue siendo hipotesis, no hecho.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de busqueda y CAC",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Mandatos generan trafico informativo creciente",
+     "url": "https://econnect.eu/en/blog/mandatory-e-invoicing-in-2026-which-countries-are-affected-0"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Concedo el patron integrar-validar-olvidar, que en produccion el access point valida y que actualizar una dependencia resuelve cambios de reglas; sin datos de churn de mi lado.",
+   "refuto": "Sin datos de churn del atacante tampoco. Reglas trimestrales mas mandatos escalonados hasta 2030 sostienen uso, pero solo si el producto es el pipeline de emision, no solo CI.",
+   "evidencia": [
+    {
+     "afirmacion": "Reglas BIS actualizadas trimestralmente (blog de proveedor)",
+     "url": "https://www.truugo.com/peppol_bis_billing_3_validator/"
+    },
+    {
+     "afirmacion": "Churn",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "Concedo que un identificador Peppol no es un comprador, que el subconjunto de devs de SaaS/ERP no esta cuantificado y que los access points concentran la emision (cifras secundarias). Mi uso de 1.4M organizaciones era un techo, no el mercado direccionable.",
+   "refuto": "Concentracion en pocos AP no prueba que no existan miles de SaaS/ERP/integradores que construyen emision propia o multi-AP; el dato de top 5 es de Francia y fuente secundaria, no generalizable.",
+   "evidencia": [
+    {
+     "afirmacion": "Devs/SaaS compradores potenciales",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Concentracion top 5 en Francia (fuente secundaria)",
+     "url": "https://www.b2brouter.net/es/peppol-en-cifras-estadisticas-b2brouter/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que no hay foso: reglas publicas, libreria MIT, Apify y Truugo ya con API, y los AP pueden regalarlo. 'Facil de replicar con un LLM' es plausible aunque sin evidencia.",
+   "refuto": "La afirmacion de que un LLM iguale un corpus de mensajes validado por regla nacional es especulativa; mantenimiento y correcciones verificadas son esfuerzo operativo real, pero no foso duro.",
+   "evidencia": [
+    {
+     "afirmacion": "Reglas Schematron oficiales gratuitas",
+     "url": "https://ecosio.com/peppol-e-rechnung-xml-dokumente-validieren/"
+    },
+    {
+     "afirmacion": "Competidores con API: Apify y Truugo",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo que el costo esta en el mantenimiento multi-pais (dos capas Schematron, XSLT 2.0, conocimiento fiscal local) y que la ventaja PLC/CAD/3D no aplica; solo backend/XML generico.",
+   "refuto": "El atacante mismo admite que el MVP en 6 semanas es factible; acotar a pocos paises (BE, PL) y una capa reduce la carga. Mantenimiento real sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "Apify demuestra factibilidad individual",
+     "url": "https://apify.com/kamerozkan/peppol-bis-preflight-validator/api"
+    },
+    {
+     "afirmacion": "Esfuerzo de mantener reglas nacionales a tiempo parcial",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El unico precio verificado (US$4/1,000 validaciones) esta muy por debajo de US$79/mes, hay mas alternativas (Truugo API, Apify, libreria MIT, gratis) y no hay foso ni mercado comprador cuantificado; 127 clientes a US$79 carecen de respaldo.",
+ "punto_que_sigue_en_pie": "Los mandatos con fecha legal crean demanda buscable y el MVP es factible en 6 semanas; no se confirmo un API REST gratis dedicado con SLA, mensajes legibles y CLI de autoservicio, y las afirmaciones del atacante sobre canal, churn y mercado tampoco estan verificadas.",
+ "busquedas_usadas": 2
+}

@@ -1,0 +1,81 @@
+{
+ "id": "G01-02",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor es honesto: el hilo es anecdótico y anterior a MakeQuote, y yo también admití que el dolor existe. Cotizar DXF a mano es trabajo repetitivo real y un experto no conocía app en ese momento.",
+   "refuto": "Un solo hilo previo a MakeQuote no demuestra urgencia ni búsqueda activa; ambos lados dejan sin verificar las horas perdidas y el volumen de búsqueda. 'Trabajo repetitivo' no es 'pierde dinero cada semana'. Que el hilo sea anterior a MakeQuote lo desactualiza como prueba de hueco actual.",
+   "evidencia": [
+    {"afirmacion": "Hilo de fabricante pidiendo cotización DXF; único dato de demanda, sin fecha posterior a MakeQuote", "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"},
+    {"afirmacion": "Horas perdidas por taller / volumen de búsqueda", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "El defensor tiene razón en que $49 es pequeño frente al valor de un pedido a medida, y yo concedí que la disposición de pago existe en software de cotización industrial (CutQuote desde $95 en Capterra).",
+   "refuto": "El defensor no aporta evidencia de pago a $49 en el segmento Shopify (sin verificar). El ancla observable en el canal es gratis / $19 / $29 (verificado en la ficha de Shopify: Free 10 pedidos, Pro $19, Plus $29). Pedir 1.7-2.5x sin diferenciación probada es una apuesta, no un hecho.",
+   "evidencia": [
+    {"afirmacion": "Planes de MakeQuote en su ficha: Free $0 (10 pedidos/mes), Pro $19/mes, Plus $29/mes", "url": "https://apps.shopify.com/makequote"},
+    {"afirmacion": "Disposición de pago a $49 en talleres Shopify", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "alternativas_actuales": {
+   "concedo": "Concedo que mi verificación lo confirma a favor del defensor en un punto: la ficha de MakeQuote atribuye a su motor de slicing el tiempo de impresión y uso de material (3D), y no menciona precio por longitud de corte, perforaciones ni espesor para láser. Por tanto el hueco de profundidad es plausible, no una invención. También concedo que ConvertCalculator es genérico y sin checkout Shopify confirmado.",
+   "refuto": "'No mencionado en la ficha' no es 'no soportado': la ficha tampoco lo descarta y MakeQuote anuncia láser para metal y no metal con DXF. El defensor convierte ausencia de evidencia en hueco. Además el defensor omite CutQuote, NanoQuote, ToolBox y SecturaFAB, que sí cotizan DXF con tiempos/perforaciones (fuera de Shopify), y el plan gratis de MakeQuote sigue siendo un sustituto suficiente para talleres de bajo volumen.",
+   "evidencia": [
+    {"afirmacion": "Ficha de MakeQuote: motor de slicing para tiempo de impresión y material; soporta láser (DXF); no describe precio por corte/perforaciones/espesor; 0 reseñas", "url": "https://apps.shopify.com/makequote"},
+    {"afirmacion": "NanoQuote: DXF/STEP a cotización con tiempos de corte y material", "url": "https://alternativeto.net/software/nanoquote-app/about/"},
+    {"afirmacion": "CutQuote: DXF/DWG/STEP, tiempos, perforaciones, precio instantáneo", "url": "https://www.capterra.com/p/10040294/CutQuote/"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Concedo que el canal está nombrado y que, por ahora, MakeQuote no tiene reseñas, por lo que el ranking inicial no está cerrado; el CAC en pago directo puede ser bajo. También que no hay mucha competencia visible en esa búsqueda.",
+   "refuto": "'CAC casi cero' y 'intención alta' son afirmaciones sin dato: el defensor mismo marca volumen y conversión como sin verificar. Su evidencia de 'único resultado cercano' es la ficha de MakeQuote, que no prueba nada sobre el listado de búsqueda. Una app nueva también tiene 0 reseñas, y el incumbente gratis ocupa el primer puesto. Un solo canal con una keyword sin volumen conocido no sostiene 100 pagadores.",
+   "evidencia": [
+    {"afirmacion": "MakeQuote listado en Shopify App Store con plan gratis y 0 reseñas", "url": "https://apps.shopify.com/makequote"},
+    {"afirmacion": "Volumen de búsqueda y conversión en App Store", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Concedo que si el widget está integrado en el carrito con materiales, espesores y tarifas calibrados, el costo de cambio es moderado a alto. Es un punto a favor genuino que ya había señalado.",
+   "refuto": "Ninguno de los dos tiene datos de churn. Las tarifas se pueden recrear en una tarde en otra app, y un taller con pocos pedidos cae al plan gratis. El costo de cambio depende de que haya volumen de pedidos, justo lo no cuantificado.",
+   "evidencia": [
+    {"afirmacion": "Churn de apps de cotización para talleres", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Concedo que el defensor reconoce la debilidad con honestidad y que el mercado total de corte láser es grande; ambos coincidimos en ~205 clientes a $49 para $10k MRR.",
+   "refuto": "Las cifras de mercado que cita son de baja calidad e inconsistentes entre sí (US$3,685M vs US$0.46B) y miden servicios de corte, no talleres con Shopify que compren la app. No sirven para dimensionar el universo comprador. Sigue sin haber un conteo de talleres Shopify: el techo real es desconocido.",
+   "evidencia": [
+    {"afirmacion": "Estimaciones de mercado inconsistentes: US$3,685M (2025) vs US$0.46B (2024)", "url": "https://www.globalgrowthinsights.com/market-reports/laser-cutting-and-engraving-service-market-120370"},
+    {"afirmacion": "Número de talleres láser/CNC con tienda Shopify", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "Concedo que la profundidad técnica (parser robusto, nesting, tiempos por material) es una ventaja de ejecución real que un motor de slicing 3D no replica de inmediato, y que Juan tiene ese conocimiento.",
+   "refuto": "Es ventaja de ejecución, no barrera: el propio defensor admite que MakeQuote puede añadir lógica láser, sin efecto de red ni datos propietarios. MakeQuote es nuevo (mayo 2026) e itera rápido; CutQuote y NanoQuote ya hacen lo profundo fuera de Shopify. Shopify podría además lanzar función nativa. La ventaja CAD/CAM de Juan está sin verificar como diferenciador de cara al cliente.",
+   "evidencia": [
+    {"afirmacion": "MakeQuote es app reciente (lanzamiento mayo 2026 según listado de terceros) y puede iterar", "url": "https://pickyourapp.com/collections/finding-products/products/makequote"},
+    {"afirmacion": "NanoQuote ya calcula tiempos de corte y material desde DXF", "url": "https://alternativeto.net/software/nanoquote-app/about/"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Concedo plenamente: el MVP en ~6 semanas es viable con el stack de Juan; el defensor y yo coincidimos y aquí la evidencia no me favorece. Concedo además que su soporte autoservicio es plausible.",
+   "refuto": "El defensor se limita al MVP. Queda sin tratar el costo posterior: DXF sucios (splines, bloques, unidades), revisión y facturación de Shopify, mantenimiento de API y reseñas desde cero con tiempo parcial. Citar el puntaje del juez de etapa 3 como evidencia es circular y está sin verificar.",
+   "evidencia": [
+    {"afirmacion": "Puntajes de etapa 3 (MVP 4, ventaja 4) citados como evidencia", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La ficha de MakeQuote (verificada) atribuye su motor de slicing a tiempo de impresión y material 3D y no describe precio de láser por longitud de corte, perforaciones ni espesor: el hueco de profundidad que plantea el defensor es plausible y mi hipótesis de que MakeQuote ya cubre el caso no está probada. Además concedo que el MVP es factible.",
+ "punto_que_sigue_en_pie": "Canal y mercado siguen sin evidencia: un único canal (Shopify App Store) con volumen de búsqueda desconocido, un incumbente gratis/$19 en la misma tienda, universo de talleres con Shopify no cuantificado (se necesitan ~205 pagadores a $49), sin barrera a copias, y ningún dato de que talleres paguen $49 en ese segmento.",
+ "busquedas_usadas": 2
+}

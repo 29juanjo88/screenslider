@@ -1,0 +1,77 @@
+{
+ "id": "G12-05",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Los testimonios son anecdoticos (un caso de IndieHackers y un hilo de foro); el hilo n8n es una pregunta abierta, no demanda de pago. Es cierto que una agencia con 30 cuentas Make construyo su propio sistema de alertas, lo que muestra que parte del mercado resuelve en casa.",
+   "refuto": "Que alguien construya su propio sistema durante 5 anios es evidencia de dolor persistente, no de ausencia de dolor; el costo de mantener ese sistema es justo lo que un producto vende. Las alertas nativas de Make cubren errores y desactivacion, pero no detectan un escenario que deja de dispararse sin error, y los avisos van por organizacion.",
+   "evidencia": [
+    {"afirmacion": "Make envia correos por error y por desactivacion automatica tras errores consecutivos; las advertencias (warnings) no cuentan ni desactivan; no confirme deteccion nativa de triggers que no disparan", "url": "https://help.make.com/Introduction-to-errors-and-warnings?hl=en"},
+    {"afirmacion": "Agencia con 30 cuentas Make construyo alertas propias via API (concesion al atacante)", "url": "https://community.make.com/t/vatech-io-enterpise-error-alert-and-backup-system-with-make-com-the-problems-we-faced-during-5-years-of-working-at-make-and-their-solutions/30143"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "No hay evidencia de disposicion de pago a $49; los rivales anclan en gratis/$19 y las agencias pequenas son sensibles al costo y pueden construir su propio monitor.",
+   "refuto": "Gratis hasta 5 o 10 workflows no cubre a una agencia con decenas de clientes; el limite del tier gratis es el punto de conversion. $19 es precio de lanzamiento, no de mercado establecido. Un retainer de $2,500 hace marginal el costo, pero esto es argumento, no dato de pago.",
+   "evidencia": [
+    {"afirmacion": "Disposicion de pago a $49", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Hay 4 a 6 monitores multi-plataforma (OpsVeritas, RootBrief, Flowlert, FlowPulse, y segun el atacante n8ops, AIgencyTracker) mas alertas nativas; el atacante tiene razon en que el hueco ya esta atacado. Me retracto de la lectura optimista: la existencia de rivales es sobre todo un costo.",
+   "refuto": "Las alertas nativas son por cuenta/organizacion y no cubren bien agrupar por cliente ni fallos silenciosos; eso es un hueco real, pero ningun rival verificado demuestra tracción ni que cubran ese flujo de agencia. Las afirmaciones del atacante sobre n8ops y FlowMetr son de vendor, sin verificar.",
+   "evidencia": [
+    {"afirmacion": "Los correos nativos de Make van por organizacion y el aviso de warnings es aparte", "url": "https://help.make.com/Introduction-to-errors-and-warnings?hl=en"},
+    {"afirmacion": "Tracción de los competidores", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "Los competidores ya estan en los mismos canales (Product Hunt, comunidades); las comunidades toleran mal la autopromocion; volumen de busqueda y CAC no estan verificados y el crecimiento por contenido de un fundador a tiempo parcial es lento.",
+   "refuto": "Los canales siguen siendo nombrados y concretos (foro n8n, comunidad Make, Zapier Experts, SEO), lo que cumple F4. Responder en hilos donde el problema se plantea directamente es participacion legitima, no spam. La competencia en el canal no prueba que este saturado.",
+   "evidencia": [
+    {"afirmacion": "Hilo n8n donde agencias preguntan como detectan fallos", "url": "https://community.n8n.io/t/those-of-you-managing-n8n-workflows-for-clients-how-do-you-find-out-when-something-breaks/304198"},
+    {"afirmacion": "CAC y volumen de busqueda", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Es 'instalar y olvidar' y cuando no hay fallos el valor percibido cae; hay downgrade facil al tier gratis rival y no hay datos de retencion de la categoria. No puedo refutar con datos.",
+   "refuto": "Solo matiz: el costo de cambiar (reconectar credenciales por cliente) y el uso en reportes de agencia dan alguna friccion, pero es argumento sin fuente.",
+   "evidencia": [
+    {"afirmacion": "Retencion de monitores comparables", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "No hay cifra verificada del universo de agencias multi-plataforma; la aritmetica del atacante es correcta (~204 pagadores para $10k, ~1,020 para $50k) y con 4-6 rivales y tiers gratis llegar a $50k es poco realista.",
+   "refuto": "~204 pagadores para $10k es un volumen plausible si el universo son miles de agencias y freelancers; que no este cuantificado no equivale a que sea pequeno. Tambien el atacante carece de cifra para decir que es 'pequeno'.",
+   "evidencia": [
+    {"afirmacion": "Numero de agencias que usan 2+ plataformas", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "La defensa es practicamente nula: integracion via APIs publicas, replicable en semanas, ya hay 4 a 6 clones, sin datos propietarios ni efecto red, y las plataformas podrian absorber la funcion. Concedo por completo.",
+   "refuto": "Solo que la afirmacion de que Zapier ya tiene observability en Enterprise proviene de un blog comparativo de n8n (parte interesada) y es claim de tercero sin verificar; ademas Enterprise queda fuera del presupuesto de una agencia pequena.",
+   "evidencia": [
+    {"afirmacion": "Zapier Enterprise observability (claim de blog de n8n, sin verificar)", "url": "https://blog.n8n.io/make-vs-zapier/"}
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El mantenimiento es continuo (tres APIs, limites de tasa, cambios de esquema), custodiar credenciales OAuth de clientes exige confianza y seguridad, el soporte consume tiempo, y la ventaja PLC/CAD de Juan no aplica. El cuello de botella es distribucion, donde Juan es debil.",
+   "refuto": "El atacante concede que el MVP en 6 semanas es factible; el stack API/webhooks/alertas coincide con el perfil de Juan (Node/TS, GraphQL), asi que la ventaja es parcial pero real en ejecucion, no en distribucion.",
+   "evidencia": [
+    {"afirmacion": "Ventaja de Juan en APIs/webhooks segun el perfil del brief", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La diferenciacion y la defensa frente a copias son casi nulas: ya hay 4 a 6 monitores con tiers gratis y Pro desde $19, y $49 no tiene evidencia de pago.",
+ "punto_que_sigue_en_pie": "El dolor documentado y caro (cliente de $2,500/mes perdido) y un canal nombrado con demanda que ya pregunta, junto con un MVP alcanzable; el nicho de agencia multi-cliente (agrupar por cliente, fallos silenciosos, white-label) sigue sin evidencia de estar cubierto.",
+ "busquedas_usadas": 1
+}

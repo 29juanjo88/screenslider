@@ -1,0 +1,51 @@
+{
+ "id": "G04-03",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "media",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 3,
+  "mercado": 3,
+  "diferenciacion": 3,
+  "ventaja_juan": 3,
+  "mvp": 4,
+  "riesgo": 3
+ },
+ "total": 37,
+ "hecho_decisivo": "No se encontro app dedicada ECR/ECN de manufactura en Atlassian Marketplace (solo flujos IT gratis no soportados), confirmado por ambos pares y por mi busqueda, pero la demanda sigue sin cuantificar: un solo hilo con un experto que cuestiona la app. https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107",
+ "condicion": "Confirmar que fabricantes pequenos/medianos con Jira, sin PLM ni exigencia de validacion formal, pagan por un flujo ECR/ECN: busquedas/intencion en Marketplace y compromisos de pago antes de construir.",
+ "experimento_mas_barato": "Landing en ingles optimizada para 'ECO/ECN change control for Jira' con demo en video y lista de espera de pago (preventa $200/mes), mas 10-15 posts utiles en r/manufacturing, r/PLM y comunidad Atlassian. Metrica: 15 preventas o depositos en 4 semanas con 500 visitas calificadas; menos de 5 deja la idea descartada.",
+ "dimensiones": {
+  "dolor": "Un solo hilo comunitario (2021) pide ECO/BOM con aprobaciones multiples; un experto cuestiona que haga falta una app. Frecuencia y urgencia sin verificar.",
+  "pago": "Sin evidencia de disposicion a pagar $200/mes por app ECO en Jira; alternativas de pago son PLM/QMS (Duro, Intellect, Wrike, Odoo) en otro presupuesto. Ticket plausible pero no probado.",
+  "alternativas_actuales": "Ambos pares y mi busqueda: no hay app ECR/ECN de manufactura visible en Marketplace; solo flujos IT gratis (no soportados). Sustitutos: workflows propios Jira/Confluence, Wrike, Odoo, PLM. Ausencia puede ser hueco o falta de mercado.",
+  "canal_y_cac": "Canal nombrado (Atlassian Marketplace) pero sin volumen de busqueda ECO/ECN verificado; el Marketplace procesa pagos. Intencion de compra desconocida.",
+  "retencion": "Sin datos de churn; si el flujo se integra al proceso de calidad la retencion seria buena, pero ECN poco frecuentes en fabricantes pequenos pueden causar cancelacion.",
+  "mercado": "Interseccion fabricantes con Jira sin PLM no cuantificada; segmento regulado capturado por QMS. Tamano plausible de miles pero sin verificar.",
+  "defensa_frente_a_copias": "Foso debil: plantilla nativa de Atlassian o vendors de conectores PLM podrian cubrirlo; la defensa seria el nicho y la reputacion en el listado.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP de workflow, aprobaciones, auditoria y PDF viable en ~6 semanas (concedido por ambos atacantes); incertidumbre en revision/Cloud Fortified del Marketplace."
+ },
+ "resumen_P1": "Atacante: demanda de un solo hilo, ERP/PLM ya incluyen ECO, sin evidencia de pago; concede que el hueco es real, canal nombrado y MVP viable. Defensor: concede que la demanda no esta probada y el foso es debil; el hueco puede ser no concluyente.",
+ "resumen_P2": "Atacante: QMS como Intellect y Wrike captan el presupuesto regulado y hay flujos gratis; concede hueco y MVP reales y F1 debil. Defensor: ausencia de apps puede reflejar falta de mercado; hay conectores PLM, Duro, Odoo; canal y precio sin evidencia.",
+ "razonamiento": "Ambos pares coinciden en que no hay app ECR/ECN de manufactura en el Marketplace y que el MVP es viable, y mi busqueda lo respalda, asi que F1 no se activa y F4 esta cubierto de forma nominal. Pero coinciden tambien en que demanda, volumen de busqueda y disposicion de pago a $200/mes no tienen evidencia; la unica senal es un hilo donde un experto cuestiona la necesidad. La ausencia de competidores es ambigua: hueco u mercado inexistente. El segmento regulado, donde hay presupuesto, lo cubren QMS y PLM. Con 37 puntos queda en banda media, por lo que vale validar barato antes de construir.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Hilo: usuario pide ECO/BOM en Jira; experto cuestiona la app",
+   "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+  },
+  {
+   "afirmacion": "Change Management CR Workflow: gratis, orientado a IT, sin soporte",
+   "url": "https://marketplace.atlassian.com/apps/1228675/change-management-cr-workflow"
+  },
+  {
+   "afirmacion": "Wrike ofrece ECM ECR/ECO/ECN",
+   "url": "https://help.wrike.com/hc/es/community/posts/32700691404439-Streamline-Engineering-Change-Management-with-Wrike"
+  },
+  {
+   "afirmacion": "Intellect ECN software para industrias reguladas",
+   "url": "https://intellect.com/products/engineering-change-notice-software"
+  }
+ ],
+ "busquedas_usadas": 2
+}

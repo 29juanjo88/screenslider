@@ -1,0 +1,51 @@
+{
+ "id": "G28-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 2,
+  "mercado": 2,
+  "diferenciacion": 3,
+  "ventaja_juan": 5,
+  "mvp": 5,
+  "riesgo": 3
+ },
+ "total": 34,
+ "hecho_decisivo": "Ambos pares coinciden: no hay evidencia verificada de demanda en PLCTalk/r/PLC ni de pago autoservicio; Copia Automation (Git para PLC con diff, TIA y L5X, precio solo por cotización) ocupa el espacio; los Compare nativos no documentan CLI/CI. URL: https://docs.copia.io/docs/git-based-source-co (truncada en los archivos; sin verificar la ruta completa).",
+ "condicion": "Confirmar que ingenieros de control pagan ~US$39-99/mes autoservicio por un diff legible con CLI/GitHub Action, y que existe volumen de búsqueda/demanda en el canal nombrado.",
+ "experimento_mas_barato": "Landing page con precio y botón de preaventa/lista de espera + 3-4 posts útiles en r/PLC y PLCTalk con ejemplo de diff L5X (sin producto) y una página SEO 'L5X diff'. Métrica: visitantes únicos a email/preventa. Umbral: >=150 visitas calificadas y >=15 emails (10%) y >=3 preventas o tarjetas en 4 semanas; si no, descartar.",
+ "dimensiones": {
+  "dolor": "Real pero episódico (revisión/puesta en marcha); .ACD es binario y Git no sirve sin capa de texto, pero ambos admiten que no hay hilos que lo pidan.",
+  "pago": "El gasto en licencias es alto pero paga el IDE; ninguna parte aportó evidencia de suscripciones autoservicio de US$39 y el comprador puede requerir aprobación corporativa.",
+  "alternativas_actuales": "Compare nativos de Siemens y Rockwell, VCI, versionDog, Copia, parser SimaticML open source y diff de texto sobre L5X/L5K; el hueco es autoservicio barato con CLI/GitHub Action.",
+  "canal_y_cac": "Búsquedas 'L5X diff'/'compare TIA Portal projects' y foros sin volumen verificado; canal plausible pero especulativo y el nicho es pequeño.",
+  "retencion": "Sin datos; el uso ligado a revisiones de cambios sería recurrente solo en equipos con flujo git/CI, que son minoría.",
+  "mercado": "Muy pequeño: ~257 clientes a US$39 para US$10k MRR, con adopción de git en PLC aún temprana.",
+  "defensa_frente_a_copias": "Débil: formatos públicos (L5X es XML), competidores financiados y vendors pueden mejorar su diff nativo (Siemens V21).",
+  "ejecucion_una_persona_tiempo_parcial": "Fuerte: MVP en ≤6 semanas sin capital y Juan conoce los formatos de exportación TIA y Studio 5000."
+ },
+ "resumen_P1": "Ataque: nativos de Siemens/Rockwell cubren lo básico, pago autoservicio y mercado no demostrados (~257 clientes para US$10k). Defensa: Git no maneja binarios y los nativos no dan CLI ni reportes para PR; concede que Copia es competidor directo omitido.",
+ "resumen_P2": "Ataque: diff de texto sobre L5X ya tolerable, Copia y parser open source ocupan el espacio, canal especulativo; concede que no hay CLI nativo documentado. Defensa: nadie ofrece opción autoservicio barata con CLI/Action; concede foso estrecho y F1 parcial.",
+ "razonamiento": "Ambos pares coinciden en lo decisivo: no hay evidencia de demanda, pago autoservicio ni volumen de canal, y Copia es un competidor directo con git y diff para TIA y L5X. El hueco (autoservicio barato con CLI/GitHub Action) es plausible y F1 no se activa claramente. La ejecución y la ventaja de Juan son máximas, pero el mercado minúsculo y el canal sin verificar impiden la banda ALTA. El total de 34 es MEDIA-baja, con probabilidad baja para US$10-50k MRR. Solo vale la pena si un test de preventa barato confirma pago y demanda.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Siemens VCI y comparación nativa en TIA",
+   "url": "https://industrialmonitordirect.com/blogs/knowledgebase/plc-program-comparison-utilities-for-regression-testing"
+  },
+  {
+   "afirmacion": "Rockwell Compare Tool nativo en Studio 5000",
+   "url": "https://www.rockwellautomation.com/en-gb/docs/studio-5000-logix-designer/38-01/contents-ditamap/studio-5000-logix-designer/compare-tool-command.html"
+  },
+  {
+   "afirmacion": "Muchos programadores PLC no adoptaron Git (binarios)",
+   "url": "https://www.controleng.com/using-git-workflows-to-improve-efficiency-reduce-bottlenecks/"
+  },
+  {
+   "afirmacion": "STEP 7 Professional TIA V20 ~US$3,130 (revendedor)",
+   "url": "https://www.eandm.com/Products/Content/Siemens/TIAv20.aspx"
+  }
+ ],
+ "busquedas_usadas": 0
+}

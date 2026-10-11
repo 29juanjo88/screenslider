@@ -1,0 +1,21 @@
+Rol: JUEZ NEUTRAL FINAL (Etapa 4) para la idea G01-02. Responde en español.
+1) Lee /home/user/screenslider/embudo/brief.md completo (criterios, filtros, rúbrica, anclas).
+2) Lee en /home/user/screenslider/embudo/e4/G01-02/: idea.json y los 8 archivos de los dos pares independientes: P1_atacante_r1, P1_defensor_r1, P1_atacante_r2, P1_defensor_r2, P2_atacante_r1, P2_defensor_r1, P2_atacante_r2, P2_defensor_r2 (.json).
+3) Búsqueda web: carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 4 búsquedas, solo para resolver el hecho en disputa que decide el veredicto. Si falla: "sin verificar". NUNCA inventes.
+4) Reglas contra el sesgo de rol:
+ - Ignora cualquier probabilidad, etiqueta o veredicto que declaren los roles.
+ - Pondera la calidad de la evidencia: afirmación con URL > "sin verificar". Las concesiones de un rol en la ronda 2 son evidencia fuerte.
+ - Compara los dos pares: si coinciden en un hecho, es más confiable; si discrepan, resuélvelo.
+ - El atacante no tiene veto. El defensor no suma puntos por insistir.
+5) Decide:
+ - veredicto: "AVANZA" (vale la pena validar ya; probable que cumpla los criterios del brief), "CONDICIONAL" (vale la pena solo si se confirma una condición concreta), "DESCARTADA".
+ - probabilidad_exito: "alta" | "media" | "baja" (para la meta de US$10–50k MRR vendiendo casi solo, con Juan a tiempo parcial).
+ - puntajes de rúbrica final 1–5 (dolor, pago, canal, mercado, diferenciacion, ventaja_juan, mvp, riesgo) y total ponderado (dolor*2+pago*2+canal*3+resto; calcúlalo con Python).
+ - hecho_decisivo: el hecho concreto (con URL si existe) que decidió el veredicto.
+ - condicion (si CONDICIONAL): qué debe confirmarse.
+ - experimento_mas_barato: el experimento más barato (sin escribir producto) que validaría o mataría la idea, con métrica y umbral.
+ - por dimensión (las 8 obligatorias): resumen de 1–2 frases del estado del debate.
+ - resumen_P1 y resumen_P2: 2–3 frases con los mejores argumentos de cada par (ataque y defensa).
+ - razonamiento: 4–6 frases.
+6) Escribe /home/user/screenslider/embudo/e4/G01-02/juez.json con las claves: id, veredicto, probabilidad_exito, puntajes{...}, total, hecho_decisivo, condicion, experimento_mas_barato, dimensiones{dolor,pago,alternativas_actuales,canal_y_cac,retencion,mercado,defensa_frente_a_copias,ejecucion_una_persona_tiempo_parcial}, resumen_P1, resumen_P2, razonamiento, fuentes_clave[{afirmacion,url}], busquedas_usadas. Valida con python3.
+7) Respuesta final: solo "OK" y 1 línea con veredicto y probabilidad.

@@ -1,0 +1,118 @@
+{
+ "id": "G20-17",
+ "par": "P1",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor acierta en que existe una categoría de software de cotización CNC con varios vendors, lo que indica dolor reconocido, y en que estimar a ojo erosiona margen. Mi propio r1 dijo que esta es la dimensión menos débil.",
+   "refuto": "Que sea dolor 'semanal' en talleres pequeños no tiene fuente: el propio defensor admite que la magnitud no está cuantificada. Que existan vendors prueba oferta, no urgencia ni búsqueda activa.",
+   "evidencia": [
+    {
+     "afirmacion": "Magnitud y frecuencia del margen perdido por estimar a ojo en talleres pequeños",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Categoría con múltiples vendors de cotización CNC",
+     "url": "https://softwareconnect.com/roundups/best-manufacturing-estimating-quoting-software/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Hay precios públicos de autoservicio en la categoría (QuoteForge desde $99/mes, Machestra gratis/$19/$79), y $69 cae dentro de ese rango; esto es señal de pago real en la categoría, más de lo que dejé ver en r1.",
+   "refuto": "Sigue sin probar que un taller pague $69 por un estimador por heurísticas; Machestra con plan gratis y $19 ancla el precio hacia abajo, y la moneda de QuoteForge no está verificada. Precios de Paperless Parts/ProShop sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "QuoteForge desde $99/mes (moneda sin verificar)",
+     "url": "https://www.softwaresuggest.com/quoteforge"
+    },
+    {
+     "afirmacion": "Machestra gratis/$19/$79",
+     "url": "https://www.capterra.com/software/1108556/Machestra"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Paperless Parts y ProShop no publican precio y son suites más pesadas; el hueco de estimador barato y autoservicio es plausible. El defensor además admite que la hoja de cálculo y Costimator no están verificados, igual que yo.",
+   "refuto": "El hueco no está vacío: QuoteForge (cotización instantánea desde STEP) y Machestra ya ocupan el autoservicio barato. No es cierto que las suites 'no compiten' abajo; no hay evidencia de que un taller pequeño rechace esas opciones. F1 por hoja de cálculo sigue sin confirmar ni descartar.",
+   "evidencia": [
+    {
+     "afirmacion": "QuoteForge ofrece cotización instantánea desde STEP",
+     "url": "https://www.softwaresuggest.com/quoteforge"
+    },
+    {
+     "afirmacion": "Paperless Parts costeo automático desde geometría",
+     "url": "https://www.paperlessparts.com/cnc-machining-quoting-software-ppc/"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "La búsqueda 'cnc job costing software' es de intención alta en principio y los roundups/directorios permiten que un recién llegado aparezca; el defensor reconoce honestamente que el SEO tarda meses.",
+   "refuto": "Volumen de búsqueda y tolerancia de Practical Machinist a la promoción siguen sin verificar por ambos lados. Aparecer en directorios implica competir en ellos contra incumbentes con reseñas. 'CAC bajo si el SEO funciona' es condicional sin dato.",
+   "evidencia": [
+    {
+     "afirmacion": "Volumen de búsqueda y actividad/tolerancia a promoción en Practical Machinist",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Directorios donde competirían los incumbentes",
+     "url": "https://softwareconnect.com/roundups/best-manufacturing-estimating-quoting-software/"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "Un estimador que guarda tarifas de máquina, herramental e historial sí genera algún costo de cambio; es un argumento lógico que no rebatí con datos en r1.",
+   "refuto": "El defensor admite que no hay datos de churn. El uso depende del volumen de RFQs de cada taller, y sin ser sistema de registro el costo de cambio es moderado. Ambos sin evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn/retención de herramientas de cotización CNC",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "mercado": {
+   "concedo": "Hay muchos job shops pequeños a nivel global y la aritmética (~145 clientes para $10k, ~725 para $50k a $69) coincide en ambos; 145 clientes no es irreal en principio, y la categoría con varios vendors sugiere mercado suficiente.",
+   "refuto": "Ninguno aporta cifra verificada de talleres compradores de software; mercado suficiente para varios vendors no implica espacio para otro con producto más débil.",
+   "evidencia": [
+    {
+     "afirmacion": "Número de talleres de maquinado compradores posibles en mercados anglosajones",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Cálculo propio $10k/$69≈145; $50k/$69≈725",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor concede honestamente que las heurísticas son copiables, y yo concedo que acotar a un nicho (3 ejes o láser) y acumular datos del usuario son vías posibles de defensa.",
+   "refuto": "Esas vías son aspiracionales: al inicio no hay datos acumulados, y un nicho acotado es igual de copiable por QuoteForge/Machestra. Sin foso demostrado, y la comoditización por IA con CAD sigue siendo un riesgo.",
+   "evidencia": [
+    {
+     "afirmacion": "QuoteForge ya ofrece cotización instantánea desde STEP",
+     "url": "https://www.softwaresuggest.com/quoteforge"
+    }
+   ],
+   "posicion": "se fortalece"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Con el alcance reducido a STEP/DXF, Juan puede llegar a un MVP en ~6 semanas con su stack y conocimiento CAM/CAD; el defensor tiene razón y el enfoque geométrico es viable (QuoteForge lo hace).",
+   "refuto": "Ese alcance es otra idea que la planteada (importar CAM) y reduce la diferenciación frente a quienes ya lo hacen. Después del MVP quedan calibración por taller, soporte y SEO sobre un fundador a tiempo parcial con cuello de botella en distribución.",
+   "evidencia": [
+    {
+     "afirmacion": "Ajuste sugerido en etapa 3: MVP acotado por heurísticas desde STEP/DXF",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  }
+ },
+ "concesion_mas_importante": "Hay señal de pago en autoservicio en la categoría (QuoteForge desde $99, Machestra $19-$79) y el MVP acotado a STEP/DXF es factible en ~6 semanas para Juan; no sostengo que no haya mercado ni que sea inconstruible.",
+ "punto_que_sigue_en_pie": "Ningún canal ni demanda está verificado, y el producto acotado llega sin foso ni diferenciación frente a QuoteForge y Machestra, que ya cubren el autoservicio barato desde STEP.",
+ "busquedas_usadas": 0
+}

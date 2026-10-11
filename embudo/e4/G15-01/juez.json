@@ -1,0 +1,59 @@
+{
+ "id": "G15-01",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 4,
+  "diferenciacion": 2,
+  "ventaja_juan": 4,
+  "mvp": 3,
+  "riesgo": 2
+ },
+ "total": 33,
+ "hecho_decisivo": "El supuesto 'hueco de precio bajo US$750' es falso: una búsqueda del juez muestra QuoteForge con plan Starter de 99 al mes (cotización instantánea desde STEP/dibujo, facturado en EUR según un listado) y Asytra Quote desde US$129 al mes, además de SpeedQuoteAI (desde US$750/mes, 0 reseñas), Paperless Parts y CloudNC con capa gratis. El nicho de US$149 ya está ocupado.",
+ "condicion": "Solo vale la pena si se confirma, sin escribir producto, que talleres CNC pequeños pagan US$149/mes por un agente email->borrador de cotización pese a QuoteForge/Asytra/CloudNC gratis, y que se alcanzan por foros/SEO sin outreach.",
+ "experimento_mas_barato": "Landing + demo en video (mockup, sin producto) de 'RFQ por email a borrador de cotización' con botón de preventa/lista de espera a US$149/mes; publicarla en r/machinists, r/CNC, Practical Machinist y un artículo SEO 'CNC quoting software alternative'. Métrica: preventas pagadas o depósitos reembolsables. Umbral: >=10 preventas pagadas (o >=3% de visitantes calificados que dejan tarjeta) en 4 semanas con <=US$300 de gasto; menos de 3 mata la idea.",
+ "dimensiones": {
+  "dolor": "Dolor semanal plausible, pero la cifra 2-4h es dato del vendedor CloudNC y no hay hilos de foros verificados; ambos pares coinciden en que es plausible, no demostrado como búsqueda activa.",
+  "pago": "Hay pago probado en la categoría (SpeedQuoteAI, Paperless Parts, QuoteForge, Asytra), pero US$149 no está validado y existe capa gratis de CloudNC; el 'hueco de precio' es refutado parcialmente por planes de 99-129.",
+  "alternativas_actuales": "Campo saturado y financiado (Paperless Parts, SpeedQuoteAI mismo flujo email, CloudNC, Costifier, QuoteForge, Asytra) más hoja de cálculo; ningún incumbente gratis completo, F1 no se activa. Ambos pares lo concedieron.",
+  "canal_y_cac": "Canales nombrados (r/machinists, r/CNC, Practical Machinist, YouTube, SEO) cumplen F4 formalmente, pero sin volumen, CAC ni aceptación verificados; foros hostiles a la autopromoción y SEO disputado.",
+  "retencion": "Sin datos de churn; RFQs semanales dan uso recurrente, pero talleres pequeños tienen alta mortalidad/estacionalidad y un agente solo de cotización es fácil de reemplazar.",
+  "mercado": "~17,130 firmas NAICS 33271 en EE.UU. (IBISWorld, no aísla CNC); bastan ~67-336 clientes a US$149, así que el tamaño no es el cuello de botella; la fracción alcanzable es desconocida.",
+  "defensa_frente_a_copias": "Prácticamente nula: ambos defensores la admiten; LLMs benefician por igual a competidores financiados y el conocimiento de Juan no es foso al inicio.",
+  "ejecucion_una_persona_tiempo_parcial": "Un MVP acotado de borrador asistido (extracción de email/PDF/STEP + tarifas del taller + aprobación humana) cabe en ~6 semanas; la estimación fiable de tiempo de máquina no, y quedan soporte y confidencialidad de planos."
+ },
+ "resumen_P1": "Ataque: campo ocupado por competidores financiados que cubren el mismo caso, defensa nula y estimación fiable fuera de 6 semanas. Defensa: dolor y pago probados por vendedores que cobran, F1 no aplica y un MVP acotado de fresado 3 ejes con humano aprobando es viable; admitió débil la defensa y el canal.",
+ "resumen_P2": "Ataque: SpeedQuoteAI cubre exactamente email->cotización, onboarding de 10-12 semanas de Paperless Parts, US$149 sin validar. Defensa: verificó SpeedQuoteAI (US$750, 0 reseñas, prueba sin tarjeta) y que 67 clientes (~0.4% de 17k talleres) bastan; concedió saturación y falta de foso.",
+ "razonamiento": "Ambos pares coinciden en que dolor y pago de la categoría son reales, que no hay incumbente gratis completo y que la defensa frente a copias es casi nula; las concesiones de ronda 2 son fuertes en este sentido. El único argumento a favor sustancial era el hueco de precio por debajo de US$750, pero la búsqueda del juez muestra planes de 99-129 al mes (QuoteForge, Asytra), lo que lo debilita mucho. El canal está nombrado pero sin evidencia de demanda, y el criterio del brief exige probabilidad ALTA, que no se alcanza (total 33, banda MEDIA baja). Queda como CONDICIONAL con probabilidad baja: solo merece seguir si una preventa barata demuestra pago a US$149 y adquisición por comunidad/SEO.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "QuoteForge Starter 99/mes (EUR según listado), cotización instantánea desde STEP/dibujo",
+   "url": "https://www.softwaresuggest.com/quoteforge"
+  },
+  {
+   "afirmacion": "Asytra Quote desde US$129/mes",
+   "url": "https://www.capterra.in/software/1238192/Asytra-Quote"
+  },
+  {
+   "afirmacion": "SpeedQuoteAI desde US$750/mes, 0 reseñas, flujo RFQ por email",
+   "url": "https://www.capterra.ie/software/1104898/SpeedQuoteAI"
+  },
+  {
+   "afirmacion": "CloudNC Quote Agent con plan gratis de 3 cotizaciones/mes",
+   "url": "https://www.cloudnc.com/quote-agent"
+  },
+  {
+   "afirmacion": "Paperless Parts apunta a 1,000-50,000 piezas únicas/año",
+   "url": "https://www.paperlessparts.com/facts/"
+  },
+  {
+   "afirmacion": "~17,130 firmas NAICS 33271 en EE.UU.",
+   "url": "https://www.ibisworld.com/united-states/number-of-businesses/machine-shop-services/645/"
+  }
+ ],
+ "busquedas_usadas": 1
+}

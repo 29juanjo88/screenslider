@@ -1,0 +1,55 @@
+{
+ "id": "G18-03",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 2,
+  "mercado": 3,
+  "diferenciacion": 3,
+  "ventaja_juan": 4,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 32,
+ "hecho_decisivo": "Ambos pares y mis busquedas coinciden en que no existe verificador DFM de chapa autoservicio, neutral, DXF+STEP y con precio publico (hueco real), pero nadie, en ningun lado, aporta evidencia de disposicion de pago de un comprador de piezas a US$49/mes; el DFM gratis atado a cotizacion (QDJ, Wsoptics, DigiFabster) y DFMXpress/DFMPro en CAD erosionan el valor. Precedentes de pago (Design2Fab US$79.99) son de otro comprador. https://qdj-prototype.com/dfm-engineering-review/",
+ "condicion": "Confirmar con prepagos/lista de espera que al menos ~20 ingenieros o equipos que compran chapa pagan US$49/mes (o anual equivalente) por un pre-chequeo DFM neutral, y que el canal SEO/comunidad genera trafico con intencion de herramienta.",
+ "experimento_mas_barato": "Landing page en ingles con demo estatico (reporte DFM de ejemplo sobre un DXF) y boton de prepago/reserva US$49 (Stripe), mas 1 articulo SEO ('sheet metal design rules'/'DFM checklist') y publicaciones utiles en r/engineering, r/SheetMetal y foros Fusion/SolidWorks. Metrica: visitantes unicos y prepagos. Umbral para continuar: >=2% de visitantes cualificados dejan email y >=15-20 prepagos (o >=5% de quienes suben un DXF de prueba manualmente revisado) en 4-6 semanas; si <5 prepagos con >1,000 visitas, descartar.",
+ "dimensiones": {
+  "dolor": "Real pero episodico por pedido; sin cifras de frecuencia ni costo de rechazo en ningun par. El feedback gratis llega tras enviar el pedido, no antes.",
+  "pago": "Punto mas debil: cero evidencia de pago por DFM independiente de comprador; Design2Fab y Toolpath son otros compradores y DFMPro es add-in empresarial sin precio publico (sin verificar).",
+  "alternativas_actuales": "DFM gratis atado a cotizacion (QDJ, Wsoptics, DigiFabster) y DFMXpress/DFMPro en SolidWorks cubren parte; hueco neutral autoservicio confirmado por ambos pares y por mi busqueda, pero puede reflejar poca demanda. F1 parcial, no estricto.",
+  "canal_y_cac": "Canal nombrado (SEO checklist, r/engineering, foros) cumple F4 en forma pero es informativo, sin marketplace con intencion de compra y sin volumenes verificados; el pivote white-label es venta B2B y el atacante y el defensor lo retiraron o cuestionaron.",
+  "retencion": "Uso episodico por proyecto, churn alto en plan individual; mitigaciones (equipo, prepago por pedido) son hipotesis sin datos.",
+  "mercado": "Universo de ingenieros que piden chapa probablemente grande (>10k, quiza >100k) pero pagador real subconjunto pequeno; ~205 pagadores a US$49 para US$10k MRR; sin cifra con fuente (la de GMI es de servicios, no de software).",
+  "defensa_frente_a_copias": "Reglas publicas y copiables; foso solo por incentivo (plataformas usan DFM como gancho) y neutralidad multi-proveedor; sin datos ni efecto red. Ambos pares concedieron que no hay foso tecnico.",
+  "ejecucion_una_persona_tiempo_parcial": "MVP DXF 2D con 3 reglas en ~6 semanas es plausible y ambos roles lo concedieron; STEP 3D y falsos positivos son mas dificiles; el cuello es distribucion."
+ },
+ "resumen_P1": "Ataque: el hueco existe probablemente porque nadie paga; DFM gratis en cotizaciones y DFMXpress, canal informativo, uso episodico. Defensa: DFM gratis atado a un proveedor, neutralidad estructural, Design2Fab como precedente y MVP DXF viable; concedio que pago, canal y copias son debiles.",
+ "resumen_P2": "Ataque: pago sin evidencia, F1 serio, SEO 'checklist' informativo, reglas copiables por plataformas con datos. Defensa: no hay verificador neutral DXF+STEP con precio publico, DFMPro/Design2Fab muestran presupuesto en la categoria; ambos convergieron en validar con landing y prepagos.",
+ "razonamiento": "Los dos pares coinciden en lo mismo: el hueco neutral es real y el MVP DXF es factible para Juan, pero la disposicion de pago a US$49 no tiene evidencia y el canal es informativo, lo que pesa x2 y x3. Mis busquedas confirmaron que no hay checker autoservicio con precio publico y que DFMPro no publica precio, sin resolver si el comprador de piezas paga. F1 no se dispara de forma estricta (el DFM gratis exige subir a cada proveedor), pero el uso episodico y las copias posibles dejan riesgo alto. Total 32, borde inferior de MEDIA y lejos de ALTA (>=44), por lo que solo vale la pena con un test barato de prepago. Probabilidad baja para US$10-50k MRR con venta casi solitaria.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "QDJ da revision DFM gratis con cotizacion (revision humana)",
+   "url": "https://qdj-prototype.com/dfm-engineering-review/"
+  },
+  {
+   "afirmacion": "Wsoptics verifica fabricabilidad STEP/DXF/DWG dentro de su tienda",
+   "url": "https://wsoptics.de/shop"
+  },
+  {
+   "afirmacion": "DigiFabster integra DFM en cotizacion instantanea, precio personalizado",
+   "url": "https://digifabster.com/products/instant-quoting-solution/"
+  },
+  {
+   "afirmacion": "Design2Fab US$79.99/usuario/mes (layout de chapa, otro comprador)",
+   "url": "https://www.machinery.co.uk/content/news/hypertherm-launches-subscription-pricing-for-design2fab-sheet-metal-layout-software"
+  },
+  {
+   "afirmacion": "DFMPro: reglas de chapa (radio de plegado, separacion de cortes), precio no publicado",
+   "url": "https://www.automation.com/article/geometric-releases-dfmpro-cad-for-sheet-metal"
+  }
+ ],
+ "busquedas_usadas": 2
+}

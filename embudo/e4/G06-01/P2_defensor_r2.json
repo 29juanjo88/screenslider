@@ -1,0 +1,122 @@
+{
+ "id": "G06-01",
+ "par": "P2",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "El dolor es episódico y la magnitud (horas/semana, conversión perdida) y la demanda en r/3Dprinting no están verificadas; solo lo siente quien recibe volumen con archivo propio. Un 3 es razonable.",
+   "refuto": "Que existan plugins de pago y gratuitos dedicados a cotizar STL en carrito indica que el problema se vive, no solo que está cubierto. El atacante no aporta evidencia de que sea trivial (hoja de cálculo) para tiendas con volumen.",
+   "evidencia": [
+    {
+     "afirmacion": "Existen plugins de cotización instantánea de STL en WooCommerce",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Magnitud del dolor",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "El plan gratis de PrintPrice (5 pedidos/mes) y SlicePress GPL anclan a la baja la disposición de pago; el precio de PrintPrice no está verificado y se necesitan unos 345 pagadores a $29 para $10k.",
+   "refuto": "Que PrintPrice venda planes de 50/100/300 pedidos prueba que existe pago en el segmento; la afirmación de que los usuarios de WordPress.org solo esperan gratis es del atacante y no tiene evidencia. El plan gratis limitado a 5 pedidos empuja a tiendas con volumen a pagar.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice: plan gratis de 5 pedidos/mes y planes de pago",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Precio exacto de planes",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Hay dos alternativas directas reales (PrintPrice y SlicePress) y el riesgo de F1 parcial es genuino; la diferenciación hoy es débil.",
+   "refuto": "F1 exige un incumbente gratis suficientemente bueno: PrintPrice gratis está limitado a 5 pedidos y STEP solo es de pago, y SlicePress exige montar slicer/API, orientado a técnicos. No cubren con claridad resina/SLS ni slicing local. El atacante mismo admite que su lista de competidores externos está sin verificar.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice: gratis limitado, STEP solo de pago",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Huecos en resina/SLS y slicing local",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "canal_y_cac": {
+   "concedo": "El listado de WordPress.org está ocupado por PrintPrice con reseñas e instalaciones, un plugin nuevo parte sin reseñas, el volumen de búsqueda es desconocido y la autopromoción en Reddit puede estar limitada.",
+   "refuto": "El atacante admite que su evidencia no prueba que el canal sea inviable. Ocupado no es cerrado: el directorio admite varios plugins por consulta, el CAC en dinero es casi cero y existen otros canales (print farms, comunidades). Sin cifras de ninguno de los dos lados.",
+   "evidencia": [
+    {
+     "afirmacion": "PrintPrice ocupa el listado, canal competido pero vivo",
+     "url": "https://de.wordpress.org/plugins/printprice-3d-calculator/"
+    },
+    {
+     "afirmacion": "Volumen de búsqueda y reglas de r/3Dprinting",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "No hay datos de churn y el riesgo de cierre o estacionalidad de tiendas pequeñas y de migrar al plan gratis es plausible.",
+   "refuto": "El atacante tampoco aporta datos. Un plugin integrado a la tabla de precios y al flujo de pedidos tiene costos de cambio, aunque no puedo cuantificarlos.",
+   "evidencia": [
+    {
+     "afirmacion": "Churn en plugins WooCommerce de nicho",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El universo de tiendas WooCommerce de impresión 3D bajo pedido es un nicho acotado, sin cifra con fuente, y 345 pagadores pueden exigir una penetración alta.",
+   "refuto": "El atacante dice 'probablemente pocos miles' sin fuente; es especulación equivalente a la mía. La etapa 2 dijo 'nicho acotado', no 'inviable'. No puedo refutar con datos.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamaño del universo de tiendas",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "La defensa de código es casi nula: SlicePress es GPL y un desarrollador puede clonar un plugin en poco tiempo. No hay foso estructural.",
+   "refuto": "Matizo que igualar la precisión de estimación calibrada (perfiles de máquina y material, soporte) requiere conocimiento de slicing, y SlicePress exige a los usuarios montar la infraestructura. Es ventaja de ejecución, no foso, y no está probada.",
+   "evidencia": [
+    {
+     "afirmacion": "SlicePress GPL es copiable",
+     "url": "https://www.printables.com/article/slicer-api-with-wordpress-plugin-that-creates-inst-n5jba25"
+    },
+    {
+     "afirmacion": "Ventaja de precisión de Juan",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Correr un slicer en servidor implica costo de infraestructura y mantenimiento, el soporte de compatibilidad con WooCommerce es continuo y el cuello de botella declarado de Juan es la distribución. El atacante concede que el MVP en 6 semanas es viable.",
+   "refuto": "El costo de CPU por cotización no está cuantificado por el atacante y puede mitigarse con una estimación geométrica local sin slicer completo (volumen/soporte) en el MVP. La ejecución técnica es la dimensión más fuerte de la idea.",
+   "evidencia": [
+    {
+     "afirmacion": "Costo de infraestructura de slicing",
+     "url": "sin verificar"
+    },
+    {
+     "afirmacion": "Perfil de Juan: PHP/Laravel y firmware 3D (brief)",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El canal de WordPress.org está ocupado por PrintPrice (con plan gratis) y SlicePress es GPL: la diferenciación y la defensa frente a copias son débiles y la disposición de pago a $29 queda debilitada.",
+ "punto_que_sigue_en_pie": "El dolor es real y hay precedente de pago (PrintPrice cobra planes), el MVP es viable para Juan en unas 6 semanas, y el hueco en nichos como resina/SLS o slicing local, aunque sin demanda verificada, impide hablar de un F1 pleno.",
+ "busquedas_usadas": 0
+}

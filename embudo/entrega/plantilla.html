@@ -1,0 +1,319 @@
+<title>Embudo 600 → 20</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: plano de ingeniería. Cajetín de título arriba, pestañas como hojas del plano, fichas como notas de revisión. */
+:root{
+  --paper:#f4f6f7; --sheet:#ffffff; --ink:#15202b; --muted:#5b6876; --rule:#cfd7de; --rule-soft:#e4e9ed;
+  --accent:#1f56c3; --accent-soft:#e3ebfa;
+  --ok:#1d7544; --ok-soft:#e1f2e8; --warn:#9a5d00; --warn-soft:#fbefd9; --bad:#ad2a22; --bad-soft:#f9e3e1;
+  --f-display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0e1419; --sheet:#151d24; --ink:#e2e8ed; --muted:#93a1ae; --rule:#2c3943; --rule-soft:#222d36;
+  --accent:#7ea3ff; --accent-soft:#1c2a45;
+  --ok:#72d29d; --ok-soft:#163325; --warn:#f0b54f; --warn-soft:#3a2c12; --bad:#ff8f86; --bad-soft:#3d1c1a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0e1419; --sheet:#151d24; --ink:#e2e8ed; --muted:#93a1ae; --rule:#2c3943; --rule-soft:#222d36;
+  --accent:#7ea3ff; --accent-soft:#1c2a45;
+  --ok:#72d29d; --ok-soft:#163325; --warn:#f0b54f; --warn-soft:#3a2c12; --bad:#ff8f86; --bad-soft:#3d1c1a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55;}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:20px 56px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.15}
+h2{font-size:1.6rem;font-weight:700}
+h3{font-size:1.15rem;font-weight:600}
+p{margin:0}
+a{color:var(--accent)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.label{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* cajetín */
+.titleblock{display:grid;grid-template-columns:2.2fr repeat(4,1fr);border:1.5px solid var(--ink);background:var(--sheet)}
+.titleblock>div{padding:10px 12px;border-left:1px solid var(--ink);min-width:0}
+.titleblock>div:first-child{border-left:0}
+.titleblock h1{font-size:clamp(1.7rem,4vw,2.5rem);font-weight:700;letter-spacing:-.01em}
+.titleblock .v{font-family:var(--f-mono);font-size:1rem;font-weight:500;margin-top:2px}
+.funnel{display:grid;grid-template-columns:repeat(4,1fr);border:1.5px solid var(--ink);border-top:0;background:var(--sheet)}
+.funnel>div{padding:10px 12px;border-left:1px solid var(--rule);display:flex;flex-direction:column;gap:2px;min-width:0}
+.funnel>div:first-child{border-left:0}
+.funnel .n{font-family:var(--f-display);font-size:1.9rem;font-weight:700;line-height:1}
+.funnel .d{font-size:.82rem;color:var(--muted)}
+@media (max-width:760px){
+  .titleblock{grid-template-columns:1fr 1fr}
+  .titleblock>div:first-child{grid-column:1/-1}
+  .titleblock>div{border-left:0;border-top:1px solid var(--ink)}
+  .titleblock>div:first-child{border-top:0}
+  .titleblock>div:nth-child(odd):not(:first-child){border-left:1px solid var(--ink)}
+  .funnel{grid-template-columns:1fr 1fr}
+  .funnel>div:nth-child(3){border-left:0}
+  .funnel>div:nth-child(n+3){border-top:1px solid var(--rule)}
+}
+.verdict-line{margin-top:18px;padding:14px 16px;border-left:4px solid var(--warn);background:var(--sheet);border-top:1px solid var(--rule-soft);border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft)}
+.verdict-line p{max-width:75ch}
+/* pestañas */
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);display:flex;gap:4px;flex-wrap:wrap;margin-top:22px;border-bottom:1.5px solid var(--ink);padding-top:6px}
+nav.tabs button{font-family:var(--f-display);font-size:.98rem;font-weight:600;background:transparent;color:var(--muted);border:1.5px solid transparent;border-bottom:0;padding:7px 14px;cursor:pointer;margin-bottom:-1.5px;border-radius:0}
+nav.tabs button[aria-selected="true"]{color:var(--ink);background:var(--sheet);border-color:var(--ink)}
+nav.tabs button:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section.sheet{background:var(--sheet);border:1.5px solid var(--ink);border-top:0;padding:22px 20px 26px}
+@media (max-width:560px){section.sheet{padding:18px 14px 22px}}
+.lead{max-width:70ch;color:var(--muted);margin-top:6px}
+/* chips */
+.chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border:1px solid currentColor;white-space:nowrap}
+.v-AVANZA{color:var(--ok);background:var(--ok-soft)}
+.v-CONDICIONAL{color:var(--warn);background:var(--warn-soft)}
+.v-DESCARTADA{color:var(--bad);background:var(--bad-soft)}
+.p-alta{color:var(--ok)} .p-media{color:var(--warn)} .p-baja{color:var(--bad)}
+/* finalistas */
+.fin-list{display:flex;flex-direction:column;gap:0;margin-top:18px;border-top:1px solid var(--rule)}
+details.fin{border-bottom:1px solid var(--rule)}
+details.fin>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:2.2rem minmax(0,1fr) auto;gap:12px;align-items:start;padding:14px 4px}
+details.fin>summary::-webkit-details-marker{display:none}
+.rank{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);padding-top:3px}
+.fin-head{min-width:0;display:flex;flex-direction:column;gap:4px}
+.fin-head .t{font-family:var(--f-display);font-size:1.15rem;font-weight:600}
+.fin-head .s{color:var(--muted);font-size:.88rem}
+.fin-meta{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.score{font-family:var(--f-mono);font-size:.85rem}
+.score b{font-size:1.15rem;font-weight:500}
+@media (max-width:560px){details.fin>summary{grid-template-columns:minmax(0,1fr)}.rank{display:none}.fin-meta{flex-direction:row;align-items:center;flex-wrap:wrap}}
+.fin-body{padding:4px 4px 22px 3.2rem;display:flex;flex-direction:column;gap:18px}
+@media (max-width:560px){.fin-body{padding-left:4px}}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px 22px}
+.kv>div{min-width:0}
+.kv p{font-size:.9rem}
+.decisive{padding:12px 14px;background:var(--accent-soft);border-left:3px solid var(--accent)}
+.decisive p{max-width:80ch}
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:760px){.pairs{grid-template-columns:1fr}}
+.pair{border:1px solid var(--rule);padding:12px 14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.role{display:flex;flex-direction:column;gap:4px;font-size:.88rem}
+.role .who{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase}
+.who.atk{color:var(--bad)} .who.def{color:var(--ok)}
+.role .r2{color:var(--muted)}
+.dims{width:100%;border-collapse:collapse;font-size:.86rem}
+.dims td{border-top:1px solid var(--rule-soft);padding:7px 8px;vertical-align:top}
+.dims td:first-child{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);width:11rem}
+.rub{display:flex;flex-wrap:wrap;gap:6px}
+.rub span{font-family:var(--f-mono);font-size:.75rem;border:1px solid var(--rule);padding:2px 7px}
+.src{font-size:.82rem;display:flex;flex-direction:column;gap:3px}
+.src a{word-break:break-all}
+/* planes */
+.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:18px}
+@media (max-width:900px){.plans{grid-template-columns:1fr}}
+.plan{border:1.5px solid var(--ink);display:flex;flex-direction:column}
+.plan header{padding:12px 14px;border-bottom:1px solid var(--ink);display:flex;flex-direction:column;gap:4px}
+.plan .blk{padding:12px 14px;border-bottom:1px solid var(--rule-soft);display:flex;flex-direction:column;gap:6px;font-size:.88rem}
+.plan .blk:last-child{border-bottom:0}
+.plan ol,.plan ul{margin:0;padding-left:1.15rem;display:flex;flex-direction:column;gap:4px}
+.plan .gate{background:var(--warn-soft)}
+/* resumen */
+.prose{max-width:68ch;display:flex;flex-direction:column;gap:12px;margin-top:14px}
+.prose ul{margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:6px}
+.limits{margin-top:22px;max-width:68ch;border-top:1px solid var(--rule);padding-top:14px;display:flex;flex-direction:column;gap:8px;font-size:.9rem;color:var(--muted)}
+/* tablas */
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;align-items:end}
+.filters label{display:flex;flex-direction:column;gap:4px;min-width:0;flex:1 1 180px}
+.filters input,.filters select{font:inherit;font-size:.9rem;padding:7px 9px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:0;width:100%}
+.count{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);margin-top:10px}
+.tbl-wrap{overflow-x:auto;margin-top:8px;border:1px solid var(--rule)}
+table.ideas{border-collapse:collapse;width:100%;min-width:760px;font-size:.86rem}
+table.ideas th{position:sticky;top:0;background:var(--sheet);text-align:left;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:8px;border-bottom:1.5px solid var(--ink);cursor:pointer;white-space:nowrap}
+table.ideas td{padding:8px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+table.ideas td.num{font-family:var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
+table.ideas tr.row{cursor:pointer}
+table.ideas tr.row:hover td{background:var(--accent-soft)}
+table.ideas tr.det td{background:var(--paper);font-size:.84rem}
+.det-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px 20px;padding:4px 2px}
+.det-grid>div{min-width:0}
+.st{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;padding:1px 6px;border:1px solid var(--rule);white-space:nowrap}
+.st-finalista{color:var(--accent);border-color:var(--accent)}
+.st-top100{color:var(--ink)}
+.st-fuera,.st-duplicado,.st-variante{color:var(--muted)}
+.more{margin-top:12px}
+.more button{font:inherit;font-family:var(--f-display);font-weight:600;padding:7px 14px;border:1.5px solid var(--ink);background:var(--sheet);color:var(--ink);cursor:pointer}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <div class="titleblock">
+    <div><div class="label">Proyecto</div><h1>Embudo 600 → 20</h1></div>
+    <div><div class="label">Para</div><div class="v">Juan · GDL</div></div>
+    <div><div class="label">Mercado</div><div class="v">Global EN</div></div>
+    <div><div class="label">Meta</div><div class="v">$10–50k MRR</div></div>
+    <div><div class="label">Rev · Fecha</div><div class="v">B · 2026-10-11</div></div>
+  </div>
+  <div class="funnel">
+    <div><span class="label">Etapa 1</span><span class="n mono">600</span><span class="d">ideas por canal y tendencia · 65 duplicados</span></div>
+    <div><span class="label">Etapa 2</span><span class="n mono">100</span><span class="d">atacante, defensor y juez · sin búsquedas</span></div>
+    <div><span class="label">Etapa 3</span><span class="n mono">20</span><span class="d">mismos roles con búsquedas web</span></div>
+    <div><span class="label">Etapa 4</span><span class="n mono">0 · 19 · 1</span><span class="d">avanza · condicional · descartada</span></div>
+  </div>
+  <div class="verdict-line">
+    <div class="label">Veredicto del embudo</div>
+    <p style="margin-top:4px">Ninguna idea tiene probabilidad alta. Cinco tienen probabilidad media, y en todas la duda es la misma: no hay evidencia de que el canal traiga compradores solos. El siguiente paso es validar sin escribir producto. Los tres planes de dos semanas están en la pestaña Planes.</p>
+  </div>
+
+  <nav class="tabs" role="tablist" aria-label="Secciones">
+    <button role="tab" id="tab-finalistas" aria-controls="finalistas" aria-selected="true">Finalistas</button>
+    <button role="tab" id="tab-planes" aria-controls="planes" aria-selected="false">Planes de validación</button>
+    <button role="tab" id="tab-resumen" aria-controls="resumen" aria-selected="false">Qué cambió</button>
+    <button role="tab" id="tab-top100" aria-controls="top100" aria-selected="false">Las 100</button>
+    <button role="tab" id="tab-todas" aria-controls="todas" aria-selected="false">Las 600</button>
+  </nav>
+
+  <section class="sheet" id="finalistas" role="tabpanel" aria-labelledby="tab-finalistas">
+    <h2>Las 20 finalistas</h2>
+    <p class="lead">Ordenadas por veredicto, después por probabilidad y por el puntaje final del juez (sobre 60; banda alta ≥44, media 32–43). Cada ficha trae los dos pares independientes de atacante y defensor, lo que cada uno concedió en la réplica y el razonamiento del juez.</p>
+    <div class="fin-list" id="fin-list"></div>
+  </section>
+
+  <section class="sheet" id="planes" role="tabpanel" aria-labelledby="tab-planes" hidden>
+    <h2>Planes de validación de 2 semanas</h2>
+    <p class="lead">Para las tres mejores ideas. No se escribe producto: solo landing con lista de espera o preventa, 10 conversaciones con compradores y una métrica que decide si sigues. Los umbrales parten del experimento que propuso cada juez, ajustados a dos semanas.</p>
+    <div class="plans" id="plans"></div>
+  </section>
+
+  <section class="sheet" id="resumen" role="tabpanel" aria-labelledby="tab-resumen" hidden>
+    <h2>Qué cambió frente al embudo anterior</h2>
+    <div class="prose">
+      <p>Los criterios se fijaron antes de generar: mercado global en inglés, venta casi sin vendedores y una meta de US$10–50k al mes. Los filtros de descarte, la rúbrica y tres ideas ancla quedaron en el brief desde el principio.</p>
+      <ul>
+        <li><b>Generación por canal.</b> Los 30 ángulos fueron canales (Shopify, Atlassian, APIs, SEO) y tendencias, más tres ángulos de ideas contrarias. Salieron 78 temas distintos y se agruparon 65 duplicados.</li>
+        <li><b>Puntajes comparables.</b> Cada juez calificó contra las mismas anclas. La media por lote quedó entre 30.8 y 35.3, y un segundo juez independiente resolvió los 27 empates del corte.</li>
+        <li><b>Diversidad forzada.</b> Máximo 5 ideas por tema en las 100 y 3 en las 20.</li>
+        <li><b>Sesgo de rol contenido.</b> En la etapa 2 los atacantes nunca calificaron una objeción como débil, pero el juez no les dio veto. En la etapa 4 la réplica obligó a conceder lo cierto, y varios defensores admitieron competidores directos (Copia, CODESYS, Sublium).</li>
+        <li><b>Ventaja de Juan desde el inicio.</b> 14 de las 20 finalistas son industriales (CAD, PLC, láser, CNC).</li>
+        <li><b>Presupuesto de búsquedas.</b> El límite real resultó ser de 200 búsquedas por turno. La etapa 4 se repartió en tres turnos y ningún agente chocó con el límite.</li>
+      </ul>
+      <p>El resultado se parece al anterior: ninguna alta y cinco medias. La diferencia es que ahora cada idea tiene la evidencia citada, el hecho que la frena y un experimento barato con umbral. El cotizador DXF láser, pariente de CotizaMaquila, volvió a aparecer solo y otra vez quedó en media.</p>
+    </div>
+    <div class="limits">
+      <div class="label">Limitaciones de esta corrida</div>
+      <p>Los primeros 20 generadores no pudieron buscar en la web, así que solo 25 de las 600 ideas traen URL de evidencia.</p>
+      <p>En la etapa 3, al menos 6 jueces trabajaron con 0 a 2 búsquedas porque se agotó el presupuesto del turno; calificaron con la evidencia de atacante y defensor.</p>
+      <p>Las etapas 1 a 3 corrieron con Sonnet y el esfuerzo por defecto; las definiciones con esfuerzo medio solo se cargaron a partir de la etapa 4.</p>
+      <p>StepView API se parece al ancla "alta" del brief. Su puntaje bajó de 45 a 33 al verificarse con búsquedas.</p>
+    </div>
+  </section>
+
+  <section class="sheet" id="top100" role="tabpanel" aria-labelledby="tab-top100" hidden>
+    <h2>Las 100</h2>
+    <p class="lead">Las que pasaron la etapa 2. Haz clic en una fila para ver el problema, el canal y las razones de cada juez.</p>
+    <div class="filters">
+      <label><span class="label">Buscar</span><input id="q100" type="search" placeholder="nombre, cliente, canal…"></label>
+      <label><span class="label">Tema</span><select id="t100"></select></label>
+      <label><span class="label">Estado</span><select id="s100"><option value="">Todos</option><option value="finalista">Finalista</option><option value="top100">Eliminada en etapa 3</option><option value="variante">Variante fusionada</option></select></label>
+    </div>
+    <div class="count" id="c100"></div>
+    <div class="tbl-wrap"><table class="ideas" id="tb100"></table></div>
+  </section>
+
+  <section class="sheet" id="todas" role="tabpanel" aria-labelledby="tab-todas" hidden>
+    <h2>Las 600</h2>
+    <p class="lead">Todas las ideas generadas, con su ángulo de origen, el puntaje de la etapa 2 y, si llegó, el de la etapa 3. Un 0 significa que el juez aplicó un filtro de descarte.</p>
+    <div class="filters">
+      <label><span class="label">Buscar</span><input id="q600" type="search" placeholder="nombre, cliente, canal…"></label>
+      <label><span class="label">Ángulo</span><select id="a600"></select></label>
+      <label><span class="label">Estado</span><select id="s600"><option value="">Todos</option><option value="finalista">Finalista</option><option value="top100">Top 100</option><option value="fuera">Eliminada en etapa 2</option><option value="duplicado">Duplicado</option></select></label>
+      <label><span class="label">Puntaje E2 mínimo</span><input id="m600" type="number" min="0" max="60" value="0"></label>
+    </div>
+    <div class="count" id="c600"></div>
+    <div class="tbl-wrap"><table class="ideas" id="tb600"></table></div>
+    <div class="more"><button id="more600" type="button">Mostrar 100 más</button></div>
+  </section>
+</div>
+
+<script>
+/*DATA*/
+</script>
+<script>
+(function(){
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const link=u=>/^https?:\/\//.test(u||'')?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>`:`<span class="label">${esc(u||'sin verificar')}</span>`;
+const VO={AVANZA:0,CONDICIONAL:1,DESCARTADA:2},PO={alta:0,media:1,baja:2};
+const fin=DATA.fin.slice().sort((a,b)=>VO[a.juez.veredicto]-VO[b.juez.veredicto]||PO[a.juez.probabilidad_exito]-PO[b.juez.probabilidad_exito]||b.juez.total-a.juez.total);
+const DIMS=[['dolor','Dolor'],['pago','Pago'],['alternativas_actuales','Alternativas'],['canal_y_cac','Canal y CAC'],['retencion','Retención'],['mercado','Mercado'],['defensa_frente_a_copias','Defensa ante copias'],['ejecucion_una_persona_tiempo_parcial','Ejecución 1 persona']];
+const RUB=[['dolor','Dolor ×2'],['pago','Pago ×2'],['canal','Canal ×3'],['mercado','Mercado'],['diferenciacion','Dif.'],['ventaja_juan','Ventaja'],['mvp','MVP'],['riesgo','Riesgo']];
+function role(r,cls,label){if(!r)return'';return `<div class="role"><span class="who ${cls}">${label}</span><p>${esc(r.r1)}</p>${r.concede?`<p class="r2"><b>Concede en réplica:</b> ${esc(r.concede)}</p>`:''}${r.sigue?`<p class="r2"><b>Sigue en pie:</b> ${esc(r.sigue)}</p>`:''}</div>`}
+document.getElementById('fin-list').innerHTML=fin.map((f,i)=>{const j=f.juez;const p=j.puntajes||{};
+ return `<details class="fin" id="f-${esc(f.id)}"${i===0?' open':''}><summary>
+ <span class="rank mono">${String(i+1).padStart(2,'0')}</span>
+ <span class="fin-head"><span class="t">${esc(f.nombre)}</span><span class="s">${esc(f.cliente)} · US$${esc(f.precio)}/mes · ${esc(f.tema)}</span></span>
+ <span class="fin-meta"><span class="chip v-${esc(j.veredicto)}">${esc(j.veredicto)}</span><span class="chip p-${esc(j.probabilidad_exito)}">prob. ${esc(j.probabilidad_exito)}</span><span class="score mono"><b>${esc(j.total)}</b>/60 · E2 ${esc(f.e2)} · E3 ${esc(f.e3)}</span></span></summary>
+ <div class="fin-body">
+  <div class="kv"><div><div class="label">Problema</div><p>${esc(f.problema)}</p></div><div><div class="label">Solución</div><p>${esc(f.solucion)}</p></div><div><div class="label">Canal para los primeros 100</div><p>${esc(f.canal)}</p></div></div>
+  <div class="decisive"><div class="label">Hecho decisivo</div><p>${esc(j.hecho_decisivo)}</p></div>
+  ${j.condicion?`<div><div class="label">Condición</div><p>${esc(j.condicion)}</p></div>`:''}
+  <div><div class="label">Experimento más barato</div><p>${esc(j.experimento_mas_barato)}</p></div>
+  <div><div class="label">Razonamiento del juez</div><p>${esc(j.razonamiento)}</p></div>
+  <div class="rub">${RUB.map(([k,l])=>`<span>${l} ${esc(p[k])}</span>`).join('')}</div>
+  <div class="pairs">
+   <div class="pair"><div class="label">Par 1 · ${esc(j.resumen_P1||'')}</div>${role(f.roles.P1_atacante,'atk','Atacante')}${role(f.roles.P1_defensor,'def','Defensor')}</div>
+   <div class="pair"><div class="label">Par 2 · ${esc(j.resumen_P2||'')}</div>${role(f.roles.P2_atacante,'atk','Atacante')}${role(f.roles.P2_defensor,'def','Defensor')}</div>
+  </div>
+  <div style="overflow-x:auto"><table class="dims">${DIMS.map(([k,l])=>`<tr><td>${l}</td><td>${esc((j.dimensiones||{})[k])}</td></tr>`).join('')}</table></div>
+  ${(j.fuentes_clave||[]).length?`<div class="src"><div class="label">Fuentes clave</div>${j.fuentes_clave.map(s=>`<div>${esc(s.afirmacion)} — ${link(s.url)}</div>`).join('')}</div>`:''}
+ </div></details>`}).join('');
+
+const PLANS=[
+ {id:'G06-04',name:'Subscription Churn Saver',angle:'Ángulo a validar: ofertas de pausa y de retención en el flujo de cancelación de WooCommerce Subscriptions, que Sublium y Subscriptions Recovery no cubren.',
+  landing:['Día 1–2: landing en inglés "Stop subscription cancellations in WooCommerce" con un video del flujo de cancelación hecho en Figma.','Precio visible US$29/mes. Preventa: 3 meses por US$59 con un enlace de pago de Stripe, reembolsable.','Días 3–14: un artículo "How to reduce WooCommerce Subscriptions churn" y 3–4 publicaciones útiles en grupos de Facebook de WooCommerce y en el foro de WordPress.org, con enlace a la landing.'],
+  talks:['Dónde: hilos sobre cancelaciones y pagos fallidos en el foro de soporte de WooCommerce Subscriptions; grupos de WooCommerce en Facebook; tiendas que listan Subscriptions en sus créditos.','Preguntas: cuántos suscriptores tienes, qué churn mensual, cuánto es cancelación voluntaria y cuánto pago fallido, qué usas hoy y cuánto pagas.','Cierra cada llamada con el enlace de preventa.'],
+  metric:'Sigue si en 14 días logras al menos 6 preventas pagadas o 25 registros de tiendas con más de 100 suscriptores, y si al menos 5 de las 10 conversaciones dicen que la cancelación voluntaria es su fuga principal. Si no llegas a 3 preventas, descártala.'},
+ {id:'G04-03',name:'Change Control for Engineering',angle:'Ángulo a validar: flujo ECR/ECN de manufactura dentro de Jira para fabricantes sin PLM. Ambos pares confirmaron que no hay una app dedicada en Atlassian Marketplace.',
+  landing:['Día 1–3: arma el flujo ECR → ECO → ECN con la configuración nativa de Jira (estados, campos, aprobaciones) y graba un video de 3 minutos. Eso es demo, no producto.','Landing "ECR/ECN change control for Jira" con precio US$200/mes. Piloto fundador: US$1,200 el primer año, con depósito reembolsable de US$200.','Publica 5–8 respuestas útiles en Atlassian Community (hilo "ECO Management in Jira"), r/manufacturing y r/PLM.'],
+  talks:['Dónde: tu red de manufactura en Guadalajara (maquiladoras y proveedores Tier 2 que usan Jira), LinkedIn ("quality engineer" + "Jira") y quienes respondan en la comunidad de Atlassian.','Preguntas: cómo registran hoy un cambio de ingeniería (Excel, correo, PLM), cuántos ECO al mes, si la auditoría ISO 9001 o IATF pide trazabilidad, quién aprueba comprar apps de Marketplace y con qué presupuesto.','Pide el depósito del piloto al final de cada llamada.'],
+  metric:'Sigue si en 14 días consigues 3 depósitos de piloto pagados, y si al menos 5 de las 10 conversaciones gestionan 10 o más ECO al mes en Excel o correo. Si consigues 1 depósito o ninguno, descártala.'},
+ {id:'G29-09',name:'PLC Documentation Generator',angle:'Ángulo a validar: lista de IO y PDF de entrega generados offline desde proyectos de TIA Portal o Studio 5000, para integradores. Es donde tu experiencia en PLC pesa más.',
+  landing:['Día 1–3: landing con una muestra real (lista de IO y PDF de un proyecto de ejemplo armados a mano) y el mensaje "offline, sin subir tu proyecto a la nube".','Prueba dos precios: US$29/mes por ingeniero y US$199/año. El juez sugirió US$49/año, pero con ese precio la meta exige un volumen irreal (filtro F5).','Publica 2 artículos SEO ("generate IO list from TIA Portal", "export Studio 5000 tags to Excel") y 5–8 respuestas útiles en r/PLC y PLCTalk.'],
+  talks:['Dónde: integradores en r/PLC, PLCTalk, grupos de LinkedIn de usuarios de TIA Portal y Studio 5000, y tus contactos de integración en el Bajío.','Preguntas: cuántas entregas de proyecto hacen al mes, cuántas horas toma documentar, qué usan hoy (Excel, PLC Copilot, scripts propios), si el cliente final exige formato.','Ofrece la preventa anual al cierre.'],
+  metric:'Sigue si en 14 días logras 25 emails de integradores y al menos 5 preventas a US$199/año o más, y si al menos 6 de las 10 conversaciones documentan a mano al menos un proyecto al mes. Con menos de 2 preventas, descártala.'}
+];
+document.getElementById('plans').innerHTML=PLANS.map((p,i)=>{const f=DATA.fin.find(x=>x.id===p.id)||{juez:{}};return `<article class="plan"><header><span class="label">Plan ${i+1} · ${esc(p.id)}</span><h3>${esc(p.name)}</h3><span class="score mono">${esc(f.juez.veredicto)} · prob. ${esc(f.juez.probabilidad_exito)} · ${esc(f.juez.total)}/60</span></header>
+ <div class="blk"><p>${esc(p.angle)}</p></div>
+ <div class="blk"><div class="label">Landing y preventa</div><ul>${p.landing.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
+ <div class="blk"><div class="label">10 conversaciones con compradores</div><ul>${p.talks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
+ <div class="blk gate"><div class="label">Métrica que decide</div><p>${esc(p.metric)}</p></div></article>`}).join('');
+
+/* tablas */
+const STL={finalista:'Finalista',top100:'Top 100',fuera:'Etapa 2',duplicado:'Duplicado',variante:'Variante'};
+function table(el,rows,limit,open){
+ const head=`<thead><tr><th>ID</th><th>Idea</th><th>Cliente</th><th>US$/mes</th><th>Tema</th><th>E2</th><th>E3</th><th>Estado</th></tr></thead>`;
+ const body=rows.slice(0,limit).map(x=>`<tr class="row" data-id="${esc(x.id)}"><td class="mono">${esc(x.id)}</td><td>${esc(x.n)}</td><td>${esc(x.c)}</td><td class="num">${esc(x.pr)}</td><td>${esc(x.t)}</td><td class="num">${x.e2==null?'–':esc(x.e2)}</td><td class="num">${x.e3==null?'–':esc(x.e3)}</td><td><span class="st st-${esc(x.st)}">${STL[x.st]}</span></td></tr>`+(open.has(x.id)?`<tr class="det"><td colspan="8"><div class="det-grid"><div><div class="label">Problema</div>${esc(x.p)}</div><div><div class="label">Solución</div>${esc(x.s)}</div><div><div class="label">Canal primeros 100</div>${esc(x.ch)}</div><div><div class="label">Ángulo de origen</div>${esc(x.a)}</div><div><div class="label">Juez etapa 2${x.f2?' · filtro '+esc(x.f2):''}</div>${esc(x.r2)}</div>${x.r3?`<div><div class="label">Juez etapa 3</div>${esc(x.r3)}</div>`:''}${x.dup?`<div><div class="label">Fusionada con</div>${esc(x.dup)}</div>`:''}</div></td></tr>`:'')).join('');
+ el.innerHTML=head+'<tbody>'+body+'</tbody>';
+}
+function setup(cfg){
+ const open=new Set();let limit=cfg.page||1e9;
+ const render=()=>{const rows=cfg.rows().sort((a,b)=>(b.e3??-1)-(a.e3??-1)||(b.e2??-1)-(a.e2??-1));
+  table(cfg.tb,rows,limit,open);cfg.count.textContent=`${Math.min(limit,rows.length)} de ${rows.length} ideas`;
+  if(cfg.more)cfg.more.hidden=limit>=rows.length;};
+ cfg.tb.addEventListener('click',e=>{const tr=e.target.closest('tr.row');if(!tr)return;const id=tr.dataset.id;open.has(id)?open.delete(id):open.add(id);render();});
+ cfg.inputs.forEach(i=>i.addEventListener('input',()=>{limit=cfg.page||1e9;render();}));
+ if(cfg.more)cfg.more.addEventListener('click',()=>{limit+=cfg.page;render();});
+ render();
+}
+const fill=(sel,vals,all)=>{sel.innerHTML=`<option value="">${all}</option>`+vals.map(v=>`<option>${esc(v)}</option>`).join('');};
+const match=(x,q)=>!q||[x.id,x.n,x.c,x.ch,x.t,x.p,x.s].join(' ').toLowerCase().includes(q);
+const I=DATA.ideas;
+const hundred=I.filter(x=>['finalista','top100','variante'].includes(x.st));
+const q100=document.getElementById('q100'),t100=document.getElementById('t100'),s100=document.getElementById('s100');
+fill(t100,[...new Set(hundred.map(x=>x.t))].sort(),'Todos los temas');
+setup({tb:document.getElementById('tb100'),count:document.getElementById('c100'),inputs:[q100,t100,s100],
+ rows:()=>hundred.filter(x=>match(x,q100.value.trim().toLowerCase())&&(!t100.value||x.t===t100.value)&&(!s100.value||x.st===s100.value))});
+const q600=document.getElementById('q600'),a600=document.getElementById('a600'),s600=document.getElementById('s600'),m600=document.getElementById('m600');
+fill(a600,[...new Set(I.map(x=>x.a))],'Todos los ángulos');
+setup({tb:document.getElementById('tb600'),count:document.getElementById('c600'),inputs:[q600,a600,s600,m600],page:100,more:document.getElementById('more600'),
+ rows:()=>I.filter(x=>match(x,q600.value.trim().toLowerCase())&&(!a600.value||x.a===a600.value)&&(!s600.value||x.st===s600.value)&&((x.e2||0)>=(+m600.value||0)))});
+
+/* pestañas */
+const tabs=[...document.querySelectorAll('nav.tabs button')];
+function show(id){tabs.forEach(b=>{const on=b.getAttribute('aria-controls')===id;b.setAttribute('aria-selected',on);document.getElementById(b.getAttribute('aria-controls')).hidden=!on;});try{localStorage.setItem('tab',id)}catch(e){}}
+tabs.forEach(b=>b.addEventListener('click',()=>show(b.getAttribute('aria-controls'))));
+const h=(location.hash||'').slice(1);let start='finalistas';
+if(tabs.some(b=>b.getAttribute('aria-controls')===h))start=h;else{try{const s=localStorage.getItem('tab');if(s&&tabs.some(b=>b.getAttribute('aria-controls')===s))start=s}catch(e){}}
+show(start);
+})();
+</script>

@@ -1,0 +1,47 @@
+{
+ "id": "G01-02",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "media",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 2,
+  "canal": 3,
+  "mercado": 2,
+  "diferenciacion": 3,
+  "ventaja_juan": 4,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 34,
+ "hecho_decisivo": "La ficha de MakeQuote (lanzada 7 mayo 2026, 0 reseñas, Free 10 pedidos/mes, Pro $19, Plus $29) soporta DXF y láser pero no documenta precio por longitud de corte, perforaciones ni espesor; su motor descrito es de slicing 3D. Verificado en mi lectura de la ficha: el hueco de profundidad es plausible pero no probado, y el ancla de precio del canal es $0/$19/$29 frente a los $49 propuestos. https://apps.shopify.com/makequote",
+ "condicion": "Confirmar que MakeQuote (o su desarrollador) NO cotiza láser por longitud de corte/perforaciones/espesor, y que talleres Shopify con pedidos a medida aceptan pagar ~$49 por esa profundidad.",
+ "experimento_mas_barato": "Sin escribir producto: (1) instalar el plan gratis de MakeQuote y subir 5 DXF con distinta longitud de corte/perforaciones/espesor para ver si el precio varía correctamente; (2) landing con demo en video/precios de $49 y $79 más lista de espera, tráfico gratuito desde hilos de la comunidad Shopify y foros de talleres láser (r/lasercutting, etc.). Umbral: MakeQuote falla en >=3 de 5 casos Y >=30 emails/listas de espera con >=5 que acepten prepago o llamada de 15 min con precio $49 en 3 semanas; si no, descartar.",
+ "dimensiones": {
+  "dolor": "Un solo hilo de comunidad (previo a MakeQuote) muestra demanda explícita; ambos pares concedieron que las horas perdidas y la frecuencia no están cuantificadas. Dolor real pero no demostrado como urgente.",
+  "pago": "Ancla observable en el canal: gratis/$19/$29 de MakeQuote; sin evidencia de pago de talleres Shopify a $49. CutQuote desde $95 (Capterra, segun atacante) indica pago en software industrial standalone, otro segmento. Ambos defensores concedieron este punto.",
+  "alternativas_actuales": "MakeQuote en el mismo canal (gratis, con límites), más CutQuote, NanoQuote, SecturaFAB, ToolBox fuera de Shopify con lógica de corte real; el hueco de profundidad láser en Shopify es plausible (verificado que la ficha no lo documenta) pero no probado.",
+  "canal_y_cac": "Canal nombrado (Shopify App Store) con CAC bajo, pero único, con volumen de búsqueda no verificado y MakeQuote ya listado; ambos partirían con 0 reseñas, ventana abierta temporal.",
+  "retencion": "Fricción de cambio moderada por tarifas/materiales configurados, compensada por el plan gratis para bajo volumen y churn típico de apps Shopify; sin datos de nadie.",
+  "mercado": "Talleres láser/CNC con Shopify y piezas a medida: nicho sin cifra; se requieren ~205 pagadores a $49 para $10k y ~1,020 para $50k. Cifras globales citadas son inconsistentes e irrelevantes.",
+  "defensa_frente_a_copias": "Casi nula en tecnología: MakeQuote puede añadir lógica láser en un sprint y Shopify puede hacer algo nativo. La ventaja CAD/CAM de Juan es de ejecución, concedido por ambos pares.",
+  "ejecucion_una_persona_tiempo_parcial": "Consenso total de que el MVP en <=6 semanas es factible con el stack de Juan; el costo posterior es soporte, DXF sucios, revisión de Shopify y reseñas desde cero."
+ },
+ "resumen_P1": "Ataque: incumbente directo gratis/$19 en el único canal, nicho estrecho, sin foso y pago no demostrado. Defensa: demanda documentada, MakeQuote nuevo con 0 reseñas y sin lógica láser descrita; cedió precio, mercado y copiabilidad.",
+ "resumen_P2": "Ataque: además de MakeQuote existen CutQuote, NanoQuote, SecturaFAB con lógica de corte, y un solo keyword sin volumen. Defensa: el hueco de profundidad (slicing 3D vs corte láser) sigue abierto; concedió diferenciación y pago más débiles de lo defendido.",
+ "razonamiento": "Ambos pares convergen: MVP factible, nicho pequeño sin cifra, defensa débil y sin evidencia de pago a $49. El hecho en disputa (si MakeQuote precia láser por corte) quedó sin resolver: mi lectura de la ficha y mi búsqueda confirman que no está documentado, lo que mantiene el hueco como plausible. Plan gratis limitado a 10 pedidos no activa F1. Total 34, banda MEDIA, bajo el umbral ALTA. Vale la pena solo si el hueco y el pago a $49 se confirman con un experimento barato.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "MakeQuote: Free 10 pedidos, Pro $19, Plus $29, 0 reseñas, lanzado 7 mayo 2026; sin precio láser por corte documentado",
+   "url": "https://apps.shopify.com/makequote"
+  },
+  {
+   "afirmacion": "Hilo de fabricante pidiendo cotización DXF por área y perforaciones; sin app conocida (previo a MakeQuote)",
+   "url": "https://community.shopify.com/t/i-own-a-steel-manufacturing-company-utilizing-cnc-metal-cutting/300755"
+  },
+  {
+   "afirmacion": "CutQuote desde $95, DXF/DWG/STEP, perforaciones (citado por atacante P2)",
+   "url": "https://www.capterra.com/p/10040294/CutQuote/"
+  }
+ ],
+ "busquedas_usadas": 1
+}

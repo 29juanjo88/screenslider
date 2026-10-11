@@ -1,0 +1,59 @@
+{
+ "id": "G25-02",
+ "veredicto": "CONDICIONAL",
+ "probabilidad_exito": "baja",
+ "puntajes": {
+  "dolor": 3,
+  "pago": 3,
+  "canal": 2,
+  "mercado": 2,
+  "diferenciacion": 2,
+  "ventaja_juan": 5,
+  "mvp": 4,
+  "riesgo": 2
+ },
+ "total": 33,
+ "hecho_decisivo": "Ambos pares coinciden en que el caso base lo cubren herramientas gratis o establecidas: Compare/VCI de TIA (https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/), Show Differences de Studio 5000 (https://www.rockwellautomation.com/en-be/docs/studio-5000-logix-designer/37-00/contents-ditamap/studio-5000-logix-designer/source-control---show-differences-command.html), Copia, y según un artículo de terceros las VCS Custom Tools gratis de Rockwell (https://www.mfgrobots.com/Article/mfg/acs/49388.html; no confirmado en fuente oficial). Mi búsqueda no halló página oficial de Rockwell que lo confirme. Nadie mostró volumen de búsqueda ni precios verificados. Ningún filtro F1-F5 se activa de forma clara, pero F1 es parcial.",
+ "condicion": "Confirmar que existe demanda de pago por un diff semántico multi-vendor (L5X + TIA Openness) con reporte de auditoría, local/CLI, de integradores/OEM, que las nativas gratis (Compare, VCI, VCS Custom Tools) no satisfacen.",
+ "experimento_mas_barato": "Sin escribir producto: publicar una landing en inglés 'PLC program diff / L5X diff audit report' con muestra de reporte (mockup) y precio $79/mes con botón de pre-compra o lista de espera; difundir con 2-3 posts útiles en r/PLC, PLCTalk y control.com, más 15 entrevistas cortas a integradores/OEM. Métrica: visitantes únicos y pre-pagos/depósitos. Umbral para continuar: al menos 300 visitantes cualificados, 5% de registros y al menos 5 pre-pagos o cartas de intención con tarjeta en 4 semanas; si hay 0 pre-pagos, descartar.",
+ "dimensiones": {
+  "dolor": "Documentado (JLab ~9k diferencias, control.com) pero anecdótico y episódico (auditoría, incidente); ambos pares coinciden en que no es semanal.",
+  "pago": "Hay presupuesto en suites (AssetCentre, AutoSave, VersionDog) pero ningún precio verificado; el precio de AutoSave Basic US$4,850 no se pudo confirmar y que paguen a incumbentes no prueba que paguen a un tercero nuevo.",
+  "alternativas_actuales": "Dimensión más débil: Compare/VCI de TIA, Show Differences de Studio 5000, Git sobre L5X/L5K, Copia, librerías MIT (L5Sharp) y posibles herramientas gratis de Rockwell. El hueco multi-vendor semántico con auditoría es hipótesis sin demanda demostrada; F1 parcial.",
+  "canal_y_cac": "Canales nombrados (PLCTalk, r/PLC, SEO 'L5X diff') pero sin volumen medido, hostiles a la autopromoción y con SEO parcialmente ocupado; no hay marketplace. Concedido por ambos lados.",
+  "retencion": "Uso episódico y un historial exportable a Git da poco costo de cambio; sin datos de churn. El argumento de cumplimiento (NIS2/IEC 62443) viene de blogs.",
+  "mercado": "Sin cifra verificada; el segmento autoservicio sin suite ni Git es pequeño, y a $49-99 hacen falta 100-1000 clientes. Ambos pares lo conceden.",
+  "defensa_frente_a_copias": "Baja: L5X es XML abierto, hay librerías MIT y una tesis CVUT, y los fabricantes pueden ampliar sus comparadores. El defensor concedió el foso de formatos sin evidencia.",
+  "ejecucion_una_persona_tiempo_parcial": "Favorable para un MVP CLI de L5X en ~6 semanas (ambos lo conceden); el mantenimiento multi-versión, las licencias de TIA/Studio 5000 y la credibilidad en OT son carga continua."
+ },
+ "resumen_P1": "Atacante: mercado pequeño y episódico, nativas gratis y Git cubren parte del caso, y el foso es inexistente. Defensor: dolor real y hueco de diff semántico multi-vendor ligero, pero en la ronda 2 concedió que Rockwell Show Differences y Copia aumentan el riesgo F1. Ambos concedieron que el CLI local resuelve la objeción de subir proyectos.",
+ "resumen_P2": "Atacante: nativas, Copia y posibles herramientas gratis de Rockwell cierran el hueco, y un diff es función, no producto. Defensor: ancló el presupuesto en suites de miles de dólares y un hueco de precio, pero el atacante no pudo confirmar US$4,850 y el defensor concedió casi toda la defensa frente a copias. Coinciden con P1 en dolor anecdótico y demanda sin verificar.",
+ "razonamiento": "Los dos pares convergen en los mismos hechos: dolor real pero episódico, alternativas gratis o establecidas que cubren el caso base, canal plausible pero sin demanda medida, y ejecución viable para Juan. Las concesiones de ronda 2 de los defensores (F1 mayor, foso sin evidencia) pesan más que su insistencia. La ventaja de Juan es máxima, pero el canal vale poco por su peso x3 y la diferenciación depende de una hipótesis no probada. El total ponderado de 33 queda en banda MEDIA baja, lejos del objetivo de probabilidad alta. Solo vale validar si se confirma disposición a pagar por el diff multi-vendor con auditoría, por lo que es CONDICIONAL con probabilidad baja.",
+ "fuentes_clave": [
+  {
+   "afirmacion": "Hilo JLab: diff manual de L5X con ~9k diferencias",
+   "url": "https://mailman.jlab.org/pipermail/dsg-hallb_magnets/2023-February/001361.html"
+  },
+  {
+   "afirmacion": "TIA Portal incluye Compare Projects y VCI (V16) para Git",
+   "url": "https://www.dmcinfo.com/blog/18105/using-the-version-control-interface-vci-in-tia-portal-v16/"
+  },
+  {
+   "afirmacion": "Rockwell documenta Show Differences con Compare Tool en Studio 5000",
+   "url": "https://www.rockwellautomation.com/en-be/docs/studio-5000-logix-designer/37-00/contents-ditamap/studio-5000-logix-designer/source-control---show-differences-command.html"
+  },
+  {
+   "afirmacion": "Artículo de terceros: VCS Custom Tools gratis de Rockwell (sin confirmar en fuente oficial)",
+   "url": "https://www.mfgrobots.com/Article/mfg/acs/49388.html"
+  },
+  {
+   "afirmacion": "Tesis CVUT con librería para comparar L5X (facilidad de copia)",
+   "url": "https://dspace.cvut.cz/bitstream/handle/10467/24493/F3-BP-2014-Nedved-Miroslav-prace.pdf"
+  },
+  {
+   "afirmacion": "Copia documenta merge para Studio 5000",
+   "url": "https://help.copia.io/knowledge/how-to-perform-a-manual-studio-5000-project-merge-if-the-copia-advanced-merge-tool-fails"
+  }
+ ],
+ "busquedas_usadas": 1
+}

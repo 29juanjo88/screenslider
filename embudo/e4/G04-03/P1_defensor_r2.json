@@ -1,0 +1,102 @@
+{
+ "id": "G04-03",
+ "par": "P1",
+ "rol": "defensor",
+ "replica": {
+  "dolor": {
+   "concedo": "Es un solo hilo, un experto cuestiona la necesidad de una app y no hay demanda cuantificada ni urgencia semanal probada.",
+   "refuto": "El atacante dice que el dolor 'no esta probado'; pero el hilo muestra a un usuario real pidiendo ECO/BOM con versionado y aprobaciones, es decir busqueda activa. El hecho de que un respondedor sugiera Confluence no prueba ausencia de dolor, solo que hoy se improvisa. La afirmacion de que los gerentes lo toleran con hojas de calculo carece de evidencia.",
+   "evidencia": [
+    {
+     "afirmacion": "Usuario pide flujo ECO con BOM, versionado y aprobaciones en Jira; primer respuesta cuestiona la app",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "pago": {
+   "concedo": "No hay evidencia de disposicion a pagar $200/mes por una app Jira ECO; quien ya paga ERP/PLM con ECO dificilmente compra otra app; OpenBOM desde ~$30/asiento (agregadores) es una alternativa barata.",
+   "refuto": "Comparar $30/asiento con $200/instancia no es equivalente: depende del numero de usuarios del equipo y OpenBOM es BOM/PLM, no un flujo ECR/ECN dentro de Jira. Los precios de agregadores son no oficiales (el propio atacante lo admite). El techo de precio tampoco esta probado en contra.",
+   "evidencia": [
+    {
+     "afirmacion": "Precio de OpenBOM por agregador, no oficial (cita del atacante, no verificada por mi)",
+     "url": "https://us.fitgap.com/products/004920/openbom"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Hay muchas alternativas (ERP/PLM/QMS con ECO nativo, Jira/Confluence configurado, flujos gratis de Change Management) y el riesgo F1 parcial por Jira configurable es real. La ausencia de apps en Marketplace no esta confirmada.",
+   "refuto": "Los flujos gratis hallados son de Change Management IT v1.0 sin soporte, no ECR/ECN con BOM y PDF de auditoria; no son 'suficientemente buenos' para manufactura. Mi busqueda de esta ronda tampoco hallo una app ECO/BOM dedicada, aunque la herramienta no indexa bien el Marketplace y el resultado es no concluyente (puede que exista y no aparezca).",
+   "evidencia": [
+    {
+     "afirmacion": "Busqueda r2: sin app ECO/BOM dedicada visible; la herramienta advierte que probablemente exista alguna que no aparecio. No concluyente",
+     "url": "https://community.atlassian.com/t5/Jira-questions/ECO-Management-in-Jira/qaq-p/1844107"
+    },
+    {
+     "afirmacion": "Flujos de Change Management del Marketplace son IT gratuitos",
+     "url": "https://marketplace.atlassian.com/apps/1226162"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El canal es unico, sin volumen de busqueda ni conversion medidos; un nicho vacio puede significar demanda baja; Jira es dominante en software/IT mas que en fabricas.",
+   "refuto": "El atacante concede que el canal es nombrado con intencion de compra y CAC bajo. 'Vacio implica demanda cero' es especulacion sin evidencia, igual que mi lectura contraria. El Marketplace tiene miles de apps, por lo que un hueco total es menos probable de lo que yo sugeri en ronda 1.",
+   "evidencia": [
+    {
+     "afirmacion": "Marketplace con mas de 6,000 apps y 2,000 partners segun un resumen de busqueda (fuente secundaria)",
+     "url": "https://amoeboids.com/blog/atlassian-marketplace-explained/"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "retencion": {
+   "concedo": "Las apps ligeras tienen friccion baja de desinstalacion y empresas que crecen pueden migrar a PLM/QMS; no hay datos de churn.",
+   "refuto": "El atacante tampoco aporta datos; su claim de migracion es 'tipico' sin fuente. El registro de auditoria y aprobaciones historicas crea lock-in moderado, como el mismo atacante reconoce.",
+   "evidencia": [
+    {
+     "afirmacion": "Datos de churn de apps comparables",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "La interseccion fabricantes con Jira + necesidad ECO + sin ERP/PLM con ECO es pequena y no cuantificada; $50k MRR (250 clientes a $200) es dudoso en el nicho.",
+   "refuto": "Para el piso de $10k MRR bastan 50 clientes, lo que el atacante admite alcanzable. El meta es US$10-50k y el nicho puede cubrir el extremo bajo. No pretendo respaldar el extremo alto.",
+   "evidencia": [
+    {
+     "afirmacion": "Tamano del subconjunto manufactura con Jira",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El workflow con aprobaciones, auditoria y PDF es replicable en semanas, Atlassian podria lanzar plantillas nativas y el conocimiento de dominio se copia leyendo guias. El foso es debil.",
+   "refuto": "La afirmacion de plantillas nativas de Atlassian para ECO es especulativa (el atacante la marca sin verificar). Que ERPs/PLMs ligeros tengan la funcion no es copia dentro de Jira. Aun asi no puedo defender un foso fuerte.",
+   "evidencia": [
+    {
+     "afirmacion": "Plantilla nativa de Atlassian para ECO",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se debilita"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "El cuello de botella es distribucion y soporte; el proceso de aprobacion/seguridad del Marketplace y el segmento regulado (IQ/OQ, 21 CFR Part 11) no se cubren a tiempo parcial; el conocimiento PLC/CAD no es especificamente ECN/QMS.",
+   "refuto": "El atacante concede que el MVP es viable en 6 semanas y la ventaja de stack. El segmento regulado se puede excluir apuntando a manufactura no regulada (maquinaria, electronica, contract manufacturing), como en el ajuste sugerido. El conocimiento CAD/BOM y de firmware de impresoras 3D si es adyacente a ECR/ECN y BOM.",
+   "evidencia": [
+    {
+     "afirmacion": "Requisitos y tiempos de aprobacion del Marketplace",
+     "url": "sin verificar"
+    }
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "La demanda no esta probada: un solo hilo (con un experto cuestionando la necesidad de la app), sin volumen de busqueda ni disposicion de pago medidos, y mi lectura de 'hueco' en el Marketplace es no concluyente: la busqueda no indexa el Marketplace y puede que existan apps que no vi. Ademas el foso es debil.",
+ "punto_que_sigue_en_pie": "Hay un canal nombrado con intencion de compra (Atlassian Marketplace, autoservicio), el MVP cabe en 6 semanas con el stack de Juan y 50 clientes a $200 dan $10k MRR; las alternativas gratis halladas son flujos IT, no ECR/ECN de manufactura, y el atacante no demostro con evidencia que exista un competidor directo ni demanda nula.",
+ "busquedas_usadas": 1
+}

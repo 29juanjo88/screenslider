@@ -1,0 +1,82 @@
+{
+ "id": "G09-08",
+ "par": "P2",
+ "rol": "atacante",
+ "replica": {
+  "dolor": {
+   "concedo": "El defensor tiene razón en que el fin de de minimis (29-ago-2025) y el requisito de HTS a 10 dígitos aumentan la necesidad, y en que Zonos clasificando en checkout confirma que el problema existe. Además admite que es dolor de configuración una vez por producto, lo que coincide con mi tesis. Retiro cualquier sugerencia de que el dolor sea inexistente.",
+   "refuto": "El propio defensor reconoce que el alcance de de minimis (global vs solo China) está sin verificar y que las fuentes tienen interés comercial; no se puede usar como motor de demanda. Dolor real no equivale a urgencia semanal ni a búsqueda activa en la App Store, cuyo volumen sigue sin verificar en ambos lados.",
+   "evidencia": [
+    {"afirmacion": "Alcance de de minimis discrepa entre fuentes (cita del propio defensor)", "url": "https://gingercontrol.com/blog/de-minimis-repeal-small-importer-impact"},
+    {"afirmacion": "Volumen de búsqueda 'HS code' en App Store", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "pago": {
+   "concedo": "Hay disposición de pago demostrada en el marketplace: DutyCode cobra US$19/49/99 y HClassify US$49/149/399, y US$29 cae dentro del rango observado. Mi r1 subestimó el techo al centrarme en la franja baja; HClassify llega a US$399.",
+   "refuto": "Que existan precios publicados no prueba que haya pagadores: HClassify tiene una sola reseña (1 estrella) y se lanzó en enero 2026, y DutyCode ofrece plan gratis. El rango US$19-399 incluye tiers altos sin evidencia de que alguien los pague. El tier de US$29 compite directamente con el Starter de US$19 y el gratis.",
+   "evidencia": [
+    {"afirmacion": "DutyCode: gratis 25, Starter $19, Growth $49, Scale $99", "url": "https://apps.shopify.com/dutycode"},
+    {"afirmacion": "HClassify: $49/$149/$399, lanzada enero 2026, una reseña", "url": "https://apps.shopify.com/hclassify"}
+   ],
+   "posicion": "se debilita"
+  },
+  "alternativas_actuales": {
+   "concedo": "Zonos no publica precio y está orientado a ventas, por lo que no es un sustituto autoservicio directo a US$29. Tampoco está verificado que algún rival combine SEO programático por producto/país con documentos. Mi r1 llamó F1 a la combinación de gratis; eso es un riesgo, no un filtro demostrado: Easyship y Shopify nativo no sustituyen del todo una app dedicada.",
+   "refuto": "El defensor omite del todo lo gratis: el campo nativo de Shopify y su búsqueda por descripción, el lookup gratis de Easyship con clasificación masiva, el plan gratis de DutyCode y herramientas como FindHS.codes. Que Zonos sea caro no deja hueco si el comerciante pequeño ya cubre la tarea con lo gratis. El ángulo SEO/documentos es declarado, no probado, y el propio defensor lo admite.",
+   "evidencia": [
+    {"afirmacion": "Shopify permite añadir HS code en bulk editor y sugiere buscar por descripción", "url": "https://help.shopify.com/manual/markets/duties-and-import-taxes/charging-duties"},
+    {"afirmacion": "Easyship ofrece lookup HS gratis y clasificación masiva", "url": "https://easyship.com/hs-tariff-code-lookup"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "canal_y_cac": {
+   "concedo": "El canal está nombrado y concreto (búsqueda en Shopify App Store y SEO 'hs code for [product]'), y la existencia de tres apps de HS demuestra que hay una categoría con tráfico. Esto cumple F4 y no afirmo lo contrario. Ni yo ni el defensor tenemos volumen de búsqueda ni CAC verificados.",
+   "refuto": "Que la categoría exista también prueba que está competida por apps con reseñas y antigüedad. El defensor describe el CAC como bajo sin evidencia (su propia fila de CAC dice sin verificar). El SEO programático contra Easyship, Zonos y otros lookups gratis es un camino lento y su efectividad como activo está sin verificar.",
+   "evidencia": [
+    {"afirmacion": "Competidores ya listados: DutyCode, HClassify, DutyLookout", "url": "https://apps.shopify.com/dutycode"},
+    {"afirmacion": "CAC y ranking reales", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "retencion": {
+   "concedo": "El defensor acierta en que mientras la tienda agregue SKUs y venda fuera hay uso continuo, que los cambios arancelarios dan algún gancho recurrente y que los planes por volumen pueden ligar el cobro al catálogo. Nadie tiene datos de churn; mi afirmación de baja al plan gratis es inferencia, no hecho.",
+   "refuto": "Los tiers por volumen de DutyCode (250/2,500/ilimitado) son consistentes con uso episódico tanto como con recurrente; no prueban retención. El defensor admite que el merchant puede cancelar tras clasificar el catálogo, y con plan gratis disponible la cancelación es barata. Las actualizaciones arancelarias solo retienen si el producto ofrece datos de calidad, cuyo costo está sin verificar.",
+   "evidencia": [
+    {"afirmacion": "Planes por volumen de clasificaciones", "url": "https://apps.shopify.com/dutycode"},
+    {"afirmacion": "Churn de apps HS", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "mercado": {
+   "concedo": "El defensor tiene razón: Shopify tiene millones de merchants en más de 175 países y terceros estiman 4.8-5.6M tiendas; incluso un 1-2% internacional superaría con holgura los ~345 pagadores que exige US$10k MRR a US$29 (10,000/29 = 344.8). Mi r1 sugirió que el mercado era limitado sin cifra; el techo de volumen no es el problema.",
+   "refuto": "El porcentaje de tiendas que envían internacionalmente y clasifican manualmente está sin verificar en ambos lados, y el 1-2% es un supuesto del defensor. El mercado direccionable se reduce por Markets Pro, Zonos, Easyship y lo gratis. El cuello de botella es la conversión de ese mercado, no su tamaño.",
+   "evidencia": [
+    {"afirmacion": "Shopify FY2025 10-K: millones de merchants en más de 175 países (fuente aportada por el defensor)", "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm"},
+    {"afirmacion": "Fracción de tiendas con envíos internacionales", "url": "sin verificar"}
+   ],
+   "posicion": "se debilita"
+  },
+  "defensa_frente_a_copias": {
+   "concedo": "El defensor admite que es honestamente débil, y coincidimos. Acepto que activos acumulativos (páginas indexadas, reseñas, marca de confianza) pueden dar una ventaja gradual, y que Zonos apunta a ventas y no a autoservicio.",
+   "refuto": "Esos activos acumulativos son lo mismo que cualquier entrante copiará con LLM más una base arancelaria pública; los competidores con reseñas e indexación partirán con ventaja. La efectividad del SEO programático como foso está sin verificar (el defensor lo reconoce) y Shopify puede mejorar su clasificación nativa.",
+   "evidencia": [
+    {"afirmacion": "Clones baratos ya establecidos, sin moat tecnológico evidente", "url": "https://apps.shopify.com/hclassify"},
+    {"afirmacion": "Efectividad del SEO programático como moat", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  },
+  "ejecucion_una_persona_tiempo_parcial": {
+   "concedo": "Coincidimos: el MVP (app embebida, sugerencia de HS, PDF, plantillas SEO) es factible en ≤6 semanas con el stack Node/TS/GraphQL de Juan; es la dimensión más favorable a la idea. Concedo también que el costo de infraestructura es casi cero salvo datos y LLM.",
+   "refuto": "El defensor trata el MVP como equivalente a ejecución, pero él mismo reconoce responsabilidad por clasificación errónea, costo y licencia de datos arancelarios y revisión de Shopify, todos sin verificar. La ventaja de CAD/PLC/3D no aplica, así que la ventaja de Juan es solo la de un backend genérico en Shopify, no un diferenciador. La precisión por país (8-10 dígitos nacionales) es la parte difícil y no es código.",
+   "evidencia": [
+    {"afirmacion": "Para EE. UU. se requiere HTS de 10 dígitos; solo 6 dígitos son armonizados", "url": "https://easyship.com/hs-tariff-code-lookup"},
+    {"afirmacion": "Costo y licencia de datos arancelarios de calidad", "url": "sin verificar"}
+   ],
+   "posicion": "se mantiene"
+  }
+ },
+ "concesion_mas_importante": "El mercado no es el problema: con millones de tiendas Shopify, incluso una fracción mínima internacional supera los ~345 pagadores necesarios, y la disposición de pago en el marketplace (US$19-399) está demostrada. Además el canal está nombrado y el MVP es factible en 6 semanas; la idea no cae por F2, F4 ni por tamaño.",
+ "punto_que_sigue_en_pie": "Lo gratis y lo barato casi cubren la necesidad (campo nativo de Shopify, Easyship, plan gratis de DutyCode, Starter de US$19) y no hay foso defendible. La diferenciación SEO/documentos es una hipótesis no probada y la tarea es episódica por SKU, con responsabilidad por errores y costo de datos sin verificar.",
+ "busquedas_usadas": 0
+}
