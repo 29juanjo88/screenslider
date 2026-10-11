@@ -1,0 +1,559 @@
+[
+ {
+  "id": "G15-01",
+  "nombre": "Agente de RFQ para talleres CNC",
+  "cliente_que_paga": "Dueños/estimadores de talleres de maquinado CNC (EE.UU./UE)",
+  "problema": "Leer RFQs por email con planos y armar cotizaciones lleva horas por pieza.",
+  "solucion": "Agente que lee el email, extrae planos STEP/PDF, estima tiempo de máquina y redacta la cotización para aprobar.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Foros r/machinists y r/CNC, Practical Machinist, videos de YouTube de talleres, SEO 'CNC quoting software'.",
+  "competidores": [
+   "Paperless Parts",
+   "Xometry (marketplace)"
+  ],
+  "por_que_ahora": "LLM + geometría 3D permiten estimar sin ingeniero de cotización.",
+  "ventaja_juan": "Conoce CAD/CAM y tiempos de maquinado reales.",
+  "riesgo_principal": "Competidores con fondos y ciclos de venta; precisión de estimación.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "cotización CNC",
+  "tema_norm": "cotización y costeo de taller",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-12",
+  "nombre": "Schema Markup Generator",
+  "cliente_que_paga": "SEOs y agencias pequeñas",
+  "problema": "Escribir JSON-LD por tipo de página es repetitivo y propenso a errores.",
+  "solucion": "Generador y validador de schema con páginas SEO por tipo y plugin WordPress.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'schema markup generator for [type]' y WordPress.org plugin directory.",
+  "competidores": [
+   "Sin verificar (generadores gratuitos)"
+  ],
+  "por_que_ahora": "Buscadores IA usan datos estructurados.",
+  "ventaja_juan": "Desarrollo web.",
+  "riesgo_principal": "F1: generadores gratuitos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "generador schema",
+  "tema_norm": "marketing digital y SEO",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-18",
+  "nombre": "Agent Permission Policy Builder",
+  "cliente_que_paga": "Equipos de seguridad que habilitan agentes",
+  "problema": "Definir qué herramientas puede usar cada agente se hace con ad hoc y sin revisión.",
+  "solucion": "Editor de políticas declarativas con simulación de acciones y aplicación vía SDK.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'AI agent authorization policy' y GitHub Marketplace.",
+  "competidores": [
+   "Open Policy Agent"
+  ],
+  "por_que_ahora": "El control de acceso para agentes es una necesidad nueva.",
+  "ventaja_juan": "Seguridad de sistemas de control y autorización.",
+  "riesgo_principal": "OPA es gratuito.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "permisos de agentes",
+  "tema_norm": "seguridad y permisos de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-01",
+  "nombre": "MCP Server Linter",
+  "cliente_que_paga": "Desarrolladores que publican servidores MCP",
+  "problema": "Los servidores MCP salen con esquemas de herramientas ambiguos, descripciones que confunden al LLM y fallos de seguridad.",
+  "solucion": "Linter CLI y GitHub Action que puntúa esquemas, descripciones y riesgos (inyección en descripciones) y comenta en el PR.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Listado en GitHub Marketplace (Actions) y entradas en awesome-mcp-servers y el registro de MCP; publicación de reportes de calidad de servidores populares.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "El ecosistema MCP crece rápido y no hay estándar de calidad.",
+  "ventaja_juan": "Experiencia con protocolos industriales y validación de esquemas en backend.",
+  "riesgo_principal": "Anthropic o la comunidad pueden publicar un linter oficial gratuito.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "calidad servidores MCP",
+  "tema_norm": "servidores MCP",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-11",
+  "nombre": "CAD File Marketplace Plugin",
+  "cliente_que_paga": "Creadores que venden modelos STL/STEP",
+  "problema": "Plataformas cobran comisiones altas; plugins genéricos no previsualizan 3D.",
+  "solucion": "Plugin con vista previa 3D, categorías y entrega segura de archivos.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Comunidades de makers (Reddit, Discord) y SEO 'sell stl files wordpress'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Boom de modelos 3D comerciales.",
+  "ventaja_juan": "Conocimiento de formatos CAD/3D.",
+  "riesgo_principal": "Plataformas existentes dominan.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "venta archivos CAD",
+  "tema_norm": "venta y licencias de archivos digitales",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-10",
+  "nombre": "LLM Usage Logger for AI Act",
+  "cliente_que_paga": "Developers integrando LLMs en productos regulados",
+  "problema": "Necesitan registros auditables de uso, entradas y salidas para transparencia/logging.",
+  "solucion": "SDK proxy open-core que registra llamadas con redacción de PII y exporta evidencias.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "GitHub, npm/PyPI, Hacker News, SEO 'llm audit logging'",
+  "competidores": [
+   "Langfuse",
+   "Helicone",
+   "sin verificar"
+  ],
+  "por_que_ahora": "El artículo 12 pide logging automático para alto riesgo.",
+  "ventaja_juan": "Node/TS, proxies.",
+  "riesgo_principal": "Observabilidad LLM gratis (Langfuse OSS).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "logging auditoría IA",
+  "tema_norm": "regulación IA y ciberseguridad UE",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-17",
+  "nombre": "Etsy SEO Rank Tracker",
+  "cliente_que_paga": "Etsy sellers",
+  "problema": "Rank unknown per keyword.",
+  "solucion": "Daily rank tracking for listings.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Etsy forums, YouTube",
+  "competidores": [
+   "eRank",
+   "Marmalead"
+  ],
+  "por_que_ahora": "Etsy search changes.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Incumbents entrenched.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "rank Etsy",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G04-07",
+  "nombre": "Jira Cost Rollup",
+  "cliente_que_paga": "Controllers y PMOs de empresas medianas",
+  "problema": "Los costos de proyecto no se pueden sumar en Jira sin hojas de cálculo externas.",
+  "solucion": "App que asigna tarifas por rol a worklogs y reporta costo por épica/proyecto con export a CSV.",
+  "precio_usd_mes": 100,
+  "canal_primeros_100": "Búsqueda 'cost' 'budget' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Presión por rentabilidad de proyectos tras recortes de presupuesto.",
+  "ventaja_juan": "Backend y reporting.",
+  "riesgo_principal": "Mercado saturado de apps de time tracking/budget.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "costos proyecto Jira",
+  "tema_norm": "gestión de proyectos y costos",
+  "duplicado_de": null
+ },
+ {
+  "id": "G17-12",
+  "nombre": "Affiliate Payout Hub",
+  "cliente_que_paga": "Creadores y SaaS con programa de afiliados",
+  "problema": "Pagar comisiones a afiliados internacionales es manual.",
+  "solucion": "Calcula comisiones desde Stripe y genera lotes de pago con reportes (sin custodiar fondos).",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'affiliate payouts Stripe' y Rewardful marketplace",
+  "competidores": [
+   "Rewardful",
+   "FirstPromoter",
+   "PartnerStack"
+  ],
+  "por_que_ahora": "Más SaaS lanzan afiliados como canal.",
+  "ventaja_juan": "API y automatización.",
+  "riesgo_principal": "Riesgo regulatorio al mover dinero; solo reportes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "pagos afiliados",
+  "tema_norm": "cursos y monetización de creadores",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-03",
+  "nombre": "G-code Offline Linter",
+  "cliente_que_paga": "CNC and 3D-printer hobbyists and small shops",
+  "problema": "Bad G-code crashes machines and wastes material, and web checkers need uploads.",
+  "solucion": "Offline desktop G-code simulator/linter for Marlin, Klipper and Fanuc dialects, pay once.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "r/hobbycnc, r/3Dprinting, CNCzone forums and YouTube reviewers",
+  "competidores": [
+   "CAMotics (free)",
+   "NC Viewer (web)"
+  ],
+  "por_que_ahora": "Desktop pay-once tools are favored amid subscription fatigue.",
+  "ventaja_juan": "Firmware and CAM background.",
+  "riesgo_principal": "CAMotics being free may trigger F1 in basic cases.",
+  "evidencia_url": "https://www.indiehackers.com/post/why-im-charging-49-once-instead-of-a-subscription-for-my-desktop-app-aabcd91ddb",
+  "angulo": "29",
+  "tema": "G-code offline linter",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-20",
+  "nombre": "Delivery Check for Engineering Drawings",
+  "cliente_que_paga": "Ingenieros freelance",
+  "problema": "Entregar planos con errores de cajetín, escala o capas.",
+  "solucion": "Revisión automática de DXF/PDF contra checklist y estándar de cliente.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'drawing checker' y foros de AutoCAD",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más entrega remota de planos.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Incumbentes de CAD con scripts.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "revisión de planos",
+  "tema_norm": "lectura de planos y metrados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-15",
+  "nombre": "Bitácora de turnos",
+  "cliente_que_paga": "Supervisores de producción",
+  "problema": "Las notas de turno se pierden entre papeles y chats.",
+  "solucion": "App de bitácora con búsqueda y reportes por turno.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'shift handover log'; r/manufacturing",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Rotación de personal exige traspasos.",
+  "ventaja_juan": "Conozco turnos de planta.",
+  "riesgo_principal": "Producto simple, fácil de copiar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "bitácora de turnos",
+  "tema_norm": "mantenimiento y seguridad industrial",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-13",
+  "nombre": "Maker Warranty Registry",
+  "cliente_que_paga": "Marcas de hardware (impresoras 3D, herramientas) en Shopify",
+  "problema": "Garantías se gestionan por correo, hay fraude y reclamos lentos.",
+  "solucion": "Registro de garantía con serial, validación y flujo de RMA conectado a pedidos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'warranty registration' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Marcas de hardware DTC crecen.",
+  "ventaja_juan": "Conoce hardware y fallas de impresoras 3D.",
+  "riesgo_principal": "Existen apps de garantía y RMA.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "registro de garantía",
+  "tema_norm": "garantías y RMA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G03-19",
+  "nombre": "Teams IT Request Triage",
+  "cliente_que_paga": "IT helpdesk lead en empresa mediana",
+  "problema": "Solicitudes llegan por chat y se pierden.",
+  "solucion": "Bot de Teams que clasifica solicitudes con IA y crea tickets con prioridad.",
+  "precio_usd_mes": 79.0,
+  "canal_primeros_100": "Microsoft AppSource 'helpdesk'; SEO 'Teams IT helpdesk bot'",
+  "competidores": [
+   "Moveworks (sin verificar)",
+   "Freshservice (sin verificar)"
+  ],
+  "por_que_ahora": "Helpdesk en chat con IA.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Competidores grandes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "triage de TI",
+  "tema_norm": "productividad en Slack/Teams",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-15",
+  "nombre": "Maker Course Delivery Bundle",
+  "cliente_que_paga": "Creadores de cursos CAD/PLC/3D en WordPress",
+  "problema": "Plataformas LMS completas son excesivas para cursos pequeños.",
+  "solucion": "Plugin ligero de cursos con acceso por compra en Woo y progreso.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Comunidades de creadores y WordPress.org.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de educación técnica en línea.",
+  "ventaja_juan": "Conocimiento de PLC/CAD para contenido propio.",
+  "riesgo_principal": "LMS establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cursos técnicos Woo",
+  "tema_norm": "cursos y monetización de creadores",
+  "duplicado_de": null
+ },
+ {
+  "id": "G07-01",
+  "nombre": "PLC ST Studio",
+  "cliente_que_paga": "Ingenieros de automatización y integradores",
+  "problema": "Editar código IEC 61131-3 Structured Text en editores de PLC es torpe, sin autocompletado ni linting moderno.",
+  "solucion": "Extensión VS Code con resaltado, linting, navegación y formateo para Structured Text, con importación/exportación de archivos PLCopen XML.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Búsqueda 'structured text' en VS Code Marketplace, r/PLC y foros de PLCTalk.",
+  "competidores": [
+   "Extensiones gratuitas de ST en VS Code (sin verificar)",
+   "IDEs de fabricantes (TIA Portal, Studio 5000)"
+  ],
+  "por_que_ahora": "Los PLC se están acercando a flujos con Git y CI.",
+  "ventaja_juan": "Conocimiento directo de TIA Portal y Studio 5000.",
+  "riesgo_principal": "Tamaño de nicho pequeño y disposición de pago incierta.",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "editor PLC Structured Text",
+  "tema_norm": "revisión de código PLC",
+  "duplicado_de": null
+ },
+ {
+  "id": "G04-09",
+  "nombre": "Confluence Stale Page Cleaner",
+  "cliente_que_paga": "Administradores de Confluence y gerentes de conocimiento",
+  "problema": "Los espacios acumulan páginas obsoletas que confunden y degradan la búsqueda.",
+  "solucion": "App que detecta páginas sin uso, asigna dueños, pide revisión y archiva con un clic.",
+  "precio_usd_mes": 70,
+  "canal_primeros_100": "Búsqueda 'cleanup' 'archive' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Bases de conocimiento enormes dificultan el uso de IA y búsqueda.",
+  "ventaja_juan": "Backend y APIs de Confluence.",
+  "riesgo_principal": "Atlassian podría añadir función nativa (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "limpieza páginas Confluence",
+  "tema_norm": "gestión en Jira/Confluence",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-08",
+  "nombre": "Print-Ready Export",
+  "cliente_que_paga": "Diseñadores de packaging y merch que imprimen",
+  "problema": "Entregar archivos a imprenta requiere CMYK, sangrado, marcas de corte y troqueles que Figma no maneja.",
+  "solucion": "Plugin que exporta PDF/X con sangrado, marcas de corte y capas de troquel desde frames.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Figma Community ('print', 'CMYK', 'bleed') y r/graphic_design.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Figma se usa cada vez más para packaging y merch.",
+  "ventaja_juan": "Conocimiento de fabricación/impresión y DXF de troquel.",
+  "riesgo_principal": "Fidelidad de color CMYK limitada por Figma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "exportación a imprenta",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-09",
+  "nombre": "PLC Documentation Generator",
+  "cliente_que_paga": "Integrators handing over projects",
+  "problema": "Writing IO lists and handover docs by hand takes days.",
+  "solucion": "Offline tool parsing exported PLC projects into IO lists, tag sheets and PDF docs.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "PLCTalk, Reddit r/PLC, search 'generate IO list from TIA Portal'",
+  "competidores": [
+   "Manual Excel",
+   "Copia"
+  ],
+  "por_que_ahora": "Customers demand documentation but integrators cannot upload code.",
+  "ventaja_juan": "PLC naming and structure knowledge.",
+  "riesgo_principal": "Small niche.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "PLC documentation",
+  "tema_norm": "documentación de PLC",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-07",
+  "nombre": "Pitch Deck Data Fill",
+  "cliente_que_paga": "Fundadores y analistas que mantienen decks financieros",
+  "problema": "Los números de decks y dashboards en Figma se actualizan a mano desde Sheets.",
+  "solucion": "Plugin que vincula capas de texto y gráficos a Google Sheets/Airtable y actualiza en un clic.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Figma Community ('sheets sync') y templates en Product Hunt.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Decks de inversión se actualizan semanalmente en startups.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Funciones nativas o competidores gratis (F1 posible).",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "datos vivos en Figma",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-07",
+  "nombre": "Paid Community Churn Radar",
+  "cliente_que_paga": "Dueños de comunidades de pago (Circle, Skool)",
+  "problema": "Pierden miembros sin saber quién está a punto de irse.",
+  "solucion": "Puntúa riesgo de baja por actividad y dispara DM/email de retención.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Directorio de integraciones de Circle y comunidad Skool Games",
+  "competidores": [
+   "Common Room",
+   "Circle analytics"
+  ],
+  "por_que_ahora": "Comunidades de pago crecieron y el churn duele.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Circle/Skool añaden analítica nativa.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "retención comunidades",
+  "tema_norm": "cursos y monetización de creadores",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-17",
+  "nombre": "Lead Time Estimator",
+  "cliente_que_paga": "Tiendas de productos hechos bajo pedido o fabricados",
+  "problema": "Los clientes preguntan cuándo llegará y la tienda no puede prometer fechas.",
+  "solucion": "Estima fecha de entrega según cola de producción, capacidad y transporte, mostrada en producto y carrito.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'delivery date' / 'estimated delivery' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Expectativas de entrega transparentes reducen tickets.",
+  "ventaja_juan": "Conocimiento de cola de producción en máquinas.",
+  "riesgo_principal": "Cada taller modela capacidad distinto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "fecha de entrega fabricación",
+  "tema_norm": "producción y reservas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-13",
+  "nombre": "Component Usage Analytics",
+  "cliente_que_paga": "Design system managers en empresas medianas",
+  "problema": "No saben qué componentes se usan, se desvían o se detachan en cientos de archivos.",
+  "solucion": "Plugin/servicio que escanea archivos y muestra uso y detaches por componente en dashboard.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Figma Community ('design system analytics') y comunidad Design Systems Slack.",
+  "competidores": [
+   "Figma Analytics nativo en planes Org/Enterprise (alcance sin verificar)"
+  ],
+  "por_que_ahora": "Design systems maduros requieren medir adopción.",
+  "ventaja_juan": "Backend y datos.",
+  "riesgo_principal": "Figma analytics nativo puede cubrirlo (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "analítica de design system",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-12",
+  "nombre": "Seguimiento de contratos y renovaciones",
+  "cliente_que_paga": "Responsable de compras/finanzas",
+  "problema": "Se pierden fechas de renovación automática de contratos.",
+  "solucion": "Extrae fechas de PDFs y avisa antes del plazo de cancelación.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'contract renewal tracker' y Google Workspace Marketplace",
+  "competidores": [
+   "Ironclad",
+   "Juro",
+   "hojas de cálculo"
+  ],
+  "por_que_ahora": "IA permite extracción barata.",
+  "ventaja_juan": "Backend/PDF.",
+  "riesgo_principal": "Mercado de CLM grande.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "renovaciones de contratos",
+  "tema_norm": "servicios profesionales independientes",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-03",
+  "nombre": "Shopify EAA Accessibility Scanner",
+  "cliente_que_paga": "Dueños de tiendas Shopify que venden a UE",
+  "problema": "Temen multas EAA y no saben qué temas/apps rompen accesibilidad.",
+  "solucion": "App Shopify que escanea tienda, prioriza errores WCAG y sugiere fix en Liquid.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'accessibility' en Shopify App Store",
+  "competidores": [
+   "accessiBe",
+   "UserWay",
+   "sin verificar"
+  ],
+  "por_que_ahora": "EAA vigente y comerciantes buscan cumplimiento.",
+  "ventaja_juan": "Experiencia web/Next.js; Liquid sencillo.",
+  "riesgo_principal": "Dependencia de Shopify y overlays establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "Shopify accesibilidad",
+  "tema_norm": "cumplimiento accesibilidad web",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-16",
+  "nombre": "Webinar Replay Evergreen Funnel",
+  "cliente_que_paga": "Creadores de cursos y coaches",
+  "problema": "Reproducir webinars como 'en vivo' requiere varias herramientas.",
+  "solucion": "Programa replays evergreen con chat simulado y CTA de pago.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'evergreen webinar software' y Product Hunt",
+  "competidores": [
+   "EverWebinar",
+   "WebinarJam"
+  ],
+  "por_que_ahora": "Marketing de webinar sigue funcionando.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Competidores establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "webinar evergreen",
+  "tema_norm": "cursos y monetización de creadores",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-15",
+  "nombre": "SEO On-Page Snapshot",
+  "cliente_que_paga": "Freelance SEOs and writers",
+  "problema": "Checking on-page items across competitor pages takes many tools.",
+  "solucion": "Extension shows headings, schema, internal links and word diffs with export.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Chrome Web Store search 'SEO extension'",
+  "competidores": [
+   "MozBar",
+   "SEOquake"
+  ],
+  "por_que_ahora": "AI content boom.",
+  "ventaja_juan": "General engineering.",
+  "riesgo_principal": "Crowded; free incumbents (F1 risk). Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "SEO extension",
+  "tema_norm": "marketing digital y SEO",
+  "duplicado_de": null
+ }
+]

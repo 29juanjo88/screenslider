@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G25-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Ramp/Brex/Expensify reclaman recibos y concilian nativamente con la tarjeta; sin evidencia."
+ },
+ {
+  "id": "G11-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "Calculadoras gratis y slicers cubren buena parte; el ángulo Sheets es débil y el nicho chico, aunque la ventaja G-code es real."
+ },
+ {
+  "id": "G08-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Mockoon, Prism y mocks de Postman cubren OpenAPI gratis; hosting poco defendible a $19."
+ },
+ {
+  "id": "G22-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Capítulos automáticos nativos de YouTube y generadores IA gratis/incluidos en TubeBuddy; $15 bajo."
+ },
+ {
+  "id": "G04-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Canal Atlassian Marketplace real y $90, pero Atlassian y Canny/Productboard cubren discovery; competidores sin verificar."
+ },
+ {
+  "id": "G13-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Mercado diminuto de mantenedores que esperan gratis y simulación fiable no cabe en 6 semanas, pese a ventaja firmware."
+ },
+ {
+  "id": "G20-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Comprador de mantenimiento no compra por SEO autoservicio y desconfiará del análisis automático de repuestos."
+ },
+ {
+  "id": "G26-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Mercado saturado (Dubsado, HoneyBook) sin ángulo ni ventaja de Juan."
+ },
+ {
+  "id": "G12-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Dolor concreto en cotización DXF, API con SEO específico y ventaja CAD alta; mercado de talleres automatizados incierto y sin verificar."
+ },
+ {
+  "id": "G17-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Dolor real y canal Shopify/Stripe, pero Radar nativo y Chargeflow/Signifyd dominan; sin ángulo."
+ },
+ {
+  "id": "G01-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Canal claro (búsqueda GPSR) pero muchas apps y metacampos nativos; precio $19 y churn tras configurar."
+ },
+ {
+  "id": "G15-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 37,
+  "razon": "Ventaja PLC fuerte y ángulo poco cubierto, pero confidencialidad, formatos propietarios y comunidades hostiles a promoción limitan el canal."
+ },
+ {
+  "id": "G30-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Intención de búsqueda 'Bluebeam alternative' real y mercado amplio, pero incumbentes fuertes y takeoff serio excede 6 semanas."
+ },
+ {
+  "id": "G17-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Muchas librerías gratis y servicios PDF baratos; el ángulo e-factura conforme solo aparece en la defensa, no en la idea."
+ },
+ {
+  "id": "G21-08",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $9/mes se requieren más de 1,100 pagadores para $10k y hay calculadoras gratis."
+ },
+ {
+  "id": "G23-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "La calculadora FBA de Amazon es gratis y suficiente; el 3D es un extra no pagable."
+ },
+ {
+  "id": "G15-12",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "La propia idea admite integraciones CMMS y ventas largas; no es autoservicio."
+ },
+ {
+  "id": "G11-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "CMMS como UpKeep/Fiix tienen planes gratis o baratos y las hojas ya cubren el caso."
+ },
+ {
+  "id": "G18-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Dolor real en captura de BOM, pero modelos de visión generales e IDP lo cubren y la precisión exigida es alta."
+ },
+ {
+  "id": "G27-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Nicho pequeño de desarrolladores de extensiones, dependencia total de Chrome Web Store y scraping; sin evidencia."
+ },
+ {
+  "id": "G07-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "GitHub secret scanning, gitleaks y pre-commit son gratis/nativos y a $6 la meta exige volumen irreal."
+ },
+ {
+  "id": "G24-08",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $7/mes requiere más de 1,400 pagadores, Ravelry da herramientas gratis y no hay ventaja."
+ },
+ {
+  "id": "G26-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Ventaja PLC alta y ahorro de horas por proyecto, pero freelancers PLC son pocos y el canal de foros es débil."
+ },
+ {
+  "id": "G07-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Plugins gratis de JetBrains y límites en servidor cubren parte; mercado de extensiones de pago estrecho."
+ },
+ {
+  "id": "G03-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "OctoPrint, Obico y OctoEverywhere ya notifican fallos gratis; mercado minúsculo."
+ },
+ {
+  "id": "G28-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 40,
+  "razon": "Necesidad respaldada por una fuente, comparadores existentes son de pago/empresa y la ventaja de Juan es máxima; mercado reducido y riesgo de diff nativo."
+ },
+ {
+  "id": "G24-20",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $4/mes exige más de 2,500 pagadores en un nicho chico, sin ventaja."
+ }
+]

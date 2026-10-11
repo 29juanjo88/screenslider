@@ -1,0 +1,202 @@
+[
+ {
+  "id": "G29-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "OctoPrint y sus plugins gratis ya dan colas y monitoreo local; el comprador (granja de 5-50 impresoras) es un nicho de aficionados reacios a pagar y el trabajo real de multi-impresora (Klipper/Moonraker, marcas distintas) es una integración frágil. Tamaño de mercado sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-01",
+  "filtros_fallados": [],
+  "objecion": "Validadores EN16931/Peppol oficiales y open source (reglas Schematron publicadas) existen gratis, y los access points ya validan al enviar; el valor se reduce a mensajes legibles. Los competidores listados no son validadores independientes; sin verificar. Aun así hay mandato regulatorio y búsqueda con intención.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los visores IFC gratuitos (p. ej. BIMvision, usBIM, Solibri viewer; sin verificar el alcance de exportación) y librerías open source como IfcOpenShell permiten sacar cantidades; además el valor depende de la calidad de los modelos IFC y de reglas de medición por país, sin competidores verificados.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-17",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "YouTube ya ofrece Test & Compare nativo gratis, que es justo la función propuesta; a $15/mes y con dependencia de la API de Analytics no queda ángulo.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G22-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Opus Clip y similares ya dominan 'podcast a shorts' con SEO y presupuesto; sin ventaja de Juan ni diferenciación, y la detección de momentos depende de costos de IA/video que comprimen margen a $29.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-15",
+  "filtros_fallados": [],
+  "objecion": "Compradores de talleres CNC conservadores con ciclos de compra largos, y Git más sistemas DNC/MES ya cubren control de versiones; a $149/mes la venta autoservicio a gerentes de manufactura es dudosa. La integración con controladores varía por máquina.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Stark y otros plugins de Figma ya auditan contraste y accesibilidad, varios con versión gratuita (precios sin verificar); el diferencial es solo el PDF, fácil de copiar. A $19/mes dependiente de Figma Community.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Garak y Promptfoo son open source gratis y ya hacen red-teaming de inyección en CI; el comprador paga solo si hay un ángulo propietario, y los vendors de seguridad de LLM están financiados. Mercado que cambia rápido.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-10",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "A $5/mes exige >2,000 pagadores para $10k; hojas de cálculo gratis y apps existentes de acuarios cubren el seguimiento. Aficionados con baja disposición de pago.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G19-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Fusion 360 personal/startup, FreeCAD Path, CAMotics, y numerosos generadores web gratis de G-code cubren fresado básico; el propio autor reconoce el F1. Sin diferencial.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G23-15",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Repricing en eBay choca con TOS/API de eBay (scraping prohibido) y hay herramientas establecidas (competidores sin verificar); canal 'eBay forums' es vago y la dependencia de una plataforma que puede bloquear es total.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "GitHub Copilot y la propia IA en Actions, más LLMs pegados a mano, cubren el resumen de logs; la plataforma lo integrará nativamente (riesgo F1 latente) y copiar es trivial. Depende totalmente de GitHub Marketplace.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-13",
+  "filtros_fallados": [],
+  "objecion": "Mercado muy pequeño y comprador (IT de ingeniería) con ciclos de compra; Flexera, Reprise y otros ya ofrecen analítica de uso (alcance sin verificar), y acceso a logs FlexNet requiere despliegue on-prem, lo que choca con el autoservicio. Aun así precio $199 y dolor monetario real.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-07",
+  "filtros_fallados": [],
+  "objecion": "Gitleaks y escáneres de secretos gratuitos detectan claves en JSON; el valor de PII-flows es difícil de vender, y los self-hosters de n8n son aficionados reacios a pagar. Mercado acotado; agencias sí podrían pagar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G29-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Modbus Poll cuesta poco y es un estándar de facto, y existen herramientas gratuitas multiplataforma (QModMaster, pymodbus, mbpoll; sin verificar cobertura); técnicos de campo rara vez pagan por testers. Precio mensual contradice la 'one-time price'.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-20",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Los fabricantes de correas (Gates, etc.) ofrecen calculadoras gratis y a $12/mes la meta exige >800 pagadores desde SEO de calculadoras gratuitas; los usuarios no pagan por calculadoras.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G30-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Librerías open source (trimesh, PyMeshLab, MeshFix, Manifold) y reparadores en slicers son gratis; el nicho es el dev de servicio de impresión que ya integra esas libs. Valor está en robustez, pero fácil de reimplementar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-02",
+  "filtros_fallados": [],
+  "objecion": "Mercado de talleres láser con Shopify muy limitado; ya existen widgets de cotización instantánea para corte y plataformas tipo Xometry/Protolabs. Los competidores son sin verificar. Canal nombrado y concreto (Shopify App Store) con intención de compra.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G11-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Google Sheets ya tiene envío programado por email y Apps Script/Looker Studio cubren esto gratis; sin ángulo defendible ni ventaja de Juan, y depende del Workspace Marketplace.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G12-18",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $29/mes con ecosistema fragmentado de impresoras y vendedores Etsy/Shopify pequeños que usan hojas y Zapier; 'n8n/Make connector' no es un canal de primeros 100 en Shopify App Store claro. Etsy limita acceso API. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen muchos plugins de búsqueda facetada para WooCommerce (FiboSearch, Elasticsearch/SearchWP, etc.; sin verificar detalles) y el mercado de tiendas con miles de SKUs técnicos es pequeño; los competidores son numerosos y el autor ya admite el riesgo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Trados, memoQ y Xbench ya validan terminología (QA de glosarios) y los traductores usan CAT tools, no Word add-ins; baja disposición de pago a $12/mes.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G24-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "JLCPCB y otros fabricantes incluyen DRC/DFM gratis, y KiCad trae DRC nativo; a $9/mes con hobbyistas exige volumen irreal.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G25-10",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Mercado saturado con competidores bien financiados (Vanta, Loopio, SafeBase y otros); venta a seguridad/ventas de SaaS tiende a ciclos con demo, y la confianza al subir documentos sensibles a una herramienta nueva es una barrera. SEO muy disputado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-02",
+  "filtros_fallados": [],
+  "objecion": "Mercado pequeño de ingenieros PLC con compras corporativas lentas; Siemens y Rockwell ya exportan tags a Excel/CSV de forma nativa y TIA Openness permite scripting; AppSource tiene poco tráfico de búsqueda. Competidores sin verificar. Ventaja real de Juan.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Chrome DevTools ya permite 'Copy as cURL/fetch', y Postman, Insomnia y Requestly cubren export; a $8/mes requiere >1,250 pagadores y depende de Chrome Web Store.",
+  "severidad": "fuerte"
+ }
+]

@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G03-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-05",
+  "rescatar": true,
+  "respuesta": "Se concede que Shopify Digital Downloads es gratis (F1 parcial): cubre la entrega básica pero no licencias por uso, versionado ni vista previa 3D, que son lo que el vendedor de STEP/STL comercial necesita. El comprador es concreto (vendedor de modelos 3D/CAD con tienda propia que sale de marketplaces con comisión) y el canal es la búsqueda 'STL'/'digital downloads' en Shopify App Store. Riesgo de plataforma única marcado.",
+  "ajuste_sugerido": "Enfocar en vendedores de CAD con licencias comerciales y versiones (actualizaciones de archivos pagadas) y subir a $39/mes; la vista previa 3D web como diferenciador."
+ },
+ {
+  "id": "G26-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-12",
+  "rescatar": true,
+  "respuesta": "Se concede que los CMMS dedicados (MaintainX, Fiix, UpKeep) existen y que el jefe de planta rara vez compra en Atlassian Marketplace. Pero el comprador real es el equipo TI/facilities que ya usa Jira Service Management y no quiere otra herramienta; ahí la plantilla con activos y QR por máquina compite contra nada nativo. Canal nombrado: Atlassian Marketplace 'maintenance'/'CMMS' (sin verificar volumen). Ventaja de Juan en planta/PLC real.",
+  "ajuste_sugerido": "Reposicionar a facilities/TI de empresas medianas que ya pagan JSM, precio $49-99/mes por equipo, no $160."
+ },
+ {
+  "id": "G01-18",
+  "rescatar": true,
+  "respuesta": "Se concede que hay apps de order tracking (sin verificar) y que el nicho es acotado. El ángulo es el tablero de estados de producción para talleres de impresión 3D/fabricación bajo demanda, donde el pedido pasa por etapas (cola, impresión, post-proceso) que las apps de envío no modelan. Canal: Shopify App Store 'production status'. Ventaja de Juan en flujos de producción y firmware de impresoras 3D.",
+  "ajuste_sugerido": "Integrar con granjas de impresión y subir valor (cola de impresoras y tiempo estimado); precio $39-59/mes; riesgo de nicho pequeño marcado."
+ },
+ {
+  "id": "G05-01",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-07",
+  "rescatar": true,
+  "respuesta": "Se concede que $8/mes en una extensión de VS Code no alcanza el MRR objetivo (F5) y que hay visores gratuitos. Lo rescatable es el núcleo, que es el ancla de calibración 1: conversión y vista previa de STEP/DXF a glTF/PNG como API para desarrolladores de SaaS de manufactura, con la extensión como canal de adquisición gratis (VS Code Marketplace, foros CadQuery/build123d). Ventaja de Juan alta en formatos CAD.",
+  "ajuste_sugerido": "Convertir en API de conversión/preview CAD (pago por uso o $49-199/mes) con extensión VS Code gratuita como embudo; no cobrar $8 por la extensión."
+ },
+ {
+  "id": "G13-10",
+  "rescatar": true,
+  "respuesta": "El dolor es de los más urgentes y medibles: la factura de Datadog crece cada mes y el comprador (Head of Platform/FinOps) ya tiene presupuesto asignado. Se concede que la confianza es el freno; se resuelve con modo local: CLI/contenedor que procesa el CSV de uso en el navegador o en la máquina del cliente, sin enviar datos. Eso cambia el perfil de compra a autoservicio. Canal nombrado: SEO 'reduce datadog costs' / 'datadog custom metrics cost' (intención de compra alta), Hacker News y r/devops. Cribl y Vantage son plataformas más amplias; el ángulo de herramienta puntual de reglas de exclusión es distinto (competidores sin verificar).",
+  "ajuste_sugerido": "Vender como analizador local (sin subir datos), con informe gratis de ahorro estimado y pago por reglas exportables; precio $99 o $149 por informe/mes."
+ },
+ {
+  "id": "G14-08",
+  "rescatar": true,
+  "respuesta": "Se concede que MCP Inspector es gratis y que muchos autores son hobbistas. Pero el Inspector es manual: no ejecuta escenarios automatizados ni mide tasa de éxito de herramientas con clientes LLM simulados, que es lo que necesita un equipo de plataforma en CI. El comprador es el equipo que publica servidores MCP en producción. Canal: npm/PyPI, directorios MCP y dev.to. Riesgo de que las plataformas de evals lo absorban (sin verificar).",
+  "ajuste_sugerido": "Vender a equipos (no hobbistas) como runner de CI con reportes, plan Team $49-99/mes y núcleo open source para la distribución."
+ },
+ {
+  "id": "G06-07",
+  "rescatar": true,
+  "respuesta": "Se concede el trabajo por conector de ERP. Se resuelve acotando a un ERP/inventario por producto (p. ej. un solo sistema popular) en lugar de un conector universal, donde la búsqueda 'woocommerce [ERP] integration' tiene intención de compra clara. Canal: WooCommerce.com Marketplace y WordPress.org más SEO por ERP; Upwork se descarta como canal. Competidores sin verificar.",
+  "ajuste_sugerido": "Lanzar con un único ERP y vender como extensión del marketplace de WooCommerce a $59/mes; ampliar a otros ERP según demanda."
+ },
+ {
+  "id": "G29-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-03",
+  "rescatar": true,
+  "respuesta": "Se concede que Visualping, PricePulse y Price Sentinel existen y que hay planes gratis. El ángulo defendible es el diff estructurado de páginas de precios de SaaS (planes, límites, features) con resumen semanal, para el PM/fundador que hoy lo hace a mano. Hay evidencia de que un competidor pequeño factura (trustmrr.com/startup/price-sentinel), lo que indica disposición de pago. Canal: directorios de alternativas, Product Hunt, SEO 'track competitor pricing'.",
+  "ajuste_sugerido": "Especializar en SaaS B2B con comparación estructurada de planes y alertas a Slack; $29-49/mes con muchos competidores de alta rotación a vigilar."
+ },
+ {
+  "id": "G05-05",
+  "rescatar": true,
+  "respuesta": "Se concede que existen builders de email con importación de Figma (sin verificar el alcance). Pero el dolor de Outlook/MSO es real y recurrente, y la agencia de email paga por horas ahorradas en cada campaña. El canal es Figma Community ('email html') y SEO 'figma to email html', con intención de compra clara. MVP viable en pocas semanas.",
+  "ajuste_sugerido": "Apuntar a agencias de email con volumen semanal de campañas; precio $25-39/mes por asiento con prueba gratis limitada."
+ },
+ {
+  "id": "G06-10",
+  "rescatar": true,
+  "respuesta": "Se concede que Easy Digital Downloads existe y que WordPress.org favorece lo freemium. Pero el comprador es concreto: vendedores de plugins/CAD/software en WooCommerce que necesitan activaciones por sitio, expiración y renovaciones; ese flujo es dolor recurrente y ya se paga (licencias de pago por sitio). El canal es el repositorio de WordPress.org más SEO 'woocommerce license manager', con versión gratis y upsell Pro. Competidores sin verificar a fondo.",
+  "ajuste_sugerido": "Posicionar en licencias de archivos CAD/software con activación por sitio y API de verificación; modelo freemium en WordPress.org con Pro a $29-49/mes."
+ }
+]

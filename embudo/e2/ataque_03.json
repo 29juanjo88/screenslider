@@ -1,0 +1,215 @@
+[
+ {
+  "id": "G13-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "GitHub ya genera release notes automáticos y Release Drafter es gratis; el comprador (PM) no vive en GitHub Marketplace y herramientas de changelog para clientes (Headway, LaunchNotes: sin verificar) ya compiten; a $19 con LLM de por medio es fácil de copiar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-11",
+  "filtros_fallados": [],
+  "objecion": "Los formatos TIA/Studio 5000 no mapean 1:1 (tipos de datos, UDT, direccionamiento simbólico vs. absoluto), así que la conversión es parcial y el ingeniero igual revisa a mano; es una tarea puntual de migración, no recurrente, lo que hace difícil sostener una suscripción de $59/mes (retención baja). Volumen de compradores pequeño; competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-15",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Plantillas de contratos para freelancers abundan gratis y Bonsai ya empaqueta contratos y SOW; SEO 'freelance contract template' está saturado; además roza el territorio legal aun con aviso, y a $15 la meta exige >650 pagadores sin ventaja propia.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G15-09",
+  "filtros_fallados": [
+   "F5",
+   "F1"
+  ],
+  "objecion": "Los usuarios de Klipper/Voron esperan ayuda gratis en Discord y foros, y un LLM genérico con el log pegado hace gran parte del trabajo; a $15 los granjeros pequeños son pocos y los fotos-diagnóstico son poco fiables; canal comunitario prohíbe o rechaza promoción.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-16",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Amazon genera las etiquetas FNSKU gratis desde Seller Central y existen muchas herramientas de etiquetas de terceros (sin verificar); a $12/mes con funcionalidad nativa gratis casi nadie paga suscripción por un PDF.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G07-06",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Laravel Idea domina el canal JetBrains y Debugbar/Telescope cubren N+1 en runtime gratis; análisis estático de Eloquent para N+1 es poco preciso (falsos positivos) y a $9 se necesitan >1,100 pagadores en un mercado de plugins donde se paga una vez al año.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-11",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Mercado muy pequeño (YouTubers de CAD que cobren por archivos) y Patreon/Drive/GrabCAD ya resuelven la entrega; el creador quiere el dinero de su audiencia en Patreon, no migrar; el canal 'descripciones de videos' no es controlable.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "AppFollow y AppBot son incumbentes consolidados con clustering y alertas; Apple y Google ofrecen consolas de reseñas gratis y existen alertas de Slack gratis (sin verificar); API de reseñas de Apple limitada a tus propias apps, lo que impide monitorear competidores sin scraping.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-14",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen optimizadores de despiece web gratis muy conocidos (sin verificar nombres) y apps de cutlist; a $6/mes se requieren >1,600 pagadores aficionados que pagan una vez o nunca; Juan tiene ventaja pero el aficionado no paga suscripción.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G27-08",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Muchos proveedores publican changelogs, RSS, emails y status pages; servicios gratuitos de vigilancia de páginas (sin verificar) cubren lo básico; mantener scrapers para ~500 APIs es costo recurrente alto y frágil para una sola persona a $15/mes; la intención de compra por 'API deprecation alerts' es incierta.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Ignition tiene edición/licencias baratas y existen stacks gratis (InfluxDB + Grafana + Node-RED) que el integrador ya domina; las plantas rechazan enviar datos de PLC a la nube; requiere conector edge que Juan debe mantener y soportar, y vender a integradores con confianza es lento.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-19",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "La combinación de Sheets con plantillas de Docs/PDF ya se resuelve con Apps Script, Autocrat u otros complementos de mail-merge (sin verificar nombres); los equipos de hardware suelen usar PLM/PIM; la búsqueda 'datasheet generator' en el Marketplace probablemente tiene volumen bajo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Node-RED, Zapier/n8n y gateways IIoT comerciales ya mueven tags a Sheets/Airtable; Airtable tiene límites de tasa y registros que no soportan series de tiempo de PLC; la TI de planta bloquea enlaces a la nube; comprador integrador puede cobrar el servicio una vez en vez de suscribirse.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-19",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "GitHub ya ofrece plantillas de issues, Actions de etiquetado (gratis) y está integrando IA nativa; los mantenedores no pagan (voluntarios) y la audiencia 'con patrocinio' es muy pequeña; a $19 el volumen realista es insuficiente; competidores sin verificar.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G14-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Smithery y Composio ya existen con financiamiento y los proveedores de LLM integran MCP remoto con OAuth nativo; el espacio cambia cada mes y la gestión de credenciales de terceros implica responsabilidad de seguridad alta para un fundador solo; sin embargo hay demanda real.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-11",
+  "filtros_fallados": [],
+  "objecion": "Existen muchas apps de profit tracking en Shopify (sin verificar cuáles bloquean ofertas) y Shopify permite costo por artículo nativo; bloquear descuentos requiere Shopify Functions, que tiene límites; la categoría 'profit margin' está saturada y la diferenciación (bloqueo) es copiable en semanas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Microsoft Clarity es gratis, detecta rage clicks y dead clicks y se integra con Shopify; pagar $29 por un reporte semanal sobre lo que Clarity ya muestra es poco creíble; la propia idea reconoce el fallo F1.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G01-01",
+  "filtros_fallados": [],
+  "objecion": "Pocas tiendas Shopify venden impresión 3D bajo pedido, así que alcanzar 500+ clientes es irreal; el cálculo de tiempo/material desde STL sin slicer real es impreciso; existen plugins de cotización 3D en WooCommerce/Shopify (sin verificar) y servicios como Xometry captan ese comprador.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-01",
+  "filtros_fallados": [],
+  "objecion": "Comprador diminuto: pocos equipos PLC usan Git y los que lo hacen dependen de L5X/PLCopen de Rockwell/Siemens, formatos que cambian; Logix Compare y Siemens VCI cubren parte (sin verificar); habría que probar con proyectos reales, y vender a ingenieros de planta conservadores no es product-led; techo de mercado bajo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-10",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Statsig y Optimizely ya cubren experimentación general y Stripe permite testear precios con herramientas propias; medir ARPU y churn exige meses de tráfico, y un SaaS 'moderado' no tiene muestra estadística suficiente; el comprador ve el test A/B de precios como riesgo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-01",
+  "filtros_fallados": [],
+  "objecion": "Autodesk APS, CAD Exchanger y occt-import-js (OSS) cubren gran parte, y el cliente técnico puede compilar OpenCascade una vez; los volúmenes de marketplaces de manufactura que paguen $79 son pocos; confianza y SLA para IP de clientes (archivos CAD confidenciales) frenan el autoservicio; sin verificar la demanda de 'step to gltf api'.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G12-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Airtable no es la herramienta natural para BOMs de hardware (PLM, Onshape, Fusion y Google Sheets cubren); plantillas gratis y scripts de Airtable bastan; depende de una plataforma con extensiones limitadas; el listado en Airtable Marketplace tiene poco tráfico (sin verificar) y los precios de proveedores requieren APIs de pago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Promptfoo es open source y fuerte, y LangSmith y otras plataformas de evals tienen planes gratuitos; una extensión de VS Code a $14 compite con CLI gratis; la categoría cambia rápido y los proveedores incorporan evals nativos.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G29-08",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "GanttProject es gratis y funcional, y hay alternativas web a MS Project (sin verificar); los ingenieros de parada usan Primavera por mandato contractual y el archivo debe ser .mpp/.xer; 'MS Project alternative' es una búsqueda feroz y saturada; canal LinkedIn es outbound.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-07",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Plataforma única (Autodesk App Store) con tráfico bajo y precio de $12; los cotizadores de impresión/láser/CNC requieren integrar APIs de terceros que no existen para comparar precios reales; Fusion tiene extensión de manufactura nativa (sin verificar); mercado hobbyist poco dispuesto a pagar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-10",
+  "filtros_fallados": [
+   "F1",
+   "F3"
+  ],
+  "objecion": "Power Automate Approvals viene incluido con Microsoft 365 y las organizaciones con ECO ya usan PLM (Arena, Windchill); a $89 el comprador pide integración con PLM/ERP y cumplimiento (firma electrónica con trazabilidad ISO), lo que empuja a ventas y ciclos largos; AppSource da poca demanda de búsqueda.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-02",
+  "filtros_fallados": [],
+  "objecion": "Mercado de nicho: pocos equipos de hardware guardan CAD en Git (suelen usar Onshape/PDM) y GitHub ya renderiza STL; renderizar STEP exige OpenCascade en servidor y diffs geométricos reales son difíciles; a $19 con comunidad r/OpenSCAD de aficionados que pagan poco, el volumen para $10k MRR es incierto.",
+  "severidad": "fuerte"
+ }
+]

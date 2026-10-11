@@ -1,0 +1,215 @@
+[
+ {
+  "id": "G06-02",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Plugin de WooCommerce para talleres láser: el canal nombrado (WordPress.org) no concentra talleres que compren; los foros exigen outreach manual (lo admite la propia idea). Nicho pequeño de talleres con WooCommerce y a 49/mes exige ~200+ clientes con canal sin demanda de búsqueda verificada. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los motivos de devolución ya los capturan las apps de devoluciones y Shopify en su flujo nativo; el comerciante con >500 pedidos/mes suele usar una app de devoluciones que puede añadir analítica (lo admite la idea). Sin competidores verificados; la clasificación de motivos depende de texto libre del cliente de baja calidad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Percy y Chromatic ocupan la regresión visual y la idea admite que ya integran Figma; el comparador píxel vs Figma tiene mucho ruido (render distinto de fuentes y espaciado) y el comprador (QA) rara vez tiene presupuesto propio. Posible función gratuita en herramientas existentes: sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-03",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Fabricantes que necesitan ECR/ECN suelen estar regulados (ISO 9001, médico, aeroespacial) y exigen validación formal; la propia idea lo admite. En Atlassian Marketplace hay apps de gestión de cambios y plantillas de Jira; sin verificar. A 200/mes el canal es una sola plataforma y la intención de búsqueda 'ECO' es vaga.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-09",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Compras de cumplimiento (SOC 2) implican ciclos de compra y revisión de seguridad del proveedor; un registro 'inmutable' ofrecido por un tercero desconocido es poco creíble como evidencia. Vanta/Drata son integraciones cerradas por acuerdo de partner, no un listado abierto (sin verificar). Los proveedores de agentes y plataformas de observabilidad ya ofrecen logs.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-14",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "AWS IoT SiteWise (nativo) y Kepware ya cubren OPC UA a nube; vender una AMI exige soporte de hardware y protocolos heterogéneos, y el comprador de planta (IT/OT) no compra autoservicio sin pruebas piloto. Soporte de campo equivale a carga tipo ventas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-03",
+  "filtros_fallados": [
+   "F1",
+   "F3",
+   "F4"
+  ],
+  "objecion": "Zluri, Torii y BetterCloud están muy financiados y venden con ventas enterprise; la propia idea lo admite. Los permisos OAuth de Google/Microsoft sobre toda la organización exigen revisión de seguridad (verificación de apps con alcances restringidos), lo que implica ciclos largos. Canal de marketplaces sin intención verificada.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G23-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Mercado de profit-analytics saturado (Sellerboard y otros, admitido); a 29/mes con canal Chrome y grupos de Facebook, el costo de adquisición supera el valor. Importar datos de Amazon/TikTok requiere acceso a APIs de vendedor con aprobación y mantenimiento. Datos de comisiones cambian a menudo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Tokens Studio domina y Figma Variables tiene exportación y API REST propias; GitHub PR automático con scripts casi gratuitos es fácil de replicar con una GitHub Action. Dependencia fuerte de Figma Community, donde se espera gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-13",
+  "filtros_fallados": [],
+  "objecion": "Los modelos generalistas de visión ya extraen cotas y listas de materiales de PDFs con prompts, y los proveedores de OCR/documentos lo ofrecen genérico; la precisión en tolerancias y GD&T es cuestionable y un error cuesta dinero al cliente. Competidores sin verificar. Compradores (desarrolladores de ERP ligero) son pocos y la intención de búsqueda del SEO propuesto es incierta.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen graficadores SPC online y plantillas de Excel gratuitas, y Minitab es el estándar incumbente; el comprador (ingeniero de calidad) a menudo no tiene presupuesto personal y compra por TI. A 49/mes, la búsqueda 'SPC chart online' probablemente la dominan herramientas gratuitas (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-18",
+  "filtros_fallados": [
+   "F2",
+   "F4"
+  ],
+  "objecion": "El comprador es un operador de granja, grupo pequeño y que espera gratis (scripts caseros, ecosistema Klipper/Moonraker de código abierto). Actualización masiva con riesgo de brickear equipos expone al proveedor a responsabilidad; las impresoras tienen firmwares dispares por fabricante (pesada integración). Volumen de granjas con decenas de máquinas: sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen verificadores gratuitos de GPC y escáneres de cookies de los propios proveedores de CMP; la prueba de GPC es una comprobación puntual, no un servicio recurrente de 59/mes. El comprador legal/privacidad usa a OneTrust o abogados. Retención baja tras una prueba única.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Renovate y Dependabot gratis ya agrupan y automatizan merges, y GitHub incorpora más funciones nativas (la idea lo admite). A 19/mes con comprador (mantenedores) acostumbrado a gratis, F1 fallido. Auto-aprobar PRs también es un riesgo de seguridad.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G07-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los agentes de código (Claude Code, Cursor) ya traen permisos, sandbox y hooks nativos, y la idea admite que lo integran de forma nativa. Una extensión de VS Code de terceros no puede interceptar con fiabilidad lo que corre en otro proceso o CLI. Precio 15/mes y comprador que espera gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G17-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Stripe Smart Retries y emails de recuperación nativos son gratis, y Churnkey/Baremetrics Recover están establecidos; la idea admite F1 parcial. Los dueños de SaaS pequeños dudan en pagar un % o mensualidad por algo que Stripe ya cubre en parte. Retención ligada a la plataforma de Stripe.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Hay muchos mockups 3D gratuitos y plantillas de dispositivos (la idea lo admite); renderizar 3D y exportar MP4 en plugin Figma es técnicamente pesado y se parece a Rotato/Previewed (sin verificar). A 19/mes y uso puntual (se compra un mes y se cancela), la retención es mala.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Plantillas de dunning gratis en blogs, plantillas nativas de Stripe y herramientas existentes (Churnkey, Chargebee) cubren el caso; un generador de textos con IA es replicable con cualquier LLM gratis. Valor de uso único, sin retención; precio 19.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G05-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Lokalise, Phrase y otros TMS ya tienen plugins de Figma incluidos en su suscripción (admitido); el comprador paga el TMS y esperará el plugin gratis. Canal depende de Figma Community, donde el pago de plugins es raro.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-06",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A 15/mes la propia idea necesita ~700 pagadores para 10k; el público hobbyist espera herramientas gratuitas (post-procesadores de Fusion/FreeCAD, convertidores de código abierto) y la conversión de G-code es una tarea puntual, sin recurrencia. Riesgo de seguridad: un G-code convertido erróneo puede dañar la máquina.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Beehiiv, Substack y Ghost ya generan archivo web con SEO, y mejoran el nativo (admitido). Es una función de plataforma, el comprador (creador) espera gratis, y el propio fundador reconoce poca ventaja. La evidencia URL aportada no demuestra demanda de pago.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G08-04",
+  "filtros_fallados": [],
+  "objecion": "Mercado muy pequeño: pocos desarrolladores de herramientas PLC compran una API; L5X es XML abierto, parsearlo con un script es trivial y Rockwell/Siemens ofrecen exportaciones y APIs propias (Siemens Openness, sin verificar). Formatos propietarios cambian. Con 89/mes, llegar a 10k MRR requiere ~110 clientes en un nicho sin demanda de búsqueda verificada.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-06",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A 12/mes se necesitan ~830 pagadores para 10k; el seguimiento de CPD se hace gratis con hojas de cálculo y los colegios profesionales/entidades de licencia ofrecen portales propios. Requerir datos correctos por jurisdicción implica mantenimiento legal continuo.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G13-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Trivy es gratis y Docker Scout/Snyk ya comparan imágenes y comentan en PRs (la idea admite F1); el diff de CVE es una función fácil de añadir para ellos. Equipos DevOps esperan gratis en GitHub Actions. A 29/mes, la disposición de pago es débil.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G18-01",
+  "filtros_fallados": [],
+  "objecion": "Estrategia plugin/widget sin marketplace con intención de compra: los talleres necesitan outreach (como la idea admite); muchos no quieren exponer precios. Paperless Parts, Xometry y Protolabs ofrecen cotización instantánea a escala (los dos primeros como marketplaces que compiten por los mismos clientes). Calcular precio realista (anidado, pierces, tiempos) requiere configuración por taller, es decir, soporte de onboarding. Mercado limitado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-13",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Complemento de Sheets: el canal Google Workspace Marketplace no tiene intención de búsqueda de talleres láser y el procesamiento DXF requiere servidor (admitido). Quien cotiza con DXF ya suele usar software CAM que muestra la longitud de corte gratis; el 'competidor' citado es un concepto propio, no un competidor real. Mercado reducido.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-18",
+  "filtros_fallados": [
+   "F2"
+  ],
+  "objecion": "Comunidad maker que espera gratis; OctoPrint plugins y los propios slicers hacen validaciones básicas. Las granjas comerciales son pocas y la validación de colisiones solo con G-code es poco fiable. A 19/mes se necesitan ~500 pagadores para 10k en un público acostumbrado a gratis.",
+  "severidad": "fuerte"
+ }
+]

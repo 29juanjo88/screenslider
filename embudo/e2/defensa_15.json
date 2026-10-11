@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G29-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-10",
+  "rescatar": true,
+  "respuesta": "Concedo el riesgo de captura y derechos de autor. Pero el producto no necesita cientos de dispositivos de inicio: se arranca con los 50-100 más buscados (inversores, medidores, VFD) donde el SEO 'modbus register map for <device>' es de cola larga con intención de compra. Se puede paga por API y generación de código/drivers para gateways, uso recurrente de equipos que mantienen flotas de dispositivos. Los mapas de registros son hechos técnicos; se enlaza al manual, sin verificar el detalle legal. Juan lee manuales y PLC.",
+  "ajuste_sugerido": "Empezar con 100 dispositivos de mayor búsqueda, monetizar API y export a configs de gateway (Node-RED, ThingsBoard) en vez de solo consulta; no copiar PDFs."
+ },
+ {
+  "id": "G27-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-14",
+  "rescatar": true,
+  "respuesta": "Concedo que el nicho es estrecho y que existen apps de precio por área (sin verificar). Aun así, el comprador es concreto (imprenta de gran formato con Shopify), el dolor es semanal (cotizar por m2 con merma y acabados) y el canal es una búsqueda nombrada en Shopify App Store con intención de compra. Precio $35 con ~300-400 clientes alcanza $10-14k. El nesting sí aporta: calcula desperdicio real de rollo, que el precio plano por m2 ignora.",
+  "ajuste_sugerido": "Posicionar como 'precio por m2 con desperdicio de rollo real'; ampliar a rotulación, vinilo y textil para ensanchar el nicho."
+ },
+ {
+  "id": "G25-20",
+  "rescatar": true,
+  "respuesta": "Concedo que OpenBOM y PDM cubren parte y que hay fricción de confianza con IP. Pero el comprador objetivo es quien NO tiene PDM (talleres y pymes de ingeniería exportando BOM a Excel), donde comparar revisiones y detectar partes sin número no es trivial. Se mitiga la confianza con procesamiento local en navegador (sin subir datos). Canal: SEO 'BOM comparison tool' y foros SolidWorks; demanda sin verificar. Ventaja de Juan en CAD/BOM es alta.",
+  "ajuste_sugerido": "Procesar el archivo 100% en el navegador, precio ~$49 para equipos sin PDM; validar demanda SEO antes de construir."
+ },
+ {
+  "id": "G29-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-14",
+  "rescatar": true,
+  "respuesta": "Concedo que Dependency-Track, syft y cdxgen son gratis para generar SBOM y que fechas CRA están sin verificar. El valor vendible no es el SBOM sino el flujo de reporte de vulnerabilidades explotadas y la evidencia de cumplimiento para firmware embebido, donde esas herramientas cubren mal binarios sin gestor de paquetes. Comprador: responsable de producto/seguridad en fabricante IoT pequeño que necesita autoservicio barato. Canal: GitHub Marketplace y SEO 'cyber resilience act sbom'. Ventaja de Juan en firmware.",
+  "ajuste_sugerido": "Enfocar en firmware/binarios embebidos y plantillas de reporte de vulnerabilidades; bajar precio a $49-79 para pymes, sin vender a grandes."
+ },
+ {
+  "id": "G14-06",
+  "rescatar": true,
+  "respuesta": "Concedo que Langfuse y Braintrust tienen funciones cercanas y el espacio está saturado (sin verificar alcance exacto). El ángulo defendible es ser un complemento neutral que convierte logs de cualquier fuente en casos etiquetados y compara regresiones entre versiones de prompt/modelo, con integración listada en Langfuse y OpenTelemetry como canal. Comprador: equipo de producto con agentes en producción que migra de modelo. Software casi gratis para Juan.",
+  "ajuste_sugerido": "Integrarse como plugin/exportador sobre Langfuse y OTel en vez de competir; enfocarse en etiquetado semiautomático y reporte de regresión al cambiar de modelo."
+ },
+ {
+  "id": "G26-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-08",
+  "rescatar": true,
+  "respuesta": "Concedo que Obico y plugins gratuitos de Telegram/Discord existen. El nicho es el operador de granja con decenas de impresoras Klipper que necesita alertas agregadas, multi-impresora y por umbral (temperaturas, atascos de extrusor, tiempos) en un solo panel, algo que los plugins por impresora no resuelven. Paga porque un lote nocturno arruinado cuesta material y tiempo. Canal: búsqueda 'klipper alerts' y comunidades de Klipper. Juan conoce firmware y telemetría Klipper.",
+  "ajuste_sugerido": "Posicionar para granjas de 10+ impresoras, precio por impresora o plan por flota, alertas basadas en datos de Moonraker sin cámara."
+ },
+ {
+  "id": "G14-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-01",
+  "rescatar": true,
+  "respuesta": "Concedo que MakeQuote y similares existen y que Shopify es dependencia. Pero el ángulo es específico: cotización desde geometría STEP, que la evidencia indica no está confirmada en esas apps (sin verificar). El comprador es el dueño de taller de maquinado/impresión con Shopify; paga $49 porque hoy cotiza a mano. Canal nombrado: búsqueda 'instant quote CNC' en Shopify App Store. El costo del kernel se mitiga con OpenCascade (open source) y un MVP de volumen/bounding box + tabla de tarifas antes de costeo avanzado. Juan tiene ventaja real en CAD/CAM.",
+  "ajuste_sugerido": "MVP: STEP -> volumen, área y bbox con OpenCascade, precio por tabla de tarifas del taller; sin costeo de mecanizado fino al inicio."
+ },
+ {
+  "id": "G26-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-06",
+  "rescatar": true,
+  "respuesta": "Concedo que eBay tiene herramientas nativas y que los datos de fitment licenciados (ACES/PIES, sin verificar) son lo difícil. El dolor, sin embargo, es la subida masiva y la validación de errores en tablas de compatibilidad, donde el vendedor ya tiene sus datos pero los formatea a mano; la herramienta puede validar y transformar sin generar datos nuevos. Canal con intención: SEO 'ebay fitment bulk upload' y foros de vendedores. Pipelines de datos son fuerte de Juan.",
+  "ajuste_sugerido": "No generar fitment desde cero: enfocarse en importar, validar contra la taxonomía de eBay y exportar CSV listo para subir."
+ },
+ {
+  "id": "G06-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G19-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-18",
+  "rescatar": true,
+  "respuesta": "Concedo que Snagit y CleanShot hacen desenfoque manual y que el precio es bajo. Lo que no cubren es la detección automática de emails, llaves API y PII antes de subir, y para equipos de soporte, QA y seguridad la fuga es un riesgo real. Canal nombrado y con intención: Chrome Web Store búsqueda 'redact screenshot'. Procesamiento local reduce el riesgo de confianza. Dependencia de Chrome es riesgo declarado. A $8 se requieren muchas cuentas, por eso se vende por equipo.",
+  "ajuste_sugerido": "Vender plan de equipo ($49-99/mes por 10 asientos) con reglas de detección personalizables y procesamiento 100% local."
+ },
+ {
+  "id": "G23-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-20",
+  "rescatar": true,
+  "respuesta": "Concedo que requiere datos del cliente y que el B2B industrial decide lento. Pero el comprador es concreto (distribuidor de refacciones que ya tiene despieces en PDF/CAD y recibe consultas 'qué pieza es') y el plugin evita llamadas y errores de pedido. Precio $49 justificado por ahorro de atención. Sin verificar el canal WordPress.org; se complementa con SEO 'spare parts finder woocommerce'. Ventaja de Juan: conocimiento de equipos industriales y CAD para despieces interactivos.",
+  "ajuste_sugerido": "Ofrecer importación CSV de modelo-pieza y despiece desde imagen con hotspots; vender onboarding de datos como paquete de pago único."
+ }
+]

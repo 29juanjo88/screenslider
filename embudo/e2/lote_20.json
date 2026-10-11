@@ -1,0 +1,543 @@
+[
+ {
+  "id": "G29-04",
+  "nombre": "Local Print Farm Manager",
+  "cliente_que_paga": "3D print farm owners with 5-50 printers",
+  "problema": "Cloud farm managers charge per printer per month and break when internet drops.",
+  "solucion": "LAN-only farm manager for queueing, spool tracking and failure logs, flat price per farm.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "r/3Dprinting, Printables forums, Klipper/Moonraker Discord, YouTube maker channels",
+  "competidores": [
+   "OctoPrint (free)",
+   "3DPrinterOS",
+   "Obico"
+  ],
+  "por_que_ahora": "Etsy and print-on-demand farms are growing and want predictable cost.",
+  "ventaja_juan": "3D printer firmware experience.",
+  "riesgo_principal": "Free OctoPrint plugins cover part of the need.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "offline print farm",
+  "tema_norm": "cola y órdenes de granja 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-01",
+  "nombre": "Peppol Invoice Validator API",
+  "cliente_que_paga": "Developers de SaaS/ERP que emiten e-facturas UE",
+  "problema": "Deben emitir facturas Peppol BIS/EN16931 válidas y los errores de validación son crípticos.",
+  "solucion": "API y CLI que valida y repara UBL/CII contra EN16931 y reglas nacionales, con mensajes legibles.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'peppol validator api', GitHub, directorios de APIs, posts en dev.to",
+  "competidores": [
+   "Storecove",
+   "Billit",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Mandatos e-invoicing B2B en Bélgica (2026), Polonia, Francia y la ley ViDA con fechas límite.",
+  "ventaja_juan": "Backend senior en Node/TS y XML/validación de esquemas.",
+  "riesgo_principal": "Los proveedores de acceso Peppol pueden incluir validación gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "e-invoicing UE validación",
+  "tema_norm": "facturación, impuestos y conciliación",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-13",
+  "nombre": "BIM Quantity Takeoff Lite",
+  "cliente_que_paga": "Arquitectos y estimadores freelance",
+  "problema": "Extraer cantidades de IFC/Revit exige licencias caras.",
+  "solucion": "Sube IFC y exporta metrados a Excel con precios editables.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'ifc quantity takeoff' y r/BIM",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Adopción de IFC abierto.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Visores gratuitos con exportación.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "metrados desde IFC",
+  "tema_norm": "lectura de planos y metrados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-17",
+  "nombre": "Thumbnail A/B Result Tracker",
+  "cliente_que_paga": "YouTubers de 10k-500k subs",
+  "problema": "No miden qué miniaturas realmente suben el CTR.",
+  "solucion": "Importa datos de YouTube Analytics y reporta ganadores por patrón visual.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store 'YouTube thumbnail test'",
+  "competidores": [
+   "TubeBuddy",
+   "VidIQ",
+   "YouTube Test & Compare"
+  ],
+  "por_que_ahora": "YouTube lanzó pruebas A/B nativas.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "F1: función nativa de YouTube.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "pruebas de miniaturas",
+  "tema_norm": "herramientas de creadores YouTube",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-14",
+  "nombre": "Shorts Repurposing Scheduler",
+  "cliente_que_paga": "Podcasters y YouTubers de video largo",
+  "problema": "Convertir episodios en shorts exige edición manual.",
+  "solucion": "Detecta momentos clave, recorta con subtítulos y programa en TikTok/Shorts.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'podcast to shorts' y app directories",
+  "competidores": [
+   "Opus Clip",
+   "Descript"
+  ],
+  "por_que_ahora": "Video corto domina el descubrimiento.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Opus Clip fuerte (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "clips cortos",
+  "tema_norm": "herramientas de creadores YouTube",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-15",
+  "nombre": "Registro de cambios en G-code",
+  "cliente_que_paga": "Gerente de manufactura con CNC/impresoras 3D",
+  "problema": "Programas CNC/G-code modificados sin trazabilidad.",
+  "solucion": "Repositorio con diff y aprobación de programas G-code por máquina.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'CNC program management' y Reddit r/CNC",
+  "competidores": [
+   "Predator DNC",
+   "Git",
+   "MachineMetrics"
+  ],
+  "por_que_ahora": "Auditorías ISO 9001/AS9100.",
+  "ventaja_juan": "CAM y G-code.",
+  "riesgo_principal": "Compradores conservadores en talleres.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "trazabilidad G-code",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-03",
+  "nombre": "A11y Audit Reports",
+  "cliente_que_paga": "Diseñadores UX y agencias que deben entregar informes WCAG",
+  "problema": "Auditar contraste, foco y tamaños en Figma y documentarlo para cliente lleva horas.",
+  "solucion": "Plugin que audita frames contra WCAG 2.2 y genera PDF de informe con capturas y recomendaciones por pantalla.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Figma Community ('accessibility', 'WCAG') y SEO 'WCAG audit figma'.",
+  "competidores": [
+   "Stark (conozco, precios sin verificar)"
+  ],
+  "por_que_ahora": "Entran en vigor exigencias como el European Accessibility Act y crece la demanda de informes.",
+  "ventaja_juan": "Poca; es generación de informes.",
+  "riesgo_principal": "Stark y otros ya cubren contraste; hay que ganar en el informe entregable.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "auditoría accesibilidad WCAG",
+  "tema_norm": "cumplimiento accesibilidad web",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-04",
+  "nombre": "Prompt Injection Scanner for Agents",
+  "cliente_que_paga": "Equipos que lanzan agentes con herramientas",
+  "problema": "Los agentes con acceso a email o archivos son vulnerables a inyección vía contenido externo.",
+  "solucion": "Suite de pruebas automatizadas de inyección que se ejecuta en CI contra el agente y reporta explotables.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "GitHub Marketplace Action, SEO 'prompt injection testing tool' y comunidad OWASP LLM.",
+  "competidores": [
+   "Garak",
+   "Promptfoo"
+  ],
+  "por_que_ahora": "Los incidentes de inyección en agentes ganan atención.",
+  "ventaja_juan": "Mentalidad de pruebas de sistemas de control y CI.",
+  "riesgo_principal": "Herramientas open source gratuitas cubren gran parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "seguridad de agentes IA",
+  "tema_norm": "seguridad y permisos de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-10",
+  "nombre": "AquaPlanner",
+  "cliente_que_paga": "Acuaristas de agua dulce y marina",
+  "problema": "Los parámetros de agua y dosificaciones se descontrolan.",
+  "solucion": "Seguimiento de parámetros con alertas y calculadoras de dosificación por tanque.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "r/Aquariums, r/ReefTank, foros Reef2Reef y YouTube acuarismo.",
+  "competidores": [
+   "Aquarimate (sin verificar)",
+   "Apex Fusion (hardware propio)"
+  ],
+  "por_que_ahora": "Acuarismo marino crece con tanques nano.",
+  "ventaja_juan": "Podría integrar sensores IoT/PLC.",
+  "riesgo_principal": "Competencia gratuita en hojas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "parámetros acuario",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-11",
+  "nombre": "Generador de rutas G-code",
+  "cliente_que_paga": "Talleres CNC pequeños",
+  "problema": "Programar CAM simples consume tiempo para piezas repetitivas.",
+  "solucion": "Plantillas paramétricas de G-code para fresado básico.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'G-code generator'; r/hobbycnc y r/CNC",
+  "competidores": [
+   "Fusion 360 (sin verificar)"
+  ],
+  "por_que_ahora": "Más talleres pequeños y hobistas.",
+  "ventaja_juan": "Conozco CAM.",
+  "riesgo_principal": "Gratis por CAM gratuitos (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "G-code paramétrico",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-15",
+  "nombre": "Competitor Price Tracker eBay",
+  "cliente_que_paga": "eBay resellers",
+  "problema": "Manual price checks.",
+  "solucion": "Auto repricing rules and alerts.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "eBay forums",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Margins thin.",
+  "ventaja_juan": "Scraping skill.",
+  "riesgo_principal": "TOS limits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "repricing eBay",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-17",
+  "nombre": "Actions Log Explainer",
+  "cliente_que_paga": "Desarrolladores que depuran fallos de CI",
+  "problema": "Leer logs de 5,000 líneas para hallar el error cuesta tiempo diario.",
+  "solucion": "App que lee el log fallido, resume la causa probable y sugiere el fix en un comentario del PR.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace ('CI failure'), SEO 'github actions error explained'",
+  "competidores": [
+   "Copilot en Actions (sin verificar)",
+   "Datadog CI Visibility (sin verificar)"
+  ],
+  "por_que_ahora": "LLM baratos permiten resumir logs en segundos.",
+  "ventaja_juan": "Backend con IA.",
+  "riesgo_principal": "GitHub/Copilot lo integrará nativamente (F1 latente).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "explicar fallos CI",
+  "tema_norm": "CI/CD y GitHub Actions",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-13",
+  "nombre": "Auditor de licencias CAD",
+  "cliente_que_paga": "Gerente de IT de empresa de ingeniería",
+  "problema": "Licencias SolidWorks/AutoCAD sin uso cuestan miles.",
+  "solucion": "Lee logs de licencias (FlexNet/SNL) y reporta uso y ahorro posible.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Foros SolidWorks y SEO 'SolidWorks license usage report'",
+  "competidores": [
+   "Flexera",
+   "Reprise",
+   "LicenseAnalyzer"
+  ],
+  "por_que_ahora": "Costos de suscripción CAD en alza.",
+  "ventaja_juan": "Conoce CAD y licenciamiento.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "licencias CAD",
+  "tema_norm": "optimización de licencias SaaS",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-07",
+  "nombre": "n8n Secret and PII Linter",
+  "cliente_que_paga": "n8n self-hosters and agencies handling client data",
+  "problema": "Exported workflows contain hardcoded keys and send personal data to unsafe nodes.",
+  "solucion": "Scans workflow JSON in CI or by upload for secrets, PII flows and risky nodes; gives reports.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "n8n community forum and templates, GitHub Marketplace action, SEO 'n8n security checklist'.",
+  "competidores": [
+   "Generic secret scanners such as gitleaks (free, not workflow-aware)"
+  ],
+  "por_que_ahora": "n8n self-hosting is surging and agents add risk.",
+  "ventaja_juan": "Strong security and DevOps backend skills.",
+  "riesgo_principal": "Free generic scanners may be judged good enough (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "workflow security linting",
+  "tema_norm": "secretos, PII y privacidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-14",
+  "nombre": "Modbus Test Bench",
+  "cliente_que_paga": "Automation techs commissioning devices",
+  "problema": "Free Modbus tools are dated and Windows-only.",
+  "solucion": "Modern cross-platform Modbus/OPC UA test tool with scripts and logs, one-time price.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Search 'Modbus tester' SEO, PLCTalk, r/PLC",
+  "competidores": [
+   "Modbus Poll",
+   "QModMaster"
+  ],
+  "por_que_ahora": "Engineers working on laptops want modern UI.",
+  "ventaja_juan": "Direct field experience.",
+  "riesgo_principal": "Modbus Poll is established.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "Modbus test tool",
+  "tema_norm": "datos industriales OPC UA/Modbus",
+  "duplicado_de": null
+ },
+ {
+  "id": "G21-20",
+  "nombre": "Timing Belt Calculator",
+  "cliente_que_paga": "Diseñadores de máquinas y makers",
+  "problema": "Seleccionar correas y poleas requiere catálogos.",
+  "solucion": "Calculadora web de transmisión por correa con exportación CAD.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'timing belt calculator', r/engineering.",
+  "competidores": [
+   "Fabricantes (calculadoras gratis, sin verificar)"
+  ],
+  "por_que_ahora": "Maker hardware crece.",
+  "ventaja_juan": "CAD y mecánica.",
+  "riesgo_principal": "F1 y F5 posibles.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "cálculo de correas",
+  "tema_norm": "calculadoras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G30-15",
+  "nombre": "STL Repair API",
+  "cliente_que_paga": "Developers of 3D print services",
+  "problema": "Netfabb-class mesh repair is expensive.",
+  "solucion": "API that repairs and checks STL/3MF for printability.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'stl repair api', API directories",
+  "competidores": [
+   "Autodesk Netfabb",
+   "Meshmixer (discontinued, sin verificar)"
+  ],
+  "por_que_ahora": "Online print services keep launching.",
+  "ventaja_juan": "3D printing and mesh knowledge.",
+  "riesgo_principal": "Open-source repair libraries (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "reparación STL",
+  "tema_norm": "DFM, reparación y validación DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-02",
+  "nombre": "DXF Laser Cut Pricer",
+  "cliente_que_paga": "Talleres de corte láser/CNC con tienda Shopify",
+  "problema": "Cotizar archivos DXF/SVG a mano consume horas.",
+  "solucion": "Widget que lee DXF/SVG, calcula perímetro, área y precio por material/espesor, y crea el producto en el carrito.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'custom laser cut quote' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Talleres venden online piezas a medida y quieren autoservicio.",
+  "ventaja_juan": "Conocimiento CAD/CAM de nesting y tiempos de corte.",
+  "riesgo_principal": "Mercado de talleres con Shopify limitado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "cotización corte láser",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-14",
+  "nombre": "Scheduled Report Mailer",
+  "cliente_que_paga": "Gerentes de operaciones en empresas medianas",
+  "problema": "Enviar reportes de hojas por email cada semana exige copiar y pegar manualmente.",
+  "solucion": "Complemento que envía rangos o gráficos de Sheets como PDF/email programado a listas.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'schedule email report'.",
+  "competidores": [
+   "Apps Script manual",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Se simplifican reportes sin BI.",
+  "ventaja_juan": "Backend y automatización.",
+  "riesgo_principal": "Competencia con funciones nativas de Google (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "reportes programados",
+  "tema_norm": "datos: extracción y respaldo",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-18",
+  "nombre": "Print Order to Job Queue",
+  "cliente_que_paga": "Etsy and Shopify sellers fulfilling 3D printed products",
+  "problema": "Orders are copied by hand into slicers and filament stock is not tracked.",
+  "solucion": "n8n/Make connector that turns orders into print jobs and deducts filament in Airtable.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Shopify App Store, Etsy seller forums, 3D printing subreddits.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Print-on-demand with home farms is growing.",
+  "ventaja_juan": "Knows printers and G-code workflow.",
+  "riesgo_principal": "Low price demands many customers; fragmented printer ecosystem.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "3D print fulfillment",
+  "tema_norm": "cola y órdenes de granja 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-14",
+  "nombre": "Technical Spec Search for Woo",
+  "cliente_que_paga": "Tiendas industriales con miles de SKUs",
+  "problema": "El buscador nativo no filtra por atributos técnicos.",
+  "solucion": "Buscador facetado por especificaciones (dimensiones, tolerancias, material).",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce faceted search technical'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Catálogos industriales migran a e-commerce.",
+  "ventaja_juan": "Conocimiento de especificaciones industriales.",
+  "riesgo_principal": "Competidores de búsqueda facetada.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "búsqueda atributos técnicos",
+  "tema_norm": "compatibilidad y repuestos",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-12",
+  "nombre": "Glossary Guard for Translators",
+  "cliente_que_paga": "Traductores freelance",
+  "problema": "Terminología inconsistente entre proyectos del mismo cliente.",
+  "solucion": "Plugin que valida glosarios del cliente en DOCX y avisa incumplimientos.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Foros ProZ y listados de Word add-ins",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Clientes envían glosarios obligatorios.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Trados y memoQ lo cubren.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "control terminológico",
+  "tema_norm": "traducción técnica",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-15",
+  "nombre": "PCB Review Lite",
+  "cliente_que_paga": "Hobbyistas de electrónica que mandan PCB",
+  "problema": "Errores de diseño detectados tras fabricar.",
+  "solucion": "Revisión automática de Gerber/KiCad con lista de problemas y sugerencias.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "r/PrintedCircuitBoard, foros KiCad y YouTube electrónica.",
+  "competidores": [
+   "Fabricantes con DRC gratis (JLCPCB)"
+  ],
+  "por_que_ahora": "Fabricación barata de PCB masifica el hobby.",
+  "ventaja_juan": "Conocimiento de electrónica industrial.",
+  "riesgo_principal": "Revisores gratuitos de fabricantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "revisión Gerber hobby",
+  "tema_norm": "PCB y Gerber",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-10",
+  "nombre": "Cuestionarios de seguridad IA",
+  "cliente_que_paga": "Responsable de ventas/seguridad en SaaS",
+  "problema": "Responder cuestionarios de proveedores toma días.",
+  "solucion": "Base de respuestas y borrador con IA a partir de documentos propios.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "SEO 'security questionnaire automation'",
+  "competidores": [
+   "Vanta",
+   "Loopio",
+   "SafeBase"
+  ],
+  "por_que_ahora": "Compradores enterprise envían cuestionarios más largos.",
+  "ventaja_juan": "Backend + IA.",
+  "riesgo_principal": "Competidores bien financiados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "cuestionarios de seguridad",
+  "tema_norm": "licitaciones, RFP y cuestionarios",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-02",
+  "nombre": "PLC Tag Sheet Sync",
+  "cliente_que_paga": "Ingenieros de automatización y integradores de sistemas",
+  "problema": "Las tablas de tags de PLC (TIA Portal, Studio 5000) se mantienen a mano en Excel y se desincronizan.",
+  "solucion": "Complemento de Excel que importa/exporta tag tables de Siemens y Rockwell, valida nombres y direcciones y detecta duplicados.",
+  "precio_usd_mes": 20,
+  "canal_primeros_100": "Microsoft AppSource búsqueda 'PLC tags excel' y foros PLCTalk y r/PLC.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "La automatización industrial adopta Excel/Office 365 en los equipos de ingeniería.",
+  "ventaja_juan": "Experiencia directa con TIA Portal y Studio 5000.",
+  "riesgo_principal": "Mercado pequeño y complemento de Excel de escritorio exige instalación corporativa.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "tags PLC Excel",
+  "tema_norm": "conversión de tags PLC/SCADA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-09",
+  "nombre": "API Request Replayer",
+  "cliente_que_paga": "Backend developers and QA",
+  "problema": "Reproducing a failed browser request in code needs manual copying.",
+  "solucion": "DevTools extension exports requests to TypeScript/Python clients with masked auth and shareable repro links.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Chrome Web Store search 'devtools api', Show HN",
+  "competidores": [
+   "Postman",
+   "Requestly",
+   "Insomnia"
+  ],
+  "por_que_ahora": "AI agents consume API specs.",
+  "ventaja_juan": "Daily backend experience.",
+  "riesgo_principal": "Free tools overlap. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "API repro devtools",
+  "tema_norm": "desarrollo y mocks de APIs",
+  "duplicado_de": null
+ }
+]

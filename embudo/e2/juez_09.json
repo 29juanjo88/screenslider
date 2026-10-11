@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G03-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Slack AI nativo cubre resumenes de hilos y el comprador ya paga Slack."
+ },
+ {
+  "id": "G02-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Onshape ya exporta BOM y el mercado de usuarios Onshape que compran piezas es diminuto a $15/mes."
+ },
+ {
+  "id": "G22-15",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Calcular obligaciones VAT por pais roza asesoria fiscal con riesgo de error, y Paddle/Quaderno ya lo resuelven."
+ },
+ {
+  "id": "G29-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "DeepNest es gratis y cubre nesting DXF; el modelo de licencia unica no cuadra con el precio mensual."
+ },
+ {
+  "id": "G01-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Shopify Digital Downloads gratis cubre lo basico; licencias y preview 3D son extras de poca disposicion de pago, canal en Shopify App Store."
+ },
+ {
+  "id": "G26-14",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Notas clinicas con audio de pacientes implican HIPAA y hay incumbentes (Upheal, Mentalyc)."
+ },
+ {
+  "id": "G08-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Datos de roscas y calibres son publicos y a $29/mes sin evidencia de demanda de pago por API."
+ },
+ {
+  "id": "G09-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Tablas de torque gratuitas abundan y a $9/mes la meta exige volumen irreal."
+ },
+ {
+  "id": "G04-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "CMMS dedicados dominan y el jefe de planta no compra en Atlassian Marketplace; $160 sin verificar."
+ },
+ {
+  "id": "G01-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Nicho pequeno de talleres 3D en Shopify con apps de tracking existentes (sin verificar)."
+ },
+ {
+  "id": "G05-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Plugin Figma de nicho a $15/mes, dependiente de una plataforma; sin evidencia de demanda."
+ },
+ {
+  "id": "G01-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Matrixify y el Bulk Editor nativo cubren el caso; sin angulo diferenciador."
+ },
+ {
+  "id": "G23-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 28,
+  "razon": "Vendedores TikTok Shop pequenos, API restrictiva y riesgo de politica de plataforma."
+ },
+ {
+  "id": "G02-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Foreplay ya vende el flujo de swipe file y Meta limita el scraping."
+ },
+ {
+  "id": "G07-07",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $8/mes en nicho CAD-como-codigo no alcanza la meta; la version API es otra idea (ancla 1)."
+ },
+ {
+  "id": "G13-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 40,
+  "razon": "Dolor real y presupuesto existente en facturas de Datadog, canal SEO con intencion; frena la confianza en datos de uso (mitigable con modo local)."
+ },
+ {
+  "id": "G14-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "MCP Inspector gratis, muchos autores hobbistas y evals podrian absorberlo."
+ },
+ {
+  "id": "G06-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Dolor de re-ingreso de pedidos con presupuesto real y busqueda 'woocommerce erp integration', pero cada ERP exige conector propio."
+ },
+ {
+  "id": "G29-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "MacWhisper/Granola ya existen y los OS anaden transcripcion nativa; evidencia muestra precio unico, no recurrente."
+ },
+ {
+  "id": "G03-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Forms + Power Automate gratis cubren lo basico y SafetyCulture es incumbente EHS; compra por AppSource poco probable."
+ },
+ {
+  "id": "G28-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Los manuales del fabricante dan los torques gratis, canal solo 'SEO' sin keywords y $19/mes."
+ },
+ {
+  "id": "G02-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 24,
+  "razon": "Matrixify y el admin nativo cubren el caso y la extension Chrome es fragil."
+ },
+ {
+  "id": "G02-19",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $6/mes se necesitan >1,600 pagadores y los slicers gratuitos ya estiman costo."
+ },
+ {
+  "id": "G27-17",
+  "filtro_fallado": "F2",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Sin comprador dispuesto a pagar $99/mes; la propia idea admite poca disposicion de pago."
+ },
+ {
+  "id": "G27-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Mercado poblado (Visualping, Price Sentinel) aunque trustmrr indica que un pequeno factura."
+ },
+ {
+  "id": "G05-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Dolor MSO real pero builders de email importan de Figma; sin evidencia de pago recurrente."
+ },
+ {
+  "id": "G06-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Easy Digital Downloads domina la busqueda y el freemium de WordPress.org limita el pago."
+ }
+]

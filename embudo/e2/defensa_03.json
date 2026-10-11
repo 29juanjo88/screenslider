@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G13-20",
+  "rescatar": true,
+  "respuesta": "Concedo que Release Drafter y las notas nativas de GitHub cubren lo basico para desarrolladores. Pero ninguno produce notas en lenguaje de cliente ni pagina publica con RSS: Release Drafter lista titulos de PRs para devs. El comprador es el fundador o PM de SaaS pequeno que hoy omite el changelog. Canal: GitHub Marketplace ('release notes','changelog') y SEO 'changelog generator from pull requests'. Concedo que Headway y LaunchNotes (sin verificar) compiten en la pagina publica y que el LLM es copiable.",
+  "ajuste_sugerido": "Diferenciar con revision humana antes de publicar, pagina de changelog alojada con dominio propio y precio de entrada $19 con plan por repos; el riesgo F1 persiste parcialmente."
+ },
+ {
+  "id": "G18-11",
+  "rescatar": true,
+  "respuesta": "Concedo que la conversion es parcial y que la migracion es una tarea puntual. Aun asi no cae en F1: no se conoce herramienta gratis de mapeo de tags entre TIA y Studio 5000 (sin verificar). Comprador: ingeniero de controles o integrador con un proyecto de migracion que ya paga horas caras de trabajo manual; para el la herramienta ahorra dias. Canal nombrado: SEO 'convert tag list Studio 5000 TIA', PLCTalk y r/PLC. La retencion baja se resuelve cambiando el modelo.",
+  "ajuste_sugerido": "Vender por proyecto o pase de 30 dias (p. ej. $99-199 por migracion) o plan mensual cancelable, reportando explicitamente lo que no se mapea (UDT, direccionamiento) en vez de prometer conversion total."
+ },
+ {
+  "id": "G26-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G15-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-08",
+  "rescatar": true,
+  "respuesta": "Concedo que cada proveedor publica sus changelogs y que el scraping de 500 APIs es costoso. Pero el valor esta en la agregacion: un desarrollador que integra 10-30 APIs no suscribe 30 emails ni revisa 30 status pages, y los emails se pierden. Comprador: dev o equipo pequeno con integraciones criticas (pagos, mensajeria, IA). Canal: Hacker News (Show HN), dev.to y SEO 'API deprecation alerts'. Juan tiene backend senior y puede automatizar la ingesta partiendo de OpenAPI specs diffeables, que es mas estable que scraping de HTML.",
+  "ajuste_sugerido": "Empezar con 50 APIs populares basadas en OpenAPI/changelog RSS, usar diff de specs, y aprovechar contenido SEO por API (paginas publicas de 'breaking changes de X') como motor de adquisicion; sin verificar si hay competidor directo."
+ },
+ {
+  "id": "G30-14",
+  "rescatar": true,
+  "respuesta": "Concedo que existen stacks gratis (InfluxDB, Grafana, Node-RED) y que Ignition es barato para integradores expertos. El filtro F1 no aplica para el makers/integrador pequeno que no quiere montar y mantener ese stack: pagan por tenerlo alojado y listo con 100 tags. Canal nombrado: PLCtalk, r/PLC, r/homeassistant y listados de plugins de Grafana. Juan conoce protocolos industriales. Concedo que el conector edge es costo de soporte y que la aceptacion de la nube en planta varia.",
+  "ajuste_sugerido": "Distribuir un conector edge de codigo abierto (Docker) y cobrar solo la nube alojada; posicionar para maker factories y laboratorios, no para plantas reguladas."
+ },
+ {
+  "id": "G11-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-13",
+  "rescatar": true,
+  "respuesta": "Concedo que Node-RED es gratis y que la TI de planta bloquea la nube. Aun asi, Node-RED es DIY: exige montaje, flujos y mantenimiento, y el integrador pequeno o la planta sin TI paga por algo listo y soportado (gateway preconfigurado y conectores a Sheets/Airtable/Notion). Canal: SEO 'PLC to Airtable' y 'Modbus to Google Sheets', foros de Automation Direct y Control.com. Precio de $79 es viable con pocos clientes (50 x $79 no basta pero con integradores que revenden a varios clientes si).",
+  "ajuste_sugerido": "Acotar a Modbus TCP/OPC UA con agente saliente (solo conexion HTTPS de salida, sin abrir puertos) para mitigar TI, y apuntar a integradores que lo reutilizan en varios clientes; las limitaciones de tasa de Airtable se manejan con muestreo cada minutos, no series de tiempo."
+ },
+ {
+  "id": "G15-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-02",
+  "rescatar": true,
+  "respuesta": "Concedo que Smithery y Composio estan financiados y que los proveedores de LLM integran MCP remoto. Pero la objecion misma reconoce demanda real, y hay un nicho que ellos no cubren: equipos que quieren un gateway autoalojable o con logs y cuotas por agente transparente y a precio fijo. Canal nombrado: directorios de MCP, r/mcp y Discord de MCP, ademas de SEO 'hosted MCP server OAuth'. Juan tiene Node/TS y GraphQL. Concedo el riesgo de seguridad por custodia de credenciales y la velocidad con la que cambia el espacio.",
+  "ajuste_sugerido": "Posicionar como capa de observabilidad y cuotas (logs, limites y auditoria por agente) sobre cualquier servidor MCP, con modo BYO-credenciales para no custodiar secretos, y salir rapido antes de que el estandar se consolide."
+ },
+ {
+  "id": "G01-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-01",
+  "rescatar": true,
+  "respuesta": "Concedo que hay pocas tiendas 3D en Shopify y que la estimacion sin slicer real es imprecisa. Sin embargo el comprador es concreto (tienda de impresion bajo pedido o maker shop que hoy cotiza a mano) y el canal es busqueda directa 'instant quote 3D printing' / 'STL upload' en Shopify App Store, con intencion de compra alta. Juan conoce firmware y slicing, por lo que puede integrar un slicer headless (CuraEngine/PrusaSlicer) para estimar tiempo y material reales, que es el diferenciador.",
+  "ajuste_sugerido": "Empezar con STL y 3MF y reglas de precio configurables, medir el numero de tiendas en la App Store antes de invertir, y tener plan B de plugin WooCommerce y widget independiente para ampliar el mercado."
+ },
+ {
+  "id": "G13-01",
+  "rescatar": true,
+  "respuesta": "El filtro F1 no aplica: Logix Compare es una herramienta de escritorio de Rockwell sin integracion a PRs ni CI, y Siemens VCI no genera diffs legibles en pull requests (ambos sin verificar en detalle). El comprador es el integrador o equipo de automatizacion que ya versiona en Git y sufre revisiones ciegas de XML; el canal es GitHub Marketplace (busqueda 'PLC', 'L5X') mas r/PLC y PLCTalk. Concedo que el mercado es pequeno y que los formatos cambian; compensa un precio mayor y el hecho de que Juan es de los pocos que conoce TIA Portal y Studio 5000 y puede mantener el parser.",
+  "ajuste_sugerido": "Subir precio a $49-79/mes por equipo, empezar solo con L5X (Rockwell) y despues PLCopen XML, y tratarlo como nicho de pocos pero buen ARPU."
+ },
+ {
+  "id": "G17-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-01",
+  "rescatar": true,
+  "respuesta": "Concedo que APS, CAD Exchanger y occt-import-js cubren parte del caso. Pero el filtro F1 no aplica: ninguno es gratis, listo y mantenido como API autoservicio. occt-import-js es una libreria que hay que alojar, escalar y mantener (justo el dolor que se vende), y APS tiene curva de integracion y modelo de cobro complejo. Comprador concreto: dev/CTO de un marketplace de piezas bajo demanda o SaaS de manufactura que quiere visor y conversion sin mantener servidores. Canal nombrado: SEO 'step to gltf api' / 'convert step to glb online', RapidAPI y docs indexables. Juan conoce los formatos CAD y el costo de infraestructura es bajo. Concedo que la demanda real es 'sin verificar' y que la confidencialidad de IP exige politica de borrado inmediato y opcion de procesamiento efimero.",
+  "ajuste_sugerido": "Ofrecer borrado automatico de archivos, plan por conversion con tier de entrada barato y paginas SEO por par de formatos (step-to-glb, iges-to-svg, dxf-to-png) como motor de adquisicion."
+ },
+ {
+  "id": "G12-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-02",
+  "rescatar": true,
+  "respuesta": "Concedo que el nicho es chico y que el render de STL de GitHub cubre parte. Pero GitHub no renderiza STEP ni DXF ni resalta geometria cambiada entre versiones, que es lo que equipos de hardware y robotica necesitan al revisar PRs. El comprador es el lider de ingenieria mecanica en equipos que ya guardan CAD en Git; canal GitHub Marketplace ('CAD','STEP','hardware') mas Hackaday y comunidades de robotica (FRC). Comparte motor de conversion con StepView, asi que el costo de construccion es bajo para Juan.",
+  "ajuste_sugerido": "Apuntar a equipos pagantes (startups de hardware, FRC con patrocinio) y no a aficionados de r/OpenSCAD; precio por organizacion $29-49 y plan gratis para repos publicos como motor de descubrimiento."
+ }
+]

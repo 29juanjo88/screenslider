@@ -1,0 +1,7 @@
+Rol: ATACANTE (Etapa 3, lote 02: 5 ideas). Responde en español.
+1) Lee /home/user/screenslider/embudo/brief.md completo.
+2) Lee /home/user/screenslider/embudo/e3/lote_02.json (5 ideas; incluyen la razón del juez de la etapa anterior en e2_razon).
+3) Búsqueda web: la herramienta WebSearch es diferida; cárgala con ToolSearch query "select:WebSearch". MÁXIMO 5 búsquedas en total para las 5 ideas (prioriza verificar: competidores existentes y sus precios, alternativas gratis o funciones nativas, y si el canal nombrado existe y tiene demanda). Si una búsqueda falla o no confirma algo, escribe "sin verificar". NUNCA inventes cifras, competidores, precios ni URLs.
+4) Para cada idea: filtros F1–F5 que falla (si alguno), la objeción más fuerte y los hechos verificados que la sostienen (con URL). Severidad: "fatal"/"fuerte"/"moderada"/"débil" (admitir "débil" es válido si la evidencia no encuentra un problema serio).
+5) Escribe /home/user/screenslider/embudo/e3/ataque_02.json: lista de {"id","filtros_fallados":[],"objecion","hechos":[{"afirmacion","url" (o "sin verificar")}],"severidad","busquedas_usadas":n}. Valida con python3.
+6) Respuesta final: solo "OK" y 1 línea.

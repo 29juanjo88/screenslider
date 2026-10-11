@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G17-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Shopify Markets nativo cubre precios por mercado y redondeo."
+ },
+ {
+  "id": "G21-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Fabricantes ofrecen dimensionadores de servo/reductor gratis y suficientes."
+ },
+ {
+  "id": "G07-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Prism y Mockoon son gratis y OSS; Postman incluye mocks."
+ },
+ {
+  "id": "G10-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Segmento diminuto de buros con HubSpot y sin demanda de busqueda verificada en el marketplace."
+ },
+ {
+  "id": "G05-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 26,
+  "razon": "Comprador difuso, Figma nativo cubre parte y sin ventaja de Juan."
+ },
+ {
+  "id": "G08-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "API hospedada de reparacion de mallas con ventaja fuerte de Juan, pero OSS cubre lo basico y el comprador es nicho."
+ },
+ {
+  "id": "G18-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "Estimador de tiempo de ciclo para cotizar con ventaja CAM, pero CAMotics gratis y precision depende de perfiles de maquina."
+ },
+ {
+  "id": "G17-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Gumroad, Ko-fi y Stripe ya ofrecen pago libre gratis; ademas precio $9 poco viable."
+ },
+ {
+  "id": "G08-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Datos de precios de materiales dificiles de licenciar y comprador nicho pequeno."
+ },
+ {
+  "id": "G07-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Extension Docker de Microsoft, Hadolint y compose config cubren la validacion gratis."
+ },
+ {
+  "id": "G13-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Nicho CAD-como-codigo diminuto con poca disposicion a pagar suscripcion."
+ },
+ {
+  "id": "G20-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Hueco entre DeepNest gratis y SigmaNEST caro con SEO de intencion, pero nesting de calidad es dificil de construir en 6 semanas."
+ },
+ {
+  "id": "G06-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Categoria RMA de WooCommerce saturada y sin angulo diferencial."
+ },
+ {
+  "id": "G22-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 26,
+  "razon": "Uso esporadico y las redes de anuncios regalan la herramienta; sin ventaja de Juan."
+ },
+ {
+  "id": "G10-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Dolor y presupuesto reales de FinOps a $199, pero Vantage/CloudZero y AWS nativo compiten y el acceso a CUR alarga la compra."
+ },
+ {
+  "id": "G19-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Compra de seguridad OT la decide TI y hay riesgo de responsabilidad; formatos de PLC cerrados."
+ },
+ {
+  "id": "G24-06",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $4/mes la meta exige miles de pagadores y hay apps gratis de masa madre."
+ },
+ {
+  "id": "G26-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Cal.com y Calendly gratis ya detectan zona horaria."
+ },
+ {
+  "id": "G21-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 38,
+  "razon": "Calculadora IEEE 1584 con presupuesto existente (ETAP/SKM) y SEO con intencion, pero riesgo de responsabilidad y calculadoras gratis."
+ },
+ {
+  "id": "G03-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 1,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Talleres casi no usan Slack; el canal real seria outreach."
+ },
+ {
+  "id": "G18-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Hojas y calculadoras gratis cubren la tarifa por hora; uso unico y precio bajo."
+ },
+ {
+  "id": "G24-19",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $5/mes el volumen es irreal y el hobbyista no paga recurrente."
+ },
+ {
+  "id": "G20-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Generadores comunitarios gratuitos de Klipper/Marlin y precio $8."
+ },
+ {
+  "id": "G07-02",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "NC Viewer, CAMotics y previsualizadores de slicer gratuitos cubren la validacion."
+ },
+ {
+  "id": "G13-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Nx affected, Turborepo y Bazel hacen esto gratis."
+ },
+ {
+  "id": "G30-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Categoria saturada de helpdesk en Slack sin angulo diferencial."
+ },
+ {
+  "id": "G14-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Angulo emergente de secretos de vida corta para agentes con canal en directorios MCP, pero Vault/Doppler pueden copiarlo y una boveda segura es dificil en 6 semanas."
+ }
+]

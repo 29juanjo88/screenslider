@@ -1,0 +1,221 @@
+[
+ {
+  "id": "G03-01",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Los compradores reales (plantas) suelen tener OT aislada de Internet y TI bloquea apps de Slack que reciben datos de planta; además Ignition y SCADA ya notifican por email/SMS. El canal 'Slack App Directory' no tiene demanda de ingenieros de controles que busquen esto (sin verificar). Un puente OPC UA requiere agente local en la red de planta, lo que complica el autoservicio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-09",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Dolor real, pero la precisión de OCR/visión en planos de ingeniería es el producto; un error en el BOM es costoso y el comprador no confiará sin revisión manual, lo que erosiona el valor. Modelos generales (GPT/Claude con visión) ya hacen esto a mano por el usuario por centavos, y copiarlo es fácil. Competidores sin verificar. SEO 'extract BOM from PDF' con intención de compra no confirmada.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-10",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "TripIt Pro y las propias aerolíneas/Google Flights/apps de aerolíneas ya notifican cambios de horario gratis; a $8/mes con consumidor final hay churn alto y se necesitan más de 1,250 pagadores para $10k. Acceder a emails de reservas exige OAuth de Gmail con verificación de seguridad costosa (CASA).",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G03-08",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Planta que usa MES/tabletas no usa Slack en piso; el supervisor de turno no es el comprador con presupuesto y la idea es un formulario que cualquier workflow nativo de Slack (Workflow Builder, gratis) replica. Competidores citados son plataformas distintas (sin verificar). Canal 'shift handover' en el directorio es vago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Locofy y Anima ya compiten con más recursos y exportan a React Native; Figma Dev Mode y las herramientas de IA que generan RN desde capturas también cubren el caso. El código generado de auto-layout rara vez es usable y los clientes churnean tras un proyecto. Precios de competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-08",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Keygen ya vende exactamente esto, y LemonSqueezy/Paddle/Gumroad incluyen claves de licencia en el checkout; los devs indie tienden a no pagar mensual por esto. El propio riesgo declarado lo admite. Diferenciación nula y copia trivial.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G23-20",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Incumbentes gratuitos y baratos (removedores de fondo, Photoroom, editores) arreglan fondos blancos; Amazon ya valida imágenes en Seller Central (nativo). Un checker puntual se usa una vez y se abandona, el sellers paga $15 de manera intermitente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-03",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "El propio texto admite diferenciación débil: existen apps de catálogos/PDF en Shopify App Store (sin verificar nombres) y el comprador B2B que pide fichas es un nicho dentro de Shopify. Dependencia total de metafields y de Shopify, y plantillas PDF bonitas son fáciles de copiar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-05",
+  "filtros_fallados": [
+   "F1",
+   "F3"
+  ],
+  "objecion": "Quaderno, TaxJar y Paddle (merchant of record) ya cubren el problema, y el MoR elimina la necesidad de vigilar umbrales. Dar alertas fiscales erróneas genera responsabilidad y rozan asesoría fiscal; los datos de umbrales exigen mantenimiento legal constante. Los creadores pequeños no cruzan umbrales y los grandes ya tienen contador.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-17",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Nicho pequeño admitido: pocos desarrolladores de CAM compran una API de validación; estos suelen construir en casa o usar bibliotecas open-source de parseo de G-code, y los simuladores de CAM/slicers ya validan. Una validación de colisiones real requiere geometría de máquina y stock, no solo el G-code. Competidores sin verificar. Es de las ideas con ventaja real de Juan, pero el volumen de compradores a $69 es incierto.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G10-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "HubSpot ya ofrece propiedades calculadas, y existen apps CPQ en el HubSpot Marketplace (sin verificar nombres); un RevOps que necesita fórmulas complejas suele ir a un CPQ completo o a Salesforce. Dependencia de una única plataforma y la API de HubSpot cambia a menudo. Encaja en búsqueda del marketplace, lo que mitiga el canal.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-16",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Hookdeck ya hace colas y reintentos para webhooks, Zapier y Make tienen reintentos y 'replay' nativos, y el no-code builder tiene baja disposición de pago. Una capa intermedia agrega un punto de falla y latencia que el usuario no quiere.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Amazon prohíbe contestar reseñas de clientes y no existe un canal API de respuesta a reseñas negativas para vendedores; la idea choca con las reglas de la plataforma. Jungle Scout y Helium 10 ya ofrecen herramientas de reseñas. La propuesta de automatizar respuestas casi no es viable.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G03-11",
+  "filtros_fallados": [
+   "F1",
+   "F4",
+   "F5"
+  ],
+  "objecion": "Mercado saturado de retros (EasyRetro, Parabol, sin verificar), con planes gratuitos y a menudo funciones nativas de Slack; el propio autor admite ventaja nula. Retención baja: un Scrum master cancela el bot al cambiar de equipo. A $19 por equipo se requiere mucho volumen.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G01-04",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Ya hay apps de fitment automotriz establecidas (sin verificar nombres) y los resultados de la búsqueda 'fitment' en Shopify App Store están dominados por ellas; la tienda de repuestos de impresoras/CNC es un subnicho muy pequeño y exige que el dueño mantenga la tabla de compatibilidad, que es el trabajo difícil.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-09",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Calendly, Notion y Airtable lo cubren gratis, y herramientas de booking de podcasts ya existen (sin verificar). El podcaster es un comprador que paga poco y churnea; Podcast Movement no es un canal de autoservicio. El propio riesgo declarado es F1.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G21-06",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Un checker de GD&T por IA tiene que acertar en interpretación semántica de planos (ASME Y14.5), y un falso negativo genera retrabajo, por lo que el ingeniero revisor no confiará. La responsabilidad pesa sobre la herramienta y la precisión de IA en planos es dudosa. Competidores sin verificar; el 'SEO GD&T checker' puede tener intención de buscar y es una ventaja de Juan, pero el comprador con presupuesto (calidad en empresa) tiene ciclos largos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Helicone y otras plataformas de observabilidad de LLM (sin verificar nombres) ya etiquetan por usuario/propiedad, y los propios proveedores de LLM dan reportes por clave/proyecto. El canal 'Stripe Apps marketplace' no es un lugar de búsqueda para este problema (sin verificar). La función se agrega como una casilla a plataformas existentes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-19",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Healthchecks.io (con plan gratuito) y Cronitor ya hacen heartbeat monitoring, a precio bajo; el propio riesgo lo admite. GitHub notifica fallos de workflows por email gratis. A $19 no hay ángulo que no copien. El canal GitHub Marketplace es débil para monitoreo.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G12-03",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Audiencia hobby que resiste pagar, admitido por la propia idea; OctoPrint, Obico y Klipper (Moonraker) ya exponen datos de trabajos y hay plugins comunitarios gratuitos (sin verificar). Los dueños de print farms pequeñas son pocos, y 500 pagadores a $29 es irreal para este nicho.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen muchas calculadoras de pérdida de presión gratis (admitido), además de software consolidado como Pipe Flow Expert (sin verificar precio). La confianza en cálculos de ingeniería y su responsabilidad civil frenan que un ingeniero use una herramienta nueva sin validación. SEO de calculadora atrae tráfico, pero con baja intención de pago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Hay calculadoras gratuitas y plantillas de Excel abundantes (admitido), y CETOL es de empresa. Un ingeniero que ya domina Excel no paga por 1D; el valor real está en 3D, que exige trabajo mucho mayor. El tráfico SEO se capta pero la conversión a pago es baja; la ventaja de Juan en GD&T sí ayuda.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-09",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Mercado pequeño y precio $12 (admitido): para $10k MRR se necesitan unos 830 pagadores en una comunidad de Figma-láser diminuta. Los usuarios de láser suelen trabajar en Illustrator/Inkscape/LightBurn, que exportan SVG/DXF con colores por operación gratis. Pago único preferido en plugins de Figma.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-16",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Precio bajo con muchos clientes (admitido); Shopify, Amazon y Etsy ofrecen campos GPSR nativos y existen apps ya (sin verificar). Es una ola regulatoria con fecha de vencimiento: la urgencia cae tras el cumplimiento. Además, dar etiquetas de seguridad con errores legales conlleva responsabilidad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-15",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "OctoPrint, Obico y Klipper/Moonraker con Mainsail/Fluidd son gratuitos y de código abierto (admitido), y 3DPrinterOS es un producto de pago establecido. Operadores de print farm son pocos y prefieren self-hosted gratis. El nombre menciona Shopify sin relación.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G24-17",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Kaya y otras apps de escalada son gratuitas o muy baratas (sin verificar); a $5 se necesitan más de 2,000 pagadores para $10k. Consumidor hobby, churn alto, ventaja de Juan nula (admitida). Estacionalidad de gimnasios.",
+  "severidad": "fatal"
+ }
+]

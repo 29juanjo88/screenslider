@@ -1,0 +1,7 @@
+Rol: DEFENSOR (Etapa 3, lote 08: 5 ideas). Responde en español.
+1) Lee /home/user/screenslider/embudo/brief.md completo.
+2) Lee /home/user/screenslider/embudo/e3/lote_08.json y el ataque /home/user/screenslider/embudo/e3/ataque_08.json.
+3) Búsqueda web: carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 5 búsquedas en total. Úsalas para encontrar evidencia a favor (demanda real: hilos de foros/Reddit con gente pidiendo la solución, competidores que cobran y prueban disposición de pago, reseñas quejándose de incumbentes, tamaño del canal) o para refutar hechos del atacante. Si no confirma, escribe "sin verificar". NUNCA inventes.
+4) Defiende SOLO las ideas que lo merecen; concede lo que sea cierto del ataque. Puedes proponer un ajuste (nicho, precio, canal) que la haga viable.
+5) Escribe /home/user/screenslider/embudo/e3/defensa_08.json: lista con las 5 ideas: {"id","rescatar":bool,"respuesta","concesiones","hechos":[{"afirmacion","url"}],"ajuste_sugerido","busquedas_usadas":n}. Valida con python3.
+6) Respuesta final: solo "OK" y 1 línea.

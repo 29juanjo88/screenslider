@@ -1,0 +1,224 @@
+[
+ {
+  "id": "G14-11",
+  "filtros_fallados": [],
+  "objecion": "Mercado ya ocupado por E2B y Modal, que ofrecen sandboxes para código de agentes con SDK y tiers gratis (sin verificar precios); con mínimo de $99 y sin diferenciador claro, un solo dev no gana en confiabilidad de aislamiento, y un fallo de seguridad es reputacionalmente fatal.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-14",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Los CMMS (UpKeep, Fiix, sin verificar) ya incluyen inventario de repuestos y tienen planes de entrada; el canal 'spare parts inventory software' lo dominan ellos y LinkedIn no es canal de autoservicio. Plantas medianas compran sistema integrado, no un módulo suelto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-14",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "StatusGator e IsDown ya agregan páginas de estado; a $25/mes se requieren ~400-2000 pagadores para la meta, y las páginas de estado de proveedores ofrecen suscripción gratuita por email/RSS. Medir latencia real obliga a infraestructura de sondeo multi-región.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Promptfoo es open source y gratuito y ya compara prompts entre modelos; OpenRouter facilita el cambio de modelo. El comprador (dev) espera CLI gratis; cobrar $49 por un wrapper SaaS es difícil.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-20",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Los fabricantes de impresoras térmicas (Zebra, Dymo, Brother) dan software de diseño gratis y existe software de etiquetas barato; pago único contradice MRR recurrente: el precio mensual de $39 es ficticio, y sin recurrencia no hay 10k MRR. Canal de foros Etsy es vago.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G01-12",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $19/mes, 10k MRR exige ~530 comerciantes; el nicho de vendedores de kits con soporte de ensamble es pequeño, y un PDF/YouTube/página de Shopify cubre la necesidad gratis. Competidores sin verificar, y la demanda en la Shopify App Store para 'user guide' es incierta.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-07",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Mercado diminuto y conservador: los PLCistas usan IDEs propietarios (TIA, Studio 5000) y simulación del fabricante (PLCSIM, Emulate); ST generico en la nube no cubre ladder ni los proyectos reales. Algunos tienen CODESYS/OpenPLC gratis. Alcanzar 100 pagadores en PLCtalk/r-PLC es dudoso.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "SISTEMA es gratuito (IFA) y es el estándar de facto para ISO 13849; el propio riesgo declarado es F1. Un calculador web solo cubriría simplificaciones, y los informes de seguridad requieren validación certificada.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G10-06",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "AppExchange tiene Conga y otros CLM maduros (sin verificar su cobertura de desviaciones) y la revisión de seguridad/ publicación en AppExchange es costosa y lenta; el comprador es admin que raramente tiene presupuesto sin ciclo de ventas. Dependencia total de Salesforce.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-19",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Inkscape, LibreCAD y las funciones de limpieza de los propios CAM/nesting (p. ej. software de corte) resuelven el problema gratis; a $15/mes la meta exige ~670 pagadores de un nicho de operadores que no buscan SaaS.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-12",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Los reguladores (ESAs) y proveedores de GRC ya publican plantillas y herramientas; el comprador es lento, requiere confianza regulatoria y probablemente ventas; el ciclo de reporte es anual, lo que da poca retención mensual. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "OctoPrint/Klipper/Mainsail y plugins gratis cubren gestión de colas; el operador de granja típico mide con hojas de cálculo gratis. Hay herramientas dedicadas (3DPrinterOS, sin verificar) y la integración con cada firmware es costosa de mantener.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-13",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "Dar guías de certificación (CE/UL) roza asesoría regulatoria y expone a responsabilidad por consejos incorrectos; el contenido es fácil de copiar y hay mucha información gratis de gobiernos y blogs. A $29, volumen alto y churn tras descargar plantillas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Xometry y Protolabs ofrecen DFM gratis al cotizar y el ingeniero ya sube su pieza ahí; un chequeo previo independiente depende de reglas por proveedor que cambian. Detección precisa en STEP requiere motor geométrico serio. La idea tiene ángulo real (pre-chequeo multi-proveedor) pero la disposición de pago es incierta.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "axe DevTools tiene versión gratuita de extensión, y WAVE es gratis; Lighthouse viene nativo en Chrome. A $15/mes, 10k MRR exige ~670 pagadores contra incumbentes gratis. La grabación de flujos ya la ofrecen herramientas de pago (sin verificar).",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G09-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Invoice Ninja y Wave son gratis o casi, y hay cientos de plantillas gratis con SEO; a $9/mes se necesitan >1,100 pagadores. Además los impuestos por país son riesgo de exactitud legal.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G02-12",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Gem y otros ATS/CRM de reclutamiento ya cubren esto; el sourcing depende de LinkedIn, que bloquea extensiones y automatización con cuentas baneadas. Extensión a $15 con dependencia de Chrome y de LinkedIn.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-06",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "CIMCO (sin verificar) ya ofrece comparación y gestión de versiones de NC; los talleres rara vez adoptan nuevas herramientas web y los programas se transfieren por controlador/DNC, no por navegador. Canal Practical Machinist es foro, no autoservicio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-06",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Shopify tiene funciones B2B nativas (Plus) y la categoría 'request a quote' en la App Store está saturada de apps baratas o gratis; un recién llegado queda hundido en el ranking sin reseñas. Dependencia de Shopify.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-20",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen leaderboards y benchmarks públicos gratuitos y la información envejece rápido; el contenido es fácil de copiar y reproducir. A $19/mes no hay barrera ni retención, y vender 'informes' no es producto escalable. Credibilidad requiere ejecutar costosos benchmarks.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los SDK de proveedores y librerías comunes ya traen reintentos y backoff, y un limitador compartido se arma en Redis con pocas líneas; para valer $29 debe ser proxy gestionado, introduciendo latencia y un punto de falla. Open source gratuito lo copiaría en días.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-04",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Visores y analizadores gratis (NC Viewer, visores de slicers, simulación de Klipper) cubren la mayor parte; a $12/mes se necesitan ~830 pagadores de un público acostumbrado a lo gratuito/open source. Detección de colisiones requiere modelo cinemático por máquina.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G19-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen plantillas LOTO gratis en OSHA y en proveedores como Brady/Master Lock (sin verificar) y herramientas de EHS; el riesgo declarado es F1. Disposición a pagar $39 por generar un PDF es baja.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-05",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Xometry, Protolabs y Fictiv bloquean o cambian sus formularios con frecuencia y las cotizaciones requieren subir CAD; el autofill se rompe constantemente. Muchos usuarios compran una vez; $12/mes con churn alto y dependencia de Chrome Web Store y de cuatro sitios ajenos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-03",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Nicho muy pequeño (usuarios de L5X en GitHub); los fabricantes o IDEs de PLC (y diff nativo de Studio 5000/TIA Openness) pueden cubrirlo. A $15/mes con mercado de pocos miles, difícil llegar a 10k MRR. Hay ventaja real de Juan y casi sin competidores, pero techo bajo.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G01-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen apps de opciones de producto/configuradores en Shopify App Store (varias baratas, sin verificar nombres) y Shopify ha ampliado límites de variantes; vender BOM y fórmulas paramétricas requiere integración con ERP. Ventaja CAD real, pero la categoría es competida.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G02-07",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Data Miner y Table Capture ya hacen esto, con tiers gratis; a $9/mes se requieren >1,100 pagadores en categoría saturada. Los portales cambian de HTML y rompen plantillas.",
+  "severidad": "fatal"
+ }
+]

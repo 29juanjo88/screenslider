@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G25-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-09",
+  "rescatar": true,
+  "respuesta": "Se concede que el canal GRC/legal es dificil y que hay riesgo de absorcion por plataformas GRC. Rebate: el cliente concreto es el equipo ML/ingenieria de un proveedor de IA de alto riesgo que genera la documentacion tecnica desde artefactos que ya tiene (model cards, logs de pruebas) y no necesita una suite GRC completa; el angulo 'docs-as-code' via GitHub Action es nativo del flujo de ingenieria. Canal: SEO 'annex iv technical documentation template' (busqueda con intencion), GitHub Marketplace, Hugging Face. Fecha limite del reglamento: sin verificar. No se vende como asesoria legal.",
+  "ajuste_sugerido": "Posicionar como generador de borradores tecnicos (no certifica cumplimiento) con aviso explicito; GitHub Action + CLI; precio $149-199; validar demanda con plantilla gratuita SEO antes de construir."
+ },
+ {
+  "id": "G27-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G26-05",
+  "rescatar": true,
+  "respuesta": "Se concede que a $19 el volumen es alto y que el uso individual es esporadico. Rebate: el filtro F5 se corrige con el angulo API/lote: el cliente real son plataformas y talleres que reciben DXF de muchos clientes (marketplaces de corte, cotizadores) y pagan por validar automaticamente; ademas SEO 'dxf repair online' tiene intencion de compra puntual (sin verificar volumen). Ventaja de Juan alta en DXF/CAD.",
+  "ajuste_sugerido": "Cambiar a precio $49-99 con API y cuota por archivos, mas pago unico por reparacion para freelancers; enfocarse en el comprador desarrollador/taller con volumen; si no hay cliente API, descartar."
+ },
+ {
+  "id": "G29-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-17",
+  "rescatar": true,
+  "respuesta": "Se concede que Onshape/SolidWorks tienen comparacion nativa; pero esas funciones solo sirven dentro de su ecosistema y no para equipos con archivos STEP neutrales entre CAD distintos o proveedores externos, donde se revisa por email/Teams. Comprador: ingeniero mecanico o lider de equipo con revisiones remotas. Canal: AppSource y SEO 'compare STEP files' (demanda sin verificar). La geometria es dificil, pero un MVP de diff por solidos/volumen/bounding boxes y vista previa con OCCT es viable en 6 semanas.",
+  "ajuste_sugerido": "Reducir alcance MVP a diff de STEP (piezas: volumen, area, bounding box, caras anadidas/eliminadas) con visor web y subida manual; el bot de Teams viene despues; precio $39-59 por usuario."
+ },
+ {
+  "id": "G30-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-02",
+  "rescatar": true,
+  "respuesta": "Se concede que OCCT cubre lo basico y que el segmento defensa grande compra por licencia empresarial. Pero el filtro F1 no aplica: OCCT es una libreria, no un servicio listo (Docker, API REST, glTF/SVG, mantenimiento); el comprador es el desarrollador/CTO de un SaaS o ERP de manufactura que no puede enviar CAD de clientes a un convertidor cloud por clausulas de IP, y que ya paga por APIs de conversion hospedadas. Canal nombrado: busqueda 'self-hosted step to gltf', GitHub, Show HN, foro three.js; licencia por instancia con self-serve (Stripe) sin ventas. Tamano de compradores: sin verificar, modesto pero con ticket alto.",
+  "ajuste_sugerido": "Subir a $199-299/instancia/mes o licencia anual autoservicio; empezar con STEP->glTF y DXF->SVG, imagen Docker con licencia por clave; evitar defensa/export-control como argumento de venta."
+ },
+ {
+  "id": "G25-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G15-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-03",
+  "rescatar": true,
+  "respuesta": "Se concede que parte se resuelve con OCCT y que el volumen es modesto. Rebate: el desarrollador de un SaaS de cotizacion/CAM paga por no mantener internamente la reparacion de STEP (unidades erroneas, sin solidos, cascarones abiertos) y por un reporte consumible por API; el dolor es recurrente por cada archivo de cliente. Comprador: dev/CTO de SaaS de manufactura; canal: SEO 'validate step file api', directorios de APIs, Show HN. Combinable con conversion/preview para ser un unico producto API CAD (competidores concretos: sin verificar precios).",
+  "ajuste_sugerido": "Fusionar con G29-02 y la idea ancla (conversion+preview): API CAD con validacion/reparacion incluida; planes por volumen de archivos desde $49 hasta $299; MVP solo validacion + reporte."
+ },
+ {
+  "id": "G08-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-05",
+  "rescatar": true,
+  "respuesta": "El filtro F1 no aplica: el historial nativo de cada plataforma es parcial y por cuenta; ninguna ofrece vista unificada entre Zapier, Make y n8n, que es justo el dolor de una agencia con varios clientes. Comprador concreto: dueno de agencia/freelancer de automatizacion que ya cobra retainers y paga por herramientas. Canal nombrado: foros de Make y n8n, directorio Zapier Experts, YouTube de automatizacion, SEO 'monitor Make scenarios'. Se concede riesgo de APIs/limites y que el tamano de mercado es incierto (sin verificar).",
+  "ajuste_sugerido": "Precio por numero de clientes/espacios de trabajo ($49 base, $99 con 20+ clientes); empezar solo con Make+n8n (APIs abiertas) y anadir Zapier despues; ofrecer reportes de uptime para clientes de la agencia como diferenciador."
+ },
+ {
+  "id": "G26-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-06",
+  "rescatar": true,
+  "respuesta": "Se concede el riesgo de plataforma y la cuota menor de Bitbucket. Rebate: precisamente por ser menos atendido, el Atlassian Marketplace para Bitbucket tiene menos competidores de calidad (sin verificar) y los equipos Bitbucket ya pagan apps del Marketplace; el comprador es un engineering manager con presupuesto por usuario. El volumen de PRs por IA aumenta el dolor. Canal nombrado: busqueda 'pull request' en Marketplace y Bitbucket Pipes.",
+  "ajuste_sugerido": "Tarifa por usuario/equipo en el esquema de Atlassian, MVP como merge check con puntaje por tamano y archivos criticos; diseno portable para ampliar a GitHub/GitLab despues y reducir la dependencia de plataforma."
+ },
+ {
+  "id": "G27-05",
+  "rescatar": true,
+  "respuesta": "Se concede que Siemens/Rockwell publican avisos de ciclo de vida gratis y que el comprador grande es de venta consultiva. Rebate parcial: los avisos estan dispersos por portal y son por producto, no cruzados con la BOM propia del cliente; la alerta automatica contra una lista de partes con sugerencia de reemplazo es el valor. Comprador: ingeniero de mantenimiento/planta de empresa mediana, con dolor de paro de linea. Canal: SEO de cola larga 'Siemens S7-300 discontinued replacement', r/PLC. Ventaja directa de Juan en TIA Portal/Studio 5000. Detalle de portales gratuitos: sin verificar.",
+  "ajuste_sugerido": "Posicionar como carga de BOM (CSV) + alertas de fin de vida y reemplazo, con paginas SEO por modelo de PLC; precio $49-79 para plantas medianas; empezar con Siemens y Rockwell solamente."
+ },
+ {
+  "id": "G22-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G26-01",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

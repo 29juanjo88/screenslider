@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G14-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "E2B y Modal ya ofrecen exactamente esto con financiamiento; sin diferenciador ni evidencia, pero hay comprador y presupuesto reales."
+ },
+ {
+  "id": "G19-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Los CMMS (UpKeep, Fiix) ya incluyen inventario de repuestos; un modulo suelto casi sin diferenciacion."
+ },
+ {
+  "id": "G08-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "StatusGator/IsDown ya cubren la categoria; dolor leve y sondeo real exige infraestructura."
+ },
+ {
+  "id": "G14-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Promptfoo es gratis, OSS y ya compara prompts entre modelos: incumbente gratis suficiente."
+ },
+ {
+  "id": "G29-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Software de etiquetas gratis de los fabricantes de impresoras y pago unico sin recurrencia; falla F1."
+ },
+ {
+  "id": "G01-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Nicho pequeno a $19 (~530 pagadores) y demanda de 'user guide' en Shopify sin verificar."
+ },
+ {
+  "id": "G19-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Hueco real en pruebas de PLC y ventaja unica de Juan, pero mercado pequeno y canal de foros dudoso."
+ },
+ {
+  "id": "G28-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "SISTEMA es gratuito y estandar de facto para ISO 13849; el propio riesgo declarado es F1."
+ },
+ {
+  "id": "G10-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Comprador con presupuesto en AppExchange, pero categoria CLM madura, revision de seguridad costosa y demanda sin verificar."
+ },
+ {
+  "id": "G18-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "Problema real con busqueda 'dxf cleanup' e MVP rapido, pero a $15 y con herramientas gratis parciales el pago es debil."
+ },
+ {
+  "id": "G16-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Obligacion regulatoria real con busqueda especifica, pero uso anual, plantillas oficiales de ESAs y compradores lentos."
+ },
+ {
+  "id": "G18-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Operadores de granjas usan hojas de calculo y OctoPrint gratis; dolor moderado, buen canal en Reddit, pago incierto."
+ },
+ {
+  "id": "G20-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Mucha informacion gratis y riesgo legal por consejos; contenido copiable y churn tras descargar plantillas."
+ },
+ {
+  "id": "G18-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Pre-chequeo DFM neutral multi-proveedor con ventaja clara de Juan; Xometry/Protolabs dan DFM gratis solo dentro de su cotizacion, pago sin verificar."
+ },
+ {
+  "id": "G02-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "axe y WAVE cubren deteccion gratis y a $15 hace falta volumen; solo el angulo de grabar flujos y exportar tickets diferencia."
+ },
+ {
+  "id": "G09-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Invoice Ninja, Wave y cientos de plantillas gratis, ademas de $9/mes; falla F1/F5."
+ },
+ {
+  "id": "G02-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 1
+  },
+  "total": 28,
+  "razon": "Gem y ATS cubren el caso y depende de LinkedIn que bloquea extensiones y de Chrome Web Store."
+ },
+ {
+  "id": "G18-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 4
+  },
+  "total": 37,
+  "razon": "Diff de G-code con intencion de busqueda clara y ventaja de Juan, pero herramientas de diff gratis y talleres lentos para adoptar."
+ },
+ {
+  "id": "G01-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Categoria RFQ saturada en la Shopify App Store y B2B nativo en Plus; sin diferenciacion."
+ },
+ {
+  "id": "G14-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 25,
+  "razon": "Leaderboards publicos gratuitos y contenido facil de copiar; no es un producto con retencion."
+ },
+ {
+  "id": "G14-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Reintentos y backoff ya vienen en SDKs y un limitador se arma en Redis; poca diferenciacion y disposicion de pago baja."
+ },
+ {
+  "id": "G20-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 1,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "Visores y analizadores gratis cubren gran parte y a $12 se necesitan ~830 pagadores de un publico acostumbrado a lo gratuito."
+ },
+ {
+  "id": "G19-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Plantillas LOTO gratis de OSHA y proveedores; el propio riesgo declarado es F1."
+ },
+ {
+  "id": "G02-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 27,
+  "razon": "Autofill fragil contra formularios que cambian y usuarios que compran una vez; depende de Chrome y de cuatro sitios ajenos."
+ },
+ {
+  "id": "G02-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Ventaja unica de Juan y casi sin competidores, pero nicho de pocos miles a $15 no alcanza la meta."
+ },
+ {
+  "id": "G01-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Configurador parametrico con formulas y BOM para piezas a medida es un angulo que apps baratas de opciones no cubren; categoria competida y dependiente de Shopify."
+ },
+ {
+  "id": "G02-07",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Data Miner y Table Capture ya lo hacen con tiers gratis y a $9 haria falta mas de 1,100 pagadores."
+ }
+]

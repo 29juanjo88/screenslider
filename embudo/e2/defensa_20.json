@@ -1,0 +1,158 @@
+[
+ {
+  "id": "G29-04",
+  "rescatar": true,
+  "respuesta": "Concedo que OctoPrint tiene plugins gratis y que es un nicho de aficionados. El comprador es el dueño de una granja que vende productos, con costo directo por impresora parada; el precio plano por granja rompe el modelo por impresora de las nubes. Canales nombrados y concretos: Klipper/Moonraker Discord, r/3Dprinting. Ventaja de Juan en firmware. Tamaño de mercado sin verificar.",
+  "ajuste_sugerido": "Foco en granjas comerciales Etsy/POD de 10-50 impresoras con Klipper, y no en hobbistas; precio plano 39-79 USD."
+ },
+ {
+  "id": "G16-01",
+  "rescatar": true,
+  "respuesta": "Concedo que existen reglas Schematron oficiales gratis; el valor no es validar sino traducir errores crípticos a correcciones y reparar automáticamente, integrable en CI. El comprador es concreto: el dev de SaaS/ERP con fecha límite regulatoria, que paga por evitar rechazos y tiempo. Canal nombrado: SEO 'peppol validator api' y GitHub, con intención de compra. Es desarrollo puro de Juan (Node/TS, XML). Riesgo: access points que incluyan validación; competidores sin verificar.",
+  "ajuste_sugerido": "Posicionar como validar+reparar con mensajes legibles y CLI para CI; precio 49-79 USD por volumen de validaciones; foco en una o dos jurisdicciones (BE, PL) para SEO long-tail."
+ },
+ {
+  "id": "G26-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-15",
+  "rescatar": true,
+  "respuesta": "Concedo compradores conservadores y variedad de controladores. Pero las auditorías ISO 9001/AS9100 crean un dolor con consecuencias (no conformidad), y el diff con aprobación y trazabilidad por máquina es algo que Git no entrega a un gerente no técnico. Ventaja real de Juan en CAM y G-code. Reducir la fricción de integración: arrancar con carga manual de archivos y aprobación, sin conectarse al controlador.",
+  "ajuste_sugerido": "Posicionar como evidencia de cumplimiento para auditorías en talleres CNC pequeños, con autoservicio y carga manual; precio 79-149 USD."
+ },
+ {
+  "id": "G05-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G19-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-13",
+  "rescatar": true,
+  "respuesta": "Concedo nicho pequeño y que Flexera/Reprise existen (alcance sin verificar), orientados a empresas grandes con venta directa. A 199 USD/mes el ahorro en licencias de miles de dólares justifica el pago y el ROI es medible. Se evita el despliegue on-prem con un agente/script ligero que sube solo los logs ya anonimizados, o carga manual del reporte. Canales: foros SolidWorks y SEO 'SolidWorks license usage report'.",
+  "ajuste_sugerido": "Ofrecer subida de logs SNL/FlexNet en autoservicio con informe de ahorro; precio 99-199 USD; probar primero SolidWorks."
+ },
+ {
+  "id": "G12-07",
+  "rescatar": true,
+  "respuesta": "Concedo que gitleaks cubre secretos genéricos y que los self-hosters aficionados pagan poco. El ángulo es lo específico de workflows n8n: flujos de PII hacia nodos inseguros y credenciales embebidas, que un escáner genérico no entiende. El pagador es la agencia que maneja datos de clientes, que sí tiene presupuesto y necesita un informe entregable. Canales nombrados: foro/plantillas de n8n y GitHub Marketplace. Riesgo: n8n puede añadir lo nativo.",
+  "ajuste_sugerido": "Apuntar a agencias (plan por equipo 49-99 USD) con informe de cumplimiento exportable; extender a Make/Zapier después."
+ },
+ {
+  "id": "G29-14",
+  "rescatar": true,
+  "respuesta": "Concedo que Modbus Poll es el estándar y existen herramientas gratuitas. El hueco es UX moderna multiplataforma (macOS/Linux), scripting, registro de logs y OPC UA, con intención de búsqueda 'Modbus tester' y comunidad PLCTalk/r/PLC. Juan tiene experiencia directa de campo. Debe resolverse la incoherencia de precio.",
+  "ajuste_sugerido": "Cobrar licencia anual por técnico (p. ej. 99-149 USD/año) o mensual 15-20 USD, sin mezclar modelos; diferenciarse con scripts y exportación de informes de puesta en marcha."
+ },
+ {
+  "id": "G21-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-15",
+  "rescatar": true,
+  "respuesta": "Concedo que existen librerías open source (trimesh, MeshFix); sin embargo, el comprador es un dev de servicio de impresión que paga por no mantener ni operar pipelines robustos con casos límite, y por reparación y chequeo de imprimibilidad como API con SLA. Ventaja real de Juan en firmware 3D y mallas. Canal: SEO 'stl repair api' y directorios de API. Competidores adicionales sin verificar.",
+  "ajuste_sugerido": "Posicionar como API de imprimibilidad (reparar + reporte de espesor de pared/voladizos) con precio por volumen, 79-199 USD; combinar con la idea de conversión CAD."
+ },
+ {
+  "id": "G01-02",
+  "rescatar": true,
+  "respuesta": "Concedo que el nicho es acotado y que los competidores están sin verificar. Pero el filtro F4 se cumple de forma ejemplar: búsqueda nombrada en Shopify App Store con intención de compra, y el comprador (taller láser con tienda) tiene dolor monetario al cotizar a mano. Ventaja real de Juan en CAD/CAM, nesting y tiempos de corte, y MVP en 6 semanas. Xometry/Protolabs son marketplaces, no widgets para la tienda propia del taller.",
+  "ajuste_sugerido": "Ampliar a corte CNC, router, waterjet y 3D print bajo cotización por archivo, y a WooCommerce; precio 49-99 USD según pedidos."
+ },
+ {
+  "id": "G11-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G26-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-02",
+  "rescatar": true,
+  "respuesta": "Concedo mercado pequeño y que la exportación nativa a CSV existe. El dolor es la sincronización bidireccional y validación (duplicados, direcciones, convenciones de nombres) entre TIA Portal y Studio 5000, que lo nativo no resuelve; Juan tiene conocimiento raro de ambos. Canales nombrados: PLCTalk, r/PLC, AppSource. Para evitar la instalación corporativa de complementos, ofrecer versión web con subida de archivos. Tamaño sin verificar.",
+  "ajuste_sugerido": "Pivotar a app web/CLI (sin complemento de Excel) con validación y conversión de tags entre plataformas; subir precio a 29-49 USD o licencia por equipo."
+ },
+ {
+  "id": "G02-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

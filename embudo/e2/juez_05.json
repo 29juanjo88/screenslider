@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G01-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Ángulo útil (corregir datos de catálogo) y canal en Shopify App Store, pero los cargos reales exigen subir facturas del carrier, con fricción de onboarding y sin evidencia."
+ },
+ {
+  "id": "G15-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Hospitable/Guesty y Airbnb ya ofrecen respuestas automáticas y un LLM es trivial de añadir; sin ventaja ni foso."
+ },
+ {
+  "id": "G11-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Power Query/consolidar de Excel cubre el caso gratis, y a $19 el volumen requerido es alto."
+ },
+ {
+  "id": "G10-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Dolor real de reportes mal conciliados y canal en HubSpot Marketplace, pero la integración nativa de Stripe puede cubrirlo y el segmento es estrecho."
+ },
+ {
+  "id": "G09-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Búsqueda 'HS code' en Shopify App Store más SEO programático dan buen canal, pero hay jugadores como Zonos, riesgo de responsabilidad y datos arancelarios costosos."
+ },
+ {
+  "id": "G16-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "SEO de NIS2 dominado por Vanta/Drata y GRC; compradores de compliance prefieren proveedores con certificación y hay plantillas gratis."
+ },
+ {
+  "id": "G29-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "WireMock, MockServer, Mockoon y Prism son OSS gratis y buenos; además licencia fija no encaja en MRR."
+ },
+ {
+  "id": "G05-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 32,
+  "razon": "Canal nombrado en Figma Community y MVP rápido, pero comprador difuso, plugins de Figma monetizan mal y Dev Mode cubre parte."
+ },
+ {
+  "id": "G14-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "Ángulo y ventaja CAD fuertes, pero la demanda de agentes CAD es especulativa, el mercado inicial pequeño y librerías abiertas extraen geometría gratis."
+ },
+ {
+  "id": "G14-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Ventaja PLC máxima y ángulo claro, pero OT es conservador, hay MCP OPC UA abiertos y las compras industriales no suelen ser de autoservicio."
+ },
+ {
+  "id": "G11-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Power Query y add-ons gratuitos de merge CSV resuelven el caso; a $12 el volumen es irreal."
+ },
+ {
+  "id": "G06-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Plugins mayoristas de WooCommerce abundan (freemium y pagos con reseñas); clon sin ángulo ni ventaja."
+ },
+ {
+  "id": "G29-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "HubSpot Free, Obsidian y hojas de cálculo cubren lo mismo gratis; precio $12 bajo."
+ },
+ {
+  "id": "G07-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Simuladores y clientes Modbus/OPC UA gratuitos (QModMaster, pymodbus) cubren lo básico y $14 exige volumen alto."
+ },
+ {
+  "id": "G17-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Churnkey, ProsperStack y otros ya dominan los flujos de cancelación; clon sin ángulo y canal débil en Stripe marketplace."
+ },
+ {
+  "id": "G23-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Dolor real de sobreventa pero espacio saturado de sync multicanal, APIs restrictivas y canal vago."
+ },
+ {
+  "id": "G04-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 38,
+  "razon": "Canal nombrado en Atlassian Marketplace y ventaja BOM/CAD real, pero nicho de hardware en Jira acotado, apps de BOM existentes (sin verificar) y dependencia de Atlassian."
+ },
+ {
+  "id": "G15-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "CAMotics y los LLM de chat ya explican G-code gratis; hobbistas pagan poco y la detección de colisiones por LLM no es confiable."
+ },
+ {
+  "id": "G04-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 39,
+  "razon": "Ventaja CAD máxima, canal nombrado en Atlassian Marketplace y precio alto viable; limita el nicho de hardware en Jira, posibles visores existentes y dependencia de Atlassian."
+ },
+ {
+  "id": "G20-02",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $6/mes se necesitan ~1,700 pagadores para $10k MRR en un nicho que ya usa Git o la nube de los slicers."
+ },
+ {
+  "id": "G16-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 1
+  },
+  "total": 27,
+  "razon": "Existen verificadores gratis de AI Act y GRC; fácil de copiar con un LLM y la demanda depende de cambios normativos."
+ },
+ {
+  "id": "G23-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 1
+  },
+  "total": 24,
+  "razon": "TikTok Shop ya tiene gestión nativa de muestras y afiliados; total dependencia de la plataforma y canal sin nombre concreto."
+ },
+ {
+  "id": "G15-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 1
+  },
+  "total": 28,
+  "razon": "DeepL y memoQ ya ofrecen glosarios; comprador pequeño fabricante no compra autoservicio a $99 y el formato es difícil."
+ },
+ {
+  "id": "G03-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Mercado saturado de apps de ausencias en Slack; la cobertura mínima por turno es la única diferencia y es copiable."
+ },
+ {
+  "id": "G08-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Ángulo real (tolerancias como API) y ventaja mecánica, pero comprador poco claro, mercado muy pequeño y SEO de bajo volumen."
+ },
+ {
+  "id": "G10-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 25,
+  "razon": "Necesidad esporádica (se usa una vez por listing), requisitos públicos y gratuitos, y mercado pequeño con canal vago."
+ },
+ {
+  "id": "G02-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "ToS;DR y los asistentes de IA del navegador resumen cláusulas gratis; $10/mes poco sostenible."
+ }
+]

@@ -1,0 +1,542 @@
+[
+ {
+  "id": "G05-12",
+  "nombre": "Prototype to Playwright",
+  "cliente_que_paga": "QA engineers y SDETs",
+  "problema": "Convertir flujos de prototipo Figma en tests e2e se hace desde cero.",
+  "solucion": "Plugin que lee prototipos y genera tests de Playwright con selectores sugeridos.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community ('testing') y comunidad Playwright en GitHub/Discord.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "IA generativa permite scaffolding de tests, pero los flujos de diseño son nuevos como fuente.",
+  "ventaja_juan": "Node/TS.",
+  "riesgo_principal": "Los LLM genéricos hacen lo mismo sin plugin.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "tests desde prototipos",
+  "tema_norm": "Figma a código y QA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-02",
+  "nombre": "STEP Peek",
+  "cliente_que_paga": "Mechanical engineers and procurement buyers",
+  "problema": "Cannot preview STEP/IGES attachments in Gmail, Drive or PLM links without CAD software.",
+  "solucion": "Extension adds inline 3D preview, dimensions and BOM extraction to STEP files in Gmail/Drive/Slack web.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Chrome Web Store search 'step file viewer' and r/SolidWorks, r/MechanicalEngineering",
+  "competidores": [
+   "Autodesk Viewer",
+   "eDrawings"
+  ],
+  "por_que_ahora": "WASM CAD kernels (OpenCascade) make in-browser parsing feasible.",
+  "ventaja_juan": "SolidWorks/CAD file-format expertise.",
+  "riesgo_principal": "Free viewers satisfy casual users (F1 risk). Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "CAD file preview",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-13",
+  "nombre": "Registro digital de calibraciones",
+  "cliente_que_paga": "Laboratorios y mantenimiento",
+  "problema": "Los certificados de calibración se pierden en papel.",
+  "solucion": "Registro con recordatorios y repositorio de certificados.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'calibration management software'; ISO 17025 comunidades",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auditorías ISO más estrictas.",
+  "ventaja_juan": "Conozco instrumentación industrial.",
+  "riesgo_principal": "Competidores establecidos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "gestión calibraciones",
+  "tema_norm": "mantenimiento y seguridad industrial",
+  "duplicado_de": null
+ },
+ {
+  "id": "G15-08",
+  "nombre": "Agente de fichas técnicas para Shopify industrial",
+  "cliente_que_paga": "Dueños de tiendas Shopify que venden piezas y repuestos",
+  "problema": "Crear fichas con especificaciones técnicas para miles de SKUs es manual.",
+  "solucion": "App que lee PDFs del fabricante y llena atributos, metacampos y descripciones.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'product data import' en Shopify App Store.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los catálogos B2B se mueven a Shopify.",
+  "ventaja_juan": "Entiende nomenclatura técnica de piezas.",
+  "riesgo_principal": "Dependencia de Shopify.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "fichas técnicas catálogo",
+  "tema_norm": "fichas técnicas B2B",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-18",
+  "nombre": "VinylDB",
+  "cliente_que_paga": "Coleccionistas de vinilos",
+  "problema": "Gestionar prensajes y valor de colección.",
+  "solucion": "Catálogo con escaneo de código y seguimiento de valor.",
+  "precio_usd_mes": 4,
+  "canal_primeros_100": "r/vinyl, Discogs foros y TikTok.",
+  "competidores": [
+   "Discogs"
+  ],
+  "por_que_ahora": "Vinilo en alza.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Discogs lo cubre gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "colección vinilos",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-17",
+  "nombre": "Notion DSAR Automation",
+  "cliente_que_paga": "Privacy or operations leads at small SaaS companies",
+  "problema": "Data subject access and deletion requests span many tools and take hours.",
+  "solucion": "Workflow that finds a person's data across Notion, Airtable, Stripe and HubSpot, exports and deletes with a log.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Make/Zapier directories, SEO 'GDPR DSAR automation', privacy communities.",
+  "competidores": [
+   "Transcend",
+   "DataGrail",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Privacy request volumes keep rising.",
+  "ventaja_juan": "Backend integration experience.",
+  "riesgo_principal": "Legal accuracy expectations; enterprise vendors.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "DSAR automation",
+  "tema_norm": "secretos, PII y privacidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-08",
+  "nombre": "Meeting Notes to Jira",
+  "cliente_que_paga": "Engineering managers and PMs",
+  "problema": "Action items from Google Meet calls get lost.",
+  "solucion": "Extension captures meeting captions and creates Jira/Linear tickets with owners.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Chrome Web Store search 'meet notes jira', Atlassian Marketplace",
+  "competidores": [
+   "Fireflies",
+   "Otter.ai"
+  ],
+  "por_que_ahora": "LLM summarization is cheap.",
+  "ventaja_juan": "Backend/GraphQL integrations.",
+  "riesgo_principal": "Incumbents bundling this feature. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "meeting to tickets",
+  "tema_norm": "gestión de proyectos y costos",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-09",
+  "nombre": "Salesforce Duplicate Lead Merger Lite",
+  "cliente_que_paga": "Salesforce admin",
+  "problema": "Native duplicate rules are clunky and bulk merges are manual.",
+  "solucion": "AppExchange app for scheduled fuzzy duplicate detection with one-click bulk merge and undo.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "AppExchange search 'duplicate' and 'dedupe'",
+  "competidores": [
+   "Cloudingo",
+   "DemandTools"
+  ],
+  "por_que_ahora": "Data quality matters more for AI use of CRM data.",
+  "ventaja_juan": "Backend data skills.",
+  "riesgo_principal": "Entrenched incumbents with large installed base.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "CRM deduplication",
+  "tema_norm": "apps CRM HubSpot/Salesforce",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-09",
+  "nombre": "CAD Revision Tracker",
+  "cliente_que_paga": "Equipos de diseño mecánico pequeños sin PLM",
+  "problema": "Se pierde el historial de revisiones y aprobaciones de dibujos en carpetas y hojas.",
+  "solucion": "Complemento de Sheets con registro de revisiones, estados de aprobación y vínculos a Drive.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'engineering change log' y comunidades de SolidWorks.",
+  "competidores": [
+   "PLM de gran empresa",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los equipos pequeños no pueden pagar un PLM.",
+  "ventaja_juan": "Conoce los flujos reales de CAD.",
+  "riesgo_principal": "Puede ser reemplazado por plantillas gratuitas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "control de revisiones CAD",
+  "tema_norm": "control de cambios de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G21-19",
+  "nombre": "BOM Compliance Check",
+  "cliente_que_paga": "Equipos de hardware que exportan",
+  "problema": "Verificar RoHS/REACH por componente es manual.",
+  "solucion": "Sube BOM y obtén informe de cumplimiento con fuentes citadas.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'RoHS BOM checker', foros de compliance.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Regulaciones más estrictas.",
+  "ventaja_juan": "Hardware.",
+  "riesgo_principal": "Datos de cumplimiento difíciles y riesgo legal.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "cumplimiento BOM",
+  "tema_norm": "cumplimiento de producto y sostenibilidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-09",
+  "nombre": "Edge Heartbeat",
+  "cliente_que_paga": "Integradores industriales y equipos IIoT",
+  "problema": "Los dispositivos en planta se caen sin que nadie lo note hasta que el cliente llama.",
+  "solucion": "Servicio de heartbeat/dead-man switch para gateways PLC y Raspberry Pi con alertas, SDK para Modbus/OPC UA y página de estado.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'monitor modbus gateway uptime', r/PLC, r/industrialautomation, directorios de Node-RED",
+  "competidores": [
+   "Healthchecks.io (genérico; sin verificar)",
+   "Cronitor (genérico; sin verificar)"
+  ],
+  "por_que_ahora": "Más integradores ofrecen mantenimiento remoto recurrente.",
+  "ventaja_juan": "Conoce PLC, Modbus y planta.",
+  "riesgo_principal": "Herramientas genéricas baratas cubren el caso básico.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "monitoreo edge industrial",
+  "tema_norm": "vigilancia de cron y certificados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G03-05",
+  "nombre": "Slack Support Escalation Router",
+  "cliente_que_paga": "Head of Support en SaaS B2B con canales compartidos",
+  "problema": "Clientes escriben en canales compartidos y los tickets se pierden sin SLA.",
+  "solucion": "App que convierte mensajes en tickets con SLA, timer y escalado automático.",
+  "precio_usd_mes": 79.0,
+  "canal_primeros_100": "Slack Marketplace 'shared channel support'; contenido SEO sobre Slack Connect support",
+  "competidores": [
+   "Pylon (sin verificar)",
+   "Plain (sin verificar)",
+   "Thena (sin verificar)"
+  ],
+  "por_que_ahora": "Soporte por Slack Connect crece en B2B.",
+  "ventaja_juan": "Backend TS/Node, webhooks.",
+  "riesgo_principal": "Mercado competido por startups financiadas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "soporte canales compartidos",
+  "tema_norm": "productividad en Slack/Teams",
+  "duplicado_de": null
+ },
+ {
+  "id": "G28-13",
+  "nombre": "Panel BOM Extractor",
+  "cliente_que_paga": "Electrical panel builders",
+  "problema": "BOM from EPLAN/AutoCAD Electrical drawings are retyped.",
+  "solucion": "Parse DXF/DWG schematics into a priced BOM.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'panel bom from dwg' and r/PLC",
+  "competidores": [
+   "EPLAN",
+   "AutoCAD Electrical"
+  ],
+  "por_que_ahora": "Panel shops are growing.",
+  "ventaja_juan": "AutoCAD.",
+  "riesgo_principal": "Incumbents have native BOM.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "panel BOM extraction",
+  "tema_norm": "ingeniería eléctrica y seguridad de máquinas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-19",
+  "nombre": "PDF Docs from Notion",
+  "cliente_que_paga": "Automation builders producing client PDFs",
+  "problema": "Generating branded PDFs from Notion or Airtable rows needs fragile templates.",
+  "solucion": "API and Zapier app rendering branded PDFs from Notion/Airtable records with templates.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Zapier directory, Notion integrations gallery, SEO 'Notion to PDF API'.",
+  "competidores": [
+   "PDFMonkey",
+   "Documint"
+  ],
+  "por_que_ahora": "Notion and Airtable are now the data source for client documents.",
+  "ventaja_juan": "Easy backend build.",
+  "riesgo_principal": "Crowded niche with existing vendors.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "document generation API",
+  "tema_norm": "automatización no-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G30-04",
+  "nombre": "Light PDM for SolidWorks",
+  "cliente_que_paga": "Small engineering team of 3-15 on SolidWorks",
+  "problema": "SolidWorks PDM and enterprise PLM are costly and heavy to administer.",
+  "solucion": "Cloud revision vault with check-in/out and release states via a SolidWorks add-in.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SolidWorks forums, r/SolidWorks, SEO 'SolidWorks PDM alternative'",
+  "competidores": [
+   "SolidWorks PDM",
+   "Onshape (sin verificar)"
+  ],
+  "por_que_ahora": "Small teams reject per-seat PLM pricing.",
+  "ventaja_juan": "SolidWorks daily use and add-in knowledge.",
+  "riesgo_principal": "Dassault could bundle or block; MVP over 6 weeks.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "PDM ligero",
+  "tema_norm": "control de cambios de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-17",
+  "nombre": "Diagramas eléctricos desde texto",
+  "cliente_que_paga": "Ingenieros eléctricos",
+  "problema": "Dibujar esquemas en CAD toma horas.",
+  "solucion": "Describe el circuito en texto y genera un esquema editable.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'electrical schematic generator'; r/electronics",
+  "competidores": [
+   "EPLAN, QElectroTech (sin verificar)"
+  ],
+  "por_que_ahora": "IA que genera diagramas desde texto.",
+  "ventaja_juan": "Conozco AutoCAD Electrical.",
+  "riesgo_principal": "Calidad de la IA incierta.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "esquemas eléctricos IA",
+  "tema_norm": "ingeniería eléctrica y seguridad de máquinas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-13",
+  "nombre": "Cron Expression Monitor",
+  "cliente_que_paga": "Desarrolladores y DevOps",
+  "problema": "Los cron jobs fallan en silencio.",
+  "solucion": "Monitor de cron con ping y alertas; páginas SEO por expresión cron.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'cron expression every 5 minutes' hacia monitor de pago.",
+  "competidores": [
+   "Healthchecks.io",
+   "Cronitor (precios sin verificar)"
+  ],
+  "por_que_ahora": "Más tareas programadas en serverless.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Competidores consolidados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "monitoreo cron",
+  "tema_norm": "vigilancia de cron y certificados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-19",
+  "nombre": "3D Print Agent Toolkit",
+  "cliente_que_paga": "Creadores de agentes para fabricación aditiva",
+  "problema": "Los agentes no pueden analizar STL ni preparar impresiones.",
+  "solucion": "API y MCP para analizar mallas, estimar tiempo, material y soportes, y detectar problemas de impresión.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'STL analysis API', comunidades r/3Dprinting y directorios MCP.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los agentes de manufactura emergen.",
+  "ventaja_juan": "Firmware de impresoras 3D y experiencia en slicing.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "IA e impresión 3D",
+  "tema_norm": "servidores MCP",
+  "duplicado_de": null
+ },
+ {
+  "id": "G07-15",
+  "nombre": "Test Data Forge",
+  "cliente_que_paga": "Desarrolladores y QA",
+  "problema": "Generar datos de prueba realistas con relaciones es tedioso.",
+  "solucion": "Plugin JetBrains/VS Code que genera datos coherentes desde el schema de base de datos o tipos TypeScript.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Búsqueda 'test data' en JetBrains Marketplace y SEO 'generate mock data from schema'.",
+  "competidores": [
+   "Faker",
+   "Mockaroo"
+  ],
+  "por_que_ahora": "Esquemas tipados y entornos de prueba con IA.",
+  "ventaja_juan": "Backend con TypeScript y bases de datos.",
+  "riesgo_principal": "Faker es gratis y suficiente (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "datos de prueba",
+  "tema_norm": "utilidades de código en IDE",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-02",
+  "nombre": "Monitor de cambios en PLC",
+  "cliente_que_paga": "Ingeniero de planta / gerente de OT de planta mediana",
+  "problema": "Nadie sabe qué cambió en los programas de PLC entre respaldos.",
+  "solucion": "Servicio que compara proyectos PLC (L5X, TIA Openness exports) subidos y alerta diferencias con historial versionado.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Foros PLCTalk, r/PLC y SEO 'PLC program version control'",
+  "competidores": [
+   "FactoryTalk AssetCentre",
+   "Copia de Git manual",
+   "Industrial Defender (seguridad OT)"
+  ],
+  "por_que_ahora": "NIS2/IEC 62443 empujan control de cambios en OT.",
+  "ventaja_juan": "PLC Siemens/Rockwell: conoce los formatos de archivo.",
+  "riesgo_principal": "Los formatos propietarios cambian y los fabricantes pueden lanzar lo suyo.",
+  "evidencia_url": "https://industrialmonitordirect.com/tr/blogs/knowledgebase/plc-change-management-versioning-plc-and-hmi-project-files",
+  "angulo": "25",
+  "tema": "control cambios PLC",
+  "tema_norm": "diff y versionado PLC",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-07",
+  "nombre": "RC Tune Log",
+  "cliente_que_paga": "Aficionados a drones FPV y RC",
+  "problema": "Los ajustes PID y el historial de baterías se pierden entre setups.",
+  "solucion": "Registro de configuraciones Betaflight, baterías y vuelos con comparación de blackbox.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Foros FPV, r/Multicopter, YouTube de FPV y Discord de Betaflight.",
+  "competidores": [
+   "Betaflight Blackbox Explorer (gratis)",
+   "Plasmatree PID Analyzer (gratis)"
+  ],
+  "por_que_ahora": "FPV en crecimiento con componentes baratos.",
+  "ventaja_juan": "Conoce firmware embebido y control PID.",
+  "riesgo_principal": "Herramientas gratis cubren análisis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "registro FPV drones",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-06",
+  "nombre": "CBAM Importer Report Tool",
+  "cliente_que_paga": "Importadores UE de acero, aluminio, cemento y fertilizantes",
+  "problema": "Deben reportar emisiones incorporadas CBAM trimestralmente y el Excel oficial es doloroso.",
+  "solucion": "Web app que calcula emisiones desde datos del proveedor y exporta el informe XML/Excel.",
+  "precio_usd_mes": 129,
+  "canal_primeros_100": "SEO 'CBAM report template', LinkedIn en comunidades de aduanas",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fase definitiva CBAM desde 2026 con certificados.",
+  "ventaja_juan": "Datos de manufactura y cálculo de acero/aluminio.",
+  "riesgo_principal": "La normativa se simplifica o cambia; incumbentes de carbono.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "CBAM reporte importadores",
+  "tema_norm": "cumplimiento de producto y sostenibilidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-20",
+  "nombre": "Marketplace Usage Billing Meter",
+  "cliente_que_paga": "ISV engineer selling on AWS Marketplace",
+  "problema": "Metering and reporting usage to AWS Marketplace APIs is fiddly.",
+  "solucion": "SDK plus hosted service that meters usage and submits records with retries and dashboards.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "AWS Marketplace seller docs and r/aws; SEO 'AWS Marketplace metering'",
+  "competidores": [
+   "AWS Marketplace Metering Service (native)"
+  ],
+  "por_que_ahora": "More ISVs list on AWS Marketplace.",
+  "ventaja_juan": "Backend/TypeScript expertise.",
+  "riesgo_principal": "Native API is free and small buyer pool.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "marketplace usage metering",
+  "tema_norm": "precios y monetización SaaS/API",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-16",
+  "nombre": "3D Model Licensing Tracker",
+  "cliente_que_paga": "Vendedores de STL y diseñadores 3D",
+  "problema": "Se copian modelos y venden sin licencia.",
+  "solucion": "Servicio de licencias con enlaces únicos y marca de agua en STL.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'sell stl files' y grupos de diseñadores en Patreon/Cults.",
+  "competidores": [
+   "Gumroad",
+   "Cults3D"
+  ],
+  "por_que_ahora": "Creadores de STL migran a tiendas propias.",
+  "ventaja_juan": "Conoce formatos de malla.",
+  "riesgo_principal": "Las plataformas existentes pueden copiarlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "licencias modelos 3D",
+  "tema_norm": "venta y licencias de archivos digitales",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-02",
+  "nombre": "DXF Nesting API",
+  "cliente_que_paga": "Desarrollador de software de cotización para corte láser/CNC",
+  "problema": "Calcular anidado y área de material de DXF para cotizar requiere algoritmos complejos.",
+  "solucion": "API que recibe DXF, devuelve longitud de corte, perforaciones, área, bounding box y anidado estimado.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'dxf nesting api', 'dxf cut length calculator api', RapidAPI, comunidades de desarrolladores de ecommerce de manufactura.",
+  "competidores": [
+   "Deepnest (OSS, local)",
+   "SVGnest (OSS)",
+   "sin verificar otros"
+  ],
+  "por_que_ahora": "Cotización instantánea es estándar en ecommerce de fabricación.",
+  "ventaja_juan": "Conocimiento CAM/corte y formatos DXF.",
+  "riesgo_principal": "Mercado de compradores pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "cotización DXF API",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-08",
+  "nombre": "Gcode Quote for 3D Print Freelancers",
+  "cliente_que_paga": "Diseñadores que venden impresión 3D bajo pedido",
+  "problema": "Calcular precio de piezas según tiempo, filamento y desgaste.",
+  "solucion": "Sube STL/G-code y obtiene precio, tiempo y presupuesto PDF.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Reddit r/3Dprinting y SEO '3d print cost calculator'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de microtalleres 3D.",
+  "ventaja_juan": "Software casi gratis + conocimiento CAD/DXF/STEP.",
+  "riesgo_principal": "Calculadoras gratuitas (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "cotización impresión 3D",
+  "tema_norm": "cotización impresión 3D",
+  "duplicado_de": null
+ }
+]

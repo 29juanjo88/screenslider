@@ -1,0 +1,229 @@
+[
+ {
+  "id": "G15-01",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Paperless Parts y otros ya venden cotización CNC con ventas y demos; el comprador (taller pequeño) desconfía de estimaciones LLM de tiempo de máquina sin calibrar por máquina/material, y reddit/foros penalizan la autopromoción: canal real vago para pagar $149.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-12",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen generadores de schema gratuitos y plugins WordPress gratuitos (sin verificar nombres); a $15/mes se necesitan ~700 pagadores para $10k y Google/IA generan JSON-LD gratis en segundos.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G14-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "OPA es gratuito y de código abierto; el comprador (equipo de seguridad) exige ventas/revisión de seguridad, no autoservicio, y los frameworks de agentes incorporarán permisos nativos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-01",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Quien publica servidores MCP es mayormente hobbyista/OSS que no paga $19; un linter se copia en un fin de semana y el ecosistema (o Anthropic) lo hará gratis. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Plataformas de venta de modelos 3D y WooCommerce/Easy Digital Downloads ya resuelven la venta; el vendedor prefiere el tráfico del marketplace, y un visor 3D es un add-on trivial. Comprador pequeño y poco dispuesto a pagar $29/mes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Langfuse OSS y similares ofrecen logging gratis auto-alojable; el comprador regulado exige compliance/ventas, y el Art. 12 aplica a pocos sistemas de alto riesgo, volumen real incierto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "eRank y Marmalead están consolidados y eRank tiene plan gratuito (sin verificar alcance); rank tracking depende de scraping de Etsy con riesgo de bloqueo/ToS y precio $19 bajo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Atlassian Marketplace está saturado de apps de time tracking/costo; Jira ya exporta worklogs y varias apps cubren tarifas por rol (sin verificar nombres). Diferenciación débil, aunque precio $100 y canal nombrado son razonables.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G17-12",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Rewardful, FirstPromoter y PartnerStack ya calculan comisiones y pagos; el producto sin pagar fondos solo da reportes, que esas plataformas ya incluyen. Canal vía Rewardful es depender de un competidor.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-03",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "CAMotics es gratis y offline, NC Viewer gratis; el segmento hobbyista paga muy poco y espera gratis, la evidencia citada (post de IndieHackers) no demuestra demanda de G-code. Pago único no es MRR recurrente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los CAD tienen estándares/CAD-standards checkers nativos (AutoCAD CAD Standards Checker) y scripts; freelancers pagan poco, nicho dividido por cada estándar de cliente. Competidores específicos sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Excel, Google Sheets, OneNote y apps de checklist/EHS ya cubren bitácoras gratis; el supervisor no tiene presupuesto propio y el producto es trivial de copiar, como admite el propio riesgo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen apps de garantía y RMA en Shopify App Store (sin verificar nombres) y las marcas de hardware ya usan helpdesk con flujos RMA; nicho de marcas 3D en Shopify pequeño. Canal nombrado es válido.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G03-19",
+  "filtros_fallados": [
+   "F1",
+   "F3"
+  ],
+  "objecion": "Microsoft Copilot/Power Virtual Agents, Freshservice y Moveworks ya ofrecen esto; el comprador (IT lead) requiere integración con su ITSM y aprobación de seguridad, con ciclos de compra largos incompatibles con autoservicio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Hay plugins LMS gratuitos o baratos para WordPress/WooCommerce (sin verificar nombres) y plataformas como Teachable/Gumroad; creadores de cursos técnicos CAD/PLC son un nicho pequeño que paga poco.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-01",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Extensiones gratuitas de ST en VS Code probablemente existen (sin verificar); a $12/mes el nicho de ingenieros PLC con VS Code necesita cientos de pagadores y no puede editar proyectos propietarios TIA/Studio 5000 sin export; los IDEs de fabricante son obligatorios.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Atlassian podría añadir función nativa y ya hay apps de archivado/limpieza en Marketplace (sin verificar); aun así el comprador es concreto, el canal es nombrado y el precio $70 es viable.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G05-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Figma no exporta CMYK/PDF-X nativamente y el dolor es real, pero la fidelidad de color queda limitada y diseñadores de packaging usan Illustrator/InDesign; mercado Figma+impresión pequeño y $19 exige muchos pagadores. Competidores sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G29-09",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Parsear proyectos PLC propietarios (TIA, Studio 5000) exige formatos de exportación variables y mantenimiento constante por fabricante; Siemens y otros ya ofrecen exportación de listas IO y herramientas (Copia sin verificar alcance). Nicho pequeño y 29 USD/mes bajo para el volumen.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-07",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen plugins gratuitos de Figma para sincronizar Sheets y contenido (sin verificar); $15/mes con ventaja nula del fundador exige ~700 pagadores y Figma puede añadirlo nativamente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Circle tiene analytics nativo y Skool es cerrado con API limitada; depender de plataformas con APIs restringidas, mercado de dueños de comunidades de pago reducido, y Common Room es incumbente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen apps de fecha estimada de entrega en Shopify (sin verificar) y modelar capacidad por taller es muy específico, lo que obliga a configuración y soporte costosos; precio $29 y mercado de tiendas con fabricación bajo pedido pequeño.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G05-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Figma Analytics nativo en planes Org/Enterprise cubre parte del uso de componentes (alcance sin verificar); los design system managers son pocos y el escaneo exige tokens de acceso corporativos con revisión de seguridad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-12",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen herramientas de contratos y renovaciones; hojas de cálculo y recordatorios de calendario resuelven el problema gratis y CLM es un mercado grande dominado por Ironclad/Juro; extraer fechas de PDFs con LLM no es defendible.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "accessiBe y UserWay son overlays establecidos y Shopify tiene temas accesibles gratuitos y escáneres gratis (Lighthouse, axe); lo bueno: urgencia regulatoria EAA y canal nombrado en Shopify App Store. Competidores específicos sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G22-16",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "EverWebinar y WebinarJam dominan y compiten en precio; herramientas como Zoom/YouTube/Stan permiten replays; mercado maduro con afiliados pagados que controlan el SEO 'evergreen webinar software'.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "MozBar y SEOquake gratuitos ya cubren headings, enlaces y schema; a $9/mes se necesitan >1,000 pagadores; depende totalmente de Chrome Web Store, como admite la idea.",
+  "severidad": "fatal"
+ }
+]

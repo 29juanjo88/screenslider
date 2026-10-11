@@ -1,0 +1,217 @@
+[
+ {
+  "id": "G25-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Las plantillas ISO 27001 gratuitas abundan (el propio riesgo lo admite) y quien paga por compliance compra una suite con automatizacion (Vanta/Drata/Secureframe) que ya incluye politicas; un generador de documentos a $129/mes compite contra plantillas gratis y contra consultores que las entregan como parte del servicio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-09",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "El canal GitHub/Hugging Face/SEO es vago para un comprador (equipo de cumplimiento de IA de alto riesgo) que suele comprar via GRC o legal; los competidores estan sin verificar, el plazo regulatorio es incierto y las plataformas GRC (Credo AI y similares) pueden absorber la funcion. Ademas, la documentacion que genera es de valor legal y exige responsabilidad.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-11",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "SAM.gov es gratis y ofrece alertas guardadas por NAICS; el incumbente gratis cubre el nucleo. Los contratistas pequenos de manufactura no buscan 'machining government contracts' con intencion de compra y los grupos de LinkedIn son un canal vago; la ventaja CAD de Juan casi no aporta a un feed de licitaciones.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen simuladores OPC UA gratuitos y open source (open62541, simuladores de proveedores como Prosys con version de evaluacion); un desarrollador corre un servidor local en Docker en minutos, asi que pagar $49/mes por uno alojado en la nube con inyeccion de fallos es dificil de justificar. Mercado pequeno de pagadores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-05",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $19/mes se necesitan ~530 pagadores para $10k MRR; el comprador es un freelancer ocasional que repara un DXF una vez y no mantiene suscripcion (uso esporadico, churn alto). Existen herramientas gratuitas parciales y los propios talleres validan en su software de nesting; competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-15",
+  "filtros_fallados": [
+   "F2",
+   "F4"
+  ],
+  "objecion": "El comprador real (mantenimiento de planta) no tiene presupuesto de software autoservicio: la compra pasa por TI/compras de la planta con ciclos largos; foros y LinkedIn no son un canal con intencion de compra. Un lector offline se resuelve con carpetas locales/SharePoint sincronizado y diversidad de ingestion hace el MVP pesado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-17",
+  "filtros_fallados": [],
+  "objecion": "Onshape y SolidWorks ya traen comparacion de revisiones nativa (sin verificar detalles) y los equipos usan PDM/PLM con control de versiones; comparar STEP de forma robusta es un problema de geometria dificil para 6 semanas. El canal AppSource 'CAD' es incierto (sin verificar que haya demanda ahi).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "HubSpot tiene cotizaciones nativas con PDF y firma/aceptacion (el propio riesgo lo reconoce) y PandaDoc ya es app popular; el incumbente nativo es suficientemente bueno para cotizaciones simples, y el cliente pyme paga poco y compara con lo incluido en su plan.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G29-02",
+  "filtros_fallados": [],
+  "objecion": "Open CASCADE (OCCT) y wrappers open source cubren la conversion basica, y los equipos con requisitos de IP/defensa suelen comprar via licencias empresariales con revision de seguridad (CAD Exchanger), no por autoservicio a $99/mes; el volumen de compradores con ese requisito es pequeno. Aun asi hay dolor real y canal tecnico nombrado.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G25-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Las suites de compliance (Vanta, Drata) ya incluyen revisiones de acceso con evidencia, y las hojas de calculo/plantillas gratis sirven para empresas pequenas; el comprador que necesita auditoria SOC 2 ya tiene suite. El nicho de empresas sin suite prefiere una hoja de calculo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-05",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "El propio texto admite que requiere ventas: los gerentes de ingenieria de ventas de fabricantes de maquinaria compran con ciclos B2B y confidencialidad de datos tecnicos; Loopio y Responsive dominan RFP y pueden anadir agentes RAG. AppExchange/HubSpot no es canal natural para esto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-03",
+  "filtros_fallados": [],
+  "objecion": "OCCT y SDKs (CAD Exchanger, Datakit) cubren parte de la validacion/reparacion y un desarrollador de SaaS de manufactura suele resolverlo internamente con OCCT; la reparacion robusta de STEP es dificil. El comprador es concreto y el canal tecnico existe, pero el volumen de pagadores es modesto y 'startups recientes' sin evidencia.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G08-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Hookdeck, webhook.site y Svix tienen capa gratuita y producto maduro; el incumbente gratis cubre inspeccion y reenvio. A $29 hay que ganar a empresas financiadas y los proveedores (Stripe) ya reintentan y permiten reenviar eventos desde su dashboard.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-05",
+  "filtros_fallados": [],
+  "objecion": "Zapier, Make y n8n tienen historial de ejecuciones y alertas nativas, y n8n/Make exponen APIs; el riesgo es que las plataformas mejoren el monitoreo y limites de API/terminos. El comprador es concreto (agencias) y hay comunidades nombradas, pero el tamano de agencias multi-plataforma es incierto (sin verificar).",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G26-11",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Los portales publicos de licitaciones (SAM.gov y equivalentes) ofrecen alertas gratis; consultores independientes rara vez pagan por alertas y cada pais tiene datos distintos (el propio riesgo). Sin ventaja de Juan ni competidores verificados; el canal SEO/LinkedIn es vago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-06",
+  "filtros_fallados": [],
+  "objecion": "Atlassian Marketplace con Bitbucket Cloud es una cuota pequena frente a GitHub; las herramientas de revision con IA y checks de PR ya existen ampliamente (sin verificar cuales para Bitbucket) y 'puntaje de riesgo' tiene dudosa disposicion de pago. Dependencia total de una plataforma.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Siemens y Rockwell publican gratis avisos de ciclo de vida y herramientas de BOM/lifecycle (Siemens Industry Online Support, Product Lifecycle de Rockwell; sin verificar detalle); los distribuidores avisan a sus clientes. Pagaria quien gestiona muchas BOMs, que es comprador mas grande y de venta consultiva.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-13",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $15/mes harian falta ~670 pagadores para $10k; el comprador (blogger/YouTuber) tiene bajo presupuesto, existen Broken Link Checker (gratis) y plugins de afiliados, y la ventaja de Juan es nula. Chrome Web Store como unico canal es dependencia de plataforma.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-01",
+  "filtros_fallados": [
+   "F2",
+   "F5"
+  ],
+  "objecion": "Los ingenieros freelance rara vez tienen presupuesto para software de cotizacion y la estimacion de horas desde geometria es poco fiable (admitido); a $29 hacen falta ~345 pagadores en un nicho pequeno. Un freelancer cotiza con experiencia o plantilla gratis; el comprador pagador no esta claro.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen herramientas IA que convierten Figma a codigo y Shopify puede lanzar algo nativo (riesgo admitido); el resultado exige revision manual de Liquid, lo que rompe la promesa. Competidores sin verificar, y el nicho de agencias de temas es pequeno y suele tener su propio flujo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-17",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "El nicho de granjas de impresion 3D que usan Jira es minusculo (riesgo admitido); la mayoria gestiona con herramientas especificas o MES propio, y el canal 'Atlassian Marketplace 3D print' tiene casi nula demanda de busqueda (sin verificar). Pocos compradores posibles para $100/mes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-03",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "A $8/mes se necesitan ~1,250 pagadores; la comunidad Klipper espera herramientas gratis y la documentacion oficial y validadores comunitarios cubren gran parte (sin verificar extensiones VS Code). Disposicion de pago muy baja entre usuarios aficionados.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G17-16",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "StreamElements, Streamlabs y Ko-fi ofrecen propinas con alertas OBS gratis; a $12/mes el volumen requerido es alto y los streamers no pagan por una API de propinas. El propio riesgo lo marca como saturado.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G25-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Okta Workflows, Rippling y BetterCloud ya automatizan offboarding, y Google Workspace/Okta tienen suspension y transferencia nativas; quien necesita revocar accesos ya tiene un IdP con esas funciones. Integrar muchas apps SaaS exige mantener conectores costosos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-12",
+  "filtros_fallados": [
+   "F2"
+  ],
+  "objecion": "El feed de precios de material depende de licencias de datos de terceros (admitido), con costo de datos que puede superar lo cobrado a $25; los estimadores de talleres compran lo que su ERP ya cotiza con proveedores. Google Finance/formulas con fuentes publicas cubren parcialmente; competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-16",
+  "filtros_fallados": [
+   "F4",
+   "F5"
+  ],
+  "objecion": "Nicho pequeno (admitido): pocos makerspaces comerciales pagan por un plugin de reservas; ya existen plugins de reservas genericos en WordPress/Woo y software de gestion de makerspaces (sin verificar). A $29 el techo de clientes alcanzables no llega a $10k MRR.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen plugins gratuitos de datos falsos en Figma (admitido) y a $12/mes se necesitan ~835 pagadores; los disenadores esperan gratis o usan sus propios datos de Content Reel. Valor percibido bajo y copia trivial.",
+  "severidad": "fatal"
+ }
+]

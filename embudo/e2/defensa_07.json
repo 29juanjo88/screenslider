@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G25-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-03",
+  "rescatar": true,
+  "respuesta": "Concedo que existen calculadoras gratis y slicers que estiman filamento y tiempo. El ángulo diferenciado es el flujo de cotización por cliente en Sheets (importar 3MF/G-code, costos de máquina/desgaste/mano de obra, cotización lista), que el slicer no hace. El comprador es la granja o servicio de impresión por encargo que cotiza a clientes y que ya vive en hojas de cálculo. Canal: Google Workspace Marketplace, YouTube y r/3Dprinting. Ventaja de Juan alta en G-code/firmware. Competidores sin verificar.",
+  "ajuste_sugerido": "Subir a 29 y orientarlo a servicios de impresión que cotizan (no hobbistas); incluir plantilla de cotización PDF y margen por cliente."
+ },
+ {
+  "id": "G08-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G26-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-12",
+  "rescatar": true,
+  "respuesta": "Concedo que los talleres chicos no usan Make/Zapier; por eso el canal principal debe ser la API/SEO 'DXF cut length calculator' y no el directorio de automatización. El comprador es el fabricante o desarrollador de cotizador (Airtable/forms/ERP ligero) que hoy calcula longitud de corte y perforaciones a mano; no es un CAM de nesting, es una llamada de API de pago por uso. F1 no aplica: no conozco una API gratuita equivalente (sin verificar). Ventaja real de Juan en DXF/CAM; MVP en pocas semanas.",
+  "ajuste_sugerido": "Posicionar como API de cálculo de corte (cut length, pierces, precio) con SEO y directorios de API; Make/Zapier solo como canal secundario. Precio 49 con plan por volumen."
+ },
+ {
+  "id": "G17-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G15-02",
+  "rescatar": true,
+  "respuesta": "La objeción de confidencialidad es real pero no fatal: se mitiga con procesamiento local/CLI o subida solo de export de lógica sin datos de planta, y con posicionamiento como segunda revisión asistida, no como certificación de seguridad. El comprador es el ingeniero de controles/integrador, con presupuesto por proyecto, que paga $79 frente a horas de revisión manual. Canal nombrado: PLCTalk, r/PLC y SEO 'PLC code review tool'. Ventaja de Juan alta (Siemens y Rockwell). Competidores sin verificar.",
+  "ajuste_sugerido": "Empezar con texto estructurado (SCL/ST y exportes XML/L5X), checklist de estándares de nomenclatura y alarmas, aviso explícito de no sustituir revisión de seguridad; opción de análisis local."
+ },
+ {
+  "id": "G30-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-06",
+  "rescatar": true,
+  "respuesta": "Concedo bibliotecas gratuitas y competidores; la propuesta es nicho: facturas conformes (ZUGFeRD/Facturae/Factur-X) por país, que es donde las bibliotecas gratuitas obligan a mantener normativa. El comprador es el desarrollador SaaS que no quiere mantener esas normas, con mandatos de e-facturación de la UE como disparador de compra con presupuesto. Canal: SEO 'zugferd api', 'factur-x api' y directorios de API. Competidores adicionales sin verificar.",
+  "ajuste_sugerido": "Enfocarse en e-factura conforme (ZUGFeRD/Factur-X/Facturae/XRechnung) en vez de PDF genérico; precio 49 con planes por volumen."
+ },
+ {
+  "id": "G21-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G15-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-17",
+  "rescatar": true,
+  "respuesta": "Concedo que los modelos de visión generales extraen datos; el valor está en un flujo especializado (título de plano, tolerancias, material, validación humana en la UI y export a CSV/BOM) y en el conocimiento de Juan de estándares de dibujo para validar campos. El comprador (ingeniero de compras/manufactura) ya paga horas de captura manual. Canal: SEO 'extract data from engineering drawings'. Competidores IDP sin verificar.",
+  "ajuste_sugerido": "Posicionar con revisión asistida y puntuación de confianza por campo, no como automático al 100%; empezar por title block y tolerancias en PDF vectoriales."
+ },
+ {
+  "id": "G27-13",
+  "rescatar": true,
+  "respuesta": "Concedo la dependencia de Chrome Web Store y el nicho pequeño. Pero el canal está nombrado y con intención (búsqueda 'chrome extension analytics', r/chrome_extensions), el comprador es el desarrollador/estudio de extensiones que monetiza instalaciones y sí paga por analítica, y el MVP es muy rápido. El riesgo de scraping se mitiga usando solo datos públicos y las analíticas propias del desarrollador. Competidores sin verificar.",
+  "ajuste_sugerido": "Subir a 29 si hay valor en alertas de reseñas y ranking; marcar riesgo plataforma; usar datos públicos y no scraping agresivo."
+ },
+ {
+  "id": "G07-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G26-09",
+  "rescatar": true,
+  "respuesta": "Concedo mercado reducido de freelancers y que las plantillas se arman en Word/Excel; sin embargo la generación automática de documentación y checklist FAT/SAT desde los tags ahorra horas por proyecto facturable, y ese ingeniero paga $49 si ahorra una jornada. Canal nombrado: Control.com, r/PLC, SEO 'PLC documentation generator'. Ventaja de Juan alta. Se puede combinar con una idea hermana de revisión/diff PLC. Competidores sin verificar.",
+  "ajuste_sugerido": "Fusionar con G28-01 o G15-02 como suite de documentación PLC para ampliar el mercado; empezar con export de tags L5X/CSV."
+ },
+ {
+  "id": "G07-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-01",
+  "rescatar": true,
+  "respuesta": "Concedo que Siemens/Rockwell pueden lanzar diffs nativos y que versionDog/MDT AutoSave existen; pero esos son orientados a empresa y con ventas. El hueco es una herramienta autoservicio, barata, con CLI amigable a git para integradores y equipos pequeños. El atacante mismo admite que hay evidencia de la necesidad. Canal con intención de compra: búsquedas 'L5X diff' / 'compare TIA Portal projects', PLCTalk y r/PLC. Ventaja de Juan muy alta y MVP viable sobre XML/L5X.",
+  "ajuste_sugerido": "Empezar por L5X (formato XML abierto de Rockwell) y luego TIA; reportes de cambios para auditoría como valor de pago; precio 39 con plan por equipo."
+ },
+ {
+  "id": "G24-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

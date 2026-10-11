@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G12-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Dolor de retención real y comprador claro (agencia), pero competidores sin verificar y el canal de directorios es de las plataformas."
+ },
+ {
+  "id": "G19-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Calculadoras de ahorro VFD gratuitas de fabricantes y uso esporádico."
+ },
+ {
+  "id": "G16-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Canal SEO/LinkedIn genérico, EcoVadis es el estándar y Omnibus reduce el alcance CSRD."
+ },
+ {
+  "id": "G24-05",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $5/mes exige más de 2,000 pagadores y no hay ventaja de Juan."
+ },
+ {
+  "id": "G11-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "El historial de versiones nativo de Google Sheets restaura gratis."
+ },
+ {
+  "id": "G09-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Hosting de docs OpenAPI saturado (Readme, Redocly, Swagger UI gratis) sin ángulo diferenciador."
+ },
+ {
+  "id": "G10-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Ventaja máxima de Juan y MVP rápido, pero mercado diminuto y canal SEO débil, sin evidencia."
+ },
+ {
+  "id": "G08-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Ángulo de auditoría para LLM/docs API con presupuesto DevRel, pero dolor no urgente y nicho pequeño."
+ },
+ {
+  "id": "G16-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 38,
+  "razon": "Obligación normativa 2027 y fuerte ventaja de Juan, pero expediente complejo, riesgo de responsabilidad y dolor aún no urgente."
+ },
+ {
+  "id": "G27-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "ExpiredDomains.net ofrece listados y filtros gratuitos."
+ },
+ {
+  "id": "G20-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Canal SEO de intención alta, pero incumbentes con más funciones y la importación de CAM es difícil."
+ },
+ {
+  "id": "G27-02",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $6/mes exige unos 1,700 pagadores y la afiliación gana a la suscripción."
+ },
+ {
+  "id": "G27-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Machinio y MachineryTrader ya dan listados con alertas gratis."
+ },
+ {
+  "id": "G23-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Dolor real de suspensiones, pero canal débil (foros restringen promoción), incumbentes y dependencia de Amazon."
+ },
+ {
+  "id": "G27-16",
+  "filtro_fallado": "F2",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Releases se siguen gratis con GitHub Watch/RSS; no hay comprador."
+ },
+ {
+  "id": "G21-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "GrabCAD y TraceParts ofrecen modelos gratis."
+ },
+ {
+  "id": "G23-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 1,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 1
+  },
+  "total": 27,
+  "razon": "Etsy no admite el widget con subida de DXF, canal inexistente y mercado diminuto."
+ },
+ {
+  "id": "G10-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Nicho DXF-Salesforce con ventaja alta de Juan, pero mercado pequeño y revisión ISV de AppExchange."
+ },
+ {
+  "id": "G26-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Harvest y Toggl ya cubren alertas de horas por proyecto, y el precio es bajo."
+ },
+ {
+  "id": "G11-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Scripts gratuitos cubren el caso y requiere agente local con soporte."
+ },
+ {
+  "id": "G16-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Demanda EAA real con búsqueda de intención, pero Acrobat/CommonLook cubren y el auto-etiquetado fiable es difícil."
+ },
+ {
+  "id": "G02-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Competidores con escáneres gratuitos, sin ventaja de Juan y dependencia de Chrome Web Store."
+ },
+ {
+  "id": "G13-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Syft/ScanCode gratuitos; el valor es solo UX/informe CRA, presupuesto dudoso."
+ },
+ {
+  "id": "G18-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Dolor y canal reales (PLCTalk, r/PLC) con ventaja única de Juan, pero parsers por marca y confidencialidad del código."
+ },
+ {
+  "id": "G26-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 26,
+  "razon": "Mantener datos por jurisdicción es trabajo sin fin y SEO local lo domina información gratuita."
+ },
+ {
+  "id": "G03-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 5,
+   "riesgo": 1
+  },
+  "total": 30,
+  "razon": "Un LLM gratis y plataformas de incidentes cubren el caso; sin diferenciación."
+ },
+ {
+  "id": "G29-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Alternativas OSS autoalojables gratuitas y licencia única no recurrente."
+ }
+]

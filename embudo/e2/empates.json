@@ -1,0 +1,951 @@
+[
+ {
+  "idea": {
+   "id": "G20-17",
+   "nombre": "CNC Job Costing Tool",
+   "cliente_que_paga": "Talleres de maquinado pequeños",
+   "problema": "Estiman a ojo y pierden margen.",
+   "solucion": "Importa CAM y estima tiempo de máquina, herramental y costo.",
+   "precio_usd_mes": 69,
+   "canal_primeros_100": "Búsqueda 'cnc job costing software' y foros Practical Machinist.",
+   "competidores": [
+    "Paperless Parts (sin verificar)",
+    "ProShop (sin verificar)"
+   ],
+   "por_que_ahora": "Inflación de costos y demanda de cotizaciones rápidas.",
+   "ventaja_juan": "Conoce CAM y manufactura.",
+   "riesgo_principal": "Incumbentes con más funciones.",
+   "evidencia_url": "sin verificar",
+   "angulo": "20",
+   "tema": "costeo CNC",
+   "tema_norm": "maquinado CNC y despiece"
+  },
+  "ataque": {
+   "id": "G20-17",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "Los incumbentes (Paperless Parts, ProShop, sin verificar detalles) tienen funciones más completas y venden con ciclo de ventas; el taller pequeño estima en Excel/ERP y la importación de CAM para costeo fiable es técnicamente difícil. Practical Machinist es un foro, no una fuente de compra, y prohíbe promoción.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G20-17",
+   "rescatar": true,
+   "respuesta": "Concedo el riesgo de importar CAM y que Paperless Parts/ProShop son más completos. Pero esos venden con ciclo de ventas y a precios altos; el taller pequeño usa Excel. Hueco de autoservicio barato con estimación de tiempo de máquina desde el G-code o CAM. Ventaja de Juan: CAM y manufactura. Canal: SEO 'cnc job costing software' (intención alta); Practical Machinist solo para presencia, sin promoción.",
+   "ajuste_sugerido": "Empezar con importación de G-code/CSV, no CAM propietario; $39-69; validar con talleres; sin verificar planes de incumbentes."
+  }
+ },
+ {
+  "idea": {
+   "id": "G21-13",
+   "nombre": "SPC Dashboard",
+   "cliente_que_paga": "Ingenieros de calidad en manufactura mediana",
+   "problema": "Control estadístico de proceso en Excel es frágil.",
+   "solucion": "Sube CSV y obtén cartas X-bar/R, Cp/Cpk y alertas.",
+   "precio_usd_mes": 49,
+   "canal_primeros_100": "SEO 'SPC chart online', LinkedIn ASQ, r/Quality.",
+   "competidores": [
+    "Minitab (caro, sin verificar)",
+    "QI Macros (sin verificar)"
+   ],
+   "por_que_ahora": "Calidad digital sin MES.",
+   "ventaja_juan": "Conocimiento manufactura.",
+   "riesgo_principal": "Minitab domina.",
+   "evidencia_url": "sin verificar",
+   "angulo": "21",
+   "tema": "control estadístico calidad",
+   "tema_norm": "calidad y soldadura"
+  },
+  "ataque": {
+   "id": "G21-13",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "Existen graficadores SPC online y plantillas de Excel gratuitas, y Minitab es el estándar incumbente; el comprador (ingeniero de calidad) a menudo no tiene presupuesto personal y compra por TI. A 49/mes, la búsqueda 'SPC chart online' probablemente la dominan herramientas gratuitas (sin verificar).",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G21-13",
+   "rescatar": true,
+   "respuesta": "Concedo que existen herramientas SPC gratuitas y que Minitab es el estándar. El hueco: Minitab es caro y de escritorio, y las plantillas de Excel son frágiles (lo dice el problema). Un SaaS de carga CSV, con alertas por reglas Western Electric y reporte compartible, atiende al ingeniero de calidad de pyme manufacturera que no justifica Minitab. Pago: ya paga por Minitab/QI Macros. Canal: SEO de intención 'SPC chart online' y comunidades ASQ (volumen sin verificar). Ventaja: conocimiento de manufactura.",
+   "ajuste_sugerido": "Posicionar como 'SPC para equipos sin Minitab' con alertas por correo y almacenamiento histórico (lo que las gratuitas no hacen); precio 29-49 por planta."
+  }
+ },
+ {
+  "idea": {
+   "id": "G01-11",
+   "nombre": "Bundle Cost Margin Guard",
+   "cliente_que_paga": "Comerciantes con bundles y descuentos agresivos",
+   "problema": "Descuentos y bundles se aplican sin ver el margen real.",
+   "solucion": "Alerta y bloquea ofertas que bajan del margen mínimo usando costo por artículo.",
+   "precio_usd_mes": 19,
+   "canal_primeros_100": "Búsqueda 'profit margin' en Shopify App Store",
+   "competidores": [
+    "sin verificar"
+   ],
+   "por_que_ahora": "Presión de márgenes por publicidad cara.",
+   "ventaja_juan": "Mentalidad de costos de manufactura.",
+   "riesgo_principal": "Muchas apps de profit tracking existentes.",
+   "evidencia_url": "sin verificar",
+   "angulo": "01",
+   "tema": "control de márgenes",
+   "tema_norm": "operaciones de tienda online"
+  },
+  "ataque": {
+   "id": "G01-11",
+   "filtros_fallados": [],
+   "objecion": "Existen muchas apps de profit tracking en Shopify (sin verificar cuáles bloquean ofertas) y Shopify permite costo por artículo nativo; bloquear descuentos requiere Shopify Functions, que tiene límites; la categoría 'profit margin' está saturada y la diferenciación (bloqueo) es copiable en semanas.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G01-11",
+   "rescatar": false,
+   "respuesta": "",
+   "ajuste_sugerido": ""
+  }
+ },
+ {
+  "idea": {
+   "id": "G01-01",
+   "nombre": "Print-on-Demand 3D Quote",
+   "cliente_que_paga": "Tiendas Shopify que venden piezas impresas en 3D bajo pedido",
+   "problema": "Los clientes suben STL y el comerciante cotiza a mano, perdiendo ventas.",
+   "solucion": "App que analiza STL/3MF subido en la tienda, calcula volumen, material y tiempo, y agrega al carrito con precio instantáneo.",
+   "precio_usd_mes": 39,
+   "canal_primeros_100": "Búsqueda 'instant quote 3D printing' / 'STL upload' en Shopify App Store",
+   "competidores": [
+    "Xometry (marketplace, no app Shopify)",
+    "sin verificar otras apps"
+   ],
+   "por_que_ahora": "Crece el comercio de piezas impresas 3D y de maker shops en Shopify.",
+   "ventaja_juan": "Conoce firmware y slicing de impresoras 3D para estimar tiempo/material real.",
+   "riesgo_principal": "Pocas tiendas 3D en Shopify; nicho pequeño.",
+   "evidencia_url": "sin verificar",
+   "angulo": "01",
+   "tema": "cotización impresión 3D",
+   "tema_norm": "cotización impresión 3D"
+  },
+  "ataque": {
+   "id": "G01-01",
+   "filtros_fallados": [],
+   "objecion": "Pocas tiendas Shopify venden impresión 3D bajo pedido, así que alcanzar 500+ clientes es irreal; el cálculo de tiempo/material desde STL sin slicer real es impreciso; existen plugins de cotización 3D en WooCommerce/Shopify (sin verificar) y servicios como Xometry captan ese comprador.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G01-01",
+   "rescatar": true,
+   "respuesta": "Concedo que hay pocas tiendas 3D en Shopify y que la estimacion sin slicer real es imprecisa. Sin embargo el comprador es concreto (tienda de impresion bajo pedido o maker shop que hoy cotiza a mano) y el canal es busqueda directa 'instant quote 3D printing' / 'STL upload' en Shopify App Store, con intencion de compra alta. Juan conoce firmware y slicing, por lo que puede integrar un slicer headless (CuraEngine/PrusaSlicer) para estimar tiempo y material reales, que es el diferenciador.",
+   "ajuste_sugerido": "Empezar con STL y 3MF y reglas de precio configurables, medir el numero de tiendas en la App Store antes de invertir, y tener plan B de plugin WooCommerce y widget independiente para ampliar el mercado."
+  }
+ },
+ {
+  "idea": {
+   "id": "G13-01",
+   "nombre": "PLC Diff CI",
+   "cliente_que_paga": "Ingenieros de automatización e integradores con PLC en Git",
+   "problema": "Los proyectos PLC (L5X, PLCopen XML) son casi ilegibles en pull requests y los errores llegan a planta.",
+   "solucion": "GitHub Action/App que convierte L5X/PLCopen XML en diffs legibles de rungs y tags, con lint de reglas y comentario en el PR.",
+   "precio_usd_mes": 29,
+   "canal_primeros_100": "GitHub Marketplace (búsqueda 'PLC', 'Rockwell', 'L5X'), r/PLC, foros de Automation Direct y PLCTalk",
+   "competidores": [
+    "Rockwell Studio 5000 Logix Compare (sin verificar)",
+    "Siemens Version Control Interface (sin verificar)"
+   ],
+   "por_que_ahora": "El control de versiones en automatización industrial empieza a adoptarse y casi no hay herramientas nativas de Git.",
+   "ventaja_juan": "Conoce TIA Portal y Studio 5000 a fondo.",
+   "riesgo_principal": "Mercado de compradores pequeño y formatos propietarios cambiantes.",
+   "evidencia_url": "sin verificar",
+   "angulo": "13",
+   "tema": "PLC CI diff",
+   "tema_norm": "diff y versionado PLC"
+  },
+  "ataque": {
+   "id": "G13-01",
+   "filtros_fallados": [],
+   "objecion": "Comprador diminuto: pocos equipos PLC usan Git y los que lo hacen dependen de L5X/PLCopen de Rockwell/Siemens, formatos que cambian; Logix Compare y Siemens VCI cubren parte (sin verificar); habría que probar con proyectos reales, y vender a ingenieros de planta conservadores no es product-led; techo de mercado bajo.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G13-01",
+   "rescatar": true,
+   "respuesta": "El filtro F1 no aplica: Logix Compare es una herramienta de escritorio de Rockwell sin integracion a PRs ni CI, y Siemens VCI no genera diffs legibles en pull requests (ambos sin verificar en detalle). El comprador es el integrador o equipo de automatizacion que ya versiona en Git y sufre revisiones ciegas de XML; el canal es GitHub Marketplace (busqueda 'PLC', 'L5X') mas r/PLC y PLCTalk. Concedo que el mercado es pequeno y que los formatos cambian; compensa un precio mayor y el hecho de que Juan es de los pocos que conoce TIA Portal y Studio 5000 y puede mantener el parser.",
+   "ajuste_sugerido": "Subir precio a $49-79/mes por equipo, empezar solo con L5X (Rockwell) y despues PLCopen XML, y tratarlo como nicho de pocos pero buen ARPU."
+  }
+ },
+ {
+  "idea": {
+   "id": "G28-07",
+   "nombre": "Alarm Text Translator",
+   "cliente_que_paga": "Machine builders exporting equipment",
+   "problema": "HMI/PLC alarm texts must be translated into many languages in spreadsheets.",
+   "solucion": "Tool that reads HMI text lists, translates with glossary and exports back for TIA/Factory Talk.",
+   "precio_usd_mes": 59,
+   "canal_primeros_100": "SEO 'HMI alarm text translation' and LinkedIn machine builder groups",
+   "competidores": [
+    "Manual Excel",
+    "General translation services"
+   ],
+   "por_que_ahora": "Machine exports growing and LLM translation is cheap.",
+   "ventaja_juan": "HMI text list formats.",
+   "riesgo_principal": "Format variety.",
+   "evidencia_url": "sin verificar",
+   "angulo": "28",
+   "tema": "HMI text translation",
+   "tema_norm": "traducción técnica"
+  },
+  "ataque": {
+   "id": "G28-07",
+   "filtros_fallados": [],
+   "objecion": "Dolor real y especifico donde Juan tiene ventaja, pero uso episodico (por proyecto de exportacion), el comprador (machine builder) podria usar DeepL/LLM con un glosario sin software dedicado, y la variedad de formatos de exportacion HMI (TIA, FactoryTalk, otros) eleva el costo de mantenimiento. Canal SEO de nicho de poco volumen.",
+   "severidad": "moderada"
+  },
+  "defensa": {
+   "id": "G28-07",
+   "rescatar": true,
+   "respuesta": "Concedo uso episodico y variedad de formatos HMI. Aun asi, F1 no aplica: DeepL/LLM no entienden el formato de exportacion de listas de textos de TIA/FactoryTalk ni el glosario tecnico consistente, y el dolor es reimportar sin romper. Comprador concreto: machine builders exportadores, con presupuesto de localizacion y proyectos recurrentes (cada maquina nueva). Ventaja real de Juan en PLC/HMI. Canal: SEO 'HMI alarm text translation', foros PLCTalk y grupos LinkedIn (nicho de poco volumen pero alta intencion).",
+   "ajuste_sugerido": "Empezar solo con TIA Portal (formato Excel de textos) y cobrar por proyecto/paquete de idiomas o plan anual para convertir lo episodico en recurrente."
+  }
+ },
+ {
+  "idea": {
+   "id": "G01-08",
+   "nombre": "Shipping Dims Auditor",
+   "cliente_que_paga": "Comerciantes con costos de envío altos por peso dimensional",
+   "problema": "Cobros por peso dimensional erróneos por datos de caja y producto malos.",
+   "solucion": "Audita pesos/dimensiones de catálogo vs. cargos del transportista y sugiere corrección de datos.",
+   "precio_usd_mes": 39,
+   "canal_primeros_100": "Búsqueda 'shipping audit' en Shopify App Store",
+   "competidores": [
+    "sin verificar"
+   ],
+   "por_que_ahora": "Los carriers elevaron tarifas dimensionales.",
+   "ventaja_juan": "Habilidad para procesar datos y reglas.",
+   "riesgo_principal": "Depende de datos de carrier y de Shopify.",
+   "evidencia_url": "sin verificar",
+   "angulo": "01",
+   "tema": "auditoría peso dimensional",
+   "tema_norm": "operaciones de tienda online"
+  },
+  "ataque": {
+   "id": "G01-08",
+   "filtros_fallados": [],
+   "objecion": "Auditar peso dimensional suena a ahorro, pero los carriers (UPS/FedEx) ya ofrecen reclamos de ajustes y existen servicios de recuperación de fletes que cobran por éxito (sin verificar nombres). Los datos de cargos reales no están en Shopify: requieren facturas del carrier, así que el onboarding es fricción alta y una app de Shopify que solo ve catálogo no puede auditar cargos.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G01-08",
+   "rescatar": true,
+   "respuesta": "Concedo que los cargos reales están en facturas del carrier y no en Shopify, y que existen servicios de recuperación de fletes por éxito (sin verificar). Pero eso se resuelve con importación del CSV de facturas del carrier, que ya es un flujo común; el ángulo es corregir la causa raíz (datos de peso y dimensiones del catálogo), no solo reclamar. Comprador concreto (comerciante con altos costos de envío), canal nombrado (búsqueda 'shipping audit' en Shopify App Store), $39 implica ~260 clientes. Riesgo de fricción de onboarding aceptado.",
+   "ajuste_sugerido": "Cambiar el modelo a carga del CSV de facturas UPS/FedEx, detectar SKUs con datos erróneos y proponer correcciones; considerar cobro como porcentaje del ahorro."
+  }
+ },
+ {
+  "idea": {
+   "id": "G14-13",
+   "nombre": "PLC MCP Bridge",
+   "cliente_que_paga": "Ingenieros de automatización y integradores industriales",
+   "problema": "No pueden conectar agentes de IA de forma segura a datos de PLC y SCADA.",
+   "solucion": "Servidor MCP de solo lectura para OPC UA y Modbus con listas de permitidos y registro.",
+   "precio_usd_mes": 79,
+   "canal_primeros_100": "Foros de PLCTalk y r/PLC, LinkedIn de automatización y SEO 'OPC UA MCP server'.",
+   "competidores": [
+    "sin verificar"
+   ],
+   "por_que_ahora": "La industria explora copilotos de IA sobre datos de planta.",
+   "ventaja_juan": "Experiencia directa en Siemens TIA Portal y Rockwell.",
+   "riesgo_principal": "Resistencia de OT a conectar IA a planta.",
+   "evidencia_url": "sin verificar",
+   "angulo": "14",
+   "tema": "IA industrial OPC UA",
+   "tema_norm": "servidores MCP"
+  },
+  "ataque": {
+   "id": "G14-13",
+   "filtros_fallados": [],
+   "objecion": "Comprador (OT/integradores) conservador: conectar IA a PLCs es un tabú de seguridad y las compras industriales pasan por ciclos largos, no autoservicio. Existen servidores OPC UA/Modbus MCP de código abierto (sin verificar) y los fabricantes de plataformas (Siemens, etc.) pueden ofrecer lo propio. Volumen de pagadores en PLCTalk/r/PLC muy pequeño.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G14-13",
+   "rescatar": true,
+   "respuesta": "Concedo que OT es conservador y que pueden existir servidores OPC UA/Modbus MCP abiertos (sin verificar). Pero el diseño de solo lectura con listas de permitidos y registro de auditoría ataca justo la objeción de seguridad, y es algo que un integrador puede comprar por tarjeta sin ciclo de ventas. Comprador concreto (integrador/ingeniero de automatización), canal nombrado (PLCTalk, r/PLC, SEO 'OPC UA MCP server'), y la ventaja de Juan en TIA Portal/Rockwell es de las más fuertes del lote. A $79 hacen falta ~127 clientes.",
+   "ajuste_sugerido": "Reposicionar como gateway de auditoría y solo lectura para integradores; ofrecer licencia por planta o por integrador."
+  }
+ },
+ {
+  "idea": {
+   "id": "G08-18",
+   "nombre": "Tolerance Stack API",
+   "cliente_que_paga": "Desarrolladores de software de diseño mecánico",
+   "problema": "El cálculo de acumulación de tolerancias no se encuentra como servicio.",
+   "solucion": "API de análisis de tolerancias (peor caso, RSS, Monte Carlo) con visualización.",
+   "precio_usd_mes": 79,
+   "canal_primeros_100": "SEO 'tolerance stack-up calculator api', comunidades de ingeniería mecánica, RapidAPI.",
+   "competidores": [
+    "sin verificar"
+   ],
+   "por_que_ahora": "Herramientas CAD web en crecimiento.",
+   "ventaja_juan": "Ingeniería mecánica y SolidWorks.",
+   "riesgo_principal": "Mercado pequeño.",
+   "evidencia_url": "sin verificar",
+   "angulo": "08",
+   "tema": "análisis de tolerancias",
+   "tema_norm": "tolerancias mecánicas"
+  },
+  "ataque": {
+   "id": "G08-18",
+   "filtros_fallados": [],
+   "objecion": "Comprador poco claro: los desarrolladores de software CAD rara vez compran un API de tolerancias y los ingenieros usan hojas de cálculo o módulos integrados (TolAnalyst en SolidWorks, sin verificar el alcance). Mercado muy pequeño; RapidAPI aporta poca demanda. Aun así hay ventaja real y poca competencia como servicio.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G08-18",
+   "rescatar": true,
+   "respuesta": "Concedo que el comprador es de nicho y que SolidWorks tiene TolAnalyst. Pero ese módulo está atado a SolidWorks y a licencia cara; quien construye una herramienta CAD web o un cotizador no lo puede integrar. Hay búsqueda con intención ('tolerance stack-up calculator api'), poca competencia como servicio (sin verificar) y la ventaja de Juan en ingeniería mecánica es real. A $79 se necesitan ~127 clientes. Es un mercado pequeño, pero compatible con la meta si se vende también como calculadora web.",
+   "ajuste_sugerido": "Lanzar primero una calculadora web gratuita con SEO que alimente la API de pago; segmentar a desarrolladores de CAD web, cotizadores y PLM."
+  }
+ },
+ {
+  "idea": {
+   "id": "G17-17",
+   "nombre": "Refund Abuse Detector",
+   "cliente_que_paga": "Tiendas de bienes digitales",
+   "problema": "Pérdidas por reembolsos fraudulentos repetidos.",
+   "solucion": "Detecta patrones de reembolso/contracargo y bloquea compradores.",
+   "precio_usd_mes": 49,
+   "canal_primeros_100": "Shopify App Store y Stripe Marketplace 'chargeback prevention'",
+   "competidores": [
+    "Chargeflow",
+    "Signifyd",
+    "Stripe Radar (nativo)"
+   ],
+   "por_que_ahora": "Más fraude con bienes digitales.",
+   "ventaja_juan": "Backend, ML ligero.",
+   "riesgo_principal": "F1 parcial: Radar nativo.",
+   "evidencia_url": "sin verificar",
+   "angulo": "17",
+   "tema": "fraude reembolsos digitales",
+   "tema_norm": "operaciones de tienda online"
+  },
+  "ataque": {
+   "id": "G17-17",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "Stripe Radar y la detección nativa de Shopify cubren fraude y contracargos; Chargeflow y Signifyd tienen escala y datos de red que un entrante no tiene, y bloquear compradores propios por reembolsos arriesga falsos positivos.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G17-17",
+   "rescatar": false,
+   "respuesta": "",
+   "ajuste_sugerido": ""
+  }
+ },
+ {
+  "idea": {
+   "id": "G30-18",
+   "nombre": "Takeoff Lite",
+   "cliente_que_paga": "Estimator at fabrication or construction subcontractor",
+   "problema": "Bluebeam costs per seat for measuring.",
+   "solucion": "Browser PDF/DXF measure and markup with quantity export.",
+   "precio_usd_mes": 25,
+   "canal_primeros_100": "SEO 'Bluebeam alternative', r/estimators",
+   "competidores": [
+    "Bluebeam"
+   ],
+   "por_que_ahora": "Remote estimating is standard.",
+   "ventaja_juan": "CAD drawing knowledge.",
+   "riesgo_principal": "Strong incumbents.",
+   "evidencia_url": "sin verificar",
+   "angulo": "30",
+   "tema": "takeoff PDF",
+   "tema_norm": "lectura de planos y metrados"
+  },
+  "ataque": {
+   "id": "G30-18",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "Bluebeam es incumbente fuerte, pero hay medición PDF gratis o barata (visores con herramientas de medida, sin verificar nombres); la medición precisa en navegador exige escalas calibradas y un MVP serio de takeoff es más grande que 6 semanas.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G30-18",
+   "rescatar": false,
+   "respuesta": "",
+   "ajuste_sugerido": ""
+  }
+ },
+ {
+  "idea": {
+   "id": "G16-09",
+   "nombre": "AI Act Annex IV Documentation",
+   "cliente_que_paga": "Equipos ML de proveedores de IA de alto riesgo",
+   "problema": "Deben producir documentación técnica Annex IV y no saben el formato.",
+   "solucion": "Repositorio que genera la documentación Annex IV desde model cards y registros de pruebas.",
+   "precio_usd_mes": 199,
+   "canal_primeros_100": "GitHub, SEO 'annex iv technical documentation template', Hugging Face",
+   "competidores": [
+    "Credo AI",
+    "sin verificar"
+   ],
+   "por_que_ahora": "Alto riesgo con fecha límite escalonada.",
+   "ventaja_juan": "Python y documentación técnica.",
+   "riesgo_principal": "Plataformas GRC lo absorben.",
+   "evidencia_url": "sin verificar",
+   "angulo": "16",
+   "tema": "documentación Annex IV",
+   "tema_norm": "regulación IA y ciberseguridad UE"
+  },
+  "ataque": {
+   "id": "G16-09",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "El canal GitHub/Hugging Face/SEO es vago para un comprador (equipo de cumplimiento de IA de alto riesgo) que suele comprar via GRC o legal; los competidores estan sin verificar, el plazo regulatorio es incierto y las plataformas GRC (Credo AI y similares) pueden absorber la funcion. Ademas, la documentacion que genera es de valor legal y exige responsabilidad.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G16-09",
+   "rescatar": true,
+   "respuesta": "Se concede que el canal GRC/legal es dificil y que hay riesgo de absorcion por plataformas GRC. Rebate: el cliente concreto es el equipo ML/ingenieria de un proveedor de IA de alto riesgo que genera la documentacion tecnica desde artefactos que ya tiene (model cards, logs de pruebas) y no necesita una suite GRC completa; el angulo 'docs-as-code' via GitHub Action es nativo del flujo de ingenieria. Canal: SEO 'annex iv technical documentation template' (busqueda con intencion), GitHub Marketplace, Hugging Face. Fecha limite del reglamento: sin verificar. No se vende como asesoria legal.",
+   "ajuste_sugerido": "Posicionar como generador de borradores tecnicos (no certifica cumplimiento) con aviso explicito; GitHub Action + CLI; precio $149-199; validar demanda con plantilla gratuita SEO antes de construir."
+  }
+ },
+ {
+  "idea": {
+   "id": "G11-01",
+   "nombre": "BOM Cleaner for Sheets",
+   "cliente_que_paga": "Ingenieros de manufactura y compras en equipos de hardware",
+   "problema": "Las BOM exportadas de CAD llegan con duplicados, unidades mixtas y números de parte inconsistentes.",
+   "solucion": "Complemento de Google Sheets que normaliza, deduplica y consolida BOM (SolidWorks/AutoCAD/Excel) con un clic.",
+   "precio_usd_mes": 15,
+   "canal_primeros_100": "Búsqueda 'BOM cleanup google sheets' en Google Workspace Marketplace y posts en r/MechanicalEngineering.",
+   "competidores": [
+    "Hojas manuales",
+    "scripts propios"
+   ],
+   "por_que_ahora": "Los equipos de hardware pequeños viven en hojas y no tienen PLM.",
+   "ventaja_juan": "Conoce el formato real de BOM de SolidWorks/AutoCAD.",
+   "riesgo_principal": "Mercado de nicho y dependencia del Marketplace de Google.",
+   "evidencia_url": "sin verificar",
+   "angulo": "11",
+   "tema": "BOM en hojas de cálculo",
+   "tema_norm": "BOM y compras de ingeniería"
+  },
+  "ataque": {
+   "id": "G11-01",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "Limpiar BOM en Sheets se resuelve con fórmulas, tablas dinámicas o un script propio gratis; el ingeniero puede escribirlo en una tarde, y el nicho en el Marketplace de Google es pequeño con disposición de pago baja a $15.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G11-01",
+   "rescatar": true,
+   "respuesta": "Concedo que se puede hacer con formulas o script propio. Pero ese es el costo real: cada ingeniero reinventa la limpieza de BOM con formatos de SolidWorks/AutoCAD (unidades mixtas, numeros de parte inconsistentes, jerarquias). Un complemento con reglas ya hechas y un clic ahorra horas por cada revision de BOM, y es compra impulsiva de bajo friccion en Google Workspace Marketplace. Canal nombrado: busqueda en el Marketplace y r/MechanicalEngineering. Ventaja de Juan es conocer el formato real de BOM. Concedo que el nicho es chico y el volumen para $10k es dificil solo con esto.",
+   "ajuste_sugerido": "Ampliar a 'BOM toolkit' (limpieza, consolidacion, comparacion de revisiones, matching con proveedores) a $19-29 y usarlo como puerta para equipos de compras; tratar como producto semilla de bajo costo."
+  }
+ },
+ {
+  "idea": {
+   "id": "G10-01",
+   "nombre": "HubSpot CAD Quote Sync",
+   "cliente_que_paga": "RevOps manager at a manufacturer using HubSpot",
+   "problema": "Sales reps quote custom parts by hand from CAD files and re-key data into deals.",
+   "solucion": "HubSpot app that parses uploaded STEP/DXF files on a deal and writes material, volume and price estimate into line items.",
+   "precio_usd_mes": 79,
+   "canal_primeros_100": "HubSpot App Marketplace search 'quote', 'CAD', 'manufacturing'",
+   "competidores": [
+    "PandaDoc",
+    "Proposify"
+   ],
+   "por_que_ahora": "HubSpot marketplace is growing and manufacturers lack vertical apps.",
+   "ventaja_juan": "CAD parsing and manufacturing cost knowledge.",
+   "riesgo_principal": "Depends on HubSpot and few niche buyers.",
+   "evidencia_url": "sin verificar",
+   "angulo": "10",
+   "tema": "CAD quoting hubspot",
+   "tema_norm": "apps CRM HubSpot/Salesforce"
+  },
+  "ataque": {
+   "id": "G10-01",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "Número de fabricantes en HubSpot con ventas por CAD es muy reducido y estos compran cotizadores especializados (Paperless Parts, sin verificar integración); a $79 el volumen requerido (~130-600 clientes) excede el nicho del Marketplace, y parsear STEP/DXF a precio exige reglas de costo por cliente.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G10-01",
+   "rescatar": true,
+   "respuesta": "Concedo que el numero de fabricantes con HubSpot y ventas por CAD es reducido y que Paperless Parts existe (sin verificar integracion). Pero el segmento de talleres y fabricantes pequenos que cotizan a mano en HubSpot y no pueden pagar un sistema de cotizacion especializado es el comprador, y hoy no tiene app vertical. Canal nombrado: HubSpot App Marketplace con busquedas 'quote', 'CAD'. Ventaja de Juan: parseo CAD y costeo de manufactura. $79 reduce volumen requerido (~130+ clientes).",
+   "ajuste_sugerido": "Acotar a un proceso (corte laser/CNC) con reglas de costo configurables por cliente; precio $79-149; validar demanda con listados del Marketplace antes de construir."
+  }
+ },
+ {
+  "idea": {
+   "id": "G15-04",
+   "nombre": "Agente de conciliación para freight forwarders",
+   "cliente_que_paga": "Coordinadores de operaciones en agentes de carga",
+   "problema": "Cotejar facturas de navieras contra cotizaciones se hace a mano en hojas de cálculo.",
+   "solucion": "Agente que lee facturas PDF y cotizaciones, marca diferencias y prepara disputas.",
+   "precio_usd_mes": 199,
+   "canal_primeros_100": "Comunidades de LinkedIn de logística, SEO 'freight invoice audit', directorios de integraciones de TMS.",
+   "competidores": [
+    "Cargowise (suite amplia)",
+    "sin verificar"
+   ],
+   "por_que_ahora": "Extracción de documentos con LLM ya es fiable y barata.",
+   "ventaja_juan": "Backend e integraciones; no hay ventaja industrial específica.",
+   "riesgo_principal": "Compradores B2B conservadores; ciclo de confianza.",
+   "evidencia_url": "sin verificar",
+   "angulo": "15",
+   "tema": "auditoría facturas carga",
+   "tema_norm": "facturación, impuestos y conciliación"
+  },
+  "ataque": {
+   "id": "G15-04",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "Canal vago (comunidades de LinkedIn, SEO sin verificar demanda) para un comprador B2B conservador que exige confianza y datos sensibles de facturas; a $199 haría falta cerrar con ventas, y la extracción por LLM la ofrecen también suites de AP/auditoría (sin verificar).",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G15-04",
+   "rescatar": false,
+   "respuesta": "",
+   "ajuste_sugerido": ""
+  }
+ },
+ {
+  "idea": {
+   "id": "G04-08",
+   "nombre": "Compliance Evidence Collector",
+   "cliente_que_paga": "Líderes de seguridad/compliance en SaaS que buscan SOC 2 / ISO 27001",
+   "problema": "Reunir evidencia de tickets y aprobaciones para auditorías toma semanas.",
+   "solucion": "App que etiqueta tickets como evidencia, valida aprobaciones y exporta paquete listo para auditor.",
+   "precio_usd_mes": 180,
+   "canal_primeros_100": "Búsqueda 'SOC 2' 'audit' en Atlassian Marketplace; comunidades de compliance",
+   "competidores": [
+    "sin verificar"
+   ],
+   "por_que_ahora": "Más SaaS pequeños necesitan SOC 2 para vender.",
+   "ventaja_juan": "Backend y automatización de exportes.",
+   "riesgo_principal": "Plataformas de compliance (Vanta, Drata) cubren parte; sin verificar integración.",
+   "evidencia_url": "sin verificar",
+   "angulo": "04",
+   "tema": "evidencia auditoría SOC2",
+   "tema_norm": "evidencia SOC2/ISO y compliance TI"
+  },
+  "ataque": {
+   "id": "G04-08",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "Vanta, Drata y similares recogen evidencia de Jira (sin verificar integración exacta) como parte de su producto; el comprador de SOC 2 ya paga una plataforma, así que una app de Atlassian no es el punto de compra, y el volumen en el Marketplace sería pequeño.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G04-08",
+   "rescatar": true,
+   "respuesta": "Concedo que Vanta/Drata cubren parte de la evidencia y que quien ya paga una plataforma no necesita esto (sin verificar integraciones exactas). Pero muchas startups pequenas preparan SOC 2 con auditor y hojas de calculo antes de comprar plataforma, y la evidencia en Jira (aprobaciones, cambios) es un dolor puntual. Comprador concreto: lider de seguridad/compliance. Canal nombrado: busqueda 'SOC 2' en Atlassian Marketplace. Precio $180 reduce la necesidad de volumen. Concedo que depende de una sola plataforma.",
+   "ajuste_sugerido": "Posicionar como complemento de 'evidencia de gestion de cambios' para equipos sin plataforma de compliance, precio $100-180; validar con 3-5 auditores si el paquete exportado es aceptado."
+  }
+ },
+ {
+  "idea": {
+   "id": "G13-03",
+   "nombre": "Flaky Quarantine",
+   "cliente_que_paga": "Líderes de ingeniería con CI lento por tests inestables",
+   "problema": "Los tests flaky bloquean merges y cuestan horas de ingeniero cada semana.",
+   "solucion": "GitHub App que detecta tests flaky de los reportes JUnit, los pone en cuarentena automáticamente y abre issues.",
+   "precio_usd_mes": 49,
+   "canal_primeros_100": "GitHub Marketplace ('flaky tests'), SEO 'quarantine flaky tests github actions'",
+   "competidores": [
+    "BuildPulse (sin verificar)",
+    "Trunk Flaky Tests (sin verificar)",
+    "Datadog CI Visibility (sin verificar)"
+   ],
+   "por_que_ahora": "Los repos usan más Actions y los equipos con CI de 20+ min sienten el costo.",
+   "ventaja_juan": "Backend senior en Node/TS, rápido de construir.",
+   "riesgo_principal": "Competidores bien financiados y diferenciación débil.",
+   "evidencia_url": "sin verificar",
+   "angulo": "13",
+   "tema": "tests flaky CI",
+   "tema_norm": "CI/CD y GitHub Actions"
+  },
+  "ataque": {
+   "id": "G13-03",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "Mercado con competidores especializados (BuildPulse, Trunk) y observabilidad de CI incumbente; las empresas que más sufren flaky tests ya usan dichos servicios o construyen interno. Canal de Marketplace de GitHub es ruidoso para nicho de $49.",
+   "severidad": "moderada"
+  },
+  "defensa": {
+   "id": "G13-03",
+   "rescatar": true,
+   "respuesta": "Concedo competidores (BuildPulse, Trunk; sin verificar). Pero el dolor es semanal y medible en horas de ingeniero, el comprador (eng lead) tiene presupuesto y el producto es autoservicio vía GitHub App. Los incumbentes suelen apuntar a equipos grandes; hay hueco en equipos de 10-50 devs con precio plano de $49. Canal: GitHub Marketplace 'flaky tests' y SEO 'quarantine flaky tests github actions' tienen intención de compra.",
+   "ajuste_sugerido": "Precio plano para equipos pequeños/medianos, onboarding en 5 minutos leyendo JUnit XML; diferenciar con cuarentena automática más issue/PR, no solo dashboard."
+  }
+ },
+ {
+  "idea": {
+   "id": "G14-10",
+   "nombre": "Secrets Vault for Agents",
+   "cliente_que_paga": "Desarrolladores de agentes con acceso a APIs de terceros",
+   "problema": "Las claves API quedan expuestas en prompts, logs y memoria del agente.",
+   "solucion": "Bóveda que entrega credenciales de corta vida por herramienta y redacta secretos de las trazas.",
+   "precio_usd_mes": 39,
+   "canal_primeros_100": "SEO 'API keys for AI agents secure' y listados en directorios de MCP y GitHub Marketplace.",
+   "competidores": [
+    "HashiCorp Vault",
+    "Doppler"
+   ],
+   "por_que_ahora": "Los agentes reciben acceso amplio a sistemas reales.",
+   "ventaja_juan": "Seguridad backend y control de acceso.",
+   "riesgo_principal": "Vault y Doppler pueden añadir esta función.",
+   "evidencia_url": "sin verificar",
+   "angulo": "14",
+   "tema": "secretos para agentes",
+   "tema_norm": "seguridad y permisos de agentes IA"
+  },
+  "ataque": {
+   "id": "G14-10",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "HashiCorp Vault tiene versión OSS gratuita, Doppler y los gestores de secretos de nube ya emiten credenciales de corta vida; el ángulo de redactar secretos en trazas de agentes es real y emergente, pero pueden copiarlo rápidamente los incumbentes y proveedores de observabilidad de LLM. Hay demanda emergente y un canal en directorios MCP.",
+   "severidad": "moderada"
+  },
+  "defensa": {
+   "id": "G14-10",
+   "rescatar": true,
+   "respuesta": "Concedo que Vault OSS y Doppler existen y que los incumbentes pueden copiar la función. Pero el ángulo específico (credenciales de corta vida por herramienta de agente más redacción de secretos en trazas) es distinto de un gestor de secretos general y está emergiendo; la atacante misma lo reconoce como real. Comprador concreto: dev de agentes con acceso a APIs de terceros. Canal nombrado: directorios de MCP, GitHub Marketplace y SEO. Ventaja de Juan en seguridad backend y control de acceso. Tamaño de demanda: sin verificar.",
+   "ajuste_sugerido": "Enfocarse en un SDK/proxy MCP fácil de instalar y en la redacción de trazas como cuña inicial; evitar competir como bóveda general; precio US$39 con plan por equipo."
+  }
+ },
+ {
+  "idea": {
+   "id": "G19-07",
+   "nombre": "Pruebas simuladas de PLC",
+   "cliente_que_paga": "Programadores de PLC",
+   "problema": "Probar lógica sin planta es lento y requiere hardware.",
+   "solucion": "Corre pruebas unitarias en la nube sobre ST con simulación de E/S.",
+   "precio_usd_mes": 69,
+   "canal_primeros_100": "Foros PLCtalk, r/PLC, SEO 'PLC unit testing'",
+   "competidores": [
+    "sin verificar"
+   ],
+   "por_que_ahora": "Interés en DevOps industrial y pruebas virtuales.",
+   "ventaja_juan": "Programo PLC y backend.",
+   "riesgo_principal": "Cobertura limitada de lenguajes.",
+   "evidencia_url": "sin verificar",
+   "angulo": "19",
+   "tema": "pruebas unitarias PLC",
+   "tema_norm": "revisión de código PLC"
+  },
+  "ataque": {
+   "id": "G19-07",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "Mercado diminuto y conservador: los PLCistas usan IDEs propietarios (TIA, Studio 5000) y simulación del fabricante (PLCSIM, Emulate); ST generico en la nube no cubre ladder ni los proyectos reales. Algunos tienen CODESYS/OpenPLC gratis. Alcanzar 100 pagadores en PLCtalk/r-PLC es dudoso.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G19-07",
+   "rescatar": true,
+   "respuesta": "Concedo que el mercado es pequeño y que los IDEs propietarios dominan. Pero las pruebas automatizadas de PLC son un hueco real: hoy casi no hay CI para lógica PLC, y el comprador (equipos de controles que usan CODESYS/OpenPLC/ST, o integradores) paga ya por herramientas de pruebas. Ventaja única de Juan (PLC más backend). Canal PLCtalk/r-PLC dudoso para 100 pagadores, lo concedo; SEO 'PLC unit testing' es de baja competencia (sin verificar).",
+   "ajuste_sugerido": "Limitar a ST/CODESYS con runner CLI y GitHub Action; cobrar por equipo a $69-99; aceptar que el techo es bajo y validar con 10 usuarios antes de construir."
+  }
+ },
+ {
+  "idea": {
+   "id": "G18-08",
+   "nombre": "3D print farm job queue and cost tracker",
+   "cliente_que_paga": "Small print farm operators",
+   "problema": "Farm owners track failed prints, filament and machine hours in spreadsheets.",
+   "solucion": "SaaS to schedule jobs, log failures and compute per-print profit.",
+   "precio_usd_mes": 29,
+   "canal_primeros_100": "r/3Dprinting, r/PrintFarm, YouTube print-farm creators",
+   "competidores": [
+    "OctoPrint plugins",
+    "3DPrinterOS (sin verificar)"
+   ],
+   "por_que_ahora": "Print-on-demand farms are multiplying.",
+   "ventaja_juan": "Printer firmware knowledge.",
+   "riesgo_principal": "OctoPrint ecosystem is free (F1 risk).",
+   "evidencia_url": "sin verificar",
+   "angulo": "18",
+   "tema": "granja impresión 3D",
+   "tema_norm": "cola y órdenes de granja 3D"
+  },
+  "ataque": {
+   "id": "G18-08",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "OctoPrint/Klipper/Mainsail y plugins gratis cubren gestión de colas; el operador de granja típico mide con hojas de cálculo gratis. Hay herramientas dedicadas (3DPrinterOS, sin verificar) y la integración con cada firmware es costosa de mantener.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G18-08",
+   "rescatar": true,
+   "respuesta": "Concedo que OctoPrint/Klipper cubren colas por máquina y que hay herramientas dedicadas (sin verificar). Lo que no cubren es la capa de negocio: costo y margen por impresión, fallos y rentabilidad por cliente en una granja que vende piezas. Comprador: operador de granja pequeña que hoy usa hojas de cálculo. Canal: r/PrintFarm, r/3Dprinting y YouTubers de granjas. Ventaja de firmware de Juan real.",
+   "ajuste_sugerido": "Posicionar como tracker de rentabilidad/costos con importación desde logs de OctoPrint/Moonraker, no como gestor de colas; precio $29-49."
+  }
+ },
+ {
+  "idea": {
+   "id": "G01-14",
+   "nombre": "Wide Format Print Calculator",
+   "cliente_que_paga": "Imprentas de gran formato (lonas, vinilo, rotulación) con Shopify",
+   "problema": "Cotizar por m2 con acabados y desperdicio es manual.",
+   "solucion": "Calculadora por área, material, acabados y nesting con precio en vivo.",
+   "precio_usd_mes": 35,
+   "canal_primeros_100": "Búsqueda 'price calculator' / 'by square meter' en Shopify App Store",
+   "competidores": [
+    "sin verificar"
+   ],
+   "por_que_ahora": "Imprentas abren tienda online.",
+   "ventaja_juan": "Experiencia en nesting y CAM.",
+   "riesgo_principal": "Nicho limitado.",
+   "evidencia_url": "sin verificar",
+   "angulo": "01",
+   "tema": "calculadora gran formato",
+   "tema_norm": "cotización y costeo de taller"
+  },
+  "ataque": {
+   "id": "G01-14",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "Nicho muy estrecho: imprentas de gran formato con tienda Shopify; apps de 'price by area' ya existen en la Shopify App Store (sin verificar cuáles). El nesting aporta poco al precio de cotización por m2, y el canal depende de una sola plataforma con pocos compradores por búsqueda.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G01-14",
+   "rescatar": true,
+   "respuesta": "Concedo que el nicho es estrecho y que existen apps de precio por área (sin verificar). Aun así, el comprador es concreto (imprenta de gran formato con Shopify), el dolor es semanal (cotizar por m2 con merma y acabados) y el canal es una búsqueda nombrada en Shopify App Store con intención de compra. Precio $35 con ~300-400 clientes alcanza $10-14k. El nesting sí aporta: calcula desperdicio real de rollo, que el precio plano por m2 ignora.",
+   "ajuste_sugerido": "Posicionar como 'precio por m2 con desperdicio de rollo real'; ampliar a rotulación, vinilo y textil para ensanchar el nicho."
+  }
+ },
+ {
+  "idea": {
+   "id": "G25-20",
+   "nombre": "Validador de BOM de ingeniería",
+   "cliente_que_paga": "Gerente de ingeniería/compras",
+   "problema": "BOMs exportados de CAD llegan con errores a compras y ERP.",
+   "solucion": "Sube BOM de SolidWorks/AutoCAD, detecta duplicados, partes sin número y diferencias entre revisiones.",
+   "precio_usd_mes": 89,
+   "canal_primeros_100": "SEO 'BOM comparison tool' y foros SolidWorks",
+   "competidores": [
+    "Excel",
+    "PDM nativo",
+    "OpenBOM"
+   ],
+   "por_que_ahora": "Cadenas de suministro exigen exactitud.",
+   "ventaja_juan": "Conoce CAD y BOM.",
+   "riesgo_principal": "OpenBOM y PDM cubren parte.",
+   "evidencia_url": "sin verificar",
+   "angulo": "25",
+   "tema": "validación de BOM",
+   "tema_norm": "BOM y compras de ingeniería"
+  },
+  "ataque": {
+   "id": "G25-20",
+   "filtros_fallados": [],
+   "objecion": "OpenBOM y los PDM nativos (SolidWorks PDM/3DEXPERIENCE) ya comparan revisiones de BOM; un gerente de ingeniería con PDM no sumará otra herramienta, y los CAD exportan BOM a Excel donde la comparación es trivial. Subir BOMs de producción a un SaaS pequeño genera fricción de confianza (IP). Canal SEO plausible pero demanda de 'BOM comparison' sin verificar.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G25-20",
+   "rescatar": true,
+   "respuesta": "Concedo que OpenBOM y PDM cubren parte y que hay fricción de confianza con IP. Pero el comprador objetivo es quien NO tiene PDM (talleres y pymes de ingeniería exportando BOM a Excel), donde comparar revisiones y detectar partes sin número no es trivial. Se mitiga la confianza con procesamiento local en navegador (sin subir datos). Canal: SEO 'BOM comparison tool' y foros SolidWorks; demanda sin verificar. Ventaja de Juan en CAD/BOM es alta.",
+   "ajuste_sugerido": "Procesar el archivo 100% en el navegador, precio ~$49 para equipos sin PDM; validar demanda SEO antes de construir."
+  }
+ },
+ {
+  "idea": {
+   "id": "G15-08",
+   "nombre": "Agente de fichas técnicas para Shopify industrial",
+   "cliente_que_paga": "Dueños de tiendas Shopify que venden piezas y repuestos",
+   "problema": "Crear fichas con especificaciones técnicas para miles de SKUs es manual.",
+   "solucion": "App que lee PDFs del fabricante y llena atributos, metacampos y descripciones.",
+   "precio_usd_mes": 29,
+   "canal_primeros_100": "Búsqueda 'product data import' en Shopify App Store.",
+   "competidores": [
+    "sin verificar"
+   ],
+   "por_que_ahora": "Los catálogos B2B se mueven a Shopify.",
+   "ventaja_juan": "Entiende nomenclatura técnica de piezas.",
+   "riesgo_principal": "Dependencia de Shopify.",
+   "evidencia_url": "sin verificar",
+   "angulo": "15",
+   "tema": "fichas técnicas catálogo",
+   "tema_norm": "fichas técnicas B2B"
+  },
+  "ataque": {
+   "id": "G15-08",
+   "filtros_fallados": [],
+   "objecion": "Dependencia de Shopify y de que dueños de tiendas industriales con miles de SKUs paguen $29; los PDFs de fabricante son heterogéneos y la extracción con LLM exige revisión humana, erosionando el valor. Un LLM genérico + importación CSV nativa cubre parte. Competidores sin verificar.",
+   "severidad": "moderada"
+  },
+  "defensa": {
+   "id": "G15-08",
+   "rescatar": true,
+   "respuesta": "Sin filtro fallado segun el atacante. Comprador concreto (dueno de tienda Shopify de repuestos con muchos SKUs), canal nombrado (Shopify App Store 'product data import') y la revision humana puede ser parte del producto (cola de aprobacion) en vez de erosionar el valor. El CSV nativo no extrae atributos de PDFs. Concedo riesgo de plataforma unica y PDFs heterogeneos.",
+   "ajuste_sugerido": "Enfocar en nichos de PDFs semiestructurados (fijaciones, rodamientos, electrico) con flujo de revision y cobro por SKUs procesados; nicho de entrada fijo para medir calidad. Competidores sin verificar."
+  }
+ },
+ {
+  "idea": {
+   "id": "G03-05",
+   "nombre": "Slack Support Escalation Router",
+   "cliente_que_paga": "Head of Support en SaaS B2B con canales compartidos",
+   "problema": "Clientes escriben en canales compartidos y los tickets se pierden sin SLA.",
+   "solucion": "App que convierte mensajes en tickets con SLA, timer y escalado automático.",
+   "precio_usd_mes": 79.0,
+   "canal_primeros_100": "Slack Marketplace 'shared channel support'; contenido SEO sobre Slack Connect support",
+   "competidores": [
+    "Pylon (sin verificar)",
+    "Plain (sin verificar)",
+    "Thena (sin verificar)"
+   ],
+   "por_que_ahora": "Soporte por Slack Connect crece en B2B.",
+   "ventaja_juan": "Backend TS/Node, webhooks.",
+   "riesgo_principal": "Mercado competido por startups financiadas.",
+   "evidencia_url": "sin verificar",
+   "angulo": "03",
+   "tema": "soporte canales compartidos",
+   "tema_norm": "productividad en Slack/Teams"
+  },
+  "ataque": {
+   "id": "G03-05",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "Mercado muy competido por startups financiadas (Pylon, Plain, Thena, sin verificar) con integraciones profundas a helpdesks; el Head of Support quiere sistema de tickets completo, no un router. Slack Marketplace favorece apps establecidas y Slack puede añadir SLAs nativos.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G03-05",
+   "rescatar": false,
+   "respuesta": "",
+   "ajuste_sugerido": ""
+  }
+ },
+ {
+  "idea": {
+   "id": "G21-06",
+   "nombre": "GD&T Checker",
+   "cliente_que_paga": "Ingenieros de diseño y calidad que revisan planos",
+   "problema": "Errores de GD&T en dibujos provocan rechazos y retrabajo.",
+   "solucion": "Sube PDF/DXF y recibe checklist de errores comunes de GD&T según ASME Y14.5.",
+   "precio_usd_mes": 39,
+   "canal_primeros_100": "SEO 'GD&T checker', r/MechanicalEngineering, LinkedIn de calidad.",
+   "competidores": [
+    "Sin verificar"
+   ],
+   "por_que_ahora": "IA para lectura de planos madura.",
+   "ventaja_juan": "Conocimiento CAD y dibujo técnico.",
+   "riesgo_principal": "La IA puede fallar en precisión.",
+   "evidencia_url": "sin verificar",
+   "angulo": "21",
+   "tema": "revisión GD&T planos",
+   "tema_norm": "tolerancias mecánicas"
+  },
+  "ataque": {
+   "id": "G21-06",
+   "filtros_fallados": [
+    "F4"
+   ],
+   "objecion": "Un checker de GD&T por IA tiene que acertar en interpretación semántica de planos (ASME Y14.5), y un falso negativo genera retrabajo, por lo que el ingeniero revisor no confiará. La responsabilidad pesa sobre la herramienta y la precisión de IA en planos es dudosa. Competidores sin verificar; el 'SEO GD&T checker' puede tener intención de buscar y es una ventaja de Juan, pero el comprador con presupuesto (calidad en empresa) tiene ciclos largos.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G21-06",
+   "rescatar": true,
+   "respuesta": "Concedo que la IA puede fallar y que un falso negativo cuesta. Se mitiga posicionando como checklist/asistente de revision (no certificacion) con reglas deterministas sobre DXF y PDF vectorial: simbolos, datums faltantes, tolerancias contradictorias. El comprador es el ingeniero de diseno/calidad individual que paga con tarjeta, no un ciclo largo corporativo. SEO 'GD&T checker' tiene intencion de busqueda directa; competidores sin verificar. Ventaja real de Juan en dibujo tecnico.",
+   "ajuste_sugerido": "Entrar como herramienta individual self-serve a $39 con disclaimer de apoyo a la revision; empezar con reglas deterministas y solo luego IA; medir intencion con una pagina SEO antes de construir."
+  }
+ },
+ {
+  "idea": {
+   "id": "G12-11",
+   "nombre": "STL Quote Engine for Zapier",
+   "cliente_que_paga": "3D print service bureaus and makers selling prints",
+   "problema": "Quotes require manually checking each STL for volume and time.",
+   "solucion": "Zapier/Make app and API returning volume, print time and price from an STL upload.",
+   "precio_usd_mes": 59,
+   "canal_primeros_100": "Zapier directory searches 'STL', Shopify and WooCommerce forums, 3D print service subreddits.",
+   "competidores": [
+    "Craftcloud (marketplace)",
+    "sin verificar"
+   ],
+   "por_que_ahora": "On-demand print shops multiply and want automated quoting.",
+   "ventaja_juan": "Printer firmware and slicing knowledge.",
+   "riesgo_principal": "Slicer estimates vary by machine and may be inaccurate.",
+   "evidencia_url": "sin verificar",
+   "angulo": "12",
+   "tema": "STL instant quoting",
+   "tema_norm": "cotización impresión 3D"
+  },
+  "ataque": {
+   "id": "G12-11",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "Craftcloud y los quoters integrados de plataformas (p. ej. servicios de impresión que ya calculan volumen/tiempo) cubren el caso; la estimación de tiempo/precio depende de la máquina y es poco fiable, y calcular volumen de un STL es trivial con librerías gratuitas, así que el comprador puede construirlo solo. Cliente (bureaus pequeños) con baja disposición a pagar $59.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G12-11",
+   "rescatar": true,
+   "respuesta": "Concedo que Craftcloud es un marketplace y que la estimación varía por máquina. Rebato: el producto es API/Zapier-Make que devuelve volumen, tiempo y precio con perfiles de máquina configurables, no un marketplace. Calcular volumen es trivial, pero tiempo calibrado con perfiles de impresora (ventaja de firmware/slicing de Juan) y la integración sin código no lo es para un bureau. Comprador: operador de bureau o tienda Shopify/WooCommerce de impresiones. Canal nombrado: directorio de Zapier/Make buscando 'STL', foros Shopify/Woo, subreddits de servicios de impresión.",
+   "ajuste_sugerido": "Subir expectativas de precisión con perfiles por máquina y margen configurable; vender por volumen de cotizaciones ($29-59) y apuntar a bureaus pequeños con tienda online."
+  }
+ },
+ {
+  "idea": {
+   "id": "G29-04",
+   "nombre": "Local Print Farm Manager",
+   "cliente_que_paga": "3D print farm owners with 5-50 printers",
+   "problema": "Cloud farm managers charge per printer per month and break when internet drops.",
+   "solucion": "LAN-only farm manager for queueing, spool tracking and failure logs, flat price per farm.",
+   "precio_usd_mes": 39,
+   "canal_primeros_100": "r/3Dprinting, Printables forums, Klipper/Moonraker Discord, YouTube maker channels",
+   "competidores": [
+    "OctoPrint (free)",
+    "3DPrinterOS",
+    "Obico"
+   ],
+   "por_que_ahora": "Etsy and print-on-demand farms are growing and want predictable cost.",
+   "ventaja_juan": "3D printer firmware experience.",
+   "riesgo_principal": "Free OctoPrint plugins cover part of the need.",
+   "evidencia_url": "sin verificar",
+   "angulo": "29",
+   "tema": "offline print farm",
+   "tema_norm": "cola y órdenes de granja 3D"
+  },
+  "ataque": {
+   "id": "G29-04",
+   "filtros_fallados": [
+    "F1"
+   ],
+   "objecion": "OctoPrint y sus plugins gratis ya dan colas y monitoreo local; el comprador (granja de 5-50 impresoras) es un nicho de aficionados reacios a pagar y el trabajo real de multi-impresora (Klipper/Moonraker, marcas distintas) es una integración frágil. Tamaño de mercado sin verificar.",
+   "severidad": "fuerte"
+  },
+  "defensa": {
+   "id": "G29-04",
+   "rescatar": true,
+   "respuesta": "Concedo que OctoPrint tiene plugins gratis y que es un nicho de aficionados. El comprador es el dueño de una granja que vende productos, con costo directo por impresora parada; el precio plano por granja rompe el modelo por impresora de las nubes. Canales nombrados y concretos: Klipper/Moonraker Discord, r/3Dprinting. Ventaja de Juan en firmware. Tamaño de mercado sin verificar.",
+   "ajuste_sugerido": "Foco en granjas comerciales Etsy/POD de 10-50 impresoras con Klipper, y no en hobbistas; precio plano 39-79 USD."
+  }
+ }
+]

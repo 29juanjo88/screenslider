@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G17-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-12",
+  "rescatar": true,
+  "respuesta": "Concedo que los fabricantes ofrecen dimensionadores gratis. Pero están atados a su propio catálogo: el ingeniero que compara marcas o trabaja con varios proveedores no tiene una herramienta neutral. El comprador es el ingeniero de diseño de máquinas con presupuesto de herramientas, y hay SEO 'servo motor sizing tool' y foros de motion control. Ventaja real de Juan en máquinas y PLC. Detalle de herramientas de marca: sin verificar.",
+  "ajuste_sugerido": "Posicionar como herramienta neutral multi-marca con curva torque-velocidad, inercia reflejada y exportación de informe; subir precio a ~US$49 o ofrecer plan por equipo; validar con 10 ingenieros antes de construir catálogos."
+ },
+ {
+  "id": "G07-04",
+  "rescatar": true,
+  "respuesta": "Concedo que Prism y Mockoon son OSS gratis y que Postman incluye mocks. La diferencia es estar dentro del IDE, con datos realistas y escenarios de error generados desde el spec abierto sin salir de VS Code, algo que obliga a configuración manual en las herramientas gratuitas. Comprador: dev backend/frontend; canal nombrado: VS Code Marketplace. Ventaja de Juan en APIs y GraphQL. Límites de planes gratuitos: sin verificar.",
+  "ajuste_sugerido": "Cuña en escenarios de error/latencia generados automáticamente y soporte GraphQL; modelo freemium con plan de equipo ~US$12-15 por usuario para mejorar volumen."
+ },
+ {
+  "id": "G10-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-20",
+  "rescatar": true,
+  "respuesta": "Concedo que trimesh/MeshLab/PyMeshFix cubren la reparación básica y que el nombre '3MF' no coincide con el foco STL. Pero el F1 no aplica a una API hospedada: el comprador es el dev de una plataforma de impresión bajo demanda o marketplace de modelos, que paga por no mantener una pipeline de reparación en servidor (dependencias nativas, casos límite, reporte de imprimibilidad). Es el mismo patrón que el ancla ALTA de conversión CAD por API. Canal nombrado: SEO 'repair stl api' y directorios de APIs. Ventaja real de Juan en mallas y firmware 3D. Competidores comerciales sin verificar.",
+  "ajuste_sugerido": "Renombrar a 'STL/3MF Repair & Printability API'; entregar reporte de imprimibilidad (paredes finas, voladizos) como diferenciador sobre OSS; precio por uso con plan base ~US$49-69."
+ },
+ {
+  "id": "G18-05",
+  "rescatar": true,
+  "respuesta": "Concedo que CAMotics es gratis y que la precisión depende del modelo de aceleración de cada máquina. Pero el estimador de taller necesita un perfil de máquina (aceleración, cambios de herramienta, rapids), no una simulación visual; el CAM integrado estima mal y por eso el taller subcotiza. Comprador concreto: estimador de job shop que pierde dinero cada cotización. Canal: Practical Machinist, r/CNC y SEO 'gcode time estimator'. Ventaja de Juan en CAM/CNC. Precisión de CAMotics: sin verificar.",
+  "ajuste_sugerido": "Incluir perfiles de máquina calibrables con tiempos reales del taller y exportar a cotización; atacar el nicho de subcotización, no la simulación."
+ },
+ {
+  "id": "G17-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-09",
+  "rescatar": true,
+  "respuesta": "Concedo que DeepNest es gratis y que SigmaNEST domina el nesting de calidad. Pero el hueco entre ambos es real: el taller pequeño no quiere instalar ni mantener una herramienta de escritorio de comunidad, y quiere reporte de desperdicio y exportación lista. Comprador concreto con dolor semanal en material, y búsqueda 'dxf nesting software' con intención. Ventaja de Juan en DXF y CAM. Calidad de DeepNest: sin verificar.",
+  "ajuste_sugerido": "Ofrecer anidado como API/servicio web integrable en cotizadores (sinergia con el ancla MEDIA) y con reporte de desperdicio; evaluar motores de nesting abiertos antes de escribir algoritmo propio."
+ },
+ {
+  "id": "G06-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-01",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-07",
+  "rescatar": true,
+  "respuesta": "Concedo que AWS Cost Anomaly Detection es gratis y que Vantage y CloudZero existen. El ángulo diferencial es la atribución causal a deploys y propietarios con resumen en Slack, que lo nativo no entrega. Comprador concreto: FinOps lead con presupuesto existente y precio US$199, por lo que ~50-250 clientes alcanzan la meta. Canal nombrado: AWS Marketplace y r/FinOps. El ciclo de seguridad por acceso a CUR es un riesgo cierto. Cifras de competidores: sin verificar.",
+  "ajuste_sugerido": "Acceso solo lectura al CUR, lanzar con integración GitHub Actions + Slack; precio US$149-199 por cuenta."
+ },
+ {
+  "id": "G19-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G26-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-11",
+  "rescatar": true,
+  "respuesta": "Concedo el riesgo de responsabilidad: es el punto más serio. Pero no es licencia regulada (F3): es una calculadora de ingeniería que el ingeniero firma y valida, como las hojas de cálculo que ya usa. El comprador es concreto (ingeniero eléctrico de consultora), ya paga ETAP/SKM caros o usa Excel, y hay SEO con intención de compra ('arc flash calculator IEEE 1584'). Precio US$89 permite 112 clientes para ~US$10k MRR. Tamaño de mercado y competidores gratuitos: sin verificar.",
+  "ajuste_sugerido": "Posicionar como herramienta de apoyo con descargo explícito, mostrar fórmulas y pasos de IEEE 1584 para auditabilidad, validar contra casos publicados del estándar antes de lanzar; MVP solo con etiquetas y reporte PDF."
+ },
+ {
+  "id": "G03-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-02",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-10",
+  "rescatar": true,
+  "respuesta": "Concedo que Vault OSS y Doppler existen y que los incumbentes pueden copiar la función. Pero el ángulo específico (credenciales de corta vida por herramienta de agente más redacción de secretos en trazas) es distinto de un gestor de secretos general y está emergiendo; la atacante misma lo reconoce como real. Comprador concreto: dev de agentes con acceso a APIs de terceros. Canal nombrado: directorios de MCP, GitHub Marketplace y SEO. Ventaja de Juan en seguridad backend y control de acceso. Tamaño de demanda: sin verificar.",
+  "ajuste_sugerido": "Enfocarse en un SDK/proxy MCP fácil de instalar y en la redacción de trazas como cuña inicial; evitar competir como bóveda general; precio US$39 con plan por equipo."
+ }
+]

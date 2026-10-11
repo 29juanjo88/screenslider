@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G24-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-03",
+  "rescatar": true,
+  "respuesta": "Concedo que el pool es pequeno y que las reglas varian por taller. Pero ese es justo el producto: reglas configurables por JSON (radio de plegado, distancia agujero-borde, rasgo minimo por material/espesor) con presets por material; el dev de cotizador SaaS paga $99 para no mantener su propio motor DXF/CAM, que es lo dificil. Comprador concreto: developer/product engineer de un SaaS de cotizacion o marketplace de fabricacion. Canal nombrado: SEO 'DXF DFM check api' y directorios de APIs, misma familia que el ancla ALTA (CAD API). Competidores comerciales: sin verificar. Ventaja de Juan alta (DXF/CAM).",
+  "ajuste_sugerido": "Posicionar como motor de reglas configurable, no API generica; cobrar por tramos de llamadas ($99/$249); compartir parser DXF con una API de conversion CAD para diversificar."
+ },
+ {
+  "id": "G27-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G19-04",
+  "rescatar": true,
+  "respuesta": "Concedo que las migraciones son proyectos puntuales y que el churn sera alto. Pero el comprador paga por proyecto y el valor por migracion es alto frente a horas de ingeniero; el canal nombrado (SEO 'migrate WinCC to Ignition', foro de Inductive Automation) tiene intencion clara. Competencia sin verificar. Ventaja de Juan alta (SCADA/PLC).",
+  "ajuste_sugerido": "Cambiar a precio por proyecto/licencia de conversion ($199-$499) o suscripcion trimestral; cubrir mas pares de plataformas para recurrencia; riesgo de nicho pequeno se mantiene."
+ },
+ {
+  "id": "G24-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G19-01",
+  "rescatar": true,
+  "respuesta": "Concedo que los formatos son cerrados y que CI en PLC es temprano. Rebate: el pool existe y crece (TIA Openness, PLCopen XML, Git en control), y una herramienta que opera sobre ST/SCL exportado como texto/PLCopen no necesita el binario. Comprador: ingeniero lider/integrador con estandares internos que hoy revisa a mano. Canal nombrado: GitHub Marketplace + SEO 'structured text linter' + PLCtalk/r/PLC. Ventaja de Juan muy alta y pocos la tienen. Competidores de fabricantes sin verificar.",
+  "ajuste_sugerido": "Empezar con ST/SCL en texto y PLCopen XML (CODESYS, TIA via export); precio $29 por usuario/equipo; reglas de estilo configurables por empresa."
+ },
+ {
+  "id": "G01-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-09",
+  "rescatar": true,
+  "respuesta": "Concedo que n8n y otras plataformas anaden nodos de aprobacion y que la ventana es corta. Rebate: la aprobacion nativa es basica; el valor esta en politicas (umbrales de gasto, aprobadores por rol, auditoria exportable) multiplataforma n8n/Make/Zapier, algo que cada plataforma no hace de forma neutral. Comprador: equipo que corre agentes en produccion. Canal nombrado: n8n community nodes, directorios Make/Zapier, SEO 'human in the loop n8n'. HumanLayer: detalles sin verificar.",
+  "ajuste_sugerido": "Enfocar en auditoria/compliance y politicas entre plataformas, no en el simple boton de aprobar; MVP rapido; riesgo de funcion nativa sigue siendo alto."
+ },
+ {
+  "id": "G24-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-19",
+  "rescatar": true,
+  "respuesta": "Concedo la contradiccion licencia unica vs $29/mes. Pero la propia objecion reconoce que el SEO 'tolerance stack up calculator' tiene intencion de compra y que Juan tiene ventaja real. Comprador concreto: ingeniero de diseno mecanico que paga por algo mejor que su hoja y mas barato que CETOL. Canal nombrado: SEO + Eng-Tips + r/MechanicalEngineering. Fijar un modelo coherente.",
+  "ajuste_sugerido": "Suscripcion web ($15-29/mes) o licencia anual con Monte Carlo, informes PDF y plantillas GD&T; evitar licencia unica para sostener MRR; mercado pequeno es riesgo real."
+ },
+ {
+  "id": "G07-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-01",
+  "rescatar": true,
+  "respuesta": "Concedo dependencia de plataforma y demanda no demostrada. Rebate: el canal es de busqueda con intencion (Zapier App Directory/Make/n8n community nodes, 'STEP file'); comprador concreto es ops/product engineer de ecommerce de manufactura y SaaS de cotizacion, que hoy previsualiza piezas a mano. No necesita que todo Zapier maneje STEP, solo nicho de pocos miles; $49 con 200 clientes llega a ~$10k. Ventaja de Juan alta, MVP en menos de 6 semanas sobre kernel open source. Competencia sin verificar.",
+  "ajuste_sugerido": "Lanzar primero como API/SEO 'step to png api' y empaquetar luego como app Zapier/Make/n8n; compartir backend con ancla CAD API para diversificar plataformas."
+ },
+ {
+  "id": "G10-03",
+  "rescatar": true,
+  "respuesta": "Concedo que AWS Marketplace tiene onboarding y que $300 x 100 es irreal. Pero el ajuste es usar Marketplace como canal secundario (facturacion por AWS bill sin procurement, autoservicio por suscripcion de contenedor) y el SEO 'step to gltf api' como principal; no es F3 (sin capital ni licencias, solo trabajo de empaquetado). Comprador concreto: developer de SaaS de manufactura. Con $300 bastan ~35-60 clientes para $10-18k. OpenCascade DIY es el riesgo real; se vence con mantenimiento y soporte de formatos. Competidores CAD Exchanger y APS existen, precios sin verificar.",
+  "ajuste_sugerido": "Misma API que el ancla ALTA, con tier SaaS directo ($49-$149) y listado AWS Marketplace como tier enterprise autoservicio; fusionar con otras ideas de conversion CAD."
+ },
+ {
+  "id": "G08-03",
+  "rescatar": true,
+  "respuesta": "Concedo que el slicer CLI es gratis y que hay pipelines internos. Rebate: el valor es la infraestructura headless escalable, perfiles de impresora/material mantenidos y salida lista para cotizar (tiempo, gramos, costo, imprimibilidad), que servicios on-demand y granjas pequenas no quieren mantener. Comprador: developer de plataforma de impresion bajo demanda. Canal nombrado: SEO 'stl print time estimate api' y directorios de APIs. Ventaja de Juan alta (firmware, slicers). Competencia comercial sin verificar. Ajuste: precio por volumen.",
+  "ajuste_sugerido": "Vender perfiles de maquina calibrados y precision de estimacion como diferenciador; tiers por llamadas; evitar competir con 'slicer gratis' mostrando error vs tiempo real."
+ },
+ {
+  "id": "G19-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-02",
+  "rescatar": true,
+  "respuesta": "Concedo que axe y Lighthouse son gratis y que la automatizacion cubre solo parte de WCAG. Rebate: no se vende la deteccion sino el flujo de cumplimiento: auditoria por PR, declaracion de accesibilidad generada y reporte exportable para el EAA, con presupuesto existente por obligacion legal. Comprador: equipo frontend/producto de ecommerce o SaaS que vende en la UE. Canal nombrado: GitHub Marketplace y SEO 'EAA compliance checklist'. Competidores de pago sin verificar. No exige licencia regulada: es herramienta, no certificacion.",
+  "ajuste_sugerido": "Posicionar como capa de reporte y evidencia de cumplimiento sobre axe/Pa11y (los usa como motor), con historial por release; evitar prometer conformidad legal."
+ }
+]

@@ -1,0 +1,6 @@
+Rol: DEFENSOR (Etapa 2, lote 11). Responde en español. PROHIBIDO usar búsquedas web en esta etapa.
+1) Lee /home/user/screenslider/embudo/brief.md completo.
+2) Lee /home/user/screenslider/embudo/e2/lote_11.json y los ataques en /home/user/screenslider/embudo/e2/ataque_11.json.
+3) Responde SOLO a las ideas que de verdad vale la pena rescatar (normalmente entre un tercio y la mitad; no defiendas por defender). Para cada una: rebate la objeción con argumentos concretos (por qué el filtro no aplica, qué comprador paga, qué canal nombrado funciona, ajuste de precio/nicho que la hace viable). Concede lo que sea cierto. No inventes cifras ni competidores (usa "sin verificar" si no estás seguro).
+4) Escribe /home/user/screenslider/embudo/e2/defensa_11.json: lista con TODAS las ideas del lote: {"id","rescatar":true/false,"respuesta":"..." ("" si no rescatas),"ajuste_sugerido":"" o texto}. Valida con python3.
+5) Respuesta final: solo "OK" y 1 línea (cuántas rescataste).

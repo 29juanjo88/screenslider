@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G01-08",
+  "rescatar": true,
+  "respuesta": "Concedo que los cargos reales están en facturas del carrier y no en Shopify, y que existen servicios de recuperación de fletes por éxito (sin verificar). Pero eso se resuelve con importación del CSV de facturas del carrier, que ya es un flujo común; el ángulo es corregir la causa raíz (datos de peso y dimensiones del catálogo), no solo reclamar. Comprador concreto (comerciante con altos costos de envío), canal nombrado (búsqueda 'shipping audit' en Shopify App Store), $39 implica ~260 clientes. Riesgo de fricción de onboarding aceptado.",
+  "ajuste_sugerido": "Cambiar el modelo a carga del CSV de facturas UPS/FedEx, detectar SKUs con datos erróneos y proponer correcciones; considerar cobro como porcentaje del ahorro."
+ },
+ {
+  "id": "G15-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-08",
+  "rescatar": true,
+  "respuesta": "Concedo que HubSpot tiene integración nativa de Stripe y quizá apps de conciliación (sin verificar). Pero la integración nativa sincroniza datos y no está diseñada para detectar discrepancias entre facturas y deals. El comprador es concreto (RevOps/finanzas de SaaS B2B), el dolor es dinero mal reportado, y el canal es nombrado (búsqueda 'Stripe' en HubSpot App Marketplace con intención de compra). A $59 hacen falta ~170 clientes. La habilidad de integraciones backend de Juan encaja y el MVP cabe en 6 semanas.",
+  "ajuste_sugerido": "Enfocar en detección y alertas de discrepancias (no sincronización) y en cierre mensual de ingresos; subir a $79 con tiers por volumen de facturas."
+ },
+ {
+  "id": "G09-08",
+  "rescatar": true,
+  "respuesta": "Concedo que Zonos y otros existen y que la clasificación HS errónea conlleva riesgo de responsabilidad. Pero el problema es recurrente y la herramienta sugiere, no certifica; se mitiga con descargo y revisión del usuario. Las bases de datos públicas no entregan el flujo completo en Shopify (sugerencia por producto, documentos, relleno masivo). Comprador concreto (tienda Shopify con envío internacional), canal nombrado (búsqueda 'HS code' en Shopify App Store y SEO 'hs code for [product]' como activo compuesto). Ajuste de precio a $29-49 con tiers por número de SKU.",
+  "ajuste_sugerido": "Vender relleno masivo de HS codes para el catálogo completo y documentos; SEO programático como canal secundario."
+ },
+ {
+  "id": "G16-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-20",
+  "rescatar": true,
+  "respuesta": "Concedo que Dev Mode cubre parte del handoff y que los plugins de Figma monetizan mal (sin verificar). Aun así, la generación de hoja de especificación PDF con cotas y BOM desde frames anotados orientada a manufactura no está cubierta por Dev Mode, que apunta a ingeniería de software. Comprador: diseñador de producto de hardware que entrega a manufactura; canal nombrado (Figma Community 'spec'/'handoff'). La ventaja de Juan en BOM y manufactura es real. Precio a $19 exige volumen alto, por lo que solo se rescata con ajuste de precio o producto.",
+  "ajuste_sugerido": "Subir a $39-49 por equipo y orientar a startups de hardware; si el volumen no llega, descartar."
+ },
+ {
+  "id": "G14-14",
+  "rescatar": true,
+  "respuesta": "Concedo que el mercado es pequeño hoy y que OpenCascade/CadQuery extraen geometría gratis. Pero quien construye un agente de cotización/DFM no quiere mantener un pipeline CAD: paga por una API lista (volumen, agujeros, materiales, features) igual que se paga por conversión de archivos. El comprador es concreto (equipo de producto de un cotizador o DFM), el canal es SEO de cola larga 'step file API' más directorios MCP, y la ventaja de Juan en formatos CAD es rara. A $69 hacen falta ~145 clientes. Compite en conveniencia, no en capacidad. Demanda aún especulativa (sin verificar).",
+  "ajuste_sugerido": "Vender primero como API REST con SEO para 'step to json/features api'; MCP como segundo canal. Cobrar por uso con mínimo mensual."
+ },
+ {
+  "id": "G14-13",
+  "rescatar": true,
+  "respuesta": "Concedo que OT es conservador y que pueden existir servidores OPC UA/Modbus MCP abiertos (sin verificar). Pero el diseño de solo lectura con listas de permitidos y registro de auditoría ataca justo la objeción de seguridad, y es algo que un integrador puede comprar por tarjeta sin ciclo de ventas. Comprador concreto (integrador/ingeniero de automatización), canal nombrado (PLCTalk, r/PLC, SEO 'OPC UA MCP server'), y la ventaja de Juan en TIA Portal/Rockwell es de las más fuertes del lote. A $79 hacen falta ~127 clientes.",
+  "ajuste_sugerido": "Reposicionar como gateway de auditoría y solo lectura para integradores; ofrecer licencia por planta o por integrador."
+ },
+ {
+  "id": "G11-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-10",
+  "rescatar": true,
+  "respuesta": "Concedo que existen apps de BOM/PLM para Jira (sin verificar) y que el nicho es acotado. Pero ninguna objeción activa un filtro: comprador concreto (ingeniero de producto en startups de hardware que evitan PLM caro), presupuesto existente (alternativa son Arena/Onshape o PLM costoso) y canal nombrado (búsqueda 'bill of materials' en Atlassian Marketplace, intención de compra alta). A $130 se necesitan ~80 clientes para $10k. Ventaja de Juan directa en ensamblados y BOM. MVP viable en 6 semanas.",
+  "ajuste_sugerido": "Posicionar como BOM ligera versionada por issue con export CSV a compras; evitar competir con PLM completo."
+ },
+ {
+  "id": "G15-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-01",
+  "rescatar": true,
+  "respuesta": "Concedo que hay visores CAD para Jira sin verificar y que Forge limita ejecución y tamaño. Pero el filtro F1 no aplica: no hay incumbente gratis nativo en Jira que renderice STEP/DXF/3MF. El comprador es concreto (ingeniero de producto o PM de hardware con Jira Cloud) y el canal es nombrado (búsqueda 'CAD viewer'/'STL' en Atlassian Marketplace). A $150/mes por equipo bastan ~70-100 equipos para $10k+, lejos del volumen irreal de F5. La ventaja de Juan en formatos CAD es real y el render puede ir en backend externo (Remote de Forge) para sortear límites de tamaño. La dependencia de Atlassian es riesgo, no descarte.",
+  "ajuste_sugerido": "Backend de render externo, empezar con STL/DXF/3MF y luego STEP; precio por equipo con tiers por usuarios."
+ },
+ {
+  "id": "G20-02",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G15-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-18",
+  "rescatar": true,
+  "respuesta": "Concedo que el comprador es de nicho y que SolidWorks tiene TolAnalyst. Pero ese módulo está atado a SolidWorks y a licencia cara; quien construye una herramienta CAD web o un cotizador no lo puede integrar. Hay búsqueda con intención ('tolerance stack-up calculator api'), poca competencia como servicio (sin verificar) y la ventaja de Juan en ingeniería mecánica es real. A $79 se necesitan ~127 clientes. Es un mercado pequeño, pero compatible con la meta si se vende también como calculadora web.",
+  "ajuste_sugerido": "Lanzar primero una calculadora web gratuita con SEO que alimente la API de pago; segmentar a desarrolladores de CAD web, cotizadores y PLM."
+ },
+ {
+  "id": "G10-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

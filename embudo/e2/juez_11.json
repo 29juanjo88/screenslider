@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G29-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Clockify tiene plan gratis ilimitado y Toggl también; sin diferenciador real."
+ },
+ {
+  "id": "G04-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Atlassian Marketplace es canal con intención, pero el espacio OKR está saturado y Atlassian Goals es nativo; clon sin ángulo."
+ },
+ {
+  "id": "G03-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Comprador de compliance implica revisión de seguridad/ventas y Enterprise Grid cubre parte; sin evidencia."
+ },
+ {
+  "id": "G13-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "zizmor es gratis y detecta; el valor está solo en remediación por PR, y los devs de seguridad esperan gratis."
+ },
+ {
+  "id": "G22-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Gumroad ya ofrece bundles y cupones nativos; el creador pequeño no paga por ello."
+ },
+ {
+  "id": "G06-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Plugins de VAT para WooCommerce ya establecidos y responsabilidad fiscal; canal WordPress.org real pero sin ángulo."
+ },
+ {
+  "id": "G18-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "Ventaja CAD de chapa real y MVP rápido, pero audiencia diminuta y fórmula pública."
+ },
+ {
+  "id": "G07-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "regex101 e IA en el editor son gratis y a $5/mes la meta exige volumen irreal (F1/F5)."
+ },
+ {
+  "id": "G07-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Ventaja de firmware 3D, pero OctoPrint/Mainsail/Obico gratis, APIs cerradas y canal VS Code dudoso."
+ },
+ {
+  "id": "G02-01",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Tracespace, KiCad y visores de fabricantes gratis cubren la necesidad."
+ },
+ {
+  "id": "G03-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "Ventaja CAD fuerte y ángulo dentro de Teams, pero baja intención de búsqueda en el store y visores gratis."
+ },
+ {
+  "id": "G12-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "SEO 'Notion as CMS' tiene intención y MVP rápido, pero caché propio es trivial y Notion puede mejorar su API."
+ },
+ {
+  "id": "G15-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 29,
+  "razon": "Heidi y Freed bien financiados dominan el canal; carga de privacidad de datos de salud sin ventaja."
+ },
+ {
+  "id": "G29-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "PrusaSlicer, Bambu Studio y 3D Builder reparan mallas gratis y localmente."
+ },
+ {
+  "id": "G16-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 30,
+  "razon": "Dolor por fecha regulatoria pero aplazada repetidamente; ventana temporal y riesgo regulatorio alto, sin evidencia."
+ },
+ {
+  "id": "G13-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Dolor semanal medible y GitHub Marketplace como canal, pero BuildPulse/Trunk ya ocupan el espacio."
+ },
+ {
+  "id": "G26-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Mercado pequeño y plantillas gratis; benchmarks requieren datos que no se tienen; evidencia Capterra no valida demanda."
+ },
+ {
+  "id": "G20-10",
+  "filtro_fallado": "F4",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Compradores institucionales (escuelas) con ciclo lento; sin canal de autoservicio para los primeros 100."
+ },
+ {
+  "id": "G04-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Ventaja 3D real pero nicho minúsculo y búsqueda '3D printing' en Atlassian sin intención de compra."
+ },
+ {
+  "id": "G22-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 1,
+   "riesgo": 2
+  },
+  "total": 26,
+  "razon": "Ventaja PLC real, pero simulador ladder compatible es meses de trabajo y OpenPLC/LogixPro cubren."
+ },
+ {
+  "id": "G13-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Uptime Kuma, StatusCake y avisos nativos de cloud/Let's Encrypt cubren gratis."
+ },
+ {
+  "id": "G22-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Descript, Castmagic y cualquier LLM generan show notes; commodity y SEO dominado por gratis."
+ },
+ {
+  "id": "G20-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Calculadoras de costo de impresión 3D gratuitas y slicers ya calculan costo."
+ },
+ {
+  "id": "G23-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 39,
+  "razon": "Dolor monetario recurrente y comprador claro con SEO de intención; tarifa fija vs comisión, aunque hay incumbentes y dependencia de SP-API."
+ },
+ {
+  "id": "G15-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Dolor semanal y software ya pagado, pero incumbentes integran IA y el canal pasa por su software."
+ },
+ {
+  "id": "G10-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Salesforce Optimizer y Code Analyzer/Flow Scanner son gratuitos y nativos."
+ },
+ {
+  "id": "G13-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 1
+  },
+  "total": 27,
+  "razon": "Mercado acotado y GitHub puede absorber la analítica de asientos de forma nativa."
+ }
+]

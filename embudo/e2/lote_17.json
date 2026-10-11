@@ -1,0 +1,542 @@
+[
+ {
+  "id": "G15-20",
+  "nombre": "Agente de BOM y compras desde CAD",
+  "cliente_que_paga": "Ingenieros de compras en fabricantes de equipo pequeño",
+  "problema": "Armar la lista de materiales y buscar proveedores desde ensamblajes CAD es manual.",
+  "solucion": "Sube un ensamblaje STEP; el agente extrae la BOM, normaliza piezas y sugiere proveedores y alternativas.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "Foros de SolidWorks y r/SolidWorks, SEO 'STEP to BOM'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los LLM normalizan descripciones de piezas.",
+  "ventaja_juan": "CAD y SolidWorks.",
+  "riesgo_principal": "Cobertura de catálogos de proveedores.",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "BOM desde CAD",
+  "tema_norm": "BOM y compras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-09",
+  "nombre": "API Status Page Generator",
+  "cliente_que_paga": "Startups SaaS y equipos de desarrollo",
+  "problema": "Mantener una página de estado propia cuesta tiempo.",
+  "solucion": "Generador de status pages con dominios por proyecto y SEO por 'status of [service]' agregado.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'status page for saas' y Product Hunt/IndieHackers.",
+  "competidores": [
+   "Statuspage (Atlassian)",
+   "Better Stack (precios sin verificar)"
+  ],
+  "por_que_ahora": "Más SaaS pequeños necesitan transparencia.",
+  "ventaja_juan": "Backend Node/TS.",
+  "riesgo_principal": "F1: competidores con planes gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "status pages SaaS",
+  "tema_norm": "webhooks y estado de APIs",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-06",
+  "nombre": "Shopify competitor stock tracker",
+  "cliente_que_paga": "Dueños de tiendas Shopify de nicho",
+  "problema": "No saben cuándo se agota un producto rival ni cambia su precio.",
+  "solucion": "App que sigue productos de tiendas Shopify públicas (/products.json) con alertas.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'competitor price tracking' en Shopify App Store",
+  "competidores": [
+   "Prisync",
+   "Competera (sin verificar planes)"
+  ],
+  "por_que_ahora": "Mayor competencia entre tiendas pequeñas.",
+  "ventaja_juan": "Backend y GraphQL de Shopify.",
+  "riesgo_principal": "Dependencia de la plataforma Shopify.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "rastreo competidores Shopify",
+  "tema_norm": "monitoreo de precios y mercados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-10",
+  "nombre": "Workflow Template Storefront",
+  "cliente_que_paga": "Creators selling n8n/Make/Zapier templates",
+  "problema": "Selling templates through Gumroad lacks license keys, updates and import links.",
+  "solucion": "Storefront with license keys, versioned updates and one-click import links for workflows.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Creators on YouTube and X, n8n and Make forums, SEO 'sell n8n templates'.",
+  "competidores": [
+   "Gumroad (generic)"
+  ],
+  "por_que_ahora": "Template economy around n8n and Make is booming.",
+  "ventaja_juan": "Quick Next.js and Stripe build.",
+  "riesgo_principal": "Creators may stay on Gumroad; marketplace chicken-and-egg problem.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "template selling platform",
+  "tema_norm": "cursos y monetización de creadores",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-17",
+  "nombre": "Shipping Rate Calculator by Dimensions",
+  "cliente_que_paga": "Tiendas con productos voluminosos o pesados",
+  "problema": "Las tarifas por peso no reflejan costos reales.",
+  "solucion": "Plugin que calcula envío por dimensiones y paquetes.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "WordPress.org y 'woocommerce shipping dimensions'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Costos de envío en alza.",
+  "ventaja_juan": "Backend y cálculo de empaque.",
+  "riesgo_principal": "Muchos plugins de envío.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cálculo envío dimensional",
+  "tema_norm": "operaciones de tienda online",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-02",
+  "nombre": "Podcast Ad Insertion Tracker",
+  "cliente_que_paga": "Podcasters medianos con anuncios dinámicos",
+  "problema": "Reportar entregas de anuncios a patrocinadores es manual en hojas de cálculo.",
+  "solucion": "Panel que une descargas de hosting y contratos para generar reportes de entrega para sponsors.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Directorio de integraciones de Buzzsprout/Transistor y SEO 'podcast sponsor report template'",
+  "competidores": [
+   "Spreadsheets",
+   "Podscribe",
+   "Megaphone"
+  ],
+  "por_que_ahora": "Más podcasts con anuncios directos sin red.",
+  "ventaja_juan": "Ninguna directa.",
+  "riesgo_principal": "Hosts añaden reportes nativos (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "reportes sponsors podcast",
+  "tema_norm": "newsletters y podcasts",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-04",
+  "nombre": "CNC Hobby Feeds",
+  "cliente_que_paga": "Dueños de CNC de escritorio (Shapeoko, X-Carve, 3018)",
+  "problema": "Elegir velocidades/avances por material y fresa es adivinar.",
+  "solucion": "Calculadora de feeds y speeds con biblioteca de fresas y perfiles de máquina, exporta ajustes a Carbide Create/Fusion.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "SEO 'feeds and speeds calculator', foros Carbide 3D y r/hobbycnc.",
+  "competidores": [
+   "G-Wizard (sin verificar precio)",
+   "Fusion 360 CAM (gratis personal)"
+  ],
+  "por_que_ahora": "Venta masiva de CNC de escritorio a precio accesible.",
+  "ventaja_juan": "Experiencia CAM y mecanizado.",
+  "riesgo_principal": "Fusion y fabricantes ofrecen herramientas gratis.",
+  "evidencia_url": "https://discourse.shapr3d.com/t/additional-subscription-plans/26010",
+  "angulo": "24",
+  "tema": "feeds speeds CNC",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-16",
+  "nombre": "3MF Slicer Preset Library",
+  "cliente_que_paga": "Dueños de impresoras 3D y farms",
+  "problema": "Encontrar perfiles de laminado probados por impresora/filamento es disperso.",
+  "solucion": "Biblioteca de perfiles con páginas por impresora/filamento y sincronización con slicers en plan de pago.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "SEO '[printer] [filament] slicer profile' y subreddits.",
+  "competidores": [
+   "Sin verificar (repositorios comunitarios gratuitos)"
+  ],
+  "por_que_ahora": "Mucha variedad de impresoras y filamentos.",
+  "ventaja_juan": "Firmware de impresoras 3D.",
+  "riesgo_principal": "F1/F5: perfiles gratuitos en comunidades.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "perfiles slicer",
+  "tema_norm": "perfiles slicer y firmware 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-14",
+  "nombre": "Pallet & Container Load Calc",
+  "cliente_que_paga": "Logística de pequeños importadores/exportadores",
+  "problema": "Planificar carga de contenedores y pallets reduce costos pero es manual.",
+  "solucion": "Calculadora 3D de carga con páginas SEO por contenedor/producto y exportación PDF.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'container load calculator' y foros de importadores.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Fletes volátiles incentivan optimizar.",
+  "ventaja_juan": "Conocimiento CAD/3D.",
+  "riesgo_principal": "Competidores desconocidos; producto de nicho.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "carga contenedor",
+  "tema_norm": "calculadoras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-05",
+  "nombre": "Calculadora de OEE por CSV",
+  "cliente_que_paga": "Gerentes de planta y mejora continua",
+  "problema": "Calcular OEE en Excel es manual y los sistemas MES son caros.",
+  "solucion": "Sube CSV de paros y producción y obtiene OEE y Pareto con enlaces compartibles.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'OEE calculator'; r/manufacturing y LinkedIn",
+  "competidores": [
+   "Vorne, Evocon (sin verificar precios)"
+  ],
+  "por_que_ahora": "Presión por productividad en plantas medianas.",
+  "ventaja_juan": "Conozco la operación industrial.",
+  "riesgo_principal": "Muchas hojas gratis existen (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "OEE autoservicio",
+  "tema_norm": "calidad y soldadura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-06",
+  "nombre": "Data Quality Guard",
+  "cliente_que_paga": "Analistas de datos y operaciones en empresas medianas",
+  "problema": "Los errores en hojas compartidas (fórmulas rotas, valores fuera de rango) se detectan tarde.",
+  "solucion": "Complemento de Sheets/Excel con reglas de validación, alertas por Slack y registro de auditoría.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de Google Workspace y AppSource; contenido SEO 'spreadsheet audit'.",
+  "competidores": [
+   "Spreadsheet auditing tools",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más equipos usan hojas como sistema de registro.",
+  "ventaja_juan": "Mentalidad de control industrial aplicada a datos.",
+  "riesgo_principal": "Plataforma única y competidores generalistas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "auditoría de hojas",
+  "tema_norm": "datos: extracción y respaldo",
+  "duplicado_de": null
+ },
+ {
+  "id": "G04-04",
+  "nombre": "PLC Project Docs for Confluence",
+  "cliente_que_paga": "Ingenieros de automatización e integradores de sistemas",
+  "problema": "La documentación de proyectos PLC (listas de E/S, tags) vive en Excel desconectada de Confluence.",
+  "solucion": "Macro Confluence que importa listas de tags/E/S de TIA Portal y Studio 5000 y genera páginas versionadas.",
+  "precio_usd_mes": 90,
+  "canal_primeros_100": "Búsqueda 'PLC' 'automation' en Atlassian Marketplace; foros PLCtalk y r/PLC",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Integradores buscan documentación estandarizada y trazable.",
+  "ventaja_juan": "Experiencia directa con TIA Portal y Studio 5000.",
+  "riesgo_principal": "Mercado de nicho chico en Atlassian.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "documentación PLC Confluence",
+  "tema_norm": "documentación de PLC",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-09",
+  "nombre": "Evidencia de pentest y hallazgos",
+  "cliente_que_paga": "Responsable de seguridad",
+  "problema": "Seguir hallazgos de pentest y vulnerabilidades entre PDFs y Jira es caótico.",
+  "solucion": "Importa informes, normaliza hallazgos y genera seguimiento con SLA.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Búsqueda 'pentest findings tracker' y comunidades r/netsec",
+  "competidores": [
+   "DefectDojo (gratis)",
+   "Plextrac",
+   "Jira"
+  ],
+  "por_que_ahora": "Más clientes piden retest evidenciado.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "DefectDojo gratis (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "hallazgos de pentest",
+  "tema_norm": "evidencia SOC2/ISO y compliance TI",
+  "duplicado_de": null
+ },
+ {
+  "id": "G28-19",
+  "nombre": "Weld Procedure Spec Builder",
+  "cliente_que_paga": "Fabrication shops and welding engineers",
+  "problema": "WPS/PQR documents are assembled by hand in Word.",
+  "solucion": "Web tool that builds WPS/PQR sheets with code-aware field checks and PDF export.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'WPS template AWS D1.1' and welding forums",
+  "competidores": [
+   "Weldassistant",
+   "Manual Word templates"
+  ],
+  "por_que_ahora": "Audit paperwork is persistent.",
+  "ventaja_juan": "Industrial fabrication context.",
+  "riesgo_principal": "Code compliance liability.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "welding procedure docs",
+  "tema_norm": "calidad y soldadura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-17",
+  "nombre": "Monitoreo de flota de impresoras 3D",
+  "cliente_que_paga": "Gerente de laboratorio/producción de prototipos",
+  "problema": "No se ve el estado de varias impresoras 3D.",
+  "solucion": "Panel que une Klipper/OctoPrint, alertas de fallo y costos por trabajo.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Comunidades Klipper/OctoPrint y SEO 'print farm management'",
+  "competidores": [
+   "3DPrinterOS",
+   "AstroPrint",
+   "Obico"
+  ],
+  "por_que_ahora": "Más granjas de impresión.",
+  "ventaja_juan": "Firmware de impresoras 3D.",
+  "riesgo_principal": "Competidores con versión gratuita.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "granja de impresión",
+  "tema_norm": "monitoreo y diagnóstico de impresoras 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-03",
+  "nombre": "GCode Doctor",
+  "cliente_que_paga": "Dueños de impresoras 3D con fallos de calidad",
+  "problema": "Diagnosticar artefactos de impresión requiere prueba y error.",
+  "solucion": "Sube G-code/foto de la pieza y recibe diagnóstico y ajustes de perfil para tu slicer.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "SEO 'stringing fix', 'layer shift' y respuestas en r/FixMyPrint y foros de Bambu.",
+  "competidores": [
+   "Simplify3D guía de problemas (estática)",
+   "Obico (sin verificar funciones)"
+  ],
+  "por_que_ahora": "Los modelos de visión permiten diagnóstico por foto a bajo costo.",
+  "ventaja_juan": "Conoce firmware, G-code y cinemática de impresoras.",
+  "riesgo_principal": "Mercado de chatbots genéricos gratis podría cubrirlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "diagnóstico impresión 3D",
+  "tema_norm": "monitoreo y diagnóstico de impresoras 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-02",
+  "nombre": "Etsy 3D Print Order Router",
+  "cliente_que_paga": "Etsy sellers who 3D print products",
+  "problema": "Variations and orders must be manually mapped to STL files, filament and printers.",
+  "solucion": "Etsy order to print-job mapping with automatic queue, filament need and tracking updates.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Etsy seller forums, r/3Dprinting, r/EtsySellers, YouTube 3D print business creators",
+  "competidores": [
+   "Printago",
+   "SimplyPrint"
+  ],
+  "por_que_ahora": "Print-on-demand with home farms is booming.",
+  "ventaja_juan": "3D printer firmware and slicer knowledge.",
+  "riesgo_principal": "Printago/SimplyPrint already cover this.",
+  "evidencia_url": "https://printago.io/solutions/etsy-sellers",
+  "angulo": "23",
+  "tema": "Etsy impresion 3D",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-17",
+  "nombre": "Hardware UI Kit Builder",
+  "cliente_que_paga": "Diseñadores de HMI/panel (industrial) y UX de IoT",
+  "problema": "Diseñar interfaces HMI para PLC/panel exige símbolos ISA y plantillas inexistentes en Figma.",
+  "solucion": "Plugin con biblioteca de componentes HMI/P&ID y exportación a especificación para ingenieros de control.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Figma Community ('HMI', 'industrial') y foros LinkedIn/PLCtalk.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fábricas modernizan HMIs con diseño UX.",
+  "ventaja_juan": "Experiencia directa PLC/Siemens/Rockwell.",
+  "riesgo_principal": "Mercado pequeño y poco tráfico en Community.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "HMI industrial en Figma",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G15-10",
+  "nombre": "Agente de entradas de Plaid a QuickBooks",
+  "cliente_que_paga": "Contadores independientes con clientes de e-commerce",
+  "problema": "Categorizar transacciones y conciliar ventas de marketplaces es repetitivo.",
+  "solucion": "Agente que categoriza y concilia pagos de Amazon, Shopify y Stripe en el libro.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "QuickBooks App Store, búsqueda 'Amazon reconciliation QuickBooks'.",
+  "competidores": [
+   "A2X",
+   "Link My Books"
+  ],
+  "por_que_ahora": "Hay incumbentes consolidados.",
+  "ventaja_juan": "Ninguna.",
+  "riesgo_principal": "Incumbentes fuertes (posible F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "conciliación e-commerce",
+  "tema_norm": "facturación, impuestos y conciliación",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-09",
+  "nombre": "Cloud pricing change feed",
+  "cliente_que_paga": "FinOps y equipos de plataforma",
+  "problema": "Los precios de AWS/GCP/Azure cambian y nadie lo sigue de forma estructurada.",
+  "solucion": "Dataset diario de precios y SKUs con diff y webhooks.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'AWS price change tracker', comunidad FinOps y r/aws",
+  "competidores": [
+   "Vantage",
+   "Infracost (sin verificar cobertura de diffs)"
+  ],
+  "por_que_ahora": "Costos de GPU/IA cambian rápido.",
+  "ventaja_juan": "Backend con datos estructurados.",
+  "riesgo_principal": "Los proveedores ya publican APIs de precios gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "datos precios cloud",
+  "tema_norm": "monitoreo de precios y mercados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-11",
+  "nombre": "Dyno Notes",
+  "cliente_que_paga": "Dueños de autos modificados y track days",
+  "problema": "Los datos de pista y ajustes están dispersos.",
+  "solucion": "Registro de ajustes de suspensión/neumáticos con comparación de vueltas y notas por circuito.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Foros de track days, r/Autocross, grupos de Facebook de club y YouTube.",
+  "competidores": [
+   "Harry's LapTimer (sin verificar)",
+   "Racelogic (hardware)"
+  ],
+  "por_que_ahora": "Auge de track days y coches usados modificados.",
+  "ventaja_juan": "Conocimiento mecánico/ingeniería.",
+  "riesgo_principal": "Mercado de nicho disperso.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "registro track day",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-07",
+  "nombre": "Filament Inventory Tracker",
+  "cliente_que_paga": "Granjas y makers con muchos carretes",
+  "problema": "Se acaba el filamento a mitad de impresión y no hay trazabilidad.",
+  "solucion": "App con escaneo QR de carretes, peso restante y alertas integradas a OctoPrint/Klipper.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Plugin en repos de OctoPrint y Spoolman en r/3Dprinting.",
+  "competidores": [
+   "Spoolman (gratis)",
+   "Hojas de cálculo"
+  ],
+  "por_que_ahora": "Spoolman popularizó el seguimiento pero sin SaaS.",
+  "ventaja_juan": "Entiende el flujo de filamento.",
+  "riesgo_principal": "Spoolman gratuito sugiere F1 fuerte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "inventario filamento",
+  "tema_norm": "monitoreo y diagnóstico de impresoras 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-08",
+  "nombre": "Slicer Settings Library",
+  "cliente_que_paga": "Usuarios de impresión 3D profesional",
+  "problema": "Los perfiles de slicer (Cura, PrusaSlicer) no se comparan ni versionan.",
+  "solucion": "Complemento de Sheets que importa perfiles, compara parámetros entre versiones y relaciona resultados de calidad.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "r/3Dprinting, foros de Prusa y Marketplace de Google.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más usuarios avanzados con múltiples impresoras.",
+  "ventaja_juan": "Experiencia con firmware de impresoras 3D.",
+  "riesgo_principal": "Nicho pequeño y disposición de pago incierta.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "perfiles de slicer",
+  "tema_norm": "perfiles slicer y firmware 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-04",
+  "nombre": "Subscription Churn Saver",
+  "cliente_que_paga": "Dueños de tiendas WooCommerce Subscriptions",
+  "problema": "Pagos fallidos y cancelaciones reducen MRR sin que el dueño lo note.",
+  "solucion": "Plugin de dunning inteligente, ofertas de pausa y alertas de cancelación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'woocommerce subscription retention' en WordPress.org y grupos de Facebook de WooCommerce.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crecen los modelos de suscripción en e-commerce.",
+  "ventaja_juan": "Backend PHP/Laravel y pagos.",
+  "riesgo_principal": "Posible incumbente nativo de WooCommerce.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "retención suscripciones Woo",
+  "tema_norm": "cobros y retención de suscripciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G17-14",
+  "nombre": "MRR Metrics for Shopify Subscriptions",
+  "cliente_que_paga": "Dueños de tiendas Shopify con suscripciones",
+  "problema": "Pocos paneles de MRR/churn para suscripciones de Shopify.",
+  "solucion": "App con MRR, churn, LTV desde Recharge/Bold.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Shopify App Store 'subscription analytics'",
+  "competidores": [
+   "Recharge Analytics",
+   "Littledata",
+   "Triple Whale"
+  ],
+  "por_que_ahora": "Crecimiento de comercio por suscripción.",
+  "ventaja_juan": "GraphQL de Shopify.",
+  "riesgo_principal": "Dependencia de Shopify y Recharge.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "analítica suscripciones Shopify",
+  "tema_norm": "cobros y retención de suscripciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-04",
+  "nombre": "Actions Cost Attribution",
+  "cliente_que_paga": "Platform engineers y finanzas técnicas de organizaciones GitHub",
+  "problema": "La factura de minutos de GitHub Actions no dice qué repo, workflow o equipo la causa.",
+  "solucion": "Panel autoservicio que lee la API de billing/usage y asigna costo por repo, workflow y equipo, con alertas de picos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub Marketplace, SEO 'github actions cost per repo', Hacker News Show HN",
+  "competidores": [
+   "Informes nativos de GitHub (parcial, sin verificar)",
+   "Depot/Blacksmith (reducen costo, no atribuyen; sin verificar)"
+  ],
+  "por_que_ahora": "GitHub cambió y encareció precios de Actions y de runners, lo que dispara el interés en costos (sin verificar detalles).",
+  "ventaja_juan": "Backend con APIs/GraphQL.",
+  "riesgo_principal": "GitHub puede añadir esta vista nativa (F1 latente).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "costos GitHub Actions",
+  "tema_norm": "CI/CD y GitHub Actions",
+  "duplicado_de": null
+ }
+]

@@ -1,0 +1,556 @@
+[
+ {
+  "id": "G14-11",
+  "nombre": "Agent Sandbox Runner",
+  "cliente_que_paga": "Equipos que ejecutan código generado por agentes",
+  "problema": "Ejecutar código arbitrario de un agente es peligroso y montar aislamiento lleva semanas.",
+  "solucion": "API de sandbox efímero con límites de red, CPU y tiempo, cobro por ejecución con mínimo mensual.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'sandbox for AI agent code execution' y docs de frameworks de agentes.",
+  "competidores": [
+   "E2B",
+   "Modal"
+  ],
+  "por_que_ahora": "El auge de agentes de código aumenta la demanda.",
+  "ventaja_juan": "Backend, contenedores y bajo costo operativo.",
+  "riesgo_principal": "Competidores financiados con precios agresivos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "sandbox de código agentes",
+  "tema_norm": "seguridad y permisos de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-14",
+  "nombre": "Gestor de repuestos MRO",
+  "cliente_que_paga": "Mantenimiento de plantas medianas",
+  "problema": "El inventario de repuestos se lleva en Excel y faltan piezas.",
+  "solucion": "Inventario de repuestos con alertas y búsqueda por número de parte.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'spare parts inventory software'; LinkedIn",
+  "competidores": [
+   "UpKeep, Fiix (sin verificar precios)"
+  ],
+  "por_que_ahora": "Cadenas de suministro inestables.",
+  "ventaja_juan": "Entiendo repuestos industriales.",
+  "riesgo_principal": "CMMS competidores fuertes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "inventario repuestos",
+  "tema_norm": "mantenimiento y seguridad industrial",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-14",
+  "nombre": "API Status Aggregator",
+  "cliente_que_paga": "Equipos que dependen de varias APIs de terceros",
+  "problema": "Hay que revisar páginas de estado de muchos proveedores.",
+  "solucion": "Panel y API unificados con estado y latencia real de las APIs usadas, con alertas.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "SEO 'api status monitor', directorios de APIs, Product Hunt.",
+  "competidores": [
+   "StatusGator",
+   "IsDown (sin verificar precios)"
+  ],
+  "por_que_ahora": "Dependencias de IA y SaaS multiplicadas.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Mercado con incumbentes y bajo precio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "monitoreo de APIs",
+  "tema_norm": "webhooks y estado de APIs",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-07",
+  "nombre": "Model Switch Regression Tester",
+  "cliente_que_paga": "Equipos que cambian de modelo LLM",
+  "problema": "Cambiar de GPT a Claude o a un modelo más barato rompe comportamientos sin aviso.",
+  "solucion": "Ejecuta tus prompts en N modelos y muestra diferencias, costo y calidad lado a lado.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'compare LLM outputs for my prompts' y Product Hunt; comunidad r/LLMDevs.",
+  "competidores": [
+   "Promptfoo",
+   "OpenRouter"
+  ],
+  "por_que_ahora": "Nuevos modelos salen cada mes con precios distintos.",
+  "ventaja_juan": "Stack TypeScript para el SaaS.",
+  "riesgo_principal": "Promptfoo es gratuito y muy usado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "migración entre modelos",
+  "tema_norm": "pruebas y evaluación LLM",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-20",
+  "nombre": "Lifetime Label Designer",
+  "cliente_que_paga": "Small warehouse and Etsy sellers",
+  "problema": "Label tools charge monthly.",
+  "solucion": "Offline label designer for thermal printers, pay once.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Etsy seller forums, r/ecommerce",
+  "competidores": [
+   "Avery",
+   "NiceLabel"
+  ],
+  "por_que_ahora": "Subscription fatigue.",
+  "ventaja_juan": "Printing knowledge.",
+  "riesgo_principal": "Printer vendors give free software.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "thermal label designer",
+  "tema_norm": "etiquetas y aduanas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-12",
+  "nombre": "Assembly Instructions Hub",
+  "cliente_que_paga": "Vendedores de kits y productos de ensamble (muebles, kits 3D, electrónica)",
+  "problema": "Soporte inundado por preguntas de ensamble.",
+  "solucion": "Portal de instrucciones por pedido con pasos, vistas 3D, videos y QR en el empaque.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'product manual' / 'user guide' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Reducir tickets de soporte postventa.",
+  "ventaja_juan": "Experiencia en documentación técnica y 3D.",
+  "riesgo_principal": "Mercado pequeño y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "manuales de ensamble",
+  "tema_norm": "configuradores e instrucciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-07",
+  "nombre": "Pruebas simuladas de PLC",
+  "cliente_que_paga": "Programadores de PLC",
+  "problema": "Probar lógica sin planta es lento y requiere hardware.",
+  "solucion": "Corre pruebas unitarias en la nube sobre ST con simulación de E/S.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "Foros PLCtalk, r/PLC, SEO 'PLC unit testing'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Interés en DevOps industrial y pruebas virtuales.",
+  "ventaja_juan": "Programo PLC y backend.",
+  "riesgo_principal": "Cobertura limitada de lenguajes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "pruebas unitarias PLC",
+  "tema_norm": "revisión de código PLC",
+  "duplicado_de": null
+ },
+ {
+  "id": "G28-14",
+  "nombre": "Safety Relay Calculator",
+  "cliente_que_paga": "Machine safety engineers",
+  "problema": "PL/SIL calculations are done in spreadsheets.",
+  "solucion": "Web tool to compute PL per ISO 13849 and produce a report.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'ISO 13849 calculator'",
+  "competidores": [
+   "SISTEMA (free)"
+  ],
+  "por_que_ahora": "Machinery regulation updates.",
+  "ventaja_juan": "Safety systems.",
+  "riesgo_principal": "SISTEMA is free (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "ISO 13849 calculator",
+  "tema_norm": "ingeniería eléctrica y seguridad de máquinas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-06",
+  "nombre": "Salesforce Contract Clause Checker for MSPs",
+  "cliente_que_paga": "Salesforce admin in IT services firm",
+  "problema": "Order forms deviate from standard terms without anyone noticing.",
+  "solucion": "AppExchange app comparing Opportunity quote terms against approved clause rules and flagging deviations.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "AppExchange search 'contract' and 'deal desk'",
+  "competidores": [
+   "Conga",
+   "DocuSign CLM"
+  ],
+  "por_que_ahora": "LLMs make clause comparison cheap.",
+  "ventaja_juan": "Backend/GraphQL integration skills.",
+  "riesgo_principal": "Crowded contracts category; sin verificar demand.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "contract clause check",
+  "tema_norm": "servicios profesionales independientes",
+  "duplicado_de": null
+ },
+ {
+  "id": "G18-19",
+  "nombre": "DXF cleanup and validator for CAM",
+  "cliente_que_paga": "Laser/plasma cutter operators",
+  "problema": "Bad DXFs (duplicates, open contours) waste material.",
+  "solucion": "Drag and drop tool fixing duplicate lines, open paths and units before cutting.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'dxf cleanup', r/lasercutting, Inkscape forums",
+  "competidores": [
+   "Inkscape",
+   "LibreCAD (free) (F1 risk)"
+  ],
+  "por_que_ahora": "Customer-supplied DXFs are chaotic.",
+  "ventaja_juan": "CAM file handling experience.",
+  "riesgo_principal": "Free tools overlap (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "limpieza DXF",
+  "tema_norm": "DFM, reparación y validación DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-12",
+  "nombre": "DORA Register of Information Tool",
+  "cliente_que_paga": "Fintech y proveedores TIC de entidades financieras UE",
+  "problema": "Deben mantener el registro de terceros TIC DORA en formato xBRL-CSV.",
+  "solucion": "Editor web que valida y exporta el registro de información DORA.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'DORA register of information template', LinkedIn",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "DORA aplica desde enero 2025, reportes anuales.",
+  "ventaja_juan": "Validación de esquemas; datos estructurados.",
+  "riesgo_principal": "Compradores en finanzas son lentos; reguladores publican herramientas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "DORA registro TIC",
+  "tema_norm": "regulación IA y ciberseguridad UE",
+  "duplicado_de": null
+ },
+ {
+  "id": "G18-08",
+  "nombre": "3D print farm job queue and cost tracker",
+  "cliente_que_paga": "Small print farm operators",
+  "problema": "Farm owners track failed prints, filament and machine hours in spreadsheets.",
+  "solucion": "SaaS to schedule jobs, log failures and compute per-print profit.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "r/3Dprinting, r/PrintFarm, YouTube print-farm creators",
+  "competidores": [
+   "OctoPrint plugins",
+   "3DPrinterOS (sin verificar)"
+  ],
+  "por_que_ahora": "Print-on-demand farms are multiplying.",
+  "ventaja_juan": "Printer firmware knowledge.",
+  "riesgo_principal": "OctoPrint ecosystem is free (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "granja impresión 3D",
+  "tema_norm": "cola y órdenes de granja 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-13",
+  "nombre": "Maker Product Compliance Pack",
+  "cliente_que_paga": "Vendedores de productos físicos hechos por makers",
+  "problema": "No saben qué certificaciones necesitan para vender en EU/US.",
+  "solucion": "Guías y checklists por categoría de producto con plantillas de documentos.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'CE marking small business' y Etsy seller forums.",
+  "competidores": [
+   "Consultoras (sin verificar)"
+  ],
+  "por_que_ahora": "Nuevas regulaciones EU de seguridad de productos.",
+  "ventaja_juan": "Experiencia en fabricación.",
+  "riesgo_principal": "Riesgo legal por consejos incorrectos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "cumplimiento productos maker",
+  "tema_norm": "cumplimiento de producto y sostenibilidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G18-03",
+  "nombre": "Automated DFM checker for sheet metal",
+  "cliente_que_paga": "Mechanical design engineers and startups ordering sheet-metal parts",
+  "problema": "Parts get rejected by shops for min-flange, hole-to-edge or bend-relief errors.",
+  "solucion": "Upload DXF/STEP and get a DFM report with highlighted violations by process.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'sheet metal DFM checklist', r/engineering, Fusion/SolidWorks forums",
+  "competidores": [
+   "Xometry and Protolabs built-in DFM (only on their quotes)"
+  ],
+  "por_que_ahora": "Engineers want pre-checks before ordering.",
+  "ventaja_juan": "DFM and sheet-metal design experience.",
+  "riesgo_principal": "Quote platforms offer free DFM feedback (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "DFM chapa",
+  "tema_norm": "DFM, reparación y validación DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-17",
+  "nombre": "Accessibility Ticket Recorder",
+  "cliente_que_paga": "Front-end developers and QA",
+  "problema": "Accessibility issues are reported without repro steps.",
+  "solucion": "Extension records flows, flags WCAG failures and exports tickets with screenshots.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store search 'accessibility', r/accessibility",
+  "competidores": [
+   "axe DevTools",
+   "WAVE"
+  ],
+  "por_que_ahora": "European Accessibility Act deadline pushes compliance.",
+  "ventaja_juan": "Web dev experience.",
+  "riesgo_principal": "axe is a strong incumbent. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "WCAG ticket export",
+  "tema_norm": "cumplimiento accesibilidad web",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-15",
+  "nombre": "Currency Invoice Templates API",
+  "cliente_que_paga": "Freelancers internacionales",
+  "problema": "Facturas multi-moneda con impuestos por país son confusas.",
+  "solucion": "Generador de facturas con páginas SEO por país/moneda y PDF de pago.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "SEO 'invoice template [country]'.",
+  "competidores": [
+   "Invoice Ninja",
+   "Wave (precios sin verificar)"
+  ],
+  "por_que_ahora": "Más freelancers remotos globales.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "F1/F5: opciones gratis y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "facturas multi-país",
+  "tema_norm": "facturación, impuestos y conciliación",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-12",
+  "nombre": "Recruiter Notes Pipeline",
+  "cliente_que_paga": "Solo and agency recruiters",
+  "problema": "Candidate research and notes are scattered across tabs.",
+  "solucion": "Extension saves profiles, notes and stages to Sheets/Notion with email templates.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store search 'recruiter', r/recruiting",
+  "competidores": [
+   "Gem"
+  ],
+  "por_que_ahora": "Recruiting teams have shrinking budgets.",
+  "ventaja_juan": "Backend integrations.",
+  "riesgo_principal": "LinkedIn blocks scrapers. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "recruiter CRM extension",
+  "tema_norm": "servicios profesionales independientes",
+  "duplicado_de": null
+ },
+ {
+  "id": "G18-06",
+  "nombre": "G-code diff and version control for CNC programs",
+  "cliente_que_paga": "CNC programmers and machine shops",
+  "problema": "Programs get edited at the machine and nobody knows which version is right.",
+  "solucion": "Git-like web tool to diff, annotate and track G-code revisions per part.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Practical Machinist, r/CNC, SEO 'gcode compare'",
+  "competidores": [
+   "Generic diff tools",
+   "CIMCO (sin verificar)"
+  ],
+  "por_que_ahora": "Shops digitize without MES budgets.",
+  "ventaja_juan": "Understands G-code and machinist workflows.",
+  "riesgo_principal": "Shops are slow to change habits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "control versiones CNC",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-06",
+  "nombre": "Wholesale Quote Request",
+  "cliente_que_paga": "Mayoristas y fabricantes con tienda Shopify",
+  "problema": "Clientes grandes piden cotización personalizada y no hay flujo nativo.",
+  "solucion": "Botón de cotización por producto con volumen, aprobación y conversión a draft order.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'request a quote' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más fabricantes migran a Shopify para B2B.",
+  "ventaja_juan": "Experiencia en cotización industrial.",
+  "riesgo_principal": "Categoría saturada de apps RFQ.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "solicitud de cotización B2B",
+  "tema_norm": "cotización y costeo de taller",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-20",
+  "nombre": "Agent Benchmark Reports",
+  "cliente_que_paga": "Gerentes de ingeniería que eligen framework o modelo",
+  "problema": "Elegir modelo o framework de agentes requiere pruebas propias costosas.",
+  "solucion": "Informes de benchmark por tarea con datos reproducibles, vendidos como suscripción con alertas de nuevos modelos.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Newsletter y SEO 'best LLM for agent tool calling', publicación en Hacker News.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "El número de modelos y frameworks crece cada mes.",
+  "ventaja_juan": "Ingeniería de pruebas sistemática.",
+  "riesgo_principal": "Contenido fácil de copiar y gratuito en otros sitios.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "benchmarks de agentes",
+  "tema_norm": "pruebas y evaluación LLM",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-15",
+  "nombre": "Agent Rate Limit Shield",
+  "cliente_que_paga": "Equipos con muchos agentes llamando a APIs de terceros",
+  "problema": "Los agentes saturan APIs externas y provocan 429 y bloqueos de cuenta.",
+  "solucion": "Capa de colas, reintentos y límites compartidos entre agentes con panel.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'rate limit AI agents API' y paquetes en npm/PyPI.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más agentes concurrentes en producción.",
+  "ventaja_juan": "Backend de colas.",
+  "riesgo_principal": "Los frameworks de agentes incorporan reintentos básicos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "límites de API agentes",
+  "tema_norm": "costos y observabilidad de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-04",
+  "nombre": "G-code Linter Pro",
+  "cliente_que_paga": "Operadores de impresoras 3D y CNC en talleres",
+  "problema": "Un G-code erróneo daña la máquina o desperdicia horas de impresión.",
+  "solucion": "Validador en navegador y CLI que detecta colisiones, límites de eje y errores de temperatura antes de imprimir.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Búsqueda 'gcode analyzer' y repositorios GitHub de Klipper; plugin de OctoPrint.",
+  "competidores": [
+   "Gcode viewers gratuitos",
+   "NC Viewer (sin verificar)"
+  ],
+  "por_que_ahora": "Más firmware personalizado y máquinas CoreXY caseras.",
+  "ventaja_juan": "Experiencia directa con firmware y G-code.",
+  "riesgo_principal": "Visores gratuitos cubren parte del valor.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "validación G-code",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-16",
+  "nombre": "Etiquetas de seguridad LOTO",
+  "cliente_que_paga": "Seguridad industrial",
+  "problema": "Los procedimientos de bloqueo y etiquetado se elaboran manualmente.",
+  "solucion": "Genera procedimientos LOTO con fotos y exporta a PDF.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'LOTO procedure template'; grupos de EHS en LinkedIn",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Presión regulatoria OSHA.",
+  "ventaja_juan": "Conozco máquinas y energías.",
+  "riesgo_principal": "Plantillas gratis abundan (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "procedimientos LOTO",
+  "tema_norm": "mantenimiento y seguridad industrial",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-05",
+  "nombre": "Fab Quote Autofill",
+  "cliente_que_paga": "Makers and engineers ordering CNC/3D print parts",
+  "problema": "Re-entering part specs across Xometry, Protolabs, Fictiv wastes time.",
+  "solucion": "Extension autofills quote forms across manufacturing marketplaces from one spec sheet and compares results.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Chrome Web Store search 'instant quote autofill', r/engineering, r/3Dprinting",
+  "competidores": [
+   "Xometry",
+   "Protolabs",
+   "Fictiv"
+  ],
+  "por_que_ahora": "Many on-demand fab marketplaces exist.",
+  "ventaja_juan": "Manufacturing and CAM knowledge.",
+  "riesgo_principal": "Marketplaces may block automation. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "fab quote comparison",
+  "tema_norm": "cotización y costeo de taller",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-03",
+  "nombre": "PLC Tag Lens",
+  "cliente_que_paga": "Controls engineers and integrators",
+  "problema": "Reading exported PLC tag/L5X files in a browser is painful.",
+  "solucion": "Extension opens L5X/TIA exports from GitHub/Drive and shows searchable tag, rung and I/O tables.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store search 'PLC', r/PLC, PLCtalk forum",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Teams are moving PLC code into Git and reviewing it on GitHub.",
+  "ventaja_juan": "Siemens TIA and Rockwell Studio 5000 experience.",
+  "riesgo_principal": "Small niche; vendors may ship own tooling. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "PLC export viewer",
+  "tema_norm": "diff y versionado PLC",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-07",
+  "nombre": "Custom Part Configurator",
+  "cliente_que_paga": "Fabricantes de piezas a medida (dimensiones, materiales) en Shopify",
+  "problema": "Los límites de variantes de Shopify impiden configurar piezas paramétricas.",
+  "solucion": "Configurador paramétrico con fórmulas de precio, vista previa dimensional y generación de BOM.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Búsqueda 'product configurator' / 'custom dimensions' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Demanda de productos hechos a medida en e-commerce.",
+  "ventaja_juan": "Experiencia paramétrica CAD (SolidWorks).",
+  "riesgo_principal": "Apps de opciones de producto ya existen y son baratas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "configurador paramétrico",
+  "tema_norm": "configuradores e instrucciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-07",
+  "nombre": "Invoice Table Grabber",
+  "cliente_que_paga": "Accountants and bookkeepers in US/UK",
+  "problema": "Copying portal tables into Excel breaks formats.",
+  "solucion": "Extension extracts tables from portals into clean CSV/Sheets with saved templates.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "Chrome Web Store search 'table to csv', accounting subreddits",
+  "competidores": [
+   "Data Miner",
+   "Table Capture"
+  ],
+  "por_que_ahora": "Portal-heavy workflows.",
+  "ventaja_juan": "Backend/data engineering.",
+  "riesgo_principal": "Crowded category. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "web table export",
+  "tema_norm": "datos: extracción y respaldo",
+  "duplicado_de": null
+ }
+]

@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G20-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Dolor real de costeo y buena ventaja CAM, pero Paperless Parts/ProShop dominan y la importación CAM es difícil."
+ },
+ {
+  "id": "G21-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Hay graficadores SPC gratuitos y plantillas Excel; MVP fácil pero canal SEO dominado y diferenciación débil."
+ },
+ {
+  "id": "G01-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Categoría profit-tracking saturada en Shopify y el bloqueo es copiable; sin ventaja de Juan."
+ },
+ {
+  "id": "G01-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Nicho pequeño en Shopify pero búsqueda con intención y ventaja 3D; la estimación sin slicer es imprecisa."
+ },
+ {
+  "id": "G13-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 5,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 39,
+  "razon": "Ángulo único (diff de PLC en PRs) con ventaja fuerte de Juan, pero comprador diminuto y formatos propietarios."
+ },
+ {
+  "id": "G28-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Dolor específico con ventaja de Juan, pero uso episodico, DeepL/LLM sustituyen y canal difuso."
+ },
+ {
+  "id": "G01-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Ahorro tangible pero requiere facturas de carrier y competen servicios de recuperación de fletes por éxito."
+ },
+ {
+  "id": "G14-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "OT conservador, MCP abiertos probables y poca disposición de pago; ventaja de Juan no compensa el canal."
+ },
+ {
+  "id": "G08-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Hueco real y poca competencia como API, pero comprador poco claro y mercado muy pequeño."
+ },
+ {
+  "id": "G17-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Stripe Radar y detección nativa de Shopify cubren el caso gratis."
+ },
+ {
+  "id": "G30-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Existe medición PDF gratis/barata y un takeoff serio excede el MVP; precio $25 sin diferenciación."
+ },
+ {
+  "id": "G16-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Presupuesto real en compliance, pero canal GRC/legal difícil y plataformas lo absorben."
+ },
+ {
+  "id": "G11-01",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Se resuelve gratis con fórmulas o script en Sheets; $15 exige volumen irreal."
+ },
+ {
+  "id": "G10-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Canal nombrado (HubSpot Marketplace) pero pocos fabricantes con CAD en HubSpot y dependencia de una plataforma."
+ },
+ {
+  "id": "G15-04",
+  "filtro_fallado": "F4",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Canal vago y $199 para comprador conservador implica cerrar con ventas."
+ },
+ {
+  "id": "G04-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Vanta/Drata cubren evidencia de Jira; presupuesto existe pero el punto de compra no es una app de Atlassian."
+ },
+ {
+  "id": "G13-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 37,
+  "razon": "Dolor medible y mercado amplio, pero BuildPulse/Trunk ya existen y la diferenciación es débil."
+ },
+ {
+  "id": "G14-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Ángulo emergente de redacción de secretos en trazas, pero Vault OSS/Doppler pueden copiarlo rápido."
+ },
+ {
+  "id": "G19-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Hueco real de CI para PLC y ventaja única, pero mercado diminuto y MVP grande por simulación de E/S."
+ },
+ {
+  "id": "G18-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Capa de costo/margen útil, pero OctoPrint y hojas de cálculo cubren y el canal es difuso (Reddit/YouTube)."
+ },
+ {
+  "id": "G01-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Nicho muy estrecho y ya existen apps de precio por área en Shopify."
+ },
+ {
+  "id": "G25-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "OpenBOM/PDM cubren parte y subir BOM genera fricción de IP; el segmento sin PDM es real pero de canal débil."
+ },
+ {
+  "id": "G15-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "Canal Shopify nombrado y dolor con SKUs, pero PDFs heterogéneos requieren revisión humana y dependencia de plataforma."
+ },
+ {
+  "id": "G03-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Startups financiadas (Pylon, Plain, Thena) dominan y Slack puede añadir SLAs nativos."
+ },
+ {
+  "id": "G21-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Ventaja de Juan e intención de búsqueda, pero precisión de IA en planos y responsabilidad hacen difícil el MVP."
+ },
+ {
+  "id": "G12-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "MVP rápido y ventaja 3D, pero calcular volumen es trivial y el comprador puede construirlo."
+ },
+ {
+  "id": "G29-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Plugins gratis de OctoPrint cubren gran parte y el nicho de aficionados paga poco."
+ }
+]

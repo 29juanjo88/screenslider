@@ -1,0 +1,227 @@
+[
+ {
+  "id": "G29-13",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Clockify tiene plan gratis ilimitado (el propio riesgo lo admite) y existen timers locales gratuitos; 'sin screenshots' no es diferenciador pues Toggl/Clockify solo capturan pantalla si el usuario lo activa. Reddit/Product Hunt son canales de un solo pico, no recurrentes.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G04-14",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Jira y el propio Atlassian Marketplace tienen apps de OKR/Goals y Atlassian Home/Goals nativo (sin verificar alcance exacto); el propio brief admite clon saturado. A $50 por equipo, el canal 'OKR' en el Marketplace tiene demanda real pero competidores establecidos con reseñas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-07",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Compliance regulado compra con revisión de seguridad/ventas (F3 ventas/regulación); Slack Enterprise Grid ya ofrece export y retención, y Smarsh-like cubre eDiscovery (sin verificar). 'Log inmutable' exige confianza de custodia que un fundador solo no inspira; el título dice Jira pero la solución no menciona Jira (incoherente).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "zizmor es gratis y open source, y pin de SHA/permisos mínimos se resuelve con herramientas gratuitas y Dependabot/Renovate (pin parcial, sin verificar); el equipo de seguridad que paga querrá aprobar una app con permisos de escritura a repos, lo que frena la adopción. Fácil de copiar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-18",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Gumroad ya tiene bundles nativos y cupones; la app depende de la API de Gumroad/Stripe, y el creador pequeño no pagará $19/mes por algo que ya hace gratis. Falla F1 directamente y el segmento paga poco.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G06-12",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "IVA/VAT UE es regulado: errores fiscales generan responsabilidad y soporte legal; existen plugins WooCommerce de VAT establecidos (sin verificar nombres) y WooCommerce Tax/Stripe Tax cubren parte. El 'sin verificar' en competidores indica falta de investigación. Riesgo de responsabilidad alto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-14",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Audiencia diminuta: desarrolladores que necesiten una API de K-factor son pocos y suelen resolverlo con una tabla propia; la fórmula es pública y fácil de implementar, por lo que pagar $49/mes es difícil de justificar. Volumen de búsqueda de 'k-factor calculator api' probablemente casi nulo (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-16",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "regex101 es gratis, y los asistentes de IA (Copilot, ChatGPT) explican y generan regex dentro del editor sin costo; a $5/mes se necesitan >2,000 pagadores para $10k. Admite él mismo F1 y F5.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G07-20",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Bambu Lab cierra parte de su API y depende de su firmware/LAN mode (sin verificar vigencia); OctoPrint/Mainsail/Obico son gratis y los makers esperan gratis. El canal 'print farm' en VS Code Marketplace es dudoso: quien administra granjas rara vez vive en VS Code. Comprador y canal vagos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-01",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Visores Gerber web gratuitos abundan (Tracespace, KiCad, visores de fabricantes como JLCPCB/PCBWay integrados al pedido) y los ingenieros de PCB esperan gratis; a $9/mes el volumen necesario es alto, y una extensión de Chrome que lee archivos de correo es difícil de monetizar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Teams ya muestra previews de archivos y Autodesk Viewer, Onshape, SolidWorks eDrawings y 3D viewers de Microsoft son gratis (sin verificar cobertura STEP); además la tienda de Teams para B2B tiene baja intención de búsqueda 'CAD' y venta a líderes de ingeniería suele ser con IT.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Notion mejoró su API y proyectos open source (notion-client, Next.js ISR) resuelven el cache gratis; Super.so/Potion no son el mismo producto. Desarrollador de bajo presupuesto con alternativa de caché propia en horas; dependencia total de la API de Notion.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-07",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Datos de salud: HIPAA/GDPR exigen BAA y controles; Heidi y Freed están bien financiados y ya compiten en notas clínicas. A $49 con IA genérica, la diferenciación es nula y el fundador no tiene ventaja. Privacidad puede ser inviable para un fundador solo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "PrusaSlicer, Bambu Studio y Windows 3D Builder reparan mallas gratis y localmente; el precio declarado es 'único' pero se lista como $25/mes (inconsistente). El 'privacidad' no es dolor real de hobbyists.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G16-17",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Cumplimiento regulatorio con fecha inestable (aplazado varias veces); los importadores medianos usan consultoras o ERPs, y TRACES/EU ofrece su propio canal de carga. Mercado impredecible; riesgo regulatorio fuerte. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-03",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Mercado con competidores especializados (BuildPulse, Trunk) y observabilidad de CI incumbente; las empresas que más sufren flaky tests ya usan dichos servicios o construyen interno. Canal de Marketplace de GitHub es ruidoso para nicho de $49.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G26-19",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Mercado pequeño de arquitectos independientes; plantillas y firma electrónica gratis (Google Docs + DocuSign gratis) cubren la mayoría; los 'benchmarks' de honorarios necesitan datos que el fundador no tiene (¿de dónde salen?). Capterra no verifica demanda.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-10",
+  "filtros_fallados": [
+   "F2",
+   "F4"
+  ],
+  "objecion": "Educadores no tienen presupuesto personal; compra institucional es lenta (admitido) y los primeros 100 clientes exigen ventas. El hardware de G-code por alumno requiere integración con múltiples impresoras. Falla F2/F4.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G04-02",
+  "filtros_fallados": [
+   "F2",
+   "F4"
+  ],
+  "objecion": "Nicho muy pequeño: unos pocos servicios internos de impresión 3D que usan Jira Service Management; búsqueda '3D printing' en Atlassian Marketplace casi seguro vacía de intención de compra (sin verificar). A $120, 100 clientes parecen irreales; plataforma única.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-12",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "OpenPLC y LogixPro existen, Siemens PLCSIM Advanced y simuladores web gratuitos (sin verificar) cubren la necesidad; el cliente (instructores de PLC) es un nicho muy pequeño; construir un simulador de ladder compatible con Siemens/Rockwell es de meses, no 6 semanas, y puede infringir licencias.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Uptime Kuma, StatusCake, Let's Encrypt avisos, y los monitores de cloud (AWS ACM, Cloudflare) ya avisan gratis; el inventario de tokens OAuth y secretos en repos exige acceso sensible. Varios competidores gratuitos como admite la idea.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-19",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Commodity: Descript, Castmagic y cualquier LLM generan show notes; el 'API' no tiene demanda de directorios clara. El host de podcast paga poco y el SEO 'podcast show notes generator' está dominado por herramientas gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G20-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Calculadoras de costo de impresión 3D gratis ya abundan y slicers calculan costo de filamento y tiempo; el vendedor de Etsy paga poco. Leer 'telemetría' exige integración con múltiples firmware. El ángulo de fallos es útil pero débil.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-01",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen servicios de reembolso FBA bien establecidos que cobran porcentaje y Helium10/Jungle Scout ya ofrecen módulos; sin embargo el dolor es real y monetario y los vendedores pagan por recuperar dinero. Dependencia de SP-API y la política de Amazon, además competencia que cobra a comisión.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G15-15",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Spectora, ISN y otros incumbentes están integrando IA (admitido) y el gremio de inspectores usa su software de inspección como canal único; un agente aparte tendría que exportar a ellos. Sin ventaja de Juan.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Salesforce Optimizer y Code Analyzer/Flow Scanner son gratis o nativos, y Gearset cubre despliegue; el arquitecto Salesforce con presupuesto suele comprar vía ventas. AppExchange tiene revisión de seguridad costosa y lenta para ISV (sin verificar costo).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-07",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "GitHub ya muestra uso de asientos de Copilot en la consola de facturación y la API (sin verificar detalle); el mercado es pequeño (administradores de Copilot) y GitHub puede cerrarlo con una función. Dependencia total de GitHub y riesgo de ser absorbido.",
+  "severidad": "fuerte"
+ }
+]

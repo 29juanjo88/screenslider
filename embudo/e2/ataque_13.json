@@ -1,0 +1,209 @@
+[
+ {
+  "id": "G24-16",
+  "filtros_fallados": [
+   "F5",
+   "F1"
+  ],
+  "objecion": "A $4/mes exige ~2,500 pagadores para $10k; PriceCharting y Collectorz ya cubren valor de mercado y catalogo, y hay planillas gratis. Sin ventaja de Juan.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G20-14",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Comprador difuso (hobbistas no pagan $15/mes por un log; labs dentales usan sistemas regulados de trazabilidad). Canal r/resinprinting es comunidad de aficionados que prefiere hoja de calculo o notas; mercado de pago real pequeno.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Coefficient (nombrado por la propia idea) ya hace exactamente esto, y Salesforce tiene exportes programados nativos y Google Sheets connectors gratuitos; diferenciacion nula, canal AppExchange saturado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-03",
+  "filtros_fallados": [],
+  "objecion": "Pool de compradores pequeno y las reglas DFM varian por taller/material, por lo que una API generica rara vez sirve sin configuracion a medida; los desarrolladores de cotizadores suelen codificar sus reglas internamente. Volumen de $99 x 100+ clientes es dudoso. Competencia directa sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-19",
+  "filtros_fallados": [
+   "F2",
+   "F4"
+  ],
+  "objecion": "Los marketplaces de modelos 3D no publican ventas por modelo de forma fiable, asi que el dataset requiere scraping fragil sujeto a ToS; comprador concreto no identificado (disenadores no pagan por datos de mercado) y la busqueda SEO propuesta carece de intencion de compra demostrada.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G11-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Excel ya incluye Get Data from PDF nativo y los LLM genericos extraen tablas gratis; Adobe y apps de OCR cubren el resto. Es la funcion que las plataformas absorben primero.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G19-04",
+  "filtros_fallados": [],
+  "objecion": "Mercado muy pequeno (migraciones SCADA son proyectos puntuales, no recurrentes: se paga una vez y se cancela) y los formatos de tags cambian por version; suscripcion de $79 mensual no encaja con uso esporadico. Competencia sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-09",
+  "filtros_fallados": [
+   "F5",
+   "F1"
+  ],
+  "objecion": "A $5/mes requiere ~2,000 pagadores para $10k; la comunidad ham esta acostumbrada a software gratis (LoTW es gratuito, N3FJP, Club Log y logs de escritorio gratis). Admitido por la propia idea.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G22-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Teachable y Thinkific ya ofrecen reportes de progreso/finalizacion nativos y las API de terceros son limitadas; depende de datos que la plataforma debe exponer. Idea admite que integran analitica nativa. Kajabi no es el mismo ecosistema.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-18",
+  "filtros_fallados": [],
+  "objecion": "Comprador (gerente de taller pequeno) no vive en Google Sheets/Calendar para planificar maquinas ni busca en el Workspace Marketplace; el canal real exige outreach. Mercado y volumen dudosos a $29.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-18",
+  "filtros_fallados": [
+   "F5",
+   "F4"
+  ],
+  "objecion": "Comprador hobbista a $19/mes recurrente no es creible (compra stencils esporadicamente); JLCPCB y otros ya cotizan instantaneo y gratis al subir Gerbers. Canal declarado es solo 'SEO' sin termino nombrado.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G19-01",
+  "filtros_fallados": [],
+  "objecion": "Formatos propietarios (TIA .zap, Studio 5000 .ACD) impiden analizar codigo real sin exportar a PLCopen XML/SCL, y los fabricantes ya integran verificaciones; adopcion en CI en PLC es muy temprana, el pool de compradores con Git/CI es chico. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-20",
+  "filtros_fallados": [
+   "F5",
+   "F4"
+  ],
+  "objecion": "A $19/mes, tiendas de filamentos son pocas y de bajo margen; ya existen apps de muestras gratis en Shopify (sin verificar cuales) y se puede resolver con un producto $0 y un carrito. Techo de ingreso bajo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-09",
+  "filtros_fallados": [],
+  "objecion": "n8n, Zapier y Make ya tienen pasos de aprobacion/humano-en-el-bucle nativos o en rapida adicion (n8n tiene nodos de espera y aprobacion; sin verificar detalle), y el propio riesgo lo admite; ademas HumanLayer y frameworks de agentes cubren el caso. Ventana corta antes de ser funcion nativa.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-13",
+  "filtros_fallados": [
+   "F5",
+   "F1"
+  ],
+  "objecion": "A $6/mes necesita ~1,700 pagadores para $10k; World Anvil, Kanka, Obsidian y Notion cubren esto con planes gratis. Mercado saturado, sin diferenciacion ni ventaja.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G29-19",
+  "filtros_fallados": [],
+  "objecion": "Contradiccion: titulo/precio 'licencia unica' vs $29/mes recurrente; la gente compra stack-up en hojas gratis o addons de CAD ya pagados, y el nicho es pequeno. Aun asi SEO 'tolerance stack up calculator' tiene intencion y Juan tiene ventaja real; riesgo es ingresos unicos.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G07-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Helicone, Langfuse y LangSmith son gratuitos/open source en su nivel base y los proveedores muestran costo en dashboard; un wrapper o middleware de tokens lo escribe cualquier dev en una tarde. Sin foso y poca disposicion de pago a $12.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G09-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Calculadoras gratuitas de cable de fabricantes y sitios como Southwire abundan; reportes PDF de pago no justifican suscripcion y existe riesgo de responsabilidad normativa si el calculo es erroneo. Admitido por la idea.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G22-10",
+  "filtros_fallados": [
+   "F2"
+  ],
+  "objecion": "Jukin Media y ViralHog dominan y ofrecen gestion de licencias con compradores integrados; el cuello de botella es la demanda de medios compradores, no una pagina de licencias, y un creador no paga $29/mes por vender clips ocasionales.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G14-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Hay generadores OpenAPI a MCP gratuitos y open source en abundancia (sin verificar nombres) y los proveedores de gateways los incluyen; el dev lo ejecuta una vez y no paga mensual. Poco uso recurrente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-01",
+  "filtros_fallados": [],
+  "objecion": "Dependencia triple (Zapier/Make/n8n) y la demanda es hipotetica: pocos equipos de manufactura automatizan CAD por no-code. Pool de compradores pequeno; la mayoria de usuarios de Zapier no maneja STEP. Aun asi la ventaja de Juan es alta y la competencia sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G10-03",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "AWS Marketplace exige onboarding de vendedor, contenedores y facturacion con revision manual, y los clientes enterprise suelen requerir seguridad/soporte (acerca a ventas); CAD Exchanger y APS son incumbentes consolidados y OpenCascade es DIY gratis. $300 x 100 clientes por Marketplace es irreal.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-03",
+  "filtros_fallados": [],
+  "objecion": "El cliente puede ejecutar PrusaSlicer/Cura CLI gratis; el valor es empaquetar infraestructura, pero los compradores (servicios de impresion bajo demanda) son pocos y suelen tener ya su pipeline interno. Comercial sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cotizadores de impresion 3D instantaneos existen como plugins de Shopify/WooCommerce y plataformas como Craftcloud y apps de cotizacion; la tarifa se calcula con slicer, no con geometria simple, lo que exige integrar un slicer. Granjas pequenas no pagan $29 por un widget.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-15",
+  "filtros_fallados": [
+   "F5",
+   "F1"
+  ],
+  "objecion": "Referencias gratuitas y generadores de simbolos de soldadura existen; a $15/mes el comprador (soldador/dibujante ocasional) no mantiene suscripcion y el mercado es pequeno. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Calculadoras de feeds and speeds gratuitas (fabricantes de herramientas y apps CAM integradas como Fusion/CAM) cubren esto; el usuario hobby no paga mensual. Admitido por la propia idea.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G16-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "axe, Pa11y y Lighthouse gratis cubren la auditoria automatizada en CI, y la automatizacion solo detecta una fraccion de problemas WCAG; el comprador compra auditorias humanas/consultoria para cumplimiento legal. Posible cumplimiento legal implicito (riesgo regulatorio).",
+  "severidad": "fuerte"
+ }
+]

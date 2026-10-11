@@ -1,0 +1,158 @@
+[
+ {
+  "id": "G07-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-19",
+  "rescatar": true,
+  "respuesta": "Concedo nicho y dependencia de Salesforce. Rebato: es la idea con ventaja de Juan más fuerte (visor/conversión CAD) y compra autoservicio vía AppExchange, el fabricante ya paga licencias Field Service caras, así que $89 es menor. El comprador es el field service manager del fabricante. Canal nombrado: búsqueda 'Field Service' y 'CAD' en AppExchange. Competidores sin verificar; el tamaño del mercado es el punto débil, concedido.",
+  "ajuste_sugerido": "Subir a $149-199 por org y no apuntar a 500 clientes, sino ~100 a $150; verificar competidores en AppExchange y costo de security review antes de construir."
+ },
+ {
+  "id": "G12-11",
+  "rescatar": true,
+  "respuesta": "Concedo que Craftcloud es un marketplace y que la estimación varía por máquina. Rebato: el producto es API/Zapier-Make que devuelve volumen, tiempo y precio con perfiles de máquina configurables, no un marketplace. Calcular volumen es trivial, pero tiempo calibrado con perfiles de impresora (ventaja de firmware/slicing de Juan) y la integración sin código no lo es para un bureau. Comprador: operador de bureau o tienda Shopify/WooCommerce de impresiones. Canal nombrado: directorio de Zapier/Make buscando 'STL', foros Shopify/Woo, subreddits de servicios de impresión.",
+  "ajuste_sugerido": "Subir expectativas de precisión con perfiles por máquina y margen configurable; vender por volumen de cotizaciones ($29-59) y apuntar a bureaus pequeños con tienda online."
+ },
+ {
+  "id": "G22-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-10",
+  "rescatar": true,
+  "respuesta": "Concedo que Octopart y los distribuidores ofrecen BOM tools gratis y que el acceso a APIs de precios cuesta. Rebato: sus herramientas son por distribuidor; el valor es consolidar precios multi-distribuidor con alertas y roll-up por volumen de producción, que las startups hoy arman en Excel. Ventaja de Juan en hardware/impresión 3D. Canal: subreddits de hardware, SEO 'BOM costing tool', Product Hunt.",
+  "ajuste_sugerido": "Empezar sin API de pago (CSV + precios de distribuidor ingresados o APIs con plan gratuito) y validar disposición de pago; precio $29-49 con alerta de cambios como diferenciador."
+ },
+ {
+  "id": "G25-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-05",
+  "rescatar": true,
+  "respuesta": "Concedo que LangSmith y Langfuse hacen tracing y que el alcance exacto de su re-ejecución está sin verificar. Pero la idea no compite como observabilidad: vende replay determinista (congelar respuestas de herramientas, editar mocks, diff de ejecuciones), que es un ángulo distinto. El comprador es claro (ingeniero que depura agentes en producción), paga con presupuesto de tooling y es autoservicio. Canal nombrado: integración publicada para LangChain/OpenAI Agents SDK y posts en r/LocalLLaMA y X. Experiencia con trazas PLC es un parecido real con grabar y reproducir eventos. F1 no aplica mientras el replay no sea gratis nativo; riesgo de que los frameworks lo añadan, concedido.",
+  "ajuste_sugerido": "Posicionar como complemento (exportador/lector de trazas de Langfuse/LangSmith) y no como reemplazo; MVP solo con replay + diff para un framework; $39 por usuario/equipo."
+ },
+ {
+  "id": "G27-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-11",
+  "rescatar": true,
+  "respuesta": "Concedo mercado pequeño y que los formatos cambian. Rebato: es la ventaja de Juan más pura (TIA Openness, Studio 5000 importers); los integradores pagan por horas ahorradas, y una lista I/O por proyecto cuesta horas facturables, así que $39 es trivial frente a ese costo. Las plantillas Excel propias que mantienen son justo el dolor. No sustituyo la herramienta nativa de importación; genero la lista desde plantillas de equipos. Canal: AppSource más contenido SEO y posts útiles (no promoción) en PLCTalk y LinkedIn; PLCTalk resiste promoción, concedido.",
+  "ajuste_sugerido": "Subir a $59-79/mes por integrador y vender también por proyecto; empezar con un solo exportador (TIA o Studio 5000) y publicar plantillas gratuitas como imán SEO."
+ },
+ {
+  "id": "G05-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-03",
+  "rescatar": true,
+  "respuesta": "Concedo que model-viewer es gratis y que el soporte de temas es costoso. Rebato: la idea no vende el visor, sino la lógica opción-precio-variación sobre WooCommerce, que el visor gratis no da. Ventaja real de Juan en glTF/CAD. Canal nombrado: directorio WordPress.org y SEO 'woocommerce 3d product configurator'; compradores son tiendas de productos personalizables que ya pagan configuradores caros o pesados. F1 no aplica porque lo gratis solo muestra y no configura.",
+  "ajuste_sugerido": "Foco en un nicho (muebles/piezas por encargo), precio $39-79 y distribución como plugin freemium con pro; limitar soporte a temas populares."
+ },
+ {
+  "id": "G27-01",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-15",
+  "rescatar": true,
+  "respuesta": "Concedo que 3DPrinterOS, AstroPrint y Obico cubren gestión de granja y que el mercado es pequeño. Rebato: ninguno se afirma centrado en facturar por horas de máquina y material con Stripe (sin verificar); el comprador es la granja que cobra por pieza y hoy usa hojas de cálculo. Ventaja de Juan con Klipper/OctoPrint y firmware. Canal: r/3Dprinting, Klipper Discord y SEO 'print farm management'.",
+  "ajuste_sugerido": "Integrarse como plugin de Klipper/OctoPrint (Moonraker) y vender $29-59; validar si existe plugin de costeo gratuito antes de construir."
+ },
+ {
+  "id": "G01-10",
+  "rescatar": true,
+  "respuesta": "Concedo competencia y riesgo de función nativa. Rebato: es la única del lote con canal nombrado de intención de compra alta (App Store de Shopify, 'purchase order'/'inventory reorder') y dolor recurrente semanal. Si Stocky se retira (sin verificar) queda demanda de reemplazo. Ajusto cliente: tiendas Shopify con inventario propio y varios proveedores, no dropshipping puro. Precio $29 exige ~350 clientes para $10k, plausible en una app con instalación orgánica.",
+  "ajuste_sugerido": "Reposicionar como 'reemplazo de Stocky' y retail con inventario; verificar estado de Stocky y apps existentes antes de construir; diferenciar con conciliación de recepciones y envío por email al proveedor."
+ },
+ {
+  "id": "G23-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-01",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-02",
+  "rescatar": true,
+  "respuesta": "Concedo que la fricción de IT/OT (IEC 62443) es real. Rebato: el comprador son plantas pequeñas y medianas sin CMMS, donde el mantenimiento a menudo controla el gateway; no necesita red corporativa si el agente corre local y sale solo por HTTPS a Notion/Airtable. Ventaja de Juan directa (TIA, Studio 5000) y casi sin competidores directos (sin verificar). Canales nombrados: galerías de plantillas de Notion/Airtable, r/PLC, r/IndustrialMaintenance, SEO 'PLC alarm log to Airtable'. $79 exige solo ~130 clientes para $10k.",
+  "ajuste_sugerido": "Reducir soporte: empezar con una sola familia (Siemens S7-1200/1500 vía OPC UA) y entregar el agente como contenedor Docker; vender también plantilla Notion/Airtable de bajo precio como entrada."
+ }
+]

@@ -1,0 +1,558 @@
+[
+ {
+  "id": "G01-08",
+  "nombre": "Shipping Dims Auditor",
+  "cliente_que_paga": "Comerciantes con costos de envío altos por peso dimensional",
+  "problema": "Cobros por peso dimensional erróneos por datos de caja y producto malos.",
+  "solucion": "Audita pesos/dimensiones de catálogo vs. cargos del transportista y sugiere corrección de datos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'shipping audit' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los carriers elevaron tarifas dimensionales.",
+  "ventaja_juan": "Habilidad para procesar datos y reglas.",
+  "riesgo_principal": "Depende de datos de carrier y de Shopify.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "auditoría peso dimensional",
+  "tema_norm": "operaciones de tienda online",
+  "duplicado_de": null
+ },
+ {
+  "id": "G15-06",
+  "nombre": "Agente de cumplimiento de reseñas para Airbnb",
+  "cliente_que_paga": "Anfitriones profesionales con 5-50 propiedades",
+  "problema": "Responder reseñas y mensajes de huéspedes consume horas semanales.",
+  "solucion": "Agente que redacta respuestas personalizadas y detecta problemas recurrentes por propiedad.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Grupos de Facebook de anfitriones, r/airbnb_hosts, SEO 'airbnb review response'.",
+  "competidores": [
+   "Hospitable",
+   "Guesty"
+  ],
+  "por_que_ahora": "PMS actuales ofrecen plantillas, no agentes.",
+  "ventaja_juan": "Ninguna específica.",
+  "riesgo_principal": "Incumbentes pueden añadirlo fácilmente (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "reseñas anfitriones",
+  "tema_norm": "agentes verticales y notas clínicas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-17",
+  "nombre": "Project Cost Roll-up",
+  "cliente_que_paga": "Gerentes de proyecto en ingeniería",
+  "problema": "Consolidar costos de varias hojas de proyecto es lento y poco confiable.",
+  "solucion": "Complemento de Excel que consolida presupuestos entre libros con trazabilidad.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "AppSource y búsqueda 'consolidate workbooks'.",
+  "competidores": [
+   "Power Query",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más equipos distribuidos con muchos libros.",
+  "ventaja_juan": "Experiencia en proyectos industriales.",
+  "riesgo_principal": "Power Query lo cubre gratis (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "consolidación de costos",
+  "tema_norm": "gestión de proyectos y costos",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-08",
+  "nombre": "HubSpot Invoice-to-Deal Reconciler",
+  "cliente_que_paga": "RevOps or finance ops at B2B SaaS",
+  "problema": "Stripe payments do not match HubSpot deals, so reports are wrong.",
+  "solucion": "HubSpot app matching Stripe invoices to deals and flagging mismatches in a dashboard.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "HubSpot App Marketplace search 'Stripe'",
+  "competidores": [
+   "HubSpot native Stripe integration"
+  ],
+  "por_que_ahora": "More SaaS firms run billing in Stripe and CRM in HubSpot.",
+  "ventaja_juan": "Backend integration skills.",
+  "riesgo_principal": "Native HubSpot features may cover it (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "Stripe HubSpot reconcile",
+  "tema_norm": "apps CRM HubSpot/Salesforce",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-08",
+  "nombre": "Shopify HS Code Pages",
+  "cliente_que_paga": "Tiendas Shopify que envían internacionalmente",
+  "problema": "Clasificar productos con HS code y aranceles causa retenciones aduanales.",
+  "solucion": "App que sugiere HS codes y genera documentos, con páginas SEO por producto/país.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'HS code' en Shopify App Store y SEO 'hs code for [product]'.",
+  "competidores": [
+   "Zonos (precios sin verificar)"
+  ],
+  "por_que_ahora": "Cambios arancelarios elevan la necesidad.",
+  "ventaja_juan": "Backend e integraciones Shopify.",
+  "riesgo_principal": "Dependencia de Shopify y datos arancelarios de calidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "HS code Shopify",
+  "tema_norm": "etiquetas y aduanas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-13",
+  "nombre": "NIS2 Compliance Tracker",
+  "cliente_que_paga": "Equipos de TI de empresas medianas UE en sectores críticos",
+  "problema": "NIS2 exige medidas y reporte de incidentes en 24 h y no tienen proceso.",
+  "solucion": "Tracker de controles NIS2, plantillas de políticas y reporte de incidentes.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'NIS2 compliance checklist', Reddit r/sysadmin, LinkedIn",
+  "competidores": [
+   "Vanta",
+   "Drata",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Transposición nacional en 2025-2026 con sanciones.",
+  "ventaja_juan": "Backend y seguridad.",
+  "riesgo_principal": "GRC grandes con presupuesto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "NIS2 cumplimiento",
+  "tema_norm": "regulación IA y ciberseguridad UE",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-17",
+  "nombre": "Pay-Once API Mocking",
+  "cliente_que_paga": "Backend developers",
+  "problema": "Mock servers subscription pricing.",
+  "solucion": "Local mock server with recorded traffic replay, flat license.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub, Hacker News, dev.to",
+  "competidores": [
+   "Postman",
+   "WireMock"
+  ],
+  "por_que_ahora": "Postman price hikes.",
+  "ventaja_juan": "Backend skills.",
+  "riesgo_principal": "Free OSS competitors.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "local API mock",
+  "tema_norm": "apps locales offline",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-20",
+  "nombre": "Spec Sheet Generator",
+  "cliente_que_paga": "Product designers que entregan a manufactura",
+  "problema": "Los specs de producto (dimensiones, materiales, BOM) viven en capas dispersas.",
+  "solucion": "Plugin que genera hojas de especificación PDF con cotas y BOM desde frames anotados.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Figma Community ('spec', 'handoff') y r/ProductDesign.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Startups de hardware manejan docs en Figma.",
+  "ventaja_juan": "BOM, CAD y manufactura.",
+  "riesgo_principal": "Funciones Dev Mode nativas cubren parte del handoff.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "specs de manufactura",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-14",
+  "nombre": "CAD Tools for Agents",
+  "cliente_que_paga": "Equipos que construyen agentes de diseño o cotización",
+  "problema": "Los agentes no pueden leer ni consultar archivos CAD (STEP, DXF).",
+  "solucion": "Servidor MCP y API que extrae geometría, volumen, agujeros y materiales de CAD para agentes.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'step file API for AI' y directorios MCP; foros de desarrolladores de manufactura.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Surgen agentes de cotización y DFM.",
+  "ventaja_juan": "CAD/CAM y conocimiento de formatos de archivo.",
+  "riesgo_principal": "Mercado pequeño al inicio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "CAD para agentes",
+  "tema_norm": "servidores MCP",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-13",
+  "nombre": "PLC MCP Bridge",
+  "cliente_que_paga": "Ingenieros de automatización y integradores industriales",
+  "problema": "No pueden conectar agentes de IA de forma segura a datos de PLC y SCADA.",
+  "solucion": "Servidor MCP de solo lectura para OPC UA y Modbus con listas de permitidos y registro.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Foros de PLCTalk y r/PLC, LinkedIn de automatización y SEO 'OPC UA MCP server'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "La industria explora copilotos de IA sobre datos de planta.",
+  "ventaja_juan": "Experiencia directa en Siemens TIA Portal y Rockwell.",
+  "riesgo_principal": "Resistencia de OT a conectar IA a planta.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "IA industrial OPC UA",
+  "tema_norm": "servidores MCP",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-07",
+  "nombre": "CSV Merge for Sheets",
+  "cliente_que_paga": "Analistas de e-commerce y operaciones",
+  "problema": "Combinar CSV de múltiples tiendas o proveedores con columnas distintas consume horas.",
+  "solucion": "Complemento que mapea columnas, concatena CSV y detecta duplicados, con plantillas guardadas.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'merge csv'.",
+  "competidores": [
+   "Power Query",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los vendedores multi-canal exportan CSV a diario.",
+  "ventaja_juan": "Software casi gratis.",
+  "riesgo_principal": "Power Query de Excel es nativo y gratis (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "fusión de CSV",
+  "tema_norm": "datos: extracción y respaldo",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-05",
+  "nombre": "Wholesale Portal Pro",
+  "cliente_que_paga": "Marcas con venta B2B sobre WooCommerce",
+  "problema": "Gestionar precios mayoristas, cuentas y términos con plugins sueltos es frágil.",
+  "solucion": "Portal B2B con precios por nivel, aprobación de cuentas y reórdenes.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "WordPress.org, SEO 'woocommerce wholesale plugin' y reseñas en directorios.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Marcas DTC abren canal mayorista.",
+  "ventaja_juan": "Backend PHP.",
+  "riesgo_principal": "Mercado saturado de plugins.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "portal mayorista Woo",
+  "tema_norm": "cotización y costeo de taller",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-10",
+  "nombre": "Local Markdown CRM",
+  "cliente_que_paga": "Solo consultants and agencies",
+  "problema": "CRMs are overblown and store client data in the cloud.",
+  "solucion": "Local-first contact and deal tracker over plain files with optional git sync.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "r/selfhosted, Hacker News, Obsidian community plugins",
+  "competidores": [
+   "HubSpot Free",
+   "Obsidian"
+  ],
+  "por_que_ahora": "Local-first movement.",
+  "ventaja_juan": "Cheap build.",
+  "riesgo_principal": "HubSpot Free hits F1.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "local CRM",
+  "tema_norm": "apps locales offline",
+  "duplicado_de": null
+ },
+ {
+  "id": "G07-13",
+  "nombre": "Modbus Workbench",
+  "cliente_que_paga": "Integradores y técnicos de automatización",
+  "problema": "Probar comunicaciones Modbus/OPC UA requiere herramientas de escritorio separadas.",
+  "solucion": "Extensión VS Code con cliente/simulador Modbus TCP y OPC UA, y scripts reproducibles.",
+  "precio_usd_mes": 14,
+  "canal_primeros_100": "Búsqueda 'modbus' en VS Code Marketplace, PLCTalk, r/PLC.",
+  "competidores": [
+   "Modbus Poll",
+   "QModMaster",
+   "simuladores gratuitos"
+  ],
+  "por_que_ahora": "Ingeniería industrial moviéndose hacia flujos de código.",
+  "ventaja_juan": "Conocimiento de PLC y protocolos industriales.",
+  "riesgo_principal": "Herramientas gratuitas cubren lo básico (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "pruebas Modbus OPC",
+  "tema_norm": "datos industriales OPC UA/Modbus",
+  "duplicado_de": null
+ },
+ {
+  "id": "G17-20",
+  "nombre": "Subscription Pause Flow",
+  "cliente_que_paga": "Apps de suscripción pequeñas",
+  "problema": "Cancelaciones sin opción de pausa pierden clientes.",
+  "solucion": "Widget de pausa/descuento al cancelar con Stripe Billing.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Stripe App Marketplace 'cancel flow'",
+  "competidores": [
+   "ChurnZero",
+   "Churnkey",
+   "ProsperStack"
+  ],
+  "por_que_ahora": "Churn alto en SaaS.",
+  "ventaja_juan": "Next.js widgets.",
+  "riesgo_principal": "Competidores consolidados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "flujo cancelación suscripciones",
+  "tema_norm": "cobros y retención de suscripciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-11",
+  "nombre": "Inventory Sync Etsy eBay",
+  "cliente_que_paga": "Multi-channel handmade sellers",
+  "problema": "Overselling when stock sells on two channels.",
+  "solucion": "Single-stock sync across Etsy, eBay, Amazon with buffer rules.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Etsy app directories and r/EtsySellers",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Sellers diversify away from Etsy.",
+  "ventaja_juan": "Backend sync.",
+  "riesgo_principal": "Crowded space.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "sync inventario",
+  "tema_norm": "sincronización ERP e inventario",
+  "duplicado_de": null
+ },
+ {
+  "id": "G04-10",
+  "nombre": "Bill of Materials for Jira",
+  "cliente_que_paga": "Ingenieros de producto en startups de hardware",
+  "problema": "No existe forma ligera de manejar BOM versionada dentro de Jira.",
+  "solucion": "App que modela BOM jerárquica por issue, con costos, proveedores y export CSV.",
+  "precio_usd_mes": 130,
+  "canal_primeros_100": "Búsqueda 'BOM' 'bill of materials' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Startups de hardware evitan PLM caro.",
+  "ventaja_juan": "Conocimiento de ensamblados CAD y BOM.",
+  "riesgo_principal": "Nicho reducido; PLM ligeros competidores.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "BOM en Jira",
+  "tema_norm": "BOM y compras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G15-17",
+  "nombre": "Agente de scripts G-code",
+  "cliente_que_paga": "Operadores de CNC y makers avanzados",
+  "problema": "Depurar G-code y postprocesadores es un cuello de botella.",
+  "solucion": "Agente que revisa G-code, detecta colisiones y errores comunes y explica el postprocesador.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "r/hobbycnc, r/CNC, foros de LinuxCNC, SEO 'G-code checker'.",
+  "competidores": [
+   "CAMotics (simulador gratis)"
+  ],
+  "por_que_ahora": "LLM leen G-code y explican; hay pocas herramientas.",
+  "ventaja_juan": "CAD/CAM y comprensión de G-code.",
+  "riesgo_principal": "Simuladores gratis cubren parte (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "revisión G-code",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G04-01",
+  "nombre": "CAD Viewer for Jira",
+  "cliente_que_paga": "Ingenieros de producto y PMs en equipos de hardware/manufactura que usan Jira",
+  "problema": "Los adjuntos STEP/DXF/STL en tickets Jira no se pueden ver sin descargar y abrir software CAD.",
+  "solucion": "App de Jira que renderiza STEP, STL, DXF y 3MF en el ticket, con medición y comentarios.",
+  "precio_usd_mes": 150,
+  "canal_primeros_100": "Búsqueda 'CAD viewer' / 'STL' en Atlassian Marketplace y comunidad Atlassian de hardware",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Equipos de hardware adoptan Jira Cloud y Forge facilita apps con renderizado.",
+  "ventaja_juan": "Conocimiento de SolidWorks/AutoCAD y formatos CAD; render con librerías abiertas.",
+  "riesgo_principal": "Dependencia de Atlassian; mercado de equipos hardware en Jira es acotado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "visor CAD Jira",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-02",
+  "nombre": "Slicer Profile Cloud",
+  "cliente_que_paga": "Makers avanzados y pequeños talleres con varias impresoras",
+  "problema": "Los perfiles de PrusaSlicer/Orca/Cura se desincronizan y se pierden entre máquinas.",
+  "solucion": "Control de versiones y sincronización en la nube de perfiles de slicer con diff y rollback.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Búsqueda 'sync orca slicer profiles' y foros de Orca/Prusa en GitHub Discussions.",
+  "competidores": [
+   "Git manual",
+   "Thingiverse (no cubre perfiles)"
+  ],
+  "por_que_ahora": "Orca Slicer ha dividido el ecosistema en forks con perfiles incompatibles.",
+  "ventaja_juan": "Conoce formatos de config de slicers.",
+  "riesgo_principal": "Precio bajo exige muchos pagadores; podría fallar F5.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "sync perfiles slicer",
+  "tema_norm": "perfiles slicer y firmware 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-08",
+  "nombre": "AI Act Risk Classifier",
+  "cliente_que_paga": "Product managers y legal ops de startups con features de IA",
+  "problema": "No saben si su sistema es de alto riesgo bajo el EU AI Act ni qué documentos requiere.",
+  "solucion": "Cuestionario guiado que clasifica riesgo y genera checklist y plantilla de documentación técnica.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'EU AI Act compliance checklist', Product Hunt, Hacker News",
+  "competidores": [
+   "Credo AI",
+   "Holistic AI",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Obligaciones GPAI desde agosto 2025 y alto riesgo en 2026-2027.",
+  "ventaja_juan": "Desarrollo con LLMs y plantillas.",
+  "riesgo_principal": "Retrasos o simplificación del AI Act.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "clasificador EU AI Act",
+  "tema_norm": "regulación IA y ciberseguridad UE",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-18",
+  "nombre": "TikTok Shop Sample Manager",
+  "cliente_que_paga": "TikTok Shop sellers",
+  "problema": "Affiliate sample requests tracked by sheet.",
+  "solucion": "CRM for creator samples and commissions.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "TikTok seller groups",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Affiliate model boom.",
+  "ventaja_juan": "CRUD apps.",
+  "riesgo_principal": "Platform dependence.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "muestras creadores",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G15-13",
+  "nombre": "Agente de traducción de documentación técnica",
+  "cliente_que_paga": "Redactores técnicos en fabricantes pequeños",
+  "problema": "Traducir manuales manteniendo terminología y formato es lento.",
+  "solucion": "Agente con glosario por cliente que traduce manuales y conserva el formato.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'technical manual translation software', directorios de herramientas de redacción técnica.",
+  "competidores": [
+   "DeepL",
+   "memoQ"
+  ],
+  "por_que_ahora": "LLM manejan terminología con glosarios.",
+  "ventaja_juan": "Terminología industrial en español/inglés.",
+  "riesgo_principal": "DeepL cubre mucho (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "15",
+  "tema": "traducción manuales técnicos",
+  "tema_norm": "traducción técnica",
+  "duplicado_de": null
+ },
+ {
+  "id": "G03-14",
+  "nombre": "Slack Time-off Plus for Shift Teams",
+  "cliente_que_paga": "HR ops en empresa con turnos",
+  "problema": "Gestionar vacaciones por turno y cobertura en hojas de cálculo.",
+  "solucion": "App Slack de ausencias con reglas de cobertura mínima por turno.",
+  "precio_usd_mes": 99.0,
+  "canal_primeros_100": "Slack App Directory 'time off'; SEO",
+  "competidores": [
+   "Vacation Tracker (sin verificar)",
+   "Timetastic (sin verificar)"
+  ],
+  "por_que_ahora": "Trabajo por turnos más común.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Mercado saturado de ausencias.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "ausencias por turnos",
+  "tema_norm": "productividad en Slack/Teams",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-18",
+  "nombre": "Tolerance Stack API",
+  "cliente_que_paga": "Desarrolladores de software de diseño mecánico",
+  "problema": "El cálculo de acumulación de tolerancias no se encuentra como servicio.",
+  "solucion": "API de análisis de tolerancias (peor caso, RSS, Monte Carlo) con visualización.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'tolerance stack-up calculator api', comunidades de ingeniería mecánica, RapidAPI.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Herramientas CAD web en crecimiento.",
+  "ventaja_juan": "Ingeniería mecánica y SolidWorks.",
+  "riesgo_principal": "Mercado pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "análisis de tolerancias",
+  "tema_norm": "tolerancias mecánicas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-11",
+  "nombre": "Marketplace Listing Compliance Scanner",
+  "cliente_que_paga": "ISV product manager listing on AWS/Salesforce/HubSpot",
+  "problema": "Listings get rejected for missing security docs and policy items.",
+  "solucion": "SaaS checklist/scanner that audits a listing and app against marketplace requirements.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Vendor partner forums and SEO 'AppExchange security review checklist'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Marketplace sales are a growing ISV channel.",
+  "ventaja_juan": "Backend and API experience.",
+  "riesgo_principal": "Small buyer pool and policy changes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "marketplace listing audit",
+  "tema_norm": "FinOps y cloud marketplace",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-13",
+  "nombre": "Contract Clause Highlighter",
+  "cliente_que_paga": "Freelancers and procurement staff",
+  "problema": "Risky clauses hide in web ToS and contracts.",
+  "solucion": "Extension highlights risky clauses (auto-renewal, liability) in-browser with explanations.",
+  "precio_usd_mes": 10,
+  "canal_primeros_100": "Chrome Web Store search 'terms of service highlighter'",
+  "competidores": [
+   "ToS;DR"
+  ],
+  "por_que_ahora": "LLM clause detection is cheap.",
+  "ventaja_juan": "Software only.",
+  "riesgo_principal": "Legal-advice liability; AI commoditization. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "contract clause scanner",
+  "tema_norm": "servicios profesionales independientes",
+  "duplicado_de": null
+ }
+]

@@ -1,0 +1,221 @@
+[
+ {
+  "id": "G05-18",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Jira y Linear tienen importadores/CSV y apps de Figma propias o gratuitas (sin verificar el alcance exacto); a $12/mes se necesitan ~830 pagadores para $10k y el PM que lo usa ocasionalmente no paga por un puente puntual.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen simuladores Modbus/OPC UA gratuitos o de código abierto (sin verificar nombres exactos) y el integrador los usa localmente junto al SCADA; una nube pierde frente a una herramienta local gratis, y el nicho de pagadores es pequeño.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-19",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Visores Gerber online gratuitos ya permiten compartir y KiCad/otros visores cubren revisión; el freelancer de PCB rara vez paga $19/mes por compartir enlaces y el comprador del cliente final no paga.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-01",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Limpiar BOM en Sheets se resuelve con fórmulas, tablas dinámicas o un script propio gratis; el ingeniero puede escribirlo en una tarde, y el nicho en el Marketplace de Google es pequeño con disposición de pago baja a $15.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-19",
+  "filtros_fallados": [],
+  "objecion": "Ningún filtro cae claramente, pero la generación de instrucciones de ensamblaje desde STEP sin metadatos de secuencia produce resultados poco fiables; los creadores de Kickstarter compran una sola vez (churn alto) y los LLM con visión generales erosionan el valor.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G20-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cotizadores instantáneos para impresión 3D ya vienen integrados en plataformas de servicio (Craftcloud, Xometry, sin verificar plugins de Shopify) y existen plugins de WooCommerce; las tiendas pequeñas con pocos pedidos no pagan $49/mes, y el cálculo de precio por tienda es difícil de acertar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-15",
+  "filtros_fallados": [
+   "F4",
+   "F5"
+  ],
+  "objecion": "Atlassian Marketplace ya tiene muchas apps de timeline/Gantt (sin verificar cuáles para Bitbucket), Jira Advanced Roadmaps cubre cronogramas; el nicho solo Bitbucket es pequeño y los primeros 100 pagadores no se obtienen solo por búsqueda 'timeline'.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-01",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Número de fabricantes en HubSpot con ventas por CAD es muy reducido y estos compran cotizadores especializados (Paperless Parts, sin verificar integración); a $79 el volumen requerido (~130-600 clientes) excede el nicho del Marketplace, y parsear STEP/DXF a precio exige reglas de costo por cliente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Notion ofrece exportación y historial de versiones nativos, y existen servicios de backup para Notion (sin verificar nombres); Notion puede ampliar la restauración nativa y la API tiene huecos que limitan la fidelidad de la restauración.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-01",
+  "filtros_fallados": [],
+  "objecion": "Comprador concreto y canal nombrado, pero un diff de L5X/TIA básico lo cubre Git más herramientas gratuitas, y Rockwell (Studio 5000 tiene comparación nativa, sin verificar alcance) y Siemens (TIA Compare) pueden cubrirlo; licencia única a $19/mes equivalente exige mucho volumen y los integradores en PLCTalk son reacios a pagar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G15-18",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Cumplimiento regulatorio de etiquetas implica responsabilidad legal y conocimiento por país que no se verifica con IA; el vendedor FBA puede usar los verificadores de Amazon gratuitos y el fundador no tiene ventaja alguna (admitida).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-19",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Paperless Parts, ProShop y software de talleres ya cubren cotización a factura con equipos de ventas detrás; los talleres CNC pequeños usan QuickBooks y Practical Machinist no es un canal con intención de compra; difícil ganar solo con producto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Zonos, Easyship y los propios transportistas/Etsy generan formularios de aduana y sugieren códigos HS en el flujo de envío; la precisión del código HS tiene riesgo de responsabilidad y $19/mes exige muchos vendedores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Teams tiene traducción nativa de mensajes y DeepL/Google gratuitos; el glosario técnico es una ventaja marginal fácil de copiar, y la ventaja de 'español nativo' choca con el criterio de mercado global en inglés.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Slicers (PrusaSlicer, Cura, Bambu) y servicios de impresión ya señalan paredes finas y voladizos gratis; el pagador casual no contrata $29/mes recurrentes por un chequeo puntual y el LLM general explica los errores sin costo adicional.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-04",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Canal vago (comunidades de LinkedIn, SEO sin verificar demanda) para un comprador B2B conservador que exige confianza y datos sensibles de facturas; a $199 haría falta cerrar con ventas, y la extracción por LLM la ofrecen también suites de AP/auditoría (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-06",
+  "filtros_fallados": [
+   "F1",
+   "F2"
+  ],
+  "objecion": "Viva Insights ya expone tiempo en reuniones; el CFO no es quien instala apps de AppSource, y la telemetría de calendarios con salarios genera rechazo de TI y privacidad. Calculadoras de costo de reunión gratuitas existen (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-16",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "SendCutSend, Xometry y Protolabs ya dan cotización instantánea de DXF gratis; una comparativa 'calculada por reglas' sin precios reales de talleres no es creíble y no está claro quién paga $99/mes por algo que el marketplace da gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G25-19",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "Claroty, Nozomi e Industrial Defender dominan con ventas directas; las compras OT requieren ciclos de venta, certificaciones y confianza, el inventario con CVE exige mantener bases de vulnerabilidades, y SEO 'OT asset inventory' lo ocupan los incumbentes.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G02-06",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "NC Viewer y Camotics son gratuitos y los slicers ya previsualizan G-code; a $8/mes se necesitan >1,200 pagadores para $10k y una extensión de Chrome tiene baja disposición de pago y dependencia de la tienda.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G04-19",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Confluence ya muestra PDFs/imágenes con comentarios, y existen apps de markup en Atlassian Marketplace (sin verificar); DXF/DWG en macro es técnicamente exigente y el ingeniero de diseño suele usar PDM/PLM propio, no Confluence, para planos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Hojas de cálculo gratuitas y calculadoras web de costo de impresión 3D abundan; el vendedor casual de Etsy paga poco y la mayoría abandona al poco tiempo (churn alto), por lo que $15/mes no sostiene retención.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "LightBurn ya incluye ajustes de imagen y materiales, y existen herramientas gratuitas de conversión de imágenes; el vendedor de grabados regalo ya tiene su flujo, y el resultado depende de la máquina y material específicos, difícil de generalizar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Speakeasy, Stainless y Fern están financiados y OpenAPI Generator es gratis y de código abierto; el fundador de API pequeña usa el generador gratis, y publicar SDKs con mantenimiento continuo exige soporte que un fundador solo no escala.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Vanta, Drata y similares recogen evidencia de Jira (sin verificar integración exacta) como parte de su producto; el comprador de SOC 2 ya paga una plataforma, así que una app de Atlassian no es el punto de compra, y el volumen en el Marketplace sería pequeño.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "KiBot e integraciones de Octopart/KiCost (sin verificar) y plugins gratuitos de KiCad cubren precio y stock; la base de usuarios de KiCad espera herramientas gratis y requiere APIs de distribuidores con límites y licencias.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Apollo GraphOS y Stellate ya ofrecen límites por costo y análisis, y existen librerías open source de complejidad de consulta para GraphQL (sin verificar nombres); un middleware gratuito en npm cubre el caso de la mayoría y el pagador final es difícil de convencer.",
+  "severidad": "fuerte"
+ }
+]

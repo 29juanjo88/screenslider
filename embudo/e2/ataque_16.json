@@ -1,0 +1,208 @@
+[
+ {
+  "id": "G05-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los LLM genéricos y los asistentes de IA de los propios IDE/Playwright (codegen) generan tests desde capturas o descripciones sin plugin; el comprador QA rara vez paga $29/mes por scaffolding que luego reescribe. Además depende de Figma Community, donde los plugins de pago son escasos. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Visores gratis (Autodesk Viewer, eDrawings) cubren la vista previa; lo que se vende es BOM/dimensiones, pero el comprador de compras paga poco y la extensión debe inyectarse en Gmail/Drive/Slack, que cambian el DOM y restringen adjuntos. Parseo OpenCascade/WASM de STEP grandes es pesado. Dependencia de Chrome Web Store.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-13",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Mercado de software de calibración con incumbentes establecidos (sin verificar nombres); el comprador ISO 17025 exige trazabilidad y auditoría validada, y el canal 'calibration management software' es un término de intención alta pero muy disputado por vendors con ventas. Un registro simple compite con Excel/CMMS ya pagados.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-08",
+  "filtros_fallados": [],
+  "objecion": "Dependencia de Shopify y de que dueños de tiendas industriales con miles de SKUs paguen $29; los PDFs de fabricante son heterogéneos y la extracción con LLM exige revisión humana, erosionando el valor. Un LLM genérico + importación CSV nativa cubre parte. Competidores sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G24-18",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Discogs ya cubre catálogo, escaneo de código y valor de mercado gratis; a $4/mes harían falta >2,500 pagadores para $10k MRR y el coleccionista espera gratis. Ventaja de Juan nula.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G12-17",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Cumplimiento GDPR/DSAR: la promesa de borrado exige exactitud legal y acceso OAuth a datos sensibles de Stripe/HubSpot; los SaaS pequeños dudan de dar ese acceso a un indie desconocido. Transcend y DataGrail dominan (sin verificar precios) y existen plantillas manuales gratis. Riesgo de responsabilidad si falla un borrado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Fireflies, Otter y los resúmenes nativos de Google Meet/Gemini y Zoom ya extraen action items e integran Jira/Linear; es una función que los incumbentes están empaquetando. Capturar subtítulos de Meet vía extensión es frágil y Chrome Web Store compite con decenas de clones.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G10-09",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Cloudingo y DemandTools tienen base instalada y reseñas consolidadas en AppExchange; Salesforce además mejora sus reglas nativas de duplicados. Un recién llegado sin reseñas aparece mal en la búsqueda de AppExchange y el proceso de revisión de seguridad de Salesforce añade costo y demora.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Las plantillas gratuitas de Sheets y las funciones de versionado de Drive cubren el control de revisiones; el equipo pequeño que ya vive en Sheets no paga $25 por un log. Ni SolidWorks ni el CAD se integran: el vínculo es manual, sin valor diferencial.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-19",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "El valor depende de bases de datos de cumplimiento RoHS/REACH (SVHC, declaraciones de proveedores) que son difíciles de obtener y mantener; un informe erróneo implica riesgo legal para el cliente. Existen proveedores de compliance de BOM establecidos (sin verificar). Una IA sin datos propietarios no es defendible.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Healthchecks.io y Cronitor cubren el heartbeat genérico a bajo costo y Healthchecks es de código abierto; el diferenciador (SDK Modbus/OPC UA, estado) es delgado. Los integradores industriales rara vez usan SaaS de terceros en redes OT y el volumen de nicho para $29 es dudoso.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-05",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Mercado muy competido por startups financiadas (Pylon, Plain, Thena, sin verificar) con integraciones profundas a helpdesks; el Head of Support quiere sistema de tickets completo, no un router. Slack Marketplace favorece apps establecidas y Slack puede añadir SLAs nativos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "EPLAN y AutoCAD Electrical generan BOM de forma nativa desde sus propios proyectos; el hueco real son DWG/DXF sin metadatos, donde el parseo es poco fiable y 'priced BOM' exige catálogos de precios de proveedores no disponibles. Los tableristas rara vez compran por SEO.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-19",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "PDFMonkey, Documint y similares ya ofrecen exactamente esto; Notion y Airtable han añadido exportación/automatización nativa, y Zapier tiene pasos de generación de PDF. Nicho saturado con cuota de mercado ya repartida (precios sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Onshape y otros PDM en la nube más SOLIDWORKS PDM Standard (incluido en algunas licencias) cubren el caso; un add-in de check-in/out con bóveda en la nube exige sincronización fiable de ensambles con referencias, MVP bien por encima de 6 semanas. Dassault puede cambiar la API del add-in o empaquetarlo. Precio $79 plausible, pero confianza en datos críticos de CAD difícil de ganar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "La IA generando esquemas eléctricos válidos y editables es poco fiable: un error de cableado es inaceptable para ingenieros, que seguirán revisando todo. EPLAN y QElectroTech (sin verificar) cubren el dibujo y la mayoría usa librerías propias; el comprador no confía en salida no determinista.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Healthchecks.io (código abierto, plan gratis) y Cronitor ya dominan los resultados SEO; un SEO por expresión cron atrae tráfico informativo sin intención de compra. Comoditizado y fácil de autohospedar.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G14-19",
+  "filtros_fallados": [
+   "F2"
+  ],
+  "objecion": "El comprador (creadores de agentes para fabricación aditiva) es un grupo muy pequeño y aún sin presupuesto; librerías OSS de mallas (trimesh, slicers como PrusaSlicer/CuraEngine por CLI) dan estimaciones gratis. Volumen de pagadores a $39 para $10k es irreal hoy.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Faker, Mockaroo y los asistentes de IA de los IDE generan datos coherentes gratis; a $8/mes se necesitan >1,250 pagadores para $10k y los desarrolladores esperan plugins gratis. JetBrains Marketplace tiene baja intención de compra para esto.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G25-02",
+  "filtros_fallados": [],
+  "objecion": "FactoryTalk AssetCentre y herramientas de versionado de PLC de otros proveedores (sin verificar alcance) ya ofrecen diff, y los clientes OT son reacios a subir proyectos a la nube. El comprador de $199 en planta mediana suele tener ciclo de compra largo, aunque el canal PLCTalk/r/PLC y la ventaja técnica de Juan son reales. Soporte de L5X/TIA Openness es costoso de mantener.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G24-07",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Blackbox Explorer y PID Analyzer son gratis y la comunidad FPV espera herramientas gratuitas; a $6/mes se requieren >1,600 pagadores para $10k. El hobbyista no paga por un registro de ajustes.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G16-06",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Cumplimiento regulatorio con exactitud legal: el informe CBAM exige factores de emisión y verificación que un indie no puede garantizar, y la UE puede simplificar la normativa (riesgo declarado). Los importadores grandes ya usan consultoras y software de carbono (sin verificar). Canal LinkedIn en aduanas es outbound, no autoservicio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-20",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "La API nativa de AWS Marketplace Metering es gratis y bien documentada, y el pool de compradores (ISVs con listado en AWS) es pequeño; cuesta justificar $79 por un wrapper. AWS puede mejorar su SDK en cualquier momento.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Gumroad, Cults3D y similares ya gestionan licencias y enlaces únicos; la marca de agua en STL es fácilmente removible, por lo que no evita copia real. Los vendedores de STL pequeños tienen ingresos bajos y pagarían poco.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-02",
+  "filtros_fallados": [],
+  "objecion": "Comprador muy acotado (desarrolladores de software de cotización para corte láser/CNC) y alternativas OSS locales (Deepnest, SVGnest) cubren el anidado; la longitud de corte y área son cálculos que un dev resuelve en días con librerías DXF. $99 exige ~100 clientes y el canal RapidAPI tiene poca intención. Anidado de calidad real es difícil.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen calculadoras gratuitas de costo de impresión 3D (sin verificar nombres) y los slicers ya estiman tiempo y filamento; a $19 el freelancer de impresión lo ve como 'estaría bien'. Volumen requerido para $10k (~530 pagadores) es dudoso en un nicho de microtalleres.",
+  "severidad": "fuerte"
+ }
+]

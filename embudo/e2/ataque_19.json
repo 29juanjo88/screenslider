@@ -1,0 +1,206 @@
+[
+ {
+  "id": "G07-18",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Next.js DevTools y el propio React DevTools/Next.js (next build ya muestra tamaño de bundle por ruta) y @next/bundle-analyzer son gratis; extensiones de VS Code a $10/mes casi no tienen precedente de pago en devs, y Vercel puede integrarlo nativo. Canal: búsqueda en Marketplace sin evidencia de volumen de compra.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G06-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "ManageWP (GoDaddy) y MainWP ya cubren exactamente esto, con planes base gratis (MainWP Dashboard es open source; ManageWP tiene nivel gratis, sin verificar precios actuales). Sin ángulo diferenciador declarado; a $79 compite con herramientas más baratas y establecidas.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G10-19",
+  "filtros_fallados": [],
+  "objecion": "Nicho extremo: requiere ser ISV de AppExchange, pasar security review de Salesforce y vender a equipos de field service que compran vía su admin; volumen de compradores probablemente de cientos, no miles (sin verificar). Pasar a 500 clientes a $89 es irreal; 100 primeros clientes dependen de una sola búsqueda en AppExchange.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Craftcloud y los quoters integrados de plataformas (p. ej. servicios de impresión que ya calculan volumen/tiempo) cubren el caso; la estimación de tiempo/precio depende de la máquina y es poco fiable, y calcular volumen de un STL es trivial con librerías gratuitas, así que el comprador puede construirlo solo. Cliente (bureaus pequeños) con baja disposición a pagar $59.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-20",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "FreshBooks/Wave y plantillas gratis de factura cubren el caso; el dolor (facturar tarde) es de proceso, no de herramienta. Newsletters pequeñas no pagarán $19 para facturar pocos patrocinios al mes; sin ventaja de Juan.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G21-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Octopart y distribuidores (Digi-Key, Mouser) ya ofrecen BOM tools gratis con precios en vivo; Arena/OpenBOM/Altium 365 cubren BOM. Acceso a APIs de precios con costo y términos restrictivos (sin verificar). Hardware startups usan Excel + herramientas gratis del distribuidor.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Dependabot, GitHub dependency graph/SBOM export, Syft, Trivy, ORT y ScanCode son gratis y open source; FOSSA y Snyk dominan lo de pago con equipos de ventas. $99/mes contra gratis suficiente para la mayoría; el canal GitHub Marketplace está dominado por incumbentes.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G01-19",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Los fabricantes con precios atados a commodities rara vez venden en Shopify con catálogos que cambien así; segmento no demostrado. Fuente de datos de commodities cara; ya existen reglas de precios en apps de Shopify (sin verificar) y la búsqueda 'dynamic pricing' atrae a otro público (repricing por competencia).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "release-please, GitHub Releases, git-cliff y changesets son gratis y open source; las firmas de firmware no cambian eso. Hardware startups no pagarán $39 por algo que se resuelve con un script en CI. Canal GitHub Marketplace sin intención de compra.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G14-05",
+  "filtros_fallados": [],
+  "objecion": "Mercado muy concurrido y en movimiento: LangSmith, Langfuse y otros ya ofrecen tracing, datasets y reejecución/playground (alcance exacto sin verificar); los frameworks pueden añadir replay nativo. Repetición determinista de un LLM es parcial por naturaleza. Aun así, el diferenciador es concreto y el comprador es claro.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-12",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Obtener precios por proveedor es el producto y no hay fuente fiable ni API pública (el propio riesgo lo admite); índices existentes (LME, Fastmarkets, MEPS) son de pago o sin verificar. Talleres pequeños no compran un índice a $39 y SEO de 'price per kg' atrae curiosos, no compradores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-11",
+  "filtros_fallados": [],
+  "objecion": "Mercado pequeño (integradores que además usan plantillas propias en Excel que ya mantienen gratis); TIA Portal Openness y Studio 5000 exigen formatos propietarios que cambian entre versiones, y Siemens/Rockwell ya tienen herramientas de importación de tags desde Excel. Comunidades (PLCTalk) prohíben o resisten promoción; AppSource no es canal de intención para esto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-19",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Comprador difuso (agencias/legal) y base de licencias de fuentes imposible de mantener con exactitud; no promete cobertura. Los metadatos de licencia están en el propio archivo de fuente y la gestión de fuentes de Adobe/Monotype/Google Fonts cubre lo común. Sin ventaja de Juan y sin competidores verificados.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Configuradores 3D para WooCommerce existen (sin verificar nombres) y Shopify/Woo tienen visores 3D nativos o gratuitos con model-viewer de Google (gratis); el valor está en la lógica de precio por opción, que cada tienda personaliza. Soporte alto por compatibilidad de temas con precio de $39.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-01",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Mercado diminuto: pocos devs de slicers/granjas necesitan precios de filamento, y la mayoría lo resuelve scrapeando ellos mismos o con feeds de afiliados gratis. Scraping de ~100 tiendas es frágil y puede violar términos. Muy difícil llegar a 500 pagadores a $39.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-15",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "3DPrinterOS, AstroPrint y Obico ya cubren gestión de granjas y reportes de costo; Stripe Invoicing es gratis. Granjas pequeñas que cobran por pieza facturan con hojas de cálculo; mercado pequeño (admitido) y disposición de pago incierta.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-10",
+  "filtros_fallados": [],
+  "objecion": "Shopify ya tiene Stocky (descontinuado, sin verificar) y hay varias apps de purchase orders en la App Store (nombres sin verificar); el canal es nombrado, pero con competencia directa y riesgo de función nativa. Dropshippers no hacen POs formales; el segmento real es retail con inventario, donde hay ERP más completos.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G23-08",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Placeit y Canva (y herramientas de mockup con IA) tienen niveles gratis o muy baratos; vendedores Etsy pagan poco ($19 con alta rotación) y renderizar DXF/STL realista y fiel es un problema difícil que suele ofrecer resultados irreales. Cualquiera puede generar imágenes con IA general.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G23-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Amazon ya notifica supresiones en Seller Central (Account Health, alertas por email) y Helium 10/Sellerboard incluyen alertas de listado. Para monitorear sin API oficial se arriesgan bloqueos; SP-API permite parte pero el acceso para terceros requiere aprobación. Vendedores pagan por suites, no por un monitor suelto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-19",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Reportar bajo TSCA 8(a)(7) implica responsabilidad regulatoria; el cumplimiento depende de bases de datos de pago y reglas que se han retrasado varias veces (admitido). Fabricantes con cumplimiento ya usan suites de gestión de materiales (sin verificar). Una herramienta errónea expone al cliente a multas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-11",
+  "filtros_fallados": [
+   "F1",
+   "F3"
+  ],
+  "objecion": "Es de facto asesoría legal/de cumplimiento para empresas públicas; sus abogados no confiarán decisiones de materialidad a una herramienta de $99, y bufetes publican plantillas 8-K gratis. Evento poco frecuente: se usa una vez, así que la retención es nula.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G08-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Stripe Billing con medición de uso, Zuplo, Moesif, Unkey y API gateways (RapidAPI, AWS API Gateway usage plans) cubren el caso, varios con niveles gratis; mercado saturado, admitido en el propio riesgo. Retención baja: quien necesita 10 minutos de setup luego migra o lo construye.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-05",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Invoice Ninja (open source), Zoho Invoice y plantillas gratis de Google Sheets cubren el caso; $14 requiere más de 700 pagadores para $10k y los freelancers son sensibles al precio. Apps Script permite hacerlo gratis; el complemento no tiene ángulo.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G11-04",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Excel tiene CONVERT nativa; las tablas de ajustes ISO son gratuitas en la web y en manuales; $12/mes requiere volumen alto con ingenieros que no pagan por complementos de Excel. Ventaja real de Juan pero valor y presupuesto bajos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-01",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Mercado saturado de Vanta, Drata, Sprinto, Secureframe y otros con gran gasto en ads y G2; además el comprador exige confianza y un auditor que acepte la evidencia, lo que implica ventas y certificaciones propias (la propia empresa necesita SOC 2). 100 clientes a $149 vía SEO contra incumbentes con presupuestos de ads es irreal sin ventas.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G12-02",
+  "filtros_fallados": [],
+  "objecion": "Fábricas con IT rara vez permiten conexión saliente desde la red OT a Notion/Airtable (ciberseguridad IEC 62443); cada modelo de PLC y HMI exige soporte, y un agente en planta es hardware/soporte on-site. Aun así, nicho de pocos competidores directos (sin verificar), la ventaja de Juan es real y la demanda se busca sola en r/PLC; el riesgo principal es la fricción de IT y el soporte.",
+  "severidad": "fuerte"
+ }
+]

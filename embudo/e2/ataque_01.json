@@ -1,0 +1,220 @@
+[
+ {
+  "id": "G12-08",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Make, n8n y Zapier ya muestran historial de ejecuciones y errores nativamente, y el cliente de la agencia no paga el portal: la agencia debe pagar $99 y conectar APIs de tres plataformas con límites cambiantes; los directorios de partners son de las plataformas, no un canal de compra confirmado. Competidores: sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-20",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Fabricantes de variadores y de motores ofrecen calculadoras de ahorro gratuitas como herramienta de marketing (se menciona en el propio competidor); un ingeniero calcula el ROI una vez por proyecto, no pagaría $29/mes recurrente. Uso esporádico = churn alto.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G16-07",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Los cuestionarios ESG de cada cliente grande suelen exigir su propio portal (p.ej. plataformas de los compradores), así que no se exporta 'en su formato'; EcoVadis y similares ya son el estándar que el proveedor debe usar. El alcance de CSRD se reduce por Omnibus. Canal SEO/LinkedIn genérico.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-05",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $5/mes se necesitan >2,000 pagadores para $10k, y los cultivadores esperan apps gratis o hojas de cálculo; hay muchas apps de diario de cultivo en App Store (sin verificar cuáles). Ventaja de Juan nula y mercado estacional.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G11-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "El historial de versiones nativo de Google Sheets restaura versiones y rangos de forma gratuita; además existen complementos de respaldo (sin verificar). El comprador de finanzas rara vez paga $15/mes por algo que cree ya tener. Dependencia total de Google Workspace Marketplace.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen opciones gratuitas de render de OpenAPI (Swagger UI, Redoc open source, GitHub Pages) y plataformas establecidas (Readme, Redocly, Stoplight, Mintlify) con SEO propio; sin diferenciación clara y el SEO 'host openapi docs' está dominado por ellos. Copia trivial.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-18",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Mercado diminuto: pocos SaaS de impresión 3D necesitan un analizador de G-code de pago, y los slicers de código abierto (PrusaSlicer, Cura, OrcaSlicer) ya calculan tiempo y material; un desarrollador puede parsear G-code con librerías gratuitas. AWS Marketplace como canal de descubrimiento para esto: sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-06",
+  "filtros_fallados": [],
+  "objecion": "Herramientas SEO genéricas (Ahrefs, Semrush, Screaming Frog) auditan enlaces rotos y schema, y plataformas de docs integran llms.txt; el comprador (DevRel) tiene presupuesto pero el nicho es pequeño y el dolor no es urgente. Canal Write the Docs es comunidad sin intención de compra.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G16-15",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Con ciclo largo, el comprador es un fabricante que suele depender de consultores y organismos notificados; una plantilla no sustituye la responsabilidad legal de la declaración de conformidad (riesgo de responsabilidad). Los consultores venden plantillas; la normativa aplica desde 2027, hay incertidumbre. Competidores: sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "ExpiredDomains.net ofrece listados y filtros gratuitos, y registradores (GoDaddy, Namecheap, DropCatch) tienen subastas y alertas; el mercado de dominios es de pocos profesionales con herramientas arraigadas. Precios de planes: sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-17",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Los incumbentes (Paperless Parts, ProShop, sin verificar detalles) tienen funciones más completas y venden con ciclo de ventas; el taller pequeño estima en Excel/ERP y la importación de CAM para costeo fiable es técnicamente difícil. Practical Machinist es un foro, no una fuente de compra, y prohíbe promoción.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-02",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $6/mes se requieren ~1,700 pagadores para $10k, y los aficionados prefieren trackers gratis o afiliados; el propio tracker de Aurora Tech y agregadores de ofertas (sin verificar) cubren el caso. Modelo de afiliación suele ganar a la suscripción.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G27-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Machinio y MachineryTrader ya publican listados con alertas gratuitas por búsqueda; el scraping de terceros puede bloquearse y los brokers obtienen el inventario antes. El valor de 'precio justo' es difícil de validar sin datos de ventas reales.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-13",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Seller 365 y Threecolts ya existen, Amazon ofrece Account Health nativo gratis, y los foros de Seller Central y grupos de Facebook prohíben o restringen promoción. Riesgo: depender de la API de Amazon y redactar apelaciones con IA es una función que ChatGPT cubre gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-16",
+  "filtros_fallados": [
+   "F2",
+   "F5"
+  ],
+  "objecion": "Los releases ya se siguen gratis con GitHub Watch, RSS y Dependabot; nadie paga $12/mes por un newsletter de nicho diminuto (<2,000 posibles compradores). No hay comprador concreto con presupuesto.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G21-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "GrabCAD, TraceParts y otras bibliotecas ofrecen modelos gratis; los fixtures son específicos de cada pieza y los ingenieros construyen los suyos en SolidWorks. Plantillas paramétricas requieren mantenimiento por CAD/versión y no hay intención de compra mensual.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G23-14",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Etsy no permite widgets embebidos ni subida de DXF por el comprador en la tienda; la API de Etsy limita lo que se puede insertar, así que el flujo fuera de Etsy infringe sus políticas. Xometry cotiza DXF instantáneamente (la diferencia: la tienda del vendedor). Mercado de vendedores de corte láser diminuto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-02",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Requiere revisión de seguridad de AppExchange y programa ISV con coste y tiempo; el job shop pequeño rara vez usa Salesforce, y quienes sí lo usan ya tienen CPQ o un integrador. Mercado diminuto y comprador al que se llega por ventas, no por búsqueda.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-10",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Harvest y Toggl ya permiten presupuestos y alertas de horas contra proyecto; Notion/Slack Marketplace no tienen intención de compra para esto. A $19/mes, 530 clientes para $10k, y consultores usan hojas de cálculo gratuitas. Sin ventaja de Juan.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-16",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Requiere un agente local en Modbus/serial con soporte por cada instalación, y el valor ya lo cubren scripts gratuitos en Python con gspread, Node-RED y Arduino. Mercado de laboratorios pequeños dispuesto a pagar: sin verificar; el soporte consume el tiempo parcial de Juan.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Acrobat Pro incluye autoetiquetado y comprobador de accesibilidad, y PAC (PDF Accessibility Checker) es gratis; el remediado correcto de PDF/UA suele exigir revisión manual, así que el autoetiquetado automático no cumple EAA y expone a responsabilidad. CommonLook y servicios de remediación existen. Demanda por EAA real pero el comprador puede preferir un servicio humano.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G02-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cookiebot, Ghostery y las herramientas de desarrollador del navegador (pestaña Red) ya muestran trackers antes del consentimiento gratis; consultores de privacidad tienen escáneres de pago ya (sin verificar). Riesgo de responsabilidad por asesoría y dependencia de la Chrome Web Store.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Syft, ScanCode y otras herramientas generan SBOM y detectan licencias gratis, y FOSSA (sin verificar) cubre C/C++; el valor propuesto es solo UX. El comprador de firmware pequeño no tiene presupuesto de cumplimiento, y la presión del CRA es futura. La Action en GitHub Marketplace no tiene alta intención de compra.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-12",
+  "filtros_fallados": [],
+  "objecion": "Los fabricantes (Siemens, Rockwell) incluyen referencias cruzadas y generación de documentación, y podrían añadir documentación con LLM; además, los proyectos de PLC son IP confidencial del cliente: subir exportaciones a un SaaS de terceros choca con políticas de seguridad. Formatos propietarios exigen parsers por marca. Canal PLCTalk/r/PLC es real y hay dolor claro.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G26-02",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "Mantener datos de permisos por jurisdicción es un trabajo operativo enorme y sin fin, y un dato obsoleto expone al arquitecto a rechazos de permiso; no hay canal con intención de compra más allá de SEO por ciudad, que domina el gobierno local con información gratis. Los arquitectos usan Bluebeam/Revit. Competidores: sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "incident.io, Rootly y FireHydrant (sin verificar funciones exactas) generan postmortems automáticos dentro de su plataforma, y ChatGPT/Claude convierten un hilo de Slack en postmortem gratis. El comprador no paga por una pieza suelta. Slack Marketplace es una sola plataforma.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-16",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen alternativas OSS autoalojables gratuitas (por ejemplo Formbricks y similares, sin verificar) y la licencia única choca con la meta de MRR: el precio_usd_mes de $79 no es recurrente. Un solo binario se copia fácilmente. Hacker News y r/selfhosted rechazan software de pago cerrado.",
+  "severidad": "fatal"
+ }
+]

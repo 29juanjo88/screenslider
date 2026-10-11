@@ -1,0 +1,418 @@
+[
+ {
+  "id": "G29-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Nicho de granjas de impresión con canales reales (Klipper/Discord, r/3Dprinting) pero OctoPrint/plugins gratis cubren parte y mercado sin verificar."
+ },
+ {
+  "id": "G16-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 41,
+  "razon": "Mandato e-invoicing da intención de búsqueda, pero reglas Schematron oficiales son gratis y el valor es solo mensajes legibles/reparación."
+ },
+ {
+  "id": "G26-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Takeoff IFC con visores gratuitos e IfcOpenShell; sin competidores ni evidencia verificados y baja disposición de pago de freelancers."
+ },
+ {
+  "id": "G22-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "YouTube Test & Compare nativo y gratis cubre exactamente la función."
+ },
+ {
+  "id": "G22-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Opus Clip domina el nicho (de pago, no gratis) y la idea no aporta ángulo ni ventaja de Juan."
+ },
+ {
+  "id": "G25-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Ventaja real en G-code y dolor de auditoría, pero canal débil y compradores de taller conservadores."
+ },
+ {
+  "id": "G05-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Stark cubre contraste y Figma es plataforma única; solo diferencia el PDF de informe, sin ventaja de Juan."
+ },
+ {
+  "id": "G14-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Garak y Promptfoo son open source gratis y ya cubren pruebas de inyección en CI."
+ },
+ {
+  "id": "G24-10",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $5/mes la meta exige más de 2,000 pagadores y hay hojas gratis."
+ },
+ {
+  "id": "G19-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "CAM gratuito y generadores web gratis de G-code cubren el fresado básico; el propio autor lo reconoce."
+ },
+ {
+  "id": "G23-15",
+  "filtro_fallado": "F4",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Canal 'eBay forums' no es concreto y el scraping choca con TOS de eBay."
+ },
+ {
+  "id": "G13-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 1
+  },
+  "total": 30,
+  "razon": "Copilot ya explica fallos de Actions y la plataforma lo absorberá; copiar es trivial."
+ },
+ {
+  "id": "G25-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "Ahorro monetario claro a $199 pero mercado pequeño, canal limitado y acceso a logs FlexNet frena el autoservicio."
+ },
+ {
+  "id": "G12-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "Ángulo workflow-aware de n8n con canales nombrados, pero mercado acotado y gitleaks gratis cubre secretos."
+ },
+ {
+  "id": "G29-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Ventaja de campo real, pero Modbus Poll barato y herramientas gratis; precio incoherente (mensual vs único)."
+ },
+ {
+  "id": "G21-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Los fabricantes ofrecen calculadoras de correas gratis y a $12 el volumen requerido es alto."
+ },
+ {
+  "id": "G30-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Ventaja real en mallas y SEO 'stl repair api', pero librerías open source (trimesh, MeshFix) cubren gran parte."
+ },
+ {
+  "id": "G01-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 41,
+  "razon": "Canal nombrado en Shopify App Store con intención de compra y ventaja CAD/CAM de Juan; mercado de talleres con Shopify limitado."
+ },
+ {
+  "id": "G11-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Google Sheets ya programa envíos por email y Apps Script/Looker cubren esto gratis."
+ },
+ {
+  "id": "G12-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Canal poco claro, ecosistema fragmentado, precio bajo y API de Etsy limitada."
+ },
+ {
+  "id": "G06-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Muchos plugins de búsqueda facetada para Woo y ventaja de Juan marginal."
+ },
+ {
+  "id": "G26-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 23,
+  "razon": "Trados, memoQ y Xbench cubren QA terminológico y los traductores no usan add-ins de Word."
+ },
+ {
+  "id": "G24-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "JLCPCB y KiCad incluyen DRC/DFM gratis y a $9 el volumen es irreal."
+ },
+ {
+  "id": "G25-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Mercado saturado de competidores financiados sin ángulo diferencial ni ventaja de Juan."
+ },
+ {
+  "id": "G11-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 39,
+  "razon": "Conocimiento raro de TIA y Studio 5000 y nicho sin competidor claro, pero mercado pequeño y export nativo a CSV."
+ },
+ {
+  "id": "G02-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "DevTools 'Copy as fetch/cURL', Postman y Insomnia ya cubren el export gratis."
+ }
+]

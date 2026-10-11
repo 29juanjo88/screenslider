@@ -1,0 +1,208 @@
+[
+ {
+  "id": "G15-20",
+  "filtros_fallados": [],
+  "objecion": "Extraer una BOM fiable de un STEP depende de que el modelo tenga metadatos limpios; la mayoría de ensamblajes de equipo pequeño no los tiene, y los CAD (SolidWorks, Fusion) ya exportan BOM nativamente. Lo que queda por vender es la búsqueda de proveedores, cuya cobertura de catálogos es el verdadero costo y no se resuelve con un LLM. Además el comprador (compras) rara vez abre foros de SolidWorks; sin verificar competidores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-09",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Mercado saturado con planes gratis (Atlassian Statuspage, Better Stack, otros con tier gratuito; precios sin verificar) y a $19/mes se necesitan ~500+ pagadores para $10k; el SEO 'status of [service]' agregado lo domina un incumbente tipo agregador y Google trata esas páginas como thin content.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G27-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen incumbentes de pago establecidos (Prisync) y numerosas apps de tracking en Shopify App Store; además, apps que scrapean /products.json de tiendas ajenas violan el espíritu de las políticas de Shopify y pueden ser rechazadas en revisión. A $19 la retención es baja en tiendas pequeñas que no monitorean competidores semanalmente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-10",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Problema de huevo y gallina: el comprador (creator de plantillas) ya vende en Gumroad/Lemon Squeezy y n8n/Make tienen sus propios marketplaces o comunidades; la clave de licencia para JSON de workflow es trivial de eludir (copiar el JSON). Volumen de creators que pagan $29/mes es incierto y el canal 'YouTube y X' es vago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Plugins de tarifas de envío por dimensiones/empaquetado para WooCommerce ya existen en abundancia, varios con versión gratuita en WordPress.org (sin verificar nombres). Además las tarifas reales las dan las APIs de transportistas; un plugin de cálculo propio compite contra suites completas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los hosts de podcast dinámico (Megaphone, Acast, Libsyn, etc.) ya generan reportes de entrega de anuncios para sponsors de forma nativa, y el cliente objetivo (anuncios directos sin red) es pequeño y se conforma con hoja de cálculo. Sin ventaja del fundador.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-04",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $6/mes se requieren ~1,700 pagadores para $10k; el público hobby paga una vez o usa calculadoras gratuitas web, y Fusion/Carbide Create ya traen feeds sugeridos. La URL de evidencia es un hilo de Shapr3D sin relación directa con CNC de escritorio.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G09-16",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Los slicers (Bambu Studio, OrcaSlicer, PrusaSlicer) incluyen perfiles de fábrica y comunidades comparten perfiles gratis (Printables, repos de GitHub); a $9/mes es difícil justificar pago y el SEO de perfiles lo ocupan sitios gratuitos de los fabricantes.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G09-14",
+  "filtros_fallados": [],
+  "objecion": "SEO 'container load calculator' ya está ocupado por calculadoras web gratis y software de pago de forwarders (sin verificar nombres); el importador pequeño las usa una vez y no necesita suscripción mensual, lo que dispara el churn. Optimización 3D de carga real es difícil de hacer bien.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Hay calculadoras y plantillas de OEE gratis en abundancia y herramientas SaaS (Evocon, Vorne; precios sin verificar) con prueba; el usuario de Excel que sube CSV manualmente lo usará una vez, no pagará mensual. Gerentes de planta no suelen comprar con tarjeta por autoservicio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Google Sheets y Excel ya tienen validación de datos, formato condicional, historial de versiones y alertas; el complemento compite con funciones nativas y con el scripting gratuito. Además solo aplica a hojas compartidas y dependencia doble de Google/Microsoft; el SEO 'spreadsheet audit' es genérico.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-04",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Mercado muy pequeño: integradores que usan Confluence Y documentan tags de TIA Portal/Studio 5000 son un subconjunto reducido; el marketplace de Atlassian tiene muy poco volumen de búsqueda 'PLC' (sin verificar). Extraer E/S de proyectos propietarios requiere exportaciones (Excel/AML/L5X) que varían. A $90 harían falta ~110+ clientes, difícil de hallar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "DefectDojo es open source gratuito y cubre exactamente importación y normalización de hallazgos con SLA; Plextrac y la integración de Jira cubren el resto. A $149 el comprador (responsable de seguridad) suele exigir revisión de seguridad/compras y confía en herramientas con certificación SOC2.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-19",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Responsabilidad por conformidad con códigos (AWS D1.1, ASME IX): un error en un WPS validado por la herramienta crea riesgo legal y los códigos tienen licencia de pago, por lo que no se pueden incorporar sin licenciar. Competidores existen (Weldassistant, sin verificar) y las plantillas Word/Excel gratis son 'suficientemente buenas'.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Obico, OctoPrint/Klipper con Mainsail/Fluidd y Bambu Handy/SimplyPrint (sin verificar) cubren monitoreo con tiers gratis y las granjas serias ya usan 3DPrinterOS o AstroPrint. Entrar con panel genérico es una guerra de funciones contra incumbentes con comunidad establecida.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-03",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Los chatbots multimodales generales ya diagnostican artefactos de impresión desde una foto sin costo marginal, y hay guías gratis (Bambu Wiki, Ellis' Print Tuning Guide). A $8/mes la cobertura de $10k requiere ~1,250 pagadores con retención baja (se arregla el problema y cancelan).",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G23-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Printago y SimplyPrint ya hacen el flujo de pedido Etsy a trabajo de impresión (la propia evidencia URL de Printago lo muestra). Entrar es clonar un producto existente con comunidad y sin ángulo diferenciador; además depende de la API de Etsy.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-17",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Mercado diminuto: pocos diseñadores de HMI usan Figma (los HMI se hacen en TIA Portal WinCC, FactoryTalk View, Ignition con sus propias librerías ISA gratis o incluidas). Figma Community es mayormente gratuita y los plugins de nicho tienen pocos pagadores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "A2X y Link My Books son incumbentes consolidados y especializados exactamente en Amazon/Shopify a QuickBooks, con integraciones profundas y apps listadas; el propio texto del autor admite que no hay ventaja. Un agente LLM aporta poco frente a reglas deterministas de conciliación, y los errores contables tienen costo alto.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G27-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los proveedores publican APIs y páginas de precios gratis (AWS Price List API con notificaciones SNS) y Vantage e Infracost ya ofrecen precios consultables; el comprador FinOps necesita el dato de pocos SKUs que ya sigue. El diff diario es fácil de copiar y volumen real de pagadores incierto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-11",
+  "filtros_fallados": [
+   "F5",
+   "F2"
+  ],
+  "objecion": "A $6/mes se requieren ~1,700 pagadores; el entusiasta de track days usa apps ya existentes con GPS (Harry's LapTimer, RaceChrono; sin verificar) o notas en el teléfono. Mercado disperso, canal basado en grupos de Facebook y foros difícil de repetir, sin ventaja específica.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G20-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Spoolman es gratuito, open source y ya integra OctoPrint/Klipper con escaneo QR; el plugin pago no ofrece ventaja clara y los usuarios de ese ecosistema rechazan pagar por algo auto-alojable. A $9 son ~1,100 pagadores para $10k.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G11-08",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Los slicers ya permiten exportar/importar perfiles en archivos de texto/JSON y se versionan con Git; hacerlo en Sheets es un caso de uso forzado. Nicho pequeño con baja disposición de pago, y a $15 requeriría ~700 pagadores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "WooCommerce Subscriptions y pasarelas (Stripe, Woo Payments) ya traen reintentos de pago y notificaciones; hay plugins de dunning y retención en el ecosistema (sin verificar nombres). Los dueños de tienda que ya usan Woo Subscriptions pagan el plugin oficial y esperan funciones incluidas.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G17-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Recharge incluye analítica propia y Littledata ya cubre métricas de suscripción para Shopify; depende de dos plataformas (Shopify y Recharge/Bold) cuyas APIs pueden cambiar o restringir acceso. Competidores sólidos en el mismo canal de búsqueda del App Store.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-04",
+  "filtros_fallados": [],
+  "objecion": "GitHub ya publica informes de uso y facturación por repo/workflow y puede extenderlos nativamente; el mercado de compradores es de organizaciones medianas con costos de Actions relevantes, subconjunto acotado. Aun así existe un hueco documentado en atribución por equipo, la intención de búsqueda existe en Marketplace y el MVP es de pocas semanas; la objeción principal es dependencia de GitHub (sin verificar alcance actual de la vista nativa).",
+  "severidad": "moderada"
+ }
+]

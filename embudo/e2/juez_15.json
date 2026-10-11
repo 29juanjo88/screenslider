@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G29-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Optimizadores de corte web gratuitos (CutList Optimizer) cubren la necesidad; sin evidencia."
+ },
+ {
+  "id": "G28-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "SEO de cola larga plausible y sin competidor claro, pero captura de datos masiva y mercado de integradores chico; sin evidencia."
+ },
+ {
+  "id": "G27-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Avisos de tarifas ya se difunden gratis en foros/blogs; $12 con churn alto y sin diferenciación."
+ },
+ {
+  "id": "G01-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Canal nombrado en Shopify App Store pero apps de precio por m2 ya existen y el nicho es estrecho."
+ },
+ {
+  "id": "G25-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "OpenBOM/PDM y Excel cubren parte; SEO 'BOM comparison' plausible pero sin verificar; ventaja CAD real."
+ },
+ {
+  "id": "G29-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Obsidian y apps de notas cifradas offline gratis cubren el caso; consumidor sin pago recurrente."
+ },
+ {
+  "id": "G16-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 37,
+  "razon": "Urgencia regulatoria CRA real y ventaja en firmware, pero SBOM OSS gratis y flujo ENISA oficial gratuito; evidencia sin verificar."
+ },
+ {
+  "id": "G14-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Langfuse/Braintrust ya ofrecen datasets desde trazas; espacio saturado y sin ventaja industrial."
+ },
+ {
+  "id": "G26-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Smartcat, Matecat y OmegaT ofrecen CAT/TM gratis; el propio texto admite F1."
+ },
+ {
+  "id": "G20-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Obico y plugins Moonraker/Telegram gratuitos cubren las alertas; el mercado de plugins espera gratis."
+ },
+ {
+  "id": "G14-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Un cron con prompts canario en CI reemplaza la idea; Slack Marketplace sin intención de compra; fácil de copiar."
+ },
+ {
+  "id": "G30-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "SEO 'bates numbering pdf online' tiene demanda, pero hay herramientas gratis/baratas y riesgo de responsabilidad por redacción."
+ },
+ {
+  "id": "G30-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 39,
+  "razon": "Canal Shopify nombrado y ángulo STEP con ventaja CAD alta, pero MakeQuote ya existe y el kernel/costeo es costoso; evidencia solo del competidor."
+ },
+ {
+  "id": "G26-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "SimplePractice y TherapyNotes generan superbills de forma nativa; además datos de salud con cumplimiento."
+ },
+ {
+  "id": "G23-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Subida masiva de fitment con SEO específico, pero eBay puede hacerlo nativo y el dato licenciado es lo difícil."
+ },
+ {
+  "id": "G06-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 28,
+  "razon": "Nicho pequeño de print farms con plugins de estado de pedido ya disponibles; sin evidencia."
+ },
+ {
+  "id": "G07-08",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $7/mes la meta exige ~1,400+ pagadores en una comunidad que espera gratis; el riesgo lo admite."
+ },
+ {
+  "id": "G03-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 1,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 22,
+  "razon": "Canal Slack incoherente con el comprador y Craftcloud/Xometry cotizan al instante; sin evidencia."
+ },
+ {
+  "id": "G16-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 2,
+   "riesgo": 1
+  },
+  "total": 29,
+  "razon": "Reglas delegadas del DPP sin definir y ciclo de compra largo; Circularise ya vende; riesgo regulatorio alto."
+ },
+ {
+  "id": "G04-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Trazabilidad en Atlassian Marketplace está saturada (Xray, Zephyr); presupuesto existe pero sin ángulo diferencial."
+ },
+ {
+  "id": "G19-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Node-RED gratuito cubre Modbus/OPC UA con nodos de email/Telegram; el propio texto lo admite."
+ },
+ {
+  "id": "G06-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Plugins gratuitos maduros de WooCommerce ya envían recordatorios de reseñas."
+ },
+ {
+  "id": "G06-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 5,
+   "riesgo": 1
+  },
+  "total": 26,
+  "razon": "Asistentes de IA nativos y plugins abundan; saturación y cero diferenciación."
+ },
+ {
+  "id": "G02-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Chrome Web Store 'redact screenshot' es canal real, pero $8/mes, solapamiento con herramientas del SO y dependencia de Chrome."
+ },
+ {
+  "id": "G23-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 26,
+  "razon": "La inercia de hojas de cálculo y herramientas de inventario existentes; canal de grupos de Facebook vago."
+ },
+ {
+  "id": "G16-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 27,
+  "razon": "Mercado muy reducido, requisitos cambiantes y competidores con ventas directas; sin evidencia."
+ },
+ {
+  "id": "G06-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 27,
+  "razon": "Requiere datos del cliente y el comprador B2B decide lento; WordPress.org sin intención de compra."
+ }
+]

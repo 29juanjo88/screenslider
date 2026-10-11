@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G05-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "Jira/Linear y Figma ofrecen importadores/integraciones nativas y a $12 la meta exige ~830 pagadores; uso puntual."
+ },
+ {
+  "id": "G19-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "Existen simuladores OPC UA/Modbus gratuitos y suficientes para el integrador; sin evidencia de hueco."
+ },
+ {
+  "id": "G30-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "Visores Gerber online gratuitos cubren compartir y revisar; el freelancer no paga."
+ },
+ {
+  "id": "G11-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Complemento de Workspace Marketplace con canal nombrado y MVP rapido, pero nicho chico y sustituible con formulas/scripts."
+ },
+ {
+  "id": "G20-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Dolor real de manuales, pero la secuenciacion desde STEP no es fiable y el MVP excede 6 semanas; compra puntual."
+ },
+ {
+  "id": "G20-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "Canal de app stores nombrado y buena ventaja en mallas, pero ya hay plugins y marketplaces de cotizacion 3D."
+ },
+ {
+  "id": "G04-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Nicho solo Bitbucket, Atlassian ya cubre timelines y sin ventaja de Juan."
+ },
+ {
+  "id": "G10-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Ventaja CAD fuerte y angulo vertical, pero pocos fabricantes en HubSpot y canal Marketplace sin demanda demostrada."
+ },
+ {
+  "id": "G12-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 39,
+  "razon": "Busqueda 'notion backup' con intencion de compra y mercado amplio, pero hay servicios existentes y riesgo de API/nativo."
+ },
+ {
+  "id": "G29-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Ventaja PLC maxima y comprador concreto, pero Rockwell/Siemens traen comparacion nativa y la evidencia es solo un tutorial de Git; precio incoherente."
+ },
+ {
+  "id": "G15-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Dolor de rechazos real pero sin ventaja de Juan, canal difuso y riesgo de responsabilidad legal."
+ },
+ {
+  "id": "G17-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 1,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Competidores fuertes (Paperless Parts, ProShop), MVP de meses y foros sin intencion de compra."
+ },
+ {
+  "id": "G23-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Zonos, Easyship y transportistas ya cubren HS/aduanas; sin ventaja y bajo precio."
+ },
+ {
+  "id": "G03-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "La traduccion nativa de Teams es gratis y suficiente; el glosario es un margen estrecho."
+ },
+ {
+  "id": "G15-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Ventaja 3D fuerte y SEO claro, pero slicers gratuitos cubren gran parte y el pagador casual paga poco."
+ },
+ {
+  "id": "G15-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Dolor y pago altos a $199, pero B2B conservador, sin canal nombrado de intencion y sin ventaja industrial."
+ },
+ {
+  "id": "G03-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "Viva Insights y calculadoras gratuitas cubren el caso; comprador no instala apps."
+ },
+ {
+  "id": "G25-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "SendCutSend/Xometry/Protolabs dan cotizacion instantanea de DXF gratis."
+ },
+ {
+  "id": "G25-19",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "Compras OT requieren ventas directas y bases de CVE; dominan Claroty/Nozomi."
+ },
+ {
+  "id": "G02-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "NC Viewer y Camotics gratuitos y a $8/mes la meta exige volumen irreal."
+ },
+ {
+  "id": "G04-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Ventaja CAD y canal Atlassian nombrado, pero visor DXF en macro es pesado y hay apps de markup."
+ },
+ {
+  "id": "G23-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "Hojas y calculadoras gratuitas de costo de impresion abundan; pagador casual con churn alto."
+ },
+ {
+  "id": "G18-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "LightBurn cubre gran parte y el resultado depende de maquina/material; pagador de baja urgencia."
+ },
+ {
+  "id": "G08-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Clon frente a Speakeasy/Stainless/Fern financiados y OpenAPI Generator gratis; SEO dificil."
+ },
+ {
+  "id": "G04-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Pago alto ($180) y canal Atlassian nombrado, pero Vanta/Drata cubren evidencia y depende de una plataforma."
+ },
+ {
+  "id": "G30-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 0,
+  "razon": "KiBot y plugins gratuitos con Octopart cubren precio/stock de BOM."
+ },
+ {
+  "id": "G08-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Apollo/Stellate y librerias open source cubren el caso; dolor y pago moderados."
+ }
+]

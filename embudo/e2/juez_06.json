@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G15-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 40,
+  "razon": "Dolor semanal real en talleres CNC y canal SEO/foros, pero MVP de estimación fiable en 6 semanas es difícil y Paperless Parts compite."
+ },
+ {
+  "id": "G09-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Generadores de schema gratuitos y LLMs cubren la necesidad; $15/mes sin ángulo."
+ },
+ {
+  "id": "G14-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "OPA es gratuito y suficiente; el comprador de seguridad no compra en autoservicio."
+ },
+ {
+  "id": "G14-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Desarrolladores MCP pagan poco por un linter fácil de copiar y que el ecosistema puede ofrecer gratis; sin evidencia."
+ },
+ {
+  "id": "G06-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Plataformas y plugins de venta digital ya resuelven la entrega; vendedores pequeños y $29 sin canal con intención clara."
+ },
+ {
+  "id": "G16-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Langfuse OSS y otros ofrecen logging LLM gratis auto-alojable."
+ },
+ {
+  "id": "G23-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "eRank/Marmalead consolidados (eRank con plan gratis) y scraping con riesgo ToS; clon sin ángulo."
+ },
+ {
+  "id": "G04-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 39,
+  "razon": "Canal nombrado en Atlassian Marketplace y $100 viable con presupuesto de PMO, pero mercado saturado y poca diferenciación."
+ },
+ {
+  "id": "G17-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Rewardful/FirstPromoter ya calculan comisiones; canal dependiente de un competidor."
+ },
+ {
+  "id": "G29-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "CAMotics y NC Viewer son gratis y suficientes; pago único contradice el MRR."
+ },
+ {
+  "id": "G26-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Ventaja CAD clara pero freelancers pagan poco, nicho fragmentado por estándar y canal vago."
+ },
+ {
+  "id": "G19-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 27,
+  "razon": "Excel/Sheets cubren la bitácora gratis y el supervisor no tiene presupuesto; trivial de copiar."
+ },
+ {
+  "id": "G01-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Canal nombrado en Shopify App Store y $39 razonable, pero nicho de marcas de hardware pequeño y ya hay apps de RMA."
+ },
+ {
+  "id": "G03-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Moveworks/Copilot/Freshservice dominan y la integración ITSM exige aprobaciones de seguridad."
+ },
+ {
+  "id": "G06-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 25,
+  "razon": "Existen LMS gratuitos o baratos para WordPress; nicho de cursos CAD/PLC pequeño."
+ },
+ {
+  "id": "G07-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Ventaja PLC fuerte y canal VS Code Marketplace, pero a $12 el nicho no alcanza para $10k y hay extensiones ST gratuitas."
+ },
+ {
+  "id": "G04-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Canal Atlassian nombrado y $70 viable, pero Atlassian puede añadir la función nativa y ya hay apps de limpieza."
+ },
+ {
+  "id": "G05-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "PDF/X con troquel DXF es ángulo útil pero Figma limita CMYK y el mercado Figma+imprenta es pequeño a $19."
+ },
+ {
+  "id": "G29-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Dolor concreto de días en documentación de entrega y ventaja de Juan alta, pero parsear proyectos propietarios es costoso y el nicho es chico."
+ },
+ {
+  "id": "G05-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Plugins gratuitos de sync con Sheets en Figma Community y $15 sin ventaja."
+ },
+ {
+  "id": "G22-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Circle trae analítica nativa, Skool tiene API limitada y el mercado de comunidades de pago es reducido."
+ },
+ {
+  "id": "G01-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "Canal Shopify nombrado y ángulo de cola de producción, pero cada taller modela capacidad distinto y el mercado es chico."
+ },
+ {
+  "id": "G05-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Presupuesto de design systems existe pero Figma Analytics nativo cubre parte y pocos compradores."
+ },
+ {
+  "id": "G25-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Mercado grande pero cubierto por CLM y hojas de cálculo; extracción con IA no es diferenciador."
+ },
+ {
+  "id": "G16-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 37,
+  "razon": "Urgencia EAA y búsqueda 'accessibility' en Shopify App Store, pero overlays establecidos y dependencia de Shopify."
+ },
+ {
+  "id": "G22-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 27,
+  "razon": "EverWebinar/WebinarJam dominan el SEO del nicho; clon sin ángulo."
+ },
+ {
+  "id": "G02-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "MozBar y SEOquake gratuitos cubren lo mismo y $9/mes exige volumen irreal."
+ }
+]

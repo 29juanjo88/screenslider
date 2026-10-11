@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G18-04",
+  "rescatar": true,
+  "respuesta": "Concedo F5 borderline: a $15 se necesitan unos 670 pagadores. Pero hay ajuste de precio: vendedores de corte laser con negocio real (cientos de pedidos) pierden margen por mal costeo, asi que el valor supera $15. Competidores: hoja de calculo (gratis pero manual) y software de maquina (sin verificar). Canales nombrados con busqueda activa: YouTube de laser, grupos Glowforge y foros de Etsy sellers. Ventaja de Juan en tiempos de corte y CAD.",
+  "ajuste_sugerido": "Subir a $29-39 con plan para talleres y pedidos en volumen; ofrecer calculo desde SVG/DXF con kerf como diferencial; vender a talleres pequenos ademas de hobbistas."
+ },
+ {
+  "id": "G21-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-06",
+  "rescatar": true,
+  "respuesta": "Concedo que Make/Zapier pueden lanzar un asesor y que el flujo de subir blueprints tiene friccion. Pero el filtro F1 no aplica hoy: no hay incumbente gratis nombrado (sin verificar). El comprador es concreto: agencias y equipos de ops que pagan facturas de operaciones; si el ahorro estimado supera $39/mes (una factura de varios cientos), el pago se justifica solo. Canal nombrado: foro de la comunidad Make, r/nocode, r/zapier y SEO 'reduce Make operations', todos con intencion de busqueda directa. Parsear JSON de blueprints es backend puro, MVP en menos de 6 semanas.",
+  "ajuste_sugerido": "Cobrar por ahorro demostrado: informe gratis con ahorro estimado y plan de pago solo para monitoreo continuo; nicho inicial Make (blueprints exportables) antes de Zapier."
+ },
+ {
+  "id": "G08-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-18",
+  "rescatar": true,
+  "respuesta": "Concedo que Atlassian tiene vistas nativas parciales y que la dependencia de plataforma es total (riesgo, no filtro). Pero F1 es parcial, no total: el valor es proponer desactivacion y cuantificar ahorro, no solo listar inactivos. El comprador es el admin de TI/compras que paga licencias por usuario, donde cada usuario inactivo es dinero perdido cada mes; la app se paga sola. Canal nombrado: busqueda 'inactive users' / 'license' en Atlassian Marketplace, con intencion de compra y autoservicio. Precio $80 evita F5.",
+  "ajuste_sugerido": "Precio escalonado por numero de usuarios de la instancia; posicionar como 'se paga con el primer usuario desactivado'. Verificar apps competidoras en Marketplace antes de construir."
+ },
+ {
+  "id": "G21-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-03",
+  "rescatar": true,
+  "respuesta": "Concedo uso episodico y que los motores de facturacion traen simuladores. Aun asi, la idea es rescatable como producto de continuidad: la simulacion se repite cada vez que cambian planes o llegan cohortes nuevas, y los motores como Metronome u Orb simulan dentro de su propio sistema, no de forma neutral (sin verificar). Comprador concreto: PM/fundador de SaaS con cobro por uso. Canal: SEO 'usage-based pricing calculator' con intencion alta.",
+  "ajuste_sugerido": "Convertir en monitoreo continuo (re-simular con datos mensuales y alertar desviaciones de MRR) para dar recurrencia; precio inicial menor si la retencion es corta."
+ },
+ {
+  "id": "G25-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-13",
+  "rescatar": true,
+  "respuesta": "Concedo ciclo de seguridad en empresas reguladas y desconfianza hacia un proveedor nuevo. Pero F1 es solo parcial: las funciones nativas de Atlassian estan en planes altos y no escanean PII/secretos en adjuntos de forma accionable (sin verificar). Comprador: admin de TI/seguridad con presupuesto de compliance; $110/mes evita F5 (unos 90 clientes dan $10k). Canal nombrado: Atlassian Marketplace, busqueda 'PII' / 'secrets'. Arquitectura de bajo riesgo puede reducir la friccion de confianza.",
+  "ajuste_sugerido": "Escaneo dentro de la instancia (Forge, sin sacar datos) para reducir la objecion de seguridad; empezar por deteccion de secretos (mas simple) y luego PII."
+ },
+ {
+  "id": "G10-12",
+  "rescatar": true,
+  "respuesta": "Concedo que HubSpot puede ampliar sus vistas nativas y que el mercado es acotado. F1 no aplica claramente: la documentacion viva y exportable de workflows y propiedades no esta cubierta por una herramienta gratis conocida (competidores sin verificar). Comprador: HubSpot admin o agencia que hereda portales caoticos y cobra por auditorias; la documentacion es entregable facturable. Canal nombrado: HubSpot App Marketplace (busqueda 'documentation') y HubSpot Community. A $49 hacen falta unos 200 pagadores para $10k, alcanzable con agencias con varios portales.",
+  "ajuste_sugerido": "Vender plan por portal con descuento para agencias (multi-portal) y exportar a PDF/Notion como entregable al cliente de la agencia."
+ },
+ {
+  "id": "G14-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G15-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-15",
+  "rescatar": true,
+  "respuesta": "Concedo que Whalesync y Stacksync existen y que hay presion de precios. Pero la objecion no es un filtro: F1 no aplica porque no son gratis, y su existencia valida que hay presupuesto (disposicion de pago alta). Comprador tecnico concreto: developers y equipos ops que superan limites de Airtable. Canal nombrado: SEO 'Airtable to Postgres sync' y Airtable Marketplace/foros de desarrolladores. Diferenciacion posible por precio y simplicidad en un segmento que los incumbentes subatienden (sin verificar).",
+  "ajuste_sugerido": "Nicho estrecho: sync unidireccional a Postgres/Supabase con precio bajo para proyectos pequenos y plan $49 bidireccional; no competir de frente en enterprise."
+ },
+ {
+  "id": "G15-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-07",
+  "rescatar": true,
+  "respuesta": "Concedo uso episodico y variedad de formatos HMI. Aun asi, F1 no aplica: DeepL/LLM no entienden el formato de exportacion de listas de textos de TIA/FactoryTalk ni el glosario tecnico consistente, y el dolor es reimportar sin romper. Comprador concreto: machine builders exportadores, con presupuesto de localizacion y proyectos recurrentes (cada maquina nueva). Ventaja real de Juan en PLC/HMI. Canal: SEO 'HMI alarm text translation', foros PLCTalk y grupos LinkedIn (nicho de poco volumen pero alta intencion).",
+  "ajuste_sugerido": "Empezar solo con TIA Portal (formato Excel de textos) y cobrar por proyecto/paquete de idiomas o plan anual para convertir lo episodico en recurrente."
+ },
+ {
+  "id": "G28-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-01",
+  "rescatar": true,
+  "respuesta": "Concedo que existen plugins de cotizacion 3D (sin verificar) y que las estimaciones dependen de slicers. Pero F1 no aplica: no hay incumbente gratis nombrado y suficientemente bueno. Comprador concreto: dueno de tienda WooCommerce o print farm que hoy cotiza a mano cada pedido, perdiendo horas semanales. Canal nombrado: busqueda '3D printing quote WooCommerce' en WordPress.org y foros de print farms. Ventaja fuerte de Juan: conoce firmware y slicing para estimar tiempo/material. MVP factible en 6 semanas.",
+  "ajuste_sugerido": "Ofrecer calibracion por impresora/material (margen configurable) y vista previa para el cliente; presentar la estimacion como precio con margen, no exacto. Mas adelante extender a Shopify."
+ }
+]

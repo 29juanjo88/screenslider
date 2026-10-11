@@ -1,0 +1,227 @@
+[
+ {
+  "id": "G17-18",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Shopify Markets ya gestiona precios por mercado, redondeo y conversión de forma nativa; una app de precios psicológicos es un ajuste menor sobre algo gratis, y el propio riesgo declarado es F1.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G21-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los fabricantes de servos y reductores ofrecen dimensionadores gratuitos de marca que además llevan a comprar su motor; un ingeniero no paga US$39/mes por una herramienta neutral cuando la de marca es gratis y viene con el catálogo real. Sin verificar el detalle de cada herramienta.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Prism y Mockoon son de código abierto y gratis, y Postman incluye mock servers; una extensión de VS Code a US$10/mes compite con herramientas gratuitas que ya hacen lo mismo, y los agentes de IA pueden generar mocks directamente. Sin verificar límites de los planes gratuitos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-05",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "El segmento de buros de impresión 3D que usan HubSpot es diminuto y el marketplace de HubSpot no tiene demanda de búsqueda establecida para '3D printing'; llegar a 100 clientes de pago exigiría outreach, no un canal de intención de compra. Sin verificar volumen de búsqueda.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-14",
+  "filtros_fallados": [
+   "F2",
+   "F4"
+  ],
+  "objecion": "Comprador difuso: el brand manager rara vez compra plugins individuales y las agencias usan las funciones nativas de Figma (librerías, variables, estilos) que ya imponen color y tipografía. No hay un canal con intención de compra claro en Figma Community. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Las librerías OSS (trimesh, MeshLab, PyMeshFix) reparan mallas gratis y los clientes objetivo (plataformas de impresión bajo demanda) normalmente ya integran reparación propia; pocos compradores posibles y el comprador técnico prefiere montarlo con OSS. Aun así, una API hospedada tiene un ángulo real. Nombre 3MF no coincide con el foco STL.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G18-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "CAMotics es gratis y los CAM (Fusion, Mastercam) calculan tiempos de ciclo; además, un estimador a partir de G-code sin el modelo exacto de aceleración y cambio de herramienta de cada máquina será impreciso, y el taller que cotiza ya tiene su propio método. Sin verificar precisión de CAMotics.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-13",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Gumroad, Ko-fi y Buy Me a Coffee ya permiten pagos flexibles (pay what you want) con entrega digital, y Stripe Payment Links también; a US$9/mes y con un cliente que gana poco, el volumen requerido es irreal para US$10k MRR.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G08-12",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "El riesgo real es el dato: precios fiables y licenciables de acero/aluminio requieren acuerdos con proveedores o bolsas (LME, etc.), cuyo redistribuir está restringido; el comprador (desarrolladores de herramientas de cotización) es un nicho pequeño y los precios de referencia por espesor no existen en fuentes abiertas. Metals-API sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "La extensión de Docker de Microsoft, Hadolint y el propio 'docker compose config' cubren validación gratis; los desarrolladores no pagan por extensiones de VS Code de linting y US$9/mes con baja conversión implica un volumen muy alto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-12",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Mercado diminuto: usuarios de CadQuery/OpenSCAD con CI son pocos miles como mucho, y la gente de CAD-como-código espera herramientas OSS gratuitas; la comparación de volumen y bounding box se puede hacer con un script de trimesh en pocas líneas. Competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "DeepNest es gratis y Fusion, LightBurn y otros programas de corte ya incluyen nesting; el nesting de calidad es un problema algorítmico difícil que SigmaNEST domina, y llegar a talleres exige outreach. Sin verificar calidad de DeepNest.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-19",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "Hay varios plugins de RMA para WooCommerce, algunos gratuitos; no se ha identificado el competidor ni diferenciación; la categoría está saturada y WordPress.org favorece plugins freemium con precio bajo. Sin verificar competidores concretos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-01",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Beehiiv, Substack y ConvertKit ya dan herramientas a sus creadores y marketplaces como Paved o Swapstack calculan precios gratis; el creador con 5k-100k suscriptores paga poco por una calculadora que se usa pocas veces, y la herramienta es de uso esporádico (poca retención). Evidencia URL no verificada como relevante.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-07",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "AWS Cost Anomaly Detection es gratis, y Vantage y CloudZero ya ofrecen atribución de costes con financiación; correlacionar con deploys requiere integrar CI/CD y acceso a CUR, con ciclos de seguridad que alargan la compra, aunque AWS Marketplace facilita el pago. Detalles sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-19",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Un auditor OT con informes IEC 62443 conlleva riesgo de responsabilidad y credibilidad; los ingenieros de planta rara vez compran herramientas de seguridad por su cuenta (lo decide TI o seguridad) y los exports de PLC propietarios (Siemens, Rockwell) tienen formatos cerrados difíciles de parsear. Claroty/Nozomi sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-06",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "A US$4/mes se necesitan más de 2,500 pagadores para US$10k MRR, y existen muchas apps y calculadoras gratuitas de masa madre; el consumidor hobbyista no paga una suscripción y el ciclo de retención es corto.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G26-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Cal.com y Calendly tienen planes gratuitos con detección de zona horaria y recordatorios; no hay ángulo diferencial y no existe un 'marketplace de alternativas a Calendly' como canal real.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G21-11",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Responsabilidad legal: un error en un cálculo IEEE 1584 que afecta la seguridad de personas es un riesgo serio, y las consultoras exigirán certificación o validación contra ETAP/SKM; el nicho es pequeño pero con disposición de pago real y SEO con intención. Competidores sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G03-09",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Los talleres de maquinado pequeños casi no usan Slack, así que el canal Slack Marketplace no tiene demanda; el autor admite que necesita outreach, y el cálculo de costes de maquinado desde STEP es lo difícil, no la aprobación. Paperless Parts y Xometry sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-18",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen muchas hojas de cálculo y calculadoras gratis de tarifa por hora de taller; el dueño de taller la usa una vez y cancela, sin retención recurrente; a US$19/mes el volumen es alto y el problema se resuelve con un artículo de blog.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G24-19",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "A US$5/mes el volumen requerido es irreal (más de 2,000 pagadores para US$10k), hay apps de apicultura establecidas (Hive Tracks, sin verificar) y el hobbyista no paga recurrentemente; además estacionalidad que dispara la cancelación.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G20-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen generadores comunitarios gratuitos y la configuración de Klipper/Marlin es un hobby con cultura de gratuidad (Discord de Voron); a US$8/mes y un mercado que no paga, no sale el volumen.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G07-02",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "NC Viewer, CAMotics y visores web gratuitos ya simulan G-code, y existen extensiones gratuitas de resaltado de G-code en VS Code; el hobbyista de impresión 3D no paga US$9/mes y los slicers ya previsualizan. Sin verificar extensiones concretas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Nx affected, Turborepo y Bazel hacen exactamente esto gratis y está integrado en los flujos de monorepo; la selección de tests por dependencia a nivel de test exige análisis específico por lenguaje, difícil de generalizar. Existen servicios de pago especializados (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Slack Workflow Builder ya permite formularios y tickets simples gratis, y existen muchas apps de helpdesk en Slack (Jira Service Management tiene un plan gratis para equipos pequeños, sin verificar); categoría saturada sin ángulo diferencial claro y dependiente de Slack.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "HashiCorp Vault tiene versión OSS gratuita, Doppler y los gestores de secretos de nube ya emiten credenciales de corta vida; el ángulo de redactar secretos en trazas de agentes es real y emergente, pero pueden copiarlo rápidamente los incumbentes y proveedores de observabilidad de LLM. Hay demanda emergente y un canal en directorios MCP.",
+  "severidad": "moderada"
+ }
+]

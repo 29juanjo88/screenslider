@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G14-11",
+  "rescatar": true,
+  "respuesta": "Concedo competidores financiados (E2B, Modal) y que no hay filtro F1 aplicable pero sí riesgo de seguridad. Aún así es un comprador concreto (equipo que ejecuta código de agentes) con presupuesto existente y búsqueda activa, canal SEO/docs de frameworks, y ventaja directa de backend de Juan. Un nicho acotado evita la competencia frontal.",
+  "ajuste_sugerido": "Nicho: sandboxes con política de red por defecto y auditoría para equipos con requisitos de cumplimiento, o self-hosted/BYOC; no competir en precio. Riesgo de seguridad alto: usar aislamiento probado (gVisor/Firecracker) sin verificar."
+ },
+ {
+  "id": "G19-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G19-07",
+  "rescatar": true,
+  "respuesta": "Concedo que el mercado es pequeño y que los IDEs propietarios dominan. Pero las pruebas automatizadas de PLC son un hueco real: hoy casi no hay CI para lógica PLC, y el comprador (equipos de controles que usan CODESYS/OpenPLC/ST, o integradores) paga ya por herramientas de pruebas. Ventaja única de Juan (PLC más backend). Canal PLCtalk/r-PLC dudoso para 100 pagadores, lo concedo; SEO 'PLC unit testing' es de baja competencia (sin verificar).",
+  "ajuste_sugerido": "Limitar a ST/CODESYS con runner CLI y GitHub Action; cobrar por equipo a $69-99; aceptar que el techo es bajo y validar con 10 usuarios antes de construir."
+ },
+ {
+  "id": "G28-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-08",
+  "rescatar": true,
+  "respuesta": "Concedo que OctoPrint/Klipper cubren colas por máquina y que hay herramientas dedicadas (sin verificar). Lo que no cubren es la capa de negocio: costo y margen por impresión, fallos y rentabilidad por cliente en una granja que vende piezas. Comprador: operador de granja pequeña que hoy usa hojas de cálculo. Canal: r/PrintFarm, r/3Dprinting y YouTubers de granjas. Ventaja de firmware de Juan real.",
+  "ajuste_sugerido": "Posicionar como tracker de rentabilidad/costos con importación desde logs de OctoPrint/Moonraker, no como gestor de colas; precio $29-49."
+ },
+ {
+  "id": "G20-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-03",
+  "rescatar": true,
+  "respuesta": "Concedo que Xometry y Protolabs dan DFM gratis, pero solo dentro de su propia cotización y con sus reglas; el comprador (ingeniero mecánico o startup de hardware) que compara 2-3 proveedores no tiene un pre-chequeo neutral antes de subir la pieza. Eso es lo que se vende: un informe multi-proceso previo, con reglas configurables (radio de doblez, distancia agujero-borde, relieves). Canal nombrado: SEO 'sheet metal DFM checklist' y 'bend radius checker', foros de Fusion/SolidWorks. Concedo que STEP exige motor geométrico: empezar solo con DXF 2D (chequeos de chapa planos) es viable en 6 semanas y es donde Juan tiene ventaja. Disposición de pago incierta (sin verificar).",
+  "ajuste_sugerido": "MVP solo DXF plano con 10-15 reglas de chapa; precio por uso/créditos más suscripción de $29-49; añadir STEP después."
+ },
+ {
+  "id": "G02-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-06",
+  "rescatar": true,
+  "respuesta": "Concedo que CIMCO (sin verificar) cubre comparación de NC y que el canal es foro. Pero CIMCO es software de escritorio de pago; un diff/versionado web por pieza con anotaciones y enlace compartible sirve a talleres pequeños y programadores freelance que no compran suites. Canal: SEO 'gcode compare / gcode diff' (intención de búsqueda clara) más Practical Machinist y r/CNC como apoyo. Ventaja de Juan alta.",
+  "ajuste_sugerido": "Empezar como diff web gratuito con registro, y cobrar historial de revisiones y equipos a $29-49; enfocar en talleres pequeños y makers CNC, no DNC de planta."
+ },
+ {
+  "id": "G01-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G19-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-03",
+  "rescatar": true,
+  "respuesta": "La objeción es solo de techo (F5 moderada), no de filtro duro. Concedo que el nicho es pequeño y el techo bajo. Pero hay ventaja real de Juan, competidores no identificados (sin verificar) y un comprador claro (controls engineer/integrador) que hoy revisa L5X/TIA exports a mano. Canal: Chrome Web Store 'PLC' y r/PLC. Viable como producto de entrada o semilla para un producto mayor.",
+  "ajuste_sugerido": "Subir a $29-39/mes con plan de equipo para integradores; usarlo como puerta de entrada a diff/documentación de proyectos PLC (L5X/TIA Openness). Aceptar techo bajo."
+ },
+ {
+  "id": "G01-07",
+  "rescatar": true,
+  "respuesta": "Concedo que hay apps de opciones de producto en Shopify, pero la mayoría resuelve variantes simples, no precio por fórmula paramétrica ni dimensiones personalizadas con BOM. El comprador es el fabricante de piezas a medida en Shopify que hoy cotiza por email. Canal nombrado: búsqueda 'custom dimensions' / 'product configurator' en Shopify App Store. Concedo riesgo de saturación y dependencia de Shopify (sin verificar nombres).",
+  "ajuste_sugerido": "Nicho estrecho: piezas cortadas a medida (chapa, acrílico, madera) con precio por área/longitud y exportación de despiece; precio $49-79. Evitar integración ERP al inicio."
+ },
+ {
+  "id": "G02-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G06-02",
+  "rescatar": true,
+  "respuesta": "Concedo que WooCommerce restringe el nicho y que WordPress.org no tiene búsqueda de talleres láser verificada. Aun así, el comprador es concreto (taller con tienda WooCommerce) y 49/mes es razonable frente a horas de cotización manual. Es la versión de menor fricción técnica del mismo concepto; el canal del directorio de plugins más SEO 'laser cutting quote plugin' es nombrado, aunque sin verificar volumen. Se rescata como variante de G18-01, no como idea separada.",
+  "ajuste_sugerido": "Fusionar con G18-01 y vender como widget independiente de plataforma (WooCommerce primero); subir precio a 69-79."
+ },
+ {
+  "id": "G01-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-03",
+  "rescatar": true,
+  "respuesta": "Concedo que ECR/ECN en entornos regulados exige validación y que existen apps de cambios en Atlassian (sin verificar). Pero F3 no aplica al segmento objetivo: fabricantes medianos sin certificación estricta (ISO 9001 no obliga validación de software) que hoy usan Excel o Jira mal configurado. Precio 200 con pocos clientes (50 = 10k). Canal nombrado: Atlassian Marketplace, con búsquedas 'ECO/ECN/change control'. Ventaja industrial real de Juan en documentación técnica.",
+  "ajuste_sugerido": "Excluir médico/aeroespacial; ofrecer plantilla ISO 9001 y export PDF de auditoría. Comprobar competidores en el marketplace antes de construir."
+ },
+ {
+  "id": "G14-09",
+  "rescatar": true,
+  "respuesta": "Concedo ciclos de compra y que Vanta/Drata son integraciones por convenio (sin verificar). Pero el comprador en empresas medianas con SOC 2 ya tiene presupuesto de cumplimiento y la pregunta de los auditores sobre agentes IA es nueva y sin respuesta estándar. A 149 el ticket es autoservicio de tarjeta si se vende por SEO 'AI agent audit log SOC 2' y con exportación de evidencia lista. La credibilidad del registro inmutable se resuelve con hash encadenado y exportación firmada. Riesgo de ventas reconocido.",
+  "ajuste_sugerido": "Autoservicio con prueba gratuita y plantillas de evidencia SOC 2; vender primero a startups que van por su primer SOC 2 (usan Vanta). Verificar si el marketplace de Vanta/Drata admite listados."
+ },
+ {
+  "id": "G10-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-02",
+  "rescatar": true,
+  "respuesta": "Concedo que Tokens Studio domina y que una Action puede replicarlo. El ángulo es PR automático con diff visual, que rompe el handoff manual; el comprador es el design system lead de empresa mediana, con presupuesto de herramientas. Canal: Figma Community y awesome-design-systems; el pago en Figma es raro, pero se cobra por la parte de GitHub (SaaS externo). A 29 hace falta volumen alto: es el punto débil y se concede.",
+  "ajuste_sugerido": "Cobrar por repositorio/equipo (59-99) fuera de Figma, con la app de GitHub como producto principal y el plugin como entrada gratuita."
+ },
+ {
+  "id": "G08-13",
+  "rescatar": true,
+  "respuesta": "Concedo que los modelos de visión generalistas extraen datos básicos y que la precisión en GD&T es el riesgo. Pero el cliente de API no paga por extraer, paga por salida estructurada, validada y con esquema estable, en lote y con confianza por campo; eso no se logra con un prompt suelto. Comprador: desarrolladores de ERP/PLM/cotización que hoy construyen esto a mano. Canal: SEO de cola larga 'extract dimensions from engineering drawing' y directorios de APIs (volumen sin verificar). Ventaja real de Juan al conocer planos. Competidores: sin verificar.",
+  "ajuste_sugerido": "Enfocar solo en PDF/DXF con revisión humana y puntuación de confianza; precio por uso; vender a plataformas de cotización (conecta con G18-01)."
+ },
+ {
+  "id": "G21-13",
+  "rescatar": true,
+  "respuesta": "Concedo que existen herramientas SPC gratuitas y que Minitab es el estándar. El hueco: Minitab es caro y de escritorio, y las plantillas de Excel son frágiles (lo dice el problema). Un SaaS de carga CSV, con alertas por reglas Western Electric y reporte compartible, atiende al ingeniero de calidad de pyme manufacturera que no justifica Minitab. Pago: ya paga por Minitab/QI Macros. Canal: SEO de intención 'SPC chart online' y comunidades ASQ (volumen sin verificar). Ventaja: conocimiento de manufactura.",
+  "ajuste_sugerido": "Posicionar como 'SPC para equipos sin Minitab' con alertas por correo y almacenamiento histórico (lo que las gratuitas no hacen); precio 29-49 por planta."
+ },
+ {
+  "id": "G20-18",
+  "rescatar": true,
+  "respuesta": "Concedo que el grupo es pequeño y que el riesgo de brickear es real. Pero el dolor es medible: una granja con 20-100 máquinas gasta horas por lote y compra algo si le ahorra tiempo; la competencia son scripts caseros. Canal nombrado: plugins de Klipper/Moonraker y Discord de granjas, y Juan conoce firmware de impresoras 3D (ventaja máxima). Se mitiga con respaldo previo, actualización escalonada y reversión.",
+  "ajuste_sugerido": "Empezar con Klipper/Moonraker (firmware abierto y homogéneo) y no con firmwares propietarios; plan por número de máquinas (35 a 99). Validar en Discord de granjas cuántas máquinas por operador."
+ },
+ {
+  "id": "G16-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-04",
+  "rescatar": true,
+  "respuesta": "Concedo F1 parcial: Stripe Smart Retries es gratis. Pero Smart Retries solo reintenta; la recuperación real exige emails de actualización de tarjeta, páginas de pago con enlace y analítica, que es donde Churnkey/Baremetrics cobran. Hay pago comprobable en esa categoría. Canal nombrado: Stripe App Marketplace y búsqueda 'recover failed payments Stripe'. El mercado es grande pero está competido (competidores correctos), por eso solo se rescata con un ángulo.",
+  "ajuste_sugerido": "Ángulo: solo para SaaS indie, con precio plano 29 y no porcentaje de recuperación (Churnkey cobra por resultado, sin verificar); instalación en minutos. Verificar listado en Stripe App Marketplace."
+ },
+ {
+  "id": "G05-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-04",
+  "rescatar": true,
+  "respuesta": "Concedo nicho pequeño y que L5X es XML. Lo que se vende no es el parseo sino el modelo normalizado: tags, rutinas, I/O y grafo de dependencias entre L5X, TIA (AWL/SCL/XML Openness) y otros, cosa que un script no cubre y que pocos desarrolladores web saben hacer; la ventaja de Juan (Siemens y Rockwell) es máxima. Comprador: quien construye herramientas de documentación/auditoría/IA para PLC, que crece con el código PLC generado por IA. Canal: SEO 'parse l5x', PLCTalk, r/PLC. A 89 se necesitan ~110 clientes: ajustado pero no irreal si se amplía a integradores.",
+  "ajuste_sugerido": "Ampliar comprador a integradores y equipos de auditoría con plan por proyecto; ofrecer también CLI/GitHub Action de documentación. Validar demanda con búsquedas y PLCTalk antes de construir."
+ },
+ {
+  "id": "G26-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-01",
+  "rescatar": true,
+  "respuesta": "Concedo que no hay marketplace con intención para talleres y que el onboarding por taller es real. Pero F4 se cumple: listados de plugins de Shopify/WordPress para quienes ya venden online, más r/lasercutting y grupos de Facebook de talleres, que son comunidades nombradas donde el dolor 'cotizar DXF a mano' se discute. Xometry/Protolabs son marketplaces que le quitan el cliente al taller; el widget es la defensa propia del taller (su marca, su precio). El miedo a exponer precios se mitiga con rangos y 'solicitar confirmación'. Precio 79 exige ~130 talleres para 10k: viable. Es la única variante de cotizador DXF con comprador claro (dueño del taller).",
+  "ajuste_sugerido": "Subir a 79-99, plantilla de precios preconfigurada por material para onboarding en minutos (autoservicio), validar con 10 talleres antes de construir. Unificar con G06-02 y G11-13."
+ },
+ {
+  "id": "G11-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G25-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Plantillas ISO gratis y suites (Vanta/Drata) ya cubren politicas; generador a $129 sin ángulo."
+ },
+ {
+  "id": "G16-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Canal SEO por plantilla Annex IV con intención, pero sin evidencia, competidor sin verificar y riesgo de absorción por GRC/regulatorio."
+ },
+ {
+  "id": "G27-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "SAM.gov ofrece alertas gratis por NAICS que cubren el núcleo; sin evidencia."
+ },
+ {
+  "id": "G28-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Simuladores OPC UA gratis/open source (open62541, Prosys) cubren la necesidad en Docker local."
+ },
+ {
+  "id": "G26-05",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $19/mes exige ~530 pagadores con uso esporádico y churn alto."
+ },
+ {
+  "id": "G29-15",
+  "filtro_fallado": "F4",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Sin canal nombrado con intención de compra (foros/LinkedIn) y comprador de planta sin autoservicio."
+ },
+ {
+  "id": "G03-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Fuerte ventaja CAD pero comparación nativa en Onshape/SolidWorks, canal AppSource incierto y diff geométrico duro para 6 semanas."
+ },
+ {
+  "id": "G30-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "HubSpot Quotes nativo con PDF y aceptación cubre cotizaciones simples."
+ },
+ {
+  "id": "G29-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 4
+  },
+  "total": 40,
+  "razon": "Ángulo self-hosted por IP claro y canal técnico nombrado, pero mercado estrecho y OCCT cubre lo básico; sin evidencia."
+ },
+ {
+  "id": "G25-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Suites de compliance y hojas de cálculo gratis cubren revisiones de acceso."
+ },
+ {
+  "id": "G15-05",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "El propio texto admite que requiere ventas; incumbentes fuertes (Loopio, Responsive)."
+ },
+ {
+  "id": "G28-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 4
+  },
+  "total": 39,
+  "razon": "Comprador y canal técnicos concretos con ventaja CAD alta, pero OCCT/SDKs cubren parte y volumen modesto; sin evidencia."
+ },
+ {
+  "id": "G08-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "webhook.site y Hookdeck con capa gratis cubren inspección y reenvío."
+ },
+ {
+  "id": "G12-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 38,
+  "razon": "Vista unificada Zapier/Make/n8n que ninguna plataforma ofrece, comunidades nombradas; riesgo de APIs nativas y tamaño sin verificar."
+ },
+ {
+  "id": "G26-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Portales públicos de licitaciones dan alertas gratis; sin ventaja ni evidencia."
+ },
+ {
+  "id": "G04-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Canal Atlassian Marketplace nombrado pero Bitbucket es cuota pequeña, dolor moderado y dependencia total de plataforma."
+ },
+ {
+  "id": "G27-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 39,
+  "razon": "Ventaja PLC directa y dolor real, pero avisos gratis de fabricantes y mercado pequeño; valor en cruce con BOM sin verificar."
+ },
+ {
+  "id": "G22-13",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $15/mes exige ~670 pagadores; Broken Link Checker gratis."
+ },
+ {
+  "id": "G26-01",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $29/mes con freelancers sin presupuesto y estimación poco fiable; comprador incierto."
+ },
+ {
+  "id": "G05-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Herramientas IA Figma-a-código abundan y Shopify podría hacerlo nativo; sin evidencia ni ángulo claro."
+ },
+ {
+  "id": "G04-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 1,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 24,
+  "razon": "Nicho minúsculo (granjas 3D con Jira) y canal de casi nula demanda."
+ },
+ {
+  "id": "G07-03",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $8/mes exige ~1,250 pagadores y la comunidad espera gratis."
+ },
+ {
+  "id": "G17-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "StreamElements/Streamlabs/Ko-fi ofrecen propinas con alertas gratis."
+ },
+ {
+  "id": "G25-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Okta/Google/Rippling ya incluyen offboarding nativo."
+ },
+ {
+  "id": "G11-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Depende de licencias de datos de terceros con costo que puede superar el precio; sin evidencia."
+ },
+ {
+  "id": "G06-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 27,
+  "razon": "Nicho pequeño de makerspaces comerciales; techo bajo de $29/mes y plugins genéricos de reservas."
+ },
+ {
+  "id": "G05-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Existen plugins gratuitos de datos falsos en Figma y a $12 exige volumen alto."
+ }
+]

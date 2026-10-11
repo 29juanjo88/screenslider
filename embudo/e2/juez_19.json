@@ -1,0 +1,418 @@
+[
+ {
+  "id": "G07-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Next.js DevTools, next build y bundle-analyzer gratuitos cubren lo esencial; devs rara vez pagan extensiones VS Code."
+ },
+ {
+  "id": "G06-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "ManageWP y MainWP (open source/nivel gratis) ya cubren exactamente esto sin ángulo nuevo."
+ },
+ {
+  "id": "G10-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 40,
+  "razon": "Ventaja CAD fuerte y canal AppExchange con intención, pero nicho diminuto y security review de Salesforce; competidores sin verificar."
+ },
+ {
+  "id": "G12-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Cálculo de volumen es trivial y estimación de tiempo poco fiable; canal Zapier plausible pero pago bajo en bureaus pequeños."
+ },
+ {
+  "id": "G22-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "FreshBooks/Wave y plantillas gratuitas cubren el caso; sin ventaja ni dolor de herramienta."
+ },
+ {
+  "id": "G21-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Octopart/distribuidores ofrecen BOM tools gratis y las APIs de precios son costosas; sin evidencia de pago."
+ },
+ {
+  "id": "G25-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Dependabot, Syft, Trivy y ScanCode gratuitos cubren SBOM/licencias; GitHub Marketplace dominado por incumbentes."
+ },
+ {
+  "id": "G01-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 28,
+  "razon": "Segmento de fabricantes en Shopify con precios atados a commodities no demostrado y la fuente de datos es cara."
+ },
+ {
+  "id": "G28-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "release-please, changesets y GitHub Releases son gratis y resuelven el caso con un script en CI."
+ },
+ {
+  "id": "G14-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Dolor real y ángulo de replay determinista, pero LangSmith/Langfuse y frameworks pueden cubrirlo; sin evidencia URL."
+ },
+ {
+  "id": "G27-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 25,
+  "razon": "El producto depende de datos de proveedores sin fuente fiable y los talleres pequeños difícilmente pagan un índice."
+ },
+ {
+  "id": "G11-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Ventaja PLC máxima y valor claro por horas ahorradas, pero mercado pequeño, formatos propietarios y canal débil (PLCTalk resiste promoción)."
+ },
+ {
+  "id": "G05-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Dolor moderado, datos de licencias difíciles de mantener con exactitud y sin ventaja de Juan."
+ },
+ {
+  "id": "G06-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "Canal WordPress.org con intención y ventaja glTF, pero ya existen configuradores Woo y model-viewer gratis; soporte alto."
+ },
+ {
+  "id": "G27-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Mercado minúsculo de compradores de feed de precios y scraping frágil; única evidencia es un catálogo abierto sin precios."
+ },
+ {
+  "id": "G17-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Granjas pequeñas facturan con hojas de cálculo, mercado pequeño admitido y 3DPrinterOS/AstroPrint cubren gestión."
+ },
+ {
+  "id": "G01-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 37,
+  "razon": "Canal Shopify App Store con búsqueda de intención clara, pero hay apps de PO y riesgo de función nativa; Stocky sin verificar."
+ },
+ {
+  "id": "G23-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Placeit/Canva con niveles gratis o baratos y render fiel de DXF/STL es difícil; ticket $19 bajo."
+ },
+ {
+  "id": "G23-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Dolor real de suspensiones, pero Seller Central y Helium 10/Sellerboard ya alertan y el acceso SP-API es restrictivo."
+ },
+ {
+  "id": "G16-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Plazo regulatorio real pero reglas retrasadas, datos de pago y responsabilidad por errores; competidores sin verificar."
+ },
+ {
+  "id": "G16-11",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Equivale a asesoría legal/de cumplimiento para empresas públicas, uso esporádico y plantillas gratis abundantes."
+ },
+ {
+  "id": "G08-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Mercado saturado (Stripe Billing, Zuplo, Moesif, Unkey) sin ángulo diferenciador; riesgo admitido."
+ },
+ {
+  "id": "G11-05",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Invoice Ninja, Zoho Invoice y Apps Script gratis cubren el caso; $14 exige volumen irreal."
+ },
+ {
+  "id": "G11-04",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "CONVERT nativo de Excel y tablas ISO gratuitas cubren el caso; $12 exige volumen irreal."
+ },
+ {
+  "id": "G25-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 1,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Mercado grande pero saturado (Vanta, Drata) y exige confianza/SOC2 propio; MVP muy lejos de 6 semanas."
+ },
+ {
+  "id": "G12-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Ventaja PLC directa y casi sin competidores, pero fricción IT/OT, agente en planta y soporte por modelo de PLC."
+ }
+]

@@ -1,0 +1,539 @@
+[
+ {
+  "id": "G03-01",
+  "nombre": "Slack PLC Alarm Bridge",
+  "cliente_que_paga": "Ingeniero de controles / jefe de mantenimiento en planta",
+  "problema": "Las alarmas de PLC llegan por SCADA o email y el equipo las pierde.",
+  "solucion": "App de Slack que recibe alarmas OPC UA/MQTT de Siemens/Rockwell, las enruta a canales y permite acuse con botón.",
+  "precio_usd_mes": 29.0,
+  "canal_primeros_100": "Búsqueda 'PLC alarms Slack' y 'OPC UA Slack' en Slack App Directory; posts en r/PLC y foros de automatización",
+  "competidores": [
+   "Ignition alerting (sin verificar)",
+   "email/SMS de SCADA"
+  ],
+  "por_que_ahora": "Equipos de planta ya usan Slack/Teams para mantenimiento.",
+  "ventaja_juan": "Conocimiento directo de TIA Portal, Studio 5000 y OPC UA.",
+  "riesgo_principal": "Plantas con redes aisladas o TI que bloquea integraciones.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "alarmas PLC Slack",
+  "tema_norm": "datos industriales OPC UA/Modbus",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-09",
+  "nombre": "Extractor de BOM desde planos",
+  "cliente_que_paga": "Compradores en manufactura",
+  "problema": "Pasar planos PDF a una lista de materiales se hace a mano.",
+  "solucion": "Extrae BOM de planos y PDF a Excel con revisión.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'extract BOM from PDF drawing'; LinkedIn de ingeniería",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Modelos de visión y OCR mejores y baratos.",
+  "ventaja_juan": "Leo planos de SolidWorks y AutoCAD.",
+  "riesgo_principal": "La precisión OCR puede fallar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "BOM desde planos",
+  "tema_norm": "lectura de planos y metrados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-10",
+  "nombre": "Airline schedule change alerts",
+  "cliente_que_paga": "Viajeros frecuentes y agentes de viaje freelance",
+  "problema": "Cambios de horario de vuelos reservados se detectan tarde.",
+  "solucion": "Monitoreo de reservas por email e itinerario con alerta de cambio y reubicación.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "r/travel, FlyerTalk, SEO 'flight schedule change alert'",
+  "competidores": [
+   "TripIt Pro",
+   "App in the Air (sin verificar)"
+  ],
+  "por_que_ahora": "Alta volatilidad de rutas y horarios.",
+  "ventaja_juan": "Backend e integración de email.",
+  "riesgo_principal": "TripIt ya cubre parte; precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "alertas vuelos",
+  "tema_norm": "monitoreo de precios y mercados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G03-08",
+  "nombre": "Shift Handover Notes for Slack",
+  "cliente_que_paga": "Supervisor de turno en manufactura o logística",
+  "problema": "Entrega de turno por mensajes sueltos pierde incidencias.",
+  "solucion": "Formulario /handover en Slack que compila incidencias, KPIs y pendientes y los publica en el canal de planta.",
+  "precio_usd_mes": 39.0,
+  "canal_primeros_100": "Slack App Directory 'shift handover'; grupos de LinkedIn de lean manufacturing",
+  "competidores": [
+   "Tulip (sin verificar)",
+   "SafetyCulture (sin verificar)"
+  ],
+  "por_que_ahora": "Plantas adoptan Slack/Teams para operación.",
+  "ventaja_juan": "Conocimiento de piso de planta y turnos.",
+  "riesgo_principal": "Planta a menudo usa herramientas MES y no Slack.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "entrega de turno",
+  "tema_norm": "mantenimiento y seguridad industrial",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-16",
+  "nombre": "Figma to React Native",
+  "cliente_que_paga": "Devs móviles indie y agencias",
+  "problema": "Los diseños de apps móviles se reimplementan sin código de partida usable.",
+  "solucion": "Plugin que exporta frames auto-layout a componentes React Native/Expo con estilos y navegación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community ('React Native') y Expo Discord / r/reactnative.",
+  "competidores": [
+   "Locofy y Anima (conozco, precios sin verificar)"
+  ],
+  "por_que_ahora": "Expo y RN dominan el desarrollo cruzado.",
+  "ventaja_juan": "React/TS.",
+  "riesgo_principal": "Locofy y Anima ya compiten con más recursos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Figma a React Native",
+  "tema_norm": "Figma a código y QA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G17-08",
+  "nombre": "License Key Drop",
+  "cliente_que_paga": "Desarrolladores indie que venden software de escritorio",
+  "problema": "Gestionar licencias, activaciones y pagos requiere código a medida.",
+  "solucion": "Servicio con claves de licencia, activaciones por máquina y checkout con Stripe/Paddle.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Búsqueda 'software licensing for indie apps' y r/SideProject",
+  "competidores": [
+   "Keygen",
+   "LemonSqueezy (incluye licencias)",
+   "Gumroad (licencias básicas)"
+  ],
+  "por_que_ahora": "Auge de apps indie y venta directa fuera de tiendas.",
+  "ventaja_juan": "Experiencia con software industrial con licencias.",
+  "riesgo_principal": "F1 parcial: plataformas ya incluyen licencias.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "licencias software indie",
+  "tema_norm": "venta y licencias de archivos digitales",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-20",
+  "nombre": "Amazon Listing Image Compliance Checker",
+  "cliente_que_paga": "Amazon sellers",
+  "problema": "Main images rejected for white-background and size rules.",
+  "solucion": "Upload images, auto-check and fix compliance before submit.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'amazon main image requirements checker'",
+  "competidores": [
+   "Photoroom"
+  ],
+  "por_que_ahora": "Image rules tighten.",
+  "ventaja_juan": "Image processing.",
+  "riesgo_principal": "Amazon may add native checks.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "imagenes Amazon",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-03",
+  "nombre": "Product Spec Sheet PDF",
+  "cliente_que_paga": "Tiendas B2B de equipo industrial y repuestos en Shopify",
+  "problema": "Los compradores B2B piden hojas técnicas en PDF que se arman a mano.",
+  "solucion": "Genera automáticamente fichas PDF de producto con specs, dibujos y branding desde metafields.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'PDF datasheet' / 'product catalog PDF' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "B2B en Shopify (Plus) crece y exige documentación.",
+  "ventaja_juan": "Familiaridad con documentación técnica industrial.",
+  "riesgo_principal": "Ya existen generadores de catálogos PDF; diferenciación débil.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "fichas técnicas PDF",
+  "tema_norm": "fichas técnicas B2B",
+  "duplicado_de": null
+ },
+ {
+  "id": "G17-05",
+  "nombre": "VAT Threshold Watch",
+  "cliente_que_paga": "Vendedores digitales globales y creadores",
+  "problema": "No saben cuándo superan umbrales de IVA/sales tax por país y reciben multas.",
+  "solucion": "Conecta Stripe/Gumroad, monitorea umbrales por jurisdicción y alerta antes de cruzarlos.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'EU VAT threshold digital goods' y r/Entrepreneur",
+  "competidores": [
+   "Quaderno",
+   "TaxJar",
+   "Paddle (merchant of record)"
+  ],
+  "por_que_ahora": "Reglas de IVA digital y nexus económico en EE.UU. cada vez más estrictas.",
+  "ventaja_juan": "Backend e integraciones API.",
+  "riesgo_principal": "Datos fiscales desactualizados generan responsabilidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "umbrales impuestos digitales",
+  "tema_norm": "facturación, impuestos y conciliación",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-17",
+  "nombre": "G-code Linter API",
+  "cliente_que_paga": "Desarrolladores de software CAM y de máquinas CNC/3D",
+  "problema": "Validar G-code detecta colisiones y límites de máquina tarde.",
+  "solucion": "API que valida G-code contra perfiles de máquina y devuelve errores, tiempo y límites.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'gcode validator api', foros CNCzone, directorios de APIs.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más talleres usan software web de CAM.",
+  "ventaja_juan": "CAM y firmware de impresoras 3D.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "validación de G-code",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-17",
+  "nombre": "HubSpot Calculated Quote Properties",
+  "cliente_que_paga": "RevOps for manufacturing/distribution",
+  "problema": "HubSpot lacks formula-heavy pricing for custom products.",
+  "solucion": "App letting admins define formula-based price calculators attached to deals and quotes.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "HubSpot App Marketplace search 'calculator' and 'pricing'",
+  "competidores": [
+   "HubSpot calculation properties"
+  ],
+  "por_que_ahora": "Many non-SaaS firms moved to HubSpot.",
+  "ventaja_juan": "Engineering formulas background.",
+  "riesgo_principal": "Native calculated properties partially overlap.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "HubSpot pricing calculators",
+  "tema_norm": "apps CRM HubSpot/Salesforce",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-16",
+  "nombre": "Webhook Retry Relay",
+  "cliente_que_paga": "No-code builders whose automations drop webhooks",
+  "problema": "Webhooks fail silently when a Zap or scenario is busy or down.",
+  "solucion": "Hosted relay with queue, retries, dead-letter inbox and replay, no code needed.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Zapier and Make community forums, SEO 'webhook retry Zapier'.",
+  "competidores": [
+   "Hookdeck"
+  ],
+  "por_que_ahora": "Event-driven automations increase reliance on webhooks.",
+  "ventaja_juan": "Backend queue design experience.",
+  "riesgo_principal": "Hookdeck and platform improvements; low willingness to pay.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "webhook reliability relay",
+  "tema_norm": "webhooks y estado de APIs",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-10",
+  "nombre": "Review Response Autopilot",
+  "cliente_que_paga": "Amazon brand sellers",
+  "problema": "Negative reviews and Q&A go unanswered.",
+  "solucion": "Draft compliant replies and flag review manipulation for removal reports.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Amazon seller subreddits and SEO",
+  "competidores": [
+   "Jungle Scout",
+   "Helium 10"
+  ],
+  "por_que_ahora": "LLMs make drafting cheap.",
+  "ventaja_juan": "Python automation.",
+  "riesgo_principal": "Amazon rules restrict automation.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "gestion reseñas",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G03-11",
+  "nombre": "Slack Sprint Retro Bot",
+  "cliente_que_paga": "Scrum master / EM",
+  "problema": "Retros remotas son aburridas y sin seguimiento.",
+  "solucion": "Bot que recolecta feedback anónimo, agrupa temas y hace seguimiento de acciones.",
+  "precio_usd_mes": 19.0,
+  "canal_primeros_100": "Slack Marketplace 'retrospective'; SEO 'slack retro bot'",
+  "competidores": [
+   "EasyRetro (sin verificar)",
+   "Parabol (sin verificar)"
+  ],
+  "por_que_ahora": "Equipos remotos permanentes.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Mercado saturado, bajo precio por equipo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "retro sprint",
+  "tema_norm": "productividad en Slack/Teams",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-04",
+  "nombre": "Compatibility Finder Parts",
+  "cliente_que_paga": "Tiendas de repuestos y accesorios (impresoras, CNC, electrónica)",
+  "problema": "Clientes compran piezas incompatibles y generan devoluciones.",
+  "solucion": "Selector año/modelo/marca que filtra productos compatibles con tabla de fitment importable por CSV.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'fitment' / 'part finder' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Devoluciones por incompatibilidad erosionan márgenes.",
+  "ventaja_juan": "Conoce catálogos de repuestos de impresoras 3D y automatización.",
+  "riesgo_principal": "Hay apps de fitment automotriz establecidas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "compatibilidad de repuestos",
+  "tema_norm": "compatibilidad y repuestos",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-09",
+  "nombre": "Guest Booking Pipeline for Podcasters",
+  "cliente_que_paga": "Podcasters con entrevistas",
+  "problema": "Coordinar invitados y calendarios es caos de correos.",
+  "solucion": "CRM ligero con formularios, recordatorios, kit de preparación y ficha de invitado.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'podcast guest booking tool' y Podcast Movement",
+  "competidores": [
+   "Calendly",
+   "Airtable"
+  ],
+  "por_que_ahora": "Más podcasts de entrevistas.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Calendly + Notion lo cubren gratis (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "agenda de invitados",
+  "tema_norm": "newsletters y podcasts",
+  "duplicado_de": null
+ },
+ {
+  "id": "G21-06",
+  "nombre": "GD&T Checker",
+  "cliente_que_paga": "Ingenieros de diseño y calidad que revisan planos",
+  "problema": "Errores de GD&T en dibujos provocan rechazos y retrabajo.",
+  "solucion": "Sube PDF/DXF y recibe checklist de errores comunes de GD&T según ASME Y14.5.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'GD&T checker', r/MechanicalEngineering, LinkedIn de calidad.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "IA para lectura de planos madura.",
+  "ventaja_juan": "Conocimiento CAD y dibujo técnico.",
+  "riesgo_principal": "La IA puede fallar en precisión.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "revisión GD&T planos",
+  "tema_norm": "tolerancias mecánicas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-16",
+  "nombre": "Agent Cost Attribution",
+  "cliente_que_paga": "Equipos financieros y de ingeniería de empresas medianas",
+  "problema": "No saben qué cliente o función genera el gasto en tokens.",
+  "solucion": "Etiqueta cada llamada LLM con cliente/función y genera informes de margen por cliente.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "Integración con Stripe Apps marketplace y SEO 'LLM cost per customer'.",
+  "competidores": [
+   "Helicone"
+  ],
+  "por_que_ahora": "Los márgenes de productos de IA son un tema crítico.",
+  "ventaja_juan": "Facturación y backend.",
+  "riesgo_principal": "Plataformas de observabilidad añaden la función.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "costo por cliente IA",
+  "tema_norm": "costos y observabilidad de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-19",
+  "nombre": "Cron Drift Monitor",
+  "cliente_que_paga": "Equipos con muchos cron jobs, GitHub Actions programadas y pipelines de datos",
+  "problema": "Los jobs programados fallan en silencio o se atrasan.",
+  "solucion": "Servicio que vigila ejecuciones esperadas de Actions programadas y cron, con alerta por duración anómala y ejecución faltante.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace ('scheduled workflow'), SEO 'github actions schedule not running'",
+  "competidores": [
+   "Healthchecks.io (sin verificar)",
+   "Cronitor (sin verificar)"
+  ],
+  "por_que_ahora": "GitHub puede retrasar o desactivar workflows programados en repos inactivos.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Mercado saturado con incumbentes baratos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "monitoreo cron jobs",
+  "tema_norm": "vigilancia de cron y certificados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-03",
+  "nombre": "Print Farm Logger for Airtable",
+  "cliente_que_paga": "Owners of small 3D print farms and print-on-demand shops",
+  "problema": "Job times, failures and filament use are tracked by hand in spreadsheets.",
+  "solucion": "Plugin for OctoPrint/Klipper that streams job, failure and filament data into Airtable or Notion dashboards.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "OctoPrint plugin repository, Klipper and 3D print farm subreddits and Discords, Airtable Universe template.",
+  "competidores": [
+   "Obico (failure detection only)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Print farms for Etsy and Shopify sellers are growing and need cost per part.",
+  "ventaja_juan": "Wrote 3D printer firmware, knows Klipper and Marlin internals.",
+  "riesgo_principal": "Hobby audience resists paying; price keeps volume requirement high.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "3D print farm analytics",
+  "tema_norm": "monitoreo y diagnóstico de impresoras 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G21-09",
+  "nombre": "Pipe Sizing SaaS",
+  "cliente_que_paga": "Ingenieros mecánicos/HVAC de consultoras",
+  "problema": "Dimensionar tuberías y pérdidas en Excel es propenso a error.",
+  "solucion": "Calculadora web con curvas de bomba, pérdidas y reporte PDF.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'pipe pressure drop calculator', r/HVAC, r/MechanicalEngineering.",
+  "competidores": [
+   "Pipe Flow Expert (sin verificar)"
+  ],
+  "por_que_ahora": "Herramientas web reemplazan Excel.",
+  "ventaja_juan": "Formación mecánica.",
+  "riesgo_principal": "Muchas calculadoras gratis (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "dimensionamiento tuberías",
+  "tema_norm": "calculadoras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G18-15",
+  "nombre": "Tolerance stack-up analyzer",
+  "cliente_que_paga": "Mechanical design engineers",
+  "problema": "Stack-ups are done in Excel and often wrong.",
+  "solucion": "Browser tool for 1D worst-case and statistical tolerance stacks with reports.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'tolerance stack up calculator', r/engineering, YouTube",
+  "competidores": [
+   "Excel templates",
+   "CETOL (enterprise",
+   "price sin verificar)"
+  ],
+  "por_que_ahora": "Remote engineers want lightweight tools.",
+  "ventaja_juan": "Knows GD&T practice.",
+  "riesgo_principal": "Free calculators exist (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "análisis tolerancias",
+  "tema_norm": "tolerancias mecánicas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-09",
+  "nombre": "Laser Cut Export",
+  "cliente_que_paga": "Makers y diseñadores de productos de corte láser / CNC",
+  "problema": "Preparar SVG/DXF para láser con trazos correctos y kerf desde Figma es tedioso.",
+  "solucion": "Plugin que exporta capas a SVG/DXF con colores por operación (corte/grabado), kerf y nesting básico.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Figma Community ('laser cut', 'SVG') y foros r/lasercutting, Glowforge community.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crece el hardware maker y los diseñadores prototipan en Figma.",
+  "ventaja_juan": "Experiencia CAD/CAM, DXF.",
+  "riesgo_principal": "Mercado pequeño y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Figma a corte láser",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-16",
+  "nombre": "GPSR Product Safety Label Tool",
+  "cliente_que_paga": "Vendedores de Amazon/Etsy/Shopify que venden a UE",
+  "problema": "El GPSR exige datos del responsable UE y etiquetado de seguridad.",
+  "solucion": "Generador de etiquetas y fichas por SKU, con exportación masiva a marketplaces.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'GPSR' en Shopify App Store y Amazon seller forums",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "GPSR vigente desde diciembre 2024.",
+  "ventaja_juan": "Backend y automatización de listings.",
+  "riesgo_principal": "Precio bajo exige muchos clientes (F5 límite).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "GPSR etiquetas seguridad",
+  "tema_norm": "cumplimiento de producto y sostenibilidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-15",
+  "nombre": "3D Printer Fleet Monitor for Shopify-like Print Farms",
+  "cliente_que_paga": "Print farm operator",
+  "problema": "Failed prints and idle printers go unnoticed across many machines.",
+  "solucion": "Self-hosted agent plus cloud dashboard that alerts on failures across Klipper/Marlin printers.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Klipper and r/3Dprinting communities, OctoPrint plugin repository",
+  "competidores": [
+   "OctoPrint",
+   "Obico",
+   "3DPrinterOS"
+  ],
+  "por_que_ahora": "Print farms are growing with cheap printers.",
+  "ventaja_juan": "Printer firmware knowledge.",
+  "riesgo_principal": "Open source free alternatives (F1 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "print farm monitoring",
+  "tema_norm": "monitoreo y diagnóstico de impresoras 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-17",
+  "nombre": "ClimbTrack",
+  "cliente_que_paga": "Escaladores indoor",
+  "problema": "Registrar ascensos y progresión de entrenamiento es manual.",
+  "solucion": "Diario de vías con plan de entrenamiento y análisis de progreso.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "r/climbing, Instagram climbing y gimnasios (tienda de apps).",
+  "competidores": [
+   "Kaya",
+   "TopLogger (sin verificar)"
+  ],
+  "por_que_ahora": "Escalada en auge post-olímpica.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Competencia y estacionalidad.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "diario escalada",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ }
+]

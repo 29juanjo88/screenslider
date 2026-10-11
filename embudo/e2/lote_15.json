@@ -1,0 +1,561 @@
+[
+ {
+  "id": "G29-07",
+  "nombre": "Spreadsheet-Free Cut Lists",
+  "cliente_que_paga": "Woodworkers and cabinet makers",
+  "problema": "Cut-list tools are bloated subscriptions or manual spreadsheets.",
+  "solucion": "Simple offline cut-list optimizer with sheet nesting and one-time pricing.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "r/woodworking, Wood Talk forums and YouTube woodworking channels",
+  "competidores": [
+   "CutList Optimizer (web)",
+   "OptiCut"
+  ],
+  "por_que_ahora": "Hobbyists dislike subscriptions.",
+  "ventaja_juan": "Nesting algorithms from CAM.",
+  "riesgo_principal": "Free web optimizers exist.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "cut list optimizer",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null
+ },
+ {
+  "id": "G28-10",
+  "nombre": "Modbus Device Registry",
+  "cliente_que_paga": "Integrators writing drivers",
+  "problema": "Register maps for devices are scattered across PDFs.",
+  "solucion": "Searchable database of Modbus maps with an API and code generation.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'modbus register map for <device>'",
+  "competidores": [
+   "Vendor PDFs"
+  ],
+  "por_que_ahora": "Edge gateways need driver configs.",
+  "ventaja_juan": "Reads device manuals and PLC drivers.",
+  "riesgo_principal": "Data entry effort.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "Modbus register maps",
+  "tema_norm": "datos industriales OPC UA/Modbus",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-14",
+  "nombre": "Marketplace rate-limit and policy tracker",
+  "cliente_que_paga": "Vendedores de Etsy/Amazon con productos físicos",
+  "problema": "Cambios en políticas y tarifas se anuncian de forma dispersa.",
+  "solucion": "Monitoreo de páginas de políticas y tarifas con resumen explicativo.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Foros de Etsy sellers y r/AmazonSeller; SEO 'Etsy fee change'",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Cambios de tarifas frecuentes.",
+  "ventaja_juan": "Backend con automatización.",
+  "riesgo_principal": "Mercado de vendedores saturado de herramientas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "cambios políticas marketplaces",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-14",
+  "nombre": "Wide Format Print Calculator",
+  "cliente_que_paga": "Imprentas de gran formato (lonas, vinilo, rotulación) con Shopify",
+  "problema": "Cotizar por m2 con acabados y desperdicio es manual.",
+  "solucion": "Calculadora por área, material, acabados y nesting con precio en vivo.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Búsqueda 'price calculator' / 'by square meter' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Imprentas abren tienda online.",
+  "ventaja_juan": "Experiencia en nesting y CAM.",
+  "riesgo_principal": "Nicho limitado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "calculadora gran formato",
+  "tema_norm": "cotización y costeo de taller",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-20",
+  "nombre": "Validador de BOM de ingeniería",
+  "cliente_que_paga": "Gerente de ingeniería/compras",
+  "problema": "BOMs exportados de CAD llegan con errores a compras y ERP.",
+  "solucion": "Sube BOM de SolidWorks/AutoCAD, detecta duplicados, partes sin número y diferencias entre revisiones.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "SEO 'BOM comparison tool' y foros SolidWorks",
+  "competidores": [
+   "Excel",
+   "PDM nativo",
+   "OpenBOM"
+  ],
+  "por_que_ahora": "Cadenas de suministro exigen exactitud.",
+  "ventaja_juan": "Conoce CAD y BOM.",
+  "riesgo_principal": "OpenBOM y PDM cubren parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "validación de BOM",
+  "tema_norm": "BOM y compras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-12",
+  "nombre": "Private Journal App",
+  "cliente_que_paga": "Consumers who distrust AI journaling",
+  "problema": "AI journal apps analyze personal entries on servers.",
+  "solucion": "Encrypted offline journal with no AI and no account, $29 once.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "r/privacy, Product Hunt, privacy blogs",
+  "competidores": [
+   "Day One",
+   "Obsidian"
+  ],
+  "por_que_ahora": "Anti-AI sentiment is growing.",
+  "ventaja_juan": "Low cost.",
+  "riesgo_principal": "Consumer apps are hard to monetize at volume.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "anti-AI journal",
+  "tema_norm": "apps locales offline",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-14",
+  "nombre": "CRA SBOM & Vulnerability Reporter",
+  "cliente_que_paga": "Fabricantes de productos con elementos digitales (IoT, firmware)",
+  "problema": "El Cyber Resilience Act exige SBOM y reporte de vulnerabilidades explotadas en 24 h.",
+  "solucion": "Herramienta que genera SBOM CycloneDX desde firmware/repos y gestiona reportes ENISA.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "GitHub Marketplace, SEO 'cyber resilience act sbom', foros embedded",
+  "competidores": [
+   "Dependency-Track (gratis)",
+   "Anchore",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Reporte obligatorio desde septiembre 2026 y el resto en diciembre 2027.",
+  "ventaja_juan": "Firmware de impresoras 3D y PLC; conoce el mundo embedded.",
+  "riesgo_principal": "SBOM tooling OSS gratis (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "CRA SBOM firmware",
+  "tema_norm": "regulación IA y ciberseguridad UE",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-06",
+  "nombre": "Eval Datasets from Logs",
+  "cliente_que_paga": "Equipos de producto con agentes ya en producción",
+  "problema": "Construir conjuntos de evaluación a mano consume semanas y se desactualiza.",
+  "solucion": "Convierte logs reales en casos de prueba etiquetados y detecta regresiones por versión de prompt.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Integraciones listadas con Langfuse y OpenTelemetry; SEO 'build eval dataset from production logs'.",
+  "competidores": [
+   "Braintrust",
+   "Langfuse"
+  ],
+  "por_que_ahora": "Los equipos migran de modelo con frecuencia y temen regresiones.",
+  "ventaja_juan": "Backend y pipelines de datos.",
+  "riesgo_principal": "Braintrust y otros ya tienen funciones similares.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "evaluación desde logs",
+  "tema_norm": "pruebas y evaluación LLM",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-03",
+  "nombre": "TM Fuzzy for Freelance Translators",
+  "cliente_que_paga": "Traductores freelance",
+  "problema": "Trados es caro y pesado; muchos solo necesitan memoria de traducción ligera.",
+  "solucion": "Memoria de traducción web ligera con importación TMX/XLIFF y búsqueda difusa.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Grupos de ProZ y SEO 'cheap CAT tool freelance'",
+  "competidores": [
+   "Trados",
+   "memoQ",
+   "Smartcat"
+  ],
+  "por_que_ahora": "Fatiga con herramientas complejas y precio alto de Trados.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Smartcat y otros con plan gratis (F1 posible).",
+  "evidencia_url": "https://www.capterra.com/p/151746/Trados-Studio/",
+  "angulo": "26",
+  "tema": "CAT tool ligera",
+  "tema_norm": "traducción técnica",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-08",
+  "nombre": "Printer Telemetry Alerts",
+  "cliente_que_paga": "Operadores de granjas de impresión",
+  "problema": "Fallos nocturnos arruinan lotes y nadie se entera a tiempo.",
+  "solucion": "Agente ligero que lee Klipper y manda alertas a Slack/Telegram con detección de anomalías.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de plugins de OctoPrint/Klipper y búsqueda 'klipper alerts'.",
+  "competidores": [
+   "Obico",
+   "OctoEverywhere (sin verificar)"
+  ],
+  "por_que_ahora": "Más impresoras en lotes sin supervisión.",
+  "ventaja_juan": "Conoce firmware y telemetría.",
+  "riesgo_principal": "Incumbentes con plan gratuito.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "alertas impresora 3D",
+  "tema_norm": "monitoreo y diagnóstico de impresoras 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-17",
+  "nombre": "Agent Config Drift Monitor",
+  "cliente_que_paga": "Equipos de plataforma con prompts y herramientas versionadas",
+  "problema": "Cambios silenciosos en prompts y modelos alteran el comportamiento sin alertas.",
+  "solucion": "Monitor que detecta cambios de versión de modelo y deriva en salidas con pruebas canario programadas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'LLM model drift monitoring' y Slack Marketplace.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los proveedores actualizan modelos sin aviso.",
+  "ventaja_juan": "Monitoreo continuo estilo SCADA.",
+  "riesgo_principal": "Los proveedores ofrecen versiones fijas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "deriva de modelos LLM",
+  "tema_norm": "costos y observabilidad de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G30-12",
+  "nombre": "Legal PDF Bates Tool",
+  "cliente_que_paga": "Paralegal or litigation support",
+  "problema": "Acrobat Pro or e-discovery suites cost heavily for stamping and redaction.",
+  "solucion": "Browser tool for batch Bates stamping, redaction and exhibit indexing.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'bates numbering pdf online', paralegal forums",
+  "competidores": [
+   "Adobe Acrobat Pro",
+   "Redactable (sin verificar)"
+  ],
+  "por_que_ahora": "Remote litigation produces big PDF sets.",
+  "ventaja_juan": "PDF processing code.",
+  "riesgo_principal": "Redaction liability; privacy trust.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "sellado Bates PDF",
+  "tema_norm": "datos: extracción y respaldo",
+  "duplicado_de": null
+ },
+ {
+  "id": "G30-01",
+  "nombre": "Shopify STEP/DXF Quote Add-on",
+  "cliente_que_paga": "Machine shop or 3D print service owner on Shopify",
+  "problema": "Existing quote apps accept STL/DXF but STEP support is unconfirmed; shops quote CAD by hand.",
+  "solucion": "Shopify app: customer uploads STEP/DXF, gets instant price from shop's rate table.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Search 'instant quote CNC' in Shopify App Store plus r/shopify and CNC forums",
+  "competidores": [
+   "MakeQuote",
+   "3D Print Quote Calculator",
+   "Xometry (sin verificar)"
+  ],
+  "por_que_ahora": "Shops move to Shopify and want self-serve quoting without paying marketplace fees.",
+  "ventaja_juan": "CAD/CAM knowledge to parse geometry and cost it correctly.",
+  "riesgo_principal": "Depends on Shopify; STEP kernel cost/complexity.",
+  "evidencia_url": "https://apps.shopify.com/makequote",
+  "angulo": "30",
+  "tema": "cotización CAD",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-04",
+  "nombre": "InvoiceHours for Therapists",
+  "cliente_que_paga": "Terapeutas privados",
+  "problema": "Facturas superbill para reembolso de seguros hechas a mano.",
+  "solucion": "Genera superbills con códigos CPT/ICD desde la agenda y exporta PDF.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'superbill generator' y grupos de Facebook de terapeutas en práctica privada",
+  "competidores": [
+   "SimplePractice",
+   "TherapyNotes"
+  ],
+  "por_que_ahora": "Más terapeutas fuera de red de seguros.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Incumbentes con función nativa (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "superbill terapeutas",
+  "tema_norm": "agentes verticales y notas clínicas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-06",
+  "nombre": "eBay Parts Fitment Fixer",
+  "cliente_que_paga": "eBay Motors parts sellers",
+  "problema": "Compatibility (fitment) tables are tedious to maintain.",
+  "solucion": "Bulk generate and validate fitment data from part numbers, with CSV export for eBay.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "eBay seller community forums and SEO 'ebay fitment bulk upload'",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Compatibility errors cause returns.",
+  "ventaja_juan": "Data pipelines; CAD part-number familiarity.",
+  "riesgo_principal": "eBay may build native tool.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "fitment eBay",
+  "tema_norm": "compatibilidad y repuestos",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-08",
+  "nombre": "Print Shop Order Tracker",
+  "cliente_que_paga": "Servicios de impresión 3D/CNC bajo pedido",
+  "problema": "Clientes preguntan el estado del pedido por correo.",
+  "solucion": "Plugin con estados de producción y portal de seguimiento para el cliente.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "WordPress.org y comunidades de print farms.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crecimiento de manufactura bajo demanda.",
+  "ventaja_juan": "Conocimiento de flujos de producción de impresión 3D.",
+  "riesgo_principal": "Mercado de nicho.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "seguimiento producción pedidos",
+  "tema_norm": "producción y reservas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G07-08",
+  "nombre": "SCAD Linter Pro",
+  "cliente_que_paga": "Usuarios de OpenSCAD y CAD paramétrico",
+  "problema": "OpenSCAD tiene editor básico y errores difíciles de rastrear.",
+  "solucion": "Extensión VS Code con lint, previsualización en vivo, y análisis de parámetros para modelos paramétricos.",
+  "precio_usd_mes": 7,
+  "canal_primeros_100": "Búsqueda 'openscad' en VS Code Marketplace, r/openscad, Thingiverse.",
+  "competidores": [
+   "Editor nativo de OpenSCAD",
+   "Extensiones comunitarias (sin verificar)"
+  ],
+  "por_que_ahora": "CAD paramétrico en alza en impresión 3D.",
+  "ventaja_juan": "Conocimiento CAD e impresión 3D.",
+  "riesgo_principal": "Compradores esperan gratis (F5/F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "editor OpenSCAD",
+  "tema_norm": "utilidades de código en IDE",
+  "duplicado_de": null
+ },
+ {
+  "id": "G03-18",
+  "nombre": "Slack Sales Quote Cost Check for Print Farms",
+  "cliente_que_paga": "Dueño de servicio de impresión 3D por encargo",
+  "problema": "Cotizar piezas 3D a clientes lleva tiempo y errores.",
+  "solucion": "Slack app que recibe STL, estima tiempo/material y devuelve cotización en hilo.",
+  "precio_usd_mes": 39.0,
+  "canal_primeros_100": "Slack Marketplace; comunidades r/3Dprinting y Discord de print-on-demand",
+  "competidores": [
+   "Craftcloud (sin verificar)",
+   "Xometry (sin verificar)"
+  ],
+  "por_que_ahora": "Servicios de impresión por encargo crecen.",
+  "ventaja_juan": "Firmware 3D y slicing.",
+  "riesgo_principal": "Los clientes finales no usan Slack.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "cotización impresión 3D",
+  "tema_norm": "cotización impresión 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-04",
+  "nombre": "Digital Product Passport Builder",
+  "cliente_que_paga": "Fabricantes medianos que exportan a la UE (textil, baterías, electrónica)",
+  "problema": "El ESPR/DPP exigirá pasaporte digital con datos de producto y QR por SKU.",
+  "solucion": "Plataforma que importa CSV/PLM, genera DPP con QR y JSON-LD alojado público.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'digital product passport software', LinkedIn/foros de manufactura, directorios de ESPR",
+  "competidores": [
+   "Circularise",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Reglamento de baterías UE exige pasaporte en 2027; ESPR avanza por categorías.",
+  "ventaja_juan": "Conocimiento industrial/BOM y datos de producto.",
+  "riesgo_principal": "Reglas delegadas aún sin definir; ciclo de compra largo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "pasaporte digital producto",
+  "tema_norm": "cumplimiento de producto y sostenibilidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G04-16",
+  "nombre": "Test Evidence for Regulated Software",
+  "cliente_que_paga": "QA leads en software de dispositivos y automatización",
+  "problema": "Vincular resultados de pruebas a requisitos exige hojas manuales.",
+  "solucion": "App que traza requisitos a pruebas, adjunta evidencia y genera matriz de trazabilidad.",
+  "precio_usd_mes": 190,
+  "canal_primeros_100": "Búsqueda 'traceability' 'requirements' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Software embebido industrial necesita trazabilidad.",
+  "ventaja_juan": "Experiencia en firmware y PLC.",
+  "riesgo_principal": "Competidores establecidos en test management.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "matriz de trazabilidad",
+  "tema_norm": "evidencia SOC2/ISO y compliance TI",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-06",
+  "nombre": "Alertas de OT por email",
+  "cliente_que_paga": "Técnicos de mantenimiento",
+  "problema": "Los paros se detectan tarde sin SCADA completo.",
+  "solucion": "Pasarela que lee Modbus/OPC UA y envía alertas por email o Telegram.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'Modbus alerts email'; GitHub y foros de Node-RED",
+  "competidores": [
+   "Node-RED (gratis, F1 posible)"
+  ],
+  "por_que_ahora": "Reutilizar equipos viejos con IoT barato.",
+  "ventaja_juan": "Conozco Modbus y PLC.",
+  "riesgo_principal": "Node-RED gratis cubre mucho.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "alertas Modbus OPC",
+  "tema_norm": "datos industriales OPC UA/Modbus",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-18",
+  "nombre": "Review Request Automation",
+  "cliente_que_paga": "Tiendas WooCommerce pequeñas y medianas",
+  "problema": "Pocas reseñas reducen la conversión.",
+  "solucion": "Plugin que envía solicitudes de reseña con incentivos y lo publica con schema.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce review reminder'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Reseñas influyen en búsqueda local y compras.",
+  "ventaja_juan": "Backend PHP.",
+  "riesgo_principal": "Funciones básicas ya existen (sin verificar).",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "automatización reseñas",
+  "tema_norm": "operaciones de tienda online",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-13",
+  "nombre": "LLM Product Description Auditor",
+  "cliente_que_paga": "Tiendas WooCommerce con catálogos grandes",
+  "problema": "Descripciones duplicadas o pobres bajan SEO y conversión.",
+  "solucion": "Plugin que audita catálogo y propone mejoras con IA.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce ai product description'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "IA generativa accesible.",
+  "ventaja_juan": "Backend Node y APIs de IA.",
+  "riesgo_principal": "Saturación de herramientas IA.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "auditoría catálogo IA",
+  "tema_norm": "marketing digital y SEO",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-18",
+  "nombre": "Screenshot Redactor",
+  "cliente_que_paga": "Support, QA and security staff",
+  "problema": "Sensitive data leaks in screenshots shared with vendors.",
+  "solucion": "Extension auto-detects and blurs emails, keys and PII in screenshots before upload.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Chrome Web Store search 'redact screenshot', r/sysadmin",
+  "competidores": [
+   "Snagit",
+   "CleanShot"
+  ],
+  "por_que_ahora": "Screenshot sharing with AI tools grows.",
+  "ventaja_juan": "Security-minded backend.",
+  "riesgo_principal": "Native OS tools overlap. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "screenshot redaction",
+  "tema_norm": "secretos, PII y privacidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-19",
+  "nombre": "Supplier PO Tracker Sellers",
+  "cliente_que_paga": "Amazon sellers importing from China",
+  "problema": "POs, shipments and QC reports scattered.",
+  "solucion": "Track POs, ocean freight and inbound with reorder alerts.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Amazon FB groups, SEO",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Tariff volatility.",
+  "ventaja_juan": "Industrial/manufacturing flow familiarity.",
+  "riesgo_principal": "Spreadsheet inertia.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "ordenes compra",
+  "tema_norm": "operaciones de tienda online",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-05",
+  "nombre": "EU Battery Passport Generator",
+  "cliente_que_paga": "Fabricantes e importadores de baterías industriales/e-bikes",
+  "problema": "Deben cumplir el pasaporte de baterías UE con huella de carbono y trazabilidad.",
+  "solucion": "Formulario guiado que genera pasaporte, QR y registro de datos exigidos.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "SEO 'battery passport', foros de e-mobility, asociaciones comerciales (sin verificar)",
+  "competidores": [
+   "Circulor",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fecha límite febrero 2027 para baterías industriales y EV.",
+  "ventaja_juan": "Electrónica/industria; impresión 3D y firmware.",
+  "riesgo_principal": "Mercado reducido y requisitos cambiantes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "pasaporte batería UE",
+  "tema_norm": "cumplimiento de producto y sostenibilidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-20",
+  "nombre": "Spare Parts Finder by Model",
+  "cliente_que_paga": "Fabricantes y distribuidores de refacciones",
+  "problema": "Los clientes no saben qué pieza corresponde a su equipo.",
+  "solucion": "Plugin que filtra repuestos por modelo/serie con despiece.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "WordPress.org y foros de distribuidores industriales.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más venta industrial online.",
+  "ventaja_juan": "Conocimiento de equipos industriales y CAD.",
+  "riesgo_principal": "Requiere datos del cliente.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "buscador refacciones",
+  "tema_norm": "compatibilidad y repuestos",
+  "duplicado_de": null
+ }
+]

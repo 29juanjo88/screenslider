@@ -1,0 +1,557 @@
+[
+ {
+  "id": "G24-16",
+  "nombre": "RetroROM Cloud",
+  "cliente_que_paga": "Coleccionistas de juegos retro",
+  "problema": "Es difícil organizar colecciones y metadatos.",
+  "solucion": "Catálogo de colección física con valor de mercado y wishlist.",
+  "precio_usd_mes": 4,
+  "canal_primeros_100": "r/gamecollecting, foros y YouTube retro.",
+  "competidores": [
+   "PriceCharting",
+   "Collectorz"
+  ],
+  "por_que_ahora": "Precios retro al alza.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Competencia y bajo precio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "catálogo coleccionista retro",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-14",
+  "nombre": "Resin Cure Logger",
+  "cliente_que_paga": "Usuarios de impresoras de resina y laboratorios dentales/joyería",
+  "problema": "La post-cura inconsistente arruina piezas sin trazabilidad.",
+  "solucion": "Registro de ciclos de lavado y cura con QR por lote.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Comunidades r/resinprinting y grupos de joyería con impresión 3D.",
+  "competidores": [
+   "Registro manual"
+  ],
+  "por_que_ahora": "Impresión de resina en joyería y dental crece.",
+  "ventaja_juan": "Conoce procesos de impresión.",
+  "riesgo_principal": "Nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "registro cura resina",
+  "tema_norm": "monitoreo y diagnóstico de impresoras 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-16",
+  "nombre": "Salesforce Report Scheduler to Sheets",
+  "cliente_que_paga": "Sales ops analyst",
+  "problema": "Execs want reports in spreadsheets on a schedule and exports are manual.",
+  "solucion": "AppExchange app that pushes reports to Google Sheets/Excel on a schedule with row-level history.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "AppExchange search 'Google Sheets' and 'export'",
+  "competidores": [
+   "Coefficient",
+   "Salesforce Data Loader"
+  ],
+  "por_que_ahora": "Spreadsheet-based reporting persists.",
+  "ventaja_juan": "Backend integration skills.",
+  "riesgo_principal": "Well-served by Coefficient.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "Salesforce sheets sync",
+  "tema_norm": "apps CRM HubSpot/Salesforce",
+  "duplicado_de": null
+ },
+ {
+  "id": "G30-03",
+  "nombre": "Sheet Metal DFM Check API",
+  "cliente_que_paga": "Developers of quoting/marketplace SaaS for fabrication",
+  "problema": "Instant DFM feedback is bundled inside expensive quoting platforms.",
+  "solucion": "API that returns bend, hole-to-edge and minimum-feature errors for DXF flat patterns.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'DXF DFM check api', RapidAPI-style API directories, docs",
+  "competidores": [
+   "Xometry (sin verificar)",
+   "Protolabs (sin verificar)"
+  ],
+  "por_que_ahora": "Many shops build their own online quoting.",
+  "ventaja_juan": "DXF/CAM and sheet-metal manufacturing rules.",
+  "riesgo_principal": "Small buyer pool; rules vary by shop.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "DFM chapa metálica",
+  "tema_norm": "DFM, reparación y validación DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-19",
+  "nombre": "STEP model marketplace price data",
+  "cliente_que_paga": "Compradores de piezas CAD y diseñadores de producto",
+  "problema": "No se sabe qué modelos CAD/STL se venden y a qué precio.",
+  "solucion": "Dataset semanal de ventas y precios de modelos 3D/CAD por categoría.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'best selling 3D models data' y comunidades de diseñadores",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Crece el mercado de modelos imprimibles.",
+  "ventaja_juan": "Conocimiento CAD y 3D.",
+  "riesgo_principal": "Los marketplaces pueden restringir datos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "datos modelos 3D",
+  "tema_norm": "monitoreo de precios y mercados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-15",
+  "nombre": "Excel PDF Table Extractor",
+  "cliente_que_paga": "Analistas financieros y de compras",
+  "problema": "Extraer tablas de PDF de proveedores a Excel produce errores de formato.",
+  "solucion": "Complemento de Excel que extrae tablas de PDF con OCR y las normaliza.",
+  "precio_usd_mes": 24,
+  "canal_primeros_100": "AppSource y búsqueda 'pdf to excel add-in'.",
+  "competidores": [
+   "Adobe Acrobat",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Mejores modelos de extracción.",
+  "ventaja_juan": "Backend con procesamiento de archivos.",
+  "riesgo_principal": "Incumbentes grandes y IA genérica lo pueden matar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "PDF a Excel",
+  "tema_norm": "datos: extracción y respaldo",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-04",
+  "nombre": "Conversor de tags SCADA",
+  "cliente_que_paga": "Ingenieros SCADA",
+  "problema": "Migrar tags entre Ignition, WinCC y otros se hace con hojas de cálculo.",
+  "solucion": "Convierte y valida bases de tags entre plataformas SCADA.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "SEO 'migrate WinCC to Ignition'; foro de Inductive Automation",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Migraciones de SCADA legados a plataformas modernas.",
+  "ventaja_juan": "Conozco SCADA y PLC.",
+  "riesgo_principal": "Mercado de nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "migración tags SCADA",
+  "tema_norm": "conversión de tags PLC/SCADA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-09",
+  "nombre": "Ham Log Cloud",
+  "cliente_que_paga": "Radioaficionados con licencia",
+  "problema": "Registros de contactos y diplomas (awards) están en software antiguo.",
+  "solucion": "Log web moderno con sincronización de LoTW/QRZ, mapas de DXCC y seguimiento de premios.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "Foros QRZ, r/amateurradio, clubes ARRL y canales de YouTube de HAM.",
+  "competidores": [
+   "QRZ (suscripción)",
+   "Club Log (sin verificar)"
+  ],
+  "por_que_ahora": "Radioafición se renueva con SDR y digital.",
+  "ventaja_juan": "Mente electrónica/industrial.",
+  "riesgo_principal": "Comunidad pequeña y apegada a gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "log radioaficionados",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-06",
+  "nombre": "Course Drip Analytics for Teachable",
+  "cliente_que_paga": "Creadores de cursos online",
+  "problema": "No ven dónde abandonan los alumnos entre lecciones.",
+  "solucion": "Conecta con Teachable/Thinkific y muestra puntos de abandono y mensajes sugeridos.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Marketplace de apps Thinkific/Teachable y SEO 'course completion rate'",
+  "competidores": [
+   "Kajabi analytics",
+   "Thinkific reports"
+  ],
+  "por_que_ahora": "Cursos saturados exigen retención.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Plataformas integran analítica nativa.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "analítica de cursos",
+  "tema_norm": "cursos y monetización de creadores",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-18",
+  "nombre": "Calendar Capacity Planner",
+  "cliente_que_paga": "Gerentes de producción de talleres",
+  "problema": "Planificar capacidad de máquinas en hojas no muestra conflictos.",
+  "solucion": "Complemento de Sheets que lee Google Calendar, detecta sobrecargas de máquinas y sugiere reprogramación.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de Google Workspace y comunidades de manufactura.",
+  "competidores": [
+   "software APS de gran escala"
+  ],
+  "por_que_ahora": "Talleres pequeños sin MES.",
+  "ventaja_juan": "Conocimiento de CAM y producción.",
+  "riesgo_principal": "Mercado de nicho con integraciones limitadas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "capacidad de máquinas",
+  "tema_norm": "producción y reservas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G28-18",
+  "nombre": "Stencil Gerber Quote",
+  "cliente_que_paga": "Electronics hobbyists/small makers",
+  "problema": "Stencil pricing requires emailing vendors.",
+  "solucion": "Gerber-based instant quote comparison across vendors.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO",
+  "competidores": [
+   "JLCPCB"
+  ],
+  "por_que_ahora": "PCB ordering grows.",
+  "ventaja_juan": "Electronics.",
+  "riesgo_principal": "Low price.",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "Gerber quoting",
+  "tema_norm": "PCB y Gerber",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-01",
+  "nombre": "Linter de PLC Structured Text",
+  "cliente_que_paga": "Ingenieros de control e integradores",
+  "problema": "El código ST/SCL se revisa a mano y los errores aparecen en puesta en marcha.",
+  "solucion": "Linter y reglas de estilo (IEC 61131-3) para ST/SCL en CI, con reporte en pull requests.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'structured text linter' y GitHub Marketplace; foros PLCtalk y r/PLC",
+  "competidores": [
+   "Productos de análisis estático de los fabricantes (sin verificar)"
+  ],
+  "por_que_ahora": "Los PLC pasan a Git y CI (PLCopen XML, TIA Openness).",
+  "ventaja_juan": "Conozco ST/SCL y TIA Portal.",
+  "riesgo_principal": "Formatos propietarios cerrados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "lint PLC ST",
+  "tema_norm": "revisión de código PLC",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-20",
+  "nombre": "Sample Swatch Request",
+  "cliente_que_paga": "Tiendas de materiales, filamentos y acabados",
+  "problema": "Los clientes dudan en comprar sin ver o probar el material.",
+  "solucion": "Solicitud de muestras gratis o de bajo costo limitada por cliente, con seguimiento de conversión a compra.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Búsqueda 'free samples' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Menos fricción de compra en materiales.",
+  "ventaja_juan": "Conoce filamentos y materiales de manufactura.",
+  "riesgo_principal": "Precio bajo y nicho pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "muestras de materiales",
+  "tema_norm": "operaciones de tienda online",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-09",
+  "nombre": "Human Approval for Workflows",
+  "cliente_que_paga": "Teams running AI agents inside n8n/Make/Zapier",
+  "problema": "Agent steps send emails or spend money with no approval gate.",
+  "solucion": "Approval node: sends Slack or email request, waits, then resumes with audit trail.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "n8n community nodes, Make and Zapier app directories, SEO 'human in the loop n8n'.",
+  "competidores": [
+   "HumanLayer (sin verificar details)"
+  ],
+  "por_que_ahora": "Agent workflows moved into production in 2025-2026.",
+  "ventaja_juan": "Industrial interlock mindset applied to software safeguards.",
+  "riesgo_principal": "Native approval features are being added by platforms.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "agent approval gates",
+  "tema_norm": "seguridad y permisos de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-13",
+  "nombre": "TabletopForge",
+  "cliente_que_paga": "Dungeon masters y jugadores de mesa",
+  "problema": "Preparar sesiones, mapas y notas lleva horas.",
+  "solucion": "Gestor de campaña con generadores, notas enlazadas y exportación de handouts.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "r/DnD, Kickstarter hobby, TikTok DnD y DMs Guild.",
+  "competidores": [
+   "World Anvil",
+   "Kanka"
+  ],
+  "por_que_ahora": "Mesa y D&D en auge tras Baldur's Gate 3.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Mercado saturado.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "herramientas campaña D&D",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-19",
+  "nombre": "Offline Tolerance Stack-Up",
+  "cliente_que_paga": "Mechanical design engineers",
+  "problema": "Tolerance analysis is done in spreadsheets or in expensive CAD add-ons.",
+  "solucion": "Offline 1D/2D tolerance stack-up calculator with worst-case and Monte Carlo, one-time license.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Search 'tolerance stack up calculator' SEO, r/MechanicalEngineering, Eng-Tips",
+  "competidores": [
+   "Spreadsheets",
+   "CETOL 6 Sigma"
+  ],
+  "por_que_ahora": "Engineers want licensed-once tools outside CAD suites.",
+  "ventaja_juan": "Mechanical CAD background.",
+  "riesgo_principal": "Small niche.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "tolerance stack-up",
+  "tema_norm": "tolerancias mecánicas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G07-09",
+  "nombre": "AI Cost Meter",
+  "cliente_que_paga": "Desarrolladores y equipos que usan APIs de LLM",
+  "problema": "No saben cuánto gastan por función o prompt mientras desarrollan.",
+  "solucion": "Extensión VS Code que registra tokens y costo por llamada LLM en el código y alerta por presupuesto.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Búsqueda 'llm cost' en VS Code Marketplace y Hacker News Show HN.",
+  "competidores": [
+   "Helicone",
+   "Langfuse",
+   "LangSmith"
+  ],
+  "por_que_ahora": "Gasto en LLM crece y se cuestiona.",
+  "ventaja_juan": "Backend con Node y Python para instrumentar.",
+  "riesgo_principal": "Los proveedores añaden dashboards propios.",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "costo de LLM",
+  "tema_norm": "costos y observabilidad de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-07",
+  "nombre": "Wire Gauge & Cable Sizing",
+  "cliente_que_paga": "Electricistas industriales y integradores",
+  "problema": "Dimensionar cable por corriente, caída de tensión y norma exige consultar tablas.",
+  "solucion": "Calculadora por norma (NEC, IEC) con páginas SEO por carga/longitud y reportes PDF de pago.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'wire size calculator [amps] [distance]' y foros de electricistas.",
+  "competidores": [
+   "Sin verificar (calculadoras gratuitas de fabricantes)"
+  ],
+  "por_que_ahora": "Auge de instalaciones solares y EV chargers.",
+  "ventaja_juan": "Experiencia industrial eléctrica.",
+  "riesgo_principal": "F1: calculadoras gratuitas; riesgo normativo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "cálculo de cable",
+  "tema_norm": "calculadoras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-10",
+  "nombre": "Clip Licensing Marketplace Kit",
+  "cliente_que_paga": "YouTubers con clips virales",
+  "problema": "Reclamos y licencias de clips se gestionan por correo.",
+  "solucion": "Página de licencias de clips con pago y contrato automático.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Reddit r/NewTubers y SEO 'license my viral video'",
+  "competidores": [
+   "Jukin Media",
+   "ViralHog"
+  ],
+  "por_que_ahora": "Medios compran clips virales constantemente.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Jukin ya domina.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "licencia de clips",
+  "tema_norm": "herramientas de creadores YouTube",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-12",
+  "nombre": "Tool Schema Generator from OpenAPI",
+  "cliente_que_paga": "Desarrolladores que exponen una API a agentes",
+  "problema": "Convertir una API REST en herramientas bien descritas para LLM requiere trabajo manual.",
+  "solucion": "Generador que toma OpenAPI y produce un servidor MCP optimizado con descripciones mejoradas por prueba.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'openapi to mcp server' y GitHub, más listado en directorios MCP.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Todas las empresas quieren un servidor MCP para su API.",
+  "ventaja_juan": "GraphQL/REST y generación de código.",
+  "riesgo_principal": "Herramientas gratuitas de generación abundan.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "OpenAPI a MCP",
+  "tema_norm": "servidores MCP",
+  "duplicado_de": null
+ },
+ {
+  "id": "G12-01",
+  "nombre": "CAD Preview for Zapier/Make",
+  "cliente_que_paga": "Ops or product engineers at manufacturing e-commerce and quoting SaaS",
+  "problema": "Automations cannot read STEP/DXF/IGES files, so teams preview and quote parts by hand.",
+  "solucion": "Zapier/Make/n8n app that converts CAD files to PNG/SVG/glTF plus metadata (bbox, volume) in one step.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Zapier App Directory and Make app listing for searches like 'STEP file', plus n8n community nodes and SEO 'step to png api'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "No-code automation is mainstream while CAD tooling stays closed to it.",
+  "ventaja_juan": "Knows CAD formats and can build converters nearly free.",
+  "riesgo_principal": "Depends on Zapier/Make approval and on open-source CAD kernels for parsing.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "CAD file automation",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-03",
+  "nombre": "AWS Marketplace STEP Conversion API",
+  "cliente_que_paga": "Developer at a manufacturing SaaS",
+  "problema": "Need to convert and preview STEP/IGES files without building a CAD kernel.",
+  "solucion": "Containerized API on AWS Marketplace converting CAD to glTF/PNG/SVG, billed via the AWS bill.",
+  "precio_usd_mes": 300,
+  "canal_primeros_100": "AWS Marketplace listing for 'CAD conversion' and SEO 'step to gltf api'",
+  "competidores": [
+   "CAD Exchanger",
+   "Autodesk Platform Services"
+  ],
+  "por_que_ahora": "Enterprises can burn AWS commits through Marketplace without procurement.",
+  "ventaja_juan": "CAD formats knowledge and low-cost build.",
+  "riesgo_principal": "Open-source OpenCascade DIY alternatives.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "CAD conversion API",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-03",
+  "nombre": "GcodeStats API",
+  "cliente_que_paga": "Desarrollador de plataformas de impresión 3D bajo demanda y granjas de impresión",
+  "problema": "Estimar tiempo, filamento y costo desde STL/3MF sin ejecutar un slicer manualmente.",
+  "solucion": "API que lamina en headless y devuelve tiempo, peso, costo y problemas de imprimibilidad.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'stl print time estimate api', directorios de APIs, foros de desarrolladores de OctoPrint/Klipper y GitHub README.",
+  "competidores": [
+   "PrusaSlicer/Cura CLI (DIY)",
+   "sin verificar servicios comerciales"
+  ],
+  "por_que_ahora": "Crecimiento de servicios de impresión 3D online y granjas.",
+  "ventaja_juan": "Firmware de impresoras 3D y slicers.",
+  "riesgo_principal": "Cliente puede correr el slicer CLI gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "estimación impresión 3D",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-10",
+  "nombre": "Calculadora de coste de impresión 3D",
+  "cliente_que_paga": "Granjas de impresión 3D",
+  "problema": "Cotizar piezas impresas en 3D es subjetivo y lento.",
+  "solucion": "Cotiza por geometría, material y tiempo, con widget embebible.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplaces de plugins para Shopify y WooCommerce; SEO",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Crece la manufactura bajo demanda.",
+  "ventaja_juan": "Conozco firmware de impresoras 3D.",
+  "riesgo_principal": "Competidores de cotización instantánea.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "cotizador impresión 3D",
+  "tema_norm": "costeo de impresión 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G21-15",
+  "nombre": "Weld Symbol Studio",
+  "cliente_que_paga": "Soldadores/ingenieros y dibujantes",
+  "problema": "Interpretar símbolos AWS es confuso.",
+  "solucion": "Generador y decodificador de símbolos de soldadura con exportación DXF/SVG.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'weld symbol generator', r/Welding.",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Contenido SEO desatendido.",
+  "ventaja_juan": "CAD y dibujo.",
+  "riesgo_principal": "Precio bajo y mercado pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "símbolos de soldadura",
+  "tema_norm": "calidad y soldadura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-20",
+  "nombre": "CNC Feeds & Speeds Pages",
+  "cliente_que_paga": "Maquinistas CNC y talleres pequeños",
+  "problema": "Elegir avances y velocidades por herramienta/material lleva prueba y error.",
+  "solucion": "Calculadora con páginas SEO por herramienta/material y librería personal de pago.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'feeds and speeds [material] [endmill]' y r/CNC, r/hobbycnc.",
+  "competidores": [
+   "Sin verificar (calculadoras gratuitas y apps de fabricantes de herramientas)"
+  ],
+  "por_que_ahora": "Más talleres pequeños y hobbistas con CNC de escritorio.",
+  "ventaja_juan": "CAM y CNC.",
+  "riesgo_principal": "F1: calculadoras gratuitas de fabricantes de herramientas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "avances CNC",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-02",
+  "nombre": "EAA Accessibility Audit CI",
+  "cliente_que_paga": "Equipos frontend de ecommerce/SaaS vendiendo en UE",
+  "problema": "El European Accessibility Act exige conformidad WCAG y no saben qué falla en cada release.",
+  "solucion": "GitHub Action que audita WCAG 2.2 en PRs, genera declaración de accesibilidad y reporte exportable.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "GitHub Marketplace 'accessibility audit action', SEO 'EAA compliance checklist'",
+  "competidores": [
+   "axe DevTools",
+   "Pa11y",
+   "Lighthouse (gratis)"
+  ],
+  "por_que_ahora": "EAA aplica desde junio de 2025 y las multas llegan por país.",
+  "ventaja_juan": "Backend/React; automatización de CI.",
+  "riesgo_principal": "Lighthouse/axe gratis cubren parte (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "accesibilidad EAA CI",
+  "tema_norm": "cumplimiento accesibilidad web",
+  "duplicado_de": null
+ }
+]

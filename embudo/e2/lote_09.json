@@ -1,0 +1,560 @@
+[
+ {
+  "id": "G03-04",
+  "nombre": "Standup Summarizer Pro",
+  "cliente_que_paga": "Engineering manager de equipo de 20-200 personas",
+  "problema": "Los standups async se dispersan en hilos largos.",
+  "solucion": "Resumen diario por IA de hilos de canales con bloqueos, decisiones y tareas pendientes.",
+  "precio_usd_mes": 49.0,
+  "canal_primeros_100": "Slack Marketplace buscando 'summary', 'standup'; SEO 'slack thread summarizer'",
+  "competidores": [
+   "Slack AI nativo (sin verificar)",
+   "Geekbot (sin verificar)"
+  ],
+  "por_que_ahora": "LLMs baratos permiten resumir por centavos.",
+  "ventaja_juan": "Backend TS y automatización de bajo costo.",
+  "riesgo_principal": "Slack AI nativo puede cubrir el caso (F1 alto).",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "resumen hilos Slack",
+  "tema_norm": "productividad en Slack/Teams",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-20",
+  "nombre": "Onshape BOM Exporter",
+  "cliente_que_paga": "Mechanical engineers and small hardware teams on Onshape",
+  "problema": "Exporting clean BOMs with costs from Onshape documents is manual.",
+  "solucion": "Extension exports Onshape BOMs to Sheets/CSV with supplier price lookups and revision stamps.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Chrome Web Store search 'onshape', Onshape forum, r/CAD",
+  "competidores": [
+   "Onshape native export"
+  ],
+  "por_que_ahora": "Onshape adoption by startups.",
+  "ventaja_juan": "CAD/CAM experience.",
+  "riesgo_principal": "Depends on Onshape and Chrome; native features may improve. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "Onshape BOM export",
+  "tema_norm": "BOM y compras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-15",
+  "nombre": "Membership Tax Receipts for Creators",
+  "cliente_que_paga": "Creadores con ingresos de Patreon/Stripe",
+  "problema": "Cumplir IVA/VAT por país de suscriptores es confuso.",
+  "solucion": "Consolida pagos de varias plataformas y calcula obligaciones por país.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'creator VAT calculator' y r/Patreon",
+  "competidores": [
+   "Paddle",
+   "Lemon Squeezy",
+   "Quaderno"
+  ],
+  "por_que_ahora": "Reglas VAT para productos digitales vigentes.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Riesgo regulatorio y errores.",
+  "evidencia_url": "sin verificar",
+  "angulo": "22",
+  "tema": "VAT para creadores",
+  "tema_norm": "facturación, impuestos y conciliación",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-11",
+  "nombre": "DXF Nesting Offline",
+  "cliente_que_paga": "Laser and plasma cutting shops",
+  "problema": "Nesting software is expensive or cloud-tied.",
+  "solucion": "Desktop DXF nesting and quoting, one-time license per seat.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Search 'DXF nesting software' SEO, r/lasercutting, Facebook laser groups",
+  "competidores": [
+   "DeepNest (free)",
+   "SigmaNEST",
+   "Lantek"
+  ],
+  "por_que_ahora": "Small shops avoid subscriptions.",
+  "ventaja_juan": "DXF and CAM knowledge.",
+  "riesgo_principal": "DeepNest is free.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "DXF nesting",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-05",
+  "nombre": "CAD File Delivery Vault",
+  "cliente_que_paga": "Vendedores de modelos 3D/STL y archivos CAD en Shopify",
+  "problema": "Vender archivos digitales con licencias, versiones y protección es torpe.",
+  "solucion": "Entrega digital con licencias por uso, versionado, vista previa 3D web y límite de descargas.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Búsqueda 'digital downloads' / 'STL' en Shopify App Store",
+  "competidores": [
+   "Digital Downloads (Shopify, gratis)",
+   "sin verificar otros"
+  ],
+  "por_que_ahora": "Boom de creadores de modelos 3D que salen de marketplaces con comisión.",
+  "ventaja_juan": "Entiende formatos STEP/STL/3MF y vista previa 3D.",
+  "riesgo_principal": "Incumbente gratis de Shopify puede cubrir lo básico (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "venta de archivos 3D",
+  "tema_norm": "venta y licencias de archivos digitales",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-14",
+  "nombre": "SessionNotes Voice for Therapists",
+  "cliente_que_paga": "Terapeutas privados",
+  "problema": "Redactar notas clínicas consume tiempo sin facturar.",
+  "solucion": "Dictado a notas SOAP con plantillas, exportable sin almacenar PHI.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'SOAP note generator therapist' y grupos de Facebook",
+  "competidores": [
+   "Upheal",
+   "Mentalyc"
+  ],
+  "por_que_ahora": "IA de notas se normaliza.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Regulación de datos de salud (HIPAA).",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "notas clínicas IA",
+  "tema_norm": "agentes verticales y notas clínicas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-11",
+  "nombre": "Unit Converter Engine API",
+  "cliente_que_paga": "Desarrolladores de software de ingeniería y ecommerce técnico",
+  "problema": "Convertir unidades y tolerancias (pulgadas/mm, roscas, calibres) con estándares es propenso a errores.",
+  "solucion": "API con conversiones, tablas de roscas, calibres de lámina y tolerancias ISO.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'sheet metal gauge api', 'thread pitch lookup api', RapidAPI.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más herramientas de cotización técnica en la web.",
+  "ventaja_juan": "Conocimiento de mecanizado y estándares.",
+  "riesgo_principal": "Precio bajo exige volumen alto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "datos de ingeniería API",
+  "tema_norm": "calculadoras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-19",
+  "nombre": "Bolt & Fastener Torque Pages",
+  "cliente_que_paga": "Mecánicos e ingenieros de montaje",
+  "problema": "Consultar torques por tornillo/material es disperso.",
+  "solucion": "Calculadora con SEO por tamaño/grado y reportes de pago.",
+  "precio_usd_mes": 9,
+  "canal_primeros_100": "SEO 'M8 bolt torque grade 8.8'.",
+  "competidores": [
+   "Sin verificar (tablas gratuitas)"
+  ],
+  "por_que_ahora": "Mucho tráfico de búsqueda técnica.",
+  "ventaja_juan": "CAD/mecánica.",
+  "riesgo_principal": "F1/F5: tablas gratuitas y precio bajo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "torque tornillos",
+  "tema_norm": "calculadoras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G04-12",
+  "nombre": "Maintenance Requests for JSM",
+  "cliente_que_paga": "Jefes de mantenimiento en plantas y facilities",
+  "problema": "Las órdenes de mantenimiento de equipos industriales se gestionan por papel o email.",
+  "solucion": "Plantilla JSM con activos, QR por máquina, preventivo programado y reporte de downtime.",
+  "precio_usd_mes": 160,
+  "canal_primeros_100": "Búsqueda 'maintenance' 'CMMS' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Planta pequeña busca CMMS barato dentro de herramientas existentes.",
+  "ventaja_juan": "Conocimiento de planta industrial y PLC.",
+  "riesgo_principal": "CMMS dedicados compiten fuerte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "mantenimiento industrial JSM",
+  "tema_norm": "mantenimiento y seguridad industrial",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-18",
+  "nombre": "Production Queue Tracker",
+  "cliente_que_paga": "Talleres de impresión 3D y fabricación bajo demanda con Shopify",
+  "problema": "No hay visibilidad del estado de producción para el cliente ni el taller.",
+  "solucion": "Tablero de producción con estados por pedido, notificaciones al cliente y etiquetas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'order tracking' / 'production status' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fabricación bajo demanda en auge.",
+  "ventaja_juan": "Experiencia en flujos de producción y PLC/MES.",
+  "riesgo_principal": "Nicho pequeño y hay apps de tracking.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "seguimiento de producción",
+  "tema_norm": "producción y reservas",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-01",
+  "nombre": "CADFrame for Figma",
+  "cliente_que_paga": "Diseñadores de producto/industrial en equipos de hardware",
+  "problema": "Insertar renders de piezas CAD en mockups exige exportar a mano desde SolidWorks y re-renderizar.",
+  "solucion": "Plugin que importa STEP/STL y coloca vistas renderizadas con ángulos y materiales editables en frames de Figma.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda 'CAD to Figma' / 'STL' en Figma Community y posts en r/industrialdesign y r/FigmaDesign.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Hardware startups documentan en Figma y la API de plugins soporta imágenes y vectores.",
+  "ventaja_juan": "Conoce formatos STEP/STL y pipelines CAD.",
+  "riesgo_principal": "Plataforma única (Figma): cambios de API, de política de plugins o funciones nativas pueden matarlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "CAD a Figma",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-16",
+  "nombre": "Variant Matrix Bulk Editor",
+  "cliente_que_paga": "Tiendas con miles de variantes (herrajes, tornillería, piezas)",
+  "problema": "Editar variantes masivas por CSV es lento y propenso a errores.",
+  "solucion": "Editor de matriz de variantes con reglas, vista previa de diff y reversión.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Búsqueda 'bulk editor variants' en Shopify App Store",
+  "competidores": [
+   "Matrixify",
+   "Shopify Bulk Editor (nativo)"
+  ],
+  "por_que_ahora": "Catálogos industriales grandes migran a Shopify.",
+  "ventaja_juan": "Manejo de catálogos técnicos.",
+  "riesgo_principal": "Matrixify y editor nativo son fuertes (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "edición masiva variantes",
+  "tema_norm": "operaciones de tienda online",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-05",
+  "nombre": "TikTok Shop Return Guard",
+  "cliente_que_paga": "TikTok Shop sellers",
+  "problema": "Refund and chargeback disputes are tracked by hand.",
+  "solucion": "Dashboard to detect abusive refund patterns and prepare dispute evidence.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "TikTok Shop seller Discord/Facebook groups and the TikTok Shop partner marketplace",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "TikTok Shop is growing fast in the US.",
+  "ventaja_juan": "API integrations.",
+  "riesgo_principal": "TikTok API limits and policy risk.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "disputas TikTok",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-14",
+  "nombre": "Ad Library Saver",
+  "cliente_que_paga": "Performance marketers and agencies",
+  "problema": "Saving competitor ads from Meta Ad Library is manual.",
+  "solucion": "Extension saves, tags and exports ads from ad libraries into swipe-file boards.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Chrome Web Store search 'ad library', r/PPC",
+  "competidores": [
+   "Foreplay"
+  ],
+  "por_que_ahora": "Heavy ad spend.",
+  "ventaja_juan": "Backend scraping/storage.",
+  "riesgo_principal": "Platform ToS changes. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "ad swipe file",
+  "tema_norm": "marketing digital y SEO",
+  "duplicado_de": null
+ },
+ {
+  "id": "G07-07",
+  "nombre": "CAD Preview for Code",
+  "cliente_que_paga": "Desarrolladores de software de manufactura",
+  "problema": "No se puede previsualizar STEP/DXF/STL dentro del editor o del repositorio.",
+  "solucion": "Extensión VS Code que renderiza STEP, DXF, STL y 3MF en un panel con medición básica.",
+  "precio_usd_mes": 8,
+  "canal_primeros_100": "Búsqueda 'step viewer' en VS Code Marketplace, foros de CadQuery y build123d.",
+  "competidores": [
+   "Visores STL gratuitos en VS Code (sin verificar)",
+   "FreeCAD"
+  ],
+  "por_que_ahora": "Auge de CAD como código (CadQuery, build123d, OpenSCAD).",
+  "ventaja_juan": "Conocimiento de SolidWorks y AutoCAD y de formatos CAD.",
+  "riesgo_principal": "Nicho pequeño; visores gratuitos (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "visor CAD en editor",
+  "tema_norm": "visor y conversión CAD",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-10",
+  "nombre": "Datadog Bill Cutter",
+  "cliente_que_paga": "Líderes de plataforma con facturas de observabilidad crecientes",
+  "problema": "La factura de logs y métricas crece sin explicación y nadie sabe qué cortar.",
+  "solucion": "Herramienta autoservicio que analiza exportes de uso, detecta logs/métricas de alto costo y genera reglas de exclusión.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'reduce datadog costs', Hacker News, r/devops",
+  "competidores": [
+   "Cribl (sin verificar)",
+   "Grafana Adaptive Metrics (sin verificar)",
+   "Vantage (sin verificar)"
+  ],
+  "por_que_ahora": "Los recortes de costo en infraestructura son prioridad recurrente en 2026.",
+  "ventaja_juan": "Backend/GraphQL.",
+  "riesgo_principal": "Requiere acceso a datos sensibles y confianza del comprador.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "costo observabilidad",
+  "tema_norm": "FinOps y cloud marketplace",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-08",
+  "nombre": "MCP Server Test Harness",
+  "cliente_que_paga": "Autores de servidores MCP y equipos de plataforma",
+  "problema": "No hay forma fácil de probar un servidor MCP con un agente simulado antes de publicar.",
+  "solucion": "Arnés que simula clientes LLM, ejecuta escenarios y mide tasa de éxito de herramientas.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "npm y PyPI, directorios MCP y tutoriales en dev.to.",
+  "competidores": [
+   "MCP Inspector"
+  ],
+  "por_que_ahora": "Cada semana aparecen cientos de servidores MCP.",
+  "ventaja_juan": "Pruebas funcionales y simulación de dispositivos.",
+  "riesgo_principal": "MCP Inspector oficial es gratis y puede crecer.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "pruebas servidores MCP",
+  "tema_norm": "servidores MCP",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-07",
+  "nombre": "Woo Order Sync to ERP",
+  "cliente_que_paga": "Tiendas WooCommerce medianas con ERP o inventario externo",
+  "problema": "Pedidos se reingresan manualmente en otros sistemas.",
+  "solucion": "Conector configurable que sincroniza pedidos e inventario vía webhooks.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "Búsqueda 'woocommerce erp integration' y Upwork/foros de desarrolladores Woo.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Tiendas crecen y necesitan automatización.",
+  "ventaja_juan": "Integraciones backend y experiencia industrial.",
+  "riesgo_principal": "Cada ERP requiere conector propio.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "sincronización ERP Woo",
+  "tema_norm": "sincronización ERP e inventario",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-05",
+  "nombre": "Private Meeting Notes",
+  "cliente_que_paga": "Consultants, lawyers-adjacent professionals, therapists-adjacent coaches",
+  "problema": "Cloud AI note-takers send confidential calls to third parties.",
+  "solucion": "Mac/Windows app transcribing locally with an on-device model and exporting notes, one-time fee.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Product Hunt, r/privacy, Hacker News, Mac app review blogs",
+  "competidores": [
+   "MacWhisper",
+   "Granola"
+  ],
+  "por_que_ahora": "Local speech models are now good enough on laptops.",
+  "ventaja_juan": "Cheap development.",
+  "riesgo_principal": "Crowded niche and OS vendors adding native transcription.",
+  "evidencia_url": "https://www.indiehackers.com/post/why-im-charging-49-once-instead-of-a-subscription-for-my-desktop-app-aabcd91ddb",
+  "angulo": "29",
+  "tema": "local meeting transcription",
+  "tema_norm": "apps locales offline",
+  "duplicado_de": null
+ },
+ {
+  "id": "G03-20",
+  "nombre": "Teams Safety Incident Reporter",
+  "cliente_que_paga": "Gerente EHS en planta o almacén",
+  "problema": "Reportes de incidentes de seguridad en papel o email tardan días.",
+  "solucion": "App de Teams con formulario móvil, fotos, clasificación y alertas a supervisores con reporte mensual.",
+  "precio_usd_mes": 69.0,
+  "canal_primeros_100": "Microsoft AppSource 'safety incident'; SEO 'EHS incident reporting Teams'",
+  "competidores": [
+   "SafetyCulture (sin verificar)",
+   "Microsoft Forms (gratis, F1 parcial)"
+  ],
+  "por_que_ahora": "Regulación OSHA y adopción de Teams en planta.",
+  "ventaja_juan": "Conocimiento de entornos industriales y seguridad de máquinas.",
+  "riesgo_principal": "Forms + Power Automate pueden bastar.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "reporte incidentes EHS",
+  "tema_norm": "mantenimiento y seguridad industrial",
+  "duplicado_de": null
+ },
+ {
+  "id": "G28-12",
+  "nombre": "Torque Spec Library",
+  "cliente_que_paga": "Maintenance planners",
+  "problema": "Bolt torque specs live in manuals.",
+  "solucion": "Searchable spec library with CSV import for CMMS.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO",
+  "competidores": [
+   "Manufacturer manuals"
+  ],
+  "por_que_ahora": "Predictive maintenance push.",
+  "ventaja_juan": "Manuals experience.",
+  "riesgo_principal": "Low price (F5 risk).",
+  "evidencia_url": "sin verificar",
+  "angulo": "28",
+  "tema": "torque spec lookup",
+  "tema_norm": "calculadoras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-11",
+  "nombre": "Shopify Admin Bulk Fixer",
+  "cliente_que_paga": "Shopify operators with large catalogs",
+  "problema": "Bulk editing in the admin is clumsy for staff.",
+  "solucion": "Extension adds bulk-edit, find-replace and audit tools for products/metafields in Shopify admin.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Chrome Web Store search 'Shopify admin', Shopify community forum",
+  "competidores": [
+   "Matrixify"
+  ],
+  "por_que_ahora": "Merchants want fewer paid apps.",
+  "ventaja_juan": "Backend/GraphQL API experience.",
+  "riesgo_principal": "Shopify native features and policy. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "Shopify bulk admin",
+  "tema_norm": "operaciones de tienda online",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-19",
+  "nombre": "Print Cost Badge",
+  "cliente_que_paga": "3D printing hobbyists and print-farm owners",
+  "problema": "True print cost/time of a model is unknown before downloading.",
+  "solucion": "Extension estimates filament, time and electricity cost per model on Printables/Thingiverse using the user's printer profile.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Chrome Web Store search '3d print cost', r/3Dprinting, r/functionalprint",
+  "competidores": [
+   "PrusaSlicer",
+   "Cura"
+  ],
+  "por_que_ahora": "Print farms and Etsy sellers are growing.",
+  "ventaja_juan": "3D printer firmware experience.",
+  "riesgo_principal": "Free slicers may add this; low price (F5 risk). Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "3D print cost badge",
+  "tema_norm": "costeo de impresión 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-17",
+  "nombre": "Job postings data for PLC roles",
+  "cliente_que_paga": "Reclutadoras industriales y analistas de talento en automatización",
+  "problema": "No hay datos de salarios y demanda por skill de PLC/automatización.",
+  "solucion": "Dataset semanal de ofertas con salario, tecnología y región.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "SEO 'automation engineer salary by region' y LinkedIn",
+  "competidores": [
+   "Indeed (agregado",
+   "no especializado)",
+   "sin verificar otros"
+  ],
+  "por_que_ahora": "Escasez de técnicos industriales.",
+  "ventaja_juan": "Conoce el vocabulario de TIA y Studio 5000.",
+  "riesgo_principal": "Poca disposición de pago.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "datos empleo automatización",
+  "tema_norm": "servicios profesionales independientes",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-03",
+  "nombre": "Competitor pricing watch for SaaS",
+  "cliente_que_paga": "Fundadores y product managers de SaaS",
+  "problema": "Cambios de precios de rivales se detectan tarde y manualmente.",
+  "solucion": "Monitoreo de páginas de precios con diff estructurado y resumen semanal por email/Slack.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Product Hunt, Indie Hackers, SEO 'track competitor pricing', directorios de alternativas",
+  "competidores": [
+   "PricePulse",
+   "Price Sentinel",
+   "Visualping (sin verificar precios)"
+  ],
+  "por_que_ahora": "Cambios de precios por IA y por uso son frecuentes.",
+  "ventaja_juan": "Backend senior y scraping.",
+  "riesgo_principal": "Mercado ya poblado de herramientas pequeñas.",
+  "evidencia_url": "https://trustmrr.com/startup/price-sentinel",
+  "angulo": "27",
+  "tema": "monitoreo precios SaaS",
+  "tema_norm": "precios y monetización SaaS/API",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-05",
+  "nombre": "Email Design Exporter",
+  "cliente_que_paga": "Diseñadores de email marketing y agencias",
+  "problema": "Los diseños de emails en Figma se reconstruyen a mano en HTML compatible con Outlook.",
+  "solucion": "Plugin que genera HTML de email con tablas y MSO fallbacks desde auto-layout, con envío de prueba.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Figma Community ('email html') y SEO 'figma to email html'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Email sigue siendo canal de ingresos y Outlook sigue siendo problemático.",
+  "ventaja_juan": "Dev backend/HTML.",
+  "riesgo_principal": "Herramientas de email builders integran importación de Figma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "Figma a HTML email",
+  "tema_norm": "Figma a código y QA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G06-10",
+  "nombre": "Digital Download Licenses Pro",
+  "cliente_que_paga": "Vendedores de software, CAD files y plugins en WooCommerce",
+  "problema": "Gestionar claves de licencia y activaciones es manual.",
+  "solucion": "Plugin de licencias con activaciones por sitio, expiración y renovaciones.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "WordPress.org y SEO 'woocommerce license manager'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Más creadores venden activos digitales.",
+  "ventaja_juan": "Backend PHP y modelo de licencias.",
+  "riesgo_principal": "Competidores conocidos como Easy Digital Downloads (sin verificar funciones).",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "licencias software Woo",
+  "tema_norm": "venta y licencias de archivos digitales",
+  "duplicado_de": null
+ }
+]

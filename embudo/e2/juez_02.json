@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G06-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Cotizador DXF restringido a WooCommerce: nicho pequeño, canal WordPress.org sin demanda verificada y outreach necesario; menos diferenciado que G18-01."
+ },
+ {
+  "id": "G01-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "Canal Shopify App Store nombrado y mercado amplio, pero analítica de devoluciones es añadible por apps grandes y sin evidencia ni ventaja de Juan."
+ },
+ {
+  "id": "G05-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 26,
+  "razon": "Chromatic/Percy cubren regresión visual e integran Figma; comprador QA sin presupuesto propio y comparación pixel vs Figma ruidosa."
+ },
+ {
+  "id": "G04-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "ECR/ECN en Atlassian Marketplace con canal nombrado y ticket 200, pero competencia de apps de cambios sin verificar y riesgo de segmento regulado."
+ },
+ {
+  "id": "G14-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Dolor emergente de SOC 2 para agentes, pero canal en marketplaces Vanta/Drata no verificado y ciclos de compra tipo ventas."
+ },
+ {
+  "id": "G10-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "AWS Marketplace es canal nombrado y Juan conoce PLC, pero SiteWise/Kepware cubren el caso y el soporte de protocolos es pesado."
+ },
+ {
+  "id": "G25-03",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Zluri/Torii/BetterCloud venden con ventas enterprise y los permisos OAuth sobre toda la organización exigen verificación restringida y ciclos largos: falla F3."
+ },
+ {
+  "id": "G23-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Mercado de profit-analytics saturado (Sellerboard) sin ángulo; canal Chrome/Facebook débil y dependencia de APIs de marketplaces."
+ },
+ {
+  "id": "G05-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 28,
+  "razon": "Tokens Studio domina, el pago en Figma Community es raro y la diferenciación (PR automático) es replicable con una Action."
+ },
+ {
+  "id": "G08-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Ventaja de Juan alta y canal SEO/API plausible, pero modelos de visión generalistas cubren buena parte y la precisión en tolerancias es dudosa."
+ },
+ {
+  "id": "G21-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Mercado grande y Minitab caro como referencia de pago, pero existen graficadores SPC gratis y Excel basta para muchos; diferenciación débil."
+ },
+ {
+  "id": "G20-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Ventaja máxima de Juan en firmware, pero granjas son pocas, esperan scripts gratis y hay riesgo de brickear equipos."
+ },
+ {
+  "id": "G16-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Verificadores GPC gratis y escáneres de CMPs cubren la prueba puntual; recurrencia y disposición de pago débiles."
+ },
+ {
+  "id": "G13-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Renovate y Dependabot gratis ya agrupan y automatizan PRs de dependencias: falla F1."
+ },
+ {
+  "id": "G07-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Los agentes de código traen permisos, sandbox y hooks nativos, y la idea misma admite F1: falla F1."
+ },
+ {
+  "id": "G17-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Mercado grande con pago demostrado (Churnkey, Baremetrics) y canal Stripe Marketplace, pero Smart Retries gratis cubre parte y no hay ángulo diferenciador."
+ },
+ {
+  "id": "G05-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Abundan mockups 3D de dispositivos gratis y plantillas, y el uso es puntual: falla F1."
+ },
+ {
+  "id": "G17-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Plantillas de dunning gratis, Stripe nativo y cualquier LLM gratis cubren el generador de textos: falla F1."
+ },
+ {
+  "id": "G05-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Lokalise y Phrase incluyen plugins de Figma gratis con su suscripción: falla F1."
+ },
+ {
+  "id": "G30-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Ventaja CAM alta, pero a 15/mes hobbyists que esperan gratis y post-procesadores gratuitos; unos 700 pagadores para 10k, sin recurrencia."
+ },
+ {
+  "id": "G22-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Beehiiv, Substack y Ghost ya ofrecen archivo web con SEO nativo y la propia idea reconoce poca ventaja: falla F1."
+ },
+ {
+  "id": "G08-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "Parser de L5X/TIA con ventaja de Juan única y diferenciación clara, pero mercado muy pequeño y canal SEO/PLCTalk sin demanda verificada."
+ },
+ {
+  "id": "G26-06",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A 12/mes la meta exige unos 830 pagadores, con hojas de cálculo y portales de colegios gratis: falla F5."
+ },
+ {
+  "id": "G13-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Trivy es gratis y Docker Scout/Snyk ya comparan imágenes y comentan en PRs: falla F1."
+ },
+ {
+  "id": "G18-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "Dolor real de cotizar DXF a mano y ventaja máxima de Juan, pero sin marketplace con intención el canal exige outreach a talleres; equivale al ancla MEDIA."
+ },
+ {
+  "id": "G11-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Complemento de Sheets con canal Google Workspace sin intención de talleres láser, mercado reducido y CAM ya muestra longitud de corte gratis."
+ },
+ {
+  "id": "G13-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 28,
+  "razon": "Comunidad maker espera gratis, OctoPrint/slicers validan parcialmente y las granjas comerciales son pocas."
+ }
+]

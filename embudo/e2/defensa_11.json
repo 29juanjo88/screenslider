@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G29-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-14",
+  "rescatar": true,
+  "respuesta": "Concedo saturación y que Atlassian Goals existe (alcance sin verificar). Aun así el Marketplace de Atlassian es un canal nombrado con intención de compra y se paga por app en autoservicio. El ángulo viable es el cálculo automático de avance desde épicas y reportes para ejecutivos, que las apps genéricas hacen mal (sin verificar).",
+  "ajuste_sugerido": "Estrechar a 'OKR rollup automático desde épicas Jira' con precio por tamaño de instancia; validar primero contra reseñas de apps existentes."
+ },
+ {
+  "id": "G03-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-05",
+  "rescatar": true,
+  "respuesta": "Concedo que zizmor es gratis y cubre detección (F1 parcial). El valor de pago está en lo que zizmor no hace: abrir PRs de corrección automática, mantener pins de SHA actualizados y reportes de cumplimiento para equipos con decenas de repos. Comprador: equipos de seguridad/DevOps que pagan por ahorrar tiempo y evidencia de cumplimiento. Canal: GitHub Marketplace y SEO 'pin github actions to sha' con intención clara. Riesgo de permisos de escritura mitigado con app de permisos mínimos y código auditable.",
+  "ajuste_sugerido": "Enfocar en remediación automática por PR y reporte de cumplimiento multi-repo (SOC2 evidencia), no en escaneo; precio por organización $29-99."
+ },
+ {
+  "id": "G22-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-14",
+  "rescatar": true,
+  "respuesta": "Concedo audiencia pequeña y fórmula pública. Pero la dificultad no está en la fórmula de K-factor sino en tablas de materiales validadas, desarrollo plano y casos límite, donde Juan tiene experiencia de CAD de chapa. Compradores: desarrolladores de software de fabricación y cotizadores de piezas, cercanos al ancla de calibración CAD (ALTA). Concedo que el volumen de búsqueda es dudoso (sin verificar).",
+  "ajuste_sugerido": "Ampliar a API de desarrollo plano y DXF de chapa con tablas de material, y subir a $79-149 para B2B de software de fabricación."
+ },
+ {
+  "id": "G07-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-01",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-02",
+  "rescatar": true,
+  "respuesta": "Concedo que Autodesk Viewer y eDrawings son gratis, pero no viven dentro del hilo de Teams ni muestran STEP con comentarios anclados en el flujo de conversación. La compra es por equipo con autoservicio desde el store de Teams, donde un líder de ingeniería puede instalar sin ventas si la app es de permisos simples. Ventaja real de Juan en CAD/STEP/DXF, y el ancla de calibración CAD ya valida la parte técnica. Concedo baja intención de búsqueda en el store (riesgo de canal).",
+  "ajuste_sugerido": "Reforzar con SEO 'view STEP file in Teams' y versión de Slack para duplicar canal; precio por equipo, no por usuario."
+ },
+ {
+  "id": "G12-20",
+  "rescatar": true,
+  "respuesta": "Concedo que se puede cachear a mano. Pero el cliente (devs y agencias que usan Notion como CMS) paga por no mantener cola de rate-limit, webhooks y tipos generados, y $29 es poco frente a una hora de dev. Canal nombrado: SEO 'Notion as CMS API' y tutoriales Next.js, donde Juan tiene experiencia. Concedo riesgo de que Notion mejore su API.",
+  "ajuste_sugerido": "Vender tipado TypeScript generado + webhooks de rebuild como diferenciador; sube a $39-49 para agencias con varios sitios."
+ },
+ {
+  "id": "G15-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-17",
+  "rescatar": true,
+  "respuesta": "Concedo aplazamientos y riesgo regulatorio. Aun así, hay fecha de aplicación (fin de 2026, sin verificar), el comprador (importador o consultor de cumplimiento) pagaría $89 por validar GeoJSON y automatizar el envío por API, y las consultoras son un canal que usa la herramienta. Juan tiene ventaja en geodatos y APIs. Es una ventana con plazo, no un negocio permanente.",
+  "ajuste_sugerido": "Construir un MVP mínimo (validación de GeoJSON) y no comprometer capital hasta confirmar la fecha vigente; vender a consultoras como reventa."
+ },
+ {
+  "id": "G13-03",
+  "rescatar": true,
+  "respuesta": "Concedo competidores (BuildPulse, Trunk; sin verificar). Pero el dolor es semanal y medible en horas de ingeniero, el comprador (eng lead) tiene presupuesto y el producto es autoservicio vía GitHub App. Los incumbentes suelen apuntar a equipos grandes; hay hueco en equipos de 10-50 devs con precio plano de $49. Canal: GitHub Marketplace 'flaky tests' y SEO 'quarantine flaky tests github actions' tienen intención de compra.",
+  "ajuste_sugerido": "Precio plano para equipos pequeños/medianos, onboarding en 5 minutos leyendo JUnit XML; diferenciar con cuarentena automática más issue/PR, no solo dashboard."
+ },
+ {
+  "id": "G26-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-02",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-01",
+  "rescatar": true,
+  "respuesta": "El filtro F1 no aplica: los servicios de reembolso FBA cobran comisión (típicamente un porcentaje de lo recuperado, sin verificar), y los módulos de Helium 10/Jungle Scout son secundarios. Un auditor de pago fijo de $49 para vendedores con $20k+/mes es más barato que una comisión sobre miles de dólares recuperados. Comprador claro (vendedor FBA), dolor monetario recurrente, canal nombrado r/FulfillmentByAmazon y SEO 'FBA lost inventory claim'. Concedo dependencia de SP-API; se mitiga con carga manual de reportes CSV en el MVP.",
+  "ajuste_sugerido": "Posicionar como 'tarifa fija sin comisión' y arrancar con subida de CSV de reportes de Seller Central (sin depender de SP-API); luego SP-API."
+ },
+ {
+  "id": "G15-15",
+  "rescatar": true,
+  "respuesta": "Concedo incumbentes con IA. Pero el gremio de inspectores tiene dolor semanal de horas de redacción, paga por software ya hoy (presupuesto existente) y tiene comunidades concretas (InterNACHI, foros) y SEO con intención. El ángulo viable es exportar a los formatos de Spectora/ISN en vez de competir con ellos. Concedo que Juan no tiene ventaja de dominio.",
+  "ajuste_sugerido": "Posicionar como complemento que exporta al software de inspección existente; precio $29-59 por inspector."
+ },
+ {
+  "id": "G10-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-07",
+  "rescatar": true,
+  "respuesta": "Concedo que GitHub podría absorber la función y que el mercado es acotado. Pero finanzas e ingeniería de empresas medianas buscan control de gasto de IA ahora, la propuesta se paga sola (cada asiento inactivo cuesta unos $19-39 al mes, sin verificar) y se vende por autoservicio con una GitHub App de solo lectura. Un ahorro medible es un argumento de compra directo.",
+  "ajuste_sugerido": "Extender a múltiples herramientas de IA (Copilot, Cursor, ChatGPT Team) para ampliar mercado y reducir el riesgo de absorción por GitHub."
+ }
+]

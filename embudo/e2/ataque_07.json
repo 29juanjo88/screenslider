@@ -1,0 +1,215 @@
+[
+ {
+  "id": "G25-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Ramp, Brex y Expensify ya reclaman recibos por SMS/correo y concilian de forma nativa con la tarjeta; el cliente que sufre el dolor ya usa esas fintech y la función viene incluida.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G11-03",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen calculadoras de costo de impresión 3D gratuitas y los slicers (Cura, PrusaSlicer) ya estiman filamento y tiempo; el comprador típico (hobbyista/granja pequeña) espera gratis y $19 exige muchos pagadores en un nicho chico.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Mockoon, Prism y los mock servers de Postman cubren OpenAPI gratis o muy barato; el hosting es lo único diferencial y es fácilmente copiable, con $19 y alto churn al terminar el prototipo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "YouTube ya ofrece capítulos automáticos nativos y hay generadores de capítulos con IA gratis o incluidos en TubeBuddy/VidIQ (sin verificar alcance exacto); además publicar vía API depende de cuotas de YouTube y $15 es bajo para creadores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Atlassian ya integra discovery/IA en su ecosistema y herramientas como Productboard o Canny agrupan feedback; competidores sin verificar. Además el PM necesita integrar varias fuentes, no solo tickets, y la app queda ligada a Atlassian Marketplace.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G13-06",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Mercado diminuto: pocos mantenedores de Klipper/Marlin, comunidad open source que espera CI gratis; simular movimiento y térmica de forma fiable es un proyecto de investigación, no un MVP en 6 semanas, y los fabricantes pagadores son pocos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-12",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "El comprador (mantenimiento industrial) no busca por SEO ni compra autoservicio; un repuesto requiere validar material, carga y certificación, así que el análisis automático no genera confianza y el canal real sería ventas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Mercado saturado: Dubsado, HoneyBook, y portales gratuitos de Notion, Google Drive o Stripe cubren el caso; sin ángulo diferenciador ni ventaja de Juan, la adquisición vía Product Hunt no es recurrente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G12-12",
+  "filtros_fallados": [],
+  "objecion": "Los pagadores son talleres chicos que rara vez usan Make/Zapier; el valor real (cut length y pierces) lo resuelven CAM/nesting ya poseídos (p. ej. software de nesting), y el volumen de talleres que automaticen cotización es incierto. Competidores sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G17-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Stripe Radar y la detección nativa de Shopify cubren fraude y contracargos; Chargeflow y Signifyd tienen escala y datos de red que un entrante no tiene, y bloquear compradores propios por reembolsos arriesga falsos positivos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "GPSR se puede resolver con metacampos nativos de Shopify y existen apps ya publicadas (sin verificar cuántas); a $19 el pico regulatorio es de una sola vez, con churn tras la configuración inicial.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-02",
+  "filtros_fallados": [],
+  "objecion": "Exportar y subir código PLC a un servicio en la nube choca con políticas de confidencialidad industrial; los formatos propietarios cambian y una revisión de IA con falsos negativos en lógica de seguridad crea riesgo de responsabilidad. Competidores sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G30-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Bluebeam es incumbente fuerte, pero hay medición PDF gratis o barata (visores con herramientas de medida, sin verificar nombres); la medición precisa en navegador exige escalas calibradas y un MVP serio de takeoff es más grande que 6 semanas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-06",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Librerías gratuitas (wkhtmltopdf, Puppeteer, bibliotecas ZUGFeRD) y servicios PDF muy baratos; el diferenciador legal por país exige mantenimiento normativo continuo, y $29 por API con RapidAPI da márgenes y volumen incierto.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-08",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $9 se necesitan más de 1,100 pagadores para $10k, y las calculadoras 4-20mA/escalado abundan gratis en web y en apps; el técnico las resuelve con Excel o su propio PLC.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Amazon ofrece calculadora gratis y hay muchas herramientas de FBA con ese cálculo incluido; la vista previa 3D es un extra que el vendedor no pagará por separado a $19.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-12",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "Requiere integraciones con múltiples CMMS y ciclos de venta largos en plantas medianas, contrario al autoservicio; el canal SEO/foros no produce confianza para datos de inventario crítico a $199.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Fiix y UpKeep tienen planes baratos o gratuitos y las hojas con recordatorios nativos de Google ya cubren el caso; el jefe de mantenimiento pequeño no busca complementos en Workspace Marketplace.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-17",
+  "filtros_fallados": [],
+  "objecion": "Los modelos de visión generales ya extraen datos de planos y los incumbentes de IDP lo ofrecen (sin verificar); la tolerancia a error es baja en BOM y el valor de Juan en estándares de dibujo es difícil de convertir en precisión superior.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G27-13",
+  "filtros_fallados": [],
+  "objecion": "Depende de una sola plataforma (Chrome Web Store) y de scraping contra sus términos; el público de desarrolladores de extensiones es pequeño, y existen herramientas de ASO de pago (sin verificar si cubren Chrome). Nicho pero con canal nombrado.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G07-12",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "GitHub secret scanning con push protection, gitleaks y pre-commit hooks son gratis y nativos; a $6 exige más de 1,600 pagadores para $10k, y las extensiones de IDE no tienen distribución recurrente.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G24-08",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Ravelry ya ofrece herramientas gratis y la comunidad espera gratis; a $7 se necesitan más de 1,400 pagadores y Juan no tiene ventaja alguna en el nicho.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G26-09",
+  "filtros_fallados": [],
+  "objecion": "Mercado de freelancers PLC muy reducido, las plantillas FAT/SAT se arman en Word/Excel y los formatos de TIA/Studio 5000 cambian; con $49 hacen falta unos 200-400 pagadores sin evidencia de ese volumen. Competidores sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G07-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los plugins GraphQL de JetBrains y herramientas gratis de análisis de complejidad (ej. limitadores en el servidor) cubren buena parte; el comprador de un equipo GraphQL en producción prefiere medir en runtime, y el mercado de extensiones de pago es estrecho.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-03",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "OctoPrint, Obico y OctoEverywhere ya envían notificaciones de fallos gratis o de bajo costo y soportan Discord/Slack; la granja pequeña es un mercado minúsculo y a $19 no llega a $10k MRR.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-01",
+  "filtros_fallados": [],
+  "objecion": "Siemens y Rockwell pueden lanzar diffs nativos y versionDog/MDT AutoSave ya existen; los equipos PLC adoptan git lentamente y la herramienta dependería de formatos de exportación propietarios. Hay evidencia de la necesidad, es la idea más sólida del lote.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G24-20",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen apps gratis de inventario de pinturas y hojas de cálculo; a $4 se necesitan más de 2,500 pagadores en un nicho chico sin ventaja de Juan.",
+  "severidad": "fatal"
+ }
+]

@@ -1,0 +1,212 @@
+[
+ {
+  "id": "G03-04",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Slack AI nativo ofrece resúmenes de canales e hilos (alcance exacto sin verificar) y el comprador ya paga Slack; cobrar $49/mes por un resumen que la plataforma puede incluir es difícil y todo depende de una sola plataforma.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-20",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Onshape tiene API y export nativo a CSV de BOM (alcance sin verificar); extensión de Chrome frágil y mercado diminuto de usuarios Onshape con compra de piezas; $15/mes exige muchos pagadores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G22-15",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Calcular obligaciones de IVA por país roza asesoría fiscal con responsabilidad por errores; Paddle, Lemon Squeezy y Quaderno ya resuelven VAT, y los creadores que usan Patreon/Stripe suelen tener la plataforma haciendo parte de eso (sin verificar).",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G29-11",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "DeepNest es gratis y cubre nesting DXF; SigmaNEST y Lantek dominan el segmento pagado. Licencia única de escritorio no es MRR (el precio $199/mes no coincide con el modelo declarado) y el canal de grupos de Facebook es vago.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G01-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Shopify Digital Downloads es gratis y Gumroad, Payhip y similares ya venden archivos; licencias y vista previa 3D son extras que pocos vendedores de STL pagarán $25/mes, y suelen preferir marketplaces o Patreon.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-14",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Notas clínicas con audio de pacientes implican HIPAA aunque no se almacene PHI; Upheal y Mentalyc ya están en el mercado (cifras sin verificar) y los terapeutas desconfían de un proveedor nuevo.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G08-11",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $29/mes hacen falta ~350 pagadores para $10k; tablas de roscas, calibres e ISO son datos públicos que un LLM o librería abierta entrega gratis y RapidAPI rara vez genera pago recurrente; competidores sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-19",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Hay tablas y calculadoras de torque gratuitas por todos lados; nadie paga $9/mes por consultar un valor y harían falta >1,100 pagadores para $10k. Sin muro de pago defendible.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G04-12",
+  "filtros_fallados": [],
+  "objecion": "CMMS dedicados (Fiix, UpKeep, MaintainX, sin verificar precios) ya cubren QR, preventivo y downtime; un jefe de planta rara vez compra en Atlassian Marketplace y una plantilla JSM no genera confianza para $160/mes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-18",
+  "filtros_fallados": [],
+  "objecion": "Existen apps de order tracking en Shopify (sin verificar) y las notificaciones por tag cubren lo básico; el nicho de talleres de impresión 3D bajo demanda con Shopify es pequeño para $39/mes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-01",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Los diseñadores de hardware ya renderizan en KeyShot o Fusion y pegan imágenes; plugin Figma de nicho con pocos compradores a $15/mes, importación STEP en el navegador es pesada y todo depende de la API de plugins de Figma.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-16",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Matrixify es un incumbente fuerte y el Bulk Editor nativo de Shopify cubre lo básico y mejora; 'matriz de variantes' es un ángulo débil frente a ellos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-05",
+  "filtros_fallados": [
+   "F2"
+  ],
+  "objecion": "Los vendedores de TikTok Shop son pequeños y de alta rotación con poca disposición de pago; la API de TikTok Shop es restrictiva, las disputas se gestionan en su portal y Discord/Facebook es un canal vago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Meta Ad Library es gratis, Foreplay ya vende el flujo de swipe file y hay extensiones similares (sin verificar); los términos de Meta limitan el scraping y todo vive dentro de Chrome Web Store.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-07",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen visores STL/CAD gratuitos para VS Code y herramientas abiertas para CadQuery (sin verificar); $8/mes en un nicho diminuto de CAD-como-código no alcanza $10k MRR.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G13-10",
+  "filtros_fallados": [],
+  "objecion": "Cribl, Vantage y herramientas propias de Datadog para gestionar costos (todo sin verificar) compiten; el comprador debe entregar exportes de uso sensibles a un proveedor desconocido, lo que frena la compra autoservicio a $99/mes. El dolor es real, la confianza es el freno.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G14-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "MCP Inspector oficial es gratis y muchos autores de MCP son hobbistas que no pagan; plataformas de evals de agentes podrían incluir esto (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-07",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Cada ERP requiere conector propio (trabajo creciente por cliente) y los plugins de integración Woo-ERP existentes (sin verificar) ya ocupan la búsqueda; Upwork no es canal de producto autoservicio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-05",
+  "filtros_fallados": [],
+  "objecion": "MacWhisper y Granola ya existen, Apple y Microsoft añaden transcripción nativa; la evidencia de IndieHackers muestra precios únicos de ~$49, no $79/mes, así que el MRR recurrente no cuadra.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-20",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Microsoft Forms con Power Automate es gratis dentro de Teams y cubre el flujo básico; SafetyCulture (sin verificar) es un incumbente dedicado a EHS; el gerente EHS rara vez compra por AppSource.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G28-12",
+  "filtros_fallados": [
+   "F1",
+   "F4",
+   "F5"
+  ],
+  "objecion": "Los manuales del fabricante ya contienen los torques gratis; el canal es solo 'SEO' sin keywords concretas, y $19/mes exige >500 pagadores sin que exista un comprador que pague por una librería de datos.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G02-11",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Matrixify existe y el admin de Shopify mejora sus ediciones masivas; una extensión Chrome que opera sobre la UI del admin es frágil ante cambios y Shopify puede prohibir o romper el enfoque.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-19",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Las rebanadoras gratuitas (PrusaSlicer, Cura) ya estiman filamento y tiempo, y Printables puede mostrarlo; $6/mes exige >1,600 pagadores para $10k y los aficionados esperan gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G27-17",
+  "filtros_fallados": [
+   "F2"
+  ],
+  "objecion": "Las reclutadoras no pagan $99/mes por un dataset de nicho; Indeed y LinkedIn ofrecen datos de salarios gratis o integrados, y el propio texto admite poca disposición de pago. Canal LinkedIn es outbound.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G27-03",
+  "filtros_fallados": [],
+  "objecion": "Visualping, PricePulse y Price Sentinel ya cubren el caso y la evidencia cita competidores pequeños; muchos tienen plan gratis, y el comprador (PM de SaaS) a menudo hace esto manualmente o con alertas gratuitas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G05-05",
+  "filtros_fallados": [],
+  "objecion": "Builders de email como Mailchimp o Stripo (sin verificar) ya importan de Figma y plugins de Figma a HTML de email existen (sin verificar); el comprador es una agencia con pocas necesidades recurrentes. El dolor de Outlook/MSO es real.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G06-10",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Easy Digital Downloads y otros plugins de licencias para Woo existen (funciones sin verificar), y WordPress.org favorece plugins freemium; competidores establecidos dominan la búsqueda 'woocommerce license manager'.",
+  "severidad": "fuerte"
+ }
+]

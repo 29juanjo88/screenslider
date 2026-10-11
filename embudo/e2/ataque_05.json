@@ -1,0 +1,191 @@
+[
+ {
+  "id": "G01-08",
+  "filtros_fallados": [],
+  "objecion": "Auditar peso dimensional suena a ahorro, pero los carriers (UPS/FedEx) ya ofrecen reclamos de ajustes y existen servicios de recuperación de fletes que cobran por éxito (sin verificar nombres). Los datos de cargos reales no están en Shopify: requieren facturas del carrier, así que el onboarding es fricción alta y una app de Shopify que solo ve catálogo no puede auditar cargos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Hospitable y Guesty (y Airbnb mismo) ya incluyen respuestas automáticas y plantillas, y añadir un LLM es trivial para ellos; el propio texto de la idea admite el riesgo. Además depende de acceso a datos de Airbnb vía PMS/API restringida (sin verificar). Sin ventaja ni foso.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Power Query, Get & Transform y fórmulas 3D/consolidar de Excel ya consolidan libros gratis; el comprador (PM de ingeniería) no tiene la urgencia de pagar $19/mes y Microsoft puede ampliar Copilot en Excel. Precio bajo exige muchos pagadores y AppSource tiene poca intención de compra.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G10-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "HubSpot tiene integración nativa de Stripe y existen apps de conciliación en su marketplace (sin verificar). El comprador existe y paga $59 es razonable, pero el segmento es estrecho (SaaS con Stripe+HubSpot y desajuste) y la dependencia de HubSpot es total; la integración nativa puede cubrir el caso con una mejora.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-08",
+  "filtros_fallados": [],
+  "objecion": "Mercado con jugadores establecidos (Zonos y otros, precios sin verificar) y la clasificación HS correcta tiene riesgo de responsabilidad si el código sugerido es erróneo; las páginas SEO 'hs code for [product]' compiten con bases de datos públicas de aduanas gratuitas. Tiendas pequeñas pagan poco, y la calidad de datos arancelarios es costosa de mantener.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-13",
+  "filtros_fallados": [],
+  "objecion": "Vanta, Drata y GRC con módulos NIS2 dominan la búsqueda y la confianza; para compliance las empresas medianas UE compran a proveedores locales con certificaciones, y una plantilla/tracker barato compite con hojas gratuitas y consultores. Canal SEO genérico muy competido y la regulación nacional varía por país.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-17",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "WireMock, MockServer, Mockoon y Prism son OSS gratis y buenos; los desarrolladores rara vez pagan por mocks locales. Postman se menciona como subida de precios, pero eso no genera disposición de pago por una alternativa de licencia fija; 'flat license' contradice precio mensual y el volumen necesario es irreal.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G05-20",
+  "filtros_fallados": [],
+  "objecion": "Comprador (diseñador que entrega a manufactura) es difuso y poco dispuesto a pagar por plugin de Figma; Dev Mode y plugins de especificación existentes cubren parte (sin verificar). Los plugins de Figma suelen monetizarse mal y $19/mes exige muchos pagadores en un nicho reducido de hardware.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-14",
+  "filtros_fallados": [],
+  "objecion": "El mercado de agentes de cotización/DFM es hoy minúsculo y los compradores son startups que ya usan librerías abiertas (OpenCascade/CadQuery) para extraer geometría gratis; el servidor MCP es fácilmente replicable. Canal 'directorios MCP' tiene poca intención de compra y la demanda aún es especulativa (sin verificar).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-13",
+  "filtros_fallados": [],
+  "objecion": "Comprador (OT/integradores) conservador: conectar IA a PLCs es un tabú de seguridad y las compras industriales pasan por ciclos largos, no autoservicio. Existen servidores OPC UA/Modbus MCP de código abierto (sin verificar) y los fabricantes de plataformas (Siemens, etc.) pueden ofrecer lo propio. Volumen de pagadores en PLCTalk/r/PLC muy pequeño.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G11-07",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Power Query, Google Sheets IMPORTDATA/QUERY y numerosos add-ons de merge CSV gratuitos ya resuelven el caso; a $12/mes necesita más de 800 pagadores para $10k y la disposición de pago de analistas por un caso utilitario es baja.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G06-05",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Mercado saturado de plugins de precios mayoristas para WooCommerce, incluidos plugins freemium en WordPress.org y de pago establecidos (nombres sin verificar). Ventaja de Juan nula frente a quienes ya tienen reseñas e instalaciones; soporte de compatibilidad con temas/plugins es costoso para un solo desarrollador.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-10",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "HubSpot Free, Notion, Obsidian con plugins y hojas de cálculo cubren gratis lo mismo; consultores solos pagan poco ($12) por un CRM de archivos planos y quienes quieren markdown local lo hacen por sí mismos. Pocos pagadores y churn alto.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G07-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Modbus Poll tiene licencia de pago establecida y hay simuladores y clientes gratuitos (QModMaster, pymodbus, opcua-client); los integradores usan herramientas del fabricante dentro de sus entornos. El público dispuesto a pagar $14/mes en VS Code Marketplace es muy pequeño y la extensión es fácil de reproducir.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G17-20",
+  "filtros_fallados": [],
+  "objecion": "Churnkey, ProsperStack y otros ya ofrecen flujos de cancelación con pausa y descuento y están consolidados; Stripe también tiene herramientas nativas de retención (sin verificar el alcance). Canal 'Stripe App Marketplace' tiene poco tráfico de descubrimiento y la copia es trivial.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-11",
+  "filtros_fallados": [],
+  "objecion": "Mercado de sincronización de inventario multicanal saturado (hay herramientas conocidas, sin verificar), con incumbentes que ya integran Etsy/eBay/Amazon; Etsy y Amazon restringen APIs y la fiabilidad de stock en tiempo real exige soporte constante. Canal 'directorios de apps de Etsy' vago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-10",
+  "filtros_fallados": [],
+  "objecion": "En Atlassian Marketplace hay apps de BOM/PLM para Jira (sin verificar) y el nicho de startups de hardware en Jira es pequeño; muchas usan hojas de cálculo u Onshape/Arena. Precio de $130 por equipo es plausible, pero el volumen de compradores y la dependencia de Atlassian limitan el techo.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G15-17",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "CAMotics, simuladores de CNC y la integración de LLM en chat general (ChatGPT/Claude) ya explican G-code gratis; los hobbistas pagan poco y no confiarían la detección de colisiones a un LLM sin simulación real. Alucinaciones en detección de colisiones crean riesgo de daño a máquinas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-01",
+  "filtros_fallados": [],
+  "objecion": "Existen visores CAD para Jira y Confluence en el marketplace (sin verificar) y el comprador es un nicho (hardware en Jira Cloud); render STEP en Forge tiene límites de ejecución y tamaño de archivos. Aun así el precio es alto, el canal es nombrado y Juan tiene ventaja real: objeción principal es dependencia de Atlassian y tamaño de mercado.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G20-02",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $6/mes se necesitan unos 1,700 pagadores para $10k MRR en un nicho de makers que ya usa Git, Syncthing o la nube de OrcaSlicer/Bambu (sin verificar); disposición de pago baja y los slicers pueden integrar sincronización nativa.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G16-08",
+  "filtros_fallados": [],
+  "objecion": "Mercado de AI Act abarrotado de herramientas gratis (checkers de la UE y de la comunidad, sin verificar) y plataformas GRC; un cuestionario con plantillas es fácil de copiar y de generar con un LLM, y el comprador legal desconfía de herramientas sin responsabilidad. Cambio normativo (retrasos) puede secar la demanda.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G23-18",
+  "filtros_fallados": [],
+  "objecion": "TikTok Shop ya tiene gestión de muestras y afiliados nativa y herramientas de terceros (sin verificar); dependencia total de la API y las reglas de TikTok, canal 'grupos de vendedores' sin nombre concreto. Funcionalidad CRUD fácil de copiar y de baja barrera.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "DeepL, Google Translate y memoQ ya ofrecen glosarios y traducción de documentos con formato; Trados y plataformas de traducción técnica son sólidas. Los redactores técnicos en fabricantes pequeños no compran con autoservicio $99 y el formato (InDesign, FrameMaker) es difícil de preservar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G03-14",
+  "filtros_fallados": [],
+  "objecion": "Mercado saturado de apps de ausencias en Slack (Vacation Tracker, Timetastic y otras, sin verificar); la regla de cobertura mínima por turno es la única diferencia y es fácil de copiar. Ventaja de Juan nula, y empresas con turnos usan sistemas de WFM dedicados, no Slack.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G08-18",
+  "filtros_fallados": [],
+  "objecion": "Comprador poco claro: los desarrolladores de software CAD rara vez compran un API de tolerancias y los ingenieros usan hojas de cálculo o módulos integrados (TolAnalyst en SolidWorks, sin verificar el alcance). Mercado muy pequeño; RapidAPI aporta poca demanda. Aun así hay ventaja real y poca competencia como servicio.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-11",
+  "filtros_fallados": [],
+  "objecion": "Comprador (PM de ISV) tiene necesidad esporádica: pasa una revisión de seguridad y se va, bajo retención. La información de requisitos es pública y gratuita en los propios marketplaces, y los consultores lo resuelven puntualmente. Canal en foros vago y mercado pequeño.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "ToS;DR existe gratis, y los navegadores y asistentes de IA (Chrome con Gemini, ChatGPT) pueden resumir cláusulas gratis; $10/mes por extensión con IA es difícil de sostener. Riesgo legal por 'asesoría' y la extensión es fácil de copiar con una API LLM.",
+  "severidad": "fatal"
+ }
+]

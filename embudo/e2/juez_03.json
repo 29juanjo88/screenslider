@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G13-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "GitHub genera notas nativas y Release Drafter es gratis; el nicho de notas para cliente existe pero sin evidencia ni diferenciación defendible."
+ },
+ {
+  "id": "G18-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Ventaja PLC real y búsqueda concreta, pero migración puntual (baja retención) y conversión parcial; sin evidencia."
+ },
+ {
+  "id": "G26-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Plantillas de contratos gratis abundantes y Bonsai ya cubre contratos/SOW; sin ventaja."
+ },
+ {
+  "id": "G15-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Comunidad Klipper espera ayuda gratis y un LLM genérico con el log cubre buena parte; canal que rechaza promoción."
+ },
+ {
+  "id": "G23-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Amazon genera etiquetas FNSKU gratis de forma nativa; $12/mes por un PDF no se sostiene."
+ },
+ {
+  "id": "G07-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Laravel Idea domina el canal JetBrains y Debugbar/Telescope cubren N+1 gratis; $9 exige volumen alto."
+ },
+ {
+  "id": "G22-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Mercado muy pequeño de YouTubers CAD que cobran por archivos; Patreon/Drive ya resuelven."
+ },
+ {
+  "id": "G27-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "AppFollow/AppBot consolidados y SEO saturado; sin ángulo claro ni evidencia."
+ },
+ {
+  "id": "G24-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Optimizadores de despiece web gratis son comunes y $6/mes de aficionados no sostiene la meta."
+ },
+ {
+  "id": "G27-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Agregación de breaking changes es un dolor real para devs, pero mantener 500 fuentes es pesado y los proveedores avisan por su cuenta; sin competidor verificado."
+ },
+ {
+  "id": "G30-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 3
+  },
+  "total": 32,
+  "razon": "Stacks gratis (Influx/Grafana/Node-RED, Ignition Maker) y rechazo de nube en planta; requiere conector edge."
+ },
+ {
+  "id": "G11-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 28,
+  "razon": "Apps Script y mail-merge cubren el caso; búsqueda de bajo volumen y dolor modesto."
+ },
+ {
+  "id": "G12-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Node-RED es gratis pero DIY; hay nicho para integradores, aunque TI de planta y límites de Airtable lo frenan."
+ },
+ {
+  "id": "G15-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "GitHub Actions de etiquetado gratis e IA nativa de GitHub cubren el triage; mantenedores no pagan."
+ },
+ {
+  "id": "G14-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 34,
+  "razon": "Smithery/Composio financiados y proveedores de LLM integran MCP remoto; mercado en cambio constante y custodia de credenciales."
+ },
+ {
+  "id": "G01-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Búsqueda 'profit margin' en Shopify tiene intención de compra pero está saturada; el bloqueo es copiable."
+ },
+ {
+  "id": "G30-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Microsoft Clarity es gratis y ya detecta rage clicks; la propia idea admite F1."
+ },
+ {
+  "id": "G01-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Canal directo con intención en Shopify App Store y ventaja en slicing, pero pocas tiendas 3D bajo pedido."
+ },
+ {
+  "id": "G13-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Hueco real (no hay diff de PLC en PRs) y ventaja máxima de Juan, pero compradores muy pocos y canal sin búsqueda de intención."
+ },
+ {
+  "id": "G17-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Statsig/Optimizely y tooling de Stripe cubren; SaaS con poco tráfico no alcanza significancia."
+ },
+ {
+  "id": "G08-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 4
+  },
+  "total": 45,
+  "razon": "Equivale al ancla ALTA; SEO 'step to gltf api' y ventaja CAD fuertes, con APS/occt-import-js como cobertura parcial y demanda sin verificar."
+ },
+ {
+  "id": "G12-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Airtable no es la herramienta natural de BOM y hay plantillas gratis; canal de marketplace de poco tráfico."
+ },
+ {
+  "id": "G07-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Promptfoo es open source, fuerte y gratis; LangSmith tiene plan gratuito."
+ },
+ {
+  "id": "G29-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "GanttProject es gratis y suficiente; búsqueda 'MS Project alternative' saturada."
+ },
+ {
+  "id": "G18-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 27,
+  "razon": "Dependencia de una plataforma de bajo tráfico, $12 y mercado hobbyista; Fusion tiene extensión nativa."
+ },
+ {
+  "id": "G03-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Power Automate Approvals va incluido en Microsoft 365 y compite con PLM; empuja a ventas largas."
+ },
+ {
+  "id": "G13-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Hueco real en diff visual de STEP/DXF en PRs, pero nicho pequeño y canal sin búsqueda con intención."
+ }
+]

@@ -1,0 +1,158 @@
+[
+ {
+  "id": "G15-20",
+  "rescatar": true,
+  "respuesta": "Concedo que los CAD exportan BOM nativa y que los STEP sin metadatos son un problema. Pero el valor no es la BOM sino normalizar piezas comerciales y buscar alternativas/proveedores, y ahí el LLM sí aporta. Comprador: ingeniero de compras o ingeniero de diseño en fabricante pequeño; $89 requiere ~120-560 clientes. Ventaja CAD de Juan es fuerte. Cobertura de catálogos es el riesgo real: se limita a piezas estándar (tornillería, rodamientos, perfiles) donde hay catálogos públicos; competidores sin verificar.",
+  "ajuste_sugerido": "Acotar a piezas COTS/hardware estándar y exportar BOM con enlaces de compra; canal SEO 'STEP to BOM' en lugar de foros de compras."
+ },
+ {
+  "id": "G09-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-02",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-14",
+  "rescatar": true,
+  "respuesta": "Concedo que existen calculadoras gratis (sin verificar nombres). Pero un importador/forwarder pequeño planifica cargas recurrentemente, no una vez; el ángulo es suscripción con PDF de plan de carga, restricciones de peso y reutilización de SKUs, no solo el cálculo. Canal SEO nombrado con intención alta ('container load calculator') y páginas por contenedor/producto. Ventaja CAD/3D de Juan aplica al packing 3D. Churn es el riesgo real; se mitiga con plan por proyecto o créditos.",
+  "ajuste_sugerido": "Ofrecer plan por volumen de planes de carga/mes (no solo mensual plano), ~$25-49; empezar con 2D/capas de pallets antes del packing 3D completo."
+ },
+ {
+  "id": "G19-05",
+  "rescatar": true,
+  "respuesta": "Concedo que hay hojas de OEE gratis y SaaS con prueba. Pero el ángulo es autoservicio con CSV: Pareto, causas de paro y enlaces compartibles, sin instalar sensores ni contactar ventas, que es lo que Evocon/Vorne exigen. Comprador: mejora continua en plantas medianas con tarjeta de equipo; SEO 'OEE calculator' tiene volumen y búsqueda con intención. Juan conoce la operación industrial. Churn por uso puntual es el riesgo; se mitiga con histórico y reportes recurrentes.",
+  "ajuste_sugerido": "Cambiar a plan que guarda histórico por línea y compara semanas (reporte semanal automático); precio $39-79 por planta."
+ },
+ {
+  "id": "G11-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-04",
+  "rescatar": true,
+  "respuesta": "Concedo que el mercado es chico. Pero el nicho es justo donde Juan tiene ventaja real (TIA Portal, Studio 5000), el comprador es concreto (integrador de automatización) y a $90 bastan ~110-200 clientes para 10-18k MRR; la objeción F5 no aplica porque el precio alto compensa el volumen. Canal: Atlassian Marketplace y PLCtalk/r/PLC. Los exports (L5X, AML, Excel de tags) son formatos conocidos que Juan domina. Riesgo de volumen de búsqueda: sin verificar.",
+  "ajuste_sugerido": "Empezar con importador L5X/Excel de tags sin Confluence-específico, sumar Confluence como primer canal; subir a $99-149 por espacio/equipo."
+ },
+ {
+  "id": "G25-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-19",
+  "rescatar": true,
+  "respuesta": "Concedo el riesgo de responsabilidad y que los códigos son de pago. Pero el producto no necesita incluir el texto del código: es un generador de formatos con campos y validaciones de rangos que el usuario configura, con descargo claro, igual que las plantillas Word actuales. El comprador es concreto (soldadura/ingeniería de fabricación y shops que pasan auditorías), el dolor es recurrente por auditoría, y SEO 'WPS template AWS D1.1' tiene intención clara. F3 no aplica porque no se ejerce una profesión regulada ni se certifica. Competidor Weldassistant sin verificar.",
+  "ajuste_sugerido": "Posicionar como llenado y organización de documentos, no como certificación de conformidad; evitar reproducir texto de códigos licenciados."
+ },
+ {
+  "id": "G25-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-02",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G15-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-09",
+  "rescatar": true,
+  "respuesta": "Concedo que AWS publica Price List API y que Vantage cubre precios. Pero un feed estructurado multicloud con diff, histórico y webhooks normalizados entre AWS/GCP/Azure ahorra trabajo de ingeniería a FinOps; el diff entre proveedores no es nativo. Comprador: FinOps/platform, canal API (directorios de APIs, SEO 'AWS price change tracker', r/aws, comunidad FinOps). Backend de datos es el fuerte de Juan y es cercano al ancla ALTA de API para desarrolladores. Volumen incierto, sin verificar.",
+  "ajuste_sugerido": "Posicionar como API con tiers por uso y webhooks (~$59-99), con GPU/IA como vertical de entrada."
+ },
+ {
+  "id": "G24-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-04",
+  "rescatar": true,
+  "respuesta": "Concedo que Woo Subscriptions trae reintentos básicos. El hueco es dunning inteligente (secuencia de correos, pausa/skip, ofertas de retención) que lo nativo no ofrece completo (sin verificar competidores). Comprador concreto: dueño de tienda con MRR que pierde dinero cada semana por pagos fallidos; la disposición de pago es alta porque la recuperación se mide en dólares. Canal: WordPress.org y grupos de Woo. Juan tiene PHP/Laravel y pagos. Precio ligado a ingreso recuperado lo hace defendible.",
+  "ajuste_sugerido": "Precio $29-59 por tramos de MRR de la tienda; posicionar como 'recupera pagos fallidos' con métrica visible de dólares recuperados."
+ },
+ {
+  "id": "G17-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-04",
+  "rescatar": true,
+  "respuesta": "Concedo que GitHub puede extender su vista nativa (sin verificar alcance actual). Pero el filtro F1 no aplica hoy: la objeción misma admite un hueco en atribución por equipo. El comprador es concreto (platform engineer / finanzas técnicas de una org con facturas de Actions relevantes), el canal es nombrado (GitHub Marketplace, SEO 'github actions cost per repo', Show HN) con intención de compra, y el MVP lee la API de billing en pocas semanas. A $39 el modelo es 50-250 orgs; riesgo de plataforma queda marcado.",
+  "ajuste_sugerido": "Subir precio a $49-79 por org con tier por número de repos; validar primero con landing y Show HN antes de construir."
+ }
+]

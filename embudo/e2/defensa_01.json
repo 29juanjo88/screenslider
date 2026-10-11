@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G12-08",
+  "rescatar": true,
+  "respuesta": "Concedo que Make/n8n/Zapier muestran historiales, pero por cuenta y no por cliente final con marca blanca; el comprador es la agencia (retainer de cientos o miles de USD) y $99 es una fracción del retainer que protege contra churn. Canal nombrado: comunidades de agencias en YouTube/Skool y SEO 'automation agency client reporting'. Concedo que las APIs cambian y que los directorios de partners no son canal de compra confirmado; competidores sin verificar.",
+  "ajuste_sugerido": "Posicionar como reporte de valor (horas ahorradas) para retención; empezar solo con n8n/Make; precio $79-149 por agencia; validar con 5 agencias antes de construir."
+ },
+ {
+  "id": "G19-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-07",
+  "rescatar": true,
+  "respuesta": "Concedo que Omnibus reduce el alcance de CSRD y que algunos clientes exigen su portal. Aun así, el proveedor repite las mismas respuestas en decenas de cuestionarios (CDP, EcoVadis, propios) y una biblioteca reutilizable de respuestas con exportación es dolor real, con comprador definido: responsable de sostenibilidad/ventas de proveedores pyme de grandes cuentas.",
+  "ajuste_sugerido": "Reenfocar como banco de respuestas ESG reutilizable (Scope 3, políticas) con exportación a Excel/Word, sin prometer portal propio; $39-59; canal SEO 'ESG questionnaire supplier'; sin verificar demanda."
+ },
+ {
+  "id": "G24-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-18",
+  "rescatar": true,
+  "respuesta": "Concedo mercado pequeño y que slicers abiertos calculan tiempo y material. Pero el comprador, un desarrollador de SaaS de impresión 3D (granjas, marketplaces de piezas), prefiere pagar una API hospedada y mantenida antes que embeber un slicer; previews de trayectoria y estimaciones por firmware/perfil son difíciles. Ventaja alta de Juan (firmware de impresoras 3D). Es análogo al ancla de API CAD.",
+  "ajuste_sugerido": "Eliminar AWS Marketplace como canal principal; vender por SEO 'gcode analyzer api', RapidAPI y docs; precio $49-149 por volumen; tamaño del mercado sin verificar."
+ },
+ {
+  "id": "G08-06",
+  "rescatar": true,
+  "respuesta": "Concedo que el dolor no es urgente y que Ahrefs/Screaming Frog cubren parte. Pero ninguno audita docs de API de forma específica (OpenAPI, llms.txt, schema para LLM), ángulo nuevo con presupuesto de DevRel a $69. Canal: SEO 'api documentation seo', GitHub Action gratuita como gancho product-led, Product Hunt. Write the Docs solo es apoyo.",
+  "ajuste_sugerido": "Lanzar GitHub Action/CLI gratis con reporte de pago; enfocar auditoría de legibilidad por LLM; mercado pequeño, sin verificar tamaño."
+ },
+ {
+  "id": "G16-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-17",
+  "rescatar": true,
+  "respuesta": "Concedo el riesgo de importar CAM y que Paperless Parts/ProShop son más completos. Pero esos venden con ciclo de ventas y a precios altos; el taller pequeño usa Excel. Hueco de autoservicio barato con estimación de tiempo de máquina desde el G-code o CAM. Ventaja de Juan: CAM y manufactura. Canal: SEO 'cnc job costing software' (intención alta); Practical Machinist solo para presencia, sin promoción.",
+  "ajuste_sugerido": "Empezar con importación de G-code/CSV, no CAM propietario; $39-69; validar con talleres; sin verificar planes de incumbentes."
+ },
+ {
+  "id": "G27-02",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G27-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-14",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-02",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G26-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-16",
+  "rescatar": true,
+  "respuesta": "Concedo que hay scripts gratuitos (gspread, Node-RED) y que el soporte de un agente local consume tiempo. Pero ingenieros de pruebas con PLC/Modbus no quieren mantener scripts; un conector instalable con marca de tiempo y buffer offline les ahorra horas. Ventaja de Juan: PLC y protocolos industriales.",
+  "ajuste_sugerido": "Reducir alcance a un conector de escritorio Modbus TCP a Sheets, con precio $29-49 y sin soporte personalizado; mercado de pago sin verificar."
+ },
+ {
+  "id": "G16-20",
+  "rescatar": true,
+  "respuesta": "Concedo que el etiquetado automático no garantiza cumplimiento total y que Acrobat Pro/PAC existen. Pero Acrobat no procesa por lotes con API a escala y la EAA (vigente desde junio 2025) crea demanda con intención de búsqueda real ('PDF/UA remediation tool'). Comprador: equipos de contenido de empresas que publican miles de PDFs; pagan hoy servicios caros de remediación.",
+  "ajuste_sugerido": "Posicionar como remediación asistida (auto-etiquetado más revisión humana guiada) y API por lote; precio por volumen $59-199; no prometer cumplimiento legal; riesgo de responsabilidad concedido."
+ },
+ {
+  "id": "G02-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-16",
+  "rescatar": true,
+  "respuesta": "Concedo que Syft/ScanCode son gratis y que el valor es UX. Pero ninguno entrega informe para clientes específico de firmware PlatformIO/CMake con conflictos GPL/AGPL; el Cyber Resilience Act de la UE crea obligación de SBOM para fabricantes de hardware. Ventaja real de Juan en firmware. Canal: GitHub Marketplace 'SBOM' y 'PlatformIO'.",
+  "ajuste_sugerido": "Posicionar como informe de cumplimiento CRA para firmware, no como generador de SBOM; venta a fabricantes de hardware pequeños con precio $39-99; presión CRA futura concedida."
+ },
+ {
+  "id": "G18-12",
+  "rescatar": true,
+  "respuesta": "El propio atacante concede dolor claro y canal real (PLCTalk, r/PLC). La confidencialidad se resuelve con procesamiento local (CLI/app de escritorio o ejecución en el navegador) sin subir el código. Los incumbentes dan referencias cruzadas pero no documentación legible ni listas de I/O entre marcas. Ventaja de Juan: Siemens TIA y Rockwell, pocos la tienen.",
+  "ajuste_sugerido": "Empezar con una sola marca (exportaciones XML de TIA Portal o L5X de Rockwell), procesamiento local, $49-99 por usuario; riesgo de que el fabricante añada LLM, concedido."
+ },
+ {
+  "id": "G26-02",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-12",
+  "rescatar": true,
+  "respuesta": "Concedo que incident.io/Rootly/FireHydrant y un LLM generan postmortems. Pero esas plataformas exigen adoptar toda la suite (cientos de USD por usuario), y los equipos con Slack y sin herramienta de incidentes no tienen opción ligera; el comprador SRE/eng manager existe. Canal nombrado: Slack Marketplace 'incident'.",
+  "ajuste_sugerido": "Posicionar como app ligera de postmortem solo sobre Slack, precio fijo por workspace $29-59; riesgo de dependencia de Slack y de LLM gratis concedido; competidores sin verificar."
+ },
+ {
+  "id": "G29-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

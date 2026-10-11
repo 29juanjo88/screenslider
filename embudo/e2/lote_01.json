@@ -1,0 +1,560 @@
+[
+ {
+  "id": "G12-08",
+  "nombre": "Agency Client Portal",
+  "cliente_que_paga": "Automation agencies selling retainers",
+  "problema": "Clients cannot see what automations do or the hours saved, so churn is high.",
+  "solucion": "White-label portal showing runs, errors and hours saved per client, pulled from Make/n8n/Zapier.",
+  "precio_usd_mes": 99,
+  "canal_primeros_100": "Agency YouTube/Skool communities, Make and n8n partner directories, SEO 'automation agency client reporting'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Automation agencies are a fast-growing niche needing retention proof.",
+  "ventaja_juan": "Fast full-stack build with Next.js.",
+  "riesgo_principal": "Needs tracking of platform APIs and agency adoption.",
+  "evidencia_url": "sin verificar",
+  "angulo": "12",
+  "tema": "agency reporting portal",
+  "tema_norm": "automatización no-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G19-20",
+  "nombre": "Calculadora de ahorro de energía en motores",
+  "cliente_que_paga": "Ingenieros de planta",
+  "problema": "Justificar variadores de frecuencia exige cálculos dispersos.",
+  "solucion": "Calcula retorno de inversión de VFD con datos de placa.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'VFD energy savings calculator'; foros de ingeniería",
+  "competidores": [
+   "fabricantes de variadores con calculadoras gratuitas (F1 posible)"
+  ],
+  "por_que_ahora": "Costos de energía elevados.",
+  "ventaja_juan": "Conozco motores y automatización.",
+  "riesgo_principal": "Incumbentes gratuitos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "19",
+  "tema": "ahorro energía VFD",
+  "tema_norm": "calculadoras de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-07",
+  "nombre": "CSRD Supplier Data Collector",
+  "cliente_que_paga": "Empresas proveedoras de grandes cuentas con cuestionarios ESG",
+  "problema": "Reciben cuestionarios CSRD/Scope 3 distintos de cada cliente.",
+  "solucion": "Plantilla reutilizable que rellena respuestas ESG y las exporta en formatos de cada cliente.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'ESG questionnaire supplier', LinkedIn, directorios SaaS",
+  "competidores": [
+   "EcoVadis",
+   "Sphera",
+   "sin verificar"
+  ],
+  "por_que_ahora": "CSRD ola 2/3 trasladada a cadena de suministro.",
+  "ventaja_juan": "Backend y formularios dinámicos.",
+  "riesgo_principal": "Omnibus de la UE reduce alcance CSRD.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "ESG cuestionarios proveedores",
+  "tema_norm": "cumplimiento de producto y sostenibilidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G24-05",
+  "nombre": "GrowSheet",
+  "cliente_que_paga": "Cultivadores de plantas de interior/hidroponía",
+  "problema": "Parámetros de nutrientes y luz se gestionan en hojas sueltas.",
+  "solucion": "Planificador de cultivo con calendario, recetas de nutrientes, registro y recordatorios por especie.",
+  "precio_usd_mes": 5,
+  "canal_primeros_100": "r/microgrowery, r/hydro y YouTube de hidroponía; App Store 'grow journal'.",
+  "competidores": [
+   "Planta/Greg (sin verificar) para plantas generales"
+  ],
+  "por_que_ahora": "Crece el cultivo doméstico y hidropónico.",
+  "ventaja_juan": "Poco; solo ingeniería de software.",
+  "riesgo_principal": "Mercado fragmentado y estacional.",
+  "evidencia_url": "sin verificar",
+  "angulo": "24",
+  "tema": "diario cultivo hidroponía",
+  "tema_norm": "hobbies y colecciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-20",
+  "nombre": "Sheets Backup & Versioning",
+  "cliente_que_paga": "Equipos de finanzas y operaciones en empresas medianas",
+  "problema": "Cambios accidentales en hojas críticas no se pueden revertir fácilmente.",
+  "solucion": "Complemento que guarda instantáneas programadas, compara versiones y restaura rangos.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Marketplace de Google Workspace: 'sheet backup version'.",
+  "competidores": [
+   "Historial de versiones nativo de Google"
+  ],
+  "por_que_ahora": "Más datos críticos en Sheets.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "El historial nativo de Google es suficiente para muchos (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "versionado de hojas",
+  "tema_norm": "datos: extracción y respaldo",
+  "duplicado_de": null
+ },
+ {
+  "id": "G09-10",
+  "nombre": "OpenAPI Docs Hosting",
+  "cliente_que_paga": "Equipos de desarrollo de APIs",
+  "problema": "Publicar documentación de OpenAPI pulida requiere configuración repetitiva.",
+  "solucion": "Hosting de docs desde un OpenAPI con dominio propio y páginas SEO por endpoint.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'host openapi docs' y GitHub Marketplace.",
+  "competidores": [
+   "Readme",
+   "Redocly",
+   "Stoplight (precios sin verificar)"
+  ],
+  "por_que_ahora": "Más APIs públicas y agentes IA que las consumen.",
+  "ventaja_juan": "GraphQL y backend.",
+  "riesgo_principal": "Mercado saturado, diferenciación limitada.",
+  "evidencia_url": "sin verificar",
+  "angulo": "09",
+  "tema": "docs OpenAPI",
+  "tema_norm": "desarrollo y mocks de APIs",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-18",
+  "nombre": "AWS Marketplace Gcode Analyzer API",
+  "cliente_que_paga": "Developer at 3D printing SaaS",
+  "problema": "Need to estimate time, filament and defects from G-code at scale.",
+  "solucion": "Marketplace API that parses G-code and returns print time, material and toolpath previews.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "AWS Marketplace and SEO 'gcode analyzer api'",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Print services and slicer SaaS are proliferating.",
+  "ventaja_juan": "Printer firmware and G-code expertise.",
+  "riesgo_principal": "Very small developer market.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "gcode analysis API",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-06",
+  "nombre": "Doc-SEO Auditor",
+  "cliente_que_paga": "Equipos de DevRel y documentación de productos API",
+  "problema": "La documentación no posiciona en buscadores ni en respuestas de IA.",
+  "solucion": "Auditor de docs OpenAPI/Docusaurus con reporte SEO, enlaces rotos y schema para búsqueda y LLM.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "SEO 'api documentation seo', comunidad Write the Docs, Product Hunt, directorios de herramientas de DevRel.",
+  "competidores": [
+   "Ahrefs/Semrush (genéricos)",
+   "Mintlify (plataforma de docs, sin verificar funciones)"
+  ],
+  "por_que_ahora": "Búsqueda por IA exige llms.txt y docs estructuradas.",
+  "ventaja_juan": "Backend y TS para parsear docs.",
+  "riesgo_principal": "Herramientas SEO genéricas cubren parte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "SEO de documentación",
+  "tema_norm": "desarrollo y mocks de APIs",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-15",
+  "nombre": "Machinery Regulation Tech File",
+  "cliente_que_paga": "Fabricantes de maquinaria que venden a UE",
+  "problema": "El nuevo Machinery Regulation 2023/1230 exige expediente técnico y evaluación de riesgos digital.",
+  "solucion": "Plantilla web para expediente técnico, análisis de riesgos y declaración UE de conformidad.",
+  "precio_usd_mes": 119,
+  "canal_primeros_100": "SEO 'machinery regulation technical file', LinkedIn/foros de ingeniería",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Aplica desde enero 2027.",
+  "ventaja_juan": "PLC y seguridad de máquinas; conoce el sector.",
+  "riesgo_principal": "Plantillas de consultoras; ciclo lento.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "reglamento maquinaria UE",
+  "tema_norm": "cumplimiento de producto y sostenibilidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-20",
+  "nombre": "Expired domain drop alerts",
+  "cliente_que_paga": "Compradores de dominios y SEOs",
+  "problema": "Dominios caídos con buen historial se pierden en horas.",
+  "solucion": "Alertas por filtros de dominios expirando con métricas SEO.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Foros Namepros y r/SEO; SEO 'expired domain finder'",
+  "competidores": [
+   "ExpiredDomains.net (sin verificar planes)"
+  ],
+  "por_que_ahora": "Más interés en dominios con autoridad.",
+  "ventaja_juan": "Backend de datos masivos.",
+  "riesgo_principal": "Mercado muy competitivo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "alertas dominios expirados",
+  "tema_norm": "monitoreo de precios y mercados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-17",
+  "nombre": "CNC Job Costing Tool",
+  "cliente_que_paga": "Talleres de maquinado pequeños",
+  "problema": "Estiman a ojo y pierden margen.",
+  "solucion": "Importa CAM y estima tiempo de máquina, herramental y costo.",
+  "precio_usd_mes": 69,
+  "canal_primeros_100": "Búsqueda 'cnc job costing software' y foros Practical Machinist.",
+  "competidores": [
+   "Paperless Parts (sin verificar)",
+   "ProShop (sin verificar)"
+  ],
+  "por_que_ahora": "Inflación de costos y demanda de cotizaciones rápidas.",
+  "ventaja_juan": "Conoce CAM y manufactura.",
+  "riesgo_principal": "Incumbentes con más funciones.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "costeo CNC",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-02",
+  "nombre": "Price Drop Alerts for 3D Printers",
+  "cliente_que_paga": "Aficionados y granjas de impresión que compran impresoras y piezas",
+  "problema": "Las ofertas de impresoras/hotends/boards caducan rápido y se pierden.",
+  "solucion": "Alertas por email/Discord de caídas de precio por modelo y tienda, con historial.",
+  "precio_usd_mes": 6,
+  "canal_primeros_100": "Posts en r/3Dprinting y r/BambuLab, YouTube de reseñas, SEO 'Bambu A1 price history'",
+  "competidores": [
+   "Tracker de Aurora Tech (3 fabricantes",
+   "sin verificar el resto)"
+  ],
+  "por_que_ahora": "Boom de impresoras de consumo con muchos lanzamientos.",
+  "ventaja_juan": "Usuario y conocedor de impresión 3D.",
+  "riesgo_principal": "Precio bajo exige gran volumen; afiliación como alternativa.",
+  "evidencia_url": "https://www.fabbaloo.com/news/aurora-techs-innovative-3d-printer-price-tracking-website",
+  "angulo": "27",
+  "tema": "alertas precios 3D",
+  "tema_norm": "monitoreo de precios y mercados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-04",
+  "nombre": "Machine-tool used listings feed",
+  "cliente_que_paga": "Compradores de talleres y brokers de maquinaria CNC usada",
+  "problema": "Los anuncios de CNC/láser usados están dispersos y se venden en horas.",
+  "solucion": "Agregador con alertas por modelo/controlador (Fanuc, Haas) y puntuación de precio justo.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Foros Practical Machinist y r/CNC, SEO 'used Haas VF-2 for sale'",
+  "competidores": [
+   "Machinio",
+   "MachineryTrader (sin verificar precios de alertas)"
+  ],
+  "por_que_ahora": "Rotación alta de equipo usado tras la inflación.",
+  "ventaja_juan": "Conocimiento de CAM/CNC para normalizar modelos.",
+  "riesgo_principal": "Terceros pueden bloquear scraping.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "alertas maquinaria usada",
+  "tema_norm": "monitoreo de precios y mercados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-13",
+  "nombre": "Seller Account Health Monitor",
+  "cliente_que_paga": "Amazon sellers",
+  "problema": "Suspensions come without warning.",
+  "solucion": "Track metrics and generate plan-of-action drafts for appeals.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Seller Central forums and FB groups",
+  "competidores": [
+   "Seller 365",
+   "Threecolts"
+  ],
+  "por_que_ahora": "Suspension rates high.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Amazon API changes.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "salud de cuenta",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G27-16",
+  "nombre": "CAD library release tracker",
+  "cliente_que_paga": "Desarrolladores que usan OpenCascade, CadQuery y similares",
+  "problema": "Releases y breaking changes de librerías CAD no se siguen juntas.",
+  "solucion": "Newsletter y API de releases, issues y compatibilidad de kernels CAD.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "Foros CadQuery, OpenCascade y Hacker News",
+  "competidores": [
+   "Sin verificar"
+  ],
+  "por_que_ahora": "Crece el CAD de código abierto.",
+  "ventaja_juan": "Usuario experto de SolidWorks y AutoCAD.",
+  "riesgo_principal": "Mercado muy pequeño.",
+  "evidencia_url": "sin verificar",
+  "angulo": "27",
+  "tema": "releases librerías CAD",
+  "tema_norm": "cambios de APIs y librerías",
+  "duplicado_de": null
+ },
+ {
+  "id": "G21-18",
+  "nombre": "Fixture Library",
+  "cliente_que_paga": "Ingenieros de manufactura",
+  "problema": "Reutilizar diseños de fixtures está disperso.",
+  "solucion": "Biblioteca de plantillas paramétricas de fixtures en STEP/SolidWorks.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "SEO 'fixture design templates', r/SolidWorks.",
+  "competidores": [
+   "GrabCAD (gratis)"
+  ],
+  "por_que_ahora": "Faltan plantillas de calidad.",
+  "ventaja_juan": "SolidWorks.",
+  "riesgo_principal": "F1: GrabCAD gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "plantillas de fixtures",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-14",
+  "nombre": "Laser Cut Etsy Quote Widget",
+  "cliente_que_paga": "Etsy custom laser cut sellers",
+  "problema": "Custom orders require manual quotes.",
+  "solucion": "Customer uploads DXF, instant price quote with Etsy custom order link.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Etsy forums, r/lasercutting",
+  "competidores": [
+   "Xometry"
+  ],
+  "por_que_ahora": "Custom products grow.",
+  "ventaja_juan": "DXF expertise.",
+  "riesgo_principal": "Etsy API limits.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "cotizacion DXF",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-02",
+  "nombre": "AppExchange DXF Quote Object",
+  "cliente_que_paga": "Salesforce admin at a job shop or fabricator",
+  "problema": "Quotes for laser/waterjet parts are built manually outside Salesforce.",
+  "solucion": "Managed package that reads DXF on an Opportunity and computes cut length, pierce count and price from a rate table.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Salesforce AppExchange search 'manufacturing quote' and 'CPQ'",
+  "competidores": [
+   "Salesforce CPQ"
+  ],
+  "por_que_ahora": "CPQ is heavy and expensive for small fabricators on Salesforce.",
+  "ventaja_juan": "DXF geometry and laser-cutting costing expertise.",
+  "riesgo_principal": "AppExchange security review and ISV process effort.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "DXF quoting salesforce",
+  "tema_norm": "apps CRM HubSpot/Salesforce",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-10",
+  "nombre": "Retainer Pulse for Consultants",
+  "cliente_que_paga": "Consultores con retainers",
+  "problema": "No saben cuándo un cliente consume más horas de lo pactado.",
+  "solucion": "Seguimiento de horas contra retainer con alertas y resumen mensual automático.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de Notion/Slack y SEO 'retainer tracking'",
+  "competidores": [
+   "Harvest",
+   "Toggl"
+  ],
+  "por_que_ahora": "Retainers más comunes tras 2020.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Incumbentes con funciones similares.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "seguimiento de retainers",
+  "tema_norm": "servicios profesionales independientes",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-16",
+  "nombre": "Test Data Logger for Sheets",
+  "cliente_que_paga": "Ingenieros de pruebas y laboratorios",
+  "problema": "Registrar mediciones de equipos en hojas requiere copiar y pegar manualmente.",
+  "solucion": "Complemento y API para enviar lecturas (Modbus/serial vía script) a Sheets con marca de tiempo.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Marketplace de Google Workspace y foros de Arduino y automatización.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "IoT barato en laboratorios pequeños.",
+  "ventaja_juan": "Experiencia con PLC y protocolos industriales.",
+  "riesgo_principal": "Necesita agente local y soporte.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "registro de mediciones",
+  "tema_norm": "datos industriales OPC UA/Modbus",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-20",
+  "nombre": "Accessible PDF Remediation (EAA)",
+  "cliente_que_paga": "Equipos de contenido/marketing de empresas que publican PDFs a clientes UE",
+  "problema": "El EAA exige documentos accesibles y sus PDFs no tienen etiquetas ni orden de lectura.",
+  "solucion": "Servicio web que autoetiqueta PDFs (PDF/UA), detecta fallos y exporta versión accesible por lotes.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'PDF/UA remediation tool' y 'make PDF accessible', Adobe/Acrobat foros",
+  "competidores": [
+   "Adobe Acrobat Pro",
+   "CommonLook",
+   "sin verificar"
+  ],
+  "por_que_ahora": "EAA vigente desde junio 2025 incluye documentos de servicios.",
+  "ventaja_juan": "Procesamiento de documentos y estructuras de datos en backend.",
+  "riesgo_principal": "Acrobat incluye autoetiquetado básico (F1 parcial).",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "PDF accesible EAA",
+  "tema_norm": "cumplimiento accesibilidad web",
+  "duplicado_de": null
+ },
+ {
+  "id": "G02-16",
+  "nombre": "Cookie Consent Auditor",
+  "cliente_que_paga": "Privacy and web compliance consultants",
+  "problema": "Verifying cookie banners and trackers per site is manual.",
+  "solucion": "Extension logs trackers fired before consent and generates an audit PDF.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Chrome Web Store search 'cookie audit', r/gdpr",
+  "competidores": [
+   "Cookiebot scanner",
+   "Ghostery"
+  ],
+  "por_que_ahora": "GDPR enforcement.",
+  "ventaja_juan": "Backend/network.",
+  "riesgo_principal": "Advice liability. Depende de Chrome Web Store.",
+  "evidencia_url": "sin verificar",
+  "angulo": "02",
+  "tema": "cookie consent audit",
+  "tema_norm": "secretos, PII y privacidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-16",
+  "nombre": "Firmware Dep Licenses",
+  "cliente_que_paga": "Fabricantes de hardware con firmware C/C++",
+  "problema": "El cumplimiento de licencias de librerías embebidas se descubre en auditoría.",
+  "solucion": "Action para PlatformIO/CMake/Arduino que genera SBOM y detecta GPL/AGPL conflictivas con informe para clientes.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "GitHub Marketplace ('SBOM', 'PlatformIO'), foros de PlatformIO, SEO 'SBOM embedded firmware'",
+  "competidores": [
+   "FOSSA (sin verificar)",
+   "ScanCode (gratis)",
+   "Syft (gratis)"
+  ],
+  "por_que_ahora": "Regulaciones de ciberseguridad como el CRA europeo exigen SBOM (sin verificar alcance).",
+  "ventaja_juan": "Firmware de impresoras 3D y PLC.",
+  "riesgo_principal": "Herramientas gratuitas generan SBOM; el valor está en la UX embedded.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "SBOM firmware embebido",
+  "tema_norm": "licencias, SBOM y CVE de software",
+  "duplicado_de": null
+ },
+ {
+  "id": "G18-12",
+  "nombre": "PLC code documentation generator",
+  "cliente_que_paga": "Controls engineers and integrators",
+  "problema": "Nobody documents ladder logic before handoff.",
+  "solucion": "Upload PLC export and get readable docs, I/O lists and cross references.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "PLCTalk, r/PLC, SEO 'PLC documentation tool'",
+  "competidores": [
+   "Vendor built-in cross reference tools"
+  ],
+  "por_que_ahora": "Integrators face handoff audits.",
+  "ventaja_juan": "PLC programming experience.",
+  "riesgo_principal": "Vendors could add LLM docs natively.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "documentación PLC",
+  "tema_norm": "documentación de PLC",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-02",
+  "nombre": "PermitPack for Solo Architects",
+  "cliente_que_paga": "Arquitectos independientes",
+  "problema": "Armar paquetes de planos y checklist de permisos por jurisdicción es manual.",
+  "solucion": "Checklist de permisos por ciudad/condado y compilador de PDF con índice de hojas.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "SEO 'building permit checklist [city]' y comunidad r/architecture",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Permisos digitales en más ciudades.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Mantener datos por jurisdicción.",
+  "evidencia_url": "https://www.capterra.in/software/1103011/Architek",
+  "angulo": "26",
+  "tema": "permisos para arquitectos",
+  "tema_norm": "servicios profesionales independientes",
+  "duplicado_de": null
+ },
+ {
+  "id": "G03-12",
+  "nombre": "Incident Postmortem Generator",
+  "cliente_que_paga": "SRE / Eng manager",
+  "problema": "Escribir postmortems tras un incidente consume horas.",
+  "solucion": "Convierte el canal de incidente en postmortem estructurado con línea de tiempo y acciones.",
+  "precio_usd_mes": 59.0,
+  "canal_primeros_100": "Slack Marketplace 'incident'; SEO 'incident postmortem template slack'",
+  "competidores": [
+   "incident.io (sin verificar)",
+   "FireHydrant (sin verificar)",
+   "Rootly (sin verificar)"
+  ],
+  "por_que_ahora": "Incidentes con IA y automatización.",
+  "ventaja_juan": "Backend y APIs.",
+  "riesgo_principal": "Competidores bien financiados.",
+  "evidencia_url": "sin verificar",
+  "angulo": "03",
+  "tema": "postmortem automático",
+  "tema_norm": "incidentes y notas de versión",
+  "duplicado_de": null
+ },
+ {
+  "id": "G29-16",
+  "nombre": "Self-Hosted Form Builder",
+  "cliente_que_paga": "Developers and agencies",
+  "problema": "SaaS form tools charge per submission.",
+  "solucion": "Single-binary form backend with one-time license.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Hacker News, r/selfhosted, dev.to",
+  "competidores": [
+   "Formspree",
+   "Tally"
+  ],
+  "por_que_ahora": "Cost and privacy.",
+  "ventaja_juan": "Backend expertise.",
+  "riesgo_principal": "Many free OSS options.",
+  "evidencia_url": "sin verificar",
+  "angulo": "29",
+  "tema": "self-hosted forms",
+  "tema_norm": "apps locales offline",
+  "duplicado_de": null
+ }
+]

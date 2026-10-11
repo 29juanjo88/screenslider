@@ -1,0 +1,418 @@
+[
+ {
+  "id": "G05-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "LLM genéricos y codegen de Playwright cubren el caso; sin evidencia ni competidores verificados."
+ },
+ {
+  "id": "G02-02",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Autodesk Viewer y eDrawings gratis ya cubren la vista previa STEP; el extra de BOM es débil y sin evidencia."
+ },
+ {
+  "id": "G19-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Dolor real pero competido por vendors establecidos y Excel; sin evidencia ni competidores verificados."
+ },
+ {
+  "id": "G15-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Canal nombrado en Shopify App Store y comprador concreto, pero dependencia de plataforma única y extracción de PDFs heterogéneos sin evidencia."
+ },
+ {
+  "id": "G24-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Discogs cubre catálogo, escaneo y valor gratis; además $4/mes exige volumen irreal (F5)."
+ },
+ {
+  "id": "G12-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Dolor real de DSAR pero requiere accesos OAuth sensibles a muchas herramientas (MVP largo), riesgo de exactitud legal y vendors grandes."
+ },
+ {
+  "id": "G02-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Fireflies/Otter y los resúmenes nativos de Meet/Gemini ya extraen action items a Jira; función que los incumbentes empaquetan."
+ },
+ {
+  "id": "G10-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "Hay intención de compra en AppExchange y presupuesto existente (Cloudingo), pero incumbentes con reseñas y revisión de seguridad ralentizan el MVP."
+ },
+ {
+  "id": "G11-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Plantillas gratis de Sheets y versionado de Drive cubren la necesidad; poca disposición de pago y sin evidencia."
+ },
+ {
+  "id": "G21-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Dolor existente pero el valor depende de datos RoHS/REACH difíciles de obtener y riesgo legal por informes erróneos."
+ },
+ {
+  "id": "G13-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Healthchecks.io (OSS, plan gratis) y Cronitor cubren el heartbeat básico; el ángulo OT es delgado y los integradores usan poco SaaS externo."
+ },
+ {
+  "id": "G03-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Hay presupuesto y canal en Slack Marketplace, pero mercado saturado de startups financiadas y riesgo de Slack nativo."
+ },
+ {
+  "id": "G28-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "EPLAN/AutoCAD Electrical ya generan BOM nativo; el parseo de DWG sin metadatos es poco fiable y el SEO de nicho es pequeño."
+ },
+ {
+  "id": "G12-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "PDFMonkey, Documint y Zapier ya ofrecen lo mismo; clon sin ángulo claro en nicho saturado."
+ },
+ {
+  "id": "G30-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 1,
+   "riesgo": 2
+  },
+  "total": 40,
+  "razon": "Canal con intención clara (SEO 'SolidWorks PDM alternative') y máxima ventaja de Juan, pero MVP muy superior a 6 semanas y riesgo de Dassault."
+ },
+ {
+  "id": "G19-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 1
+  },
+  "total": 29,
+  "razon": "Esquemas eléctricos desde texto con IA no son fiables para ingenieros que deben revisar todo; riesgo de IA y EPLAN/QElectroTech."
+ },
+ {
+  "id": "G09-13",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Healthchecks.io es OSS con plan gratis y Cronitor domina el SEO; mercado comoditizado y autohospedable."
+ },
+ {
+  "id": "G14-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Comprador (creadores de agentes de fabricación aditiva) diminuto y sin presupuesto probado; librerías OSS dan estimaciones gratis."
+ },
+ {
+  "id": "G07-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Faker, Mockaroo y asistentes de IA de los IDE cubren la necesidad gratis, y $8/mes exige volumen irreal (F5)."
+ },
+ {
+  "id": "G25-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 43,
+  "razon": "Dolor concreto y presupuesto ($199) con ventaja máxima de Juan y canal PLCTalk/r/PLC con alguna evidencia; reticencia a subir proyectos OT y formatos propietarios frenan."
+ },
+ {
+  "id": "G24-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Blackbox Explorer y PID Analyzer son gratis y $6/mes exige volumen irreal (F5)."
+ },
+ {
+  "id": "G16-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 38,
+  "razon": "Obligación trimestral real y pago plausible con SEO 'CBAM report template', pero exactitud regulatoria, normativa cambiante y sin competidores verificados."
+ },
+ {
+  "id": "G10-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "La API nativa de AWS Marketplace es gratis y el pool de ISVs es pequeño; difícil justificar $79 por un wrapper."
+ },
+ {
+  "id": "G20-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Gumroad/Cults3D ya cubren licencias y la marca de agua en STL es removible; vendedores pequeños pagan poco."
+ },
+ {
+  "id": "G08-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 39,
+  "razon": "API tipo ancla (DXF a corte/área) con MVP rápido y ventaja de Juan, pero comprador muy acotado, OSS y devs lo resuelven en días."
+ },
+ {
+  "id": "G26-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Existen muchas calculadoras de costo de impresión 3D gratis y los slicers ya estiman tiempo y filamento; $19 exige ~530 pagadores."
+ }
+]

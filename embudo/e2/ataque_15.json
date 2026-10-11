@@ -1,0 +1,222 @@
+[
+ {
+  "id": "G29-07",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Existen optimizadores de corte web gratuitos y el propio brief admite que son competencia; el precio de $35/mes contradice 'pago único' (el modelo real sería ~$30-60 una vez), lo que exige miles de compradores aficionados para $10k MRR. Aficionados sin pago recurrente.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G28-10",
+  "filtros_fallados": [
+   "F2"
+  ],
+  "objecion": "El comprador (integrador que escribe drivers) necesita mapas de registros de cientos de dispositivos para que la base sea útil; el esfuerzo de captura y el posible derecho de autor sobre manuales de fabricantes es alto, y el integrador resuelve cada dispositivo una vez, no mensualmente. Cobertura insuficiente = nadie paga $29/mes recurrente; sin verificar si existe un competidor.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-14",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Etsy y Amazon publican sus cambios de tarifas en sus propios foros/boletines y hay sellers y blogs que los resumen gratis; un monitor de páginas con $12/mes tiene churn alto (el aviso es puntual, no continuo). Sin verificar competidores; el riesgo declarado de saturación es real.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G01-14",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Nicho muy estrecho: imprentas de gran formato con tienda Shopify; apps de 'price by area' ya existen en la Shopify App Store (sin verificar cuáles). El nesting aporta poco al precio de cotización por m2, y el canal depende de una sola plataforma con pocos compradores por búsqueda.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-20",
+  "filtros_fallados": [],
+  "objecion": "OpenBOM y los PDM nativos (SolidWorks PDM/3DEXPERIENCE) ya comparan revisiones de BOM; un gerente de ingeniería con PDM no sumará otra herramienta, y los CAD exportan BOM a Excel donde la comparación es trivial. Subir BOMs de producción a un SaaS pequeño genera fricción de confianza (IP). Canal SEO plausible pero demanda de 'BOM comparison' sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-12",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Obsidian, Apple Notes cifradas y otros diarios offline son gratis o baratos; el 'pago único $29' contradice el precio mensual declarado y no hay ingreso recurrente. Consumidor final con baja disposición de pago; el propio riesgo lo admite. Product Hunt da picos, no flujo.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G16-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Dependency-Track y generadores de SBOM CycloneDX (cdxgen, syft) son gratis y suficientes para generar SBOM; lo que se vendería es el flujo ENISA, sin verificar que exista plataforma de envío abierta a terceros. Los fabricantes de IoT medianos compran con consultoras y ciclos largos, no autoservicio, y las reglas de reporte de CRA aún pueden cambiar. Fechas de aplicabilidad sin verificar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Langfuse (código abierto) y Braintrust ya convierten trazas de producción en datasets de evaluación; la función es una característica nativa de las plataformas donde ya viven los logs, y el espacio de evaluación LLM está muy saturado. Un complemento externo tendría que vencer la gravedad de plataforma.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G26-03",
+  "filtros_fallados": [
+   "F1",
+   "F4"
+  ],
+  "objecion": "El propio texto admite que Smartcat y otros tienen plan gratis (F1 posible); además hay CAT tools web baratas o gratuitas (sin verificar nombres exactos). Traductores freelance pagan poco y migrar memorias TMX es posible pero el hábito Trados es fuerte; a $15/mes se requieren ~700 pagadores para $10k y el canal ProZ es vago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G20-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Obico tiene plan gratuito (sin verificar el detalle) y OctoPrint/Klipper ya ofrecen notificaciones vía plugins gratuitos (Telegram, Discord). La cobertura de granjas profesionales es pequeña y las detecciones de anomalías sin hardware/cámara son poco fiables. Mercado de plugins comunitarios espera gratis.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G14-17",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Los proveedores ofrecen versiones fijas de modelo y las plataformas de observabilidad/evaluación pueden añadir pruebas canario programadas fácilmente (sin verificar); Slack Marketplace no es canal con intención de compra para esto. Cualquier equipo con CI puede hacer un cron con prompts de prueba. Fácil de copiar.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-12",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Existen utilidades online gratuitas o baratas de numeración Bates y herramientas de redacción en Acrobat, además de suites de e-discovery; el comprador paralegal exige confidencialidad y subir PDFs de litigio a un SaaS pequeño es un bloqueo; la redacción defectuosa tiene responsabilidad legal. Sin verificar precios de competidores.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G30-01",
+  "filtros_fallados": [],
+  "objecion": "MakeQuote y otras apps de cotización ya están en la Shopify App Store (evidencia dada); lo único diferencial es STEP, que exige un kernel de geometría (OpenCascade) y costear mecanizado desde geometría es difícil de hacer fiable; los talleres compran cotización con tarifas, no con geometría automática. Dependencia de Shopify. Ángulo real pero con ejecución costosa.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G26-04",
+  "filtros_fallados": [
+   "F1",
+   "F3"
+  ],
+  "objecion": "SimplePractice y TherapyNotes ya generan superbills de forma nativa (el propio texto lo admite); además se manejan datos de salud (HIPAA) y códigos CPT/ICD, con requisitos de cumplimiento. Los terapeutas ya pagan por su plataforma de práctica y no añadirán otra herramienta.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G23-06",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "Los vendedores de eBay Motors dependen de eBay (herramientas de compatibilidad nativas y fuentes de datos ACES/PIES sin verificar). Los datos de compatibilidad no se generan desde número de parte sin licenciar catálogos de fitment, que es lo difícil y costoso; sin eso la salida es poco confiable y genera devoluciones.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-08",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Plugins de seguimiento de pedidos para WooCommerce existen (estados personalizados y portales; sin verificar nombres), y un plugin de WordPress.org compite contra opciones gratuitas. Mercado de print farms pequeño y a $19/mes necesita ~500 clientes sin un canal con volumen.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G07-08",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "A $7/mes el MRR exige ~1,400 pagadores en una comunidad que espera gratis y OpenSCAD ya tiene editor con previsualización propia y extensiones comunitarias para VS Code (sin verificar). Mercado pequeño; el propio riesgo admite F5/F1.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G03-18",
+  "filtros_fallados": [
+   "F4"
+  ],
+  "objecion": "El cliente final no usa Slack, y un dueño de servicio de impresión rara vez trabaja en Slack; Slack Marketplace no tiene demanda de este nicho. Estimar tiempo/material desde STL con precisión requiere slicer; Craftcloud/Xometry ofrecen cotización instantánea a clientes (sin verificar). Canal incoherente con el comprador.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-04",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "El propio texto admite que las reglas delegadas aún no están definidas y el ciclo de compra es largo; fabricantes medianos con $149/mes querrán consultoría de cumplimiento, no autoservicio. Competidores como Circularise ya existen y atienden con ventas; incertidumbre regulatoria puede matar la demanda o cambiar el formato.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-16",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "La trazabilidad de requisitos en software regulado compite con Xray, Zephyr y otros en Atlassian Marketplace (sin verificar nombres exactos), con base instalada enorme. Software regulado exige validación y a $190/mes el comprador pide soporte/auditoría; entrar a Atlassian Marketplace con búsqueda 'traceability' está saturado.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G19-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Node-RED es gratis y cubre exactamente Modbus/OPC UA con nodos de email/Telegram; el técnico de mantenimiento no tiene presupuesto ni sabe instalar una pasarela, y quien sabe usa Node-RED. Sin ángulo diferencial claro; no hay comprador con presupuesto.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G06-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "WooCommerce y plugins gratuitos (incluyendo Customer Reviews for WooCommerce, sin verificar) ya envían recordatorios de reseñas; un plugin nuevo en WordPress.org compite contra opciones gratis maduras. Incentivar reseñas puede violar políticas de plataformas (Google, Trustpilot).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Plugins de IA para descripciones y asistentes de la propia plataforma (sin verificar) abundan; la IA generativa está integrada de forma nativa en muchos editores y el costo de API recae en el vendedor. Sin diferenciación, fácil de copiar y de saturación evidente.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G02-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "macOS, Windows y Snagit/CleanShot ya ofrecen desenfoque y pixelado manual; la detección automática de PII la puede añadir cualquier incumbente. A $8/mes para equipos de soporte, con riesgo de falsos negativos (fuga de datos) y dependencia de Chrome Web Store.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G23-19",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los vendedores usan hojas de cálculo y herramientas de inventario ya existentes (como Sellerboard o Inventory Lab, sin verificar); la 'inercia de hoja de cálculo' es el competidor real y el canal de grupos de Facebook es vago y no escalable. La integración con navieras es difícil sin API pagadas.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G16-05",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "Mercado muy reducido (fabricantes e importadores de baterías industriales/EV) y a $199/mes con requisitos cambiantes; Circulor y consultoras ya sirven al sector con ventas directas, y el pasaporte de baterías exige integración con sistemas de huella de carbono verificada. Fecha límite y reglas sin verificar; un formulario guiado no cumple la verificación de terceros.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G06-20",
+  "filtros_fallados": [
+   "F3"
+  ],
+  "objecion": "Requiere que el cliente aporte y mantenga el despiece (datos y diagramas) y el comprador B2B industrial tarda en decidir; el plugin de WordPress.org no es canal con intención de compra para ese perfil. Muchos fabricantes ya tienen catálogos propios o plataformas de PIM (sin verificar). El precio de $49/mes no justifica el costo de onboarding de datos.",
+  "severidad": "fuerte"
+ }
+]

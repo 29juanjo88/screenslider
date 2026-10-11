@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G24-16",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Precio $4/mes exige ~2,500 pagadores y PriceCharting/Collectorz ya cubren el caso."
+ },
+ {
+  "id": "G20-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Nicho pequeno de aficionados que usan hoja de calculo; canal de comunidad sin intencion de compra clara."
+ },
+ {
+  "id": "G10-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Coefficient ya hace exactamente esto de pago; sin diferenciacion."
+ },
+ {
+  "id": "G30-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 39,
+  "razon": "Ventaja DXF/CAM fuerte y canal SEO tipo ancla ALTA, pero pool chico y reglas variables por taller."
+ },
+ {
+  "id": "G27-19",
+  "filtro_fallado": "F2",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Sin comprador concreto que pague y datos de ventas por modelo no disponibles de forma fiable."
+ },
+ {
+  "id": "G11-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Excel tiene Get Data from PDF nativo y los LLM extraen tablas gratis."
+ },
+ {
+  "id": "G19-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Ventaja SCADA/PLC real y canal con intencion, pero migraciones puntuales (churn) y nicho pequeno."
+ },
+ {
+  "id": "G24-09",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $5/mes requiere ~2,000 pagadores en comunidad acostumbrada a software gratis (LoTW)."
+ },
+ {
+  "id": "G22-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Teachable/Thinkific ya traen reportes nativos de progreso y la propia idea admite que integraran mas."
+ },
+ {
+  "id": "G11-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "Comprador no busca en Workspace Marketplace; canal real exige outreach y mercado dudoso."
+ },
+ {
+  "id": "G28-18",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Hobbista a $19/mes recurrente no es creible y JLCPCB cotiza gratis al subir Gerbers; canal solo 'SEO'."
+ },
+ {
+  "id": "G19-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Linter ST/SCL con ventaja unica de Juan y canal GitHub/foros, pero formatos cerrados y adopcion CI temprana."
+ },
+ {
+  "id": "G01-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Canal Shopify App Store nombrado pero tiendas de materiales pocas y precio bajo."
+ },
+ {
+  "id": "G12-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Dolor real de gates en agentes pero n8n/Make/Zapier anaden aprobacion nativa; riesgo de plataforma alto."
+ },
+ {
+  "id": "G24-13",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $6/mes exige ~1,700 pagadores y World Anvil/Kanka/Notion cubren con planes gratis."
+ },
+ {
+  "id": "G29-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 5,
+   "riesgo": 4
+  },
+  "total": 41,
+  "razon": "SEO 'tolerance stack up calculator' con intencion y ventaja CAD de Juan, pero hojas gratis y modelo de precio incoherente."
+ },
+ {
+  "id": "G07-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Helicone/Langfuse con capa gratuita y dashboards de proveedores cubren el caso; sin foso."
+ },
+ {
+  "id": "G09-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Calculadoras gratuitas de cable de fabricantes abundan; la propia idea lo admite."
+ },
+ {
+  "id": "G22-10",
+  "filtro_fallado": "F2",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Jukin/ViralHog dominan y no hay comprador recurrente que pague $29/mes."
+ },
+ {
+  "id": "G14-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Generadores OpenAPI a MCP gratuitos y open source abundan; uso unico."
+ },
+ {
+  "id": "G12-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 42,
+  "razon": "Hueco real de CAD en no-code con canal de directorios Zapier/Make y ventaja alta, pero demanda hipotetica y dependencia de plataformas."
+ },
+ {
+  "id": "G10-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 40,
+  "razon": "Misma familia que el ancla ALTA, pero $300 por AWS Marketplace es dudoso y OpenCascade DIY compite."
+ },
+ {
+  "id": "G08-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Ventaja de firmware/slicers alta y canal SEO API, pero el slicer CLI es gratis y compradores pocos."
+ },
+ {
+  "id": "G19-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 33,
+  "razon": "Cotizadores 3D instantaneos ya existen como plugins; granjas pequenas pagan poco."
+ },
+ {
+  "id": "G21-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 1,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Generadores de simbolos gratis abundan y el comprador ocasional no mantiene suscripcion."
+ },
+ {
+  "id": "G09-20",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Calculadoras de feeds and speeds gratuitas de fabricantes y CAM; la propia idea lo admite."
+ },
+ {
+  "id": "G16-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Mercado grande por EAA pero axe/Pa11y/Lighthouse gratis cubren la deteccion; sin ventaja de Juan."
+ }
+]

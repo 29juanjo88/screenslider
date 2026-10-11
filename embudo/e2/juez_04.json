@@ -1,0 +1,434 @@
+[
+ {
+  "id": "G18-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "A $15/mes exige ~670 pagadores y el hobbista de Etsy paga poco; canal en foros/grupos disperso, sin evidencia."
+ },
+ {
+  "id": "G21-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "ChatGPT/Claude explican ladder/ST gratis; sin foso."
+ },
+ {
+  "id": "G07-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Copilot/Cursor/Claude Code ya explican repos dentro del IDE; el lider no paga por extension redundante."
+ },
+ {
+  "id": "G29-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Wave es gratis y el pago unico de $49 no genera MRR recurrente (F5)."
+ },
+ {
+  "id": "G12-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 4,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 39,
+  "razon": "Dolor monetario directo con comprador claro y sin incumbente gratis conocido; canal comunidad Make/SEO plausible, riesgo de plataforma."
+ },
+ {
+  "id": "G08-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 27,
+  "razon": "Postman/Newman cubren parcialmente y el canal Public API Network no es de compra; valor marginal."
+ },
+ {
+  "id": "G25-14",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "PDM de SolidWorks, Dropbox y Egnyte cubren versionado; agente en discos locales implica venta B2B/TI."
+ },
+ {
+  "id": "G04-18",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 39,
+  "razon": "Atlassian Marketplace con intencion de compra y ahorro cuantificable, pero hay vistas nativas y probables apps competidoras sin verificar; dependencia total."
+ },
+ {
+  "id": "G21-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "FMEA con software establecido y plantillas gratis; SEO competido y auditores prefieren herramientas validadas."
+ },
+ {
+  "id": "G06-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 29,
+  "razon": "Funcion de PDF configurable una vez, nicho WooCommerce B2B pequeno y copiable."
+ },
+ {
+  "id": "G18-10",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Slicers gratis (PrusaSlicer, Cura, Bambu) reparan mallas; vendedor STL paga poco a $12."
+ },
+ {
+  "id": "G17-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Uso episodico antes del lanzamiento, motores de facturacion y hojas de calculo lo cubren; retencion corta."
+ },
+ {
+  "id": "G25-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Microsoft Forms/SharePoint y plataformas de compliance ya incluyen acuses de politicas."
+ },
+ {
+  "id": "G27-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 28,
+  "razon": "Relicenciamientos son eventos raros y FOSSA/Snyk/GitHub pueden cubrirlo; es una caracteristica mas que un producto."
+ },
+ {
+  "id": "G04-13",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Marketplace Atlassian es canal real, pero escanear PII exige confianza y revision de seguridad; Atlassian ofrece funciones propias."
+ },
+ {
+  "id": "G10-12",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 38,
+  "razon": "HubSpot App Marketplace es canal nombrado con agencias que facturan auditorias; riesgo de vistas nativas y plataforma unica."
+ },
+ {
+  "id": "G14-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "LiteLLM, Helicone y limites nativos de proveedores dan presupuestos gratis; SDK trivial de replicar."
+ },
+ {
+  "id": "G15-11",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 2,
+   "riesgo": 1
+  },
+  "total": 26,
+  "razon": "Cobertura por municipio enorme, riesgo de alucinar requisitos y MVP inviable en 6 semanas."
+ },
+ {
+  "id": "G27-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 1,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 2,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 27,
+  "razon": "NVD/Dependabot gratis y mercado minusculo de granjas de impresion; ventaja de Juan no compensa."
+ },
+ {
+  "id": "G12-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Whalesync y Stacksync validan presupuesto pero ocupan el canal SEO; poca diferenciacion y presion de precio."
+ },
+ {
+  "id": "G15-16",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Agente a $149 que decide reclamos exige venta B2B y confianza; canal vago."
+ },
+ {
+  "id": "G09-18",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Ejemplos ladder gratis en PLCTalk/YouTube y ChatGPT; importacion propietaria fragil."
+ },
+ {
+  "id": "G28-07",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 35,
+  "razon": "Dolor real y ventaja fuerte de Juan en HMI, pero uso episodico, formatos variados y canal de nicho pequeno."
+ },
+ {
+  "id": "G28-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 1,
+   "riesgo": 1
+  },
+  "total": 25,
+  "razon": "Simulacion fiable requiere solver y datos de material; riesgo de responsabilidad y MVP muy superior a 6 semanas."
+ },
+ {
+  "id": "G24-12",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Manyfold open source cubre el caso y $8/mes exige >1,250 pagadores (F5)."
+ },
+ {
+  "id": "G03-16",
+  "filtro_fallado": "F3",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "DLP para Slack a $199 implica revisiones de seguridad y ciclo de compra largo; Nightfall/Slack lo cubren."
+ },
+ {
+  "id": "G06-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 39,
+  "razon": "Cotizacion de STL en WooCommerce elimina trabajo manual semanal, canal WordPress.org nombrado y ventaja de slicing; competidores sin verificar y nicho acotado."
+ }
+]

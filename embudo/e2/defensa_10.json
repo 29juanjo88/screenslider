@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G05-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G19-18",
+  "rescatar": true,
+  "respuesta": "Concedo que hay simuladores Modbus/OPC UA gratuitos y open source (sin verificar nombres). La diferencia viable: no un simulador de protocolo suelto sino un generador de escenarios con senales realistas (rampas, ruido, alarmas, fallos) y compartible por equipo, con servidor OPC UA/Modbus accesible desde la nube para pruebas remotas de HMI/SCADA y CI. Comprador: integradores que pierden dias en FAT/pruebas previas. Canal: SEO 'OPC UA simulator', GitHub y foros de Inductive Automation. Juan conoce SCADA y PLC.",
+  "ajuste_sugerido": "Enfocar en escenarios reproducibles para pruebas FAT/CI y compartir endpoints con el cliente; precio $49 por proyecto activo; validar que los gratuitos no cubren escenarios temporales."
+ },
+ {
+  "id": "G30-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G11-01",
+  "rescatar": true,
+  "respuesta": "Concedo que se puede hacer con formulas o script propio. Pero ese es el costo real: cada ingeniero reinventa la limpieza de BOM con formatos de SolidWorks/AutoCAD (unidades mixtas, numeros de parte inconsistentes, jerarquias). Un complemento con reglas ya hechas y un clic ahorra horas por cada revision de BOM, y es compra impulsiva de bajo friccion en Google Workspace Marketplace. Canal nombrado: busqueda en el Marketplace y r/MechanicalEngineering. Ventaja de Juan es conocer el formato real de BOM. Concedo que el nicho es chico y el volumen para $10k es dificil solo con esto.",
+  "ajuste_sugerido": "Ampliar a 'BOM toolkit' (limpieza, consolidacion, comparacion de revisiones, matching con proveedores) a $19-29 y usarlo como puerta para equipos de compras; tratar como producto semilla de bajo costo."
+ },
+ {
+  "id": "G20-19",
+  "rescatar": true,
+  "respuesta": "Concedo que sin secuencia en el STEP el resultado automatico es imperfecto y que hay riesgo de LLM general. Pero la solucion realista es semiautomatica: el usuario ordena pasos sobre el arbol de ensamblaje y la herramienta genera vistas explosionadas, numeracion de piezas y PDF, que es la parte lenta. Comprador: pequenas marcas de hardware que preparan manuales para produccion o retail, no solo Kickstarter (recurrente por cada producto/revision). Canal: SEO 'assembly instructions generator' y comunidades de crowdfunding. Juan conoce CAD/STEP.",
+  "ajuste_sugerido": "Reducir a MVP 'STEP a PDF de manual con explosion y BOM numerada', precio $29-49 con cobro por proyecto o plan mensual; evitar prometer secuenciacion automatica."
+ },
+ {
+  "id": "G20-06",
+  "rescatar": true,
+  "respuesta": "Concedo que Craftcloud/Xometry y plugins existen (sin verificar). Pero esos son marketplaces que se quedan con el pedido; el comprador aqui es el servicio de impresion bajo demanda o la tienda pequena que quiere conservar su cliente y sus margenes con su propia tabla de materiales y precios. Canal nombrado: busquedas 'instant quote 3D printing' en Shopify/WooCommerce App Store. Juan conoce slicing y analisis de mallas, lo que permite estimar tiempo/soporte con fidelidad. El precio $49 es defendible para negocios con pedidos regulares.",
+  "ajuste_sugerido": "Dirigirse a servicios con 20+ cotizaciones al mes (excluir tiendas con pocos pedidos); precio $49-99 segun volumen de cotizaciones; calibrar con presets de impresoras reales."
+ },
+ {
+  "id": "G04-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-01",
+  "rescatar": true,
+  "respuesta": "Concedo que el numero de fabricantes con HubSpot y ventas por CAD es reducido y que Paperless Parts existe (sin verificar integracion). Pero el segmento de talleres y fabricantes pequenos que cotizan a mano en HubSpot y no pueden pagar un sistema de cotizacion especializado es el comprador, y hoy no tiene app vertical. Canal nombrado: HubSpot App Marketplace con busquedas 'quote', 'CAD'. Ventaja de Juan: parseo CAD y costeo de manufactura. $79 reduce volumen requerido (~130+ clientes).",
+  "ajuste_sugerido": "Acotar a un proceso (corte laser/CNC) con reglas de costo configurables por cliente; precio $79-149; validar demanda con listados del Marketplace antes de construir."
+ },
+ {
+  "id": "G12-14",
+  "rescatar": true,
+  "respuesta": "Concedo que Notion tiene export e historial nativo y que existen servicios de backup (sin verificar nombres). El dolor es real: el export nativo no preserva relaciones/rollups ni es automatico, y la restauracion de bases borradas es limitada. Comprador: admin/ops de equipos que corren operaciones en Notion y ya pagan backups de SaaS. Canal nombrado con intencion de compra: busqueda 'notion backup' y galeria de integraciones de Notion. Backend/API es exactamente la ventaja de Juan; MVP en <6 semanas. Precio $29 plausible, ajustable por numero de workspaces.",
+  "ajuste_sugerido": "Posicionar en equipos/empresas (planes $29-99 por workspace) con diff e historial restaurable de bases de datos; validar huecos de API antes de prometer restauracion completa."
+ },
+ {
+  "id": "G29-01",
+  "rescatar": true,
+  "respuesta": "Concedo que Git y las comparaciones nativas cubren diffs basicos (sin verificar alcance exacto de Studio 5000/TIA Compare). Pero el nicho es el diff visual y revisable de L5X/TIA XML (ladder/FBD, no texto crudo), local y sin subir codigo propietario, algo que Git no da legible. El comprador es concreto: ingeniero de controles/integrador que ya paga licencias caras (Copia es de pago, evidencia de presupuesto existente). Canal nombrado: PLCTalk, r/PLC, YouTube. La objecion de precio se resuelve vendiendo licencia anual $199-299 en vez de $19/mes. Juan tiene experiencia directa en ambos IDE.",
+  "ajuste_sugerido": "Cobrar licencia anual $199-299 por puesto (equivale a ~$17-25/mes) y 'team' con revision de PR; empezar por L5X que es XML abierto; verificar alcance de la comparacion nativa antes de construir."
+ },
+ {
+  "id": "G15-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G15-03",
+  "rescatar": true,
+  "respuesta": "Concedo que slicers gratuitos senalan paredes finas y voladizos, y que un LLM explica errores. El valor no esta en detectar sino en el DFM pre-envio de STEP/STL para servicios de impresion: tolerancias, orientacion, ajuste de piezas ensambladas y sugerencias de rediseno concretas, algo que los slicers no hacen. Comprador: ingenieros de producto que envian piezas a imprimir y pierden iteraciones. Canal: r/3Dprinting, Printables y SEO 'check STL for printability'. Juan viene de firmware de impresoras 3D.",
+  "ajuste_sugerido": "Subir a equipos de ingenieria/diseno con planes por piezas analizadas (p. ej. $29-79) y reportes exportables; evitar el pagador casual; diferenciar con tolerancias y ensambles, no solo voladizos."
+ },
+ {
+  "id": "G15-04",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G18-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-08",
+  "rescatar": true,
+  "respuesta": "Concedo que Vanta/Drata cubren parte de la evidencia y que quien ya paga una plataforma no necesita esto (sin verificar integraciones exactas). Pero muchas startups pequenas preparan SOC 2 con auditor y hojas de calculo antes de comprar plataforma, y la evidencia en Jira (aprobaciones, cambios) es un dolor puntual. Comprador concreto: lider de seguridad/compliance. Canal nombrado: busqueda 'SOC 2' en Atlassian Marketplace. Precio $180 reduce la necesidad de volumen. Concedo que depende de una sola plataforma.",
+  "ajuste_sugerido": "Posicionar como complemento de 'evidencia de gestion de cambios' para equipos sin plataforma de compliance, precio $100-180; validar con 3-5 auditores si el paquete exportado es aceptado."
+ },
+ {
+  "id": "G30-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-10",
+  "rescatar": true,
+  "respuesta": "Concedo que Apollo GraphOS y Stellate existen y hay librerias open source de complejidad (sin verificar nombres). El hueco: costo por consulta con medicion y limites por cliente listos para APIs publicas que facturan por uso, sin migrar a una plataforma completa de grafo. Comprador: equipos con API GraphQL publica que ya sufren abuso. Canal nombrado: SEO 'graphql query cost limiting', npm/GitHub y Discord de GraphQL. GraphQL esta en el stack de Juan; el modelo product-led (libreria gratis + SaaS de reportes) encaja.",
+  "ajuste_sugerido": "Modelo open core: middleware gratis en npm y SaaS de reportes/limites por cliente a $59; apuntar a APIs que cobran por uso; verificar precios de Stellate antes."
+ }
+]

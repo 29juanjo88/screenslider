@@ -1,0 +1,158 @@
+[
+ {
+  "id": "G03-01",
+  "rescatar": true,
+  "respuesta": "Concedo que las plantas con OT aislada quedan fuera y que Ignition/SCADA notifican por email/SMS. Pero el comprador no es la planta aislada: es el ingeniero de controles de plantas medianas o integradores que ya usan Slack/Teams para mantenimiento y que hoy reenvian alarmas por email que se pierden. El filtro F1 no aplica porque email/SMS no ofrece acuse con boton ni enrutamiento por canal. El agente local se resuelve con un contenedor/gateway de solo salida (HTTPS saliente, sin puertos entrantes), compatible con politicas de red tipicas. Canal nombrado: Slack App Directory y r/PLC; demanda en el directorio sin verificar, pero es testeable barato.",
+  "ajuste_sugerido": "Posicionar como app para integradores y plantas medianas; agente de solo salida (outbound) con MQTT/OPC UA; vender plan por planta a $29-49; validar demanda con landing + busqueda en el directorio antes de construir el agente completo."
+ },
+ {
+  "id": "G19-09",
+  "rescatar": true,
+  "respuesta": "Concedo que la precision OCR es el producto y que un LLM generico lo hace a mano. El valor defendible es el flujo: extraccion con revision lado a lado, plantillas por empresa, exportacion a Excel/ERP y trazabilidad, no el OCR crudo. Comprador concreto: comprador/ingeniero de costos en talleres y OEM que hoy teclea BOM a mano cada semana (dolor recurrente y medible). La revision humana no erosiona el valor si reduce de horas a minutos. SEO 'extract BOM from PDF drawing' es consulta de intencion de herramienta; volumen sin verificar.",
+  "ajuste_sugerido": "Nicho: tablas de BOM/title-block en PDF vectorial (no escaneos) para subir precision; cobrar por paginas/mes ($59-99); mostrar confianza por fila y exportar a Excel con diff."
+ },
+ {
+  "id": "G27-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G05-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G17-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-03",
+  "rescatar": true,
+  "respuesta": "Concedo diferenciacion debil y que hay apps de catalogos PDF (sin verificar). El angulo es fichas tecnicas B2B industriales con dibujos, specs y estructura desde metafields, para tiendas de equipo industrial que hoy las arman a mano; las apps de catalogo genericas rara vez manejan dibujos tecnicos y unidades. Canal nombrado: Shopify App Store 'PDF datasheet'. Comprador: gerente de e-commerce B2B. Ventaja de documentacion industrial de Juan.",
+  "ajuste_sugerido": "Vender como 'datasheets tecnicos B2B' con campos de specs/unidades/dibujos CAD y descarga en la pagina de producto; $19-39; comprobar competidores en la App Store antes de construir."
+ },
+ {
+  "id": "G17-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-17",
+  "rescatar": true,
+  "respuesta": "Concedo nicho pequeno y que falta geometria de maquina para colisiones reales. Pero el filtro F4 si tiene canal: SEO 'gcode validator api' y foros de CNC/impresion 3D, y es de las pocas ideas con ventaja real de Juan (firmware de impresoras 3D y CAM). Comprador: desarrolladores de software de talleres/servicios de impresion bajo demanda y plataformas de CAM web, que no quieren mantener parsers por firmware. Aclarar alcance: validacion de limites de eje, feedrates, comandos por dialecto (Marlin/Klipper/GRBL) y estimacion de tiempo, sin colisiones con stock en v1.",
+  "ajuste_sugerido": "Reducir alcance a linter por dialecto + limites de maquina + tiempo estimado; precio $49-69 con tramo por llamadas; ofrecer tambien version web gratuita como gancho SEO."
+ },
+ {
+  "id": "G10-17",
+  "rescatar": true,
+  "respuesta": "Concedo que HubSpot tiene propiedades calculadas y existen CPQ (sin verificar). El nicho es fabricantes/distribuidores con formulas de precio personalizadas (dimensiones, material, escalas) que las propiedades calculadas no manejan bien y para los que un CPQ completo es caro y pesado. El canal es el mas fuerte de todo el lote: busqueda en HubSpot App Marketplace con intencion de compra, y a $69 se necesitan ~150-700 clientes. Comprador: RevOps/admin de HubSpot. Riesgo de plataforma unica, marcado.",
+  "ajuste_sugerido": "Posicionar explicitamente como 'calculadora de cotizacion para productos configurables' y no CPQ; precio por tiers $69-149; validar con listados en el marketplace y busquedas de formula pricing."
+ },
+ {
+  "id": "G12-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G03-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-04",
+  "rescatar": true,
+  "respuesta": "Concedo que existen apps de fitment automotriz y que la tabla es el trabajo dificil. El angulo es el subnicho no automotriz (impresoras 3D, CNC, electronica) donde las apps de fitment por ano/modelo/marca no encajan. Comprador concreto: dueno de tienda Shopify de repuestos con devoluciones por incompatibilidad. Importacion por CSV y plantilla reducen el trabajo de la tabla. Canal Shopify App Store 'fitment' / 'part finder' es busqueda con intencion; dominio de incumbentes sin verificar.",
+  "ajuste_sugerido": "Reposicionar como 'compatibility finder' generico (no automotriz) con relacion N:N pieza-modelo y plantillas CSV por vertical (impresoras 3D, CNC); $29."
+ },
+ {
+  "id": "G22-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-06",
+  "rescatar": true,
+  "respuesta": "Concedo que la IA puede fallar y que un falso negativo cuesta. Se mitiga posicionando como checklist/asistente de revision (no certificacion) con reglas deterministas sobre DXF y PDF vectorial: simbolos, datums faltantes, tolerancias contradictorias. El comprador es el ingeniero de diseno/calidad individual que paga con tarjeta, no un ciclo largo corporativo. SEO 'GD&T checker' tiene intencion de busqueda directa; competidores sin verificar. Ventaja real de Juan en dibujo tecnico.",
+  "ajuste_sugerido": "Entrar como herramienta individual self-serve a $39 con disclaimer de apoyo a la revision; empezar con reglas deterministas y solo luego IA; medir intencion con una pagina SEO antes de construir."
+ },
+ {
+  "id": "G14-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-09",
+  "rescatar": true,
+  "respuesta": "Concedo muchas calculadoras gratis y la responsabilidad profesional. Se defiende por el flujo completo que las gratis no dan: curvas de bomba, perdidas, reporte PDF con memoria de calculo y guardado de proyectos para consultoras. F1 no aplica a ese flujo; el comprador es el ingeniero de consultora que hoy usa Excel. SEO de calculadoras es de alto volumen (sin verificar cifras) y sirve de embudo gratis a plan de pago.",
+  "ajuste_sugerido": "Modelo freemium: calculadora gratuita para SEO y plan de pago por reportes/proyectos; $29; disclaimer de verificacion del ingeniero."
+ },
+ {
+  "id": "G18-15",
+  "rescatar": true,
+  "respuesta": "Concedo que hay calculadoras gratis y Excel. Pero el ingeniero que paga lo hace por reportes auditables, analisis estadistico (RSS, Monte Carlo) y compartir stacks con el equipo, que Excel hace mal y CETOL cobra como enterprise. F1 no aplica a ese segmento: el incumbente gratis no es suficientemente bueno para reportes y distribuciones. Canal: SEO 'tolerance stack up calculator' (busqueda recurrente de ingenieros), YouTube. Ventaja de Juan en GD&T sin verificar competidores concretos.",
+  "ajuste_sugerido": "Diferenciar con reporte PDF, analisis estadistico y biblioteca de stacks guardados; plan individual $19-29 y plan de equipo; combinar con GD&T Checker como suite."
+ },
+ {
+  "id": "G05-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G24-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

@@ -1,0 +1,562 @@
+[
+ {
+  "id": "G06-02",
+  "nombre": "DXF Laser Cutting Quote",
+  "cliente_que_paga": "Talleres de corte láser/CNC con tienda WooCommerce",
+  "problema": "Cotizar piezas DXF por correo es lento y se pierden clientes.",
+  "solucion": "Plugin que lee DXF, calcula área de corte, perímetro y precio por material.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Listado en WordPress.org, foros de talleres láser y SEO 'laser cutting quote plugin'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Cada vez más talleres venden online.",
+  "ventaja_juan": "Experiencia CAD/CAM y DXF.",
+  "riesgo_principal": "Nicho pequeño; outreach necesario.",
+  "evidencia_url": "sin verificar",
+  "angulo": "06",
+  "tema": "cotización DXF láser",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G01-09",
+  "nombre": "Return Reason Insights",
+  "cliente_que_paga": "Comerciantes con >500 pedidos/mes y altas devoluciones",
+  "problema": "No saben qué productos o proveedores causan devoluciones.",
+  "solucion": "Panel que clasifica motivos de devolución por SKU/proveedor con alertas y informes mensuales.",
+  "precio_usd_mes": 39,
+  "canal_primeros_100": "Búsqueda 'returns analytics' en Shopify App Store",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Las devoluciones son el mayor costo del e-commerce.",
+  "ventaja_juan": "Backend y analítica de datos.",
+  "riesgo_principal": "Apps de devoluciones grandes pueden añadir analítica.",
+  "evidencia_url": "sin verificar",
+  "angulo": "01",
+  "tema": "analítica de devoluciones",
+  "tema_norm": "operaciones de tienda online",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-11",
+  "nombre": "Design QA Diff",
+  "cliente_que_paga": "QA y front-end leads que verifican implementación",
+  "problema": "Comparar el diseño con la UI implementada es visual y manual.",
+  "solucion": "Plugin + CLI que compara capturas de staging con frames de Figma y reporta diferencias en píxeles y espaciado.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "Figma Community ('design QA') y dev.to/Hacker News 'visual regression'.",
+  "competidores": [
+   "Percy y Chromatic (conozco, precios sin verificar)"
+  ],
+  "por_que_ahora": "Más equipos automatizan CI visual.",
+  "ventaja_juan": "Backend, CI, TS.",
+  "riesgo_principal": "Chromatic y similares ya integran Figma.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "QA visual de diseño",
+  "tema_norm": "Figma a código y QA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G04-03",
+  "nombre": "Change Control for Engineering",
+  "cliente_que_paga": "Gerentes de calidad/ingeniería en fabricantes que usan Jira",
+  "problema": "Gestionar ECR/ECN con aprobaciones y trazabilidad en Jira exige configuración compleja.",
+  "solucion": "App con flujo ECR/ECN preconfigurado, aprobaciones por rol, registro de auditoría y export PDF.",
+  "precio_usd_mes": 200,
+  "canal_primeros_100": "Búsqueda 'ECO' 'change control' en Atlassian Marketplace",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Fabricantes migran de PLM pesado a herramientas ligeras en la nube.",
+  "ventaja_juan": "Conocimiento de procesos industriales y documentación técnica.",
+  "riesgo_principal": "Compradores regulados pueden exigir validación formal.",
+  "evidencia_url": "sin verificar",
+  "angulo": "04",
+  "tema": "control de cambios ECN",
+  "tema_norm": "control de cambios de ingeniería",
+  "duplicado_de": null
+ },
+ {
+  "id": "G14-09",
+  "nombre": "Agent Audit Trail",
+  "cliente_que_paga": "Equipos de cumplimiento en empresas medianas que usan agentes",
+  "problema": "Los agentes actúan en sistemas internos sin registro auditable para SOC 2.",
+  "solucion": "Registro inmutable de acciones de agentes con exportación a evidencia SOC 2 y ISO.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "Marketplace de integraciones de Vanta y Drata y SEO 'AI agent audit log SOC 2'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los auditores empiezan a preguntar por controles de IA.",
+  "ventaja_juan": "Backend y registros de eventos.",
+  "riesgo_principal": "Ciclos de compra pueden exigir ventas.",
+  "evidencia_url": "sin verificar",
+  "angulo": "14",
+  "tema": "auditoría de agentes IA",
+  "tema_norm": "seguridad y permisos de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G10-14",
+  "nombre": "AWS Marketplace Industrial MQTT Gateway",
+  "cliente_que_paga": "IIoT engineer at factory IT",
+  "problema": "Plant data from PLCs needs to land in AWS reliably with schema mapping.",
+  "solucion": "Marketplace AMI/container bridging OPC UA/Modbus to AWS IoT/S3 with config UI.",
+  "precio_usd_mes": 250,
+  "canal_primeros_100": "AWS Marketplace search 'OPC UA' and 'IIoT'",
+  "competidores": [
+   "AWS IoT SiteWise",
+   "Kepware"
+  ],
+  "por_que_ahora": "Smart-factory data projects need cloud pipelines.",
+  "ventaja_juan": "PLC and industrial protocol knowledge.",
+  "riesgo_principal": "AWS SiteWise is native and hardware support burden.",
+  "evidencia_url": "sin verificar",
+  "angulo": "10",
+  "tema": "OPC UA to AWS",
+  "tema_norm": "datos industriales OPC UA/Modbus",
+  "duplicado_de": null
+ },
+ {
+  "id": "G25-03",
+  "nombre": "Inventario de SaaS en la sombra",
+  "cliente_que_paga": "Jefe de IT en empresa de 200-2000 empleados",
+  "problema": "No se sabe qué apps SaaS usan los empleados ni cuánto cuestan.",
+  "solucion": "Conecta Google/Microsoft OAuth y correo de facturas para listar apps, usuarios y renovaciones.",
+  "precio_usd_mes": 199,
+  "canal_primeros_100": "Directorios Google Workspace Marketplace y Microsoft AppSource + SEO 'SaaS discovery tool'",
+  "competidores": [
+   "Zluri",
+   "BetterCloud",
+   "Torii"
+  ],
+  "por_que_ahora": "Recortes de costos y auditorías de SaaS.",
+  "ventaja_juan": "Integraciones OAuth con Node/TS.",
+  "riesgo_principal": "Competidores con presupuesto grande; ventas enterprise.",
+  "evidencia_url": "sin verificar",
+  "angulo": "25",
+  "tema": "inventario SaaS",
+  "tema_norm": "optimización de licencias SaaS",
+  "duplicado_de": null
+ },
+ {
+  "id": "G23-04",
+  "nombre": "Marketplace Fee Profit Simulator",
+  "cliente_que_paga": "Amazon/Etsy/eBay/TikTok multi-channel sellers",
+  "problema": "True per-SKU profit after fees, shipping and ads is unclear.",
+  "solucion": "Import orders from each marketplace and show net margin per SKU with alerts.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Chrome Web Store and Amazon seller Facebook groups",
+  "competidores": [
+   "Sellerboard",
+   "Sellerise"
+  ],
+  "por_que_ahora": "Fee changes are frequent.",
+  "ventaja_juan": "Fast backend/GraphQL integration.",
+  "riesgo_principal": "Crowded profit-analytics market.",
+  "evidencia_url": "sin verificar",
+  "angulo": "23",
+  "tema": "margen por SKU",
+  "tema_norm": "vendedores de marketplaces",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-02",
+  "nombre": "Design Token Sync Pro",
+  "cliente_que_paga": "Design systems leads y front-end leads en empresas medianas",
+  "problema": "Los tokens de Figma divergen del código; la sincronización manual genera bugs visuales.",
+  "solucion": "Plugin que exporta variables de Figma a CSS/Tailwind/TS y abre PR automático en GitHub con diff visual.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community (búsqueda 'design tokens export') y listados en awesome-design-systems.",
+  "competidores": [
+   "Tokens Studio (conozco, precios sin verificar)"
+  ],
+  "por_que_ahora": "Figma Variables están maduras y los equipos buscan automatizar handoff.",
+  "ventaja_juan": "Backend TS/GraphQL, integraciones GitHub.",
+  "riesgo_principal": "Tokens Studio ya domina; diferenciación en PR automático debe ser clara.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "tokens de diseño a código",
+  "tema_norm": "Figma a código y QA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-13",
+  "nombre": "Drawing-to-BOM API",
+  "cliente_que_paga": "Desarrolladores de ERP/PLM ligeros",
+  "problema": "Extraer lista de materiales y cotas de PDFs de planos requiere OCR técnico.",
+  "solucion": "API que lee planos PDF/DXF y devuelve cotas, tolerancias, material y lista estructurada.",
+  "precio_usd_mes": 149,
+  "canal_primeros_100": "SEO 'extract dimensions from engineering drawing api', directorios de APIs de IA.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Modelos de visión permiten extracción antes imposible.",
+  "ventaja_juan": "Lectura de planos y AutoCAD/SolidWorks.",
+  "riesgo_principal": "IA generalista podría cubrirlo.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "extracción de planos",
+  "tema_norm": "lectura de planos y metrados",
+  "duplicado_de": null
+ },
+ {
+  "id": "G21-13",
+  "nombre": "SPC Dashboard",
+  "cliente_que_paga": "Ingenieros de calidad en manufactura mediana",
+  "problema": "Control estadístico de proceso en Excel es frágil.",
+  "solucion": "Sube CSV y obtén cartas X-bar/R, Cp/Cpk y alertas.",
+  "precio_usd_mes": 49,
+  "canal_primeros_100": "SEO 'SPC chart online', LinkedIn ASQ, r/Quality.",
+  "competidores": [
+   "Minitab (caro, sin verificar)",
+   "QI Macros (sin verificar)"
+  ],
+  "por_que_ahora": "Calidad digital sin MES.",
+  "ventaja_juan": "Conocimiento manufactura.",
+  "riesgo_principal": "Minitab domina.",
+  "evidencia_url": "sin verificar",
+  "angulo": "21",
+  "tema": "control estadístico calidad",
+  "tema_norm": "calidad y soldadura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G20-18",
+  "nombre": "Printer Fleet Firmware Updater",
+  "cliente_que_paga": "Operadores de granjas con impresoras mixtas",
+  "problema": "Actualizar firmware en decenas de máquinas es manual.",
+  "solucion": "Panel que orquesta actualizaciones y respaldos de configuración por lote.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Plugins de Klipper/Moonraker y Discord de granjas.",
+  "competidores": [
+   "Scripts caseros"
+  ],
+  "por_que_ahora": "Granjas más grandes con más máquinas.",
+  "ventaja_juan": "Experiencia directa en firmware.",
+  "riesgo_principal": "Riesgo de brickear equipos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "20",
+  "tema": "actualización firmware flota",
+  "tema_norm": "perfiles slicer y firmware 3D",
+  "duplicado_de": null
+ },
+ {
+  "id": "G16-18",
+  "nombre": "California Privacy Opt-Out Tester",
+  "cliente_que_paga": "Equipos de privacidad de sitios con tráfico en EE. UU.",
+  "problema": "Deben probar que GPC y opt-outs CCPA funcionen realmente.",
+  "solucion": "Servicio que escanea sitios con navegador headless y verifica GPC, cookies y tags.",
+  "precio_usd_mes": 59,
+  "canal_primeros_100": "SEO 'GPC signal test', Reddit r/privacy, Product Hunt",
+  "competidores": [
+   "Cookiebot",
+   "OneTrust",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Aplicación creciente de CCPA/CPRA y leyes estatales nuevas.",
+  "ventaja_juan": "Node/Playwright.",
+  "riesgo_principal": "Escaneos gratis de CMPs.",
+  "evidencia_url": "sin verificar",
+  "angulo": "16",
+  "tema": "privacidad CCPA GPC",
+  "tema_norm": "secretos, PII y privacidad",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-08",
+  "nombre": "Renovate Triage",
+  "cliente_que_paga": "Mantenedores y equipos con cientos de PRs de Dependabot/Renovate",
+  "problema": "El ruido de PRs de dependencias hace que se ignoren actualizaciones críticas.",
+  "solucion": "App que agrupa, prioriza por riesgo y auto-aprueba PRs seguros según CI verde y changelog.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "GitHub Marketplace ('dependabot'), SEO 'too many dependabot PRs'",
+  "competidores": [
+   "Renovate (gratis, con agrupación)",
+   "Dependabot grouped updates (gratis)"
+  ],
+  "por_que_ahora": "Aumentan los CVE reportados y la fatiga de alertas.",
+  "ventaja_juan": "Backend Node/TS.",
+  "riesgo_principal": "Incumbentes gratis cubren agrupación (riesgo F1 alto).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "triage de dependencias",
+  "tema_norm": "licencias, SBOM y CVE de software",
+  "duplicado_de": null
+ },
+ {
+  "id": "G07-10",
+  "nombre": "Agent Guard",
+  "cliente_que_paga": "Equipos técnicos que usan agentes IA de código",
+  "problema": "Agentes ejecutan comandos o leen secretos sin control.",
+  "solucion": "Extensión VS Code que audita y bloquea acciones de agentes (shell, red, archivos sensibles) con políticas.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "Búsqueda 'ai agent security' en VS Code Marketplace, Hacker News, comunidades de Claude Code y Cursor.",
+  "competidores": [
+   "Controles nativos de cada agente",
+   "Herramientas de seguridad emergentes (sin verificar)"
+  ],
+  "por_que_ahora": "Adopción masiva de agentes de código.",
+  "ventaja_juan": "Backend senior capaz de construir el hook layer.",
+  "riesgo_principal": "Los agentes integran estas funciones de forma nativa (F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "07",
+  "tema": "seguridad de agentes IA",
+  "tema_norm": "seguridad y permisos de agentes IA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G17-04",
+  "nombre": "Stripe Failed Payment Sentinel",
+  "cliente_que_paga": "Dueños de SaaS pequeños en Stripe",
+  "problema": "Pagos fallidos silenciosos causan churn involuntario del 5-10% (sin verificar).",
+  "solucion": "Alertas y secuencias de reintento/emails con panel de recuperación sobre la API de Stripe.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Stripe App Marketplace y búsqueda 'recover failed payments Stripe'",
+  "competidores": [
+   "Churnkey",
+   "Baremetrics Recover",
+   "Stripe Smart Retries (gratis)"
+  ],
+  "por_que_ahora": "Más SaaS indie en Stripe y apps de Stripe marketplace maduras.",
+  "ventaja_juan": "Node/TypeScript y webhooks.",
+  "riesgo_principal": "F1 parcial: Stripe tiene reintentos nativos.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "recuperación pagos fallidos",
+  "tema_norm": "cobros y retención de suscripciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-10",
+  "nombre": "3D Mockup Studio",
+  "cliente_que_paga": "Marketers de apps y SaaS que hacen capturas de producto",
+  "problema": "Mockups 3D de dispositivos requieren herramientas externas y exportes repetitivos.",
+  "solucion": "Plugin que aplica frames de Figma a modelos 3D de dispositivos con escenas y exporta MP4/PNG.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Figma Community ('3D mockup') y SEO 'figma 3d mockup'.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Video y capturas animadas son estándar en Product Hunt y stores.",
+  "ventaja_juan": "Gráficos 3D/CAD.",
+  "riesgo_principal": "Muchos mockups gratis (F1 riesgo).",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "mockups 3D de producto",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G17-11",
+  "nombre": "Dunning Email Writer",
+  "cliente_que_paga": "Equipos de customer success en SaaS B2B",
+  "problema": "Emails de cobro mal escritos aumentan tensión y no cobran.",
+  "solucion": "Generador de secuencias de dunning por tono/segmento con envío vía SMTP.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "SEO 'dunning email templates' y Stripe Marketplace",
+  "competidores": [
+   "Churnkey",
+   "Chargebee",
+   "Stripe (plantillas nativas)"
+  ],
+  "por_que_ahora": "IA hace posible personalizar a escala.",
+  "ventaja_juan": "Backend y plantillas.",
+  "riesgo_principal": "Plantillas gratis en blogs.",
+  "evidencia_url": "sin verificar",
+  "angulo": "17",
+  "tema": "emails cobranza SaaS",
+  "tema_norm": "cobros y retención de suscripciones",
+  "duplicado_de": null
+ },
+ {
+  "id": "G05-06",
+  "nombre": "Copy Deck Localizer",
+  "cliente_que_paga": "Product designers y localization managers en SaaS",
+  "problema": "Sincronizar textos para traducción entre Figma y TMS genera retrasos y errores de longitud.",
+  "solucion": "Plugin que extrae strings, los envía a archivos i18n (JSON/XLIFF) y previsualiza textos traducidos con overflow en el diseño.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "Figma Community ('localization', 'i18n') y comunidad Lokalise/Crowdin en Slack/blogs.",
+  "competidores": [
+   "Lokalise y Phrase tienen plugins (precios sin verificar)"
+  ],
+  "por_que_ahora": "Lanzamientos globales rápidos en SaaS.",
+  "ventaja_juan": "JSON/i18n, TS.",
+  "riesgo_principal": "Los TMS ya incluyen plugins gratuitos con su suscripción.",
+  "evidencia_url": "sin verificar",
+  "angulo": "05",
+  "tema": "localización de diseños",
+  "tema_norm": "Figma procesos y manufactura",
+  "duplicado_de": null
+ },
+ {
+  "id": "G30-06",
+  "nombre": "G-code Post Fixer",
+  "cliente_que_paga": "CNC hobbyist or small shop with Fusion/FreeCAD",
+  "problema": "Custom post-processors need paid CAM add-ons or scripting skills.",
+  "solucion": "Upload G-code, choose controller, get converted code with preview and safety checks.",
+  "precio_usd_mes": 15,
+  "canal_primeros_100": "SEO 'convert gcode for grbl/mach3', r/hobbycnc, CNCzone",
+  "competidores": [
+   "Autodesk post library (sin verificar)"
+  ],
+  "por_que_ahora": "Cheap CNC machines keep multiplying.",
+  "ventaja_juan": "CAM and G-code experience.",
+  "riesgo_principal": "Price low; needs about 700 payers for $10k.",
+  "evidencia_url": "sin verificar",
+  "angulo": "30",
+  "tema": "posprocesador G-code",
+  "tema_norm": "maquinado CNC y despiece",
+  "duplicado_de": null
+ },
+ {
+  "id": "G22-08",
+  "nombre": "Newsletter Archive SEO Rebuilder",
+  "cliente_que_paga": "Newsletters que quieren tráfico de búsqueda",
+  "problema": "Archivo web de ediciones no posiciona.",
+  "solucion": "Convierte ediciones en páginas SEO con schema, enlaces internos y sitemap.",
+  "precio_usd_mes": 25,
+  "canal_primeros_100": "Beehiiv/Substack communities y SEO 'newsletter archive SEO'",
+  "competidores": [
+   "Beehiiv native archive",
+   "Ghost"
+  ],
+  "por_que_ahora": "Búsqueda orgánica sigue siendo la fuente de suscriptores.",
+  "ventaja_juan": "Poca.",
+  "riesgo_principal": "Plataformas mejoran archivo nativo.",
+  "evidencia_url": "https://create.beehiiv.com/p/the-most-reliable-way-to-get-content-ideas",
+  "angulo": "22",
+  "tema": "SEO archivo newsletter",
+  "tema_norm": "newsletters y podcasts",
+  "duplicado_de": null
+ },
+ {
+  "id": "G08-04",
+  "nombre": "PLC Tag Parser API",
+  "cliente_que_paga": "Desarrollador de herramientas de ingeniería industrial/IIoT",
+  "problema": "Leer exportaciones de proyectos PLC (TIA, Studio 5000 L5X) para documentación y auditoría es tedioso.",
+  "solucion": "API que parsea L5X/AWL/exportes XML y devuelve tags, rutinas, I/O y diagramas de dependencias en JSON.",
+  "precio_usd_mes": 89,
+  "canal_primeros_100": "SEO 'parse l5x file api', foros PLCTalk/Reddit r/PLC con ejemplos, directorios de APIs.",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Auge de IA para generar y revisar código PLC necesita parsers confiables.",
+  "ventaja_juan": "PLC Siemens y Rockwell: raro entre desarrolladores web.",
+  "riesgo_principal": "Nicho pequeño; formatos propietarios cambian.",
+  "evidencia_url": "sin verificar",
+  "angulo": "08",
+  "tema": "API para PLC",
+  "tema_norm": "conversión de tags PLC/SCADA",
+  "duplicado_de": null
+ },
+ {
+  "id": "G26-06",
+  "nombre": "CPD Tracker for Licensed Professionals",
+  "cliente_que_paga": "Ingenieros y arquitectos con licencia",
+  "problema": "Rastrear horas de educación continua por estado/colegio con requisitos distintos.",
+  "solucion": "Registro de certificados con alertas por renovación según jurisdicción.",
+  "precio_usd_mes": 12,
+  "canal_primeros_100": "SEO 'PE continuing education tracker' y subreddit r/engineering",
+  "competidores": [
+   "sin verificar"
+  ],
+  "por_que_ahora": "Renovaciones obligatorias recurrentes.",
+  "ventaja_juan": "Software casi gratis; sin ventaja industrial especial.",
+  "riesgo_principal": "Precio bajo exige volumen alto.",
+  "evidencia_url": "sin verificar",
+  "angulo": "26",
+  "tema": "créditos CPD licencias",
+  "tema_norm": "servicios profesionales independientes",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-11",
+  "nombre": "Image CVE Diff",
+  "cliente_que_paga": "Equipos DevOps que construyen contenedores",
+  "problema": "Los escáneres listan cientos de CVE sin decir qué cambió con este PR.",
+  "solucion": "Action que compara la imagen base antes/después y comenta solo CVE nuevos, con tamaño de imagen y sugerencia de base más pequeña.",
+  "precio_usd_mes": 29,
+  "canal_primeros_100": "GitHub Marketplace ('docker scan'), SEO 'docker image size diff github action'",
+  "competidores": [
+   "Trivy (gratis)",
+   "Docker Scout (sin verificar)",
+   "Snyk (sin verificar)"
+  ],
+  "por_que_ahora": "Los requisitos SBOM y de cadena de suministro presionan a equipos pequeños.",
+  "ventaja_juan": "Backend.",
+  "riesgo_principal": "Trivy y Scout cubren gran parte (riesgo F1).",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "diff de imágenes Docker",
+  "tema_norm": "licencias, SBOM y CVE de software",
+  "duplicado_de": null
+ },
+ {
+  "id": "G18-01",
+  "nombre": "Instant DXF quote widget for laser shops",
+  "cliente_que_paga": "Owner of a laser/waterjet cutting shop",
+  "problema": "Shops lose RFQs because quoting DXF files by hand takes hours.",
+  "solucion": "Embeddable widget that parses DXF, computes cut length/pierces/material and returns an instant price.",
+  "precio_usd_mes": 79,
+  "canal_primeros_100": "Shopify/WordPress plugin listings plus r/lasercutting and Facebook laser-shop groups",
+  "competidores": [
+   "Xometry",
+   "Protolabs",
+   "Paperless Parts (enterprise)"
+  ],
+  "por_que_ahora": "Customers expect Amazon-like instant quotes.",
+  "ventaja_juan": "Knows DXF geometry and nesting costs from CAD/CAM work.",
+  "riesgo_principal": "Shops fear exposing pricing and need setup effort.",
+  "evidencia_url": "sin verificar",
+  "angulo": "18",
+  "tema": "cotización CAD",
+  "tema_norm": "cotización corte láser/DXF",
+  "duplicado_de": null
+ },
+ {
+  "id": "G11-13",
+  "nombre": "Gerber/DXF Metrics in Sheets",
+  "cliente_que_paga": "Fabricantes de PCB y corte láser",
+  "problema": "Extraer longitud de corte, área y número de agujeros de DXF para cotizar se hace a mano.",
+  "solucion": "Complemento que sube DXF y devuelve métricas de corte directamente en celdas de Sheets.",
+  "precio_usd_mes": 35,
+  "canal_primeros_100": "Marketplace de Google Workspace y foros de corte láser y CNC.",
+  "competidores": [
+   "CotizaMaquila (concepto propio)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Los talleres automatizan cotizaciones.",
+  "ventaja_juan": "Dominio de CAD/CAM y DXF.",
+  "riesgo_principal": "Mercado reducido y necesidad de procesar archivos en servidor.",
+  "evidencia_url": "sin verificar",
+  "angulo": "11",
+  "tema": "métricas DXF",
+  "tema_norm": "PCB y Gerber",
+  "duplicado_de": null
+ },
+ {
+  "id": "G13-18",
+  "nombre": "Gcode Lint Action",
+  "cliente_que_paga": "Granjas de impresión 3D y makers que versionan G-code/configs",
+  "problema": "Un G-code o perfil malo daña la máquina o desperdicia horas de impresión.",
+  "solucion": "Action que valida G-code y perfiles de slicer (límites, temperaturas, colisiones básicas) en cada PR o subida.",
+  "precio_usd_mes": 19,
+  "canal_primeros_100": "Marketplace de GitHub, Printables y r/3Dprinting, foros de granjas de impresión",
+  "competidores": [
+   "OctoPrint plugins (gratis, parcial)",
+   "sin verificar"
+  ],
+  "por_que_ahora": "Granjas de impresión comerciales crecen y automatizan con Git.",
+  "ventaja_juan": "Experiencia en firmware 3D y G-code.",
+  "riesgo_principal": "Mercado pequeño y comunidad maker que espera gratis.",
+  "evidencia_url": "sin verificar",
+  "angulo": "13",
+  "tema": "lint de G-code",
+  "tema_norm": "validación y herramientas G-code",
+  "duplicado_de": null
+ }
+]

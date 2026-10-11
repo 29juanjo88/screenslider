@@ -1,0 +1,164 @@
+[
+ {
+  "id": "G15-01",
+  "rescatar": true,
+  "respuesta": "Concedo que Paperless Parts existe y que la precision de estimacion es el punto debil. Pero el comprador es el taller chico (1-15 personas) que no entra en el segmento de Paperless Parts (ventas con demo, sin verificar precios) y hoy cotiza a mano en Excel; el dolor es semanal y hay presupuesto (horas del dueño). Canal: no autopromocion en Reddit sino SEO 'CNC quoting software' (intencion de compra) y videos de talleres; el filtro F4 si se cumple con SEO. La confianza se resuelve con el flujo 'borrador para aprobar' y calibracion por maquina/material que el taller carga una vez.",
+  "ajuste_sugerido": "Reposicionar como 'borrador de cotizacion desde email' con tarifas/maquinas calibrables por el taller; empezar con piezas de torneado/fresado 3 ejes; cobrar 99-149 con trial; sin demos."
+ },
+ {
+  "id": "G09-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-01",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-11",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-10",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G23-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-07",
+  "rescatar": true,
+  "respuesta": "La saturacion es real, pero el objetor mismo admite que precio $100 y canal nombrado son razonables: pasa F4 y F5 (100 clientes x $100 = $10k). El comprador concreto es controller/PMO que hoy usa hojas de calculo, lo que confirma dolor y presupuesto. Competidores especificos sin verificar; la diferenciacion se logra con tarifa por rol y rollup por epica, no con time tracking generico.",
+  "ajuste_sugerido": "Verificar en Atlassian Marketplace los apps de 'cost/budget' antes de construir; enfocarse en rollup de costo por epica/iniciativa con tarifas por rol y export a CSV/finanzas."
+ },
+ {
+  "id": "G17-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G29-03",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G26-20",
+  "rescatar": true,
+  "respuesta": "Concedo el CAD Standards Checker de AutoCAD (existe, nativo). Pero cubre capas/estilos dentro de AutoCAD, no la entrega multi-formato (DXF/PDF) contra checklist del cliente ni cajetin/escala en PDF, y es de pago como parte de AutoCAD, no gratis. Ventaja directa de Juan en CAD/DXF. Competidores especificos sin verificar.",
+  "ajuste_sugerido": "Acotar a checklists configurables por cliente y revision de cajetin/escala sobre DXF/PDF fuera de AutoCAD; subir precio a 39-49 para equipos pequeños de ingenieria; validar demanda antes de construir."
+ },
+ {
+  "id": "G19-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-13",
+  "rescatar": true,
+  "respuesta": "Concedo que existen apps de garantia/RMA (sin verificar). Aun asi el nicho es especifico: marcas DTC de hardware (impresoras 3D, herramientas) con serial y validacion, donde Juan conoce las fallas reales; el canal 'warranty registration' en Shopify App Store es nombrado y con intencion de compra, y $39 exige ~260 clientes para $10k, razonable. El nicho pequeno limita el techo pero no invalida F1-F5.",
+  "ajuste_sugerido": "Ajustar a nicho hardware/maker con registro por serial, validacion de compra via pedidos y plantillas de diagnostico por tipo de falla; precio 39-59; marcar dependencia de Shopify."
+ },
+ {
+  "id": "G03-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G06-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-01",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G04-09",
+  "rescatar": true,
+  "respuesta": "El objetor reconoce comprador concreto, canal nombrado y precio $70 viable; solo queda el riesgo de funcion nativa de Atlassian, que es un riesgo de plataforma (permitido y marcado) y no un incumbente gratis hoy (sin verificar). El flujo de asignar dueños y pedir revision periodica es proceso, no solo deteccion, lo que las funciones nativas suelen no cubrir.",
+  "ajuste_sugerido": "Enfatizar flujo de revision con dueños y recordatorios, informes de gobernanza; marcar riesgo de plataforma Atlassian; verificar apps existentes de archivado antes de construir."
+ },
+ {
+  "id": "G05-08",
+  "rescatar": true,
+  "respuesta": "Concedo la limitacion CMYK de Figma, pero el dolor es real (el atacante lo reconoce) y la ventaja de Juan en DXF de troquel y fabricacion es genuina: exportar PDF/X con sangrado, marcas de corte y capas de troquel es util aunque el color final se valide en la imprenta. Canal nombrado: Figma Community con busquedas 'print/CMYK/bleed'.",
+  "ajuste_sugerido": "Subir precio a 29-39 apuntando a packaging/merch con troquel (DXF) como diferenciador; no prometer fidelidad de color, solo estructura de prensa; marcar dependencia de Figma."
+ },
+ {
+  "id": "G29-09",
+  "rescatar": true,
+  "respuesta": "Concedo que parsear proyectos propietarios exige mantenimiento por fabricante. Por eso el alcance debe empezar por un solo ecosistema (exportaciones de TIA Portal, p. ej. XML/AWL/Excel de tags) donde Juan tiene conocimiento directo. El dolor (dias escribiendo listas IO y documentacion de entrega) es concreto, el comprador son integradores, y la herramienta offline resuelve la restriccion de no subir codigo. Canal PLCTalk, r/PLC y busqueda 'generate IO list from TIA Portal'. Copia sin verificar alcance.",
+  "ajuste_sugerido": "Empezar solo con TIA Portal; subir precio a 49-79 por ahorrar dias de trabajo facturable; licencia anual por equipo; verificar herramientas existentes antes."
+ },
+ {
+  "id": "G05-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G22-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G01-17",
+  "rescatar": true,
+  "respuesta": "Concedo que existen apps de fecha de entrega (sin verificar) y que el modelado de capacidad varia por taller. La diferencia es estimar desde la cola de produccion real de tiendas hechas bajo pedido, donde las apps genericas solo suman dias fijos de envio; Juan conoce colas de maquinas. Canal 'estimated delivery' en Shopify App Store con intencion de compra.",
+  "ajuste_sugerido": "Limitar a un modelo simple de capacidad (piezas/dia + cola) con plantillas para impresion 3D bajo pedido, corte laser y maquinado; subir a 39-49; marcar dependencia de Shopify."
+ },
+ {
+  "id": "G05-13",
+  "rescatar": true,
+  "respuesta": "Concedo que Figma Analytics nativo cubre parte en planes Org/Enterprise (alcance sin verificar); precisamente por eso el producto apunta a equipos medianos con muchos archivos, donde el analisis de detaches y desviaciones entre archivos es lo que el comprador pide. Precio $99 hace viable ~100 clientes para $10k, y el canal es la comunidad Design Systems Slack y Figma Community. El riesgo de tokens corporativos es real, pero un plugin que corre con permisos del usuario lo mitiga.",
+  "ajuste_sugerido": "Verificar alcance de Figma Analytics antes; construir como plugin sin tokens externos y con datos exportables; marcar dependencia de Figma."
+ },
+ {
+  "id": "G25-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-03",
+  "rescatar": true,
+  "respuesta": "El propio atacante marca severidad moderada y concede urgencia regulatoria EAA y canal nombrado. Overlays como accessiBe/UserWay son criticados por no corregir el codigo (sin verificar alcance), y Lighthouse/axe no priorizan por tienda ni dan fix en Liquid. El comprador es el dueño de tienda con miedo a multas, con presupuesto, y la busqueda 'accessibility' en Shopify App Store da intencion de compra.",
+  "ajuste_sugerido": "Diferenciar como 'escaner + fixes concretos en Liquid/tema' y no overlay; priorizar por impacto EAA; precio 39-59; marcar dependencia de Shopify."
+ },
+ {
+  "id": "G22-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]

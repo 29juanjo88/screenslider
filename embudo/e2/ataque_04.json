@@ -1,0 +1,214 @@
+[
+ {
+  "id": "G18-04",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "A $15/mes exige unos 670 pagadores para $10k MRR; el vendedor de Etsy de corte laser es un hobbista de bajo margen que usa hoja de calculo y rara vez paga SaaS por costeo. Glowforge y otros software de laser pueden calcular tiempo (sin verificar). Canal de grupos de Facebook/foros es disperso y poco buscador de compra.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G21-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Pegar ladder/ST en ChatGPT o Claude ya da la explicacion gratis; no hay foso. Ademas ladder grafico no es texto pegable (requiere exportar AWL/ST/XML) y la fiabilidad de una explicacion en seguridad industrial es dudosa. Usuarios estudiantes no pagan $19/mes.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G07-19",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los asistentes IA integrados en IDE (Copilot, Cursor, Claude Code) ya explican repos y generan mapas; el comprador (lider tecnico) rara vez paga por una extension de VS Code de $20 por usuario cuando lo cubre la herramienta que ya tiene. Competidores del espacio (CodeSee estado sin verificar) sugieren mercado dificil.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G29-06",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Wave es gratis y hay muchas opciones de facturacion baratas; el precio es pago unico de $49 (no mensual), por lo que el MRR de $10k exige reponer miles de compradores nuevos cada mes: sin recurrencia el modelo no llega a la meta. El freelancer con facturas simples usa plantillas gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G12-06",
+  "filtros_fallados": [],
+  "objecion": "El comprador existe (agencias que pagan operaciones) y el dolor es monetario, pero el flujo de subir blueprints exportados es friccion, las plataformas (Make/Zapier) pueden cambiar precios o lanzar un asesor, y el ahorro por escenario puede ser pequeno frente a $39/mes. Competidores sin verificar; el volumen de agencias con facturas altas es acotado.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G08-09",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Postman ya valida colecciones contra OpenAPI y genera tests de forma nativa (parcial, sin verificar alcance exacto) y Newman/OSS cubren CI; ademas el cliente puede automatizarlo con un script. Depende fuertemente de Postman (cambios de API/precios) y el canal 'Public API Network' no es un canal de compra para herramientas de pago.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-14",
+  "filtros_fallados": [
+   "F1",
+   "F3"
+  ],
+  "objecion": "SolidWorks PDM, Dropbox y respaldos genericos (Egnyte, etc.) ya cubren versionado; un agente que corre en discos de ingenieria requiere confianza y TI local, es decir, venta B2B con ciclo largo. Un respaldo con perdida de datos es riesgo de responsabilidad. El jefe de ingenieria no busca 'SolidWorks backup' para comprar un agente nuevo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-18",
+  "filtros_fallados": [],
+  "objecion": "Atlassian Marketplace es un canal real con intencion de compra, pero Atlassian y apps existentes ya ofrecen vistas de usuarios inactivos y reportes de uso (sin verificar competidores); el ahorro es la unica propuesta, cada instancia pequena ahorra poco, y la dependencia de una plataforma es total.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G21-14",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Plantillas de Excel gratis abundan y el software de FMEA establecido (APIS IQ-FMEA sin verificar, y otros) ya vende a calidad automotriz. Las empresas IATF compran herramientas validadas por auditoria, con ciclo de compra interno; una app nueva de $29/mes sin trayectoria difícilmente es aceptada por el cliente que audita.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-09",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "Plugins gratuitos y de pago de PDF por producto en WooCommerce ya existen (sin verificar); la tienda B2B industrial en WooCommerce es un nicho pequeno y pocas pagan $25/mes recurrentes por una funcion que se configura una vez. Un PDF de atributos es copiable en una tarde.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G18-10",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Slicers gratis (PrusaSlicer, Cura, Bambu Studio) y herramientas de reparacion de mallas de Windows/Blender reparan non-manifold; el vendedor de STL en Etsy gana poco y paga poco ($12/mes -> ~830 pagadores para $10k). Disposicion de pago baja.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G17-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Los motores de facturacion (Metronome, Orb, Stripe) incluyen simuladores y plantillas en hojas de calculo bastan para un analisis puntual que se hace una vez antes del lanzamiento: uso episodico, no recurrente. Retencion a $49/mes sera corta.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G25-06",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Microsoft Forms/SharePoint y plataformas de HR y compliance (Vanta, Drata, etc., sin verificar) incluyen acuses de politicas; el comprador (RRHH/compliance) compara con lo que ya tiene licenciado. Directorio de Slack/Teams es canal pero con mucha competencia.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-07",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Herramientas de licencias (FOSSA, Snyk, GitHub dependency review, Socket) ya monitorizan licencias; la alerta de relicenciamiento es un nicho de caracteristica, no un producto. Ocurre pocas veces al ano por proyecto, por lo que el valor percibido es bajo para $49/mes.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G04-13",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Atlassian tiene funciones de seguridad propias y hay apps DLP/PII en Marketplace (sin verificar); empresas reguladas exigen revisiones de seguridad y evaluaciones de proveedor, que implican ciclo de compra largo y acceso a datos sensibles de tickets (riesgo de confianza para un proveedor nuevo).",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G10-12",
+  "filtros_fallados": [],
+  "objecion": "Canal nombrado y real (HubSpot App Marketplace), pero HubSpot ya ofrece vistas de workflows y relaciones entre propiedades de forma nativa en parte, y agencias pueden documentar manualmente. El tamano del mercado es acotado y la dependencia de una plataforma es total. Competidores sin verificar.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G14-03",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "LiteLLM y Helicone ofrecen presupuestos y limites gratis/open source, y los proveedores (OpenAI/Anthropic) tienen limites de gasto nativos. Un SDK es copiable con facilidad y la gente lo implementa con un contador de tokens en un dia.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G15-11",
+  "filtros_fallados": [
+   "F5"
+  ],
+  "objecion": "La cobertura por municipio es enorme y requiere datos locales cambiantes; el agente puede alucinar requisitos con consecuencias legales/economicas para el contratista, y el canal 'building permit checklist [city]' implica miles de paginas SEO. Disposicion de pago incierta; el contratista contrata gestores de permisos humanos.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G27-15",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "NVD y alertas de GitHub/Dependabot dan CVEs gratis; el mercado de granjas de impresion que paguen $39/mes por un feed filtrado es minusculo (menos de ~2,000 compradores plausibles, sin verificar). El Marlin/Klipper OSS son comunidad que espera gratis.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G12-15",
+  "filtros_fallados": [],
+  "objecion": "Competidores establecidos (Whalesync, Stacksync) ya cubren exactamente esto con canal SEO ocupado; ademas Airtable puede ampliar limites o lanzar sincronizacion nativa. Hay presion de precios, aunque el dolor es real y el comprador tecnico existe.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G15-16",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "Un agente a $149/mes que decide reclamos de garantia exige confianza y se vende a gerentes (ciclo de compra con integracion), no autoservicio; el canal de marketplace de Zendesk/Freshdesk para fabricantes pequenos es vago y el volumen de comprador es bajo. Responsabilidad si el agente niega o aprueba mal.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G09-18",
+  "filtros_fallados": [
+   "F1"
+  ],
+  "objecion": "Ejemplos gratis abundan en PLCTalk y YouTube, y ChatGPT genera snippets ladder; los formatos de importacion de TIA/Studio 5000 son propietarios y fragiles. Un programador PLC rara vez paga $19/mes por patrones basicos, y las empresas ya tienen libreria interna.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G28-07",
+  "filtros_fallados": [],
+  "objecion": "Dolor real y especifico donde Juan tiene ventaja, pero uso episodico (por proyecto de exportacion), el comprador (machine builder) podria usar DeepL/LLM con un glosario sin software dedicado, y la variedad de formatos de exportacion HMI (TIA, FactoryTalk, otros) eleva el costo de mantenimiento. Canal SEO de nicho de poco volumen.",
+  "severidad": "moderada"
+ },
+ {
+  "id": "G28-20",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "Una simulacion de llenado/enfriamiento 'lite' no es fiable sin fisica de reologia y datos de material; el riesgo de responsabilidad por prediccion errada es alto y ya existen Moldflow y SOLIDWORKS Plastics. El moldeador que invierte en moldes no confia en un estimado barato; construir un solver propio supera 6 semanas.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G24-12",
+  "filtros_fallados": [
+   "F1",
+   "F5"
+  ],
+  "objecion": "Manyfold (open source) y herramientas de gestion de bibliotecas (Thangs, sin verificar) cubren el caso gratis; $8/mes obliga a mas de 1,250 pagadores y el aficionado espera gratis o pago unico. Alta facilidad de copia.",
+  "severidad": "fatal"
+ },
+ {
+  "id": "G03-16",
+  "filtros_fallados": [
+   "F3",
+   "F4"
+  ],
+  "objecion": "El DLP para Slack lo venden Nightfall y Slack Enterprise Grid (sin verificar), con revisiones de seguridad y ciclo de compra largo a $199/mes; Slack exige permisos amplios de lectura de archivos, lo que genera desconfianza. No es autoservicio puro y la plataforma puede cerrarlo.",
+  "severidad": "fuerte"
+ },
+ {
+  "id": "G06-01",
+  "filtros_fallados": [],
+  "objecion": "Hay plugins de cotizacion instantanea de impresion 3D para WooCommerce (sin verificar) y servicios con motor de cotizacion propio; los precios exactos dependen de slicers y el cliente suele ajustar a mano. El nicho de print farms que usan WooCommerce es pequeno, pero el canal WordPress.org es nombrado y el dolor real.",
+  "severidad": "moderada"
+ }
+]

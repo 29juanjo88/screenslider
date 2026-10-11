@@ -1,0 +1,7 @@
+Rol: JUEZ NEUTRAL (Etapa 3, lote 16: 5 ideas). Responde en español.
+1) Lee /home/user/screenslider/embudo/brief.md completo, sobre todo la rúbrica, las bandas y las ANCLAS. Tus puntajes son ABSOLUTOS y comparables con otros lotes. Cuidado: no premies una idea solo por parecerse a un ancla; el ancla es una referencia de escala NO verificada.
+2) Lee /home/user/screenslider/embudo/e3/lote_16.json, /home/user/screenslider/embudo/e3/ataque_16.json y /home/user/screenslider/embudo/e3/defensa_16.json.
+3) Búsqueda web: carga WebSearch con ToolSearch query "select:WebSearch". MÁXIMO 5 búsquedas para el lote; úsalas para verificar los hechos en disputa que decidirían el puntaje (competidor gratis, precios, canal). "sin verificar" si no confirmas. NUNCA inventes.
+4) Decide por tu cuenta: el atacante no tiene veto, el defensor no da puntos. Evidencia con URL pesa más que "sin verificar". Ignora probabilidades o etiquetas que declaren los roles. Si falla un filtro F1–F5 de verdad → total 0.
+5) Escribe /home/user/screenslider/embudo/e3/juez_16.json: lista con las 5 ideas: {"id","filtro_fallado":null|"F1".."F5","puntajes":{"dolor","pago","canal","mercado","diferenciacion","ventaja_juan","mvp","riesgo"} (1–5),"total" (dolor*2+pago*2+canal*3+resto; calcula con Python),"hecho_decisivo","competidores_verificados":[{"nombre","precio","url"}],"razon"(2–3 frases),"busquedas_usadas":n}. Valida con python3.
+6) Respuesta final: solo "OK" y 1 línea.

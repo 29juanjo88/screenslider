@@ -1,0 +1,418 @@
+[
+ {
+  "id": "G15-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 38,
+  "razon": "Util si se acota a COTS, pero BOM nativa en CAD y cobertura de catalogos sin verificar limitan el valor."
+ },
+ {
+  "id": "G09-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Statuspage y Better Stack ofrecen planes gratis suficientes; $19 exige volumen alto."
+ },
+ {
+  "id": "G27-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 37,
+  "razon": "Canal claro en Shopify App Store pero Prisync y otras apps ya existen y scrapear /products.json arriesga rechazo."
+ },
+ {
+  "id": "G12-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 27,
+  "razon": "Huevo y gallina, licencias triviales de eludir y Gumroad cubre lo basico; mercado sin verificar."
+ },
+ {
+  "id": "G06-17",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Abundan plugins de envio por dimensiones con version gratuita en WordPress.org."
+ },
+ {
+  "id": "G22-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 24,
+  "razon": "Hosts ya dan reportes nativos y el cliente se conforma con hoja de calculo; sin ventaja del fundador."
+ },
+ {
+  "id": "G24-04",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $6/mes se requieren ~1,700 pagadores y hay herramientas gratis; evidencia irrelevante."
+ },
+ {
+  "id": "G09-16",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Perfiles de slicer gratuitos de fabricantes y comunidad; $9 inviable."
+ },
+ {
+  "id": "G09-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "SEO con intencion pero calculadoras gratis y uso puntual elevan churn."
+ },
+ {
+  "id": "G19-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "Hojas de OEE gratis cubren el uso puntual; diferenciador (historico) debil y sin evidencia."
+ },
+ {
+  "id": "G11-06",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Validacion de datos, formato condicional y alertas ya nativos en Sheets/Excel."
+ },
+ {
+  "id": "G04-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 4,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "Nicho sin competidor conocido con ventaja directa de Juan y precio alto, pero mercado diminuto y volumen de busqueda sin verificar."
+ },
+ {
+  "id": "G25-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "DefectDojo gratis y open source cubre importacion y SLA."
+ },
+ {
+  "id": "G28-19",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 36,
+  "razon": "Dolor recurrente en auditorias y SEO claro, pero riesgo de responsabilidad y plantillas gratis competidoras."
+ },
+ {
+  "id": "G25-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 33,
+  "razon": "Obico, OctoPrint y SimplyPrint con tiers gratis dejan poco angulo nuevo; ventaja tecnica real."
+ },
+ {
+  "id": "G24-03",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Chatbots multimodales y guias gratis diagnostican fallos; $8 requiere ~1,250 pagadores."
+ },
+ {
+  "id": "G23-02",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 1,
+   "ventaja_juan": 4,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Printago evidencia que el flujo ya existe; clon sin angulo."
+ },
+ {
+  "id": "G05-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 1,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 1,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 28,
+  "razon": "Ventaja industrial pero mercado diminuto en Figma y baja disposicion de pago."
+ },
+ {
+  "id": "G15-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "A2X y Link My Books dominan exactamente este nicho y el autor no tiene ventaja."
+ },
+ {
+  "id": "G27-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "Proveedores publican APIs de precios gratis y Vantage/Infracost cubren; pagadores inciertos."
+ },
+ {
+  "id": "G24-11",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $6/mes inviable y apps de lap timing existentes; mercado disperso."
+ },
+ {
+  "id": "G20-07",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Spoolman es gratis, open source e integra OctoPrint/Klipper."
+ },
+ {
+  "id": "G11-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 1,
+   "pago": 1,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 23,
+  "razon": "Caso de uso forzado; perfiles ya versionables con Git; baja disposicion de pago."
+ },
+ {
+  "id": "G06-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 37,
+  "razon": "Pagos fallidos duelen en dolares y WordPress.org es canal, pero ya existen plugins de dunning y Woo trae reintentos."
+ },
+ {
+  "id": "G17-14",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Recharge Analytics y Littledata ya cubren en el mismo App Store; doble dependencia de plataforma."
+ },
+ {
+  "id": "G13-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 39,
+  "razon": "Hueco de atribucion por equipo con canal Marketplace/SEO claro, pero GitHub puede volverlo nativo."
+ }
+]

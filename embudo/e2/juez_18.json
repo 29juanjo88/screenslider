@@ -1,0 +1,418 @@
+[
+ {
+  "id": "G03-01",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 34,
+  "razon": "Ventaja real en PLC/OPC UA, pero el canal (Slack App Directory) sin demanda verificada y plantas con OT aislada exigen agente local."
+ },
+ {
+  "id": "G19-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 4,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 37,
+  "razon": "Dolor real de BOM manual, pero el producto es la precision OCR y los LLM genericos con vision compiten; SEO sin verificar."
+ },
+ {
+  "id": "G27-10",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $8/mes consumidor exige >1,250 pagadores y TripIt/aerolineas cubren gran parte; ventaja nula."
+ },
+ {
+  "id": "G03-08",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 29,
+  "razon": "Workflow Builder nativo de Slack cubre un formulario de handover y la planta usa MES; canal vago."
+ },
+ {
+  "id": "G05-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Locofy y Anima ya compiten con mas recursos; canal Figma Community razonable pero sin angulo."
+ },
+ {
+  "id": "G17-08",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Keygen, LemonSqueezy y Gumroad ya incluyen licencias; el propio riesgo declarado es F1."
+ },
+ {
+  "id": "G23-20",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 31,
+  "razon": "Amazon valida imagenes nativamente y existen removedores de fondo; uso puntual con baja retencion."
+ },
+ {
+  "id": "G01-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 34,
+  "razon": "Canal nombrado en Shopify App Store pero diferenciacion debil admitida y nicho B2B acotado."
+ },
+ {
+  "id": "G17-05",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Quaderno/TaxJar/MoR cubren el problema; SEO informativo y riesgo de responsabilidad por datos fiscales."
+ },
+ {
+  "id": "G08-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 4
+  },
+  "total": 34,
+  "razon": "Ventaja de Juan maxima (CAM/firmware) y poca competencia visible, pero nicho pequeno y canal SEO de bajo volumen."
+ },
+ {
+  "id": "G10-17",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 4,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 39,
+  "razon": "Busqueda con intencion en HubSpot App Marketplace y a $69 requiere pocos clientes; solapa con propiedades calculadas nativas y depende de una plataforma."
+ },
+ {
+  "id": "G12-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 3,
+   "mvp": 5,
+   "riesgo": 2
+  },
+  "total": 30,
+  "razon": "Hookdeck existe y Zapier/Make ya tienen replay; disposicion de pago baja en no-code."
+ },
+ {
+  "id": "G23-10",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 1,
+   "mvp": 4,
+   "riesgo": 1
+  },
+  "total": 25,
+  "razon": "Amazon restringe responder resenas y la automatizacion; Jungle Scout/Helium 10 cubren lo posible."
+ },
+ {
+  "id": "G03-11",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Parabol y EasyRetro tienen planes gratuitos suficientes y el autor admite ventaja nula."
+ },
+ {
+  "id": "G01-04",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 2,
+   "mvp": 5,
+   "riesgo": 3
+  },
+  "total": 36,
+  "razon": "Subnicho no automotriz de fitment con busqueda en Shopify App Store, pero mercado pequeno y apps de fitment establecidas."
+ },
+ {
+  "id": "G22-09",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Calendly mas Notion/Airtable lo cubren gratis; riesgo F1 admitido."
+ },
+ {
+  "id": "G21-06",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 3,
+   "ventaja_juan": 4,
+   "mvp": 2,
+   "riesgo": 2
+  },
+  "total": 35,
+  "razon": "Ventaja en dibujo tecnico y checker poco cubierto, pero MVP fiable es dificil y la precision/responsabilidad es un riesgo."
+ },
+ {
+  "id": "G14-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 4,
+   "canal": 2,
+   "mercado": 3,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Helicone y plataformas de observabilidad ya etiquetan costo por cliente; Stripe Apps no es canal de busqueda."
+ },
+ {
+  "id": "G13-19",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "Healthchecks.io (plan gratuito) y Cronitor cubren heartbeat monitoring y GitHub avisa de fallos gratis."
+ },
+ {
+  "id": "G12-03",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 2,
+   "mercado": 2,
+   "diferenciacion": 3,
+   "ventaja_juan": 5,
+   "mvp": 4,
+   "riesgo": 3
+  },
+  "total": 31,
+  "razon": "Ventaja fuerte en Klipper/Marlin pero audiencia hobby reacia a pagar y plugins gratuitos de comunidad."
+ },
+ {
+  "id": "G21-09",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 4,
+   "diferenciacion": 1,
+   "ventaja_juan": 2,
+   "mvp": 3,
+   "riesgo": 3
+  },
+  "total": 30,
+  "razon": "Abundan calculadoras gratis de perdida de carga; SEO trae trafico de baja intencion de pago."
+ },
+ {
+  "id": "G18-15",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 2,
+   "pago": 3,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 4,
+   "mvp": 4,
+   "riesgo": 4
+  },
+  "total": 36,
+  "razon": "SEO 'tolerance stack up calculator' tiene demanda y Juan conoce GD&T, pero Excel y calculadoras gratis limitan la conversion."
+ },
+ {
+  "id": "G05-09",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $12 en una comunidad Figma-laser diminuta la meta exige ~830 pagadores irreales; LightBurn/Illustrator ya exportan gratis."
+ },
+ {
+  "id": "G16-16",
+  "filtro_fallado": null,
+  "puntajes": {
+   "dolor": 3,
+   "pago": 2,
+   "canal": 3,
+   "mercado": 3,
+   "diferenciacion": 2,
+   "ventaja_juan": 2,
+   "mvp": 4,
+   "riesgo": 2
+  },
+  "total": 32,
+  "razon": "Ola regulatoria GPSR con busqueda en Shopify App Store, pero campos nativos y urgencia decreciente."
+ },
+ {
+  "id": "G10-15",
+  "filtro_fallado": "F1",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "OctoPrint, Obico y Klipper/Moonraker son gratuitos y suficientes; riesgo F1 admitido."
+ },
+ {
+  "id": "G24-17",
+  "filtro_fallado": "F5",
+  "puntajes": {
+   "dolor": 0,
+   "pago": 0,
+   "canal": 0,
+   "mercado": 0,
+   "diferenciacion": 0,
+   "ventaja_juan": 0,
+   "mvp": 0,
+   "riesgo": 0
+  },
+  "total": 0,
+  "razon": "A $5/mes consumidor hobby exige >2,000 pagadores; Kaya y similares gratuitas, ventaja nula."
+ }
+]

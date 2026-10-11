@@ -1,0 +1,158 @@
+[
+ {
+  "id": "G05-12",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-02",
+  "rescatar": true,
+  "respuesta": "Concedo que los visores gratis cubren la vista previa. Lo cobrable es extraer dimensiones/BOM y previsualizar STEP dentro de Gmail/Drive sin salir del flujo, para el comprador de compras y el ingeniero que recibe adjuntos. Canal nombrado: Chrome Web Store 'step file viewer' y r/SolidWorks. Riesgo de DOM cambiante y plataforma unica admitido.",
+  "ajuste_sugerido": "Reducir alcance a Drive + enlaces/adjuntos en Gmail con extraccion de dimensiones y BOM como funciones de pago; vista previa gratis como gancho (freemium) y $12-19 a profesionales."
+ },
+ {
+  "id": "G19-13",
+  "rescatar": true,
+  "respuesta": "Concedo que el comprador ISO 17025 exige auditoria validada y que hay vendors establecidos (sin verificar). Pero el segmento de mantenimiento industrial y laboratorios pequenos hoy usa Excel; el canal SEO 'calibration management software' es nombrado y de alta intencion, y la ventaja de instrumentacion de Juan es real.",
+  "ajuste_sugerido": "Apuntar a mantenimiento/planta pequeña (no laboratorio acreditado) con recordatorios, certificados y exportes listos para auditoria; evitar prometer cumplimiento 17025 en v1; precio $49. Competidores sin verificar."
+ },
+ {
+  "id": "G15-08",
+  "rescatar": true,
+  "respuesta": "Sin filtro fallado segun el atacante. Comprador concreto (dueno de tienda Shopify de repuestos con muchos SKUs), canal nombrado (Shopify App Store 'product data import') y la revision humana puede ser parte del producto (cola de aprobacion) en vez de erosionar el valor. El CSV nativo no extrae atributos de PDFs. Concedo riesgo de plataforma unica y PDFs heterogeneos.",
+  "ajuste_sugerido": "Enfocar en nichos de PDFs semiestructurados (fijaciones, rodamientos, electrico) con flujo de revision y cobro por SKUs procesados; nicho de entrada fijo para medir calidad. Competidores sin verificar."
+ },
+ {
+  "id": "G24-18",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G02-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-09",
+  "rescatar": true,
+  "respuesta": "El filtro F4 no aplica: la busqueda 'duplicate/dedupe' en AppExchange es un canal nombrado con intencion de compra y los incumbentes (Cloudingo, DemandTools) son percibidos como caros/anticuados por admins pequenos (sin verificar). Concedo la revision de seguridad y reseñas iniciales como costo real.",
+  "ajuste_sugerido": "Posicionar como alternativa ligera para orgs pequenos y medianos (precio $29-79 por org), con deshacer de merges como diferenciador; planificar la revision de seguridad de AppExchange en el calendario del MVP."
+ },
+ {
+  "id": "G11-09",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G21-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G13-09",
+  "rescatar": true,
+  "respuesta": "Concedo que Healthchecks.io/Cronitor cubren heartbeat generico. El hueco es el publico OT/IIoT: SDK Modbus/OPC UA, deteccion de gateway muerto vs PLC muerto, y plantillas Node-RED; ahi la busqueda 'monitor modbus gateway uptime' y r/PLC, r/industrialautomation, directorios de Node-RED son canales nombrados. Los integradores (que gestionan muchos sitios de clientes) pagan por panel multi-cliente.",
+  "ajuste_sugerido": "Vender plan para integradores multi-sitio ($49-99) con vista por cliente y reportes de uptime marcables; salida solo (HTTPS saliente) para sortear la politica de redes OT. Volumen de nicho sin verificar."
+ },
+ {
+  "id": "G03-05",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G28-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G12-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G30-04",
+  "rescatar": true,
+  "respuesta": "Concedo MVP largo y desconfianza con datos CAD. Aun asi hay comprador concreto (equipo de 3-15 en SolidWorks sin PDM) y canal con intencion de compra (SEO 'SolidWorks PDM alternative', r/SolidWorks, foros). Ventaja de Juan es maxima (uso diario y conocimiento de add-ins). PDM Standard solo viene con ciertas licencias y Onshape exige migrar de CAD.",
+  "ajuste_sugerido": "Recortar MVP a bóveda con check-in/out de piezas y ensambles simples y control de estados, sin referencias complejas en v1; prueba gratis y almacenamiento en la nube del cliente para dar confianza. Precio $79 por equipo. Competidores sin verificar."
+ },
+ {
+  "id": "G19-17",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G09-13",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G14-19",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G07-15",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G25-02",
+  "rescatar": true,
+  "respuesta": "El filtro no aplica del todo: AssetCentre es un producto enterprise de Rockwell con licenciamiento y venta, fuera del alcance de una planta mediana que hoy usa copias manuales o Git. El comprador es concreto (ingeniero de planta/OT) y el canal PLCTalk/r/PLC/SEO 'PLC program version control' es nombrado. Concedo: la reticencia a subir proyectos a la nube y el costo de mantener L5X/TIA Openness son reales.",
+  "ajuste_sugerido": "Reposicionar como herramienta de diff de exports L5X/XML que corre localmente (CLI/desktop con licencia, sin subir el proyecto) y cobra por plan de equipo; MVP solo Rockwell L5X primero; precio $49-99 para evitar ciclo de compra largo. Competidores sin verificar."
+ },
+ {
+  "id": "G24-07",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G16-06",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G10-20",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G20-16",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ },
+ {
+  "id": "G08-02",
+  "rescatar": true,
+  "respuesta": "Concedo que Deepnest/SVGnest cubren nesting local y que la longitud de corte es calculable. Pero el valor es una API lista (DXF a longitud de corte, perforaciones, area) para quien construye cotizadores de corte laser/CNC y no quiere mantener parseo de DXF sucio. Canal nombrado: SEO 'dxf cut length calculator api' y directorios de APIs; se alinea con el ancla ALTA de APIs CAD.",
+  "ajuste_sugerido": "Bajar a $29-49 con plan por volumen; vender primero cut length/pierce/area/bbox (cubre 80% del cotizador) y dejar el nesting como estimado; evitar depender de RapidAPI, usar docs+SEO propios."
+ },
+ {
+  "id": "G26-08",
+  "rescatar": false,
+  "respuesta": "",
+  "ajuste_sugerido": ""
+ }
+]
